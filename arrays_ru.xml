@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_connected_have_notif_counter">
+        <item>По одному на иконку Mi Band 2</item>
+        <item>Периодические уведомления</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_counter_values">
+        <item>-2</item>
+        <item>-1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_interval">
+        <!--<item>Off</item>-->
+        <item>5 минут</item>
+        <item>10 минут</item>
+        <item>20 минут</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>3 часа</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_interval_values">
+        <!--<item>0</item>-->
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </string-array>
+
+    <string-array name="pref_abandoned_interval">
+        <item>1 минута</item>
+        <item>2 минуты</item>
+        <item>3 минуты</item>
+        <item>4 минуты</item>
+        <item>5 минут</item>
+        <item>6 минут</item>
+        <item>7 минут</item>
+        <item>8 минут</item>
+        <item>9 минут</item>
+        <item>10 минут</item>
+    </string-array>
+
+    <integer-array name="pref_abandoned_interval_values">
+        <item>60000</item>
+        <item>120000</item>
+        <item>180000</item>
+        <item>240000</item>
+        <item>300000</item>
+        <item>360000</item>
+        <item>420000</item>
+        <item>480000</item>
+        <item>540000</item>
+        <item>600000</item>
+    </integer-array>
+
+    <string-array name="pref_abandoned_notif_interval">
+        <item>10 минут</item>
+        <item>20 минут</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>3 часа</item>
+    </string-array>
+
+    <integer-array name="pref_abandoned_notif_interval_values">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </integer-array>
+
+    <string-array name="notification_group_counter">
+        <item>Одно уведомление</item>
+        <item>По одному на приложение</item>
+        <item>Количество уведомлений</item>
+    </string-array>
+
+    <string-array name="touch_call_mute_ringer_mode">
+        <item>Вибрация</item>
+        <item>Не беспокоить (только будильник)</item>
+    </string-array>
+
+    <string-array name="touch_music_player">
+        <item>Стандартный плеер</item>
+        <item>Google Play Music</item>
+    </string-array>
+
+    <string-array name="touch_music_player_values">
+        <item></item>
+        <item>com.google.android.music</item>
+    </string-array>
+</resources>
