@@ -102,4 +102,24 @@
         <item></item>
         <item>com.google.android.music</item>
     </string-array>
+
+    <string-array name="pref_pulse_interval">
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+    </string-array>
+
+    <integer-array name="pref_pulse_interval_values">
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>1200000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+    </integer-array>
 </resources>
