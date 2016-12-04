@@ -8,6 +8,7 @@
     <string name="drawer_nav_notification">Управление уведомлениями</string>
     <string name="drawer_nav_touch">Контроль касаний</string>
     <string name="drawer_nav_alarm">Долго отсоединён</string>
+    <string name="drawer_nav_pulse">Pulse monitoring</string>
     <string name="drawer_nav_disconnected_agent">Лог действий</string>
     <string name="drawer_nav_premium_mode">Премиум</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
@@ -25,6 +26,8 @@
     <string name="mi_band_hardware">Версия устройства</string>
     <string name="mi_band_state_connected_last_time">Время последнего соединения</string>
     <string name="mi_band_state_disconnected_last_time">Время последнего разрыва соединения</string>
+
+    <string name="mi_band_mac_address_invalid">MAC address is invalid</string>
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Настройки соединения и уведомлений</string>
@@ -142,6 +145,7 @@
     <string name="message_touch_record_error">К сожалению, эта функция недоступна</string>
     <string name="message_touch_pattern_error">Заданная последовательность похожа на последовательность другой функции, запишите другую</string>
     <string name="message_touch_free_patterns">Максимум 3 функции</string>
+    <string name="message_touch_music_player_not_found">Music player not found</string>
 
     <string name="message_internet_error">Нет подключения к Интернету</string>
 
@@ -156,6 +160,7 @@
     <string name="dialog_welcome_message"><![CDATA[Приложение пока поддерживает только Mi Band 2.
     <p>Mi Bandage тебуется приложение Mi Fit на устройстве. Сначала, подключите Mi Band 2 к Mi Fit, потом пользуйтесь Mi Bandage.</p>
     <p>Если вы используете несколько приложений для управления Mi Band 2, они могут мешать друг другу, поэтому временно отключите их.</p>
+    <p>If Mi Band 2 is not found, then you can set the MAC address manually in the details menu (MAC address is found: Mi Fit/Profil/Mi Band 2).</p>
     <p>При неполадках (обнаружение Mi Band 2, отсутствие уведомлений), попробуйте:
     <br>1. (Пере-)Установить Mi Bandage.
     <br>2. Перезагрузить устройство.
@@ -235,6 +240,23 @@
         <p>Mi Band 2 вибрирует дважды, когда не распознаёт ни одну комбинацию после самой длинной (если <i>Не распознанные нажатия</i> включены).</p>]]>
     </string>
 
+    <!-- Pulse  monitoring -->
+    <string name="pulse_tab_settings">Setting</string>
+    <string name="pulse_tab_day">Daily charts</string>
+
+    <string name="pulse_interval_title">Repeat interval of pulse monitoring</string>
+    <string name="pulse_time_start">Start time</string>
+    <string name="pulse_time_end">End time</string>
+    <string name="pulse_time_set_next">Timing of next monitoring</string>
+    <string name="pulse_value_min">Valid lower value</string>
+    <string name="pulse_value_max">Valid higher value</string>
+    <string name="pulse_value_invalid">Invalid value</string>
+
+    <string name="info_dialog_pulse"><![CDATA[Bluetooth connection is required for monitoring the pulse.
+        <p>Manually launched measurements (Mi Band2, Mi Fit app) are logged when pulse monitoring is started.<p/>
+        <p>Pulse monitor is repeated once if the resulting value is invalid.<p>]]>
+    </string>
+
     <!-- Lost  monitoring -->
     <string name="alarm_mi_band_title">Уведомление Mi Band 2</string>
     <string name="alarm_mi_band_dnd">Режим \"Не беспокоить\"</string>
@@ -274,7 +296,8 @@
         <p>- нет рекламы
         <br>- неограниченное количество групп уведомлений
         <br>- неограниченный контроль касаний</p>
-        <br>- период повтора может быть установлен свободно в Долго отсоединён</p>
+        <br>- repeat interval can be set freely in pulse monitoring function
+        <br>- repeat interval can be set freely and dnd mode can be used in lost monitoring function</p>
         <b>Правила и условия премиума:</b>
         <p>- Вы протестировали приложение, оно работает правильно.
         <br>- Вы предупреждены, что не можете требовать возмещения средств из-за багов, ошибок приложения, вызванных изменениями в приложении, вашими устройствами или другими приложениями.
@@ -285,7 +308,6 @@
 
     <string name="purchase_agree">Я согласен с правилами и условиями.</string>
     <string name="purchase_button_purchase">Приобрести</string>
-
 
     <!-- Others -->
     <string name="dismiss">Отклонить</string>
