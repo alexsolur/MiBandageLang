@@ -215,6 +215,8 @@
     <string name="touch_call_mute_title">Call mute toggle</string>
     <string name="touch_call_mute_ringtone_title_no">None</string>
 
+    <string name="touch_device_location_not_muted_only_title">Sound only if not muted</string>
+
     <string name="touch_repeat_notif_title">Repeat notifications</string>
 
     <string name="touch_music_play_pause_title">Music start, play, pause</string>
@@ -237,14 +239,22 @@
         <p>Green icons on the cards indicates which another function can be similar to current pattern.</p>
         <p>When you have an incoming call the device does not recognise the following functions in order to ease touch input: location of the device, repeat notifications, music control.</p>
         <p>In test mode does not execute the function of recognized pattern.</p>
+        <p>Mi Band 2 vibration feedback just only, if there is a pattern taking into account the current status of the device (call answering, rejecting only if there is an incoming call…).</p>
         <p>Mi Band 2 vibrates once, when recognize a pattern.</p>
-        <p>Mi Band 2 vibrates twice, when not recognize any pattern after the longest pattern (if <i>Not recognisable touch pattern signal</i> is set).</p>]]>
-    </string>
+        <p>Mi Band 2 vibrates twice, when not recognize any pattern after the longest pattern (if <i>Not recognisable touch pattern signal</i> is set).</p>
+    ]]></string>
 
     <!-- Pulse  monitoring -->
     <string name="pulse_tab_settings">Setting</string>
     <string name="pulse_tab_day">Daily charts</string>
 
+    <string name="pulse_title_signals">Signals</string>
+    <string name="pulse_signal_start_title">Monitoring starting signal</string>
+    <string name="pulse_signal_show_title">Show pulse</string>
+    <string name="pulse_signal_end_title">High pulse signal</string>
+    <string name="pulse_signal_end_value_title">BPM</string>
+
+    <string name="pulse_title_timing_validity">Timing and validity</string>
     <string name="pulse_interval_title">Repeat interval of pulse monitoring</string>
     <string name="pulse_time_start">Start time</string>
     <string name="pulse_time_end">End time</string>
@@ -254,8 +264,8 @@
     <string name="pulse_value_invalid">Invalid value</string>
 
     <string name="info_dialog_pulse"><![CDATA[Bluetooth connection is required for monitoring the pulse.
-        <p>Manually launched measurements (Mi Band2, Mi Fit app) are logged when pulse monitoring is started.<p/>
-        <p>Pulse monitor is repeated once if the resulting value is invalid.<p>]]>
+        <p>Manually launched measurements (Mi Band2, Mi Fit app) are logged too when pulse monitoring is started.<p/>
+        <p>Pulse monitor is repeated serveral times if the resulting value is invalid.<p>]]>
     </string>
 
     <!-- Lost  monitoring -->
@@ -297,7 +307,7 @@
         <p>- ad-free
         <br>- unlimited notification monitoring
         <br>- unlimited touch monitoring
-        <br>- repeat interval can be set freely in pulse monitoring function
+        <br>- repeat interval can be set freely and show pulse can be used in pulse monitoring function
         <br>- repeat interval can be set freely and dnd mode can be used in lost monitoring function</p>
         <b>Terms and conditions of Premium mode:</b>
         <p>- I have tested the app and it is working properly.

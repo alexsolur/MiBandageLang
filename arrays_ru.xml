@@ -122,4 +122,32 @@
         <item>1800000</item>
         <item>3600000</item>
     </integer-array>
+
+    <string-array name="pulse_signal_start">
+        <item>None</item>
+        <item>1 vibration</item>
+        <item>2 vibrations</item>
+        <item>3 vibrations</item>
+    </string-array>
+
+    <string-array name="pulse_signal_start_values">
+        <item>NONE</item>
+        <item>SOFT_1</item>
+        <item>SOFT_2</item>
+        <item>SOFT_3</item>
+    </string-array>
+
+    <string-array name="pulse_signal_end">
+        <item>None</item>
+        <item>1 vibration</item>
+        <item>2 vibrations</item>
+        <item>3 vibrations</item>
+    </string-array>
+
+    <string-array name="pulse_signal_end_values">
+        <item>NONE</item>
+        <item>HARD_1</item>
+        <item>HARD_2</item>
+        <item>HARD_3</item>
+    </string-array>
 </resources>

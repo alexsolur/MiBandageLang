@@ -215,6 +215,8 @@
     <string name="touch_call_mute_title">Переключение звука звонка</string>
     <string name="touch_call_mute_ringtone_title_no">Нет</string>
 
+    <string name="touch_device_location_not_muted_only_title">Sound only if not muted</string>
+
     <string name="touch_repeat_notif_title">Повторить уведомления</string>
 
     <string name="touch_music_play_pause_title">Воспроизведение - пауза</string>
@@ -244,6 +246,13 @@
     <string name="pulse_tab_settings">Настройки</string>
     <string name="pulse_tab_day">Измерения за день</string>
 
+    <string name="pulse_title_signals">Signals</string>
+    <string name="pulse_signal_start_title">Monitoring starting signal</string>
+    <string name="pulse_signal_show_title">Show pulse</string>
+    <string name="pulse_signal_end_title">High pulse signal</string>
+    <string name="pulse_signal_end_value_title">BPM</string>
+
+    <string name="pulse_title_timing_validity">Timing and validity</string>
     <string name="pulse_interval_title">Промежуток повтора измерений</string>
     <string name="pulse_time_start">Время начала</string>
     <string name="pulse_time_end">Время окончания</string>
@@ -254,7 +263,7 @@
 
     <string name="info_dialog_pulse"><![CDATA[Для измерения пульса необходимо Bluetooth-соединение.
         <p>Измерения, сделанные вручную (Mi Band2, Mi Fit) записываются, когда измерение начинается.<p/>
-        <p>Измерение будет повторено, если оно окажется неверным.<p>]]>
+        <p>Pulse monitor is repeated serveral times if the resulting value is invalid.<p>]]>
     </string>
 
     <!-- Lost  monitoring -->
@@ -295,8 +304,8 @@
     <string name="purchase_policy"><![CDATA[<b>Преимущества премиума:</b>
         <p>- нет рекламы
         <br>- неограниченное количество групп уведомлений
-        <br>- неограниченный контроль касаний</p>
-        <br>- промежуток измерений пульса может быть установлен свободно
+        <br>- неограниченный контроль касаний
+        <br>- repeat interval can be set freely and show pulse can be used in pulse monitoring function
         <br>- промежуток повтора может быть установлен свободно, режим Не беспокоить может быть активирован в <i>Долго отсоединён</i></p>
         <b>Правила и условия премиума:</b>
         <p>- Вы протестировали приложение, оно работает правильно.
