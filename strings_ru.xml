@@ -160,7 +160,7 @@
     <string name="dialog_welcome_message"><![CDATA[Приложение пока поддерживает только Mi Band 2.
     <p>Mi Bandage тебуется приложение Mi Fit на устройстве. Сначала, подключите Mi Band 2 к Mi Fit, потом пользуйтесь Mi Bandage.</p>
     <p>Если вы используете несколько приложений для управления Mi Band 2, они могут мешать друг другу, поэтому временно отключите их.</p>
-    <p>Если Mi Band 2 не обнаружен, вы можете установить MAC вручную в настройках (MAC можно найти в: Mi Fit/Profil/Mi Band 2).</p>
+    <p>Если Mi Band 2 не обнаружен, вы можете установить MAC вручную в настройках (MAC можно найти в: Mi Fit/Профиль/Mi Band 2).</p>
     <p>При неполадках (обнаружение Mi Band 2, отсутствие уведомлений), попробуйте:
     <br>1. (Пере-)Установить Mi Bandage.
     <br>2. Перезагрузить устройство.
@@ -215,7 +215,7 @@
     <string name="touch_call_mute_title">Переключение звука звонка</string>
     <string name="touch_call_mute_ringtone_title_no">Нет</string>
 
-    <string name="touch_device_location_not_muted_only_title">Sound only if not muted</string>
+    <string name="touch_device_location_not_muted_only_title">Подчиняться беззвучному режиму</string>
 
     <string name="touch_repeat_notif_title">Повторить уведомления</string>
 
@@ -246,13 +246,13 @@
     <string name="pulse_tab_settings">Настройки</string>
     <string name="pulse_tab_day">Измерения за день</string>
 
-    <string name="pulse_title_signals">Signals</string>
-    <string name="pulse_signal_start_title">Monitoring starting signal</string>
-    <string name="pulse_signal_show_title">Show pulse</string>
-    <string name="pulse_signal_end_title">High pulse signal</string>
-    <string name="pulse_signal_end_value_title">BPM</string>
+    <string name="pulse_title_signals">Сигналы</string>
+    <string name="pulse_signal_start_title">Сигнал начала измерений</string>
+    <string name="pulse_signal_show_title">Показывать пульс</string>
+    <string name="pulse_signal_end_title">Сигнал высокого пульса</string>
+    <string name="pulse_signal_end_value_title">у/м</string>
 
-    <string name="pulse_title_timing_validity">Timing and validity</string>
+    <string name="pulse_title_timing_validity">Время и приемлемость</string>
     <string name="pulse_interval_title">Промежуток повтора измерений</string>
     <string name="pulse_time_start">Время начала</string>
     <string name="pulse_time_end">Время окончания</string>
@@ -263,7 +263,7 @@
 
     <string name="info_dialog_pulse"><![CDATA[Для измерения пульса необходимо Bluetooth-соединение.
         <p>Измерения, сделанные вручную (Mi Band2, Mi Fit) записываются, когда измерение начинается.<p/>
-        <p>Pulse monitor is repeated serveral times if the resulting value is invalid.<p>]]>
+        <p>Измерение будет повторено, если оно окажется неверным.<p>]]>
     </string>
 
     <!-- Lost  monitoring -->
@@ -303,10 +303,10 @@
     <!-- Ad-free -->
     <string name="purchase_policy"><![CDATA[<b>Преимущества премиума:</b>
         <p>- нет рекламы
-        <br>- неограниченное количество групп уведомлений
-        <br>- неограниченный контроль касаний
-        <br>- repeat interval can be set freely and show pulse can be used in pulse monitoring function
-        <br>- промежуток повтора может быть установлен свободно, режим Не беспокоить может быть активирован в <i>Долго отсоединён</i></p>
+        <br>- нет ограничения на количество групп уведомлений
+        <br>- нет ограничения на контроль касаний
+        <br>- <i>Измерение пульса</i>: установка промежутка измерений по желанию, настройка показа пульса 
+        <br>- <i>Долго отсоединён</i>: установка промежутка уведомлений по желанию,  активация режима \'Не беспокоить\'</p>
         <b>Правила и условия премиума:</b>
         <p>- Вы протестировали приложение, оно работает правильно.
         <br>- Вы предупреждены, что не можете требовать возмещения средств из-за багов, ошибок приложения, вызванных изменениями в приложении, вашими устройствами или другими приложениями.
