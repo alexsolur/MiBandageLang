@@ -88,21 +88,17 @@
     <string name="pref_disconnected_agent_screen_on_and_motion_summary_on">Включено</string>
     <string name="pref_disconnected_agent_screen_on_and_motion_title">Контроль активации экрана и перемещений</string>
 
-    <string name="pref_abandoned">Сигнал забытого устройства</string>
-    <string name="pref_abandoned_summary">Сигнал забытого устройства (требуется включить для отображения уведомлений на экране блокировки)</string>
+    <!--<string name="pref_abandoned">Сигнал забытого устройства</string>-->
+    <!--<string name="pref_abandoned_summary">Сигнал забытого устройства (требуется включить для отображения уведомлений на экране блокировки)</string>-->
     <string name="pref_cat_abandoned">Сигнал на устройстве</string>
     <string name="pref_abandoned_notif_interval_title">Интервал повторения сигнала</string>
     <string name="pref_abandoned_notif_text_summary">Уведомление на экране устройства</string>
-    <string name="pref_abandoned_notif_text_title">Уведомление</string>
+    <!--<string name="pref_abandoned_notif_text_title">Уведомление</string>-->
     <string name="pref_abandoned_notif_text_text">Устройство утеряно, пожалуйста, позвоните по номеру:</string>
     <string name="pref_abandoned_ringtone_title">Рингтон</string>
     <string name="pref_abandoned_ringtone_summary_no">Нет</string>
     <string name="pref_abandoned_vibration_title">Вибрация</string>
-    <string name="pref_abandoned_vibration_summary_on">Включено</string>
-    <string name="pref_abandoned_vibration_summary_off">Отключено</string>
     <string name="pref_abandoned_wakelock_title">Активировать экран усройства</string>
-    <string name="pref_abandoned_wakelock_summary_on">Включено</string>
-    <string name="pref_abandoned_wakelock_summary_off">Отключено</string>
     <string name="pref_abandoned_notif_title">стройство утеряно</string>
 
     <string name="pref_touch">Настройки контроля касаний</string>
@@ -111,10 +107,7 @@
     <string name="pref_touch_recognised_failed_title">Не распознанные нажатия</string>
     <string name="pref_touch_recognised_failed_summary_off">Отключено</string>
     <string name="pref_touch_recognised_failed_summary_on">Включено (2 вибрации после длиннейшей комбинации)</string>
-    <string name="pref_cat_touch_music">Настройки воспроизведения</string>
-    <!--<string name="pref_touch_music_headset_only_title">Контроль касаний</string>-->
-    <!--<string name="pref_touch_music_headset_only_summary_off">Всегда</string>-->
-    <!--<string name="pref_touch_music_headset_only_summary_on">Только при подключённой гарнитуре</string>-->
+    <!--<string name="pref_cat_touch_music">Настройки воспроизведения</string>-->
 
     <!-- Quick switch -->
     <string name="details">Больше</string>
@@ -146,6 +139,8 @@
     <string name="message_touch_pattern_error">Заданная последовательность похожа на последовательность другой функции, запишите другую</string>
     <string name="message_touch_free_patterns">Максимум 3 функции</string>
     <string name="message_touch_music_player_not_found">Плеер не найден</string>
+    <string name="message_touch_app_launcher1_not_set">App is not set</string>
+    <string name="message_touch_app_launcher1_not_found">App is not found: %1$s</string>
 
     <string name="message_internet_error">Нет подключения к Интернету</string>
 
@@ -223,6 +218,9 @@
     <string name="touch_music_skip_next_title">Следующий трек</string>
     <string name="touch_music_headset_only_title">Только при подключённой гарнитуре</string>
 
+    <string name="touch_app_launcher1_title">App launcher</string>
+    <string name="touch_app_launcher_package_no_title">Выберете приложение</string>
+
     <string name="touch_testing_title">Контроль касаний</string>
 
     <string name="touch_tab_settings">Настройка</string>
@@ -243,6 +241,9 @@
     </string>
 
     <!-- Pulse  monitoring -->
+    <string name="action_pulse">Показывать пульс</string>
+    <string name="pulse_current">Current pulse</string>
+
     <string name="pulse_tab_settings">Настройки</string>
     <string name="pulse_tab_day">Измерения за день</string>
 
@@ -305,7 +306,7 @@
         <p>- нет рекламы
         <br>- нет ограничения на количество групп уведомлений
         <br>- нет ограничения на контроль касаний
-        <br>- <i>Измерение пульса</i>: установка промежутка измерений по желанию, настройка показа пульса 
+        <br>- <i>Измерение пульса</i>: установка промежутка измерений по желанию, настройка показа пульса
         <br>- <i>Долго отсоединён</i>: установка промежутка уведомлений по желанию,  активация режима \'Не беспокоить\'</p>
         <b>Правила и условия премиума:</b>
         <p>- Вы протестировали приложение, оно работает правильно.
