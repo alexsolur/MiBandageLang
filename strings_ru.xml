@@ -61,6 +61,9 @@
     <string name="pref_connected_have_notif_ongoing_title">Постоянные уведомления</string>
     <string name="pref_connected_have_notif_ongoing_summary_off">Отключено</string>
     <string name="pref_connected_have_notif_ongoing_summary_on">Включено</string>
+    <string name="pref_connected_have_notif_default_app_title">Not recognised app signal</string>
+    <string name="pref_connected_have_notif_default_app_summary_off">Off</string>
+    <string name="pref_connected_have_notif_default_app_summary_on">\'App\' icon</string>
 
     <string name="pref_disconnected">Лог действий и сигналы отсоединения</string>
     <string name="pref_disconnected_summary">Настройки сигнала рассоединения Mi Band 2 и устройства</string>
@@ -100,6 +103,37 @@
     <string name="pref_abandoned_vibration_title">Вибрация</string>
     <string name="pref_abandoned_wakelock_title">Активировать экран усройства</string>
     <string name="pref_abandoned_notif_title">стройство утеряно</string>
+
+
+    <string name="pref_call">Call settings</string>
+    <string name="pref_call_summary">Mi Band 2 signal settings</string>
+    <string name="pref_cat_call">Incoming call</string>
+    <string name="pref_call_title">Incoming call signal</string>
+    <string name="pref_call_summary_off">Off</string>
+    <string name="pref_call_summary_on">On (do not forget to turn off incoming call alerts on Mi Fit app)</string>
+    <string name="pref_call_text_title">Caller display</string>
+    <string name="pref_call_text_summary_on"><![CDATA[On (more information: <i>Settings/Text icons settings)</i>]]></string>
+    <string name="pref_call_text_summary_off">Ki</string>
+
+    <string name="pref_text_conversion">Text icons settings</string>
+    <string name="pref_cat_text_conversion">Mi Band 2 signa</string>
+    <string name="pref_text_conversion_title">Characters conversion</string>
+    <string name="pref_text_conversion_summary_on">Not recognisable characters conversion</string>
+    <string name="pref_text_conversion_summary_off">Off</string>
+
+    <string name="pref_text_conversion_description_title">Description</string>
+    <string name="pref_text_conversion_description_summary"><![CDATA[
+        <p>If your Mi Band 2 shows the incoming caller name currently, then you do not need to do the following steps just turn off <i>Incoming call alerts</i> on Mi Fit.</p>
+        <p>If you do not use <i>Incoming call alerts</> and the phone language is not English:
+        <br/>1. Set your phone language to English.
+        <br/>2. Open Mi Fit app, wait until the font firmware update done. If firmware update doesn\'t start, try reboot your phone.
+        <br/>3. Open the <i>Play/Incomimg call</i> menu.
+        <br/>4. Turn on: <i>Turn on incoming call alerts</i>.
+        <br/>5. Turn on: <i>Show contact information</i>.
+        <br/>6. Check if you can Mi Band 2 shows caller name by calling your phone.
+        <br/>7. Turn off : <i>Turn on incoming call alerts</i> (<i>Show contact information</i> stays on).
+        <br/>8. Set phone language back to your language.</p>]]>
+    </string>
 
     <string name="pref_touch">Настройки контроля касаний</string>
     <string name="pref_touch_summary"></string>
@@ -179,18 +213,33 @@
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Предустановленные иконки уведомлений Mi Band 2 и приложений:
-        <br>- пропущенный звонок
-        <br>- SMS
-        <br>- Email, Gmail
-        <br>- Viber, WhatsApp, Skype, WeChat
-        <br>- Facebook
-        <br>- Twitter
-        <br>- Snapchat
-        <br>- Instagram
-        <br>- Immomo
-        <br>- Weibo
-        <br>- QQ
-        <br>- другие: стандартная иконка \'app\'
+        <br><img src="ALERT_WHATSAPP">  пропущенный звонок
+        <br><img src="ALERT_MESSAGE">  SMS
+        <br><img src="ALERT_EMAIL">  Email, Gmail
+        <br><img src="ALERT_CALENDAR">  Google Calendar
+        <br><img src="ALERT_HANGOUTS">  Hangouts
+        <br><img src="ALERT_MESSENGER">  Messenger
+        <br><img src="ALERT_SKYPE">  Skype
+        <br><img src="ALERT_VIBER">  Viber
+        <br><img src="ALERT_WHATSAPP">  WhatsApp
+        <br><img src="ALERT_LINE">  Line
+        <br><img src="ALERT_WECHAT">  WeChat
+        <br><img src="ALERT_TELEGRAM">  Telegram
+        <br><img src="ALERT_KAKAOTALK">  KakaoTalk
+        <br><img src="ALERT_VK">  VK
+        <br><img src="ALERT_FACEBOOK">  Facebook
+        <br><img src="ALERT_TWITTER">  Twitter
+        <br><img src="ALERT_SNAPCHAT">  Snapchat
+        <br><img src="ALERT_INSTAGRAM">  Instagram
+        <br><img src="ALERT_POKEMONGO">  Pokémon GO
+        <br><img src="ALERT_MOMO">  Momo
+        <br><img src="ALERT_QIANNIU">  Qianniu
+        <br><img src="ALERT_QQ">  QQ
+        <br><img src="ALERT_WEIBO">  Weibo
+        <br><img src="ALERT_ALIPAY">  AliPay
+        <br><img src="ALERT_QZONE">  QZone
+        <br><img src="ALERT_DINGTALK">  DingTalk
+        <br><img src="ALERT_APP"> другие
 
         <p>Предустановленные уведомления могут быть отключены: <i>Настройки соединения и уведомлений/Есть уведомления</i>.</p>
         <p>Группы уведомлений, созданные вами, имеют повышенный приоритет.</p>
@@ -265,7 +314,7 @@
     <string name="pulse_value_max">Максимальное верное значение</string>
     <string name="pulse_value_invalid">Неверное значение</string>
 
-    <string name="pulse_details">Pulse details</string>
+    <string name="pulse_details">Список измерений</string>
 
     <string name="info_dialog_pulse"><![CDATA[Для измерения пульса необходимо Bluetooth-соединение.
         <p>Измерения, сделанные вручную (Mi Band2, Mi Fit) записываются, когда измерение начинается.<p/>
