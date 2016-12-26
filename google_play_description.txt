@@ -1,0 +1,65 @@
+The app currently supports only Xiaomi Mi Band 2.
+
+Mi Bandage requires the installation of the official Mi Fit app on the same device. At first you have to pair Xiaomi Mi Band 2 in Mi Fit app, then you can use Mi Bandage.
+
+Features:
+- Mi Band 2 pair (if you had a problem with Mi fit screen unlock feature)
+- show battery state
+- show last connection time
+- show last disconnection time
+- <b>Incoming call signal with caller display and automatic character conversion</b>
+- <b>Mi Band 2 connection features:</b>
+&rarr; not have notification
+&#8195;&#8226;&#8195; Mi Band 2 vibrates
+&#8195;&#8226;&#8195; device screen wake up
+&rarr; have notification
+&#8195;&#8226;&#8195; Mi Band 2 vibrates and displays icon 1,2,3 times, icon based on the number of notifications, once per Mi Band 2 icon
+&#8195;&#8226;&#8195; immediate signal when notification is received
+&#8195;&#8226;&#8195; when connecting to device
+&#8195;&#8226;&#8195; reminder signal and repeat interval
+&#8195;&#8226;&#8195; signal only when screen is off
+&#8195;&#8226;&#8195; ongoing notifications are enabled or disabled
+&#8195;&#8226;&#8195; device screen wake up
+- <b>Mi Band 2 disconnection features:</b>
+&#8195;&#8226;&#8195; playing ringtone on device, vibration, screen wake up
+&#8195;&#8226;&#8195; device monitoring agent: if someone tampered with the device while you are away, you will know (wake up the screen, power on, motion): notification on the device and eye icon on the Mi Band 2
+- <b>notification monitoring:</b>
+&#8195;&#8226;&#8195; unique signal configuration for apps notification
+&#8195;&#8226;&#8195; displays the app's notification texts on Mi Band 2
+- <b>touch monitoring:</b>
+&#8195;&#8226;&#8195; use Mi Band 2 touch button to call answering, speakerphone (turn off the launch music app when headset is connected setting, otherwise the music starts)
+&#8195;&#8226;&#8195; use Mi Band 2 touch button to call rejecting, ending
+&#8195;&#8226;&#8195; use Mi Band 2 touch button to toggle call mute
+&#8195;&#8226;&#8195; use Mi Band 2 touch button to get location of the device
+&#8195;&#8226;&#8195; use Mi Band 2 touch button to repeat notifications
+&#8195;&#8226;&#8195; use Mi Band 2 touch button to control music player
+- <b>pulse monitoring:</b>
+&#8195;&#8226;&#8195; you can set: monitoring starting signal, show pulse, high pulse signal, start time, end time, repeat interval, valid lower value, valid higher value
+&#8195;&#8226;&#8195; showing current pulse
+&#8195;&#8226;&#8195; daily chart: displays the measured values
+- <b>lost monitoring:</b>
+&#8195;&#8226;&#8195; Mi Band 2 signal: when specified period of time expires Mi Band 2 will alert you
+&#8195;&#8226;&#8195; device signals: when specified period of time expires, device send signals repeatedly if not connected to the bracelet. This makes it easier to find the device. If someone else finds the device and it is locked he does not know who to notify, so you can display a message.
+- <b>agent log:</b> 
+&#8195;&#8226;&#8195; view events detected by the device monitoring agent
+
+<b><u>Touch recording process:</u></b>
+1. The touch is valid when the display of Mi Band 2 changes (so it is advisable to rotate your wrist before touching).
+2. Press the record button on device, and click the pattern with touch button on Mi Band 2 (for example click, wait 2 sec, click)
+3. Press the play button on the device to check the pattern
+4. Rotate your wrist and press the pattern with touch button (click, wait 2 sec, click)
+
+<b><u>If you have problem (discover Mi Band 2, not have notification signal), please try it:</u></b>
+
+1. If you installed the Greenify (or other hibernating app) turn it off.
+2. Install Mi Bandage.
+3. Restart phone.
+4. Turn off, on Bluetooth.
+5. Open Mi Fit app, wait until the synchronization done, close it.
+6. Open Mi Bandage app, click green discover button.
+
+
+Languages:
+Hungarian
+English
+Russian (translated by Александр Солоцкий)
