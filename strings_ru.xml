@@ -96,14 +96,12 @@
     <string name="pref_cat_abandoned">Сигнал на устройстве</string>
     <string name="pref_abandoned_notif_interval_title">Интервал повторения сигнала</string>
     <string name="pref_abandoned_notif_text_summary">Уведомление на экране устройства</string>
-    <!--<string name="pref_abandoned_notif_text_title">Уведомление</string>-->
     <string name="pref_abandoned_notif_text_text">Устройство утеряно, пожалуйста, позвоните по номеру:</string>
     <string name="pref_abandoned_ringtone_title">Рингтон</string>
     <string name="pref_abandoned_ringtone_summary_no">Нет</string>
     <string name="pref_abandoned_vibration_title">Вибрация</string>
     <string name="pref_abandoned_wakelock_title">Активировать экран усройства</string>
     <string name="pref_abandoned_notif_title">стройство утеряно</string>
-
 
     <string name="pref_call">Настройки звонков</string>
     <string name="pref_call_summary">Настройки уведомлений Mi Band 2</string>
@@ -113,9 +111,21 @@
     <string name="pref_call_summary_on">Включено (не забудьте отключить эти уведомления в Mi Fit)</string>
     <string name="pref_call_text_title">Показывать звонящего</string>
     <string name="pref_call_text_summary_on"><![CDATA[Включено (подробнее: <i>Настройки/Настройки текста)</i>]]></string>
-    <string name="pref_call_text_summary_off">Ki</string>
+    <string name="pref_call_text_summary_off">Отключено</string>
+
+    <string name="pref_cat_call_missed">Missed call</string>
+    <string name="pref_call_missed_title">Missed call signal</string>
+    <string name="pref_call_missed_summary_off">Off</string>
+    <string name="pref_call_missed_summary_on">On</string>
+
+    <string name="pref_call_missed_alert_title">Mi Band 2 signal</string>
+
+    <string name="pref_call_missed_text_prefix_title">Text prefix: %1$s</string>
+    <string name="pref_call_missed_text_prefix_summary">If more than one app also uses the icon to distinguish messages</string>
+    <string name="pref_call_missed_text_prefix_dialog_title">Text prefix</string>
 
     <string name="pref_text_conversion">Настройки текста</string>
+    <string name="pref_text_conversion_summary">Mi Band 2 text icons settings</string>
     <string name="pref_cat_text_conversion">Символы Mi Band 2</string>
     <string name="pref_text_conversion_title">Преобразование символов</string>
     <string name="pref_text_conversion_summary_on">Преобразование нераспознанных символов</string>
@@ -141,7 +151,10 @@
     <string name="pref_touch_recognised_failed_title">Не распознанные нажатия</string>
     <string name="pref_touch_recognised_failed_summary_off">Отключено</string>
     <string name="pref_touch_recognised_failed_summary_on">Включено (2 вибрации после длиннейшей комбинации)</string>
-    <!--<string name="pref_cat_touch_music">Настройки воспроизведения</string>-->
+
+    <string name="pref_language">Language</string>
+    <string name="pref_cat_language">Language</string>
+    <string name="pref_language_title">Language</string>
 
     <!-- Quick switch -->
     <string name="details">Больше</string>
@@ -155,7 +168,7 @@
     <string name="message_enable_bluetooth">Пожалуйста, включите Bluetooth и поднесите Mi Band 2 ближе к устройству</string>
     <string name="message_discover_mi_band">Mi Band 2 не выбран, пожалуйста, подключите его</string>
     <string name="message_discovered_mi_band">Mi Band 2 подключён</string>
-    <string name="message_discovering_mi_band">Поиск Mi Band 2 &#8230;</string>
+    <string name="message_discovering_mi_band">Поиск Mi Band 2 (it may take 1 minute) &#8230;</string>
     <string name="message_discovered_no_mi_band">Mi Band 2 не подключён</string>
     <string name="message_enable_notifications_access">Разрешите доступ к уведомлениям</string>
     <string name="message_enable_notifications_access_4_4">Разрешите доступ к уведомлениям</string>
@@ -203,6 +216,8 @@
     <string name="notification_group_monitoring">Управлять уведомлениями</string>
     <string name="notification_group_monitoring_disabled">Исключить уведомления</string>
     <string name="notification_group_alert_title">Изображение на Mi Band 2</string>
+    <string name="notification_group_prefix">Text prefix</string>
+    <string name="notification_group_prefix_only_premium">Text prefix (only in premium mode)</string>
     <string name="notification_group_immediate">Мгновенное уведомление</string>
     <string name="notification_group_connecting">При подключении к устройству</string>
     <string name="notification_group_reminder">Периодические уведомления</string>
@@ -213,7 +228,7 @@
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Предустановленные иконки уведомлений Mi Band 2 и приложений:
-        <br><img src="ALERT_WHATSAPP">  пропущенный звонок
+        <br><img src="ALERT_MESSAGE_TEXT">  пропущенный звонок
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  Email, Gmail
         <br><img src="ALERT_CALENDAR">  Google Calendar
@@ -288,6 +303,7 @@
         <p>Зелёная иконка указывает, что другая функция похожа на текущую комбинацию.</p>
         <p>Во время входящего звонка не обрабатываются следующие функции: Положение устройства, Повтор уведомлений и Воспроизведение во избежание нежелательных срабатываний.</p>
         <p>Распознанная функция не выполняется в тестовом режиме.</p>
+        <p>Mi Band 2 vibration feedback just only, if there is a pattern taking into account the current status of the device (call answering, rejecting only if there is an incoming call…).</p>
         <p>Mi Band 2 вибрирует один раз, когда распознаёт комбинацию.</p>
         <p>Mi Band 2 вибрирует дважды, когда не распознаёт ни одну комбинацию после самой длинной (если <i>Не распознанные нажатия</i> включены).</p>]]>
     </string>

@@ -63,7 +63,7 @@
     <string name="pref_connected_have_notif_ongoing_summary_on">On</string>
     <string name="pref_connected_have_notif_default_app_title">Not recognised app signal</string>
     <string name="pref_connected_have_notif_default_app_summary_off">Off</string>
-    <string name="pref_connected_have_notif_default_app_summary_on">\'App\' icon</string>
+    <string name="pref_connected_have_notif_default_app_summary_on">\'App\' icon (if app there is no in predefined and neither custom notification group)</string>
 
     <string name="pref_disconnected">Disconnection and agent settings</string>
     <string name="pref_disconnected_summary">Mi Band 2 and device disconnection signal settings</string>
@@ -109,12 +109,24 @@
     <string name="pref_call_title">Incoming call signal</string>
     <string name="pref_call_summary_off">Off</string>
     <string name="pref_call_summary_on">On (do not forget to turn off incoming call alerts on Mi Fit app)</string>
-    <string name="pref_call_text_title">Caller display</string>
+    <string name="pref_call_text_title">Display caller ID</string>
     <string name="pref_call_text_summary_on"><![CDATA[On (more information: <i>Settings/Text icons settings)</i>]]></string>
-    <string name="pref_call_text_summary_off">Ki</string>
+    <string name="pref_call_text_summary_off">Off</string>
+
+    <string name="pref_cat_call_missed">Missed call</string>
+    <string name="pref_call_missed_title">Missed call signal</string>
+    <string name="pref_call_missed_summary_off">Off</string>
+    <string name="pref_call_missed_summary_on">On</string>
+
+    <string name="pref_call_missed_alert_title">Mi Band 2 signal</string>
+
+    <string name="pref_call_missed_text_prefix_title">Text prefix: %1$s</string>
+    <string name="pref_call_missed_text_prefix_summary">If more than one app also uses the icon to distinguish messages</string>
+    <string name="pref_call_missed_text_prefix_dialog_title">Text prefix</string>
 
     <string name="pref_text_conversion">Text icons settings</string>
-    <string name="pref_cat_text_conversion">Mi Band 2 signa</string>
+    <string name="pref_text_conversion_summary">Mi Band 2 text icon settings</string>
+    <string name="pref_cat_text_conversion">Mi Band 2 signal</string>
     <string name="pref_text_conversion_title">Characters conversion</string>
     <string name="pref_text_conversion_summary_on">Not recognisable characters conversion</string>
     <string name="pref_text_conversion_summary_off">Off</string>
@@ -125,7 +137,7 @@
         <p>If you do not use <i>Incoming call alerts</> and the phone language is not English:
         <br/>1. Set your phone language to English.
         <br/>2. Open Mi Fit app, wait until the font firmware update done. If firmware update doesn\'t start, try reboot your phone.
-        <br/>3. Open the <i>Play/Incomimg call</i> menu.
+        <br/>3. Open the <i>Play/Incoming call</i> menu.
         <br/>4. Turn on: <i>Turn on incoming call alerts</i>.
         <br/>5. Turn on: <i>Show contact information</i>.
         <br/>6. Check if you can Mi Band 2 shows caller name by calling your phone.
@@ -139,7 +151,10 @@
     <string name="pref_touch_recognised_failed_title">Not recognisable touch pattern signal</string>
     <string name="pref_touch_recognised_failed_summary_off">Off</string>
     <string name="pref_touch_recognised_failed_summary_on">On (2 vibrations after the longest pattern)</string>
-    <!--<string name="pref_cat_touch_music">Music settings</string>-->
+
+    <string name="pref_language">Language</string>
+    <string name="pref_cat_language">Language</string>
+    <string name="pref_language_title">Language</string>
 
     <!-- Quick switch -->
     <string name="details">Details</string>
@@ -153,7 +168,7 @@
     <string name="message_enable_bluetooth">Please enable Bluetooth and bring the Mi Band 2 device closer to the phone</string>
     <string name="message_discover_mi_band">Mi Band 2 is not set, please discover it</string>
     <string name="message_discovered_mi_band">Mi Band 2 discovered</string>
-    <string name="message_discovering_mi_band">Discovering Mi Band 2 &#8230;</string>
+    <string name="message_discovering_mi_band">Discovering Mi Band 2 (it may take 1 minute) &#8230;</string>
     <string name="message_discovered_no_mi_band">Mi Band 2 no discovered</string>
     <string name="message_enable_notifications_access">Enable notification access: Settings/Notifications/Notification access</string>
     <string name="message_enable_notifications_access_4_4">Enable notification access: Settings/Security/Notification access</string>
@@ -201,6 +216,8 @@
     <string name="notification_group_monitoring">Monitoring notifications</string>
     <string name="notification_group_monitoring_disabled">Exclusion notifications</string>
     <string name="notification_group_alert_title">Mi Band 2 signal</string>
+    <string name="notification_group_prefix">Text prefix</string>
+    <string name="notification_group_prefix_only_premium">Text prefix (only in premium mode)</string>
     <string name="notification_group_immediate">Immediate signal when notification is received</string>
     <string name="notification_group_connecting">When connecting to device</string>
     <string name="notification_group_reminder">Reminder signal</string>
@@ -211,7 +228,7 @@
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Predefined app and Mi Band 2 icon signals:
-        <br><img src="ALERT_WHATSAPP">  missed call
+        <br><img src="ALERT_MESSAGE_TEXT">  missed call
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  Email, Gmail
         <br><img src="ALERT_CALENDAR">  Google Calendar
@@ -371,9 +388,6 @@
 
     <string name="purchase_agree">I agree to the terms and conditions.</string>
     <string name="purchase_button_purchase">Purchase</string>
-
-    <!-- Admob-->
-    <string name="banner_ad_unit_id">ca-app-pub-6357233635516043/7418277414</string>
 
     <!-- Others -->
     <string name="dismiss">Dismiss</string>
