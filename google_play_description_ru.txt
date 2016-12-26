@@ -1,65 +1,65 @@
-The app currently supports only Xiaomi Mi Band 2.
+Приложение на данный момент поддерживает только Xiaomi Mi Band 2.
 
-Mi Bandage requires the installation of the official Mi Fit app on the same device. At first you have to pair Xiaomi Mi Band 2 in Mi Fit app, then you can use Mi Bandage.
+Также необходимо официальное приложение Mi Fit на устройстве. Сначала синхронизируйте Xiaomi Mi Band 2 с Mi Fit.
 
-Features:
-- Mi Band 2 pair (if you had a problem with Mi fit screen unlock feature)
-- show battery state
-- show last connection time
-- show last disconnection time
-- <b>Incoming call signal with caller display and automatic character conversion</b>
-- <b>Mi Band 2 connection features:</b>
-&rarr; not have notification
-&#8195;&#8226;&#8195; Mi Band 2 vibrates
-&#8195;&#8226;&#8195; device screen wake up
-&rarr; have notification
-&#8195;&#8226;&#8195; Mi Band 2 vibrates and displays icon 1,2,3 times, icon based on the number of notifications, once per Mi Band 2 icon
-&#8195;&#8226;&#8195; immediate signal when notification is received
-&#8195;&#8226;&#8195; when connecting to device
-&#8195;&#8226;&#8195; reminder signal and repeat interval
-&#8195;&#8226;&#8195; signal only when screen is off
-&#8195;&#8226;&#8195; ongoing notifications are enabled or disabled
-&#8195;&#8226;&#8195; device screen wake up
-- <b>Mi Band 2 disconnection features:</b>
-&#8195;&#8226;&#8195; playing ringtone on device, vibration, screen wake up
-&#8195;&#8226;&#8195; device monitoring agent: if someone tampered with the device while you are away, you will know (wake up the screen, power on, motion): notification on the device and eye icon on the Mi Band 2
-- <b>notification monitoring:</b>
-&#8195;&#8226;&#8195; unique signal configuration for apps notification
-&#8195;&#8226;&#8195; displays the app's notification texts on Mi Band 2
-- <b>touch monitoring:</b>
-&#8195;&#8226;&#8195; use Mi Band 2 touch button to call answering, speakerphone (turn off the launch music app when headset is connected setting, otherwise the music starts)
-&#8195;&#8226;&#8195; use Mi Band 2 touch button to call rejecting, ending
-&#8195;&#8226;&#8195; use Mi Band 2 touch button to toggle call mute
-&#8195;&#8226;&#8195; use Mi Band 2 touch button to get location of the device
-&#8195;&#8226;&#8195; use Mi Band 2 touch button to repeat notifications
-&#8195;&#8226;&#8195; use Mi Band 2 touch button to control music player
-- <b>pulse monitoring:</b>
-&#8195;&#8226;&#8195; you can set: monitoring starting signal, show pulse, high pulse signal, start time, end time, repeat interval, valid lower value, valid higher value
-&#8195;&#8226;&#8195; showing current pulse
-&#8195;&#8226;&#8195; daily chart: displays the measured values
-- <b>lost monitoring:</b>
-&#8195;&#8226;&#8195; Mi Band 2 signal: when specified period of time expires Mi Band 2 will alert you
-&#8195;&#8226;&#8195; device signals: when specified period of time expires, device send signals repeatedly if not connected to the bracelet. This makes it easier to find the device. If someone else finds the device and it is locked he does not know who to notify, so you can display a message.
-- <b>agent log:</b> 
-&#8195;&#8226;&#8195; view events detected by the device monitoring agent
+Функции:
+- синхронизация Mi Band 2 (еслиимеются проблемы с функцией разблокировки из Mi fit)
+- заряд батареи
+- время последнего соединения
+- время последнего рассоединения
+- <b>уведомление входящего звонка с отображением имени звонящего и автоматической конвертацией в латиницу</b>
+- <b>соединение с Mi Band 2:</b>
+&rarr; нет уведомлений
+&#8195;&#8226;&#8195; вибрация Mi Band 2
+&#8195;&#8226;&#8195; активация экрана устройства
+&rarr; есть уведомления
+&#8195;&#8226;&#8195; вибрация Mi Band 2 и отображение иконки 1,2,3 раза, в зависимости от настроек, по одному на иконку Mi Band 2
+&#8195;&#8226;&#8195; мгновенные уведомления
+&#8195;&#8226;&#8195; при подключении к устройству
+&#8195;&#8226;&#8195; повтор уведомлений с заданным промежутком
+&#8195;&#8226;&#8195; уведомления только при выключенном экране
+&#8195;&#8226;&#8195; постоянные уведомления включены или нет
+&#8195;&#8226;&#8195; активация экрана устройства
+- <b>отсоединение от Mi Band 2:</b>
+&#8195;&#8226;&#8195; сигнал на устройстве, вибрация, активация экрана
+&#8195;&#8226;&#8195; контроль взаимодействий с устройством: если кто-то посягал на ваше устройство, пока вас не было (разблокировка, ативация экрана, перемещение), вы узнаете: уведомление на устройстве и иконка глаза на Mi Band 2
+- <b>контроль уведомлений:</b>
+&#8195;&#8226;&#8195; специальная кофигурация уведомления
+&#8195;&#8226;&#8195; отображение текста уведомления
+- <b>контроль касаний:</b>
+&#8195;&#8226;&#8195; используйте кнопку Mi Band 2 для ответа на звонки, в т.ч. по громкой связи 
+&#8195;&#8226;&#8195; используйте кнопку Mi Band 2 для окончания и сброса звонков
+&#8195;&#8226;&#8195; используйте кнопку Mi Band 2 для отключения звука звонка
+&#8195;&#8226;&#8195; используйте кнопку Mi Band 2 для поиска устройства
+&#8195;&#8226;&#8195; используйте кнопку Mi Band 2 для повторения последних уведомлений
+&#8195;&#8226;&#8195; используйте кнопку Mi Band 2 для управления плеером
+- <b>измерение пульса:</b>
+&#8195;&#8226;&#8195; установка: сигнала начала измерения, отображение пульса, сигнал васокого пульса, начало и конец измерений, промежуток между ними, корректное минимальное и максимальное значения
+&#8195;&#8226;&#8195; отображение текущего пульса
+&#8195;&#8226;&#8195; отображение измерений за день
+- <b>при долгом отсоединении:</b>
+&#8195;&#8226;&#8195; уведомление Mi Band 2: когда проходит определённый промежуток времени
+&#8195;&#8226;&#8195; сигнал на устройстве: когда проходит определённый промежуток времени, устройство периодически уведомляет вас, если не подключено к браслету. Это упрощает поиск устройства. Вы можете оставить сообщение и, если кто-то найдёт устройство, он будет знать кому вернуть
+- <b>лог взаимодействий:</b> 
+&#8195;&#8226;&#8195; отображение действий, зафикированных контролем взаимодействий с устройством
 
-<b><u>Touch recording process:</u></b>
-1. The touch is valid when the display of Mi Band 2 changes (so it is advisable to rotate your wrist before touching).
-2. Press the record button on device, and click the pattern with touch button on Mi Band 2 (for example click, wait 2 sec, click)
-3. Press the play button on the device to check the pattern
-4. Rotate your wrist and press the pattern with touch button (click, wait 2 sec, click)
+<b><u>Процесс записи касаний:</u></b>
+1. Касание корректно, если изображение на Mi Band 2 меняется (поэтому рекомендуется включить обработку поворота запястья)
+2. нажмите кнопку записи на устройстве и задайте последовательность, используя кнопку Mi Band 2 (например, касание, ожидание 2 с, касание)
+3. Нажмите кнопку запуска на устройстве,чтобы проверить последовательность
+4. Поверните запястье (не обязательно) и используйте последовательность (нажатие, ожидание 2 с, нажатие)
 
-<b><u>If you have problem (discover Mi Band 2, not have notification signal), please try it:</u></b>
+<b><u>При неполадках (обнаружение Mi Band 2, отсутствие уведомлений), попробуйте:</u></b>
 
-1. If you installed the Greenify (or other hibernating app) turn it off.
-2. Install Mi Bandage.
-3. Restart phone.
-4. Turn off, on Bluetooth.
-5. Open Mi Fit app, wait until the synchronization done, close it.
-6. Open Mi Bandage app, click green discover button.
+1. Если у вас установлено приложение Greenify (или другое приложение для гибернации) настоятельно рекомендуется отключить его.
+2. (Пере-)Установить Mi Bandage.
+3. Перезагрузить устройство.
+4. Выключить и включить Bluetooth.
+5. Открыть Mi Fit, подождать окончания синхронизации.
+6. Открыть Mi Bandage, нажать зелёную кнопку обнаружения.</p>]]></string>
 
 
-Languages:
-Hungarian
-English
-Russian (translated by Александр Солоцкий)
+Языки:
+Венгерский
+Английский
+Русский (переведено: Александр Солоцкий)
