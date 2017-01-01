@@ -9,6 +9,7 @@
     <string name="drawer_nav_touch">Touch monitoring</string>
     <string name="drawer_nav_alarm">Lost monitoring</string>
     <string name="drawer_nav_pulse">Pulse monitoring</string>
+    <string name="drawer_nav_time">Time monitoring</string>
     <string name="drawer_nav_disconnected_agent">Agent log</string>
     <string name="drawer_nav_premium_mode">Premium mode</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
@@ -63,7 +64,7 @@
     <string name="pref_connected_have_notif_ongoing_summary_on">On</string>
     <string name="pref_connected_have_notif_default_app_title">Not recognised app signal</string>
     <string name="pref_connected_have_notif_default_app_summary_off">Off</string>
-    <string name="pref_connected_have_notif_default_app_summary_on">\'App\' icon (if app there is no in predefined and neither custom notification group)</string>
+    <string name="pref_connected_have_notif_default_app_summary_on">\'app\' icon (if app there is no in predefined and neither custom notification group)</string>
 
     <string name="pref_disconnected">Disconnection and agent settings</string>
     <string name="pref_disconnected_summary">Mi Band 2 and device disconnection signal settings</string>
@@ -121,7 +122,7 @@
     <string name="pref_call_missed_alert_title">Mi Band 2 signal</string>
 
     <string name="pref_call_missed_text_prefix_title">Text prefix: %1$s</string>
-    <string name="pref_call_missed_text_prefix_summary">If more than one app also uses the icon to distinguish messages</string>
+    <string name="pref_call_missed_text_prefix_summary">If more than one app also uses the icon to differentiate notifications from each other</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Text prefix</string>
 
     <string name="pref_text_conversion">Text icons settings</string>
@@ -152,7 +153,7 @@
     <string name="pref_touch_recognised_failed_summary_off">Off</string>
     <string name="pref_touch_recognised_failed_summary_on">On (2 vibrations after the longest pattern)</string>
 
-    <string name="pref_language">Language</string>
+    <string name="pref_language">Language settings</string>
     <string name="pref_cat_language">Language</string>
     <string name="pref_language_title">Language</string>
 
@@ -170,6 +171,7 @@
     <string name="message_discovered_mi_band">Mi Band 2 discovered</string>
     <string name="message_discovering_mi_band">Discovering Mi Band 2 (it may take 1 minute) &#8230;</string>
     <string name="message_discovered_no_mi_band">Mi Band 2 no discovered</string>
+    <string name="message_discovered_not_found_mi_band">If Mi Band 2 was not found, turn on: Mi Fit/Play/Discoverable</string>
     <string name="message_enable_notifications_access">Enable notification access: Settings/Notifications/Notification access</string>
     <string name="message_enable_notifications_access_4_4">Enable notification access: Settings/Security/Notification access</string>
     <string name="message_open_settings">Settings</string>
@@ -182,7 +184,6 @@
     <string name="message_notification_free_groups">Up to 6 groups can be used</string>
 
     <string name="message_touch_record">Record the pattern using the Mi Band 2 touch button</string>
-    <string name="message_touch_record_error">Unfortunately, this feature is not available</string>
     <string name="message_touch_pattern_error">The specified pattern is similar to a sample of another function, record another</string>
     <string name="message_touch_free_patterns">Up to 3 functions can be used</string>
     <string name="message_touch_music_player_not_found">Music player not found</string>
@@ -196,6 +197,7 @@
     <string name="message_alarm_mi_band_clear_failed">Clearing the alarm failed</string>
 
     <string name="message_premium_mode_only">This feature is only available in premium mode</string>
+    <string name="message_general_error">Setting failed (connection lost), try again</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Welcome!</string>
@@ -287,6 +289,7 @@
 
     <string name="touch_app_launcher1_title">App launcher</string>
     <string name="touch_app_launcher_package_no_title">Select an application</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Only if the screen is not locked</string>
 
     <string name="touch_testing_title">Touch monitoring</string>
 
@@ -361,6 +364,40 @@
         <p>Must be enabled to display notification on the lock screen.</p>]]>
     </string>
 
+    <!-- Time  monitoring -->
+    <string name="time_tab_timer">Timer</string>
+    <string name="time_tab_alarm">Alarm</string>
+    <string name="time_tab_stopper">Stopper</string>
+
+    <string name="time_timer_time_alert">Alarm time</string>
+    <string name="time_timer_time_remaining">Remaining time</string>
+
+    <string name="time_timer_mode">Timer</string>
+    <string name="time_timer_mode_timer_title">Timing</string>
+    <string name="time_timer_mode_time_title">Time</string>
+
+    <string name="time_timer_alert">Alarm type</string>
+    <string name="time_timer_alert_bell_title">Bell</string>
+    <string name="time_timer_alert_alarm_title">Alarm</string>
+
+    <string name="time_timer_reminder">Reminder signal, remaining time</string>
+    <!--<string name="time_timer_reminder_elapse">Elapsed time</string>-->
+    <!--<string name="time_timer_reminder_remaining">Remaining time</string>-->
+    <string name="time_timer_reminder_interval_before_title">Before time</string>
+    <string name="time_timer_reminder_interval_before_off_title">Off</string>
+    <string name="time_timer_reminder_interval_repeat_title">Reminder repeat interval</string>
+
+    <!--<string name="time_timer_touch">Touch shows the time</string>-->
+    <!--<string name="time_timer_touch_elapse">Elapsed time</string>-->
+    <!--<string name="time_timer_touch_remaining">Remaining time</string>-->
+
+    <string name="info_dialog_time"><![CDATA[<b><u>Időzítő</u></b>
+        <p><img src="ic_miband_bell"> Bell: Bluetooth connection is required for alarm, it alarms justt only once for 10 seconds.</p>
+        <p><img src="ic_access_time"> Alarm: Bluetooth connection is not required for alarm, app uses alarm function of Mi Fit to alert (overwrite 9. setting)
+        <br>The alarm will be repeated several times if the Mi Band 2 do not detect any movement (because it uses the factory alarm).</p>
+        <p>Reminder signal requires Bluetooth connection.</p>
+    ]]></string>
+
     <!-- Agent log info dialog -->
     <string name="info_dialog_disconnected_agent"><![CDATA[Events detected by the device management agent:
         <br>- power on
@@ -376,6 +413,7 @@
         <p>- ad-free
         <br>- unlimited notification monitoring
         <br>- unlimited touch monitoring
+        <br>- text prefix can be used in notification monitoring
         <br>- repeat interval can be set freely and show pulse can be used in pulse monitoring function
         <br>- repeat interval can be set freely and dnd mode can be used in lost monitoring function</p>
         <b>Terms and conditions of Premium mode:</b>
@@ -395,5 +433,19 @@
     <string name="power_on">Power on</string>
     <string name="screen_unlock">Unlocking the screen</string>
     <string name="motion">Motion detected</string>
+
+    <!-- Constans -->
+    <string name="const_time_abbreviation_hour">h</string>
+    <string name="const_time_abbreviation_minute">m</string>
+    <string name="const_time_abbreviation_sec">s</string>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">%d min</item>
+        <item quantity="one">%d minute</item>
+        <item quantity="two">%d minutes</item>
+        <item quantity="few">%d minutes</item>
+        <item quantity="many">%d minutes</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
 
 </resources>

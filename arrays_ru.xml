@@ -17,7 +17,6 @@
     </string-array>
 
     <string-array name="pref_connected_have_notif_interval">
-        <!--<item>Off</item>-->
         <item>5 минут</item>
         <item>10 минут</item>
         <item>20 минут</item>
@@ -28,7 +27,6 @@
     </string-array>
 
     <string-array name="pref_connected_have_notif_interval_values">
-        <!--<item>0</item>-->
         <item>5</item>
         <item>10</item>
         <item>20</item>
@@ -151,11 +149,44 @@
         <item>HARD_3</item>
     </string-array>
 
+    <string-array name="pref_timer_time_interval_repeat">
+        <item>Нет</item>
+        <item>1 минута</item>
+        <item>2 минуты</item>
+        <item>5 минут</item>
+        <item>10 минут</item>
+        <item>15 минут</item>
+        <item>20 минут</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>3 часа</item>
+        <item>4 часа</item>
+        <item>5 часов</item>
+    </string-array>
+
+    <integer-array name="pref_timer_time_interval_repeat_values">
+        <item>0</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>1200000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+        <item>10800000</item>
+        <item>14400000</item>
+        <item>18000000</item>
+    </integer-array>
+
     <string-array name="pref_language">
         <item>По умолчанию</item>
         <item>Английский</item>
         <item>Венгерский</item>
         <item>Русский</item>
+        <item>Portuguese</item>
     </string-array>
 
     <string-array name="pref_language_values">
@@ -163,5 +194,6 @@
         <item>en</item>
         <item>hu</item>
         <item>ru</item>
+        <item>pt</item>
     </string-array>
 </resources>

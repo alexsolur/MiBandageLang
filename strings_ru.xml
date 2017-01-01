@@ -9,6 +9,7 @@
     <string name="drawer_nav_touch">Контроль касаний</string>
     <string name="drawer_nav_alarm">Долго отсоединён</string>
     <string name="drawer_nav_pulse">Измерение пульса</string>
+    <string name="drawer_nav_time">Time monitoring</string>
     <string name="drawer_nav_disconnected_agent">Лог действий</string>
     <string name="drawer_nav_premium_mode">Премиум</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
@@ -63,7 +64,7 @@
     <string name="pref_connected_have_notif_ongoing_summary_on">Включено</string>
     <string name="pref_connected_have_notif_default_app_title">Уведомления нараспознанных приложений</string>
     <string name="pref_connected_have_notif_default_app_summary_off">Отключено</string>
-    <string name="pref_connected_have_notif_default_app_summary_on">Иконка \'App\' для не рассортированных по группам или предопределённых</string>
+    <string name="pref_connected_have_notif_default_app_summary_on">Иконка \'app\' для не рассортированных по группам или предопределённых</string>
 
     <string name="pref_disconnected">Лог действий и сигналы отсоединения</string>
     <string name="pref_disconnected_summary">Настройки сигнала рассоединения Mi Band 2 и устройства</string>
@@ -170,6 +171,7 @@
     <string name="message_discovered_mi_band">Mi Band 2 подключён</string>
     <string name="message_discovering_mi_band">Поиск Mi Band 2 (это может занять около минуты) &#8230;</string>
     <string name="message_discovered_no_mi_band">Mi Band 2 не подключён</string>
+    <string name="message_discovered_not_found_mi_band">If Mi Band 2 was not found, turn on: Mi Fit/Play/Discoverable</string>
     <string name="message_enable_notifications_access">Разрешите доступ к уведомлениям</string>
     <string name="message_enable_notifications_access_4_4">Разрешите доступ к уведомлениям</string>
     <string name="message_open_settings">Настройки</string>
@@ -182,7 +184,6 @@
     <string name="message_notification_free_groups">Максимум 6 групп</string>
 
     <string name="message_touch_record">Запишите образец использования кнопки Mi Band 2</string>
-    <string name="message_touch_record_error">К сожалению, эта функция недоступна</string>
     <string name="message_touch_pattern_error">Заданная последовательность похожа на последовательность другой функции, запишите другую</string>
     <string name="message_touch_free_patterns">Максимум 3 функции</string>
     <string name="message_touch_music_player_not_found">Плеер не найден</string>
@@ -196,6 +197,7 @@
     <string name="message_alarm_mi_band_clear_failed">Не удалось удалить будильник</string>
 
     <string name="message_premium_mode_only">Эта функция доступна только в премиуме</string>
+    <string name="message_general_error">Ошибка (соединение потеряно), попробуйте снова</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Добро пожаловать!</string>
@@ -287,6 +289,7 @@
 
     <string name="touch_app_launcher1_title">Запуск приложений</string>
     <string name="touch_app_launcher_package_no_title">Выберете приложение</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Only the screen is not locked</string>
 
     <string name="touch_testing_title">Контроль касаний</string>
 
@@ -361,6 +364,40 @@
         <p>Должны быть включены уведомления на экране блокировки.</p>]]>
     </string>
 
+    <!-- Time  monitoring -->
+    <string name="time_tab_timer">Timer</string>
+    <string name="time_tab_alarm">Alarm</string>
+    <string name="time_tab_stopper">Stopper</string>
+
+    <string name="time_timer_time_alert">Alarm time</string>
+    <string name="time_timer_time_remaining">Remaining time</string>
+
+    <string name="time_timer_mode">Timer</string>
+    <string name="time_timer_mode_timer_title">Timing</string>
+    <string name="time_timer_mode_time_title">Time</string>
+
+    <string name="time_timer_alert">Alert type</string>
+    <string name="time_timer_alert_bell_title">Bell</string>
+    <string name="time_timer_alert_alarm_title">Alarm</string>
+
+    <string name="time_timer_reminder">Reminder signal, remaining time</string>
+    <!--<string name="time_timer_reminder_elapse">Elapsed time</string>-->
+    <!--<string name="time_timer_reminder_remaining">Remaining time</string>-->
+    <string name="time_timer_reminder_interval_before_title">Before time</string>
+    <string name="time_timer_reminder_interval_before_off_title">Отключено</string>
+    <string name="time_timer_reminder_interval_repeat_title">Reminder repeat interval</string>
+
+    <!--<string name="time_timer_touch">Touch shows the time</string>-->
+    <!--<string name="time_timer_touch_elapse">Elapsed time</string>-->
+    <!--<string name="time_timer_touch_remaining">Remaining time</string>-->
+
+    <string name="info_dialog_time"><![CDATA[<b><u>Időzítő</u></b>
+        <p><img src="ic_miband_bell"> Bell: Bluetooth connection is required for alarm, it just only alarm once for 10 seconds.</p>
+        <p><img src="ic_access_time"> Alarm: Bluetooth connection is not required for alarm, app uses alarm function of Mi Fit to alert (overwrite 9. setting)
+        <br>The alarm will be repeated several times if the Mi Band 2 do not detect any movement (because it uses the factory alarm).</p>
+        <p>Reminder signal requires Bluetooth connection.</p>
+    ]]></string>
+
     <!-- Agent log info dialog -->
     <string name="info_dialog_disconnected_agent"><![CDATA[События, регистрируемые контролем взаимодействия с устройством:
         <br>- активация
@@ -376,6 +413,7 @@
         <p>- нет рекламы
         <br>- нет ограничения на количество групп уведомлений
         <br>- нет ограничения на контроль касаний
+        <br>- text prefix can be used in notification monitoring
         <br>- <i>Измерение пульса</i>: установка промежутка измерений по желанию, настройка показа пульса
         <br>- <i>Долго отсоединён</i>: установка промежутка уведомлений по желанию,  активация режима \'Не беспокоить\'</p>
         <b>Правила и условия премиума:</b>
@@ -395,5 +433,19 @@
     <string name="power_on">Активация экрана</string>
     <string name="screen_unlock">Разблокировка экрана</string>
     <string name="motion">Замечено перемецение</string>
+
+    <!-- Constans -->
+    <string name="const_time_abbreviation_hour">h</string>
+    <string name="const_time_abbreviation_minute">m</string>
+    <string name="const_time_abbreviation_sec">s</string>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">%d мин</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="two">%d минуты</item>
+        <item quantity="few">%d минут</item>
+        <item quantity="many">%d минут</item>
+        <item quantity="other">%d минут</item>
+    </plurals>
 
 </resources>
