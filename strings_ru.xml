@@ -171,7 +171,7 @@
     <string name="message_discovered_mi_band">Mi Band 2 подключён</string>
     <string name="message_discovering_mi_band">Поиск Mi Band 2 (это может занять около минуты) &#8230;</string>
     <string name="message_discovered_no_mi_band">Mi Band 2 не подключён</string>
-    <string name="message_discovered_not_found_mi_band">If Mi Band 2 was not found, turn on: Mi Fit/Play/Discoverable</string>
+    <string name="message_discovered_not_found_mi_band">Если Mi Band 2 не обнаружен, включите: Mi Fit/Уведомления/Видимость</string>
     <string name="message_enable_notifications_access">Разрешите доступ к уведомлениям</string>
     <string name="message_enable_notifications_access_4_4">Разрешите доступ к уведомлениям</string>
     <string name="message_open_settings">Настройки</string>
@@ -365,37 +365,37 @@
     </string>
 
     <!-- Time  monitoring -->
-    <string name="time_tab_timer">Timer</string>
+    <string name="time_tab_timer">Таймер</string>
     <string name="time_tab_alarm">Alarm</string>
     <string name="time_tab_stopper">Stopper</string>
 
-    <string name="time_timer_time_alert">Alarm time</string>
-    <string name="time_timer_time_remaining">Remaining time</string>
+    <string name="time_timer_time_alert">Время сигнала</string>
+    <string name="time_timer_time_remaining">Оставшееся время</string>
 
-    <string name="time_timer_mode">Timer</string>
-    <string name="time_timer_mode_timer_title">Timing</string>
-    <string name="time_timer_mode_time_title">Time</string>
+    <string name="time_timer_mode">Таймер</string>
+    <string name="time_timer_mode_timer_title">Промежуток времени</string>
+    <string name="time_timer_mode_time_title">Точное время</string>
 
-    <string name="time_timer_alert">Alert type</string>
-    <string name="time_timer_alert_bell_title">Bell</string>
-    <string name="time_timer_alert_alarm_title">Alarm</string>
+    <string name="time_timer_alert">Вид сигнала</string>
+    <string name="time_timer_alert_bell_title">Уведомление</string>
+    <string name="time_timer_alert_alarm_title">Будильник</string>
 
-    <string name="time_timer_reminder">Reminder signal, remaining time</string>
-    <!--<string name="time_timer_reminder_elapse">Elapsed time</string>-->
-    <!--<string name="time_timer_reminder_remaining">Remaining time</string>-->
-    <string name="time_timer_reminder_interval_before_title">Before time</string>
+    <string name="time_timer_reminder">Переодическое уведомление, оставшееся время</string>
+    <!--<string name="time_timer_reminder_elapse">Прошедшее время</string>-->
+    <!--<string name="time_timer_reminder_remaining">Оставшееся время</string>-->
+    <string name="time_timer_reminder_interval_before_title">Заранее</string>
     <string name="time_timer_reminder_interval_before_off_title">Отключено</string>
-    <string name="time_timer_reminder_interval_repeat_title">Reminder repeat interval</string>
+    <string name="time_timer_reminder_interval_repeat_title">Промежуток переодического уведомления</string>
 
-    <!--<string name="time_timer_touch">Touch shows the time</string>-->
-    <!--<string name="time_timer_touch_elapse">Elapsed time</string>-->
-    <!--<string name="time_timer_touch_remaining">Remaining time</string>-->
+    <!--<string name="time_timer_touch">Касание показывает время</string>-->
+    <!--<string name="time_timer_touch_elapse">Прошедшее время</string>-->
+    <!--<string name="time_timer_touch_remaining">Оставшееся время</string>-->
 
-    <string name="info_dialog_time"><![CDATA[<b><u>Időzítő</u></b>
-        <p><img src="ic_miband_bell"> Bell: Bluetooth connection is required for alarm, it just only alarm once for 10 seconds.</p>
-        <p><img src="ic_access_time"> Alarm: Bluetooth connection is not required for alarm, app uses alarm function of Mi Fit to alert (overwrite 9. setting)
-        <br>The alarm will be repeated several times if the Mi Band 2 do not detect any movement (because it uses the factory alarm).</p>
-        <p>Reminder signal requires Bluetooth connection.</p>
+    <string name="info_dialog_time"><![CDATA[<b><u>Таймер</u></b>
+        <p><img src="ic_miband_bell"> Уведомление: Bluetooth подключение необходимо для сигнала, один сигнал длительностью 10 секунд.</p>
+        <p><img src="ic_access_time"> Будильник: Bluetooth подключение не требуется для сигнала, приложение использует будильник Mi Fit для сигнала (перезаписывает 9. будильник)
+        <br>Будильник повторится несколько раз, если Mi Band 2 не заметит движения (из-за использования заводского будильника).</p>
+        <p>Повтор уведомления требует Bluetooth подключение.</p>
     ]]></string>
 
     <!-- Agent log info dialog -->
@@ -413,7 +413,7 @@
         <p>- нет рекламы
         <br>- нет ограничения на количество групп уведомлений
         <br>- нет ограничения на контроль касаний
-        <br>- text prefix can be used in notification monitoring
+        <br>- префикс текстовых уведомлений
         <br>- <i>Измерение пульса</i>: установка промежутка измерений по желанию, настройка показа пульса
         <br>- <i>Долго отсоединён</i>: установка промежутка уведомлений по желанию,  активация режима \'Не беспокоить\'</p>
         <b>Правила и условия премиума:</b>
@@ -435,12 +435,12 @@
     <string name="motion">Замечено перемецение</string>
 
     <!-- Constans -->
-    <string name="const_time_abbreviation_hour">h</string>
-    <string name="const_time_abbreviation_minute">m</string>
-    <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_hour">ч</string>
+    <string name="const_time_abbreviation_minute">мин</string>
+    <string name="const_time_abbreviation_sec">с</string>
 
     <plurals name="plural_time_minute">
-        <item quantity="zero">%d мин</item>
+        <item quantity="zero">%d минут</item>
         <item quantity="one">%d минута</item>
         <item quantity="two">%d минуты</item>
         <item quantity="few">%d минут</item>
