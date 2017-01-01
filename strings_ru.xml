@@ -171,7 +171,7 @@
     <string name="message_discovered_mi_band">Mi Band 2 подключён</string>
     <string name="message_discovering_mi_band">Поиск Mi Band 2 (это может занять около минуты) &#8230;</string>
     <string name="message_discovered_no_mi_band">Mi Band 2 не подключён</string>
-    <string name="message_discovered_not_found_mi_band">If Mi Band 2 was not found, turn on: Mi Fit/Play/Discoverable</string>
+    <string name="message_discovered_not_found_mi_band">Если Mi Band 2 не обнаружен, включите: Mi Fit/Уведомления/Видимость</string>
     <string name="message_enable_notifications_access">Разрешите доступ к уведомлениям</string>
     <string name="message_enable_notifications_access_4_4">Разрешите доступ к уведомлениям</string>
     <string name="message_open_settings">Настройки</string>
@@ -414,7 +414,7 @@
         <p>- нет рекламы
         <br>- нет ограничения на количество групп уведомлений
         <br>- нет ограничения на контроль касаний
-        <br>- text prefix can be used in notification monitoring
+        <br>- префикс текстовых уведомлений
         <br>- <i>Измерение пульса</i>: установка промежутка измерений по желанию, настройка показа пульса
         <br>- <i>Долго отсоединён</i>: установка промежутка уведомлений по желанию,  активация режима \'Не беспокоить\'</p>
         <b>Правила и условия премиума:</b>
@@ -428,6 +428,9 @@
     <string name="purchase_agree">Я согласен с правилами и условиями.</string>
     <string name="purchase_button_purchase">Приобрести</string>
 
+    <!-- Admob-->
+    <string name="banner_ad_unit_id">ca-app-pub-6357233635516043/7418277414</string>
+
     <!-- Others -->
     <string name="dismiss">Отклонить</string>
 
@@ -437,7 +440,7 @@
 
     <!-- Constante -->
     <string name="const_time_abbreviation_hour">ч</string>
-    <string name="const_time_abbreviation_minute">мин</string>
+    <string name="const_time_abbreviation_minute">м</string>
     <string name="const_time_abbreviation_sec">с</string>
 
     <plurals name="plural_time_minute">
