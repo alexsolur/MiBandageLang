@@ -9,7 +9,7 @@
     <string name="drawer_nav_touch">Контроль касаний</string>
     <string name="drawer_nav_alarm">Долго отсоединён</string>
     <string name="drawer_nav_pulse">Измерение пульса</string>
-    <string name="drawer_nav_time">Time monitoring</string>
+    <string name="drawer_nav_time">Время</string>
     <string name="drawer_nav_disconnected_agent">Лог действий</string>
     <string name="drawer_nav_premium_mode">Премиум</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
@@ -373,30 +373,30 @@
     <string name="time_timer_time_remaining">Оставшееся время</string>
 
     <string name="time_timer_mode">Таймер</string>
-    <string name="time_timer_mode_timer_title">Промежуток времени</string>
-    <string name="time_timer_mode_time_title">Точное время</string>
+    <string name="time_timer_mode_timer_title">Промежуток</string>
+    <string name="time_timer_mode_time_title">Точное</string>
 
     <string name="time_timer_alert">Вид сигнала</string>
     <string name="time_timer_alert_bell_title">Уведомление</string>
     <string name="time_timer_alert_alarm_title">Будильник</string>
 
-    <string name="time_timer_reminder">Переодическое уведомление, оставшееся время</string>
+    <string name="time_timer_reminder">Переодическое уведомление: оставшееся время</string>
     <!--<string name="time_timer_reminder_elapse">Прошедшее время</string>-->
     <!--<string name="time_timer_reminder_remaining">Оставшееся время</string>-->
-    <string name="time_timer_reminder_interval_before_title">Заранее</string>
+    <string name="time_timer_reminder_interval_before_title">Уведомлять заранее</string>
     <string name="time_timer_reminder_interval_before_off_title">Отключено</string>
-    <string name="time_timer_reminder_interval_repeat_title">Промежуток переодического уведомления</string>
+    <string name="time_timer_reminder_interval_repeat_title">Интервал переодических уведомлений</string>
 
     <!--<string name="time_timer_touch">Касание показывает время</string>-->
     <!--<string name="time_timer_touch_elapse">Прошедшее время</string>-->
     <!--<string name="time_timer_touch_remaining">Оставшееся время</string>-->
 
     <string name="info_dialog_time"><![CDATA[<img src="ic_miband_bell"> <b><u>Уведомление</u></b>
-        <p>Bluetooth подключение необходимо для сигнала, один сигнал длительностью 10 секунд.</p>
+        <p>Bluetooth-соединение необходимо для сигнала, один сигнал длительностью 10 секунд.</p>
         <img src="ic_access_time"> <b><u>Будильник</u></b>
-        <p>Bluetooth подключение не требуется для сигнала, приложение использует будильник Mi Fit для сигнала (перезаписывает 9. будильник).
+        <p>Bluetooth-соединение не требуется для сигнала, приложение использует будильник Mi Fit для сигнала (перезаписывает 9. будильник).
         <br>Будильник повторится несколько раз, если Mi Band 2 не заметит движения (из-за использования заводского будильника).</p>
-        <p>Повтор уведомления требует Bluetooth подключение.</p>
+        <p>Для повтора уведомлений требуется Bluetooth-соединение.</p>
     ]]></string>
 
     <!-- Agent log info dialog -->
