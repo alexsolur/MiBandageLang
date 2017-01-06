@@ -31,10 +31,13 @@
     <string name="mi_band_mac_address_invalid">Неверный MAC адрес</string>
 
     <!-- PreferenceScreen -->
-    <string name="pref_connected">Настройки соединения и уведомлений</string>
+    <!--<string name="pref_connected">Настройки соединения и уведомлений</string>-->
+    <string name="pref_connected">Connection settings</string>
     <string name="pref_connected_summary">Настройки соединения Mi Band 2 и устройства</string>
     <string name="pref_cat_connected_no_notif">Присоединение Mi Band 2 в отсутствие новых уведомлений</string>
-    <string name="pref_cat_connected_have_notif">Есть уведомления (настроенные приложения и иконки)</string>
+    <!--<string name="pref_cat_connected_have_notif">Есть уведомления (настроенные приложения и иконки)</string>-->
+    <string name="pref_cat_connected_have_notif">Predefined app and Mi Band 2 signal</string>
+    <string name="pref_cat_connected_have_notif_default">Predefined and custom settings</string>
     <string name="pref_connected_no_notif_title">Уведомление Mi Band 2</string>
     <string name="pref_connected_no_notif_summary_on">Вибрация</string>
     <string name="pref_connected_no_notif_summary_off">Нет</string>
@@ -43,28 +46,30 @@
     <string name="pref_connected_no_notif_wakelock_summary_off">Отключено</string>
 
     <string name="pref_connected_have_notif_immediate_title">Мгновенные уведомления</string>
-    <string name="pref_connected_have_notif_immediate_summary_off">Отключено</string>
-    <string name="pref_connected_have_notif_immediate_summary_on">Включено</string>
+    <!--<string name="pref_connected_have_notif_immediate_summary_off">Отключено</string>-->
+    <!--<string name="pref_connected_have_notif_immediate_summary_on">Включено</string>-->
     <string name="pref_connected_have_notif_title">При подключении к устройству</string>
-    <string name="pref_connected_have_notif_summary_off">Отключено</string>
-    <string name="pref_connected_have_notif_summary_on">Включено</string>
+    <!--<string name="pref_connected_have_notif_summary_off">Отключено</string>-->
+    <!--<string name="pref_connected_have_notif_summary_on">Включено</string>-->
     <string name="pref_connected_have_notif_reminder_title">Периодические уведомления</string>
-    <string name="pref_connected_have_notif_reminder_summary_off">Отключено</string>
-    <string name="pref_connected_have_notif_reminder_summary_on">Включено</string>
+    <!--<string name="pref_connected_have_notif_reminder_summary_off">Отключено</string>-->
+    <!--<string name="pref_connected_have_notif_reminder_summary_on">Включено</string>-->
     <string name="pref_connected_have_notif_screen_off_title">Уведомлять только при выключенном экране</string>
-    <string name="pref_connected_have_notif_screen_off_summary_off">Отключено</string>
-    <string name="pref_connected_have_notif_screen_off_summary_on">Включено</string>
+    <!--<string name="pref_connected_have_notif_screen_off_summary_off">Отключено</string>-->
+    <!--<string name="pref_connected_have_notif_screen_off_summary_on">Включено</string>-->
     <string name="pref_connected_have_notif_interval_title">Интервал повторения уведомлений</string>
     <string name="pref_connected_have_notif_counter_title">Количество уведомлений</string>
     <string name="pref_connected_have_notif_wakelock_title">Активировать экран устройства</string>
-    <string name="pref_connected_have_notif_wakelock_summary_off">Отключено</string>
-    <string name="pref_connected_have_notif_wakelock_summary_on">Включено</string>
+    <!--<string name="pref_connected_have_notif_wakelock_summary_off">Отключено</string>-->
+    <!--<string name="pref_connected_have_notif_wakelock_summary_on">Включено</string>-->
     <string name="pref_connected_have_notif_ongoing_title">Постоянные уведомления</string>
-    <string name="pref_connected_have_notif_ongoing_summary_off">Отключено</string>
-    <string name="pref_connected_have_notif_ongoing_summary_on">Включено</string>
+    <!--<string name="pref_connected_have_notif_ongoing_summary_off">Отключено</string>-->
+    <!--<string name="pref_connected_have_notif_ongoing_summary_on">Включено</string>-->
     <string name="pref_connected_have_notif_default_app_title">Уведомления нараспознанных приложений</string>
-    <string name="pref_connected_have_notif_default_app_summary_off">Отключено</string>
+    <!--<string name="pref_connected_have_notif_default_app_summary_off">Отключено</string>-->
     <string name="pref_connected_have_notif_default_app_summary_on">Иконка \'app\' для не рассортированных по группам или предопределённых</string>
+    <string name="pref_connected_have_notif_pre_signal_title">Notification forecast</string>
+    <string name="pref_connected_have_notif_pre_signal_summary_on">Signal (modifiable) before the actual notification in order to have more time to look at the display</string>
 
     <string name="pref_disconnected">Лог действий и сигналы отсоединения</string>
     <string name="pref_disconnected_summary">Настройки сигнала рассоединения Mi Band 2 и устройства</string>
@@ -171,7 +176,7 @@
     <string name="message_discovered_mi_band">Mi Band 2 подключён</string>
     <string name="message_discovering_mi_band">Поиск Mi Band 2 (это может занять около минуты) &#8230;</string>
     <string name="message_discovered_no_mi_band">Mi Band 2 не подключён</string>
-    <string name="message_discovered_not_found_mi_band">Если Mi Band 2 не обнаружен, включите: Mi Fit/Уведомления/Видимость</string>
+    <string name="message_discovered_not_found_mi_band">Если Mi Band 2 не обнаружен, включите: Mi Fit/Уведомления/Видимость or pair at the Bluetooth settings</string>
     <string name="message_enable_notifications_access">Разрешите доступ к уведомлениям</string>
     <string name="message_enable_notifications_access_4_4">Разрешите доступ к уведомлениям</string>
     <string name="message_open_settings">Настройки</string>
@@ -205,6 +210,7 @@
     <p>Mi Bandage тебуется приложение Mi Fit на устройстве. Сначала, подключите Mi Band 2 к Mi Fit, потом пользуйтесь Mi Bandage.</p>
     <p>Если вы используете несколько приложений для управления Mi Band 2, они могут мешать друг другу, поэтому временно отключите их.</p>
     <p>Если Mi Band 2 не обнаружен, вы можете установить MAC вручную в настройках (MAC можно найти в: Mi Fit/Профиль/Mi Band 2).</p>
+    <p><b>If Mi Band 2 is not found or if you are having trouble syncing Mi Fit app, then install the BToolkit, nRF Connect or similar Bluetooth manager app and remove any pairing, bonded device.</b></p>
     <p>При неполадках (обнаружение Mi Band 2, отсутствие уведомлений), попробуйте:
     <br>1. Если у вас установлено приложение Greenify (или другое приложение для гибернации) настоятельно рекомендуется отключить его.
     <br>2. (Пере-)Установить Mi Bandage.
@@ -212,6 +218,10 @@
     <br>4. Выключить и включить Bluetooth.
     <br>5. Открыть Mi Fit, подождать окончания синхронизации.
     <br>6. Открыть Mi Bandage, нажать зелёную кнопку обнаружения.</p>]]></string>
+
+    <!-- Notification  -->
+    <string name="notification_tab_settings">Setting</string>
+    <string name="notification_tab_custom">Custom notifications</string>
 
     <!-- Notification Dialog -->
     <string name="notification_group_name">Название группы</string>
@@ -261,7 +271,7 @@
         <p>Предустановленные уведомления могут быть отключены: <i>Настройки соединения и уведомлений/Есть уведомления</i>.</p>
         <p>Группы уведомлений, созданные вами, имеют повышенный приоритет.</p>
         <p>Если вы используете предустановленные уведомления, но хотите исключить некоторые приложения, создайте новую группу уведомлений с <i>исключением уведомлений</i> и добавьте туда эти приложения.</p>
-        <p>Смахните группу, чтобы удалить её.</p>]]>
+        ]]>
     </string>
 
     <!-- MiBandageApp chooser dialog -->
@@ -352,7 +362,7 @@
     <!--, otherwise the smart bracelet will alert (every day at <i>timing of next alarm</i>).</p>-->
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_alarm"> <b><u>Уведомление Mi Band 2</u></b>
         <p>Когда проходит выбранный промежуток времени, Mi Band 2 вибрирует, если не подключён к устройству.<p>
-        <p>Приложение использует будильник Mi Fit для предупреждения (переписывает 10. будильник)</p>
+        <p>Приложение использует будильник Mi Fit для предупреждения (переписывает 10. будильник).</p>
         <p>Будильник повторится несколько раз, если Mi Band 2 не заметит движения (из-за использования заводского будильника).</p>
         <p>Перед выключением Bluetooth или удалением приложения требуется отключить этот будильник Mi Band 2.</p>
         <p>Если вы удалите приложение с включенным предупреждением, вы можете выключить его, включив и выключив 10. будильник Mi Fit.</p>
@@ -366,8 +376,8 @@
 
     <!-- Time  monitoring -->
     <string name="time_tab_timer">Таймер</string>
-    <string name="time_tab_alarm">Alarm</string>
-    <string name="time_tab_stopper">Stopper</string>
+    <string name="time_tab_stopper">Stopwatch</string>
+    <string name="time_tab_lap">Lap time</string>
 
     <string name="time_timer_time_alert">Время сигнала</string>
     <string name="time_timer_time_remaining">Оставшееся время</string>
@@ -380,16 +390,33 @@
     <string name="time_timer_alert_bell_title">Уведомление</string>
     <string name="time_timer_alert_alarm_title">Будильник</string>
 
-    <string name="time_timer_reminder">Переодическое уведомление: оставшееся время</string>
-    <!--<string name="time_timer_reminder_elapse">Прошедшее время</string>-->
-    <!--<string name="time_timer_reminder_remaining">Оставшееся время</string>-->
+    <string name="time_timer_reminder">Переодическое уведомление, оставшееся время</string>
     <string name="time_timer_reminder_interval_before_title">Уведомлять заранее</string>
     <string name="time_timer_reminder_interval_before_off_title">Отключено</string>
     <string name="time_timer_reminder_interval_repeat_title">Интервал переодических уведомлений</string>
 
-    <!--<string name="time_timer_touch">Касание показывает время</string>-->
-    <!--<string name="time_timer_touch_elapse">Прошедшее время</string>-->
-    <!--<string name="time_timer_touch_remaining">Оставшееся время</string>-->
+    <string name="time_stopper_time_alert">Время сигнала</string>
+    <string name="time_stopper_time_elapsed">Elapsed time</string>
+
+    <string name="time_stopper_mode">Таймер</string>
+    <string name="time_stopper_mode_timer_title">Промежуток</string>
+    <string name="time_stopper_mode_time_title">Точное</string>
+
+    <string name="time_stopper_alert">Вид сигнала</string>
+    <string name="time_stopper_alert_bell_title">Уведомление</string>
+    <string name="time_stopper_alert_alarm_title">Будильник</string>
+
+    <string name="time_stopper_reminder">Переодическое уведомление, оставшееся время</string>
+    <string name="time_stopper_reminder_interval_before_title">Уведомлять заранее</string>
+    <string name="time_stopper_reminder_interval_before_off_title">Отключено</string>
+    <string name="time_stopper_reminder_interval_repeat_title">Интервал переодических уведомлений</string>
+
+    <string name="time_stopper_touch">Lap time, touch monitoring</string>
+    <string name="time_stopper_touch_record">Lap time recording by one touch</string>
+    <string name="time_stopper_touch_show">Lap time displaying by one touch</string>
+    <string name="time_stopper_touch_time_format">Time format</string>
+    <string name="time_stopper_touch_time_format_minute">hour\u2032 minute\u2033</string>
+    <string name="time_stopper_touch_time_format_second">minute\u2032 second\u2033</string>
 
     <string name="info_dialog_time"><![CDATA[<img src="ic_miband_bell"> <b><u>Уведомление</u></b>
         <p>Bluetooth-соединение необходимо для сигнала, один сигнал длительностью 10 секунд.</p>
@@ -416,7 +443,8 @@
         <br>- нет ограничения на контроль касаний
         <br>- префикс текстовых уведомлений
         <br>- <i>Измерение пульса</i>: установка промежутка измерений по желанию, настройка показа пульса
-        <br>- <i>Долго отсоединён</i>: установка промежутка уведомлений по желанию,  активация режима \'Не беспокоить\'</p>
+        <br>- <i>Долго отсоединён</i>: установка промежутка уведомлений по желанию,  активация режима \'Не беспокоить\'
+        <br>- repeated reminders can be set freely in time monitoring</p>
         <b>Правила и условия премиума:</b>
         <p>- Вы протестировали приложение, оно работает правильно.
         <br>- Вы предупреждены, что не можете требовать возмещения средств из-за багов, ошибок приложения, вызванных изменениями в приложении, вашими устройствами или другими приложениями.
@@ -429,7 +457,9 @@
     <string name="purchase_button_purchase">Приобрести</string>
 
     <!-- Others -->
-    <string name="dismiss">Отклонить</string>
+    <string name="action_dismiss">Отклонить</string>
+    <string name="action_setting">Настройки</string>
+    <string name="action_delete">Delete</string>
 
     <string name="power_on">Активация экрана</string>
     <string name="screen_unlock">Разблокировка экрана</string>

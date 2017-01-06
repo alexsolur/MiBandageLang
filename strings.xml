@@ -31,10 +31,11 @@
     <string name="mi_band_mac_address_invalid">MAC address is invalid</string>
 
     <!-- PreferenceScreen -->
-    <string name="pref_connected">Connection and notification settings</string>
+    <string name="pref_connected">Connection settings</string>
     <string name="pref_connected_summary">Mi Band 2 and device connection signal settings</string>
     <string name="pref_cat_connected_no_notif">Mi Band 2 connecting and not have notification</string>
-    <string name="pref_cat_connected_have_notif">Have notification (predefined app and Mi Band 2 icon signals)</string>
+    <string name="pref_cat_connected_have_notif">Predefined app and Mi Band 2 signal</string>
+    <string name="pref_cat_connected_have_notif_default">Predefined and custom settings</string>
     <string name="pref_connected_no_notif_title">Mi Band 2 signal</string>
     <string name="pref_connected_no_notif_summary_on">Vibration</string>
     <string name="pref_connected_no_notif_summary_off">No</string>
@@ -43,28 +44,30 @@
     <string name="pref_connected_no_notif_wakelock_summary_off">Off</string>
 
     <string name="pref_connected_have_notif_immediate_title">Immediate signal when notification is received</string>
-    <string name="pref_connected_have_notif_immediate_summary_off">Off</string>
-    <string name="pref_connected_have_notif_immediate_summary_on">On</string>
-    <string name="pref_connected_have_notif_title">When connecting to device</string>
-    <string name="pref_connected_have_notif_summary_off">Off</string>
-    <string name="pref_connected_have_notif_summary_on">On</string>
+    <!--<string name="pref_connected_have_notif_immediate_summary_off">Off</string>-->
+    <!--<string name="pref_connected_have_notif_immediate_summary_on">On</string>-->
+    <string name="pref_connected_have_notif_title">Signal when connecting to device</string>
+    <!--<string name="pref_connected_have_notif_summary_off">Off</string>-->
+    <!--<string name="pref_connected_have_notif_summary_on">On</string>-->
     <string name="pref_connected_have_notif_reminder_title">Reminder signal</string>
-    <string name="pref_connected_have_notif_reminder_summary_off">Off</string>
-    <string name="pref_connected_have_notif_reminder_summary_on">On</string>
+    <!--<string name="pref_connected_have_notif_reminder_summary_off">Off</string>-->
+    <!--<string name="pref_connected_have_notif_reminder_summary_on">On</string>-->
     <string name="pref_connected_have_notif_screen_off_title">Signal only when the screen is off</string>
-    <string name="pref_connected_have_notif_screen_off_summary_off">Off</string>
-    <string name="pref_connected_have_notif_screen_off_summary_on">On</string>
+    <!--<string name="pref_connected_have_notif_screen_off_summary_off">Off</string>-->
+    <!--<string name="pref_connected_have_notif_screen_off_summary_on">On</string>-->
     <string name="pref_connected_have_notif_interval_title">Reminder repeat interval</string>
     <string name="pref_connected_have_notif_counter_title">Signals cardinality</string>
     <string name="pref_connected_have_notif_wakelock_title">Wake up the device screen</string>
-    <string name="pref_connected_have_notif_wakelock_summary_off">Off</string>
-    <string name="pref_connected_have_notif_wakelock_summary_on">On</string>
-    <string name="pref_connected_have_notif_ongoing_title">Ongoing (permanent) notifications are enabled</string>
-    <string name="pref_connected_have_notif_ongoing_summary_off">Off</string>
-    <string name="pref_connected_have_notif_ongoing_summary_on">On</string>
-    <string name="pref_connected_have_notif_default_app_title">Not recognised app signal</string>
-    <string name="pref_connected_have_notif_default_app_summary_off">Off</string>
+    <!--<string name="pref_connected_have_notif_wakelock_summary_off">Off</string>-->
+    <!--<string name="pref_connected_have_notif_wakelock_summary_on">On</string>-->
+    <string name="pref_connected_have_notif_ongoing_title">Signal ongoing (permanent) notifications</string>
+    <!--<string name="pref_connected_have_notif_ongoing_summary_off">Off</string>-->
+    <!--<string name="pref_connected_have_notif_ongoing_summary_on">On</string>-->
+    <string name="pref_connected_have_notif_default_app_title">Signal not recognised app</string>
+    <!--<string name="pref_connected_have_notif_default_app_summary_off">Off</string>-->
     <string name="pref_connected_have_notif_default_app_summary_on">\'app\' icon (if app there is no in predefined and neither custom notification group)</string>
+    <string name="pref_connected_have_notif_pre_signal_title">Notification forecast</string>
+    <string name="pref_connected_have_notif_pre_signal_summary_on">Signal (modifiable) before the actual notification in order to have more time to look at the display</string>
 
     <string name="pref_disconnected">Disconnection and agent settings</string>
     <string name="pref_disconnected_summary">Mi Band 2 and device disconnection signal settings</string>
@@ -171,7 +174,7 @@
     <string name="message_discovered_mi_band">Mi Band 2 discovered</string>
     <string name="message_discovering_mi_band">Discovering Mi Band 2 (it may take 1 minute) &#8230;</string>
     <string name="message_discovered_no_mi_band">Mi Band 2 no discovered</string>
-    <string name="message_discovered_not_found_mi_band">If Mi Band 2 was not found, turn on: Mi Fit/Play/Discoverable</string>
+    <string name="message_discovered_not_found_mi_band">If Mi Band 2 was not found, turn on: Mi Fit/Play/Discoverable or pair at the Bluetooth settings</string>
     <string name="message_enable_notifications_access">Enable notification access: Settings/Notifications/Notification access</string>
     <string name="message_enable_notifications_access_4_4">Enable notification access: Settings/Security/Notification access</string>
     <string name="message_open_settings">Settings</string>
@@ -205,6 +208,7 @@
     <p>Mi Bandage requires the installation of the official Mi Fit app on the same device. At first you have to pair Mi Band 2 in Mi Fit app, then you can use Mi Bandage.</p>
     <p>If you use more applications to control Mi Band 2, they interfere with each other so temporarily turn off those.</p>
     <p>If Mi Band 2 is not found, then you can set the MAC address manually in the details menu (MAC address is found: Mi Fit/Profil/Mi Band 2).</p>
+    <p><b>If Mi Band 2 is not found or if you are having trouble syncing Mi Fit app, then install the BToolkit, nRF Connect or similar Bluetooth manager app and remove any pairing, bonded device.</b></p>
     <p>If you have problem (discover Mi Band 2, not have notification signal), please try it:
     <br>1. If you installed the Greenify (or other hibernating app) turn it off.
     <br>2. Install Mi Bandage app.
@@ -212,6 +216,10 @@
     <br>4. Turn off, on Bluetooth.
     <br>5. Open Mi Fit app, wait until the synchronization done, close it.
     <br>6. Open Mi Bandage app, click green discover button.</p>]]></string>
+
+    <!-- Notification  -->
+    <string name="notification_tab_settings">Setting</string>
+    <string name="notification_tab_custom">Custom notifications</string>
 
     <!-- Notification Dialog -->
     <string name="notification_group_name">Name</string>
@@ -261,7 +269,7 @@
         <p>Predefined signals can be disabled: <i>Connection and notification settings/Have notification</i>.</p>
         <p>The notifications group created by you has higher priority than the predefined.</p>
         <p>If you use the predefined apps, but want to exclude some notifications, then create new notification group with <i>exclusion notifications setting</i> and add the apps.</p>
-        <p>Swipe notification group to delete it.</p>]]>
+        ]]>
     </string>
 
     <!-- MiBandageApp chooser dialog -->
@@ -350,14 +358,14 @@
     <string name="alarm_mi_band_time">Timing of next alarm</string>
 
     <!--, otherwise the smart bracelet will alert (every day at <i>timing of next alarm</i>).</p>-->
-    <string name="info_dialog_alarm"><![CDATA[<b><u>Mi Band 2 signal</u></b>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_alarm"> <b><u>Mi Band 2 signal</u></b>
         <p>When specified period of time expires, Mi Band 2 send signals if not connected to the device.<p>
-        <p>App uses alarm function of Mi Fit to alert (overwrite 10. setting)</p>
+        <p>App uses alarm function of Mi Fit to alert (overwrite 10. setting).</p>
         <p>The alarm will be repeated several times if the Mi Band 2 do not detect any movement (because it uses the factory alarm).</p>
         <p>Before switching off Bluetooth or uninstalling the app you need to deactivate Mi Band 2 signal.</p>
         <p>If you remove the application when the alarm is on, then you can disable it with turning on and off again Mi Fit 10. alarm setting.</p>
 
-        <b><u>Device signals</u></b>
+        <img src="ic_phone_android"> <b><u>Device signals</u></b>
         <p>When specified period of time expires, device send signals repeatedly if not connected to the bracelet.<p>
         <p>This makes it easier to find the device. If someone else finds the device and it is locked he does not know who to notify, so you can display a message.</p>
         <p>When bracelet is connected, alarm stops.</p>
@@ -366,8 +374,8 @@
 
     <!-- Time  monitoring -->
     <string name="time_tab_timer">Timer</string>
-    <string name="time_tab_alarm">Alarm</string>
-    <string name="time_tab_stopper">Stopper</string>
+    <string name="time_tab_stopper">Stopwatch</string>
+    <string name="time_tab_lap">Lap time</string>
 
     <string name="time_timer_time_alert">Alarm time</string>
     <string name="time_timer_time_remaining">Remaining time</string>
@@ -381,19 +389,37 @@
     <string name="time_timer_alert_alarm_title">Alarm</string>
 
     <string name="time_timer_reminder">Reminder signal, remaining time</string>
-    <!--<string name="time_timer_reminder_elapse">Elapsed time</string>-->
-    <!--<string name="time_timer_reminder_remaining">Remaining time</string>-->
     <string name="time_timer_reminder_interval_before_title">Before time</string>
     <string name="time_timer_reminder_interval_before_off_title">Off</string>
     <string name="time_timer_reminder_interval_repeat_title">Reminder repeat interval</string>
 
-    <!--<string name="time_timer_touch">Touch shows the time</string>-->
-    <!--<string name="time_timer_touch_elapse">Elapsed time</string>-->
-    <!--<string name="time_timer_touch_remaining">Remaining time</string>-->
+    <string name="time_stopper_time_alert">Alarm time</string>
+    <string name="time_stopper_time_elapsed">Elapsed time</string>
 
-    <string name="info_dialog_time"><![CDATA[<b><u>Időzítő</u></b>
-        <p><img src="ic_miband_bell"> Bell: Bluetooth connection is required for alarm, it alarms justt only once for 10 seconds.</p>
-        <p><img src="ic_access_time"> Alarm: Bluetooth connection is not required for alarm, app uses alarm function of Mi Fit to alert (overwrite 9. setting)
+    <string name="time_stopper_mode">Stopwatch</string>
+    <string name="time_stopper_mode_timer_title">Timing</string>
+    <string name="time_stopper_mode_time_title">Time</string>
+
+    <string name="time_stopper_alert">Alarm type</string>
+    <string name="time_stopper_alert_bell_title">Bell</string>
+    <string name="time_stopper_alert_alarm_title">Alarm</string>
+
+    <string name="time_stopper_reminder">Reminder signal, elapsed time</string>
+    <string name="time_stopper_reminder_interval_before_title">Before time</string>
+    <string name="time_stopper_reminder_interval_before_off_title">Off</string>
+    <string name="time_stopper_reminder_interval_repeat_title">Reminder repeat interval</string>
+
+    <string name="time_stopper_touch">Lap time, touch monitoring</string>
+    <string name="time_stopper_touch_record">Lap time recording by one touch</string>
+    <string name="time_stopper_touch_show">Lap time displaying by one touch</string>
+    <string name="time_stopper_touch_time_format">Time format</string>
+    <string name="time_stopper_touch_time_format_minute">hr\u2032 min\u2033</string>
+    <string name="time_stopper_touch_time_format_second">min\u2032 sec\u2033</string>
+
+    <string name="info_dialog_time"><![CDATA[<img src="ic_miband_bell"> <b><u>Bell</u></b>
+        <p>Bluetooth connection is required for alarm, it alarms just only once for 10 seconds.</p>
+        <img src="ic_access_time">  <b><u>Alarm</u></b>
+        <p>Bluetooth connection is not required for alarm, app uses alarm function of Mi Fit to alert (overwrite 9. setting).
         <br>The alarm will be repeated several times if the Mi Band 2 do not detect any movement (because it uses the factory alarm).</p>
         <p>Reminder signal requires Bluetooth connection.</p>
     ]]></string>
@@ -415,7 +441,8 @@
         <br>- unlimited touch monitoring
         <br>- text prefix can be used in notification monitoring
         <br>- repeat interval can be set freely and show pulse can be used in pulse monitoring function
-        <br>- repeat interval can be set freely and dnd mode can be used in lost monitoring function</p>
+        <br>- repeat interval can be set freely and dnd mode can be used in lost monitoring function
+        <br>- repeated reminders can be set freely in time monitoring</p>
         <b>Terms and conditions of Premium mode:</b>
         <p>- I have tested the app and it is working properly.
         <br>- I am aware of that I can not require compensation or refund due to bugs, software errors caused by changes in the software, hardware environment or using other applications.
@@ -428,13 +455,15 @@
     <string name="purchase_button_purchase">Purchase</string>
 
     <!-- Others -->
-    <string name="dismiss">Dismiss</string>
+    <string name="action_dismiss">Dismiss</string>
+    <string name="action_setting">Setting</string>
+    <string name="action_delete">Delete</string>
 
     <string name="power_on">Power on</string>
     <string name="screen_unlock">Unlocking the screen</string>
     <string name="motion">Motion detected</string>
 
-    <!-- Constans -->
+    <!-- Constante -->
     <string name="const_time_abbreviation_hour">h</string>
     <string name="const_time_abbreviation_minute">m</string>
     <string name="const_time_abbreviation_sec">s</string>
