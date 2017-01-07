@@ -32,12 +32,12 @@
 
     <!-- PreferenceScreen -->
     <!--<string name="pref_connected">Настройки соединения и уведомлений</string>-->
-    <string name="pref_connected">Connection settings</string>
+    <string name="pref_connected">Настройки соединения</string>
     <string name="pref_connected_summary">Настройки соединения Mi Band 2 и устройства</string>
     <string name="pref_cat_connected_no_notif">Присоединение Mi Band 2 в отсутствие новых уведомлений</string>
     <!--<string name="pref_cat_connected_have_notif">Есть уведомления (настроенные приложения и иконки)</string>-->
-    <string name="pref_cat_connected_have_notif">Predefined app and Mi Band 2 signal</string>
-    <string name="pref_cat_connected_have_notif_default">Predefined and custom settings</string>
+    <string name="pref_cat_connected_have_notif">Изначально заданные приложения и уведомления Mi Band 2</string>
+    <string name="pref_cat_connected_have_notif_default">Предустановленные и пользовательские настройки</string>
     <string name="pref_connected_no_notif_title">Уведомление Mi Band 2</string>
     <string name="pref_connected_no_notif_summary_on">Вибрация</string>
     <string name="pref_connected_no_notif_summary_off">Нет</string>
@@ -68,8 +68,8 @@
     <string name="pref_connected_have_notif_default_app_title">Уведомления нараспознанных приложений</string>
     <!--<string name="pref_connected_have_notif_default_app_summary_off">Отключено</string>-->
     <string name="pref_connected_have_notif_default_app_summary_on">Иконка \'app\' для не рассортированных по группам или предопределённых</string>
-    <string name="pref_connected_have_notif_pre_signal_title">Notification forecast</string>
-    <string name="pref_connected_have_notif_pre_signal_summary_on">Signal (modifiable) before the actual notification in order to have more time to look at the display</string>
+    <string name="pref_connected_have_notif_pre_signal_title">Предсказание уведомлений</string>
+    <string name="pref_connected_have_notif_pre_signal_summary_on">Уведомдение (настраиваемое) перед настоящим уведомлением, чтобы успеть увидеть его на Mi Band 2</string>
 
     <string name="pref_disconnected">Лог действий и сигналы отсоединения</string>
     <string name="pref_disconnected_summary">Настройки сигнала рассоединения Mi Band 2 и устройства</string>
@@ -176,7 +176,7 @@
     <string name="message_discovered_mi_band">Mi Band 2 подключён</string>
     <string name="message_discovering_mi_band">Поиск Mi Band 2 (это может занять около минуты) &#8230;</string>
     <string name="message_discovered_no_mi_band">Mi Band 2 не подключён</string>
-    <string name="message_discovered_not_found_mi_band">Если Mi Band 2 не обнаружен, включите: Mi Fit/Уведомления/Видимость or pair at the Bluetooth settings</string>
+    <string name="message_discovered_not_found_mi_band">Если Mi Band 2 не обнаружен, включите: Mi Fit/Уведомления/Видимость или свяжите через настройки Bluetooth устройства</string>
     <string name="message_enable_notifications_access">Разрешите доступ к уведомлениям</string>
     <string name="message_enable_notifications_access_4_4">Разрешите доступ к уведомлениям</string>
     <string name="message_open_settings">Настройки</string>
@@ -210,7 +210,7 @@
     <p>Mi Bandage тебуется приложение Mi Fit на устройстве. Сначала, подключите Mi Band 2 к Mi Fit, потом пользуйтесь Mi Bandage.</p>
     <p>Если вы используете несколько приложений для управления Mi Band 2, они могут мешать друг другу, поэтому временно отключите их.</p>
     <p>Если Mi Band 2 не обнаружен, вы можете установить MAC вручную в настройках (MAC можно найти в: Mi Fit/Профиль/Mi Band 2).</p>
-    <p><b>If Mi Band 2 is not found or if you are having trouble syncing Mi Fit app, then install the BToolkit, nRF Connect or similar Bluetooth manager app and remove any pairing, bonded device.</b></p>
+    <p><b>Если Mi Band 2 не обнаружен или имеются проблемы синхронизации в Mi Fit, установите BToolkit, nRF Connect или друго приложение управления Bluetooth и удалите связанные устройства.</b></p>
     <p>При неполадках (обнаружение Mi Band 2, отсутствие уведомлений), попробуйте:
     <br>1. Если у вас установлено приложение Greenify (или другое приложение для гибернации) настоятельно рекомендуется отключить его.
     <br>2. (Пере-)Установить Mi Bandage.
@@ -220,8 +220,8 @@
     <br>6. Открыть Mi Bandage, нажать зелёную кнопку обнаружения.</p>]]></string>
 
     <!-- Notification  -->
-    <string name="notification_tab_settings">Setting</string>
-    <string name="notification_tab_custom">Custom notifications</string>
+    <string name="notification_tab_settings">Настойки</string>
+    <string name="notification_tab_custom">Пользовательские</string>
 
     <!-- Notification Dialog -->
     <string name="notification_group_name">Название группы</string>
@@ -316,7 +316,7 @@
         <p>Зелёная иконка указывает, что другая функция похожа на текущую комбинацию.</p>
         <p>Во время входящего звонка не обрабатываются следующие функции: Положение устройства, Повтор уведомлений и Воспроизведение во избежание нежелательных срабатываний.</p>
         <p>Распознанная функция не выполняется в тестовом режиме.</p>
-        <p>Mi Band 2 vibration feedback just only, if there is a pattern taking into account the current status of the device (call answering, rejecting only if there is an incoming call…).</p>
+        <p>Вибрация Mi Band 2 срабатывает, если есть действительная комбинация с учётом текущего состояния устройства (ответ на звонок, отмена звонка только во время входящего звока и т. д.…).</p>
         <p>Mi Band 2 вибрирует один раз, когда распознаёт комбинацию.</p>
         <p>Mi Band 2 вибрирует дважды, когда не распознаёт ни одну комбинацию после самой длинной (если <i>Не распознанные нажатия</i> включены).</p>]]>
     </string>
@@ -376,8 +376,8 @@
 
     <!-- Time  monitoring -->
     <string name="time_tab_timer">Таймер</string>
-    <string name="time_tab_stopper">Stopwatch</string>
-    <string name="time_tab_lap">Lap time</string>
+    <string name="time_tab_stopper">Секундомер</string>
+    <string name="time_tab_lap">Время круга</string>
 
     <string name="time_timer_time_alert">Время сигнала</string>
     <string name="time_timer_time_remaining">Оставшееся время</string>
@@ -396,7 +396,7 @@
     <string name="time_timer_reminder_interval_repeat_title">Интервал переодических уведомлений</string>
 
     <string name="time_stopper_time_alert">Время сигнала</string>
-    <string name="time_stopper_time_elapsed">Elapsed time</string>
+    <string name="time_stopper_time_elapsed">Прошедщее время</string>
 
     <string name="time_stopper_mode">Таймер</string>
     <string name="time_stopper_mode_timer_title">Промежуток</string>
@@ -411,12 +411,12 @@
     <string name="time_stopper_reminder_interval_before_off_title">Отключено</string>
     <string name="time_stopper_reminder_interval_repeat_title">Интервал переодических уведомлений</string>
 
-    <string name="time_stopper_touch">Lap time, touch monitoring</string>
-    <string name="time_stopper_touch_record">Lap time recording by one touch</string>
-    <string name="time_stopper_touch_show">Lap time displaying by one touch</string>
-    <string name="time_stopper_touch_time_format">Time format</string>
-    <string name="time_stopper_touch_time_format_minute">hour\u2032 minute\u2033</string>
-    <string name="time_stopper_touch_time_format_second">minute\u2032 second\u2033</string>
+    <string name="time_stopper_touch">Время круга, касания</string>
+    <string name="time_stopper_touch_record">Запись времени круга по касанию</string>
+    <string name="time_stopper_touch_show">Отображение времени круга по касанию</string>
+    <string name="time_stopper_touch_time_format">Формат времени</string>
+    <string name="time_stopper_touch_time_format_minute">ч\u2032 мин\u2033</string>
+    <string name="time_stopper_touch_time_format_second">мин\u2032 с\u2033</string>
 
     <string name="info_dialog_time"><![CDATA[<img src="ic_miband_bell"> <b><u>Уведомление</u></b>
         <p>Bluetooth-соединение необходимо для сигнала, один сигнал длительностью 10 секунд.</p>
@@ -444,7 +444,7 @@
         <br>- префикс текстовых уведомлений
         <br>- <i>Измерение пульса</i>: установка промежутка измерений по желанию, настройка показа пульса
         <br>- <i>Долго отсоединён</i>: установка промежутка уведомлений по желанию,  активация режима \'Не беспокоить\'
-        <br>- repeated reminders can be set freely in time monitoring</p>
+        <br>- <i>Время</i>: установка промежутка уведомлений по желанию</p>
         <b>Правила и условия премиума:</b>
         <p>- Вы протестировали приложение, оно работает правильно.
         <br>- Вы предупреждены, что не можете требовать возмещения средств из-за багов, ошибок приложения, вызванных изменениями в приложении, вашими устройствами или другими приложениями.
@@ -459,7 +459,7 @@
     <!-- Others -->
     <string name="action_dismiss">Отклонить</string>
     <string name="action_setting">Настройки</string>
-    <string name="action_delete">Delete</string>
+    <string name="action_delete">Удалить</string>
 
     <string name="power_on">Активация экрана</string>
     <string name="screen_unlock">Разблокировка экрана</string>
