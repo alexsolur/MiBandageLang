@@ -10,8 +10,9 @@
     <string name="drawer_nav_alarm">Lost monitoring</string>
     <string name="drawer_nav_pulse">Pulse monitoring</string>
     <string name="drawer_nav_time">Time monitoring</string>
-    <string name="drawer_nav_disconnected_agent">Agent log</string>
+    <string name="drawer_nav_disconnected_agent">Agent</string>
     <string name="drawer_nav_premium_mode">Premium mode</string>
+    <string name="drawer_nav_feedback">Feedback</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
     <!-- Strings related to Settings -->
@@ -66,10 +67,10 @@
     <string name="pref_connected_have_notif_default_app_title">Signal not recognised app</string>
     <!--<string name="pref_connected_have_notif_default_app_summary_off">Off</string>-->
     <string name="pref_connected_have_notif_default_app_summary_on">\'app\' icon (if app there is no in predefined and neither custom notification group)</string>
-    <string name="pref_connected_have_notif_pre_signal_title">Notification forecast</string>
+    <string name="pref_connected_have_notif_pre_signal_title">Notification prediction</string>
     <string name="pref_connected_have_notif_pre_signal_summary_on">Signal (modifiable) before the actual notification in order to have more time to look at the display</string>
 
-    <string name="pref_disconnected">Disconnection and agent settings</string>
+    <string name="pref_disconnected">Disconnection settings</string>
     <string name="pref_disconnected_summary">Mi Band 2 and device disconnection signal settings</string>
     <string name="pref_cat_disconnected">Device signals</string>
     <string name="pref_disconnected_ringtone_title">Ringtone</string>
@@ -80,20 +81,6 @@
     <string name="pref_disconnected_wakelock_title">Wake up the device screen</string>
     <string name="pref_disconnected_wakelock_summary_on">On</string>
     <string name="pref_disconnected_wakelock_summary_off">Off</string>
-
-    <string name="pref_cat_disconnected_agent">Device monitoring agent</string>
-    <string name="pref_disconnected_agent_title">Agent</string>
-    <string name="pref_disconnected_agent_summary_on">On (if someone tampered with the device while you are away, you will know)</string>
-    <string name="pref_disconnected_agent_summary_off">Off</string>
-    <string name="pref_disconnected_agent_text">Someone tampered with the device, while you were gone</string>
-
-    <string name="pref_disconnected_agent_user_present_summary_off">Off</string>
-    <string name="pref_disconnected_agent_user_present_summary_on">On</string>
-    <string name="pref_disconnected_agent_user_present_title">Wake up the device screen monitoring</string>
-
-    <string name="pref_disconnected_agent_screen_on_and_motion_summary_off">Off</string>
-    <string name="pref_disconnected_agent_screen_on_and_motion_summary_on">On</string>
-    <string name="pref_disconnected_agent_screen_on_and_motion_title">Power on and motion monitoring</string>
 
     <!--<string name="pref_abandoned">Lost device settings</string>-->
     <!--<string name="pref_abandoned_summary">Lost device settings (must be enabled to display notification on the lock screen)</string>-->
@@ -117,10 +104,18 @@
     <string name="pref_call_text_summary_on"><![CDATA[On (more information: <i>Settings/Text icons settings)</i>]]></string>
     <string name="pref_call_text_summary_off">Off</string>
 
+    <string name="pref_call_net_text_title">Incoming internet call signal, display caller ID</string>
+    <string name="pref_call_net_text_summary_off">Off</string>
+    <string name="pref_call_net_text_summary_on">Viber</string>
+
     <string name="pref_cat_call_missed">Missed call</string>
     <string name="pref_call_missed_title">Missed call signal</string>
     <string name="pref_call_missed_summary_off">Off</string>
     <string name="pref_call_missed_summary_on">On</string>
+
+    <string name="pref_call_missed_net_title">Missed internet call signal, display caller ID</string>
+    <string name="pref_call_missed_net_summary_off">Off</string>
+    <string name="pref_call_missed_net_summary_on">Viber</string>
 
     <string name="pref_call_missed_alert_title">Mi Band 2 signal</string>
 
@@ -156,6 +151,14 @@
     <string name="pref_touch_recognised_failed_summary_off">Off</string>
     <string name="pref_touch_recognised_failed_summary_on">On (2 vibrations after the longest pattern)</string>
 
+    <string name="pref_mi_band">Mi Band 2 settings</string>
+    <string name="pref_cat_mi_band_lift_wrist">Lift wrist to view info</string>
+    <string name="pref_mi_band_lift_wrist_dnd_title">Do not disturb mode</string>
+    <string name="pref_mi_band_lift_wrist_dnd_summary_on">On (in the specified period will not display the information, Bluetooth connection is required for setting)</string>
+    <string name="pref_mi_band_lift_wrist_dnd_summary_off">Off</string>
+    <string name="pref_mi_band_lift_wrist_dnd_time_start_title">Start time</string>
+    <string name="pref_mi_band_lift_wrist_dnd_time_end_title">End time</string>
+
     <string name="pref_language">Language settings</string>
     <string name="pref_cat_language">Language</string>
     <string name="pref_language_title">Language</string>
@@ -168,13 +171,17 @@
     <!--<string name="abandoned">Lost device signal</string>-->
     <string name="touch">Touch monitoring</string>
 
+    <string name="pref_dnd_title">Do not disturb mode</string>
+    <string name="pref_dnd_time_start_title">Start time</string>
+    <string name="pref_dnd_time_end_title">End time</string>
+
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Please enable Bluetooth and bring the Mi Band 2 device closer to the phone</string>
     <string name="message_discover_mi_band">Mi Band 2 is not set, please discover it</string>
     <string name="message_discovered_mi_band">Mi Band 2 discovered</string>
     <string name="message_discovering_mi_band">Discovering Mi Band 2 (it may take 1 minute) &#8230;</string>
     <string name="message_discovered_no_mi_band">Mi Band 2 no discovered</string>
-    <string name="message_discovered_not_found_mi_band">If Mi Band 2 was not found, turn on: Mi Fit/Play/Discoverable or pair at the Bluetooth settings</string>
+    <string name="message_discovered_not_found_mi_band">If Mi Band 2 was not found, turn on: Mi Fit/Play/Discoverable or pair at the device Bluetooth settings</string>
     <string name="message_enable_notifications_access">Enable notification access: Settings/Notifications/Notification access</string>
     <string name="message_enable_notifications_access_4_4">Enable notification access: Settings/Security/Notification access</string>
     <string name="message_open_settings">Settings</string>
@@ -413,8 +420,10 @@
     <string name="time_stopper_touch_record">Lap time recording by one touch</string>
     <string name="time_stopper_touch_show">Lap time displaying by one touch</string>
     <string name="time_stopper_touch_time_format">Time format</string>
-    <string name="time_stopper_touch_time_format_minute">hr\u2032 min\u2033</string>
-    <string name="time_stopper_touch_time_format_second">min\u2032 sec\u2033</string>
+    <string name="time_stopper_touch_time_format_minute">hour\u2032 min\u2033</string>
+    <string name="time_stopper_touch_time_format_second">min\u2032 second\u2033</string>
+
+    <string name="time_lap_details">Lap time details</string>
 
     <string name="info_dialog_time"><![CDATA[<img src="ic_miband_bell"> <b><u>Bell</u></b>
         <p>Bluetooth connection is required for alarm, it alarms just only once for 10 seconds.</p>
@@ -423,6 +432,16 @@
         <br>The alarm will be repeated several times if the Mi Band 2 do not detect any movement (because it uses the factory alarm).</p>
         <p>Reminder signal requires Bluetooth connection.</p>
     ]]></string>
+
+    <!-- Agent -->
+    <string name="agent_title">Device monitoring agent</string>
+    <string name="agent_tab_events">Agent log</string>
+    <string name="agent_tab_settings">Setting</string>
+
+    <string name="pref_disconnected_agent_summary_on">If someone tampered with the device while you are away, you will know</string>
+    <string name="pref_disconnected_agent_text">Someone tampered with the device, while you were gone</string>
+    <string name="pref_disconnected_agent_user_present_title">Wake up the device screen monitoring</string>
+    <string name="pref_disconnected_agent_screen_on_and_motion_title">Power on and motion monitoring</string>
 
     <!-- Agent log info dialog -->
     <string name="info_dialog_disconnected_agent"><![CDATA[Events detected by the device management agent:
@@ -453,6 +472,11 @@
 
     <string name="purchase_agree">I agree to the terms and conditions.</string>
     <string name="purchase_button_purchase">Purchase</string>
+
+    <!-- Feedback -->
+    <string name="feedback_google_play_title">Rate this app</string>
+    <string name="feedback_request_feature_title">Request feature</string>
+    <string name="feedback_request_feature_summary">Automatic e-mail processing, you get no response</string>
 
     <!-- Others -->
     <string name="action_dismiss">Dismiss</string>
