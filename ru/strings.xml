@@ -12,7 +12,7 @@
     <string name="drawer_nav_time">Время</string>
     <string name="drawer_nav_disconnected_agent">Лог действий</string>
     <string name="drawer_nav_premium_mode">Премиум</string>
-    <string name="drawer_nav_feedback">Feedback</string>
+    <string name="drawer_nav_feedback">Обратная связь</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
     <!-- Strings related to Settings -->
@@ -72,8 +72,8 @@
     <string name="pref_connected_have_notif_pre_signal_title">Предсказание уведомлений</string>
     <string name="pref_connected_have_notif_pre_signal_summary_on">Уведомдение (настраиваемое) перед настоящим уведомлением, чтобы успеть увидеть его на Mi Band 2</string>
 
-    <string name="pref_disconnected">Cигналы отсоединения</string>
-    <string name="pref_disconnected_summary">Настройки сигнала рассоединения Mi Band 2 и устройства</string>
+    <string name="pref_disconnected">Настройки отсоединения</string>
+    <string name="pref_disconnected_summary">Настройки рассоединения Mi Band 2 и устройства</string>
     <string name="pref_cat_disconnected">Сигналы при отсоединении</string>
     <string name="pref_disconnected_ringtone_title">Рингтон</string>
     <string name="pref_disconnected_ringtone_summary_no">Нет</string>
@@ -111,14 +111,14 @@
     <string name="pref_call_missed_summary_off">Отключено</string>
     <string name="pref_call_missed_summary_on">Включено</string>
 
-    <string name="pref_call_net_text_title">Incoming internet call signal, display caller ID</string>
-    <string name="pref_call_net_text_summary_off">Off</string>
+    <string name="pref_call_net_text_title">Входящий интернет-вызов, отображение ID звонящего</string>
+    <string name="pref_call_net_text_summary_off">Отключено</string>
     <string name="pref_call_net_text_summary_on">Viber</string>
 
     <string name="pref_call_missed_alert_title">Уведомление Mi Band 2</string>
 
-    <string name="pref_call_missed_net_title">Missed internet call signal, display caller ID</string>
-    <string name="pref_call_missed_net_summary_off">Off</string>
+    <string name="pref_call_missed_net_title">Пропущенный интернет-вызов, отображение ID звонящего</string>
+    <string name="pref_call_missed_net_summary_off">Отключено</string>
     <string name="pref_call_missed_net_summary_on">Viber</string>
 
     <string name="pref_call_missed_text_prefix_title">Префикс текста: %1$s</string>
@@ -153,10 +153,10 @@
     <string name="pref_touch_recognised_failed_summary_off">Отключено</string>
     <string name="pref_touch_recognised_failed_summary_on">Включено (2 вибрации после длиннейшей комбинации)</string>
 
-    <string name="pref_mi_band">Mi Band 2 settings</string>
-    <string name="pref_cat_mi_band_lift_wrist">Lift wrist to view info</string>
+    <string name="pref_mi_band">Настройки Mi Band 2</string>
+    <string name="pref_cat_mi_band_lift_wrist">Поворот запястья</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Режим \"Не беспокоить\"</string>
-    <string name="pref_mi_band_lift_wrist_dnd_summary_on">Включено (in the specified period will not display the information, Bluetooth connection is required for setting)</string>
+    <string name="pref_mi_band_lift_wrist_dnd_summary_on">Включено (в заданный промежуток времени отображение отключено, необоходимо Bluetooth-соединение)</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_off">Отключено</string>
     <string name="pref_mi_band_lift_wrist_dnd_time_start_title">Время начала</string>
     <string name="pref_mi_band_lift_wrist_dnd_time_end_title">Время окончания</string>
@@ -227,7 +227,7 @@
     <br>6. Открыть Mi Bandage, нажать зелёную кнопку обнаружения.</p>]]></string>
 
     <!-- Notification  -->
-    <string name="notification_tab_settings">Настойки</string>
+    <string name="notification_tab_settings">Настройки</string>
     <string name="notification_tab_custom">Пользовательские</string>
 
     <!-- Notification Dialog -->
@@ -422,8 +422,8 @@
     <string name="time_stopper_touch_record">Запись времени круга по касанию</string>
     <string name="time_stopper_touch_show">Отображение времени круга по касанию</string>
     <string name="time_stopper_touch_time_format">Формат времени</string>
-    <string name="time_stopper_touch_time_format_minute">час\u2032 мин\u2033</string>
-    <string name="time_stopper_touch_time_format_second">мин\u2032 секунда\u2033</string>
+    <string name="time_stopper_touch_time_format_minute">ч\u2032 мин\u2033</string>
+    <string name="time_stopper_touch_time_format_second">мин\u2032 с\u2033</string>
 
     <string name="time_lap_details">Время круга</string>
 
@@ -476,9 +476,9 @@
     <string name="purchase_button_purchase">Приобрести</string>
 
     <!-- Feedback -->
-    <string name="feedback_google_play_title">Rate this app</string>
-    <string name="feedback_request_feature_title">Request feature</string>
-    <string name="feedback_request_feature_summary">Automatic e-mail processing, you get no response (English preferred)</string>
+    <string name="feedback_google_play_title">Оцените приложение</string>
+    <string name="feedback_request_feature_title">Запрос функций</string>
+    <string name="feedback_request_feature_summary">Автоматическая обработка электронной почты, без ответа (Английский настоятельно рекомендуется)</string>
 
     <!-- Others -->
     <string name="action_dismiss">Отклонить</string>
