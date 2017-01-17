@@ -273,17 +273,23 @@
         <br><img src="ALERT_DINGTALK">  DingTalk
         <br><img src="ALERT_APP">  others
 
-        <p>Predefined signals can be disabled: <i>Connection and notification settings/Have notification</i>.</p>
         <p>The notifications group created by you has higher priority than the predefined.</p>
         <p>If you use the predefined apps, but want to exclude some notifications, then create new notification group with <i>exclusion notifications setting</i> and add the apps.</p>
         ]]>
     </string>
+        <!--<p>Predefined signals can be disabled: <i>Connection and notification settings/Have notification</i>.</p>-->
 
     <!-- MiBandageApp chooser dialog -->
     <string name="action_search">Search</string>
 
     <!-- Touch monitoring -->
-    <string name="touch_device_location_title">Location of the device</string>
+    <string name="touch_headline_call_title">Call control</string>
+    <string name="touch_headline_music_title">Music control</string>
+    <string name="touch_headline_time_title">Timer/stopwatch control</string>
+    <string name="touch_headline_other_title">Other controls</string>
+
+    <!--<string name="touch_device_location_title">Location of the device</string>-->
+    <string name="touch_device_location_title">Find my device</string>
     <string name="touch_device_location_ringtone_title_no">None</string>
 
     <string name="touch_call_answer_title">Call answering</string>
@@ -301,6 +307,13 @@
     <string name="touch_music_play_pause_title">Music start, play, pause</string>
     <string name="touch_music_skip_next_title">Music start, next song</string>
     <string name="touch_music_headset_only_title">Only if the headset is connected</string>
+    <string name="touch_music_volume_up_title">Music volume up</string>
+    <string name="touch_music_volume_down_title">Music volume down</string>
+
+    <string name="touch_time_launch_title">Start timer/stopwatch</string>
+    <string name="touch_time_launch_type_timer_title">Timer</string>
+    <string name="touch_time_launch_type_stopper_title">Stopwatch</string>
+    <string name="touch_time_reminder_title">Remaining/elapsed time</string>
 
     <string name="touch_app_launcher1_title">App launcher</string>
     <string name="touch_app_launcher_package_no_title">Select an application</string>
@@ -324,6 +337,14 @@
         <p>Mi Band 2 vibration feedback just only, if there is a pattern taking into account the current status of the device (call answering, rejecting only if there is an incoming call…).</p>
         <p>Mi Band 2 vibrates once, when recognise a pattern.</p>
         <p>Mi Band 2 vibrates twice, when not recognise any pattern after the longest pattern (if <i>Not recognisable touch pattern signal</i> is set).</p>
+        <p>Valid touching examples:
+        <br>- touch
+        <br>- touch and 1sec waiting, touch
+        <br>- touch and 1sec waiting, touch and 1sec waiting, touch
+        <br>- touch and 2sec waiting, touch
+        <br>- touch and 2sec waiting, touch and 1sec waiting, touch
+        <br>- touch and 2sec waiting, touch and 2sec waiting, touch
+        </p>
     ]]></string>
 
     <!-- Pulse  monitoring -->
