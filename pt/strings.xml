@@ -12,7 +12,7 @@
     <string name="drawer_nav_time">Monitorar tempo</string>
     <string name="drawer_nav_disconnected_agent">Registo do agente</string>
     <string name="drawer_nav_premium_mode">Modo premium</string>
-    <string name="drawer_nav_feedback">Comentários</string>
+    <string name="drawer_nav_feedback">Feedback</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
     <!-- Strings related to Settings -->
@@ -285,10 +285,10 @@
     <string name="action_search">Procurar</string>
 
     <!-- Touch monitoring -->
-    <string name="touch_headline_call_title">Call control</string>
-    <string name="touch_headline_music_title">Music control</string>
-    <string name="touch_headline_time_title">Timer/stopwatch control</string>
-    <string name="touch_headline_other_title">Other controls</string>
+    <string name="touch_headline_call_title">Controlar chamada</string>
+    <string name="touch_headline_music_title">Controlar música</string>
+    <string name="touch_headline_time_title">Controlar cronómetro/temporizador</string>
+    <string name="touch_headline_other_title">Outros controlos</string>
 
     <string name="touch_device_location_title">Localização do dispositivo</string>
     <string name="touch_device_location_ringtone_title_no">Nenhum</string>
@@ -308,13 +308,13 @@
     <string name="touch_music_play_pause_title">Iniciar aplicação música, tocar/pausar música</string>
     <string name="touch_music_skip_next_title">Iniciar aplicação música, próximo som</string>
     <string name="touch_music_headset_only_title">Só se o headset estiver conectado</string>
-    <string name="touch_music_volume_up_title">Music volume up</string>
-    <string name="touch_music_volume_down_title">Music volume down</string>
+    <string name="touch_music_volume_up_title">Subir o volume da música</string>
+    <string name="touch_music_volume_down_title">Descer o volume da música</string>
 
-    <string name="touch_time_launch_title">Start timer/stopwatch</string>
+    <string name="touch_time_launch_title">Iniciar temporizador/cronómetro</string>
     <string name="touch_time_launch_type_timer_title">Temporizador</string>
     <string name="touch_time_launch_type_stopper_title">Cronómetro</string>
-    <string name="touch_time_reminder_title">Remaining/elapsed time</string>
+    <string name="touch_time_reminder_title">Tempo restante/passado</string>
 
     <string name="touch_app_launcher1_title">Iniciar aplicações</string>
     <string name="touch_app_launcher_package_no_title">Selecionar uma aplicação</string>
@@ -338,13 +338,13 @@
         <p>Feedback da vibração da Mi Band 2 se houver um padrão, levando em consideração o status atual do telemóvel (atendimento de chamadas, rejeição somente se houver uma chamada recebida, …).</p>
         <p>A Mi Band 2 vibra uma vez, quando reconhece um padrão.</p>
         <P>A Mi Band 2 vibra duas vezes, quando não reconhece nenhum padrão após o padrão mais longo (se <i>o sinal do padrão de toque não é reconhecido</ i>).</p>
-        <p>Valid touching examples:
-        <br>- touch
-        <br>- touch and 1sec waiting, touch
-        <br>- touch and 1sec waiting, touch and 1sec waiting, touch
-        <br>- touch and 2sec waiting, touch
-        <br>- touch and 2sec waiting, touch and 1sec waiting, touch
-        <br>- touch and 2sec waiting, touch and 2sec waiting, touch
+        <p>Exemplos de touch válidos:
+        <br>- toca
+        <br>- toca e espera 1seg, toca
+        <br>- toca e espera 1seg, toca e espera 1seg, toca
+        <br>- toca e espera 2seg, toca
+        <br>- toca e espera 2seg, toca e espera 1seg, toca
+        <br>- toca e espera 2seg, toca e espera 2seg, toca
         </p>
     ]]></string>
 
