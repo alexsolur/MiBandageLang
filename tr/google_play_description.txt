@@ -1,1 +1,71 @@
+Uygulama şu anda yalnızca Xiaomi Mi Band 2'yi destekliyor.
 
+Mi Bandage, resmi Mi Fit uygulamasının aynı cihaza kurulmasını gerektiriyor. İlk önce Mi Fit uygulamasında Xiaomi Mi Band 2'yi eşleştirmeniz gerekir; o zaman Mi Bandaj'ı kullanabilirsiniz.
+
+<b>MIUI kullanıcıları: Mi Band 2 bulunamazsa veya Mi Fit uygulamasını senkronize ederken sorun yaşıyorsanız, BToolkit, nRF Connect veya benzeri Bluetooth yöneticisi uygulamasını yükleyin ve eşleştirmeyi kaldırın.</b>
+
+Özellikler:
+- Mi Band 2 çifti (Mi fit ekran kilidini açma özelliğinde bir sorun yaşarsanız)
+- pil durumunu göster
+- son bağlantı süresini göster
+- son kesme süresini göster
+- <b> Mi Band 2'de arayan ekranı ve otomatik karakter dönüşümüyle gelen arama sinyali</b>
+- <b> Mi Band 2'de arayanın gösterdiği cevapsız çağrı sinyali</b>
+- <b> Uygulamanın bildirim metinlerini Mi Band 2'de görüntüler</b>
+- <b> Mi Band 2 bağlantı özellikleri:</b>
+&rarr; Bildirim yok
+ &#8226; Mi Band 2 titreşir
+ &#8226; cihaz ekranı uyanıyor
+&rarr; Bildirimde bulunmak
+ &#8226; Mi Band 2, 1,2,3 kez simge titreşir ve görüntüler, bildirim sayısına dayalı simge, Mi Band 2 simgesi başına bir kez simge
+ &#8226; Bildirim alındığında derhal sinyal
+ &#8226; cihaza bağlanırken
+ &#8226; hatırlatma sinyali ve tekrar aralığı
+ &#8226; yalnızca ekran kapalıyken sinyal verir
+ &#8226; Devam eden bildirimler etkin veya devre dışı
+ &#8226; cihaz ekranı uyanıyor
+- <b> Mi Band 2 bağlantısının kesilmesi özellikleri:</b>
+ &#8226; Cihazda zil sesini çalmak, titreşim, ekran uyanmak
+ &#8226; cihaz izleme aracı: uzakta olduğunuzda cihazı bir kişi kurcalamışsa, öğreneceksiniz (ekranı açıp açın, hareketi): cihazdaki bildirim ve Mi Band 2'deki göz simgesi
+- <b> bildirim izleme:</b>
+ &#8226; uygulamalar bildiriminde benzersiz sinyal konfigürasyonu
+ &#8226; uygulamanın bildirim metinlerini Mi Band 2'de görüntüler
+- <b> dokunma izleme (Mi Band 2 dokunmatik düğmesini kullanın):</b>
+ &#8226; cevaplama, hoparlör çağrısı (kulaklıklı mikrofon seti bağlı olduğunda başlatma müzik uygulamasını kapat ayarı, aksi takdirde müzik başlar) (tüm cihazlar desteklenmiyor)
+ &#8226; arama reddetme, bitme (tüm cihazlar desteklenmiyor)
+ &#8226; çağrı sesini kapatma ve kapatma
+ &#8226; cihazımı bul
+ &#8226; bildirimleri tekrarla
+ &#8226; müzik çaları denetleme (çalma, duraklatma, ileri, ses seviyesi yukarı / aşağı)
+ &#8226; zamanlayıcıyı / kronometreyi başlat, kalan / geçen süre gösteriliyor
+ &#8226; uygulama başlat
+- <b> nabız izleme:</b>
+ &#8226; ayarlayabilirsiniz: izleme başlangıç ??sinyali, gösterge darbesi, yüksek darbe sinyali, başlangıç ??zamanı, bitiş zamanı, tekrarlama aralığı, geçerli düşük değer, geçerli yüksek değer
+ &#8226; akım darbesinin gösterilmesi
+ &#8226; günlük grafik: ölçülen değerleri görüntüler
+- <b> Zaman denetimi:</b>
+ &#8226; zamanlayıcı: Alarm türü, hatırlatıcı, Mi Band 2'de kalan süre göstergesi
+ &#8226; kronometre: alarm türü, hatırlatıcı, geçen süre, tur zamanı kaydı, Mi Band 2'de tur süresi gösteriliyor
+- <b> izleme kaybı:</b>
+ &#8226; Mi Band 2 sinyali: belirlenen süre geçtikten sonra Mi Band 2 sizi uyaracaktır
+ &#8226; aygıt sinyalleri: belirtilen süre dolduğunda, aygıt bilekliğe bağlı değilse tekrar tekrar sinyal gönderir. Bu, cihazı bulmayı kolaylaştırır. Birisi cihazı bulursa ve kilitli ise kimin haber vereceğini bilmediğinden, bir mesaj görüntüleyebilirsiniz.
+- <b> ajan günlüğü:</b>
+ &#8226; cihaz izleme aracısı tarafından tespit edilen olayları görüntüleme
+
+<b><u>Sorun yaşıyorsanız (Mi Band 2'yi keşfedin, bildirim sinyali almayın), lütfen şunu deneyin:</u></b>
+
+1. Greenify'ı (veya diğer hazırda bekletme uygulamasını) yüklediyseniz, cihazı kapatın.
+2. Mi Bandaj'ı takın.
+3. Telefonu yeniden başlatın.
+4. Bluetooth'u kapatın.
+5. Mi Fit uygulamasını açın, eşitleme tamamlanana kadar bekleyin.
+6. Bulunabilirliği açın, kapatın.
+Mi Bandage uygulamasını açın, yeşil keşfe tıklayın düğmesini tıklayın.
+
+
+Diller (diğer dilleri tercüme etmek isterseniz, lütfen bana e-posta gönderin):
+Macarca
+İngilizce
+Rusça (Alexander Solotsky  tarafından çevrildi)
+Portekizce (Teixeira Lopes tercümesi)
+Türkçe (çeviri: Fatih GÜL)

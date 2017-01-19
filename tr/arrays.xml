@@ -1,1 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_connected_have_notif_counter">
+        <item>Mi Band 2 simgesi başına bir kez</item>
+        <item>Bildirim sayısı</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
 
+    <string-array name="pref_connected_have_notif_counter_values">
+        <item>-2</item>
+        <item>-1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_interval">
+        <item>5 dakika</item>
+        <item>10 dakika</item>
+        <item>20 dakika</item>
+        <item>30 dakika</item>
+        <item>1 saat</item>
+        <item>2 saat</item>
+        <item>3 saat</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_interval_values">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </string-array>
+
+    <string-array name="pref_abandoned_interval">
+        <item>1 dakika</item>
+        <item>2 dakika</item>
+        <item>3 dakika</item>
+        <item>4 dakika</item>
+        <item>5 dakika</item>
+        <item>6 dakika</item>
+        <item>7 dakika</item>
+        <item>8 dakika</item>
+        <item>9 dakika</item>
+        <item>10 dakika</item>
+    </string-array>
+
+    <integer-array name="pref_abandoned_interval_values">
+        <item>60000</item>
+        <item>120000</item>
+        <item>180000</item>
+        <item>240000</item>
+        <item>300000</item>
+        <item>360000</item>
+        <item>420000</item>
+        <item>480000</item>
+        <item>540000</item>
+        <item>600000</item>
+    </integer-array>
+
+    <string-array name="pref_abandoned_notif_interval">
+        <item>10 dakika</item>
+        <item>20 dakika</item>
+        <item>30 dakika</item>
+        <item>1 saat</item>
+        <item>2 saat</item>
+        <item>3 saat</item>
+    </string-array>
+
+    <integer-array name="pref_abandoned_notif_interval_values">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </integer-array>
+
+    <string-array name="notification_group_counter">
+        <item>Bir sinyal</item>
+        <item>Başvuru başına bir kez</item>
+        <item>Bildirim sayısı</item>
+    </string-array>
+
+    <string-array name="touch_call_mute_ringer_mode">
+        <item>Titreşmek</item>
+        <item>Rahatsız etmeyin (yalnızca alarmlar)</item>
+    </string-array>
+
+    <string-array name="touch_music_player">
+        <item>Varsayılan müzik çalar</item>
+        <item>Google Play Müzik</item>
+        <item>Spotify Müzik</item>
+    </string-array>
+
+    <string-array name="touch_music_player_values">
+        <item></item>
+        <item>com.google.android.music</item>
+        <item>com.spotify.music</item>
+    </string-array>
+
+    <string-array name="pref_pulse_interval">
+        <item>1 dakika</item>
+        <item>2 dakika</item>
+        <item>5 dakika</item>
+        <item>10 dakika</item>
+        <item>15 dakika</item>
+        <item>20 dakika</item>
+        <item>30 dakika</item>
+        <item>1 saat</item>
+    </string-array>
+
+    <integer-array name="pref_pulse_interval_values">
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>1200000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+    </integer-array>
+
+    <string-array name="pulse_signal_start">
+        <item>None</item>
+        <item>1 titreşim</item>
+        <item>2 titreşim</item>
+        <item>3 titreşim</item>
+    </string-array>
+
+    <string-array name="pulse_signal_start_values">
+        <item>NONE</item>
+        <item>SOFT_1</item>
+        <item>SOFT_2</item>
+        <item>SOFT_3</item>
+    </string-array>
+
+    <string-array name="pulse_signal_end">
+        <item>Yok</item>
+        <item>1 titreşim</item>
+        <item>2 titreşim</item>
+        <item>3 titreşim</item>
+    </string-array>
+
+    <string-array name="pulse_signal_end_values">
+        <item>NONE</item>
+        <item>HARD_1</item>
+        <item>HARD_2</item>
+        <item>HARD_3</item>
+    </string-array>
+
+    <string-array name="pref_timer_time_interval_repeat">
+        <item>Durdur</item>
+        <item>1 dakika</item>
+        <item>2 dakika</item>
+        <item>5 dakika</item>
+        <item>10 dakika</item>
+        <item>15 dakika</item>
+        <item>20 dakika</item>
+        <item>30 dakika</item>
+        <item>1 saat</item>
+        <item>2 saat</item>
+        <item>3 saat</item>
+        <item>4 saat</item>
+        <item>5 saat</item>
+    </string-array>
+
+    <integer-array name="pref_timer_time_interval_repeat_values">
+        <item>0</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>1200000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+        <item>10800000</item>
+        <item>14400000</item>
+        <item>18000000</item>
+    </integer-array>
+
+    <string-array name="pref_language">
+        <item>Varsayılan</item>
+        <item>English</item>
+        <item>Magyar</item>
+        <item>Русский</item>
+        <item>Português</item>
+        <item>Türk</item>
+    </string-array>
+
+    <string-array name="pref_language_values">
+        <item>DEFAULT</item>
+        <item>en</item>
+        <item>hu</item>
+        <item>ru</item>
+        <item>pt</item>
+        <item>tr</item>
+    </string-array>
+</resources>

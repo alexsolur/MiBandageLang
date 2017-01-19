@@ -1,1 +1,506 @@
+<resources>
+    <string name="app_name">Mi Bandage</string>
 
+    <string name="navigation_drawer_open">Gezinme çekmecesini aç</string>
+    <string name="navigation_drawer_close">Gezinme çekmecesini kapat</string>
+
+    <string name="drawer_nav_home">Bandajlar</string>
+    <string name="drawer_nav_notification">Bildirim denetimi</string>
+    <string name="drawer_nav_touch">Dokunmatik izleme</string>
+    <string name="drawer_nav_alarm">İzleme kaybedildi</string>
+    <string name="drawer_nav_pulse">Nabız denetimi</string>
+    <string name="drawer_nav_time">Zaman denetimi</string>
+    <string name="drawer_nav_disconnected_agent">Ajan</string>
+    <string name="drawer_nav_premium_mode">Premium mod</string>
+    <string name="drawer_nav_feedback">Geri bildirim</string>
+    <item name="drawer_nav_settings" type="string">@string/settings_name</item>
+
+    <!-- Strings related to Settings -->
+    <string name="settings_name">Ayarlar</string>
+    <string name="app_chooser">Uygulama seçici</string>
+    <string name="info_name">Bilgi</string>
+
+    <!-- Bandages screen -->
+    <string name="mi_band_battery">Pil seviyesi, son şarjdan bu yana geçen süre</string>
+    <string name="mi_band_bonded_device_name">Mi Band 2 eşleştirilmiş cihaz adı</string>
+    <string name="mi_band_mac_address">MAC adresi</string>
+    <string name="mi_band_firmware">Ürün sürümü</string>
+    <string name="mi_band_hardware">Donanım</string>
+    <string name="mi_band_state_connected_last_time">Son bağlantı süresi</string>
+    <string name="mi_band_state_disconnected_last_time">Son ayrılma zamanı</string>
+
+    <string name="mi_band_mac_address_invalid">MAC Adresi geçersiz</string>
+
+    <!-- PreferenceScreen -->
+    <string name="pref_connected">Bağlantı ayarları</string>
+    <string name="pref_connected_summary">Mi Band 2 ve cihaz bağlantı sinyali ayarları</string>
+    <string name="pref_cat_connected_no_notif">Mi Band 2 bağlantı kurma ve bildirim yok</string>
+    <string name="pref_cat_connected_have_notif">Onceden tanımlanmış uygulama ve Mi Band 2 sinyal</string>
+    <string name="pref_cat_connected_have_notif_default">Önceden tanımlı ve ozel ayarlar</string>
+    <string name="pref_connected_no_notif_title">Mi Band 2 sinyal</string>
+    <string name="pref_connected_no_notif_summary_on">Titresim</string>
+    <string name="pref_connected_no_notif_summary_off">Hayır</string>
+    <string name="pref_connected_no_notif_wakelock_title">Cihaz ekranını uyandırma</string>
+    <string name="pref_connected_no_notif_wakelock_summary_on">calıstır</string>
+    <string name="pref_connected_no_notif_wakelock_summary_off">durdur</string>
+
+    <string name="pref_connected_have_notif_immediate_title">Bildirim alındığında anında sinyal</string>
+    <string name="pref_connected_have_notif_title">Aygıta baglanırken sinyal</string>
+    <string name="pref_connected_have_notif_reminder_title">Hatırlatma sinyali</string>
+    <string name="pref_connected_have_notif_screen_off_title">Sinyal yalnızca ekran kapalıyken</string>
+    <string name="pref_connected_have_notif_interval_title">Hatırlatma tekrar aralığı</string>
+    <string name="pref_connected_have_notif_counter_title">Sinyaller kararlılığı</string>
+    <string name="pref_connected_have_notif_wakelock_title">Cihaz ekranını uyandırma</string>
+    <string name="pref_connected_have_notif_ongoing_title">Sinyal devam eden (kalıcı) bildirimler</string>
+    <string name="pref_connected_have_notif_default_app_title">Sinyal tanınmayan uygulama</string>
+    <string name="pref_connected_have_notif_default_app_summary_on">\'Uygulama\' simgesi (uygulama önceden tanımlı ve özel uyarı grubunda yoksa)</string>
+    <string name="pref_connected_have_notif_pre_signal_title">Bildirim tahmini</string>
+    <string name="pref_connected_have_notif_pre_signal_summary_on">Görüntüye bakmak için daha fazla zamana sahip olmak için gerçek bildirimden önce sinyal (değiştirilebilir)</string>
+
+    <string name="pref_disconnected">Bağlantı kesme ayarları</string>
+    <string name="pref_disconnected_summary">Mi Band 2 ve cihaz sinyali kesme ayarları</string>
+    <string name="pref_cat_disconnected">Aygıt sinyalleri</string>
+    <string name="pref_disconnected_ringtone_title">Zil sesi</string>
+    <string name="pref_disconnected_ringtone_summary_no">Yok</string>
+    <string name="pref_disconnected_vibration_title">Titresim</string>
+    <string name="pref_disconnected_vibration_summary_on">Calıstır</string>
+    <string name="pref_disconnected_vibration_summary_off">Durdur</string>
+    <string name="pref_disconnected_wakelock_title">Cihaz ekranını uyandırma</string>
+    <string name="pref_disconnected_wakelock_summary_on">Calıstır</string>
+    <string name="pref_disconnected_wakelock_summary_off">Durdur</string>
+
+    <string name="pref_cat_abandoned">Cihaz sinyali</string>
+    <string name="pref_abandoned_notif_interval_title">Sinyal tekrarlama aralığı</string>
+    <string name="pref_abandoned_notif_text_summary">Cihaz ekranında bildirim</string>
+    <string name="pref_abandoned_notif_text_text">Cihaz kayboldu, lütfen aşağıdaki numaraları arayın:</string>
+    <string name="pref_abandoned_ringtone_title">Zil sesi</string>
+    <string name="pref_abandoned_ringtone_summary_no">Yok</string>
+    <string name="pref_abandoned_vibration_title">Titresim</string>
+    <string name="pref_abandoned_wakelock_title">Ekranı uyandır</string>
+    <string name="pref_abandoned_notif_title">Cihaz kayıp</string>
+
+    <string name="pref_call">Arama Ayarlari</string>
+    <string name="pref_call_summary">Mi Band 2 sinyal ayarlari</string>
+    <string name="pref_cat_call">Gelen arama</string>
+    <string name="pref_call_title">Gelen arama sinyali</string>
+    <string name="pref_call_summary_off">Durdur</string>
+    <string name="pref_call_summary_on">Calıstır (Mi Fit uygulamasında gelen çağrı uyarılarını kapatmayı unutmayın)</string>
+    <string name="pref_call_text_title">Arayan kimliğini göster</string>
+    <string name="pref_call_text_summary_on"><![CDATA[Calıstır (daha fazla bilgi: <i> Ayarlar / Metin simgeleri ayarları)</i>]]></string>
+    <string name="pref_call_text_summary_off">Durdur</string>
+
+    <string name="pref_call_net_text_title">Gelen internet araması sinyali, arayan kimliğini göster</string>
+    <string name="pref_call_net_text_summary_off">Durdur</string>
+    <string name="pref_call_net_text_summary_on">Viber</string>
+
+    <string name="pref_cat_call_missed">Cevapsız arama</string>
+    <string name="pref_call_missed_title">Cevapsız arama sinyali</string>
+    <string name="pref_call_missed_summary_off">Durdur</string>
+    <string name="pref_call_missed_summary_on">Calıstır</string>
+
+    <string name="pref_call_missed_net_title">Cevapsız internet araması sinyali, arayan kimliğini göster</string>
+    <string name="pref_call_missed_net_summary_off">Durdur</string>
+    <string name="pref_call_missed_net_summary_on">Viber, Skype, Messenger</string>
+
+    <string name="pref_call_missed_alert_title">Mi Band 2 sinyal</string>
+
+    <string name="pref_call_missed_text_prefix_title">Metin öneki: %1$s</string>
+    <string name="pref_call_missed_text_prefix_summary">Birden fazla uygulama aynı zamanda bildirimleri birbirinden ayırmak için simgeyi kullanıyorsa</string>
+    <string name="pref_call_missed_text_prefix_dialog_title">Metin öneki</string>
+
+    <string name="pref_text_conversion">Metin simgeleri ayarları</string>
+    <string name="pref_text_conversion_summary">Mi Band 2 Metin simgesi ayarları</string>
+    <string name="pref_cat_text_conversion">Mi Band 2 sinyal</string>
+    <string name="pref_text_conversion_title">Karakterlerin dönüştürülmesi</string>
+    <string name="pref_text_conversion_summary_on">Tanınmayan karakter dönüşümleri</string>
+    <string name="pref_text_conversion_summary_off">Durdur</string>
+
+    <string name="pref_text_conversion_description_title">Açıklama</string>
+    <string name="pref_text_conversion_description_summary"><![CDATA[
+         <p>Mi Band 2\'de şu an gelen arayan adını görüyorsanız, Mi Fit\'te <i>Gelen arama uyarıları</i> \'nın kapatılması için aşağıdaki adımları gerçekleştirmenize gerek yoktur. </p>
+         <p><i> Gelen arama uyarılarını </i> kullanmazsanız ve telefonun dili İngilizce değilse:
+         <br/>1. Telefon dilinizi İngilizce olarak ayarlayın.
+         <br/>2. Mi Fit uygulamasını açın, font bellenim güncellemesi bitene kadar bekleyin. Yazılım güncellemesi başlamazsa, telefonunuzu yeniden başlatmayı deneyin.
+         <br/>3. <i> Yürüt / Gelen çağrısı </i> menüsünü açın.
+         <br/>4. Aç: <i> Gelen arama uyarılarını etkinleştirin </i>.
+         <br/>5. Aç: <i> Kişi bilgilerini göster </i>.
+         <br/>6. Mi Band 2 telefon numarasını arayarak arayanın adını gösterebilir mi diye kontrol edin.
+         <br/>7. Kapatın: <i> Gelen arama uyarılarını açın </i> (<i> Kişi bilgilerini göster </i> kalır).
+         <br/>8. Telefon dilini dilinize geri getirin.</p>]]>
+    </string>
+
+    <string name="pref_touch">Dokunmatik izleme ayarları</string>
+    <string name="pref_touch_summary"></string>
+    <string name="pref_cat_touch">Mi Band 2 sinyal</string>
+    <string name="pref_touch_recognised_failed_title">Tanınmayan dokunmatik desen sinyali</string>
+    <string name="pref_touch_recognised_failed_summary_off">Durdur</string>
+    <string name="pref_touch_recognised_failed_summary_on">Calıstır (En uzun desenden 2 titreşim)</string>
+
+    <string name="pref_mi_band">Mi Band 2 ayarlari</string>
+    <string name="pref_cat_mi_band_lift_wrist">Bilgiyi kaldırmak için bilekliği kaldırın</string>
+    <string name="pref_mi_band_lift_wrist_dnd_title">Rahatsız etmeyin modu</string>
+    <string name="pref_mi_band_lift_wrist_dnd_summary_on">Calıstır (Belirtilen sürede bilgi görüntülenmez, ayar için Bluetooth bağlantısı gereklidir)</string>
+    <string name="pref_mi_band_lift_wrist_dnd_summary_off">Durdur</string>
+    <string name="pref_mi_band_lift_wrist_dnd_time_start_title">Başlama zamanı</string>
+    <string name="pref_mi_band_lift_wrist_dnd_time_end_title">Bitiş zamanı</string>
+
+    <string name="pref_language">Dil ayarları</string>
+    <string name="pref_cat_language">Dil</string>
+    <string name="pref_language_title">Dil</string>
+
+    <!-- Quick switch -->
+    <string name="details">Ayrıntılar</string>
+    <string name="bandages">Bandajlar</string>
+    <string name="connected">Bağlantı ve bildirim sinyali</string>
+    <string name="disconnected">Ayırma ve temsilci sinyali</string>
+    <string name="touch">Dokunmatik izleme</string>
+
+    <string name="pref_dnd_title">Rahatsız etmeyin modu</string>
+    <string name="pref_dnd_time_start_title">Başlama zamanı</string>
+    <string name="pref_dnd_time_end_title">Bitiş zamanı</string>
+
+    <!-- Snackbar Messages -->
+    <string name="message_enable_bluetooth">Lütfen Bluetooth\'u etkinleştirin ve Mi Band 2 cihazını telefona yakın hale getirin</string>
+    <string name="message_discover_mi_band">Mi Band 2 ayarlanmadı, lütfen keşfediniz</string>
+    <string name="message_discovered_mi_band">Mi Band 2 keşfedildi</string>
+    <string name="message_discovering_mi_band">Mi Band 2\'yi keşfetmek (1 dakika sürebilir) &#8230;</string>
+    <string name="message_discovered_no_mi_band">Mi Band 2 keşfedilmedi</string>
+    <string name="message_discovered_not_found_mi_band">Mi Band 2 bulunamazsa, açın: Mi Fit/Play/Discoverable veya cihazı Bluetooth ayarlarında eşleştir</string>
+    <string name="message_enable_notifications_access">Bildirim erişimini etkinleştir: Ayarlar/Bildirimler/Bildirim erişimi</string>
+    <string name="message_enable_notifications_access_4_4">Bildirim erişimini etkinleştir: Ayarlar/Güvenlik/Bildirim erişimi</string>
+    <string name="message_open_settings">Ayarlar</string>
+
+    <string name="message_deleted">silindi</string>
+    <string name="message_undo">Geri al</string>
+
+    <string name="message_app_chooser_no_selected">Bir uygulama seçin</string>
+
+    <string name="message_notification_free_groups">6 gruba kadar kullanılabilir</string>
+
+    <string name="message_touch_record">Mi Band 2 dokunmatik düğmesini kullanarak deseni kaydedin.</string>
+    <string name="message_touch_pattern_error">Belirtilen desen başka bir işlevin bir örneğine benzer, başka bir işlevin bir örneğine benzer</string>
+    <string name="message_touch_free_patterns">3 işleve kadar kullanılabilir</string>
+    <string name="message_touch_music_player_not_found">Müzik çalar bulunamadı</string>
+    <string name="message_touch_app_launcher1_not_set">Uygulama ayarlanmadı</string>
+    <string name="message_touch_app_launcher1_not_found">Uygulama bulunamadı: %1$s</string>
+
+    <string name="message_internet_error">İnternet bağlantısı yok</string>
+
+    <string name="message_alarm_free_interval">Daha küçük tekrar aralığı yalnızca premium modda ayarlanabilir</string>
+    <string name="message_alarm_mi_band_set_failed">Alarmın ayarlanması başarısız</string>
+    <string name="message_alarm_mi_band_clear_failed">Alarmın silinmesi başarısız</string>
+
+    <string name="message_premium_mode_only">Bu özellik yalnızca premium modda kullanılabilir</string>
+    <string name="message_general_error">Ayar başarısız oldu (bağlantı kesildi), tekrar deneyin</string>
+
+    <!-- Dialog -->
+    <string name="dialog_welcome_title">Hoşgeldiniz!</string>
+    <string name="dialog_welcome_message"><![CDATA[Uygulama şu an sadece Mi Band 2\'yi destekliyor.
+    <p>Mi Bandaj, resmi Mi Fit uygulamasının aynı cihaza kurulmasını gerektirir. İlk önce Mi Band 2\'yi Mi Fit uygulamasında eşleştirmeniz gerekir, o zaman Mi Bandaj\'ı kullanabilirsiniz.</p>
+    <p>Mi Band 2\'yi kontrol etmek için daha fazla uygulama kullanıyorsanız, birbirlerine müdahale ederek geçici olarak bunları kapatın.</p>
+    <p>Mi Band 2 bulunamazsa, ayrıntılar menüsünde MAC adresini manuel olarak ayarlayabilirsiniz (MAC adresi bulundu: Mi Fit/Profil/Mi Band 2).</p>
+    <p><b> Mi Band 2 bulunamazsa veya Mi Fit uygulamasını senkronize ederken sorun yaşıyorsanız, BToolkit, nRF Connect veya benzeri bir Bluetooth yöneticisi uygulamasını yükleyin ve eşleşen, bağlanan herhangi bir cihazı kaldırın.</b></p>
+    <p>Sorun yaşıyorsanız (Mi Band 2\'yi keşfedin, bildirim sinyaliniz yok), lütfen bunu deneyin:
+    <br>1. Greenify\'ı (veya diğer hazırda bekletme uygulamasını) yüklediyseniz, kapatın.
+    <br>2. Mi Bandage uygulamasını kurun.
+    <br>3. Telefonu yeniden başlatın.
+    <br>4. Bluetooth\'u kapatın.
+    <br>5. Mi Fit uygulamasını açın, eşitleme tamamlanana kadar bekleyin, kapatın.
+    <br>6. Mi Bandage uygulamasını açın, yeşil keşfet düğmesini tıklayın.</p>]]></string>
+
+    <!-- Notification  -->
+    <string name="notification_tab_settings">Ayarlar</string>
+    <string name="notification_tab_custom">Özel bildirimler</string>
+
+    <!-- Notification Dialog -->
+    <string name="notification_group_name">isim</string>
+    <string name="notification_group_monitoring">Bildirimleri izleme</string>
+    <string name="notification_group_monitoring_disabled">Hariç tutma bildirimleri</string>
+    <string name="notification_group_alert_title">Mi Band 2 sinyal</string>
+    <string name="notification_group_prefix">Metin öneki</string>
+    <string name="notification_group_prefix_only_premium">Metin öneki (yalnızca premium modda)</string>
+    <string name="notification_group_immediate">Bildirim alındığında anında sinyal</string>
+    <string name="notification_group_connecting">Cihaza bağlanırken</string>
+    <string name="notification_group_reminder">Hatırlatma sinyali</string>
+    <string name="notification_group_screen_off">Sinyal yalnızca ekran kapalıyken</string>
+    <string name="notification_group_counter_title">Sinyaller kararlılığı</string>
+    <string name="notification_group_wakelock">Cihaz ekranını uyandırma</string>
+    <string name="notification_group_required">Gerekli</string>
+
+    <!-- Notification info dialog -->
+    <string name="info_dialog_notification"><![CDATA[Önceden tanımlı uygulama ve Mi Band 2 simgesi sinyalleri:
+        <br><img src="ALERT_MESSAGE_TEXT">  cevapsız çağrı
+        <br><img src="ALERT_MESSAGE">  SMS
+        <br><img src="ALERT_EMAIL">  E-posta, Gmail
+        <br><img src="ALERT_CALENDAR">  Google Takvim
+        <br><img src="ALERT_HANGOUTS">  Hangouts
+        <br><img src="ALERT_MESSENGER">  Messenger
+        <br><img src="ALERT_SKYPE">  Skype
+        <br><img src="ALERT_VIBER">  Viber
+        <br><img src="ALERT_WHATSAPP">  WhatsApp
+        <br><img src="ALERT_LINE">  Satır
+        <br><img src="ALERT_WECHAT">  WeChat
+        <br><img src="ALERT_TELEGRAM">  Telgraf
+        <br><img src="ALERT_KAKAOTALK">  KakaoTalk
+        <br><img src="ALERT_VK">  VK
+        <br><img src="ALERT_FACEBOOK">  Facebook
+        <br><img src="ALERT_TWITTER">  Twitter
+        <br><img src="ALERT_SNAPCHAT">  Snapchat
+        <br><img src="ALERT_INSTAGRAM">  Instagram
+        <br><img src="ALERT_POKEMONGO">  Pokémon GO
+        <br><img src="ALERT_MOMO">  Momo
+        <br><img src="ALERT_QIANNIU">  Qianniu
+        <br><img src="ALERT_QQ">  QQ
+        <br><img src="ALERT_WEIBO">  Weibo
+        <br><img src="ALERT_ALIPAY">  AliPay
+        <br><img src="ALERT_QZONE">  QZone
+        <br><img src="ALERT_DINGTALK">  DingTalk
+        <br><img src="ALERT_APP">  diğerleri
+
+        <p>Sizin tarafınızdan oluşturulan bildirimler grubunun önceden tanımlı öncekinden daha yüksek önceliği vardır.</p>
+        <p>Önceden tanımlı uygulamaları kullanıyor, ancak bazı bildirimleri hariç tutmak istiyorsanız, <i> hariç tutma bildirimleri ayarı</i> olan yeni bildirim grubu oluşturup uygulamaları ekleyin.</p>
+        ]]>
+    </string>
+        <!--<p>Predefined signals can be disabled: <i>Connection and notification settings/Have notification</i>.</p>-->
+
+    <!-- MiBandageApp chooser dialog -->
+    <string name="action_search">Ara</string>
+
+    <!-- Touch monitoring -->
+    <string name="touch_headline_call_title">Arama Kontrolü</string>
+    <string name="touch_headline_music_title">Müzik Kontrolü</string>
+    <string name="touch_headline_time_title">Zamanlayıcı / kronometre kontrolü</string>
+    <string name="touch_headline_other_title">Diğer kontroller</string>
+
+    <string name="touch_device_location_title">Cihazımı bul</string>
+    <string name="touch_device_location_ringtone_title_no">Yok</string>
+
+    <string name="touch_call_answer_title">Çağrı cevaplama</string>
+    <string name="touch_call_answer_speakerphone_title">Hoparlör</string>
+
+    <string name="touch_call_end_title">Çağrı reddetme, sonlandırma</string>
+
+    <string name="touch_call_mute_title">Arama sesini kapatma değiştir</string>
+    <string name="touch_call_mute_ringtone_title_no">Yok</string>
+
+    <string name="touch_device_location_not_muted_only_title">Yalnızca sessiz değilse ses</string>
+
+    <string name="touch_repeat_notif_title">Bildirimleri tekrarla</string>
+
+    <string name="touch_music_play_pause_title">Müzik başlat, çal, duraklat</string>
+    <string name="touch_music_skip_next_title">Müzik başlat, sonraki şarkı</string>
+    <string name="touch_music_headset_only_title">Yalnızca kulaklıklı mikrofon seti bağlıysa</string>
+    <string name="touch_music_volume_up_title">Müzik sesi artır</string>
+    <string name="touch_music_volume_down_title">Müzik sesi azalt</string>
+
+    <string name="touch_time_launch_title">Zamanlayıcıyı / kronometreyi başlat</string>
+    <string name="touch_time_launch_type_timer_title">Zamanlayıcı</string>
+    <string name="touch_time_launch_type_stopper_title">Kronometre</string>
+    <string name="touch_time_reminder_title">Kalan / geçen süreyi göster</string>
+
+    <string name="touch_app_launcher1_title">Uygulama başlatıcısı</string>
+    <string name="touch_app_launcher_package_no_title">Bir uygulama seçin</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Yalnızca ekran kilitli değilse</string>
+
+    <string name="touch_testing_title">Dokunmatik izleme</string>
+
+    <string name="touch_tab_settings">Ayarlar</string>
+    <string name="touch_tab_testing">Test et</string>
+
+    <string name="touch_testing_second">saniye</string>
+
+    <!-- Touch monitoring info dialog -->
+    <string name="info_dialog_touch"><![CDATA[Dokunma, Mi Band 2\'nin gösterimi değiştiğinde geçerli olur (bu nedenle, dokunmadan önce bilekinizi döndürmeniz önerilir).
+        <p>Dokunanlar arasındaki geçen süreyi izler, ilk dokunma için geçen süre değil.</p>
+        <p>Kartlardaki yeşil simgeler başka bir işlevin mevcut desene benzeyebileceğini gösterir.</p>
+        <p>Gelen bir telefon geldiğinde, cihaz dokunmatik girişi kolaylaştırmak için aşağıdaki işlevleri tanımıyor: cihazın bulunduğu yer, tekrar eden bildirimler, müzik kontrolü.</p>
+        <p>Test modunda tanınan desen işlevini yürütmez.</p>
+        <p>Mi Band 2 titreşim geribildirimi, yalnızca cihazın mevcut durumunu dikkate alan bir model varsa (çağrı cevaplama, ancak gelen bir çağrı olduğunda reddetme …).</p>
+        <p>Mi Band 2, bir deseni tanıdığında bir kez titreşir.</p>
+        <p>Mi Band 2 en uzun desen sonrasında herhangi bir deseni tanımadığında (<i> Tanınır dokunmatik desen sinyali</i> ayarlanmadıysa) iki kez titreşir.</p>
+        <p>Geçerli dokunmaya duyarlı örnekler:
+        <br>- dokunmatik
+        <br>- dokunma ve 1 sn bekleme, dokunma
+        <br>- dokunma ve 1 sn bekleme, dokunma ve 1 sn bekleme, dokunma
+        <br>- dokunma ve 2 saniye bekleme, dokunma
+        <br>- dokunma ve 2 saniye bekleme, dokunma ve 1 saniye bekleme, dokunma
+        <br>- dokunma ve 2 saniye bekleme, dokunma ve 2 saniye bekleme, dokunma
+       </p>
+    ]]></string>
+
+    <!-- Pulse  monitoring -->
+    <string name="action_pulse">Nabzı göster</string>
+    <string name="action_export">Ihracat</string>
+    <string name="pulse_current">Akım darbesi</string>
+
+    <string name="pulse_tab_settings">Ayarlar</string>
+    <string name="pulse_tab_day">Günlük grafikler</string>
+
+    <string name="pulse_title_signals">Sinyaller</string>
+    <string name="pulse_signal_start_title">İzleme başlangıç sinyali</string>
+    <string name="pulse_signal_show_title">Nabzı göster</string>
+    <string name="pulse_signal_end_title">Yüksek nabız sinyali</string>
+    <string name="pulse_signal_end_value_title">BPM</string>
+
+    <string name="pulse_title_timing_validity">Zamanlama ve geçerlik</string>
+    <string name="pulse_interval_title">Nabız izleme tekrar aralığı</string>
+    <string name="pulse_time_start">Baslama zamanı</string>
+    <string name="pulse_time_end">Bitiş zamanı</string>
+    <string name="pulse_time_set_next">Sonraki izleme zamanlaması</string>
+    <string name="pulse_value_min">Geçerli düşük değer</string>
+    <string name="pulse_value_max">Geçerli yüksek değer</string>
+    <string name="pulse_value_invalid">Geçersiz değer</string>
+
+    <string name="pulse_details">Nabız ayrıntıları</string>
+
+    <string name="info_dialog_pulse"><![CDATA[Darbeyi izlemek için Bluetooth bağlantısı gereklidir.
+         <p>Darbeli izleme başlatıldığında manuel olarak başlatılan ölçümler (Mi Band2, Mi Fit uygulaması) günlüğe kaydedilir.</p>
+         <p>Elde edilen değer geçersizse nabız ölçer sunucu tarafından tekrarlanır.</p>]]>
+    </string>
+
+    <!-- Lost  monitoring -->
+    <string name="alarm_mi_band_title">Mi Band 2 sinyal</string>
+    <string name="alarm_mi_band_dnd">Rahatsız etmeyin modu</string>
+    <string name="alarm_mi_band_dnd_start">Baslama zamanı</string>
+    <string name="alarm_mi_band_dnd_end">Bitiş zamanı</string>
+    <string name="alarm_mi_band_interval_title">Alarm ayarının tekrar aralığı</string>
+    <string name="alarm_mi_band_time_set_next">Bir sonraki ayarın zamanlaması</string>
+    <string name="alarm_mi_band_time">Bir sonraki alarmın zamanlaması</string>
+
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_alarm"> <b><u>Mi Band 2 sinyali</u></b>
+        <p>Belirtilen süre geçtikten sonra Mi Band 2, cihaza bağlı değilse sinyal gönderir.</p>
+        <p>Uygulama uyarı yapmak için Mi Fit\'in alarm işlevi kullanıyor (10. ayarın üzerine yazıyor).</p>
+        <p>Mi Band 2 hareket algılamazsa (fabrika alarmını kullandığından) alarm birkaç kez tekrarlanır.</p>
+        <p>Bluetooth\'u kapatmadan veya uygulamayı kaldırmadan önce Mi Band 2 sinyalini devre dışı bırakmanız gerekir.</p>
+        <p>Alarmı açıkken uygulamayı kaldırırsanız, alarmı tekrar açıp kapatarak devre dışı bırakabilirsiniz. Mi Fit 10. alarm ayarı.</p>
+
+        <img src="ic_phone_android"> <b><u>Cihaz sinyalleri</u></b>
+        <p>Belirli bir zaman süresi sona erdiğinde, cihaz bilekliğe bağlı değilse tekrar tekrar sinyal gönderir.</p>
+        <p>Bu, cihazın bulunmasını kolaylaştırır. Birisi cihazı bulursa ve kilitli ise kimin haber vereceğini bilmediği için bir mesaj görüntüleyebilirsiniz.</p>
+        <p>Bilezik bağlı olduğunda, alarm durur.</p>
+        <p>Kilit ekranında bildirimi görüntülemek için etkinleştirilmelidir.</p>]]>
+    </string>
+
+    <!-- Time  monitoring -->
+    <string name="time_tab_timer">Zamanlayıcı</string>
+    <string name="time_tab_stopper">Kronometre</string>
+    <string name="time_tab_lap">Tur zamanı</string>
+
+    <string name="time_timer_time_alert">Alarm zamanı</string>
+    <string name="time_timer_time_remaining">Kalan süre</string>
+
+    <string name="time_timer_mode">Zamanlayıcı</string>
+    <string name="time_timer_mode_timer_title">Zamanlama</string>
+    <string name="time_timer_mode_time_title">Zaman</string>
+
+    <string name="time_timer_alert">Alarm Tipi</string>
+    <string name="time_timer_alert_bell_title">Zil</string>
+    <string name="time_timer_alert_alarm_title">Alarm</string>
+
+    <string name="time_timer_reminder">Hatırlatma sinyali, kalan süre</string>
+    <string name="time_timer_reminder_interval_before_title">Zamanından önce</string>
+    <string name="time_timer_reminder_interval_before_off_title">Durdur</string>
+    <string name="time_timer_reminder_interval_repeat_title">Hatırlatma tekrar aralığı</string>
+
+    <string name="time_stopper_time_alert">Alarm zamanı</string>
+    <string name="time_stopper_time_elapsed">Geçen zaman</string>
+
+    <string name="time_stopper_mode">Kronometre</string>
+    <string name="time_stopper_mode_timer_title">Zamanlama</string>
+    <string name="time_stopper_mode_time_title">Zaman</string>
+
+    <string name="time_stopper_alert">Alarm tipi</string>
+    <string name="time_stopper_alert_bell_title">Zil</string>
+    <string name="time_stopper_alert_alarm_title">Alarm</string>
+
+    <string name="time_stopper_reminder">Hatırlatma sinyali, geçen süre</string>
+    <string name="time_stopper_reminder_interval_before_title">Zamanından önce</string>
+    <string name="time_stopper_reminder_interval_before_off_title">Durdur</string>
+    <string name="time_stopper_reminder_interval_repeat_title">Hatırlatma tekrar aralığı</string>
+
+    <string name="time_stopper_touch">Tur süresi, dokunmatik izleme</string>
+    <string name="time_stopper_touch_record">Tek dokunuşla tur zamanlı kayıt</string>
+    <string name="time_stopper_touch_show">Tur süresi tek dokunuşla gösteriliyor</string>
+    <string name="time_stopper_touch_time_format">Zaman formatı</string>
+    <string name="time_stopper_touch_time_format_minute">saat\u2032 dakika\u2033</string>
+    <string name="time_stopper_touch_time_format_second">dakika\u2032 saniye\u2033</string>
+
+    <string name="time_lap_details">Tur bilgileri</string>
+
+    <string name="info_dialog_time"><![CDATA[<img src="ic_miband_bell"><b><u>Çan </u></b>
+         <p>Alarm için Bluetooth bağlantısı gereklidir, yalnızca 10 saniye boyunca yalnızca bir kez alarm verir.</p>
+         <img src="ic_access_time"> <b><u>Alarm</u></b>
+         <p>Alarm için Bluetooth bağlantısı gerekli değildir, uygulama uyarı yapmak için Mi Fit\'in alarm işlevini kullanır (9. ayarın üzerine yazar).
+         <br>Mi Band 2 herhangi bir hareket algılamazsa (fabrika alarmını kullandığından) alarm birkaç kez tekrarlanacaktır.</p>
+         <p>Hatırlatma sinyali için Bluetooth bağlantısı gerekir.</p>
+    ]]></string>
+
+    <!-- Agent -->
+    <string name="agent_title">Aygıt izleme aracı</string>
+    <string name="agent_tab_events">Temsilci günlüğü</string>
+    <string name="agent_tab_settings">Ayarlar</string>
+
+    <string name="pref_disconnected_agent_summary_on">Uzakta olduğunuzda cihazınızla birisi oynarsa</string>
+    <string name="pref_disconnected_agent_text">Gittiğiniz sırada biri cihaza müdahale etti</string>
+    <string name="pref_disconnected_agent_user_present_title">Cihaz ekranını uyandırın</string>
+    <string name="pref_disconnected_agent_screen_on_and_motion_title">Açma ve hareket izleme</string>
+
+    <!-- Agent log info dialog -->
+    <string name="info_dialog_disconnected_agent"><![CDATA[Cihaz yönetimi aracı tarafından algılanan etkinlikler:
+         <br>- güç açık
+         <br>- ekran kilidini açma
+         <br>- hareket tespit edildi
+
+         <p>Uzakta iken birisi cihazla birlikte çalışırsa, yukarıdaki etkinlikler kaydedilir.</p>
+         <p>Yeniden bağladığınızda, bir olay meydana geldiğinde bir bildirim gönderilecektir.</p>]]>
+    </string>
+
+    <!-- Ad-free -->
+    <string name="purchase_policy"><![CDATA[<b>Premium mod avantajları:</b>
+         <p>- reklamsız
+         <br>- sınırsız bildirim izleme
+         <br>- sınırsız dokunmatik izleme
+         <br>- bildirim önizleme bildiriminde kullanılabilir
+         <br>- tekrarlama aralığı serbestçe ayarlanabilir ve gösteri darbesi darbe izleme işlevinde kullanılabilir
+         <br>- tekrarlama aralığı serbestçe ayarlanabilir ve dnd modu kayıp izleme işlevinde kullanılabilir
+         <br>- tekrarlanan hatırlatıcılar zamanında izleme özgürlüğüne ayarlanabilir</p>
+         <b>Premium modu şartları ve koşulları:</b>
+         <p>- Uygulamayı test ettim ve düzgün çalışıyor.
+         <br>- Hatalar, yazılım değişiklikleri, donanım ortamı veya diğer uygulamaların neden olduğu yazılım hataları yüzünden tazminat veya geri ödeme talep edemeyeceğimden haberim var.
+         <br>- Bütün satışlar nihaidir ve geri ödeme yapılamaz (Google geri ödeme politikası hariç).
+         <br>- Garanti dahil değildir.</p>
+         <p><i> Satın aldıktan sonra uygulamayı yeniden başlatmanız gerekir.</i></p>]]>
+    </string>
+
+    <string name="purchase_agree">Hükümlere ve koşullara katılıyorum.</string>
+    <string name="purchase_button_purchase">Satın alma</string>
+
+    <!-- Feedback -->
+    <string name="feedback_google_play_title">Bu uygulamayı oyla</string>
+    <string name="feedback_request_feature_title">Özellik isteği</string>
+    <string name="feedback_request_feature_summary">Otomatik e-posta işleme, cevap alamazsın</string>
+
+    <!-- Others -->
+    <string name="action_dismiss">Reddet</string>
+    <string name="action_setting">Ayarlar</string>
+    <string name="action_delete">Sil</string>
+
+    <string name="power_on">Açık</string>
+    <string name="screen_unlock">Ekran kilidini açma</string>
+    <string name="motion">Hareket algılandı</string>
+
+    <!-- Constante -->
+    <string name="const_time_abbreviation_hour">s</string>
+    <string name="const_time_abbreviation_minute">d</string>
+    <string name="const_time_abbreviation_sec">i</string>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">%d dakika</item>
+        <item quantity="one">%d dakika</item>
+        <item quantity="two">%d dakika</item>
+        <item quantity="few">%d dakika</item>
+        <item quantity="many">%d dakika</item>
+        <item quantity="other">%d dakika</item>
+    </plurals>
+
+</resources>
