@@ -45,27 +45,14 @@
     <string name="pref_connected_no_notif_wakelock_summary_off">Off</string>
 
     <string name="pref_connected_have_notif_immediate_title">Immediate signal when notification is received</string>
-    <!--<string name="pref_connected_have_notif_immediate_summary_off">Off</string>-->
-    <!--<string name="pref_connected_have_notif_immediate_summary_on">On</string>-->
     <string name="pref_connected_have_notif_title">Signal when connecting to device</string>
-    <!--<string name="pref_connected_have_notif_summary_off">Off</string>-->
-    <!--<string name="pref_connected_have_notif_summary_on">On</string>-->
     <string name="pref_connected_have_notif_reminder_title">Reminder signal</string>
-    <!--<string name="pref_connected_have_notif_reminder_summary_off">Off</string>-->
-    <!--<string name="pref_connected_have_notif_reminder_summary_on">On</string>-->
     <string name="pref_connected_have_notif_screen_off_title">Signal only when the screen is off</string>
-    <!--<string name="pref_connected_have_notif_screen_off_summary_off">Off</string>-->
-    <!--<string name="pref_connected_have_notif_screen_off_summary_on">On</string>-->
     <string name="pref_connected_have_notif_interval_title">Reminder repeat interval</string>
     <string name="pref_connected_have_notif_counter_title">Signals cardinality</string>
     <string name="pref_connected_have_notif_wakelock_title">Wake up the device screen</string>
-    <!--<string name="pref_connected_have_notif_wakelock_summary_off">Off</string>-->
-    <!--<string name="pref_connected_have_notif_wakelock_summary_on">On</string>-->
     <string name="pref_connected_have_notif_ongoing_title">Signal ongoing (permanent) notifications</string>
-    <!--<string name="pref_connected_have_notif_ongoing_summary_off">Off</string>-->
-    <!--<string name="pref_connected_have_notif_ongoing_summary_on">On</string>-->
     <string name="pref_connected_have_notif_default_app_title">Signal not recognised app</string>
-    <!--<string name="pref_connected_have_notif_default_app_summary_off">Off</string>-->
     <string name="pref_connected_have_notif_default_app_summary_on">\'app\' icon (if app there is no in predefined and neither custom notification group)</string>
     <string name="pref_connected_have_notif_pre_signal_title">Notification prediction</string>
     <string name="pref_connected_have_notif_pre_signal_summary_on">Signal (modifiable) before the actual notification in order to have more time to look at the display</string>
@@ -82,8 +69,6 @@
     <string name="pref_disconnected_wakelock_summary_on">On</string>
     <string name="pref_disconnected_wakelock_summary_off">Off</string>
 
-    <!--<string name="pref_abandoned">Lost device settings</string>-->
-    <!--<string name="pref_abandoned_summary">Lost device settings (must be enabled to display notification on the lock screen)</string>-->
     <string name="pref_cat_abandoned">Device signal</string>
     <string name="pref_abandoned_notif_interval_title">Signal repeat interval</string>
     <string name="pref_abandoned_notif_text_summary">Notification on the device screen</string>
@@ -133,7 +118,7 @@
     <string name="pref_text_conversion_description_title">Description</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
         <p>If your Mi Band 2 shows the incoming caller name currently, then you do not need to do the following steps just turn off <i>Incoming call alerts</i> on Mi Fit.</p>
-        <p>If you do not use <i>Incoming call alerts</> and the phone language is not English:
+        <p>If you do not use </i>Incoming call alerts</i> and the phone language is not English:
         <br/>1. Set your phone language to English.
         <br/>2. Open Mi Fit app, wait until the font firmware update done. If firmware update doesn\'t start, try reboot your phone.
         <br/>3. Open the <i>Play/Incoming call</i> menu.
@@ -288,7 +273,6 @@
     <string name="touch_headline_time_title">Timer/stopwatch control</string>
     <string name="touch_headline_other_title">Other controls</string>
 
-    <!--<string name="touch_device_location_title">Location of the device</string>-->
     <string name="touch_device_location_title">Find my device</string>
     <string name="touch_device_location_ringtone_title_no">None</string>
 
@@ -313,7 +297,7 @@
     <string name="touch_time_launch_title">Start timer/stopwatch</string>
     <string name="touch_time_launch_type_timer_title">Timer</string>
     <string name="touch_time_launch_type_stopper_title">Stopwatch</string>
-    <string name="touch_time_reminder_title">Remaining/elapsed time</string>
+    <string name="touch_time_reminder_title">Show remaining/elapsed time</string>
 
     <string name="touch_app_launcher1_title">App launcher</string>
     <string name="touch_app_launcher_package_no_title">Select an application</string>
@@ -329,8 +313,6 @@
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[The touch is valid when the display of Mi Band 2 changes (so it is advisable to rotate your wrist before touching).
         <p>It monitors elapsed time between touches, not the elapsed time to first touch.</p>
-        <p>If you do just one touch, then that function will be always recognised.
-           If you want to use more features, you\'ll need at least two touch or more with different timings.</p>
         <p>Green icons on the cards indicates which another function can be similar to current pattern.</p>
         <p>When you have an incoming call the device does not recognise the following functions in order to ease touch input: location of the device, repeat notifications, music control.</p>
         <p>In test mode does not execute the function of recognised pattern.</p>
@@ -349,6 +331,7 @@
 
     <!-- Pulse  monitoring -->
     <string name="action_pulse">Show pulse</string>
+    <string name="action_export">Export</string>
     <string name="pulse_current">Current pulse</string>
 
     <string name="pulse_tab_settings">Setting</string>
@@ -387,7 +370,7 @@
 
     <!--, otherwise the smart bracelet will alert (every day at <i>timing of next alarm</i>).</p>-->
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_alarm"> <b><u>Mi Band 2 signal</u></b>
-        <p>When specified period of time expires, Mi Band 2 send signals if not connected to the device.<p>
+        <p>When specified period of time expires, Mi Band 2 send signals if not connected to the device.</p>
         <p>App uses alarm function of Mi Fit to alert (overwrite 10. setting).</p>
         <p>The alarm will be repeated several times if the Mi Band 2 do not detect any movement (because it uses the factory alarm).</p>
         <p>Before switching off Bluetooth or uninstalling the app you need to deactivate Mi Band 2 signal.</p>
@@ -448,7 +431,7 @@
 
     <string name="info_dialog_time"><![CDATA[<img src="ic_miband_bell"> <b><u>Bell</u></b>
         <p>Bluetooth connection is required for alarm, it alarms just only once for 10 seconds.</p>
-        <img src="ic_access_time">  <b><u>Alarm</u></b>
+        <img src="ic_access_time"> <b><u>Alarm</u></b>
         <p>Bluetooth connection is not required for alarm, app uses alarm function of Mi Fit to alert (overwrite 9. setting).
         <br>The alarm will be repeated several times if the Mi Band 2 do not detect any movement (because it uses the factory alarm).</p>
         <p>Reminder signal requires Bluetooth connection.</p>
