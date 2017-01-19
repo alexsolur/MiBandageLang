@@ -104,6 +104,7 @@
     </string-array>
 
     <string-array name="pref_pulse_interval">
+        <item>1 минута</item>
         <item>2 минуты</item>
         <item>5 минут</item>
         <item>10 минут</item>
@@ -114,6 +115,7 @@
     </string-array>
 
     <integer-array name="pref_pulse_interval_values">
+        <item>60000</item>
         <item>120000</item>
         <item>300000</item>
         <item>600000</item>
@@ -189,6 +191,7 @@
         <item>Венгерский</item>
         <item>Русский</item>
         <item>Португальский</item>
+        <item>Турецкий</item>
     </string-array>
 
     <string-array name="pref_language_values">
@@ -197,5 +200,6 @@
         <item>hu</item>
         <item>ru</item>
         <item>pt</item>
+        <item>tr</item>
     </string-array>
 </resources>

@@ -32,11 +32,9 @@
     <string name="mi_band_mac_address_invalid">Неверный MAC адрес</string>
 
     <!-- PreferenceScreen -->
-    <!--<string name="pref_connected">Настройки соединения и уведомлений</string>-->
     <string name="pref_connected">Настройки соединения</string>
     <string name="pref_connected_summary">Настройки соединения Mi Band 2 и устройства</string>
     <string name="pref_cat_connected_no_notif">Присоединение Mi Band 2 в отсутствие новых уведомлений</string>
-    <!--<string name="pref_cat_connected_have_notif">Есть уведомления (настроенные приложения и иконки)</string>-->
     <string name="pref_cat_connected_have_notif">Изначально заданные приложения и уведомления Mi Band 2</string>
     <string name="pref_cat_connected_have_notif_default">Предустановленные и пользовательские настройки</string>
     <string name="pref_connected_no_notif_title">Уведомление Mi Band 2</string>
@@ -47,27 +45,14 @@
     <string name="pref_connected_no_notif_wakelock_summary_off">Отключено</string>
 
     <string name="pref_connected_have_notif_immediate_title">Мгновенные уведомления</string>
-    <!--<string name="pref_connected_have_notif_immediate_summary_off">Отключено</string>-->
-    <!--<string name="pref_connected_have_notif_immediate_summary_on">Включено</string>-->
     <string name="pref_connected_have_notif_title">При подключении к устройству</string>
-    <!--<string name="pref_connected_have_notif_summary_off">Отключено</string>-->
-    <!--<string name="pref_connected_have_notif_summary_on">Включено</string>-->
     <string name="pref_connected_have_notif_reminder_title">Периодические уведомления</string>
-    <!--<string name="pref_connected_have_notif_reminder_summary_off">Отключено</string>-->
-    <!--<string name="pref_connected_have_notif_reminder_summary_on">Включено</string>-->
     <string name="pref_connected_have_notif_screen_off_title">Уведомлять только при выключенном экране</string>
-    <!--<string name="pref_connected_have_notif_screen_off_summary_off">Отключено</string>-->
-    <!--<string name="pref_connected_have_notif_screen_off_summary_on">Включено</string>-->
     <string name="pref_connected_have_notif_interval_title">Интервал повторения уведомлений</string>
     <string name="pref_connected_have_notif_counter_title">Количество уведомлений</string>
     <string name="pref_connected_have_notif_wakelock_title">Активировать экран устройства</string>
-    <!--<string name="pref_connected_have_notif_wakelock_summary_off">Отключено</string>-->
-    <!--<string name="pref_connected_have_notif_wakelock_summary_on">Включено</string>-->
     <string name="pref_connected_have_notif_ongoing_title">Постоянные уведомления</string>
-    <!--<string name="pref_connected_have_notif_ongoing_summary_off">Отключено</string>-->
-    <!--<string name="pref_connected_have_notif_ongoing_summary_on">Включено</string>-->
     <string name="pref_connected_have_notif_default_app_title">Уведомления нараспознанных приложений</string>
-    <!--<string name="pref_connected_have_notif_default_app_summary_off">Отключено</string>-->
     <string name="pref_connected_have_notif_default_app_summary_on">Иконка \'app\' для не рассортированных по группам или предопределённых</string>
     <string name="pref_connected_have_notif_pre_signal_title">Предсказание уведомлений</string>
     <string name="pref_connected_have_notif_pre_signal_summary_on">Уведомдение (настраиваемое) перед настоящим уведомлением, чтобы успеть увидеть его на Mi Band 2</string>
@@ -84,8 +69,6 @@
     <string name="pref_disconnected_wakelock_summary_on">Включено</string>
     <string name="pref_disconnected_wakelock_summary_off">Отключено</string>
 
-    <!--<string name="pref_abandoned">Сигнал забытого устройства</string>-->
-    <!--<string name="pref_abandoned_summary">Сигнал забытого устройства (требуется включить для отображения уведомлений на экране блокировки)</string>-->
     <string name="pref_cat_abandoned">Сигнал на устройстве</string>
     <string name="pref_abandoned_notif_interval_title">Интервал повторения сигнала</string>
     <string name="pref_abandoned_notif_text_summary">Уведомление на экране устройства</string>
@@ -106,20 +89,20 @@
     <string name="pref_call_text_summary_on"><![CDATA[Включено (подробнее: <i>Настройки/Настройки текста)</i>]]></string>
     <string name="pref_call_text_summary_off">Отключено</string>
 
+    <string name="pref_call_net_text_title">Входящий интернет-вызов, отображение ID звонящего</string>
+    <string name="pref_call_net_text_summary_off">Отключено</string>
+    <string name="pref_call_net_text_summary_on">Viber</string>
+
     <string name="pref_cat_call_missed">Пропущенный звонок</string>
     <string name="pref_call_missed_title">Уведомление о пропущенном звонке</string>
     <string name="pref_call_missed_summary_off">Отключено</string>
     <string name="pref_call_missed_summary_on">Включено</string>
 
-    <string name="pref_call_net_text_title">Входящий интернет-вызов, отображение ID звонящего</string>
-    <string name="pref_call_net_text_summary_off">Отключено</string>
-    <string name="pref_call_net_text_summary_on">Viber</string>
-
-    <string name="pref_call_missed_alert_title">Уведомление Mi Band 2</string>
-
     <string name="pref_call_missed_net_title">Пропущенный интернет-вызов, отображение ID звонящего</string>
     <string name="pref_call_missed_net_summary_off">Отключено</string>
     <string name="pref_call_missed_net_summary_on">Viber, Skype, Messenger</string>
+
+    <string name="pref_call_missed_alert_title">Уведомление Mi Band 2</string>
 
     <string name="pref_call_missed_text_prefix_title">Префикс текста: %1$s</string>
     <string name="pref_call_missed_text_prefix_summary">Если несколько приложений используют иконку (чтобы отличить сообщения)</string>
@@ -330,8 +313,6 @@
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[Нажатие считается корректным, если происходит переход на новый пункт отображения (рекомендуется повернуть запястье перед нажатием).
         <p>Используется время между нажатиями, а не время, прошедшее с первого нажатия.</p>
-        <p>Если вы сделаете только одно нажатие, эта функция будет распознана всегда.
-           Если вы хотите использовать несколько функций, вам требуется два или более нажатия с разными промежутками.</p>
         <p>Зелёная иконка указывает, что другая функция похожа на текущую комбинацию.</p>
         <p>Во время входящего звонка не обрабатываются следующие функции: Положение устройства, Повтор уведомлений и Воспроизведение во избежание нежелательных срабатываний.</p>
         <p>Распознанная функция не выполняется в тестовом режиме.</p>
@@ -350,6 +331,7 @@
 
     <!-- Pulse  monitoring -->
     <string name="action_pulse">Показывать пульс</string>
+    <string name="action_export">Экспорт</string>
     <string name="pulse_current">Текущий пульс</string>
 
     <string name="pulse_tab_settings">Настройки</string>
@@ -500,7 +482,7 @@
     <string name="feedback_request_feature_title">Запрос функций</string>
     <string name="feedback_request_feature_summary">Автоматическая обработка электронной почты, без ответа (Английский настоятельно рекомендуется)</string>
 
-	<!-- Others -->
+    <!-- Others -->
     <string name="action_dismiss">Отклонить</string>
     <string name="action_setting">Настройки</string>
     <string name="action_delete">Удалить</string>
