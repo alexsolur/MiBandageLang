@@ -12,7 +12,7 @@
     <string name="drawer_nav_time">Monitorar tempo</string>
     <string name="drawer_nav_disconnected_agent">Registo do agente</string>
     <string name="drawer_nav_premium_mode">Modo premium</string>
-    <string name="drawer_nav_feedback">Feedback</string>
+    <string name="drawer_nav_feedback">Comentários</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
     <!-- Strings related to Settings -->
@@ -32,11 +32,9 @@
     <string name="mi_band_mac_address_invalid">O endereço MAC é inválido</string>
 
     <!-- PreferenceScreen -->
-    <!--<string name="pref_connected">Definições de conexão e notificação</string>-->
     <string name="pref_connected">Definições de conexão</string>
     <string name="pref_connected_summary">Definições do sinal de conexão da Mi Band 2</string>
     <string name="pref_cat_connected_no_notif">Conetado à Mi Band 2 e não tem notificação</string>
-    <!--<string name="pref_cat_connected_have_notif">Tem notificação (aplicação predefinida e sinal por ícone da Mi Band 2)</string>-->
     <string name="pref_cat_connected_have_notif">Aplicação predefinida e sinal da Mi Band 2</string>
     <string name="pref_cat_connected_have_notif_default">Definições predefinidas e padrão</string>
     <string name="pref_connected_no_notif_title">Sinal da Mi Band 2</string>
@@ -47,27 +45,14 @@
     <string name="pref_connected_no_notif_wakelock_summary_off">Desligado</string>
 
     <string name="pref_connected_have_notif_immediate_title">Emitir sinal quando receber a notificação</string>
-    <!--<string name="pref_connected_have_notif_immediate_summary_off">Desligado</string>-->
-    <!--<string name="pref_connected_have_notif_immediate_summary_on">Ligado</string>-->
     <string name="pref_connected_have_notif_title">Emitir sinal quando conectar ao dispositivo</string>
-    <!--<string name="pref_connected_have_notif_summary_off">Desligado</string>-->
-    <!--<string name="pref_connected_have_notif_summary_on">Ligado</string>-->
     <string name="pref_connected_have_notif_reminder_title">Sinal para relembrar</string>
-    <!--<string name="pref_connected_have_notif_reminder_summary_off">Desligado</string>-->
-    <!--<string name="pref_connected_have_notif_reminder_summary_on">Ligado</string>-->
     <string name="pref_connected_have_notif_screen_off_title">Emitir sinal quando o ecrã está desligado</string>
-    <!--<string name="pref_connected_have_notif_screen_off_summary_off">Desligado</string>-->
-    <!--<string name="pref_connected_have_notif_screen_off_summary_on">Ligado</string>-->
     <string name="pref_connected_have_notif_interval_title">Intervalo de tempo para relembrar</string>
     <string name="pref_connected_have_notif_counter_title">Cardinalidade dos sinais</string>
     <string name="pref_connected_have_notif_wakelock_title">Acordar o dispositivo</string>
-    <!--<string name="pref_connected_have_notif_wakelock_summary_off">Desligado</string>-->
-    <!--<string name="pref_connected_have_notif_wakelock_summary_on">Ligado</string>-->
     <string name="pref_connected_have_notif_ongoing_title">Sinal de notificação contínua (permanece)</string>
-    <!--<string name="pref_connected_have_notif_ongoing_summary_off">Desligado</string>-->
-    <!--<string name="pref_connected_have_notif_ongoing_summary_on">Ligado</string>-->
     <string name="pref_connected_have_notif_default_app_title">Sinal de aplicação não reconhecida</string>
-    <!--<string name="pref_connected_have_notif_default_app_summary_off">Desligado</string>-->
     <string name="pref_connected_have_notif_default_app_summary_on">ícone \'App\' (se o aplicativo não existe no grupo de notificações predefinido e costumizado)</string>
     <string name="pref_connected_have_notif_pre_signal_title">Prever notificações</string>
     <string name="pref_connected_have_notif_pre_signal_summary_on">Emitir sinal (modificável) antes da notificação real, a fim de ter mais tempo para olhar para o ecrã</string>
@@ -84,8 +69,6 @@
     <string name="pref_disconnected_wakelock_summary_on">Ligado</string>
     <string name="pref_disconnected_wakelock_summary_off">Desligado</string>
 
-    <!--<string name="pref_abandoned">Definições de perca do dispositivo</string>-->
-    <!--<string name="pref_abandoned_summary">Definições de perca do dispositivo (deve estar ativo para mostrar a notificação no ecrã bloqueado)</string>-->
     <string name="pref_cat_abandoned">Sinal do dispositivo</string>
     <string name="pref_abandoned_notif_interval_title">Intervalo de repetição do sinal</string>
     <string name="pref_abandoned_notif_text_summary">Notificação no ecrã do dispositivo</string>
@@ -330,14 +313,12 @@
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[O touch é válido quando o ecrã da Mi Band 2 mudar (Por isso é aconselhado rodar o pulso antes de gravar).
         <p>Ele monitora o tempo decorrido entre os toques, e não o tempo decorrido até ao primeiro toque.</p>
-        <p>Se você fizer apenas um toque, então essa função será sempre reconhecida.
-           Se você quiser usar mais toques, você precisará de pelo menos dois toques ou mais com tempos diferentes.</p>
         <p>Os ícones verdes nos cartões indicam que função pode ser semelhante ao padrão atual.</p>
         <p>Quando você recebe uma chamada, o telemóvel não reconhece as seguintes funções para facilitar a entrada de toque: localização do dispositivo,repetir notificações, controle de música.</p>
         <p>No modo teste não é executada a função de padrão reconhecido.</p>
         <p>Feedback da vibração da Mi Band 2 se houver um padrão, levando em consideração o status atual do telemóvel (atendimento de chamadas, rejeição somente se houver uma chamada recebida, …).</p>
         <p>A Mi Band 2 vibra uma vez, quando reconhece um padrão.</p>
-        <P>A Mi Band 2 vibra duas vezes, quando não reconhece nenhum padrão após o padrão mais longo (se <i>o sinal do padrão de toque não é reconhecido</ i>).</p>
+        <p>A Mi Band 2 vibra duas vezes, quando não reconhece nenhum padrão após o padrão mais longo (se <i>o sinal do padrão de toque não é reconhecido</ i>).</p>
         <p>Exemplos de touch válidos:
         <br>- toca
         <br>- toca e espera 1seg, toca
@@ -350,6 +331,7 @@
 
     <!-- Pulse  monitoring -->
     <string name="action_pulse">Mostrar pulsação</string>
+    <string name="action_export">Exportação</string>
     <string name="pulse_current">Pulsação atual</string>
 
     <string name="pulse_tab_settings">Definições</string>
@@ -472,7 +454,7 @@
         <br>- movimentação
 
         <p>Se alguém operar o telemóvel enquanto você estiver ausente, os eventos acima serão registrados. </ P>
-        <P> Quando você se reconectar, você receberá uma notificação no caso de um evento ocorrer.</p>]]>
+        <p> Quando você se reconectar, você receberá uma notificação no caso de um evento ocorrer.</p>]]>
     </string>
 
     <!-- Ad-free -->
@@ -488,7 +470,7 @@
         <p>- Eu testei a aplicação e ela está a funcionar corretamente. Eu estou ciente de que não posso exigir compensação ou reembolso devido a bugs, erros de software causados ​​por alterações no software, ambiente do hardware ou outras aplicações usadas.
         <br>- Todas as vendas são finais e não podem ser reembolsadas (exceto a política de reembolso do Google).
         <br>- Não há garantia incluída.</p>
-        <p><i> Depois de comprar, você precisa de reiniciar a aplicação.</i></p>]]>
+        <p><i>Depois de comprar, você precisa de reiniciar a aplicação.</i></p>]]>
     </string>
 
     <string name="purchase_agree">Eu concordo com os Termos e Condições.</string>
