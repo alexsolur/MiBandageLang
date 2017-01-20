@@ -1,1 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_connected_have_notif_counter">
+        <item>Μία φορά ανά εικονίδιο του Mi Band 2</item>
+        <item>Αριθμός ειδοποιήσεων</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
 
+    <string-array name="pref_connected_have_notif_counter_values">
+        <item>-2</item>
+        <item>-1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_interval">
+        <item>5 λεπτά</item>
+        <item>10 λεπτά</item>
+        <item>20 λεπτά</item>
+        <item>30 λεπτά</item>
+        <item>1 ώρα</item>
+        <item>2 ώρες</item>
+        <item>3 ώρες</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_interval_values">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </string-array>
+
+    <string-array name="pref_abandoned_interval">
+        <item>1 λεπτό</item>
+        <item>2 λεπτά</item>
+        <item>3 λεπτά</item>
+        <item>4 λεπτά</item>
+        <item>5 λεπτά</item>
+        <item>6 λεπτά</item>
+        <item>7 λεπτά</item>
+        <item>8 λεπτά</item>
+        <item>9 λεπτά</item>
+        <item>10 λεπτά</item>
+    </string-array>
+
+    <integer-array name="pref_abandoned_interval_values">
+        <item>60000</item>
+        <item>120000</item>
+        <item>180000</item>
+        <item>240000</item>
+        <item>300000</item>
+        <item>360000</item>
+        <item>420000</item>
+        <item>480000</item>
+        <item>540000</item>
+        <item>600000</item>
+    </integer-array>
+
+    <string-array name="pref_abandoned_notif_interval">
+        <item>10 λεπτά</item>
+        <item>20 λεπτά</item>
+        <item>30 λεπτά</item>
+        <item>1 ώρα</item>
+        <item>2 ώρες</item>
+        <item>3 ώρες</item>
+    </string-array>
+
+    <integer-array name="pref_abandoned_notif_interval_values">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </integer-array>
+
+    <string-array name="notification_group_counter">
+        <item>Ένα σήμα</item>
+        <item>Μιά ανα εφαρμογή</item>
+        <item>Αριθμός ειδοποιήσεων</item>
+    </string-array>
+
+    <string-array name="touch_call_mute_ringer_mode">
+        <item>Δόνιση</item>
+        <item>Μην ενοχλείτε (μόνο ξυπνητήρια)</item>
+    </string-array>
+
+    <string-array name="touch_music_player">
+        <item>Προεπιλεγμένο πρόγραμμα αναπαραγωγής μουσικής</item>
+        <item>Μουσική Google Play</item>
+        <item>Spotify Music</item>
+    </string-array>
+
+    <string-array name="touch_music_player_values">
+        <item></item>
+        <item>com.google.android.music</item>
+        <item>com.spotify.music</item>
+    </string-array>
+
+    <string-array name="pref_pulse_interval">
+        <item>1 λεπτό</item>
+        <item>2 λεπτά</item>
+        <item>5  λεπτά</item>
+        <item>10  λεπτά</item>
+        <item>15  λεπτά</item>
+        <item>20  λεπτά</item>
+        <item>30  λεπτά</item>
+        <item>1 ώρα</item>
+    </string-array>
+
+    <integer-array name="pref_pulse_interval_values">
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>1200000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+    </integer-array>
+
+    <string-array name="pulse_signal_start">
+        <item>Καμία</item>
+        <item>1 δόνηση</item>
+        <item>2 δονήσεις</item>
+        <item>3 δονήσεις</item>
+    </string-array>
+
+    <string-array name="pulse_signal_start_values">
+        <item>ΚΑΜΙΑ</item>
+        <item>ΜΑΛΑΚΗ_1</item>
+        <item>ΜΑΛΑΚΗ_2</item>
+        <item>ΜΑΛΑΚΗ_3</item>
+    </string-array>
+
+    <string-array name="pulse_signal_end">
+        <item>Καμία</item>
+        <item>1 δόνηση</item>
+        <item>2 δονήσεις</item>
+        <item>3 δονήσεις</item>
+    </string-array>
+
+    <string-array name="pulse_signal_end_values">
+        <item>ΚΑΜΙΑ</item>
+        <item>ΣΚΛΗΡΗ_1</item>
+        <item>ΣΚΛΗΡΗ_2</item>
+        <item>ΣΚΛΗΡΗ_3</item>
+    </string-array>
+
+    <string-array name="pref_timer_time_interval_repeat">
+        <item>Ανενεργό</item>
+        <item>1 λεπτο</item>
+        <item>2 λεπτά</item>
+        <item>5 λεπτά</item>
+        <item>10 λεπτά</item>
+        <item>15 λεπτά</item>
+        <item>20 λεπτά</item>
+        <item>30 λεπτά</item>
+        <item>1 ώρα</item>
+        <item>2 ώρες</item>
+        <item>3 ώρες</item>
+        <item>4 ώρες</item>
+        <item>5 ώρες</item>
+    </string-array>
+
+    <integer-array name="pref_timer_time_interval_repeat_values">
+        <item>0</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>1200000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+        <item>10800000</item>
+        <item>14400000</item>
+        <item>18000000</item>
+    </integer-array>
+
+    <string-array name="pref_language">
+        <item>Default</item>
+        <item>English</item>
+        <item>Hungarian</item>
+        <item>Russian</item>
+        <item>Portuguese</item>
+        <item>Turkish</item>
+        <item>Greek</item>
+    </string-array>
+
+    <string-array name="pref_language_values">
+        <item>DEFAULT</item>
+        <item>en</item>
+        <item>hu</item>
+        <item>ru</item>
+        <item>pt</item>
+        <item>tr</item>
+        <item>el</item>
+    </string-array>
+</resources>
