@@ -4,7 +4,7 @@
     <string name="navigation_drawer_open">Gezinme çekmecesini aç</string>
     <string name="navigation_drawer_close">Gezinme çekmecesini kapat</string>
 
-    <string name="drawer_nav_home">Bandajlar</string>
+    <string name="drawer_nav_home">Bileklikler</string>
     <string name="drawer_nav_notification">Bildirim denetimi</string>
     <string name="drawer_nav_touch">Dokunmatik izleme</string>
     <string name="drawer_nav_alarm">İzleme kaybedildi</string>
@@ -26,40 +26,40 @@
     <string name="mi_band_mac_address">MAC adresi</string>
     <string name="mi_band_firmware">Ürün sürümü</string>
     <string name="mi_band_hardware">Donanım</string>
-    <string name="mi_band_state_connected_last_time">Son bağlantı süresi</string>
+    <string name="mi_band_state_connected_last_time">Son bağlantı zamanı</string>
     <string name="mi_band_state_disconnected_last_time">Son ayrılma zamanı</string>
 
     <string name="mi_band_mac_address_invalid">MAC Adresi geçersiz</string>
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Bağlantı ayarları</string>
-    <string name="pref_connected_summary">Mi Band 2 ve cihaz bağlantı sinyali ayarları</string>
+    <string name="pref_connected_summary">Mi Band 2 ve cihaz bağlantı uyarısı ayarları</string>
     <string name="pref_cat_connected_no_notif">Mi Band 2 bağlantı kurma ve bildirim yok</string>
     <string name="pref_cat_connected_have_notif">Onceden tanımlanmış uygulama ve Mi Band 2 sinyal</string>
     <string name="pref_cat_connected_have_notif_default">Önceden tanımlı ve ozel ayarlar</string>
-    <string name="pref_connected_no_notif_title">Mi Band 2 sinyal</string>
+    <string name="pref_connected_no_notif_title">Mi Band 2 uyarısı</string>
     <string name="pref_connected_no_notif_summary_on">Titresim</string>
     <string name="pref_connected_no_notif_summary_off">Hayır</string>
     <string name="pref_connected_no_notif_wakelock_title">Cihaz ekranını uyandırma</string>
     <string name="pref_connected_no_notif_wakelock_summary_on">calıstır</string>
     <string name="pref_connected_no_notif_wakelock_summary_off">durdur</string>
 
-    <string name="pref_connected_have_notif_immediate_title">Bildirim alındığında anında sinyal</string>
-    <string name="pref_connected_have_notif_title">Aygıta baglanırken sinyal</string>
-    <string name="pref_connected_have_notif_reminder_title">Hatırlatma sinyali</string>
-    <string name="pref_connected_have_notif_screen_off_title">Sinyal yalnızca ekran kapalıyken</string>
+    <string name="pref_connected_have_notif_immediate_title">Bildirim alındığında uyar</string>
+    <string name="pref_connected_have_notif_title">Aygıta baglanırken uyar</string>
+    <string name="pref_connected_have_notif_reminder_title">Hatırlatma uyarısı</string>
+    <string name="pref_connected_have_notif_screen_off_title">Yalnızca ekran kapalıyken uyarı</string>
     <string name="pref_connected_have_notif_interval_title">Hatırlatma tekrar aralığı</string>
     <string name="pref_connected_have_notif_counter_title">Sinyaller kararlılığı</string>
     <string name="pref_connected_have_notif_wakelock_title">Cihaz ekranını uyandırma</string>
-    <string name="pref_connected_have_notif_ongoing_title">Sinyal devam eden (kalıcı) bildirimler</string>
-    <string name="pref_connected_have_notif_default_app_title">Sinyal tanınmayan uygulama</string>
-    <string name="pref_connected_have_notif_default_app_summary_on">\'Uygulama\' simgesi (uygulama önceden tanımlı ve özel uyarı grubunda yoksa)</string>
+    <string name="pref_connected_have_notif_ongoing_title">Devam eden (kalıcı) bildirimler uyarısı</string>
+    <string name="pref_connected_have_notif_default_app_title">Tanınmayan uygulama uyarısı</string>
+    <string name="pref_connected_have_notif_default_app_summary_on">\'Uygulama \' simgesi (uygulama önceden tanımlı ve özel uyarı grubunda yoksa)</string>
     <string name="pref_connected_have_notif_pre_signal_title">Bildirim tahmini</string>
     <string name="pref_connected_have_notif_pre_signal_summary_on">Görüntüye bakmak için daha fazla zamana sahip olmak için gerçek bildirimden önce sinyal (değiştirilebilir)</string>
 
     <string name="pref_disconnected">Bağlantı kesme ayarları</string>
-    <string name="pref_disconnected_summary">Mi Band 2 ve cihaz sinyali kesme ayarları</string>
-    <string name="pref_cat_disconnected">Aygıt sinyalleri</string>
+    <string name="pref_disconnected_summary">Mi Band 2 ve cihaz uyarı kesme ayarları</string>
+    <string name="pref_cat_disconnected">Aygıt uyarıları</string>
     <string name="pref_disconnected_ringtone_title">Zil sesi</string>
     <string name="pref_disconnected_ringtone_summary_no">Yok</string>
     <string name="pref_disconnected_vibration_title">Titresim</string>
@@ -70,7 +70,7 @@
     <string name="pref_disconnected_wakelock_summary_off">Durdur</string>
 
     <string name="pref_cat_abandoned">Cihaz sinyali</string>
-    <string name="pref_abandoned_notif_interval_title">Sinyal tekrarlama aralığı</string>
+    <string name="pref_abandoned_notif_interval_title">Uyarı tekrarlama aralığı</string>
     <string name="pref_abandoned_notif_text_summary">Cihaz ekranında bildirim</string>
     <string name="pref_abandoned_notif_text_text">Cihaz kayboldu, lütfen aşağıdaki numaraları arayın:</string>
     <string name="pref_abandoned_ringtone_title">Zil sesi</string>
@@ -82,27 +82,27 @@
     <string name="pref_call">Arama Ayarlari</string>
     <string name="pref_call_summary">Mi Band 2 sinyal ayarlari</string>
     <string name="pref_cat_call">Gelen arama</string>
-    <string name="pref_call_title">Gelen arama sinyali</string>
+    <string name="pref_call_title">Gelen arama uyarısı</string>
     <string name="pref_call_summary_off">Durdur</string>
     <string name="pref_call_summary_on">Calıstır (Mi Fit uygulamasında gelen çağrı uyarılarını kapatmayı unutmayın)</string>
     <string name="pref_call_text_title">Arayan kimliğini göster</string>
     <string name="pref_call_text_summary_on"><![CDATA[Calıstır (daha fazla bilgi: <i> Ayarlar / Metin simgeleri ayarları)</i>]]></string>
     <string name="pref_call_text_summary_off">Durdur</string>
 
-    <string name="pref_call_net_text_title">Gelen internet araması sinyali, arayan kimliğini göster</string>
+    <string name="pref_call_net_text_title">Gelen internet araması uyarısı, arayanın kimliğini göster</string>
     <string name="pref_call_net_text_summary_off">Durdur</string>
     <string name="pref_call_net_text_summary_on">Viber</string>
 
     <string name="pref_cat_call_missed">Cevapsız arama</string>
-    <string name="pref_call_missed_title">Cevapsız arama sinyali</string>
+    <string name="pref_call_missed_title">Cevapsız arama uyarısı</string>
     <string name="pref_call_missed_summary_off">Durdur</string>
     <string name="pref_call_missed_summary_on">Calıstır</string>
 
-    <string name="pref_call_missed_net_title">Cevapsız internet araması sinyali, arayan kimliğini göster</string>
+    <string name="pref_call_missed_net_title">Cevapsız internet araması uyarısı, arayan kimliğini göster</string>
     <string name="pref_call_missed_net_summary_off">Durdur</string>
     <string name="pref_call_missed_net_summary_on">Viber, Skype, Messenger</string>
 
-    <string name="pref_call_missed_alert_title">Mi Band 2 sinyal</string>
+    <string name="pref_call_missed_alert_title">Mi Band 2 uyarısı</string>
 
     <string name="pref_call_missed_text_prefix_title">Metin öneki: %1$s</string>
     <string name="pref_call_missed_text_prefix_summary">Birden fazla uygulama aynı zamanda bildirimleri birbirinden ayırmak için simgeyi kullanıyorsa</string>
@@ -110,7 +110,7 @@
 
     <string name="pref_text_conversion">Metin simgeleri ayarları</string>
     <string name="pref_text_conversion_summary">Mi Band 2 Metin simgesi ayarları</string>
-    <string name="pref_cat_text_conversion">Mi Band 2 sinyal</string>
+    <string name="pref_cat_text_conversion">Mi Band 2 uyarısı</string>
     <string name="pref_text_conversion_title">Karakterlerin dönüştürülmesi</string>
     <string name="pref_text_conversion_summary_on">Tanınmayan karakter dönüşümleri</string>
     <string name="pref_text_conversion_summary_off">Durdur</string>
@@ -131,13 +131,13 @@
 
     <string name="pref_touch">Dokunmatik izleme ayarları</string>
     <string name="pref_touch_summary"></string>
-    <string name="pref_cat_touch">Mi Band 2 sinyal</string>
-    <string name="pref_touch_recognised_failed_title">Tanınmayan dokunmatik desen sinyali</string>
+    <string name="pref_cat_touch">Mi Band 2 uyarısı</string>
+    <string name="pref_touch_recognised_failed_title">Tanınmayan dokunmatik desen uyarısı</string>
     <string name="pref_touch_recognised_failed_summary_off">Durdur</string>
     <string name="pref_touch_recognised_failed_summary_on">Calıstır (En uzun desenden 2 titreşim)</string>
 
     <string name="pref_mi_band">Mi Band 2 ayarlari</string>
-    <string name="pref_cat_mi_band_lift_wrist">Bilgiyi kaldırmak için bilekliği kaldırın</string>
+    <string name="pref_cat_mi_band_lift_wrist">Bilgiyi görmek için bilekliği kaldırın</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Rahatsız etmeyin modu</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Calıstır (Belirtilen sürede bilgi görüntülenmez, ayar için Bluetooth bağlantısı gereklidir)</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_off">Durdur</string>
@@ -150,9 +150,9 @@
 
     <!-- Quick switch -->
     <string name="details">Ayrıntılar</string>
-    <string name="bandages">Bandajlar</string>
-    <string name="connected">Bağlantı ve bildirim sinyali</string>
-    <string name="disconnected">Ayırma ve temsilci sinyali</string>
+    <string name="bandages">Bileklikler</string>
+    <string name="connected">Bağlantı ve bildirim uyarısı</string>
+    <string name="disconnected">Ayırma ve temsilci uyarısı</string>
     <string name="touch">Dokunmatik izleme</string>
 
     <string name="pref_dnd_title">Rahatsız etmeyin modu</string>
@@ -161,10 +161,10 @@
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Lütfen Bluetooth\'u etkinleştirin ve Mi Band 2 cihazını telefona yakın hale getirin</string>
-    <string name="message_discover_mi_band">Mi Band 2 ayarlanmadı, lütfen keşfediniz</string>
-    <string name="message_discovered_mi_band">Mi Band 2 keşfedildi</string>
-    <string name="message_discovering_mi_band">Mi Band 2\'yi keşfetmek (1 dakika sürebilir) &#8230;</string>
-    <string name="message_discovered_no_mi_band">Mi Band 2 keşfedilmedi</string>
+    <string name="message_discover_mi_band">Mi Band 2 ayarlanmadı, lütfen tanıtınız</string>
+    <string name="message_discovered_mi_band">Mi Band 2 tanındı</string>
+    <string name="message_discovering_mi_band">Mi Band 2\'yi tanıtmak (1 dakika sürebilir) &#8230;</string>
+    <string name="message_discovered_no_mi_band">Mi Band 2 tanınmadı</string>
     <string name="message_discovered_not_found_mi_band">Mi Band 2 bulunamazsa, açın: Mi Fit/Play/Discoverable veya cihazı Bluetooth ayarlarında eşleştir</string>
     <string name="message_enable_notifications_access">Bildirim erişimini etkinleştir: Ayarlar/Bildirimler/Bildirim erişimi</string>
     <string name="message_enable_notifications_access_4_4">Bildirim erişimini etkinleştir: Ayarlar/Güvenlik/Bildirim erişimi</string>
@@ -219,16 +219,16 @@
     <string name="notification_group_alert_title">Mi Band 2 sinyal</string>
     <string name="notification_group_prefix">Metin öneki</string>
     <string name="notification_group_prefix_only_premium">Metin öneki (yalnızca premium modda)</string>
-    <string name="notification_group_immediate">Bildirim alındığında anında sinyal</string>
+    <string name="notification_group_immediate">Bildirim alındığında anında uyarı</string>
     <string name="notification_group_connecting">Cihaza bağlanırken</string>
-    <string name="notification_group_reminder">Hatırlatma sinyali</string>
-    <string name="notification_group_screen_off">Sinyal yalnızca ekran kapalıyken</string>
-    <string name="notification_group_counter_title">Sinyaller kararlılığı</string>
+    <string name="notification_group_reminder">Hatırlatma uyarısı</string>
+    <string name="notification_group_screen_off">Yalnızca ekran kapalıyken uyar</string>
+    <string name="notification_group_counter_title">Uyarı kararlılığı</string>
     <string name="notification_group_wakelock">Cihaz ekranını uyandırma</string>
     <string name="notification_group_required">Gerekli</string>
 
     <!-- Notification info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Önceden tanımlı uygulama ve Mi Band 2 simgesi sinyalleri:
+    <string name="info_dialog_notification"><![CDATA[Önceden tanımlı uygulama ve Mi Band 2 simgesi uyarıları:
         <br><img src="ALERT_MESSAGE_TEXT">  cevapsız çağrı
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  E-posta, Gmail
@@ -280,7 +280,7 @@
 
     <string name="touch_call_end_title">Çağrı reddetme, sonlandırma</string>
 
-    <string name="touch_call_mute_title">Arama sesini kapatma değiştir</string>
+    <string name="touch_call_mute_title">Arama sesini kapatma değiştirme</string>
     <string name="touch_call_mute_ringtone_title_no">Yok</string>
 
     <string name="touch_device_location_not_muted_only_title">Yalnızca sessiz değilse ses</string>
@@ -330,16 +330,16 @@
 
     <!-- Pulse  monitoring -->
     <string name="action_pulse">Nabzı göster</string>
+    <string name="pulse_current">Anlık nabız</string>
     <string name="action_export">Ihracat</string>
-    <string name="pulse_current">Akım darbesi</string>
 
     <string name="pulse_tab_settings">Ayarlar</string>
     <string name="pulse_tab_day">Günlük grafikler</string>
 
     <string name="pulse_title_signals">Sinyaller</string>
-    <string name="pulse_signal_start_title">İzleme başlangıç sinyali</string>
+    <string name="pulse_signal_start_title">İzleme başlangıç uyarısı</string>
     <string name="pulse_signal_show_title">Nabzı göster</string>
-    <string name="pulse_signal_end_title">Yüksek nabız sinyali</string>
+    <string name="pulse_signal_end_title">Yüksek nabız uyarısı</string>
     <string name="pulse_signal_end_value_title">BPM</string>
 
     <string name="pulse_title_timing_validity">Zamanlama ve geçerlik</string>
@@ -359,7 +359,7 @@
     </string>
 
     <!-- Lost  monitoring -->
-    <string name="alarm_mi_band_title">Mi Band 2 sinyal</string>
+    <string name="alarm_mi_band_title">Mi Band 2 uyarısı</string>
     <string name="alarm_mi_band_dnd">Rahatsız etmeyin modu</string>
     <string name="alarm_mi_band_dnd_start">Baslama zamanı</string>
     <string name="alarm_mi_band_dnd_end">Bitiş zamanı</string>
@@ -397,7 +397,7 @@
     <string name="time_timer_alert_bell_title">Zil</string>
     <string name="time_timer_alert_alarm_title">Alarm</string>
 
-    <string name="time_timer_reminder">Hatırlatma sinyali, kalan süre</string>
+    <string name="time_timer_reminder">Hatırlatma uyarısı, kalan süre</string>
     <string name="time_timer_reminder_interval_before_title">Zamanından önce</string>
     <string name="time_timer_reminder_interval_before_off_title">Durdur</string>
     <string name="time_timer_reminder_interval_repeat_title">Hatırlatma tekrar aralığı</string>
@@ -413,7 +413,7 @@
     <string name="time_stopper_alert_bell_title">Zil</string>
     <string name="time_stopper_alert_alarm_title">Alarm</string>
 
-    <string name="time_stopper_reminder">Hatırlatma sinyali, geçen süre</string>
+    <string name="time_stopper_reminder">Hatırlatma uyarısı, geçen süre</string>
     <string name="time_stopper_reminder_interval_before_title">Zamanından önce</string>
     <string name="time_stopper_reminder_interval_before_off_title">Durdur</string>
     <string name="time_stopper_reminder_interval_repeat_title">Hatırlatma tekrar aralığı</string>
@@ -437,7 +437,7 @@
 
     <!-- Agent -->
     <string name="agent_title">Aygıt izleme aracı</string>
-    <string name="agent_tab_events">Temsilci günlüğü</string>
+    <string name="agent_tab_events">izleme günlüğü</string>
     <string name="agent_tab_settings">Ayarlar</string>
 
     <string name="pref_disconnected_agent_summary_on">Uzakta olduğunuzda cihazınızla birisi oynarsa</string>
