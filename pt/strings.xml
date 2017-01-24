@@ -15,6 +15,10 @@
     <string name="drawer_nav_feedback">Feedback</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
+    <!-- Foreground service, ongoing notification -->
+    <string name="foreground_service_connected">Connection time: %1$s</string>
+    <string name="foreground_service_disconnected">Mi Band 2 is not connected</string>
+
     <!-- Strings related to Settings -->
     <string name="settings_name">Definições</string>
     <string name="app_chooser">Escolher aplicação</string>
@@ -56,6 +60,9 @@
     <string name="pref_connected_have_notif_default_app_summary_on">ícone \'App\' (se o aplicativo não existe no grupo de notificações predefinido e costumizado)</string>
     <string name="pref_connected_have_notif_pre_signal_title">Prever notificações</string>
     <string name="pref_connected_have_notif_pre_signal_summary_on">Emitir sinal (modificável) antes da notificação real, a fim de ter mais tempo para olhar para o ecrã</string>
+
+    <string name="pref_foreground_service_title">Show status in notification shade</string>
+    <string name="pref_foreground_service_summary">The Android system force-stops a service only when memory is low. If after a while does not appear the notifications on the Band 2, you can prevent this.</string>
 
     <string name="pref_disconnected">Definições de desconexão</string>
     <string name="pref_disconnected_summary">Definições do sinal de desconexão do dispositivo</string>
@@ -216,7 +223,7 @@
     <!-- Notification Dialog -->
     <string name="notification_group_name">Nome</string>
     <string name="notification_group_monitoring">Monitoramento de notificações</string>
-    <string name="notification_group_monitoring_disabled">Exclusão de notificações</string>
+    <string name="notification_group_monitoring_disabled">Exclusão de notificações (do not show the application notifications)</string>
     <string name="notification_group_alert_title">Sinal da Mi Band 2</string>
     <string name="notification_group_prefix">Prefixo do texto</string>
     <string name="notification_group_prefix_only_premium">Prefixo do texto (Modo premium)</string>
@@ -340,6 +347,8 @@
     <string name="pulse_title_signals">Sinais</string>
     <string name="pulse_signal_start_title">Monitorar sinal de começo</string>
     <string name="pulse_signal_show_title">Mostrar pulsação</string>
+    <string name="pulse_signal_end_low_title">Low pulse signal</string>
+    <string name="pulse_signal_end_low_value_title">BPM</string>
     <string name="pulse_signal_end_title">Sinal de pulsação alta</string>
     <string name="pulse_signal_end_value_title">BPM</string>
 
