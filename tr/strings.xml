@@ -16,8 +16,8 @@
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
     <!-- Foreground service, ongoing notification -->
-    <string name="foreground_service_connected">Connection time: %1$s</string>
-    <string name="foreground_service_disconnected">Mi Band 2 is not connected</string>
+    <string name="foreground_service_connected">Bağlantı süresi: %1$s</string>
+    <string name="foreground_service_disconnected">Mi Band 2 bağlı değil</string>
 
     <!-- Strings related to Settings -->
     <string name="settings_name">Ayarlar</string>
@@ -40,7 +40,7 @@
     <string name="pref_connected_summary">Mi Band 2 ve cihaz bağlantı uyarısı ayarları</string>
     <string name="pref_cat_connected_no_notif">Mi Band 2 bağlantı kurma ve bildirim yok</string>
     <string name="pref_cat_connected_have_notif">Onceden tanımlanmış uygulama ve Mi Band 2 sinyal</string>
-    <string name="pref_cat_connected_have_notif_default">Önceden tanımlı ve ozel ayarlar</string>
+    <string name="pref_cat_connected_have_notif_default">Önceden tanımlı ve özel ayarlar</string>
     <string name="pref_connected_no_notif_title">Mi Band 2 uyarısı</string>
     <string name="pref_connected_no_notif_summary_on">Titresim</string>
     <string name="pref_connected_no_notif_summary_off">Hayır</string>
@@ -61,8 +61,8 @@
     <string name="pref_connected_have_notif_pre_signal_title">Bildirim tahmini</string>
     <string name="pref_connected_have_notif_pre_signal_summary_on">Görüntüye bakmak için daha fazla zamana sahip olmak için gerçek bildirimden önce sinyal (değiştirilebilir)</string>
 
-    <string name="pref_foreground_service_title">Show status in notification shade</string>
-    <string name="pref_foreground_service_summary">The Android system force-stops a service only when memory is low. If after a while does not appear the notifications on the Band 2, you can prevent this.</string>
+    <string name="pref_foreground_service_title">Bildirim durumunu gölgede göster</string>
+    <string name="pref_foreground_service_summary">Android sistemi, bir hizmeti ancak bellek düşük olduğunda zorlar. Bir süre sonra Bant 2'deki bildirimler görünmezse, bunu önleyebilirsiniz.</string>
 
     <string name="pref_disconnected">Bağlantı kesme ayarları</string>
     <string name="pref_disconnected_summary">Mi Band 2 ve cihaz uyarı kesme ayarları</string>
@@ -222,7 +222,7 @@
     <!-- Notification Dialog -->
     <string name="notification_group_name">isim</string>
     <string name="notification_group_monitoring">Bildirimleri izleme</string>
-    <string name="notification_group_monitoring_disabled">Hariç tutma bildirimleri (do not show the application notifications)</string>
+    <string name="notification_group_monitoring_disabled">Hariç tutma bildirimleri (Uygulama bildirimlerini gösterme)</string>
     <string name="notification_group_alert_title">Mi Band 2 sinyal</string>
     <string name="notification_group_prefix">Metin öneki</string>
     <string name="notification_group_prefix_only_premium">Metin öneki (yalnızca premium modda)</string>
@@ -346,7 +346,7 @@
     <string name="pulse_title_signals">Sinyaller</string>
     <string name="pulse_signal_start_title">İzleme başlangıç uyarısı</string>
     <string name="pulse_signal_show_title">Nabzı göster</string>
-    <string name="pulse_signal_end_low_title">Low pulse signal</string>
+    <string name="pulse_signal_end_low_title">Düşük nabız uyarısı</string>
     <string name="pulse_signal_end_low_value_title">BPM</string>
     <string name="pulse_signal_end_title">Yüksek nabız uyarısı</string>
     <string name="pulse_signal_end_value_title">BPM</string>
