@@ -16,8 +16,8 @@
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
     <!-- Foreground service, ongoing notification -->
-    <string name="foreground_service_connected">Connection time: %1$s</string>
-    <string name="foreground_service_disconnected">Mi Band 2 is not connected</string>
+    <string name="foreground_service_connected">Χρόνος σε σύνδεση: %1$s</string>
+    <string name="foreground_service_disconnected">Το Mi Band 2 δεν είναι συνδεδεμένο</string>
 
     <!-- Strings related to Settings -->
     <string name="settings_name">Ρυθμίσεις</string>
@@ -61,8 +61,8 @@
     <string name="pref_connected_have_notif_pre_signal_title">Πρόβλεψη ειδοποίησης</string>
     <string name="pref_connected_have_notif_pre_signal_summary_on">Σήμα (τροποποιήσιμο) πριν από την πραγματική ειδοποίηση, ώστε να έχουμε περισσότερο χρόνο για να δούμε την  οθόνη</string>
 
-    <string name="pref_foreground_service_title">Show status in notification shade</string>
-    <string name="pref_foreground_service_summary">The Android system force-stops a service only when memory is low. If after a while does not appear the notifications on the Band 2, you can prevent this.</string>
+    <string name="pref_foreground_service_title">Εμφάνιση κατάστασης στο πίνακα ειδοποιήσεων</string>
+    <string name="pref_foreground_service_summary">Το σύστημα Android κάνει αναγκαστική διακοπή υπηρεσίας μόνο όταν η μνήμη είναι χαμηλή. Εάν μετά από λίγο δεν εμφανίζεται στις ειδοποιήσεις στο Band 2, μπορείτε να αποτρέψετε.</string>
 
     <string name="pref_disconnected">Ρυθμίσεις αποσύνδεσης</string>
     <string name="pref_disconnected_summary">Mi Band 2 και ρυθμίσεις σήματος αποσύνδεσης της συσκευή</string>
@@ -223,7 +223,7 @@
     <!-- Notification Dialog -->
     <string name="notification_group_name">Όνομα</string>
     <string name="notification_group_monitoring">Παρακολούθηση ειδοποιήσεων</string>
-    <string name="notification_group_monitoring_disabled">Εξαιρέσεις ειδοποιήσεων (do not show the application notifications)</string>
+    <string name="notification_group_monitoring_disabled">Εξαιρέσεις ειδοποιήσεων (μην εμφανίζεις τις ειδοποιήσεις της εφαρμογής)</string>
     <string name="notification_group_alert_title">Σήμα Mi Band 2</string>
     <string name="notification_group_prefix">Πρόθεμα κειμένου</string>
     <string name="notification_group_prefix_only_premium">Πρόθεμα κειμένου (μόνο στη λειτουργία premium)</string>
