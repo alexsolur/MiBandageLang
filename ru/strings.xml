@@ -16,8 +16,8 @@
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
     <!-- Foreground service, ongoing notification -->
-    <string name="foreground_service_connected">Connection time: %1$s</string>
-    <string name="foreground_service_disconnected">Mi Band 2 is not connected</string>
+    <string name="foreground_service_connected">Время присоединения: %1$s</string>
+    <string name="foreground_service_disconnected">Mi Band 2 не подключен</string>
 
     <!-- Strings related to Settings -->
     <string name="settings_name">Настройки</string>
@@ -61,8 +61,8 @@
     <string name="pref_connected_have_notif_pre_signal_title">Предсказание уведомлений</string>
     <string name="pref_connected_have_notif_pre_signal_summary_on">Уведомдение (настраиваемое) перед настоящим уведомлением, чтобы успеть увидеть его на Mi Band 2</string>
 
-    <string name="pref_foreground_service_title">Show status in notification shade</string>
-    <string name="pref_foreground_service_summary">The Android system force-stops a service only when memory is low. If after a while does not appear the notifications on the Band 2, you can prevent this.</string>
+    <string name="pref_foreground_service_title">Отображение статуса подключения в уведомлении</string>
+    <string name="pref_foreground_service_summary">Система Android принудительно останавливает приложение только при недостатке памяти. Если через некоторое время перестают приходить уведомления Mi Band 2, вы можете предотвратить это.</string>
 
     <string name="pref_disconnected">Настройки отсоединения</string>
     <string name="pref_disconnected_summary">Настройки рассоединения Mi Band 2 и устройства</string>
@@ -223,7 +223,7 @@
     <!-- Notification Dialog -->
     <string name="notification_group_name">Название группы</string>
     <string name="notification_group_monitoring">Управлять уведомлениями</string>
-    <string name="notification_group_monitoring_disabled">Исключить уведомления (do not show the application notifications)</string>
+    <string name="notification_group_monitoring_disabled">Исключить уведомления (не отображать уведомления приложений)</string>
     <string name="notification_group_alert_title">Изображение на Mi Band 2</string>
     <string name="notification_group_prefix">Префикс текста</string>
     <string name="notification_group_prefix_only_premium">Префикс текста (только для премиума)</string>
@@ -347,8 +347,8 @@
     <string name="pulse_title_signals">Сигналы</string>
     <string name="pulse_signal_start_title">Сигнал начала измерений</string>
     <string name="pulse_signal_show_title">Показывать пульс</string>
-    <string name="pulse_signal_end_low_title">Low pulse signal</string>
-    <string name="pulse_signal_end_low_value_title">BPM</string>
+    <string name="pulse_signal_end_low_title">Сигнал низкого пульса</string>
+    <string name="pulse_signal_end_low_value_title">у/м</string>
     <string name="pulse_signal_end_title">Сигнал высокого пульса</string>
     <string name="pulse_signal_end_value_title">у/м</string>
 
