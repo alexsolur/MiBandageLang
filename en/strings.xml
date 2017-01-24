@@ -15,6 +15,10 @@
     <string name="drawer_nav_feedback">Feedback</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
+    <!-- Foreground service, ongoing notification -->
+    <string name="foreground_service_connected">Connection time: %1$s</string>
+    <string name="foreground_service_disconnected">Mi Band 2 is not connected</string>
+
     <!-- Strings related to Settings -->
     <string name="settings_name">Settings</string>
     <string name="app_chooser">App chooser</string>
@@ -56,6 +60,9 @@
     <string name="pref_connected_have_notif_default_app_summary_on">\'app\' icon (if app there is no in predefined and neither custom notification group)</string>
     <string name="pref_connected_have_notif_pre_signal_title">Notification prediction</string>
     <string name="pref_connected_have_notif_pre_signal_summary_on">Signal (modifiable) before the actual notification in order to have more time to look at the display</string>
+
+    <string name="pref_foreground_service_title">Show status in notification shade</string>
+    <string name="pref_foreground_service_summary">The Android system force-stops a service only when memory is low. If after a while does not appear the notifications on the Band 2, you can prevent this.</string>
 
     <string name="pref_disconnected">Disconnection settings</string>
     <string name="pref_disconnected_summary">Mi Band 2 and device disconnection signal settings</string>
@@ -118,7 +125,7 @@
     <string name="pref_text_conversion_description_title">Description</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
         <p>If your Mi Band 2 shows the incoming caller name currently, then you do not need to do the following steps just turn off <i>Incoming call alerts</i> on Mi Fit.</p>
-        <p>If you do not use </i>Incoming call alerts</i> and the phone language is not English:
+        <p>If you do not use <i>Incoming call alerts</i> and the phone language is not English:
         <br/>1. Set your phone language to English.
         <br/>2. Open Mi Fit app, wait until the font firmware update done. If firmware update doesn\'t start, try reboot your phone.
         <br/>3. Open the <i>Play/Incoming call</i> menu.
@@ -216,7 +223,7 @@
     <!-- Notification Dialog -->
     <string name="notification_group_name">Name</string>
     <string name="notification_group_monitoring">Monitoring notifications</string>
-    <string name="notification_group_monitoring_disabled">Exclusion notifications</string>
+    <string name="notification_group_monitoring_disabled">Exclusion notifications (do not show the application notifications)</string>
     <string name="notification_group_alert_title">Mi Band 2 signal</string>
     <string name="notification_group_prefix">Text prefix</string>
     <string name="notification_group_prefix_only_premium">Text prefix (only in premium mode)</string>
@@ -340,6 +347,8 @@
     <string name="pulse_title_signals">Signals</string>
     <string name="pulse_signal_start_title">Monitoring starting signal</string>
     <string name="pulse_signal_show_title">Show pulse</string>
+    <string name="pulse_signal_end_low_title">Low pulse signal</string>
+    <string name="pulse_signal_end_low_value_title">BPM</string>
     <string name="pulse_signal_end_title">High pulse signal</string>
     <string name="pulse_signal_end_value_title">BPM</string>
 
