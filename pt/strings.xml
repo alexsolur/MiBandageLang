@@ -16,8 +16,8 @@
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
     <!-- Foreground service, ongoing notification -->
-    <string name="foreground_service_connected">Connection time: %1$s</string>
-    <string name="foreground_service_disconnected">Mi Band 2 is not connected</string>
+    <string name="foreground_service_connected">Tempo de conexão: %1$s</string>
+    <string name="foreground_service_disconnected">A Mi Band 2 não está conectada</string>
 
     <!-- Strings related to Settings -->
     <string name="settings_name">Definições</string>
@@ -62,7 +62,7 @@
     <string name="pref_connected_have_notif_pre_signal_summary_on">Emitir sinal (modificável) antes da notificação real, a fim de ter mais tempo para olhar para o ecrã</string>
 
     <string name="pref_foreground_service_title">Show status in notification shade</string>
-    <string name="pref_foreground_service_summary">The Android system force-stops a service only when memory is low. If after a while does not appear the notifications on the Band 2, you can prevent this.</string>
+    <string name="pref_foreground_service_summary">O sistema android sorçahe Android system force-stops a service only when memory is low. If after a while does not appear the notifications on the Band 2, you can prevent this.</string>
 
     <string name="pref_disconnected">Definições de desconexão</string>
     <string name="pref_disconnected_summary">Definições do sinal de desconexão do dispositivo</string>
