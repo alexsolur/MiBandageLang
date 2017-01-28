@@ -17,7 +17,8 @@
 
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Tempo de conexão: %1$s</string>
-    <string name="foreground_service_disconnected">A Mi Band 2 não está conectada</string>
+    <string name="foreground_service_disconnected_text">A Mi Band 2 não está conectada</string>
+    <string name="foreground_service_disconnected">Disconnection time: %1$s</string>
 
     <!-- Strings related to Settings -->
     <string name="settings_name">Definições</string>
@@ -98,7 +99,7 @@
 
     <string name="pref_call_net_text_title">Sinal de chamadas recebidas na internet, mostrar o ID do chamador</string>
     <string name="pref_call_net_text_summary_off">Desligado</string>
-    <string name="pref_call_net_text_summary_on">Viber</string>
+    <string name="pref_call_net_text_summary_on">Viber, WhatsApp, Line</string>
 
     <string name="pref_cat_call_missed">Chamada perdida</string>
     <string name="pref_call_missed_title">Sinal de chamada perdida</string>
@@ -107,7 +108,7 @@
 
     <string name="pref_call_missed_net_title">Sinal de chamadas perdidas na internet, mostrar o ID do chamador</string>
     <string name="pref_call_missed_net_summary_off">Desligado</string>
-    <string name="pref_call_missed_net_summary_on">Viber, Skype, Messenger</string>
+    <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
 
     <string name="pref_call_missed_alert_title">Sinal da Mi Band 2</string>
 
