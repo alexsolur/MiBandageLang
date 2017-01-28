@@ -17,7 +17,8 @@
 
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Χρόνος σε σύνδεση: %1$s</string>
-    <string name="foreground_service_disconnected">Το Mi Band 2 δεν είναι συνδεδεμένο</string>
+    <string name="foreground_service_disconnected_text">Το Mi Band 2 δεν είναι συνδεδεμένο</string>
+    <string name="foreground_service_disconnected">Disconnection time: %1$s</string>
 
     <!-- Strings related to Settings -->
     <string name="settings_name">Ρυθμίσεις</string>
@@ -98,7 +99,7 @@
 
     <string name="pref_call_net_text_title">Σήμα εισερχόμενης κλήσης διαδικτύου, εμφάνιση ταυτότητας καλούντος</string>
     <string name="pref_call_net_text_summary_off">Ανενεργό</string>
-    <string name="pref_call_net_text_summary_on">Viber</string>
+    <string name="pref_call_net_text_summary_on">Viber, WhatsApp, Line</string>
 
     <string name="pref_cat_call_missed">Αναπάντητη κλήση</string>
     <string name="pref_call_missed_title">Σήμα αναπάντητης κλήσης</string>
@@ -107,7 +108,7 @@
 
     <string name="pref_call_missed_net_title">Αναπάντητη κλήση διαδικτύου, εμφάνιση ταυτότητας καλούντος</string>
     <string name="pref_call_missed_net_summary_off">Ανενεργό</string>
-    <string name="pref_call_missed_net_summary_on">Viber, Skype, Messenger</string>
+    <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
 
     <string name="pref_call_missed_alert_title">Σήμα Mi Band 2</string>
 
