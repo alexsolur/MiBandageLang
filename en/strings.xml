@@ -17,7 +17,8 @@
 
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Connection time: %1$s</string>
-    <string name="foreground_service_disconnected">Mi Band 2 is not connected</string>
+    <string name="foreground_service_disconnected_text">Mi Band 2 is not connected</string>
+    <string name="foreground_service_disconnected">Disconnection time: %1$s</string>
 
     <!-- Strings related to Settings -->
     <string name="settings_name">Settings</string>
@@ -98,7 +99,7 @@
 
     <string name="pref_call_net_text_title">Incoming internet call signal, display caller ID</string>
     <string name="pref_call_net_text_summary_off">Off</string>
-    <string name="pref_call_net_text_summary_on">Viber</string>
+    <string name="pref_call_net_text_summary_on">Viber, WhatsApp, Line</string>
 
     <string name="pref_cat_call_missed">Missed call</string>
     <string name="pref_call_missed_title">Missed call signal</string>
@@ -107,7 +108,7 @@
 
     <string name="pref_call_missed_net_title">Missed internet call signal, display caller ID</string>
     <string name="pref_call_missed_net_summary_off">Off</string>
-    <string name="pref_call_missed_net_summary_on">Viber, Skype, Messenger</string>
+    <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
 
     <string name="pref_call_missed_alert_title">Mi Band 2 signal</string>
 
@@ -223,7 +224,7 @@
     <!-- Notification Dialog -->
     <string name="notification_group_name">Name</string>
     <string name="notification_group_monitoring">Monitoring notifications</string>
-    <string name="notification_group_monitoring_disabled">Exclusion notifications (do not show the application notifications)</string>
+    <string name="notification_group_monitoring_disabled">Disable notifications (do not show the application notifications)</string>
     <string name="notification_group_alert_title">Mi Band 2 signal</string>
     <string name="notification_group_prefix">Text prefix</string>
     <string name="notification_group_prefix_only_premium">Text prefix (only in premium mode)</string>
