@@ -17,7 +17,8 @@
 
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Bağlantı süresi: %1$s</string>
-    <string name="foreground_service_disconnected">Mi Band 2 bağlı değil</string>
+    <string name="foreground_service_disconnected_text">Mi Band 2 bağlı değil</string>
+    <string name="foreground_service_disconnected">Disconnection time: %1$s</string>
 
     <!-- Strings related to Settings -->
     <string name="settings_name">Ayarlar</string>
@@ -62,7 +63,7 @@
     <string name="pref_connected_have_notif_pre_signal_summary_on">Görüntüye bakmak için daha fazla zamana sahip olmak için gerçek bildirimden önce sinyal (değiştirilebilir)</string>
 
     <string name="pref_foreground_service_title">Bildirim durumunu gölgede göster</string>
-    <string name="pref_foreground_service_summary">Android sistemi, bir hizmeti ancak bellek düşük olduğunda zorlar. Bir süre sonra Bant 2'deki bildirimler görünmezse, bunu önleyebilirsiniz.</string>
+    <string name="pref_foreground_service_summary">Android sistemi, bir hizmeti ancak bellek düşük olduğunda zorlar. Bir süre sonra Bant 2\'deki bildirimler görünmezse, bunu önleyebilirsiniz.</string>
 
     <string name="pref_disconnected">Bağlantı kesme ayarları</string>
     <string name="pref_disconnected_summary">Mi Band 2 ve cihaz uyarı kesme ayarları</string>
@@ -98,7 +99,7 @@
 
     <string name="pref_call_net_text_title">Gelen internet araması uyarısı, arayanın kimliğini göster</string>
     <string name="pref_call_net_text_summary_off">Durdur</string>
-    <string name="pref_call_net_text_summary_on">Viber</string>
+    <string name="pref_call_net_text_summary_on">Viber, WhatsApp, Line</string>
 
     <string name="pref_cat_call_missed">Cevapsız arama</string>
     <string name="pref_call_missed_title">Cevapsız arama uyarısı</string>
@@ -107,7 +108,7 @@
 
     <string name="pref_call_missed_net_title">Cevapsız internet araması uyarısı, arayan kimliğini göster</string>
     <string name="pref_call_missed_net_summary_off">Durdur</string>
-    <string name="pref_call_missed_net_summary_on">Viber, Skype, Messenger</string>
+    <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
 
     <string name="pref_call_missed_alert_title">Mi Band 2 uyarısı</string>
 
