@@ -8,6 +8,7 @@
     <string name="drawer_nav_notification">Управление уведомлениями</string>
     <string name="drawer_nav_touch">Контроль касаний</string>
     <string name="drawer_nav_alarm">Долго отсоединён</string>
+    <string name="drawer_nav_step">Step monitoring</string>
     <string name="drawer_nav_pulse">Измерение пульса</string>
     <string name="drawer_nav_time">Время</string>
     <string name="drawer_nav_disconnected_agent">Лог действий</string>
@@ -26,6 +27,10 @@
     <string name="info_name">Информация</string>
 
     <!-- Preference -->
+    <string name="mi_band_tracker_title">Steps, distance, calories</string>
+    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
+    <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Уровень заряда, время с последней зарядки</string>
     <string name="mi_band_bonded_device_name">Имя спаренного Mi Band 2</string>
     <string name="mi_band_mac_address">MAC адрес</string>
@@ -336,6 +341,26 @@
         <br>- касание, 2 секунда, касание, 2 секунды, касание
         </p>
     ]]></string>
+
+    <!-- Step monitoring -->
+    <string name="step_action_step">Steps</string>
+    <string name="step_action_distance">Distance</string>
+    <string name="step_action_calorie">Calories</string>
+
+    <string name="step_tab_day">Измерения за день</string>
+    <string name="step_tab_settings">Настройки</string>
+
+    <string name="step_title_timing">Время</string>
+    <string name="step_interval_title">Repeat interval of step monitoring</string>
+    <string name="step_time_start">Время начала</string>
+    <string name="step_time_end">Время окончания</string>
+    <string name="step_time_set_next">Время до следующего измерения</string>
+
+    <string name="step_details">Step details</string>
+
+    <string name="info_dialog_step"><![CDATA[Bluetooth connection is required for monitoring the steps.
+    ]]>
+    </string>
 
     <!-- Pulse  monitoring -->
     <string name="action_pulse">Показывать пульс</string>
