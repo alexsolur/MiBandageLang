@@ -231,11 +231,11 @@
     <string name="notification_group_monitoring">Управлять уведомлениями</string>
     <string name="notification_group_monitoring_disabled">Исключить уведомления (не отображать уведомления приложений)</string>
     <string name="notification_group_alert_title">Изображение на Mi Band 2</string>
-    <string name="notification_group_text_title">Title</string>
-    <string name="notification_group_text_content">Content</string>
-    <string name="notification_group_pre_alert">Pre icon</string>
+    <string name="notification_group_text_title">Заголовок</string>
+    <string name="notification_group_text_content">Содержимое</string>
+    <string name="notification_group_pre_alert">Пре-иконка</string>
     <string name="notification_group_prefix">Префикс текста</string>
-    <string name="notification_group_pre_signal_title">Default notification prediction</string>
+    <string name="notification_group_pre_signal_title">Предсказание уведомлений по умолчанию</string>
     <string name="notification_group_pre_only_premium">Только для премиума</string>
     <string name="notification_group_immediate">Мгновенное уведомление</string>
     <string name="notification_group_connecting">При подключении к устройству</string>
@@ -276,7 +276,7 @@
         <br><img src="ALERT_APP"> другие
 
         <p>Группы уведомлений, созданные вами, имеют повышенный приоритет.</p>
-        <p><img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.</p>
+        <p><img src="ALERT_MESSAGE_TEXT">: выберите эту иконку, для отображения заголовка/текста уведомлений.</p>
         <p>Если вы используете предустановленные уведомления, но хотите исключить некоторые приложения, создайте новую группу уведомлений с <i>исключением уведомлений</i> и добавьте туда эти приложения.</p>
         ]]>
     </string>
@@ -309,8 +309,8 @@
     <string name="touch_music_play_pause_title">Воспроизведение - пауза</string>
     <string name="touch_music_skip_next_title">Следующий трек</string>
     <string name="touch_music_headset_only_title">Только при подключённой гарнитуре</string>
-    <string name="touch_music_volume_up_title">Music volume up</string>
-    <string name="touch_music_volume_down_title">Music volume down</string>
+    <string name="touch_music_volume_up_title">Повысить громкость</string>
+    <string name="touch_music_volume_down_title">Понизить громкость</string>
 
     <string name="touch_time_launch_title">Запустить таймер/секундомер</string>
     <string name="touch_time_launch_type_timer_title">Таймер</string>
@@ -525,7 +525,7 @@
     <string name="action_setting">Настройки</string>
     <string name="action_delete">Удалить</string>
     <string name="action_export">Экспорт</string>
-    <string name="action_chart">Chart</string>
+    <string name="action_chart">График</string>
 
     <string name="power_on">Активация экрана</string>
     <string name="screen_unlock">Разблокировка экрана</string>
