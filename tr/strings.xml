@@ -8,7 +8,7 @@
     <string name="drawer_nav_notification">Bildirim denetimi</string>
     <string name="drawer_nav_touch">Dokunmatik izleme</string>
     <string name="drawer_nav_alarm">İzleme kaybedildi</string>
-    <string name="drawer_nav_step">Step monitoring</string>
+    <string name="drawer_nav_step">Adım izleme</string>
     <string name="drawer_nav_pulse">Nabız denetimi</string>
     <string name="drawer_nav_time">Zaman denetimi</string>
     <string name="drawer_nav_disconnected_agent">Ajan</string>
@@ -27,7 +27,7 @@
     <string name="info_name">Bilgi</string>
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Steps, distance, calories</string>
+    <string name="mi_band_tracker_title">Adımlar, Mesafe, Kalori</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
@@ -230,8 +230,12 @@
     <string name="notification_group_monitoring">Bildirimleri izleme</string>
     <string name="notification_group_monitoring_disabled">Hariç tutma bildirimleri (Uygulama bildirimlerini gösterme)</string>
     <string name="notification_group_alert_title">Mi Band 2 sinyal</string>
+    <string name="notification_group_text_title">Title</string>
+    <string name="notification_group_text_content">Content</string>
+    <string name="notification_group_pre_alert">Pre icon</string>
     <string name="notification_group_prefix">Metin öneki</string>
-    <string name="notification_group_prefix_only_premium">Metin öneki (yalnızca premium modda)</string>
+    <string name="notification_group_pre_signal_title">Default notification prediction</string>
+    <string name="notification_group_pre_only_premium">Yalnızca premium modda</string>
     <string name="notification_group_immediate">Bildirim alındığında anında uyarı</string>
     <string name="notification_group_connecting">Cihaza bağlanırken</string>
     <string name="notification_group_reminder">Hatırlatma uyarısı</string>
@@ -271,6 +275,7 @@
         <br><img src="ALERT_APP">  diğerleri
 
         <p>Sizin tarafınızdan oluşturulan bildirimler grubunun önceden tanımlı öncekinden daha yüksek önceliği vardır.</p>
+        <p><img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.</p>
         <p>Önceden tanımlı uygulamaları kullanıyor, ancak bazı bildirimleri hariç tutmak istiyorsanız, <i> hariç tutma bildirimleri ayarı</i> olan yeni bildirim grubu oluşturup uygulamaları ekleyin.</p>
         ]]>
     </string>
@@ -342,20 +347,20 @@
     ]]></string>
 
     <!-- Step monitoring -->
-    <string name="step_action_step">Steps</string>
-    <string name="step_action_distance">Distance</string>
-    <string name="step_action_calorie">Calories</string>
+    <string name="action_tracker_step">Adımlar</string>
+    <string name="action_tracker_distance">Mesafe</string>
+    <string name="action_tracker_calorie">Kalori</string>
 
     <string name="step_tab_settings">Ayarlar</string>
     <string name="step_tab_day">Günlük grafikler</string>
 
     <string name="step_title_timing">Zamanlama</string>
-    <string name="step_interval_title">Repeat interval of step monitoring</string>
+    <string name="step_interval_title">Adım izleme tekrar aralığı</string>
     <string name="step_time_start">Baslama zamanı</string>
     <string name="step_time_end">Bitiş zamanı</string>
     <string name="step_time_set_next">Sonraki izleme zamanlaması</string>
 
-    <string name="step_details">Step details</string>
+    <string name="step_details">Adım ayrıntıları</string>
 
     <string name="info_dialog_step"><![CDATA[Bluetooth connection is required for monitoring the steps.
     ]]>
@@ -364,7 +369,6 @@
     <!-- Pulse  monitoring -->
     <string name="action_pulse">Nabzı göster</string>
     <string name="pulse_current">Anlık nabız</string>
-    <string name="action_export">Dışa Aktar</string>
 
     <string name="pulse_tab_settings">Ayarlar</string>
     <string name="pulse_tab_day">Günlük grafikler</string>
@@ -519,6 +523,8 @@
     <string name="action_dismiss">Reddet</string>
     <string name="action_setting">Ayarlar</string>
     <string name="action_delete">Sil</string>
+    <string name="action_export">Dışa Aktar</string>
+    <string name="action_chart">Chart</string>
 
     <string name="power_on">Açık</string>
     <string name="screen_unlock">Ekran kilidini açma</string>
