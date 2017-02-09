@@ -231,8 +231,12 @@
     <string name="notification_group_monitoring">Monitoramento de notificações</string>
     <string name="notification_group_monitoring_disabled">Excluir as notificações (não mostrar as notificações das aplicações)</string>
     <string name="notification_group_alert_title">Sinal da Mi Band 2</string>
+    <string name="notification_group_text_title">Title</string>
+    <string name="notification_group_text_content">Content</string>
+    <string name="notification_group_pre_alert">Pre icon</string>
     <string name="notification_group_prefix">Prefixo do texto</string>
-    <string name="notification_group_prefix_only_premium">Prefixo do texto (Modo premium)</string>
+    <string name="notification_group_pre_signal_title">Default notification prediction</string>
+    <string name="notification_group_pre_only_premium">Modo premium</string>
     <string name="notification_group_immediate">Emitir sinal quando receber a notificação</string>
     <string name="notification_group_connecting">Emitir sinal quando conectar ao dispositivo</string>
     <string name="notification_group_reminder">Sinal para relembrar</string>
@@ -272,6 +276,7 @@
         <br><img src="ALERT_APP">  Outros
 
         <p>O grupo de notificações criado por ti tem prioridade superior à notificação predefinida.</p>
+        <p><img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.</p>
         <p>Se tu usas aplicações predefinidas mas queres excluir algumas aplicações, então cria um novo grupo de notificações em <i>Definições de exclusão de notificações</i> e adiciona aplicações.</p>
         ]]>
     </string>
@@ -343,9 +348,9 @@
     ]]></string>
 
     <!-- Step monitoring -->
-    <string name="step_action_step">Passos</string>
-    <string name="step_action_distance">Distância</string>
-    <string name="step_action_calorie">Calorias</string>
+    <string name="action_tracker_step">Passos</string>
+    <string name="action_tracker_distance">Distância</string>
+    <string name="action_tracker_calorie">Calorias</string>
 
     <string name="step_tab_day">Gráficos diários</string>
     <string name="step_tab_settings">Definições</string>
@@ -364,7 +369,6 @@
 
     <!-- Pulse  monitoring -->
     <string name="action_pulse">Mostrar pulsação</string>
-    <string name="action_export">Exportar</string>
     <string name="pulse_current">Pulsação atual</string>
 
     <string name="pulse_tab_settings">Definições</string>
@@ -403,7 +407,6 @@
     <string name="alarm_mi_band_time_set_next">Hora da próxima configuração</string>
     <string name="alarm_mi_band_time">Hora do próximo alarme</string>
 
-    <!--Caso contrário a bracelete inteligente irá alertá-lo (todos os dias às <i>hora do próximo alarme</i>).</p>-->
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_alarm"> <b><u>Sinais da Mi Band 2</u></b>
         <p>Quando o período de tempo especificado expirar, a Mi Band 2 envia sinais se não estiver conectado ao dispositivo.</p>
         <p>A aplicação usa a função de alarme da Mi Fit para alertar (substitui a configuração).</p>
@@ -520,6 +523,8 @@
     <string name="action_dismiss">Recusar</string>
     <string name="action_setting">Definições</string>
     <string name="action_delete">Apagar</string>
+    <string name="action_export">Exportar</string>
+    <string name="action_chart">Chart</string>
 
     <string name="power_on">Ligar</string>
     <string name="screen_unlock">Desbloquear o ecrã</string>
