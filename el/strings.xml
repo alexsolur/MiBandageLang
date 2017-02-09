@@ -231,8 +231,12 @@
     <string name="notification_group_monitoring">Παρακολούθηση ειδοποιήσεων</string>
     <string name="notification_group_monitoring_disabled">Εξαιρέσεις ειδοποιήσεων (μην εμφανίζεις τις ειδοποιήσεις της εφαρμογής)</string>
     <string name="notification_group_alert_title">Σήμα Mi Band 2</string>
+    <string name="notification_group_text_title">Title</string>
+    <string name="notification_group_text_content">Content</string>
+    <string name="notification_group_pre_alert">Pre icon</string>
     <string name="notification_group_prefix">Πρόθεμα κειμένου</string>
-    <string name="notification_group_prefix_only_premium">Πρόθεμα κειμένου (μόνο στη λειτουργία premium)</string>
+    <string name="notification_group_pre_signal_title">Default notification prediction</string>
+    <string name="notification_group_pre_only_premium">Μόνο στη λειτουργία premium</string>
     <string name="notification_group_immediate">Άμεσο σήμα με την παραλαβή της ειδοποίησης</string>
     <string name="notification_group_connecting">Κατά τη σύνδεση με τη συσκευή</string>
     <string name="notification_group_reminder">Σήμα υπενθύμισης</string>
@@ -272,6 +276,7 @@
         <br><img src="ALERT_APP">  άλλα
 
         <p>Η ομάδα ειδοποιήσεων που δημιουργούνται από εσάς έχει μεγαλύτερη προτεραιότητα από τη προκαθορισμένη.</p>
+        <p><img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.</p>
         <p>Εάν χρησιμοποιήσετε τις προκαθορισμένες εφαρμογές, αλλά θέλετε να εξαιρέσετε κάποιες ειδοποιήσεις, τότε δημιουργήσετε μια νέα ομάδα ειδοποιήσεων με την επιλογή <i>εξαιρέσεις ειδοποιήσεων</i> και προσθέστε τις εφαρμογές.</p>
         ]]>
     </string>
@@ -343,9 +348,9 @@
     ]]></string>
 
     <!-- Step monitoring -->
-    <string name="step_action_step">Βήματα</string>
-    <string name="step_action_distance">Απόσταση</string>
-    <string name="step_action_calorie">Θερμίδες</string>
+    <string name="action_tracker_step">Βήματα</string>
+    <string name="action_tracker_distance">Απόσταση</string>
+    <string name="action_tracker_calorie">Θερμίδες</string>
 
     <string name="step_tab_settings">Ρυθμίσεις</string>
     <string name="step_tab_day">Ημερήσια διαγράμματα</string>
@@ -364,7 +369,6 @@
 
     <!-- Pulse  monitoring -->
     <string name="action_pulse">Εμφάνιση παλμού</string>
-    <string name="action_export">Εξαγωγή</string>
     <string name="pulse_current">Τρέχον παλμός</string>
 
     <string name="pulse_tab_settings">Ρυθμίσεις</string>
@@ -403,7 +407,6 @@
     <string name="alarm_mi_band_time_set_next">Το χρονοδιάγραμμα της επόμενης ρύθμισης</string>
     <string name="alarm_mi_band_time">Το χρονοδιάγραμμα της επόμενης υπενθύμισης</string>
 
-    <!--, otherwise the smart bracelet will alert (every day at <i>timing of next alarm</i>).</p>-->
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_alarm"> <b><u>Σήμα Mi Band 2</u></b>
         <p> Όταν λήξει καθορισμένο χρονικό διάστημα η συσκευή αν δεν είναι συνδεδεμένη, το Mi Band 2 στέλνει ένα σήμα.</p>
         <p>Η εφαρμογή χρησιμοποιεί τη λειτουργία συναγερμού του Mi Fit να ειδοποιεί (αντικαταστήσετε 10. ρύθμιση).</p>
@@ -521,6 +524,8 @@
     <string name="action_dismiss">Απόρριψη</string>
     <string name="action_setting">Ρυθμίσεις</string>
     <string name="action_delete">Διαγραφή</string>
+    <string name="action_export">Εξαγωγή</string>
+    <string name="action_chart">Chart</string>
 
     <string name="power_on">Ενεργοποίηση</string>
     <string name="screen_unlock">Ξεκλείδωμα της οθόνης</string>
