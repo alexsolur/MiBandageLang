@@ -69,6 +69,7 @@
 
     <string name="pref_foreground_service_title">Отображение статуса подключения в уведомлении</string>
     <string name="pref_foreground_service_summary">Система Android принудительно останавливает приложение только при недостатке памяти. Если через некоторое время перестают приходить уведомления Mi Band 2, вы можете предотвратить это.</string>
+    <string name="pref_foreground_service_color_title">Icon color</string>
 
     <string name="pref_disconnected">Настройки отсоединения</string>
     <string name="pref_disconnected_summary">Настройки рассоединения Mi Band 2 и устройства</string>
@@ -151,6 +152,9 @@
 
     <string name="pref_mi_band">Настройки Mi Band 2</string>
     <string name="pref_cat_mi_band_lift_wrist">Поворот запястья</string>
+    <string name="pref_mi_band_lift_wrist_title">Поворот запястья</string>
+    <string name="pref_mi_band_lift_wrist_summary_on">Включено</string>
+    <string name="pref_mi_band_lift_wrist_summary_off">Отключено</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Режим \"Не беспокоить\"</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Включено (в заданный промежуток времени отображение отключено, необоходимо Bluetooth-соединение)</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_off">Отключено</string>
