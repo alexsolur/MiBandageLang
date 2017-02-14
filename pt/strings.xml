@@ -69,6 +69,7 @@
 
     <string name="pref_foreground_service_title">Mostrar o status na barra de notificação</string>
     <string name="pref_foreground_service_summary">O sistema android força a paragem do serviço quando a memória está baixa. Se depois de algum tempo a Mi Band 2 não mostrar as notificações, você pode prevenir isso.</string>
+    <string name="pref_foreground_service_color_title">Icon color</string>
 
     <string name="pref_disconnected">Definições de desconexão</string>
     <string name="pref_disconnected_summary">Definições do sinal de desconexão do dispositivo</string>
@@ -151,6 +152,9 @@
 
     <string name="pref_mi_band">Definições da Mi Band 2</string>
     <string name="pref_cat_mi_band_lift_wrist">Rodar o braço para ver a informação</string>
+    <string name="pref_mi_band_lift_wrist_title">Rodar o braço para ver a informação</string>
+    <string name="pref_mi_band_lift_wrist_summary_on">Ligado</string>
+    <string name="pref_mi_band_lift_wrist_summary_off">Desligado</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Modo não perturbar</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Ligado (No período de tempo especificado não vai ser apresentada informação, conexão Bluetooth necessária para configurar)</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_off">Desligado</string>
@@ -502,7 +506,7 @@
         <br>- Monitoramento de toque ilimitado
         <br>- O intervalo de repetição pode ser ajustado livremente
         <br>- Mostrar pulsação pode ser usado na função monitorar pulsação
-        <br>- Modo DND pode ser usado na função monitorar perca
+        <br>- Modo DND pode ser usado na função monitorar perda
         <br>- Lembretes repetidos podem ser definidos livremente em Monitorar tempo</p>
         <b>Termos e condições do modo premium:</b>
         <p>- Eu testei a aplicação e ela está a funcionar corretamente. Eu estou ciente de que não posso exigir compensação ou reembolso devido a bugs, erros de software causados ​​por alterações no software, ambiente do hardware ou outras aplicações usadas.
