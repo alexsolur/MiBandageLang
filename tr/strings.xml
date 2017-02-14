@@ -69,6 +69,7 @@
 
     <string name="pref_foreground_service_title">Bildirim durumunu gölgede göster</string>
     <string name="pref_foreground_service_summary">Android sistemi, bir hizmeti ancak bellek düşük olduğunda zorlar. Bir süre sonra Bant 2\'deki bildirimler görünmezse, bunu önleyebilirsiniz.</string>
+    <string name="pref_foreground_service_color_title">Icon color</string>
 
     <string name="pref_disconnected">Bağlantı kesme ayarları</string>
     <string name="pref_disconnected_summary">Mi Band 2 ve cihaz uyarı kesme ayarları</string>
@@ -151,6 +152,9 @@
 
     <string name="pref_mi_band">Mi Band 2 ayarlari</string>
     <string name="pref_cat_mi_band_lift_wrist">Bilgiyi görmek için bilekliği kaldırın</string>
+    <string name="pref_mi_band_lift_wrist_title">Bilgiyi görmek için bilekliği kaldırın</string>
+    <string name="pref_mi_band_lift_wrist_summary_on">Calıstır</string>
+    <string name="pref_mi_band_lift_wrist_summary_off">Durdur</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Rahatsız etmeyin modu</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Calıstır (Belirtilen sürede bilgi görüntülenmez, ayar için Bluetooth bağlantısı gereklidir)</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_off">Durdur</string>
@@ -230,11 +234,11 @@
     <string name="notification_group_monitoring">Bildirimleri izleme</string>
     <string name="notification_group_monitoring_disabled">Hariç tutma bildirimleri (Uygulama bildirimlerini gösterme)</string>
     <string name="notification_group_alert_title">Mi Band 2 sinyal</string>
-    <string name="notification_group_text_title">Title</string>
-    <string name="notification_group_text_content">Content</string>
-    <string name="notification_group_pre_alert">Pre icon</string>
+    <string name="notification_group_text_title">Başlık</string>
+    <string name="notification_group_text_content">Içerik</string>
+    <string name="notification_group_pre_alert">Ön simge</string>
     <string name="notification_group_prefix">Metin öneki</string>
-    <string name="notification_group_pre_signal_title">Default notification prediction</string>
+    <string name="notification_group_pre_signal_title">Varsayılan bildirim öngörüsü</string>
     <string name="notification_group_pre_only_premium">Yalnızca premium modda</string>
     <string name="notification_group_immediate">Bildirim alındığında anında uyarı</string>
     <string name="notification_group_connecting">Cihaza bağlanırken</string>
@@ -275,7 +279,7 @@
         <br><img src="ALERT_APP">  diğerleri
 
         <p>Sizin tarafınızdan oluşturulan bildirimler grubunun önceden tanımlı öncekinden daha yüksek önceliği vardır.</p>
-        <p><img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.</p>
+        <p><img src="ALERT_MESSAGE_TEXT"> simgesi: bildirimlerin başlığını/içeriğini göstermek için bu simgeyi seçin.</p>
         <p>Önceden tanımlı uygulamaları kullanıyor, ancak bazı bildirimleri hariç tutmak istiyorsanız, <i> hariç tutma bildirimleri ayarı</i> olan yeni bildirim grubu oluşturup uygulamaları ekleyin.</p>
         ]]>
     </string>
@@ -524,7 +528,7 @@
     <string name="action_setting">Ayarlar</string>
     <string name="action_delete">Sil</string>
     <string name="action_export">Dışa Aktar</string>
-    <string name="action_chart">Chart</string>
+    <string name="action_chart">Grafik</string>
 
     <string name="power_on">Açık</string>
     <string name="screen_unlock">Ekran kilidini açma</string>
