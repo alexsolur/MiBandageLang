@@ -200,7 +200,7 @@
     <string name="message_touch_music_player_not_found">Η αναπαραγωγής μουσικής δεν βρέθηκε</string>
     <string name="message_touch_app_launcher1_not_set">Η εφαρμογή δεν έχει οριστεί</string>
     <string name="message_touch_app_launcher1_not_found">Η εφαρμογή δεν βρέθηκε: %1$s</string>
-    <string name="message_touch_tasker_launcher1_not_set">Tasker task is not set</string>
+    <string name="message_touch_tasker_launcher1_not_set">Δεν έχει οριστεί εργασία στο Tasker</string>
 
     <string name="message_internet_error">Δεν υπάρχει σύνδεση στο internet</string>
 
@@ -325,10 +325,10 @@
     <string name="touch_app_launcher_package_no_title">Επιλέξτε μια εφαρμογή</string>
     <string name="touch_app_launcher1_not_wakelock_only_title">Μόνο αν η οθόνη δεν είναι κλειδωμένη</string>
 
-    <string name="touch_tasker_launcher1_title">Tasker task launcher</string>
-    <string name="touch_tasker_launcher_no_permission_title">You have to install Tasker first, after Mi Bandage</string>
-    <string name="touch_tasker_launcher_no_access_title">Allow external access (Allow external access)</string>
-    <string name="touch_tasker_launcher_no_task_title">Select an task</string>
+    <string name="touch_tasker_launcher1_title">Εκκίνηση εργασίας tasker</string>
+    <string name="touch_tasker_launcher_no_permission_title">Θα πρέπει να εγκαταστήσετε το Tasker πρώτα και μετά Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">Επέτρεψε την εξωτερική πρόσβαση (Allow external access)</string>
+    <string name="touch_tasker_launcher_no_task_title">Επιλογή εργασίας</string>
 
     <string name="touch_testing_title">Παρακολούθηση αφής</string>
 
@@ -530,9 +530,9 @@
     <string name="feedback_request_feature_summary">Αυτόματη διαδικασία αποστολής e-mail, δεν θα πάρετε καμία απάντηση</string>
 
     <!-- Hack -->
-    <string name="info_dialog_hack"><![CDATA[Hack tool detected on device.
-        <p>While the hack tool is installed the premium mode is not available.<p>
-        <p>I spent a lot of time in the development of application, please do not use hack tools.<p>]]>
+    <string name="info_dialog_hack"><![CDATA[Ανιχνεύτηκε αμυχές εργαλείο(Hack tool) στην συσκευή.
+        <p>Για το διάστημα που το αμυχές εργαλείο είναι εγκατεστημένο η λειτουργία premium δεν είναι διαθέσιμη.<p>
+        <p>Πέρασα πολύ χρόνο στην ανάπτυξη της εφαρμογής, για τον λόγο αυτό παρακαλούμε να μην χρησιμοποιείτε αμυχή εργαλεία.<p>]]>
     </string>
 
     <!-- Others -->
