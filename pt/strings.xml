@@ -170,7 +170,6 @@
     <string name="bandages">Bandagem</string>
     <string name="connected">Sinal de conexão e notificação</string>
     <string name="disconnected">Sinal de desconexão e agente</string>
-    <!--<string name="abandoned">Sinal de perda do dispositivo</string>-->
     <string name="touch">Monitorar touch</string>
 
     <string name="pref_dnd_title">Modo não perturbar</string>
@@ -201,6 +200,7 @@
     <string name="message_touch_music_player_not_found">Reprodutor de música não encontrado</string>
     <string name="message_touch_app_launcher1_not_set">A aplicação não está configurada</string>
     <string name="message_touch_app_launcher1_not_found">Aplicação não encontrada: %1$s</string>
+    <string name="message_touch_tasker_launcher1_not_set">Tasker task is not set</string>
 
     <string name="message_internet_error">Não tem ligação à internet</string>
 
@@ -324,6 +324,10 @@
     <string name="touch_app_launcher1_title">Iniciar aplicações</string>
     <string name="touch_app_launcher_package_no_title">Selecionar uma aplicação</string>
     <string name="touch_app_launcher1_not_wakelock_only_title">Só se o ecrã não estiver bloqueado</string>
+
+    <string name="touch_tasker_launcher1_title">Tasker task launcher</string>
+    <string name="touch_tasker_launcher_no_access_title">Allow external access (Allow external access)</string>
+    <string name="touch_tasker_launcher_no_task_title">Select an task</string>
 
     <string name="touch_testing_title">Monitorar touch</string>
 
@@ -523,6 +527,12 @@
     <string name="feedback_request_feature_title">Recurso de solicitação</string>
     <string name="feedback_request_feature_summary">Processamento de e-mail automático, podes não obter resposta (É preferivel o inglês)</string>
 
+    <!-- Hack -->
+    <string name="info_dialog_hack"><![CDATA[Hack tool detected on device.
+        <p>While the hack tool is installed the premium mode is not available.<p>
+        <p>I spent a lot of time in the development of application, please do not use hack tools.<p>]]>
+    </string>
+
     <!-- Others -->
     <string name="action_dismiss">Recusar</string>
     <string name="action_setting">Definições</string>
@@ -548,4 +558,4 @@
         <item quantity="other">%d minutos</item>
     </plurals>
 
-</resources>
+ </resources>
