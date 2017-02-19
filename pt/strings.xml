@@ -200,7 +200,7 @@
     <string name="message_touch_music_player_not_found">Reprodutor de música não encontrado</string>
     <string name="message_touch_app_launcher1_not_set">A aplicação não está configurada</string>
     <string name="message_touch_app_launcher1_not_found">Aplicação não encontrada: %1$s</string>
-    <string name="message_touch_tasker_launcher1_not_set">Tasker task is not set</string>
+    <string name="message_touch_tasker_launcher1_not_set">Tarefa Tasker não definida</string>
 
     <string name="message_internet_error">Não tem ligação à internet</string>
 
@@ -325,10 +325,10 @@
     <string name="touch_app_launcher_package_no_title">Selecionar uma aplicação</string>
     <string name="touch_app_launcher1_not_wakelock_only_title">Só se o ecrã não estiver bloqueado</string>
 
-    <string name="touch_tasker_launcher1_title">Tasker task launcher</string>
-    <string name="touch_tasker_launcher_no_permission_title">You have to install Tasker first, after Mi Bandage</string>
-    <string name="touch_tasker_launcher_no_access_title">Allow external access (Allow external access)</string>
-    <string name="touch_tasker_launcher_no_task_title">Select an task</string>
+    <string name="touch_tasker_launcher1_title">Iniciar tarefa Tasker</string>
+    <string name="touch_tasker_launcher_no_permission_title">Tu tens de installar o Tasker primeiro e só depois a Mi Bandage.</string>
+    <string name="touch_tasker_launcher_no_access_title">Permitir acesso externo</string>
+    <string name="touch_tasker_launcher_no_task_title">Selecionar tarefa</string>
 
     <string name="touch_testing_title">Monitorar touch</string>
 
@@ -529,9 +529,9 @@
     <string name="feedback_request_feature_summary">Processamento de e-mail automático, podes não obter resposta (É preferivel o inglês)</string>
 
     <!-- Hack -->
-    <string name="info_dialog_hack"><![CDATA[Hack tool detected on device.
-        <p>While the hack tool is installed the premium mode is not available.<p>
-        <p>I spent a lot of time in the development of application, please do not use hack tools.<p>]]>
+    <string name="info_dialog_hack"><![CDATA[Ferramenta de hack detetada no seu dispositivo.
+        <p>Enquanto tiver a ferramenta de hack instalada o modo premium não vai estar disponivel<p>
+        <p>Eu gastei muito tempo a desenvolver esta aplicação. Por favor, não use ferramentas de hack.<p>]]>
     </string>
 
     <!-- Others -->
@@ -539,7 +539,7 @@
     <string name="action_setting">Definições</string>
     <string name="action_delete">Apagar</string>
     <string name="action_export">Exportar</string>
-    <string name="action_chart">Chart</string>
+    <string name="action_chart">Gráfico</string>
 
     <string name="power_on">Ligar</string>
     <string name="screen_unlock">Desbloquear o ecrã</string>
