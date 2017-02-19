@@ -200,6 +200,7 @@
     <string name="message_touch_music_player_not_found">Music player not found</string>
     <string name="message_touch_app_launcher1_not_set">App is not set</string>
     <string name="message_touch_app_launcher1_not_found">App is not found: %1$s</string>
+    <string name="message_touch_tasker_launcher1_not_set">Tasker task is not set</string>
 
     <string name="message_internet_error">No have internet connection</string>
 
@@ -323,6 +324,10 @@
     <string name="touch_app_launcher1_title">App launcher</string>
     <string name="touch_app_launcher_package_no_title">Select an application</string>
     <string name="touch_app_launcher1_not_wakelock_only_title">Only if the screen is not locked</string>
+
+    <string name="touch_tasker_launcher1_title">Tasker task launcher</string>
+    <string name="touch_tasker_launcher_no_access_title">Allow external access</string>
+    <string name="touch_tasker_launcher_no_task_title">Select an task</string>
 
     <string name="touch_testing_title">Touch monitoring</string>
 
@@ -522,6 +527,12 @@
     <string name="feedback_google_play_title">Rate this app</string>
     <string name="feedback_request_feature_title">Request feature</string>
     <string name="feedback_request_feature_summary">Automatic e-mail processing, you get no response</string>
+
+    <!-- Hack -->
+    <string name="info_dialog_hack"><![CDATA[Hack tool detected on device.
+        <p>While the hack tool is installed the premium mode is not available.<p>
+        <p>I spent a lot of time in the development of application, please do not use hack tools.<p>]]>
+    </string>
 
     <!-- Others -->
     <string name="action_dismiss">Dismiss</string>
