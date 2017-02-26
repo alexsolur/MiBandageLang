@@ -161,6 +161,10 @@
     <string name="pref_mi_band_lift_wrist_dnd_time_start_title">Время начала</string>
     <string name="pref_mi_band_lift_wrist_dnd_time_end_title">Время окончания</string>
 
+    <string name="pref_theme">Theme settings</string>
+    <string name="pref_cat_theme">Theme</string>
+    <string name="pref_theme_title">Select a theme</string>
+
     <string name="pref_language">Язык</string>
     <string name="pref_cat_language">Язык</string>
     <string name="pref_language_title">Язык</string>
@@ -311,6 +315,7 @@
     <string name="touch_repeat_notif_title">Повторить уведомления</string>
 
     <string name="touch_music_play_pause_title">Воспроизведение - пауза</string>
+    <string name="touch_music_skip_previous_title">Music start, previous song</string>
     <string name="touch_music_skip_next_title">Следующий трек</string>
     <string name="touch_music_headset_only_title">Только при подключённой гарнитуре</string>
     <string name="touch_music_volume_up_title">Повысить громкость</string>
@@ -326,7 +331,7 @@
     <string name="touch_app_launcher1_not_wakelock_only_title">Если экран не заблокирован</string>
 
     <string name="touch_tasker_launcher1_title">Tasker</string>
-    <string name="touch_tasker_launcher_no_permission_title">You have to install Tasker first, after Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_permission_title">Необходимо соблюдать порядок установки для использования. Сначала Tasker, потом Mi Bandage.</string>
     <string name="touch_tasker_launcher_no_access_title">Разрешить внешний доступ (Allow external access)</string>
     <string name="touch_tasker_launcher_no_task_title">Выбрать дейтсвие</string>
 
@@ -415,6 +420,9 @@
     <string name="alarm_mi_band_interval_title">Период повтора предупреждения об отсоединении</string>
     <string name="alarm_mi_band_time_set_next">Время следующей установки</string>
     <string name="alarm_mi_band_time">Время следующего предупреждения</string>
+
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Lost monitoring Mi Band 2 signal is enabled.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm time: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_alarm"> <b><u>Уведомление Mi Band 2</u></b>
         <p>Когда проходит выбранный промежуток времени, Mi Band 2 вибрирует, если не подключён к устройству.<p>
@@ -531,8 +539,8 @@
 
     <!-- Hack -->
     <string name="info_dialog_hack"><![CDATA[Программа-взломщик обнаружена на устройстве.
-        <p>Пока она установлена, премиум недоступен.<p>
-        <p>Я угробил кучу времени на разработку, пожалуйста, не ломайте это приложение.<p>]]>
+        <p>Пока она установлена, премиум недоступен.</p>
+        <p>Я угробил кучу времени на разработку, пожалуйста, не ломайте это приложение.</p>]]>
     </string>
 
     <!-- Others -->
@@ -541,6 +549,7 @@
     <string name="action_delete">Удалить</string>
     <string name="action_export">Экспорт</string>
     <string name="action_chart">График</string>
+    <string name="action_bluetooth">Bluetooth</string>
 
     <string name="power_on">Активация экрана</string>
     <string name="screen_unlock">Разблокировка экрана</string>
