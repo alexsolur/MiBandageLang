@@ -161,6 +161,10 @@
     <string name="pref_mi_band_lift_wrist_dnd_time_start_title">Hora de início</string>
     <string name="pref_mi_band_lift_wrist_dnd_time_end_title">Hora de fim</string>
 
+    <string name="pref_theme">Theme settings</string>
+    <string name="pref_cat_theme">Theme</string>
+    <string name="pref_theme_title">Select a theme</string>
+
     <string name="pref_language">Definições de linguagem</string>
     <string name="pref_cat_language">Linguagem</string>
     <string name="pref_language_title">Linguagem</string>
@@ -311,6 +315,7 @@
     <string name="touch_repeat_notif_title">Repetir as notificações</string>
 
     <string name="touch_music_play_pause_title">Iniciar aplicação música, tocar/pausar música</string>
+    <string name="touch_music_skip_previous_title">Music start, previous song</string>
     <string name="touch_music_skip_next_title">Iniciar aplicação música, próximo som</string>
     <string name="touch_music_headset_only_title">Só se o headset estiver conectado</string>
     <string name="touch_music_volume_up_title">Subir o volume da música</string>
@@ -415,6 +420,9 @@
     <string name="alarm_mi_band_interval_title">Configuração do intervalo de repetição do alarme</string>
     <string name="alarm_mi_band_time_set_next">Hora da próxima configuração</string>
     <string name="alarm_mi_band_time">Hora do próximo alarme</string>
+
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Lost monitoring Mi Band 2 signal is enabled.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm time: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_alarm"> <b><u>Sinais da Mi Band 2</u></b>
         <p>Quando o período de tempo especificado expirar, a Mi Band 2 envia sinais se não estiver conectado ao dispositivo.</p>
@@ -530,8 +538,8 @@
 
     <!-- Hack -->
     <string name="info_dialog_hack"><![CDATA[Ferramenta de hack detetada no seu dispositivo.
-        <p>Enquanto tiver a ferramenta de hack instalada o modo premium não vai estar disponivel<p>
-        <p>Eu gastei muito tempo a desenvolver esta aplicação. Por favor, não use ferramentas de hack.<p>]]>
+        <p>Enquanto tiver a ferramenta de hack instalada o modo premium não vai estar disponivel</p>
+        <p>Eu gastei muito tempo a desenvolver esta aplicação. Por favor, não use ferramentas de hack.</p>]]>
     </string>
 
     <!-- Others -->
@@ -540,6 +548,7 @@
     <string name="action_delete">Apagar</string>
     <string name="action_export">Exportar</string>
     <string name="action_chart">Gráfico</string>
+    <string name="action_bluetooth">Bluetooth</string>
 
     <string name="power_on">Ligar</string>
     <string name="screen_unlock">Desbloquear o ecrã</string>
@@ -558,6 +567,5 @@
         <item quantity="many">%d minutos</item>
         <item quantity="other">%d minutos</item>
     </plurals>
-
 
 </resources>
