@@ -161,6 +161,10 @@
     <string name="pref_mi_band_lift_wrist_dnd_time_start_title">Başlama zamanı</string>
     <string name="pref_mi_band_lift_wrist_dnd_time_end_title">Bitiş zamanı</string>
 
+    <string name="pref_theme">Theme settings</string>
+    <string name="pref_cat_theme">Theme</string>
+    <string name="pref_theme_title">Select a theme</string>
+
     <string name="pref_language">Dil ayarları</string>
     <string name="pref_cat_language">Dil</string>
     <string name="pref_language_title">Dil</string>
@@ -200,7 +204,7 @@
     <string name="message_touch_music_player_not_found">Müzik çalar bulunamadı</string>
     <string name="message_touch_app_launcher1_not_set">Uygulama ayarlanmadı</string>
     <string name="message_touch_app_launcher1_not_found">Uygulama bulunamadı: %1$s</string>
-    <string name="message_touch_tasker_launcher1_not_set">Tasker task is not set</string>
+    <string name="message_touch_tasker_launcher1_not_set">Tasker görev ayarlı değil</string>
 
     <string name="message_internet_error">İnternet bağlantısı yok</string>
 
@@ -311,6 +315,7 @@
     <string name="touch_repeat_notif_title">Bildirimleri tekrarla</string>
 
     <string name="touch_music_play_pause_title">Müzik başlat, çal, duraklat</string>
+    <string name="touch_music_skip_previous_title">Music start, previous song</string>
     <string name="touch_music_skip_next_title">Müzik başlat, sonraki şarkı</string>
     <string name="touch_music_headset_only_title">Yalnızca kulaklıklı mikrofon seti bağlıysa</string>
     <string name="touch_music_volume_up_title">Müzik sesi artır</string>
@@ -325,9 +330,10 @@
     <string name="touch_app_launcher_package_no_title">Bir uygulama seçin</string>
     <string name="touch_app_launcher1_not_wakelock_only_title">Yalnızca ekran kilitli değilse</string>
 
-    <string name="touch_tasker_launcher1_title">Tasker task launcher</string>
-    <string name="touch_tasker_launcher_no_access_title">Allow external access (Allow external access)</string>
-    <string name="touch_tasker_launcher_no_task_title">Select an task</string>
+    <string name="touch_tasker_launcher1_title">Taslak görev baslatıcı</string>
+    <string name="touch_tasker_launcher_no_permission_title">You have to install Mi Bandage first, after Tasker</string>
+    <string name="touch_tasker_launcher_no_access_title">Dış erişim izni (Allow external access)</string>
+    <string name="touch_tasker_launcher_no_task_title">Bir görev seçin</string>
 
     <string name="touch_testing_title">Dokunmatik izleme</string>
 
@@ -414,6 +420,9 @@
     <string name="alarm_mi_band_interval_title">Alarm ayarının tekrar aralığı</string>
     <string name="alarm_mi_band_time_set_next">Bir sonraki ayarın zamanlaması</string>
     <string name="alarm_mi_band_time">Bir sonraki alarmın zamanlaması</string>
+
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Lost monitoring Mi Band 2 signal is enabled.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm time: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_alarm"> <b><u>Mi Band 2 sinyali</u></b>
         <p>Belirtilen süre geçtikten sonra Mi Band 2, cihaza bağlı değilse sinyal gönderir.</p>
@@ -529,9 +538,9 @@
     <string name="feedback_request_feature_summary">Otomatik e-posta işleme, cevap alamazsın</string>
 
     <!-- Hack -->
-    <string name="info_dialog_hack"><![CDATA[Hack tool detected on device.
-        <p>While the hack tool is installed the premium mode is not available.<p>
-        <p>I spent a lot of time in the development of application, please do not use hack tools.<p>]]>
+    <string name="info_dialog_hack"><![CDATA[Hack aracı tespit cihazı.
+        <p>Ise hack aracı yüklü Premium modu mevcut değildir.</p>
+        <p>Geçirdim bir çok kez geliştirme uygulama, lütfen kullanmak istemiyorsanız hack araçları.</p>]]>
     </string>
 
     <!-- Others -->
@@ -540,6 +549,7 @@
     <string name="action_delete">Sil</string>
     <string name="action_export">Dışa Aktar</string>
     <string name="action_chart">Grafik</string>
+    <string name="action_bluetooth">Bluetooth</string>
 
     <string name="power_on">Açık</string>
     <string name="screen_unlock">Ekran kilidini açma</string>
