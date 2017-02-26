@@ -161,6 +161,10 @@
     <string name="pref_mi_band_lift_wrist_dnd_time_start_title">Ώρα έναρξης</string>
     <string name="pref_mi_band_lift_wrist_dnd_time_end_title">Ώρα λήξης</string>
 
+    <string name="pref_theme">Theme settings</string>
+    <string name="pref_cat_theme">Theme</string>
+    <string name="pref_theme_title">Select a theme</string>
+
     <string name="pref_language">Ρυθμίσεις γλώσσας</string>
     <string name="pref_cat_language">Γλώσσα</string>
     <string name="pref_language_title">Γλώσσα</string>
@@ -311,6 +315,7 @@
     <string name="touch_repeat_notif_title">Επανάληψη ειδοποιήσης</string>
 
     <string name="touch_music_play_pause_title">Μουσική έναρξη, αναπαραγωγή, παύση</string>
+    <string name="touch_music_skip_previous_title">Music start, previous song</string>
     <string name="touch_music_skip_next_title">Μουσική έναρξη, επόμενο τραγούδι</string>
     <string name="touch_music_headset_only_title">Μόνο αν τα ακουστικά είναι συνδεδεμένα</string>
     <string name="touch_music_volume_up_title">Αύξηση έντασης μουσικής</string>
@@ -415,6 +420,9 @@
     <string name="alarm_mi_band_interval_title">Διάστημα επανάληψης ρύθμισης υπενθύμισης</string>
     <string name="alarm_mi_band_time_set_next">Το χρονοδιάγραμμα της επόμενης ρύθμισης</string>
     <string name="alarm_mi_band_time">Το χρονοδιάγραμμα της επόμενης υπενθύμισης</string>
+
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Lost monitoring Mi Band 2 signal is enabled.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm time: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_alarm"> <b><u>Σήμα Mi Band 2</u></b>
         <p> Όταν λήξει καθορισμένο χρονικό διάστημα η συσκευή αν δεν είναι συνδεδεμένη, το Mi Band 2 στέλνει ένα σήμα.</p>
@@ -531,8 +539,8 @@
 
     <!-- Hack -->
     <string name="info_dialog_hack"><![CDATA[Ανιχνεύτηκε αμυχές εργαλείο(Hack tool) στην συσκευή.
-        <p>Για το διάστημα που το αμυχές εργαλείο είναι εγκατεστημένο η λειτουργία premium δεν είναι διαθέσιμη.<p>
-        <p>Πέρασα πολύ χρόνο στην ανάπτυξη της εφαρμογής, για τον λόγο αυτό παρακαλούμε να μην χρησιμοποιείτε αμυχή εργαλεία.<p>]]>
+        <p>Για το διάστημα που το αμυχές εργαλείο είναι εγκατεστημένο η λειτουργία premium δεν είναι διαθέσιμη.</p>
+        <p>Πέρασα πολύ χρόνο στην ανάπτυξη της εφαρμογής, για τον λόγο αυτό παρακαλούμε να μην χρησιμοποιείτε αμυχή εργαλεία.</p>]]>
     </string>
 
     <!-- Others -->
@@ -541,6 +549,7 @@
     <string name="action_delete">Διαγραφή</string>
     <string name="action_export">Εξαγωγή</string>
     <string name="action_chart">Διάγραμμα</string>
+    <string name="action_bluetooth">Bluetooth</string>
 
     <string name="power_on">Ενεργοποίηση</string>
     <string name="screen_unlock">Ξεκλείδωμα της οθόνης</string>
