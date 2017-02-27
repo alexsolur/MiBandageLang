@@ -1,1 +1,74 @@
+Ứng Dụng này hiện tại chỉ hỗ trợ Mi Band 2.
 
+Mi Bandage yêu cầu phải cài đặt ứng dụng chính thức Mi Fit trên cùng một thiết bị. Lúc đầu, bạn phải ghép Mi Band 2 trong ứng dụng Mi Fit, sau đó bạn có thể sử dụng Mi Bandage.
+
+<b>Người dùng MIUI: Nếu Mi Band 2 không được tìm thấy hoặc nếu bạn đang gặp sự cố đồng bộ ứng dụng Mi Fit, hãy cài đặt BToolkit, NRF Connect hoặc bất cứ ứng dụng quản lý Bluetooth tương tự nào và loại bỏ bất kỳ ghép nối nào đang có.</b>
+
+Tính năng:
+- Ghép nối Mi Band 2 (nếu bạn gặp vấn đề với tính năng mở khóa màn hình Mi Fit)
+- Hiển thị trạng thái pin
+- Hiển lần kết nối cuối cùng
+- Hiển lần ngắt kết nối cuối cùng
+- <b>Báo hiệu cuộc gọi đến với hiển thị số gọi và sửa lỗi hiển thị tên người gọi so với Mi Fit trên Mi Band 2</b>
+- <b>Báo hiệu cuộc gọi nhỡ với hiển thị số gọi trên Mi Band 2</b>
+- <b>Hiển thị thông báo của ứng dụng trên Mi Band 2</b>
+- <b>Các tính năng kết nối Mi Band 2:</b>
+&rarr; không có thông báo
+ &#8226; rung Mi Band 2
+ &#8226; đánh thức màn hình
+&rarr; có thông báo
+ &#8226; Mi Band 2 rung và hiển thị biểu tượng 1,2,3 lần, biểu tượng dựa trên số lượng thông báo, một lần cho mỗi biểu tượng trênMi Band 2 
+ &#8226; Báo hiệu ngay lập tức khi nhận được thông báo
+ &#8226; khi kết nối với thiết bị
+ &#8226; báo hiệu nhắc nhở và khoảng thời gian lặp lại
+ &#8226; Báo hiệu chỉ khi màn hình tắt
+ &#8226; thông báo liên tục được kích hoạt hay vô hiệu hóa
+ &#8226; đánh thức màn hình
+- <b>Tính năng khi mất kết nói Mi Band 2:</b>
+ &#8226; Phát nhạc chuông trên điện thoại, rung, đánh thức màn hình
+ &#8226;Trình giám sát thiết bị: nếu một người nào đó dùng thiết bị trong khi bạn đang đi vắng, bạn sẽ biết (đánh thức màn hình, bật nguồn, chuyển động): thông báo vào thiết bị và biểu tượng hình con mắt trên Mi Band 2
+- <b>Giám sát thông báo:</b>
+ &#8226; cấu hình báo hiệu duy nhất cho mỗi thông báo ứng dụng
+ &#8226; hiển thị thông báo của ứng dụng trên Mi Band 2
+- <b>Giám sát nút chạm trên Mi Band 2):</b>
+ &#8226; trả lời cuộc gọi, mở loa ngoài (tắt tinhs năng khởi động cuộc gọi nhạc khi tai nghe được kết nối, nếu không thì âm nhạc sẽ phát ra) (không phải tất cả các thiết bị được hỗ trợ)
+ &#8226; từ chối, kết thúc cuộc gọi (không phải tất cả các thiết bị được hỗ trợ)
+ &#8226; tắt tiếng cuộc gọi
+ &#8226; tìm điện thoại của tôidevice
+ &#8226; lặp lại thông báo
+ &#8226; điều khiển trình phát nhạc (chơi, tạm dừng, tiếp theo, âm lượng tăng/ giảm)
+ &#8226; bắt đầu hẹn giờ / bấm giờ, hiện thời gian còn lại/ trôi qua
+ &#8226; Khởi động ứng dụng
+- <b>Giám sát bước chân:</b>
+  &#8226; biểu đồ hàng ngày: hiển thị các giá trị đo
+- <b>Giám sát nhịp tim:</b>
+ &#8226; bạn có thể thiết lập: bắt đầu giám sát tín hiệu, hiển thị nhịp tim, báo hiệu nhịp tim thấp/ cao, thời gian bắt đầu, thời gian kết thúc, khoảng thời gian lặp lại.
+ &#8226; Hiện nhịp tim hiện tại
+ &#8226; biểu đồ hàng ngày: hiển thị các giá trị đo
+- <b>Giám sát thời gian:</b>
+ &#8226; Hẹn giờ: kiểu báo, nhắc nhở, thời gian còn lại hiển thị trên Mi Band 2
+ &#8226; đồng hồ bấm giờ: kiểu báo, nhắc nhở, thời gian trôi qua, thời gian ghi lại, thời gian hiển thị trên Mi Band 2
+- <b>lost monitoring:</b>
+ &#8226; Báo hiệu thiết bị: khi thời gian quy định hết hạn, thiết bị truyền tín hiệu liên tục nếu không kết nối với vòng đeo tay. Điều này làm cho nó dễ dàng hơn để tìm thấy thiết bị. Nếu ai đó tìm thấy các thiết bị và nó được khóa anh ta không biết người để thông báo tới người đó, bạn có thể hiển thị một thông báo.
+- <b>Nhật ký trình giám sát:</b> 
+ &#8226; xem sự kiện ghi lại bởi các trình giám sát thiết bị
+
+<b><u>Nếu bạn gặp vấn đề (phát hiện Mi Band 2, không có tín hiệu thông báo), vui lòng thử lại:</u></b>
+
+1. Nếu bạn cài đặt Greenify (hoặc ứng dụng ngủ đông khác) tắt nó đi.
+2. cài đặt Mi Bandage.
+3. Khởi động lại máy.
+4. Tắt rồi mở Bluetooth.
+5. Mở ứng dụng Mi Fit, đợi cho đến khi quá trình đồng bộ thực hiện.
+6. Bật chế độ phát hiện, đóng nó.
+7. Mở ứng dụng Mi Bandage, bấm nút làm mới để ghép nối.
+
+
+Ngôn ngữ (nếu bạn muốn dịch ngôn ngữ khác, xin vui lòng gửi cho tôi email):
+Hungarian
+English
+Russian (translated by Александр Солоцкий)
+Portuguese (translated by Bruno Lopes)
+Turkish (translated by Fatih GÜL)
+Greek (translated by Alexandros Apostolidis)
+Tiếng Việt (dịch bởi Việt Anh từ Miband 2 Việt Nam - fb.com/groups/miband2vn)

@@ -1,1 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_connected_have_notif_counter">
+        <item>Một lần cho mỗi biểu tượng trên Mi Band 2</item>
+        <item>Số lượng thông báo</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
 
+    <string-array name="pref_connected_have_notif_counter_values">
+        <item>-2</item>
+        <item>-1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_interval">
+        <item>5 phút</item>
+        <item>10 phút</item>
+        <item>20 phút</item>
+        <item>30 phút</item>
+        <item>1 giờ</item>
+        <item>2 giờ</item>
+        <item>3 giờ</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_interval_values">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </string-array>
+
+    <string-array name="pref_abandoned_interval">
+        <item>1 phút</item>
+        <item>2 phút</item>
+        <item>3 phút</item>
+        <item>4 phút</item>
+        <item>5 phút</item>
+        <item>6 phút</item>
+        <item>7 phút</item>
+        <item>8 phút</item>
+        <item>9 phút</item>
+        <item>10 phút</item>
+    </string-array>
+
+    <integer-array name="pref_abandoned_interval_values">
+        <item>60000</item>
+        <item>120000</item>
+        <item>180000</item>
+        <item>240000</item>
+        <item>300000</item>
+        <item>360000</item>
+        <item>420000</item>
+        <item>480000</item>
+        <item>540000</item>
+        <item>600000</item>
+    </integer-array>
+
+    <string-array name="pref_abandoned_notif_interval">
+        <item>10 phút</item>
+        <item>20 phút</item>
+        <item>30 phút</item>
+        <item>1 giờ</item>
+        <item>2 giờ</item>
+        <item>3 giờ</item>
+    </string-array>
+
+    <integer-array name="pref_abandoned_notif_interval_values">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </integer-array>
+
+    <string-array name="notification_group_counter">
+        <item>Báo mộtlần</item>
+        <item>Một lần mỗi ứng dụng</item>
+        <item>Số thông báo</item>
+    </string-array>
+
+    <string-array name="touch_call_mute_ringer_mode">
+        <item>Rung</item>
+        <item>Đừng làm phiền (chỉ báo thức)</item>
+    </string-array>
+
+    <string-array name="touch_music_player">
+        <item>Trình phát nhạc mặc định</item>
+        <item>Google Play Music</item>
+        <item>Spotify Music</item>
+    </string-array>
+
+    <string-array name="touch_music_player_values">
+        <item></item>
+        <item>com.google.android.music</item>
+        <item>com.spotify.music</item>
+    </string-array>
+
+    <!--<string-array name="pref_pulse_interval">-->
+        <!--<item>1 minute</item>-->
+        <!--<item>2 minutes</item>-->
+        <!--<item>5 minutes</item>-->
+        <!--<item>10 minutes</item>-->
+        <!--<item>15 minutes</item>-->
+        <!--<item>20 minutes</item>-->
+        <!--<item>30 minutes</item>-->
+        <!--<item>1 hour</item>-->
+    <!--</string-array>-->
+
+    <!--<integer-array name="pref_pulse_interval_values">-->
+        <!--<item>60000</item>-->
+        <!--<item>120000</item>-->
+        <!--<item>300000</item>-->
+        <!--<item>600000</item>-->
+        <!--<item>900000</item>-->
+        <!--<item>1200000</item>-->
+        <!--<item>1800000</item>-->
+        <!--<item>3600000</item>-->
+    <!--</integer-array>-->
+
+    <string-array name="pulse_signal_start">
+        <item>Không</item>
+        <item>rung 1 lần</item>
+        <item>rung 2 lần</item>
+        <item>rung 3 lần</item>
+    </string-array>
+
+    <string-array name="pulse_signal_start_values">
+        <item>NONE</item>
+        <item>SOFT_1</item>
+        <item>SOFT_2</item>
+        <item>SOFT_3</item>
+    </string-array>
+
+    <string-array name="pulse_signal_end">
+        <item>Không</item>
+        <item>rung 1 lần</item>
+        <item>rung 2 lần</item>
+        <item>rung 3 lần</item>
+    </string-array>
+
+    <string-array name="pulse_signal_end_values">
+        <item>NONE</item>
+        <item>HARD_1</item>
+        <item>HARD_2</item>
+        <item>HARD_3</item>
+    </string-array>
+
+    <string-array name="pref_timer_time_interval_repeat">
+        <item>Tắt</item>
+        <item>1 phút</item>
+        <item>2 phút</item>
+        <item>5 phút</item>
+        <item>10 phút</item>
+        <item>15 phút</item>
+        <item>20 phút</item>
+        <item>30 phút</item>
+        <item>1 giờ</item>
+        <item>2 giờ</item>
+        <item>3 giờ</item>
+        <item>4 giờ</item>
+        <item>5 giờ</item>
+    </string-array>
+
+    <integer-array name="pref_timer_time_interval_repeat_values">
+        <item>0</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>1200000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+        <item>10800000</item>
+        <item>14400000</item>
+        <item>18000000</item>
+    </integer-array>
+
+    <string-array name="notification_group_text_content_slice">
+        <item>1 đoạn thông báo đầu tiên</item>
+        <item>2 đoạn</item>
+        <item>3 đoạn</item>
+        <item>4 đoạn</item>
+        <item>5 đoạn</item>
+        <item>6 đoạn</item>
+        <item>7 đoạn</item>
+        <item>8 đoạn</item>
+        <item>9 đoạn</item>
+        <item>10 đoạn</item>
+    </string-array>
+
+    <integer-array name="notification_group_text_content_slice_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+
+    <string-array name="pref_language">
+        <item>Mặc định</item>
+        <item>English</item>
+        <item>Magyar</item>
+        <item>Русский</item>
+        <item>Português</item>
+        <item>Türk</item>
+        <item>Ελληνικά</item>
+        <item>Tiếng Việt</item>
+    </string-array>
+
+    <string-array name="pref_language_values">
+        <item>DEFAULT</item>
+        <item>en</item>
+        <item>hu</item>
+        <item>ru</item>
+        <item>pt</item>
+        <item>tr</item>
+        <item>el</item>
+        <item>vi</item>
+    </string-array>
+</resources>
