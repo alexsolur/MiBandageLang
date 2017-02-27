@@ -44,7 +44,7 @@
     <!-- PreferenceScreen -->
     <string name="pref_connected">Definições de conexão</string>
     <string name="pref_connected_summary">Definições do sinal de conexão da Mi Band 2</string>
-    <string name="pref_cat_connected_no_notif">Conetado à Mi Band 2 e não tem notificação</string>
+    <string name="pref_cat_connected_no_notif">Conetado à Mi Band 2 sem notificação</string>
     <string name="pref_cat_connected_have_notif">Aplicação predefinida e sinal da Mi Band 2</string>
     <string name="pref_cat_connected_have_notif_default">Definições predefinidas e padrão</string>
     <string name="pref_connected_no_notif_title">Sinal da Mi Band 2</string>
@@ -56,12 +56,12 @@
 
     <string name="pref_connected_have_notif_immediate_title">Emitir sinal quando receber a notificação</string>
     <string name="pref_connected_have_notif_title">Emitir sinal quando conectar ao dispositivo</string>
-    <string name="pref_connected_have_notif_reminder_title">Sinal para relembrar</string>
+    <string name="pref_connected_have_notif_reminder_title">Lembrete</string>
     <string name="pref_connected_have_notif_screen_off_title">Emitir sinal quando o ecrã está desligado</string>
-    <string name="pref_connected_have_notif_interval_title">Intervalo de tempo para relembrar</string>
+    <string name="pref_connected_have_notif_interval_title">Intervalo de tempo do lembrete</string>
     <string name="pref_connected_have_notif_counter_title">Cardinalidade dos sinais</string>
     <string name="pref_connected_have_notif_wakelock_title">Acordar o dispositivo</string>
-    <string name="pref_connected_have_notif_ongoing_title">Sinal de notificação continua (permanece)</string>
+    <string name="pref_connected_have_notif_ongoing_title">A notificação permanece</string>
     <string name="pref_connected_have_notif_default_app_title">Sinal de aplicação não reconhecida</string>
     <string name="pref_connected_have_notif_default_app_summary_on">ícone \'App\' (se o aplicativo não existe no grupo de notificações predefinido e costumizado)</string>
     <string name="pref_connected_have_notif_pre_signal_title">Prever notificações</string>
@@ -69,7 +69,7 @@
 
     <string name="pref_foreground_service_title">Mostrar o status na barra de notificação</string>
     <string name="pref_foreground_service_summary">O sistema android força a paragem do serviço quando a memória está baixa. Se depois de algum tempo a Mi Band 2 não mostrar as notificações, você pode prevenir isso.</string>
-    <string name="pref_foreground_service_color_title">Cor do ícone</string>
+    <string name="pref_foreground_service_color_title">Cor do ícone da barra de notificação</string>
 
     <string name="pref_disconnected">Definições de desconexão</string>
     <string name="pref_disconnected_summary">Definições do sinal de desconexão do dispositivo</string>
@@ -86,7 +86,7 @@
     <string name="pref_cat_abandoned">Sinal do dispositivo</string>
     <string name="pref_abandoned_notif_interval_title">Intervalo de repetição do sinal</string>
     <string name="pref_abandoned_notif_text_summary">Notificação no ecrã do dispositivo</string>
-    <string name="pref_abandoned_notif_text_text">O dispositivo está perdido, por favor, ligue para os números a seguir:</string>
+    <string name="pref_abandoned_notif_text_text">O dispositivo está perdido. Por favor, ligue para o(s) número(s) a seguir:</string>
     <string name="pref_abandoned_ringtone_title">Toque</string>
     <string name="pref_abandoned_ringtone_summary_no">Nenhum</string>
     <string name="pref_abandoned_vibration_title">Vibrar</string>
@@ -148,7 +148,7 @@
     <string name="pref_cat_touch">Sinal da Mi Band 2</string>
     <string name="pref_touch_recognised_failed_title">Padrão touch não reconhecido</string>
     <string name="pref_touch_recognised_failed_summary_off">Desligado</string>
-    <string name="pref_touch_recognised_failed_summary_on">Ligado (2 vibrações depois de um padrão longo)</string>
+    <string name="pref_touch_recognised_failed_summary_on">Ligado (2 vibrações depois do padrão mais longo)</string>
 
     <string name="pref_mi_band">Definições da Mi Band 2</string>
     <string name="pref_cat_mi_band_lift_wrist">Rodar o braço para ver a informação</string>
@@ -156,14 +156,14 @@
     <string name="pref_mi_band_lift_wrist_summary_on">Ligado</string>
     <string name="pref_mi_band_lift_wrist_summary_off">Desligado</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Modo não perturbar</string>
-    <string name="pref_mi_band_lift_wrist_dnd_summary_on">Ligado (No período de tempo especificado não vai ser apresentada informação, conexão Bluetooth necessária para configurar)</string>
+    <string name="pref_mi_band_lift_wrist_dnd_summary_on">Ligado (No período de tempo especificado não vai ser apresentada informação; Conexão Bluetooth necessária para configurar)</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_off">Desligado</string>
     <string name="pref_mi_band_lift_wrist_dnd_time_start_title">Hora de início</string>
     <string name="pref_mi_band_lift_wrist_dnd_time_end_title">Hora de fim</string>
 
-    <string name="pref_theme">Theme settings</string>
-    <string name="pref_cat_theme">Theme</string>
-    <string name="pref_theme_title">Select a theme</string>
+    <string name="pref_theme">Definições de tema</string>
+    <string name="pref_cat_theme">Tema</string>
+    <string name="pref_theme_title">Selecionar um tema</string>
 
     <string name="pref_language">Definições de linguagem</string>
     <string name="pref_cat_language">Linguagem</string>
@@ -181,12 +181,12 @@
     <string name="pref_dnd_time_end_title">Hora de fim</string>
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Por favor, ligue o bluetooth e mantanha a Mi Band 2 perto do telemóvel</string>
+    <string name="message_enable_bluetooth">Por favor, ligue o Bluetooth e mantanha a Mi Band 2 perto do telemóvel</string>
     <string name="message_discover_mi_band">A Mi Band 2 não está configurada, encontre-a por favor</string>
     <string name="message_discovered_mi_band">A Mi Band 2 foi encontrada</string>
     <string name="message_discovering_mi_band">Procurando a Mi Band 2 &#8230;</string>
     <string name="message_discovered_no_mi_band">A Mi Band 2 não foi encontrada</string>
-    <string name="message_discovered_not_found_mi_band">Se Mi Band 2 não for encontrada, ativa: Mi Fit/Play/Discoverable ou emparelha nas definições de bluetooth</string>
+    <string name="message_discovered_not_found_mi_band">Se Mi Band 2 não for encontrada, ativa: Mi Fit/Play/Discoverable ou emparelha nas definições de Bluetooth</string>
     <string name="message_enable_notifications_access">Ative o acesso às notificações: Definições/Notificações/Acesso às notificações</string>
     <string name="message_enable_notifications_access_4_4">Ative o acesso às notificações: Definições/Segurança/Acesso às notificações</string>
     <string name="message_open_settings">Definições</string>
@@ -196,11 +196,11 @@
 
     <string name="message_app_chooser_no_selected">Selecione uma aplicação</string>
 
-    <string name="message_notification_free_groups">Pode usar até 6 grupos</string>
+    <string name="message_notification_free_groups">Só pode usar até 6 grupos</string>
 
     <string name="message_touch_record">Grave o padrão usando o botão touch da Mi Band 2</string>
     <string name="message_touch_pattern_error">O padrão especificado é semelhante ao de outra função, registe outro</string>
-    <string name="message_touch_free_patterns">Pode usar até 3 funções</string>
+    <string name="message_touch_free_patterns">Só pode usar até 3 funções</string>
     <string name="message_touch_music_player_not_found">Reprodutor de música não encontrado</string>
     <string name="message_touch_app_launcher1_not_set">A aplicação não está configurada</string>
     <string name="message_touch_app_launcher1_not_found">Aplicação não encontrada: %1$s</string>
@@ -220,10 +220,10 @@
     <string name="dialog_welcome_message"><![CDATA[Atualmente a aplicação só suporta a Mi Band 2.
     <p>A Mi Bandage precisa que a versão oficial da Mi Fit esteja instalada no mesmo dispositivo. Primeiro tens de emparelhar a Mi Band 2 na aplicação Mi Fit e só depois poderás usar a Mi Bandage.</p>
     <p>Se tu usas mais aplicações para controlar a Mi Band 2, elas vão interferir umas com as outras por isso desativa-as temporariamente.</p>
-    <p>Se a Mi Band 2 não foi encontrada, tu podes configurar o endereço MAC manualmente nos detalhes do menu (O endereço MAC encontra-se em: Mi Fit/Profil/Mi Band 2).</p>
+    <p>Se a Mi Band 2 não for encontrada, tu podes configurar o endereço MAC manualmente nos detalhes do menu (O endereço MAC encontra-se em: Mi Fit/Profil/Mi Band 2).</p>
     <p><b>Se a Mi Band 2 não foi encontrada ou se estás a ter problemas em sincronizar na aplicação Mi Fit, instala BToolkit, nRF Conect ou uma aplicação semelhante de monitoramento bluetooth e remove os dispositivos emparelhados, conectados.</b></p>
-    <p>Se tens problemas (descobrir a Mi Band 2/não tem sinal de notificação), tente isto por favor:
-    <br>1. Se tem o Greenify instalado(ou outra aplicação para hibernar) desative-a.
+    <p>Se tens problemas (descobrir a Mi Band 2/sinal de notificação), tenta isto por favor:
+    <br>1. Se tem o Greenify instalado (ou outra aplicação para hibernar) desative-a.
     <br>2. Instale a aplicação Mi Bandage.
     <br>3. Reinicie o telemóvel.
     <br>4. Desligue e volte a ligar o Bluetooth.
@@ -247,14 +247,14 @@
     <string name="notification_group_pre_only_premium">Modo premium</string>
     <string name="notification_group_immediate">Emitir sinal quando receber a notificação</string>
     <string name="notification_group_connecting">Emitir sinal quando conectar ao dispositivo</string>
-    <string name="notification_group_reminder">Sinal para relembrar</string>
+    <string name="notification_group_reminder">Sinal do lembrete</string>
     <string name="notification_group_screen_off">Emitir sinal quando o ecrã estiver desligado</string>
     <string name="notification_group_counter_title">Cardinalidade dos sinais</string>
     <string name="notification_group_wakelock">Acordar o ecrã do dispositivo</string>
-    <string name="notification_group_required">Requirido</string>
+    <string name="notification_group_required">Requerido</string>
 
     <!-- Notification info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Aplicação predefinida e sinais com o ícone da Mi Band 2:
+    <string name="info_dialog_notification"><![CDATA[Aplicação predefinida e ícones da Mi Band 2:
         <br><img src="ALERT_MESSAGE_TEXT">  Chamada perdida
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  Email, Gmail
@@ -288,7 +288,7 @@
         <p>Se tu usas aplicações predefinidas mas queres excluir algumas aplicações, então cria um novo grupo de notificações em <i>Definições de exclusão de notificações</i> e adiciona aplicações.</p>
         ]]>
     </string>
-        <!--<p>Os sinais predefinidos podem ser desativados: <i>Definições de conexão de notificação/Tem notificação</i>.</p>-->
+        <!--<p>Os sinais predefinidos podem ser desativados: <i>Monitorar notifições/Definições</i>.</p>-->
 
     <!-- MiBandageApp chooser dialog -->
     <string name="action_search">Procurar</string>
@@ -310,13 +310,13 @@
     <string name="touch_call_mute_title">Silenciar chamada</string>
     <string name="touch_call_mute_ringtone_title_no">Nenhum</string>
 
-    <string name="touch_device_location_not_muted_only_title">Emitir som se não estiver no modo silencioso</string>
+    <string name="touch_device_location_not_muted_only_title">Emite som se não estiver no modo silencioso</string>
 
     <string name="touch_repeat_notif_title">Repetir as notificações</string>
 
-    <string name="touch_music_play_pause_title">Iniciar aplicação música, tocar/pausar música</string>
-    <string name="touch_music_skip_previous_title">Music start, previous song</string>
-    <string name="touch_music_skip_next_title">Iniciar aplicação música, próximo som</string>
+    <string name="touch_music_play_pause_title">Iniciar aplicação música, iniciar/pausar música</string>
+    <string name="touch_music_skip_previous_title">Iniciar música, música anterior</string>
+    <string name="touch_music_skip_next_title">Iniciar aplicação música, próxima música</string>
     <string name="touch_music_headset_only_title">Só se o headset estiver conectado</string>
     <string name="touch_music_volume_up_title">Subir o volume da música</string>
     <string name="touch_music_volume_down_title">Descer o volume da música</string>
@@ -324,7 +324,7 @@
     <string name="touch_time_launch_title">Iniciar temporizador/cronómetro</string>
     <string name="touch_time_launch_type_timer_title">Temporizador</string>
     <string name="touch_time_launch_type_stopper_title">Cronómetro</string>
-    <string name="touch_time_reminder_title">Tempo restante/passado</string>
+    <string name="touch_time_reminder_title">Tempo restante/decorrido</string>
 
     <string name="touch_app_launcher1_title">Iniciar aplicações</string>
     <string name="touch_app_launcher_package_no_title">Selecionar uma aplicação</string>
@@ -414,15 +414,15 @@
 
     <!-- Lost  monitoring -->
     <string name="alarm_mi_band_title">Sinal da Mi Band 2</string>
-    <string name="alarm_mi_band_dnd">Modo não perturbar</string>
+    <string name="alarm_mi_band_dnd">Modo DND</string>
     <string name="alarm_mi_band_dnd_start">Hora de início</string>
     <string name="alarm_mi_band_dnd_end">Hora de fim</string>
-    <string name="alarm_mi_band_interval_title">Configuração do intervalo de repetição do alarme</string>
+    <string name="alarm_mi_band_interval_title">Intervalo de repetição do alarme</string>
     <string name="alarm_mi_band_time_set_next">Hora da próxima configuração</string>
     <string name="alarm_mi_band_time">Hora do próximo alarme</string>
 
-    <string name="alarm_mi_band_on_bluetooth_disabled_text">Lost monitoring Mi Band 2 signal is enabled.</string>
-    <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm time: %1$s</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">O sinal da monitorização de perda da Mi Band 2 está ativo.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_info">Tempo do alarme: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_alarm"> <b><u>Sinais da Mi Band 2</u></b>
         <p>Quando o período de tempo especificado expirar, a Mi Band 2 envia sinais se não estiver conectado ao dispositivo.</p>
@@ -454,13 +454,13 @@
     <string name="time_timer_alert_bell_title">Sino</string>
     <string name="time_timer_alert_alarm_title">Alarme</string>
 
-    <string name="time_timer_reminder">Lembrete, tempo restante</string>
-    <string name="time_timer_reminder_interval_before_title">Antes, intervalo de repetição</string>
+    <string name="time_timer_reminder">Lembrete</string>
+    <string name="time_timer_reminder_interval_before_title">Intervalo de tempo do lembrete antes do fim (só 1)</string>
     <string name="time_timer_reminder_interval_before_off_title">Desligado</string>
-    <string name="time_timer_reminder_interval_repeat_title">Repetição do lembrete</string>
+    <string name="time_timer_reminder_interval_repeat_title">Intervalo de tempo do lembrete (mais de 1)</string>
 
     <string name="time_stopper_time_alert">Hora do alarme</string>
-    <string name="time_stopper_time_elapsed">Tempo gasto</string>
+    <string name="time_stopper_time_elapsed">Tempo decorrido</string>
 
     <string name="time_stopper_mode">Cronómetro</string>
     <string name="time_stopper_mode_timer_title">Cronometragem</string>
@@ -470,35 +470,35 @@
     <string name="time_stopper_alert_bell_title">Sino</string>
     <string name="time_stopper_alert_alarm_title">Alarme</string>
 
-    <string name="time_stopper_reminder">Lembrete, tempo restante</string>
-    <string name="time_stopper_reminder_interval_before_title">Antes, intervalo de repetição</string>
+    <string name="time_stopper_reminder">Lembrete</string>
+    <string name="time_stopper_reminder_interval_before_title">Intervalo de tempo do lembrete antes do fim (só 1)</string>
     <string name="time_stopper_reminder_interval_before_off_title">Desligado</string>
-    <string name="time_stopper_reminder_interval_repeat_title">Repetição do lembrete</string>
+    <string name="time_stopper_reminder_interval_repeat_title">Intervalo de tempo do lembrete (mais de 1)</string>
 
-    <string name="time_stopper_touch">Tempo da volta, monitorar touch</string>
-    <string name="time_stopper_touch_record">Tempo da volta gravado com um toque</string>
-    <string name="time_stopper_touch_show">Mostrar tempo de volta com um toque</string>
+    <string name="time_stopper_touch">Monitorização com o touch</string>
+    <string name="time_stopper_touch_record">Gravar o tempo da volta (1 toque)</string>
+    <string name="time_stopper_touch_show">Mostrar tempo da última volta (1 toque)</string>
     <string name="time_stopper_touch_time_format">Formato do tempo</string>
-    <string name="time_stopper_touch_time_format_minute">hora\u2032 minuto\u2033</string>
-    <string name="time_stopper_touch_time_format_second">m\u2032 segundo\u2033</string>
+    <string name="time_stopper_touch_time_format_minute">h (\u2032) m (\u2033)</string>
+    <string name="time_stopper_touch_time_format_second">m (\u2032) s (\u2033)</string>
 
     <string name="time_lap_details">Detalhes do tempo da volta</string>
 
     <string name="info_dialog_time"><![CDATA[<img src="ic_miband_bell"> <b><u>Toque</u></b>
         <p>Conexão bluetooth necessária para o alarme (uma vez em 10 segundos).</p>
         <img src="ic_access_time"> <b><u>Alarme</u></b>
-        <p>Conexão bluetooth não é necessária para o alarme, a aplicação usa o alarme da Mi Fit para alertar (Sobrescrever 9. configuração).
+        <p>Conexão bluetooth não é necessária para o alarme. A aplicação usa o alarme da Mi Fit para alertar (Sobrescreve 9.).
         <br>O alarme será repetido várias vezes se a Mi Band 2 não detectar qualquer movimento (porque ele usa o alarme de fábrica).</p>
         <p>O sinal de lembrete requer uma ligação Bluetooth.</p>
     ]]></string>
 
     <!-- Agent -->
-    <string name="agent_title">Monitorar o agente do dispositivo</string>
+    <string name="agent_title">Monitorar o dispositivo</string>
     <string name="agent_tab_events">Registo do agente</string>
     <string name="agent_tab_settings">Definições</string>
 
     <string name="pref_disconnected_agent_summary_on">Se alguém mexer no seu dispositivo, você saberá</string>
-    <string name="pref_disconnected_agent_text">Alguém mexeu no seu dispositivo enquanto você saiu</string>
+    <string name="pref_disconnected_agent_text">Alguém mexeu no seu dispositivo enquanto você se ausentou</string>
     <string name="pref_disconnected_agent_user_present_title">Monitorar o despertar do dispositivo</string>
     <string name="pref_disconnected_agent_screen_on_and_motion_title">Monitorar ativação e movimento</string>
 
