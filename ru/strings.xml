@@ -198,6 +198,9 @@
 
     <string name="message_notification_free_groups">Максимум 6 групп</string>
 
+    <string name="message_step_goal_free_values">Up to 3 values can be set in normal mode</string>
+    <string name="message_step_goal_max_values">Maximum 10 values can be set</string>
+
     <string name="message_touch_record">Запишите образец использования кнопки Mi Band 2</string>
     <string name="message_touch_pattern_error">Заданная последовательность похожа на последовательность другой функции, запишите другую</string>
     <string name="message_touch_free_patterns">Максимум 3 функции</string>
@@ -251,7 +254,6 @@
     <string name="notification_group_screen_off">Уведомлять только при выключенном экране</string>
     <string name="notification_group_counter_title">Количество сигналов</string>
     <string name="notification_group_wakelock">Активировать экран усройства</string>
-    <string name="notification_group_required">Необходимо указать</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Предустановленные иконки уведомлений Mi Band 2 и приложений:
@@ -367,6 +369,7 @@
     <string name="action_tracker_calorie">Калории</string>
 
     <string name="step_tab_day">Измерения за день</string>
+    <string name="step_tab_goal">Activity goals</string>
     <string name="step_tab_settings">Настройки</string>
 
     <string name="step_title_timing">Время</string>
@@ -375,6 +378,7 @@
     <string name="step_time_end">Время окончания</string>
     <string name="step_time_set_next">Время до следующего измерения</string>
 
+    <string name="step_goal_type_title">Monitoring value</string>
     <string name="step_details">Шаги</string>
 
     <string name="info_dialog_step"><![CDATA[Bluetooth подключение необходимо для получения данных.
@@ -479,8 +483,8 @@
     <string name="time_stopper_touch_record">Запись времени круга по касанию</string>
     <string name="time_stopper_touch_show">Отображение времени круга по касанию</string>
     <string name="time_stopper_touch_time_format">Формат времени</string>
-    <string name="time_stopper_touch_time_format_minute">час\u2032 мин\u2033</string>
-    <string name="time_stopper_touch_time_format_second">мин\u2032 секунда\u2033</string>
+    <string name="time_stopper_touch_time_format_minute">час \u2032 мин \u2033</string>
+    <string name="time_stopper_touch_time_format_second">мин \u2032 секунда \u2033</string>
 
     <string name="time_lap_details">Время круга</string>
 
@@ -520,16 +524,19 @@
         <br>- префикс текстовых уведомлений
         <br>- <i>Измерение пульса</i>: установка промежутка измерений по желанию, настройка показа пульса
         <br>- <i>Долго отсоединён</i>: установка промежутка уведомлений по желанию,  активация режима \'Не беспокоить\'
-        <br>- <i>Время</i>: установка промежутка уведомлений по желанию</p>
+        <br>- <i>Время</i>: установка промежутка уведомлений по желанию
+        <br>- …</p>
         <b>Правила и условия премиума:</b>
         <p>- Вы протестировали приложение, оно работает правильно.
         <br>- Вы предупреждены, что не можете требовать возмещения средств из-за багов, ошибок приложения, вызванных изменениями в приложении, вашими устройствами или другими приложениями.
         <br>- Все покупки окончательны и возврату не подлежат (кроме возврата от Google Play).
         <br>- Гарантия не предоставляется.</p>
-        <p><i>После покупки перезагрузите приложение.</i></p>]]>
-    </string>
+        <p><i>После покупки перезагрузите приложение.</i></p>
+    ]]></string>
 
     <string name="purchase_agree">Я согласен с правилами и условиями.</string>
+    <string name="purchase_order_id">Order ID</string>
+    <string name="purchase_order_id_help">Copy from https://play.google.com/store/account</string>
     <string name="purchase_button_purchase">Приобрести</string>
 
     <!-- Feedback -->
@@ -554,6 +561,8 @@
     <string name="power_on">Активация экрана</string>
     <string name="screen_unlock">Разблокировка экрана</string>
     <string name="motion">Замечено перемецение</string>
+
+    <string name="required_value">Необходимо указать</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_hour">ч</string>
