@@ -198,6 +198,9 @@
 
     <string name="message_notification_free_groups">Μπορούν να χρησιμοποιηθούν μέχρι 6 ομάδες</string>
 
+    <string name="message_step_goal_free_values">Up to 3 values can be set in normal mode</string>
+    <string name="message_step_goal_max_values">Maximum values can be set</string>
+
     <string name="message_touch_record">Καταγράψτε το μοτίβο χρησιμοποιώντας το κουμπί αφής του Mi Band 2</string>
     <string name="message_touch_pattern_error">Το καθορισμένο μοτίβο είναι παρόμοιο με ένα δείγμα κάποιας άλλης λειτουργίας, καταγράψτε άλλο</string>
     <string name="message_touch_free_patterns">Μπορούν να χρησιμοποιηθούν μέχρι 3 λειτουργίες</string>
@@ -251,7 +254,6 @@
     <string name="notification_group_screen_off">Σήμα μόνο όταν η οθόνη είναι απενεργοποιημένη</string>
     <string name="notification_group_counter_title">Πλήθος αριθμού σημάτων</string>
     <string name="notification_group_wakelock">Αφύπνιση οθόνης της συσκευής</string>
-    <string name="notification_group_required">Απαιτείται</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Προκαθορισμένες εφαρμογές και εικονίδια σημάτων του Mi Band 2:
@@ -367,6 +369,7 @@
     <string name="action_tracker_calorie">Θερμίδες</string>
 
     <string name="step_tab_settings">Ρυθμίσεις</string>
+    <string name="step_tab_goal">Activity goals</string>
     <string name="step_tab_day">Ημερήσια διαγράμματα</string>
 
     <string name="step_title_timing">Χρονισμός</string>
@@ -375,6 +378,7 @@
     <string name="step_time_end">Ώρα λήξης</string>
     <string name="step_time_set_next">Το χρονοδιάγραμμα του επόμενου ελέγχου</string>
 
+    <string name="step_goal_type_title">Monitoring value</string>
     <string name="step_details">Λεπτομέρειες βημάτων</string>
 
     <string name="info_dialog_step"><![CDATA[H σύνδεση Bluetooth είναι απαραίτητη για την παρακολούθηση βημάτων.
@@ -479,8 +483,8 @@
     <string name="time_stopper_touch_record">Χρόνος γύρου καταγραφή με ένα πάτημα</string>
     <string name="time_stopper_touch_show">Χρόνος γύρου εμφάνιση με ένα πάτημα</string>
     <string name="time_stopper_touch_time_format">Μορφή ώρας</string>
-    <string name="time_stopper_touch_time_format_minute">ώρα\u2032 λεπτά\u2033</string>
-    <string name="time_stopper_touch_time_format_second">λεπτά\u2032 δευτερόλεπτα\u2033</string>
+    <string name="time_stopper_touch_time_format_minute">ώρα \u2032 λεπτά \u2033</string>
+    <string name="time_stopper_touch_time_format_second">λεπτά \u2032 δευτερόλεπτα \u2033</string>
 
     <string name="time_lap_details">Λεπτομέρειες χρόνος γύρου</string>
 
@@ -520,16 +524,19 @@
         <br>- πρόθεμα κειμένου μπορεί να χρησιμοποιηθεί στην παρακολούθηση ειδοποιήσεων
         <br>- στην λειτουργία παλμού τα διαστήματα επανάληψης παλμού μπορούν να ρυθμιστούν ελεύθερα
         <br>- στην λειτουργία εποπτεία συσκευής μπορεί να χρησιμοποιηθεί η λειτουργία dnd (μην ενοχλείται) και τα διαστήματα επανάληψης μπορούν να ρυθμιστούν ελεύθερα
-        <br>- επανειλημμένες υπενθυμίσεις μπορούν να ρυθμιστούν ελεύθερα στην παρακολούθηση χρόνου</p>
+        <br>- επανειλημμένες υπενθυμίσεις μπορούν να ρυθμιστούν ελεύθερα στην παρακολούθηση χρόνου
+        <br>- …</p>
         <b>Όροι και προϋποθέσεις της premium λειτουργίας:</b>
         <p>- Δοκίμασα την εφαρμογή και λειτουργεί σωστά.
         <br>- Γνωρίζω ότι δεν μπορώ να απαιτήσω αποζημίωση ή επιστροφή χρημάτων που οφείλονται σε σφάλματα, σφάλματα του λογισμικού που προκαλείται από τις αλλαγές στο λογισμικό, το περιβάλλον υλικού ή χρησιμοποιώντας άλλες εφαρμογές.
         <br>- Όλες οι πωλήσεις είναι τελικές και δεν μπορούν να επιστραφούν (εκτός από την πολιτική επιστροφής της Google).
         <br>- Δεν συμπεριλαμβάνεται καμία εγγύηση.</p>
-        <p><i>Μετά την αγορά θα πρέπει να επανεκκινήσετε την εφαρμογή.</i></p>]]>
-    </string>
+        <p><i>Μετά την αγορά θα πρέπει να επανεκκινήσετε την εφαρμογή.</i></p>
+    ]]></string>
 
     <string name="purchase_agree">Συμφωνώ με τους όρους και τις προυποθέσεις.</string>
+    <string name="purchase_order_id">Order ID</string>
+    <string name="purchase_order_id_help">Copy from https://play.google.com/store/account</string>
     <string name="purchase_button_purchase">Αγορά</string>
 
     <!-- Feedback -->
@@ -554,6 +561,8 @@
     <string name="power_on">Ενεργοποίηση</string>
     <string name="screen_unlock">Ξεκλείδωμα της οθόνης</string>
     <string name="motion">Ανιχνεύθηκε κίνηση</string>
+
+    <string name="required_value">Απαιτείται</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_hour">ω</string>
