@@ -198,6 +198,9 @@
 
     <string name="message_notification_free_groups">Só pode usar até 6 grupos</string>
 
+    <string name="message_step_goal_free_values">Up to 3 values can be set in normal mode</string>
+    <string name="message_step_goal_max_values">Maximum 10 values can be set</string>
+
     <string name="message_touch_record">Grave o padrão usando o botão touch da Mi Band 2</string>
     <string name="message_touch_pattern_error">O padrão especificado é semelhante ao de outra função, registe outro</string>
     <string name="message_touch_free_patterns">Só pode usar até 3 funções</string>
@@ -251,7 +254,6 @@
     <string name="notification_group_screen_off">Emitir sinal quando o ecrã estiver desligado</string>
     <string name="notification_group_counter_title">Cardinalidade dos sinais</string>
     <string name="notification_group_wakelock">Acordar o ecrã do dispositivo</string>
-    <string name="notification_group_required">Requerido</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Aplicação predefinida e ícones da Mi Band 2:
@@ -367,6 +369,7 @@
     <string name="action_tracker_calorie">Calorias</string>
 
     <string name="step_tab_day">Gráficos diários</string>
+    <string name="step_tab_goal">Activity goals</string>
     <string name="step_tab_settings">Definições</string>
 
     <string name="step_title_timing">Temporização</string>
@@ -375,6 +378,7 @@
     <string name="step_time_end">Hora de fim</string>
     <string name="step_time_set_next">Temporização para a próxima monitorização</string>
 
+    <string name="step_goal_type_title">Monitoring value</string>
     <string name="step_details">Detalhes dos passos</string>
 
     <string name="info_dialog_step"><![CDATA[Conexão Bluetooth necessária para monitorar os passos.
@@ -520,15 +524,18 @@
         <br>- O intervalo de repetição pode ser ajustado livremente
         <br>- Mostrar pulsação pode ser usado na função monitorar pulsação
         <br>- Modo DND pode ser usado na função monitorar perda
-        <br>- Lembretes repetidos podem ser definidos livremente em Monitorar tempo</p>
+        <br>- Lembretes repetidos podem ser definidos livremente em Monitorar tempo
+        <br>- …</p>
         <b>Termos e condições do modo premium:</b>
         <p>- Eu testei a aplicação e ela está a funcionar corretamente. Eu estou ciente de que não posso exigir compensação ou reembolso devido a bugs, erros de software causados ​​por alterações no software, ambiente do hardware ou outras aplicações usadas.
         <br>- Todas as vendas são finais e não podem ser reembolsadas (exceto a política de reembolso do Google).
         <br>- Não há garantia incluída.</p>
-        <p><i>Depois de comprar, você precisa de reiniciar a aplicação.</i></p>]]>
-    </string>
+        <p><i>Depois de comprar, você precisa de reiniciar a aplicação.</i></p>
+    ]]></string>
 
     <string name="purchase_agree">Eu concordo com os Termos e Condições.</string>
+    <string name="purchase_order_id">Order ID</string>
+    <string name="purchase_order_id_help">Copy from https://play.google.com/store/account</string>
     <string name="purchase_button_purchase">Comprar</string>
 
     <!-- Feedback -->
@@ -553,6 +560,8 @@
     <string name="power_on">Ligar</string>
     <string name="screen_unlock">Desbloquear o ecrã</string>
     <string name="motion">Movimento detetado</string>
+
+    <string name="required_value">Requerido</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_hour">h</string>
