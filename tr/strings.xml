@@ -161,9 +161,9 @@
     <string name="pref_mi_band_lift_wrist_dnd_time_start_title">Başlama zamanı</string>
     <string name="pref_mi_band_lift_wrist_dnd_time_end_title">Bitiş zamanı</string>
 
-    <string name="pref_theme">Theme settings</string>
-    <string name="pref_cat_theme">Theme</string>
-    <string name="pref_theme_title">Select a theme</string>
+    <string name="pref_theme">Tema ayarları</string>
+    <string name="pref_cat_theme">Tema</string>
+    <string name="pref_theme_title">Bir tema seçin</string>
 
     <string name="pref_language">Dil ayarları</string>
     <string name="pref_cat_language">Dil</string>
@@ -197,6 +197,9 @@
     <string name="message_app_chooser_no_selected">Bir uygulama seçin</string>
 
     <string name="message_notification_free_groups">6 gruba kadar kullanılabilir</string>
+
+    <string name="message_step_goal_free_values">Up to 3 values can be set in normal mode</string>
+    <string name="message_step_goal_max_values">Maximum 10 values can be set</string>
 
     <string name="message_touch_record">Mi Band 2 dokunmatik düğmesini kullanarak deseni kaydedin.</string>
     <string name="message_touch_pattern_error">Belirtilen desen başka bir işlevin bir örneğine benzer, başka bir işlevin bir örneğine benzer</string>
@@ -251,7 +254,6 @@
     <string name="notification_group_screen_off">Yalnızca ekran kapalıyken uyar</string>
     <string name="notification_group_counter_title">Uyarı kararlılığı</string>
     <string name="notification_group_wakelock">Cihaz ekranını uyandırma</string>
-    <string name="notification_group_required">Gerekli</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Önceden tanımlı uygulama ve Mi Band 2 simgesi uyarıları:
@@ -315,7 +317,7 @@
     <string name="touch_repeat_notif_title">Bildirimleri tekrarla</string>
 
     <string name="touch_music_play_pause_title">Müzik başlat, çal, duraklat</string>
-    <string name="touch_music_skip_previous_title">Music start, previous song</string>
+    <string name="touch_music_skip_previous_title">Müzik başlat, önceki şarkı</string>
     <string name="touch_music_skip_next_title">Müzik başlat, sonraki şarkı</string>
     <string name="touch_music_headset_only_title">Yalnızca kulaklıklı mikrofon seti bağlıysa</string>
     <string name="touch_music_volume_up_title">Müzik sesi artır</string>
@@ -367,6 +369,7 @@
     <string name="action_tracker_calorie">Kalori</string>
 
     <string name="step_tab_settings">Ayarlar</string>
+    <string name="step_tab_goal">Activity goals</string>
     <string name="step_tab_day">Günlük grafikler</string>
 
     <string name="step_title_timing">Zamanlama</string>
@@ -375,6 +378,7 @@
     <string name="step_time_end">Bitiş zamanı</string>
     <string name="step_time_set_next">Sonraki izleme zamanlaması</string>
 
+    <string name="step_goal_type_title">Monitoring value</string>
     <string name="step_details">Adım ayrıntıları</string>
 
     <string name="info_dialog_step"><![CDATA[Bluetooth connection is required for monitoring the steps.
@@ -421,8 +425,8 @@
     <string name="alarm_mi_band_time_set_next">Bir sonraki ayarın zamanlaması</string>
     <string name="alarm_mi_band_time">Bir sonraki alarmın zamanlaması</string>
 
-    <string name="alarm_mi_band_on_bluetooth_disabled_text">Lost monitoring Mi Band 2 signal is enabled.</string>
-    <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm time: %1$s</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">İzlemeyi kaybetti Mi Band 2 sinyali etkinleştirildi.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm zamanı: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_alarm"> <b><u>Mi Band 2 sinyali</u></b>
         <p>Belirtilen süre geçtikten sonra Mi Band 2, cihaza bağlı değilse sinyal gönderir.</p>
@@ -479,8 +483,8 @@
     <string name="time_stopper_touch_record">Tek dokunuşla tur zamanlı kayıt</string>
     <string name="time_stopper_touch_show">Tur süresi tek dokunuşla gösteriliyor</string>
     <string name="time_stopper_touch_time_format">Zaman formatı</string>
-    <string name="time_stopper_touch_time_format_minute">saat\u2032 dakika\u2033</string>
-    <string name="time_stopper_touch_time_format_second">dakika\u2032 saniye\u2033</string>
+    <string name="time_stopper_touch_time_format_minute">saat \u2032 dakika \u2033</string>
+    <string name="time_stopper_touch_time_format_second">dakika \u2032 saniye \u2033</string>
 
     <string name="time_lap_details">Tur bilgileri</string>
 
@@ -520,16 +524,19 @@
          <br>- bildirim önizleme bildiriminde kullanılabilir
          <br>- tekrarlama aralığı serbestçe ayarlanabilir ve gösteri darbesi darbe izleme işlevinde kullanılabilir
          <br>- tekrarlama aralığı serbestçe ayarlanabilir ve dnd modu kayıp izleme işlevinde kullanılabilir
-         <br>- tekrarlanan hatırlatıcılar zamanında izleme özgürlüğüne ayarlanabilir</p>
+         <br>- tekrarlanan hatırlatıcılar zamanında izleme özgürlüğüne ayarlanabilir
+         <br>- …</p>
          <b>Premium modu şartları ve koşulları:</b>
          <p>- Uygulamayı test ettim ve düzgün çalışıyor.
          <br>- Hatalar, yazılım değişiklikleri, donanım ortamı veya diğer uygulamaların neden olduğu yazılım hataları yüzünden tazminat veya geri ödeme talep edemeyeceğimden haberim var.
          <br>- Bütün satışlar nihaidir ve geri ödeme yapılamaz (Google geri ödeme politikası hariç).
          <br>- Garanti dahil değildir.</p>
-         <p><i> Satın aldıktan sonra uygulamayı yeniden başlatmanız gerekir.</i></p>]]>
-    </string>
+         <p><i> Satın aldıktan sonra uygulamayı yeniden başlatmanız gerekir.</i></p>
+    ]]></string>
 
     <string name="purchase_agree">Hükümlere ve koşullara katılıyorum.</string>
+    <string name="purchase_order_id">Order ID</string>
+    <string name="purchase_order_id_help">Copy from https://play.google.com/store/account</string>
     <string name="purchase_button_purchase">Satın alma</string>
 
     <!-- Feedback -->
@@ -554,6 +561,8 @@
     <string name="power_on">Açık</string>
     <string name="screen_unlock">Ekran kilidini açma</string>
     <string name="motion">Hareket algılandı</string>
+
+    <string name="required_value">Gerekli</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_hour">s</string>
