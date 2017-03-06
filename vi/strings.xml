@@ -198,6 +198,9 @@
 
     <string name="message_notification_free_groups">Lên đến 6 nhóm có thể được sử dụng</string>
 
+    <string name="message_step_goal_free_values">Up to 3 values can be set in normal mode</string>
+    <string name="message_step_goal_max_values">Maximum 10 values can be set</string>
+
     <string name="message_touch_record">Ghi lại các cử chỉ sử dụng  nút cảm ứng Mi Band 2 </string>
     <string name="message_touch_pattern_error">Các mẫu cụ thể là tương tự mẫu của một chức năng khác, ghi lại cách khác</string>
     <string name="message_touch_free_patterns">Lên đến 3 chức năng có thể được sử dụng</string>
@@ -251,7 +254,6 @@
     <string name="notification_group_screen_off">Tín hiệu chỉ khi màn hình tắt</string>
     <string name="notification_group_counter_title">Signals cardinality</string>
     <string name="notification_group_wakelock">Đánh thức màn hình thiết bị</string>
-    <string name="notification_group_required">Bắt buộc</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Predefined app and Mi Band 2 icon signals:
@@ -367,6 +369,7 @@
     <string name="action_tracker_calorie">Calories</string>
 
     <string name="step_tab_day">Biểu đồ hàng ngày</string>
+    <string name="step_tab_goal">Activity goals</string>
     <string name="step_tab_settings">Cài đặt</string>
 
     <string name="step_title_timing">Thời điểm</string>
@@ -375,6 +378,7 @@
     <string name="step_time_end">Thời gian kết thúc</string>
     <string name="step_time_set_next">Thời điểm giám sát tiếp theo</string>
 
+    <string name="step_goal_type_title">Monitoring value</string>
     <string name="step_details">Chi tiết bước chân</string>
 
     <string name="info_dialog_step"><![CDATA[Bluetooth connection is required for monitoring the steps.
@@ -479,8 +483,8 @@
     <string name="time_stopper_touch_record">Lap time recording by one touch</string>
     <string name="time_stopper_touch_show">Hiện vòng thời gian bằng 1 chạm</string>
     <string name="time_stopper_touch_time_format">Định dạng thời gian</string>
-    <string name="time_stopper_touch_time_format_minute">giờ\u2032 phút\u2033</string>
-    <string name="time_stopper_touch_time_format_second">phút\u2032 thứ hai\u2033</string>
+    <string name="time_stopper_touch_time_format_minute">giờ \u2032 phút \u2033</string>
+    <string name="time_stopper_touch_time_format_second">phút \u2032 thứ hai \u2033</string>
 
     <string name="time_lap_details">Chi tiết vòng thời gian</string>
 
@@ -520,16 +524,19 @@
         <br>- text prefix can be used in notification monitoring
         <br>- repeat interval can be set freely and show pulse can be used in pulse monitoring function
         <br>- repeat interval can be set freely and dnd mode can be used in lost monitoring function
-        <br>- repeated reminders can be set freely in time monitoring</p>
+        <br>- repeated reminders can be set freely in time monitoring
+        <br>- …</p>
         <b>Terms and conditions of Premium mode:</b>
         <p>- I have tested the app and it is working properly.
         <br>- I am aware of that I can not require compensation or refund due to bugs, software errors caused by changes in the software, hardware environment or using other applications.
         <br>- All sales are final and can not be refund (except Google refund policy).
         <br>- There is no warranty included.</p>
-        <p><i>After purchasing you need to restart the app.</i></p>]]>
-    </string>
+        <p><i>After purchasing you need to restart the app.</i></p>
+    ]]></string>
 
     <string name="purchase_agree">Tôi đồng ý với các Điều khoản và Điều kiện.</string>
+    <string name="purchase_order_id">Order ID</string>
+    <string name="purchase_order_id_help">Copy from https://play.google.com/store/account</string>
     <string name="purchase_button_purchase">Mua</string>
 
     <!-- Feedback -->
@@ -554,6 +561,8 @@
     <string name="power_on">Bật nguồn</string>
     <string name="screen_unlock">Mở khóa màn hình</string>
     <string name="motion">Phát hiện chuyển động</string>
+
+    <string name="required_value">Bắt buộc</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_hour">h</string>
