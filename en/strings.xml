@@ -12,6 +12,7 @@
     <string name="drawer_nav_pulse">Pulse monitoring</string>
     <string name="drawer_nav_time">Time monitoring</string>
     <string name="drawer_nav_disconnected_agent">Agent</string>
+    <string name="drawer_nav_rewarded_mode">Rewarded mode</string>
     <string name="drawer_nav_premium_mode">Premium mode</string>
     <string name="drawer_nav_feedback">Feedback</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
@@ -458,6 +459,9 @@
     <string name="time_timer_alert_bell_title">Bell</string>
     <string name="time_timer_alert_alarm_title">Alarm</string>
 
+    <string name="time_text">Show message</string>
+    <string name="time_text_message">Text</string>
+
     <string name="time_timer_reminder">Reminder signal, remaining time</string>
     <string name="time_timer_reminder_interval_before_title">Before time</string>
     <string name="time_timer_reminder_interval_before_off_title">Off</string>
@@ -516,8 +520,26 @@
         <p>When you reconnect you will receive a notification in case of an event occurred.</p>]]>
     </string>
 
-    <!-- Ad-free -->
-    <string name="purchase_policy"><![CDATA[<b>Premium mode advantages:</b>
+    <!-- Rewarded mode -->
+    <string name="rewarded_policy_title">Terms and conditions of Rewarded mode</string>
+    <string name="rewarded_policy"><![CDATA[
+        <p>- start of validity: current time
+        <br>- end of validity: start of validity + at least %1$,d days (depending on ad it can be more)
+        <br>- time manipulation can cause termination of validity</p>
+        <i>After playing video you need to restart the app.</i>
+    ]]></string>
+
+    <string name="rewarded_advantage_banner_title">Block the banner ads</string>
+    <string name="rewarded_advantage_interstitial_title">Block the interstitial ads</string>
+
+    <string name="rewarded_advantage_time_range">Validity</string>
+    <string name="rewarded_advantage_button_play">Play video</string>
+
+    <string name="message_rewarded_error">Failed to load video</string>
+
+    <!-- Premium mode -->
+    <string name="purchase_advantage_title">Premium mode advantages</string>
+    <string name="purchase_advantage"><![CDATA[
         <p>- ad-free
         <br>- unlimited notification monitoring
         <br>- unlimited touch monitoring
@@ -526,7 +548,9 @@
         <br>- repeat interval can be set freely and dnd mode can be used in lost monitoring function
         <br>- repeated reminders can be set freely in time monitoring
         <br>- …</p>
-        <b>Terms and conditions of Premium mode:</b>
+    ]]></string>
+    <string name="purchase_policy_title">Terms and conditions of Premium mode</string>
+    <string name="purchase_policy"><![CDATA[
         <p>- I have tested the app and it is working properly.
         <br>- I am aware of that I can not require compensation or refund due to bugs, software errors caused by changes in the software, hardware environment or using other applications.
         <br>- All sales are final and can not be refund (except Google refund policy).
