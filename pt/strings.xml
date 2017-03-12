@@ -12,6 +12,7 @@
     <string name="drawer_nav_pulse">Monitorar pulsação</string>
     <string name="drawer_nav_time">Monitorar tempo</string>
     <string name="drawer_nav_disconnected_agent">Registo do agente</string>
+    <string name="drawer_nav_rewarded_mode">Rewarded mode</string>
     <string name="drawer_nav_premium_mode">Modo premium</string>
     <string name="drawer_nav_feedback">Feedback</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
@@ -458,6 +459,9 @@
     <string name="time_timer_alert_bell_title">Sino</string>
     <string name="time_timer_alert_alarm_title">Alarme</string>
 
+    <string name="time_text">Show message</string>
+    <string name="time_text_message">Text</string>
+
     <string name="time_timer_reminder">Lembrete</string>
     <string name="time_timer_reminder_interval_before_title">Intervalo de tempo do lembrete antes do fim (só 1)</string>
     <string name="time_timer_reminder_interval_before_off_title">Desligado</string>
@@ -516,8 +520,26 @@
         <p> Quando você se reconectar, você receberá uma notificação no caso de um evento ocorrer.</p>]]>
     </string>
 
-    <!-- Ad-free -->
-    <string name="purchase_policy"><![CDATA[<b>Vantagens do modo premium:</b>
+    <!-- Rewarded mode -->
+    <string name="rewarded_policy_title">Terms and conditions of Rewarded mode</string>
+    <string name="rewarded_policy"><![CDATA[
+        <p>- start of validity: current time
+        <br>- end of validity: start of validity + at least %1$,d days (depending on ad it can be more)
+        <br>- time manipulation can cause termination of validity</p>
+        <i>After playing video you need to restart the app.</i>
+    ]]></string>
+
+    <string name="rewarded_advantage_banner_title">Block the banner ads</string>
+    <string name="rewarded_advantage_interstitial_title">Block the interstitial ads</string>
+
+    <string name="rewarded_advantage_time_range">Validity</string>
+    <string name="rewarded_advantage_button_play">Play video</string>
+
+    <string name="message_rewarded_error">Failed to load video</string>
+
+    <!-- Premium mode -->
+    <string name="purchase_advantage_title">Vantagens do modo premium</string>
+    <string name="purchase_advantage"><![CDATA[
         <p>- Não tem anúncios
         <br>- Monitoramento de notificações ilimitado
         <br>- Monitoramento do touch ilimitado
@@ -526,8 +548,10 @@
         <br>- Modo DND pode ser usado na função monitorar perda
         <br>- Lembretes repetidos podem ser definidos livremente no menu Monitorar tempo
         <br>- …</p>
-        <b>Termos e condições do modo premium:</b>
-        <p>- Eu testei a aplicação e ela está a funcionar corretamente. Eu estou ciente de que não posso exigir compensação ou reembolso devido a bugs, erros de software causados ​​por alterações no software, ambiente do hardware ou outras aplicações usadas.
+    ]]></string>
+    <string name="purchase_policy_title">Termos e condições do modo premium</string>
+    <string name="purchase_policy"><![CDATA[
+        <p>- Eu testei a aplicação e ela está a funcionar corretamente. Eu estou ciente de que não posso exigir compensação ou reembolso devido a bugs, erros de software causados ​​por alterações no software, ambiente do hardware ou outras aplicações usadas.
         <br>- Todas as vendas são finais e não podem ser reembolsadas (exceto a política de reembolso do Google).
         <br>- Não há garantia incluída.</p>
         <p><i>Depois de comprar, você precisa de reiniciar a aplicação.</i></p>
