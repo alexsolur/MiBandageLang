@@ -12,6 +12,7 @@
     <string name="drawer_nav_pulse">Παρακολούθηση παλμών</string>
     <string name="drawer_nav_time">Παρακολούθηση χρόνου</string>
     <string name="drawer_nav_disconnected_agent">Συμβάν</string>
+    <string name="drawer_nav_rewarded_mode">Rewarded mode</string>
     <string name="drawer_nav_premium_mode">Λειτουργία Premium</string>
     <string name="drawer_nav_feedback">Σχόλια</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
@@ -458,6 +459,9 @@
     <string name="time_timer_alert_bell_title">Κουδούνι</string>
     <string name="time_timer_alert_alarm_title">Ειδοποίηση</string>
 
+    <string name="time_text">Show message</string>
+    <string name="time_text_message">Text</string>
+
     <string name="time_timer_reminder">Σήμα υπενθύμισης, υπολειπόμενος χρόνος</string>
     <string name="time_timer_reminder_interval_before_title">Πρίν την λήξη</string>
     <string name="time_timer_reminder_interval_before_off_title">Ανενεργό</string>
@@ -516,8 +520,26 @@
         <p>Όταν επανασυνδεθεί, θα λάβετε μια ειδοποίηση σε περίπτωση εκδήλωσης συμβάντος.</p>]]>
     </string>
 
-    <!-- Ad-free -->
-    <string name="purchase_policy"><![CDATA[<b>Πλεονεκτήματα premium λειτουργίας:</b>
+    <!-- Rewarded mode -->
+    <string name="rewarded_policy_title">Terms and conditions of Rewarded mode</string>
+    <string name="rewarded_policy"><![CDATA[
+        <p>- start of validity: current time
+        <br>- end of validity: start of validity + at least %1$,d days (depending on ad it can be more)
+        <br>- time manipulation can cause termination of validity</p>
+        <i>After playing video you need to restart the app.</i>
+    ]]></string>
+
+    <string name="rewarded_advantage_banner_title">Block the banner ads</string>
+    <string name="rewarded_advantage_interstitial_title">Block the interstitial ads</string>
+
+    <string name="rewarded_advantage_time_range">Validity</string>
+    <string name="rewarded_advantage_button_play">Play video</string>
+
+    <string name="message_rewarded_error">Failed to load video</string>
+
+    <!-- Premium mode -->
+    <string name="purchase_advantage_title">Πλεονεκτήματα premium λειτουργίας</string>
+    <string name="purchase_advantage"><![CDATA[
         <p>- χωρίς διαφημίσεις
         <br>- απεριόριστη παρακολούθηση ειδοποιήσεων
         <br>- απεριόριστη παρακολούθηση αφής
@@ -526,7 +548,9 @@
         <br>- στην λειτουργία εποπτεία συσκευής μπορεί να χρησιμοποιηθεί η λειτουργία dnd (μην ενοχλείται) και τα διαστήματα επανάληψης μπορούν να ρυθμιστούν ελεύθερα
         <br>- επανειλημμένες υπενθυμίσεις μπορούν να ρυθμιστούν ελεύθερα στην παρακολούθηση χρόνου
         <br>- …</p>
-        <b>Όροι και προϋποθέσεις της premium λειτουργίας:</b>
+    ]]></string>
+    <string name="purchase_policy_title">Όροι και προϋποθέσεις της premium λειτουργίας</string>
+    <string name="purchase_policy"><![CDATA[
         <p>- Δοκίμασα την εφαρμογή και λειτουργεί σωστά.
         <br>- Γνωρίζω ότι δεν μπορώ να απαιτήσω αποζημίωση ή επιστροφή χρημάτων που οφείλονται σε σφάλματα, σφάλματα του λογισμικού που προκαλείται από τις αλλαγές στο λογισμικό, το περιβάλλον υλικού ή χρησιμοποιώντας άλλες εφαρμογές.
         <br>- Όλες οι πωλήσεις είναι τελικές και δεν μπορούν να επιστραφούν (εκτός από την πολιτική επιστροφής της Google).
@@ -577,5 +601,6 @@
         <item quantity="many">%d λεπτά</item>
         <item quantity="other">%d λεπτά</item>
     </plurals>
+
 
 </resources>
