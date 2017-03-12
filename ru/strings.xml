@@ -13,6 +13,7 @@
     <string name="drawer_nav_time">Время</string>
     <string name="drawer_nav_disconnected_agent">Лог действий</string>
     <string name="drawer_nav_premium_mode">Премиум</string>
+    <string name="drawer_nav_rewarded_mode">Rewarded mode</string>
     <string name="drawer_nav_feedback">Обратная связь</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
@@ -458,6 +459,9 @@
     <string name="time_timer_alert_bell_title">Уведомление</string>
     <string name="time_timer_alert_alarm_title">Будильник</string>
 
+    <string name="time_text">Show message</string>
+    <string name="time_text_message">Text</string>
+
     <string name="time_timer_reminder">Переодическое уведомление, оставшееся время</string>
     <string name="time_timer_reminder_interval_before_title">Уведомлять заранее</string>
     <string name="time_timer_reminder_interval_before_off_title">Отключено</string>
@@ -516,8 +520,26 @@
         <p>При восстановлении соединения, вы получите уведомление.</p>]]>
     </string>
 
-    <!-- Ad-free -->
-    <string name="purchase_policy"><![CDATA[<b>Преимущества премиума:</b>
+    <!-- Rewarded mode -->
+    <string name="rewarded_policy_title">Terms and conditions of Rewarded mode</string>
+    <string name="rewarded_policy"><![CDATA[
+        <p>- start of validity: current time
+        <br>- end of validity: start of validity + at least %1$,d days (depending on ad it can be more)
+        <br>- time manipulation can cause termination of validity</p>
+        <i>After playing video you need to restart the app.</i>
+    ]]></string>
+
+    <string name="rewarded_advantage_banner_title">Block the banner ads</string>
+    <string name="rewarded_advantage_interstitial_title">Block the interstitial ads</string>
+
+    <string name="rewarded_advantage_time_range">Validity</string>
+    <string name="rewarded_advantage_button_play">Play video</string>
+
+    <string name="message_rewarded_error">Failed to load video</string>
+
+    <!-- Premium mode -->
+    <string name="purchase_advantage_title">Преимущества премиума</string>
+    <string name="purchase_advantage"><![CDATA[
         <p>- нет рекламы
         <br>- нет ограничения на количество групп уведомлений
         <br>- нет ограничения на контроль касаний
@@ -526,7 +548,9 @@
         <br>- <i>Долго отсоединён</i>: установка промежутка уведомлений по желанию,  активация режима \'Не беспокоить\'
         <br>- <i>Время</i>: установка промежутка уведомлений по желанию
         <br>- …</p>
-        <b>Правила и условия премиума:</b>
+    ]]></string>
+    <string name="purchase_policy_title">Правила и условия премиума</string>
+    <string name="purchase_policy"><![CDATA[
         <p>- Вы протестировали приложение, оно работает правильно.
         <br>- Вы предупреждены, что не можете требовать возмещения средств из-за багов, ошибок приложения, вызванных изменениями в приложении, вашими устройствами или другими приложениями.
         <br>- Все покупки окончательны и возврату не подлежат (кроме возврата от Google Play).
@@ -577,5 +601,6 @@
         <item quantity="many">%d минут</item>
         <item quantity="other">%d минут</item>
     </plurals>
+
 
 </resources>
