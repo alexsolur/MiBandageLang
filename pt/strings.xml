@@ -306,7 +306,7 @@
     <string name="touch_device_location_ringtone_title_no">Nenhum</string>
 
     <string name="touch_call_answer_title">Atender chamadas</string>
-    <string name="touch_call_answer_speakerphone_title">Altavoz</string>
+    <string name="touch_call_answer_speakerphone_title">Alta-voz</string>
 
     <string name="touch_call_end_title">Rejeitar/terminar chamada</string>
 
@@ -370,7 +370,7 @@
     <string name="action_tracker_calorie">Calorias</string>
 
     <string name="step_tab_day">Gráficos diários</string>
-    <string name="step_tab_goal">Objetivos desportivos</string>
+    <string name="step_tab_goal">Objetivos diários</string>
     <string name="step_tab_settings">Definições</string>
 
     <string name="step_title_timing">Temporização</string>
@@ -459,8 +459,8 @@
     <string name="time_timer_alert_bell_title">Sino</string>
     <string name="time_timer_alert_alarm_title">Alarme</string>
 
-    <string name="time_text">Show message</string>
-    <string name="time_text_message">Text</string>
+    <string name="time_text">Mostrar mensagem</string>
+    <string name="time_text_message">Texto</string>
 
     <string name="time_timer_reminder">Lembrete</string>
     <string name="time_timer_reminder_interval_before_title">Intervalo de tempo do lembrete antes do fim (só 1)</string>
@@ -521,21 +521,21 @@
     </string>
 
     <!-- Rewarded mode -->
-    <string name="rewarded_policy_title">Terms and conditions of Rewarded mode</string>
+    <string name="rewarded_policy_title">Termos e condições do Modo recompensa</string>
     <string name="rewarded_policy"><![CDATA[
-        <p>- start of validity: current time
-        <br>- end of validity: start of validity + at least %1$,d days (depending on ad it can be more)
-        <br>- time manipulation can cause termination of validity</p>
-        <i>After playing video you need to restart the app.</i>
+        <p>- Inicio da validade: hora atual
+        <br>- Fim da validade: Inicio da validade + pelo menos %1$,d dias (dependendo dos anúcios isto pode ser mais)
+        <br>- Manipular o tempo pode causar o término da validade</p>
+        <i>Depois de reproduzir o video você precisa de reiniciar a aplicação.</i>
     ]]></string>
 
-    <string name="rewarded_advantage_banner_title">Block the banner ads</string>
-    <string name="rewarded_advantage_interstitial_title">Block the interstitial ads</string>
+    <string name="rewarded_advantage_banner_title">Bloquear banners</string>
+    <string name="rewarded_advantage_interstitial_title">Bloquear anúncios instersticiais</string>
 
-    <string name="rewarded_advantage_time_range">Validity</string>
-    <string name="rewarded_advantage_button_play">Play video</string>
+    <string name="rewarded_advantage_time_range">Validade</string>
+    <string name="rewarded_advantage_button_play">Reproduzir o video</string>
 
-    <string name="message_rewarded_error">Failed to load video</string>
+    <string name="message_rewarded_error">O carregamento do video falhou</string>
 
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Vantagens do modo premium</string>
