@@ -13,6 +13,7 @@
     <string name="drawer_nav_time">Zaman denetimi</string>
     <string name="drawer_nav_disconnected_agent">Ajan</string>
     <string name="drawer_nav_premium_mode">Premium mod</string>
+    <string name="drawer_nav_rewarded_mode">Rewarded mode</string>
     <string name="drawer_nav_feedback">Geri bildirim</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
@@ -198,8 +199,8 @@
 
     <string name="message_notification_free_groups">6 gruba kadar kullanılabilir</string>
 
-    <string name="message_step_goal_free_values">Up to 3 values can be set in normal mode</string>
-    <string name="message_step_goal_max_values">Maximum 10 values can be set</string>
+    <string name="message_step_goal_free_values">Normal modda en fazla 3 değer ayarlanabilir</string>
+    <string name="message_step_goal_max_values">En fazla 10 değer ayarlanabilir</string>
 
     <string name="message_touch_record">Mi Band 2 dokunmatik düğmesini kullanarak deseni kaydedin.</string>
     <string name="message_touch_pattern_error">Belirtilen desen başka bir işlevin bir örneğine benzer, başka bir işlevin bir örneğine benzer</string>
@@ -369,7 +370,7 @@
     <string name="action_tracker_calorie">Kalori</string>
 
     <string name="step_tab_settings">Ayarlar</string>
-    <string name="step_tab_goal">Activity goals</string>
+    <string name="step_tab_goal">Etkinlik hedefleri</string>
     <string name="step_tab_day">Günlük grafikler</string>
 
     <string name="step_title_timing">Zamanlama</string>
@@ -378,7 +379,7 @@
     <string name="step_time_end">Bitiş zamanı</string>
     <string name="step_time_set_next">Sonraki izleme zamanlaması</string>
 
-    <string name="step_goal_type_title">Monitoring value</string>
+    <string name="step_goal_type_title">İzleme değeri</string>
     <string name="step_details">Adım ayrıntıları</string>
 
     <string name="info_dialog_step"><![CDATA[Bluetooth connection is required for monitoring the steps.
@@ -458,6 +459,9 @@
     <string name="time_timer_alert_bell_title">Zil</string>
     <string name="time_timer_alert_alarm_title">Alarm</string>
 
+    <string name="time_text">Show message</string>
+    <string name="time_text_message">Text</string>
+
     <string name="time_timer_reminder">Hatırlatma uyarısı, kalan süre</string>
     <string name="time_timer_reminder_interval_before_title">Zamanından önce</string>
     <string name="time_timer_reminder_interval_before_off_title">Durdur</string>
@@ -516,8 +520,26 @@
          <p>Yeniden bağladığınızda, bir olay meydana geldiğinde bir bildirim gönderilecektir.</p>]]>
     </string>
 
-    <!-- Ad-free -->
-    <string name="purchase_policy"><![CDATA[<b>Premium mod avantajları:</b>
+    <!-- Rewarded mode -->
+    <string name="rewarded_policy_title">Terms and conditions of Rewarded mode</string>
+    <string name="rewarded_policy"><![CDATA[
+        <p>- start of validity: current time
+        <br>- end of validity: start of validity + at least %1$,d days (depending on ad it can be more)
+        <br>- time manipulation can cause termination of validity</p>
+        <i>After playing video you need to restart the app.</i>
+    ]]></string>
+
+    <string name="rewarded_advantage_banner_title">Block the banner ads</string>
+    <string name="rewarded_advantage_interstitial_title">Block the interstitial ads</string>
+
+    <string name="rewarded_advantage_time_range">Validity</string>
+    <string name="rewarded_advantage_button_play">Play video</string>
+
+    <string name="message_rewarded_error">Failed to load video</string>
+
+    <!-- Premium mode -->
+    <string name="purchase_advantage_title">Premium mod avantajları</string>
+    <string name="purchase_advantage"><![CDATA[
          <p>- reklamsız
          <br>- sınırsız bildirim izleme
          <br>- sınırsız dokunmatik izleme
@@ -526,7 +548,9 @@
          <br>- tekrarlama aralığı serbestçe ayarlanabilir ve dnd modu kayıp izleme işlevinde kullanılabilir
          <br>- tekrarlanan hatırlatıcılar zamanında izleme özgürlüğüne ayarlanabilir
          <br>- …</p>
-         <b>Premium modu şartları ve koşulları:</b>
+    ]]></string>
+    <string name="purchase_policy_title">Premium modu şartları ve koşulları</string>
+    <string name="purchase_policy"><![CDATA[
          <p>- Uygulamayı test ettim ve düzgün çalışıyor.
          <br>- Hatalar, yazılım değişiklikleri, donanım ortamı veya diğer uygulamaların neden olduğu yazılım hataları yüzünden tazminat veya geri ödeme talep edemeyeceğimden haberim var.
          <br>- Bütün satışlar nihaidir ve geri ödeme yapılamaz (Google geri ödeme politikası hariç).
@@ -535,8 +559,8 @@
     ]]></string>
 
     <string name="purchase_agree">Hükümlere ve koşullara katılıyorum.</string>
-    <string name="purchase_order_id">Order ID</string>
-    <string name="purchase_order_id_help">Copy from https://play.google.com/store/account</string>
+    <string name="purchase_order_id">Sipariş Kimliği</string>
+    <string name="purchase_order_id_help">Kopyala https://play.google.com/store/account</string>
     <string name="purchase_button_purchase">Satın alma</string>
 
     <!-- Feedback -->
@@ -577,5 +601,6 @@
         <item quantity="many">%d dakika</item>
         <item quantity="other">%d dakika</item>
     </plurals>
+
 
 </resources>
