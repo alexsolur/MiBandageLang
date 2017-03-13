@@ -1,1 +1,67 @@
+Questa app supporta solo Xiaomi Mi Band 2.
 
+Mi Bandage richiede l'installazione dell'app ufficiale Mi Fit sullo stesso dispositivo. Come prima cosa dovrai eseguire l'accoppiamento della Xiaomi Mi Band 2 dall'app Mi Fit, dopo potrai usare Mi Bandage.
+
+<b>Utenti MIUI: se la Mi Band 2 non viene trovata o ci sono problemi di sincronizzazione con l'app Mi Fit, provate a installate BToolkit, nRF Connect o app simili per la gestione bluetooth e rimuovete ogni dispositivo accoppiato.</b>
+
+Funzioni:
+- accoppiamento Mi Band 2 (Se avete problemi con la funzione sblocca schermo di Mi fit)
+- mostra stato batteria
+- mostra tempo ultima connessione
+- mostra tempo ultima disconnessione
+- <b>chiamate ricevute con visualizzazione chiamate e con conversione automatica dei caratteri su Mi Band 2</b>
+- <b>chiamate perse con visualizzazione chiamante su Mi Band 2</b>
+- <b>visualizza i testi delle notifiche su Mi Band 2</b>
+- <b>funzioni connettività Mi Band 2:</b>
+&rarr; non hai notifiche
+ &#8226; Mi Band 2 vibra
+ &#8226; lo schermo del dispositivo si accende
+&rarr; hai notifiche
+ &#8226; Mi Band 2 vibra e mostra l'icona 1,2,3 volte, in base al numero di notifiche, una per ogni icona Mi Band 2
+ &#8226; segnala immediatamente quando ricevi una notifica
+ &#8226; quando collegato al dispositivo
+ &#8226; ripeti notifica dopo un intervallo predefinito
+ &#8226; nofica solo a schermo spento
+ &#8226; le notifiche in corso sono attivate o disattivate
+ &#8226; Accensione schermo
+- <b>funzioni alla disconnessione Mi Band 2:</b>
+ &#8226; riproduci suoneria sul dispositivo, vibra e accendi lo schermo
+ &#8226; monitor eventi sul dispositivo: Se qualcuno usa il tuo dispositivo quando non ci sei, lo saprai (accensione dello schermo, accensione, movimento): notifica sul dispositivo e l'icona di un occhio sulla Mi Band 2
+- <b>monitoraggio notifiche:</b>
+ &#8226; configura un segnale per le notifiche delle app
+ &#8226; mostra il testo delle notifiche sulla Mi Band 2
+- <b>monitoraggio tocco (usa il tasto della Mi Band 2):</b>
+ &#8226; risposta alle chiamate, tramite cassa smartphone (disattiva l'avvio del lettore musicale al collegamento delle cuffie altrimenti  si avvierà la musica) (non tutti i dispositivi sono supportati)
+ &#8226; rifiuta, chiudi chiamate (non tutti i dispositivi sono supportati)
+ &#8226; attiva muto nelle chiamate
+ &#8226; trova dispositivo
+ &#8226; ripeti notifiche
+ &#8226; controllo musica (riproduci, pausa, manda avanti/indietro, alza/abbassa volume)
+ &#8226; avvia timer/cronometro, mostra tempo trascorso/rimanente
+ &#8226; avvia app
+ &#8226; lancia task di Tasker
+- <b>monitoraggio passi:</b>
+  &#8226; grafico giornaliero: mostra i valori misurati
+- <b>monitoraggio battiti:</b>
+ &#8226; puoi settare: segnale di avvio monitoraggio, mostra battiti, pulsazioni basse e alte, ora inizio, ora fine, intervallo ripetizione, valore valido più basso, valore valido più alto
+ &#8226; mostra battiti correnti
+ &#8226; grafico giornaliero: mostra valori misurati
+- <b>monitor tempo:</b>
+ &#8226; timer: tipo di allarme, promemoria, visualizza tempo rimanente sulla Mi Band 2
+ &#8226; cronometro: tipo di allarme, promemoria, visualizza tempo trascorso, registra tempo su giro, visualizza tempo su giro su Mi Band 2
+- <b>monitoraggio smarrimento:</b>
+ &#8226; notifiche Mi Band 2 : quando passa un determinato periodo di tempo Mi Band 2 ti avviserà
+ &#8226; notifica su dispositivo: quando passa un determinato periodo di tempo, il dispositivo manderà continuamente notifiche fino alla riconnessione col braccialetto. Questo renderà più semplice trovare il dispositivo. Se qualcuno trova il dispositivo ed è bloccato non può sapere a chi dirlo, quindi puoi far uscire un messaggio.
+- <b>log eventi:</b> 
+ &#8226; visualizza eventi rilevati dal monitoraggio eventi dispositivo
+
+
+Lingue (se ti piace tradurre in altre lingue, contattami via email):
+Hungarian
+English
+Italiano (tradotto da Francesco Caronte)
+Russian (tradotto da Александр Солоцкий - http://4pda.ru/forum/index.php?showtopic=783175)
+Portuguese (tradotto da Bruno Lopes)
+Turkish (tradotto da Fatih GÜL)
+Greek (tradotto da Alexandros Apostolidis)
+Vietnamese (tradotto da Anh Việt - https://fb.com/groups/miband2vn )
