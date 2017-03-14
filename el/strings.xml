@@ -12,7 +12,7 @@
     <string name="drawer_nav_pulse">Παρακολούθηση παλμών</string>
     <string name="drawer_nav_time">Παρακολούθηση χρόνου</string>
     <string name="drawer_nav_disconnected_agent">Συμβάν</string>
-    <string name="drawer_nav_rewarded_mode">Rewarded mode</string>
+    <string name="drawer_nav_rewarded_mode">Ανταμειβόμενη λειτουργία</string>
     <string name="drawer_nav_premium_mode">Λειτουργία Premium</string>
     <string name="drawer_nav_feedback">Σχόλια</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
@@ -459,8 +459,8 @@
     <string name="time_timer_alert_bell_title">Κουδούνι</string>
     <string name="time_timer_alert_alarm_title">Ειδοποίηση</string>
 
-    <string name="time_text">Show message</string>
-    <string name="time_text_message">Text</string>
+    <string name="time_text">Εμφάνιση ειδοποίησης</string>
+    <string name="time_text_message">Μήνυμα</string>
 
     <string name="time_timer_reminder">Σήμα υπενθύμισης, υπολειπόμενος χρόνος</string>
     <string name="time_timer_reminder_interval_before_title">Πρίν την λήξη</string>
@@ -521,21 +521,21 @@
     </string>
 
     <!-- Rewarded mode -->
-    <string name="rewarded_policy_title">Terms and conditions of Rewarded mode</string>
+    <string name="rewarded_policy_title">Όροι και προϋποθέσεις της Ανταμειβόμενης λειτουργίας</string>
     <string name="rewarded_policy"><![CDATA[
-        <p>- start of validity: current time
-        <br>- end of validity: start of validity + at least %1$,d days (depending on ad it can be more)
-        <br>- time manipulation can cause termination of validity</p>
-        <i>After playing video you need to restart the app.</i>
+        <p>- έναρξη ισχύος: τρέχουσα ώρα
+        <br>-λήξης ισχύος: έναρξη ισχύος + τουλάχιστον %1$,d μέρες (ανάλογα με τη διαφήμιση μπορεί να είναι περισσότερο)
+        <br>- η χειραγώγηση του χρόνου μπορεί να προκαλέσει τον τερματισμό της ισχύος</p>
+        <i>Μετά την αναπαραγωγή του βίντεο θα πρέπει να επανεκκινήσετε την εφαρμογή.</i>
     ]]></string>
 
-    <string name="rewarded_advantage_banner_title">Block the banner ads</string>
-    <string name="rewarded_advantage_interstitial_title">Block the interstitial ads</string>
+    <string name="rewarded_advantage_banner_title">Αποκλεισμός διαφημίσεων του banner</string>
+    <string name="rewarded_advantage_interstitial_title">Αποκλεισμός τις διάμεση διαφημίσεις</string>
 
-    <string name="rewarded_advantage_time_range">Validity</string>
-    <string name="rewarded_advantage_button_play">Play video</string>
+    <string name="rewarded_advantage_time_range">Εγκυρότητα</string>
+    <string name="rewarded_advantage_button_play">Αναπαραγωγή βίντεο</string>
 
-    <string name="message_rewarded_error">Failed to load video</string>
+    <string name="message_rewarded_error">Αποτυχία φόρτωσης βίντεο</string>
 
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Πλεονεκτήματα premium λειτουργίας</string>
