@@ -12,7 +12,7 @@
     <string name="drawer_nav_pulse">Giám sát nhịp tim</string>
     <string name="drawer_nav_time">Giám sát thời gian</string>
     <string name="drawer_nav_disconnected_agent">Nhật ký</string>
-    <string name="drawer_nav_rewarded_mode">Rewarded mode</string>
+    <string name="drawer_nav_rewarded_mode">Chế độ thưởng</string>
     <string name="drawer_nav_premium_mode">Phiên bản nâng cấp</string>
     <string name="drawer_nav_feedback">Phản hồi</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
@@ -211,6 +211,11 @@
     <string name="message_touch_tasker_launcher1_not_set">Tasker task is not set</string>
 
     <string name="message_internet_error">Không có mạng</string>
+
+    <string name="message_time_alarm_free_counter">Up to 2 alarm can be used in normal mode</string>
+    <string name="message_time_alarm_max_counter">Maximum 5 alarms can be used</string>
+    <string name="message_time_alarm_enabled">Alarm enabled</string>
+    <string name="message_time_alarm_disabled">Alarm disabled</string>
 
     <string name="message_alarm_free_interval">Khoảng thời gian lặp lại nhỏ hơn có thể được cài đặt chỉ trong bản nâng cấp</string>
     <string name="message_alarm_mi_band_set_failed">Cài đặt báo thức thất bại</string>
@@ -429,7 +434,7 @@
     <string name="alarm_mi_band_on_bluetooth_disabled_text">Lost monitoring Mi Band 2 signal is enabled.</string>
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm time: %1$s</string>
 
-    <string name="info_dialog_alarm"><![CDATA[<img src="ic_alarm"> <b><u>Tín hiệu Mi Band 2</u></b>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Tín hiệu Mi Band 2</u></b>
         <p>When specified period of time expires, Mi Band 2 send signals if not connected to the device.</p>
         <p>App uses alarm function of Mi Fit to alert (overwrite 10. setting).</p>
         <p>The alarm will be repeated several times if the Mi Band 2 do not detect any movement (because it uses the factory alarm).</p>
@@ -444,24 +449,24 @@
     </string>
 
     <!-- Time  monitoring -->
+    <string name="time_tab_alarm">Alarm</string>
     <string name="time_tab_timer">Hẹn giờ</string>
     <string name="time_tab_stopper">Đồng hố bấm giờ</string>
     <string name="time_tab_lap">Vòng thời gian</string>
 
+    <string name="action_alarm_device">Factory alarm</string>
+    <string name="time_alarm_title">Title</string>
+    <string name="time_alarm_pre_alarm">Tín hiệu nhắc nhở, thời gian còn lại</string>
+    <string name="time_alarm_pre_alarm_interval_title">Trước thời gian</string>
+    <string name="time_alarm_pre_alarm_type_vibrate_title">Rung</string>
+    <string name="time_alarm_pre_alarm_type_remaining_title">Thời gian còn lại</string>
+
     <string name="time_timer_time_alert">Thời gian báo</string>
     <string name="time_timer_time_remaining">Thời gian còn lại</string>
 
-    <string name="time_timer_mode">Hẹn giờ</string>
     <string name="time_timer_mode_timer_title">Thời điểm</string>
     <string name="time_timer_mode_time_title">Thời gian</string>
 
-    <string name="time_timer_alert">Kiểu báo thức</string>
-    <string name="time_timer_alert_bell_title">Bell</string>
-    <string name="time_timer_alert_alarm_title">Báo thức</string>
-
-    <string name="time_text">Show message</string>
-    <string name="time_text_message">Text</string>
-    
     <string name="time_timer_reminder">Tín hiệu nhắc nhở, thời gian còn lại</string>
     <string name="time_timer_reminder_interval_before_title">Trước thời gian</string>
     <string name="time_timer_reminder_interval_before_off_title">Tắt</string>
@@ -470,13 +475,8 @@
     <string name="time_stopper_time_alert">Thời gian báo</string>
     <string name="time_stopper_time_elapsed">Thời gian trôi qua</string>
 
-    <string name="time_stopper_mode">Đồng hố bấm giờ</string>
     <string name="time_stopper_mode_timer_title">Thời điểm</string>
     <string name="time_stopper_mode_time_title">Thời gian</string>
-
-    <string name="time_stopper_alert">Kiểu báo thức</string>
-    <string name="time_stopper_alert_bell_title">Chuông</string>
-    <string name="time_stopper_alert_alarm_title">Báo thức</string>
 
     <string name="time_stopper_reminder">Tín hiệu nhắc nhở, thời gian trôi qua</string>
     <string name="time_stopper_reminder_interval_before_title">Trước thời gian</string>
@@ -492,10 +492,21 @@
 
     <string name="time_lap_details">Chi tiết vòng thời gian</string>
 
-    <string name="info_dialog_time"><![CDATA[<img src="ic_miband_bell"> <b><u>Bell</u></b>
+    <string name="time_alert">Kiểu báo thức</string>
+    <string name="time_alert_bell_title">Chuông</string>
+    <string name="time_alert_alarm_title">Báo thức</string>
+
+    <string name="time_text">Hiển thị tin nhắn</string>
+    <string name="time_text_message">Văn bản</string>
+
+    <string name="time_enable_bluetooth">Turn on Bluetooth</string>
+
+    <string name="info_dialog_time"><![CDATA[
+        <p><b>Turn off the alarm, timer and stopwatch before the application is removed.</b></p>
+        <img src="ic_miband_bell"> <b><u>Bell</u></b>
         <p>Bluetooth connection is required for alarm, it alarms just only once for 10 seconds.</p>
-        <img src="ic_access_time"> <b><u>Alarm</u></b>
-        <p>Bluetooth connection is not required for alarm, app uses alarm function of Mi Fit to alert (overwrite 9. setting).
+        <img src="ic_alarm"> <b><u>Alarm</u></b>
+        <p>Bluetooth connection is not required for alarm, app uses alarm function of Mi Fit to alert (overwrite 4. - 9. setting).
         <br>The alarm will be repeated several times if the Mi Band 2 do not detect any movement (because it uses the factory alarm).</p>
         <p>Reminder signal requires Bluetooth connection.</p>
     ]]></string>
@@ -521,33 +532,33 @@
     </string>
 
     <!-- Rewarded mode -->
-    <string name="rewarded_policy_title">Terms and conditions of Rewarded mode</string>
+    <string name="rewarded_policy_title">Các điều khoản và điều kiện của Chế độ thưởng</string>
     <string name="rewarded_policy"><![CDATA[
-        <p>- start of validity: current time
-        <br>- end of validity: start of validity + at least %1$,d days (depending on ad it can be more)
-        <br>- time manipulation can cause termination of validity</p>
-        <i>After playing video you need to restart the app.</i>
+        <p>- Bắt đầu có hiệu lực từ: thời gian hiện tại
+        <br>- Kết thúc hiệu lực: từ lúc bắt đầu có hiệu lực + ít nhất %1$,d days (Tùy thuộc vào quảng cáo nó có thể lâu hơn)
+        <br>- Thao tác can thiệp thời gian có thể gây ra chấm dứt hiệu lực</p>
+        <i>Sau khi xem video bạn cần phải khởi động lại ứng dụng.</i>
     ]]></string>
 
-    <string name="rewarded_advantage_banner_title">Block the banner ads</string>
-    <string name="rewarded_advantage_interstitial_title">Block the interstitial ads</string>
+    <string name="rewarded_advantage_banner_title">Chặn quảng cáo biểu ngữ</string>
+    <string name="rewarded_advantage_interstitial_title">Chặn quảng cáo xen kẽ</string>
 
-    <string name="rewarded_advantage_time_range">Validity</string>
-    <string name="rewarded_advantage_button_play">Play video</string>
+    <string name="rewarded_advantage_time_range">Tính hợp lệ</string>
+    <string name="rewarded_advantage_button_play">Xem video</string>
 
-    <string name="message_rewarded_error">Failed to load video</string>
+    <string name="message_rewarded_error">Không tải được video</string>
 
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Premium mode advantages</string>
     <string name="purchase_advantage"><![CDATA[
-        <p>- ad-free
+        - ad-free
         <br>- unlimited notification monitoring
         <br>- unlimited touch monitoring
         <br>- text prefix can be used in notification monitoring
         <br>- repeat interval can be set freely and show pulse can be used in pulse monitoring function
         <br>- repeat interval can be set freely and dnd mode can be used in lost monitoring function
         <br>- repeated reminders can be set freely in time monitoring
-        <br>- …</p>
+        <br>- …
     ]]></string>
     <string name="purchase_policy_title">Terms and conditions of Premium mode</string>
     <string name="purchase_policy"><![CDATA[
@@ -560,13 +571,21 @@
 
     <string name="purchase_agree">Tôi đồng ý với các Điều khoản và Điều kiện.</string>
     <string name="purchase_order_id">ID đơn hàng</string>
-    <string name="purchase_order_id_help">Sao chép từ https://play.google.com/store/account</string>
+    <string name="purchase_order_id_help">Sao chép từ:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
     <string name="purchase_button_purchase">Mua</string>
 
     <!-- Feedback -->
     <string name="feedback_google_play_title">Đánh giá ứng dụng này</string>
     <string name="feedback_request_feature_title">Yêu cầu tính năng</string>
     <string name="feedback_request_feature_summary">Xử lý e-mail tự động, bạn sẽ không nhận được phản hồi</string>
+
+    <!-- Vibration dialog -->
+    <string name="vibration_title">Vibration setting</string>
+    <string name="vibration_intensity">Intensity</string>
+    <string name="vibration_pause">Pause</string>
+    <string name="vibration_times">Times</string>
 
     <!-- Hack -->
     <string name="info_dialog_hack"><![CDATA[Hack tool detected on device.
@@ -592,6 +611,7 @@
     <string name="const_time_abbreviation_hour">h</string>
     <string name="const_time_abbreviation_minute">m</string>
     <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
 
     <plurals name="plural_time_minute">
         <item quantity="zero">%d phút</item>
@@ -601,6 +621,5 @@
         <item quantity="many">%d phút</item>
         <item quantity="other">%d phút</item>
     </plurals>
-
 
 </resources>
