@@ -212,6 +212,11 @@
 
     <string name="message_internet_error">Δεν υπάρχει σύνδεση στο internet</string>
 
+    <string name="message_time_alarm_free_counter">Up to 2 alarm can be used in normal mode</string>
+    <string name="message_time_alarm_max_counter">Maximum 5 alarms can be used</string>
+    <string name="message_time_alarm_enabled">Alarm enabled</string>
+    <string name="message_time_alarm_disabled">Alarm disabled</string>
+
     <string name="message_alarm_free_interval">Επανάληψης μικρότερου χρονικού διαστήματος μπορούν να ρυθμιστούν μόνο σε λειτουργία premium</string>
     <string name="message_alarm_mi_band_set_failed">Η ρύθμιση της ειδοποίησης απέτυχε</string>
     <string name="message_alarm_mi_band_clear_failed">Τη διαγραφή της ειδοποίησης απέτυχε</string>
@@ -429,7 +434,7 @@
     <string name="alarm_mi_band_on_bluetooth_disabled_text">Το σήμα της εποπτείας συσκευής Mi Band 2 είναι ενεργό.</string>
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Χρόνος ειδοποίησης: %1$s</string>
 
-    <string name="info_dialog_alarm"><![CDATA[<img src="ic_alarm"> <b><u>Σήμα Mi Band 2</u></b>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Σήμα Mi Band 2</u></b>
         <p> Όταν λήξει καθορισμένο χρονικό διάστημα η συσκευή αν δεν είναι συνδεδεμένη, το Mi Band 2 στέλνει ένα σήμα.</p>
         <p>Η εφαρμογή χρησιμοποιεί τη λειτουργία συναγερμού του Mi Fit να ειδοποιεί (αντικαταστήσετε 10. ρύθμιση).</p>
         <p>Η ειδοποίηση θα επαναληφθεί αρκετές φορές αν το Mi Band 2 δεν ανιχνεύσει οποιαδήποτε κίνηση (επειδή χρησιμοποιεί την εργοστασιακή ειδοποίηση).</p>
@@ -444,23 +449,23 @@
     </string>
 
     <!-- Time  monitoring -->
+    <string name="time_tab_alarm">Alarm</string>
     <string name="time_tab_timer">Αντίστροφή μέτρηση</string>
     <string name="time_tab_stopper">Χρονόμετρο</string>
     <string name="time_tab_lap">Χρόνος γύρου</string>
 
+    <string name="action_alarm_device">Factory alarm</string>
+    <string name="time_alarm_title">Title</string>
+    <string name="time_alarm_pre_alarm">Σήμα υπενθύμισης, υπολειπόμενος χρόνος</string>
+    <string name="time_alarm_pre_alarm_interval_title">Πρίν την λήξη</string>
+    <string name="time_alarm_pre_alarm_type_vibrate_title">Δόνηση</string>
+    <string name="time_alarm_pre_alarm_type_remaining_title">Υπολειπόμενος χρόνος</string>
+
     <string name="time_timer_time_alert">Τύπος ειδοποίησης</string>
     <string name="time_timer_time_remaining">Υπολειπόμενος χρόνος</string>
 
-    <string name="time_timer_mode">Αντίστροφή μέτρηση</string>
     <string name="time_timer_mode_timer_title">Χρονομέτρηση</string>
     <string name="time_timer_mode_time_title">Ώρα</string>
-
-    <string name="time_timer_alert">Τύπος ειδοποίησης</string>
-    <string name="time_timer_alert_bell_title">Κουδούνι</string>
-    <string name="time_timer_alert_alarm_title">Ειδοποίηση</string>
-
-    <string name="time_text">Εμφάνιση ειδοποίησης</string>
-    <string name="time_text_message">Μήνυμα</string>
 
     <string name="time_timer_reminder">Σήμα υπενθύμισης, υπολειπόμενος χρόνος</string>
     <string name="time_timer_reminder_interval_before_title">Πρίν την λήξη</string>
@@ -470,13 +475,8 @@
     <string name="time_stopper_time_alert">Τύπος ειδοποίησης</string>
     <string name="time_stopper_time_elapsed">Υπολειπόμενος χρόνος</string>
 
-    <string name="time_stopper_mode">Χρονόμετρο</string>
     <string name="time_stopper_mode_timer_title">Χρονομέτρηση</string>
     <string name="time_stopper_mode_time_title">Ώρα</string>
-
-    <string name="time_stopper_alert">Τύπος ειδοποίησης</string>
-    <string name="time_stopper_alert_bell_title">Κουδούνι</string>
-    <string name="time_stopper_alert_alarm_title">Ειδοποίηση</string>
 
     <string name="time_stopper_reminder">Σήμα υπενθύμισης, υπολειπόμενος χρόνος</string>
     <string name="time_stopper_reminder_interval_before_title">Πρίν την λήξη</string>
@@ -492,10 +492,21 @@
 
     <string name="time_lap_details">Λεπτομέρειες χρόνος γύρου</string>
 
-    <string name="info_dialog_time"><![CDATA[<img src="ic_miband_bell"> <b><u>Κουδούνι</u></b>
+    <string name="time_alert">Τύπος ειδοποίησης</string>
+    <string name="time_alert_bell_title">Κουδούνι</string>
+    <string name="time_alert_alarm_title">Ειδοποίηση</string>
+
+    <string name="time_text">Εμφάνιση ειδοποίησης</string>
+    <string name="time_text_message">Μήνυμα</string>
+
+    <string name="time_enable_bluetooth">Turn on Bluetooth</string>
+
+    <string name="info_dialog_time"><![CDATA[
+        <p><b>Turn off the alarm, timer and stopwatch before the application is removed.</b></p>
+        <img src="ic_miband_bell"> <b><u>Κουδούνι</u></b>
         <p>Σύνδεση Bluetooth είναι απαραίτητη το κουδούνι χτυπάει απλά μόνο μία φορά για 10 δευτερόλεπτα.</p>
-        <img src="ic_access_time"> <b><u>Ειδοποίηση</u></b>
-        <p>Σύνδεση Bluetooth δεν απαιτείται για την ειδοποίηση, η εφαρμογή χρησιμοποιεί την λειτουργία του Mi Fit για την ειδοποίηση (αντικαταστήσετε 9. ρύθμιση).
+        <img src="ic_alarm"> <b><u>Ειδοποίηση</u></b>
+        <p>Σύνδεση Bluetooth δεν απαιτείται για την ειδοποίηση, η εφαρμογή χρησιμοποιεί την λειτουργία του Mi Fit για την ειδοποίηση (αντικαταστήσετε 4. - 9. ρύθμιση).
         <br>Η ειδοποίηση θα επαναληφθεί αρκετές φορές αν το Mi Band 2 δεν ανιχνεύσει οποιαδήποτε κίνηση (επειδή χρησιμοποιεί την εργοστασιακή ειδοποίηση).</p>
         <p>Το σήμα υπενθύμισης απαιτεί σύνδεση Bluetooth.</p>
     ]]></string>
@@ -540,14 +551,14 @@
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Πλεονεκτήματα premium λειτουργίας</string>
     <string name="purchase_advantage"><![CDATA[
-        <p>- χωρίς διαφημίσεις
+        - χωρίς διαφημίσεις
         <br>- απεριόριστη παρακολούθηση ειδοποιήσεων
         <br>- απεριόριστη παρακολούθηση αφής
         <br>- πρόθεμα κειμένου μπορεί να χρησιμοποιηθεί στην παρακολούθηση ειδοποιήσεων
         <br>- στην λειτουργία παλμού τα διαστήματα επανάληψης παλμού μπορούν να ρυθμιστούν ελεύθερα
         <br>- στην λειτουργία εποπτεία συσκευής μπορεί να χρησιμοποιηθεί η λειτουργία dnd (μην ενοχλείται) και τα διαστήματα επανάληψης μπορούν να ρυθμιστούν ελεύθερα
         <br>- επανειλημμένες υπενθυμίσεις μπορούν να ρυθμιστούν ελεύθερα στην παρακολούθηση χρόνου
-        <br>- …</p>
+        <br>- …
     ]]></string>
     <string name="purchase_policy_title">Όροι και προϋποθέσεις της premium λειτουργίας</string>
     <string name="purchase_policy"><![CDATA[
@@ -560,13 +571,21 @@
 
     <string name="purchase_agree">Συμφωνώ με τους όρους και τις προυποθέσεις.</string>
     <string name="purchase_order_id">Αριθμός παραγγελίας</string>
-    <string name="purchase_order_id_help">Αντιγραφή από https://play.google.com/store/account</string>
+    <string name="purchase_order_id_help">Αντιγραφή από:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
     <string name="purchase_button_purchase">Αγορά</string>
 
     <!-- Feedback -->
     <string name="feedback_google_play_title">Βαθμολόγησε αυτήν την εφαρμογή</string>
     <string name="feedback_request_feature_title">Ζητήστε κάποιο χαρακτηριστικό</string>
     <string name="feedback_request_feature_summary">Αυτόματη διαδικασία αποστολής e-mail, δεν θα πάρετε καμία απάντηση</string>
+
+    <!-- Vibration dialog -->
+    <string name="vibration_title">Vibration setting</string>
+    <string name="vibration_intensity">Intensity</string>
+    <string name="vibration_pause">Pause</string>
+    <string name="vibration_times">Times</string>
 
     <!-- Hack -->
     <string name="info_dialog_hack"><![CDATA[Ανιχνεύτηκε αμυχές εργαλείο(Hack tool) στην συσκευή.
@@ -592,6 +611,7 @@
     <string name="const_time_abbreviation_hour">ω</string>
     <string name="const_time_abbreviation_minute">λ</string>
     <string name="const_time_abbreviation_sec">δ</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
 
     <plurals name="plural_time_minute">
         <item quantity="zero">%d λεπ</item>
@@ -601,6 +621,5 @@
         <item quantity="many">%d λεπτά</item>
         <item quantity="other">%d λεπτά</item>
     </plurals>
-
 
 </resources>
