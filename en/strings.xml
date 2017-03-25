@@ -212,6 +212,11 @@
 
     <string name="message_internet_error">No have internet connection</string>
 
+    <string name="message_time_alarm_free_counter">Up to 2 alarm can be used in normal mode</string>
+    <string name="message_time_alarm_max_counter">Maximum 5 alarms can be used</string>
+    <string name="message_time_alarm_enabled">Alarm enabled</string>
+    <string name="message_time_alarm_disabled">Alarm disabled</string>
+
     <string name="message_alarm_free_interval">Smaller repeat interval can be set only in premium mode</string>
     <string name="message_alarm_mi_band_set_failed">Setting the alarm failed</string>
     <string name="message_alarm_mi_band_clear_failed">Clearing the alarm failed</string>
@@ -429,7 +434,7 @@
     <string name="alarm_mi_band_on_bluetooth_disabled_text">Lost monitoring Mi Band 2 signal is enabled.</string>
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm time: %1$s</string>
 
-    <string name="info_dialog_alarm"><![CDATA[<img src="ic_alarm"> <b><u>Mi Band 2 signal</u></b>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>Mi Band 2 signal</u></b>
         <p>When specified period of time expires, Mi Band 2 send signals if not connected to the device.</p>
         <p>App uses alarm function of Mi Fit to alert (overwrite 10. setting).</p>
         <p>The alarm will be repeated several times if the Mi Band 2 do not detect any movement (because it uses the factory alarm).</p>
@@ -444,23 +449,23 @@
     </string>
 
     <!-- Time  monitoring -->
+    <string name="time_tab_alarm">Alarm</string>
     <string name="time_tab_timer">Timer</string>
     <string name="time_tab_stopper">Stopwatch</string>
     <string name="time_tab_lap">Lap time</string>
 
+    <string name="action_alarm_device">Factory alarm</string>
+    <string name="time_alarm_title">Title</string>
+    <string name="time_alarm_pre_alarm">Reminder signal, remaining time</string>
+    <string name="time_alarm_pre_alarm_interval_title">Before time</string>
+    <string name="time_alarm_pre_alarm_type_vibrate_title">Vibration</string>
+    <string name="time_alarm_pre_alarm_type_remaining_title">Remaining time</string>
+
     <string name="time_timer_time_alert">Alarm time</string>
     <string name="time_timer_time_remaining">Remaining time</string>
 
-    <string name="time_timer_mode">Timer</string>
     <string name="time_timer_mode_timer_title">Timing</string>
     <string name="time_timer_mode_time_title">Time</string>
-
-    <string name="time_timer_alert">Alarm type</string>
-    <string name="time_timer_alert_bell_title">Bell</string>
-    <string name="time_timer_alert_alarm_title">Alarm</string>
-
-    <string name="time_text">Show message</string>
-    <string name="time_text_message">Text</string>
 
     <string name="time_timer_reminder">Reminder signal, remaining time</string>
     <string name="time_timer_reminder_interval_before_title">Before time</string>
@@ -470,13 +475,8 @@
     <string name="time_stopper_time_alert">Alarm time</string>
     <string name="time_stopper_time_elapsed">Elapsed time</string>
 
-    <string name="time_stopper_mode">Stopwatch</string>
     <string name="time_stopper_mode_timer_title">Timing</string>
     <string name="time_stopper_mode_time_title">Time</string>
-
-    <string name="time_stopper_alert">Alarm type</string>
-    <string name="time_stopper_alert_bell_title">Bell</string>
-    <string name="time_stopper_alert_alarm_title">Alarm</string>
 
     <string name="time_stopper_reminder">Reminder signal, elapsed time</string>
     <string name="time_stopper_reminder_interval_before_title">Before time</string>
@@ -492,12 +492,23 @@
 
     <string name="time_lap_details">Lap time details</string>
 
-    <string name="info_dialog_time"><![CDATA[<img src="ic_miband_bell"> <b><u>Bell</u></b>
+    <string name="time_alert">Alarm type</string>
+    <string name="time_alert_bell_title">Bell</string>
+    <string name="time_alert_alarm_title">Alarm</string>
+
+    <string name="time_text">Show message</string>
+    <string name="time_text_message">Text</string>
+
+    <string name="time_enable_bluetooth">Turn on Bluetooth</string>
+
+    <string name="info_dialog_time"><![CDATA[
+        <p><b>Turn off the alarm, timer and stopwatch before the application is removed.</b></p>
+        <img src="ic_miband_bell"> <b><u>Bell</u></b>
         <p>Bluetooth connection is required for alarm, it alarms just only once for 10 seconds.</p>
-        <img src="ic_access_time"> <b><u>Alarm</u></b>
-        <p>Bluetooth connection is not required for alarm, app uses alarm function of Mi Fit to alert (overwrite 9. setting).
+        <img src="ic_alarm"> <b><u>Alarm</u></b>
+        <p>Bluetooth connection is not required for alarm, app uses alarm function of Mi Fit to alert (overwrite 4. - 9. setting).
         <br>The alarm will be repeated several times if the Mi Band 2 do not detect any movement (because it uses the factory alarm).</p>
-        <p>Reminder signal requires Bluetooth connection.</p>
+        <p>Reminder signal and showing message require Bluetooth connection.</p>
     ]]></string>
 
     <!-- Agent -->
@@ -540,14 +551,14 @@
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Premium mode advantages</string>
     <string name="purchase_advantage"><![CDATA[
-        <p>- ad-free
+        - ad-free
         <br>- unlimited notification monitoring
         <br>- unlimited touch monitoring
         <br>- text prefix can be used in notification monitoring
         <br>- repeat interval can be set freely and show pulse can be used in pulse monitoring function
         <br>- repeat interval can be set freely and dnd mode can be used in lost monitoring function
         <br>- repeated reminders can be set freely in time monitoring
-        <br>- …</p>
+        <br>- …
     ]]></string>
     <string name="purchase_policy_title">Terms and conditions of Premium mode</string>
     <string name="purchase_policy"><![CDATA[
@@ -560,13 +571,21 @@
 
     <string name="purchase_agree">I agree to the terms and conditions.</string>
     <string name="purchase_order_id">Order ID</string>
-    <string name="purchase_order_id_help">Copy from https://play.google.com/store/account</string>
+    <string name="purchase_order_id_help">Copy from:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
     <string name="purchase_button_purchase">Purchase</string>
 
     <!-- Feedback -->
     <string name="feedback_google_play_title">Rate this app</string>
     <string name="feedback_request_feature_title">Request feature</string>
     <string name="feedback_request_feature_summary">Automatic e-mail processing, you get no response</string>
+
+    <!-- Vibration dialog -->
+    <string name="vibration_title">Vibration setting</string>
+    <string name="vibration_intensity">Intensity</string>
+    <string name="vibration_pause">Pause</string>
+    <string name="vibration_times">Times</string>
 
     <!-- Hack -->
     <string name="info_dialog_hack"><![CDATA[Hack tool detected on device.
@@ -592,6 +611,7 @@
     <string name="const_time_abbreviation_hour">h</string>
     <string name="const_time_abbreviation_minute">m</string>
     <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
 
     <plurals name="plural_time_minute">
         <item quantity="zero">%d min</item>
