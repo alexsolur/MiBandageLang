@@ -212,10 +212,10 @@
 
     <string name="message_internet_error">Manca connessione internet</string>
 
-    <string name="message_time_alarm_free_counter">Up to 2 alarm can be used in normal mode</string>
-    <string name="message_time_alarm_max_counter">Maximum 5 alarms can be used</string>
-    <string name="message_time_alarm_enabled">Alarm enabled</string>
-    <string name="message_time_alarm_disabled">Alarm disabled</string>
+    <string name="message_time_alarm_free_counter">In modalità normale possono essere usate più di 2 sveglie</string>
+    <string name="message_time_alarm_max_counter">Possono essere usate massimo 5 sveglie</string>
+    <string name="message_time_alarm_enabled">Sveglia attivata</string>
+    <string name="message_time_alarm_disabled">Sveglia disattivata</string>
 
     <string name="message_alarm_free_interval">Intervalli di ripetizione minori possono essere usati solo in modalità premium</string>
     <string name="message_alarm_mi_band_set_failed">Impostazione allarme fallito</string>
@@ -449,13 +449,13 @@
     </string>
 
     <!-- Time  monitoring -->
-    <string name="time_tab_alarm">Alarm</string>
+    <string name="time_tab_alarm">Sveglia</string>
     <string name="time_tab_timer">Timer</string>
     <string name="time_tab_stopper">Cronometro</string>
     <string name="time_tab_lap">Tempo su giro</string>
 
-    <string name="action_alarm_device">Factory alarm</string>
-    <string name="time_alarm_title">Title</string>
+    <string name="action_alarm_device">Sveglia di sistema</string>
+    <string name="time_alarm_title">Titolo</string>
     <string name="time_alarm_pre_alarm">Ripeti notifica, tempo rimanente</string>
     <string name="time_alarm_pre_alarm_interval_title">Tempo mancante alla scadenza</string>
     <string name="time_alarm_pre_alarm_type_vibrate_title">Vibrazione</string>
@@ -499,7 +499,7 @@
     <string name="time_text">Mostra messaggio</string>
     <string name="time_text_message">Messaggio</string>
 
-    <string name="time_enable_bluetooth">Turn on Bluetooth</string>
+    <string name="time_enable_bluetooth">Attiva Bluetooth</string>
 
     <string name="info_dialog_time"><![CDATA[
         <p><b>Turn off the alarm, timer and stopwatch before the application is removed.</b></p>
@@ -582,10 +582,10 @@
     <string name="feedback_request_feature_summary">Processo con email automatico, non riceverai risposta</string>
 
     <!-- Vibration dialog -->
-    <string name="vibration_title">Vibration setting</string>
-    <string name="vibration_intensity">Intensity</string>
-    <string name="vibration_pause">Pause</string>
-    <string name="vibration_times">Times</string>
+    <string name="vibration_title">Impostazioni vibrazione</string>
+    <string name="vibration_intensity">Intensità</string>
+    <string name="vibration_pause">Pausa</string>
+    <string name="vibration_times">Ripetizioni</string>
 
     <!-- Hack -->
     <string name="info_dialog_hack"><![CDATA[Rilevato Hack tool sul dispositivo.
