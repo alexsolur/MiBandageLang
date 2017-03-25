@@ -212,6 +212,11 @@
 
     <string name="message_internet_error">Manca connessione internet</string>
 
+    <string name="message_time_alarm_free_counter">Up to 2 alarm can be used in normal mode</string>
+    <string name="message_time_alarm_max_counter">Maximum 5 alarms can be used</string>
+    <string name="message_time_alarm_enabled">Alarm enabled</string>
+    <string name="message_time_alarm_disabled">Alarm disabled</string>
+
     <string name="message_alarm_free_interval">Intervalli di ripetizione minori possono essere usati solo in modalità premium</string>
     <string name="message_alarm_mi_band_set_failed">Impostazione allarme fallito</string>
     <string name="message_alarm_mi_band_clear_failed">Cancellazione allarme fallito</string>
@@ -429,7 +434,7 @@
     <string name="alarm_mi_band_on_bluetooth_disabled_text">Notifica smarrimento su Mi Band 2 attivata.</string>
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Tempo allarme: %1$s</string>
 
-    <string name="info_dialog_alarm"><![CDATA[<img src="ic_alarm"> <b><u>Notifica Mi Band 2</u></b>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Notifica Mi Band 2</u></b>
         <p>Quando finisce il tempo specificato, la Mi Band 2 invia una notifica se non è connessa al dispositivo.</p>
         <p>L\'app usa la funzione allarme dell\'app Mi Fit per avvisarti.</p>
         <p>L\'allarme verrà ripetuto più volte se la Mi Band 2 non rileva alcun movimento (perchè usa la funzione allarme di fabbrica).</p>
@@ -444,23 +449,23 @@
     </string>
 
     <!-- Time  monitoring -->
+    <string name="time_tab_alarm">Alarm</string>
     <string name="time_tab_timer">Timer</string>
     <string name="time_tab_stopper">Cronometro</string>
     <string name="time_tab_lap">Tempo su giro</string>
 
+    <string name="action_alarm_device">Factory alarm</string>
+    <string name="time_alarm_title">Title</string>
+    <string name="time_alarm_pre_alarm">Ripeti notifica, tempo rimanente</string>
+    <string name="time_alarm_pre_alarm_interval_title">Tempo mancante alla scadenza</string>
+    <string name="time_alarm_pre_alarm_type_vibrate_title">Vibrazione</string>
+    <string name="time_alarm_pre_alarm_type_remaining_title">Tempo rimasto</string>
+
     <string name="time_timer_time_alert">Ora attivazione allarme</string>
     <string name="time_timer_time_remaining">Tempo rimasto</string>
 
-    <string name="time_timer_mode">Timer</string>
     <string name="time_timer_mode_timer_title">Tempo</string>
     <string name="time_timer_mode_time_title">Orario</string>
-
-    <string name="time_timer_alert">Tipo di allarme</string>
-    <string name="time_timer_alert_bell_title">Campanella</string>
-    <string name="time_timer_alert_alarm_title">Sveglia</string>
-
-    <string name="time_text">Mostra messaggio</string>
-    <string name="time_text_message">Messaggio</string>
 
     <string name="time_timer_reminder">Ripeti notifica, tempo rimanente</string>
     <string name="time_timer_reminder_interval_before_title">Tempo mancante alla scadenza</string>
@@ -470,13 +475,8 @@
     <string name="time_stopper_time_alert">Tipo di allarme</string>
     <string name="time_stopper_time_elapsed">Tempo rimasto</string>
 
-    <string name="time_stopper_mode">Cronometro</string>
     <string name="time_stopper_mode_timer_title">Tempo</string>
     <string name="time_stopper_mode_time_title">Orario</string>
-
-    <string name="time_stopper_alert">Tipo di allarme</string>
-    <string name="time_stopper_alert_bell_title">Campanella</string>
-    <string name="time_stopper_alert_alarm_title">Sveglia</string>
 
     <string name="time_stopper_reminder">Ripeti notifica, tempo rimanente</string>
     <string name="time_stopper_reminder_interval_before_title">Tempo mancante alla scadenza</string>
@@ -492,9 +492,20 @@
 
     <string name="time_lap_details">Dettagli tempi su giro</string>
 
-    <string name="info_dialog_time"><![CDATA[<img src="ic_miband_bell"> <b><u>Campanella</u></b>
+    <string name="time_alert">Tipo di allarme</string>
+    <string name="time_alert_bell_title">Campanella</string>
+    <string name="time_alert_alarm_title">Sveglia</string>
+
+    <string name="time_text">Mostra messaggio</string>
+    <string name="time_text_message">Messaggio</string>
+
+    <string name="time_enable_bluetooth">Turn on Bluetooth</string>
+
+    <string name="info_dialog_time"><![CDATA[
+        <p><b>Turn off the alarm, timer and stopwatch before the application is removed.</b></p>
+        <img src="ic_miband_bell"> <b><u>Campanella</u></b>
         <p>Richiede connessione Bluetooth per l\'allarme, e si può ricevere una sola volta per 10 secondi.</p>
-        <img src="ic_access_time"> <b><u>Sveglia</u></b>
+        <img src="ic_alarm"> <b><u>Sveglia</u></b>
         <p>Non è richiesta una connessione Bluetooth per l\'allarme, l\'app usa la funzione allarme dell\'app Mi Fit per avvisarti.
         <br>L\'allarme verrà ripetuto più volte se la Mi Band 2 non rileva alcun movimento (perchè usa la funzione allarme di fabbrica).</p>
         <p>La funzione "ripeti notifica" richiede una connessione Bluetooth.</p>
@@ -560,13 +571,21 @@
 
     <string name="purchase_agree">Accetto i termini e le condizioni.</string>
     <string name="purchase_order_id">ID Ordine</string>
-    <string name="purchase_order_id_help">Copia da https://play.google.com/store/account</string>
+    <string name="purchase_order_id_help">Copia da:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
     <string name="purchase_button_purchase">Acquista</string>
 
     <!-- Feedback -->
     <string name="feedback_google_play_title">Valuta l\'app</string>
     <string name="feedback_request_feature_title">Richiedi una funzione</string>
     <string name="feedback_request_feature_summary">Processo con email automatico, non riceverai risposta</string>
+
+    <!-- Vibration dialog -->
+    <string name="vibration_title">Vibration setting</string>
+    <string name="vibration_intensity">Intensity</string>
+    <string name="vibration_pause">Pause</string>
+    <string name="vibration_times">Times</string>
 
     <!-- Hack -->
     <string name="info_dialog_hack"><![CDATA[Rilevato Hack tool sul dispositivo.
@@ -592,6 +611,7 @@
     <string name="const_time_abbreviation_hour">h</string>
     <string name="const_time_abbreviation_minute">m</string>
     <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
 
     <plurals name="plural_time_minute">
         <item quantity="zero">%d min</item>
