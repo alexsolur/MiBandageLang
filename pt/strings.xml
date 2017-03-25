@@ -212,10 +212,10 @@
 
     <string name="message_internet_error">Não tem ligação à internet</string>
 
-    <string name="message_time_alarm_free_counter">Up to 2 alarm can be used in normal mode</string>
-    <string name="message_time_alarm_max_counter">Maximum 5 alarms can be used</string>
-    <string name="message_time_alarm_enabled">Alarm enabled</string>
-    <string name="message_time_alarm_disabled">Alarm disabled</string>
+    <string name="message_time_alarm_free_counter">Só podem ser usados 2 alarmes no modo normal</string>
+    <string name="message_time_alarm_max_counter">Podem ser usados 5 alarmes no máximo</string>
+    <string name="message_time_alarm_enabled">Alarme ativado</string>
+    <string name="message_time_alarm_disabled">Alarme desativado</string>
 
     <string name="message_alarm_free_interval">Um intervalo de tempo pequeno para repetir só pode ser configurado no modo premium</string>
     <string name="message_alarm_mi_band_set_failed">A configuração do alarme falhou</string>
@@ -449,13 +449,13 @@
     </string>
 
     <!-- Time  monitoring -->
-    <string name="time_tab_alarm">Alarm</string>
+    <string name="time_tab_alarm">Alarme</string>
     <string name="time_tab_timer">Temporizador</string>
     <string name="time_tab_stopper">Cronómetro</string>
     <string name="time_tab_lap">Tempo de volta</string>
 
-    <string name="action_alarm_device">Factory alarm</string>
-    <string name="time_alarm_title">Title</string>
+    <string name="action_alarm_device">Alarme de fábrica</string>
+    <string name="time_alarm_title">Título</string>
     <string name="time_alarm_pre_alarm">Lembrete</string>
     <string name="time_alarm_pre_alarm_interval_title">Intervalo de tempo do lembrete antes do fim (só 1)</string>
     <string name="time_alarm_pre_alarm_type_vibrate_title">Vibração</string>
@@ -499,14 +499,14 @@
     <string name="time_text">Mostrar mensagem</string>
     <string name="time_text_message">Texto</string>
 
-    <string name="time_enable_bluetooth">Turn on Bluetooth</string>
+    <string name="time_enable_bluetooth">Liga o Bluetooth</string>
 
     <string name="info_dialog_time"><![CDATA[
-        <p><b>Turn off the alarm, timer and stopwatch before the application is removed.</b></p>
+        <p><b>Desliga o alarma, o temporizador e o cronómetro antes de removeres a aplicação.</b></p>
         <img src="ic_miband_bell"> <b><u>Toque</u></b>
-        <p>Conexão bluetooth necessária para o alarme (uma vez em 10 segundos).</p>
+        <p>Conexão Bluetooth necessária para o alarme (uma vez em 10 segundos).</p>
         <img src="ic_alarm"> <b><u>Alarme</u></b>
-        <p>Conexão bluetooth não é necessária para o alarme. A aplicação usa o alarme da Mi Fit para alertar (Sobrescreve 4. - 9.).
+        <p>Conexão Bluetooth não é necessária para o alarme. A aplicação usa o alarme da Mi Fit para alertar (Sobrescreve 4-9).
         <br>O alarme será repetido várias vezes se a Mi Band 2 não detectar qualquer movimento (porque ele usa o alarme de fábrica).</p>
         <p>O sinal de lembrete requer uma ligação Bluetooth.</p>
     ]]></string>
@@ -582,10 +582,10 @@
     <string name="feedback_request_feature_summary">Processamento de e-mail automático, podes não obter resposta (É preferivel o inglês)</string>
 
     <!-- Vibration dialog -->
-    <string name="vibration_title">Vibration setting</string>
-    <string name="vibration_intensity">Intensity</string>
-    <string name="vibration_pause">Pause</string>
-    <string name="vibration_times">Times</string>
+    <string name="vibration_title">Definições de vibração</string>
+    <string name="vibration_intensity">Intensidade</string>
+    <string name="vibration_pause">Pausa</string>
+    <string name="vibration_times">Número de vibrações</string>
 
     <!-- Hack -->
     <string name="info_dialog_hack"><![CDATA[Ferramenta de hack detetada no seu dispositivo.
