@@ -212,6 +212,11 @@
 
     <string name="message_internet_error">Нет подключения к Интернету</string>
 
+    <string name="message_time_alarm_free_counter">Up to 2 alarm can be used in normal mode</string>
+    <string name="message_time_alarm_max_counter">Maximum 5 alarms can be used</string>
+    <string name="message_time_alarm_enabled">Alarm enabled</string>
+    <string name="message_time_alarm_disabled">Alarm disabled</string>
+
     <string name="message_alarm_free_interval">Меньшие промежутки могут быть установлены в премиуме</string>
     <string name="message_alarm_mi_band_set_failed">Не удалось установить будильник</string>
     <string name="message_alarm_mi_band_clear_failed">Не удалось удалить будильник</string>
@@ -429,7 +434,7 @@
     <string name="alarm_mi_band_on_bluetooth_disabled_text">Уведомление о выкл. Bluetooth.</string>
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Промежуток уведомления: %1$s</string>
 
-    <string name="info_dialog_alarm"><![CDATA[<img src="ic_alarm"> <b><u>Уведомление Mi Band 2</u></b>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Уведомление Mi Band 2</u></b>
         <p>Когда проходит выбранный промежуток времени, Mi Band 2 вибрирует, если не подключён к устройству.<p>
         <p>Приложение использует будильник Mi Fit для предупреждения (переписывает 10. будильник).</p>
         <p>Будильник повторится несколько раз, если Mi Band 2 не заметит движения (из-за использования заводского будильника).</p>
@@ -444,23 +449,23 @@
     </string>
 
     <!-- Time  monitoring -->
+    <string name="time_tab_alarm">Alarm</string>
     <string name="time_tab_timer">Таймер</string>
     <string name="time_tab_stopper">Секундомер</string>
     <string name="time_tab_lap">Время круга</string>
 
+    <string name="action_alarm_device">Factory alarm</string>
+    <string name="time_alarm_title">Title</string>
+    <string name="time_alarm_pre_alarm">Переодическое уведомление, оставшееся время</string>
+    <string name="time_alarm_pre_alarm_interval_title">Уведомлять заранее</string>
+    <string name="time_alarm_pre_alarm_type_vibrate_title">Вибрация</string>
+    <string name="time_alarm_pre_alarm_type_remaining_title">Оставшееся время</string>
+
     <string name="time_timer_time_alert">Время сигнала</string>
     <string name="time_timer_time_remaining">Оставшееся время</string>
 
-    <string name="time_timer_mode">Таймер</string>
     <string name="time_timer_mode_timer_title">Промежуток</string>
     <string name="time_timer_mode_time_title">Точное</string>
-
-    <string name="time_timer_alert">Вид сигнала</string>
-    <string name="time_timer_alert_bell_title">Уведомление</string>
-    <string name="time_timer_alert_alarm_title">Будильник</string>
-
-    <string name="time_text">Отображать сообщение</string>
-    <string name="time_text_message">Текст</string>
 
     <string name="time_timer_reminder">Переодическое уведомление, оставшееся время</string>
     <string name="time_timer_reminder_interval_before_title">Уведомлять заранее</string>
@@ -470,13 +475,8 @@
     <string name="time_stopper_time_alert">Время сигнала</string>
     <string name="time_stopper_time_elapsed">Прошедщее время</string>
 
-    <string name="time_stopper_mode">Секундомер</string>
     <string name="time_stopper_mode_timer_title">Промежуток</string>
     <string name="time_stopper_mode_time_title">Точное</string>
-
-    <string name="time_stopper_alert">Вид сигнала</string>
-    <string name="time_stopper_alert_bell_title">Уведомление</string>
-    <string name="time_stopper_alert_alarm_title">Будильник</string>
 
     <string name="time_stopper_reminder">Переодическое уведомление, оставшееся время</string>
     <string name="time_stopper_reminder_interval_before_title">Уведомлять заранее</string>
@@ -492,10 +492,21 @@
 
     <string name="time_lap_details">Время круга</string>
 
-    <string name="info_dialog_time"><![CDATA[<img src="ic_miband_bell"> <b><u>Уведомление</u></b>
+    <string name="time_alert">Вид сигнала</string>
+    <string name="time_alert_bell_title">Уведомление</string>
+    <string name="time_alert_alarm_title">Будильник</string>
+
+    <string name="time_text">Отображать сообщение</string>
+    <string name="time_text_message">Текст</string>
+
+    <string name="time_enable_bluetooth">Turn on Bluetooth</string>
+
+    <string name="info_dialog_time"><![CDATA[
+        <p><b>Turn off the alarm, timer and stopwatch before the application is removed.</b></p>
+        <img src="ic_miband_bell"> <b><u>Уведомление</u></b>
         <p>Bluetooth-соединение необходимо для сигнала, один сигнал длительностью 10 секунд.</p>
-        <img src="ic_access_time"> <b><u>Будильник</u></b>
-        <p>Bluetooth-соединение не требуется для сигнала, приложение использует будильник Mi Fit для сигнала (перезаписывает 9. будильник).
+        <img src="ic_alarm"> <b><u>Будильник</u></b>
+        <p>Bluetooth-соединение не требуется для сигнала, приложение использует будильник Mi Fit для сигнала (перезаписывает 4. - 9. будильник).
         <br>Будильник повторится несколько раз, если Mi Band 2 не заметит движения (из-за использования заводского будильника).</p>
         <p>Для повтора уведомлений требуется Bluetooth-соединение.</p>
     ]]></string>
@@ -540,14 +551,14 @@
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Преимущества премиума</string>
     <string name="purchase_advantage"><![CDATA[
-        <p>- нет рекламы
+        - нет рекламы
         <br>- нет ограничения на количество групп уведомлений
         <br>- нет ограничения на контроль касаний
         <br>- префикс текстовых уведомлений
         <br>- <i>Измерение пульса</i>: установка промежутка измерений по желанию, настройка показа пульса
         <br>- <i>Долго отсоединён</i>: установка промежутка уведомлений по желанию,  активация режима \'Не беспокоить\'
         <br>- <i>Время</i>: установка промежутка уведомлений по желанию
-        <br>- …</p>
+        <br>- …
     ]]></string>
     <string name="purchase_policy_title">Правила и условия премиума</string>
     <string name="purchase_policy"><![CDATA[
@@ -560,13 +571,21 @@
 
     <string name="purchase_agree">Я согласен с правилами и условиями.</string>
     <string name="purchase_order_id">ID заказа</string>
-    <string name="purchase_order_id_help">Скопируйте с https://play.google.com/store/account</string>
+    <string name="purchase_order_id_help">Скопируйте с:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
     <string name="purchase_button_purchase">Приобрести</string>
 
     <!-- Feedback -->
     <string name="feedback_google_play_title">Оцените приложение</string>
     <string name="feedback_request_feature_title">Запрос функций</string>
     <string name="feedback_request_feature_summary">Автоматическая обработка электронной почты, без ответа (Английский настоятельно рекомендуется)</string>
+
+    <!-- Vibration dialog -->
+    <string name="vibration_title">Vibration setting</string>
+    <string name="vibration_intensity">Intensity</string>
+    <string name="vibration_pause">Pause</string>
+    <string name="vibration_times">Times</string>
 
     <!-- Hack -->
     <string name="info_dialog_hack"><![CDATA[Программа-взломщик обнаружена на устройстве.
@@ -592,6 +611,7 @@
     <string name="const_time_abbreviation_hour">ч</string>
     <string name="const_time_abbreviation_minute">м</string>
     <string name="const_time_abbreviation_sec">с</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
 
     <plurals name="plural_time_minute">
         <item quantity="zero">%d минута</item>
@@ -601,6 +621,5 @@
         <item quantity="many">%d минут</item>
         <item quantity="other">%d минут</item>
     </plurals>
-
 
 </resources>
