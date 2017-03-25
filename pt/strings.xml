@@ -212,6 +212,11 @@
 
     <string name="message_internet_error">Não tem ligação à internet</string>
 
+    <string name="message_time_alarm_free_counter">Up to 2 alarm can be used in normal mode</string>
+    <string name="message_time_alarm_max_counter">Maximum 5 alarms can be used</string>
+    <string name="message_time_alarm_enabled">Alarm enabled</string>
+    <string name="message_time_alarm_disabled">Alarm disabled</string>
+
     <string name="message_alarm_free_interval">Um intervalo de tempo pequeno para repetir só pode ser configurado no modo premium</string>
     <string name="message_alarm_mi_band_set_failed">A configuração do alarme falhou</string>
     <string name="message_alarm_mi_band_clear_failed">A limpeza do alarme falhou</string>
@@ -429,7 +434,7 @@
     <string name="alarm_mi_band_on_bluetooth_disabled_text">O sinal da monitorização de perda da Mi Band 2 está ativo.</string>
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Tempo do alarme: %1$s</string>
 
-    <string name="info_dialog_alarm"><![CDATA[<img src="ic_alarm"> <b><u>Sinais da Mi Band 2</u></b>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Sinais da Mi Band 2</u></b>
         <p>Quando o período de tempo especificado expirar, a Mi Band 2 envia sinais se não estiver conectado ao dispositivo.</p>
         <p>A aplicação usa a função de alarme da Mi Fit para alertar (substitui a configuração).</p>
         <p>O alarme será repetido várias vezes se a Mi Band 2 não detectar qualquer movimento (porque usa o alarme de fábrica).</p>
@@ -444,23 +449,23 @@
     </string>
 
     <!-- Time  monitoring -->
+    <string name="time_tab_alarm">Alarm</string>
     <string name="time_tab_timer">Temporizador</string>
     <string name="time_tab_stopper">Cronómetro</string>
     <string name="time_tab_lap">Tempo de volta</string>
 
+    <string name="action_alarm_device">Factory alarm</string>
+    <string name="time_alarm_title">Title</string>
+    <string name="time_alarm_pre_alarm">Lembrete</string>
+    <string name="time_alarm_pre_alarm_interval_title">Intervalo de tempo do lembrete antes do fim (só 1)</string>
+    <string name="time_alarm_pre_alarm_type_vibrate_title">Vibração</string>
+    <string name="time_alarm_pre_alarm_type_remaining_title">Tempo restante</string>
+
     <string name="time_timer_time_alert">Hora do alarme</string>
     <string name="time_timer_time_remaining">Tempo restante</string>
 
-    <string name="time_timer_mode">Temporizador</string>
     <string name="time_timer_mode_timer_title">Cronometragem</string>
     <string name="time_timer_mode_time_title">Hora</string>
-
-    <string name="time_timer_alert">Tipo de alerta</string>
-    <string name="time_timer_alert_bell_title">Sino</string>
-    <string name="time_timer_alert_alarm_title">Alarme</string>
-
-    <string name="time_text">Mostrar mensagem</string>
-    <string name="time_text_message">Texto</string>
 
     <string name="time_timer_reminder">Lembrete</string>
     <string name="time_timer_reminder_interval_before_title">Intervalo de tempo do lembrete antes do fim (só 1)</string>
@@ -470,13 +475,8 @@
     <string name="time_stopper_time_alert">Hora do alarme</string>
     <string name="time_stopper_time_elapsed">Tempo decorrido</string>
 
-    <string name="time_stopper_mode">Cronómetro</string>
     <string name="time_stopper_mode_timer_title">Cronometragem</string>
     <string name="time_stopper_mode_time_title">Hora</string>
-
-    <string name="time_stopper_alert">Tipo de alerta</string>
-    <string name="time_stopper_alert_bell_title">Sino</string>
-    <string name="time_stopper_alert_alarm_title">Alarme</string>
 
     <string name="time_stopper_reminder">Lembrete</string>
     <string name="time_stopper_reminder_interval_before_title">Intervalo de tempo do lembrete antes do fim (só 1)</string>
@@ -492,10 +492,21 @@
 
     <string name="time_lap_details">Detalhes do tempo da volta</string>
 
-    <string name="info_dialog_time"><![CDATA[<img src="ic_miband_bell"> <b><u>Toque</u></b>
+    <string name="time_alert">Tipo de alerta</string>
+    <string name="time_alert_bell_title">Sino</string>
+    <string name="time_alert_alarm_title">Alarme</string>
+
+    <string name="time_text">Mostrar mensagem</string>
+    <string name="time_text_message">Texto</string>
+
+    <string name="time_enable_bluetooth">Turn on Bluetooth</string>
+
+    <string name="info_dialog_time"><![CDATA[
+        <p><b>Turn off the alarm, timer and stopwatch before the application is removed.</b></p>
+        <img src="ic_miband_bell"> <b><u>Toque</u></b>
         <p>Conexão bluetooth necessária para o alarme (uma vez em 10 segundos).</p>
-        <img src="ic_access_time"> <b><u>Alarme</u></b>
-        <p>Conexão bluetooth não é necessária para o alarme. A aplicação usa o alarme da Mi Fit para alertar (Sobrescreve 9.).
+        <img src="ic_alarm"> <b><u>Alarme</u></b>
+        <p>Conexão bluetooth não é necessária para o alarme. A aplicação usa o alarme da Mi Fit para alertar (Sobrescreve 4. - 9.).
         <br>O alarme será repetido várias vezes se a Mi Band 2 não detectar qualquer movimento (porque ele usa o alarme de fábrica).</p>
         <p>O sinal de lembrete requer uma ligação Bluetooth.</p>
     ]]></string>
@@ -520,7 +531,7 @@
         <p> Quando você se reconectar, você receberá uma notificação no caso de um evento ocorrer.</p>]]>
     </string>
 
-    <!-- Rewarded mode -->
+<!-- Rewarded mode -->
     <string name="rewarded_policy_title">Termos e condições do Modo recompensa</string>
     <string name="rewarded_policy"><![CDATA[
         <p>- Inicio da validade: hora atual
@@ -540,18 +551,19 @@
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Vantagens do modo premium</string>
     <string name="purchase_advantage"><![CDATA[
-        <p>- Não tem anúncios
+        - Não tem anúncios
         <br>- Monitoramento de notificações ilimitado
         <br>- Monitoramento do touch ilimitado
         <br>- O intervalo de repetição pode ser ajustado livremente
         <br>- Mostrar pulsação pode ser usado no menu mmonitorar pulsação
         <br>- Modo DND pode ser usado na função monitorar perda
         <br>- Lembretes repetidos podem ser definidos livremente no menu Monitorar tempo
-        <br>- …</p>
+        <br>- …
     ]]></string>
     <string name="purchase_policy_title">Termos e condições do modo premium</string>
     <string name="purchase_policy"><![CDATA[
-        <p>- Eu testei a aplicação e ela está a funcionar corretamente. Eu estou ciente de que não posso exigir compensação ou reembolso devido a bugs, erros de software causados ​​por alterações no software, ambiente do hardware ou outras aplicações usadas.
+        <p>- Eu testei a aplicação e ela está a funcionar corretamente.
+        <br>- Eu estou ciente de que não posso exigir compensação ou reembolso devido a bugs, erros de software causados ​​por alterações no software, ambiente do hardware ou outras aplicações usadas.
         <br>- Todas as vendas são finais e não podem ser reembolsadas (exceto a política de reembolso do Google).
         <br>- Não há garantia incluída.</p>
         <p><i>Depois de comprar, você precisa de reiniciar a aplicação.</i></p>
@@ -559,13 +571,21 @@
 
     <string name="purchase_agree">Eu concordo com os Termos e Condições.</string>
     <string name="purchase_order_id">ID da encomenda</string>
-    <string name="purchase_order_id_help">Copia de https://play.google.com/store/account</string>
+    <string name="purchase_order_id_help">Copia de:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
     <string name="purchase_button_purchase">Comprar</string>
 
     <!-- Feedback -->
     <string name="feedback_google_play_title">Avalia esta aplicação</string>
     <string name="feedback_request_feature_title">Recurso de solicitação</string>
     <string name="feedback_request_feature_summary">Processamento de e-mail automático, podes não obter resposta (É preferivel o inglês)</string>
+
+    <!-- Vibration dialog -->
+    <string name="vibration_title">Vibration setting</string>
+    <string name="vibration_intensity">Intensity</string>
+    <string name="vibration_pause">Pause</string>
+    <string name="vibration_times">Times</string>
 
     <!-- Hack -->
     <string name="info_dialog_hack"><![CDATA[Ferramenta de hack detetada no seu dispositivo.
@@ -591,6 +611,7 @@
     <string name="const_time_abbreviation_hour">h</string>
     <string name="const_time_abbreviation_minute">m</string>
     <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
 
     <plurals name="plural_time_minute">
         <item quantity="zero">%d min</item>
