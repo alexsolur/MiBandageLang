@@ -13,7 +13,7 @@
     <string name="drawer_nav_time">Zaman denetimi</string>
     <string name="drawer_nav_disconnected_agent">Ajan</string>
     <string name="drawer_nav_premium_mode">Premium mod</string>
-    <string name="drawer_nav_rewarded_mode">Rewarded mode</string>
+    <string name="drawer_nav_rewarded_mode">Ödüllü mod</string>
     <string name="drawer_nav_feedback">Geri bildirim</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
@@ -211,6 +211,11 @@
     <string name="message_touch_tasker_launcher1_not_set">Tasker görev ayarlı değil</string>
 
     <string name="message_internet_error">İnternet bağlantısı yok</string>
+
+    <string name="message_time_alarm_free_counter">Up to 2 alarm can be used in normal mode</string>
+    <string name="message_time_alarm_max_counter">Maximum 5 alarms can be used</string>
+    <string name="message_time_alarm_enabled">Alarm enabled</string>
+    <string name="message_time_alarm_disabled">Alarm disabled</string>
 
     <string name="message_alarm_free_interval">Daha küçük tekrar aralığı yalnızca premium modda ayarlanabilir</string>
     <string name="message_alarm_mi_band_set_failed">Alarmın ayarlanması başarısız</string>
@@ -429,7 +434,7 @@
     <string name="alarm_mi_band_on_bluetooth_disabled_text">İzlemeyi kaybetti Mi Band 2 sinyali etkinleştirildi.</string>
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm zamanı: %1$s</string>
 
-    <string name="info_dialog_alarm"><![CDATA[<img src="ic_alarm"> <b><u>Mi Band 2 sinyali</u></b>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Mi Band 2 sinyali</u></b>
         <p>Belirtilen süre geçtikten sonra Mi Band 2, cihaza bağlı değilse sinyal gönderir.</p>
         <p>Uygulama uyarı yapmak için Mi Fit\'in alarm işlevi kullanıyor (10. ayarın üzerine yazıyor).</p>
         <p>Mi Band 2 hareket algılamazsa (fabrika alarmını kullandığından) alarm birkaç kez tekrarlanır.</p>
@@ -444,23 +449,23 @@
     </string>
 
     <!-- Time  monitoring -->
+    <string name="time_tab_alarm">Alarm</string>
     <string name="time_tab_timer">Zamanlayıcı</string>
     <string name="time_tab_stopper">Kronometre</string>
     <string name="time_tab_lap">Tur zamanı</string>
 
+    <string name="action_alarm_device">Factory alarm</string>
+    <string name="time_alarm_title">Title</string>
+    <string name="time_alarm_pre_alarm">Hatırlatma uyarısı, kalan süre</string>
+    <string name="time_alarm_pre_alarm_interval_title">Zamanından önce</string>
+    <string name="time_alarm_pre_alarm_type_vibrate_title">Titresim</string>
+    <string name="time_alarm_pre_alarm_type_remaining_title">Kalan süre</string>
+
     <string name="time_timer_time_alert">Alarm zamanı</string>
     <string name="time_timer_time_remaining">Kalan süre</string>
 
-    <string name="time_timer_mode">Zamanlayıcı</string>
     <string name="time_timer_mode_timer_title">Zamanlama</string>
     <string name="time_timer_mode_time_title">Zaman</string>
-
-    <string name="time_timer_alert">Alarm Tipi</string>
-    <string name="time_timer_alert_bell_title">Zil</string>
-    <string name="time_timer_alert_alarm_title">Alarm</string>
-
-    <string name="time_text">Show message</string>
-    <string name="time_text_message">Text</string>
 
     <string name="time_timer_reminder">Hatırlatma uyarısı, kalan süre</string>
     <string name="time_timer_reminder_interval_before_title">Zamanından önce</string>
@@ -470,13 +475,8 @@
     <string name="time_stopper_time_alert">Alarm zamanı</string>
     <string name="time_stopper_time_elapsed">Geçen zaman</string>
 
-    <string name="time_stopper_mode">Kronometre</string>
     <string name="time_stopper_mode_timer_title">Zamanlama</string>
     <string name="time_stopper_mode_time_title">Zaman</string>
-
-    <string name="time_stopper_alert">Alarm tipi</string>
-    <string name="time_stopper_alert_bell_title">Zil</string>
-    <string name="time_stopper_alert_alarm_title">Alarm</string>
 
     <string name="time_stopper_reminder">Hatırlatma uyarısı, geçen süre</string>
     <string name="time_stopper_reminder_interval_before_title">Zamanından önce</string>
@@ -492,10 +492,21 @@
 
     <string name="time_lap_details">Tur bilgileri</string>
 
-    <string name="info_dialog_time"><![CDATA[<img src="ic_miband_bell"><b><u>Çan </u></b>
+    <string name="time_alert">Alarm tipi</string>
+    <string name="time_alert_bell_title">Zil</string>
+    <string name="time_alert_alarm_title">Alarm</string>
+
+    <string name="time_text">Mesajı göster</string>
+    <string name="time_text_message">Metin</string>
+
+    <string name="time_enable_bluetooth">Turn on Bluetooth</string>
+
+    <string name="info_dialog_time"><![CDATA[
+         <p><b>Turn off the alarm, timer and stopwatch before the application is removed.</b></p>
+         <img src="ic_miband_bell"> <b><u>Çan</u></b>
          <p>Alarm için Bluetooth bağlantısı gereklidir, yalnızca 10 saniye boyunca yalnızca bir kez alarm verir.</p>
-         <img src="ic_access_time"> <b><u>Alarm</u></b>
-         <p>Alarm için Bluetooth bağlantısı gerekli değildir, uygulama uyarı yapmak için Mi Fit\'in alarm işlevini kullanır (9. ayarın üzerine yazar).
+         <img src="ic_alarm"> <b><u>Alarm</u></b>
+         <p>Alarm için Bluetooth bağlantısı gerekli değildir, uygulama uyarı yapmak için Mi Fit\'in alarm işlevini kullanır (4. - 9. ayarın üzerine yazar).
          <br>Mi Band 2 herhangi bir hareket algılamazsa (fabrika alarmını kullandığından) alarm birkaç kez tekrarlanacaktır.</p>
          <p>Hatırlatma sinyali için Bluetooth bağlantısı gerekir.</p>
     ]]></string>
@@ -521,33 +532,33 @@
     </string>
 
     <!-- Rewarded mode -->
-    <string name="rewarded_policy_title">Terms and conditions of Rewarded mode</string>
+    <string name="rewarded_policy_title">Ödüllü modun şart ve koşulları</string>
     <string name="rewarded_policy"><![CDATA[
-        <p>- start of validity: current time
-        <br>- end of validity: start of validity + at least %1$,d days (depending on ad it can be more)
-        <br>- time manipulation can cause termination of validity</p>
-        <i>After playing video you need to restart the app.</i>
+        <p>- geçerlilik başlangıcı: şu an
+        <br>- geçerlilik bitimi: geçerlilik başlangıcı + en az %1$,d gün (reklama bağlı olarak daha fazla olabilir)
+        <br>- Zaman manipülasyonu geçerliliğin sona ermesine neden olabilir</p>
+        <i>Video oynattıktan sonra, uygulamayı yeniden başlatmanız gerekir.</i>
     ]]></string>
 
-    <string name="rewarded_advantage_banner_title">Block the banner ads</string>
-    <string name="rewarded_advantage_interstitial_title">Block the interstitial ads</string>
+    <string name="rewarded_advantage_banner_title">Afiş reklamlarını engelle</string>
+    <string name="rewarded_advantage_interstitial_title">Geçiş reklamlarını engelle</string>
 
-    <string name="rewarded_advantage_time_range">Validity</string>
-    <string name="rewarded_advantage_button_play">Play video</string>
+    <string name="rewarded_advantage_time_range">Geçerlilik</string>
+    <string name="rewarded_advantage_button_play">Video oynatmak</string>
 
-    <string name="message_rewarded_error">Failed to load video</string>
+    <string name="message_rewarded_error">Video yüklenemedi</string>
 
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Premium mod avantajları</string>
     <string name="purchase_advantage"><![CDATA[
-         <p>- reklamsız
+         - reklamsız
          <br>- sınırsız bildirim izleme
          <br>- sınırsız dokunmatik izleme
          <br>- bildirim önizleme bildiriminde kullanılabilir
          <br>- tekrarlama aralığı serbestçe ayarlanabilir ve gösteri darbesi darbe izleme işlevinde kullanılabilir
          <br>- tekrarlama aralığı serbestçe ayarlanabilir ve dnd modu kayıp izleme işlevinde kullanılabilir
          <br>- tekrarlanan hatırlatıcılar zamanında izleme özgürlüğüne ayarlanabilir
-         <br>- …</p>
+         <br>- …
     ]]></string>
     <string name="purchase_policy_title">Premium modu şartları ve koşulları</string>
     <string name="purchase_policy"><![CDATA[
@@ -560,13 +571,21 @@
 
     <string name="purchase_agree">Hükümlere ve koşullara katılıyorum.</string>
     <string name="purchase_order_id">Sipariş Kimliği</string>
-    <string name="purchase_order_id_help">Kopyala https://play.google.com/store/account</string>
+    <string name="purchase_order_id_help">Kopyala:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
     <string name="purchase_button_purchase">Satın alma</string>
 
     <!-- Feedback -->
     <string name="feedback_google_play_title">Bu uygulamayı oyla</string>
     <string name="feedback_request_feature_title">Özellik isteği</string>
     <string name="feedback_request_feature_summary">Otomatik e-posta işleme, cevap alamazsın</string>
+
+    <!-- Vibration dialog -->
+    <string name="vibration_title">Vibration setting</string>
+    <string name="vibration_intensity">Intensity</string>
+    <string name="vibration_pause">Pause</string>
+    <string name="vibration_times">Times</string>
 
     <!-- Hack -->
     <string name="info_dialog_hack"><![CDATA[Hack aracı tespit cihazı.
@@ -592,6 +611,7 @@
     <string name="const_time_abbreviation_hour">s</string>
     <string name="const_time_abbreviation_minute">d</string>
     <string name="const_time_abbreviation_sec">i</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
 
     <plurals name="plural_time_minute">
         <item quantity="zero">%d dakika</item>
@@ -601,6 +621,5 @@
         <item quantity="many">%d dakika</item>
         <item quantity="other">%d dakika</item>
     </plurals>
-
 
 </resources>
