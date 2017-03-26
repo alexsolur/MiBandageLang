@@ -133,7 +133,7 @@
     <string name="pref_text_conversion_description_title">Descrição</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
         <p>Se, atualmente, a tua Mi Band 2 mostra o nome do chamador, tu não vais precisar de fazer as seguintes etapas, apenas desliga o <i>Incoming call alerts</i> na Mi Fit.</p>
-        <p>Se tu não usas <i>Incoming call alerts</i> e a linguagem do telemóvel não é inglês:
+        <p>Se tu não usas <i>Incoming call alerts</i> e a linguagem do telemóvel não está em inglês:
         <br/>1. Muda a linguagem do telemóvel para inglês.
         <br/>2. Abre a aplicação Mi Fit e espera até o firmware atualizar. Se a actualização do firmware não começar, tenta reiniciar o telemóvel.
         <br/>3. Abre o menu <i>Play/Incomimg call</i>.
@@ -226,18 +226,18 @@
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Bem vindo!</string>
-    <string name="dialog_welcome_message"><![CDATA[Atualmente a aplicação só suporta a Mi Band 2.
+    <string name="dialog_welcome_message"><![CDATA[Atualmente a aplicação apenas suporta a Mi Band 2.
     <p>A Mi Bandage precisa que a versão oficial da Mi Fit esteja instalada no mesmo dispositivo. Primeiro tens de emparelhar a Mi Band 2 na aplicação Mi Fit e só depois poderás usar a Mi Bandage.</p>
     <p>Se tu usas mais aplicações para controlar a Mi Band 2, elas vão interferir umas com as outras por isso desativa-as temporariamente.</p>
     <p>Se a Mi Band 2 não for encontrada, tu podes configurar o endereço MAC manualmente nos detalhes do menu (O endereço MAC encontra-se em: Mi Fit/Profil/Mi Band 2).</p>
     <p><b>Se a Mi Band 2 não foi encontrada ou se estás a ter problemas em sincronizar na aplicação Mi Fit, instala BToolkit, nRF Conect ou uma aplicação semelhante de monitoramento bluetooth e remove os dispositivos emparelhados, conectados.</b></p>
     <p>Se tens problemas (descobrir a Mi Band 2/sinal de notificação), tenta isto por favor:
-    <br>1. Se tem o Greenify instalado (ou outra aplicação para hibernar) desative-a.
-    <br>2. Instale a aplicação Mi Bandage.
-    <br>3. Reinicie o telemóvel.
-    <br>4. Desligue e volte a ligar o Bluetooth.
+    <br>1. Se tens o Greenify instalado (ou outra aplicação para hibernar) desativa-a.
+    <br>2. Instala a aplicação Mi Bandage.
+    <br>3. Reinicia o telemóvel.
+    <br>4. Desligua e volta a ligar o Bluetooth.
     <br>5. Abre a aplicação Mi Fit, espera até a sincronização ser feita e fecha-a.
-    <br>6. Abre a aplicação Mi Bandage e clica no botão verde para descobrir.</p>]]></string>
+    <br>6. Abre a aplicação Mi Bandage e clica no botão para a descobrir.</p>]]></string>
 
     <!-- Notification  -->
     <string name="notification_tab_settings">Definições</string>
@@ -262,7 +262,7 @@
     <string name="notification_group_wakelock">Acordar o ecrã do dispositivo</string>
 
     <!-- Notification info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Aplicação predefinida e ícones da Mi Band 2:
+    <string name="info_dialog_notification"><![CDATA[Ícones da Mi Bnad 2 e aplicação correspondente:
         <br><img src="ALERT_MESSAGE_TEXT">  Chamada perdida
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  Email, Gmail
@@ -291,9 +291,9 @@
         <br><img src="ALERT_DINGTALK">  DingTalk
         <br><img src="ALERT_APP">  Outros
 
-        <p>O grupo de notificações criado por ti tem prioridade superior à notificação predefinida.</p>
-        <p><img src="ALERT_MESSAGE_TEXT"> ícone: escolhe este ícone para mostrar notificações título/conteúdo</p>
-        <p>Se tu usas aplicações predefinidas mas queres excluir algumas aplicações, então cria um novo grupo de notificações em <i>Definições de exclusão de notificações</i> e adiciona aplicações.</p>
+        <p>O grupo de notificações criado por ti tem prioridade superior às notificações predefinidas.</p>
+        <p><img src="ALERT_MESSAGE_TEXT"> : escolhe este ícone para mostrar notificações com título/conteúdo</p>
+        <p>Se tu usas aplicações predefinidas mas queres excluir algumas aplicações, então cria um novo grupo de notificações, adiciona aplicações e desativa-o a seguir.</p>
         ]]>
     </string>
         <!--<p>Os sinais predefinidos podem ser desativados: <i>Monitorar notifições/Definições</i>.</p>-->
@@ -351,21 +351,21 @@
     <string name="touch_testing_second">seg.</string>
 
     <!-- Touch monitoring info dialog -->
-    <string name="info_dialog_touch"><![CDATA[O touch é válido quando o ecrã da Mi Band 2 mudar (Por isso é aconselhado rodar o pulso antes de gravar).
+    <string name="info_dialog_touch"><![CDATA[O touch é válido quando o ecrã da Mi Band 2 muda (Por isso é aconselhado rodar o pulso antes de gravar).
         <p>Ele monitora o tempo decorrido entre os toques, e não o tempo decorrido até ao primeiro toque.</p>
         <p>Os ícones verdes nos cartões indicam que função pode ser semelhante ao padrão atual.</p>
         <p>Quando você recebe uma chamada, o telemóvel não reconhece as seguintes funções para facilitar a entrada de toque: localização do dispositivo,repetir notificações, controle de música.</p>
         <p>No modo teste não é executada a função de padrão reconhecido.</p>
-        <p>Feedback da vibração da Mi Band 2 se houver um padrão, levando em consideração o status atual do telemóvel (atendimento de chamadas, rejeição somente se houver uma chamada recebida, …).</p>
-        <p>A Mi Band 2 vibra uma vez, quando reconhece um padrão.</p>
-        <p>A Mi Band 2 vibra duas vezes, quando não reconhece nenhum padrão após o padrão mais longo (se <i>o sinal do padrão de toque não é reconhecido</ i>).</p>
+        <p>Feedback por vibração da Mi Band 2 se houver um padrão não reconhecido, levando em consideração o status atual do telemóvel (atendimento de chamadas, rejeição somente se houver uma chamada recebida, …).</p>
+        <p>A Mi Band 2 vibra 1 vez, quando reconhece um padrão.</p>
+        <p>A Mi Band 2 vibra 2 vezes, quando não reconhece nenhum padrão após o padrão mais longo (se <i>o padrão não é reconhecido</ i>).</p>
         <p>Exemplos de touch válidos:
         <br>- toca
-        <br>- toca e espera 1seg, toca
-        <br>- toca e espera 1seg, toca e espera 1seg, toca
-        <br>- toca e espera 2seg, toca
-        <br>- toca e espera 2seg, toca e espera 1seg, toca
-        <br>- toca e espera 2seg, toca e espera 2seg, toca
+        <br>- toca e espera 1 seg, toca
+        <br>- toca e espera 1 seg, toca e espera 1 seg, toca
+        <br>- toca e espera 2 seg, toca
+        <br>- toca e espera 2 seg, toca e espera 1 seg, toca
+        <br>- toca e espera 2 seg, toca e espera 2 seg, toca
         </p>
     ]]></string>
 
@@ -419,7 +419,7 @@
 
     <string name="info_dialog_pulse"><![CDATA[Conexão bluetooth necessária para monitorar a pulsação.
         <p>As medições iniciadas manualmente (na Mi band 2 ou  na aplicação Mi Fit) também são registadas quando a monitoração de pulso é iniciada.</p>
-        <p>O monitor de pulso é repetido várias vezes se o valor resultante for inválido.<p>]]>
+        <p>A leitura da pulsação é repetida várias vezes se o valor medido for inválido.<p>]]>
     </string>
 
     <!-- Lost  monitoring -->
@@ -434,16 +434,16 @@
     <string name="alarm_mi_band_on_bluetooth_disabled_text">O sinal da monitorização de perda da Mi Band 2 está ativo.</string>
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Tempo do alarme: %1$s</string>
 
-    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Sinais da Mi Band 2</u></b>
-        <p>Quando o período de tempo especificado expirar, a Mi Band 2 envia sinais se não estiver conectado ao dispositivo.</p>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Mi Band 2</u></b>
+        <p>Quando o período de tempo especificado expirar, a Mi Band 2 vibra se não estiver conectada ao dispositivo.</p>
         <p>A aplicação usa a função de alarme da Mi Fit para alertar (substitui a configuração).</p>
         <p>O alarme será repetido várias vezes se a Mi Band 2 não detectar qualquer movimento (porque usa o alarme de fábrica).</p>
         <p>Antes de desligar o Bluetooth ou desinstalar a aplicação, você precisa de desativar o sinal da Mi Band 2.</p>
-        <p>Se você remover a aplicação quando o alarme estiver ativado, então você pode desabilitá-lo com a ativação e desativação do ajuste do alarme na Mi Fit.</p>
+        <p>Se você remover a aplicação quando o alarme estiver ativado, então você pode desabilitá-lo com a ativação e desativação do alarme na Mi Fit.</p>
 
-        <img src="ic_phone_android"> <b><u>Sinais do dispositivo</u></b>
-        <p>Quando o período de tempo especificado expirar, o dispositivo envia sinais repetidamente se não estiver conectado à Mi Band 2.</p>
-        <p>Isso torna mais fácil encontrar o dispositivo. Se alguém encontrar o dispositivo e ele estiver bloqueado, ele não saberá quem notificar, para que você possa receber uma mensagem.</p>
+        <img src="ic_phone_android"> <b><u>Dispositivo</u></b>
+        <p>Quando o período de tempo especificado expirar, o dispositivo emite sinais (vibrar/tocar) repetidamente se não estiver conectado à Mi Band 2.</p>
+        <p>A mensagem que é mostrada torna mais fácil encontrar o dispositivo, mas para isso terás de adicionar alguns números. Se alguém encontrar o dispositivo e ele estiver bloqueado, esse alguém saberá quem notificar, para que você possa receber uma mensagem.</p>
         <p>Quando a pulseira reconectar, o alarme pára.</p>
         <p>Deve ser habilitado para exibir a notificação na tela de bloqueio.</p>]]>
     </string>
@@ -502,13 +502,13 @@
     <string name="time_enable_bluetooth">Liga o Bluetooth</string>
 
     <string name="info_dialog_time"><![CDATA[
-        <p><b>Desliga o alarma, o temporizador e o cronómetro antes de removeres a aplicação.</b></p>
+        <p><b>Desliga o alarme, o temporizador e o cronómetro antes de removeres a aplicação.</b></p>
         <img src="ic_miband_bell"> <b><u>Toque</u></b>
-        <p>Conexão Bluetooth necessária para o alarme (uma vez em 10 segundos).</p>
+        <p>Conexão Bluetooth necessária para o alarme (1 vez em 10 segundos).</p>
         <img src="ic_alarm"> <b><u>Alarme</u></b>
-        <p>Conexão Bluetooth não é necessária para o alarme. A aplicação usa o alarme da Mi Fit para alertar (Sobrescreve 4-9).
-        <br>O alarme será repetido várias vezes se a Mi Band 2 não detectar qualquer movimento (porque ele usa o alarme de fábrica).</p>
-        <p>O sinal de lembrete requer uma ligação Bluetooth.</p>
+        <p>Conexão Bluetooth necessária para o alarme. A aplicação usa o alarme da Mi Fit para alertar (Sobrescreve alguns).
+        <br>O alarme será repetido várias vezes se a Mi Band 2 não detectar qualquer movimento (porque ela usa o alarme de fábrica).</p>
+        <p>O lembrete requer uma ligação Bluetooth.</p>
     ]]></string>
 
     <!-- Agent -->
@@ -522,22 +522,22 @@
     <string name="pref_disconnected_agent_screen_on_and_motion_title">Monitorar ativação e movimento</string>
 
     <!-- Agent log info dialog -->
-    <string name="info_dialog_disconnected_agent"><![CDATA[Eventos detetados pelo agente de gerenciamento de dispositivos:
-        <br>- ligar
-        <br>- desbloquear o ecrã
-        <br>- movimentação
+    <string name="info_dialog_disconnected_agent"><![CDATA[Eventos detetados pelo agente:
+        <br>- ligar ecrã
+        <br>- desbloquear o dispositivo
+        <br>- movimento (através do giroscópio deteta quando está na horizontal e na vertical)
 
-        <p>Se alguém operar o telemóvel enquanto você estiver ausente, os eventos acima serão registrados. </ P>
-        <p> Quando você se reconectar, você receberá uma notificação no caso de um evento ocorrer.</p>]]>
+        <p>Se alguém operar o dispositivo enquanto estiveres ausente, os eventos acima serão registrados. </ P>
+        <p> Quando a Mi Band reconectar, tu receberás uma notificação no caso de haver eventos registados.</p>]]>
     </string>
 
 <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Termos e condições do Modo recompensa</string>
     <string name="rewarded_policy"><![CDATA[
-        <p>- Inicio da validade: hora atual
-        <br>- Fim da validade: Inicio da validade + pelo menos %1$,d dias (dependendo dos anúcios isto pode ser mais)
+        <p>- Início da validade: hora atual
+        <br>- Fim da validade: Início da validade + pelo menos %1$,d dias (dependendo dos anúcios isto pode ser mais)
         <br>- Manipular o tempo pode causar o término da validade</p>
-        <i>Depois de reproduzir o video você precisa de reiniciar a aplicação.</i>
+        <i>Depois de reproduzires o video precisas de reiniciar a aplicação.</i>
     ]]></string>
 
     <string name="rewarded_advantage_banner_title">Bloquear banners</string>
@@ -563,10 +563,10 @@
     <string name="purchase_policy_title">Termos e condições do modo premium</string>
     <string name="purchase_policy"><![CDATA[
         <p>- Eu testei a aplicação e ela está a funcionar corretamente.
-        <br>- Eu estou ciente de que não posso exigir compensação ou reembolso devido a bugs, erros de software causados ​​por alterações no software, ambiente do hardware ou outras aplicações usadas.
-        <br>- Todas as vendas são finais e não podem ser reembolsadas (exceto a política de reembolso do Google).
+        <br>- Eu estou ciente de que não posso exigir compensação ou reembolso devido a bugs, erros de software causados ​​por alterações, ambiente do hardware ou outras aplicações usadas.
+        <br>- Todas as vendas são finais e não podem ser reembolsadas (exceto pela política de reembolso do Google).
         <br>- Não há garantia incluída.</p>
-        <p><i>Depois de comprar, você precisa de reiniciar a aplicação.</i></p>
+        <p><i>Depois da compra, precisas de reiniciar a aplicação.</i></p>
     ]]></string>
 
     <string name="purchase_agree">Eu concordo com os Termos e Condições.</string>
@@ -588,8 +588,8 @@
     <string name="vibration_times">Número de vibrações</string>
 
     <!-- Hack -->
-    <string name="info_dialog_hack"><![CDATA[Ferramenta de hack detetada no seu dispositivo.
-        <p>Enquanto tiver a ferramenta de hack instalada o modo premium não vai estar disponivel</p>
+    <string name="info_dialog_hack"><![CDATA[Ferramenta de hack detetada!
+        <p>Enquanto a ferramenta de hack tiver instalada, o modo premium não vai estar disponivel</p>
         <p>Eu gastei muito tempo a desenvolver esta aplicação. Por favor, não use ferramentas de hack.</p>]]>
     </string>
 
