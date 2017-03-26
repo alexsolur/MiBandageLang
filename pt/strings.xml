@@ -256,7 +256,7 @@
     <string name="notification_group_pre_only_premium">Modo premium</string>
     <string name="notification_group_immediate">Emitir sinal quando receber a notificação</string>
     <string name="notification_group_connecting">Emitir sinal quando conectar ao dispositivo</string>
-    <string name="notification_group_reminder">Sinal do lembrete</string>
+    <string name="notification_group_reminder">Lembrete</string>
     <string name="notification_group_screen_off">Emitir sinal quando o ecrã estiver desligado</string>
     <string name="notification_group_counter_title">Cardinalidade dos sinais</string>
     <string name="notification_group_wakelock">Acordar o ecrã do dispositivo</string>
@@ -399,7 +399,7 @@
     <string name="pulse_tab_day">Gráficos diários</string>
 
     <string name="pulse_title_signals">Sinais</string>
-    <string name="pulse_signal_start_title">Monitorar sinal de começo</string>
+    <string name="pulse_signal_start_title">Sinal de começo</string>
     <string name="pulse_signal_show_title">Mostrar pulsação</string>
     <string name="pulse_signal_end_low_title">Sinal de pulsação baixa</string>
     <string name="pulse_signal_end_low_value_title">BPM</string>
@@ -407,7 +407,7 @@
     <string name="pulse_signal_end_value_title">BPM</string>
 
     <string name="pulse_title_timing_validity">Temporização e validez</string>
-    <string name="pulse_interval_title">Monitora intervalo de repetição da pulsação</string>
+    <string name="pulse_interval_title">Tempo para repetir a leitura de pulsação</string>
     <string name="pulse_time_start">Hora de início</string>
     <string name="pulse_time_end">Hora de fim</string>
     <string name="pulse_time_set_next">Temporização para a próxima monitorização</string>
@@ -516,10 +516,10 @@
     <string name="agent_tab_events">Registo do agente</string>
     <string name="agent_tab_settings">Definições</string>
 
-    <string name="pref_disconnected_agent_summary_on">Se alguém mexer no seu dispositivo, você saberá</string>
-    <string name="pref_disconnected_agent_text">Alguém mexeu no seu dispositivo enquanto você se ausentou</string>
-    <string name="pref_disconnected_agent_user_present_title">Monitorar o despertar do dispositivo</string>
-    <string name="pref_disconnected_agent_screen_on_and_motion_title">Monitorar ativação e movimento</string>
+    <string name="pref_disconnected_agent_summary_on">Se alguém mexer no seu dispositivo, tu saberás</string>
+    <string name="pref_disconnected_agent_text">Alguém mexeu no teu dispositivo enquanto te ausentas-te</string>
+    <string name="pref_disconnected_agent_user_present_title">Monitorar o desbloqueio do dispositivo</string>
+    <string name="pref_disconnected_agent_screen_on_and_motion_title">Monitorar o despertar/movimento do dispositivo</string>
 
     <!-- Agent log info dialog -->
     <string name="info_dialog_disconnected_agent"><![CDATA[Eventos detetados pelo agente:
