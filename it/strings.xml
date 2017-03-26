@@ -5,12 +5,12 @@
     <string name="navigation_drawer_close">Chiudi menu navigazione</string>
 
     <string name="drawer_nav_home">Bandages</string>
-    <string name="drawer_nav_notification">Gestione notifiche</string>
-    <string name="drawer_nav_touch">Gestione tocco</string>
-    <string name="drawer_nav_alarm">Gestione smarrimento</string>
-    <string name="drawer_nav_step">Gestione passi</string>
-    <string name="drawer_nav_pulse">Gestione battiti</string>
-    <string name="drawer_nav_time">Gestione timer</string>
+    <string name="drawer_nav_notification">Notifiche</string>
+    <string name="drawer_nav_touch">Tocco</string>
+    <string name="drawer_nav_alarm">Smarrimento</string>
+    <string name="drawer_nav_step">Passi</string>
+    <string name="drawer_nav_pulse">Battiti</string>
+    <string name="drawer_nav_time">Timer</string>
     <string name="drawer_nav_disconnected_agent">Eventi</string>
     <string name="drawer_nav_rewarded_mode">Modalità Ricompensa</string>
     <string name="drawer_nav_premium_mode">Modalità Premium</string>
@@ -43,7 +43,7 @@
     <string name="mi_band_mac_address_invalid">MAC address non valido</string>
 
     <!-- PreferenceScreen -->
-    <string name="pref_connected">Impostazioni connessione</string>
+    <string name="pref_connected">Connessione</string>
     <string name="pref_connected_summary">Imposta comportamento alla connessione dispositivo e Mi Band 2</string>
     <string name="pref_cat_connected_no_notif">Abilitare o no notifica connessione Mi Band 2</string>
     <string name="pref_cat_connected_have_notif">Notifiche predefinite per app e Mi Band 2</string>
@@ -72,7 +72,7 @@
     <string name="pref_foreground_service_summary">Android tende a chiudere i servizi aperti in secondo piano solo quando c\'è poca memoria. Se vedi che non ti arrivano più le notifiche attiva questa funzione per evitare che venga chiusa l\'app.</string>
     <string name="pref_foreground_service_color_title">Colore icona</string>
 
-    <string name="pref_disconnected">Impostazioni disconnessione</string>
+    <string name="pref_disconnected">Disconnessione</string>
     <string name="pref_disconnected_summary">Imposta comportamento in caso di disconnessione tra dispositivo e Mi Band 2</string>
     <string name="pref_cat_disconnected">Notifiche dispositivo</string>
     <string name="pref_disconnected_ringtone_title">Suoneria</string>
@@ -94,7 +94,7 @@
     <string name="pref_abandoned_wakelock_title">Attiva il display</string>
     <string name="pref_abandoned_notif_title">Dispositivo smarrito</string>
 
-    <string name="pref_call">Impostazioni chiamata</string>
+    <string name="pref_call">Chiamata</string>
     <string name="pref_call_summary">Imposta notifiche su Mi Band 2</string>
     <string name="pref_cat_call">Ricezione chiamate</string>
     <string name="pref_call_title">Notifica chiamata in arrivo</string>
@@ -123,7 +123,7 @@
     <string name="pref_call_missed_text_prefix_summary">Se più app usano la stessa icona usa questo testo per differenziarle</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Testo identificativo</string>
 
-    <string name="pref_text_conversion">Impostazione icona con testi</string>
+    <string name="pref_text_conversion">Icona con testi</string>
     <string name="pref_text_conversion_summary">Imposta icona con testi su Mi Band 2</string>
     <string name="pref_cat_text_conversion">Notifica Mi Band 2</string>
     <string name="pref_text_conversion_title">Converti caratteri</string>
@@ -144,14 +144,14 @@
         <br/>8. Imposta nuovamente la lingua del telefono su Italiano.</p>]]>
     </string>
 
-    <string name="pref_touch">Impostazione controllo tocco</string>
+    <string name="pref_touch">Controllo tocco</string>
     <string name="pref_touch_summary"></string>
     <string name="pref_cat_touch">Notifica Mi Band 2</string>
     <string name="pref_touch_recognised_failed_title">Notifica sequenza tocco non riconosciuta</string>
     <string name="pref_touch_recognised_failed_summary_off">Off</string>
     <string name="pref_touch_recognised_failed_summary_on">On (vibra 2 volte dopo la sequenza di tocchi)</string>
 
-    <string name="pref_mi_band">Impostazioni Mi Band 2</string>
+    <string name="pref_mi_band">Mi Band 2</string>
     <string name="pref_cat_mi_band_lift_wrist">Solleva il polso per visualizzare le info</string>
     <string name="pref_mi_band_lift_wrist_title">Solleva il polso per visualizzare le info</string>
     <string name="pref_mi_band_lift_wrist_summary_on">On</string>
@@ -162,11 +162,11 @@
     <string name="pref_mi_band_lift_wrist_dnd_time_start_title">Ora inizio</string>
     <string name="pref_mi_band_lift_wrist_dnd_time_end_title">Ora fine</string>
 
-    <string name="pref_theme">Impostazione tema</string>
+    <string name="pref_theme">Tema</string>
     <string name="pref_cat_theme">Tema</string>
     <string name="pref_theme_title">Scegli tema</string>
 
-    <string name="pref_language">Impostazione lingua</string>
+    <string name="pref_language">Lingua</string>
     <string name="pref_cat_language">Lingua</string>
     <string name="pref_language_title">Lingua</string>
 
