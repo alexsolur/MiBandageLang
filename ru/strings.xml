@@ -212,10 +212,10 @@
 
     <string name="message_internet_error">Нет подключения к Интернету</string>
 
-    <string name="message_time_alarm_free_counter">Up to 2 alarm can be used in normal mode</string>
-    <string name="message_time_alarm_max_counter">Maximum 5 alarms can be used</string>
-    <string name="message_time_alarm_enabled">Alarm enabled</string>
-    <string name="message_time_alarm_disabled">Alarm disabled</string>
+    <string name="message_time_alarm_free_counter">До 2 будильников может быть уставлено в обычном режиме</string>
+    <string name="message_time_alarm_max_counter">Максимум 5 будильников может быть уставлено</string>
+    <string name="message_time_alarm_enabled">Будильник включён</string>
+    <string name="message_time_alarm_disabled">Будильник выключен</string>
 
     <string name="message_alarm_free_interval">Меньшие промежутки могут быть установлены в премиуме</string>
     <string name="message_alarm_mi_band_set_failed">Не удалось установить будильник</string>
@@ -449,17 +449,17 @@
     </string>
 
     <!-- Time  monitoring -->
-    <string name="time_tab_alarm">Alarm</string>
+    <string name="time_tab_alarm">Будильник</string>
     <string name="time_tab_timer">Таймер</string>
     <string name="time_tab_stopper">Секундомер</string>
     <string name="time_tab_lap">Время круга</string>
 
-    <string name="action_alarm_device">Factory alarm</string>
-    <string name="time_alarm_title">Title</string>
-    <string name="time_alarm_pre_alarm">Переодическое уведомление, оставшееся время</string>
-    <string name="time_alarm_pre_alarm_interval_title">Уведомлять заранее</string>
+    <string name="action_alarm_device">Будильник Mi</string>
+    <string name="time_alarm_title">Название</string>
+    <string name="time_alarm_pre_alarm">Сигнал до будильника</string>
+    <string name="time_alarm_pre_alarm_interval_title">Сигнал до будильника за</string>
     <string name="time_alarm_pre_alarm_type_vibrate_title">Вибрация</string>
-    <string name="time_alarm_pre_alarm_type_remaining_title">Оставшееся время</string>
+    <string name="time_alarm_pre_alarm_type_remaining_title">Мин. до звонка</string>
 
     <string name="time_timer_time_alert">Время сигнала</string>
     <string name="time_timer_time_remaining">Оставшееся время</string>
@@ -499,10 +499,10 @@
     <string name="time_text">Отображать сообщение</string>
     <string name="time_text_message">Текст</string>
 
-    <string name="time_enable_bluetooth">Turn on Bluetooth</string>
+    <string name="time_enable_bluetooth">Включить Bluetooth</string>
 
     <string name="info_dialog_time"><![CDATA[
-        <p><b>Turn off the alarm, timer and stopwatch before the application is removed.</b></p>
+        <p><b>Выключите будильники, таймер и секундомер перед удалением приложения.</b></p>
         <img src="ic_miband_bell"> <b><u>Уведомление</u></b>
         <p>Bluetooth-соединение необходимо для сигнала, один сигнал длительностью 10 секунд.</p>
         <img src="ic_alarm"> <b><u>Будильник</u></b>
@@ -582,10 +582,10 @@
     <string name="feedback_request_feature_summary">Автоматическая обработка электронной почты, без ответа (Английский настоятельно рекомендуется)</string>
 
     <!-- Vibration dialog -->
-    <string name="vibration_title">Vibration setting</string>
-    <string name="vibration_intensity">Intensity</string>
-    <string name="vibration_pause">Pause</string>
-    <string name="vibration_times">Times</string>
+    <string name="vibration_title">Настройки вибрации</string>
+    <string name="vibration_intensity">Продолжительность</string>
+    <string name="vibration_pause">Пауза</string>
+    <string name="vibration_times">Повторы</string>
 
     <!-- Hack -->
     <string name="info_dialog_hack"><![CDATA[Программа-взломщик обнаружена на устройстве.
