@@ -105,6 +105,20 @@
         <item>com.spotify.music</item>
     </string-array>
 
+    <string-array name="touch_music_info">
+        <item>No notification</item>
+        <item>Artist#Title</item>
+        <item>Artist, Title</item>
+        <item>Title</item>
+    </string-array>
+
+    <string-array name="touch_music_info_values">
+        <item>NONE</item>
+        <item>ARTIST#TITLE</item>
+        <item>ARTIST_TITLE</item>
+        <item>TITLE</item>
+    </string-array>
+
     <!--<string-array name="pref_pulse_interval">-->
         <!--<item>1 λεπτό</item>-->
         <!--<item>2 λεπτά</item>-->
@@ -247,6 +261,7 @@
         <item>Türk</item>
         <item>Tiếng Việt</item>
         <item>Italiano</item>
+        <item>Español</item>
     </string-array>
 
     <string-array name="pref_language_values">
@@ -259,5 +274,6 @@
         <item>tr</item>
         <item>vi</item>
         <item>it</item>
+        <item>es</item>
     </string-array>
 </resources>
