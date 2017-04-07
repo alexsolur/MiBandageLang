@@ -212,10 +212,10 @@
 
     <string name="message_internet_error">Không có mạng</string>
 
-    <string name="message_time_alarm_free_counter">Up to 2 alarm can be used in normal mode</string>
-    <string name="message_time_alarm_max_counter">Maximum 5 alarms can be used</string>
-    <string name="message_time_alarm_enabled">Alarm enabled</string>
-    <string name="message_time_alarm_disabled">Alarm disabled</string>
+    <string name="message_time_alarm_free_counter">Có thể sử dụng tới 2 báo thức ở chế độ bình thường</string>
+    <string name="message_time_alarm_max_counter">Tối đa 5 báo thức có thể sử dụng</string>
+    <string name="message_time_alarm_enabled">Báo thức đang bật</string>
+    <string name="message_time_alarm_disabled">Báo thức đang tắt</string>
 
     <string name="message_alarm_free_interval">Khoảng thời gian lặp lại nhỏ hơn có thể được cài đặt chỉ trong bản nâng cấp</string>
     <string name="message_alarm_mi_band_set_failed">Cài đặt báo thức thất bại</string>
@@ -328,6 +328,7 @@
     <string name="touch_music_headset_only_title">Chỉ khi tai nghe được kết nối</string>
     <string name="touch_music_volume_up_title">Tăng âm lượng nhạc</string>
     <string name="touch_music_volume_down_title">Giảm âm lượng nhạc</string>
+    <string name="touch_music_track_info_title">Show music track info.</string>
 
     <string name="touch_time_launch_title">Bắt đầu hẹn giờ/ bấm giờ</string>
     <string name="touch_time_launch_type_timer_title">Hẹn giờ</string>
@@ -449,13 +450,13 @@
     </string>
 
     <!-- Time  monitoring -->
-    <string name="time_tab_alarm">Alarm</string>
+    <string name="time_tab_alarm">Báo thức</string>
     <string name="time_tab_timer">Hẹn giờ</string>
     <string name="time_tab_stopper">Đồng hố bấm giờ</string>
     <string name="time_tab_lap">Vòng thời gian</string>
 
-    <string name="action_alarm_device">Factory alarm</string>
-    <string name="time_alarm_title">Title</string>
+    <string name="action_alarm_device">Báo thức mặc định</string>
+    <string name="time_alarm_title">Tiêu đề</string>
     <string name="time_alarm_pre_alarm">Tín hiệu nhắc nhở, thời gian còn lại</string>
     <string name="time_alarm_pre_alarm_interval_title">Trước thời gian</string>
     <string name="time_alarm_pre_alarm_type_vibrate_title">Rung</string>
@@ -499,10 +500,10 @@
     <string name="time_text">Hiển thị tin nhắn</string>
     <string name="time_text_message">Văn bản</string>
 
-    <string name="time_enable_bluetooth">Turn on Bluetooth</string>
+    <string name="time_enable_bluetooth">Bật Bluetooth</string>
 
     <string name="info_dialog_time"><![CDATA[
-        <p><b>Turn off the alarm, timer and stopwatch before the application is removed.</b></p>
+        <p><b>Turn off the alarm, timer and stopwatch before removing the application.</b></p>
         <img src="ic_miband_bell"> <b><u>Bell</u></b>
         <p>Bluetooth connection is required for alarm, it alarms just only once for 10 seconds.</p>
         <img src="ic_alarm"> <b><u>Alarm</u></b>
@@ -582,10 +583,10 @@
     <string name="feedback_request_feature_summary">Xử lý e-mail tự động, bạn sẽ không nhận được phản hồi</string>
 
     <!-- Vibration dialog -->
-    <string name="vibration_title">Vibration setting</string>
-    <string name="vibration_intensity">Intensity</string>
-    <string name="vibration_pause">Pause</string>
-    <string name="vibration_times">Times</string>
+    <string name="vibration_title">Cài đặt rung</string>
+    <string name="vibration_intensity">Cường độ</string>
+    <string name="vibration_pause">Dừng</string>
+    <string name="vibration_times">Thời gian</string>
 
     <!-- Hack -->
     <string name="info_dialog_hack"><![CDATA[Hack tool detected on device.
@@ -622,4 +623,4 @@
         <item quantity="other">%d phút</item>
     </plurals>
 
-</resources>
+ </resources>
