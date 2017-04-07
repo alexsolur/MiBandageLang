@@ -43,7 +43,7 @@
     <string name="mi_band_mac_address_invalid">MAC address is invalid</string>
 
     <!-- PreferenceScreen -->
-    <string name="pref_connected">Connection settings</string>
+    <string name="pref_connected">Connection</string>
     <string name="pref_connected_summary">Mi Band 2 and device connection signal settings</string>
     <string name="pref_cat_connected_no_notif">Mi Band 2 connecting and not have notification</string>
     <string name="pref_cat_connected_have_notif">Predefined app and Mi Band 2 signal</string>
@@ -72,7 +72,7 @@
     <string name="pref_foreground_service_summary">The Android system force-stops a service only when memory is low. If after a while does not appear the notifications on the Band 2, you can prevent this.</string>
     <string name="pref_foreground_service_color_title">Icon color</string>
 
-    <string name="pref_disconnected">Disconnection settings</string>
+    <string name="pref_disconnected">Disconnection</string>
     <string name="pref_disconnected_summary">Mi Band 2 and device disconnection signal settings</string>
     <string name="pref_cat_disconnected">Device signals</string>
     <string name="pref_disconnected_ringtone_title">Ringtone</string>
@@ -94,7 +94,7 @@
     <string name="pref_abandoned_wakelock_title">Wake up the screen</string>
     <string name="pref_abandoned_notif_title">The device is lost</string>
 
-    <string name="pref_call">Call settings</string>
+    <string name="pref_call">Call</string>
     <string name="pref_call_summary">Mi Band 2 signal settings</string>
     <string name="pref_cat_call">Incoming call</string>
     <string name="pref_call_title">Incoming call signal</string>
@@ -123,7 +123,7 @@
     <string name="pref_call_missed_text_prefix_summary">If more than one app also uses the icon to differentiate notifications from each other</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Text prefix</string>
 
-    <string name="pref_text_conversion">Text icons settings</string>
+    <string name="pref_text_conversion">Text icons</string>
     <string name="pref_text_conversion_summary">Mi Band 2 text icon settings</string>
     <string name="pref_cat_text_conversion">Mi Band 2 signal</string>
     <string name="pref_text_conversion_title">Characters conversion</string>
@@ -144,14 +144,14 @@
         <br/>8. Set phone language back to your language.</p>]]>
     </string>
 
-    <string name="pref_touch">Touch monitoring settings</string>
+    <string name="pref_touch">Touch monitoring</string>
     <string name="pref_touch_summary"></string>
     <string name="pref_cat_touch">Mi Band 2 signal</string>
     <string name="pref_touch_recognised_failed_title">Not recognisable touch pattern signal</string>
     <string name="pref_touch_recognised_failed_summary_off">Off</string>
     <string name="pref_touch_recognised_failed_summary_on">On (2 vibrations after the longest pattern)</string>
 
-    <string name="pref_mi_band">Mi Band 2 settings</string>
+    <string name="pref_mi_band">Mi Band 2</string>
     <string name="pref_cat_mi_band_lift_wrist">Lift wrist to view info</string>
     <string name="pref_mi_band_lift_wrist_title">Lift wrist to view info</string>
     <string name="pref_mi_band_lift_wrist_summary_on">On</string>
@@ -162,11 +162,11 @@
     <string name="pref_mi_band_lift_wrist_dnd_time_start_title">Start time</string>
     <string name="pref_mi_band_lift_wrist_dnd_time_end_title">End time</string>
 
-    <string name="pref_theme">Theme settings</string>
+    <string name="pref_theme">Theme</string>
     <string name="pref_cat_theme">Theme</string>
     <string name="pref_theme_title">Select a theme</string>
 
-    <string name="pref_language">Language settings</string>
+    <string name="pref_language">Language</string>
     <string name="pref_cat_language">Language</string>
     <string name="pref_language_title">Language</string>
 
@@ -328,6 +328,7 @@
     <string name="touch_music_headset_only_title">Only if the headset is connected</string>
     <string name="touch_music_volume_up_title">Music volume up</string>
     <string name="touch_music_volume_down_title">Music volume down</string>
+    <string name="touch_music_track_info_title">Show music track info.</string>
 
     <string name="touch_time_launch_title">Start timer/stopwatch</string>
     <string name="touch_time_launch_type_timer_title">Timer</string>
@@ -502,7 +503,7 @@
     <string name="time_enable_bluetooth">Turn on Bluetooth</string>
 
     <string name="info_dialog_time"><![CDATA[
-        <p><b>Turn off the alarm, timer and stopwatch before the application is removed.</b></p>
+        <p><b>Turn off the alarm, timer and stopwatch before removing the application.</b></p>
         <img src="ic_miband_bell"> <b><u>Bell</u></b>
         <p>Bluetooth connection is required for alarm, it alarms just only once for 10 seconds.</p>
         <img src="ic_alarm"> <b><u>Alarm</u></b>
@@ -583,7 +584,7 @@
 
     <!-- Vibration dialog -->
     <string name="vibration_title">Vibration setting</string>
-    <string name="vibration_intensity">Intensity</string>
+    <string name="vibration_intensity">Duration</string>
     <string name="vibration_pause">Pause</string>
     <string name="vibration_times">Times</string>
 
@@ -621,6 +622,5 @@
         <item quantity="many">%d minutes</item>
         <item quantity="other">%d minutes</item>
     </plurals>
-
 
 </resources>
