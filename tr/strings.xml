@@ -49,7 +49,7 @@
     <string name="pref_cat_connected_have_notif">Onceden tanımlanmış uygulama ve Mi Band 2 sinyal</string>
     <string name="pref_cat_connected_have_notif_default">Önceden tanımlı ve özel ayarlar</string>
     <string name="pref_connected_no_notif_title">Mi Band 2 uyarısı</string>
-    <string name="pref_connected_no_notif_summary_on">Titresim</string>
+    <string name="pref_connected_no_notif_summary_on">Titreşim</string>
     <string name="pref_connected_no_notif_summary_off">Hayır</string>
     <string name="pref_connected_no_notif_wakelock_title">Cihaz ekranını uyandırma</string>
     <string name="pref_connected_no_notif_wakelock_summary_on">calıstır</string>
@@ -77,7 +77,7 @@
     <string name="pref_cat_disconnected">Aygıt uyarıları</string>
     <string name="pref_disconnected_ringtone_title">Zil sesi</string>
     <string name="pref_disconnected_ringtone_summary_no">Yok</string>
-    <string name="pref_disconnected_vibration_title">Titresim</string>
+    <string name="pref_disconnected_vibration_title">Titreşim</string>
     <string name="pref_disconnected_vibration_summary_on">Calıstır</string>
     <string name="pref_disconnected_vibration_summary_off">Durdur</string>
     <string name="pref_disconnected_wakelock_title">Cihaz ekranını uyandırma</string>
@@ -90,7 +90,7 @@
     <string name="pref_abandoned_notif_text_text">Cihaz kayboldu, lütfen aşağıdaki numaraları arayın:</string>
     <string name="pref_abandoned_ringtone_title">Zil sesi</string>
     <string name="pref_abandoned_ringtone_summary_no">Yok</string>
-    <string name="pref_abandoned_vibration_title">Titresim</string>
+    <string name="pref_abandoned_vibration_title">Titreşim</string>
     <string name="pref_abandoned_wakelock_title">Ekranı uyandır</string>
     <string name="pref_abandoned_notif_title">Cihaz kayıp</string>
 
@@ -212,10 +212,10 @@
 
     <string name="message_internet_error">İnternet bağlantısı yok</string>
 
-    <string name="message_time_alarm_free_counter">Up to 2 alarm can be used in normal mode</string>
-    <string name="message_time_alarm_max_counter">Maximum 5 alarms can be used</string>
-    <string name="message_time_alarm_enabled">Alarm enabled</string>
-    <string name="message_time_alarm_disabled">Alarm disabled</string>
+    <string name="message_time_alarm_free_counter">Normal modda en fazla 2 alarm kullanılabilir</string>
+    <string name="message_time_alarm_max_counter">Maksimum 5 alarm kullanılabilir</string>
+    <string name="message_time_alarm_enabled">Alarm etkin</string>
+    <string name="message_time_alarm_disabled">Alarm devre dışı</string>
 
     <string name="message_alarm_free_interval">Daha küçük tekrar aralığı yalnızca premium modda ayarlanabilir</string>
     <string name="message_alarm_mi_band_set_failed">Alarmın ayarlanması başarısız</string>
@@ -328,6 +328,7 @@
     <string name="touch_music_headset_only_title">Yalnızca kulaklıklı mikrofon seti bağlıysa</string>
     <string name="touch_music_volume_up_title">Müzik sesi artır</string>
     <string name="touch_music_volume_down_title">Müzik sesi azalt</string>
+    <string name="touch_music_track_info_title">Show music track info.</string>
 
     <string name="touch_time_launch_title">Zamanlayıcıyı / kronometreyi başlat</string>
     <string name="touch_time_launch_type_timer_title">Zamanlayıcı</string>
@@ -454,11 +455,11 @@
     <string name="time_tab_stopper">Kronometre</string>
     <string name="time_tab_lap">Tur zamanı</string>
 
-    <string name="action_alarm_device">Factory alarm</string>
-    <string name="time_alarm_title">Title</string>
-    <string name="time_alarm_pre_alarm">Hatırlatma uyarısı, kalan süre</string>
+    <string name="action_alarm_device">Fabrika alarmı</string>
+    <string name="time_alarm_title">Başlık</string>
+    <string name="time_alarm_pre_alarm">Hatırlatma sinyali, kalan süre</string>
     <string name="time_alarm_pre_alarm_interval_title">Zamanından önce</string>
-    <string name="time_alarm_pre_alarm_type_vibrate_title">Titresim</string>
+    <string name="time_alarm_pre_alarm_type_vibrate_title">Titreşim</string>
     <string name="time_alarm_pre_alarm_type_remaining_title">Kalan süre</string>
 
     <string name="time_timer_time_alert">Alarm zamanı</string>
@@ -499,10 +500,10 @@
     <string name="time_text">Mesajı göster</string>
     <string name="time_text_message">Metin</string>
 
-    <string name="time_enable_bluetooth">Turn on Bluetooth</string>
+    <string name="time_enable_bluetooth">Bluetooth\'u aç</string>
 
     <string name="info_dialog_time"><![CDATA[
-         <p><b>Turn off the alarm, timer and stopwatch before the application is removed.</b></p>
+         <p><b>Turn off the alarm, timer and stopwatch before removing the application.</b></p>
          <img src="ic_miband_bell"> <b><u>Çan</u></b>
          <p>Alarm için Bluetooth bağlantısı gereklidir, yalnızca 10 saniye boyunca yalnızca bir kez alarm verir.</p>
          <img src="ic_alarm"> <b><u>Alarm</u></b>
@@ -582,10 +583,10 @@
     <string name="feedback_request_feature_summary">Otomatik e-posta işleme, cevap alamazsın</string>
 
     <!-- Vibration dialog -->
-    <string name="vibration_title">Vibration setting</string>
-    <string name="vibration_intensity">Intensity</string>
-    <string name="vibration_pause">Pause</string>
-    <string name="vibration_times">Times</string>
+    <string name="vibration_title">Titreşim ayarı</string>
+    <string name="vibration_intensity">Yoğunluk</string>
+    <string name="vibration_pause">Duraklat</string>
+    <string name="vibration_times">Zamanlama</string>
 
     <!-- Hack -->
     <string name="info_dialog_hack"><![CDATA[Hack aracı tespit cihazı.
