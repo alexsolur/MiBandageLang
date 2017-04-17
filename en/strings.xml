@@ -260,6 +260,10 @@
     <string name="notification_group_screen_off">Signal only when the screen is off</string>
     <string name="notification_group_counter_title">The number of signals</string>
     <string name="notification_group_wakelock">Wake up the device screen</string>
+    <string name="notification_group_filter">Filtering notifications</string>
+    <string name="notification_group_filter_hint">Signal only when the notification (delimiter: enter, case insensitive)</string>
+    <string name="notification_group_filter_contains">Contains any phrases</string>
+    <string name="notification_group_filter_not_contains">Contains none phrases</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Predefined app and Mi Band 2 icon signals:
@@ -553,12 +557,14 @@
     <string name="purchase_advantage_title">Premium mode advantages</string>
     <string name="purchase_advantage"><![CDATA[
         - ad-free
+        <br>- do not disturb mode
         <br>- unlimited notification monitoring
         <br>- unlimited touch monitoring
-        <br>- text prefix can be used in notification monitoring
+        <br>- text prefix, pre icon and filtering text can be used in notification monitoring
+        <br>- repeat interval can be set freely in step monitoring function
         <br>- repeat interval can be set freely and show pulse can be used in pulse monitoring function
         <br>- repeat interval can be set freely and dnd mode can be used in lost monitoring function
-        <br>- repeated reminders can be set freely in time monitoring
+        <br>- repeated reminders, show message and turn on bluetooth can be set freely in time monitoring
         <br>- …
     ]]></string>
     <string name="purchase_policy_title">Terms and conditions of Premium mode</string>
@@ -622,5 +628,6 @@
         <item quantity="many">%d minutes</item>
         <item quantity="other">%d minutes</item>
     </plurals>
+
 
 </resources>
