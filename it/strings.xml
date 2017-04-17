@@ -260,6 +260,10 @@
     <string name="notification_group_screen_off">Notifica solo a schermo spento</string>
     <string name="notification_group_counter_title">Numero di notifiche</string>
     <string name="notification_group_wakelock">Attiva schermo dispositivo</string>
+    <string name="notification_group_filter">Filtering notifications</string>
+    <string name="notification_group_filter_hint">Signal only when the notification (delimiter: enter, case insensitive)</string>
+    <string name="notification_group_filter_contains">Contains any phrases</string>
+    <string name="notification_group_filter_not_contains">Contains none phrases</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Icone predefinite in Mi Band 2:
@@ -553,9 +557,11 @@
     <string name="purchase_advantage_title">Vantaggi modalità premium</string>
     <string name="purchase_advantage"><![CDATA[
         - Senza pubblicità
+        <br>- Modalità non disturbare
         <br>- Monitoraggio notifiche illimitato
         <br>- Monitoraggio tocco illimitato
         <br>- Il testo identificativo può essere usato nel monitoraggio notifiche
+        <br>- Repeat interval can be set freely in step monitoring function
         <br>- Gli intervalli di ripetizione delle notifiche possono essere personalizzati e "mostra battiti" può essere usato nelle funzioni di monitoraggio battiti
         <br>- Gli intervalli di ripetizione delle notifiche possono essere personalizzati e "non disturbare" può essere usato nelle funzioni di smarrimento
         <br>- Gli intervalli di ripetizione possono essere personalizzati nelle funzioni di monitoraggio tempo
@@ -622,6 +628,5 @@
         <item quantity="many">%d minuti</item>
         <item quantity="other">%d minuti</item>
     </plurals>
-
 
 </resources>
