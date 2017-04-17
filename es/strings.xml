@@ -260,6 +260,10 @@
     <string name="notification_group_screen_off">Señal solo cuando la pantalla esta apagada</string>
     <string name="notification_group_counter_title">Nummero de señales</string>
     <string name="notification_group_wakelock">Encender la pantalla del dispositivo</string>
+    <string name="notification_group_filter">Filtering notifications</string>
+    <string name="notification_group_filter_hint">Signal only when the notification (delimiter: enter, case insensitive)</string>
+    <string name="notification_group_filter_contains">Contains any phrases</string>
+    <string name="notification_group_filter_not_contains">Contains none phrases</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Aplicación predefinida y señales de icono de Mi Band 2:
@@ -328,7 +332,7 @@
     <string name="touch_music_headset_only_title">Solo si el auricular esta conectado</string>
     <string name="touch_music_volume_up_title">Subir volumen de la musica</string>
     <string name="touch_music_volume_down_title">Bajar volumen de la musica</string>
-    <string name="touch_music_track_info_title">Show music track info.</string>
+    <string name="touch_music_track_info_title">Mostrar info. de la pista de musica</string>
 
     <string name="touch_time_launch_title">Iniciar temporizador/cronometro</string>
     <string name="touch_time_launch_type_timer_title">Temporizador</string>
@@ -357,7 +361,7 @@
         <p>Los iconos verdes en las tarjetas indican que otra funcion puede ser similar al patrón actual.</p>
         <p>Cuando tiene una llamada entrante, el dispositivo no reconoce las siguientes funciones para facilitar la entrada tactil: ubicacion del dispositivo, notificaciones de repeticion, control de musica.</p>
         <p>En el modo de prueba no se ejecuta la función del patron reconocido.</p>
-        <p>La Mi Band 2 vibra solo, si hay un patron teniendo en cuenta el estado actual del dispositivo (contestar llamada, rechazar solo si hay una llamada entrante...).</p>
+        <p>La Mi Band 2 vibra solo, si hay un patron teniendo en cuenta el estado actual del dispositivo (contestar llamada, rechazar solo si hay una llamada entrante…).</p>
         <p>Mi Band 2 vibra una vez, cuando reconoce el patron.</p>
         <p>Mi Band 2 vibra dos veces, cuando no reconoce ningún patron despues del patron mas largo (si <i>Señal de patron tactil no reconocible</i> esta activada).</p>
         <p>Ejemplos de toques validos:
@@ -553,9 +557,11 @@
     <string name="purchase_advantage_title">Ventajas del modo premium</string>
     <string name="purchase_advantage"><![CDATA[
         - libre de publicidad
+        <br>- modo no molestar
         <br>- monitoreo ilimitado de notificaciones
         <br>- monitoreo ilimitado tactil
         <br>- el prefijo de texto se puede utilizar en el monitoreo de notificaciones
+        <br>- repeat interval can be set freely in step monitoring function
         <br>- el intervalo de la repetición se puede fijar libremente y la opción mostrar el pulso se puede utilizar en la funcion de monitoreo del pulso
         <br>- el intervalo de la repetición se puede fijar libremente y el modo no molestar se puede utilizar en la funcion de monitoreo de extravio
         <br>- recordatorios repetidos se pueden fijar libremente en el monitoreo de tiempo
