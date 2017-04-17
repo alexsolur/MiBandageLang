@@ -227,10 +227,10 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Добро пожаловать!</string>
     <string name="dialog_welcome_message"><![CDATA[Приложение пока поддерживает только Mi Band 2.
-    <p>Mi Bandage тебуется приложение Mi Fit на устройстве. Сначала, подключите Mi Band 2 к Mi Fit, потом пользуйтесь Mi Bandage.</p>
+    <p>Mi Bandage требуется приложение Mi Fit на устройстве. Сначала, подключите Mi Band 2 к Mi Fit, потом пользуйтесь Mi Bandage.</p>
     <p>Если вы используете несколько приложений для управления Mi Band 2, они могут мешать друг другу, поэтому временно отключите их.</p>
     <p>Если Mi Band 2 не обнаружен, вы можете установить MAC вручную в настройках (MAC можно найти в: Mi Fit/Профиль/Mi Band 2).</p>
-    <p><b>Если Mi Band 2 не обнаружен или имеются проблемы синхронизации в Mi Fit, установите BToolkit, nRF Connect или друго приложение управления Bluetooth и удалите связанные устройства.</b></p>
+    <p><b>Если Mi Band 2 не обнаружен или имеются проблемы синхронизации в Mi Fit, установите BToolkit, nRF Connect или другое приложение управления Bluetooth и удалите связанные устройства.</b></p>
     <p>При неполадках (обнаружение Mi Band 2, отсутствие уведомлений), попробуйте:
     <br>1. Если у вас установлено приложение Greenify (или другое приложение для гибернации) настоятельно рекомендуется отключить его.
     <br>2. (Пере-)Установить Mi Bandage.
@@ -260,10 +260,10 @@
     <string name="notification_group_screen_off">Уведомлять только при выключенном экране</string>
     <string name="notification_group_counter_title">Количество сигналов</string>
     <string name="notification_group_wakelock">Активировать экран усройства</string>
-    <string name="notification_group_filter">Filtering notifications</string>
-    <string name="notification_group_filter_hint">Signal only when the notification (delimiter: enter, case insensitive)</string>
-    <string name="notification_group_filter_contains">Contains any phrases</string>
-    <string name="notification_group_filter_not_contains">Contains none phrases</string>
+    <string name="notification_group_filter">Фильтр</string>
+    <string name="notification_group_filter_hint">Уведомлять, если в уведомлении (разделитель: enter, без учёта регистра)</string>
+    <string name="notification_group_filter_contains">Есть любая фраза</string>
+    <string name="notification_group_filter_not_contains">Нет ни одной фразы</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Предустановленные иконки уведомлений Mi Band 2 и приложений:
@@ -560,11 +560,11 @@
         <br>- Режим \"Не беспокоить\"
         <br>- нет ограничения на количество групп уведомлений
         <br>- нет ограничения на контроль касаний
-        <br>- префикс текстовых уведомлений
-        <br>- Repeat interval can be set freely in step monitoring function
-        <br>- <i>Измерение пульса</i>: установка промежутка измерений по желанию, настройка показа пульса
-        <br>- <i>Долго отсоединён</i>: установка промежутка уведомлений по желанию,  активация режима \'Не беспокоить\'
-        <br>- <i>Время</i>: установка промежутка уведомлений по желанию
+        <br>- префикс текстовых уведомлений, пре-иконки, фильтры текста уведомлений
+        <br>- <i>Шагомер</i>: установка промежутка сбора данных по желанию
+        <br>- <i>Измерение пульса</i>: установка промежутка измерений по желанию, настройка отображения пульса
+        <br>- <i>Долго отсоединён</i>: установка промежутка уведомлений по желанию, активация режима \'Не беспокоить\'
+        <br>- <i>Время</i>: установка промежутка уведомлений по желанию, отображение текста и включение Bluetooth
         <br>- …
     ]]></string>
     <string name="purchase_policy_title">Правила и условия премиума</string>
