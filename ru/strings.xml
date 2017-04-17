@@ -260,6 +260,10 @@
     <string name="notification_group_screen_off">Уведомлять только при выключенном экране</string>
     <string name="notification_group_counter_title">Количество сигналов</string>
     <string name="notification_group_wakelock">Активировать экран усройства</string>
+    <string name="notification_group_filter">Filtering notifications</string>
+    <string name="notification_group_filter_hint">Signal only when the notification (delimiter: enter, case insensitive)</string>
+    <string name="notification_group_filter_contains">Contains any phrases</string>
+    <string name="notification_group_filter_not_contains">Contains none phrases</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Предустановленные иконки уведомлений Mi Band 2 и приложений:
@@ -553,9 +557,11 @@
     <string name="purchase_advantage_title">Преимущества премиума</string>
     <string name="purchase_advantage"><![CDATA[
         - нет рекламы
+        <br>- Режим \"Не беспокоить\"
         <br>- нет ограничения на количество групп уведомлений
         <br>- нет ограничения на контроль касаний
         <br>- префикс текстовых уведомлений
+        <br>- Repeat interval can be set freely in step monitoring function
         <br>- <i>Измерение пульса</i>: установка промежутка измерений по желанию, настройка показа пульса
         <br>- <i>Долго отсоединён</i>: установка промежутка уведомлений по желанию,  активация режима \'Не беспокоить\'
         <br>- <i>Время</i>: установка промежутка уведомлений по желанию
