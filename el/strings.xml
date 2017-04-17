@@ -260,6 +260,10 @@
     <string name="notification_group_screen_off">Σήμα μόνο όταν η οθόνη είναι απενεργοποιημένη</string>
     <string name="notification_group_counter_title">Πλήθος αριθμού σημάτων</string>
     <string name="notification_group_wakelock">Αφύπνιση οθόνης της συσκευής</string>
+    <string name="notification_group_filter">Filtering notifications</string>
+    <string name="notification_group_filter_hint">Signal only when the notification (delimiter: enter, case insensitive)</string>
+    <string name="notification_group_filter_contains">Contains any phrases</string>
+    <string name="notification_group_filter_not_contains">Contains none phrases</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Προκαθορισμένες εφαρμογές και εικονίδια σημάτων του Mi Band 2:
@@ -553,9 +557,11 @@
     <string name="purchase_advantage_title">Πλεονεκτήματα premium λειτουργίας</string>
     <string name="purchase_advantage"><![CDATA[
         - χωρίς διαφημίσεις
+        <br>- λειτουργία μην ενοχλείτε
         <br>- απεριόριστη παρακολούθηση ειδοποιήσεων
         <br>- απεριόριστη παρακολούθηση αφής
         <br>- πρόθεμα κειμένου μπορεί να χρησιμοποιηθεί στην παρακολούθηση ειδοποιήσεων
+        <br>- repeat interval can be set freely in step monitoring function
         <br>- στην λειτουργία παλμού τα διαστήματα επανάληψης παλμού μπορούν να ρυθμιστούν ελεύθερα
         <br>- στην λειτουργία εποπτεία συσκευής μπορεί να χρησιμοποιηθεί η λειτουργία dnd (μην ενοχλείται) και τα διαστήματα επανάληψης μπορούν να ρυθμιστούν ελεύθερα
         <br>- επανειλημμένες υπενθυμίσεις μπορούν να ρυθμιστούν ελεύθερα στην παρακολούθηση χρόνου
