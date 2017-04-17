@@ -260,6 +260,10 @@
     <string name="notification_group_screen_off">Yalnızca ekran kapalıyken uyar</string>
     <string name="notification_group_counter_title">Uyarı kararlılığı</string>
     <string name="notification_group_wakelock">Cihaz ekranını uyandırma</string>
+    <string name="notification_group_filter">Filtering notifications</string>
+    <string name="notification_group_filter_hint">Signal only when the notification (delimiter: enter, case insensitive)</string>
+    <string name="notification_group_filter_contains">Contains any phrases</string>
+    <string name="notification_group_filter_not_contains">Contains none phrases</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Önceden tanımlı uygulama ve Mi Band 2 simgesi uyarıları:
@@ -328,7 +332,7 @@
     <string name="touch_music_headset_only_title">Yalnızca kulaklıklı mikrofon seti bağlıysa</string>
     <string name="touch_music_volume_up_title">Müzik sesi artır</string>
     <string name="touch_music_volume_down_title">Müzik sesi azalt</string>
-    <string name="touch_music_track_info_title">Show music track info.</string>
+    <string name="touch_music_track_info_title">Müzik bilgisini göster</string>
 
     <string name="touch_time_launch_title">Zamanlayıcıyı / kronometreyi başlat</string>
     <string name="touch_time_launch_type_timer_title">Zamanlayıcı</string>
@@ -553,9 +557,11 @@
     <string name="purchase_advantage_title">Premium mod avantajları</string>
     <string name="purchase_advantage"><![CDATA[
          - reklamsız
+         <br>- rahatsız etmeyin modu
          <br>- sınırsız bildirim izleme
          <br>- sınırsız dokunmatik izleme
          <br>- bildirim önizleme bildiriminde kullanılabilir
+         <br>- Repeat interval can be set freely in step monitoring function
          <br>- tekrarlama aralığı serbestçe ayarlanabilir ve gösteri darbesi darbe izleme işlevinde kullanılabilir
          <br>- tekrarlama aralığı serbestçe ayarlanabilir ve dnd modu kayıp izleme işlevinde kullanılabilir
          <br>- tekrarlanan hatırlatıcılar zamanında izleme özgürlüğüne ayarlanabilir
