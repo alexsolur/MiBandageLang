@@ -260,6 +260,10 @@
     <string name="notification_group_screen_off">Tín hiệu chỉ khi màn hình tắt</string>
     <string name="notification_group_counter_title">Signals cardinality</string>
     <string name="notification_group_wakelock">Đánh thức màn hình thiết bị</string>
+    <string name="notification_group_filter">Filtering notifications</string>
+    <string name="notification_group_filter_hint">Signal only when the notification (delimiter: enter, case insensitive)</string>
+    <string name="notification_group_filter_contains">Contains any phrases</string>
+    <string name="notification_group_filter_not_contains">Contains none phrases</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Predefined app and Mi Band 2 icon signals:
@@ -328,7 +332,7 @@
     <string name="touch_music_headset_only_title">Chỉ khi tai nghe được kết nối</string>
     <string name="touch_music_volume_up_title">Tăng âm lượng nhạc</string>
     <string name="touch_music_volume_down_title">Giảm âm lượng nhạc</string>
-    <string name="touch_music_track_info_title">Show music track info.</string>
+    <string name="touch_music_track_info_title">Hiển thị thông tin bài hát.</string>
 
     <string name="touch_time_launch_title">Bắt đầu hẹn giờ/ bấm giờ</string>
     <string name="touch_time_launch_type_timer_title">Hẹn giờ</string>
@@ -552,13 +556,15 @@
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Premium mode advantages</string>
     <string name="purchase_advantage"><![CDATA[
-        - ad-free
+         - ad-free
+        <br>- do not disturb mode
         <br>- unlimited notification monitoring
         <br>- unlimited touch monitoring
-        <br>- text prefix can be used in notification monitoring
+        <br>- text prefix, pre icon and filtering text can be used in notification monitoring
+        <br>- repeat interval can be set freely in step monitoring function
         <br>- repeat interval can be set freely and show pulse can be used in pulse monitoring function
         <br>- repeat interval can be set freely and dnd mode can be used in lost monitoring function
-        <br>- repeated reminders can be set freely in time monitoring
+        <br>- repeated reminders, show message and turn on bluetooth can be set freely in time monitoring
         <br>- …
     ]]></string>
     <string name="purchase_policy_title">Terms and conditions of Premium mode</string>
@@ -623,4 +629,4 @@
         <item quantity="other">%d phút</item>
     </plurals>
 
- </resources>
+</resources>
