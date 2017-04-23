@@ -74,8 +74,8 @@
 
     <string name="pref_disconnected">Disconnessione</string>
     <string name="pref_disconnected_summary">Imposta comportamento in caso di disconnessione tra dispositivo e Mi Band 2</string>
-    <string name="pref_cat_disconnected_mi_band">Mi Band 2 signal</string>
-    <string name="pref_disconnected_mi_band_title">Icon displaying</string>
+    <string name="pref_cat_disconnected_mi_band">Segnale Mi Band 2</string>
+    <string name="pref_disconnected_mi_band_title">Mostra icona</string>
     <string name="pref_disconnected_mi_band_summary_off">Off</string>
     <string name="pref_disconnected_mi_band_summary_on">On</string>
     <string name="pref_cat_disconnected">Notifiche dispositivo</string>
@@ -184,9 +184,9 @@
     <string name="pref_dnd_title">Modalità non disturbare</string>
     <string name="pref_dnd_time_start_title">Ora inizio</string>
     <string name="pref_dnd_time_end_title">Ora fine</string>
-    <string name="pref_dnd_remember_state_summary">At the end of the do not disturb mode, turn on all bandages or restore states as those were at the time of start</string>
-    <string name="pref_dnd_remember_state_on_title">At the end restore bandages\' state</string>
-    <string name="pref_dnd_remember_state_off_title">At the end turn on all bandages</string>
+    <string name="pref_dnd_remember_state_summary">Alla fine della modalità non distrurbare, riattiva tutte le bandages o ripristina il tutto allo stato precedente all'ora di attivazione</string>
+    <string name="pref_dnd_remember_state_on_title">Alla fine ripristina lo stato delle bandages</string>
+    <string name="pref_dnd_remember_state_off_title">Alla fine riattiva tutte le bandages</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Per favore attiva il Bluetooth e tieni vicino la Mi Band 2</string>
@@ -514,13 +514,13 @@
     <string name="time_enable_bluetooth">Attiva Bluetooth</string>
 
     <string name="info_dialog_time"><![CDATA[
-        <p><b>Turn off the alarm, timer and stopwatch before removing the application.</b></p>
+        <p><b>Disattiva le sveglie, i timer e i cronometri prima di rimuovere questa app.</b></p>
         <img src="ic_miband_bell"> <b><u>Campanella</u></b>
         <p>Richiede connessione Bluetooth per l\'allarme, e si può ricevere una sola volta per 10 secondi.</p>
         <img src="ic_alarm"> <b><u>Sveglia</u></b>
         <p>Non è richiesta una connessione Bluetooth per l\'allarme, l\'app usa la funzione allarme dell\'app Mi Fit per avvisarti.
         <br>L\'allarme verrà ripetuto più volte se la Mi Band 2 non rileva alcun movimento (perchè usa la funzione allarme di fabbrica).
-        <br>Minute accuracy, Mi band 2 does not handle seconds at alarm time.</p>
+        <br>Arrotonda al Minuto, la Mi band 2 non mostra i secondi nel tempo.</p>
         <p>La funzione "ripeti notifica" richiede una connessione Bluetooth.</p>
     ]]></string>
 
