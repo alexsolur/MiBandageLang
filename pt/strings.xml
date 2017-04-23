@@ -74,6 +74,10 @@
 
     <string name="pref_disconnected">Definições de desconexão</string>
     <string name="pref_disconnected_summary">Definições do sinal de desconexão do dispositivo</string>
+    <string name="pref_cat_disconnected_mi_band">Mi Band 2 signal</string>
+    <string name="pref_disconnected_mi_band_title">Icon displaying</string>
+    <string name="pref_disconnected_mi_band_summary_off">Off</string>
+    <string name="pref_disconnected_mi_band_summary_on">On</string>
     <string name="pref_cat_disconnected">Sinal do dispositivo</string>
     <string name="pref_disconnected_ringtone_title">Toque</string>
     <string name="pref_disconnected_ringtone_summary_no">Nenhum</string>
@@ -180,6 +184,9 @@
     <string name="pref_dnd_title">Modo DND</string>
     <string name="pref_dnd_time_start_title">Hora de início</string>
     <string name="pref_dnd_time_end_title">Hora de fim</string>
+    <string name="pref_dnd_remember_state_summary">At the end of the do not disturb mode, turn on all bandages or restore states as those were at the time of start</string>
+    <string name="pref_dnd_remember_state_on_title">At the end restore bandages\' state</string>
+    <string name="pref_dnd_remember_state_off_title">At the end turn on all bandages</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Por favor, ligue o Bluetooth e mantanha a Mi Band 2 perto do telemóvel</string>
@@ -512,7 +519,8 @@
         <p>Conexão Bluetooth necessária para o alarme (1 vez em 10 segundos).</p>
         <img src="ic_alarm"> <b><u>Alarme</u></b>
         <p>A conexão Bluetooth não é necessária para o alarme. A aplicação usa o alarme da Mi Fit para alertar (Sobrescreve alguns).
-        <br>O alarme será repetido várias vezes se a Mi Band 2 não detectar qualquer movimento (porque ela usa o alarme de fábrica).</p>
+        <br>O alarme será repetido várias vezes se a Mi Band 2 não detectar qualquer movimento (porque ela usa o alarme de fábrica).
+        <br>Minute accuracy, Mi band 2 does not handle seconds at alarm time.</p>
         <p>O lembrete requer uma ligação Bluetooth.</p>
     ]]></string>
 
@@ -557,14 +565,13 @@
     <string name="purchase_advantage_title">Vantagens do modo premium</string>
     <string name="purchase_advantage"><![CDATA[
         - Não tem anúncios
-    <br>- Modo DND
-    <br>- Monitoramento de notificações ilimitado
+        <br>- Modo DND
+        <br>- Monitoramento de notificações ilimitado
         <br>- Monitoramento do touch ilimitado
-
-    <br>- O prefixo de texto, o pré-ícone e a filtragem de texto podem ser usados no menu Monitorar notificações
-    <br>- O intervalo de repetição pode ser ajustado livremente no menu Monitorar passos
-    <br>- O intervalo de repetição pode ser ajustado livremente e mostrar pulsação pode ser usado no menu Monitorar pulsação
-    <br>- O intervalo de repetição pode ser ajustado livremente e o modo DND pode ser usado no menu Monitorar perda
+        <br>- O prefixo de texto, o pré-ícone e a filtragem de texto podem ser usados no menu Monitorar notificações
+        <br>- O intervalo de repetição pode ser ajustado livremente no menu Monitorar passos
+        <br>- O intervalo de repetição pode ser ajustado livremente e mostrar pulsação pode ser usado no menu Monitorar pulsação
+        <br>- O intervalo de repetição pode ser ajustado livremente e o modo DND pode ser usado no menu Monitorar perda
         <br>- Lembretes repetidos, mostrar mensagem e ligar o Bluetooth podem ser definidos livremente no menu Monitorar tempo
         <br>- …
     ]]></string>
