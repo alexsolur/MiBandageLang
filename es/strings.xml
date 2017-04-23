@@ -74,6 +74,10 @@
 
     <string name="pref_disconnected">Desconexion</string>
     <string name="pref_disconnected_summary">Configuraciones de señal de desconexion de Mi Band 2 y dispositivo</string>
+    <string name="pref_cat_disconnected_mi_band">Mi Band 2 signal</string>
+    <string name="pref_disconnected_mi_band_title">Icon displaying</string>
+    <string name="pref_disconnected_mi_band_summary_off">Off</string>
+    <string name="pref_disconnected_mi_band_summary_on">On</string>
     <string name="pref_cat_disconnected">Señales de dispositivo</string>
     <string name="pref_disconnected_ringtone_title">Ringtone</string>
     <string name="pref_disconnected_ringtone_summary_no">Ninguno</string>
@@ -180,6 +184,9 @@
     <string name="pref_dnd_title">Modo no molestar</string>
     <string name="pref_dnd_time_start_title">Hora de inicio</string>
     <string name="pref_dnd_time_end_title">Hora de fin</string>
+    <string name="pref_dnd_remember_state_summary">At the end of the do not disturb mode, turn on all bandages or restore states as those were at the time of start</string>
+    <string name="pref_dnd_remember_state_on_title">At the end restore bandages\' state</string>
+    <string name="pref_dnd_remember_state_off_title">At the end turn on all bandages</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Por favor active el Bluetooth y acerque la Mi Band 2 al dispositivo</string>
@@ -260,10 +267,10 @@
     <string name="notification_group_screen_off">Señal solo cuando la pantalla esta apagada</string>
     <string name="notification_group_counter_title">Nummero de señales</string>
     <string name="notification_group_wakelock">Encender la pantalla del dispositivo</string>
-    <string name="notification_group_filter">Filtering notifications</string>
-    <string name="notification_group_filter_hint">Signal only when the notification (delimiter: enter, case insensitive)</string>
-    <string name="notification_group_filter_contains">Contains any phrases</string>
-    <string name="notification_group_filter_not_contains">Contains none phrases</string>
+    <string name="notification_group_filter">Filtrar notificaciones</string>
+    <string name="notification_group_filter_hint">Señal solo cuando la notificacion (delimitador: enter, ignorar mayusculas)</string>
+    <string name="notification_group_filter_contains">Contiene frases</string>
+    <string name="notification_group_filter_not_contains">No contiene frases</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Aplicación predefinida y señales de icono de Mi Band 2:
@@ -512,7 +519,8 @@
         <p>La conexion Bluetooth es necesaria para la alarma, las alarmas sólo una vez durante 10 segundos .</p>
         <img src="ic_alarm"> <b><u>Alarma</u></b>
         <p>La conexion Bluetooth no es necesaria para la alarma, la aplicacion utiliza la funcion de alarma de Mi Fit para alertar (sobrescribir la configuración).
-        <br>La alarma se repetira varias veces si la Mi Band 2 no detecta ningun movimiento (porque utiliza la alarma de fabrica).</p>
+        <br>La alarma se repetira varias veces si la Mi Band 2 no detecta ningun movimiento (porque utiliza la alarma de fabrica).
+        <br>Minute accuracy, Mi band 2 does not handle seconds at alarm time.</p>
         <p>La señal del recordatorio y el mensaje que se muestra requieren una conexion Bluetooth.</p>
     ]]></string>
 
@@ -560,11 +568,11 @@
         <br>- modo no molestar
         <br>- monitoreo ilimitado de notificaciones
         <br>- monitoreo ilimitado tactil
-        <br>- el prefijo de texto se puede utilizar en el monitoreo de notificaciones
-        <br>- repeat interval can be set freely in step monitoring function
+        <br>- prefijo de texto, el icono previo y el filtro de texto puede ser usado en el monitoreo de notificaciones
+        <br>- el intervalo de repeticion se puede establecer libremente en la funcion de monitoreo de pasos
         <br>- el intervalo de la repetición se puede fijar libremente y la opción mostrar el pulso se puede utilizar en la funcion de monitoreo del pulso
         <br>- el intervalo de la repetición se puede fijar libremente y el modo no molestar se puede utilizar en la funcion de monitoreo de extravio
-        <br>- recordatorios repetidos se pueden fijar libremente en el monitoreo de tiempo
+        <br>- repetir recordatorios, mostrar mensaje y encender el Bluetooth se puede establecer libremente en el monitoreo de tiempo
         <br>- …
     ]]></string>
     <string name="purchase_policy_title">Terminos y condiciones del modo premium</string>
