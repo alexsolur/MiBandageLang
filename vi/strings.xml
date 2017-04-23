@@ -74,6 +74,10 @@
 
     <string name="pref_disconnected">Cài đặt ngắt kết nối</string>
     <string name="pref_disconnected_summary">Tín hiệu Mi Band 2 và thiết bị  khi bị ngắt kết nối </string>
+    <string name="pref_cat_disconnected_mi_band">Mi Band 2 signal</string>
+    <string name="pref_disconnected_mi_band_title">Icon displaying</string>
+    <string name="pref_disconnected_mi_band_summary_off">Off</string>
+    <string name="pref_disconnected_mi_band_summary_on">On</string>
     <string name="pref_cat_disconnected">Tín hiệu thiết bị</string>
     <string name="pref_disconnected_ringtone_title">Nhạc chuông</string>
     <string name="pref_disconnected_ringtone_summary_no">Không</string>
@@ -180,7 +184,10 @@
     <string name="pref_dnd_title">Chế độ không làm phiền</string>
     <string name="pref_dnd_time_start_title">Thời gian bắt đầu</string>
     <string name="pref_dnd_time_end_title">Thời gian kết thúc</string>
-
+    <string name="pref_dnd_remember_state_summary">At the end of the do not disturb mode, turn on all bandages or restore states as those were at the time of start</string>
+    <string name="pref_dnd_remember_state_on_title">At the end restore bandages\' state</string>
+    <string name="pref_dnd_remember_state_off_title">At the end turn on all bandages</string>
+    
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Vui lòng kích hoạt Bluetooth và mang Mi Band 2 gần hơn với điện thoại</string>
     <string name="message_discover_mi_band">Mi Band 2 chưa được cài đặt, hãy kết nối với nó</string>
@@ -260,10 +267,10 @@
     <string name="notification_group_screen_off">Tín hiệu chỉ khi màn hình tắt</string>
     <string name="notification_group_counter_title">Signals cardinality</string>
     <string name="notification_group_wakelock">Đánh thức màn hình thiết bị</string>
-    <string name="notification_group_filter">Filtering notifications</string>
-    <string name="notification_group_filter_hint">Signal only when the notification (delimiter: enter, case insensitive)</string>
-    <string name="notification_group_filter_contains">Contains any phrases</string>
-    <string name="notification_group_filter_not_contains">Contains none phrases</string>
+    <string name="notification_group_filter">Lọc thông báo</string>
+    <string name="notification_group_filter_hint">Chỉ báo hiệu khi thông báo </string>
+    <string name="notification_group_filter_contains">Chứa bất kỳ cụm từ nào</string>
+    <string name="notification_group_filter_not_contains">Không chứa cụm từ nào</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Predefined app and Mi Band 2 icon signals:
@@ -512,7 +519,8 @@
         <p>Bluetooth connection is required for alarm, it alarms just only once for 10 seconds.</p>
         <img src="ic_alarm"> <b><u>Alarm</u></b>
         <p>Bluetooth connection is not required for alarm, app uses alarm function of Mi Fit to alert (overwrite 4. - 9. setting).
-        <br>The alarm will be repeated several times if the Mi Band 2 do not detect any movement (because it uses the factory alarm).</p>
+        <br>The alarm will be repeated several times if the Mi Band 2 do not detect any movement (because it uses the factory alarm).
+        <br>Minute accuracy, Mi band 2 does not handle seconds at alarm time.</p>
         <p>Reminder signal requires Bluetooth connection.</p>
     ]]></string>
 
