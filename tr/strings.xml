@@ -74,6 +74,10 @@
 
     <string name="pref_disconnected">Bağlantı kesme ayarları</string>
     <string name="pref_disconnected_summary">Mi Band 2 ve cihaz uyarı kesme ayarları</string>
+    <string name="pref_cat_disconnected_mi_band">Mi Band 2 signal</string>
+    <string name="pref_disconnected_mi_band_title">Icon displaying</string>
+    <string name="pref_disconnected_mi_band_summary_off">Off</string>
+    <string name="pref_disconnected_mi_band_summary_on">On</string>
     <string name="pref_cat_disconnected">Aygıt uyarıları</string>
     <string name="pref_disconnected_ringtone_title">Zil sesi</string>
     <string name="pref_disconnected_ringtone_summary_no">Yok</string>
@@ -180,6 +184,9 @@
     <string name="pref_dnd_title">Rahatsız etmeyin modu</string>
     <string name="pref_dnd_time_start_title">Başlama zamanı</string>
     <string name="pref_dnd_time_end_title">Bitiş zamanı</string>
+    <string name="pref_dnd_remember_state_summary">At the end of the do not disturb mode, turn on all bandages or restore states as those were at the time of start</string>
+    <string name="pref_dnd_remember_state_on_title">At the end restore bandages\' state</string>
+    <string name="pref_dnd_remember_state_off_title">At the end turn on all bandages</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Lütfen Bluetooth\'u etkinleştirin ve Mi Band 2 cihazını telefona yakın hale getirin</string>
@@ -260,10 +267,10 @@
     <string name="notification_group_screen_off">Yalnızca ekran kapalıyken uyar</string>
     <string name="notification_group_counter_title">Uyarı kararlılığı</string>
     <string name="notification_group_wakelock">Cihaz ekranını uyandırma</string>
-    <string name="notification_group_filter">Filtering notifications</string>
-    <string name="notification_group_filter_hint">Signal only when the notification (delimiter: enter, case insensitive)</string>
-    <string name="notification_group_filter_contains">Contains any phrases</string>
-    <string name="notification_group_filter_not_contains">Contains none phrases</string>
+    <string name="notification_group_filter">Bildirimleri filtrelemek</string>
+    <string name="notification_group_filter_hint">Yalnızca bildirim geldiğinde uyarı verir (sınırlayıcı: enter, büyük / küçük harfe duyarsız)</string>
+    <string name="notification_group_filter_contains">Herhangi bir cümle içeriyor</string>
+    <string name="notification_group_filter_not_contains">Hiçbir cümle içermiyor</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Önceden tanımlı uygulama ve Mi Band 2 simgesi uyarıları:
@@ -512,7 +519,8 @@
          <p>Alarm için Bluetooth bağlantısı gereklidir, yalnızca 10 saniye boyunca yalnızca bir kez alarm verir.</p>
          <img src="ic_alarm"> <b><u>Alarm</u></b>
          <p>Alarm için Bluetooth bağlantısı gerekli değildir, uygulama uyarı yapmak için Mi Fit\'in alarm işlevini kullanır (4. - 9. ayarın üzerine yazar).
-         <br>Mi Band 2 herhangi bir hareket algılamazsa (fabrika alarmını kullandığından) alarm birkaç kez tekrarlanacaktır.</p>
+         <br>Mi Band 2 herhangi bir hareket algılamazsa (fabrika alarmını kullandığından) alarm birkaç kez tekrarlanacaktır.
+         <br>Minute accuracy, Mi band 2 does not handle seconds at alarm time.</p>
          <p>Hatırlatma sinyali için Bluetooth bağlantısı gerekir.</p>
     ]]></string>
 
@@ -560,11 +568,11 @@
          <br>- rahatsız etmeyin modu
          <br>- sınırsız bildirim izleme
          <br>- sınırsız dokunmatik izleme
-         <br>- bildirim önizleme bildiriminde kullanılabilir
-         <br>- Repeat interval can be set freely in step monitoring function
+         <br>- bildirim önizlemesi, ön simgesi ve filtreleme metni bildirim izlemede kullanılabilir
+         <br>- adım izleme fonksiyonunda tekrar aralığı serbestçe ayarlanabilir
          <br>- tekrarlama aralığı serbestçe ayarlanabilir ve gösteri darbesi darbe izleme işlevinde kullanılabilir
          <br>- tekrarlama aralığı serbestçe ayarlanabilir ve dnd modu kayıp izleme işlevinde kullanılabilir
-         <br>- tekrarlanan hatırlatıcılar zamanında izleme özgürlüğüne ayarlanabilir
+         <br>- tekrarlanan anımsatıcılar, mesaj gösterme ve bluetooth\'u açma, zamanında izleme özgürlüğünde ayarlanabilir
          <br>- …
     ]]></string>
     <string name="purchase_policy_title">Premium modu şartları ve koşulları</string>
@@ -628,5 +636,6 @@
         <item quantity="many">%d dakika</item>
         <item quantity="other">%d dakika</item>
     </plurals>
+
 
 </resources>
