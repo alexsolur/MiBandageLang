@@ -1,1 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_connected_have_notif_counter">
+        <item>Sekali per ikon Mi Band 2</item>
+        <item>Angka pemberitahuan</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
 
+    <string-array name="pref_connected_have_notif_counter_values">
+        <item>-2</item>
+        <item>-1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_interval">
+        <item>3 menit</item>
+        <item>5 menit</item>
+        <item>10 menit</item>
+        <item>20 menit</item>
+        <item>30 menit</item>
+        <item>1 jam</item>
+        <item>2 jam</item>
+        <item>3 jam</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_interval_values">
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </string-array>
+
+    <string-array name="pref_abandoned_interval">
+        <item>1 menit</item>
+        <item>2 menit</item>
+        <item>3 menit</item>
+        <item>4 menit</item>
+        <item>5 menit</item>
+        <item>6 menit</item>
+        <item>7 menit</item>
+        <item>8 menit</item>
+        <item>9 menit</item>
+        <item>10 menit</item>
+    </string-array>
+
+    <integer-array name="pref_abandoned_interval_values">
+        <item>60000</item>
+        <item>120000</item>
+        <item>180000</item>
+        <item>240000</item>
+        <item>300000</item>
+        <item>360000</item>
+        <item>420000</item>
+        <item>480000</item>
+        <item>540000</item>
+        <item>600000</item>
+    </integer-array>
+
+    <string-array name="pref_abandoned_notif_interval">
+        <item>10 menit</item>
+        <item>20 menit</item>
+        <item>30 menit</item>
+        <item>1 jam</item>
+        <item>2 jam</item>
+        <item>3 jam</item>
+    </string-array>
+
+    <integer-array name="pref_abandoned_notif_interval_values">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </integer-array>
+
+    <string-array name="notification_group_counter">
+        <item>Sekali tanda</item>
+        <item>Sekali per aplikasi</item>
+        <item>Angka pemberitahuan</item>
+    </string-array>
+
+    <string-array name="touch_call_mute_ringer_mode">
+        <item>Getar</item>
+        <item>Jangan ganggu (hanya alarm)</item>
+    </string-array>
+
+    <string-array name="touch_music_player">
+        <item>Pemutar musik bawaan</item>
+        <item>Google Play Musik</item>
+        <item>Spotify</item>
+    </string-array>
+
+    <string-array name="touch_music_player_values">
+        <item></item>
+        <item>com.google.android.music</item>
+        <item>com.spotify.music</item>
+    </string-array>
+
+    <string-array name="touch_music_info">
+        <item>Tidak ada pemberitahuan</item>
+        <item>Artis#Judul</item>
+        <item>Artis, Judul</item>
+        <item>Judul</item>
+    </string-array>
+
+    <string-array name="touch_music_info_values">
+        <item>NONE</item>
+        <item>ARTIST#TITLE</item>
+        <item>ARTIST_TITLE</item>
+        <item>TITLE</item>
+    </string-array>
+
+    <!--<string-array name="pref_pulse_interval">-->
+        <!--<item>1 menit</item>-->
+        <!--<item>2 menit</item>-->
+        <!--<item>5 menit</item>-->
+        <!--<item>10 menit</item>-->
+        <!--<item>15 menit</item>-->
+        <!--<item>20 menit</item>-->
+        <!--<item>30 menit</item>-->
+        <!--<item>1 jam</item>-->
+    <!--</string-array>-->
+
+    <!--<integer-array name="pref_pulse_interval_values">-->
+        <!--<item>60000</item>-->
+        <!--<item>120000</item>-->
+        <!--<item>300000</item>-->
+        <!--<item>600000</item>-->
+        <!--<item>900000</item>-->
+        <!--<item>1200000</item>-->
+        <!--<item>1800000</item>-->
+        <!--<item>3600000</item>-->
+    <!--</integer-array>-->
+
+    <string-array name="pulse_signal_start">
+        <item>Tidak ada</item>
+        <item>1 getaran</item>
+        <item>2 getaran</item>
+        <item>3 getaran</item>
+    </string-array>
+
+    <string-array name="pulse_signal_start_values">
+        <item>NONE</item>
+        <item>SOFT_1</item>
+        <item>SOFT_2</item>
+        <item>SOFT_3</item>
+    </string-array>
+
+    <string-array name="pulse_signal_end">
+        <item>Tidak ada</item>
+        <item>1 getaran</item>
+        <item>2 getaran</item>
+        <item>3 getaran</item>
+    </string-array>
+
+    <string-array name="pulse_signal_end_values">
+        <item>NONE</item>
+        <item>HARD_1</item>
+        <item>HARD_2</item>
+        <item>HARD_3</item>
+    </string-array>
+
+    <string-array name="pref_timer_time_interval_repeat">
+        <item>Mati</item>
+        <item>1 menit</item>
+        <item>2 menit</item>
+        <item>3 menit</item>
+        <item>4 menit</item>
+        <item>5 menit</item>
+        <item>6 menit</item>
+        <item>7 menit</item>
+        <item>8 menit</item>
+        <item>9 menit</item>
+        <item>10 menit</item>
+        <item>11 menit</item>
+        <item>12 menit</item>
+        <item>13 menit</item>
+        <item>14 menit</item>
+        <item>15 menit</item>
+        <item>20 menit</item>
+        <item>30 menit</item>
+        <item>40 menit</item>
+        <item>50 menit</item>
+        <item>1 jam</item>
+        <item>2 jam</item>
+        <item>3 jam</item>
+        <item>4 jam</item>
+        <item>5 jam</item>
+    </string-array>
+
+    <integer-array name="pref_timer_time_interval_repeat_values">
+        <item>0</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>180000</item>
+        <item>240000</item>
+        <item>300000</item>
+        <item>360000</item>
+        <item>420000</item>
+        <item>480000</item>
+        <item>540000</item>
+        <item>600000</item>
+        <item>660000</item>
+        <item>720000</item>
+        <item>780000</item>
+        <item>840000</item>
+        <item>900000</item>
+        <item>1200000</item>
+        <item>1800000</item>
+        <item>2400000</item>
+        <item>3000000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+        <item>10800000</item>
+        <item>14400000</item>
+        <item>18000000</item>
+    </integer-array>
+
+    <string-array name="notification_group_text_content_slice">
+        <item>1 keping</item>
+        <item>2 keping</item>
+        <item>3 keping</item>
+        <item>4 keping</item>
+        <item>5 keping</item>
+        <item>6 keping</item>
+        <item>7 keping</item>
+        <item>8 keping</item>
+        <item>9 keping</item>
+        <item>10 keping</item>
+    </string-array>
+
+    <integer-array name="notification_group_text_content_slice_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+
+    <string-array name="pref_language">
+        <item>Default</item>
+        <item>Indonesia</item>
+        <item>English</item>
+        <item>Magyar</item>
+        <item>Русский</item>
+        <item>Português</item>
+        <item>Türk</item>
+        <item>Ελληνικά</item>
+        <item>Tiếng Việt</item>
+        <item>Italiano</item>
+        <item>Español</item>
+    </string-array>
+
+    <string-array name="pref_language_values">
+        <item>DEFAULT</item>
+        <item>in</item>
+        <item>en</item>
+        <item>hu</item>
+        <item>ru</item>
+        <item>pt</item>
+        <item>tr</item>
+        <item>el</item>
+        <item>vi</item>
+        <item>it</item>
+        <item>es</item>
+    </string-array>
+</resources>
