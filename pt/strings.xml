@@ -74,10 +74,10 @@
 
     <string name="pref_disconnected">Definições de desconexão</string>
     <string name="pref_disconnected_summary">Definições do sinal de desconexão do dispositivo</string>
-    <string name="pref_cat_disconnected_mi_band">Mi Band 2 signal</string>
-    <string name="pref_disconnected_mi_band_title">Icon displaying</string>
-    <string name="pref_disconnected_mi_band_summary_off">Off</string>
-    <string name="pref_disconnected_mi_band_summary_on">On</string>
+    <string name="pref_cat_disconnected_mi_band">Sinal da Mi Band 2</string>
+    <string name="pref_disconnected_mi_band_title">Mostrar o ícone</string>
+    <string name="pref_disconnected_mi_band_summary_off">Desligado</string>
+    <string name="pref_disconnected_mi_band_summary_on">Ligado</string>
     <string name="pref_cat_disconnected">Sinal do dispositivo</string>
     <string name="pref_disconnected_ringtone_title">Toque</string>
     <string name="pref_disconnected_ringtone_summary_no">Nenhum</string>
@@ -184,9 +184,9 @@
     <string name="pref_dnd_title">Modo DND</string>
     <string name="pref_dnd_time_start_title">Hora de início</string>
     <string name="pref_dnd_time_end_title">Hora de fim</string>
-    <string name="pref_dnd_remember_state_summary">At the end of the do not disturb mode, turn on all bandages or restore states as those were at the time of start</string>
-    <string name="pref_dnd_remember_state_on_title">At the end restore bandages\' state</string>
-    <string name="pref_dnd_remember_state_off_title">At the end turn on all bandages</string>
+    <string name="pref_dnd_remember_state_summary">Quando o modo DND terminar, toda a bandagem é ligada ou restaurada para as que tinha antes do modo DND começar</string>
+    <string name="pref_dnd_remember_state_on_title">Restaurar a bandagem no fim</string>
+    <string name="pref_dnd_remember_state_off_title">Ativar toda a bandagem no fim</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Por favor, ligue o Bluetooth e mantanha a Mi Band 2 perto do telemóvel</string>
@@ -520,7 +520,7 @@
         <img src="ic_alarm"> <b><u>Alarme</u></b>
         <p>A conexão Bluetooth não é necessária para o alarme. A aplicação usa o alarme da Mi Fit para alertar (Sobrescreve alguns).
         <br>O alarme será repetido várias vezes se a Mi Band 2 não detectar qualquer movimento (porque ela usa o alarme de fábrica).
-        <br>Minute accuracy, Mi band 2 does not handle seconds at alarm time.</p>
+        <br>Precisão nos minutos, a Mi band 2 não manipula os segundos na hora do alarme.</p>
         <p>O lembrete requer uma ligação Bluetooth.</p>
     ]]></string>
 
