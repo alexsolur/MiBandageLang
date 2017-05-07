@@ -74,10 +74,10 @@
 
     <string name="pref_disconnected">Desconexion</string>
     <string name="pref_disconnected_summary">Configuraciones de señal de desconexion de Mi Band 2 y dispositivo</string>
-    <string name="pref_cat_disconnected_mi_band">Mi Band 2 signal</string>
-    <string name="pref_disconnected_mi_band_title">Icon displaying</string>
-    <string name="pref_disconnected_mi_band_summary_off">Off</string>
-    <string name="pref_disconnected_mi_band_summary_on">On</string>
+    <string name="pref_cat_disconnected_mi_band">Señal de Mi Band 2</string>
+    <string name="pref_disconnected_mi_band_title">Icono de visualizacion</string>
+    <string name="pref_disconnected_mi_band_summary_off">Apagado</string>
+    <string name="pref_disconnected_mi_band_summary_on">Encendido</string>
     <string name="pref_cat_disconnected">Señales de dispositivo</string>
     <string name="pref_disconnected_ringtone_title">Ringtone</string>
     <string name="pref_disconnected_ringtone_summary_no">Ninguno</string>
@@ -184,9 +184,9 @@
     <string name="pref_dnd_title">Modo no molestar</string>
     <string name="pref_dnd_time_start_title">Hora de inicio</string>
     <string name="pref_dnd_time_end_title">Hora de fin</string>
-    <string name="pref_dnd_remember_state_summary">At the end of the do not disturb mode, turn on all bandages or restore states as those were at the time of start</string>
-    <string name="pref_dnd_remember_state_on_title">At the end restore bandages\' state</string>
-    <string name="pref_dnd_remember_state_off_title">At the end turn on all bandages</string>
+    <string name="pref_dnd_remember_state_summary">Al final del modo no molestar, active todas las vendas o restaure los estados como los que estaban en el momento del inicio</string>
+    <string name="pref_dnd_remember_state_on_title">Al final restaura el estado de los vendajes</string>
+    <string name="pref_dnd_remember_state_off_title">Al final enciende todas las vendas</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Por favor active el Bluetooth y acerque la Mi Band 2 al dispositivo</string>
@@ -387,6 +387,7 @@
     <string name="action_tracker_calorie">Calorias</string>
 
     <string name="step_tab_day">Graficos diarios</string>
+    <string name="step_tab_week">Weekly charts</string>
     <string name="step_tab_goal">Metas de actividades</string>
     <string name="step_tab_settings">Configuracion</string>
 
@@ -407,8 +408,9 @@
     <string name="action_pulse">Mostrar pulso</string>
     <string name="pulse_current">Pulso actual</string>
 
-    <string name="pulse_tab_settings">Configuracion</string>
     <string name="pulse_tab_day">Graficos diarios</string>
+    <string name="pulse_tab_week">Weekly charts</string>
+    <string name="pulse_tab_settings">Configuracion</string>
 
     <string name="pulse_title_signals">Señales</string>
     <string name="pulse_signal_start_title">Señal de inicio de monitoreo</string>
@@ -520,7 +522,7 @@
         <img src="ic_alarm"> <b><u>Alarma</u></b>
         <p>La conexion Bluetooth no es necesaria para la alarma, la aplicacion utiliza la funcion de alarma de Mi Fit para alertar (sobrescribir la configuración).
         <br>La alarma se repetira varias veces si la Mi Band 2 no detecta ningun movimiento (porque utiliza la alarma de fabrica).
-        <br>Minute accuracy, Mi band 2 does not handle seconds at alarm time.</p>
+        <br>Precisión en los minutos, Mi Band 2 no maneja los segundos en la hora de la alarma.</p>
         <p>La señal del recordatorio y el mensaje que se muestra requieren una conexion Bluetooth.</p>
     ]]></string>
 
