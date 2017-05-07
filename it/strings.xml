@@ -184,7 +184,7 @@
     <string name="pref_dnd_title">Modalità non disturbare</string>
     <string name="pref_dnd_time_start_title">Ora inizio</string>
     <string name="pref_dnd_time_end_title">Ora fine</string>
-    <string name="pref_dnd_remember_state_summary">Alla fine della modalità non distrurbare, riattiva tutte le bandages o ripristina il tutto allo stato precedente all'ora di attivazione</string>
+    <string name="pref_dnd_remember_state_summary">Alla fine della modalità non distrurbare, riattiva tutte le bandages o ripristina il tutto allo stato precedente all\'ora di attivazione</string>
     <string name="pref_dnd_remember_state_on_title">Alla fine ripristina lo stato delle bandages</string>
     <string name="pref_dnd_remember_state_off_title">Alla fine riattiva tutte le bandages</string>
 
@@ -387,6 +387,7 @@
     <string name="action_tracker_calorie">Calorie</string>
 
     <string name="step_tab_day">Grafico giornaliero</string>
+    <string name="step_tab_week">Weekly charts</string>
     <string name="step_tab_goal">Obbiettivo attività</string>
     <string name="step_tab_settings">Impostazioni</string>
 
@@ -407,8 +408,9 @@
     <string name="action_pulse">Mostra Battito</string>
     <string name="pulse_current">Battito corrente</string>
 
-    <string name="pulse_tab_settings">Impostazione</string>
     <string name="pulse_tab_day">Grafico giornaliero</string>
+    <string name="pulse_tab_week">Weekly charts</string>
+    <string name="pulse_tab_settings">Impostazione</string>
 
     <string name="pulse_title_signals">Notifica</string>
     <string name="pulse_signal_start_title">Notifica avvio monitoraggio</string>
@@ -636,6 +638,5 @@
         <item quantity="many">%d minuti</item>
         <item quantity="other">%d minuti</item>
     </plurals>
-
 
 </resources>
