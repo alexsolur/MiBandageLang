@@ -74,10 +74,10 @@
 
     <string name="pref_disconnected">Bağlantı kesme ayarları</string>
     <string name="pref_disconnected_summary">Mi Band 2 ve cihaz uyarı kesme ayarları</string>
-    <string name="pref_cat_disconnected_mi_band">Mi Band 2 signal</string>
-    <string name="pref_disconnected_mi_band_title">Icon displaying</string>
-    <string name="pref_disconnected_mi_band_summary_off">Off</string>
-    <string name="pref_disconnected_mi_band_summary_on">On</string>
+    <string name="pref_cat_disconnected_mi_band">Mi Band 2 sinyali</string>
+    <string name="pref_disconnected_mi_band_title">Simge görüntüleniyor</string>
+    <string name="pref_disconnected_mi_band_summary_off">Kapalı</string>
+    <string name="pref_disconnected_mi_band_summary_on">Açık</string>
     <string name="pref_cat_disconnected">Aygıt uyarıları</string>
     <string name="pref_disconnected_ringtone_title">Zil sesi</string>
     <string name="pref_disconnected_ringtone_summary_no">Yok</string>
@@ -184,9 +184,9 @@
     <string name="pref_dnd_title">Rahatsız etmeyin modu</string>
     <string name="pref_dnd_time_start_title">Başlama zamanı</string>
     <string name="pref_dnd_time_end_title">Bitiş zamanı</string>
-    <string name="pref_dnd_remember_state_summary">At the end of the do not disturb mode, turn on all bandages or restore states as those were at the time of start</string>
-    <string name="pref_dnd_remember_state_on_title">At the end restore bandages\' state</string>
-    <string name="pref_dnd_remember_state_off_title">At the end turn on all bandages</string>
+    <string name="pref_dnd_remember_state_summary">Yapılacak işlemin sonunda Rahatsız etmeyin modunda, tüm bandajları açın veya olduğu gibi yenileyin başlangıç ​​anında</string>
+    <string name="pref_dnd_remember_state_on_title">Sonunda geri yükle Bandajları durumu</string>
+    <string name="pref_dnd_remember_state_off_title">Sonunda açın Tüm bandajlar</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Lütfen Bluetooth\'u etkinleştirin ve Mi Band 2 cihazını telefona yakın hale getirin</string>
@@ -386,9 +386,10 @@
     <string name="action_tracker_distance">Mesafe</string>
     <string name="action_tracker_calorie">Kalori</string>
 
-    <string name="step_tab_settings">Ayarlar</string>
-    <string name="step_tab_goal">Etkinlik hedefleri</string>
     <string name="step_tab_day">Günlük grafikler</string>
+    <string name="step_tab_week">Weekly charts</string>
+    <string name="step_tab_goal">Etkinlik hedefleri</string>
+    <string name="step_tab_settings">Ayarlar</string>
 
     <string name="step_title_timing">Zamanlama</string>
     <string name="step_interval_title">Adım izleme tekrar aralığı</string>
@@ -407,8 +408,9 @@
     <string name="action_pulse">Nabzı göster</string>
     <string name="pulse_current">Anlık nabız</string>
 
-    <string name="pulse_tab_settings">Ayarlar</string>
     <string name="pulse_tab_day">Günlük grafikler</string>
+    <string name="pulse_tab_week">Weekly charts</string>
+    <string name="pulse_tab_settings">Ayarlar</string>
 
     <string name="pulse_title_signals">Sinyaller</string>
     <string name="pulse_signal_start_title">İzleme başlangıç uyarısı</string>
@@ -520,7 +522,7 @@
          <img src="ic_alarm"> <b><u>Alarm</u></b>
          <p>Alarm için Bluetooth bağlantısı gerekli değildir, uygulama uyarı yapmak için Mi Fit\'in alarm işlevini kullanır (4. - 9. ayarın üzerine yazar).
          <br>Mi Band 2 herhangi bir hareket algılamazsa (fabrika alarmını kullandığından) alarm birkaç kez tekrarlanacaktır.
-         <br>Minute accuracy, Mi band 2 does not handle seconds at alarm time.</p>
+         <br>Dakika doğruluğu, Mi band 2 alarm zamanında saniyeyi işgal etmez.</p>
          <p>Hatırlatma sinyali için Bluetooth bağlantısı gerekir.</p>
     ]]></string>
 
@@ -636,6 +638,5 @@
         <item quantity="many">%d dakika</item>
         <item quantity="other">%d dakika</item>
     </plurals>
-
 
 </resources>
