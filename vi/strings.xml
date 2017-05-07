@@ -74,10 +74,10 @@
 
     <string name="pref_disconnected">Cài đặt ngắt kết nối</string>
     <string name="pref_disconnected_summary">Tín hiệu Mi Band 2 và thiết bị  khi bị ngắt kết nối </string>
-    <string name="pref_cat_disconnected_mi_band">Mi Band 2 signal</string>
-    <string name="pref_disconnected_mi_band_title">Icon displaying</string>
-    <string name="pref_disconnected_mi_band_summary_off">Off</string>
-    <string name="pref_disconnected_mi_band_summary_on">On</string>
+    <string name="pref_cat_disconnected_mi_band">Tín hiệu Mi Band 2</string>
+    <string name="pref_disconnected_mi_band_title">Hiển thị biểu tượng</string>
+    <string name="pref_disconnected_mi_band_summary_off">Tắt</string>
+    <string name="pref_disconnected_mi_band_summary_on">Bật</string>
     <string name="pref_cat_disconnected">Tín hiệu thiết bị</string>
     <string name="pref_disconnected_ringtone_title">Nhạc chuông</string>
     <string name="pref_disconnected_ringtone_summary_no">Không</string>
@@ -184,10 +184,10 @@
     <string name="pref_dnd_title">Chế độ không làm phiền</string>
     <string name="pref_dnd_time_start_title">Thời gian bắt đầu</string>
     <string name="pref_dnd_time_end_title">Thời gian kết thúc</string>
-    <string name="pref_dnd_remember_state_summary">At the end of the do not disturb mode, turn on all bandages or restore states as those were at the time of start</string>
-    <string name="pref_dnd_remember_state_on_title">At the end restore bandages\' state</string>
-    <string name="pref_dnd_remember_state_off_title">At the end turn on all bandages</string>
-    
+    <string name="pref_dnd_remember_state_summary">Vào lúc kết thúc chế độ không làm phiền, bật tất cả mọi thứ hoặc khôi phục trạng thái mặc định như lúc đầu</string>
+    <string name="pref_dnd_remember_state_on_title">Khôi phục tất cả vào lúc kết thúc</string>
+    <string name="pref_dnd_remember_state_off_title">Bật tất cả vào lúc kết thúc</string>
+
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Vui lòng kích hoạt Bluetooth và mang Mi Band 2 gần hơn với điện thoại</string>
     <string name="message_discover_mi_band">Mi Band 2 chưa được cài đặt, hãy kết nối với nó</string>
@@ -387,6 +387,7 @@
     <string name="action_tracker_calorie">Calories</string>
 
     <string name="step_tab_day">Biểu đồ hàng ngày</string>
+    <string name="step_tab_week">Weekly charts</string>
     <string name="step_tab_goal">Mục tiêu hoạt động</string>
     <string name="step_tab_settings">Cài đặt</string>
 
@@ -407,8 +408,9 @@
     <string name="action_pulse">Hiện nhịp tim</string>
     <string name="pulse_current">Nhịp tim hiện tại</string>
 
-    <string name="pulse_tab_settings">Cài đặt</string>
     <string name="pulse_tab_day">Biểu đồ hàng ngày</string>
+    <string name="pulse_tab_week">Weekly charts</string>
+    <string name="pulse_tab_settings">Cài đặt</string>
 
     <string name="pulse_title_signals">Các tín hiệu</string>
     <string name="pulse_signal_start_title">Tín hiệu bắt đầu giám sát</string>
@@ -520,7 +522,7 @@
         <img src="ic_alarm"> <b><u>Alarm</u></b>
         <p>Bluetooth connection is not required for alarm, app uses alarm function of Mi Fit to alert (overwrite 4. - 9. setting).
         <br>The alarm will be repeated several times if the Mi Band 2 do not detect any movement (because it uses the factory alarm).
-        <br>Minute accuracy, Mi band 2 does not handle seconds at alarm time.</p>
+        <br>Độ chính xác theo phút, Miband 2 không chính xác từng giây trong thời gian báo thức.</p>
         <p>Reminder signal requires Bluetooth connection.</p>
     ]]></string>
 
