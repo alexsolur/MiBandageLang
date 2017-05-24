@@ -33,6 +33,7 @@
     <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Dung lượng pin, thời gian từ lần sạc trước</string>
+    <string name="mi_band_battery_remaining">Battery estimated remaining time</string>
     <string name="mi_band_bonded_device_name">Tên thiết bị kết nối Mi Band 2</string>
     <string name="mi_band_mac_address">Địa chỉ MAC</string>
     <string name="mi_band_firmware">Firmware</string>
@@ -341,9 +342,10 @@
     <string name="touch_music_volume_down_title">Giảm âm lượng nhạc</string>
     <string name="touch_music_track_info_title">Hiển thị thông tin bài hát.</string>
 
-    <string name="touch_time_launch_title">Bắt đầu hẹn giờ/ bấm giờ</string>
+    <string name="touch_time_launch_title">Start time monitoring</string>
     <string name="touch_time_launch_type_timer_title">Hẹn giờ</string>
     <string name="touch_time_launch_type_stopper_title">Đồng hố bấm giờ</string>
+    <string name="touch_time_launch_type_interval_title">Interval</string>
     <string name="touch_time_reminder_title">Hiển thị thời gian còn lại / trôi qua</string>
 
     <string name="touch_app_launcher1_title">Trình khởi chạy ứng dụng</string>
@@ -387,7 +389,7 @@
     <string name="action_tracker_calorie">Calories</string>
 
     <string name="step_tab_day">Biểu đồ hàng ngày</string>
-    <string name="step_tab_week">Weekly charts</string>
+    <string name="step_tab_week">Biểu đồ theo tuần</string>
     <string name="step_tab_goal">Mục tiêu hoạt động</string>
     <string name="step_tab_settings">Cài đặt</string>
 
@@ -409,7 +411,7 @@
     <string name="pulse_current">Nhịp tim hiện tại</string>
 
     <string name="pulse_tab_day">Biểu đồ hàng ngày</string>
-    <string name="pulse_tab_week">Weekly charts</string>
+    <string name="pulse_tab_week">Biểu đồ theo tuần</string>
     <string name="pulse_tab_settings">Cài đặt</string>
 
     <string name="pulse_title_signals">Các tín hiệu</string>
@@ -467,6 +469,7 @@
     <string name="time_tab_timer">Hẹn giờ</string>
     <string name="time_tab_stopper">Đồng hố bấm giờ</string>
     <string name="time_tab_lap">Vòng thời gian</string>
+    <string name="time_tab_interval">Interval</string>
 
     <string name="action_alarm_device">Báo thức mặc định</string>
     <string name="time_alarm_title">Tiêu đề</string>
@@ -509,6 +512,13 @@
     <string name="time_alert">Kiểu báo thức</string>
     <string name="time_alert_bell_title">Chuông</string>
     <string name="time_alert_alarm_title">Báo thức</string>
+
+    <string name="time_interval_time_total">Total time</string>
+    <string name="time_interval_counter">Number of repetitions</string>
+    <string name="time_interval_time_alert">End time</string>
+    <string name="time_interval_time_current">Repetition, interval elapsed time</string>
+    <string name="time_interval_title">Title</string>
+    <string name="time_interval_time">Interval time</string>
 
     <string name="time_text">Hiển thị tin nhắn</string>
     <string name="time_text_message">Văn bản</string>
