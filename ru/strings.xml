@@ -33,6 +33,7 @@
     <string name="mi_band_tracker_distance_title">%1$,d м</string> <!-- meter -->
     <string name="mi_band_tracker_calorie_title">%1$,d ккал</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Уровень заряда, время с последней зарядки</string>
+    <string name="mi_band_battery_remaining">Battery estimated remaining time</string>
     <string name="mi_band_bonded_device_name">Имя спаренного Mi Band 2</string>
     <string name="mi_band_mac_address">MAC адрес</string>
     <string name="mi_band_firmware">Прошивка</string>
@@ -341,9 +342,10 @@
     <string name="touch_music_volume_down_title">Понизить громкость</string>
     <string name="touch_music_track_info_title">Отображение информации о треке</string>
 
-    <string name="touch_time_launch_title">Запустить таймер/секундомер</string>
+    <string name="touch_time_launch_title">Start time monitoring</string>
     <string name="touch_time_launch_type_timer_title">Таймер</string>
     <string name="touch_time_launch_type_stopper_title">Секундомер</string>
+    <string name="touch_time_launch_type_interval_title">Interval</string>
     <string name="touch_time_reminder_title">Оставшееся/прошедшее время</string>
 
     <string name="touch_app_launcher1_title">Запуск приложений</string>
@@ -467,6 +469,7 @@
     <string name="time_tab_timer">Таймер</string>
     <string name="time_tab_stopper">Секундомер</string>
     <string name="time_tab_lap">Время круга</string>
+    <string name="time_tab_interval">Interval</string>
 
     <string name="action_alarm_device">Будильник Mi</string>
     <string name="time_alarm_title">Название</string>
@@ -509,6 +512,13 @@
     <string name="time_alert">Вид сигнала</string>
     <string name="time_alert_bell_title">Уведомление</string>
     <string name="time_alert_alarm_title">Будильник</string>
+
+    <string name="time_interval_time_total">Total time</string>
+    <string name="time_interval_counter">Number of repetitions</string>
+    <string name="time_interval_time_alert">End time</string>
+    <string name="time_interval_time_current">Repetition, interval elapsed time</string>
+    <string name="time_interval_title">Title</string>
+    <string name="time_interval_time">Interval time</string>
 
     <string name="time_text">Отображать сообщение</string>
     <string name="time_text_message">Текст</string>
