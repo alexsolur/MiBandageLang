@@ -33,6 +33,7 @@
     <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Nível de bateria, data do último carregamento</string>
+    <string name="mi_band_battery_remaining">Battery estimated remaining time</string>
     <string name="mi_band_bonded_device_name">Mi Band 2 (nome do dispositivo emparelhado)</string>
     <string name="mi_band_mac_address">Endereço MAC</string>
     <string name="mi_band_firmware">Firmware</string>
@@ -341,9 +342,10 @@
     <string name="touch_music_volume_down_title">Descer o volume da música</string>
     <string name="touch_music_track_info_title">Mostrar informação sobre a música</string>
 
-    <string name="touch_time_launch_title">Iniciar temporizador/cronómetro</string>
+    <string name="touch_time_launch_title">Start time monitoring</string>
     <string name="touch_time_launch_type_timer_title">Temporizador</string>
     <string name="touch_time_launch_type_stopper_title">Cronómetro</string>
+    <string name="touch_time_launch_type_interval_title">Interval</string>
     <string name="touch_time_reminder_title">Tempo restante/decorrido</string>
 
     <string name="touch_app_launcher1_title">Iniciar aplicações</string>
@@ -467,6 +469,7 @@
     <string name="time_tab_timer">Temporizador</string>
     <string name="time_tab_stopper">Cronómetro</string>
     <string name="time_tab_lap">Tempo de volta</string>
+    <string name="time_tab_interval">Interval</string>
 
     <string name="action_alarm_device">Alarme de fábrica</string>
     <string name="time_alarm_title">Título</string>
@@ -509,6 +512,13 @@
     <string name="time_alert">Tipo de alerta</string>
     <string name="time_alert_bell_title">Sino</string>
     <string name="time_alert_alarm_title">Alarme</string>
+
+    <string name="time_interval_time_total">Total time</string>
+    <string name="time_interval_counter">Number of repetitions</string>
+    <string name="time_interval_time_alert">End time</string>
+    <string name="time_interval_time_current">Repetition, interval elapsed time</string>
+    <string name="time_interval_title">Title</string>
+    <string name="time_interval_time">Interval time</string>
 
     <string name="time_text">Mostrar mensagem</string>
     <string name="time_text_message">Texto</string>
