@@ -5,12 +5,12 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="drawer_nav_home">Bandages</string>
-    <string name="drawer_nav_notification">Notification monitoring</string>
-    <string name="drawer_nav_touch">Touch monitoring</string>
-    <string name="drawer_nav_alarm">Lost monitoring</string>
-    <string name="drawer_nav_step">Step monitoring</string>
-    <string name="drawer_nav_pulse">Pulse monitoring</string>
-    <string name="drawer_nav_time">Time monitoring</string>
+    <string name="drawer_nav_notification">Notification</string>
+    <string name="drawer_nav_touch">Touch</string>
+    <string name="drawer_nav_alarm">Lost</string>
+    <string name="drawer_nav_step">Step</string>
+    <string name="drawer_nav_pulse">Pulse</string>
+    <string name="drawer_nav_time">Time</string>
     <string name="drawer_nav_disconnected_agent">Agent</string>
     <string name="drawer_nav_rewarded_mode">Rewarded mode</string>
     <string name="drawer_nav_premium_mode">Premium mode</string>
@@ -51,10 +51,7 @@
     <string name="pref_cat_connected_have_notif_default">Predefined and custom settings</string>
     <string name="pref_connected_no_notif_title">Mi Band 2 signal</string>
     <string name="pref_connected_no_notif_summary_on">Vibration</string>
-    <string name="pref_connected_no_notif_summary_off">No</string>
     <string name="pref_connected_no_notif_wakelock_title">Wake up the device screen</string>
-    <string name="pref_connected_no_notif_wakelock_summary_on">On</string>
-    <string name="pref_connected_no_notif_wakelock_summary_off">Off</string>
 
     <string name="pref_connected_have_notif_immediate_title">Immediate signal when notification is received</string>
     <string name="pref_connected_have_notif_title">Signal when connecting to device</string>
@@ -77,24 +74,16 @@
     <string name="pref_disconnected_summary">Mi Band 2 and device disconnection signal settings</string>
     <string name="pref_cat_disconnected_mi_band">Mi Band 2 signal</string>
     <string name="pref_disconnected_mi_band_title">Icon displaying</string>
-    <string name="pref_disconnected_mi_band_summary_off">Off</string>
-    <string name="pref_disconnected_mi_band_summary_on">On</string>
     <string name="pref_cat_disconnected">Device signals</string>
     <string name="pref_disconnected_ringtone_title">Ringtone</string>
-    <string name="pref_disconnected_ringtone_summary_no">None</string>
     <string name="pref_disconnected_vibration_title">Vibration</string>
-    <string name="pref_disconnected_vibration_summary_on">On</string>
-    <string name="pref_disconnected_vibration_summary_off">Off</string>
     <string name="pref_disconnected_wakelock_title">Wake up the device screen</string>
-    <string name="pref_disconnected_wakelock_summary_on">On</string>
-    <string name="pref_disconnected_wakelock_summary_off">Off</string>
 
     <string name="pref_cat_abandoned">Device signal</string>
     <string name="pref_abandoned_notif_interval_title">Signal repeat interval</string>
     <string name="pref_abandoned_notif_text_summary">Notification on the device screen</string>
     <string name="pref_abandoned_notif_text_text">The device is lost, please call the following numbers:</string>
     <string name="pref_abandoned_ringtone_title">Ringtone</string>
-    <string name="pref_abandoned_ringtone_summary_no">None</string>
     <string name="pref_abandoned_vibration_title">Vibration</string>
     <string name="pref_abandoned_wakelock_title">Wake up the screen</string>
     <string name="pref_abandoned_notif_title">The device is lost</string>
@@ -103,23 +92,17 @@
     <string name="pref_call_summary">Mi Band 2 signal settings</string>
     <string name="pref_cat_call">Incoming call</string>
     <string name="pref_call_title">Incoming call signal</string>
-    <string name="pref_call_summary_off">Off</string>
     <string name="pref_call_summary_on">On (do not forget to turn off incoming call alerts on Mi Fit app)</string>
     <string name="pref_call_text_title">Display caller ID</string>
     <string name="pref_call_text_summary_on"><![CDATA[On (more information: <i>Settings/Text icons settings)</i>]]></string>
-    <string name="pref_call_text_summary_off">Off</string>
 
     <string name="pref_call_net_text_title">Incoming internet call signal, display caller ID</string>
-    <string name="pref_call_net_text_summary_off">Off</string>
     <string name="pref_call_net_text_summary_on">Viber, WhatsApp, Line</string>
 
     <string name="pref_cat_call_missed">Missed call</string>
     <string name="pref_call_missed_title">Missed call signal</string>
-    <string name="pref_call_missed_summary_off">Off</string>
-    <string name="pref_call_missed_summary_on">On</string>
 
     <string name="pref_call_missed_net_title">Missed internet call signal, display caller ID</string>
-    <string name="pref_call_missed_net_summary_off">Off</string>
     <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
 
     <string name="pref_call_missed_alert_title">Mi Band 2 signal</string>
@@ -133,7 +116,6 @@
     <string name="pref_cat_text_conversion">Mi Band 2 signal</string>
     <string name="pref_text_conversion_title">Characters conversion</string>
     <string name="pref_text_conversion_summary_on">Not recognisable characters conversion</string>
-    <string name="pref_text_conversion_summary_off">Off</string>
 
     <string name="pref_text_conversion_description_title">Description</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -150,22 +132,15 @@
     </string>
 
     <string name="pref_touch">Touch monitoring</string>
-    <string name="pref_touch_summary"></string>
     <string name="pref_cat_touch">Mi Band 2 signal</string>
     <string name="pref_touch_recognised_failed_title">Not recognisable touch pattern signal</string>
-    <string name="pref_touch_recognised_failed_summary_off">Off</string>
     <string name="pref_touch_recognised_failed_summary_on">On (2 vibrations after the longest pattern)</string>
 
     <string name="pref_mi_band">Mi Band 2</string>
     <string name="pref_cat_mi_band_lift_wrist">Lift wrist to view info</string>
     <string name="pref_mi_band_lift_wrist_title">Lift wrist to view info</string>
-    <string name="pref_mi_band_lift_wrist_summary_on">On</string>
-    <string name="pref_mi_band_lift_wrist_summary_off">Off</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Do not disturb mode</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">On (in the specified period will not display the information, Bluetooth connection is required for setting)</string>
-    <string name="pref_mi_band_lift_wrist_dnd_summary_off">Off</string>
-    <string name="pref_mi_band_lift_wrist_dnd_time_start_title">Start time</string>
-    <string name="pref_mi_band_lift_wrist_dnd_time_end_title">End time</string>
 
     <string name="pref_theme">Theme</string>
     <string name="pref_cat_theme">Theme</string>
@@ -183,8 +158,6 @@
     <string name="touch">Touch monitoring</string>
 
     <string name="pref_dnd_title">Do not disturb mode</string>
-    <string name="pref_dnd_time_start_title">Start time</string>
-    <string name="pref_dnd_time_end_title">End time</string>
     <string name="pref_dnd_remember_state_summary">At the end of the do not disturb mode, turn on all bandages or restore states as those were at the time of start</string>
     <string name="pref_dnd_remember_state_on_title">At the end restore bandages\' state</string>
     <string name="pref_dnd_remember_state_off_title">At the end turn on all bandages</string>
@@ -320,7 +293,6 @@
     <string name="touch_headline_other_title">Other controls</string>
 
     <string name="touch_device_location_title">Find my device</string>
-    <string name="touch_device_location_ringtone_title_no">None</string>
 
     <string name="touch_call_answer_title">Call answering</string>
     <string name="touch_call_answer_speakerphone_title">Speakerphone</string>
@@ -328,7 +300,6 @@
     <string name="touch_call_end_title">Call rejecting, ending</string>
 
     <string name="touch_call_mute_title">Call mute toggle</string>
-    <string name="touch_call_mute_ringtone_title_no">None</string>
 
     <string name="touch_device_location_not_muted_only_title">Sound only if not muted</string>
 
@@ -395,8 +366,6 @@
 
     <string name="step_title_timing">Timing</string>
     <string name="step_interval_title">Repeat interval of step monitoring</string>
-    <string name="step_time_start">Start time</string>
-    <string name="step_time_end">End time</string>
     <string name="step_time_set_next">Timing of next monitoring</string>
 
     <string name="step_goal_type_title">Monitoring value</string>
@@ -418,14 +387,10 @@
     <string name="pulse_signal_start_title">Monitoring starting signal</string>
     <string name="pulse_signal_show_title">Show pulse</string>
     <string name="pulse_signal_end_low_title">Low pulse signal</string>
-    <string name="pulse_signal_end_low_value_title">BPM</string>
     <string name="pulse_signal_end_title">High pulse signal</string>
-    <string name="pulse_signal_end_value_title">BPM</string>
 
     <string name="pulse_title_timing_validity">Timing and validity</string>
     <string name="pulse_interval_title">Repeat interval of pulse monitoring</string>
-    <string name="pulse_time_start">Start time</string>
-    <string name="pulse_time_end">End time</string>
     <string name="pulse_time_set_next">Timing of next monitoring</string>
     <string name="pulse_value_min">Valid lower value</string>
     <string name="pulse_value_max">Valid higher value</string>
@@ -441,8 +406,6 @@
     <!-- Lost monitoring -->
     <string name="alarm_mi_band_title">Mi Band 2 signal</string>
     <string name="alarm_mi_band_dnd">Do not disturb mode</string>
-    <string name="alarm_mi_band_dnd_start">Start time</string>
-    <string name="alarm_mi_band_dnd_end">End time</string>
     <string name="alarm_mi_band_interval_title">Repeat interval of alarm setting</string>
     <string name="alarm_mi_band_time_set_next">Timing of next setting</string>
     <string name="alarm_mi_band_time">Timing of next alarm</string>
@@ -481,23 +444,15 @@
     <string name="time_timer_time_alert">Alarm time</string>
     <string name="time_timer_time_remaining">Remaining time</string>
 
-    <string name="time_timer_mode_timer_title">Timing</string>
-    <string name="time_timer_mode_time_title">Time</string>
-
     <string name="time_timer_reminder">Reminder signal, remaining time</string>
     <string name="time_timer_reminder_interval_before_title">Before time</string>
-    <string name="time_timer_reminder_interval_before_off_title">Off</string>
     <string name="time_timer_reminder_interval_repeat_title">Reminder repeat interval</string>
 
     <string name="time_stopper_time_alert">Alarm time</string>
     <string name="time_stopper_time_elapsed">Elapsed time</string>
 
-    <string name="time_stopper_mode_timer_title">Timing</string>
-    <string name="time_stopper_mode_time_title">Time</string>
-
     <string name="time_stopper_reminder">Reminder signal, elapsed time</string>
     <string name="time_stopper_reminder_interval_before_title">Before time</string>
-    <string name="time_stopper_reminder_interval_before_off_title">Off</string>
     <string name="time_stopper_reminder_interval_repeat_title">Reminder repeat interval</string>
 
     <string name="time_stopper_touch">Lap time, touch monitoring</string>
@@ -508,6 +463,9 @@
     <string name="time_stopper_touch_time_format_second">min \u2032 second \u2033</string>
 
     <string name="time_lap_details">Lap time details</string>
+
+    <string name="time_mode_timer_title">Timing</string>
+    <string name="time_mode_time_title">Time</string>
 
     <string name="time_alert">Alarm type</string>
     <string name="time_alert_bell_title">Bell</string>
@@ -621,6 +579,13 @@
     </string>
 
     <!-- Others -->
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="none">None</string>
+    <string name="bpm">BPM</string>
+    <string name="time_start">Start time</string>
+    <string name="time_end">End time</string>
+
     <string name="action_dismiss">Dismiss</string>
     <string name="action_setting">Setting</string>
     <string name="action_delete">Delete</string>
@@ -647,6 +612,15 @@
         <item quantity="few">%d minutes</item>
         <item quantity="many">%d minutes</item>
         <item quantity="other">%d minutes</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d second</item>
+        <item quantity="one">%d second</item>
+        <item quantity="two">%d seconds</item>
+        <item quantity="few">%d seconds</item>
+        <item quantity="many">%d seconds</item>
+        <item quantity="other">%d seconds</item>
     </plurals>
 
 </resources>
