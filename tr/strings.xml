@@ -33,7 +33,7 @@
     <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Pil seviyesi, son şarjdan bu yana geçen süre</string>
-    <string name="mi_band_battery_remaining">Battery estimated remaining time</string>
+    <string name="mi_band_battery_remaining">Pilin tahmini kalan süresi</string>
     <string name="mi_band_bonded_device_name">Mi Band 2 eşleştirilmiş cihaz adı</string>
     <string name="mi_band_mac_address">MAC adresi</string>
     <string name="mi_band_firmware">Ürün sürümü</string>
@@ -51,10 +51,7 @@
     <string name="pref_cat_connected_have_notif_default">Önceden tanımlı ve özel ayarlar</string>
     <string name="pref_connected_no_notif_title">Mi Band 2 uyarısı</string>
     <string name="pref_connected_no_notif_summary_on">Titreşim</string>
-    <string name="pref_connected_no_notif_summary_off">Hayır</string>
     <string name="pref_connected_no_notif_wakelock_title">Cihaz ekranını uyandırma</string>
-    <string name="pref_connected_no_notif_wakelock_summary_on">calıstır</string>
-    <string name="pref_connected_no_notif_wakelock_summary_off">durdur</string>
 
     <string name="pref_connected_have_notif_immediate_title">Bildirim alındığında uyar</string>
     <string name="pref_connected_have_notif_title">Aygıta baglanırken uyar</string>
@@ -77,24 +74,16 @@
     <string name="pref_disconnected_summary">Mi Band 2 ve cihaz uyarı kesme ayarları</string>
     <string name="pref_cat_disconnected_mi_band">Mi Band 2 sinyali</string>
     <string name="pref_disconnected_mi_band_title">Simge görüntüleniyor</string>
-    <string name="pref_disconnected_mi_band_summary_off">Kapalı</string>
-    <string name="pref_disconnected_mi_band_summary_on">Açık</string>
     <string name="pref_cat_disconnected">Aygıt uyarıları</string>
     <string name="pref_disconnected_ringtone_title">Zil sesi</string>
-    <string name="pref_disconnected_ringtone_summary_no">Yok</string>
     <string name="pref_disconnected_vibration_title">Titreşim</string>
-    <string name="pref_disconnected_vibration_summary_on">Calıstır</string>
-    <string name="pref_disconnected_vibration_summary_off">Durdur</string>
     <string name="pref_disconnected_wakelock_title">Cihaz ekranını uyandırma</string>
-    <string name="pref_disconnected_wakelock_summary_on">Calıstır</string>
-    <string name="pref_disconnected_wakelock_summary_off">Durdur</string>
 
     <string name="pref_cat_abandoned">Cihaz sinyali</string>
     <string name="pref_abandoned_notif_interval_title">Uyarı tekrarlama aralığı</string>
     <string name="pref_abandoned_notif_text_summary">Cihaz ekranında bildirim</string>
     <string name="pref_abandoned_notif_text_text">Cihaz kayboldu, lütfen aşağıdaki numaraları arayın:</string>
     <string name="pref_abandoned_ringtone_title">Zil sesi</string>
-    <string name="pref_abandoned_ringtone_summary_no">Yok</string>
     <string name="pref_abandoned_vibration_title">Titreşim</string>
     <string name="pref_abandoned_wakelock_title">Ekranı uyandır</string>
     <string name="pref_abandoned_notif_title">Cihaz kayıp</string>
@@ -103,23 +92,17 @@
     <string name="pref_call_summary">Mi Band 2 sinyal ayarlari</string>
     <string name="pref_cat_call">Gelen arama</string>
     <string name="pref_call_title">Gelen arama uyarısı</string>
-    <string name="pref_call_summary_off">Durdur</string>
     <string name="pref_call_summary_on">Calıstır (Mi Fit uygulamasında gelen çağrı uyarılarını kapatmayı unutmayın)</string>
     <string name="pref_call_text_title">Arayan kimliğini göster</string>
-    <string name="pref_call_text_summary_on"><![CDATA[Calıstır (daha fazla bilgi: <i> Ayarlar / Metin simgeleri ayarları)</i>]]></string>
-    <string name="pref_call_text_summary_off">Durdur</string>
+    <string name="pref_call_text_summary_on"><![CDATA[Calıstır (daha fazla bilgi: <i> Ayarlar/Metin simgeleri ayarları)</i>]]></string>
 
     <string name="pref_call_net_text_title">Gelen internet araması uyarısı, arayanın kimliğini göster</string>
-    <string name="pref_call_net_text_summary_off">Durdur</string>
     <string name="pref_call_net_text_summary_on">Viber, WhatsApp, Line</string>
 
     <string name="pref_cat_call_missed">Cevapsız arama</string>
     <string name="pref_call_missed_title">Cevapsız arama uyarısı</string>
-    <string name="pref_call_missed_summary_off">Durdur</string>
-    <string name="pref_call_missed_summary_on">Calıstır</string>
 
     <string name="pref_call_missed_net_title">Cevapsız internet araması uyarısı, arayan kimliğini göster</string>
-    <string name="pref_call_missed_net_summary_off">Durdur</string>
     <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
 
     <string name="pref_call_missed_alert_title">Mi Band 2 uyarısı</string>
@@ -133,7 +116,6 @@
     <string name="pref_cat_text_conversion">Mi Band 2 uyarısı</string>
     <string name="pref_text_conversion_title">Karakterlerin dönüştürülmesi</string>
     <string name="pref_text_conversion_summary_on">Tanınmayan karakter dönüşümleri</string>
-    <string name="pref_text_conversion_summary_off">Durdur</string>
 
     <string name="pref_text_conversion_description_title">Açıklama</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -141,7 +123,7 @@
          <p><i> Gelen arama uyarılarını </i> kullanmazsanız ve telefonun dili İngilizce değilse:
          <br/>1. Telefon dilinizi İngilizce olarak ayarlayın.
          <br/>2. Mi Fit uygulamasını açın, font bellenim güncellemesi bitene kadar bekleyin. Yazılım güncellemesi başlamazsa, telefonunuzu yeniden başlatmayı deneyin.
-         <br/>3. <i> Yürüt / Gelen çağrısı </i> menüsünü açın.
+         <br/>3. <i> Yürüt/Gelen çağrısı </i> menüsünü açın.
          <br/>4. Aç: <i> Gelen arama uyarılarını etkinleştirin </i>.
          <br/>5. Aç: <i> Kişi bilgilerini göster </i>.
          <br/>6. Mi Band 2 telefon numarasını arayarak arayanın adını gösterebilir mi diye kontrol edin.
@@ -150,22 +132,15 @@
     </string>
 
     <string name="pref_touch">Dokunmatik izleme ayarları</string>
-    <string name="pref_touch_summary"></string>
     <string name="pref_cat_touch">Mi Band 2 uyarısı</string>
     <string name="pref_touch_recognised_failed_title">Tanınmayan dokunmatik desen uyarısı</string>
-    <string name="pref_touch_recognised_failed_summary_off">Durdur</string>
     <string name="pref_touch_recognised_failed_summary_on">Calıstır (En uzun desenden 2 titreşim)</string>
 
     <string name="pref_mi_band">Mi Band 2 ayarlari</string>
     <string name="pref_cat_mi_band_lift_wrist">Bilgiyi görmek için bilekliği kaldırın</string>
     <string name="pref_mi_band_lift_wrist_title">Bilgiyi görmek için bilekliği kaldırın</string>
-    <string name="pref_mi_band_lift_wrist_summary_on">Calıstır</string>
-    <string name="pref_mi_band_lift_wrist_summary_off">Durdur</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Rahatsız etmeyin modu</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Calıstır (Belirtilen sürede bilgi görüntülenmez, ayar için Bluetooth bağlantısı gereklidir)</string>
-    <string name="pref_mi_band_lift_wrist_dnd_summary_off">Durdur</string>
-    <string name="pref_mi_band_lift_wrist_dnd_time_start_title">Başlama zamanı</string>
-    <string name="pref_mi_band_lift_wrist_dnd_time_end_title">Bitiş zamanı</string>
 
     <string name="pref_theme">Tema ayarları</string>
     <string name="pref_cat_theme">Tema</string>
@@ -183,8 +158,6 @@
     <string name="touch">Dokunmatik izleme</string>
 
     <string name="pref_dnd_title">Rahatsız etmeyin modu</string>
-    <string name="pref_dnd_time_start_title">Başlama zamanı</string>
-    <string name="pref_dnd_time_end_title">Bitiş zamanı</string>
     <string name="pref_dnd_remember_state_summary">Yapılacak işlemin sonunda Rahatsız etmeyin modunda, tüm bandajları açın veya olduğu gibi yenileyin başlangıç ​​anında</string>
     <string name="pref_dnd_remember_state_on_title">Sonunda geri yükle Bandajları durumu</string>
     <string name="pref_dnd_remember_state_off_title">Sonunda açın Tüm bandajlar</string>
@@ -269,7 +242,7 @@
     <string name="notification_group_counter_title">Uyarı kararlılığı</string>
     <string name="notification_group_wakelock">Cihaz ekranını uyandırma</string>
     <string name="notification_group_filter">Bildirimleri filtrelemek</string>
-    <string name="notification_group_filter_hint">Yalnızca bildirim geldiğinde uyarı verir (sınırlayıcı: enter, büyük / küçük harfe duyarsız)</string>
+    <string name="notification_group_filter_hint">Yalnızca bildirim geldiğinde uyarı verir (sınırlayıcı: enter, büyük/küçük harfe duyarsız)</string>
     <string name="notification_group_filter_contains">Herhangi bir cümle içeriyor</string>
     <string name="notification_group_filter_not_contains">Hiçbir cümle içermiyor</string>
 
@@ -316,11 +289,10 @@
     <!-- Touch monitoring -->
     <string name="touch_headline_call_title">Arama Kontrolü</string>
     <string name="touch_headline_music_title">Müzik Kontrolü</string>
-    <string name="touch_headline_time_title">Zamanlayıcı / kronometre kontrolü</string>
+    <string name="touch_headline_time_title">Zamanlayıcı/kronometre kontrolü</string>
     <string name="touch_headline_other_title">Diğer kontroller</string>
 
     <string name="touch_device_location_title">Cihazımı bul</string>
-    <string name="touch_device_location_ringtone_title_no">Yok</string>
 
     <string name="touch_call_answer_title">Çağrı cevaplama</string>
     <string name="touch_call_answer_speakerphone_title">Hoparlör</string>
@@ -328,7 +300,6 @@
     <string name="touch_call_end_title">Çağrı reddetme, sonlandırma</string>
 
     <string name="touch_call_mute_title">Arama sesini kapatma değiştirme</string>
-    <string name="touch_call_mute_ringtone_title_no">Yok</string>
 
     <string name="touch_device_location_not_muted_only_title">Yalnızca sessiz değilse ses</string>
 
@@ -342,11 +313,11 @@
     <string name="touch_music_volume_down_title">Müzik sesi azalt</string>
     <string name="touch_music_track_info_title">Müzik bilgisini göster</string>
 
-    <string name="touch_time_launch_title">Start time monitoring</string>
+    <string name="touch_time_launch_title">Başlangıç ​​zamanı izleme</string>
     <string name="touch_time_launch_type_timer_title">Zamanlayıcı</string>
     <string name="touch_time_launch_type_stopper_title">Kronometre</string>
-    <string name="touch_time_launch_type_interval_title">Interval</string>
-    <string name="touch_time_reminder_title">Kalan / geçen süreyi göster</string>
+    <string name="touch_time_launch_type_interval_title">Aralık</string>
+    <string name="touch_time_reminder_title">Kalan/geçen süreyi göster</string>
 
     <string name="touch_app_launcher1_title">Uygulama başlatıcısı</string>
     <string name="touch_app_launcher_package_no_title">Bir uygulama seçin</string>
@@ -395,8 +366,6 @@
 
     <string name="step_title_timing">Zamanlama</string>
     <string name="step_interval_title">Adım izleme tekrar aralığı</string>
-    <string name="step_time_start">Baslama zamanı</string>
-    <string name="step_time_end">Bitiş zamanı</string>
     <string name="step_time_set_next">Sonraki izleme zamanlaması</string>
 
     <string name="step_goal_type_title">İzleme değeri</string>
@@ -418,14 +387,10 @@
     <string name="pulse_signal_start_title">İzleme başlangıç uyarısı</string>
     <string name="pulse_signal_show_title">Nabzı göster</string>
     <string name="pulse_signal_end_low_title">Düşük nabız uyarısı</string>
-    <string name="pulse_signal_end_low_value_title">BPM</string>
     <string name="pulse_signal_end_title">Yüksek nabız uyarısı</string>
-    <string name="pulse_signal_end_value_title">BPM</string>
 
     <string name="pulse_title_timing_validity">Zamanlama ve geçerlik</string>
     <string name="pulse_interval_title">Nabız izleme tekrar aralığı</string>
-    <string name="pulse_time_start">Baslama zamanı</string>
-    <string name="pulse_time_end">Bitiş zamanı</string>
     <string name="pulse_time_set_next">Sonraki izleme zamanlaması</string>
     <string name="pulse_value_min">Geçerli düşük değer</string>
     <string name="pulse_value_max">Geçerli yüksek değer</string>
@@ -441,8 +406,6 @@
     <!-- Lost  monitoring -->
     <string name="alarm_mi_band_title">Mi Band 2 uyarısı</string>
     <string name="alarm_mi_band_dnd">Rahatsız etmeyin modu</string>
-    <string name="alarm_mi_band_dnd_start">Baslama zamanı</string>
-    <string name="alarm_mi_band_dnd_end">Bitiş zamanı</string>
     <string name="alarm_mi_band_interval_title">Alarm ayarının tekrar aralığı</string>
     <string name="alarm_mi_band_time_set_next">Bir sonraki ayarın zamanlaması</string>
     <string name="alarm_mi_band_time">Bir sonraki alarmın zamanlaması</string>
@@ -469,7 +432,7 @@
     <string name="time_tab_timer">Zamanlayıcı</string>
     <string name="time_tab_stopper">Kronometre</string>
     <string name="time_tab_lap">Tur zamanı</string>
-    <string name="time_tab_interval">Interval</string>
+    <string name="time_tab_interval">Aralık</string>
 
     <string name="action_alarm_device">Fabrika alarmı</string>
     <string name="time_alarm_title">Başlık</string>
@@ -481,23 +444,15 @@
     <string name="time_timer_time_alert">Alarm zamanı</string>
     <string name="time_timer_time_remaining">Kalan süre</string>
 
-    <string name="time_timer_mode_timer_title">Zamanlama</string>
-    <string name="time_timer_mode_time_title">Zaman</string>
-
     <string name="time_timer_reminder">Hatırlatma uyarısı, kalan süre</string>
     <string name="time_timer_reminder_interval_before_title">Zamanından önce</string>
-    <string name="time_timer_reminder_interval_before_off_title">Durdur</string>
     <string name="time_timer_reminder_interval_repeat_title">Hatırlatma tekrar aralığı</string>
 
     <string name="time_stopper_time_alert">Alarm zamanı</string>
     <string name="time_stopper_time_elapsed">Geçen zaman</string>
 
-    <string name="time_stopper_mode_timer_title">Zamanlama</string>
-    <string name="time_stopper_mode_time_title">Zaman</string>
-
     <string name="time_stopper_reminder">Hatırlatma uyarısı, geçen süre</string>
     <string name="time_stopper_reminder_interval_before_title">Zamanından önce</string>
-    <string name="time_stopper_reminder_interval_before_off_title">Durdur</string>
     <string name="time_stopper_reminder_interval_repeat_title">Hatırlatma tekrar aralığı</string>
 
     <string name="time_stopper_touch">Tur süresi, dokunmatik izleme</string>
@@ -509,16 +464,19 @@
 
     <string name="time_lap_details">Tur bilgileri</string>
 
+    <string name="time_mode_timer_title">Zamanlama</string>
+    <string name="time_mode_time_title">Zaman</string>
+
     <string name="time_alert">Alarm tipi</string>
     <string name="time_alert_bell_title">Zil</string>
     <string name="time_alert_alarm_title">Alarm</string>
 
-    <string name="time_interval_time_total">Total time</string>
-    <string name="time_interval_counter">Number of repetitions</string>
-    <string name="time_interval_time_alert">End time</string>
-    <string name="time_interval_time_current">Repetition, interval elapsed time</string>
-    <string name="time_interval_title">Title</string>
-    <string name="time_interval_time">Interval time</string>
+    <string name="time_interval_time_total">Toplam zaman</string>
+    <string name="time_interval_counter">Tekrarlama sayısı</string>
+    <string name="time_interval_time_alert">Bitiş zamanı</string>
+    <string name="time_interval_time_current">Tekrar, aralık geçen süre</string>
+    <string name="time_interval_title">Başlık</string>
+    <string name="time_interval_time">Aralık süresi</string>
 
     <string name="time_text">Mesajı göster</string>
     <string name="time_text_message">Metin</string>
@@ -621,6 +579,13 @@
     </string>
 
     <!-- Others -->
+    <string name="on">Calıstır</string>
+    <string name="off">Durdur</string>
+    <string name="none">Yok</string>
+    <string name="bpm">BPM</string>
+    <string name="time_start">Baslama zamanı</string>
+    <string name="time_end">Bitiş zamanı</string>
+
     <string name="action_dismiss">Reddet</string>
     <string name="action_setting">Ayarlar</string>
     <string name="action_delete">Sil</string>
@@ -647,6 +612,15 @@
         <item quantity="few">%d dakika</item>
         <item quantity="many">%d dakika</item>
         <item quantity="other">%d dakika</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d saniye</item>
+        <item quantity="one">%d saniye</item>
+        <item quantity="two">%d saniye</item>
+        <item quantity="few">%d saniye</item>
+        <item quantity="many">%d saniye</item>
+        <item quantity="other">%d saniye</item>
     </plurals>
 
 </resources>
