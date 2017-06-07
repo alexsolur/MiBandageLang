@@ -51,10 +51,7 @@
     <string name="pref_cat_connected_have_notif_default">Προκαθορισμένες και προσαρμοσμένες ρυθμίσεις</string>
     <string name="pref_connected_no_notif_title">Σήμα του Mi Band 2</string>
     <string name="pref_connected_no_notif_summary_on">Δόνηση</string>
-    <string name="pref_connected_no_notif_summary_off">Χωρίς δόνηση</string>
     <string name="pref_connected_no_notif_wakelock_title">Αφύπνιση οθόνης της συσκευής</string>
-    <string name="pref_connected_no_notif_wakelock_summary_on">Ενεργό</string>
-    <string name="pref_connected_no_notif_wakelock_summary_off">Ανενεργό</string>
 
     <string name="pref_connected_have_notif_immediate_title">Άμεσο σήμα με την παραλαβή ειδοποιήσης</string>
     <string name="pref_connected_have_notif_title">Σήμα κατά τη σύνδεση με τη συσκευή</string>
@@ -77,24 +74,16 @@
     <string name="pref_disconnected_summary">Mi Band 2 και ρυθμίσεις σήματος αποσύνδεσης της συσκευή</string>
     <string name="pref_cat_disconnected_mi_band">Σήμα Mi Band 2</string>
     <string name="pref_disconnected_mi_band_title">Εμφάνιση εικονιδίου</string>
-    <string name="pref_disconnected_mi_band_summary_off">Ανενεργό</string>
-    <string name="pref_disconnected_mi_band_summary_on">Ενεργό</string>
     <string name="pref_cat_disconnected">Σήμα συσκευής</string>
     <string name="pref_disconnected_ringtone_title">Ήχος κλήσης</string>
-    <string name="pref_disconnected_ringtone_summary_no">Κανένας</string>
     <string name="pref_disconnected_vibration_title">Δόνηση</string>
-    <string name="pref_disconnected_vibration_summary_on">Ενεργή</string>
-    <string name="pref_disconnected_vibration_summary_off">Ανενεργή</string>
     <string name="pref_disconnected_wakelock_title">Αφύπνιση οθόνης της συσκευής</string>
-    <string name="pref_disconnected_wakelock_summary_on">Ενεργό</string>
-    <string name="pref_disconnected_wakelock_summary_off">Ανενεργό</string>
 
     <string name="pref_cat_abandoned">Σήμα συσκευής</string>
     <string name="pref_abandoned_notif_interval_title">Διάστημα επανάληψης σήματος</string>
     <string name="pref_abandoned_notif_text_summary">Ειδοποίηση στην οθόνη της συσκευής</string>
     <string name="pref_abandoned_notif_text_text">Η συσκευή αυτή έχει χαθεί, παρακαλώ καλέστε στους παρακάτω αριθμούς:</string>
     <string name="pref_abandoned_ringtone_title">Ήχος κλήσης</string>
-    <string name="pref_abandoned_ringtone_summary_no">Κανένας</string>
     <string name="pref_abandoned_vibration_title">Δόνηση</string>
     <string name="pref_abandoned_wakelock_title">Αφύπνιση οθόνης της συσκευής</string>
     <string name="pref_abandoned_notif_title">Η συσκευή έχει χαθεί</string>
@@ -103,23 +92,17 @@
     <string name="pref_call_summary">Ρυθμίσεις σήματος Mi Band 2</string>
     <string name="pref_cat_call">Εισερχόμενη κλήση</string>
     <string name="pref_call_title">Σήμα εισερχόμενης κλήσης</string>
-    <string name="pref_call_summary_off">Ανενεργό</string>
     <string name="pref_call_summary_on">Ενεργό (μην ξεχάσετε να απενεργοποιήσετε ειδοποιήσεις εισερχόμενων κλήσεων (incoming call alerts) στήν εφαρμογή Mi Fit)</string>
     <string name="pref_call_text_title">Εμφάνιση ταυτότητας καλούντος</string>
     <string name="pref_call_text_summary_on"><![CDATA[Ενεργό (περισσότερες πληροφορίες: <i>Ρυθμίσεις/Ρυθμίσεις εικονιδίων κειμένου)</i>]]></string>
-    <string name="pref_call_text_summary_off">Ανενεργό</string>
 
     <string name="pref_call_net_text_title">Σήμα εισερχόμενης κλήσης διαδικτύου, εμφάνιση ταυτότητας καλούντος</string>
-    <string name="pref_call_net_text_summary_off">Ανενεργό</string>
     <string name="pref_call_net_text_summary_on">Viber, WhatsApp, Line</string>
 
     <string name="pref_cat_call_missed">Αναπάντητη κλήση</string>
     <string name="pref_call_missed_title">Σήμα αναπάντητης κλήσης</string>
-    <string name="pref_call_missed_summary_off">Ανενεργό</string>
-    <string name="pref_call_missed_summary_on">Ενεργό</string>
 
     <string name="pref_call_missed_net_title">Αναπάντητη κλήση διαδικτύου, εμφάνιση ταυτότητας καλούντος</string>
-    <string name="pref_call_missed_net_summary_off">Ανενεργό</string>
     <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
 
     <string name="pref_call_missed_alert_title">Σήμα Mi Band 2</string>
@@ -133,7 +116,6 @@
     <string name="pref_cat_text_conversion">Σήμα Mi Band 2</string>
     <string name="pref_text_conversion_title">Μετατροπή χαρακτήρων</string>
     <string name="pref_text_conversion_summary_on">Μή αναγνωρίσιμη μετατροπή χαρακτήρων</string>
-    <string name="pref_text_conversion_summary_off">Ανενεργή</string>
 
     <string name="pref_text_conversion_description_title">Περιγραφή</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -150,22 +132,15 @@
     </string>
 
     <string name="pref_touch">Ρυθμίσεις παρακολούθηση αφής</string>
-    <string name="pref_touch_summary"></string>
     <string name="pref_cat_touch">Σήμα Mi Band 2</string>
     <string name="pref_touch_recognised_failed_title">Σήμα μη αναγνωρίσιμου μοτίβου αφής</string>
-    <string name="pref_touch_recognised_failed_summary_off">Ανενεργό</string>
     <string name="pref_touch_recognised_failed_summary_on">Ενεργό (2 δονήσεις μετά από το μεγαλύτερο μοτίβο)</string>
 
     <string name="pref_mi_band">Ρυθμίσεις Mi Band 2</string>
     <string name="pref_cat_mi_band_lift_wrist">Σήκωσε τον καρπό για να δείς πληροφορίες</string>
     <string name="pref_mi_band_lift_wrist_title">Σήκωσε τον καρπό για να δείς πληροφορίες</string>
-    <string name="pref_mi_band_lift_wrist_summary_on">Ενεργό</string>
-    <string name="pref_mi_band_lift_wrist_summary_off">Ανενεργό</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Λειτουργία μην ενοχλείτε</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Ενεργό (στην καθορισμένη περίοδο δεν θα εμφανίζει τις πληροφορίες, για αύτη τη ρύθμιση η σύνδεση Bluetooth είναι απαραίτητη)</string>
-    <string name="pref_mi_band_lift_wrist_dnd_summary_off">Ανενεργό</string>
-    <string name="pref_mi_band_lift_wrist_dnd_time_start_title">Ώρα έναρξης</string>
-    <string name="pref_mi_band_lift_wrist_dnd_time_end_title">Ώρα λήξης</string>
 
     <string name="pref_theme">Pυθμίσεις θέματος</string>
     <string name="pref_cat_theme">Θέμα</string>
@@ -183,8 +158,6 @@
     <string name="touch">Παρακολούθηση αφής</string>
 
     <string name="pref_dnd_title">Λειτουργία μην ενοχλείτε</string>
-    <string name="pref_dnd_time_start_title">Ώρα έναρξης</string>
-    <string name="pref_dnd_time_end_title">Ώρα λήξης</string>
     <string name="pref_dnd_remember_state_summary">Στο τέλος της λειτουργίας μην ενοχλείτε, ενεργοποιήστε όλους τους επίδεσμους ή επαναφέρετε τις καταστάσεις όπως ήταν τη στιγμή της έναρξης</string>
     <string name="pref_dnd_remember_state_on_title">Στο τέλος επαναφέρετε την κατάσταση στους επίδεσμους</string>
     <string name="pref_dnd_remember_state_off_title">Στο τέλος ενεργοποιήστε όλους τους επίδεσμους</string>
@@ -320,7 +293,6 @@
     <string name="touch_headline_other_title">Άλλοι έλεγχοι</string>
 
     <string name="touch_device_location_title">Εύρεση της συσκευής μου</string>
-    <string name="touch_device_location_ringtone_title_no">Κανένας</string>
 
     <string name="touch_call_answer_title">Απάντηση κλήσης</string>
     <string name="touch_call_answer_speakerphone_title">Μεγάφωνο</string>
@@ -328,7 +300,6 @@
     <string name="touch_call_end_title">Απόρριψη/αποσύνδεση κλήσης</string>
 
     <string name="touch_call_mute_title">Εναλλαγή σίγασης κλήσης</string>
-    <string name="touch_call_mute_ringtone_title_no">Κανένας</string>
 
     <string name="touch_device_location_not_muted_only_title">Ήχος εφόσον δεν είναι σε σίγαση</string>
 
@@ -395,8 +366,6 @@
 
     <string name="step_title_timing">Χρονισμός</string>
     <string name="step_interval_title">Διαστήματα επανάληψης παρακολούθησης βημάτων</string>
-    <string name="step_time_start">Ώρα έναρξης</string>
-    <string name="step_time_end">Ώρα λήξης</string>
     <string name="step_time_set_next">Το χρονοδιάγραμμα του επόμενου ελέγχου</string>
 
     <string name="step_goal_type_title">Τιμή παρακολούθησης</string>
@@ -418,14 +387,10 @@
     <string name="pulse_signal_start_title">Παρακολούθηση σήματος εκκίνησης</string>
     <string name="pulse_signal_show_title">Εμφάνιση παλμού</string>
     <string name="pulse_signal_end_low_title">Σήμα χαμηλού παλμού</string>
-    <string name="pulse_signal_end_low_value_title">BPM</string>
     <string name="pulse_signal_end_title">Σήμα υψηλού παλμού</string>
-    <string name="pulse_signal_end_value_title">BPM</string>
 
     <string name="pulse_title_timing_validity">Χρονισμός και εγκυρότητα</string>
     <string name="pulse_interval_title">Διαστήματα επανάληψης παρακολούθησης παλμού</string>
-    <string name="pulse_time_start">Ώρα έναρξης</string>
-    <string name="pulse_time_end">Ώρα λήξης</string>
     <string name="pulse_time_set_next">Το χρονοδιάγραμμα του επόμενου ελέγχου</string>
     <string name="pulse_value_min">Χαμηλότερη έγκυρη τιμή</string>
     <string name="pulse_value_max">Υψηλότερη έγκυρη τιμή</string>
@@ -441,8 +406,6 @@
     <!-- Lost  monitoring -->
     <string name="alarm_mi_band_title">Σήμα Mi Band 2</string>
     <string name="alarm_mi_band_dnd">Λειτουργία μην ενοχλείτε</string>
-    <string name="alarm_mi_band_dnd_start">Ώρα έναρξης</string>
-    <string name="alarm_mi_band_dnd_end">Ώρα λήξης</string>
     <string name="alarm_mi_band_interval_title">Διάστημα επανάληψης ρύθμισης υπενθύμισης</string>
     <string name="alarm_mi_band_time_set_next">Το χρονοδιάγραμμα της επόμενης ρύθμισης</string>
     <string name="alarm_mi_band_time">Το χρονοδιάγραμμα της επόμενης υπενθύμισης</string>
@@ -481,23 +444,15 @@
     <string name="time_timer_time_alert">Τύπος ειδοποίησης</string>
     <string name="time_timer_time_remaining">Υπολειπόμενος χρόνος</string>
 
-    <string name="time_timer_mode_timer_title">Χρονομέτρηση</string>
-    <string name="time_timer_mode_time_title">Ώρα</string>
-
     <string name="time_timer_reminder">Σήμα υπενθύμισης, υπολειπόμενος χρόνος</string>
     <string name="time_timer_reminder_interval_before_title">Πρίν την λήξη</string>
-    <string name="time_timer_reminder_interval_before_off_title">Ανενεργό</string>
     <string name="time_timer_reminder_interval_repeat_title">Διάστημα υπενθύμιση επανάληψης</string>
 
     <string name="time_stopper_time_alert">Τύπος ειδοποίησης</string>
     <string name="time_stopper_time_elapsed">Υπολειπόμενος χρόνος</string>
 
-    <string name="time_stopper_mode_timer_title">Χρονομέτρηση</string>
-    <string name="time_stopper_mode_time_title">Ώρα</string>
-
     <string name="time_stopper_reminder">Σήμα υπενθύμισης, υπολειπόμενος χρόνος</string>
     <string name="time_stopper_reminder_interval_before_title">Πρίν την λήξη</string>
-    <string name="time_stopper_reminder_interval_before_off_title">Ανενεργό</string>
     <string name="time_stopper_reminder_interval_repeat_title">Διάστημα υπενθύμιση επανάληψης</string>
 
     <string name="time_stopper_touch">Χρόνος γύρου, παρακολούθηση αφής</string>
@@ -508,6 +463,9 @@
     <string name="time_stopper_touch_time_format_second">λεπτά \u2032 δευτερόλεπτα \u2033</string>
 
     <string name="time_lap_details">Λεπτομέρειες χρόνος γύρου</string>
+
+    <string name="time_mode_timer_title">Χρονομέτρηση</string>
+    <string name="time_mode_time_title">Ώρα</string>
 
     <string name="time_alert">Τύπος ειδοποίησης</string>
     <string name="time_alert_bell_title">Κουδούνι</string>
@@ -621,6 +579,13 @@
     </string>
 
     <!-- Others -->
+    <string name="on">Ενεργό</string>
+    <string name="off">Ανενεργό</string>
+    <string name="none">Κανένας</string>
+    <string name="bpm">BPM</string>
+    <string name="time_start">Ώρα έναρξης</string>
+    <string name="time_end">Ώρα λήξης</string>
+
     <string name="action_dismiss">Απόρριψη</string>
     <string name="action_setting">Ρυθμίσεις</string>
     <string name="action_delete">Διαγραφή</string>
@@ -647,6 +612,15 @@
         <item quantity="few">%d λεπτά</item>
         <item quantity="many">%d λεπτά</item>
         <item quantity="other">%d λεπτά</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d δευτερόλεπτο</item>
+        <item quantity="one">%d δευτερόλεπτο</item>
+        <item quantity="two">%d δευτερόλεπτα</item>
+        <item quantity="few">%d δευτερόλεπτα</item>
+        <item quantity="many">%d δευτερόλεπτα</item>
+        <item quantity="other">%d δευτερόλεπτα</item>
     </plurals>
 
 </resources>
