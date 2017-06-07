@@ -51,10 +51,7 @@
     <string name="pref_cat_connected_have_notif_default">Impostazioni predefinite e personali</string>
     <string name="pref_connected_no_notif_title">Notifiche Mi Band 2</string>
     <string name="pref_connected_no_notif_summary_on">Vibrazione</string>
-    <string name="pref_connected_no_notif_summary_off">No</string>
     <string name="pref_connected_no_notif_wakelock_title">Accendi schermo dispositivo</string>
-    <string name="pref_connected_no_notif_wakelock_summary_on">On</string>
-    <string name="pref_connected_no_notif_wakelock_summary_off">Off</string>
 
     <string name="pref_connected_have_notif_immediate_title">Notifica immediata alla ricezione</string>
     <string name="pref_connected_have_notif_title">Notifica quando ti connetti al dispositivo</string>
@@ -77,24 +74,16 @@
     <string name="pref_disconnected_summary">Imposta comportamento in caso di disconnessione tra dispositivo e Mi Band 2</string>
     <string name="pref_cat_disconnected_mi_band">Segnale Mi Band 2</string>
     <string name="pref_disconnected_mi_band_title">Mostra icona</string>
-    <string name="pref_disconnected_mi_band_summary_off">Off</string>
-    <string name="pref_disconnected_mi_band_summary_on">On</string>
     <string name="pref_cat_disconnected">Notifiche dispositivo</string>
     <string name="pref_disconnected_ringtone_title">Suoneria</string>
-    <string name="pref_disconnected_ringtone_summary_no">Nessuna</string>
     <string name="pref_disconnected_vibration_title">Vibrazione</string>
-    <string name="pref_disconnected_vibration_summary_on">On</string>
-    <string name="pref_disconnected_vibration_summary_off">Off</string>
     <string name="pref_disconnected_wakelock_title">Attiva display dispositivo</string>
-    <string name="pref_disconnected_wakelock_summary_on">On</string>
-    <string name="pref_disconnected_wakelock_summary_off">Off</string>
 
     <string name="pref_cat_abandoned">Notifica su dispositivo</string>
     <string name="pref_abandoned_notif_interval_title">Intervallo di notifica</string>
     <string name="pref_abandoned_notif_text_summary">Messaggio di notifica sul dispositivo</string>
     <string name="pref_abandoned_notif_text_text">Dispositivo smarrito, per favore contatta il numero:</string>
     <string name="pref_abandoned_ringtone_title">Suoneria</string>
-    <string name="pref_abandoned_ringtone_summary_no">Nessuna</string>
     <string name="pref_abandoned_vibration_title">Vibrazione</string>
     <string name="pref_abandoned_wakelock_title">Attiva il display</string>
     <string name="pref_abandoned_notif_title">Dispositivo smarrito</string>
@@ -103,23 +92,17 @@
     <string name="pref_call_summary">Imposta notifiche su Mi Band 2</string>
     <string name="pref_cat_call">Ricezione chiamate</string>
     <string name="pref_call_title">Notifica chiamata in arrivo</string>
-    <string name="pref_call_summary_off">Off</string>
     <string name="pref_call_summary_on">On (ricorda di disattivare la notifica per le chiamate ricevute dall\'app Mi Fit)</string>
     <string name="pref_call_text_title">Mostra ID chiamante</string>
     <string name="pref_call_text_summary_on"><![CDATA[On (maggiori dettagli: <i>Impostazioni/Impostazione icona con testi)</i>]]></string>
-    <string name="pref_call_text_summary_off">Off</string>
 
     <string name="pref_call_net_text_title">ID chiamante per chiamate voip</string>
-    <string name="pref_call_net_text_summary_off">Off</string>
     <string name="pref_call_net_text_summary_on">Viber, WhatsApp, Line</string>
 
     <string name="pref_cat_call_missed">Chiamate perse</string>
     <string name="pref_call_missed_title">Notifica chiamata persa</string>
-    <string name="pref_call_missed_summary_off">Off</string>
-    <string name="pref_call_missed_summary_on">On</string>
 
     <string name="pref_call_missed_net_title">Chiamate voip perse </string>
-    <string name="pref_call_missed_net_summary_off">Off</string>
     <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
 
     <string name="pref_call_missed_alert_title">Notifica Mi Band 2</string>
@@ -133,7 +116,6 @@
     <string name="pref_cat_text_conversion">Notifica Mi Band 2</string>
     <string name="pref_text_conversion_title">Converti caratteri</string>
     <string name="pref_text_conversion_summary_on">Converti caratteri non riconosciuti</string>
-    <string name="pref_text_conversion_summary_off">Off</string>
 
     <string name="pref_text_conversion_description_title">Descrizione</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -150,22 +132,15 @@
     </string>
 
     <string name="pref_touch">Controllo tocco</string>
-    <string name="pref_touch_summary"></string>
     <string name="pref_cat_touch">Notifica Mi Band 2</string>
     <string name="pref_touch_recognised_failed_title">Notifica sequenza tocco non riconosciuta</string>
-    <string name="pref_touch_recognised_failed_summary_off">Off</string>
     <string name="pref_touch_recognised_failed_summary_on">On (vibra 2 volte dopo la sequenza di tocchi)</string>
 
     <string name="pref_mi_band">Mi Band 2</string>
     <string name="pref_cat_mi_band_lift_wrist">Solleva il polso per visualizzare le info</string>
     <string name="pref_mi_band_lift_wrist_title">Solleva il polso per visualizzare le info</string>
-    <string name="pref_mi_band_lift_wrist_summary_on">On</string>
-    <string name="pref_mi_band_lift_wrist_summary_off">Off</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Modalità non disturbare</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">On (nel periodo specificato non mostra le info, richiesta connessione Bluetooth)</string>
-    <string name="pref_mi_band_lift_wrist_dnd_summary_off">Off</string>
-    <string name="pref_mi_band_lift_wrist_dnd_time_start_title">Ora inizio</string>
-    <string name="pref_mi_band_lift_wrist_dnd_time_end_title">Ora fine</string>
 
     <string name="pref_theme">Tema</string>
     <string name="pref_cat_theme">Tema</string>
@@ -183,8 +158,6 @@
     <string name="touch">Monitor tocchi</string>
 
     <string name="pref_dnd_title">Modalità non disturbare</string>
-    <string name="pref_dnd_time_start_title">Ora inizio</string>
-    <string name="pref_dnd_time_end_title">Ora fine</string>
     <string name="pref_dnd_remember_state_summary">Alla fine della modalità non distrurbare, riattiva tutte le bandages o ripristina il tutto allo stato precedente all\'ora di attivazione</string>
     <string name="pref_dnd_remember_state_on_title">Alla fine ripristina lo stato delle bandages</string>
     <string name="pref_dnd_remember_state_off_title">Alla fine riattiva tutte le bandages</string>
@@ -320,7 +293,6 @@
     <string name="touch_headline_other_title">Altri controlli</string>
 
     <string name="touch_device_location_title">Trova il mio dispositivo</string>
-    <string name="touch_device_location_ringtone_title_no">Nessuno</string>
 
     <string name="touch_call_answer_title">Rispondi alle chiamate</string>
     <string name="touch_call_answer_speakerphone_title">Vivavoce telefono</string>
@@ -328,7 +300,6 @@
     <string name="touch_call_end_title">Rifiuta e chiudi chiamate</string>
 
     <string name="touch_call_mute_title">Attiva muto nelle chiamate</string>
-    <string name="touch_call_mute_ringtone_title_no">Nessuno</string>
 
     <string name="touch_device_location_not_muted_only_title">Suona solo se non silenziato</string>
 
@@ -395,8 +366,6 @@
 
     <string name="step_title_timing">Tempistiche</string>
     <string name="step_interval_title">Intervallo di ripetizione del conta passi</string>
-    <string name="step_time_start">Ora inizio</string>
-    <string name="step_time_end">Ora fine</string>
     <string name="step_time_set_next">Tempo mancante al prossimo monitoraggio</string>
 
     <string name="step_goal_type_title">Valore di monitoraggio</string>
@@ -418,14 +387,10 @@
     <string name="pulse_signal_start_title">Notifica avvio monitoraggio</string>
     <string name="pulse_signal_show_title">Mostra battiti</string>
     <string name="pulse_signal_end_low_title">Notifica battiti bassi</string>
-    <string name="pulse_signal_end_low_value_title">BPM</string>
     <string name="pulse_signal_end_title">Notifica battiti alti</string>
-    <string name="pulse_signal_end_value_title">BPM</string>
 
     <string name="pulse_title_timing_validity">Tempistiche e vadilità</string>
     <string name="pulse_interval_title">Intervallo di ripetizione del monitoraggio battiti</string>
-    <string name="pulse_time_start">Ora inizio</string>
-    <string name="pulse_time_end">Ora fine</string>
     <string name="pulse_time_set_next">Tempo mancante al prossimo monitoraggio</string>
     <string name="pulse_value_min">Valuta valori minori</string>
     <string name="pulse_value_max">Valuta valori maggiori</string>
@@ -441,8 +406,6 @@
     <!-- Lost monitoring -->
     <string name="alarm_mi_band_title">Notifica Mi Band 2</string>
     <string name="alarm_mi_band_dnd">Modalità non disturbare</string>
-    <string name="alarm_mi_band_dnd_start">Ora inizio</string>
-    <string name="alarm_mi_band_dnd_end">Ora fine</string>
     <string name="alarm_mi_band_interval_title">Intervallo ripetizione allarme impostato</string>
     <string name="alarm_mi_band_time_set_next">Tempo mancante alle prossime impostazioni</string>
     <string name="alarm_mi_band_time">Tempo mancante al prossimo allarme</string>
@@ -481,23 +444,15 @@
     <string name="time_timer_time_alert">Ora attivazione allarme</string>
     <string name="time_timer_time_remaining">Tempo rimasto</string>
 
-    <string name="time_timer_mode_timer_title">Tempo</string>
-    <string name="time_timer_mode_time_title">Orario</string>
-
     <string name="time_timer_reminder">Ripeti notifica, tempo rimanente</string>
     <string name="time_timer_reminder_interval_before_title">Tempo mancante alla scadenza</string>
-    <string name="time_timer_reminder_interval_before_off_title">Off</string>
     <string name="time_timer_reminder_interval_repeat_title">Ripeti notifica ogni</string>
 
     <string name="time_stopper_time_alert">Tipo di allarme</string>
     <string name="time_stopper_time_elapsed">Tempo rimasto</string>
 
-    <string name="time_stopper_mode_timer_title">Tempo</string>
-    <string name="time_stopper_mode_time_title">Orario</string>
-
     <string name="time_stopper_reminder">Ripeti notifica, tempo rimanente</string>
     <string name="time_stopper_reminder_interval_before_title">Tempo mancante alla scadenza</string>
-    <string name="time_stopper_reminder_interval_before_off_title">Off</string>
     <string name="time_stopper_reminder_interval_repeat_title">Ripeti notifica ogni</string>
 
     <string name="time_stopper_touch">Tempo su giro, controllo tocco</string>
@@ -508,6 +463,9 @@
     <string name="time_stopper_touch_time_format_second">min \u2032 secondi \u2033</string>
 
     <string name="time_lap_details">Dettagli tempi su giro</string>
+
+    <string name="time_mode_timer_title">Tempo</string>
+    <string name="time_mode_time_title">Orario</string>
 
     <string name="time_alert">Tipo di allarme</string>
     <string name="time_alert_bell_title">Campanella</string>
@@ -621,6 +579,13 @@
     </string>
 
     <!-- Others -->
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="none">Nessuna</string>
+    <string name="bpm">BPM</string>
+    <string name="time_start">Ora inizio</string>
+    <string name="time_end">Ora fine</string>
+
     <string name="action_dismiss">Dimentica</string>
     <string name="action_setting">Impostazioni</string>
     <string name="action_delete">Cancella</string>
@@ -647,6 +612,15 @@
         <item quantity="few">%d minuti</item>
         <item quantity="many">%d minuti</item>
         <item quantity="other">%d minuti</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d secondo</item>
+        <item quantity="one">%d secondo</item>
+        <item quantity="two">%d secondi</item>
+        <item quantity="few">%d secondi</item>
+        <item quantity="many">%d secondi</item>
+        <item quantity="other">%d secondi</item>
     </plurals>
 
 </resources>
