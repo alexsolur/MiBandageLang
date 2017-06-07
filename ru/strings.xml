@@ -51,10 +51,7 @@
     <string name="pref_cat_connected_have_notif_default">Предустановленные и пользовательские настройки</string>
     <string name="pref_connected_no_notif_title">Уведомление Mi Band 2</string>
     <string name="pref_connected_no_notif_summary_on">Вибрация</string>
-    <string name="pref_connected_no_notif_summary_off">Нет</string>
     <string name="pref_connected_no_notif_wakelock_title">Активировать экран устройства</string>
-    <string name="pref_connected_no_notif_wakelock_summary_on">Включено</string>
-    <string name="pref_connected_no_notif_wakelock_summary_off">Отключено</string>
 
     <string name="pref_connected_have_notif_immediate_title">Мгновенные уведомления</string>
     <string name="pref_connected_have_notif_title">При подключении к устройству</string>
@@ -77,24 +74,16 @@
     <string name="pref_disconnected_summary">Настройки рассоединения Mi Band 2 и устройства</string>
     <string name="pref_cat_disconnected_mi_band">Уведомление Mi Band 2</string>
     <string name="pref_disconnected_mi_band_title">Отображение иконки</string>
-    <string name="pref_disconnected_mi_band_summary_off">Отключено</string>
-    <string name="pref_disconnected_mi_band_summary_on">Включено</string>
     <string name="pref_cat_disconnected">Сигналы при отсоединении</string>
     <string name="pref_disconnected_ringtone_title">Рингтон</string>
-    <string name="pref_disconnected_ringtone_summary_no">Нет</string>
     <string name="pref_disconnected_vibration_title">Вибрация</string>
-    <string name="pref_disconnected_vibration_summary_on">Включено</string>
-    <string name="pref_disconnected_vibration_summary_off">Отключено</string>
     <string name="pref_disconnected_wakelock_title">Активировать экран устройства</string>
-    <string name="pref_disconnected_wakelock_summary_on">Включено</string>
-    <string name="pref_disconnected_wakelock_summary_off">Отключено</string>
 
     <string name="pref_cat_abandoned">Сигнал на устройстве</string>
     <string name="pref_abandoned_notif_interval_title">Интервал повторения сигнала</string>
     <string name="pref_abandoned_notif_text_summary">Уведомление на экране устройства</string>
     <string name="pref_abandoned_notif_text_text">Устройство утеряно, пожалуйста, позвоните по номеру:</string>
     <string name="pref_abandoned_ringtone_title">Рингтон</string>
-    <string name="pref_abandoned_ringtone_summary_no">Нет</string>
     <string name="pref_abandoned_vibration_title">Вибрация</string>
     <string name="pref_abandoned_wakelock_title">Активировать экран усройства</string>
     <string name="pref_abandoned_notif_title">стройство утеряно</string>
@@ -103,23 +92,17 @@
     <string name="pref_call_summary">Настройки уведомлений Mi Band 2</string>
     <string name="pref_cat_call">Входящий звонок</string>
     <string name="pref_call_title">Уведомление о входящем звонке</string>
-    <string name="pref_call_summary_off">Отключено</string>
     <string name="pref_call_summary_on">Включено (не забудьте отключить эти уведомления в Mi Fit)</string>
     <string name="pref_call_text_title">Показывать звонящего</string>
     <string name="pref_call_text_summary_on"><![CDATA[Включено (подробнее: <i>Настройки/Настройки текста)</i>]]></string>
-    <string name="pref_call_text_summary_off">Отключено</string>
 
     <string name="pref_call_net_text_title">Входящий интернет-вызов, отображение ID звонящего</string>
-    <string name="pref_call_net_text_summary_off">Отключено</string>
     <string name="pref_call_net_text_summary_on">Viber, WhatsApp, Line</string>
 
     <string name="pref_cat_call_missed">Пропущенный звонок</string>
     <string name="pref_call_missed_title">Уведомление о пропущенном звонке</string>
-    <string name="pref_call_missed_summary_off">Отключено</string>
-    <string name="pref_call_missed_summary_on">Включено</string>
 
     <string name="pref_call_missed_net_title">Пропущенный интернет-вызов, отображение ID звонящего</string>
-    <string name="pref_call_missed_net_summary_off">Отключено</string>
     <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
 
     <string name="pref_call_missed_alert_title">Уведомление Mi Band 2</string>
@@ -133,7 +116,6 @@
     <string name="pref_cat_text_conversion">Символы Mi Band 2</string>
     <string name="pref_text_conversion_title">Преобразование символов</string>
     <string name="pref_text_conversion_summary_on">Преобразование нераспознанных символов</string>
-    <string name="pref_text_conversion_summary_off">Отключено</string>
 
     <string name="pref_text_conversion_description_title">Описание</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -150,22 +132,15 @@
     </string>
 
     <string name="pref_touch">Настройки контроля касаний</string>
-    <string name="pref_touch_summary"></string>
     <string name="pref_cat_touch">Уведомления Mi Band 2</string>
     <string name="pref_touch_recognised_failed_title">Не распознанные нажатия</string>
-    <string name="pref_touch_recognised_failed_summary_off">Отключено</string>
     <string name="pref_touch_recognised_failed_summary_on">Включено (2 вибрации после длиннейшей комбинации)</string>
 
     <string name="pref_mi_band">Настройки Mi Band 2</string>
     <string name="pref_cat_mi_band_lift_wrist">Поворот запястья</string>
     <string name="pref_mi_band_lift_wrist_title">Поворот запястья</string>
-    <string name="pref_mi_band_lift_wrist_summary_on">Включено</string>
-    <string name="pref_mi_band_lift_wrist_summary_off">Отключено</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Режим \"Не беспокоить\"</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Включено (в заданный промежуток времени отображение отключено, необоходимо Bluetooth-соединение)</string>
-    <string name="pref_mi_band_lift_wrist_dnd_summary_off">Отключено</string>
-    <string name="pref_mi_band_lift_wrist_dnd_time_start_title">Время начала</string>
-    <string name="pref_mi_band_lift_wrist_dnd_time_end_title">Время окончания</string>
 
     <string name="pref_theme">Настройки темы</string>
     <string name="pref_cat_theme">Тема</string>
@@ -183,8 +158,6 @@
     <string name="touch">Контроль касаний</string>
 
     <string name="pref_dnd_title">Режим \"Не беспокоить\"</string>
-    <string name="pref_dnd_time_start_title">Время начала</string>
-    <string name="pref_dnd_time_end_title">Время окончания</string>
     <string name="pref_dnd_remember_state_summary">При отключении режима \"Не беспокоить\", включить или восстановить состояние всех \"заплаток\" к моменту активации режима</string>
     <string name="pref_dnd_remember_state_on_title">Восстановить</string>
     <string name="pref_dnd_remember_state_off_title">Включить все</string>
@@ -320,7 +293,6 @@
     <string name="touch_headline_other_title">Другое</string>
 
     <string name="touch_device_location_title">Найти устройство</string>
-    <string name="touch_device_location_ringtone_title_no">Нет</string>
 
     <string name="touch_call_answer_title">Ответ на звонок</string>
     <string name="touch_call_answer_speakerphone_title">Громкая связь</string>
@@ -328,7 +300,6 @@
     <string name="touch_call_end_title">Сброс звонка, окончание</string>
 
     <string name="touch_call_mute_title">Переключение звука звонка</string>
-    <string name="touch_call_mute_ringtone_title_no">Нет</string>
 
     <string name="touch_device_location_not_muted_only_title">Подчиняться беззвучному режиму</string>
 
@@ -395,8 +366,6 @@
 
     <string name="step_title_timing">Время</string>
     <string name="step_interval_title">Периодичность получения данных</string>
-    <string name="step_time_start">Время начала</string>
-    <string name="step_time_end">Время окончания</string>
     <string name="step_time_set_next">Время до следующего измерения</string>
 
     <string name="step_goal_type_title">Значение для цели</string>
@@ -418,14 +387,10 @@
     <string name="pulse_signal_start_title">Сигнал начала измерений</string>
     <string name="pulse_signal_show_title">Показывать пульс</string>
     <string name="pulse_signal_end_low_title">Сигнал низкого пульса</string>
-    <string name="pulse_signal_end_low_value_title">у/м</string>
     <string name="pulse_signal_end_title">Сигнал высокого пульса</string>
-    <string name="pulse_signal_end_value_title">у/м</string>
 
     <string name="pulse_title_timing_validity">Время и приемлемость</string>
     <string name="pulse_interval_title">Промежуток повтора измерений</string>
-    <string name="pulse_time_start">Время начала</string>
-    <string name="pulse_time_end">Время окончания</string>
     <string name="pulse_time_set_next">Время до следующего измерения</string>
     <string name="pulse_value_min">Минимальное верное значение</string>
     <string name="pulse_value_max">Максимальное верное значение</string>
@@ -441,8 +406,6 @@
     <!-- Lost  monitoring -->
     <string name="alarm_mi_band_title">Уведомление Mi Band 2</string>
     <string name="alarm_mi_band_dnd">Режим \"Не беспокоить\"</string>
-    <string name="alarm_mi_band_dnd_start">Время начала</string>
-    <string name="alarm_mi_band_dnd_end">Время окончания</string>
     <string name="alarm_mi_band_interval_title">Период повтора предупреждения об отсоединении</string>
     <string name="alarm_mi_band_time_set_next">Время следующей установки</string>
     <string name="alarm_mi_band_time">Время следующего предупреждения</string>
@@ -481,23 +444,15 @@
     <string name="time_timer_time_alert">Время сигнала</string>
     <string name="time_timer_time_remaining">Оставшееся время</string>
 
-    <string name="time_timer_mode_timer_title">Промежуток</string>
-    <string name="time_timer_mode_time_title">Точное</string>
-
     <string name="time_timer_reminder">Переодическое уведомление, оставшееся время</string>
     <string name="time_timer_reminder_interval_before_title">Уведомлять заранее</string>
-    <string name="time_timer_reminder_interval_before_off_title">Отключено</string>
     <string name="time_timer_reminder_interval_repeat_title">Интервал переодических уведомлений</string>
 
     <string name="time_stopper_time_alert">Время сигнала</string>
     <string name="time_stopper_time_elapsed">Прошедщее время</string>
 
-    <string name="time_stopper_mode_timer_title">Промежуток</string>
-    <string name="time_stopper_mode_time_title">Точное</string>
-
     <string name="time_stopper_reminder">Переодическое уведомление, оставшееся время</string>
     <string name="time_stopper_reminder_interval_before_title">Уведомлять заранее</string>
-    <string name="time_stopper_reminder_interval_before_off_title">Отключено</string>
     <string name="time_stopper_reminder_interval_repeat_title">Интервал переодических уведомлений</string>
 
     <string name="time_stopper_touch">Время круга, касания</string>
@@ -508,6 +463,9 @@
     <string name="time_stopper_touch_time_format_second">мин \u2032 секунда \u2033</string>
 
     <string name="time_lap_details">Время круга</string>
+
+    <string name="time_mode_timer_title">Промежуток</string>
+    <string name="time_mode_time_title">Точное</string>
 
     <string name="time_alert">Вид сигнала</string>
     <string name="time_alert_bell_title">Уведомление</string>
@@ -621,6 +579,13 @@
     </string>
 
     <!-- Others -->
+    <string name="on">Включено</string>
+    <string name="off">Отключено</string>
+    <string name="none">Нет</string>
+    <string name="bpm">у/м</string>
+    <string name="time_start">Время начала</string>
+    <string name="time_end">Время окончания</string>
+
     <string name="action_dismiss">Отклонить</string>
     <string name="action_setting">Настройки</string>
     <string name="action_delete">Удалить</string>
@@ -647,6 +612,15 @@
         <item quantity="few">%d минуты</item>
         <item quantity="many">%d минут</item>
         <item quantity="other">%d минут</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d секунда</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="two">%d секунды</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+        <item quantity="other">%d секунд</item>
     </plurals>
 
 </resources>
