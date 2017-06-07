@@ -33,7 +33,7 @@
     <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Dung lượng pin, thời gian từ lần sạc trước</string>
-    <string name="mi_band_battery_remaining">Battery estimated remaining time</string>
+    <string name="mi_band_battery_remaining">Thời gian bắt đầu giám sát</string>
     <string name="mi_band_bonded_device_name">Tên thiết bị kết nối Mi Band 2</string>
     <string name="mi_band_mac_address">Địa chỉ MAC</string>
     <string name="mi_band_firmware">Firmware</string>
@@ -51,10 +51,7 @@
     <string name="pref_cat_connected_have_notif_default">Cài đặt được xác định trước và cài đặt tùy chỉnh</string>
     <string name="pref_connected_no_notif_title">Tín hiệu Mi Band 2</string>
     <string name="pref_connected_no_notif_summary_on">Rung</string>
-    <string name="pref_connected_no_notif_summary_off">Không</string>
     <string name="pref_connected_no_notif_wakelock_title">Sáng màn hình thiết bị</string>
-    <string name="pref_connected_no_notif_wakelock_summary_on">Bật</string>
-    <string name="pref_connected_no_notif_wakelock_summary_off">Tắt</string>
 
     <string name="pref_connected_have_notif_immediate_title">Tín hiệu lập tức khi nhận thông báo</string>
     <string name="pref_connected_have_notif_title">Tín hiệu khi kết nối thiết bị</string>
@@ -77,24 +74,16 @@
     <string name="pref_disconnected_summary">Tín hiệu Mi Band 2 và thiết bị  khi bị ngắt kết nối </string>
     <string name="pref_cat_disconnected_mi_band">Tín hiệu Mi Band 2</string>
     <string name="pref_disconnected_mi_band_title">Hiển thị biểu tượng</string>
-    <string name="pref_disconnected_mi_band_summary_off">Tắt</string>
-    <string name="pref_disconnected_mi_band_summary_on">Bật</string>
     <string name="pref_cat_disconnected">Tín hiệu thiết bị</string>
     <string name="pref_disconnected_ringtone_title">Nhạc chuông</string>
-    <string name="pref_disconnected_ringtone_summary_no">Không</string>
     <string name="pref_disconnected_vibration_title">Rung</string>
-    <string name="pref_disconnected_vibration_summary_on">Bật</string>
-    <string name="pref_disconnected_vibration_summary_off">Tắt</string>
     <string name="pref_disconnected_wakelock_title">Đánh thức màn hình thiết bị</string>
-    <string name="pref_disconnected_wakelock_summary_on">Bật</string>
-    <string name="pref_disconnected_wakelock_summary_off">Tắt</string>
 
     <string name="pref_cat_abandoned">Tín hiệu thiết bị</string>
     <string name="pref_abandoned_notif_interval_title">Khoảng thời gian lặp lại tín hiệu</string>
     <string name="pref_abandoned_notif_text_summary">Thông báo trên màn hình thiết bị</string>
     <string name="pref_abandoned_notif_text_text">Thiết bị này được mất, xin gọi số điện thoại sau:</string>
     <string name="pref_abandoned_ringtone_title">Nhạc chuông</string>
-    <string name="pref_abandoned_ringtone_summary_no">Không</string>
     <string name="pref_abandoned_vibration_title">Rung</string>
     <string name="pref_abandoned_wakelock_title">Đánh thức màn hình</string>
     <string name="pref_abandoned_notif_title">Thiết bị này bị mất</string>
@@ -103,23 +92,17 @@
     <string name="pref_call_summary">Tín hiệu Mi Band 2 settings</string>
     <string name="pref_cat_call">Cuộc gọi đến</string>
     <string name="pref_call_title">Tín hiệu cuộc gọi đến</string>
-    <string name="pref_call_summary_off">Tắt</string>
     <string name="pref_call_summary_on">Bật (nhớ tắt thông báo cuộc gọi đến trong ứng dụng Mi Fit)</string>
     <string name="pref_call_text_title">Hiện tên/ số người gọi</string>
     <string name="pref_call_text_summary_on"><![CDATA[On (more information: <i>Settings/Text icons settings)</i>]]></string>
-    <string name="pref_call_text_summary_off">Tắt</string>
 
     <string name="pref_call_net_text_title">Tín hiệu cuộc gọi internet, hiện tên/ số người gọi</string>
-    <string name="pref_call_net_text_summary_off">Tắt</string>
     <string name="pref_call_net_text_summary_on">Viber, WhatsApp, Line</string>
 
     <string name="pref_cat_call_missed">Cuộc gọi nhỡ</string>
     <string name="pref_call_missed_title">Tín hiệu cuộc gọi nhỡ</string>
-    <string name="pref_call_missed_summary_off">Tắt</string>
-    <string name="pref_call_missed_summary_on">Bật</string>
 
     <string name="pref_call_missed_net_title">Tín hiệu lỡ cuộc gọi internet, hiện tên/ số người gọi</string>
-    <string name="pref_call_missed_net_summary_off">Bật</string>
     <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
 
     <string name="pref_call_missed_alert_title">Tín hiệu Mi Band 2</string>
@@ -133,7 +116,6 @@
     <string name="pref_cat_text_conversion">Tín hiệu Mi Band 2</string>
     <string name="pref_text_conversion_title">Chuyển đổi ký tự có dấu</string>
     <string name="pref_text_conversion_summary_on">Chuyển đổi ký tự không nhận diện</string>
-    <string name="pref_text_conversion_summary_off">Tắt</string>
 
     <string name="pref_text_conversion_description_title">Mô tả</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -150,22 +132,15 @@
     </string>
 
     <string name="pref_touch">Cài đặt giám sát chạm</string>
-    <string name="pref_touch_summary"></string>
     <string name="pref_cat_touch">Tín hiệu Mi Band 2</string>
     <string name="pref_touch_recognised_failed_title">Tín hiệu không nhận ra cử chỉ</string>
-    <string name="pref_touch_recognised_failed_summary_off">Tắt</string>
     <string name="pref_touch_recognised_failed_summary_on">Bật (rung  2 lần sau khi cử chỉ dài nhất)</string>
 
     <string name="pref_mi_band">Các cài đặt Mi Band 2</string>
     <string name="pref_cat_mi_band_lift_wrist">Nâng cổ tay để xem thông tin</string>
     <string name="pref_mi_band_lift_wrist_title">Nâng cổ tay để xem thông tin</string>
-    <string name="pref_mi_band_lift_wrist_summary_on">Bật</string>
-    <string name="pref_mi_band_lift_wrist_summary_off">Tắt</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Chế độ không làm phiền</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Bật (trong thời hạn quy định sẽ không hiển thị các thông tin, kết nối Bluetooth là cần bật để cài đặt)</string>
-    <string name="pref_mi_band_lift_wrist_dnd_summary_off">Tắt</string>
-    <string name="pref_mi_band_lift_wrist_dnd_time_start_title">Thời gian bắt đầu</string>
-    <string name="pref_mi_band_lift_wrist_dnd_time_end_title">Thời gian kết thúc</string>
 
     <string name="pref_theme">Theme settings</string>
     <string name="pref_cat_theme">Theme</string>
@@ -183,8 +158,6 @@
     <string name="touch">Giám sát chạm</string>
 
     <string name="pref_dnd_title">Chế độ không làm phiền</string>
-    <string name="pref_dnd_time_start_title">Thời gian bắt đầu</string>
-    <string name="pref_dnd_time_end_title">Thời gian kết thúc</string>
     <string name="pref_dnd_remember_state_summary">Vào lúc kết thúc chế độ không làm phiền, bật tất cả mọi thứ hoặc khôi phục trạng thái mặc định như lúc đầu</string>
     <string name="pref_dnd_remember_state_on_title">Khôi phục tất cả vào lúc kết thúc</string>
     <string name="pref_dnd_remember_state_off_title">Bật tất cả vào lúc kết thúc</string>
@@ -195,7 +168,7 @@
     <string name="message_discovered_mi_band">Phát hiện Mi Band 2</string>
     <string name="message_discovering_mi_band">Tìm Mi Band 2 (có thể mất 1 phút) &#8230;</string>
     <string name="message_discovered_no_mi_band">Mi Band 2 không được tìm thấy</string>
-    <string name="message_discovered_not_found_mi_band">Nếu Mi Band 2 không được tìm thấy, bật: Mi Fit / cài đặt ... hoặc ghép nối tại cài đặt Bluetooth</string>
+    <string name="message_discovered_not_found_mi_band">Nếu Mi Band 2 không được tìm thấy, bật: Mi Fit / cài đặt … hoặc ghép nối tại cài đặt Bluetooth</string>
     <string name="message_enable_notifications_access">Kích hoạt tính năng truy cập thông báo: Cài đặt / Bảo mật / Truy cập thông báo</string>
     <string name="message_enable_notifications_access_4_4">Kích hoạt tính năng truy cập thông báo: Cài đặt / Bảo mật / Truy cập thông báo</string>
     <string name="message_open_settings">Các cài đặt</string>
@@ -320,7 +293,6 @@
     <string name="touch_headline_other_title">Các điều khiển khác</string>
 
     <string name="touch_device_location_title">Tìm thiết bị của tôi</string>
-    <string name="touch_device_location_ringtone_title_no">Không</string>
 
     <string name="touch_call_answer_title">Trả lời cuộc gọi</string>
     <string name="touch_call_answer_speakerphone_title">Loa ngoài</string>
@@ -328,7 +300,6 @@
     <string name="touch_call_end_title">Từ chối cuộc gọi, kết thúc</string>
 
     <string name="touch_call_mute_title">Tắt tiếng cuộc gọi</string>
-    <string name="touch_call_mute_ringtone_title_no">Không</string>
 
     <string name="touch_device_location_not_muted_only_title">Chỉ phát tiếng nếu không im lặng</string>
 
@@ -345,7 +316,7 @@
     <string name="touch_time_launch_title">Start time monitoring</string>
     <string name="touch_time_launch_type_timer_title">Hẹn giờ</string>
     <string name="touch_time_launch_type_stopper_title">Đồng hố bấm giờ</string>
-    <string name="touch_time_launch_type_interval_title">Interval</string>
+    <string name="touch_time_launch_type_interval_title">Khoảng</string>
     <string name="touch_time_reminder_title">Hiển thị thời gian còn lại / trôi qua</string>
 
     <string name="touch_app_launcher1_title">Trình khởi chạy ứng dụng</string>
@@ -395,8 +366,6 @@
 
     <string name="step_title_timing">Thời điểm</string>
     <string name="step_interval_title">khoảng thời gian lặp lại giám sát bước chân</string>
-    <string name="step_time_start">Thời gian bắt đầu</string>
-    <string name="step_time_end">Thời gian kết thúc</string>
     <string name="step_time_set_next">Thời điểm giám sát tiếp theo</string>
 
     <string name="step_goal_type_title">Giám sát giá trị</string>
@@ -418,14 +387,10 @@
     <string name="pulse_signal_start_title">Tín hiệu bắt đầu giám sát</string>
     <string name="pulse_signal_show_title">Hiện nhịp tim</string>
     <string name="pulse_signal_end_low_title">Nhịp tim thấp</string>
-    <string name="pulse_signal_end_low_value_title">BPM</string>
     <string name="pulse_signal_end_title">High pulse signal</string>
-    <string name="pulse_signal_end_value_title">BPM</string>
 
     <string name="pulse_title_timing_validity">Thời gian và hiệu lực</string>
     <string name="pulse_interval_title">Khoảng thời gian lặp lại giám sát nhịp tim</string>
-    <string name="pulse_time_start">Thời gian bắt đầu</string>
-    <string name="pulse_time_end">Thời gian kết thúc</string>
     <string name="pulse_time_set_next">Thời điểm giám sát tiếp theo</string>
     <string name="pulse_value_min">Thấp hơn giá trị hợp lệ</string>
     <string name="pulse_value_max">Cao hơn giá trị hợp lệ</string>
@@ -441,8 +406,6 @@
     <!-- Lost  monitoring -->
     <string name="alarm_mi_band_title">Tín hiệu Mi Band 2</string>
     <string name="alarm_mi_band_dnd">Chế độ không làm phiền</string>
-    <string name="alarm_mi_band_dnd_start">Thời gian bắt đầu</string>
-    <string name="alarm_mi_band_dnd_end">Thời gian kết thúc</string>
     <string name="alarm_mi_band_interval_title">Cài đặt khoảng thời gian báo thức lặp lại</string>
     <string name="alarm_mi_band_time_set_next">Cài đặt thời điểm của tiếp theo</string>
     <string name="alarm_mi_band_time">Thời điểm của báo thức tiếp theo</string>
@@ -469,7 +432,7 @@
     <string name="time_tab_timer">Hẹn giờ</string>
     <string name="time_tab_stopper">Đồng hố bấm giờ</string>
     <string name="time_tab_lap">Vòng thời gian</string>
-    <string name="time_tab_interval">Interval</string>
+    <string name="time_tab_interval">Khoảng</string>
 
     <string name="action_alarm_device">Báo thức mặc định</string>
     <string name="time_alarm_title">Tiêu đề</string>
@@ -481,23 +444,15 @@
     <string name="time_timer_time_alert">Thời gian báo</string>
     <string name="time_timer_time_remaining">Thời gian còn lại</string>
 
-    <string name="time_timer_mode_timer_title">Thời điểm</string>
-    <string name="time_timer_mode_time_title">Thời gian</string>
-
     <string name="time_timer_reminder">Tín hiệu nhắc nhở, thời gian còn lại</string>
     <string name="time_timer_reminder_interval_before_title">Trước thời gian</string>
-    <string name="time_timer_reminder_interval_before_off_title">Tắt</string>
     <string name="time_timer_reminder_interval_repeat_title">Khoảng thời gian lặp lại nhắc nhở</string>
 
     <string name="time_stopper_time_alert">Thời gian báo</string>
     <string name="time_stopper_time_elapsed">Thời gian trôi qua</string>
 
-    <string name="time_stopper_mode_timer_title">Thời điểm</string>
-    <string name="time_stopper_mode_time_title">Thời gian</string>
-
     <string name="time_stopper_reminder">Tín hiệu nhắc nhở, thời gian trôi qua</string>
     <string name="time_stopper_reminder_interval_before_title">Trước thời gian</string>
-    <string name="time_stopper_reminder_interval_before_off_title">Tắt</string>
     <string name="time_stopper_reminder_interval_repeat_title">Khoảng thời gian lặp lại nhắc nhở</string>
 
     <string name="time_stopper_touch">Giám sát vòng thời gian, chạm</string>
@@ -509,16 +464,19 @@
 
     <string name="time_lap_details">Chi tiết vòng thời gian</string>
 
+    <string name="time_mode_timer_title">Thời điểm</string>
+    <string name="time_mode_time_title">Thời gian</string>
+
     <string name="time_alert">Kiểu báo thức</string>
     <string name="time_alert_bell_title">Chuông</string>
     <string name="time_alert_alarm_title">Báo thức</string>
 
-    <string name="time_interval_time_total">Total time</string>
-    <string name="time_interval_counter">Number of repetitions</string>
-    <string name="time_interval_time_alert">End time</string>
-    <string name="time_interval_time_current">Repetition, interval elapsed time</string>
-    <string name="time_interval_title">Title</string>
-    <string name="time_interval_time">Interval time</string>
+    <string name="time_interval_time_total">Tổng thời gian</string>
+    <string name="time_interval_counter">Số lần lặp lại</string>
+    <string name="time_interval_time_alert">Thời gian kết thúc</string>
+    <string name="time_interval_time_current">Khoảng thời gian trôi qua, lặp lại</string>
+    <string name="time_interval_title">Tiêu đề</string>
+    <string name="time_interval_time">Khoảng thời gian</string>
 
     <string name="time_text">Hiển thị tin nhắn</string>
     <string name="time_text_message">Văn bản</string>
@@ -621,6 +579,13 @@
     </string>
 
     <!-- Others -->
+    <string name="on">Bật</string>
+    <string name="off">Tắt</string>
+    <string name="none">Không</string>
+    <string name="bpm">BPM</string>
+    <string name="time_start">Thời gian bắt đầu</string>
+    <string name="time_end">Thời gian kết thúc</string>
+
     <string name="action_dismiss">Bỏ qua</string>
     <string name="action_setting">Cài đặt</string>
     <string name="action_delete">Xóa</string>
@@ -647,6 +612,15 @@
         <item quantity="few">%d phút</item>
         <item quantity="many">%d phút</item>
         <item quantity="other">%d phút</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d giây</item>
+        <item quantity="one">%d giây</item>
+        <item quantity="two">%d giây</item>
+        <item quantity="few">%d giây</item>
+        <item quantity="many">%d giây</item>
+        <item quantity="other">%d giây</item>
     </plurals>
 
 </resources>
