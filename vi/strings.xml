@@ -35,7 +35,8 @@
     <string name="mi_band_battery">Dung lượng pin, thời gian từ lần sạc trước</string>
     <string name="mi_band_battery_remaining">Thời gian bắt đầu giám sát</string>
     <string name="mi_band_battery_settings">Battery settings</string>
-    <string name="mi_band_battery_notification_level">Low battery notification threshold</string>
+    <string name="mi_band_battery_notification_level">Low battery level notification threshold</string>
+    <string name="mi_band_battery_notification_message">Low battery level %1$,d%%</string>
     <string name="mi_band_bonded_device_name">Tên thiết bị kết nối Mi Band 2</string>
     <string name="mi_band_mac_address">Địa chỉ MAC</string>
     <string name="mi_band_firmware">Firmware</string>
@@ -365,6 +366,10 @@
     <string name="step_tab_week">Biểu đồ theo tuần</string>
     <string name="step_tab_goal">Mục tiêu hoạt động</string>
     <string name="step_tab_settings">Cài đặt</string>
+
+    <string name="activity_progress_title_prepare">Preparing for synchronization…</string>
+    <string name="activity_progress_title_sync">Data synchronization %1$,d%%</string>
+    <string name="activity_progress_title_save">Data saving %1$,d%%</string>
 
     <string name="step_title_timing">Thời điểm</string>
     <string name="step_interval_title">khoảng thời gian lặp lại giám sát bước chân</string>
