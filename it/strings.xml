@@ -35,7 +35,8 @@
     <string name="mi_band_battery">Percentuale batteria, tempo dall\'ultima ricarica</string>
     <string name="mi_band_battery_remaining">Durata stimata batteria</string>
     <string name="mi_band_battery_settings">Battery settings</string>
-    <string name="mi_band_battery_notification_level">Low battery notification threshold</string>
+    <string name="mi_band_battery_notification_level">Low battery level notification threshold</string>
+    <string name="mi_band_battery_notification_message">Low battery level %1$,d%%</string>
     <string name="mi_band_bonded_device_name">Nome Mi Band 2 connessa</string>
     <string name="mi_band_mac_address">MAC address</string>
     <string name="mi_band_firmware">Firmware</string>
@@ -365,6 +366,10 @@
     <string name="step_tab_week">Grafici settimanali</string>
     <string name="step_tab_goal">Obbiettivo attività</string>
     <string name="step_tab_settings">Impostazioni</string>
+
+    <string name="activity_progress_title_prepare">Preparing for synchronization…</string>
+    <string name="activity_progress_title_sync">Data synchronization %1$,d%%</string>
+    <string name="activity_progress_title_save">Data saving %1$,d%%</string>
 
     <string name="step_title_timing">Tempistiche</string>
     <string name="step_interval_title">Intervallo di ripetizione del conta passi</string>
