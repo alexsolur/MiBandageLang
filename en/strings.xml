@@ -7,10 +7,10 @@
     <string name="drawer_nav_home">Bandages</string>
     <string name="drawer_nav_notification">Notification</string>
     <string name="drawer_nav_touch">Touch</string>
-    <string name="drawer_nav_alarm">Lost</string>
-    <string name="drawer_nav_step">Step</string>
+    <string name="drawer_nav_step">Activity</string>
     <string name="drawer_nav_pulse">Pulse</string>
     <string name="drawer_nav_time">Time</string>
+    <string name="drawer_nav_alarm">Lost</string>
     <string name="drawer_nav_disconnected_agent">Agent</string>
     <string name="drawer_nav_rewarded_mode">Rewarded mode</string>
     <string name="drawer_nav_premium_mode">Premium mode</string>
@@ -20,7 +20,7 @@
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Connection time: %1$s</string>
     <string name="foreground_service_disconnected_text">Mi Band 2 is not connected</string>
-    <string name="foreground_service_disconnected">Disconnection time: %1$s</string>
+    <!--<string name="foreground_service_disconnected">Disconnection time: %1$s</string>-->
 
     <!-- Strings related to Settings -->
     <string name="settings_name">Settings</string>
@@ -34,6 +34,8 @@
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Battery level, time since the last charge</string>
     <string name="mi_band_battery_remaining">Battery estimated remaining time</string>
+    <string name="mi_band_battery_settings">Battery settings</string>
+    <string name="mi_band_battery_notification_level">Low battery notification threshold</string>
     <string name="mi_band_bonded_device_name">Mi Band 2 paired device name</string>
     <string name="mi_band_mac_address">MAC address</string>
     <string name="mi_band_firmware">Firmware</string>
@@ -353,6 +355,17 @@
         <br>- touch and 2sec waiting, touch and 2sec waiting, touch
         </p>
     ]]></string>
+
+    <!-- Activity monitoring -->
+    <string name="activity_tab_day">Daily charts</string>
+
+    <string name="activity_progress_title_prepare">Preparing for synchronization…</string>
+    <string name="activity_progress_title_sync">Data synchronization %1$,d%%</string>
+    <string name="activity_progress_title_save">Data saving %1$,d%%</string>
+
+    <!--<string name="info_dialog_activity"><![CDATA[A lépés figyeléshez folyamatos Bluetooth kapcsolat szükséges.-->
+    <!--]]>-->
+    <!--</string>-->
 
     <!-- Step monitoring -->
     <string name="action_tracker_step">Steps</string>
