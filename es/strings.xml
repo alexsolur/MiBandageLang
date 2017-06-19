@@ -7,10 +7,10 @@
     <string name="drawer_nav_home">Herramientas</string>
     <string name="drawer_nav_notification">Monitoreo de notificaciones</string>
     <string name="drawer_nav_touch">Monitoreo táctil</string>
-    <string name="drawer_nav_alarm">Monitoreo de pérdida</string>
     <string name="drawer_nav_step">Monitoreo de pasos</string>
     <string name="drawer_nav_pulse">Monitoreo de pulso</string>
     <string name="drawer_nav_time">Monitoreo de tiempo</string>
+    <string name="drawer_nav_alarm">Monitoreo de pérdida</string>
     <string name="drawer_nav_disconnected_agent">Espía</string>
     <string name="drawer_nav_rewarded_mode">Modo recompensa</string>
     <string name="drawer_nav_premium_mode">Modo premium</string>
@@ -20,7 +20,7 @@
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Hora de conexión: %1$s</string>
     <string name="foreground_service_disconnected_text">Mi Band 2 no está conectada</string>
-    <string name="foreground_service_disconnected">Hora de desconexión: %1$s</string>
+    <!--<string name="foreground_service_disconnected">Hora de desconexión: %1$s</string>-->
 
     <!-- Strings related to Settings -->
     <string name="settings_name">Configuraciones</string>
@@ -34,6 +34,8 @@
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Tiempo restante estimado de la batería</string>
     <string name="mi_band_battery_remaining">Tiempo estimado en agotar la batería</string>
+    <string name="mi_band_battery_settings">Battery settings</string>
+    <string name="mi_band_battery_notification_level">Low battery notification threshold</string>
     <string name="mi_band_bonded_device_name">Nombre del dispositivo Mi Band 2 emparejado</string>
     <string name="mi_band_mac_address">Direccion MAC</string>
     <string name="mi_band_firmware">Firmware</string>
