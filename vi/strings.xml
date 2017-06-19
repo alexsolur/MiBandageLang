@@ -7,10 +7,10 @@
     <string name="drawer_nav_home">Bandages</string>
     <string name="drawer_nav_notification">Giám sát thông báo</string>
     <string name="drawer_nav_touch">Giám sát chạm</string>
-    <string name="drawer_nav_alarm">Giám sát thất lạc</string>
     <string name="drawer_nav_step">Giám sát bước chân</string>
     <string name="drawer_nav_pulse">Giám sát nhịp tim</string>
     <string name="drawer_nav_time">Giám sát thời gian</string>
+    <string name="drawer_nav_alarm">Giám sát thất lạc</string>
     <string name="drawer_nav_disconnected_agent">Nhật ký</string>
     <string name="drawer_nav_rewarded_mode">Chế độ thưởng</string>
     <string name="drawer_nav_premium_mode">Phiên bản nâng cấp</string>
@@ -20,7 +20,7 @@
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Thời gian kết nối: %1$s</string>
     <string name="foreground_service_disconnected_text">Mi Band 2 chưa được kết nối</string>
-    <string name="foreground_service_disconnected">Thời gian ngắt kết nối: %1$s</string>
+    <!--<string name="foreground_service_disconnected">Thời gian ngắt kết nối: %1$s</string>-->
 
     <!-- Strings related to Settings -->
     <string name="settings_name">Cài đặt</string>
@@ -34,6 +34,8 @@
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Dung lượng pin, thời gian từ lần sạc trước</string>
     <string name="mi_band_battery_remaining">Thời gian bắt đầu giám sát</string>
+    <string name="mi_band_battery_settings">Battery settings</string>
+    <string name="mi_band_battery_notification_level">Low battery notification threshold</string>
     <string name="mi_band_bonded_device_name">Tên thiết bị kết nối Mi Band 2</string>
     <string name="mi_band_mac_address">Địa chỉ MAC</string>
     <string name="mi_band_firmware">Firmware</string>
