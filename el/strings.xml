@@ -7,10 +7,10 @@
     <string name="drawer_nav_home">Επίδεσμοι</string>
     <string name="drawer_nav_notification">Παρακολούθηση ειδοποιήσεων</string>
     <string name="drawer_nav_touch">Παρακολούθηση αφής</string>
-    <string name="drawer_nav_alarm">Εποπτεία συσκευής</string>
     <string name="drawer_nav_step">Παρακολούθηση βημάτων</string>
     <string name="drawer_nav_pulse">Παρακολούθηση παλμών</string>
     <string name="drawer_nav_time">Παρακολούθηση χρόνου</string>
+    <string name="drawer_nav_alarm">Εποπτεία συσκευής</string>
     <string name="drawer_nav_disconnected_agent">Συμβάν</string>
     <string name="drawer_nav_rewarded_mode">Ανταμειβόμενη λειτουργία</string>
     <string name="drawer_nav_premium_mode">Λειτουργία Premium</string>
@@ -20,7 +20,7 @@
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Χρόνος σε σύνδεση: %1$s</string>
     <string name="foreground_service_disconnected_text">Το Mi Band 2 δεν είναι συνδεδεμένο</string>
-    <string name="foreground_service_disconnected">Χρόνος Αποσύνδεσης: %1$s</string>
+    <!--<string name="foreground_service_disconnected">Χρόνος Αποσύνδεσης: %1$s</string>-->
 
     <!-- Strings related to Settings -->
     <string name="settings_name">Ρυθμίσεις</string>
@@ -34,6 +34,8 @@
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Επίπεδο μπαταρίας, καιρός απο την τελευταία φόρτιση</string>
     <string name="mi_band_battery_remaining">Εκτιμώμενος χρόνος υπολοίπου μπαταρίας</string>
+    <string name="mi_band_battery_settings">Battery settings</string>
+    <string name="mi_band_battery_notification_level">Low battery notification threshold</string>
     <string name="mi_band_bonded_device_name">Mi Band 2 όνομα συζευγμένης συσκευής</string>
     <string name="mi_band_mac_address">Διεύθυνση MAC</string>
     <string name="mi_band_firmware">Firmware</string>
