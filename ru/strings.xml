@@ -35,7 +35,8 @@
     <string name="mi_band_battery">Уровень заряда, время с последней зарядки</string>
     <string name="mi_band_battery_remaining">Ожидаемое время работы</string>
     <string name="mi_band_battery_settings">Battery settings</string>
-    <string name="mi_band_battery_notification_level">Low battery notification threshold</string>
+    <string name="mi_band_battery_notification_level">Low battery level notification threshold</string>
+    <string name="mi_band_battery_notification_message">Low battery level %1$,d%%</string>
     <string name="mi_band_bonded_device_name">Имя спаренного Mi Band 2</string>
     <string name="mi_band_mac_address">MAC адрес</string>
     <string name="mi_band_firmware">Прошивка</string>
@@ -365,6 +366,10 @@
     <string name="step_tab_week">Измерения за неделю</string>
     <string name="step_tab_goal">Цели</string>
     <string name="step_tab_settings">Настройки</string>
+
+    <string name="activity_progress_title_prepare">Preparing for synchronization…</string>
+    <string name="activity_progress_title_sync">Data synchronization %1$,d%%</string>
+    <string name="activity_progress_title_save">Data saving %1$,d%%</string>
 
     <string name="step_title_timing">Время</string>
     <string name="step_interval_title">Периодичность получения данных</string>
