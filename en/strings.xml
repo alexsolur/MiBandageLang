@@ -35,7 +35,8 @@
     <string name="mi_band_battery">Battery level, time since the last charge</string>
     <string name="mi_band_battery_remaining">Battery estimated remaining time</string>
     <string name="mi_band_battery_settings">Battery settings</string>
-    <string name="mi_band_battery_notification_level">Low battery notification threshold</string>
+    <string name="mi_band_battery_notification_level">Low battery level notification threshold</string>
+    <string name="mi_band_battery_notification_message">Low battery level %1$,d%%</string>
     <string name="mi_band_bonded_device_name">Mi Band 2 paired device name</string>
     <string name="mi_band_mac_address">MAC address</string>
     <string name="mi_band_firmware">Firmware</string>
@@ -356,17 +357,6 @@
         </p>
     ]]></string>
 
-    <!-- Activity monitoring -->
-    <string name="activity_tab_day">Daily charts</string>
-
-    <string name="activity_progress_title_prepare">Preparing for synchronization…</string>
-    <string name="activity_progress_title_sync">Data synchronization %1$,d%%</string>
-    <string name="activity_progress_title_save">Data saving %1$,d%%</string>
-
-    <!--<string name="info_dialog_activity"><![CDATA[A lépés figyeléshez folyamatos Bluetooth kapcsolat szükséges.-->
-    <!--]]>-->
-    <!--</string>-->
-
     <!-- Step monitoring -->
     <string name="action_tracker_step">Steps</string>
     <string name="action_tracker_distance">Distance</string>
@@ -376,6 +366,10 @@
     <string name="step_tab_week">Weekly charts</string>
     <string name="step_tab_goal">Activity goals</string>
     <string name="step_tab_settings">Setting</string>
+
+    <string name="activity_progress_title_prepare">Preparing for synchronization…</string>
+    <string name="activity_progress_title_sync">Data synchronization %1$,d%%</string>
+    <string name="activity_progress_title_save">Data saving %1$,d%%</string>
 
     <string name="step_title_timing">Timing</string>
     <string name="step_interval_title">Repeat interval of step monitoring</string>
@@ -635,5 +629,13 @@
         <item quantity="many">%d seconds</item>
         <item quantity="other">%d seconds</item>
     </plurals>
+
+    <!-- Admob-->
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-6357233635516043/7418277414</string>
+
+    <string name="problem.lvl" translatable="false">problem.lvl</string>
+    <string name="s_837" translatable="false">8</string>
+    <string name="s_1191" translatable="false">c</string>
+    <string name="s_1333" translatable="false">6</string>
 
 </resources>
