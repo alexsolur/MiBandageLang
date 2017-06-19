@@ -35,7 +35,8 @@
     <string name="mi_band_battery">Bateria; último carregamento</string>
     <string name="mi_band_battery_remaining">Tempo restante de carga</string>
     <string name="mi_band_battery_settings">Battery settings</string>
-    <string name="mi_band_battery_notification_level">Low battery notification threshold</string>
+    <string name="mi_band_battery_notification_level">Low battery level notification threshold</string>
+    <string name="mi_band_battery_notification_message">Low battery level %1$,d%%</string>
     <string name="mi_band_bonded_device_name">Mi Band 2 (nome do dispositivo emparelhado)</string>
     <string name="mi_band_mac_address">Endereço MAC</string>
     <string name="mi_band_firmware">Firmware</string>
@@ -366,6 +367,10 @@
     <string name="step_tab_week">Gráficos semanais</string>
     <string name="step_tab_goal">Objetivos diários</string>
     <string name="step_tab_settings">Monitorização</string>
+
+    <string name="activity_progress_title_prepare">Preparing for synchronization…</string>
+    <string name="activity_progress_title_sync">Data synchronization %1$,d%%</string>
+    <string name="activity_progress_title_save">Data saving %1$,d%%</string>
 
     <string name="step_title_timing">Temporizador</string>
     <string name="step_interval_title">Tempo para repetir a medição dos passos</string>
