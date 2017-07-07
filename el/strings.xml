@@ -49,13 +49,22 @@
     <!-- PreferenceScreen -->
     <string name="pref_connected">Ρυθμίσεις σύνδεσης</string>
     <string name="pref_connected_summary">Mi Band 2 και ρυθμίσεις σήματος σύνδεση της συσκευής</string>
-    <string name="pref_cat_connected_no_notif">Mi Band 2 συνδέεται και δεν έχει ειδοποιήσεις</string>
+
+    <string name="pref_connected_signals">Connection signals</string>
+    <string name="pref_connected_signals_summary">Mi Band 2 συνδέεται και δεν έχει ειδοποιήσεις</string>
+    <string name="pref_cat_connected_signals_mi_band">Mi Band 2 signal</string>
+    <string name="pref_connected_mi_band_title">Δόνηση</string>
+    <string name="pref_cat_connected_signals">Device signals</string>
+    <string name="pref_connected_wakelock_title">Αφύπνιση οθόνης της συσκευής</string>
+
+    <string name="pref_connected_settings">Connection settings</string>
+    <string name="pref_connected_settings_summary">Mi Band 2 and device connection settings</string>
+    <string name="pref_cat_connected_settings">Device settings</string>
+    <string name="pref_connected_volume_title">Change volume</string>
+    <string name="pref_connected_volume_ring_title">Ring volume</string>
+
     <string name="pref_cat_connected_have_notif">Προκαθορισμένες εφαρμογές και σήμα Mi Band 2</string>
     <string name="pref_cat_connected_have_notif_default">Προκαθορισμένες και προσαρμοσμένες ρυθμίσεις</string>
-    <string name="pref_connected_no_notif_title">Σήμα του Mi Band 2</string>
-    <string name="pref_connected_no_notif_summary_on">Δόνηση</string>
-    <string name="pref_connected_no_notif_wakelock_title">Αφύπνιση οθόνης της συσκευής</string>
-
     <string name="pref_connected_have_notif_immediate_title">Άμεσο σήμα με την παραλαβή ειδοποιήσης</string>
     <string name="pref_connected_have_notif_title">Σήμα κατά τη σύνδεση με τη συσκευή</string>
     <string name="pref_connected_have_notif_reminder_title">Σήμα υπενθύμισης</string>
@@ -75,12 +84,21 @@
 
     <string name="pref_disconnected">Ρυθμίσεις αποσύνδεσης</string>
     <string name="pref_disconnected_summary">Mi Band 2 και ρυθμίσεις σήματος αποσύνδεσης της συσκευή</string>
-    <string name="pref_cat_disconnected_mi_band">Σήμα Mi Band 2</string>
+
+    <string name="pref_disconnected_signals">Disconnection signals</string>
+    <string name="pref_disconnected_signals_summary">Mi Band 2 and device disconnection signals, it does not signal when the bluetooth is turned off manually</string>
+    <string name="pref_cat_disconnected_signals_mi_band">Σήμα Mi Band 2</string>
     <string name="pref_disconnected_mi_band_title">Εμφάνιση εικονιδίου</string>
-    <string name="pref_cat_disconnected">Σήμα συσκευής</string>
+    <string name="pref_cat_disconnected_signals">Σήμα συσκευής</string>
     <string name="pref_disconnected_ringtone_title">Ήχος κλήσης</string>
     <string name="pref_disconnected_vibration_title">Δόνηση</string>
     <string name="pref_disconnected_wakelock_title">Αφύπνιση οθόνης της συσκευής</string>
+
+    <string name="pref_disconnected_settings">Disconnection settings</string>
+    <string name="pref_disconnected_settings_summary">Mi Band 2 and device disconnection settings, it does not signal when the bluetooth is turned off manually</string>
+    <string name="pref_cat_disconnected_settings">Device settings</string>
+    <string name="pref_disconnected_volume_title">Change volume</string>
+    <string name="pref_disconnected_volume_ring_title">Ring volume</string>
 
     <string name="pref_cat_abandoned">Σήμα συσκευής</string>
     <string name="pref_abandoned_notif_interval_title">Διάστημα επανάληψης σήματος</string>
@@ -164,6 +182,7 @@
     <string name="pref_dnd_remember_state_summary">Στο τέλος της λειτουργίας μην ενοχλείτε, ενεργοποιήστε όλους τους επίδεσμους ή επαναφέρετε τις καταστάσεις όπως ήταν τη στιγμή της έναρξης</string>
     <string name="pref_dnd_remember_state_on_title">Στο τέλος επαναφέρετε την κατάσταση στους επίδεσμους</string>
     <string name="pref_dnd_remember_state_off_title">Στο τέλος ενεργοποιήστε όλους τους επίδεσμους</string>
+    <string name="pref_dnd_enable_bluetooth">At the start of the Dnd mode turn Bluetooth off, at the end turn Bluetooth on</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Παρακαλούμε να ενεργοποιήσετε το Bluetooth και φέρτε τη συσκευή Mi Band 2 πιο κοντά στο τηλέφωνο</string>
@@ -186,6 +205,7 @@
     <string name="message_step_goal_free_values">Μέχρι 3 τιμές μπορούν να ρυθμιστούν στη κανονική λειτουργία</string>
     <string name="message_step_goal_max_values">Οι μέγιστες τιμές μπορούν να ρυθμιστούν</string>
 
+    <string name="message_touch_no_patterns">Press one of the red pattern recording buttons</string>
     <string name="message_touch_record">Καταγράψτε το μοτίβο χρησιμοποιώντας το κουμπί αφής του Mi Band 2</string>
     <string name="message_touch_pattern_error">Το καθορισμένο μοτίβο είναι παρόμοιο με ένα δείγμα κάποιας άλλης λειτουργίας, καταγράψτε άλλο</string>
     <string name="message_touch_free_patterns">Μπορούν να χρησιμοποιηθούν μέχρι 3 λειτουργίες</string>
@@ -215,6 +235,9 @@
     <p>εάν χρησιμοποιείτε περισσότερες εφαρμογές για τον έλεγχο Mi Band 2, αλληλεπιδρούν μεταξύ τους και θα πρέπει να τις απενεργοποιήστε προσωρινά</p>
     <p>Αν το Mi Band 2 δεν ανιχνευθεί, τότε μπορείτε να ρυθμίσετε τη διεύθυνση MAC χειροκίνητα από το μενού λεπτομέρειες (η διεύθυνση MAC βρίσκεται στο: Mi Fit/Profil/Mi Band 2).</p>
     <p><b>Αν το Mi Band 2 δεν ανιχνευθεί η έχετε πρόβλημα συνχρονισμού στην εφαρμογή Mi Fit, τότε εγκαταστηστε το BToolkit, nRF Connect ή παρόμοια εφαρμογή διαχείρισης Bluetooth και αφαιρέσετε οποιαδήποτε αντιστοιχισμένη ή συζευγμενη συσκευή.</b></p>
+    <p><b>MIUI:</b>
+    <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
+    <br>- Security app screen: battery/app battery saver set Mi Bandage app to no restriction.</p>
     <p>Αν έχετε πρόβλημα (ανιχνευμένο Mi Band 2, δεν παίρνει ειδοποιήσεις), δοκιμάστε αυτό:
     <br>1. Άν έχετε εγκαταστήσει την εφαρμογή Greenify (ή άλλη εφαρμογή εξοικονόμησης ενέργειας βάζοντας την συσκευή σε λήθαργο) να την απενεργοποιήσετε.
     <br>2. Εγκαταστήστε την εφαρμογή Mi Bandage.
@@ -361,20 +384,22 @@
     <string name="action_tracker_step">Βήματα</string>
     <string name="action_tracker_distance">Απόσταση</string>
     <string name="action_tracker_calorie">Θερμίδες</string>
+    <string name="action_rest">Rest</string>
 
     <string name="step_tab_day">Ημερήσια διαγράμματα</string>
     <string name="step_tab_week">Εβδομαδιαία διαγράμματα</string>
     <string name="step_tab_goal">Στόχοι δραστηριοτήτων</string>
     <string name="step_tab_settings">Ρυθμίσεις</string>
 
-    <string name="activity_progress_title_prepare">Προετοιμασία για συγχρονισμό…</string>
-    <string name="activity_progress_title_sync">Συγχρονισμός δεδομένων %1$,d%%</string>
-    <string name="activity_progress_title_save">Αποθήκευση δεδομένων %1$,d%%</string>
+    <string name="activity_progress_title_prepare">Preparing for synchronization…</string>
+    <string name="activity_progress_title_sync">Data synchronization %1$,d%%</string>
+    <string name="activity_progress_title_save">Data saving %1$,d%%</string>
 
     <string name="step_title_timing">Χρονισμός</string>
     <string name="step_interval_title">Διαστήματα επανάληψης παρακολούθησης βημάτων</string>
     <string name="step_time_set_next">Το χρονοδιάγραμμα του επόμενου ελέγχου</string>
 
+    <string name="step_goal_default_title">Default goal</string>
     <string name="step_goal_type_title">Τιμή παρακολούθησης</string>
     <string name="step_details">Λεπτομέρειες βημάτων</string>
 
@@ -592,6 +617,8 @@
     <string name="bpm">BPM</string>
     <string name="time_start">Ώρα έναρξης</string>
     <string name="time_end">Ώρα λήξης</string>
+    <string name="ringer_mode_mute">Mute</string>
+    <string name="ringer_mode_silent">Do not disturb</string>
 
     <string name="action_dismiss">Απόρριψη</string>
     <string name="action_setting">Ρυθμίσεις</string>
@@ -599,6 +626,7 @@
     <string name="action_export">Εξαγωγή</string>
     <string name="action_chart">Διάγραμμα</string>
     <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_launch_mi_fit">Mi Fit</string>
 
     <string name="power_on">Ενεργοποίηση</string>
     <string name="screen_unlock">Ξεκλείδωμα της οθόνης</string>
