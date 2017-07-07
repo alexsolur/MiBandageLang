@@ -49,13 +49,22 @@
     <!-- PreferenceScreen -->
     <string name="pref_connected">Cài đặt kết nối</string>
     <string name="pref_connected_summary">Cài đặt tín hiệu kết nối trên Mi Band 2 và thiết bị </string>
-    <string name="pref_cat_connected_no_notif">Mi Band 2 đang kết nối và không có thông báo</string>
+
+    <string name="pref_connected_signals">Connection signals</string>
+    <string name="pref_connected_signals_summary">Mi Band 2 đang kết nối và không có thông báo</string>
+    <string name="pref_cat_connected_signals_mi_band">Mi Band 2 signal</string>
+    <string name="pref_connected_mi_band_title">Tín hiệu Mi Band 2</string>
+    <string name="pref_cat_connected_signals">Device signals</string>
+    <string name="pref_connected_wakelock_title">Sáng màn hình thiết bị</string>
+
+    <string name="pref_connected_settings">Connection settings</string>
+    <string name="pref_connected_settings_summary">Mi Band 2 and device connection settings</string>
+    <string name="pref_cat_connected_settings">Device settings</string>
+    <string name="pref_connected_volume_title">Change volume</string>
+    <string name="pref_connected_volume_ring_title">Ring volume</string>
+
     <string name="pref_cat_connected_have_notif">Tín hiệu cho ứng dụng được xác định trước và Mi Band 2</string>
     <string name="pref_cat_connected_have_notif_default">Cài đặt được xác định trước và cài đặt tùy chỉnh</string>
-    <string name="pref_connected_no_notif_title">Tín hiệu Mi Band 2</string>
-    <string name="pref_connected_no_notif_summary_on">Rung</string>
-    <string name="pref_connected_no_notif_wakelock_title">Sáng màn hình thiết bị</string>
-
     <string name="pref_connected_have_notif_immediate_title">Tín hiệu lập tức khi nhận thông báo</string>
     <string name="pref_connected_have_notif_title">Tín hiệu khi kết nối thiết bị</string>
     <string name="pref_connected_have_notif_reminder_title">Tín hiệu nhắc nhở</string>
@@ -75,12 +84,21 @@
 
     <string name="pref_disconnected">Cài đặt ngắt kết nối</string>
     <string name="pref_disconnected_summary">Tín hiệu Mi Band 2 và thiết bị  khi bị ngắt kết nối </string>
-    <string name="pref_cat_disconnected_mi_band">Tín hiệu Mi Band 2</string>
+
+    <string name="pref_disconnected_signals">Disconnection signals</string>
+    <string name="pref_disconnected_signals_summary">Mi Band 2 and device disconnection signals, it does not signal when the bluetooth is turned off manually</string>
+    <string name="pref_cat_disconnected_signals_mi_band">Tín hiệu Mi Band 2</string>
     <string name="pref_disconnected_mi_band_title">Hiển thị biểu tượng</string>
-    <string name="pref_cat_disconnected">Tín hiệu thiết bị</string>
+    <string name="pref_cat_disconnected_signals">Tín hiệu thiết bị</string>
     <string name="pref_disconnected_ringtone_title">Nhạc chuông</string>
     <string name="pref_disconnected_vibration_title">Rung</string>
     <string name="pref_disconnected_wakelock_title">Đánh thức màn hình thiết bị</string>
+
+    <string name="pref_disconnected_settings">Disconnection settings</string>
+    <string name="pref_disconnected_settings_summary">Mi Band 2 and device disconnection settings, it does not signal when the bluetooth is turned off manually</string>
+    <string name="pref_cat_disconnected_settings">Device settings</string>
+    <string name="pref_disconnected_volume_title">Change volume</string>
+    <string name="pref_disconnected_volume_ring_title">Ring volume</string>
 
     <string name="pref_cat_abandoned">Tín hiệu thiết bị</string>
     <string name="pref_abandoned_notif_interval_title">Khoảng thời gian lặp lại tín hiệu</string>
@@ -164,6 +182,7 @@
     <string name="pref_dnd_remember_state_summary">Vào lúc kết thúc chế độ không làm phiền, bật tất cả mọi thứ hoặc khôi phục trạng thái mặc định như lúc đầu</string>
     <string name="pref_dnd_remember_state_on_title">Khôi phục tất cả vào lúc kết thúc</string>
     <string name="pref_dnd_remember_state_off_title">Bật tất cả vào lúc kết thúc</string>
+    <string name="pref_dnd_enable_bluetooth">At the start of the Dnd mode turn Bluetooth off, at the end turn Bluetooth on</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Vui lòng kích hoạt Bluetooth và mang Mi Band 2 gần hơn với điện thoại</string>
@@ -186,6 +205,7 @@
     <string name="message_step_goal_free_values">Có thể đặt tới 3 giá trị ở chế độ bình thường</string>
     <string name="message_step_goal_max_values">Có thể đặt nhiều nhất 10 giá trị</string>
 
+    <string name="message_touch_no_patterns">Press one of the red pattern recording buttons</string>
     <string name="message_touch_record">Ghi lại các cử chỉ sử dụng  nút cảm ứng Mi Band 2 </string>
     <string name="message_touch_pattern_error">Các mẫu cụ thể là tương tự mẫu của một chức năng khác, ghi lại cách khác</string>
     <string name="message_touch_free_patterns">Lên đến 3 chức năng có thể được sử dụng</string>
@@ -215,6 +235,9 @@
     <p>If you use more applications to control Mi Band 2, they interfere with each other so temporarily turn off those.</p>
     <p>If Mi Band 2 is not found, then you can set the MAC address manually in the details menu (MAC address is found: Mi Fit/Profil/Mi Band 2).</p>
     <p><b>If Mi Band 2 is not found or if you are having trouble syncing Mi Fit app, then install the BToolkit, nRF Connect or similar Bluetooth manager app and remove any pairing, bonded device.</b></p>
+    <p><b>MIUI:</b>
+    <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
+    <br>- Security app screen: battery/app battery saver set Mi Bandage app to no restriction.</p>
     <p>If you have problem (discover Mi Band 2, not have notification signal), please try it:
     <br>1. If you installed the Greenify (or other hibernating app) turn it off.
     <br>2. Install Mi Bandage app.
@@ -361,6 +384,7 @@
     <string name="action_tracker_step">Các bước</string>
     <string name="action_tracker_distance">Khoảng cách</string>
     <string name="action_tracker_calorie">Calories</string>
+    <string name="action_rest">Rest</string>
 
     <string name="step_tab_day">Biểu đồ hàng ngày</string>
     <string name="step_tab_week">Biểu đồ theo tuần</string>
@@ -375,6 +399,7 @@
     <string name="step_interval_title">khoảng thời gian lặp lại giám sát bước chân</string>
     <string name="step_time_set_next">Thời điểm giám sát tiếp theo</string>
 
+    <string name="step_goal_default_title">Default goal</string>
     <string name="step_goal_type_title">Giám sát giá trị</string>
     <string name="step_details">Chi tiết bước chân</string>
 
@@ -592,6 +617,8 @@
     <string name="bpm">BPM</string>
     <string name="time_start">Thời gian bắt đầu</string>
     <string name="time_end">Thời gian kết thúc</string>
+    <string name="ringer_mode_mute">Mute</string>
+    <string name="ringer_mode_silent">Do not disturb</string>
 
     <string name="action_dismiss">Bỏ qua</string>
     <string name="action_setting">Cài đặt</string>
@@ -599,6 +626,7 @@
     <string name="action_export">Xuất</string>
     <string name="action_chart">Biểu đồ</string>
     <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_launch_mi_fit">Mi Fit</string>
 
     <string name="power_on">Bật nguồn</string>
     <string name="screen_unlock">Mở khóa màn hình</string>
