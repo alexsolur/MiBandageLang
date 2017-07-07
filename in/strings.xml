@@ -7,10 +7,10 @@
     <string name="drawer_nav_home">Beranda</string>
     <string name="drawer_nav_notification">Pemantau pemberitahuan</string>
     <string name="drawer_nav_touch">Pemantau sentuhan</string>
-    <string name="drawer_nav_alarm">Pemantau kehilangan</string>
     <string name="drawer_nav_step">Pemantau aktifitas</string>
     <string name="drawer_nav_pulse">Pemantau detak</string>
     <string name="drawer_nav_time">Pemantau waktu</string>
+    <string name="drawer_nav_alarm">Pemantau kehilangan</string>
     <string name="drawer_nav_disconnected_agent">Alat</string>
     <string name="drawer_nav_rewarded_mode">Mode yang telah diraih</string>
     <string name="drawer_nav_premium_mode">Mode premium</string>
@@ -20,7 +20,7 @@
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Waktu koneksi: %1$s</string>
     <string name="foreground_service_disconnected_text">Mi Band 2 tidak terhubung</string>
-    <string name="foreground_service_disconnected">Waktu terputus: %1$s</string>
+    <!--<string name="foreground_service_disconnected">Waktu terputus: %1$s</string>-->
 
     <!-- Strings related to Settings -->
     <string name="settings_name">Pengaturan</string>
@@ -34,10 +34,10 @@
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Tingkat baterai, waktu sejak pengisian daya terakhir</string>
     <string name="mi_band_battery_remaining">Perkiraan waktu baterai tersisa</string>
-    <string name="mi_band_bonded_device_name">Nama perangkat pasangan Mi Band 2</string>
     <string name="mi_band_battery_settings">Pengaturan baterau</string>
     <string name="mi_band_battery_notification_level">Pemberitahuan ambang baterai lemah</string>
     <string name="mi_band_battery_notification_message">Level baterai lemah %1$,d%%</string>
+    <string name="mi_band_bonded_device_name">Nama perangkat pasangan Mi Band 2</string>
     <string name="mi_band_mac_address">Alamat MAC</string>
     <string name="mi_band_firmware">Perangkat lunak</string>
     <string name="mi_band_hardware">Perangkat keras</string>
@@ -49,16 +49,22 @@
     <!-- PreferenceScreen -->
     <string name="pref_connected">Koneksi</string>
     <string name="pref_connected_summary">Mi Band 2 dan pengaturan sinyal koneksi perangkat</string>
-    <string name="pref_cat_connected_no_notif">Mi Band 2 sedang menghubungkan dan tidak ada notifikasi</string>
+
+    <string name="pref_connected_signals">Connection signals</string>
+    <string name="pref_connected_signals_summary">Mi Band 2 sedang menghubungkan dan tidak ada notifikasi</string>
+    <string name="pref_cat_connected_signals_mi_band">Tanda Mi Band 2</string>
+    <string name="pref_connected_mi_band_title">Bergetar</string>
+    <string name="pref_cat_connected_signals">Device signals</string>
+    <string name="pref_connected_wakelock_title">Nyalakan layar perangkat</string>
+
+    <string name="pref_connected_settings">Connection settings</string>
+    <string name="pref_connected_settings_summary">Mi Band 2 and device connection settings</string>
+    <string name="pref_cat_connected_settings">Device settings</string>
+    <string name="pref_connected_volume_title">Change volume</string>
+    <string name="pref_connected_volume_ring_title">Ring volume</string>
+
     <string name="pref_cat_connected_have_notif">Aplikasi yang telah ditentukan dan tanda Mi Band 2</string>
     <string name="pref_cat_connected_have_notif_default">Setelan standar dan kustomisasi</string>
-    <string name="pref_connected_no_notif_title">Tanda Mi Band 2</string>
-    <string name="pref_connected_no_notif_summary_on">Bergetar</string>
-    <string name="pref_connected_no_notif_summary_off">Tidak</string>
-    <string name="pref_connected_no_notif_wakelock_title">Nyalakan layar perangkat</string>
-    <string name="pref_connected_no_notif_wakelock_summary_on">Hidup</string>
-    <string name="pref_connected_no_notif_wakelock_summary_off">Mati</string>
-
     <string name="pref_connected_have_notif_immediate_title">Nyalakan tanda langsung ketika ada pemberitahuan masuk</string>
     <string name="pref_connected_have_notif_title">Tanda saat menghubungkan ke perangkat</string>
     <string name="pref_connected_have_notif_reminder_title">Tanda pengingat</string>
@@ -78,26 +84,27 @@
 
     <string name="pref_disconnected">Pemutusan</string>
     <string name="pref_disconnected_summary">Pengaturan Mi Band 2 dan pemutusan sinyal perangkat</string>
-    <string name="pref_cat_disconnected_mi_band">Sinyal/Tanda Mi Band 2</string>
+
+    <string name="pref_disconnected_signals">Disconnection signals</string>
+    <string name="pref_disconnected_signals_summary">Mi Band 2 and device disconnection signals, it does not signal when the bluetooth is turned off manually</string>
+    <string name="pref_cat_disconnected_signals_mi_band">Sinyal/Tanda Mi Band 2</string>
     <string name="pref_disconnected_mi_band_title">Penampilan ikon</string>
-    <string name="pref_disconnected_mi_band_summary_off">Mati</string>
-    <string name="pref_disconnected_mi_band_summary_on">Hidup</string>
-    <string name="pref_cat_disconnected">Sinyal/tanda perangkat</string>
+    <string name="pref_cat_disconnected_signals">Sinyal/tanda perangkat</string>
     <string name="pref_disconnected_ringtone_title">Nada dering</string>
-    <string name="pref_disconnected_ringtone_summary_no">Tidak ada</string>
     <string name="pref_disconnected_vibration_title">Getaran</string>
-    <string name="pref_disconnected_vibration_summary_on">Hidup</string>
-    <string name="pref_disconnected_vibration_summary_off">Mati</string>
     <string name="pref_disconnected_wakelock_title">Hidupkan layar perangkat</string>
-    <string name="pref_disconnected_wakelock_summary_on">Hidup</string>
-    <string name="pref_disconnected_wakelock_summary_off">Mati</string>
+
+    <string name="pref_disconnected_settings">Disconnection settings</string>
+    <string name="pref_disconnected_settings_summary">Mi Band 2 and device disconnection settings, it does not signal when the bluetooth is turned off manually</string>
+    <string name="pref_cat_disconnected_settings">Device settings</string>
+    <string name="pref_disconnected_volume_title">Change volume</string>
+    <string name="pref_disconnected_volume_ring_title">Ring volume</string>
 
     <string name="pref_cat_abandoned">Tanda perangkat</string>
     <string name="pref_abandoned_notif_interval_title">Interval pengulangan sinyal</string>
     <string name="pref_abandoned_notif_text_summary">Pemberitahuan pada layar perangkat</string>
     <string name="pref_abandoned_notif_text_text">Perangkat hilang, tolong hubungi nomer dibawah ini:</string>
     <string name="pref_abandoned_ringtone_title">Nada dering</string>
-    <string name="pref_abandoned_ringtone_summary_no">Tidak ada</string>
     <string name="pref_abandoned_vibration_title">Getar</string>
     <string name="pref_abandoned_wakelock_title">Bangunkan layar</string>
     <string name="pref_abandoned_notif_title">Perangkat hilang</string>
@@ -106,23 +113,17 @@
     <string name="pref_call_summary">pengaturan tanda Mi Band 2</string>
     <string name="pref_cat_call">Panggilan masuk</string>
     <string name="pref_call_title">Tanda panggilan masuk</string>
-    <string name="pref_call_summary_off">Mati</string>
     <string name="pref_call_summary_on">Aktif (jangan lupa mematikan tanda panggilan masuk pada apl Mi Fit)</string>
     <string name="pref_call_text_title">Tampilkan identitas pemanggil</string>
     <string name="pref_call_text_summary_on"><![CDATA[On (informasi lebih lanjut: <i>Pengaturan/Pengaturan ikon teks)</i>]]></string>
-    <string name="pref_call_text_summary_off">Mati</string>
 
     <string name="pref_call_net_text_title">Tanda panggilan internet masuk, tampilan identitas pemanggil</string>
-    <string name="pref_call_net_text_summary_off">Mati</string>
     <string name="pref_call_net_text_summary_on">Viber, WhatsApp, Line</string>
 
     <string name="pref_cat_call_missed">Panggilan tidak terjawab</string>
     <string name="pref_call_missed_title">Tanda panggilan tidak terjawab</string>
-    <string name="pref_call_missed_summary_off">Mati</string>
-    <string name="pref_call_missed_summary_on">Aktif</string>
 
     <string name="pref_call_missed_net_title">Tanda panggilan internet tak terjawab, tampilan identitas pemanggil</string>
-    <string name="pref_call_missed_net_summary_off">Mati</string>
     <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
 
     <string name="pref_call_missed_alert_title">Sinyal/Tanda Mi Band 2</string>
@@ -136,7 +137,6 @@
     <string name="pref_cat_text_conversion">Tanda Mi Band 2</string>
     <string name="pref_text_conversion_title">Konversi karakter</string>
     <string name="pref_text_conversion_summary_on">Karakter konversi tidak dikenal</string>
-    <string name="pref_text_conversion_summary_off">Mati</string>
 
     <string name="pref_text_conversion_description_title">Deskripsi</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -153,22 +153,15 @@
     </string>
 
     <string name="pref_touch">Pemantau sentuhan</string>
-    <string name="pref_touch_summary"></string>
     <string name="pref_cat_touch">Tanda Mi Band 2</string>
     <string name="pref_touch_recognised_failed_title">Sinyal pola sentuh tidak dikenali</string>
-    <string name="pref_touch_recognised_failed_summary_off">Mati</string>
     <string name="pref_touch_recognised_failed_summary_on">Aktif (2 getaran setelah pola terpanjang)</string>
 
     <string name="pref_mi_band">Mi Band 2</string>
     <string name="pref_cat_mi_band_lift_wrist">Angkat lengan untuk melihat info</string>
     <string name="pref_mi_band_lift_wrist_title">Angkat lengan untuk melihat info</string>
-    <string name="pref_mi_band_lift_wrist_summary_on">Aktif</string>
-    <string name="pref_mi_band_lift_wrist_summary_off">Mati</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Mode jangan ganggu</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Aktif (informasi tidak ditampilkan untuk beberapa saat, pengaturan membutuhkan koneksi Bluetooth,)</string>
-    <string name="pref_mi_band_lift_wrist_dnd_summary_off">Mati</string>
-    <string name="pref_mi_band_lift_wrist_dnd_time_start_title">Waktu mulai</string>
-    <string name="pref_mi_band_lift_wrist_dnd_time_end_title">Waktu berakhir</string>
 
     <string name="pref_theme">Tema</string>
     <string name="pref_cat_theme">Tema</string>
@@ -186,11 +179,10 @@
     <string name="touch">Pemantau sentuhan</string>
 
     <string name="pref_dnd_title">Mode jangan ganggu</string>
-    <string name="pref_dnd_time_start_title">Waktu mulai</string>
-    <string name="pref_dnd_time_end_title">Waktu berakhir</string>
     <string name="pref_dnd_remember_state_summary">Pada akhir mode jangan ganggu, aktifkan semua balutan atau pulihkan keadaan seperti semula pada saat mulai</string>
     <string name="pref_dnd_remember_state_on_title">Keadaan pada akhir pemulihan balutan</string>
     <string name="pref_dnd_remember_state_off_title">Aktifkan semua balutan di akhir</string>
+    <string name="pref_dnd_enable_bluetooth">At the start of the Dnd mode turn Bluetooth off, at the end turn Bluetooth on</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Aktifkan Bluetooth dan dekatkan perangkat Mi Band 2 ke telepon</string>
@@ -213,6 +205,7 @@
     <string name="message_step_goal_free_values">Mode normal dapat mengatur hingga 3 nilai</string>
     <string name="message_step_goal_max_values">Hanya dapat mengatur maksimal 10 nilai</string>
 
+    <string name="message_touch_no_patterns">Press one of the red pattern recording buttons</string>
     <string name="message_touch_record">Rekam pola dengan menggunakan tombol sentuh Mi Band 2</string>
     <string name="message_touch_pattern_error">Pola yang ditentukan mirip dengan contoh fungsi lain, rekam yang lain</string>
     <string name="message_touch_free_patterns">Mode normal hanya bisa menggunakan hingga 3 fungsi</string>
@@ -242,6 +235,9 @@
     <p>Jika anda menggunakan aplikasi lebih untuk mengontrol Mi Band 2, mungkin aplikasi-aplikasi tersebut akan saling ganggu, jadi untuk sementara harap mematikan apl-apl tersebut.</p>
     <p>Jika Mi Band 2 tidak terdeteksi, anda bisa mengatur alamat MAC secara manual pada menu rincian/lanjutan (Alamat MAC dapat di temukan di : Mi Fit - Profil - Mi Band 2).</p>
     <p><b>Jika Mi Band 2 masih tidak terdeteksi atau anda memiliki masalah sinkronisasi pada aplikasi Mi Fit, pasanglah apl BToolkit, nRF Connect atau apl-apl manajer bluetooth lainnya, kemudian hapus pair/sambungan dari semua perangkat, lalu coba sambungkan kembali.</b></p>
+    <p><b>MIUI:</b>
+    <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
+    <br>- Security app screen: battery/app battery saver set Mi Bandage app to no restriction.</p>
     <p>Jika ada masalah (Mi Band 2, tidak mendapatkan sinyal pemberitahuan), silahkan coba beberapa tips berikut:
     <br>1. Jika sudah memasang Greenify (atau aplikasi yang sejenis itu) coba matikan.
     <br>2. Pasang apl Mi Bandage.
@@ -323,7 +319,6 @@
     <string name="touch_headline_other_title">Kontrol lain</string>
 
     <string name="touch_device_location_title">Temukan perangkat saya</string>
-    <string name="touch_device_location_ringtone_title_no">Tidak ada</string>
 
     <string name="touch_call_answer_title">Jawab panggilan</string>
     <string name="touch_call_answer_speakerphone_title">Pengeras suara telpon</string>
@@ -331,7 +326,6 @@
     <string name="touch_call_end_title">Tolak panggilan, berakhir</string>
 
     <string name="touch_call_mute_title">Tombol bisukan panggilan</string>
-    <string name="touch_call_mute_ringtone_title_no">Tidak ada</string>
 
     <string name="touch_device_location_not_muted_only_title">Suara saja ketika tidak dibisukan</string>
 
@@ -345,7 +339,7 @@
     <string name="touch_music_volume_down_title">Volume musik turun</string>
     <string name="touch_music_track_info_title">Tampilkan info musik.</string>
 
-    <string name="touch_time_launch_title">Mulai pemantauan waktu (Timer)</string>
+    <string name="touch_time_launch_title">Mulai pemantauan waktu</string>
     <string name="touch_time_launch_type_timer_title">Timer</string>
     <string name="touch_time_launch_type_stopper_title">Stopwatch</string>
     <string name="touch_time_launch_type_interval_title">Interval</string>
@@ -367,10 +361,6 @@
 
     <string name="touch_testing_second">det.</string>
 
-    <string name="activity_progress_title_prepare">Menyiapkan sinkronisasi…</string>
-    <string name="activity_progress_title_sync">Sinkronisasi data %1$,d%%</string>
-    <string name="activity_progress_title_save">Penghematan data %1$,d%%</string>
-    
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[Sentuhan ini berlaku saat tampilan Mi Band 2 berubah (jadi sebaiknya putar pergelangan tangan sebelum menyentuh).
         <p>Fitur ini memantau waktu antar sentuhan, bukan waktu sentuhan pertama.</p>
@@ -394,18 +384,22 @@
     <string name="action_tracker_step">Langkah</string>
     <string name="action_tracker_distance">Jarak</string>
     <string name="action_tracker_calorie">Kalori</string>
+    <string name="action_rest">Rest</string>
 
     <string name="step_tab_day">Bagan harian</string>
     <string name="step_tab_week">Bagan mingguan</string>
     <string name="step_tab_goal">Tujuan kegiatan</string>
     <string name="step_tab_settings">Atur</string>
 
+    <string name="activity_progress_title_prepare">Menyiapkan sinkronisasi…</string>
+    <string name="activity_progress_title_sync">Sinkronisasi data %1$,d%%</string>
+    <string name="activity_progress_title_save">Penghematan data %1$,d%%</string>
+
     <string name="step_title_timing">Pemilihan waktu</string>
     <string name="step_interval_title">Interval berulang dari pemantauan langkah</string>
-    <string name="step_time_start">Waktu mulai</string>
-    <string name="step_time_end">Waktu berakhir</string>
     <string name="step_time_set_next">Pilih waktu untuk pemantauan selanjutnya</string>
 
+    <string name="step_goal_default_title">Default goal</string>
     <string name="step_goal_type_title">Nilai pemantauan</string>
     <string name="step_details">Rincian langkah</string>
 
@@ -425,14 +419,10 @@
     <string name="pulse_signal_start_title">Tanda pemantauan dimulai</string>
     <string name="pulse_signal_show_title">Tampilkan detak</string>
     <string name="pulse_signal_end_low_title">Tanda detak lemah</string>
-    <string name="pulse_signal_end_low_value_title">BPM</string>
     <string name="pulse_signal_end_title">Tanda detak tinggi</string>
-    <string name="pulse_signal_end_value_title">BPM</string>
 
     <string name="pulse_title_timing_validity">Pemilihan waktu dan validitas</string>
     <string name="pulse_interval_title">Interval pemantauan detak jantung berulang</string>
-    <string name="pulse_time_start">Waktu mulai</string>
-    <string name="pulse_time_end">Waktu berakhir</string>
     <string name="pulse_time_set_next">Pilih waktu untuk pemantauan selanjutnya</string>
     <string name="pulse_value_min">Valid nilai terendah</string>
     <string name="pulse_value_max">Valid nilai tertinggi</string>
@@ -448,8 +438,6 @@
     <!-- Lost monitoring -->
     <string name="alarm_mi_band_title">Sinyal Mi Band 2</string>
     <string name="alarm_mi_band_dnd">Mode jangan ganggu</string>
-    <string name="alarm_mi_band_dnd_start">Waktu mulai</string>
-    <string name="alarm_mi_band_dnd_end">Waktu berakhir</string>
     <string name="alarm_mi_band_interval_title">Pengaturan interval alarm berulang</string>
     <string name="alarm_mi_band_time_set_next">Pilih waktu untuk pengaturan selanjutnya</string>
     <string name="alarm_mi_band_time">Pilih waktu untuk alarm selanjutnya</string>
@@ -488,23 +476,15 @@
     <string name="time_timer_time_alert">Waktu alarm</string>
     <string name="time_timer_time_remaining">Waktu tersisa</string>
 
-    <string name="time_timer_mode_timer_title">Pemilihan waktu</string>
-    <string name="time_timer_mode_time_title">Waktu</string>
-
     <string name="time_timer_reminder">Tanda pengingat, waktu yang tersisa</string>
     <string name="time_timer_reminder_interval_before_title">Sebelum waktu</string>
-    <string name="time_timer_reminder_interval_before_off_title">Mati</string>
     <string name="time_timer_reminder_interval_repeat_title">Interval pengingat berulang</string>
 
     <string name="time_stopper_time_alert">Waktu alarm</string>
     <string name="time_stopper_time_elapsed">Waktu berlalu</string>
 
-    <string name="time_stopper_mode_timer_title">Pemilihan waktu</string>
-    <string name="time_stopper_mode_time_title">Waktu</string>
-
     <string name="time_stopper_reminder">Sinyal pengingat, waktu berlalu</string>
     <string name="time_stopper_reminder_interval_before_title">Waktu sebelum</string>
-    <string name="time_stopper_reminder_interval_before_off_title">Mati</string>
     <string name="time_stopper_reminder_interval_repeat_title">Interval pengingat berulang</string>
 
     <string name="time_stopper_touch">Waktu putaran, pemantau sentuhan</string>
@@ -515,6 +495,9 @@
     <string name="time_stopper_touch_time_format_second">menit \u2032 detik \u2033</string>
 
     <string name="time_lap_details">Rincian waktu putaran</string>
+
+    <string name="time_mode_timer_title">Pemilihan waktu</string>
+    <string name="time_mode_time_title">Waktu</string>
 
     <string name="time_alert">Tipe alarm</string>
     <string name="time_alert_bell_title">Bel</string>
@@ -628,12 +611,22 @@
     </string>
 
     <!-- Others -->
+    <string name="on">Aktif</string>
+    <string name="off">Mati</string>
+    <string name="none">Tidak ada</string>
+    <string name="bpm">BPM</string>
+    <string name="time_start">Waktu mulai</string>
+    <string name="time_end">Waktu berakhir</string>
+    <string name="ringer_mode_mute">Mute</string>
+    <string name="ringer_mode_silent">Do not disturb</string>
+
     <string name="action_dismiss">Tutup</string>
     <string name="action_setting">Atur</string>
     <string name="action_delete">Hapus</string>
     <string name="action_export">Ekspor</string>
     <string name="action_chart">Grafik</string>
     <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_launch_mi_fit">Mi Fit</string>
 
     <string name="power_on">Nyalakan</string>
     <string name="screen_unlock">Membukan layar kunci</string>
@@ -655,5 +648,15 @@
         <item quantity="many">%d menit</item>
         <item quantity="other">%d menit</item>
     </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d detik</item>
+        <item quantity="one">%d detik</item>
+        <item quantity="two">%d detik</item>
+        <item quantity="few">%d detik</item>
+        <item quantity="many">%d detik</item>
+        <item quantity="other">%d detik</item>
+    </plurals>
+
 
 </resources>
