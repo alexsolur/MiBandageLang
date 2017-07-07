@@ -7,7 +7,7 @@
     <string name="drawer_nav_home">Bileklikler</string>
     <string name="drawer_nav_notification">Bildirim denetimi</string>
     <string name="drawer_nav_touch">Dokunmatik izleme</string>
-    <string name="drawer_nav_step">Adım izleme</string>
+    <string name="drawer_nav_step">Etkinlik</string>
     <string name="drawer_nav_pulse">Nabız denetimi</string>
     <string name="drawer_nav_time">Zaman denetimi</string>
     <string name="drawer_nav_alarm">İzleme kaybedildi</string>
@@ -34,9 +34,9 @@
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Pil seviyesi, son şarjdan bu yana geçen süre</string>
     <string name="mi_band_battery_remaining">Pilin tahmini kalan süresi</string>
-    <string name="mi_band_battery_settings">Battery settings</string>
-    <string name="mi_band_battery_notification_level">Low battery level notification threshold</string>
-    <string name="mi_band_battery_notification_message">Low battery level %1$,d%%</string>
+    <string name="mi_band_battery_settings">Pil ayarları</string>
+    <string name="mi_band_battery_notification_level">Düşük pil düzeyinde bildirim eşiği</string>
+    <string name="mi_band_battery_notification_message">Düşük pil seviyesi %1$,d%%</string>
     <string name="mi_band_bonded_device_name">Mi Band 2 eşleştirilmiş cihaz adı</string>
     <string name="mi_band_mac_address">MAC adresi</string>
     <string name="mi_band_firmware">Ürün sürümü</string>
@@ -49,13 +49,22 @@
     <!-- PreferenceScreen -->
     <string name="pref_connected">Bağlantı ayarları</string>
     <string name="pref_connected_summary">Mi Band 2 ve cihaz bağlantı uyarısı ayarları</string>
-    <string name="pref_cat_connected_no_notif">Mi Band 2 bağlantı kurma ve bildirim yok</string>
+
+    <string name="pref_connected_signals">Connection signals</string>
+    <string name="pref_connected_signals_summary">Mi Band 2 bağlantı kurma ve bildirim yok</string>
+    <string name="pref_cat_connected_signals_mi_band">Mi Band 2 signal</string>
+    <string name="pref_connected_mi_band_title">Mi Band 2 uyarısı</string>
+    <string name="pref_cat_connected_signals">Device signals</string>
+    <string name="pref_connected_wakelock_title">Cihaz ekranını uyandırma</string>
+
+    <string name="pref_connected_settings">Connection settings</string>
+    <string name="pref_connected_settings_summary">Mi Band 2 and device connection settings</string>
+    <string name="pref_cat_connected_settings">Device settings</string>
+    <string name="pref_connected_volume_title">Change volume</string>
+    <string name="pref_connected_volume_ring_title">Ring volume</string>
+
     <string name="pref_cat_connected_have_notif">Onceden tanımlanmış uygulama ve Mi Band 2 sinyal</string>
     <string name="pref_cat_connected_have_notif_default">Önceden tanımlı ve özel ayarlar</string>
-    <string name="pref_connected_no_notif_title">Mi Band 2 uyarısı</string>
-    <string name="pref_connected_no_notif_summary_on">Titreşim</string>
-    <string name="pref_connected_no_notif_wakelock_title">Cihaz ekranını uyandırma</string>
-
     <string name="pref_connected_have_notif_immediate_title">Bildirim alındığında uyar</string>
     <string name="pref_connected_have_notif_title">Aygıta baglanırken uyar</string>
     <string name="pref_connected_have_notif_reminder_title">Hatırlatma uyarısı</string>
@@ -75,12 +84,21 @@
 
     <string name="pref_disconnected">Bağlantı kesme ayarları</string>
     <string name="pref_disconnected_summary">Mi Band 2 ve cihaz uyarı kesme ayarları</string>
-    <string name="pref_cat_disconnected_mi_band">Mi Band 2 sinyali</string>
+
+    <string name="pref_disconnected_signals">Disconnection signals</string>
+    <string name="pref_disconnected_signals_summary">Mi Band 2 and device disconnection signals, it does not signal when the bluetooth is turned off manually</string>
+    <string name="pref_cat_disconnected_signals_mi_band">Mi Band 2 sinyali</string>
     <string name="pref_disconnected_mi_band_title">Simge görüntüleniyor</string>
-    <string name="pref_cat_disconnected">Aygıt uyarıları</string>
+    <string name="pref_cat_disconnected_signals">Aygıt uyarıları</string>
     <string name="pref_disconnected_ringtone_title">Zil sesi</string>
     <string name="pref_disconnected_vibration_title">Titreşim</string>
     <string name="pref_disconnected_wakelock_title">Cihaz ekranını uyandırma</string>
+
+    <string name="pref_disconnected_settings">Disconnection settings</string>
+    <string name="pref_disconnected_settings_summary">Mi Band 2 and device disconnection settings, it does not signal when the bluetooth is turned off manually</string>
+    <string name="pref_cat_disconnected_settings">Device settings</string>
+    <string name="pref_disconnected_volume_title">Change volume</string>
+    <string name="pref_disconnected_volume_ring_title">Ring volume</string>
 
     <string name="pref_cat_abandoned">Cihaz sinyali</string>
     <string name="pref_abandoned_notif_interval_title">Uyarı tekrarlama aralığı</string>
@@ -164,6 +182,7 @@
     <string name="pref_dnd_remember_state_summary">Yapılacak işlemin sonunda Rahatsız etmeyin modunda, tüm bandajları açın veya olduğu gibi yenileyin başlangıç ​​anında</string>
     <string name="pref_dnd_remember_state_on_title">Sonunda geri yükle Bandajları durumu</string>
     <string name="pref_dnd_remember_state_off_title">Sonunda açın Tüm bandajlar</string>
+    <string name="pref_dnd_enable_bluetooth">At the start of the Dnd mode turn Bluetooth off, at the end turn Bluetooth on</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Lütfen Bluetooth\'u etkinleştirin ve Mi Band 2 cihazını telefona yakın hale getirin</string>
@@ -186,6 +205,7 @@
     <string name="message_step_goal_free_values">Normal modda en fazla 3 değer ayarlanabilir</string>
     <string name="message_step_goal_max_values">En fazla 10 değer ayarlanabilir</string>
 
+    <string name="message_touch_no_patterns">Press one of the red pattern recording buttons</string>
     <string name="message_touch_record">Mi Band 2 dokunmatik düğmesini kullanarak deseni kaydedin.</string>
     <string name="message_touch_pattern_error">Belirtilen desen başka bir işlevin bir örneğine benzer, başka bir işlevin bir örneğine benzer</string>
     <string name="message_touch_free_patterns">3 işleve kadar kullanılabilir</string>
@@ -215,6 +235,9 @@
     <p>Mi Band 2\'yi kontrol etmek için daha fazla uygulama kullanıyorsanız, birbirlerine müdahale ederek geçici olarak bunları kapatın.</p>
     <p>Mi Band 2 bulunamazsa, ayrıntılar menüsünde MAC adresini manuel olarak ayarlayabilirsiniz (MAC adresi bulundu: Mi Fit/Profil/Mi Band 2).</p>
     <p><b> Mi Band 2 bulunamazsa veya Mi Fit uygulamasını senkronize ederken sorun yaşıyorsanız, BToolkit, nRF Connect veya benzeri bir Bluetooth yöneticisi uygulamasını yükleyin ve eşleşen, bağlanan herhangi bir cihazı kaldırın.</b></p>
+    <p><b>MIUI:</b>
+    <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
+    <br>- Security app screen: battery/app battery saver set Mi Bandage app to no restriction.</p>
     <p>Sorun yaşıyorsanız (Mi Band 2\'yi keşfedin, bildirim sinyaliniz yok), lütfen bunu deneyin:
     <br>1. Greenify\'ı (veya diğer hazırda bekletme uygulamasını) yüklediyseniz, kapatın.
     <br>2. Mi Bandage uygulamasını kurun.
@@ -361,20 +384,22 @@
     <string name="action_tracker_step">Adımlar</string>
     <string name="action_tracker_distance">Mesafe</string>
     <string name="action_tracker_calorie">Kalori</string>
+    <string name="action_rest">Rest</string>
 
     <string name="step_tab_day">Günlük grafikler</string>
     <string name="step_tab_week">Haftalık grafikler</string>
     <string name="step_tab_goal">Etkinlik hedefleri</string>
     <string name="step_tab_settings">Ayarlar</string>
 
-    <string name="activity_progress_title_prepare">Preparing for synchronization…</string>
-    <string name="activity_progress_title_sync">Data synchronization %1$,d%%</string>
-    <string name="activity_progress_title_save">Data saving %1$,d%%</string>
+    <string name="activity_progress_title_prepare">Senkronizasyona hazırlanıyor…</string>
+    <string name="activity_progress_title_sync">Veri senkronizasyonu %1$,d%%</string>
+    <string name="activity_progress_title_save">Veri tasarrufu %1$,d%%</string>
 
     <string name="step_title_timing">Zamanlama</string>
     <string name="step_interval_title">Adım izleme tekrar aralığı</string>
     <string name="step_time_set_next">Sonraki izleme zamanlaması</string>
 
+    <string name="step_goal_default_title">Default goal</string>
     <string name="step_goal_type_title">İzleme değeri</string>
     <string name="step_details">Adım ayrıntıları</string>
 
@@ -592,6 +617,8 @@
     <string name="bpm">BPM</string>
     <string name="time_start">Baslama zamanı</string>
     <string name="time_end">Bitiş zamanı</string>
+    <string name="ringer_mode_mute">Mute</string>
+    <string name="ringer_mode_silent">Do not disturb</string>
 
     <string name="action_dismiss">Reddet</string>
     <string name="action_setting">Ayarlar</string>
@@ -599,6 +626,7 @@
     <string name="action_export">Dışa Aktar</string>
     <string name="action_chart">Grafik</string>
     <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_launch_mi_fit">Mi Fit</string>
 
     <string name="power_on">Açık</string>
     <string name="screen_unlock">Ekran kilidini açma</string>
