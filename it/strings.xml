@@ -49,13 +49,22 @@
     <!-- PreferenceScreen -->
     <string name="pref_connected">Connessione</string>
     <string name="pref_connected_summary">Imposta comportamento alla connessione dispositivo e Mi Band 2</string>
-    <string name="pref_cat_connected_no_notif">Abilitare o no notifica connessione Mi Band 2</string>
+
+    <string name="pref_connected_signals">Connection signals</string>
+    <string name="pref_connected_signals_summary">Abilitare o no notifica connessione Mi Band 2</string>
+    <string name="pref_cat_connected_signals_mi_band">Notifiche Mi Band 2</string>
+    <string name="pref_connected_mi_band_title">Vibrazione</string>
+    <string name="pref_cat_connected_signals">Device signals</string>
+    <string name="pref_connected_wakelock_title">Accendi schermo dispositivo</string>
+
+    <string name="pref_connected_settings">Connection settings</string>
+    <string name="pref_connected_settings_summary">Mi Band 2 and device connection settings</string>
+    <string name="pref_cat_connected_settings">Device settings</string>
+    <string name="pref_connected_volume_title">Change volume</string>
+    <string name="pref_connected_volume_ring_title">Ring volume</string>
+
     <string name="pref_cat_connected_have_notif">Notifiche predefinite per app e Mi Band 2</string>
     <string name="pref_cat_connected_have_notif_default">Impostazioni predefinite e personali</string>
-    <string name="pref_connected_no_notif_title">Notifiche Mi Band 2</string>
-    <string name="pref_connected_no_notif_summary_on">Vibrazione</string>
-    <string name="pref_connected_no_notif_wakelock_title">Accendi schermo dispositivo</string>
-
     <string name="pref_connected_have_notif_immediate_title">Notifica immediata alla ricezione</string>
     <string name="pref_connected_have_notif_title">Notifica quando ti connetti al dispositivo</string>
     <string name="pref_connected_have_notif_reminder_title">Promemoria notifica</string>
@@ -75,12 +84,21 @@
 
     <string name="pref_disconnected">Disconnessione</string>
     <string name="pref_disconnected_summary">Imposta comportamento in caso di disconnessione tra dispositivo e Mi Band 2</string>
-    <string name="pref_cat_disconnected_mi_band">Segnale Mi Band 2</string>
+
+    <string name="pref_disconnected_signals">Disconnection signals</string>
+    <string name="pref_disconnected_signals_summary">Mi Band 2 and device disconnection signals, it does not signal when the bluetooth is turned off manually</string>
+    <string name="pref_cat_disconnected_signals_mi_band">Segnale Mi Band 2</string>
     <string name="pref_disconnected_mi_band_title">Mostra icona</string>
-    <string name="pref_cat_disconnected">Notifiche dispositivo</string>
+    <string name="pref_cat_disconnected_signals">Notifiche dispositivo</string>
     <string name="pref_disconnected_ringtone_title">Suoneria</string>
     <string name="pref_disconnected_vibration_title">Vibrazione</string>
     <string name="pref_disconnected_wakelock_title">Attiva display dispositivo</string>
+
+    <string name="pref_disconnected_settings">Disconnection settings</string>
+    <string name="pref_disconnected_settings_summary">Mi Band 2 and device disconnection settings, it does not signal when the bluetooth is turned off manually</string>
+    <string name="pref_cat_disconnected_settings">Device settings</string>
+    <string name="pref_disconnected_volume_title">Change volume</string>
+    <string name="pref_disconnected_volume_ring_title">Ring volume</string>
 
     <string name="pref_cat_abandoned">Notifica su dispositivo</string>
     <string name="pref_abandoned_notif_interval_title">Intervallo di notifica</string>
@@ -164,6 +182,7 @@
     <string name="pref_dnd_remember_state_summary">Alla fine della modalità non distrurbare, riattiva tutte le bandages o ripristina il tutto allo stato precedente all\'ora di attivazione</string>
     <string name="pref_dnd_remember_state_on_title">Alla fine ripristina lo stato delle bandages</string>
     <string name="pref_dnd_remember_state_off_title">Alla fine riattiva tutte le bandages</string>
+    <string name="pref_dnd_enable_bluetooth">At the start of the Dnd mode turn Bluetooth off, at the end turn Bluetooth on</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Per favore attiva il Bluetooth e tieni vicino la Mi Band 2</string>
@@ -186,6 +205,7 @@
     <string name="message_step_goal_free_values">Sopra i 3 valori può essere usata in modalità normale</string>
     <string name="message_step_goal_max_values">Puoi settare massimo 10 valori</string>
 
+    <string name="message_touch_no_patterns">Press one of the red pattern recording buttons</string>
     <string name="message_touch_record">Registra la combinazione di tocchi usando il tasto della Mi Band 2</string>
     <string name="message_touch_pattern_error">La combinazione usata è simile ad un\'altra , registrane una diversa.</string>
     <string name="message_touch_free_patterns">Sopra le 3 funzioni può essere usata in modalità normale</string>
@@ -215,6 +235,9 @@
     <p>Se usi altre applicazioni per controllare Mi Band 2, interferiranno tra di loro quindi disattivale temporaneamente.</p>
     <p>Se la Mi Band 2 non viene trovata, puoi impostare manualmente l\'indirizzo MAC dal menu dettagli (puoi trovare l\'indirizzo MAC in: Mi Fit/Profilo/Mi Band 2).</p>
     <p><b>Se la Mi Band 2 non viene trovata o da problemi con l\'app Mi Fit, Prova installando BToolkit, nRF Connect o app simili per la gestione Bluetooth e rimuovi ogni dispositivo accoppiato.</b></p>
+    <p><b>MIUI:</b>
+    <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
+    <br>- Security app screen: battery/app battery saver set Mi Bandage app to no restriction.</p>
     <p>Se hai problemi (trovare la Mi Band 2, non ricevere notifiche), prova:
     <br>1. Se hai installato Greenify (o altre app per ibernare) prova a disattivarle.
     <br>2. Installa l\'app Mi Bandage.
@@ -361,6 +384,7 @@
     <string name="action_tracker_step">Passi</string>
     <string name="action_tracker_distance">Distanza</string>
     <string name="action_tracker_calorie">Calorie</string>
+    <string name="action_rest">Rest</string>
 
     <string name="step_tab_day">Grafico giornaliero</string>
     <string name="step_tab_week">Grafici settimanali</string>
@@ -375,6 +399,7 @@
     <string name="step_interval_title">Intervallo di ripetizione del conta passi</string>
     <string name="step_time_set_next">Tempo mancante al prossimo monitoraggio</string>
 
+    <string name="step_goal_default_title">Default goal</string>
     <string name="step_goal_type_title">Valore di monitoraggio</string>
     <string name="step_details">Dettaglio passi</string>
 
@@ -592,6 +617,8 @@
     <string name="bpm">BPM</string>
     <string name="time_start">Ora inizio</string>
     <string name="time_end">Ora fine</string>
+    <string name="ringer_mode_mute">Mute</string>
+    <string name="ringer_mode_silent">Do not disturb</string>
 
     <string name="action_dismiss">Dimentica</string>
     <string name="action_setting">Impostazioni</string>
@@ -599,6 +626,7 @@
     <string name="action_export">Esporta</string>
     <string name="action_chart">Grafico</string>
     <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_launch_mi_fit">Mi Fit</string>
 
     <string name="power_on">Accensione</string>
     <string name="screen_unlock">Sblocco dello schermo</string>
