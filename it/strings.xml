@@ -50,18 +50,18 @@
     <string name="pref_connected">Connessione</string>
     <string name="pref_connected_summary">Imposta comportamento alla connessione dispositivo e Mi Band 2</string>
 
-    <string name="pref_connected_signals">Connection signals</string>
+    <string name="pref_connected_signals">Notifica connessione</string>
     <string name="pref_connected_signals_summary">Abilitare o no notifica connessione Mi Band 2</string>
     <string name="pref_cat_connected_signals_mi_band">Notifiche Mi Band 2</string>
     <string name="pref_connected_mi_band_title">Vibrazione</string>
-    <string name="pref_cat_connected_signals">Device signals</string>
+    <string name="pref_cat_connected_signals">Notifica dispositivo</string>
     <string name="pref_connected_wakelock_title">Accendi schermo dispositivo</string>
 
-    <string name="pref_connected_settings">Connection settings</string>
-    <string name="pref_connected_settings_summary">Mi Band 2 and device connection settings</string>
-    <string name="pref_cat_connected_settings">Device settings</string>
-    <string name="pref_connected_volume_title">Change volume</string>
-    <string name="pref_connected_volume_ring_title">Ring volume</string>
+    <string name="pref_connected_settings">Imposta connessione</string>
+    <string name="pref_connected_settings_summary">Impostazioni connessione Mi Band 2 e dispositivo</string>
+    <string name="pref_cat_connected_settings">Impostazioni dispositivo</string>
+    <string name="pref_connected_volume_title">Cambia volume</string>
+    <string name="pref_connected_volume_ring_title">Volume suoneria</string>
 
     <string name="pref_cat_connected_have_notif">Notifiche predefinite per app e Mi Band 2</string>
     <string name="pref_cat_connected_have_notif_default">Impostazioni predefinite e personali</string>
@@ -85,8 +85,8 @@
     <string name="pref_disconnected">Disconnessione</string>
     <string name="pref_disconnected_summary">Imposta comportamento in caso di disconnessione tra dispositivo e Mi Band 2</string>
 
-    <string name="pref_disconnected_signals">Disconnection signals</string>
-    <string name="pref_disconnected_signals_summary">Mi Band 2 and device disconnection signals, it does not signal when the bluetooth is turned off manually</string>
+    <string name="pref_disconnected_signals">Notifica disconnessione</string>
+    <string name="pref_disconnected_signals_summary">Notifica disconnessione tra Mi Band 2 e dispositivo, nessuna notifica quando viene spento manualmente il bluetooth</string>
     <string name="pref_cat_disconnected_signals_mi_band">Segnale Mi Band 2</string>
     <string name="pref_disconnected_mi_band_title">Mostra icona</string>
     <string name="pref_cat_disconnected_signals">Notifiche dispositivo</string>
@@ -94,11 +94,11 @@
     <string name="pref_disconnected_vibration_title">Vibrazione</string>
     <string name="pref_disconnected_wakelock_title">Attiva display dispositivo</string>
 
-    <string name="pref_disconnected_settings">Disconnection settings</string>
-    <string name="pref_disconnected_settings_summary">Mi Band 2 and device disconnection settings, it does not signal when the bluetooth is turned off manually</string>
-    <string name="pref_cat_disconnected_settings">Device settings</string>
-    <string name="pref_disconnected_volume_title">Change volume</string>
-    <string name="pref_disconnected_volume_ring_title">Ring volume</string>
+    <string name="pref_disconnected_settings">Imposta disconnessione</string>
+    <string name="pref_disconnected_settings_summary">Imposta disconnesione tra Mi Band 2 e dispositivo, nessuna notifica quando viene spento manualmente il bluetooth</string>
+    <string name="pref_cat_disconnected_settings">Imposta dispositivo</string>
+    <string name="pref_disconnected_volume_title">Cambia volume</string>
+    <string name="pref_disconnected_volume_ring_title">Volume suoneria</string>
 
     <string name="pref_cat_abandoned">Notifica su dispositivo</string>
     <string name="pref_abandoned_notif_interval_title">Intervallo di notifica</string>
@@ -182,7 +182,7 @@
     <string name="pref_dnd_remember_state_summary">Alla fine della modalità non distrurbare, riattiva tutte le bandages o ripristina il tutto allo stato precedente all\'ora di attivazione</string>
     <string name="pref_dnd_remember_state_on_title">Alla fine ripristina lo stato delle bandages</string>
     <string name="pref_dnd_remember_state_off_title">Alla fine riattiva tutte le bandages</string>
-    <string name="pref_dnd_enable_bluetooth">At the start of the Dnd mode turn Bluetooth off, at the end turn Bluetooth on</string>
+    <string name="pref_dnd_enable_bluetooth">Spegni Bluetooth all'avvio della modalità non disturbare, e riaccendilo alla fine di essa</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Per favore attiva il Bluetooth e tieni vicino la Mi Band 2</string>
@@ -205,7 +205,7 @@
     <string name="message_step_goal_free_values">Sopra i 3 valori può essere usata in modalità normale</string>
     <string name="message_step_goal_max_values">Puoi settare massimo 10 valori</string>
 
-    <string name="message_touch_no_patterns">Press one of the red pattern recording buttons</string>
+    <string name="message_touch_no_patterns">Premi uno degli schemi rossi di registrazione</string>
     <string name="message_touch_record">Registra la combinazione di tocchi usando il tasto della Mi Band 2</string>
     <string name="message_touch_pattern_error">La combinazione usata è simile ad un\'altra , registrane una diversa.</string>
     <string name="message_touch_free_patterns">Sopra le 3 funzioni può essere usata in modalità normale</string>
@@ -399,8 +399,8 @@
     <string name="step_interval_title">Intervallo di ripetizione del conta passi</string>
     <string name="step_time_set_next">Tempo mancante al prossimo monitoraggio</string>
 
-    <string name="step_goal_default_title">Default goal</string>
-    <string name="step_goal_type_title">Valore di monitoraggio</string>
+    <string name="step_goal_default_title">Obiettivo predefinito</string>
+    <string name="step_goal_type_title">Obiettivi aggiuntivi</string>
     <string name="step_details">Dettaglio passi</string>
 
     <string name="info_dialog_step"><![CDATA[Connessione Bluetooth richiesta per monitorare i passi.
@@ -595,7 +595,7 @@
 
     <!-- Feedback -->
     <string name="feedback_google_play_title">Valuta l\'app</string>
-    <string name="feedback_request_feature_title">Richiedi una funzione</string>
+    <string name="feedback_request_feature_title">Richiedi una funzione, segnala malfunzionamenti</string>
     <string name="feedback_request_feature_summary">Processo con email automatico, non riceverai risposta</string>
 
     <!-- Vibration dialog -->
@@ -617,8 +617,8 @@
     <string name="bpm">BPM</string>
     <string name="time_start">Ora inizio</string>
     <string name="time_end">Ora fine</string>
-    <string name="ringer_mode_mute">Mute</string>
-    <string name="ringer_mode_silent">Do not disturb</string>
+    <string name="ringer_mode_mute">Muto</string>
+    <string name="ringer_mode_silent">Non disturbare</string>
 
     <string name="action_dismiss">Dimentica</string>
     <string name="action_setting">Impostazioni</string>
