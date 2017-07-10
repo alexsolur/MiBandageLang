@@ -182,7 +182,7 @@
     <string name="pref_dnd_remember_state_summary">Quando o modo DND terminar, toda a bandagem é ligada ou restaurada para as que tinha antes do modo DND começar</string>
     <string name="pref_dnd_remember_state_on_title">Restaurar tudo</string>
     <string name="pref_dnd_remember_state_off_title">Ligar tudo</string>
-    <string name="pref_dnd_enable_bluetooth">No começo do modo DND o Bluetooth é desligado e no fim o Bluetooth é ligado de novo</string>
+    <string name="pref_dnd_enable_bluetooth">Desligar Bluetooth ao iniciar o modo DND e voltar a ligar quando terminar</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Por favor, ligue o Bluetooth e mantanha a Mi Band 2 perto do dispositivo</string>
@@ -327,7 +327,7 @@
 
     <string name="touch_call_mute_title">Silenciar</string>
 
-    <string name="touch_device_location_not_muted_only_title">Emite som se não estiver no modo silencioso</string>
+    <string name="touch_device_location_not_muted_only_title">Emitir som se não estiver num modo 'sem som'</string>
 
     <string name="touch_repeat_notif_title">Repetir as notificações</string>
 
@@ -399,7 +399,7 @@
     <string name="step_interval_title">Tempo para repetir a medição dos passos</string>
     <string name="step_time_set_next">Tempo para a próxima monitorização</string>
 
-    <string name="step_goal_default_title">Objetivo padrão</string>
+    <string name="step_goal_default_title">Objetivo</string>
     <string name="step_goal_type_title">Objetivos adicionais</string>
     <string name="step_goal_type_title">Tipo de objetivos:</string>
     <string name="step_details">Detalhes dos passos</string>
