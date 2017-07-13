@@ -48,20 +48,20 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Koneksi</string>
-    <string name="pref_connected_summary">Mi Band 2 dan pengaturan sinyal koneksi perangkat</string>
+    <string name="pref_connected_summary">Pengaturan sinyal Mi Band 2 dan koneksi perangkat</string>
 
-    <string name="pref_connected_signals">Connection signals</string>
+    <string name="pref_connected_signals">Sinyal/Tanda koneksi</string>
     <string name="pref_connected_signals_summary">Mi Band 2 sedang menghubungkan dan tidak ada notifikasi</string>
     <string name="pref_cat_connected_signals_mi_band">Tanda Mi Band 2</string>
     <string name="pref_connected_mi_band_title">Bergetar</string>
-    <string name="pref_cat_connected_signals">Device signals</string>
+    <string name="pref_cat_connected_signals">Tanda pada perangkat</string>
     <string name="pref_connected_wakelock_title">Nyalakan layar perangkat</string>
 
-    <string name="pref_connected_settings">Connection settings</string>
-    <string name="pref_connected_settings_summary">Mi Band 2 and device connection settings</string>
-    <string name="pref_cat_connected_settings">Device settings</string>
-    <string name="pref_connected_volume_title">Change volume</string>
-    <string name="pref_connected_volume_ring_title">Ring volume</string>
+    <string name="pref_connected_settings">Pengaturan koneksi</string>
+    <string name="pref_connected_settings_summary">Mi Band 2 dan pengaturan koneksi perangkat</string>
+    <string name="pref_cat_connected_settings">Pengaturan perangkat</string>
+    <string name="pref_connected_volume_title">Atur volume </string>
+    <string name="pref_connected_volume_ring_title">Volume dering</string>
 
     <string name="pref_cat_connected_have_notif">Aplikasi yang telah ditentukan dan tanda Mi Band 2</string>
     <string name="pref_cat_connected_have_notif_default">Setelan standar dan kustomisasi</string>
@@ -85,8 +85,8 @@
     <string name="pref_disconnected">Pemutusan</string>
     <string name="pref_disconnected_summary">Pengaturan Mi Band 2 dan pemutusan sinyal perangkat</string>
 
-    <string name="pref_disconnected_signals">Disconnection signals</string>
-    <string name="pref_disconnected_signals_summary">Mi Band 2 and device disconnection signals, it does not signal when the bluetooth is turned off manually</string>
+    <string name="pref_disconnected_signals">Tanda/sinyal perangkat terputus</string>
+    <string name="pref_disconnected_signals_summary">Mi Band 2 dan pengaturan pemutusan perangkat, tidak ada tanda/sinyal apabila Bluetooth dimatikan secara manual.</string>
     <string name="pref_cat_disconnected_signals_mi_band">Sinyal/Tanda Mi Band 2</string>
     <string name="pref_disconnected_mi_band_title">Penampilan ikon</string>
     <string name="pref_cat_disconnected_signals">Sinyal/tanda perangkat</string>
@@ -94,11 +94,11 @@
     <string name="pref_disconnected_vibration_title">Getaran</string>
     <string name="pref_disconnected_wakelock_title">Hidupkan layar perangkat</string>
 
-    <string name="pref_disconnected_settings">Disconnection settings</string>
-    <string name="pref_disconnected_settings_summary">Mi Band 2 and device disconnection settings, it does not signal when the bluetooth is turned off manually</string>
-    <string name="pref_cat_disconnected_settings">Device settings</string>
-    <string name="pref_disconnected_volume_title">Change volume</string>
-    <string name="pref_disconnected_volume_ring_title">Ring volume</string>
+    <string name="pref_disconnected_settings">Pengaturan pemutusan sambungan</string>
+    <string name="pref_disconnected_settings_summary">Mi Band 2 dan pengaturan pemutusan perangkat, tidak ada tanda/sinyal apabila Bluetooth dimatikan secara manual.</string>
+    <string name="pref_cat_disconnected_settings">Pengaturan perangkat</string>
+    <string name="pref_disconnected_volume_title">Atur volume</string>
+    <string name="pref_disconnected_volume_ring_title">Volume dering</string>
 
     <string name="pref_cat_abandoned">Tanda perangkat</string>
     <string name="pref_abandoned_notif_interval_title">Interval pengulangan sinyal</string>
@@ -182,7 +182,7 @@
     <string name="pref_dnd_remember_state_summary">Pada akhir mode jangan ganggu, aktifkan semua balutan atau pulihkan keadaan seperti semula pada saat mulai</string>
     <string name="pref_dnd_remember_state_on_title">Keadaan pada akhir pemulihan balutan</string>
     <string name="pref_dnd_remember_state_off_title">Aktifkan semua balutan di akhir</string>
-    <string name="pref_dnd_enable_bluetooth">At the start of the Dnd mode turn Bluetooth off, at the end turn Bluetooth on</string>
+    <string name="pref_dnd_enable_bluetooth">Matikan Bluetooth pada permulaan mode jangan ganggu, dan hidupkan kembali setelah mode jangan ganggu berakhir</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Aktifkan Bluetooth dan dekatkan perangkat Mi Band 2 ke telepon</string>
@@ -205,7 +205,7 @@
     <string name="message_step_goal_free_values">Mode normal dapat mengatur hingga 3 nilai</string>
     <string name="message_step_goal_max_values">Hanya dapat mengatur maksimal 10 nilai</string>
 
-    <string name="message_touch_no_patterns">Press one of the red pattern recording buttons</string>
+    <string name="message_touch_no_patterns">Tekan salah satu dari tombol rekaman pola merah</string>
     <string name="message_touch_record">Rekam pola dengan menggunakan tombol sentuh Mi Band 2</string>
     <string name="message_touch_pattern_error">Pola yang ditentukan mirip dengan contoh fungsi lain, rekam yang lain</string>
     <string name="message_touch_free_patterns">Mode normal hanya bisa menggunakan hingga 3 fungsi</string>
@@ -399,7 +399,7 @@
     <string name="step_interval_title">Interval berulang dari pemantauan langkah</string>
     <string name="step_time_set_next">Pilih waktu untuk pemantauan selanjutnya</string>
 
-    <string name="step_goal_default_title">Default goal</string>
+    <string name="step_goal_default_title">Target default</string>
     <string name="step_goal_type_title">Nilai pemantauan</string>
     <string name="step_details">Rincian langkah</string>
 
@@ -595,7 +595,7 @@
 
     <!-- Feedback -->
     <string name="feedback_google_play_title">Beri nilai aplikasi</string>
-    <string name="feedback_request_feature_title">Permintaan fitur</string>
+    <string name="feedback_request_feature_title">Permintaan fitur, dan laporan bug</string>
     <string name="feedback_request_feature_summary">Proses e-mail otomatis, Anda tidak akan mendapat respons</string>
 
     <!-- Vibration dialog -->
@@ -617,8 +617,8 @@
     <string name="bpm">BPM</string>
     <string name="time_start">Waktu mulai</string>
     <string name="time_end">Waktu berakhir</string>
-    <string name="ringer_mode_mute">Mute</string>
-    <string name="ringer_mode_silent">Do not disturb</string>
+    <string name="ringer_mode_mute">Diam</string>
+    <string name="ringer_mode_silent">Jangan ganggu</string>
 
     <string name="action_dismiss">Tutup</string>
     <string name="action_setting">Atur</string>
