@@ -8,7 +8,7 @@
     <string name="drawer_nav_notification">Notifiche</string>
     <string name="drawer_nav_touch">Tocco</string>
     <string name="drawer_nav_step">Attività</string>
-    <string name="drawer_nav_sleep">Sleep</string>
+    <string name="drawer_nav_sleep">Sonno</string>
     <string name="drawer_nav_pulse">Battiti</string>
     <string name="drawer_nav_time">Timer</string>
     <string name="drawer_nav_alarm">Smarrimento</string>
@@ -215,7 +215,7 @@
     <string name="message_touch_app_launcher1_not_found">App non trovata: %1$s</string>
     <string name="message_touch_tasker_launcher1_not_set">Comando Tasker non impostato</string>
 
-    <string name="message_notification_group_has_no_entry">Select applications with the lower right green \'+\' button on the card</string>
+    <string name="message_notification_group_has_no_entry">Seleziona applicazioni usando il tasto verde \'+\' in basso a destra della scheda</string>
 
     <string name="message_internet_error">Manca connessione internet</string>
 
@@ -407,14 +407,14 @@
     <string name="step_details">Dettaglio passi</string>
 
     <string name="info_dialog_step"><![CDATA[
-        <img src="ic_activity_active"> daily step/distance/calories total
-        <br><br><img src="ic_timelapse"> activity time
-        <br><br><img src="ic_activity_get_up"> getting out from the bed time
-        <br><br><img src="ic_activity_awake"> wakefulness time
-        <br><br><img src="ic_activity_rest_sofa"> resting/sitting time during wakefulness
-        <br><br><img src="ic_activity_go_to_bed"> bedtime
-        <br><br><img src="ic_battery_charging_full"> battery chargint
-        <br><br><img src="ic_miband_block"> not wearing
+        <img src="ic_activity_active"> Passi giornalieri/distanza/calorie totali
+        <br><br><img src="ic_timelapse"> Durata attività
+        <br><br><img src="ic_activity_get_up"> Alzato dal letto
+        <br><br><img src="ic_activity_awake"> Tempo veglia
+        <br><br><img src="ic_activity_rest_sofa"> tempo di riposo/seduto durante il tempo di veglia
+        <br><br><img src="ic_activity_go_to_bed"> A letto
+        <br><br><img src="ic_battery_charging_full"> Ricarica batteria
+        <br><br><img src="ic_miband_block"> Non indossato
         ]]>
     </string>
 
@@ -423,26 +423,26 @@
     <string name="sleep_tab_week">Grafici settimanali</string>
     <string name="sleep_tab_settings">Impostazione</string>
 
-    <string name="sleep_details">Sleep details</string>
-    <string name="sleep_assistant">Assistente frequenza cardiaca sonno	Heart rate sleep assistant</string>
+    <string name="sleep_details">Dettagli sonno</string>
+    <string name="sleep_assistant">Frequenza cardiaca assistente sonno</string>
     <string name="sleep_assistant_summary">Misura la frequenza cardiaca durante il sonno per migliorare la precisione dei dati (consuma più batteria)</string>
 
     <string name="info_dialog_sleep"><![CDATA[
-        <img src="ic_timelapse"> sleeping time
-        <br><br><img src="ic_activity_sleep_deep"> deep sleeping time
-        <br><br><img src="ic_activity_go_to_bed"> bedtime/awake time
-        <br><br><img src="ic_activity_sleep_start"> sleep start time/light sleeping time
-        <br><br><img src="ic_activity_sleep_time"> total time
-        <br><br><img src="ic_activity_sleep_end"> sleep end time
-        <br><br><img src="ic_activity_get_up"> getting out from the bed time
-        <br><br><img src="ic_activity_active"> active time
-        <br><br><img src="ic_miband_block"> not wearing
+        <img src="ic_timelapse"> Durata sonno
+        <br><br><img src="ic_activity_sleep_deep"> Sonno profondo
+        <br><br><img src="ic_activity_go_to_bed"> A letto sveglio
+        <br><br><img src="ic_activity_sleep_start"> Sonno leggero
+        <br><br><img src="ic_activity_sleep_time"> Durata totale
+        <br><br><img src="ic_activity_sleep_end"> Ora risveglio
+        <br><br><img src="ic_activity_get_up"> Alzato dal letto
+        <br><br><img src="ic_activity_active"> Attivo
+        <br><br><img src="ic_miband_block"> Non indossato
         ]]>
     </string>
 
     <!-- Pulse  monitoring -->
     <string name="action_pulse">Mostra Battito</string>
-    <string name="action_chart_normalize">Normalize</string>
+    <string name="action_chart_normalize">Normalizzare</string>
     <string name="pulse_current">Battito corrente</string>
 
     <string name="pulse_tab_day">Grafico giornaliero</string>
