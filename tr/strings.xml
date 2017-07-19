@@ -8,6 +8,7 @@
     <string name="drawer_nav_notification">Bildirim denetimi</string>
     <string name="drawer_nav_touch">Dokunmatik izleme</string>
     <string name="drawer_nav_step">Etkinlik</string>
+    <string name="drawer_nav_sleep">Sleep</string>
     <string name="drawer_nav_pulse">Nabız denetimi</string>
     <string name="drawer_nav_time">Zaman denetimi</string>
     <string name="drawer_nav_alarm">İzleme kaybedildi</string>
@@ -48,20 +49,20 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Bağlantı ayarları</string>
-    <string name="pref_connected_summary">Mi Band 2 ve cihaz bağlantı uyarısı ayarları</string>
+    <string name="pref_connected_summary">Mi Band 2 ve cihaz bağlantı sinyalleri ve ayarları</string>
 
-    <string name="pref_connected_signals">Connection signals</string>
-    <string name="pref_connected_signals_summary">Mi Band 2 bağlantı kurma ve bildirim yok</string>
+    <string name="pref_connected_signals">Bağlantı sinyalleri</string>
+    <string name="pref_connected_signals_summary">Mi Band 2 bağlantılı ve bildirim yok</string>
     <string name="pref_cat_connected_signals_mi_band">Mi Band 2 signal</string>
     <string name="pref_connected_mi_band_title">Mi Band 2 uyarısı</string>
     <string name="pref_cat_connected_signals">Device signals</string>
     <string name="pref_connected_wakelock_title">Cihaz ekranını uyandırma</string>
 
-    <string name="pref_connected_settings">Connection settings</string>
-    <string name="pref_connected_settings_summary">Mi Band 2 and device connection settings</string>
-    <string name="pref_cat_connected_settings">Device settings</string>
-    <string name="pref_connected_volume_title">Change volume</string>
-    <string name="pref_connected_volume_ring_title">Ring volume</string>
+    <string name="pref_connected_settings">Bağlantı ayarları</string>
+    <string name="pref_connected_settings_summary">Mi Band 2 ve cihaz bağlantı ayarları</string>
+    <string name="pref_cat_connected_settings">Cihaz ayarları</string>
+    <string name="pref_connected_volume_title">Sesi değiştir</string>
+    <string name="pref_connected_volume_ring_title">Zil sesi seviyesi</string>
 
     <string name="pref_cat_connected_have_notif">Onceden tanımlanmış uygulama ve Mi Band 2 sinyal</string>
     <string name="pref_cat_connected_have_notif_default">Önceden tanımlı ve özel ayarlar</string>
@@ -83,22 +84,22 @@
     <string name="pref_foreground_service_color_title">Simge rengi</string>
 
     <string name="pref_disconnected">Bağlantı kesme ayarları</string>
-    <string name="pref_disconnected_summary">Mi Band 2 ve cihaz uyarı kesme ayarları</string>
+    <string name="pref_disconnected_summary">Mi Band 2 ve cihaz bağlantı kesme sinyalleri ve ayarları</string>
 
-    <string name="pref_disconnected_signals">Disconnection signals</string>
-    <string name="pref_disconnected_signals_summary">Mi Band 2 and device disconnection signals, it does not signal when the bluetooth is turned off manually</string>
+    <string name="pref_disconnected_signals">Bağlantı kesme sinyalleri</string>
+    <string name="pref_disconnected_signals_summary">Mi Bandı 2 ve cihaz bağlantı kesme sinyalleri, bluetooth el ile kapatıldığında sinyal vermez</string>
     <string name="pref_cat_disconnected_signals_mi_band">Mi Band 2 sinyali</string>
-    <string name="pref_disconnected_mi_band_title">Simge görüntüleniyor</string>
-    <string name="pref_cat_disconnected_signals">Aygıt uyarıları</string>
+    <string name="pref_disconnected_mi_band_title">Simge görüntüleme ve titreşim</string>
+    <string name="pref_cat_disconnected_signals">Cihaz sinyalleri </string>
     <string name="pref_disconnected_ringtone_title">Zil sesi</string>
     <string name="pref_disconnected_vibration_title">Titreşim</string>
     <string name="pref_disconnected_wakelock_title">Cihaz ekranını uyandırma</string>
 
-    <string name="pref_disconnected_settings">Disconnection settings</string>
-    <string name="pref_disconnected_settings_summary">Mi Band 2 and device disconnection settings, it does not signal when the bluetooth is turned off manually</string>
-    <string name="pref_cat_disconnected_settings">Device settings</string>
-    <string name="pref_disconnected_volume_title">Change volume</string>
-    <string name="pref_disconnected_volume_ring_title">Ring volume</string>
+    <string name="pref_disconnected_settings">Bağlantı kesme ayarları</string>
+    <string name="pref_disconnected_settings_summary">Mi Band 2 ve cihaz bağlantısını kesme ayarları, bluetooth el ile kapatıldığında tetiklenmez</string>
+    <string name="pref_cat_disconnected_settings">Cihaz ayarları</string>
+    <string name="pref_disconnected_volume_title">Sesi değiştir</string>
+    <string name="pref_disconnected_volume_ring_title">Zil sesi seviyesi</string>
 
     <string name="pref_cat_abandoned">Cihaz sinyali</string>
     <string name="pref_abandoned_notif_interval_title">Uyarı tekrarlama aralığı</string>
@@ -182,7 +183,7 @@
     <string name="pref_dnd_remember_state_summary">Yapılacak işlemin sonunda Rahatsız etmeyin modunda, tüm bandajları açın veya olduğu gibi yenileyin başlangıç ​​anında</string>
     <string name="pref_dnd_remember_state_on_title">Sonunda geri yükle Bandajları durumu</string>
     <string name="pref_dnd_remember_state_off_title">Sonunda açın Tüm bandajlar</string>
-    <string name="pref_dnd_enable_bluetooth">At the start of the Dnd mode turn Bluetooth off, at the end turn Bluetooth on</string>
+    <string name="pref_dnd_enable_bluetooth">DnD modunun başında Bluetooth\'u kapatın, sonunda Bluetooth açık konuma getirin</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Lütfen Bluetooth\'u etkinleştirin ve Mi Band 2 cihazını telefona yakın hale getirin</string>
@@ -205,7 +206,7 @@
     <string name="message_step_goal_free_values">Normal modda en fazla 3 değer ayarlanabilir</string>
     <string name="message_step_goal_max_values">En fazla 10 değer ayarlanabilir</string>
 
-    <string name="message_touch_no_patterns">Press one of the red pattern recording buttons</string>
+    <string name="message_touch_no_patterns">Kırmızı desen kayıt düğmelerinden birine basın</string>
     <string name="message_touch_record">Mi Band 2 dokunmatik düğmesini kullanarak deseni kaydedin.</string>
     <string name="message_touch_pattern_error">Belirtilen desen başka bir işlevin bir örneğine benzer, başka bir işlevin bir örneğine benzer</string>
     <string name="message_touch_free_patterns">3 işleve kadar kullanılabilir</string>
@@ -213,6 +214,8 @@
     <string name="message_touch_app_launcher1_not_set">Uygulama ayarlanmadı</string>
     <string name="message_touch_app_launcher1_not_found">Uygulama bulunamadı: %1$s</string>
     <string name="message_touch_tasker_launcher1_not_set">Tasker görev ayarlı değil</string>
+
+    <string name="message_notification_group_has_no_entry">Select applications with the lower right green \'+\' button on the card</string>
 
     <string name="message_internet_error">İnternet bağlantısı yok</string>
 
@@ -399,16 +402,47 @@
     <string name="step_interval_title">Adım izleme tekrar aralığı</string>
     <string name="step_time_set_next">Sonraki izleme zamanlaması</string>
 
-    <string name="step_goal_default_title">Default goal</string>
-    <string name="step_goal_type_title">İzleme değeri</string>
+    <string name="step_goal_default_title">Varsayılan hedef</string>
+    <string name="step_goal_type_title">Ek hedefler</string>
     <string name="step_details">Adım ayrıntıları</string>
 
-    <string name="info_dialog_step"><![CDATA[Bluetooth connection is required for monitoring the steps.
-    ]]>
+    <string name="info_dialog_step"><![CDATA[
+        <img src="ic_activity_active"> daily step/distance/calories total
+        <br><br><img src="ic_timelapse"> activity time
+        <br><br><img src="ic_activity_get_up"> getting out from the bed time
+        <br><br><img src="ic_activity_awake"> wakefulness time
+        <br><br><img src="ic_activity_rest_sofa"> resting/sitting time during wakefulness
+        <br><br><img src="ic_activity_go_to_bed"> bedtime
+        <br><br><img src="ic_battery_charging_full"> battery chargint
+        <br><br><img src="ic_miband_block"> not wearing
+        ]]>
+    </string>
+
+    <!-- Sleep monitoring -->
+    <string name="sleep_tab_day">Günlük grafikler</string>
+    <string name="sleep_tab_week">Haftalık grafikler</string>
+    <string name="sleep_tab_settings">Ayarlar</string>
+
+    <string name="sleep_details">Sleep details</string>
+    <string name="sleep_assistant">Nabız uyku yardımcısı</string>
+    <string name="sleep_assistant_summary">Daha doğru uyku verileri almanıza yardımcı olur (pil ömrünü kısaltır)</string>
+
+    <string name="info_dialog_sleep"><![CDATA[
+        <img src="ic_timelapse"> sleeping time
+        <br><br><img src="ic_activity_sleep_deep"> deep sleeping time
+        <br><br><img src="ic_activity_go_to_bed"> bedtime/awake time
+        <br><br><img src="ic_activity_sleep_start"> sleep start time/light sleeping time
+        <br><br><img src="ic_activity_sleep_time"> total time
+        <br><br><img src="ic_activity_sleep_end"> sleep end time
+        <br><br><img src="ic_activity_get_up"> getting out from the bed time
+        <br><br><img src="ic_activity_active"> active time
+        <br><br><img src="ic_miband_block"> not wearing
+        ]]>
     </string>
 
     <!-- Pulse  monitoring -->
     <string name="action_pulse">Nabzı göster</string>
+    <string name="action_chart_normalize">Normalize</string>
     <string name="pulse_current">Anlık nabız</string>
 
     <string name="pulse_tab_day">Günlük grafikler</string>
@@ -595,7 +629,7 @@
 
     <!-- Feedback -->
     <string name="feedback_google_play_title">Bu uygulamayı oyla</string>
-    <string name="feedback_request_feature_title">Özellik isteği</string>
+    <string name="feedback_request_feature_title">Özellik isteği, hata raporu</string>
     <string name="feedback_request_feature_summary">Otomatik e-posta işleme, cevap alamazsın</string>
 
     <!-- Vibration dialog -->
@@ -617,8 +651,8 @@
     <string name="bpm">BPM</string>
     <string name="time_start">Baslama zamanı</string>
     <string name="time_end">Bitiş zamanı</string>
-    <string name="ringer_mode_mute">Mute</string>
-    <string name="ringer_mode_silent">Do not disturb</string>
+    <string name="ringer_mode_mute">Sessiz</string>
+    <string name="ringer_mode_silent">Rahatsız etmeyin</string>
 
     <string name="action_dismiss">Reddet</string>
     <string name="action_setting">Ayarlar</string>
