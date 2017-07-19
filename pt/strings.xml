@@ -8,6 +8,7 @@
     <string name="drawer_nav_notification">Notificações</string>
     <string name="drawer_nav_touch">Botão touch</string>
     <string name="drawer_nav_step">Passos</string>
+    <string name="drawer_nav_sleep">Sleep</string>
     <string name="drawer_nav_pulse">Pulsação</string>
     <string name="drawer_nav_time">Tempo</string>
     <string name="drawer_nav_alarm">Perdidos</string>
@@ -214,6 +215,8 @@
     <string name="message_touch_app_launcher1_not_found">Aplicação não encontrada: %1$s</string>
     <string name="message_touch_tasker_launcher1_not_set">Gerenciador de tarefas não definido</string>
 
+    <string name="message_notification_group_has_no_entry">Select applications with the lower right green \'+\' button on the card</string>
+
     <string name="message_internet_error">Não tem ligação à internet</string>
 
     <string name="message_time_alarm_free_counter">Só pode usar 2 alarmes no modo normal</string>
@@ -327,7 +330,7 @@
 
     <string name="touch_call_mute_title">Silenciar</string>
 
-    <string name="touch_device_location_not_muted_only_title">Emitir som se não estiver num modo 'sem som'</string>
+    <string name="touch_device_location_not_muted_only_title">Emitir som se não estiver num modo \'sem som\'</string>
 
     <string name="touch_repeat_notif_title">Repetir as notificações</string>
 
@@ -401,15 +404,45 @@
 
     <string name="step_goal_default_title">Objetivo</string>
     <string name="step_goal_type_title">Objetivos adicionais</string>
-    <string name="step_goal_type_title">Tipo de objetivos:</string>
     <string name="step_details">Detalhes dos passos</string>
 
-    <string name="info_dialog_step"><![CDATA[Conexão Bluetooth necessária para monitorar os passos.
-    ]]>
+    <string name="info_dialog_step"><![CDATA[
+        <img src="ic_activity_active"> daily step/distance/calories total
+        <br><br><img src="ic_timelapse"> activity time
+        <br><br><img src="ic_activity_get_up"> getting out from the bed time
+        <br><br><img src="ic_activity_awake"> wakefulness time
+        <br><br><img src="ic_activity_rest_sofa"> resting/sitting time during wakefulness
+        <br><br><img src="ic_activity_go_to_bed"> bedtime
+        <br><br><img src="ic_battery_charging_full"> battery chargint
+        <br><br><img src="ic_miband_block"> not wearing
+        ]]>
+    </string>
+
+    <!-- Sleep monitoring -->
+    <string name="sleep_tab_day">Gráficos diários</string>
+    <string name="sleep_tab_week">Gráficos semanais</string>
+    <string name="sleep_tab_settings">Definições</string>
+
+    <string name="sleep_details">Sleep details</string>
+    <string name="sleep_assistant">Heart rate sleep assistant</string>
+    <string name="sleep_assistant_summary">Helps to ge more precise sleep data (reduces battery life)</string>
+
+    <string name="info_dialog_sleep"><![CDATA[
+        <img src="ic_timelapse"> sleeping time
+        <br><br><img src="ic_activity_sleep_deep"> deep sleeping time
+        <br><br><img src="ic_activity_go_to_bed"> bedtime/awake time
+        <br><br><img src="ic_activity_sleep_start"> sleep start time/light sleeping time
+        <br><br><img src="ic_activity_sleep_time"> total time
+        <br><br><img src="ic_activity_sleep_end"> sleep end time
+        <br><br><img src="ic_activity_get_up"> getting out from the bed time
+        <br><br><img src="ic_activity_active"> active time
+        <br><br><img src="ic_miband_block"> not wearing
+        ]]>
     </string>
 
     <!-- Pulse  monitoring -->
     <string name="action_pulse">Mostrar pulsação</string>
+    <string name="action_chart_normalize">Normalize</string>
     <string name="pulse_current">Pulsação atual</string>
 
     <string name="pulse_tab_day">Gráficos diários</string>
