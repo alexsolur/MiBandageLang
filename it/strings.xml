@@ -8,6 +8,7 @@
     <string name="drawer_nav_notification">Notifiche</string>
     <string name="drawer_nav_touch">Tocco</string>
     <string name="drawer_nav_step">Attività</string>
+    <string name="drawer_nav_sleep">Sleep</string>
     <string name="drawer_nav_pulse">Battiti</string>
     <string name="drawer_nav_time">Timer</string>
     <string name="drawer_nav_alarm">Smarrimento</string>
@@ -182,7 +183,7 @@
     <string name="pref_dnd_remember_state_summary">Alla fine della modalità non distrurbare, riattiva tutte le bandages o ripristina il tutto allo stato precedente all\'ora di attivazione</string>
     <string name="pref_dnd_remember_state_on_title">Alla fine ripristina lo stato delle bandages</string>
     <string name="pref_dnd_remember_state_off_title">Alla fine riattiva tutte le bandages</string>
-    <string name="pref_dnd_enable_bluetooth">Spegni Bluetooth all'avvio della modalità non disturbare, e riaccendilo alla fine di essa</string>
+    <string name="pref_dnd_enable_bluetooth">Spegni Bluetooth all\'avvio della modalità non disturbare, e riaccendilo alla fine di essa</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Per favore attiva il Bluetooth e tieni vicino la Mi Band 2</string>
@@ -213,6 +214,8 @@
     <string name="message_touch_app_launcher1_not_set">App non impostata</string>
     <string name="message_touch_app_launcher1_not_found">App non trovata: %1$s</string>
     <string name="message_touch_tasker_launcher1_not_set">Comando Tasker non impostato</string>
+
+    <string name="message_notification_group_has_no_entry">Select applications with the lower right green \'+\' button on the card</string>
 
     <string name="message_internet_error">Manca connessione internet</string>
 
@@ -403,12 +406,43 @@
     <string name="step_goal_type_title">Obiettivi aggiuntivi</string>
     <string name="step_details">Dettaglio passi</string>
 
-    <string name="info_dialog_step"><![CDATA[Connessione Bluetooth richiesta per monitorare i passi.
-    ]]>
+    <string name="info_dialog_step"><![CDATA[
+        <img src="ic_activity_active"> daily step/distance/calories total
+        <br><br><img src="ic_timelapse"> activity time
+        <br><br><img src="ic_activity_get_up"> getting out from the bed time
+        <br><br><img src="ic_activity_awake"> wakefulness time
+        <br><br><img src="ic_activity_rest_sofa"> resting/sitting time during wakefulness
+        <br><br><img src="ic_activity_go_to_bed"> bedtime
+        <br><br><img src="ic_battery_charging_full"> battery chargint
+        <br><br><img src="ic_miband_block"> not wearing
+        ]]>
+    </string>
+
+    <!-- Sleep monitoring -->
+    <string name="sleep_tab_day">Grafico giornaliero</string>
+    <string name="sleep_tab_week">Grafici settimanali</string>
+    <string name="sleep_tab_settings">Impostazione</string>
+
+    <string name="sleep_details">Sleep details</string>
+    <string name="sleep_assistant">Assistente frequenza cardiaca sonno	Heart rate sleep assistant</string>
+    <string name="sleep_assistant_summary">Misura la frequenza cardiaca durante il sonno per migliorare la precisione dei dati (consuma più batteria)</string>
+
+    <string name="info_dialog_sleep"><![CDATA[
+        <img src="ic_timelapse"> sleeping time
+        <br><br><img src="ic_activity_sleep_deep"> deep sleeping time
+        <br><br><img src="ic_activity_go_to_bed"> bedtime/awake time
+        <br><br><img src="ic_activity_sleep_start"> sleep start time/light sleeping time
+        <br><br><img src="ic_activity_sleep_time"> total time
+        <br><br><img src="ic_activity_sleep_end"> sleep end time
+        <br><br><img src="ic_activity_get_up"> getting out from the bed time
+        <br><br><img src="ic_activity_active"> active time
+        <br><br><img src="ic_miband_block"> not wearing
+        ]]>
     </string>
 
     <!-- Pulse  monitoring -->
     <string name="action_pulse">Mostra Battito</string>
+    <string name="action_chart_normalize">Normalize</string>
     <string name="pulse_current">Battito corrente</string>
 
     <string name="pulse_tab_day">Grafico giornaliero</string>
