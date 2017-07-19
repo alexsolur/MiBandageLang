@@ -8,6 +8,7 @@
     <string name="drawer_nav_notification">Pemantau pemberitahuan</string>
     <string name="drawer_nav_touch">Pemantau sentuhan</string>
     <string name="drawer_nav_step">Pemantau aktifitas</string>
+    <string name="drawer_nav_sleep">Sleep</string>
     <string name="drawer_nav_pulse">Pemantau detak</string>
     <string name="drawer_nav_time">Pemantau waktu</string>
     <string name="drawer_nav_alarm">Pemantau kehilangan</string>
@@ -214,6 +215,8 @@
     <string name="message_touch_app_launcher1_not_found">Apl tidak ditemukan: %1$s</string>
     <string name="message_touch_tasker_launcher1_not_set">Kegiatan Tasker belum diatur</string>
 
+    <string name="message_notification_group_has_no_entry">Select applications with the lower right green \'+\' button on the card</string>
+
     <string name="message_internet_error">Tidak ada koneksi internet</string>
 
     <string name="message_time_alarm_free_counter">Mode normal hanya bisa menggunakan sampai 2 alarm</string>
@@ -402,13 +405,44 @@
     <string name="step_goal_default_title">Target default</string>
     <string name="step_goal_type_title">Nilai pemantauan</string>
     <string name="step_details">Rincian langkah</string>
+    <string name="sleep_assistant">Asisten tidur detak jantung</string>
+    <string name="sleep_assistant_summary">Membantu memperoleh data tidur yang lebih tepat (mengurangi daya baterai)</string>
 
-    <string name="info_dialog_step"><![CDATA[Koneksi Bluetooth diperlukan untuk pemantauan langkah kaki.
-    ]]>
+    <string name="info_dialog_step"><![CDATA[
+        <img src="ic_activity_active"> daily step/distance/calories total
+        <br><br><img src="ic_timelapse"> activity time
+        <br><br><img src="ic_activity_get_up"> getting out from the bed time
+        <br><br><img src="ic_activity_awake"> wakefulness time
+        <br><br><img src="ic_activity_rest_sofa"> resting/sitting time during wakefulness
+        <br><br><img src="ic_activity_go_to_bed"> bedtime
+        <br><br><img src="ic_battery_charging_full"> battery chargint
+        <br><br><img src="ic_miband_block"> not wearing
+        ]]>
+    </string>
+
+    <!-- Sleep monitoring -->
+    <string name="sleep_tab_day">Bagan harian</string>
+    <string name="sleep_tab_week">Bagan mingguan</string>
+    <string name="sleep_tab_settings">Atur</string>
+
+    <string name="sleep_details">Sleep details</string>
+
+    <string name="info_dialog_sleep"><![CDATA[
+        <img src="ic_timelapse"> sleeping time
+        <br><br><img src="ic_activity_sleep_deep"> deep sleeping time
+        <br><br><img src="ic_activity_go_to_bed"> bedtime/awake time
+        <br><br><img src="ic_activity_sleep_start"> sleep start time/light sleeping time
+        <br><br><img src="ic_activity_sleep_time"> total time
+        <br><br><img src="ic_activity_sleep_end"> sleep end time
+        <br><br><img src="ic_activity_get_up"> getting out from the bed time
+        <br><br><img src="ic_activity_active"> active time
+        <br><br><img src="ic_miband_block"> not wearing
+        ]]>
     </string>
 
     <!-- Pulse  monitoring -->
     <string name="action_pulse">Tampilkan detak jantung</string>
+    <string name="action_chart_normalize">Normalize</string>
     <string name="pulse_current">Detak jantung saat ini</string>
 
     <string name="pulse_tab_day">Bagan harian</string>
