@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_connected_have_notif_counter">
-        <item>Một lần cho mỗi biểu tượng trên Mi Band 2</item>
-        <item>Số lượng thông báo</item>
+        <item>Mi Band 2 simgesi başına bir kez</item>
+        <item>Bildirim sayısı</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -17,14 +17,14 @@
     </string-array>
 
     <string-array name="pref_connected_have_notif_interval">
-        <item>3 phút</item>
-        <item>5 phút</item>
-        <item>10 phút</item>
-        <item>20 phút</item>
-        <item>30 phút</item>
-        <item>1 giờ</item>
-        <item>2 giờ</item>
-        <item>3 giờ</item>
+        <item>3 dakika</item>
+        <item>5 dakika</item>
+        <item>10 dakika</item>
+        <item>20 dakika</item>
+        <item>30 dakika</item>
+        <item>1 saat</item>
+        <item>2 saat</item>
+        <item>3 saat</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_interval_values">
@@ -39,16 +39,16 @@
     </string-array>
 
     <string-array name="pref_abandoned_interval">
-        <item>1 phút</item>
-        <item>2 phút</item>
-        <item>3 phút</item>
-        <item>4 phút</item>
-        <item>5 phút</item>
-        <item>6 phút</item>
-        <item>7 phút</item>
-        <item>8 phút</item>
-        <item>9 phút</item>
-        <item>10 phút</item>
+        <item>1 dakika</item>
+        <item>2 dakika</item>
+        <item>3 dakika</item>
+        <item>4 dakika</item>
+        <item>5 dakika</item>
+        <item>6 dakika</item>
+        <item>7 dakika</item>
+        <item>8 dakika</item>
+        <item>9 dakika</item>
+        <item>10 dakika</item>
     </string-array>
 
     <integer-array name="pref_abandoned_interval_values">
@@ -65,12 +65,12 @@
     </integer-array>
 
     <string-array name="pref_abandoned_notif_interval">
-        <item>10 phút</item>
-        <item>20 phút</item>
-        <item>30 phút</item>
-        <item>1 giờ</item>
-        <item>2 giờ</item>
-        <item>3 giờ</item>
+        <item>10 dakika</item>
+        <item>20 dakika</item>
+        <item>30 dakika</item>
+        <item>1 saat</item>
+        <item>2 saat</item>
+        <item>3 saat</item>
     </string-array>
 
     <integer-array name="pref_abandoned_notif_interval_values">
@@ -83,20 +83,20 @@
     </integer-array>
 
     <string-array name="notification_group_counter">
-        <item>Báo mộtlần</item>
-        <item>Một lần mỗi ứng dụng</item>
-        <item>Số thông báo</item>
+        <item>Bir uyarı</item>
+        <item>Başvuru başına bir kez</item>
+        <item>Bildirim sayısı</item>
     </string-array>
 
     <string-array name="touch_call_mute_ringer_mode">
-        <item>Rung</item>
-        <item>Đừng làm phiền (chỉ báo thức)</item>
+        <item>Titret</item>
+        <item>Rahatsız etmeyin (yalnızca alarmlar)</item>
     </string-array>
 
     <string-array name="touch_music_player">
-        <item>Trình phát nhạc mặc định</item>
-        <item>Google Play Music</item>
-        <item>Spotify Music</item>
+        <item>Varsayılan müzik çalar</item>
+        <item>Google Play Müzik</item>
+        <item>Spotify Müzik</item>
     </string-array>
 
     <string-array name="touch_music_player_values">
@@ -106,10 +106,10 @@
     </string-array>
 
     <string-array name="touch_music_info">
-        <item>Không thông báo</item>
-        <item>Nghệ sĩ#Bài hát</item>
-        <item>Nghệ sĩ, Tiêu đề</item>
-        <item>Nghệ sĩ</item>
+        <item>Bildirim yok</item>
+        <item>Sanatçı#Başlık</item>
+        <item>Sanatçı, Başlık</item>
+        <item>Başlık</item>
     </string-array>
 
     <string-array name="touch_music_info_values">
@@ -120,31 +120,31 @@
     </string-array>
 
     <string-array name="pref_timer_time_interval_repeat">
-        <item>Tắt</item>
-        <item>1 phút</item>
-        <item>2 phút</item>
-        <item>3 phút</item>
-        <item>4 phút</item>
-        <item>5 phút</item>
-        <item>6 phút</item>
-        <item>7 phút</item>
-        <item>8 phút</item>
-        <item>9 phút</item>
-        <item>10 phút</item>
-        <item>11 phút</item>
-        <item>12 phút</item>
-        <item>13 phút</item>
-        <item>14 phút</item>
-        <item>15 phút</item>
-        <item>20 phút</item>
-        <item>30 phút</item>
-        <item>40 phút</item>
-        <item>50 phút</item>
-        <item>1 giờ</item>
-        <item>2 giờ</item>
-        <item>3 giờ</item>
-        <item>4 giờ</item>
-        <item>5 giờ</item>
+        <item>Durdur</item>
+        <item>1 dakika</item>
+        <item>2 dakika</item>
+        <item>3 dakika</item>
+        <item>4 dakika</item>
+        <item>5 dakika</item>
+        <item>6 dakika</item>
+        <item>7 dakika</item>
+        <item>8 dakika</item>
+        <item>9 dakika</item>
+        <item>10 dakika</item>
+        <item>11 dakika</item>
+        <item>12 dakika</item>
+        <item>13 dakika</item>
+        <item>14 dakika</item>
+        <item>15 dakika</item>
+        <item>20 dakika</item>
+        <item>30 dakika</item>
+        <item>40 dakika</item>
+        <item>50 dakika</item>
+        <item>1 saat</item>
+        <item>2 saat</item>
+        <item>3 saat</item>
+        <item>4 saat</item>
+        <item>5 saat</item>
     </string-array>
 
     <integer-array name="pref_timer_time_interval_repeat_values">
@@ -176,16 +176,16 @@
     </integer-array>
 
     <string-array name="notification_group_text_content_slice">
-        <item>1 đoạn thông báo đầu tiên</item>
-        <item>2 đoạn</item>
-        <item>3 đoạn</item>
-        <item>4 đoạn</item>
-        <item>5 đoạn</item>
-        <item>6 đoạn</item>
-        <item>7 đoạn</item>
-        <item>8 đoạn</item>
-        <item>9 đoạn</item>
-        <item>10 đoạn</item>
+        <item>1 dilim</item>
+        <item>2 dilim</item>
+        <item>3 dilim</item>
+        <item>4 dilim</item>
+        <item>5 dilim</item>
+        <item>6 dilim</item>
+        <item>7 dilim</item>
+        <item>8 dilim</item>
+        <item>9 dilim</item>
+        <item>10 dilim</item>
     </string-array>
 
     <integer-array name="notification_group_text_content_slice_values">
@@ -202,14 +202,14 @@
     </integer-array>
 
     <string-array name="pref_language">
-        <item>Mặc định</item>
-        <item>Tiếng Việt</item>
+        <item>Varsayılan</item>
+        <item>Türk</item>
         <item>English</item>
         <item>Magyar</item>
         <item>Русский</item>
         <item>Português</item>
-        <item>Türk</item>
         <item>Ελληνικά</item>
+        <item>Tiếng Việt</item>
         <item>Italiano</item>
         <item>Español</item>
         <item>Indonesia</item>
@@ -218,13 +218,13 @@
 
     <string-array name="pref_language_values">
         <item>DEFAULT</item>
-        <item>vi</item>
+        <item>tr</item>
         <item>en</item>
         <item>hu</item>
         <item>ru</item>
         <item>pt</item>
-        <item>tr</item>
         <item>el</item>
+        <item>vi</item>
         <item>it</item>
         <item>es</item>
         <item>in</item>
