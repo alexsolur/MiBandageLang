@@ -8,7 +8,7 @@
     <string name="drawer_nav_notification">Управление уведомлениями</string>
     <string name="drawer_nav_touch">Контроль касаний</string>
     <string name="drawer_nav_step">Активность</string>
-    <string name="drawer_nav_sleep">Sleep</string>
+    <string name="drawer_nav_sleep">Сон</string>
     <string name="drawer_nav_pulse">Измерение пульса</string>
     <string name="drawer_nav_time">Время</string>
     <string name="drawer_nav_alarm">Долго отсоединён</string>
@@ -215,7 +215,7 @@
     <string name="message_touch_app_launcher1_not_found">Приложение не найдено: %1$s</string>
     <string name="message_touch_tasker_launcher1_not_set">Действие Tasker не задано</string>
 
-    <string name="message_notification_group_has_no_entry">Select applications with the lower right green \'+\' button on the card</string>
+    <string name="message_notification_group_has_no_entry">Добавьте приложения, нажав на зелёный \'+\' в правом нжнем углу карточк</string>
 
     <string name="message_internet_error">Нет подключения к Интернету</string>
 
@@ -407,14 +407,14 @@
     <string name="step_details">Шаги</string>
 
     <string name="info_dialog_step"><![CDATA[
-        <img src="ic_activity_active"> daily step/distance/calories total
-        <br><br><img src="ic_timelapse"> activity time
-        <br><br><img src="ic_activity_get_up"> getting out from the bed time
-        <br><br><img src="ic_activity_awake"> wakefulness time
-        <br><br><img src="ic_activity_rest_sofa"> resting/sitting time during wakefulness
-        <br><br><img src="ic_activity_go_to_bed"> bedtime
-        <br><br><img src="ic_battery_charging_full"> battery chargint
-        <br><br><img src="ic_miband_block"> not wearing
+        <img src="ic_activity_active"> шаги/расстояние/калории за день
+        <br><br><img src="ic_timelapse"> время активности
+        <br><br><img src="ic_activity_get_up"> время подъёма
+        <br><br><img src="ic_activity_awake"> время бодрствования
+        <br><br><img src="ic_activity_rest_sofa"> дневной отдых/неактивность
+        <br><br><img src="ic_activity_go_to_bed"> время засыпания
+        <br><br><img src="ic_battery_charging_full"> зарядка
+        <br><br><img src="ic_miband_block"> не надет
         ]]>
     </string>
 
@@ -428,21 +428,21 @@
     <string name="sleep_assistant_summary">Позволяет получить более точные данные о сне (повышенный расход батареи)</string>
 
     <string name="info_dialog_sleep"><![CDATA[
-        <img src="ic_timelapse"> sleeping time
-        <br><br><img src="ic_activity_sleep_deep"> deep sleeping time
-        <br><br><img src="ic_activity_go_to_bed"> bedtime/awake time
-        <br><br><img src="ic_activity_sleep_start"> sleep start time/light sleeping time
-        <br><br><img src="ic_activity_sleep_time"> total time
-        <br><br><img src="ic_activity_sleep_end"> sleep end time
-        <br><br><img src="ic_activity_get_up"> getting out from the bed time
-        <br><br><img src="ic_activity_active"> active time
-        <br><br><img src="ic_miband_block"> not wearing
+        <img src="ic_timelapse"> время сна
+        <br><br><img src="ic_activity_sleep_deep"> время глубокого сна
+        <br><br><img src="ic_activity_go_to_bed"> время отхода ко сну
+        <br><br><img src="ic_activity_sleep_start"> время засыпания
+        <br><br><img src="ic_activity_sleep_time"> общее время
+        <br><br><img src="ic_activity_sleep_end"> время оканчания сна
+        <br><br><img src="ic_activity_get_up"> время подъёма
+        <br><br><img src="ic_activity_active"> активность
+        <br><br><img src="ic_miband_block"> не надет
         ]]>
     </string>
 
     <!-- Pulse  monitoring -->
     <string name="action_pulse">Показывать пульс</string>
-    <string name="action_chart_normalize">Normalize</string>
+    <string name="action_chart_normalize">Усереднить</string>
     <string name="pulse_current">Текущий пульс</string>
 
     <string name="pulse_tab_day">Измерения за день</string>
