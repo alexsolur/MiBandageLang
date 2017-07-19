@@ -8,6 +8,7 @@
     <string name="drawer_nav_notification">Notification</string>
     <string name="drawer_nav_touch">Touch</string>
     <string name="drawer_nav_step">Activity</string>
+    <string name="drawer_nav_sleep">Sleep</string>
     <string name="drawer_nav_pulse">Pulse</string>
     <string name="drawer_nav_time">Time</string>
     <string name="drawer_nav_alarm">Lost</string>
@@ -214,6 +215,8 @@
     <string name="message_touch_app_launcher1_not_found">App is not found: %1$s</string>
     <string name="message_touch_tasker_launcher1_not_set">Tasker task is not set</string>
 
+    <string name="message_notification_group_has_no_entry">Select applications with the lower right green \'+\' button on the card</string>
+
     <string name="message_internet_error">No have internet connection</string>
 
     <string name="message_time_alarm_free_counter">Up to 2 alarm can be used in normal mode</string>
@@ -403,12 +406,43 @@
     <string name="step_goal_type_title">Additional goals</string>
     <string name="step_details">Activity details</string>
 
-    <string name="info_dialog_step"><![CDATA[Bluetooth connection is required for monitoring the steps.
-    ]]>
+    <string name="info_dialog_step"><![CDATA[
+        <img src="ic_activity_active"> daily step/distance/calories total
+        <br><br><img src="ic_timelapse"> activity time
+        <br><br><img src="ic_activity_get_up"> getting out from the bed time
+        <br><br><img src="ic_activity_awake"> wakefulness time
+        <br><br><img src="ic_activity_rest_sofa"> resting/sitting time during wakefulness
+        <br><br><img src="ic_activity_go_to_bed"> bedtime
+        <br><br><img src="ic_battery_charging_full"> battery charging
+        <br><br><img src="ic_miband_block"> not wearing
+        ]]>
+    </string>
+
+    <!-- Sleep monitoring -->
+    <string name="sleep_tab_day">Daily charts</string>
+    <string name="sleep_tab_week">Weekly charts</string>
+    <string name="sleep_tab_settings">Setting</string>
+
+    <string name="sleep_details">Sleep details</string>
+    <string name="sleep_assistant">Heart rate sleep assistant</string>
+    <string name="sleep_assistant_summary">Helps to ge more precise sleep data (reduces battery life)</string>
+
+    <string name="info_dialog_sleep"><![CDATA[
+        <img src="ic_timelapse"> sleeping time
+        <br><br><img src="ic_activity_sleep_deep"> deep sleeping time
+        <br><br><img src="ic_activity_go_to_bed"> bedtime/awake time
+        <br><br><img src="ic_activity_sleep_start"> sleep start time/light sleeping time
+        <br><br><img src="ic_activity_sleep_time"> total time
+        <br><br><img src="ic_activity_sleep_end"> sleep end time
+        <br><br><img src="ic_activity_get_up"> getting out from the bed time
+        <br><br><img src="ic_activity_active"> active time
+        <br><br><img src="ic_miband_block"> not wearing
+        ]]>
     </string>
 
     <!-- Pulse  monitoring -->
     <string name="action_pulse">Show pulse</string>
+    <string name="action_chart_normalize">Normalize</string>
     <string name="pulse_current">Current pulse</string>
 
     <string name="pulse_tab_day">Daily charts</string>
