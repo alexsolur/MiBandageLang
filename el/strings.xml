@@ -8,7 +8,7 @@
     <string name="drawer_nav_notification">Παρακολούθηση ειδοποιήσεων</string>
     <string name="drawer_nav_touch">Παρακολούθηση αφής</string>
     <string name="drawer_nav_step">Δραστηριότητα</string>
-    <string name="drawer_nav_sleep">Sleep</string>
+    <string name="drawer_nav_sleep">Ύπνος</string>
     <string name="drawer_nav_pulse">Παρακολούθηση παλμών</string>
     <string name="drawer_nav_time">Παρακολούθηση χρόνου</string>
     <string name="drawer_nav_alarm">Εποπτεία συσκευής</string>
@@ -215,7 +215,7 @@
     <string name="message_touch_app_launcher1_not_found">Η εφαρμογή δεν βρέθηκε: %1$s</string>
     <string name="message_touch_tasker_launcher1_not_set">Δεν έχει οριστεί εργασία στο Tasker</string>
 
-    <string name="message_notification_group_has_no_entry">Select applications with the lower right green \'+\' button on the card</string>
+    <string name="message_notification_group_has_no_entry">Επιλέξτε εφαρμογές με το κάτω δεξιά πράσινο \'+\' κουμπί στην κάρτα</string>
 
     <string name="message_internet_error">Δεν υπάρχει σύνδεση στο internet</string>
 
@@ -407,14 +407,14 @@
     <string name="step_details">Λεπτομέρειες βημάτων</string>
 
     <string name="info_dialog_step"><![CDATA[
-        <img src="ic_activity_active"> daily step/distance/calories total
-        <br><br><img src="ic_timelapse"> activity time
-        <br><br><img src="ic_activity_get_up"> getting out from the bed time
-        <br><br><img src="ic_activity_awake"> wakefulness time
-        <br><br><img src="ic_activity_rest_sofa"> resting/sitting time during wakefulness
-        <br><br><img src="ic_activity_go_to_bed"> bedtime
-        <br><br><img src="ic_battery_charging_full"> battery chargint
-        <br><br><img src="ic_miband_block"> not wearing
+        <img src="ic_activity_active"> καθημερινά βήματα/απόσταση/θερμίδες σύνολο
+        <br><br><img src="ic_timelapse"> χρόνος δραστηριότητας
+        <br><br><img src="ic_activity_get_up"> χρόνος αποχώρησης από το κρεβάτι
+        <br><br><img src="ic_activity_awake"> χρόνος εγρήγορσης
+        <br><br><img src="ic_activity_rest_sofa"> ανάπαυσης/καθισμένος κατά τη διάρκεια της εγρήγορσης
+        <br><br><img src="ic_activity_go_to_bed"> ώρα ύπνου
+        <br><br><img src="ic_battery_charging_full"> φόρτιση μπαταρίας
+        <br><br><img src="ic_miband_block"> δεν φοράει
         ]]>
     </string>
 
@@ -423,20 +423,20 @@
     <string name="sleep_tab_week">Εβδομαδιαία διαγράμματα</string>
     <string name="sleep_tab_settings">Ρυθμίσεις</string>
 
-    <string name="sleep_details">Sleep details</string>
-    <string name="sleep_assistant">Heart rate sleep assistant</string>
-    <string name="sleep_assistant_summary">Hilft genauere Schlafdaten zu erhalten (verkürzt die Lebensdauer des Akkus)</string>
+    <string name="sleep_details">Λεπτομέρειες ύπνου</string>
+    <string name="sleep_assistant">Βοηθός ύπνου καρδιακού ρυθμού</string>
+    <string name="sleep_assistant_summary">Βοηθάει στην επίτευξη ακριβέστερων δεδομένων ύπνου (μειώνει τη διάρκεια ζωής της μπαταρίας)</string>
 
     <string name="info_dialog_sleep"><![CDATA[
-        <img src="ic_timelapse"> sleeping time
-        <br><br><img src="ic_activity_sleep_deep"> deep sleeping time
-        <br><br><img src="ic_activity_go_to_bed"> bedtime/awake time
-        <br><br><img src="ic_activity_sleep_start"> sleep start time/light sleeping time
-        <br><br><img src="ic_activity_sleep_time"> total time
-        <br><br><img src="ic_activity_sleep_end"> sleep end time
-        <br><br><img src="ic_activity_get_up"> getting out from the bed time
-        <br><br><img src="ic_activity_active"> active time
-        <br><br><img src="ic_miband_block"> not wearing
+        <img src="ic_timelapse"> ώρα ύπνου
+        <br><br><img src="ic_activity_sleep_deep"> χρόνος βαθύ ύπνου
+        <br><br><img src="ic_activity_go_to_bed"> χρόνος στο κρεβάτι/ξύπνιος
+        <br><br><img src="ic_activity_sleep_start"> χρόνος έναρξης ύπνου/χρόνος ελαφρύ ύπνου
+        <br><br><img src="ic_activity_sleep_time"> συνολικός χρόνος
+        <br><br><img src="ic_activity_sleep_end"> ώρα λήξης ύπνου
+        <br><br><img src="ic_activity_get_up"> χρόνος αποχώρησης από το κρεβάτι
+        <br><br><img src="ic_activity_active"> ενεργός χρόνος
+        <br><br><img src="ic_miband_block"> δεν φοράει
         ]]>
     </string>
 
