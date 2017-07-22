@@ -8,7 +8,7 @@
     <string name="drawer_nav_notification">Notificações</string>
     <string name="drawer_nav_touch">Botão touch</string>
     <string name="drawer_nav_step">Passos</string>
-    <string name="drawer_nav_sleep">Sleep</string>
+    <string name="drawer_nav_sleep">Sono</string>
     <string name="drawer_nav_pulse">Pulsação</string>
     <string name="drawer_nav_time">Tempo</string>
     <string name="drawer_nav_alarm">Perdidos</string>
@@ -215,7 +215,7 @@
     <string name="message_touch_app_launcher1_not_found">Aplicação não encontrada: %1$s</string>
     <string name="message_touch_tasker_launcher1_not_set">Gerenciador de tarefas não definido</string>
 
-    <string name="message_notification_group_has_no_entry">Select applications with the lower right green \'+\' button on the card</string>
+    <string name="message_notification_group_has_no_entry">Seleciona aplicações com o botão verde \'+\' localizado no canto inferior direito do cartão</string>
 
     <string name="message_internet_error">Não tem ligação à internet</string>
 
@@ -408,13 +408,13 @@
 
     <string name="info_dialog_step"><![CDATA[
         <img src="ic_activity_active"> daily step/distance/calories total
-        <br><br><img src="ic_timelapse"> activity time
-        <br><br><img src="ic_activity_get_up"> getting out from the bed time
-        <br><br><img src="ic_activity_awake"> wakefulness time
-        <br><br><img src="ic_activity_rest_sofa"> resting/sitting time during wakefulness
-        <br><br><img src="ic_activity_go_to_bed"> bedtime
-        <br><br><img src="ic_battery_charging_full"> battery chargint
-        <br><br><img src="ic_miband_block"> not wearing
+        <br><br><img src="ic_timelapse"> tempo de atividade
+        <br><br><img src="ic_activity_get_up"> tempo fora da cama
+        <br><br><img src="ic_activity_awake"> tempo de Vigília
+        <br><br><img src="ic_activity_rest_sofa"> tempo repousado/sentado durante a Vigília
+        <br><br><img src="ic_activity_go_to_bed"> tempo na cama
+        <br><br><img src="ic_battery_charging_full"> A carragar a bateria
+        <br><br><img src="ic_miband_block"> não usou a Mi Band
         ]]>
     </string>
 
@@ -423,20 +423,20 @@
     <string name="sleep_tab_week">Gráficos semanais</string>
     <string name="sleep_tab_settings">Definições</string>
 
-    <string name="sleep_details">Sleep details</string>
-    <string name="sleep_assistant">Heart rate sleep assistant</string>
-    <string name="sleep_assistant_summary">Helps to ge more precise sleep data (reduces battery life)</string>
+    <string name="sleep_details">Detalhes do sono</string>
+    <string name="sleep_assistant">Assistente de batimentos cardíacos no sono</string>
+    <string name="sleep_assistant_summary">Ajuda a ter dados do sono mais precisos (reduz a vida da bateria)</string>
 
     <string name="info_dialog_sleep"><![CDATA[
-        <img src="ic_timelapse"> sleeping time
-        <br><br><img src="ic_activity_sleep_deep"> deep sleeping time
-        <br><br><img src="ic_activity_go_to_bed"> bedtime/awake time
-        <br><br><img src="ic_activity_sleep_start"> sleep start time/light sleeping time
-        <br><br><img src="ic_activity_sleep_time"> total time
-        <br><br><img src="ic_activity_sleep_end"> sleep end time
-        <br><br><img src="ic_activity_get_up"> getting out from the bed time
-        <br><br><img src="ic_activity_active"> active time
-        <br><br><img src="ic_miband_block"> not wearing
+        <img src="ic_timelapse"> tempo a dormir
+        <br><br><img src="ic_activity_sleep_deep"> tempo de sono profundo
+        <br><br><img src="ic_activity_go_to_bed"> tempo na cama/acordado
+        <br><br><img src="ic_activity_sleep_start"> hora a que adormeceu/tempo de sono leve
+        <br><br><img src="ic_activity_sleep_time"> tempo total
+        <br><br><img src="ic_activity_sleep_end"> hora a que acordou
+        <br><br><img src="ic_activity_get_up"> tempo fora da cama
+        <br><br><img src="ic_activity_active"> tempo ativo
+        <br><br><img src="ic_miband_block"> não usou a Mi Band
         ]]>
     </string>
 
