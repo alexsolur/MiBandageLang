@@ -223,6 +223,7 @@
     <string name="message_time_alarm_max_counter">Maximum 5 alarms can be used</string>
     <string name="message_time_alarm_enabled">Alarm enabled</string>
     <string name="message_time_alarm_disabled">Alarm disabled</string>
+    <string name="message_time_alarm_mi_band_off">Alarm off</string>
 
     <string name="message_alarm_free_interval">Smaller repeat interval can be set only in premium mode</string>
     <string name="message_alarm_mi_band_set_failed">Setting the alarm failed</string>
@@ -408,7 +409,7 @@
 
     <string name="info_dialog_step"><![CDATA[
         <img src="ic_activity_active"> daily step/distance/calories total
-        <br><br><img src="ic_timelapse"> activity time
+        <br><br><img src="ic_timelapse"> active time
         <br><br><img src="ic_activity_get_up"> getting out from the bed time
         <br><br><img src="ic_activity_awake"> wakefulness time
         <br><br><img src="ic_activity_rest_sofa"> resting/sitting time during wakefulness
@@ -425,7 +426,7 @@
 
     <string name="sleep_details">Sleep details</string>
     <string name="sleep_assistant">Heart rate sleep assistant</string>
-    <string name="sleep_assistant_summary">Helps to ge more precise sleep data (reduces battery life)</string>
+    <string name="sleep_assistant_summary">Helps to get more precise sleep data (reduces battery life)</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> sleeping time
@@ -482,7 +483,7 @@
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>Mi Band 2 signal</u></b>
         <p>When specified period of time expires, Mi Band 2 send signals if not connected to the device.</p>
         <p>App uses alarm function of Mi Fit to alert (overwrite 10. setting).</p>
-        <p>The alarm will be repeated several times if the Mi Band 2 do not detect any movement (because it uses the factory alarm).</p>
+        <p>The alarm will be repeated several times if the Mi Band 2 do not detect any movement (because it uses the Mi Band 2 alarm).</p>
         <p>Before switching off Bluetooth or uninstalling the app you need to deactivate Mi Band 2 signal.</p>
         <p>If you remove the application when the alarm is on, then you can disable it with turning on and off again Mi Fit 10. alarm setting.</p>
 
@@ -500,7 +501,9 @@
     <string name="time_tab_lap">Lap time</string>
     <string name="time_tab_interval">Interval</string>
 
-    <string name="action_alarm_device">Factory alarm</string>
+    <string name="action_alarm_device">Phone alarm</string>
+    <string name="time_alarm_mi_band_signal">Signal when phone alarm sounds</string>
+    <string name="time_alarm_mi_band_signal_alarm_off">Alarm off at second touch</string>
     <string name="time_alarm_title">Title</string>
     <string name="time_alarm_pre_alarm">Reminder signal, remaining time</string>
     <string name="time_alarm_pre_alarm_interval_title">Before time</string>
@@ -555,7 +558,7 @@
         <p>Bluetooth connection is required for alarm, it alarms just only once for 10 seconds.</p>
         <img src="ic_alarm"> <b><u>Alarm</u></b>
         <p>Bluetooth connection is not required for alarm, app uses alarm function of Mi Fit to alert (overwrite 4. - 9. setting).
-        <br>The alarm will be repeated several times if the Mi Band 2 do not detect any movement (because it uses the factory alarm).
+        <br>The alarm will be repeated several times if the Mi Band 2 do not detect any movement (because it uses the phone alarm).
         <br>Minute accuracy, Mi band 2 does not handle seconds at alarm.</p>
         <p>Reminder signal and showing message require Bluetooth connection.</p>
     ]]></string>
