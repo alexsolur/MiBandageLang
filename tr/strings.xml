@@ -8,7 +8,7 @@
     <string name="drawer_nav_notification">Bildirim denetimi</string>
     <string name="drawer_nav_touch">Dokunmatik izleme</string>
     <string name="drawer_nav_step">Etkinlik</string>
-    <string name="drawer_nav_sleep">Sleep</string>
+    <string name="drawer_nav_sleep">Uyku</string>
     <string name="drawer_nav_pulse">Nabız denetimi</string>
     <string name="drawer_nav_time">Zaman denetimi</string>
     <string name="drawer_nav_alarm">İzleme kaybedildi</string>
@@ -215,7 +215,7 @@
     <string name="message_touch_app_launcher1_not_found">Uygulama bulunamadı: %1$s</string>
     <string name="message_touch_tasker_launcher1_not_set">Tasker görev ayarlı değil</string>
 
-    <string name="message_notification_group_has_no_entry">Select applications with the lower right green \'+\' button on the card</string>
+    <string name="message_notification_group_has_no_entry">Kartın sağ altındaki yeşil \'+\' düğmesi ile uygulamaları seçin</string>
 
     <string name="message_internet_error">İnternet bağlantısı yok</string>
 
@@ -223,6 +223,7 @@
     <string name="message_time_alarm_max_counter">Maksimum 5 alarm kullanılabilir</string>
     <string name="message_time_alarm_enabled">Alarm etkin</string>
     <string name="message_time_alarm_disabled">Alarm devre dışı</string>
+    <string name="message_time_alarm_mi_band_off">Alarm off</string>
 
     <string name="message_alarm_free_interval">Daha küçük tekrar aralığı yalnızca premium modda ayarlanabilir</string>
     <string name="message_alarm_mi_band_set_failed">Alarmın ayarlanması başarısız</string>
@@ -407,14 +408,14 @@
     <string name="step_details">Adım ayrıntıları</string>
 
     <string name="info_dialog_step"><![CDATA[
-        <img src="ic_activity_active"> daily step/distance/calories total
-        <br><br><img src="ic_timelapse"> activity time
-        <br><br><img src="ic_activity_get_up"> getting out from the bed time
-        <br><br><img src="ic_activity_awake"> wakefulness time
-        <br><br><img src="ic_activity_rest_sofa"> resting/sitting time during wakefulness
-        <br><br><img src="ic_activity_go_to_bed"> bedtime
-        <br><br><img src="ic_battery_charging_full"> battery chargint
-        <br><br><img src="ic_miband_block"> not wearing
+        <img src="ic_activity_active"> günlük adım/mesafe/kalori toplamı
+        <br><br><img src="ic_timelapse"> etkinlik zamanı
+        <br><br><img src="ic_activity_get_up"> yataktan kalkma zamanı
+        <br><br><img src="ic_activity_awake"> uyanıklık zamanı
+        <br><br><img src="ic_activity_rest_sofa"> uyanıkken dinlenme/oturma zamanı
+        <br><br><img src="ic_activity_go_to_bed"> yatmadan önce
+        <br><br><img src="ic_battery_charging_full"> pil şarjı
+        <br><br><img src="ic_miband_block"> giyilmiyor
         ]]>
     </string>
 
@@ -423,20 +424,20 @@
     <string name="sleep_tab_week">Haftalık grafikler</string>
     <string name="sleep_tab_settings">Ayarlar</string>
 
-    <string name="sleep_details">Sleep details</string>
+    <string name="sleep_details">Uyku ayrıntıları</string>
     <string name="sleep_assistant">Nabız uyku yardımcısı</string>
     <string name="sleep_assistant_summary">Daha doğru uyku verileri almanıza yardımcı olur (pil ömrünü kısaltır)</string>
 
     <string name="info_dialog_sleep"><![CDATA[
-        <img src="ic_timelapse"> sleeping time
-        <br><br><img src="ic_activity_sleep_deep"> deep sleeping time
-        <br><br><img src="ic_activity_go_to_bed"> bedtime/awake time
-        <br><br><img src="ic_activity_sleep_start"> sleep start time/light sleeping time
-        <br><br><img src="ic_activity_sleep_time"> total time
-        <br><br><img src="ic_activity_sleep_end"> sleep end time
-        <br><br><img src="ic_activity_get_up"> getting out from the bed time
-        <br><br><img src="ic_activity_active"> active time
-        <br><br><img src="ic_miband_block"> not wearing
+        <img src="ic_timelapse"> uyku süresi
+        <br><br><img src="ic_activity_sleep_deep"> derin uyku zamanı
+        <br><br><img src="ic_activity_go_to_bed"> yatma süresi/uyanıklık süresi
+        <br><br><img src="ic_activity_sleep_start"> uyku başlatma süresi/hafif uyku zamanı
+        <br><br><img src="ic_activity_sleep_time"> toplam süre
+        <br><br><img src="ic_activity_sleep_end"> uyku bitiş zamanı
+        <br><br><img src="ic_activity_get_up"> yataktan kalkma zamanı
+        <br><br><img src="ic_activity_active"> etkinlik zamanı
+        <br><br><img src="ic_miband_block"> giyilmiyor
         ]]>
     </string>
 
@@ -501,6 +502,8 @@
     <string name="time_tab_interval">Aralık</string>
 
     <string name="action_alarm_device">Fabrika alarmı</string>
+    <string name="time_alarm_mi_band_signal">Signal when phone alarm sounds</string>
+    <string name="time_alarm_mi_band_signal_alarm_off">Alarm off at second touch</string>
     <string name="time_alarm_title">Başlık</string>
     <string name="time_alarm_pre_alarm">Hatırlatma sinyali, kalan süre</string>
     <string name="time_alarm_pre_alarm_interval_title">Zamanından önce</string>
