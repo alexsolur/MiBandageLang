@@ -8,7 +8,7 @@
     <string name="drawer_nav_notification">Monitoreo de notificaciones</string>
     <string name="drawer_nav_touch">Monitoreo táctil</string>
     <string name="drawer_nav_step">Actividad</string>
-    <string name="drawer_nav_sleep">Sleep</string>
+    <string name="drawer_nav_sleep">Sueño</string>
     <string name="drawer_nav_pulse">Monitoreo de pulso</string>
     <string name="drawer_nav_time">Monitoreo de tiempo</string>
     <string name="drawer_nav_alarm">Monitoreo de pérdida</string>
@@ -215,7 +215,7 @@
     <string name="message_touch_app_launcher1_not_found">No se ha encontrado la aplicación: %1$s</string>
     <string name="message_touch_tasker_launcher1_not_set">Tarea en Tasker no está establecida</string>
 
-    <string name="message_notification_group_has_no_entry">Select applications with the lower right green \'+\' button on the card</string>
+    <string name="message_notification_group_has_no_entry">Seleccione las aplicaciones con el botón verde inferior derecho \'+\' en la tarjeta</string>
 
     <string name="message_internet_error">No tiene conexión a internet</string>
 
@@ -223,7 +223,7 @@
     <string name="message_time_alarm_max_counter">Se pueden utilizar 5 alarmas como máximo</string>
     <string name="message_time_alarm_enabled">Alarma activada</string>
     <string name="message_time_alarm_disabled">Alarma desactivada</string>
-    <string name="message_time_alarm_mi_band_off">Alarm off</string>
+    <string name="message_time_alarm_mi_band_off">Alarma apagada</string>
 
     <string name="message_alarm_free_interval">Un intervalo de repetición más pequeño sólo se puede establecer en modo premium</string>
     <string name="message_alarm_mi_band_set_failed">Error al configurar la alarma</string>
@@ -408,14 +408,14 @@
     <string name="step_details">Detalles de pasos</string>
 
     <string name="info_dialog_step"><![CDATA[
-        <img src="ic_activity_active"> daily step/distance/calories total
-        <br><br><img src="ic_timelapse"> activity time
-        <br><br><img src="ic_activity_get_up"> getting out from the bed time
-        <br><br><img src="ic_activity_awake"> wakefulness time
-        <br><br><img src="ic_activity_rest_sofa"> resting/sitting time during wakefulness
-        <br><br><img src="ic_activity_go_to_bed"> bedtime
-        <br><br><img src="ic_battery_charging_full"> battery charging
-        <br><br><img src="ic_miband_block"> not wearing
+        <img src="ic_activity_active"> total de pasos diarios/distancia/calorias
+        <br><br><img src="ic_timelapse"> tiempo de actividad
+        <br><br><img src="ic_activity_get_up"> tiempo fuera de la cama
+        <br><br><img src="ic_activity_awake"> tiempo de desvelo
+        <br><br><img src="ic_activity_rest_sofa"> tiempo de descanso/sentado durante el desvelo
+        <br><br><img src="ic_activity_go_to_bed"> hora de dormir
+        <br><br><img src="ic_battery_charging_full"> bateria cargando
+        <br><br><img src="ic_miband_block"> no llevando la pulsera
         ]]>
     </string>
 
@@ -424,20 +424,20 @@
     <string name="sleep_tab_week">Gráficos semanales</string>
     <string name="sleep_tab_settings">Configuración</string>
 
-    <string name="sleep_details">Sleep details</string>
+    <string name="sleep_details">Detalles del sueño</string>
     <string name="sleep_assistant">Asistente de sueño de ritmo cardíaco</string>
     <string name="sleep_assistant_summary">Ayuda a obtener datos del sueño más precisos (reduce la duración de la batería)</string>
 
     <string name="info_dialog_sleep"><![CDATA[
-        <img src="ic_timelapse"> sleeping time
-        <br><br><img src="ic_activity_sleep_deep"> deep sleeping time
-        <br><br><img src="ic_activity_go_to_bed"> bedtime/awake time
-        <br><br><img src="ic_activity_sleep_start"> sleep start time/light sleeping time
-        <br><br><img src="ic_activity_sleep_time"> total time
-        <br><br><img src="ic_activity_sleep_end"> sleep end time
-        <br><br><img src="ic_activity_get_up"> getting out from the bed time
-        <br><br><img src="ic_activity_active"> active time
-        <br><br><img src="ic_miband_block"> not wearing
+        <img src="ic_timelapse"> tiempo de sueño
+        <br><br><img src="ic_activity_sleep_deep"> tiempo de sueño profundo
+        <br><br><img src="ic_activity_go_to_bed"> tiempo dormido/despierto
+        <br><br><img src="ic_activity_sleep_start"> hora de inicio de sueño/tiempo de sueño ligero
+        <br><br><img src="ic_activity_sleep_time"> tiempo total
+        <br><br><img src="ic_activity_sleep_end"> hora de fin de sueño
+        <br><br><img src="ic_activity_get_up"> tiempo fuera de la cama
+        <br><br><img src="ic_activity_active"> tiempo activo
+        <br><br><img src="ic_miband_block"> no llevando la pulsera
         ]]>
     </string>
 
@@ -503,8 +503,8 @@
     <string name="time_tab_interval">Intervalo</string>
 
     <string name="action_alarm_device">Alarma de fábrica</string>
-    <string name="time_alarm_mi_band_signal">Signal when phone alarm sounds</string>
-    <string name="time_alarm_mi_band_signal_alarm_off">Alarm off at second touch</string>
+    <string name="time_alarm_mi_band_signal">Señal cuando suena la alarma el teléfono</string>
+    <string name="time_alarm_mi_band_signal_alarm_off">Alarma desactivada con el segundo toque</string>
     <string name="time_alarm_title">Título</string>
     <string name="time_alarm_pre_alarm">Señal de recordatorio, tiempo restante</string>
     <string name="time_alarm_pre_alarm_interval_title">Antes de tiempo</string>
