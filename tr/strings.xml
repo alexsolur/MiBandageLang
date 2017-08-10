@@ -223,7 +223,7 @@
     <string name="message_time_alarm_max_counter">Maksimum 5 alarm kullanılabilir</string>
     <string name="message_time_alarm_enabled">Alarm etkin</string>
     <string name="message_time_alarm_disabled">Alarm devre dışı</string>
-    <string name="message_time_alarm_mi_band_off">Alarm off</string>
+    <string name="message_time_alarm_mi_band_off">Alarm kapalı</string>
 
     <string name="message_alarm_free_interval">Daha küçük tekrar aralığı yalnızca premium modda ayarlanabilir</string>
     <string name="message_alarm_mi_band_set_failed">Alarmın ayarlanması başarısız</string>
@@ -392,6 +392,7 @@
 
     <string name="step_tab_day">Günlük grafikler</string>
     <string name="step_tab_week">Haftalık grafikler</string>
+    <string name="step_tab_month">Monthly charts</string>
     <string name="step_tab_goal">Etkinlik hedefleri</string>
     <string name="step_tab_settings">Ayarlar</string>
 
@@ -422,6 +423,7 @@
     <!-- Sleep monitoring -->
     <string name="sleep_tab_day">Günlük grafikler</string>
     <string name="sleep_tab_week">Haftalık grafikler</string>
+    <string name="sleep_tab_month">Monthly charts</string>
     <string name="sleep_tab_settings">Ayarlar</string>
 
     <string name="sleep_details">Uyku ayrıntıları</string>
@@ -448,6 +450,7 @@
 
     <string name="pulse_tab_day">Günlük grafikler</string>
     <string name="pulse_tab_week">Haftalık grafikler</string>
+    <string name="pulse_tab_month">Monthly charts</string>
     <string name="pulse_tab_settings">Ayarlar</string>
 
     <string name="pulse_title_signals">Sinyaller</string>
@@ -502,8 +505,8 @@
     <string name="time_tab_interval">Aralık</string>
 
     <string name="action_alarm_device">Fabrika alarmı</string>
-    <string name="time_alarm_mi_band_signal">Signal when phone alarm sounds</string>
-    <string name="time_alarm_mi_band_signal_alarm_off">Alarm off at second touch</string>
+    <string name="time_alarm_mi_band_signal">Telefon uyarı sesi geldiğinde uyarı verir</string>
+    <string name="time_alarm_mi_band_signal_alarm_off">İkinci dokunuşta alarm kapalı</string>
     <string name="time_alarm_title">Başlık</string>
     <string name="time_alarm_pre_alarm">Hatırlatma sinyali, kalan süre</string>
     <string name="time_alarm_pre_alarm_interval_title">Zamanından önce</string>
@@ -664,6 +667,14 @@
     <string name="action_chart">Grafik</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_chart_sort_time_asc">Time ascending</string>
+    <string name="action_chart_sort_time_desc">Time descending</string>
+    <string name="action_chart_sort_step_asc">Step ascending</string>
+    <string name="action_chart_sort_step_desc">Step descending</string>
+    <string name="action_chart_sort_pulse_asc">Pulse ascending</string>
+    <string name="action_chart_sort_pulse_desc">Pulse descending</string>
+    <string name="action_chart_sort_lap_asc">Lap ascending</string>
+    <string name="action_chart_sort_lap_desc">Lap descending</string>
 
     <string name="power_on">Açık</string>
     <string name="screen_unlock">Ekran kilidini açma</string>
