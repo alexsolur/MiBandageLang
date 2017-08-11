@@ -1,22 +1,29 @@
 ﻿Atualmente a aplicação apenas suporta o Xiaomi Mi Band 2.
 
-A Mi Bandage precisa da Mi Fit instalada. Primeiro tem de emparelhar o Xiaomi Mi Band 2 na Mi Fit e só depois poderá usar a Mi bandage.
+A 'Mi Bandage' precisa da 'Mi Fit' instalada. Primeiro tem de emparelhar o Xiaomi Mi Band 2 na 'Mi Fit' e só depois poderá usar a 'Mi bandage'.
 
-<b>Utilizadores MIUI: Se a Mi Band 2 não for encontrada ou se você está a ter problemas em sincronizar na aplicação Mi Fit, instale o BToolkit, o nRF Connect ou uma aplicação de monitorização Bluetooth semelhante e remova todos os dispositivos já emparelhados</b>
+<b>Utilizadores MIUI: Se a Mi Band 2 não for encontrada ou se você está a ter problemas na sincronização, instale o BToolkit, o nRF Connect ou uma aplicação de monitorização Bluetooth semelhante e remova todos os dispositivos já emparelhados</b>
 
-<b>Características gerais:</b>
-- Emparelha a Mi Band 2 (Se tiver problemas com o desbloqueio de ecrã da Mi Fit)
+<b>Características no geral:</b>
+- Emparelhamento com a Mi Band 2 (Se tiver problemas com o desbloqueio de ecrã da Mi Fit)
 - Mostra o estado da bateria e tempo restante
-- Mostra a hora de conexão
-- Mostra a hora de desconexão
-- <b>Aviso de chamada recebida com o nome do chamador e conversão automática de caracteres desconhecidos</b>
-- <b>Aviso de chamada perdida com o nome do chamador</b>
-- <b>Mostra a notificação de texto das aplicações</b>
+- Mostra a hora de conexão/desconexão
+- Aviso de chamada recebida/perdida com o nome do chamador e conversão automática de caracteres desconhecidos
+- Mostra a notificação de texto das aplicações
+- Gráficos diários/semanais/mensais
 
-<b>Características de conexão com a Mi Band 2:</b>
-&#8226; Conectado:
+<b>Conectado com a Mi Band 2:</b>
+&#8226; Conexão:
 - A Mi Band 2 vibra
-- Acorda o ecrã do dispositivo
+- Acordar o ecrã do dispositivo
+- ...
+
+<b>Desconectado da Mi Band 2:</b>
+- Tocar um ringtone no dispositivo; vibrar; ligar o ecrã
+- Se alguém acessar o seu dispositivo enquanto estiver ausente, você saberá (ligar o ecrã/desbloquear o dispositivo/posição do dispositivo): notificação no dispositivo e o ícone olho na Mi Band 2 após reconectar
+- Mi Band 2 vibra (apenas se estiver fora de alcance com o Bluetooth ligado)
+- ...
+ 
 &#8226; Notificações:
 - Configuração de sinal exclusivo para notificações de aplicações
 - A Mi Band 2 vibra e mostra o ícone: 1/2/3 vezes; número de notificações; uma vez por aplicação
@@ -24,15 +31,11 @@ A Mi Bandage precisa da Mi Fit instalada. Primeiro tem de emparelhar o Xiaomi Mi
 - Aviso quando conectar ao dispositivo
 - Lembretes
 - Aviso apenas se o ecrã está desligado
-- As notificações podem continuar visiveis
+- As notificações no dispositivo podem continuar visiveis ou não
 - Ligar o ecrã do dispositivo
+- ...
  
-<b>Características de desconexão da Mi Band 2:</b>
-- Tocar um ringtone no dispositivo; vibrar; ligar o ecrã
-- Se alguém acessar o seu dispositivo enquanto estiver ausente, você saberá (ligar o ecrã/desbloquear o dispositivo/movimentação): notificação no dispositivo e o ícone olho na Mi Band 2
-- Mi Band 2 avisa
- 
-<b>Botão touch (usar o botão touch da Mi Band 2 para outras funcionalidades):</b>
+<b>Botão touch (usar o botão touch da Mi Band 2 para funcionalidades adicionais):</b>
 - Atender chamadas; alta-voz (Desligue a aplicação de música quando os fones estiverem conectados. Caso contrário a música será iniciada; Nem todos os dispositivos suportam)
 - Rejeitar/terminar chamadas (Nem todos os dispositivos suportam)
 - Silenciar chamada
@@ -42,27 +45,32 @@ A Mi Bandage precisa da Mi Fit instalada. Primeiro tem de emparelhar o Xiaomi Mi
 - Iniciar temporizador/cronómetro; mostrar tempo restante/decorrido
 - Iniciar aplicações (você pode iniciar qualquer aplicação)
 - Iniciar Gerenciador de tarefas
+- ...
  
 <b>Passos:</b>
- - Gráfico diário/semanal: exibe os valores medidos
+ - Gráfico diário/semanal/mensal: exibe os valores medidos
+ - ...
   
 <b>Pulsação:</b>
 - Você pode ajustar: aviso de começo; mostrar pulsação; aviso de pulsação alta/baixa; hora de início/fim; tempo para repetir; valor mais baixo/alto válido
 - Mostrar pulsação atual
-- Gráfico diário/semanal: exibe os valores medidos
+- Gráfico diário/semanal/mesal: exibe os valores medidos
+- ...
  
 <b>Tempo:</b>
 - Temporizador: tipo de alarme; lembrete; mostrar o tempo restante
 - Cronómetro: tipo de alarme; lembrete; tempo decorrido; gravar/mostrar o tempo da última volta
+- ...
 
 <b>Dispositivo/Mi Band 2 perdidos:</b>
-- Aviso da Mi Band 2: Quando o período de tempo especificado expirar a Mi Band 2 irá alertá-lo
+- Aviso da Mi Band 2: Quando o período de tempo especificado expirar a Mi Band 2 irá alertá-lo vibrando
 - Aviso do dispositivo: quando o período de tempo especificado expirar, o dispositivo irá alertá-lo mostrando uma mensagem. Se alguém o encontrar e estiver bloqueado, esse alguém saberá quem notificar.
+- ...
 
 <b>Detetive:</b> 
-- Visualizar eventos detectados pelo detetive (ligar ecrã; desbloquear o dispositivo; posição do dispositivo
+- Visualizar eventos detectados pelo detetive (ligar ecrã; desbloquear o dispositivo; posição do dispositivo)
 
-A aplicação inclui atualmente 10 linguas sendo a padrão a que o seu dispositivo tem.
+A aplicação inclui atualmente 11 linguas sendo a padrão a que o seu dispositivo tem.
 Português (Bruno Lopes)
 Inglês
 Húngaro
@@ -73,3 +81,4 @@ Vietnamita (Anh Việt)
 Italiano (Francesco Caronte)
 Espanhol (Nezu R)
 Alemanha (David Terrey)
+Indonésio
