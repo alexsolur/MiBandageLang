@@ -192,8 +192,8 @@
     <string name="message_discovering_mi_band">Ανίχνευση για Mi Band 2 (μπορεί να πάρει 1 λεπτό) &#8230;</string>
     <string name="message_discovered_no_mi_band">Το Mi Band 2 δεν ανιχνεύθηκε</string>
     <string name="message_discovered_not_found_mi_band">Σε περίπτωση που το Mi Band 2 δεν ανιχνευθεί, ενεργοποιήστε το: Mi Fit/Play/Discoverable ή συζεύξτε από τις ρυθμίσεις Bluetooth του κινητού σας.</string>
-    <string name="message_enable_notifications_access">Ενεργοποίηση πρόσβασης ειδοποίησης: Ρυθμίσεις/ειδοποιήσεις/Πρόσβασης ειδοποίησης (Settings/Notifications/Notification access)</string>
-    <string name="message_enable_notifications_access_4_4">Ενεργοποίηση πρόσβασης ειδοποίησης: Ρυθμίσεις/Ασφάλεια/Πρόσβασης ειδοποίησης (Settings/Security/Notification access)</string>
+    <string name="message_enable_notification_listener_access">Ενεργοποίηση πρόσβασης ειδοποίησης: Ρυθμίσεις/ειδοποιήσεις/Πρόσβασης ειδοποίησης (Settings/Notifications/Notification access)</string>
+    <string name="message_enable_notification_listener_access_4_4">Ενεργοποίηση πρόσβασης ειδοποίησης: Ρυθμίσεις/Ασφάλεια/Πρόσβασης ειδοποίησης (Settings/Security/Notification access)</string>
     <string name="message_open_settings">Ρυθμίσεις</string>
 
     <string name="message_deleted">Διαγραφή</string>
@@ -231,6 +231,8 @@
 
     <string name="message_premium_mode_only">Αυτή η λειτουργία είναι διαθέσιμη μόνο στη λειτουργία premium</string>
     <string name="message_general_error">Η ρύθμιση απέτυχε (η σύνδεση χάθηκε), δοκιμάστε ξανά</string>
+
+    <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Καλώς ορίσατε!</string>
@@ -275,6 +277,10 @@
     <string name="notification_group_filter_hint">Σήμα μόνο όταν η ειδοποίηση (διαχωριστικό: εισάγετε, πεζά ή κεφαλαία)</string>
     <string name="notification_group_filter_contains">Περιέχει φράσεων</string>
     <string name="notification_group_filter_not_contains">Δεν περιέχει φράσεις</string>
+
+    <string name="notification_group_sample_sms">SMS text display</string>
+    <string name="notification_group_sample_facebook">Facebook text display</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp text display</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Προκαθορισμένες εφαρμογές και εικονίδια σημάτων του Mi Band 2:
@@ -388,7 +394,8 @@
     <string name="action_tracker_step">Βήματα</string>
     <string name="action_tracker_distance">Απόσταση</string>
     <string name="action_tracker_calorie">Θερμίδες</string>
-    <string name="action_rest">Rest</string>
+    <string name="action_chart_filter_activity_no">No filter</string>
+    <string name="action_chart_filter_activity_active">Movement filter</string>
 
     <string name="step_tab_day">Ημερήσια διαγράμματα</string>
     <string name="step_tab_week">Εβδομαδιαία διαγράμματα</string>
@@ -415,8 +422,8 @@
         <br><br><img src="ic_activity_awake"> χρόνος εγρήγορσης
         <br><br><img src="ic_activity_rest_sofa"> ανάπαυσης/καθισμένος κατά τη διάρκεια της εγρήγορσης
         <br><br><img src="ic_activity_go_to_bed"> ώρα ύπνου
-        <br><br><img src="ic_battery_charging_full"> φόρτιση μπαταρίας
-        <br><br><img src="ic_miband_block"> δεν φοράει
+        <br><br><img src="ic_activity_battery_charging_full"> φόρτιση μπαταρίας
+        <br><br><img src="ic_activity_block"> δεν φοράει
         ]]>
     </string>
 
@@ -429,6 +436,7 @@
     <string name="sleep_details">Λεπτομέρειες ύπνου</string>
     <string name="sleep_assistant">Βοηθός ύπνου καρδιακού ρυθμού</string>
     <string name="sleep_assistant_summary">Βοηθάει στην επίτευξη ακριβέστερων δεδομένων ύπνου (μειώνει τη διάρκεια ζωής της μπαταρίας)</string>
+    <string name="sleep_assistant_show_pulse">Show the measured pulse values on the daily pulse graph</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> ώρα ύπνου
@@ -439,14 +447,14 @@
         <br><br><img src="ic_activity_sleep_end"> ώρα λήξης ύπνου
         <br><br><img src="ic_activity_get_up"> χρόνος αποχώρησης από το κρεβάτι
         <br><br><img src="ic_activity_active"> ενεργός χρόνος
-        <br><br><img src="ic_miband_block"> δεν φοράει
+        <br><br><img src="ic_activity_block"> δεν φοράει
         ]]>
     </string>
 
     <!-- Pulse  monitoring -->
-    <string name="action_pulse">Εμφάνιση παλμού</string>
-    <string name="action_chart_normalize">Ομάλυνση</string>
-    <string name="pulse_current">Τρέχον παλμός</string>
+    <string name="action_pulse_current">Τρέχον παλμός</string>
+    <string name="action_chart_normalize_minute">Measured  values</string>
+    <string name="action_chart_normalize_hour">Hourly average</string>
 
     <string name="pulse_tab_day">Ημερήσια διαγράμματα</string>
     <string name="pulse_tab_week">Eβδομαδιαία διαγράμματα</string>
