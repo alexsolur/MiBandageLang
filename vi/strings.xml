@@ -192,8 +192,8 @@
     <string name="message_discovering_mi_band">Tìm Mi Band 2 (có thể mất 1 phút) &#8230;</string>
     <string name="message_discovered_no_mi_band">Mi Band 2 không được tìm thấy</string>
     <string name="message_discovered_not_found_mi_band">Nếu Mi Band 2 không được tìm thấy, bật: Mi Fit / cài đặt … hoặc ghép nối tại cài đặt Bluetooth</string>
-    <string name="message_enable_notifications_access">Kích hoạt tính năng truy cập thông báo: Cài đặt / Bảo mật / Truy cập thông báo</string>
-    <string name="message_enable_notifications_access_4_4">Kích hoạt tính năng truy cập thông báo: Cài đặt / Bảo mật / Truy cập thông báo</string>
+    <string name="message_enable_notification_listener_access">Kích hoạt tính năng truy cập thông báo: Cài đặt / Bảo mật / Truy cập thông báo</string>
+    <string name="message_enable_notification_listener_access_4_4">Kích hoạt tính năng truy cập thông báo: Cài đặt / Bảo mật / Truy cập thông báo</string>
     <string name="message_open_settings">Các cài đặt</string>
 
     <string name="message_deleted">Đã xóa</string>
@@ -231,6 +231,8 @@
 
     <string name="message_premium_mode_only">Tính năng này chỉ có sẵn trong bản nâng cấp</string>
     <string name="message_general_error">cài đặt thất bại (kết nối bị mất), hãy thử lại</string>
+
+    <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Chào mừng!</string>
@@ -275,6 +277,10 @@
     <string name="notification_group_filter_hint">Chỉ báo hiệu khi thông báo </string>
     <string name="notification_group_filter_contains">Chứa bất kỳ cụm từ nào</string>
     <string name="notification_group_filter_not_contains">Không chứa cụm từ nào</string>
+
+    <string name="notification_group_sample_sms">SMS text display</string>
+    <string name="notification_group_sample_facebook">Facebook text display</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp text display</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Predefined app and Mi Band 2 icon signals:
@@ -388,7 +394,8 @@
     <string name="action_tracker_step">Các bước</string>
     <string name="action_tracker_distance">Khoảng cách</string>
     <string name="action_tracker_calorie">Calories</string>
-    <string name="action_rest">Rest</string>
+    <string name="action_chart_filter_activity_no">No filter</string>
+    <string name="action_chart_filter_activity_active">Movement filter</string>
 
     <string name="step_tab_day">Biểu đồ hàng ngày</string>
     <string name="step_tab_week">Biểu đồ theo tuần</string>
@@ -415,8 +422,8 @@
         <br><br><img src="ic_activity_awake"> wakefulness time
         <br><br><img src="ic_activity_rest_sofa"> resting/sitting time during wakefulness
         <br><br><img src="ic_activity_go_to_bed"> bedtime
-        <br><br><img src="ic_battery_charging_full"> battery charging
-        <br><br><img src="ic_miband_block"> not wearing
+        <br><br><img src="ic_activity_battery_charging_full"> battery charging
+        <br><br><img src="ic_activity_block"> not wearing
         ]]>
     </string>
 
@@ -429,6 +436,7 @@
     <string name="sleep_details">Sleep details</string>
     <string name="sleep_assistant">Trợ lý nhịp tim giấc ngủ</string>
     <string name="sleep_assistant_summary">Giúp nhận được dữ liệu giấc ngủ chính xác hơn (giảm tuổi thọ pin)</string>
+    <string name="sleep_assistant_show_pulse">Show the measured pulse values on the daily pulse graph</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> sleeping time
@@ -439,14 +447,14 @@
         <br><br><img src="ic_activity_sleep_end"> sleep end time
         <br><br><img src="ic_activity_get_up"> getting out from the bed time
         <br><br><img src="ic_activity_active"> active time
-        <br><br><img src="ic_miband_block"> not wearing
+        <br><br><img src="ic_activity_block"> not wearing
         ]]>
     </string>
 
     <!-- Pulse  monitoring -->
-    <string name="action_pulse">Hiện nhịp tim</string>
-    <string name="action_chart_normalize">Normalize</string>
-    <string name="pulse_current">Nhịp tim hiện tại</string>
+    <string name="action_pulse_current">Nhịp tim hiện tại</string>
+    <string name="action_chart_normalize_minute">Measured  values</string>
+    <string name="action_chart_normalize_hour">Hourly average</string>
 
     <string name="pulse_tab_day">Biểu đồ hàng ngày</string>
     <string name="pulse_tab_week">Biểu đồ theo tuần</string>
