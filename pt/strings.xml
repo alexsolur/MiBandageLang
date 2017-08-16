@@ -192,8 +192,8 @@
     <string name="message_discovering_mi_band">Procurando a Mi Band 2 &#8230;</string>
     <string name="message_discovered_no_mi_band">A Mi Band 2 não foi encontrada</string>
     <string name="message_discovered_not_found_mi_band">Se a Mi Band 2 não for encontrada, ative: Mi Fit/Play/Discoverable ou emparelhe nas definições de Bluetooth</string>
-    <string name="message_enable_notifications_access">Ative o acesso às notificações: Definições/Notificações/Acesso às notificações</string>
-    <string name="message_enable_notifications_access_4_4">Ative o acesso às notificações: Definições/Segurança/Acesso às notificações</string>
+    <string name="message_enable_notification_listener_access">Ative o acesso às notificações: Definições/Notificações/Acesso às notificações</string>
+    <string name="message_enable_notification_listener_access_4_4">Ative o acesso às notificações: Definições/Segurança/Acesso às notificações</string>
     <string name="message_open_settings">Definições</string>
 
     <string name="message_deleted">Apagado</string>
@@ -231,6 +231,8 @@
 
     <string name="message_premium_mode_only">Esta definição só está disponível no modo premium</string>
     <string name="message_general_error">A configuração falhou (conexão perdida), tente de novo</string>
+
+    <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Bem vindo!</string>
@@ -275,6 +277,10 @@
     <string name="notification_group_filter_hint">Avisar quando a notificação: (delimitador: MAIÚSCULAS e minúsculas)</string>
     <string name="notification_group_filter_contains">Contém</string>
     <string name="notification_group_filter_not_contains">Não contém</string>
+
+    <string name="notification_group_sample_sms">SMS text display</string>
+    <string name="notification_group_sample_facebook">Facebook text display</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp text display</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Ícones da Mi Bnad 2 e aplicação correspondente:
@@ -388,7 +394,8 @@
     <string name="action_tracker_step">Passos</string>
     <string name="action_tracker_distance">Distância</string>
     <string name="action_tracker_calorie">Calorias</string>
-    <string name="action_rest">Rest</string>
+    <string name="action_chart_filter_activity_no">No filter</string>
+    <string name="action_chart_filter_activity_active">Movement filter</string>
 
     <string name="step_tab_day">Gráficos diários</string>
     <string name="step_tab_week">Gráficos semanais</string>
@@ -415,8 +422,8 @@
         <br><br><img src="ic_activity_awake"> tempo de Vigília
         <br><br><img src="ic_activity_rest_sofa"> tempo repousado/sentado durante a Vigília
         <br><br><img src="ic_activity_go_to_bed"> tempo na cama
-        <br><br><img src="ic_battery_charging_full"> A carragar a bateria
-        <br><br><img src="ic_miband_block"> não usou a Mi Band
+        <br><br><img src="ic_activity_battery_charging_full"> A carragar a bateria
+        <br><br><img src="ic_activity_block"> não usou a Mi Band
         ]]>
     </string>
 
@@ -429,6 +436,7 @@
     <string name="sleep_details">Detalhes do sono</string>
     <string name="sleep_assistant">Assistente de batimentos cardíacos no sono</string>
     <string name="sleep_assistant_summary">Ajuda a ter dados do sono mais precisos (reduz a vida da bateria)</string>
+    <string name="sleep_assistant_show_pulse">Show the measured pulse values on the daily pulse graph</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> tempo a dormir
@@ -439,18 +447,18 @@
         <br><br><img src="ic_activity_sleep_end"> hora a que acordou
         <br><br><img src="ic_activity_get_up"> tempo fora da cama
         <br><br><img src="ic_activity_active"> tempo ativo
-        <br><br><img src="ic_miband_block"> não usou a Mi Band
+        <br><br><img src="ic_activity_block"> não usou a Mi Band
         ]]>
     </string>
 
     <!-- Pulse  monitoring -->
-    <string name="action_pulse">Mostrar pulsação</string>
-    <string name="action_chart_normalize">Normalize</string>
-    <string name="pulse_current">Pulsação atual</string>
+    <string name="action_pulse_current">Pulsação atual</string>
+    <string name="action_chart_normalize_minute">Measured  values</string>
+    <string name="action_chart_normalize_hour">Hourly average</string>
 
     <string name="pulse_tab_day">Gráficos diários</string>
     <string name="pulse_tab_week">Gráficos semanais</string>
-    <string name="pulse_tab_month">Monthly charts</string>
+    <string name="pulse_tab_month">Gráficos mensais</string>
     <string name="pulse_tab_settings">Monitorização</string>
 
     <string name="pulse_title_signals">Avisos</string>
