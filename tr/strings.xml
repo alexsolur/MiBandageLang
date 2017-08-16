@@ -192,8 +192,8 @@
     <string name="message_discovering_mi_band">Mi Band 2\'yi tanıtmak (1 dakika sürebilir) &#8230;</string>
     <string name="message_discovered_no_mi_band">Mi Band 2 tanınmadı</string>
     <string name="message_discovered_not_found_mi_band">Mi Band 2 bulunamazsa, açın: Mi Fit/Play/Discoverable veya cihazı Bluetooth ayarlarında eşleştir</string>
-    <string name="message_enable_notifications_access">Bildirim erişimini etkinleştir: Ayarlar/Bildirimler/Bildirim erişimi</string>
-    <string name="message_enable_notifications_access_4_4">Bildirim erişimini etkinleştir: Ayarlar/Güvenlik/Bildirim erişimi</string>
+    <string name="message_enable_notification_listener_access">Bildirim erişimini etkinleştir: Ayarlar/Bildirimler/Bildirim erişimi</string>
+    <string name="message_enable_notification_listener_access_4_4">Bildirim erişimini etkinleştir: Ayarlar/Güvenlik/Bildirim erişimi</string>
     <string name="message_open_settings">Ayarlar</string>
 
     <string name="message_deleted">silindi</string>
@@ -231,6 +231,8 @@
 
     <string name="message_premium_mode_only">Bu özellik yalnızca premium modda kullanılabilir</string>
     <string name="message_general_error">Ayar başarısız oldu (bağlantı kesildi), tekrar deneyin</string>
+
+    <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Hoşgeldiniz!</string>
@@ -275,6 +277,10 @@
     <string name="notification_group_filter_hint">Yalnızca bildirim geldiğinde uyarı verir (sınırlayıcı: enter, büyük/küçük harfe duyarsız)</string>
     <string name="notification_group_filter_contains">Herhangi bir cümle içeriyor</string>
     <string name="notification_group_filter_not_contains">Hiçbir cümle içermiyor</string>
+
+    <string name="notification_group_sample_sms">SMS text display</string>
+    <string name="notification_group_sample_facebook">Facebook text display</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp text display</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Önceden tanımlı uygulama ve Mi Band 2 simgesi uyarıları:
@@ -388,11 +394,12 @@
     <string name="action_tracker_step">Adımlar</string>
     <string name="action_tracker_distance">Mesafe</string>
     <string name="action_tracker_calorie">Kalori</string>
-    <string name="action_rest">Rest</string>
+    <string name="action_chart_filter_activity_no">No filter</string>
+    <string name="action_chart_filter_activity_active">Movement filter</string>
 
     <string name="step_tab_day">Günlük grafikler</string>
     <string name="step_tab_week">Haftalık grafikler</string>
-    <string name="step_tab_month">Monthly charts</string>
+    <string name="step_tab_month">Aylık grafikler</string>
     <string name="step_tab_goal">Etkinlik hedefleri</string>
     <string name="step_tab_settings">Ayarlar</string>
 
@@ -415,8 +422,8 @@
         <br><br><img src="ic_activity_awake"> uyanıklık zamanı
         <br><br><img src="ic_activity_rest_sofa"> uyanıkken dinlenme/oturma zamanı
         <br><br><img src="ic_activity_go_to_bed"> yatmadan önce
-        <br><br><img src="ic_battery_charging_full"> pil şarjı
-        <br><br><img src="ic_miband_block"> giyilmiyor
+        <br><br><img src="ic_activity_battery_charging_full"> pil şarjı
+        <br><br><img src="ic_activity_block"> giyilmiyor
         ]]>
     </string>
 
@@ -429,6 +436,7 @@
     <string name="sleep_details">Uyku ayrıntıları</string>
     <string name="sleep_assistant">Nabız uyku yardımcısı</string>
     <string name="sleep_assistant_summary">Daha doğru uyku verileri almanıza yardımcı olur (pil ömrünü kısaltır)</string>
+    <string name="sleep_assistant_show_pulse">Show the measured pulse values on the daily pulse graph</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> uyku süresi
@@ -439,18 +447,18 @@
         <br><br><img src="ic_activity_sleep_end"> uyku bitiş zamanı
         <br><br><img src="ic_activity_get_up"> yataktan kalkma zamanı
         <br><br><img src="ic_activity_active"> etkinlik zamanı
-        <br><br><img src="ic_miband_block"> giyilmiyor
+        <br><br><img src="ic_activity_block"> giyilmiyor
         ]]>
     </string>
 
     <!-- Pulse  monitoring -->
-    <string name="action_pulse">Nabzı göster</string>
-    <string name="action_chart_normalize">Normalize</string>
-    <string name="pulse_current">Anlık nabız</string>
+    <string name="action_pulse_current">Anlık nabız</string>
+    <string name="action_chart_normalize_minute">Measured  values</string>
+    <string name="action_chart_normalize_hour">Hourly average</string>
 
     <string name="pulse_tab_day">Günlük grafikler</string>
     <string name="pulse_tab_week">Haftalık grafikler</string>
-    <string name="pulse_tab_month">Monthly charts</string>
+    <string name="pulse_tab_month">Aylık grafikler</string>
     <string name="pulse_tab_settings">Ayarlar</string>
 
     <string name="pulse_title_signals">Sinyaller</string>
@@ -664,17 +672,17 @@
     <string name="action_setting">Ayarlar</string>
     <string name="action_delete">Sil</string>
     <string name="action_export">Dışa Aktar</string>
-    <string name="action_chart">Grafik</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_chart_sort_time_asc">Time ascending</string>
-    <string name="action_chart_sort_time_desc">Time descending</string>
-    <string name="action_chart_sort_step_asc">Step ascending</string>
-    <string name="action_chart_sort_step_desc">Step descending</string>
-    <string name="action_chart_sort_pulse_asc">Pulse ascending</string>
-    <string name="action_chart_sort_pulse_desc">Pulse descending</string>
-    <string name="action_chart_sort_lap_asc">Lap ascending</string>
-    <string name="action_chart_sort_lap_desc">Lap descending</string>
+    <string name="action_chart">Grafik</string>
+    <string name="action_chart_sort_time_asc">Zaman artan</string>
+    <string name="action_chart_sort_time_desc">Zaman aşağı iniş</string>
+    <string name="action_chart_sort_step_asc">Adım artan</string>
+    <string name="action_chart_sort_step_desc">Adım azalan</string>
+    <string name="action_chart_sort_pulse_asc">Nabız artan</string>
+    <string name="action_chart_sort_pulse_desc">Nabız azalan</string>
+    <string name="action_chart_sort_lap_asc">Kucak artışı</string>
+    <string name="action_chart_sort_lap_desc">Azalan tur sırası</string>
 
     <string name="power_on">Açık</string>
     <string name="screen_unlock">Ekran kilidini açma</string>
