@@ -192,8 +192,8 @@
     <string name="message_discovering_mi_band">Encontrando Mi Band 2 (le puede costar 1 minuto) &#8230;</string>
     <string name="message_discovered_no_mi_band">Mi Band 2 no encontrada</string>
     <string name="message_discovered_not_found_mi_band">Si la Mi Band 2 no se puede encontrar, encienda: Mi Fit/Play/Discoverable o empareje en las configuraciones de Bluetooth del dispositivo</string>
-    <string name="message_enable_notifications_access">Habilitar el acceso a notificaciones: Ajustes/Notificaciones/Acceso a notificaciones</string>
-    <string name="message_enable_notifications_access_4_4">Habilitar el acceso a notificaciones: Ajustes/Seguridad/Acceso a notificaciones</string>
+    <string name="message_enable_notification_listener_access">Habilitar el acceso a notificaciones: Ajustes/Notificaciones/Acceso a notificaciones</string>
+    <string name="message_enable_notification_listener_access_4_4">Habilitar el acceso a notificaciones: Ajustes/Seguridad/Acceso a notificaciones</string>
     <string name="message_open_settings">Configuraciones</string>
 
     <string name="message_deleted">Eliminado</string>
@@ -231,6 +231,8 @@
 
     <string name="message_premium_mode_only">Esta función sólo está disponible en modo premium</string>
     <string name="message_general_error">Se ha producido un error en la configuración (perdida de conexion), reintente de nuevo</string>
+
+    <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Bienvenido!</string>
@@ -275,6 +277,10 @@
     <string name="notification_group_filter_hint">Señal solo cuando la notificación (delimitador: enter, ignorar mayusculas)</string>
     <string name="notification_group_filter_contains">Contiene frases</string>
     <string name="notification_group_filter_not_contains">No contiene frases</string>
+
+    <string name="notification_group_sample_sms">SMS text display</string>
+    <string name="notification_group_sample_facebook">Facebook text display</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp text display</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Aplicación predefinida y señales de icono de Mi Band 2:
@@ -388,7 +394,8 @@
     <string name="action_tracker_step">Pasos</string>
     <string name="action_tracker_distance">Distancia</string>
     <string name="action_tracker_calorie">Calorias</string>
-    <string name="action_rest">Rest</string>
+    <string name="action_chart_filter_activity_no">No filter</string>
+    <string name="action_chart_filter_activity_active">Movement filter</string>
 
     <string name="step_tab_day">Gráficos diarios</string>
     <string name="step_tab_week">Gráficos semanales</string>
@@ -415,8 +422,8 @@
         <br><br><img src="ic_activity_awake"> tiempo de desvelo
         <br><br><img src="ic_activity_rest_sofa"> tiempo de descanso/sentado durante el desvelo
         <br><br><img src="ic_activity_go_to_bed"> hora de dormir
-        <br><br><img src="ic_battery_charging_full"> bateria cargando
-        <br><br><img src="ic_miband_block"> no llevando la pulsera
+        <br><br><img src="ic_activity_battery_charging_full"> bateria cargando
+        <br><br><img src="ic_activity_block"> no llevando la pulsera
         ]]>
     </string>
 
@@ -429,6 +436,7 @@
     <string name="sleep_details">Detalles del sueño</string>
     <string name="sleep_assistant">Asistente de sueño de ritmo cardíaco</string>
     <string name="sleep_assistant_summary">Ayuda a obtener datos del sueño más precisos (reduce la duración de la batería)</string>
+    <string name="sleep_assistant_show_pulse">Show the measured pulse values on the daily pulse graph</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> tiempo de sueño
@@ -439,15 +447,15 @@
         <br><br><img src="ic_activity_sleep_end"> hora de fin de sueño
         <br><br><img src="ic_activity_get_up"> tiempo fuera de la cama
         <br><br><img src="ic_activity_active"> tiempo activo
-        <br><br><img src="ic_miband_block"> no llevando la pulsera
+        <br><br><img src="ic_activity_block"> no llevando la pulsera
         ]]>
     </string>
 
 
     <!-- Pulse  monitoring -->
-    <string name="action_pulse">Mostrar pulso</string>
-    <string name="action_chart_normalize">Normalize</string>
-    <string name="pulse_current">Pulso actual</string>
+    <string name="action_pulse_current">MPulso actual</string>
+    <string name="action_chart_normalize_minute">Measured  values</string>
+    <string name="action_chart_normalize_hour">Hourly average</string>
 
     <string name="pulse_tab_day">Gráficos diarios</string>
     <string name="pulse_tab_week">Gráficos semanales</string>
