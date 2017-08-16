@@ -192,8 +192,8 @@
     <string name="message_discovering_mi_band">Ricerca Mi Band 2 (può richiedere 1 minuto) &#8230;</string>
     <string name="message_discovered_no_mi_band">Mi Band 2 non trovata</string>
     <string name="message_discovered_not_found_mi_band">Se la Mi Band 2 non viene trovata, Attiva: Mi Fit/Funzioni/Rilevabile oppure effettua l\'accoppiamento nelle impostazioni bluetooth</string>
-    <string name="message_enable_notifications_access">Abilita accesso notifiche: Impostazioni/Notifiche/Accesso notifiche</string>
-    <string name="message_enable_notifications_access_4_4">Abilita accesso notifiche: Impostazioni/Sicurezza/Accesso notifiche</string>
+    <string name="message_enable_notification_listener_access">Abilita accesso notifiche: Impostazioni/Notifiche/Accesso notifiche</string>
+    <string name="message_enable_notification_listener_access_4_4">Abilita accesso notifiche: Impostazioni/Sicurezza/Accesso notifiche</string>
     <string name="message_open_settings">Impostazioni</string>
 
     <string name="message_deleted">Cancella</string>
@@ -231,6 +231,8 @@
 
     <string name="message_premium_mode_only">Questa funzione è disponibile solo in verione premium</string>
     <string name="message_general_error">Impostazione fallita (connessione persa), riprova</string>
+
+    <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Benvenuto!</string>
@@ -275,6 +277,10 @@
     <string name="notification_group_filter_hint">Usa una o più frasi (vai a capo per mettere più frasi; nessuna distione tra maiuscole e minuscole)</string>
     <string name="notification_group_filter_contains">Solo se contiene:</string>
     <string name="notification_group_filter_not_contains">Tutte tranne:</string>
+
+    <string name="notification_group_sample_sms">SMS text display</string>
+    <string name="notification_group_sample_facebook">Facebook text display</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp text display</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Icone predefinite in Mi Band 2:
@@ -388,7 +394,8 @@
     <string name="action_tracker_step">Passi</string>
     <string name="action_tracker_distance">Distanza</string>
     <string name="action_tracker_calorie">Calorie</string>
-    <string name="action_rest">Riposo</string>
+    <string name="action_chart_filter_activity_no">No filter</string>
+    <string name="action_chart_filter_activity_active">Movement filter</string>
 
     <string name="step_tab_day">Grafico giornaliero</string>
     <string name="step_tab_week">Grafici settimanali</string>
@@ -415,8 +422,8 @@
         <br><br><img src="ic_activity_awake"> Tempo veglia
         <br><br><img src="ic_activity_rest_sofa"> tempo di riposo/seduto durante il tempo di veglia
         <br><br><img src="ic_activity_go_to_bed"> A letto
-        <br><br><img src="ic_battery_charging_full"> Ricarica batteria
-        <br><br><img src="ic_miband_block"> Non indossato
+        <br><br><img src="ic_activity_battery_charging_full"> Ricarica batteria
+        <br><br><img src="ic_activity_block"> Non indossato
         ]]>
     </string>
 
@@ -429,6 +436,7 @@
     <string name="sleep_details">Dettagli sonno</string>
     <string name="sleep_assistant">Frequenza cardiaca assistente sonno</string>
     <string name="sleep_assistant_summary">Misura la frequenza cardiaca durante il sonno per migliorare la precisione dei dati (consuma più batteria)</string>
+    <string name="sleep_assistant_show_pulse">Show the measured pulse values on the daily pulse graph</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> Durata sonno
@@ -439,14 +447,14 @@
         <br><br><img src="ic_activity_sleep_end"> Ora risveglio
         <br><br><img src="ic_activity_get_up"> Alzato dal letto
         <br><br><img src="ic_activity_active"> Attivo
-        <br><br><img src="ic_miband_block"> Non indossato
+        <br><br><img src="ic_activity_block"> Non indossato
         ]]>
     </string>
 
     <!-- Pulse  monitoring -->
-    <string name="action_pulse">Mostra Battito</string>
-    <string name="action_chart_normalize">Normalizzare</string>
-    <string name="pulse_current">Battito corrente</string>
+    <string name="action_pulse_current">Battito corrente</string>
+    <string name="action_chart_normalize_minute">Measured  values</string>
+    <string name="action_chart_normalize_hour">Hourly average</string>
 
     <string name="pulse_tab_day">Grafico giornaliero</string>
     <string name="pulse_tab_week">Grafici settimanali</string>
