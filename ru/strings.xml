@@ -232,7 +232,7 @@
     <string name="message_premium_mode_only">Эта функция доступна только в премиуме</string>
     <string name="message_general_error">Ошибка (соединение потеряно), попробуйте снова</string>
 
-    <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
+    <string name="message_enable_notification_policy_access">Включите доступ к режиму \"Не беспокоить\"</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Добро пожаловать!</string>
@@ -278,9 +278,9 @@
     <string name="notification_group_filter_contains">Есть любая фраза</string>
     <string name="notification_group_filter_not_contains">Нет ни одной фразы</string>
 
-    <string name="notification_group_sample_sms">SMS text display</string>
-    <string name="notification_group_sample_facebook">Facebook text display</string>
-    <string name="notification_group_sample_whatsapp">WhatsApp text display</string>
+    <string name="notification_group_sample_sms">Текст SMS сообщения</string>
+    <string name="notification_group_sample_facebook">Текст сообщения Facebook</string>
+    <string name="notification_group_sample_whatsapp">Текст сообщения WhatsApp</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Предустановленные иконки уведомлений Mi Band 2 и приложений:
@@ -394,8 +394,8 @@
     <string name="action_tracker_step">Шаги</string>
     <string name="action_tracker_distance">Расстояние</string>
     <string name="action_tracker_calorie">Калории</string>
-    <string name="action_chart_filter_activity_no">No filter</string>
-    <string name="action_chart_filter_activity_active">Movement filter</string>
+    <string name="action_chart_filter_activity_no">Без фильтра</string>
+    <string name="action_chart_filter_activity_active">Только движение</string>
 
     <string name="step_tab_day">День</string>
     <string name="step_tab_week">Неделя</string>
@@ -436,7 +436,7 @@
     <string name="sleep_details">Подробнее о сне</string>
     <string name="sleep_assistant">Помощник отслеживания пульса во время сна</string>
     <string name="sleep_assistant_summary">Позволяет получить более точные данные о сне (повышенный расход батареи)</string>
-    <string name="sleep_assistant_show_pulse">Show the measured pulse values on the daily pulse graph</string>
+    <string name="sleep_assistant_show_pulse">Отображать измерения в дневных графиках пульса</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> время сна
@@ -453,8 +453,8 @@
 
     <!-- Pulse  monitoring -->
     <string name="action_pulse_current">Текущий пульс</string>
-    <string name="action_chart_normalize_minute">Measured  values</string>
-    <string name="action_chart_normalize_hour">Hourly average</string>
+    <string name="action_chart_normalize_minute">Измеренные значения</string>
+    <string name="action_chart_normalize_hour">Усереднённые значения</string>
 
     <string name="pulse_tab_day">День</string>
     <string name="pulse_tab_week">Неделя</string>
