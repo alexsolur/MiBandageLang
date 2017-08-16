@@ -192,8 +192,8 @@
     <string name="message_discovering_mi_band">Поиск Mi Band 2 (это может занять около минуты) &#8230;</string>
     <string name="message_discovered_no_mi_band">Mi Band 2 не подключён</string>
     <string name="message_discovered_not_found_mi_band">Если Mi Band 2 не обнаружен, включите: Mi Fit/Уведомления/Видимость или свяжите через настройки Bluetooth устройства</string>
-    <string name="message_enable_notifications_access">Разрешите доступ к уведомлениям</string>
-    <string name="message_enable_notifications_access_4_4">Разрешите доступ к уведомлениям</string>
+    <string name="message_enable_notification_listener_access">Разрешите доступ к уведомлениям</string>
+    <string name="message_enable_notification_listener_access_4_4">Разрешите доступ к уведомлениям</string>
     <string name="message_open_settings">Настройки</string>
 
     <string name="message_deleted">Удалено</string>
@@ -231,6 +231,8 @@
 
     <string name="message_premium_mode_only">Эта функция доступна только в премиуме</string>
     <string name="message_general_error">Ошибка (соединение потеряно), попробуйте снова</string>
+
+    <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Добро пожаловать!</string>
@@ -275,6 +277,10 @@
     <string name="notification_group_filter_hint">Уведомлять, если в уведомлении (разделитель: enter, без учёта регистра)</string>
     <string name="notification_group_filter_contains">Есть любая фраза</string>
     <string name="notification_group_filter_not_contains">Нет ни одной фразы</string>
+
+    <string name="notification_group_sample_sms">SMS text display</string>
+    <string name="notification_group_sample_facebook">Facebook text display</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp text display</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Предустановленные иконки уведомлений Mi Band 2 и приложений:
@@ -388,7 +394,8 @@
     <string name="action_tracker_step">Шаги</string>
     <string name="action_tracker_distance">Расстояние</string>
     <string name="action_tracker_calorie">Калории</string>
-    <string name="action_rest">Отдых</string>
+    <string name="action_chart_filter_activity_no">No filter</string>
+    <string name="action_chart_filter_activity_active">Movement filter</string>
 
     <string name="step_tab_day">День</string>
     <string name="step_tab_week">Неделя</string>
@@ -415,8 +422,8 @@
         <br><br><img src="ic_activity_awake"> время бодрствования
         <br><br><img src="ic_activity_rest_sofa"> дневной отдых/неактивность
         <br><br><img src="ic_activity_go_to_bed"> время засыпания
-        <br><br><img src="ic_battery_charging_full"> зарядка
-        <br><br><img src="ic_miband_block"> не надет
+        <br><br><img src="ic_activity_battery_charging_full"> зарядка
+        <br><br><img src="ic_activity_block"> не надет
         ]]>
     </string>
 
@@ -429,6 +436,7 @@
     <string name="sleep_details">Подробнее о сне</string>
     <string name="sleep_assistant">Помощник отслеживания пульса во время сна</string>
     <string name="sleep_assistant_summary">Позволяет получить более точные данные о сне (повышенный расход батареи)</string>
+    <string name="sleep_assistant_show_pulse">Show the measured pulse values on the daily pulse graph</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> время сна
@@ -439,18 +447,18 @@
         <br><br><img src="ic_activity_sleep_end"> время оканчания сна
         <br><br><img src="ic_activity_get_up"> время подъёма
         <br><br><img src="ic_activity_active"> активность
-        <br><br><img src="ic_miband_block"> не надет
+        <br><br><img src="ic_activity_block"> не надет
         ]]>
     </string>
 
     <!-- Pulse  monitoring -->
-    <string name="action_pulse">Показывать пульс</string>
-    <string name="action_chart_normalize">Усереднить</string>
-    <string name="pulse_current">Текущий пульс</string>
+    <string name="action_pulse_current">Текущий пульс</string>
+    <string name="action_chart_normalize_minute">Measured  values</string>
+    <string name="action_chart_normalize_hour">Hourly average</string>
 
-    <string name="pulse_tab_day">Измерения за день</string>
-    <string name="pulse_tab_week">Измерения за неделю</string>
-    <string name="pulse_tab_month">Monthly charts</string>
+    <string name="pulse_tab_day">День</string>
+    <string name="pulse_tab_week">Неделя</string>
+    <string name="pulse_tab_month">Месяц</string>
     <string name="pulse_tab_settings">Настройки</string>
 
     <string name="pulse_title_signals">Сигналы</string>
