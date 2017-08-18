@@ -454,8 +454,6 @@
 
     <!-- Pulse  monitoring -->
     <string name="action_pulse_current">MPulso actual</string>
-    <string name="action_chart_normalize_minute">Measured  values</string>
-    <string name="action_chart_normalize_hour">Hourly average</string>
 
     <string name="pulse_tab_day">Gráficos diarios</string>
     <string name="pulse_tab_week">Gráficos semanales</string>
@@ -673,9 +671,12 @@
     <string name="action_setting">Configuraciones</string>
     <string name="action_delete">Eliminar</string>
     <string name="action_export">Exportar</string>
-    <string name="action_chart">Gráfico</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
+
+    <string name="action_chart">Gráfico</string>
+    <string name="action_chart_normalize_minute">Measured values</string>
+    <string name="action_chart_normalize_hour">Hourly average</string>
     <string name="action_chart_sort_time_asc">Time ascending</string>
     <string name="action_chart_sort_time_desc">Time descending</string>
     <string name="action_chart_sort_step_asc">Step ascending</string>
