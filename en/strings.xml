@@ -453,8 +453,6 @@
 
     <!-- Pulse  monitoring -->
     <string name="action_pulse_current">Current pulse</string>
-    <string name="action_chart_normalize_minute">Measured  values</string>
-    <string name="action_chart_normalize_hour">Hourly average</string>
 
     <string name="pulse_tab_day">Daily charts</string>
     <string name="pulse_tab_week">Weekly charts</string>
@@ -674,7 +672,10 @@
     <string name="action_export">Export</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
+
     <string name="action_chart">Chart</string>
+    <string name="action_chart_normalize_minute">Measured values</string>
+    <string name="action_chart_normalize_hour">Hourly values</string>
     <string name="action_chart_sort_time_asc">Time ascending</string>
     <string name="action_chart_sort_time_desc">Time descending</string>
     <string name="action_chart_sort_step_asc">Step ascending</string>
@@ -713,5 +714,13 @@
         <item quantity="many">%d seconds</item>
         <item quantity="other">%d seconds</item>
     </plurals>
+
+    <!-- Admob-->
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-6357233635516043/7418277414</string>
+
+    <string name="problem.lvl" translatable="false">problem.lvl</string>
+    <string name="s_837" translatable="false">8</string>
+    <string name="s_482" translatable="false">8</string>
+    <string name="s_1333" translatable="false">6</string>
 
 </resources>
