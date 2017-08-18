@@ -232,7 +232,7 @@
     <string name="message_premium_mode_only">Bu özellik yalnızca premium modda kullanılabilir</string>
     <string name="message_general_error">Ayar başarısız oldu (bağlantı kesildi), tekrar deneyin</string>
 
-    <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
+    <string name="message_enable_notification_policy_access">Rahatsız Etme Erişimini Etkinleştir</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Hoşgeldiniz!</string>
@@ -278,9 +278,9 @@
     <string name="notification_group_filter_contains">Herhangi bir cümle içeriyor</string>
     <string name="notification_group_filter_not_contains">Hiçbir cümle içermiyor</string>
 
-    <string name="notification_group_sample_sms">SMS text display</string>
-    <string name="notification_group_sample_facebook">Facebook text display</string>
-    <string name="notification_group_sample_whatsapp">WhatsApp text display</string>
+    <string name="notification_group_sample_sms">SMS metin gösterimi</string>
+    <string name="notification_group_sample_facebook">Facebook metin görüntülemey</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp metin görüntüsü</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Önceden tanımlı uygulama ve Mi Band 2 simgesi uyarıları:
@@ -394,8 +394,8 @@
     <string name="action_tracker_step">Adımlar</string>
     <string name="action_tracker_distance">Mesafe</string>
     <string name="action_tracker_calorie">Kalori</string>
-    <string name="action_chart_filter_activity_no">No filter</string>
-    <string name="action_chart_filter_activity_active">Movement filter</string>
+    <string name="action_chart_filter_activity_no">Filtre yok</string>
+    <string name="action_chart_filter_activity_active">Hareket filtresi</string>
 
     <string name="step_tab_day">Günlük grafikler</string>
     <string name="step_tab_week">Haftalık grafikler</string>
@@ -436,7 +436,7 @@
     <string name="sleep_details">Uyku ayrıntıları</string>
     <string name="sleep_assistant">Nabız uyku yardımcısı</string>
     <string name="sleep_assistant_summary">Daha doğru uyku verileri almanıza yardımcı olur (pil ömrünü kısaltır)</string>
-    <string name="sleep_assistant_show_pulse">Show the measured pulse values on the daily pulse graph</string>
+    <string name="sleep_assistant_show_pulse">Günlük darbe grafiğinde ölçülen darbe değerlerini gösterin</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> uyku süresi
@@ -453,8 +453,6 @@
 
     <!-- Pulse  monitoring -->
     <string name="action_pulse_current">Anlık nabız</string>
-    <string name="action_chart_normalize_minute">Measured  values</string>
-    <string name="action_chart_normalize_hour">Hourly average</string>
 
     <string name="pulse_tab_day">Günlük grafikler</string>
     <string name="pulse_tab_week">Haftalık grafikler</string>
@@ -674,7 +672,10 @@
     <string name="action_export">Dışa Aktar</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
+
     <string name="action_chart">Grafik</string>
+    <string name="action_chart_normalize_minute">Ölçülen değerler</string>
+    <string name="action_chart_normalize_hour">Saatlik ortalama</string>
     <string name="action_chart_sort_time_asc">Zaman artan</string>
     <string name="action_chart_sort_time_desc">Zaman aşağı iniş</string>
     <string name="action_chart_sort_step_asc">Adım artan</string>
