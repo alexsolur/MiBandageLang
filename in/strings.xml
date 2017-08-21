@@ -232,7 +232,7 @@
     <string name="message_premium_mode_only">Fitur ini hanya tersedia di mode premium</string>
     <string name="message_general_error">Pengaturan gagal (koneksi hilang), coba lagi</string>
 
-    <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
+    <string name="message_enable_notification_policy_access">Aktifkan akses mode jangan ganggu</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Selamat Datang!</string>
@@ -278,9 +278,9 @@
     <string name="notification_group_filter_contains">Berisi frase apapun</string>
     <string name="notification_group_filter_not_contains">Tidak mengandung frase</string>
 
-    <string name="notification_group_sample_sms">SMS text display</string>
-    <string name="notification_group_sample_facebook">Facebook text display</string>
-    <string name="notification_group_sample_whatsapp">WhatsApp text display</string>
+    <string name="notification_group_sample_sms">Tampilkan pesan SMS</string>
+    <string name="notification_group_sample_facebook">Tampilkan pesan Facebook</string>
+    <string name="notification_group_sample_whatsapp">Tampilkan pesan WhatsApp</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Aplikasi yang telah ditentukan sebelumnya dan tanda ikon Mi Band 2:
@@ -394,12 +394,12 @@
     <string name="action_tracker_step">Langkah</string>
     <string name="action_tracker_distance">Jarak</string>
     <string name="action_tracker_calorie">Kalori</string>
-    <string name="action_chart_filter_activity_no">No filter</string>
-    <string name="action_chart_filter_activity_active">Movement filter</string>
+    <string name="action_chart_filter_activity_no">Tidak ada filter</string>
+    <string name="action_chart_filter_activity_active">Gerakan filter</string>
 
     <string name="step_tab_day">Bagan harian</string>
     <string name="step_tab_week">Bagan mingguan</string>
-    <string name="step_tab_month">Monthly charts</string>
+    <string name="step_tab_month">Bagan bulanan</string>
     <string name="step_tab_goal">Tujuan kegiatan</string>
     <string name="step_tab_settings">Atur</string>
 
@@ -430,13 +430,13 @@
     <!-- Sleep monitoring -->
     <string name="sleep_tab_day">Bagan harian</string>
     <string name="sleep_tab_week">Bagan mingguan</string>
-    <string name="sleep_tab_month">Monthly charts</string>
+    <string name="sleep_tab_month">Bagan bulanan</string>
     <string name="sleep_tab_settings">Atur</string>
 
     <string name="sleep_details">Rincian Tidur</string>
     <string name="sleep_assistant">Asisten detak jantung saat tidur</string>
     <string name="sleep_assistant_summary">Membantu mendapatkan data tidur yang lebih tepat (mengurangi masa pakai baterai)</string>
-    <string name="sleep_assistant_show_pulse">Show the measured pulse values on the daily pulse graph</string>
+    <string name="sleep_assistant_show_pulse">Tampilkan nilai dari bagan detak harian</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> selama waktu tidur
@@ -453,10 +453,11 @@
 
     <!-- Pulse  monitoring -->
     <string name="action_pulse_current">Detak jantung saat ini</string>
-
+    <string name="action_chart_normalize_minute">Nilai terukur</string>
+    <string name="action_chart_normalize_hour">Rata-rata per jam</string>
     <string name="pulse_tab_day">Bagan harian</string>
     <string name="pulse_tab_week">Bagan mingguan</string>
-    <string name="pulse_tab_month">Monthly charts</string>
+    <string name="pulse_tab_month">Bagan bulanan</string>
     <string name="pulse_tab_settings">Atur</string>
 
     <string name="pulse_title_signals">Tanda</string>
