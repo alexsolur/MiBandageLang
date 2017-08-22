@@ -18,6 +18,11 @@
     <string name="drawer_nav_feedback">Umpan balik</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
+    <string name="shortcut_touch">Sentuh</string>
+    <string name="shortcut_step">Aktifitas</string>
+    <string name="shortcut_pulse">Detak</string>
+    <string name="shortcut_time_alarm">Alarm</string>
+
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Waktu koneksi: %1$s</string>
     <string name="foreground_service_disconnected_text">Mi Band 2 tidak terhubung</string>
@@ -453,8 +458,7 @@
 
     <!-- Pulse  monitoring -->
     <string name="action_pulse_current">Detak jantung saat ini</string>
-    <string name="action_chart_normalize_minute">Nilai terukur</string>
-    <string name="action_chart_normalize_hour">Rata-rata per jam</string>
+
     <string name="pulse_tab_day">Bagan harian</string>
     <string name="pulse_tab_week">Bagan mingguan</string>
     <string name="pulse_tab_month">Bagan bulanan</string>
@@ -675,8 +679,8 @@
     <string name="action_launch_mi_fit">Mi Fit</string>
 
     <string name="action_chart">Grafik</string>
-    <string name="action_chart_normalize_minute">Measured values</string>
-    <string name="action_chart_normalize_hour">Hourly average</string>
+    <string name="action_chart_normalize_minute">Nilai terukur</string>
+    <string name="action_chart_normalize_hour">Rata-rata per jam</string>	
     <string name="action_chart_sort_time_asc">Time ascending</string>
     <string name="action_chart_sort_time_desc">Time descending</string>
     <string name="action_chart_sort_step_asc">Step ascending</string>
