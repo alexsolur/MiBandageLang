@@ -1,64 +1,82 @@
-Uygulama şu anda yalnızca Xiaomi Mi Band 2'yi destekliyor.
+<b>Uygulama şu anda yalnızca Xiaomi Mi Band 2'yi destekliyor.</b>
 
-Mi Bandage, resmi Mi Fit uygulamasının aynı cihaza kurulmasını gerektiriyor. İlk önce Mi Fit uygulamasında Xiaomi Mi Band 2'yi eşleştirmeniz gerekir; o zaman Mi Bandaj'ı kullanabilirsiniz.
+<b>Resmi Mi Fit uygulamasının aynı cihaza kurulmasını gerekir. İlk başta Mi Fit uygulamasında eşleştirmeniz gerekir, o zaman Mi Bandage'ı kullanabilirsiniz.</b>
 
-<b>MIUI kullanıcıları: Mi Band 2 bulunamazsa veya Mi Fit uygulamasını senkronize ederken sorun yaşıyorsanız, BToolkit, nRF Connect veya benzeri Bluetooth yöneticisi uygulamasını yükleyin ve eşleştirmeyi kaldırın.</b>
+<b>MIUI kullanıcılarına:</b>
+ - Son uygulamalar ekranı: Mi bandage uygulamasını kilitleyin (uygulamayı çekin ve kilit simgesini tıklayın).
+ - Güvenlik uygulaması ekranı: pil / uygulama pil tasarruf cihazı Mi Bandage uygulamasını kısıtlamayı ayarlamayın.
+ - Mi Band 2 bulunamazsa veya Mi Fit uygulamasını senkronize ederken sorun yaşarsanız, BToolkit, nRF Connect veya benzeri bir Bluetooth yöneticisi uygulamasını kurun ve tüm eşleştirmeleri kaldırıp tekrar deneyin.
+ 
+ <b>Başlıca Özellikler:</b>
+- Bileklik kalan şarj ve tahmini bitiş süresini gösterir
+- <b>Gelen telefon çağrılarını ve arayan kimliğini türkçe karekter sorunu olmadan gösterir</b>
+- Cevapsız telefon çağrılarını ve arayan kimliğini gösterir
+- Uygulama bildirimlerini ve içeriğini gösterir
 
-Özellikler:
-- Mi Band 2 çifti (Mi fit ekran kilidini açma özelliğinde bir sorun yaşarsanız)
-- pil durumunu göster
-- son bağlantı süresini göster
-- son kesme süresini göster
-- <b> Mi Band 2'de arayan ekranı ve otomatik karakter dönüşümüyle gelen arama sinyali</b>
-- <b> Mi Band 2'de arayanın gösterdiği cevapsız çağrı sinyali</b>
-- <b> Uygulamanın bildirim metinlerini Mi Band 2'de görüntüler</b>
-- <b> Mi Band 2 bağlantı özellikleri:</b>
-&rarr; Bildirim yok
- &#8226; Mi Band 2 titreşir
- &#8226; cihaz ekranı uyanıyor
-&rarr; Bildirimde bulunmak
- &#8226; Mi Band 2, 1,2,3 kez simge titreşir ve görüntüler, bildirim sayısına dayalı simge, Mi Band 2 simgesi başına bir kez simge
- &#8226; Bildirim alındığında derhal sinyal
- &#8226; cihaza bağlanırken
- &#8226; hatırlatma sinyali ve tekrar aralığı
- &#8226; yalnızca ekran kapalıyken sinyal verir
- &#8226; Devam eden bildirimler etkin veya devre dışı
- &#8226; cihaz ekranı uyanıyor
-- <b> Mi Band 2 bağlantısının kesilmesi özellikleri:</b>
- &#8226; Cihazda zil sesini çalmak, titreşim, ekran uyanmak
- &#8226; cihaz izleme aracı: uzakta olduğunuzda cihazı bir kişi kurcalamışsa, öğreneceksiniz (ekranı açıp açın, hareketi): cihazdaki bildirim ve Mi Band 2'deki göz simgesi
-- <b> bildirim izleme:</b>
- &#8226; uygulamalar bildiriminde benzersiz sinyal konfigürasyonu
- &#8226; uygulamanın bildirim metinlerini Mi Band 2'de görüntüler
-- <b> dokunma izleme (Mi Band 2 dokunmatik düğmesini kullanın):</b>
- &#8226; cevaplama, hoparlör çağrısı (kulaklıklı mikrofon seti bağlı olduğunda başlatma müzik uygulamasını kapat ayarı, aksi takdirde müzik başlar) (tüm cihazlar desteklenmiyor)
- &#8226; arama reddetme, bitme (tüm cihazlar desteklenmiyor)
- &#8226; çağrı sesini kapatma ve kapatma
- &#8226; cihazımı bul
- &#8226; bildirimleri tekrarla
- &#8226; müzik çaları denetleme (çalma, duraklatma, ileri, ses seviyesi yukarı / aşağı)
- &#8226; zamanlayıcıyı / kronometreyi başlat, kalan / geçen süre gösteriliyor
- &#8226; uygulama başlat
- &#8226; Tasker task launcher
-- <b>step monitoring:</b>
-  &#8226; günlük grafik: ölçülen değerleri görüntüler
-- <b> nabız izleme:</b>
- &#8226; ayarlayabilirsiniz: izleme başlangıç ??sinyali, gösterge darbesi, yüksek darbe sinyali, başlangıç ??zamanı, bitiş zamanı, tekrarlama aralığı, geçerli düşük değer, geçerli yüksek değer
- &#8226; akım darbesinin gösterilmesi
- &#8226; günlük grafik: ölçülen değerleri görüntüler
-- <b> Zaman denetimi:</b>
- &#8226; zamanlayıcı: Alarm türü, hatırlatıcı, Mi Band 2'de kalan süre göstergesi
- &#8226; kronometre: alarm türü, hatırlatıcı, geçen süre, tur zamanı kaydı, Mi Band 2'de tur süresi gösteriliyor
-- <b> izleme kaybı:</b>
- &#8226; Mi Band 2 sinyali: belirlenen süre geçtikten sonra Mi Band 2 sizi uyaracaktır
- &#8226; aygıt sinyalleri: belirtilen süre dolduğunda, aygıt bilekliğe bağlı değilse tekrar tekrar sinyal gönderir. Bu, cihazı bulmayı kolaylaştırır. Birisi cihazı bulursa ve kilitli ise kimin haber vereceğini bilmediğinden, bir mesaj görüntüleyebilirsiniz.
-- <b> ajan günlüğü:</b>
- &#8226; cihaz izleme aracısı tarafından tespit edilen olayları görüntüleme
+<b>Mi Band 2 bağlanınca:</b>
+ - Telefon zil sesini değiştirebilir
+&#8226; bekleyen bildirim yoksa
+ - Mi Band 2 titreşim verebilir
+ - Telefon ekranını açabilir
+&#8226; bildirim varsa
+ - Titreşimle ve simge ile uyarabilir
+ - Telefona bildirim geldiğinde anında bildirir
+ - Telefona ve bileklik bağlandığında bildirir
+ - Tekrar tekrar bildirim gönderebilir
+ - Sadece ekran kapalıyken bildirim gelmesini sağlayabilirsiniz
+ - Sürekli bildirim gelmesini sağlaya bilir veya engeleye bilirsiniz
 
-Diller:
-Macarca
-İngilizce
-Rusça (Alexander Solotsky  tarafından çevrildi)
-Portekizce (çeviri: Bruno Lopes)
-Türkçe (çeviri: Fatih GÜL)
-Yunan (çeviri: Alexandros Apostolidis)
+<b>Mi Band 2 bağlantı kopunca:</b>
+ - Titreşimle ve simge ile uyarabilir
+ - Telefonda zil çaldırabilir, tetreşim verip ekranı açabilirsiniz
+ - Zil sesi yüksekliğini değiştirebilirsiniz
+ - Cihaz izleyici ile: uzakta olduğunuzda telefonla oynamış biri varsa bu bilebilirsiniz
+
+<b>Bildirim izleme:</b>
+ - Birbirine karışmayan uygulamaya özel bildirimler almanızı sağlar
+ - Bilekliklte uygulama ve içeriği görüntüleyebilirsiniz
+
+<b>Dokunma izleme (bileklikteki dokunma tuşunu kullanarak):</b>
+ - Çağrıyı cevaplayabilme, dıştan konuşmayı açarak yapabilirsiniz (tüm cihazlar destekleyemeyebilir)
+ - Çağrıyı reddetme, sonlandırma (tüm cihazlar destekleyemeyebilir)
+ - Çağrıyı sessize alma 
+ - Telefonumu bul
+ - Telefondaki bildirimleri tekrar ettirme
+ - Müzik oynatıcıyı kontrol etme (çal, duraklat, sonraki, önceki, sesi kıs/aç, müzik bilgisi)
+ - Kronometre ve diğer sayıcıları başlatma durdurma ve bilgileri görebilme
+ - Uygulama başlatabileme
+ - Tasker görevlerini başlatabilme
+
+<b>Adım izleyici:</b>
+ - Günlük/haftalık/aylık grafikler: değerleri anlaşılır şekilde takip edebilirsiniz
+ - Kendi hedeflerinizi girip takip edebilirsiniz
+
+<b>Uyku izleyici:</b>
+ - Günlük grafik: değerleri anlaşılır şekilde takip edebilirsiniz
+ 
+<b>Nabız izleyici:</b>
+ - Sürekli ölçüm için kendinize özgü ayarlar yapıp anlık değeri, yüksek ve düşük uyarıları takip edebilirsiniz
+ - O anki nabız ölçümü yapabilirsiniz
+ - ve bunları günlük/haftalık/aylık anlaşılır grafiklerle takip edebilirsiniz
+
+<b>Alarm/süre izleme:</b>
+ - Telefon alarmını kullanarak bildirim gönderebilirsiniz
+ - Kendi alarm tanımlarını yapabilirsiniz
+ - Kronometre: alarm türü, hatırlatma, kalan süre nin bileklikte gösterir
+ - Tur süresi ölçer: alarm type, hatırlatma, geçen süre, tur takibi, tur süresinin bileklikte gösterir
+ - Süresi ölçer: zaman aralıkları belirleyebilirsiniz
+
+<b>Kayıp izleme:</b>
+ - Bileklikte bildirim: belirlenen süre aşımında bilekliğinizde uyarı verdirebilme
+ - Telefonda bildirim: belirtilen süre dolduğunda, telefon bilekliğe bağlı değilse tekrar tekrar uyarı gönderir. Bu, telefonu daha kolay bulmanızı sağlar.
+
+<b>İzleme kayıtları:</b> 
+ - Aygıt izleme aracı tarafından algılanan olayları görüntüleyebilirsiniz.
+
+<b>Uygulamanın desteklediği diller (Eğer başka bir dili tercüme etmek isterseniz lütfen bana e-posta gönderin):</b>
+Turkish (Fatih GÜL, Mustafa EZDEMİR (Güncel çeviri)) 
+Hungarian
+English
+Russian (Александр Солоцкий - https://4pda.ru/forum/index.php?showtopic=783175)
+Portuguese (Bruno Lopes)
+Greek (Alexandros Apostolidis)

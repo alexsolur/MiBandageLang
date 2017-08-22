@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_connected_have_notif_counter">
-        <item>Mi Band 2 simgesi başına bir kez</item>
-        <item>Bildirim sayısı</item>
+        <item>Bileklik başına bir kere</item>
+        <item>Bildirim sayısı kadar</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -83,20 +83,20 @@
     </integer-array>
 
     <string-array name="notification_group_counter">
-        <item>Bir uyarı</item>
-        <item>Başvuru başına bir kez</item>
-        <item>Bildirim sayısı</item>
+        <item>Bir kere bildir</item>
+        <item>Her uygulama için bir kere bildir</item>
+        <item>Tümü için bildirim sayısı</item>
     </string-array>
 
     <string-array name="touch_call_mute_ringer_mode">
-        <item>Titret</item>
-        <item>Rahatsız etmeyin (yalnızca alarmlar)</item>
+        <item>Titreşim</item>
+        <item>Rahatsısz etme (alarm hariç)</item>
     </string-array>
 
     <string-array name="touch_music_player">
-        <item>Varsayılan müzik çalar</item>
-        <item>Google Play Müzik</item>
-        <item>Spotify Müzik</item>
+        <item>Varsayılan müzik uygulaması</item>
+        <item>Google Play Music</item>
+        <item>Spotify Music</item>
     </string-array>
 
     <string-array name="touch_music_player_values">
@@ -106,7 +106,7 @@
     </string-array>
 
     <string-array name="touch_music_info">
-        <item>Bildirim yok</item>
+        <item>Bildirim olmasın</item>
         <item>Sanatçı#Başlık</item>
         <item>Sanatçı, Başlık</item>
         <item>Başlık</item>
@@ -120,7 +120,7 @@
     </string-array>
 
     <string-array name="pref_timer_time_interval_repeat">
-        <item>Durdur</item>
+        <item>Kapalı</item>
         <item>1 dakika</item>
         <item>2 dakika</item>
         <item>3 dakika</item>
@@ -176,16 +176,16 @@
     </integer-array>
 
     <string-array name="notification_group_text_content_slice">
-        <item>1 dilim</item>
-        <item>2 dilim</item>
-        <item>3 dilim</item>
-        <item>4 dilim</item>
-        <item>5 dilim</item>
-        <item>6 dilim</item>
-        <item>7 dilim</item>
-        <item>8 dilim</item>
-        <item>9 dilim</item>
-        <item>10 dilim</item>
+        <item>1 parça</item>
+        <item>2 parça</item>
+        <item>3 parça</item>
+        <item>4 parça</item>
+        <item>5 parça</item>
+        <item>6 parça</item>
+        <item>7 parça</item>
+        <item>8 parça</item>
+        <item>9 parça</item>
+        <item>10 parça</item>
     </string-array>
 
     <integer-array name="notification_group_text_content_slice_values">
