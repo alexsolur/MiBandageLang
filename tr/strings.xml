@@ -5,21 +5,21 @@
     <string name="navigation_drawer_close">Menüyü kapat</string>
 
     <string name="drawer_nav_home">Bandajlar</string>
-    <string name="drawer_nav_notification">Bildirim</string>
-    <string name="drawer_nav_touch">Dokunma</string>
-    <string name="drawer_nav_step">Yürüme</string>
-    <string name="drawer_nav_sleep">Uyku</string>
-    <string name="drawer_nav_pulse">Nabız</string>
-    <string name="drawer_nav_time">Alarm</string>
-    <string name="drawer_nav_alarm">İzleme kaybedildi</string>
-    <string name="drawer_nav_disconnected_agent">İzleyici</string>
+    <string name="drawer_nav_notification">Bildirimler</string>
+    <string name="drawer_nav_touch">Dokunma ile kontrol</string>
+    <string name="drawer_nav_step">Adım sayar</string>
+    <string name="drawer_nav_sleep">Uyku takibi</string>
+    <string name="drawer_nav_pulse">Nabız ölçer</string>
+    <string name="drawer_nav_time">Alarm - Kronometre</string>
+    <string name="drawer_nav_alarm">Kayıp arama</string>
+    <string name="drawer_nav_disconnected_agent">Telefon izleyici</string>
     <string name="drawer_nav_rewarded_mode">Ödül kazan</string>
     <string name="drawer_nav_premium_mode">Premium ol</string>
     <string name="drawer_nav_feedback">Önerileriniz</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
     <string name="shortcut_touch">Dokunma</string>
-    <string name="shortcut_step">Yürüme</string>
+    <string name="shortcut_step">Adım</string>
     <string name="shortcut_pulse">Nabız</string>
     <string name="shortcut_time_alarm">Alarm</string>
     
@@ -39,8 +39,8 @@
     <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Şarj seviyesi</string>
-    <string name="mi_band_battery_remaining">Tahmini kalan süre</string>
-    <string name="mi_band_battery_settings">Pil ayarları</string>
+    <string name="mi_band_battery_remaining">Tahmini kalan süre</string><!-- bu ne işe yarıyor -->
+    <string name="mi_band_battery_settings">Şarj seviyesi uyarı ayarları</string>
     <string name="mi_band_battery_notification_level">Şarj uyarısı için şarj seviyesi</string>
     <string name="mi_band_battery_notification_message">Düşük şarj seviyesi %1$,d%%</string>
     <string name="mi_band_bonded_device_name">Eşleştirilmiş bileklik ismi</string>
@@ -85,7 +85,7 @@
     <string name="pref_connected_have_notif_pre_signal_summary_on">Bileklikteki bildiriyi kaçırmamak için bildiriden önce simge gösterilir (simgeyi tıklayarak değiştirebilirsiniz)</string>
 
     <string name="pref_foreground_service_title">Bildirim çubuğunda durum gösterilsin</string>
-    <string name="pref_foreground_service_summary">Android sistemi, bir hizmeti sadece bellek düşük olduğunda durdurur. Bir süre sonra bileklikteki bildirimler görünmezse, bu özelliği açarak bunu önleyebilirsiniz.</string>
+    <string name="pref_foreground_service_summary">!!!Burası önemli!!!,Android sistemi, bir hizmeti sadece bellek düşük olduğunda durdurur. Bir süre sonra bileklikteki bildirimler görünmezse, bu özelliği açarak bunu önleyebilirsiniz.</string>
     <string name="pref_foreground_service_color_title">Simge rengi</string>
 
     <string name="pref_disconnected">Bağlantı kopunca</string>
@@ -163,15 +163,15 @@
     <string name="pref_touch_recognised_failed_title">Tanımlanamayan dokunma bildirimi</string>
     <string name="pref_touch_recognised_failed_summary_on">Açık (en sonunda 2 defa titreşir)</string>
 
-    <string name="pref_mi_band">Bileklik</string>
+    <string name="pref_mi_band">Bileklik bilgi görüntüleme</string>
     <string name="pref_cat_mi_band_lift_wrist">Bilgiliyi görüntülemek için bileğinizi kaldırın</string>
     <string name="pref_mi_band_lift_wrist_title">Bilgiliyi görüntülemek için bileğinizi kaldırın</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Rahatsız etme modu</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Açık (Belirtilen süre boyunca bilgi görüntülenmez, bu ayar için Bluetooth bağlantısı gereklidir)</string>
 
-    <string name="pref_theme">Görünüm</string>
-    <string name="pref_cat_theme">Uygulama görünümü</string>
-    <string name="pref_theme_title">Aktif görünüm</string>
+    <string name="pref_theme">Tema</string>
+    <string name="pref_cat_theme">Uygulama teması</string>
+    <string name="pref_theme_title">Aktif tema</string>
 
     <string name="pref_language">Dil</string>
     <string name="pref_cat_language">Uygulama dili</string>
@@ -188,17 +188,17 @@
     <string name="pref_dnd_remember_state_summary">Rahatsız etmeyin modu sonunda neyapacağınızı belirleyin</string>
     <string name="pref_dnd_remember_state_on_title">Mod öncesi ayarlara dön</string>
     <string name="pref_dnd_remember_state_off_title">Tüm ayarları aktif et</string>
-    <string name="pref_dnd_enable_bluetooth">Rahatsız etmeyin modunun başında Bluetooth'u kapat, sonunda Bluetooth aç</string>
+    <string name="pref_dnd_enable_bluetooth">Bluetooth'u başında kapat, sonunda aç</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Lütfen Bluetooth'u etkinleştirin ve bilekliği telefona yakın tutun</string>
     <string name="message_discover_mi_band">Bileklik tepit edilemedi, lütfen tekrar deneyin</string>
-    <string name="message_discovered_mi_band">Bilekliğe tepit edildi</string>
+    <string name="message_discovered_mi_band">Bilekliğiniz tepit edildi</string>
     <string name="message_discovering_mi_band">Bileklik tespit ediliyor (1 dk sürebilir) &#8230;</string>
     <string name="message_discovered_no_mi_band">Bileklik tepit edilemedi</string>
     <string name="message_discovered_not_found_mi_band">Eğer Bileklik tepit edilemez ise, Bluetooth ayarlarını kontrol edin</string>
-    <string name="message_enable_notification_listener_access">Bildirim erişimi: Ayarlar/Bildirim/Bildirim erişimi</string>
-    <string name="message_enable_notification_listener_access_4_4">Bildirim erişimi: Ayarlar/Güvenlik/Bildirim erişimi</string>
+    <string name="message_enable_notification_listener_access">Bildirim erişimi verin: Ayarlar/Bildirim/Bildirim erişimi</string>
+    <string name="message_enable_notification_listener_access_4_4">Bildirim erişimi verin: Ayarlar/Güvenlik/Bildirim erişimi</string>
     <string name="message_open_settings">Ayarlar</string>
 
     <string name="message_deleted">Silindi</string>
