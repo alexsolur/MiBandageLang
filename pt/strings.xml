@@ -199,6 +199,7 @@
     <string name="message_discovered_not_found_mi_band">Se a Mi Band 2 não for encontrada, ative: Mi Fit/Play/Discoverable ou emparelhe nas definições de Bluetooth</string>
     <string name="message_enable_notification_listener_access">Ative o acesso às notificações: Definições/Notificações/Acesso às notificações</string>
     <string name="message_enable_notification_listener_access_4_4">Ative o acesso às notificações: Definições/Segurança/Acesso às notificações</string>
+    <string name="message_enable_notification_policy_access">Ativar acesso não perturbar</string>
     <string name="message_open_settings">Definições</string>
 
     <string name="message_deleted">Apagado</string>
@@ -222,8 +223,6 @@
 
     <string name="message_notification_group_has_no_entry">Seleciona aplicações com o botão verde \'+\' localizado no canto inferior direito do cartão</string>
 
-    <string name="message_internet_error">Não tem ligação à internet</string>
-
     <string name="message_time_alarm_free_counter">Só pode usar 2 alarmes no modo normal</string>
     <string name="message_time_alarm_max_counter">Só pode usar 5 alarmes no máximo</string>
     <string name="message_time_alarm_enabled">Alarme ativado</string>
@@ -236,8 +235,9 @@
 
     <string name="message_premium_mode_only">Esta definição só está disponível no modo premium</string>
     <string name="message_general_error">A configuração falhou (conexão perdida), tente de novo</string>
+    <string name="message_internet_error">Não tem ligação à internet</string>
 
-    <string name="message_enable_notification_policy_access">Ativar acesso não perturbar</string>
+    <string name="message_in_progress">In progress…</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Bem vindo!</string>
@@ -437,6 +437,9 @@
     <string name="sleep_tab_week">Gráficos semanais</string>
     <string name="sleep_tab_month">Gráficos mensais</string>
     <string name="sleep_tab_settings">Definições</string>
+
+    <string name="action_chart_sleep_type_phase">Phase</string>
+    <string name="action_chart_sleep_type_time">Time</string>
 
     <string name="sleep_details">Detalhes do sono</string>
     <string name="sleep_assistant">Assistente de batimentos cardíacos no sono</string>
