@@ -5,22 +5,22 @@
     <string name="navigation_drawer_close">Закрыть панель навигации</string>
 
     <string name="drawer_nav_home">Bandages</string>
-    <string name="drawer_nav_notification">Управление уведомлениями</string>
-    <string name="drawer_nav_touch">Контроль касаний</string>
+    <string name="drawer_nav_notification">Уведомления</string>
+    <string name="drawer_nav_touch">Касания</string>
     <string name="drawer_nav_step">Активность</string>
     <string name="drawer_nav_sleep">Сон</string>
-    <string name="drawer_nav_pulse">Измерение пульса</string>
+    <string name="drawer_nav_pulse">Пульс</string>
     <string name="drawer_nav_time">Время</string>
-    <string name="drawer_nav_alarm">Долго отсоединён</string>
+    <string name="drawer_nav_alarm">Отсоединён</string>
     <string name="drawer_nav_disconnected_agent">Лог действий</string>
     <string name="drawer_nav_premium_mode">Премиум</string>
     <string name="drawer_nav_rewarded_mode">Бонус</string>
     <string name="drawer_nav_feedback">Обратная связь</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
-    <string name="shortcut_touch">Контроль касаний</string>
+    <string name="shortcut_touch">Касания</string>
     <string name="shortcut_step">Активность</string>
-    <string name="shortcut_pulse">Измерение пульса</string>
+    <string name="shortcut_pulse">Пульс</string>
     <string name="shortcut_time_alarm">Будильник</string>
 
     <!-- Foreground service, ongoing notification -->
@@ -60,7 +60,7 @@
     <string name="pref_connected_signals_summary">Присоединение Mi Band 2 в отсутствие новых уведомлений</string>
     <string name="pref_cat_connected_signals_mi_band">Уведомление Mi Band 2</string>
     <string name="pref_connected_mi_band_title">Вибрация</string>
-    <string name="pref_cat_connected_signals">Уведомление устройствф</string>
+    <string name="pref_cat_connected_signals">Уведомление устройства</string>
     <string name="pref_connected_wakelock_title">Активировать экран устройства</string>
 
     <string name="pref_connected_settings">Настройки соединения</string>
@@ -82,7 +82,7 @@
     <string name="pref_connected_have_notif_default_app_title">Уведомления нараспознанных приложений</string>
     <string name="pref_connected_have_notif_default_app_summary_on">Иконка \'app\' для не рассортированных по группам или предопределённых</string>
     <string name="pref_connected_have_notif_pre_signal_title">Предсказание уведомлений</string>
-    <string name="pref_connected_have_notif_pre_signal_summary_on">Уведомдение (настраиваемое) перед настоящим уведомлением, чтобы успеть увидеть его на Mi Band 2</string>
+    <string name="pref_connected_have_notif_pre_signal_summary_on">Уведомление (настраиваемое) перед настоящим уведомлением, чтобы успеть увидеть его на Mi Band 2</string>
 
     <string name="pref_foreground_service_title">Отображение статуса подключения в уведомлении</string>
     <string name="pref_foreground_service_summary">Система Android принудительно останавливает приложение только при недостатке памяти. Если через некоторое время перестают приходить уведомления Mi Band 2, вы можете предотвратить это.</string>
@@ -113,7 +113,7 @@
     <string name="pref_abandoned_ringtone_title">Рингтон</string>
     <string name="pref_abandoned_vibration_title">Вибрация</string>
     <string name="pref_abandoned_wakelock_title">Активировать экран усройства</string>
-    <string name="pref_abandoned_notif_title">стройство утеряно</string>
+    <string name="pref_abandoned_notif_title">Устройство утеряно</string>
 
     <string name="pref_call">Настройки звонков</string>
     <string name="pref_call_summary">Настройки уведомлений Mi Band 2</string>
@@ -158,7 +158,7 @@
         <br/>8. Верните язык устройства.</p>]]>
     </string>
 
-    <string name="pref_touch">Настройки контроля касаний</string>
+    <string name="pref_touch">Настройки касаний</string>
     <string name="pref_cat_touch">Уведомления Mi Band 2</string>
     <string name="pref_touch_recognised_failed_title">Не распознанные нажатия</string>
     <string name="pref_touch_recognised_failed_summary_on">Включено (2 вибрации после длиннейшей комбинации)</string>
@@ -182,7 +182,7 @@
     <string name="bandages">Bandages</string>
     <string name="connected">Сигналы присоединения и уведомления</string>
     <string name="disconnected">Лог действий и сигналы отсоединения</string>
-    <string name="touch">Контроль касаний</string>
+    <string name="touch">Касания</string>
 
     <string name="pref_dnd_title">Режим \"Не беспокоить\"</string>
     <string name="pref_dnd_remember_state_summary">При отключении режима \"Не беспокоить\", включить или восстановить состояние всех \"заплаток\" к моменту активации режима</string>
@@ -221,7 +221,7 @@
     <string name="message_touch_app_launcher1_not_found">Приложение не найдено: %1$s</string>
     <string name="message_touch_tasker_launcher1_not_set">Действие Tasker не задано</string>
 
-    <string name="message_notification_group_has_no_entry">Добавьте приложения, нажав на зелёный \'+\' в правом нжнем углу карточк</string>
+    <string name="message_notification_group_has_no_entry">Добавьте приложения, нажав на зелёный \'+\' в правом нижнем углу карточки</string>
 
     <string name="message_time_alarm_free_counter">До 2 будильников может быть уставлено в обычном режиме</string>
     <string name="message_time_alarm_max_counter">Максимум 5 будильников может быть уставлено</string>
@@ -237,7 +237,7 @@
     <string name="message_general_error">Ошибка (соединение потеряно), попробуйте снова</string>
     <string name="message_internet_error">Нет подключения к Интернету</string>
 
-    <string name="message_in_progress">In progress…</string>
+    <string name="message_in_progress">В процессе…</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Добро пожаловать!</string>
@@ -265,7 +265,7 @@
     <string name="notification_group_name">Название группы</string>
     <string name="notification_group_monitoring">Управлять уведомлениями</string>
     <string name="notification_group_monitoring_disabled">Исключить уведомления (не отображать уведомления приложений)</string>
-    <string name="notification_group_alert_title">Изображение на Mi Band 2</string>
+    <string name="notification_group_alert_title">Иконка на Mi Band 2</string>
     <string name="notification_group_text_title">Заголовок</string>
     <string name="notification_group_text_content">Содержимое</string>
     <string name="notification_group_pre_alert">Пре-иконка</string>
@@ -352,7 +352,7 @@
     <string name="touch_music_headset_only_title">Только при подключённой гарнитуре</string>
     <string name="touch_music_volume_up_title">Повысить громкость</string>
     <string name="touch_music_volume_down_title">Понизить громкость</string>
-    <string name="touch_music_track_info_title">Отображение информации о треке</string>
+    <string name="touch_music_track_info_title">Информация о треке</string>
 
     <string name="touch_time_launch_title">Запустить</string>
     <string name="touch_time_launch_type_timer_title">Таймер</string>
@@ -369,7 +369,7 @@
     <string name="touch_tasker_launcher_no_access_title">Разрешить внешний доступ (Allow external access)</string>
     <string name="touch_tasker_launcher_no_task_title">Выбрать дейтсвие</string>
 
-    <string name="touch_testing_title">Контроль касаний</string>
+    <string name="touch_testing_title">Касания</string>
 
     <string name="touch_tab_settings">Настройка</string>
     <string name="touch_tab_testing">Тестирование</string>
@@ -438,13 +438,13 @@
     <string name="sleep_tab_month">Месяц</string>
     <string name="sleep_tab_settings">Настройки</string>
 
-    <string name="action_chart_sleep_type_phase">Phase</string>
-    <string name="action_chart_sleep_type_time">Time</string>
+    <string name="action_chart_sleep_type_phase">Фаза</string>
+    <string name="action_chart_sleep_type_time">Время</string>
 
     <string name="sleep_details">Подробнее о сне</string>
     <string name="sleep_assistant">Помощник отслеживания пульса во время сна</string>
     <string name="sleep_assistant_summary">Позволяет получить более точные данные о сне (повышенный расход батареи)</string>
-    <string name="sleep_assistant_show_pulse">Отображать измерения в дневных графиках пульса</string>
+    <string name="sleep_assistant_show_pulse">Отображать ночные измерения в графиках пульса</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> время сна
@@ -452,7 +452,7 @@
         <br><br><img src="ic_activity_go_to_bed"> время отхода ко сну
         <br><br><img src="ic_activity_sleep_start"> время засыпания
         <br><br><img src="ic_activity_sleep_time"> общее время
-        <br><br><img src="ic_activity_sleep_end"> время оканчания сна
+        <br><br><img src="ic_activity_sleep_end"> время окончания сна
         <br><br><img src="ic_activity_get_up"> время подъёма
         <br><br><img src="ic_activity_active"> активность
         <br><br><img src="ic_activity_block"> не надет
@@ -623,7 +623,7 @@
         - нет рекламы
         <br>- Режим \"Не беспокоить\"
         <br>- нет ограничения на количество групп уведомлений
-        <br>- нет ограничения на контроль касаний
+        <br>- нет ограничения на функции касаний
         <br>- префикс текстовых уведомлений, пре-иконки, фильтры текста уведомлений
         <br>- <i>Шагомер</i>: установка промежутка сбора данных по желанию
         <br>- <i>Измерение пульса</i>: установка промежутка измерений по желанию, настройка отображения пульса
