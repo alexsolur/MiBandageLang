@@ -199,6 +199,7 @@
     <string name="message_discovered_not_found_mi_band">Jika Mi Band 2 tidak ditemukan, nyalakan: Mi Fit - Mainkan - tidak dapat ditemukan atau sandingkan perangkat di pengaturan Bluetooth</string>
     <string name="message_enable_notification_listener_access">Aktifkan akses notifikasi: Pengaturan - Pemberitahuan - Akses notifikasi</string>
     <string name="message_enable_notification_listener_access_4_4">Aktifkan akses notifikasi: Pengaturan - Keamanan - Akses notifikasi</string>
+    <string name="message_enable_notification_policy_access">Aktifkan akses mode jangan ganggu</string>
     <string name="message_open_settings">Pengaturan</string>
 
     <string name="message_deleted">Terhapus</string>
@@ -222,8 +223,6 @@
 
     <string name="message_notification_group_has_no_entry">Pilih aplikasi dengan tombol hijau di bagian kanan bawah \'+\' pada kartu</string>
 
-    <string name="message_internet_error">Tidak ada koneksi internet</string>
-
     <string name="message_time_alarm_free_counter">Mode normal hanya bisa menggunakan sampai 2 alarm</string>
     <string name="message_time_alarm_max_counter">Maksimal 5 alarm yang bisa digunakan</string>
     <string name="message_time_alarm_enabled">Alarm diaktifkan</string>
@@ -236,8 +235,9 @@
 
     <string name="message_premium_mode_only">Fitur ini hanya tersedia di mode premium</string>
     <string name="message_general_error">Pengaturan gagal (koneksi hilang), coba lagi</string>
+    <string name="message_internet_error">Tidak ada koneksi internet</string>
 
-    <string name="message_enable_notification_policy_access">Aktifkan akses mode jangan ganggu</string>
+    <string name="message_in_progress">In progress…</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Selamat Datang!</string>
@@ -437,6 +437,9 @@
     <string name="sleep_tab_week">Bagan mingguan</string>
     <string name="sleep_tab_month">Bagan bulanan</string>
     <string name="sleep_tab_settings">Atur</string>
+
+    <string name="action_chart_sleep_type_phase">Phase</string>
+    <string name="action_chart_sleep_type_time">Time</string>
 
     <string name="sleep_details">Rincian Tidur</string>
     <string name="sleep_assistant">Asisten detak jantung saat tidur</string>
