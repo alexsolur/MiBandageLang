@@ -199,6 +199,7 @@
     <string name="message_discovered_not_found_mi_band">Falls das Mi Band 2 nicht gefunden wurde, aktivieren Sie: Mi Fit/Play/Erkennbar oder koppeln Sie das Gerät über die Bluetooth-Einstellungen.</string>
     <string name="message_enable_notification_listener_access">Aktivieren Sie den Benachrichtigungszugriff: Einstellungen/Benachrichtigungen/Benachrichtigungszugriff</string>
     <string name="message_enable_notification_listener_access_4_4">Aktivieren Sie den Benachrichtigungszugriff: Einstellungen/Sicherheit/Benachrichtigungszugriff</string>
+    <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
     <string name="message_open_settings">Einstellungen</string>
 
     <string name="message_deleted">Gelöscht</string>
@@ -222,8 +223,6 @@
 
     <string name="message_notification_group_has_no_entry">Select applications with the lower right green \'+\' button on the card</string>
 
-    <string name="message_internet_error">Sie haben keine Internetverbindung</string>
-
     <string name="message_time_alarm_free_counter">Bis zu 2 Wecker können im normalen Modus aktiviert werden.</string>
     <string name="message_time_alarm_max_counter">Es können maximal 5 Wecker verwndet werden.</string>
     <string name="message_time_alarm_enabled">Alarm aktiviert</string>
@@ -236,8 +235,9 @@
 
     <string name="message_premium_mode_only">Dieses Feature ist nur im Premium-Modus verfügbar.</string>
     <string name="message_general_error">Einstellen fehlgeschlagen (Verbindung unterbrochen), versuchen Sie es erneut.</string>
+    <string name="message_internet_error">Sie haben keine Internetverbindung</string>
 
-    <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
+    <string name="message_in_progress">In progress…</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Herzlich willkommen!</string>
@@ -437,6 +437,9 @@
     <string name="sleep_tab_week">Wöchentliche Statistiken</string>
     <string name="sleep_tab_month">Monthly charts</string>
     <string name="sleep_tab_settings">Einstellung</string>
+
+    <string name="action_chart_sleep_type_phase">Phase</string>
+    <string name="action_chart_sleep_type_time">Time</string>
 
     <string name="sleep_details">Sleep details</string>
     <string name="sleep_assistant">Herzfrequenz Schlafassistent</string>
