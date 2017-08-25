@@ -199,6 +199,7 @@
     <string name="message_discovered_not_found_mi_band">Σε περίπτωση που το Mi Band 2 δεν ανιχνευθεί, ενεργοποιήστε το: Mi Fit/Play/Discoverable ή συζεύξτε από τις ρυθμίσεις Bluetooth του κινητού σας.</string>
     <string name="message_enable_notification_listener_access">Ενεργοποίηση πρόσβασης ειδοποίησης: Ρυθμίσεις/ειδοποιήσεις/Πρόσβασης ειδοποίησης (Settings/Notifications/Notification access)</string>
     <string name="message_enable_notification_listener_access_4_4">Ενεργοποίηση πρόσβασης ειδοποίησης: Ρυθμίσεις/Ασφάλεια/Πρόσβασης ειδοποίησης (Settings/Security/Notification access)</string>
+    <string name="message_enable_notification_policy_access">Ενεργοποιήστε την πρόσβαση Μην ενοχλείτε</string>
     <string name="message_open_settings">Ρυθμίσεις</string>
 
     <string name="message_deleted">Διαγραφή</string>
@@ -222,8 +223,6 @@
 
     <string name="message_notification_group_has_no_entry">Επιλέξτε εφαρμογές με το κάτω δεξιά πράσινο \'+\' κουμπί στην κάρτα</string>
 
-    <string name="message_internet_error">Δεν υπάρχει σύνδεση στο internet</string>
-
     <string name="message_time_alarm_free_counter">Μέχρι 2 ειδοποιήσεις μπορούν να χρησιμοποιηθούν σε κανονική λειτουργία</string>
     <string name="message_time_alarm_max_counter">Μέγιστο 5 ειδοποιήσεις μπορούν να χρησιμοποιηθούν</string>
     <string name="message_time_alarm_enabled">Ειδοποίηση ενεργοποιημένη</string>
@@ -236,8 +235,9 @@
 
     <string name="message_premium_mode_only">Αυτή η λειτουργία είναι διαθέσιμη μόνο στη λειτουργία premium</string>
     <string name="message_general_error">Η ρύθμιση απέτυχε (η σύνδεση χάθηκε), δοκιμάστε ξανά</string>
+    <string name="message_internet_error">Δεν υπάρχει σύνδεση στο internet</string>
 
-    <string name="message_enable_notification_policy_access">Ενεργοποιήστε την πρόσβαση Μην ενοχλείτε</string>
+    <string name="message_in_progress">In progress…</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Καλώς ορίσατε!</string>
@@ -437,6 +437,9 @@
     <string name="sleep_tab_week">Εβδομαδιαία διαγράμματα</string>
     <string name="sleep_tab_month">Μηνιαία διαγράμματα</string>
     <string name="sleep_tab_settings">Ρυθμίσεις</string>
+
+    <string name="action_chart_sleep_type_phase">Phase</string>
+    <string name="action_chart_sleep_type_time">Time</string>
 
     <string name="sleep_details">Λεπτομέρειες ύπνου</string>
     <string name="sleep_assistant">Βοηθός ύπνου καρδιακού ρυθμού</string>
