@@ -199,6 +199,7 @@
     <string name="message_discovered_not_found_mi_band">Si la Mi Band 2 no se puede encontrar, encienda: Mi Fit/Play/Discoverable o empareje en las configuraciones de Bluetooth del dispositivo</string>
     <string name="message_enable_notification_listener_access">Habilitar el acceso a notificaciones: Ajustes/Notificaciones/Acceso a notificaciones</string>
     <string name="message_enable_notification_listener_access_4_4">Habilitar el acceso a notificaciones: Ajustes/Seguridad/Acceso a notificaciones</string>
+    <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
     <string name="message_open_settings">Configuraciones</string>
 
     <string name="message_deleted">Eliminado</string>
@@ -222,8 +223,6 @@
 
     <string name="message_notification_group_has_no_entry">Seleccione las aplicaciones con el botón verde inferior derecho \'+\' en la tarjeta</string>
 
-    <string name="message_internet_error">No tiene conexión a internet</string>
-
     <string name="message_time_alarm_free_counter">Se pueden utilizar hasta 2 alarmas en modo normal</string>
     <string name="message_time_alarm_max_counter">Se pueden utilizar 5 alarmas como máximo</string>
     <string name="message_time_alarm_enabled">Alarma activada</string>
@@ -236,8 +235,9 @@
 
     <string name="message_premium_mode_only">Esta función sólo está disponible en modo premium</string>
     <string name="message_general_error">Se ha producido un error en la configuración (perdida de conexion), reintente de nuevo</string>
+    <string name="message_internet_error">No tiene conexión a internet</string>
 
-    <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
+    <string name="message_in_progress">In progress…</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Bienvenido!</string>
@@ -437,6 +437,9 @@
     <string name="sleep_tab_week">Gráficos semanales</string>
     <string name="sleep_tab_month">Monthly charts</string>
     <string name="sleep_tab_settings">Configuración</string>
+
+    <string name="action_chart_sleep_type_phase">Phase</string>
+    <string name="action_chart_sleep_type_time">Time</string>
 
     <string name="sleep_details">Detalles del sueño</string>
     <string name="sleep_assistant">Asistente de sueño de ritmo cardíaco</string>
