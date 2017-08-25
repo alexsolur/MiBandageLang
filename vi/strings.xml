@@ -199,6 +199,7 @@
     <string name="message_discovered_not_found_mi_band">Nếu Mi Band 2 không được tìm thấy, bật: Mi Fit / cài đặt … hoặc ghép nối tại cài đặt Bluetooth</string>
     <string name="message_enable_notification_listener_access">Kích hoạt tính năng truy cập thông báo: Cài đặt / Bảo mật / Truy cập thông báo</string>
     <string name="message_enable_notification_listener_access_4_4">Kích hoạt tính năng truy cập thông báo: Cài đặt / Bảo mật / Truy cập thông báo</string>
+    <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
     <string name="message_open_settings">Các cài đặt</string>
 
     <string name="message_deleted">Đã xóa</string>
@@ -222,8 +223,6 @@
 
     <string name="message_notification_group_has_no_entry">Select applications with the lower right green \'+\' button on the card</string>
 
-    <string name="message_internet_error">Không có mạng</string>
-
     <string name="message_time_alarm_free_counter">Có thể sử dụng tới 2 báo thức ở chế độ bình thường</string>
     <string name="message_time_alarm_max_counter">Tối đa 5 báo thức có thể sử dụng</string>
     <string name="message_time_alarm_enabled">Báo thức đang bật</string>
@@ -236,8 +235,9 @@
 
     <string name="message_premium_mode_only">Tính năng này chỉ có sẵn trong bản nâng cấp</string>
     <string name="message_general_error">cài đặt thất bại (kết nối bị mất), hãy thử lại</string>
+    <string name="message_internet_error">Không có mạng</string>
 
-    <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
+    <string name="message_in_progress">In progress…</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Chào mừng!</string>
@@ -437,6 +437,9 @@
     <string name="sleep_tab_week">Biểu đồ theo tuần</string>
     <string name="sleep_tab_month">Monthly charts</string>
     <string name="sleep_tab_settings">Cài đặt</string>
+
+    <string name="action_chart_sleep_type_phase">Phase</string>
+    <string name="action_chart_sleep_type_time">Time</string>
 
     <string name="sleep_details">Sleep details</string>
     <string name="sleep_assistant">Trợ lý nhịp tim giấc ngủ</string>
