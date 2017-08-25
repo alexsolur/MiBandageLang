@@ -188,10 +188,10 @@
     <string name="pref_dnd_remember_state_summary">Rahatsız etmeyin modu sonunda neyapacağınızı belirleyin</string>
     <string name="pref_dnd_remember_state_on_title">Mod öncesi ayarlara dön</string>
     <string name="pref_dnd_remember_state_off_title">Tüm ayarları aktif et</string>
-    <string name="pref_dnd_enable_bluetooth">Bluetooth'u başında kapat, sonunda aç</string>
+    <string name="pref_dnd_enable_bluetooth">Bluetooth\'u başında kapat, sonunda aç</string>
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Lütfen Bluetooth'u etkinleştirin ve bilekliği telefona yakın tutun</string>
+    <string name="message_enable_bluetooth">Lütfen Bluetooth\'u etkinleştirin ve bilekliği telefona yakın tutun</string>
     <string name="message_discover_mi_band">Bileklik tepit edilemedi, lütfen tekrar deneyin</string>
     <string name="message_discovered_mi_band">Bilekliğiniz tepit edildi</string>
     <string name="message_discovering_mi_band">Bileklik tespit ediliyor (1 dk sürebilir) &#8230;</string>
@@ -199,6 +199,7 @@
     <string name="message_discovered_not_found_mi_band">Eğer Bileklik tepit edilemez ise, Bluetooth ayarlarını kontrol edin</string>
     <string name="message_enable_notification_listener_access">Bildirim erişimi verin: Ayarlar/Bildirim/Bildirim erişimi</string>
     <string name="message_enable_notification_listener_access_4_4">Bildirim erişimi verin: Ayarlar/Güvenlik/Bildirim erişimi</string>
+    <string name="message_enable_notification_policy_access">Rahatsız Etme Erişimini Etkinleştir</string>
     <string name="message_open_settings">Ayarlar</string>
 
     <string name="message_deleted">Silindi</string>
@@ -222,9 +223,7 @@
 
     <string name="message_notification_group_has_no_entry">Uygulamayı, kartın sağ altındaki yeşil \'+ \' düğmesi ile seçin</string>
 
-    <string name="message_internet_error">İnternet bağlantınız yok</string>
-
-   <string name="message_time_alarm_free_counter">Normal modda en fazla 2 alarm kullanılabilir</string>
+    <string name="message_time_alarm_free_counter">Normal modda en fazla 2 alarm kullanılabilir</string>
     <string name="message_time_alarm_max_counter">Maksimum 5 alarm kullanılabilir</string>
     <string name="message_time_alarm_enabled">Alarm aktif</string>
     <string name="message_time_alarm_disabled">Alarm pasif</string>
@@ -236,8 +235,9 @@
 
     <string name="message_premium_mode_only">Bu özellik yanlız premium mod ile kullanılabilir</string>
     <string name="message_general_error">İşlem başarısız oldu (bağlantı tutarsız), lütfen tekrar deneyin</string>
+    <string name="message_internet_error">İnternet bağlantınız yok</string>
 
-    <string name="message_enable_notification_policy_access">Rahatsız Etme Erişimini Etkinleştir</string>
+    <string name="message_in_progress">In progress…</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Hoşgeldiniz!</string>
@@ -437,6 +437,9 @@
     <string name="sleep_tab_week">Haftalık graf.</string>
     <string name="sleep_tab_month">Aylık graf.</string>
     <string name="sleep_tab_settings">Ayarlar</string>
+
+    <string name="action_chart_sleep_type_phase">Phase</string>
+    <string name="action_chart_sleep_type_time">Time</string>
 
     <string name="sleep_details">Uyku detayları</string>
     <string name="sleep_assistant">Uyurken kalp atışını izle</string>
