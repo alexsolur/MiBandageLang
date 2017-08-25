@@ -199,6 +199,7 @@
     <string name="message_discovered_not_found_mi_band">If Mi Band 2 was not found, turn on: Mi Fit/Play/Discoverable or pair at the device Bluetooth settings</string>
     <string name="message_enable_notification_listener_access">Enable notification access: Settings/Notifications/Notification access</string>
     <string name="message_enable_notification_listener_access_4_4">Enable notification access: Settings/Security/Notification access</string>
+    <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
     <string name="message_open_settings">Settings</string>
 
     <string name="message_deleted">Deleted</string>
@@ -222,8 +223,6 @@
 
     <string name="message_notification_group_has_no_entry">Select applications with the lower right green \'+\' button on the card</string>
 
-    <string name="message_internet_error">No have internet connection</string>
-
     <string name="message_time_alarm_free_counter">Up to 2 alarm can be used in normal mode</string>
     <string name="message_time_alarm_max_counter">Maximum 5 alarms can be used</string>
     <string name="message_time_alarm_enabled">Alarm enabled</string>
@@ -236,8 +235,9 @@
 
     <string name="message_premium_mode_only">This feature is only available in premium mode</string>
     <string name="message_general_error">Setting failed (connection lost), try again</string>
+    <string name="message_internet_error">No have internet connection</string>
 
-    <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
+    <string name="message_in_progress">In progress…</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Welcome!</string>
@@ -437,6 +437,9 @@
     <string name="sleep_tab_week">Weekly charts</string>
     <string name="sleep_tab_month">Monthly charts</string>
     <string name="sleep_tab_settings">Setting</string>
+
+    <string name="action_chart_sleep_type_phase">Phase</string>
+    <string name="action_chart_sleep_type_time">Time</string>
 
     <string name="sleep_details">Sleep details</string>
     <string name="sleep_assistant">Heart rate sleep assistant</string>
