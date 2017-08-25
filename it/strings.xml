@@ -199,6 +199,7 @@
     <string name="message_discovered_not_found_mi_band">Se la Mi Band 2 non viene trovata, Attiva: Mi Fit/Funzioni/Rilevabile oppure effettua l\'accoppiamento nelle impostazioni bluetooth</string>
     <string name="message_enable_notification_listener_access">Abilita accesso notifiche: Impostazioni/Notifiche/Accesso notifiche</string>
     <string name="message_enable_notification_listener_access_4_4">Abilita accesso notifiche: Impostazioni/Sicurezza/Accesso notifiche</string>
+    <string name="message_enable_notification_policy_access">Abilita accesso alla Modalità Non Disturbare</string>
     <string name="message_open_settings">Impostazioni</string>
 
     <string name="message_deleted">Cancella</string>
@@ -222,8 +223,6 @@
 
     <string name="message_notification_group_has_no_entry">Seleziona applicazioni usando il tasto verde \'+\' in basso a destra della scheda</string>
 
-    <string name="message_internet_error">Manca connessione internet</string>
-
     <string name="message_time_alarm_free_counter">In modalità normale possono essere usate più di 2 sveglie</string>
     <string name="message_time_alarm_max_counter">Possono essere usate massimo 5 sveglie</string>
     <string name="message_time_alarm_enabled">Sveglia attivata</string>
@@ -236,8 +235,9 @@
 
     <string name="message_premium_mode_only">Questa funzione è disponibile solo in verione premium</string>
     <string name="message_general_error">Impostazione fallita (connessione persa), riprova</string>
+    <string name="message_internet_error">Manca connessione internet</string>
 
-    <string name="message_enable_notification_policy_access">Abilita accesso alla Modalità Non Disturbare</string>
+    <string name="message_in_progress">In progress…</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Benvenuto!</string>
@@ -437,6 +437,9 @@
     <string name="sleep_tab_week">Grafici settimanali</string>
     <string name="sleep_tab_month">Grafico mensile</string>
     <string name="sleep_tab_settings">Impostazione</string>
+
+    <string name="action_chart_sleep_type_phase">Phase</string>
+    <string name="action_chart_sleep_type_time">Time</string>
 
     <string name="sleep_details">Dettagli sonno</string>
     <string name="sleep_assistant">Frequenza cardiaca assistente sonno</string>
