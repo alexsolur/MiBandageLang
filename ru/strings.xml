@@ -13,7 +13,7 @@
     <string name="drawer_nav_time">Время</string>
     <string name="drawer_nav_alarm">Отсоединён</string>
     <string name="drawer_nav_disconnected_agent">Лог действий</string>
-    <string name="drawer_nav_backup">Backup</string>
+    <string name="drawer_nav_backup">Копия</string>
     <string name="drawer_nav_premium_mode">Премиум</string>
     <string name="drawer_nav_rewarded_mode">Бонус</string>
     <string name="drawer_nav_feedback">Обратная связь</string>
@@ -590,7 +590,6 @@
     <string name="pref_disconnected_agent_summary_on">Если кто-то взаимодействует с устройством пока вас нет, вы узнаете</string>
     <string name="pref_disconnected_agent_text">Кто-то взаимодействовал с устройством пока вас не было</string>
     <string name="pref_disconnected_agent_user_present_title">Разблокировки</string>
-    <string name="pref_disconnected_agent_screen_on_and_motion_title">Активации экрана и перемещений</string>
 
     <!-- Agent log info dialog -->
     <string name="info_dialog_disconnected_agent"><![CDATA[События, регистрируемые контролем взаимодействия с устройством:
@@ -603,32 +602,32 @@
     </string>
 
     <!-- Backup and restore -->
-    <string name="backup_tab_backup">Backup</string>
-    <string name="backup_tab_restore">Restore</string>
+    <string name="backup_tab_backup">Резервная копия</string>
+    <string name="backup_tab_restore">Восстановление</string>
 
-    <string name="backup_time">Backup time</string>
-    <string name="backup_path">Backup location</string>
+    <string name="backup_time">Время копии</string>
+    <string name="backup_path">Расположение копии</string>
 
-    <string name="backup_process">Preparation…</string>
-    <string name="backup_process_activity">Activity and sleep %1$,d%%</string>
-    <string name="backup_process_pulse">Pulse %1$,d%%</string>
-    <string name="backup_process_notification">Notification%1$,d%%</string>
-    <string name="backup_process_touch">Touch %1$,d%%</string>
-    <string name="backup_process_time">Time %1$,d%%</string>
-    <string name="backup_process_alarm">Lost %1$,d%%</string>
-    <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
-    <string name="backup_process_settings">Settings %1$,d%%</string>
+    <string name="backup_process">Подготовка…</string>
+    <string name="backup_process_activity">Активность и сон %1$,d%%</string>
+    <string name="backup_process_pulse">Пульс %1$,d%%</string>
+    <string name="backup_process_notification">Уведомления %1$,d%%</string>
+    <string name="backup_process_touch">Касания %1$,d%%</string>
+    <string name="backup_process_time">Время %1$,d%%</string>
+    <string name="backup_process_alarm">Отсоединён %1$,d%%</string>
+    <string name="backup_process_disconnected_agent">Лог действий %1$,d%%</string>
+    <string name="backup_process_settings">Настройки %1$,d%%</string>
 
-    <string name="backup_restore_activity">Activity and sleep</string>
-    <string name="backup_restore_pulse">Pulse</string>
-    <string name="backup_restore_notification">Notification</string>
-    <string name="backup_restore_touch">Touch</string>
-    <string name="backup_restore_time">Time</string>
-    <string name="backup_restore_alarm">Lost</string>
-    <string name="backup_restore_disconnected_agent">Agent</string>
-    <string name="backup_restore_settings">Settings</string>
+    <string name="backup_restore_activity">Активность и сон</string>
+    <string name="backup_restore_pulse">Пульс</string>
+    <string name="backup_restore_notification">Уведомления</string>
+    <string name="backup_restore_touch">Касания</string>
+    <string name="backup_restore_time">Время</string>
+    <string name="backup_restore_alarm">Отсоединён</string>
+    <string name="backup_restore_disconnected_agent">Лог действий</string>
+    <string name="backup_restore_settings">Настройки</string>
 
-    <string name="backup_restore_reset">Turning Bluetooth on and off and restarting the application are required.</string>
+    <string name="backup_restore_reset">Необходимо включение и выключение Bluetooth и перезапуск приложения.</string>
 
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Условия бонусного режима</string>
@@ -726,7 +725,7 @@
 
     <string name="power_on">Активация экрана</string>
     <string name="screen_unlock">Разблокировка экрана</string>
-    <string name="motion">Замечено перемецение</string>
+    <string name="motion">Замечено перемещение</string>
 
     <string name="required_value">Необходимо указать</string>
 
