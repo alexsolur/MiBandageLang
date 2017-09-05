@@ -213,7 +213,7 @@
     <string name="message_step_goal_free_values">Sopra i 3 valori può essere usata in modalità normale</string>
     <string name="message_step_goal_max_values">Puoi settare massimo 10 valori</string>
 
-    <string name="message_touch_no_patterns">Premi uno degli schemi rossi di registrazione</string>
+    <string name="message_touch_no_patterns">Premi uno degli tasti rossi di registrazione</string>
     <string name="message_touch_record">Registra la combinazione di tocchi usando il tasto della Mi Band 2</string>
     <string name="message_touch_pattern_error">La combinazione usata è simile ad un\'altra , registrane una diversa.</string>
     <string name="message_touch_free_patterns">Sopra le 3 funzioni può essere usata in modalità normale</string>
@@ -327,7 +327,7 @@
 
     <!-- MiBandageApp chooser dialog -->
     <string name="action_search">Cerca</string>
-    <string name="action_filter_notification">Notification filter</string>
+    <string name="action_filter_notification">Filtra notifiche</string>
 
     <!-- Touch monitoring -->
     <string name="touch_headline_call_title">Controllo chiamata</string>
@@ -604,31 +604,31 @@
 
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Backup</string>
-    <string name="backup_tab_restore">Restore</string>
+    <string name="backup_tab_restore">Ripristino</string>
 
-    <string name="backup_time">Backup time</string>
-    <string name="backup_path">Backup location</string>
+    <string name="backup_time">Ora backup</string>
+    <string name="backup_path">Posizione backup</string>
 
-    <string name="backup_process">Preparation…</string>
-    <string name="backup_process_activity">Activity and sleep %1$,d%%</string>
-    <string name="backup_process_pulse">Pulse %1$,d%%</string>
-    <string name="backup_process_notification">Notification%1$,d%%</string>
-    <string name="backup_process_touch">Touch %1$,d%%</string>
-    <string name="backup_process_time">Time %1$,d%%</string>
-    <string name="backup_process_alarm">Lost %1$,d%%</string>
-    <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
-    <string name="backup_process_settings">Settings %1$,d%%</string>
+    <string name="backup_process">Preparazione…</string>
+    <string name="backup_process_activity">Attività e sonno %1$,d%%</string>
+    <string name="backup_process_pulse">Battiti %1$,d%%</string>
+    <string name="backup_process_notification">Notifiche%1$,d%%</string>
+    <string name="backup_process_touch">Tocco %1$,d%%</string>
+    <string name="backup_process_time">Timer %1$,d%%</string>
+    <string name="backup_process_alarm">Smarrimento %1$,d%%</string>
+    <string name="backup_process_disconnected_agent">Eventi %1$,d%%</string>
+    <string name="backup_process_settings">Impostazioni %1$,d%%</string>
 
-    <string name="backup_restore_activity">Activity and sleep</string>
-    <string name="backup_restore_pulse">Pulse</string>
-    <string name="backup_restore_notification">Notification</string>
-    <string name="backup_restore_touch">Touch</string>
-    <string name="backup_restore_time">Time</string>
-    <string name="backup_restore_alarm">Lost</string>
-    <string name="backup_restore_disconnected_agent">Agent</string>
-    <string name="backup_restore_settings">Settings</string>
+    <string name="backup_restore_activity">Attività e sonno</string>
+    <string name="backup_restore_pulse">Battiti</string>
+    <string name="backup_restore_notification">Notifiche</string>
+    <string name="backup_restore_touch">Tocco</string>
+    <string name="backup_restore_time">Timer</string>
+    <string name="backup_restore_alarm">Smarrimento</string>
+    <string name="backup_restore_disconnected_agent">Eventi</string>
+    <string name="backup_restore_settings">Impostazioni</string>
 
-    <string name="backup_restore_reset">Turning Bluetooth on and off and restarting the application are required.</string>
+    <string name="backup_restore_reset">E' richiesto di spegnere e riaccendere il Bluetooth e riavviare l'app.</string>
 
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Termini e condizioni della modalità ricompensa</string>
