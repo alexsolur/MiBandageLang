@@ -248,8 +248,8 @@
     <p>Se a Mi Band 2 não for encontrada, você pode configurar o endereço MAC manualmente nos detalhes do menu (O endereço MAC encontra-se em: Mi Fit/Profil/Mi Band 2).</p>
     <p><b>Se a Mi Band 2 não for encontrada ou se está a ter problemas em sincronizar na aplicação Mi Fit, instale BToolkit, nRF Conect ou uma aplicação semelhante de monitoramento bluetooth e remova os dispositivos emparelhados.</b></p>
     <p><b>MIUI:</b>
-    <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
-    <br>- Security app screen: battery/app battery saver set Mi Bandage app to no restriction.</p>
+    <br>- Aplicações recentes: Bloquear a Mi Bandage (Deslize a aplicação para baixo e clique no ícone 'aloquete').
+    <br>- Menu 'Segurança': Vá para 'Bateria/Poupar bateria'; configure a aplicação Mi Bandage para não ser restringida.</p>
     <p>Se tem problemas (descobrir a Mi Band 2/sinal de notificação), tente isto por favor:
     <br>1. Se tem o Greenify instalado (ou outra aplicação para hibernar) desative a opção \'hibernar mi bandage\'.
     <br>2. reinstale a aplicação Mi Bandage.
@@ -367,7 +367,7 @@
     <string name="touch_app_launcher1_not_wakelock_only_title">Só com o ecrã desbloqueado</string>
 
     <string name="touch_tasker_launcher1_title">Iniciar Gerenciador de tarefas</string>
-    <string name="touch_tasker_launcher_no_permission_title">você tem de instalar o Gerenciador primeiro e só depois a Mi Bandage.</string>
+    <string name="touch_tasker_launcher_no_permission_title">Você tem de instalar o Gerenciador primeiro e só depois a Mi Bandage.</string>
     <string name="touch_tasker_launcher_no_access_title">Permitir acesso externo</string>
     <string name="touch_tasker_launcher_no_task_title">Selecionar tarefa</string>
 
@@ -412,7 +412,7 @@
 
     <string name="activity_progress_title_prepare">A preparar para sincronizar…</string>
     <string name="activity_progress_title_sync">A sincronizar dados %1$,d%%</string>
-    <string name="activity_progress_title_save">A salvar dados %1$,d%%</string>
+    <string name="activity_progress_title_save">A guardar dados %1$,d%%</string>
 
     <string name="step_title_timing">Temporizador</string>
     <string name="step_interval_title">Tempo para repetir a medição dos passos</string>
@@ -423,14 +423,14 @@
     <string name="step_details">Detalhes dos passos</string>
 
     <string name="info_dialog_step"><![CDATA[
-        <img src="ic_activity_active"> Passos diários/distância/calorias no total
-        <br><br><img src="ic_timelapse"> tempo de atividade
-        <br><br><img src="ic_activity_get_up"> tempo fora da cama
-        <br><br><img src="ic_activity_awake"> tempo de Vigília
-        <br><br><img src="ic_activity_rest_sofa"> tempo repousado/sentado durante a Vigília
-        <br><br><img src="ic_activity_go_to_bed"> tempo na cama
+        <img src="ic_activity_active"> Passos/distância/calorias por dia
+        <br><br><img src="ic_timelapse"> Tempo ativo
+        <br><br><img src="ic_activity_get_up"> Tempo fora da cama
+        <br><br><img src="ic_activity_awake"> Vigília
+        <br><br><img src="ic_activity_rest_sofa"> Tempo repousado/sentado durante a Vigília
+        <br><br><img src="ic_activity_go_to_bed"> Tempo na cama
         <br><br><img src="ic_activity_battery_charging_full"> A carragar a bateria
-        <br><br><img src="ic_activity_block"> não usou a Mi Band
+        <br><br><img src="ic_activity_block"> Não usou a Mi Band
         ]]>
     </string>
 
@@ -440,7 +440,7 @@
     <string name="sleep_tab_month">Gráficos mensais</string>
     <string name="sleep_tab_settings">Definições</string>
 
-    <string name="action_chart_sleep_type_phase">Fase</string>
+    <string name="action_chart_sleep_type_phase">Fases</string>
     <string name="action_chart_sleep_type_time">Tempo</string>
 
     <string name="sleep_details">Detalhes do sono</string>
@@ -449,15 +449,15 @@
     <string name="sleep_assistant_show_pulse">Mostrar os valores de pulsação medidos no gráfico diário de pulsação</string>
 
     <string name="info_dialog_sleep"><![CDATA[
-        <img src="ic_timelapse"> tempo a dormir
-        <br><br><img src="ic_activity_sleep_deep"> tempo de sono profundo
-        <br><br><img src="ic_activity_go_to_bed"> tempo na cama/acordado
-        <br><br><img src="ic_activity_sleep_start"> hora a que adormeceu/tempo de sono leve
-        <br><br><img src="ic_activity_sleep_time"> tempo total
-        <br><br><img src="ic_activity_sleep_end"> hora a que acordou
-        <br><br><img src="ic_activity_get_up"> tempo fora da cama
-        <br><br><img src="ic_activity_active"> tempo ativo
-        <br><br><img src="ic_activity_block"> não usou a Mi Band
+        <img src="ic_timelapse"> Tempo que dormiu
+        <br><br><img src="ic_activity_sleep_deep"> Sono profundo
+        <br><br><img src="ic_activity_go_to_bed"> Tempo na cama/acordado
+        <br><br><img src="ic_activity_sleep_start"> Hora a que adormeceu/sono leve
+        <br><br><img src="ic_activity_sleep_time"> Tempo total
+        <br><br><img src="ic_activity_sleep_end"> Hora a que acordou
+        <br><br><img src="ic_activity_get_up"> Tempo fora da cama
+        <br><br><img src="ic_activity_active"> Tempo ativo
+        <br><br><img src="ic_activity_block"> Não usou a Mi Band
         ]]>
     </string>
 
@@ -604,31 +604,31 @@
 
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Backup</string>
-    <string name="backup_tab_restore">Restore</string>
+    <string name="backup_tab_restore">Restaurar</string>
 
-    <string name="backup_time">Backup time</string>
-    <string name="backup_path">Backup location</string>
+    <string name="backup_time">Último backup</string>
+    <string name="backup_path">Localização do backup</string>
 
-    <string name="backup_process">Preparation…</string>
-    <string name="backup_process_activity">Activity and sleep %1$,d%%</string>
-    <string name="backup_process_pulse">Pulse %1$,d%%</string>
-    <string name="backup_process_notification">Notification%1$,d%%</string>
-    <string name="backup_process_touch">Touch %1$,d%%</string>
-    <string name="backup_process_time">Time %1$,d%%</string>
-    <string name="backup_process_alarm">Lost %1$,d%%</string>
-    <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
-    <string name="backup_process_settings">Settings %1$,d%%</string>
+    <string name="backup_process">A preparar…</string>
+    <string name="backup_process_activity">Passos e Sono %1$,d%%</string>
+    <string name="backup_process_pulse">Pulsação %1$,d%%</string>
+    <string name="backup_process_notification">Notificações %1$,d%%</string>
+    <string name="backup_process_touch">Botão touch %1$,d%%</string>
+    <string name="backup_process_time">Tempo %1$,d%%</string>
+    <string name="backup_process_alarm">Perdidos %1$,d%%</string>
+    <string name="backup_process_disconnected_agent">Detetive %1$,d%%</string>
+    <string name="backup_process_settings">Definições %1$,d%%</string>
 
-    <string name="backup_restore_activity">Activity and sleep</string>
-    <string name="backup_restore_pulse">Pulse</string>
-    <string name="backup_restore_notification">Notification</string>
-    <string name="backup_restore_touch">Touch</string>
-    <string name="backup_restore_time">Time</string>
-    <string name="backup_restore_alarm">Lost</string>
-    <string name="backup_restore_disconnected_agent">Agent</string>
-    <string name="backup_restore_settings">Settings</string>
+    <string name="backup_restore_activity">Passos e Sono</string>
+    <string name="backup_restore_pulse">Pulsação</string>
+    <string name="backup_restore_notification">Notificações</string>
+    <string name="backup_restore_touch">Botão touch</string>
+    <string name="backup_restore_time">Tempo</string>
+    <string name="backup_restore_alarm">Perdidos</string>
+    <string name="backup_restore_disconnected_agent">Detetive</string>
+    <string name="backup_restore_settings">Definições</string>
 
-    <string name="backup_restore_reset">Turning Bluetooth on and off and restarting the application are required.</string>
+    <string name="backup_restore_reset">É necessário ligar e desligar o Bluetooth e reiniciar a aplicação.</string>
 
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Termos e condições das recompensas</string>
@@ -714,14 +714,14 @@
     <string name="action_chart">Gráfico</string>
     <string name="action_chart_normalize_minute">Valores medidos</string>
     <string name="action_chart_normalize_hour">Valores por hora</string>
-    <string name="action_chart_sort_time_asc">Tempo a ascender</string>
-    <string name="action_chart_sort_time_desc">Tempo a descender</string>
+    <string name="action_chart_sort_time_asc">Horas a ascender</string>
+    <string name="action_chart_sort_time_desc">Horas a descender</string>
     <string name="action_chart_sort_step_asc">Passos a ascender</string>
     <string name="action_chart_sort_step_desc">Passos a descender</string>
     <string name="action_chart_sort_pulse_asc">Pulsação a ascender</string>
     <string name="action_chart_sort_pulse_desc">Pulsação a descender</string>
-    <string name="action_chart_sort_lap_asc">Voltas a ascender</string>
-    <string name="action_chart_sort_lap_desc">Voltas a descender</string>
+    <string name="action_chart_sort_lap_asc">Tempos a ascender</string>
+    <string name="action_chart_sort_lap_desc">Tempos a descender</string>
 
     <string name="power_on">Ligar</string>
     <string name="screen_unlock">Desbloquear o ecrã</string>
