@@ -13,6 +13,7 @@
     <string name="drawer_nav_time">Giám sát thời gian</string>
     <string name="drawer_nav_alarm">Giám sát thất lạc</string>
     <string name="drawer_nav_disconnected_agent">Nhật ký</string>
+    <string name="drawer_nav_backup">Backup</string>
     <string name="drawer_nav_rewarded_mode">Chế độ thưởng</string>
     <string name="drawer_nav_premium_mode">Phiên bản nâng cấp</string>
     <string name="drawer_nav_feedback">Phản hồi</string>
@@ -600,6 +601,34 @@
         <p>If someone operates with the device while you are away, then events above are logged.</p>
         <p>When you reconnect you will receive a notification in case of an event occurred.</p>]]>
     </string>
+
+    <!-- Backup and restore -->
+    <string name="backup_tab_backup">Backup</string>
+    <string name="backup_tab_restore">Restore</string>
+
+    <string name="backup_time">Backup time</string>
+    <string name="backup_path">Backup location</string>
+
+    <string name="backup_process">Preparation…</string>
+    <string name="backup_process_activity">Activity and sleep %1$,d%%</string>
+    <string name="backup_process_pulse">Pulse %1$,d%%</string>
+    <string name="backup_process_notification">Notification%1$,d%%</string>
+    <string name="backup_process_touch">Touch %1$,d%%</string>
+    <string name="backup_process_time">Time %1$,d%%</string>
+    <string name="backup_process_alarm">Lost %1$,d%%</string>
+    <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
+    <string name="backup_process_settings">Settings %1$,d%%</string>
+
+    <string name="backup_restore_activity">Activity and sleep</string>
+    <string name="backup_restore_pulse">Pulse</string>
+    <string name="backup_restore_notification">Notification</string>
+    <string name="backup_restore_touch">Touch</string>
+    <string name="backup_restore_time">Time</string>
+    <string name="backup_restore_alarm">Lost</string>
+    <string name="backup_restore_disconnected_agent">Agent</string>
+    <string name="backup_restore_settings">Settings</string>
+
+    <string name="backup_restore_reset">Turning Bluetooth on and off and restarting the application are required.</string>
 
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Các điều khoản và điều kiện của Chế độ thưởng</string>
