@@ -1,298 +1,296 @@
 <resources>
     <string name="app_name">Mi Bandage</string>
 
-    <string name="navigation_drawer_open">Abir gaveta de navegação</string>
-    <string name="navigation_drawer_close">Fechar gaveta de navegação</string>
+    <string name="navigation_drawer_open">Открыть панель навигации</string>
+    <string name="navigation_drawer_close">Закрыть панель навигации</string>
 
-    <string name="drawer_nav_home">Bandagem</string>
-    <string name="drawer_nav_notification">Notificações</string>
-    <string name="drawer_nav_touch">Botão touch</string>
-    <string name="drawer_nav_step">Passos</string>
-    <string name="drawer_nav_sleep">Sono</string>
-    <string name="drawer_nav_pulse">Pulsação</string>
-    <string name="drawer_nav_time">Tempo</string>
-    <string name="drawer_nav_alarm">Perdidos</string>
-    <string name="drawer_nav_disconnected_agent">Detetive</string>
-    <string name="drawer_nav_backup">Backup</string>
-    <string name="drawer_nav_rewarded_mode">Recompensas</string>
-    <string name="drawer_nav_premium_mode">Modo Premium</string>
-    <string name="drawer_nav_feedback">Feedback</string>
+    <string name="drawer_nav_home">Bandages</string>
+    <string name="drawer_nav_notification">Уведомления</string>
+    <string name="drawer_nav_touch">Касания</string>
+    <string name="drawer_nav_step">Активность</string>
+    <string name="drawer_nav_sleep">Сон</string>
+    <string name="drawer_nav_pulse">Пульс</string>
+    <string name="drawer_nav_time">Время</string>
+    <string name="drawer_nav_alarm">Отсоединён</string>
+    <string name="drawer_nav_disconnected_agent">Лог действий</string>
+    <string name="drawer_nav_backup">Копия</string>
+    <string name="drawer_nav_premium_mode">Премиум</string>
+    <string name="drawer_nav_rewarded_mode">Бонус</string>
+    <string name="drawer_nav_feedback">Обратная связь</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
-    <string name="shortcut_touch">Botão touch</string>
-    <string name="shortcut_step">Passos</string>
-    <string name="shortcut_pulse">Pulsação</string>
-    <string name="shortcut_time_alarm">Despertador</string>
+    <string name="shortcut_touch">Касания</string>
+    <string name="shortcut_step">Активность</string>
+    <string name="shortcut_pulse">Пульс</string>
+    <string name="shortcut_time_alarm">Будильник</string>
 
     <!-- Foreground service, ongoing notification -->
-    <string name="foreground_service_connected">Hora de conexão: %1$s</string>
-    <string name="foreground_service_disconnected_text">A Mi Band 2 não está conectada</string>
-    <!--<string name="foreground_service_disconnected">Hora de desconexão: %1$s</string>-->
+    <string name="foreground_service_connected">Время присоединения: %1$s</string>
+    <string name="foreground_service_disconnected_text">Mi Band 2 не подключен</string>
+    <!--<string name="foreground_service_disconnected">Время рассоединения: %1$s</string>-->
 
     <!-- Strings related to Settings -->
-    <string name="settings_name">Definições</string>
-    <string name="app_chooser">Escolher aplicação</string>
-    <string name="info_name">Informação</string>
+    <string name="settings_name">Настройки</string>
+    <string name="app_chooser">Выбор приложения</string>
+    <string name="info_name">Информация</string>
 
-    <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Steps, distance, calories, goal, pulse</string>
+    <!-- Preference -->
+    <string name="mi_band_tracker_title">Шаги, расстояние, калории</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
-    <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
-    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Battery level, charging time, estimated remaining time</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI, last connection and disconnection time</string>
-    <string name="mi_band_touch">Touch monitoring</string>
-    <string name="mi_band_alarm">Next alarm</string>
-    <string name="mi_band_bonded_device_name">Mi Band 2 (nome do dispositivo emparelhado)</string>
-    <string name="mi_band_mac_address">Endereço MAC</string>
-    <string name="mi_band_firmware">Firmware</string>
-    <string name="mi_band_hardware">Hardware</string>
+    <string name="mi_band_tracker_distance_title">%1$,d м</string> <!-- meter -->
+    <string name="mi_band_tracker_calorie_title">%1$,d ккал</string> <!-- kilo calorie -->
+    <string name="mi_band_battery">Уровень заряда, время с последней зарядки</string>
+    <string name="mi_band_battery_remaining">Ожидаемое время работы</string>
+    <string name="mi_band_battery_settings">Настройки батареи</string>
+    <string name="mi_band_battery_notification_level">Задержка уведомления на телефоне</string>
+    <string name="mi_band_battery_notification_message">Низкий заряд %1$,d%%</string>
+    <string name="mi_band_bonded_device_name">Имя спаренного Mi Band 2</string>
+    <string name="mi_band_mac_address">MAC адрес</string>
+    <string name="mi_band_firmware">Прошивка</string>
+    <string name="mi_band_hardware">Версия устройства</string>
+    <string name="mi_band_state_connected_last_time">Время последнего соединения</string>
+    <string name="mi_band_state_disconnected_last_time">Время последнего разрыва соединения</string>
 
-    <string name="mi_band_mac_address_invalid">O endereço MAC é inválido</string>
-
-    <string name="mi_band_battery_settings">Definições de bateria</string>
-    <string name="mi_band_battery_remaining">Tempo restante de carga</string>
-    <string name="mi_band_battery_notification_level">Bateria baixa</string>
-    <string name="mi_band_battery_notification_message">Bateria baixa %1$,d%%</string>
+    <string name="mi_band_mac_address_invalid">Неверный MAC адрес</string>
 
     <!-- PreferenceScreen -->
-    <string name="pref_connected">Conexão</string>
-    <string name="pref_connected_summary">Sinal da Mi Band 2 e do dispositivo</string>
+    <string name="pref_connected">Настройки соединения</string>
+    <string name="pref_connected_summary">Настройки соединения Mi Band 2 и устройства</string>
 
-    <string name="pref_connected_signals">Sinais de conexão</string>
-    <string name="pref_connected_signals_summary">A conetar com a Mi Band 2 sem notificação</string>
-    <string name="pref_cat_connected_signals_mi_band">Aviso da Mi Band 2</string>
-    <string name="pref_connected_mi_band_title">Vibração</string>
-    <string name="pref_cat_connected_signals">Aviso do dispositivo</string>
-    <string name="pref_connected_wakelock_title">Acordar o ecrã do dispositivo</string>
+    <string name="pref_connected_signals">Уведомления при соединении</string>
+    <string name="pref_connected_signals_summary">Присоединение Mi Band 2 в отсутствие новых уведомлений</string>
+    <string name="pref_cat_connected_signals_mi_band">Уведомление Mi Band 2</string>
+    <string name="pref_connected_mi_band_title">Вибрация</string>
+    <string name="pref_cat_connected_signals">Уведомление устройства</string>
+    <string name="pref_connected_wakelock_title">Активировать экран устройства</string>
 
-    <string name="pref_connected_settings">Definições de conexão</string>
-    <string name="pref_connected_settings_summary">Definições de conexão da Mi Band 2 e do dispositivo</string>
-    <string name="pref_cat_connected_settings">Definições do dispositivo</string>
-    <string name="pref_connected_volume_title">Alterar volume</string>
-    <string name="pref_connected_volume_ring_title">Volme do toque</string>
+    <string name="pref_connected_settings">Настройки соединения</string>
+    <string name="pref_connected_settings_summary">Настройки соединения Mi Band 2 и устройства</string>
+    <string name="pref_cat_connected_settings">Настройки устройства</string>
+    <string name="pref_connected_volume_title">Изменить громкость</string>
+    <string name="pref_connected_volume_ring_title">Громкость звонка</string>
 
-    <string name="pref_cat_connected_have_notif">Aplicações padrão</string>
-    <string name="pref_cat_connected_have_notif_default">Aplicações pré-definidas e padrão</string>
-    <string name="pref_connected_have_notif_immediate_title">Avisar quando receber a notificação</string>
-    <string name="pref_connected_have_notif_title">Avisar quando conectar ao dispositivo</string>
-    <string name="pref_connected_have_notif_reminder_title">Lembrete</string>
-    <string name="pref_connected_have_notif_screen_off_title">Avisar quando o ecrã está desligado</string>
-    <string name="pref_connected_have_notif_interval_title">Tempo para o próximo lembrete</string>
-    <string name="pref_connected_have_notif_counter_title">Cardinalidade dos sinais</string>
-    <string name="pref_connected_have_notif_wakelock_title">Acordar o dispositivo</string>
-    <string name="pref_connected_have_notif_ongoing_title">A notificação permanece visível</string>
-    <string name="pref_connected_have_notif_default_app_title">Aplicação não reconhecida</string>
-    <string name="pref_connected_have_notif_default_app_summary_on">ícone \'App\' (se a aplicação não existe num grupo de notificações prédefinido e costumizado)</string>
-    <string name="pref_connected_have_notif_pre_signal_title">Prever notificações</string>
-    <string name="pref_connected_have_notif_pre_signal_summary_on">Avisar antes da notificação real, a fim de ter mais tempo para olhar para o ecrã. (clique no ícone para o modificar)</string>
+    <string name="pref_cat_connected_have_notif">Изначально заданные приложения и уведомления Mi Band 2</string>
+    <string name="pref_cat_connected_have_notif_default">Предустановленные и пользовательские настройки</string>
+    <string name="pref_connected_have_notif_immediate_title">Мгновенные уведомления</string>
+    <string name="pref_connected_have_notif_title">При подключении к устройству</string>
+    <string name="pref_connected_have_notif_reminder_title">Периодические уведомления</string>
+    <string name="pref_connected_have_notif_screen_off_title">Уведомлять только при выключенном экране</string>
+    <string name="pref_connected_have_notif_interval_title">Интервал повторения уведомлений</string>
+    <string name="pref_connected_have_notif_counter_title">Количество уведомлений</string>
+    <string name="pref_connected_have_notif_wakelock_title">Активировать экран устройства</string>
+    <string name="pref_connected_have_notif_ongoing_title">Постоянные уведомления</string>
+    <string name="pref_connected_have_notif_default_app_title">Уведомления нараспознанных приложений</string>
+    <string name="pref_connected_have_notif_default_app_summary_on">Иконка \'app\' для не рассортированных по группам или предопределённых</string>
+    <string name="pref_connected_have_notif_pre_signal_title">Предсказание уведомлений</string>
+    <string name="pref_connected_have_notif_pre_signal_summary_on">Уведомление (настраиваемое) перед настоящим уведомлением, чтобы успеть увидеть его на Mi Band 2</string>
 
-    <string name="pref_foreground_service_title">Mostrar o status na barra de notificação</string>
-    <string name="pref_foreground_service_summary">O sistema android força a paragem do serviço quando a memória está baixa. Se depois de algum tempo a Mi Band 2 não mostrar as notificações, você pode prevenir isso.</string>
-    <string name="pref_foreground_service_color_title">Cor dos ícones na barra de notificação</string>
+    <string name="pref_foreground_service_title">Отображение статуса подключения в уведомлении</string>
+    <string name="pref_foreground_service_summary">Система Android принудительно останавливает приложение только при недостатке памяти. Если через некоторое время перестают приходить уведомления Mi Band 2, вы можете предотвратить это.</string>
+    <string name="pref_foreground_service_color_title">Цвет иконки</string>
 
-    <string name="pref_disconnected">Desconexão</string>
-    <string name="pref_disconnected_summary">Sinal da Mi Band 2 e do dispositivo</string>
+    <string name="pref_disconnected">Настройки рассоединения</string>
+    <string name="pref_disconnected_summary">Настройки отсоединения Mi Band 2</string>
 
-    <string name="pref_disconnected_signals">Sinais de desconexão</string>
-    <string name="pref_disconnected_signals_summary">Sinais de desconexão da Mi Band 2 e do dispositivo, o sinal não é emitido quando o Bluetooth é desligado manualmente</string>
-    <string name="pref_cat_disconnected_signals_mi_band">Mi Band 2</string>
-    <string name="pref_disconnected_mi_band_title">Mostrar ícone</string>
-    <string name="pref_cat_disconnected_signals">Dispositivo</string>
-    <string name="pref_disconnected_ringtone_title">Toque</string>
-    <string name="pref_disconnected_vibration_title">Vibração</string>
-    <string name="pref_disconnected_wakelock_title">Acordar o dispositivo</string>
+    <string name="pref_disconnected_signals">Уведомления рассоединения</string>
+    <string name="pref_disconnected_signals_summary">Уведомления отсоединения Mi Band 2, не уведомляет при вручную отключённом Bluetooth</string>
+    <string name="pref_cat_disconnected_signals_mi_band">Уведомление Mi Band 2</string>
+    <string name="pref_disconnected_mi_band_title">Отображение иконки</string>
+    <string name="pref_cat_disconnected_signals">Сигналы при отсоединении</string>
+    <string name="pref_disconnected_ringtone_title">Рингтон</string>
+    <string name="pref_disconnected_vibration_title">Вибрация</string>
+    <string name="pref_disconnected_wakelock_title">Активировать экран устройства</string>
 
-    <string name="pref_disconnected_settings">Deiniçções de desconexão</string>
-    <string name="pref_disconnected_settings_summary">Definições da Mi Band 2 e o dispositivo, o sinal não é emitido quando o Bluetooth é desligado manualmente</string>
-    <string name="pref_cat_disconnected_settings">Deefinições do dispositivo</string>
-    <string name="pref_disconnected_volume_title">Alterar volume</string>
-    <string name="pref_disconnected_volume_ring_title">Volume do toque</string>
+    <string name="pref_disconnected_settings">Настройки рассоединения</string>
+    <string name="pref_disconnected_settings_summary">Настройки отсоединения Mi Band 2, не уведомляет при вручную отключённом Bluetooth</string>
+    <string name="pref_cat_disconnected_settings">Настройки устройства</string>
+    <string name="pref_disconnected_volume_title">Изменить громкость</string>
+    <string name="pref_disconnected_volume_ring_title">Громкость звонка</string>
 
-    <string name="pref_cat_abandoned">Dispositivo</string>
-    <string name="pref_abandoned_notif_interval_title">Tempo para repetir o alarme</string>
-    <string name="pref_abandoned_notif_text_summary">Notificação no ecrã</string>
-    <string name="pref_abandoned_notif_text_text">O dispositivo está perdido. Por favor, ligue para o(s) número(s) a seguir:</string>
-    <string name="pref_abandoned_ringtone_title">Toque</string>
-    <string name="pref_abandoned_vibration_title">Vibrar</string>
-    <string name="pref_abandoned_wakelock_title">Acordar o ecrã</string>
-    <string name="pref_abandoned_notif_title">O dispositivo está perdido</string>
+    <string name="pref_cat_abandoned">Сигнал на устройстве</string>
+    <string name="pref_abandoned_notif_interval_title">Интервал повторения сигнала</string>
+    <string name="pref_abandoned_notif_text_summary">Уведомление на экране устройства</string>
+    <string name="pref_abandoned_notif_text_text">Устройство утеряно, пожалуйста, позвоните по номеру:</string>
+    <string name="pref_abandoned_ringtone_title">Рингтон</string>
+    <string name="pref_abandoned_vibration_title">Вибрация</string>
+    <string name="pref_abandoned_wakelock_title">Активировать экран усройства</string>
+    <string name="pref_abandoned_notif_title">Устройство утеряно</string>
 
-    <string name="pref_call">Chamadas</string>
-    <string name="pref_call_summary">Sinal da Mi Band 2</string>
-    <string name="pref_cat_call">Chamada recebida</string>
-    <string name="pref_call_title">Aviso de chamada recebida</string>
-    <string name="pref_call_summary_on">Ligado (não te esqueças de desligar incoming call alerts na aplicação \'Mi Fit\')</string>
-    <string name="pref_call_text_title">Mostrar o ID do chamador</string>
-    <string name="pref_call_text_summary_on"><![CDATA[Ligado (mais informação: <i>Definições/Ícone de texto)</i>]]></string>
+    <string name="pref_call">Настройки звонков</string>
+    <string name="pref_call_summary">Настройки уведомлений Mi Band 2</string>
+    <string name="pref_cat_call">Входящий звонок</string>
+    <string name="pref_call_title">Уведомление о входящем звонке</string>
+    <string name="pref_call_summary_on">Включено (не забудьте отключить эти уведомления в Mi Fit)</string>
+    <string name="pref_call_text_title">Показывать звонящего</string>
+    <string name="pref_call_text_summary_on"><![CDATA[Включено (подробнее: <i>Настройки/Настройки текста)</i>]]></string>
 
-    <string name="pref_call_net_text_title">Aviso de chamada online recebida; mostrar o ID do chamador</string>
-    <string name="pref_call_net_text_summary_on">Viber; WhatsApp; Line</string>
+    <string name="pref_call_net_text_title">Входящий интернет-вызов, отображение ID звонящего</string>
+    <string name="pref_call_net_text_summary_on">Viber, WhatsApp, Line</string>
 
-    <string name="pref_cat_call_missed">Chamada perdida</string>
-    <string name="pref_call_missed_title">Aviso de chamada perdida</string>
+    <string name="pref_cat_call_missed">Пропущенный звонок</string>
+    <string name="pref_call_missed_title">Уведомление о пропущенном звонке</string>
 
-    <string name="pref_call_missed_net_title">Aviso de chamada online perdida; mostrar o ID do chamador</string>
-    <string name="pref_call_missed_net_summary_on">Viber; WhatsApp; Skype; Line; Messenger</string>
+    <string name="pref_call_missed_net_title">Пропущенный интернет-вызов, отображение ID звонящего</string>
+    <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
 
-    <string name="pref_call_missed_alert_title">Aviso da Mi Band 2</string>
+    <string name="pref_call_missed_alert_title">Уведомление Mi Band 2</string>
 
-    <string name="pref_call_missed_text_prefix_title">Prefixo do texto: %1$s</string>
-    <string name="pref_call_missed_text_prefix_summary">Se mais do que uma aplicação usar o ícone para diferenciar as notificações uma da outra, isto ajudar-te-à</string>
-    <string name="pref_call_missed_text_prefix_dialog_title">Prefixo do texto</string>
+    <string name="pref_call_missed_text_prefix_title">Префикс текста: %1$s</string>
+    <string name="pref_call_missed_text_prefix_summary">Если несколько приложений используют иконку (чтобы отличить сообщения)</string>
+    <string name="pref_call_missed_text_prefix_dialog_title">Префикс текста</string>
 
-    <string name="pref_text_conversion">Ícone de texto</string>
-    <string name="pref_text_conversion_summary">Definições do ícone de texto da Mi Band 2</string>
-    <string name="pref_cat_text_conversion">Sinal da Mi Band 2</string>
-    <string name="pref_text_conversion_title">Conversão de caracteres</string>
-    <string name="pref_text_conversion_summary_on">Converter caracteres não reconhecidos</string>
+    <string name="pref_text_conversion">Настройки текста</string>
+    <string name="pref_text_conversion_summary">Настройки текстовых иконок Mi Band 2</string>
+    <string name="pref_cat_text_conversion">Символы Mi Band 2</string>
+    <string name="pref_text_conversion_title">Преобразование символов</string>
+    <string name="pref_text_conversion_summary_on">Преобразование нераспознанных символов</string>
 
-    <string name="pref_text_conversion_description_title">Descrição</string>
+    <string name="pref_text_conversion_description_title">Описание</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
-        <p>Se, atualmente, a sua Mi Band 2 mostra o nome do chamador, você não vai precisar de fazer as seguintes etapas. Desligue apenas <i>Incoming call alerts</i> na Mi Fit.</p>
-        <p>Se você não usa <i>Incoming call alerts</i> e a linguagem do dispositivo não está em inglês:
-        <br/>1. Mude a linguagem do dispositivo para inglês.
-        <br/>2. Abra a aplicação Mi Fit e espere até o firmware atualizar. Se a actualização do firmware não começar, reinicie o dipositivo.
-        <br/>3. Abra o menu <i>Play/Incomimg call</i>.
-        <br/>4. Ative: <i>Turn on incoming call alerts</i>.
-        <br/>5. Ative: <i>Show contact information</i>.
-        <br/>6. Verifique se a Mi Band 2 pode mostrar o nome do chamador ligando para o seu dispositivo.
-        <br/>7. Desative: <i>Turn on incoming call alerts</i> (<i>Show contact information</i> permanece ligado).
-        <br/>8. Define a linguagem do dispositivo para a que tinha.</p>]]>
+        <p>Если ваш Mi Band 2 показывает имя звонящего, включение преобразования не требуется, просто выключите <i>Входящий вызов</i> Mi Fit.</p>
+        <p>Если вы не используете настройки из Mi Fit и язык устройства не английский:
+        <br/>1. Выберите английский язык в настройках устройства.
+        <br/>2. Откройте Mi Fit, подождите обновления шрифтов. Если обновление не начинается, попробуйте перезагрузить устройство.
+        <br/>3. Откройте <i>Play/Incomimg call</i>.
+        <br/>4. Включите: <i>Turn on incoming call alerts</i>.
+        <br/>5. Включите: <i>Show contact information</i>.
+        <br/>6. Проверьте, может ли Mi Band 2 показывать имя звонящего.
+        <br/>7. Выключите : <i>Turn on incoming call alerts</i> (<i>Show contact information</i> оставьте включённым).
+        <br/>8. Верните язык устройства.</p>]]>
     </string>
 
-    <string name="pref_touch">Botão touch</string>
-    <string name="pref_cat_touch">Sinal da Mi Band 2</string>
-    <string name="pref_touch_recognised_failed_title">Padrão touch não reconhecido</string>
-    <string name="pref_touch_recognised_failed_summary_on">Ligado (2 vibrações depois do padrão mais longo)</string>
+    <string name="pref_touch">Настройки касаний</string>
+    <string name="pref_cat_touch">Уведомления Mi Band 2</string>
+    <string name="pref_touch_recognised_failed_title">Не распознанные нажатия</string>
+    <string name="pref_touch_recognised_failed_summary_on">Включено (2 вибрации после длиннейшей комбинации)</string>
 
-    <string name="pref_mi_band">Mi Band 2</string>
-    <string name="pref_cat_mi_band_lift_wrist">Rodar o braço para ver a informação</string>
-    <string name="pref_mi_band_lift_wrist_title">Rodar o braço para ver a informação</string>
-    <string name="pref_mi_band_lift_wrist_dnd_title">Modo DND</string>
-    <string name="pref_mi_band_lift_wrist_dnd_summary_on">Ligado (No período de tempo especificado não vai ser apresentada informação; Conexão Bluetooth necessária para configurar)</string>
+    <string name="pref_mi_band">Настройки Mi Band 2</string>
+    <string name="pref_cat_mi_band_lift_wrist">Поворот запястья</string>
+    <string name="pref_mi_band_lift_wrist_title">Поворот запястья</string>
+    <string name="pref_mi_band_lift_wrist_dnd_title">Режим \"Не беспокоить\"</string>
+    <string name="pref_mi_band_lift_wrist_dnd_summary_on">Включено (в заданный промежуток времени отображение отключено, необоходимо Bluetooth-соединение)</string>
 
-    <string name="pref_theme">Tema</string>
-    <string name="pref_cat_theme">Tema</string>
-    <string name="pref_theme_title">Selecionar um tema</string>
+    <string name="pref_theme">Настройки темы</string>
+    <string name="pref_cat_theme">Тема</string>
+    <string name="pref_theme_title">Выберите тему</string>
 
-    <string name="pref_language">Linguagem</string>
-    <string name="pref_cat_language">Linguagem</string>
-    <string name="pref_language_title">Linguagem</string>
+    <string name="pref_language">Язык</string>
+    <string name="pref_cat_language">Язык</string>
+    <string name="pref_language_title">Язык</string>
 
     <!-- Quick switch -->
-    <string name="details">Detalhes</string>
-    <string name="bandages">Bandagem</string>
-    <string name="connected">Conexão e notificações</string>
-    <string name="disconnected">Desconexão e detetive</string>
-    <string name="touch">Botão touch</string>
+    <string name="details">Подробнее</string>
+    <string name="bandages">Bandages</string>
+    <string name="connected">Сигналы присоединения и уведомления</string>
+    <string name="disconnected">Лог действий и сигналы отсоединения</string>
+    <string name="touch">Касания</string>
 
-    <string name="pref_dnd_title">Modo DND</string>
-    <string name="pref_dnd_remember_state_summary">Quando o modo DND terminar, toda a bandagem é ligada ou restaurada para as que tinha antes do modo DND começar</string>
-    <string name="pref_dnd_remember_state_on_title">Restaurar tudo</string>
-    <string name="pref_dnd_remember_state_off_title">Ligar tudo</string>
-    <string name="pref_dnd_enable_bluetooth">Desligar Bluetooth ao iniciar o modo DND e voltar a ligar quando terminar</string>
+    <string name="pref_dnd_title">Режим \"Не беспокоить\"</string>
+    <string name="pref_dnd_remember_state_summary">При отключении режима \"Не беспокоить\", включить или восстановить состояние всех \"заплаток\" к моменту активации режима</string>
+    <string name="pref_dnd_remember_state_on_title">Восстановить</string>
+    <string name="pref_dnd_remember_state_off_title">Включить все</string>
+    <string name="pref_dnd_enable_bluetooth">При включении режима \"Не беспокоить\" выключить Bluetooth, при отключении - включить</string>
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Por favor, ligue o Bluetooth e mantanha a Mi Band 2 perto do dispositivo</string>
-    <string name="message_discover_mi_band">A Mi Band 2 não está configurada. Encontre-a por favor</string>
-    <string name="message_discovered_mi_band">A Mi Band 2 foi encontrada</string>
-    <string name="message_discovering_mi_band">Procurando a Mi Band 2 &#8230;</string>
-    <string name="message_discovered_no_mi_band">A Mi Band 2 não foi encontrada</string>
-    <string name="message_discovered_not_found_mi_band">Se a Mi Band 2 não for encontrada, ative: Mi Fit/Play/Discoverable ou emparelhe nas definições de Bluetooth</string>
-    <string name="message_enable_notification_listener_access">Ative o acesso às notificações: Definições/Notificações/Acesso às notificações</string>
-    <string name="message_enable_notification_listener_access_4_4">Ative o acesso às notificações: Definições/Segurança/Acesso às notificações</string>
-    <string name="message_enable_notification_policy_access">Ativar acesso não perturbar</string>
-    <string name="message_open_settings">Definições</string>
+    <string name="message_enable_bluetooth">Пожалуйста, включите Bluetooth и поднесите Mi Band 2 ближе к устройству</string>
+    <string name="message_discover_mi_band">Mi Band 2 не выбран, пожалуйста, подключите его</string>
+    <string name="message_discovered_mi_band">Mi Band 2 подключён</string>
+    <string name="message_discovering_mi_band">Поиск Mi Band 2 (это может занять около минуты) &#8230;</string>
+    <string name="message_discovered_no_mi_band">Mi Band 2 не подключён</string>
+    <string name="message_discovered_not_found_mi_band">Если Mi Band 2 не обнаружен, включите: Mi Fit/Уведомления/Видимость или свяжите через настройки Bluetooth устройства</string>
+    <string name="message_enable_notification_listener_access">Разрешите доступ к уведомлениям</string>
+    <string name="message_enable_notification_listener_access_4_4">Разрешите доступ к уведомлениям</string>
+    <string name="message_enable_notification_policy_access">Включите доступ к режиму \"Не беспокоить\"</string>
+    <string name="message_open_settings">Настройки</string>
 
-    <string name="message_deleted">Apagado</string>
-    <string name="message_undo">Desfazer</string>
+    <string name="message_deleted">Удалено</string>
+    <string name="message_undo">Отменить</string>
 
-    <string name="message_app_chooser_no_selected">Selecione uma aplicação</string>
+    <string name="message_app_chooser_no_selected">Выберете приложение</string>
 
-    <string name="message_notification_free_groups">Só pode usar até 6 grupos</string>
+    <string name="message_notification_free_groups">Максимум 6 групп</string>
 
-    <string name="message_step_goal_free_values">Só pode definir até 3 valores no modo normal</string>
-    <string name="message_step_goal_max_values">Pode definir 10 valores no máximo</string>
+    <string name="message_step_goal_free_values">До 3 значений может быть уставлено в обычном режиме</string>
+    <string name="message_step_goal_max_values">Максимум 10 значений может быть уставлено</string>
 
-    <string name="message_touch_no_patterns">Clique num dos botões vermelhos para gravar um padrão</string>
-    <string name="message_touch_record">Grave o padrão usando o botão touch da Mi Band 2</string>
-    <string name="message_touch_pattern_error">O padrão gravado é semelhante ao de outra função, grave outro</string>
-    <string name="message_touch_free_patterns">Só pode usar até 3 funções</string>
-    <string name="message_touch_music_player_not_found">Reprodutor de música não encontrado</string>
-    <string name="message_touch_app_launcher1_not_set">A aplicação não está configurada</string>
-    <string name="message_touch_app_launcher1_not_found">Aplicação não encontrada: %1$s</string>
-    <string name="message_touch_tasker_launcher1_not_set">Gerenciador de tarefas não definido</string>
+    <string name="message_touch_no_patterns">Нажмите на требуемую красную кнопку записи последовательности</string>
+    <string name="message_touch_record">Запишите образец использования кнопки Mi Band 2</string>
+    <string name="message_touch_pattern_error">Заданная последовательность похожа на последовательность другой функции, запишите другую</string>
+    <string name="message_touch_free_patterns">Максимум 3 функции</string>
+    <string name="message_touch_music_player_not_found">Плеер не найден</string>
+    <string name="message_touch_app_launcher1_not_set">Приложение не выбрано</string>
+    <string name="message_touch_app_launcher1_not_found">Приложение не найдено: %1$s</string>
+    <string name="message_touch_tasker_launcher1_not_set">Действие Tasker не задано</string>
 
-    <string name="message_notification_group_has_no_entry">Seleciona aplicações com o botão verde \'+\' localizado no canto inferior direito do cartão</string>
+    <string name="message_notification_group_has_no_entry">Добавьте приложения, нажав на зелёный \'+\' в правом нижнем углу карточки</string>
 
-    <string name="message_time_alarm_free_counter">Só pode usar 2 alarmes no modo normal</string>
-    <string name="message_time_alarm_max_counter">Só pode usar 5 alarmes no máximo</string>
-    <string name="message_time_alarm_enabled">Alarme ativado</string>
-    <string name="message_time_alarm_disabled">Alarme desativado</string>
-    <string name="message_time_alarm_mi_band_off">Alarme desligado</string>
+    <string name="message_time_alarm_free_counter">До 2 будильников может быть уставлено в обычном режиме</string>
+    <string name="message_time_alarm_max_counter">Максимум 5 будильников может быть уставлено</string>
+    <string name="message_time_alarm_enabled">Будильник включён</string>
+    <string name="message_time_alarm_disabled">Будильник выключен</string>
+    <string name="message_time_alarm_mi_band_off">Будильник выключен</string>
 
-    <string name="message_alarm_free_interval">Os intervalos de tempo pequenos para repetir só podem ser configurados no modo premium</string>
-    <string name="message_alarm_mi_band_set_failed">A configuração do alarme falhou</string>
-    <string name="message_alarm_mi_band_clear_failed">A limpeza do alarme falhou</string>
+    <string name="message_alarm_free_interval">Меньшие промежутки могут быть установлены в премиуме</string>
+    <string name="message_alarm_mi_band_set_failed">Не удалось установить будильник</string>
+    <string name="message_alarm_mi_band_clear_failed">Не удалось удалить будильник</string>
 
-    <string name="message_premium_mode_only">Esta definição só está disponível no modo premium</string>
-    <string name="message_general_error">A configuração falhou (conexão perdida), tente de novo</string>
-    <string name="message_internet_error">Não tem ligação à internet</string>
+    <string name="message_premium_mode_only">Эта функция доступна только в премиуме</string>
+    <string name="message_general_error">Ошибка (соединение потеряно), попробуйте снова</string>
+    <string name="message_internet_error">Нет подключения к Интернету</string>
 
-    <string name="message_in_progress">A processar…</string>
+    <string name="message_in_progress">В процессе…</string>
 
     <!-- Dialog -->
-    <string name="dialog_welcome_title">Bem vindo!</string>
-    <string name="dialog_welcome_message"><![CDATA[Atualmente a aplicação suporta apenas a Mi Band 2.
-    <p>A Mi Bandage precisa da Mi Fit instalada pra funcionar. Primeiro tem de emparelhar a Mi Band 2 na aplicação Mi Fit e só depois poderá usar a Mi Bandage.</p>
-    <p>Se você usa mais aplicações para controlar a Mi Band 2, elas vão interferir umas com as outras por isso desative-as.</p>
-    <p>Se a Mi Band 2 não for encontrada, você pode configurar o endereço MAC manualmente nos detalhes do menu (O endereço MAC encontra-se em: Mi Fit/Profil/Mi Band 2).</p>
-    <p><b>Se a Mi Band 2 não for encontrada ou se está a ter problemas em sincronizar na aplicação Mi Fit, instale BToolkit, nRF Conect ou uma aplicação semelhante de monitoramento bluetooth e remova os dispositivos emparelhados.</b></p>
+    <string name="dialog_welcome_title">Добро пожаловать!</string>
+    <string name="dialog_welcome_message"><![CDATA[Приложение пока поддерживает только Mi Band 2.
+    <p>Mi Bandage требуется приложение Mi Fit на устройстве. Сначала, подключите Mi Band 2 к Mi Fit, потом пользуйтесь Mi Bandage.</p>
+    <p>Если вы используете несколько приложений для управления Mi Band 2, они могут мешать друг другу, поэтому временно отключите их.</p>
+    <p>Если Mi Band 2 не обнаружен, вы можете установить MAC вручную в настройках (MAC можно найти в: Mi Fit/Профиль/Mi Band 2).</p>
+    <p><b>Если Mi Band 2 не обнаружен или имеются проблемы синхронизации в Mi Fit, установите BToolkit, nRF Connect или другое приложение управления Bluetooth и удалите связанные устройства.</b></p>
     <p><b>MIUI:</b>
-    <br>- Aplicações recentes: Bloquear a Mi Bandage (Deslize a aplicação para baixo e clique no ícone 'aloquete').
-    <br>- Menu 'Segurança': Vá para 'Bateria/Poupar bateria'; configure a aplicação Mi Bandage para não ser restringida.</p>
-    <p>Se tem problemas (descobrir a Mi Band 2/sinal de notificação), tente isto por favor:
-    <br>1. Se tem o Greenify instalado (ou outra aplicação para hibernar) desative a opção \'hibernar mi bandage\'.
-    <br>2. reinstale a aplicação Mi Bandage.
-    <br>3. Reinicie o dispovitivo.
-    <br>4. Desligue e volte a ligar o Bluetooth.
-    <br>5. Abra a aplicação Mi Fit, espere até a sincronização ser feita e feche-a.
-    <br>6. Abra a aplicação Mi Bandage e clique no botão para descobrir a Mi Band 2.</p>]]></string>
+    <br>- Окно недавних приложений: закрепите Mi Bandage (протяните приложение вниз и нажмите иконку замка).
+    <br>- Окно безопасности приложений: снимите запреты, связанные с экономией энергии для Mi Bandage.</p>
+    <p>При неполадках (обнаружение Mi Band 2, отсутствие уведомлений), попробуйте:
+    <br>1. Если у вас установлено приложение Greenify (или другое приложение для гибернации) настоятельно рекомендуется отключить его.
+    <br>2. (Пере-)Установить Mi Bandage.
+    <br>3. Перезагрузить устройство.
+    <br>4. Выключить и включить Bluetooth.
+    <br>5. Открыть Mi Fit, подождать окончания синхронизации.
+    <br>6. Открыть Mi Bandage, нажать зелёную кнопку обнаружения.</p>]]></string>
 
     <!-- Notification  -->
-    <string name="notification_tab_settings">Definições</string>
-    <string name="notification_tab_custom">Notificações padrão</string>
+    <string name="notification_tab_settings">Настройки</string>
+    <string name="notification_tab_custom">Пользовательские</string>
 
     <!-- Notification Dialog -->
-    <string name="notification_group_name">Nome</string>
-    <string name="notification_group_monitoring">Notificar</string>
-    <string name="notification_group_monitoring_disabled">Excluir (não será notificado pelas aplicações deste grupo)</string>
-    <string name="notification_group_alert_title">Sinal da Mi Band 2</string>
-    <string name="notification_group_text_title">Título</string>
-    <string name="notification_group_text_content">Conteúdo</string>
-    <string name="notification_group_pre_alert">Pré-ícone</string>
-    <string name="notification_group_prefix">Prefixo do texto</string>
-    <string name="notification_group_pre_signal_title">Prever a notificação</string>
-    <string name="notification_group_pre_only_premium">Modo premium</string>
-    <string name="notification_group_immediate">Avisar quando receber a notificação</string>
-    <string name="notification_group_connecting">Avisar quando conectar ao dispositivo</string>
-    <string name="notification_group_reminder">Lembrete</string>
-    <string name="notification_group_screen_off">Avisar quando o ecrã estiver desligado</string>
-    <string name="notification_group_counter_title">Cardinalidade dos sinais</string>
-    <string name="notification_group_wakelock">Acordar o ecrã do dispositivo</string>
-    <string name="notification_group_filter">Filtrar notificações</string>
-    <string name="notification_group_filter_hint">Avisar quando a notificação: (delimitador: MAIÚSCULAS e minúsculas)</string>
-    <string name="notification_group_filter_contains">Contém</string>
-    <string name="notification_group_filter_not_contains">Não contém</string>
+    <string name="notification_group_name">Название группы</string>
+    <string name="notification_group_monitoring">Управлять уведомлениями</string>
+    <string name="notification_group_monitoring_disabled">Исключить уведомления (не отображать уведомления приложений)</string>
+    <string name="notification_group_alert_title">Иконка на Mi Band 2</string>
+    <string name="notification_group_text_title">Заголовок</string>
+    <string name="notification_group_text_content">Содержимое</string>
+    <string name="notification_group_pre_alert">Пре-иконка</string>
+    <string name="notification_group_prefix">Префикс текста</string>
+    <string name="notification_group_pre_signal_title">Предсказание уведомлений по умолчанию</string>
+    <string name="notification_group_pre_only_premium">Только для премиума</string>
+    <string name="notification_group_immediate">Мгновенное уведомление</string>
+    <string name="notification_group_connecting">При подключении к устройству</string>
+    <string name="notification_group_reminder">Периодические уведомления</string>
+    <string name="notification_group_screen_off">Уведомлять только при выключенном экране</string>
+    <string name="notification_group_counter_title">Количество сигналов</string>
+    <string name="notification_group_wakelock">Активировать экран усройства</string>
+    <string name="notification_group_filter">Фильтр</string>
+    <string name="notification_group_filter_hint">Уведомлять, если в уведомлении (разделитель: enter, без учёта регистра)</string>
+    <string name="notification_group_filter_contains">Есть любая фраза</string>
+    <string name="notification_group_filter_not_contains">Нет ни одной фразы</string>
 
-    <string name="notification_group_sample_sms">Mostrar texto de SMS</string>
-    <string name="notification_group_sample_facebook">Mostrar texto de Facebook</string>
-    <string name="notification_group_sample_whatsapp">Mostrar texto de WhatsApp</string>
+    <string name="notification_group_sample_sms">Текст SMS сообщения</string>
+    <string name="notification_group_sample_facebook">Текст сообщения Facebook</string>
+    <string name="notification_group_sample_whatsapp">Текст сообщения WhatsApp</string>
 
     <!-- Notification info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Ícones da Mi Bnad 2 e aplicação correspondente:
-        <br><img src="ALERT_MESSAGE_TEXT">  Chamada perdida
+    <string name="info_dialog_notification"><![CDATA[Предустановленные иконки уведомлений Mi Band 2 и приложений:
+        <br><img src="ALERT_MESSAGE_TEXT">  пропущенный звонок
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  Email, Gmail
         <br><img src="ALERT_CALENDAR">  Google Calendar
@@ -318,445 +316,441 @@
         <br><img src="ALERT_ALIPAY">  AliPay
         <br><img src="ALERT_QZONE">  QZone
         <br><img src="ALERT_DINGTALK">  DingTalk
-        <br><img src="ALERT_APP">  Outros
+        <br><img src="ALERT_APP"> другие
 
-        <p>O grupo de notificações criado por si tem prioridade superior às notificações pré-definidas.</p>
-        <p><img src="ALERT_MESSAGE_TEXT"> : escolha este ícone para mostrar notificações com título/conteúdo</p>
-        <p>Se você usa aplicações pré-definidas mas quer excluir algumas aplicações, então crie um novo grupo de notificações, adicione algumas aplicações e desative-o a seguir.</p>
+        <p>Группы уведомлений, созданные вами, имеют повышенный приоритет.</p>
+        <p><img src="ALERT_MESSAGE_TEXT">: выберите эту иконку, для отображения заголовка/текста уведомлений.</p>
+        <p>Если вы используете предустановленные уведомления, но хотите исключить некоторые приложения, создайте новую группу уведомлений с <i>исключением уведомлений</i> и добавьте туда эти приложения.</p>
         ]]>
     </string>
-        <!--<p>Os sinais predefinidos podem ser desativados: <i>Monitorar notifições/Definições</i>.</p>-->
+        <!--<p>Предустановленные уведомления могут быть отключены: <i>Настройки соединения и уведомлений/Есть уведомления</i>.</p>-->
 
     <!-- MiBandageApp chooser dialog -->
-    <string name="action_search">Procurar</string>
-    <string name="action_filter_notification">Notification filter</string>
+    <string name="action_search">Поиск</string>
+    <string name="action_filter_notification">Активные сейчас уведомления</string>
 
     <!-- Touch monitoring -->
-    <string name="touch_headline_call_title">Controlar chamadas</string>
-    <string name="touch_headline_music_title">Controlar multimédia</string>
-    <string name="touch_headline_time_title">Controlar \"tempo\"</string>
-    <string name="touch_headline_other_title">Outros controlos</string>
+    <string name="touch_headline_call_title">Звонки</string>
+    <string name="touch_headline_music_title">Плеер</string>
+    <string name="touch_headline_time_title">Таймер/секундомер</string>
+    <string name="touch_headline_other_title">Другое</string>
 
-    <string name="touch_device_location_title">Localizar o dispositivo</string>
+    <string name="touch_device_location_title">Найти устройство</string>
 
-    <string name="touch_call_answer_title">Atender</string>
-    <string name="touch_call_answer_speakerphone_title">Alta-voz</string>
+    <string name="touch_call_answer_title">Ответ на звонок</string>
+    <string name="touch_call_answer_speakerphone_title">Громкая связь</string>
 
-    <string name="touch_call_end_title">Rejeitar/terminar</string>
+    <string name="touch_call_end_title">Сброс звонка, окончание</string>
 
-    <string name="touch_call_mute_title">Silenciar</string>
+    <string name="touch_call_mute_title">Переключение звука звонка</string>
 
-    <string name="touch_device_location_not_muted_only_title">Emitir som se não estiver num modo \'sem som\'</string>
+    <string name="touch_device_location_not_muted_only_title">Подчиняться беззвучному режиму</string>
 
-    <string name="touch_repeat_notif_title">Repetir as notificações</string>
+    <string name="touch_repeat_notif_title">Повторить уведомления</string>
 
-    <string name="touch_music_play_pause_title">Iniciar aplicação música, iniciar/pausar música</string>
-    <string name="touch_music_skip_previous_title">Iniciar música, música anterior</string>
-    <string name="touch_music_skip_next_title">Iniciar aplicação música, próxima música</string>
-    <string name="touch_music_headset_only_title">Só se o headset estiver conectado</string>
-    <string name="touch_music_volume_up_title">Aumentar o volume</string>
-    <string name="touch_music_volume_down_title">Diminuir o volume</string>
-    <string name="touch_music_track_info_title">Mostrar informação sobre a música</string>
+    <string name="touch_music_play_pause_title">Воспроизведение - пауза</string>
+    <string name="touch_music_skip_previous_title">Предыдущий трек</string>
+    <string name="touch_music_skip_next_title">Следующий трек</string>
+    <string name="touch_music_headset_only_title">Только при подключённой гарнитуре</string>
+    <string name="touch_music_volume_up_title">Повысить громкость</string>
+    <string name="touch_music_volume_down_title">Понизить громкость</string>
+    <string name="touch_music_track_info_title">Информация о треке</string>
 
-    <string name="touch_time_launch_title">Iniciar</string>
-    <string name="touch_time_launch_type_timer_title">Temporizador</string>
-    <string name="touch_time_launch_type_stopper_title">Cronómetro</string>
-    <string name="touch_time_launch_type_interval_title">Treino</string>
-    <string name="touch_time_reminder_title">Tempo restante/decorrido</string>
+    <string name="touch_time_launch_title">Запустить</string>
+    <string name="touch_time_launch_type_timer_title">Таймер</string>
+    <string name="touch_time_launch_type_stopper_title">Секундомер</string>
+    <string name="touch_time_launch_type_interval_title">Интервал</string>
+    <string name="touch_time_reminder_title">Оставшееся/прошедшее время</string>
 
-    <string name="touch_app_launcher1_title">Iniciar aplicações</string>
-    <string name="touch_app_launcher_package_no_title">Selecionar uma aplicação</string>
-    <string name="touch_app_launcher1_not_wakelock_only_title">Só com o ecrã desbloqueado</string>
+    <string name="touch_app_launcher1_title">Запуск приложений</string>
+    <string name="touch_app_launcher_package_no_title">Выберете приложение</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Если экран не заблокирован</string>
 
-    <string name="touch_tasker_launcher1_title">Iniciar Gerenciador de tarefas</string>
-    <string name="touch_tasker_launcher_no_permission_title">Você tem de instalar o Gerenciador primeiro e só depois a Mi Bandage.</string>
-    <string name="touch_tasker_launcher_no_access_title">Permitir acesso externo</string>
-    <string name="touch_tasker_launcher_no_task_title">Selecionar tarefa</string>
+    <string name="touch_tasker_launcher1_title">Tasker</string>
+    <string name="touch_tasker_launcher_no_permission_title">Необходимо соблюдать порядок установки для использования. Сначала Tasker, потом Mi Bandage.</string>
+    <string name="touch_tasker_launcher_no_access_title">Разрешить внешний доступ (Allow external access)</string>
+    <string name="touch_tasker_launcher_no_task_title">Выбрать дейтсвие</string>
 
-    <string name="touch_testing_title">Monitorar touch</string>
+    <string name="touch_testing_title">Касания</string>
 
-    <string name="touch_tab_settings">Definições</string>
-    <string name="touch_tab_testing">Testar</string>
+    <string name="touch_tab_settings">Настройка</string>
+    <string name="touch_tab_testing">Тестирование</string>
 
-    <string name="touch_testing_second">seg.</string>
+    <string name="touch_testing_second">с</string>
 
     <!-- Touch monitoring info dialog -->
-    <string name="info_dialog_touch"><![CDATA[O touch é válido quando o ecrã da Mi Band 2 muda (É aconselhado agitar a Mi Band 2 antes de gravar).
-        <p>A Mi Bandage monitora o tempo decorrido entre os toques, e não o tempo decorrido até ao primeiro toque.</p>
-        <p>Os ícones verdes nos cartões indicam que função pode ter um padrão semelhante ao padrão gravado.</p>
-        <p>Quando você recebe uma chamada, a Mi Bandage não reconhece as seguintes funções para facilitar a entrada do padrão: localizar o dispositivo,repetir notificações, controlar multimédia.</p>
-        <p>No modo teste não é executada a função \'padrão reconhecido\'.</p>
-        <p>Feedback por meio de vibração da Mi Band 2 se houver um padrão não reconhecido, levando em consideração o status atual do dispositivo (atender chamadas, rejeitar/terminar somente se houver uma chamada recebida, …).</p>
-        <p>A Mi Band 2 vibra 1 vez, quando reconhece o padrão.</p>
-        <p>A Mi Band 2 vibra 2 vezes, quando não reconhece o padrão após o padrão mais longo (se o <i>padrão não é reconhecido</ i>).</p>
-        <p><b>Exemplos</b> de touch válidos:
-        <br>- toque
-        <br>- toque e espere 1 seg, toque
-        <br>- toque e espere 1 seg, toque e espere 1 seg, toque
-        <br>- toque e espere 2 seg, toque
-        <br>- toque e espere 2 seg, toque e espere 1 seg, toque
-        <br>- toque e espere 2 seg, toque e espere 2 seg, toque
+    <string name="info_dialog_touch"><![CDATA[Нажатие считается корректным, если происходит переход на новый пункт отображения (рекомендуется повернуть запястье перед нажатием).
+        <p>Используется время между нажатиями, а не время, прошедшее с первого нажатия.</p>
+        <p>Зелёная иконка указывает, что другая функция похожа на текущую комбинацию.</p>
+        <p>Во время входящего звонка не обрабатываются следующие функции: Положение устройства, Повтор уведомлений и Воспроизведение во избежание нежелательных срабатываний.</p>
+        <p>Распознанная функция не выполняется в тестовом режиме.</p>
+        <p>Вибрация Mi Band 2 срабатывает, если есть действительная комбинация с учётом текущего состояния устройства (ответ на звонок, отмена звонка только во время входящего звока и т. д.…).</p>
+        <p>Mi Band 2 вибрирует один раз, когда распознаёт комбинацию.</p>
+        <p>Mi Band 2 вибрирует дважды, когда не распознаёт ни одну комбинацию после самой длинной (если <i>Не распознанные нажатия</i> включены).</p>
+        <p>Например, верный набор:
+        <br>- касание
+        <br>- касание, 1 секунда, касание
+        <br>- касание, 1 секунда, касание, 1 секунда, касание
+        <br>- касание, 2 секунда, касание
+        <br>- касание, 2 секунда, касание, 1 секунда, касание
+        <br>- касание, 2 секунда, касание, 2 секунды, касание
         </p>
     ]]></string>
 
     <!-- Step monitoring -->
-    <string name="action_tracker_step">Passos</string>
-    <string name="action_tracker_distance">Distância</string>
-    <string name="action_tracker_calorie">Calorias</string>
-    <string name="action_chart_filter_activity_no">Não filtrar</string>
-    <string name="action_chart_filter_activity_active">Filtrar o movimento</string>
+    <string name="action_tracker_step">Шаги</string>
+    <string name="action_tracker_distance">Расстояние</string>
+    <string name="action_tracker_calorie">Калории</string>
+    <string name="action_chart_filter_activity_no">Без фильтра</string>
+    <string name="action_chart_filter_activity_active">Только движение</string>
 
-    <string name="step_tab_day">Gráficos diários</string>
-    <string name="step_tab_week">Gráficos semanais</string>
-    <string name="step_tab_month">Gráficos mensais</string>
-    <string name="step_tab_goal">Objetivos diários</string>
-    <string name="step_tab_settings">Monitorização</string>
+    <string name="step_tab_day">День</string>
+    <string name="step_tab_week">Неделя</string>
+    <string name="step_tab_month">Месяц</string>
+    <string name="step_tab_goal">Цели</string>
+    <string name="step_tab_settings">Настройки</string>
 
-    <string name="activity_progress_title_prepare">A preparar para sincronizar…</string>
-    <string name="activity_progress_title_sync">A sincronizar dados %1$,d%%</string>
-    <string name="activity_progress_title_save">A guardar dados %1$,d%%</string>
+    <string name="activity_progress_title_prepare">Подготовка к синхронизации…</string>
+    <string name="activity_progress_title_sync">Синхронизация данных %1$,d%%</string>
+    <string name="activity_progress_title_save">Сохранение данных %1$,d%%</string>
 
-    <string name="step_title_timing">Temporizador</string>
-    <string name="step_interval_title">Tempo para repetir a medição dos passos</string>
-    <string name="step_time_set_next">Tempo para a próxima monitorização</string>
+    <string name="step_title_timing">Время</string>
+    <string name="step_interval_title">Периодичность получения данных</string>
+    <string name="step_time_set_next">Время до следующего измерения</string>
 
-    <string name="step_goal_default_title">Objetivo</string>
-    <string name="step_goal_type_title">Objetivos adicionais</string>
-    <string name="step_details">Detalhes dos passos</string>
+    <string name="step_goal_default_title">Цель по умолчанию</string>
+    <string name="step_goal_type_title">Дополнительные цели</string>
+    <string name="step_details">Шаги</string>
 
     <string name="info_dialog_step"><![CDATA[
-        <img src="ic_activity_active"> Passos/distância/calorias por dia
-        <br><br><img src="ic_timelapse"> Tempo ativo
-        <br><br><img src="ic_activity_get_up"> Tempo fora da cama
-        <br><br><img src="ic_activity_awake"> Vigília
-        <br><br><img src="ic_activity_rest_sofa"> Tempo repousado/sentado durante a Vigília
-        <br><br><img src="ic_activity_go_to_bed"> Tempo na cama
-        <br><br><img src="ic_activity_battery_charging_full"> A carragar a bateria
-        <br><br><img src="ic_activity_block"> Não usou a Mi Band
+        <img src="ic_activity_active"> шаги/расстояние/калории за день
+        <br><br><img src="ic_timelapse"> время активности
+        <br><br><img src="ic_activity_get_up"> время подъёма
+        <br><br><img src="ic_activity_awake"> время бодрствования
+        <br><br><img src="ic_activity_rest_sofa"> дневной отдых/неактивность
+        <br><br><img src="ic_activity_go_to_bed"> время засыпания
+        <br><br><img src="ic_activity_battery_charging_full"> зарядка
+        <br><br><img src="ic_activity_block"> не надет
         ]]>
     </string>
 
     <!-- Sleep monitoring -->
-    <string name="sleep_tab_day">Gráficos diários</string>
-    <string name="sleep_tab_week">Gráficos semanais</string>
-    <string name="sleep_tab_month">Gráficos mensais</string>
-    <string name="sleep_tab_settings">Definições</string>
+    <string name="sleep_tab_day">День</string>
+    <string name="sleep_tab_week">Неделя</string>
+    <string name="sleep_tab_month">Месяц</string>
+    <string name="sleep_tab_settings">Настройки</string>
 
-    <string name="action_chart_sleep_type_phase">Fases</string>
-    <string name="action_chart_sleep_type_time">Tempo</string>
+    <string name="action_chart_sleep_type_phase">Фаза</string>
+    <string name="action_chart_sleep_type_time">Время</string>
 
-    <string name="sleep_details">Detalhes do sono</string>
-    <string name="sleep_assistant">Assistente de batimentos cardíacos no sono</string>
-    <string name="sleep_assistant_summary">Ajuda a ter dados do sono mais precisos (reduz a vida da bateria)</string>
-    <string name="sleep_assistant_show_pulse">Mostrar os valores de pulsação medidos no gráfico diário de pulsação</string>
+    <string name="sleep_details">Подробнее о сне</string>
+    <string name="sleep_assistant">Помощник отслеживания пульса во время сна</string>
+    <string name="sleep_assistant_summary">Позволяет получить более точные данные о сне (повышенный расход батареи)</string>
+    <string name="sleep_assistant_show_pulse">Отображать ночные измерения в графиках пульса</string>
 
     <string name="info_dialog_sleep"><![CDATA[
-        <img src="ic_timelapse"> Tempo que dormiu
-        <br><br><img src="ic_activity_sleep_deep"> Sono profundo
-        <br><br><img src="ic_activity_go_to_bed"> Tempo na cama/acordado
-        <br><br><img src="ic_activity_sleep_start"> Hora a que adormeceu/sono leve
-        <br><br><img src="ic_activity_sleep_time"> Tempo total
-        <br><br><img src="ic_activity_sleep_end"> Hora a que acordou
-        <br><br><img src="ic_activity_get_up"> Tempo fora da cama
-        <br><br><img src="ic_activity_active"> Tempo ativo
-        <br><br><img src="ic_activity_block"> Não usou a Mi Band
+        <img src="ic_timelapse"> время сна
+        <br><br><img src="ic_activity_sleep_deep"> время глубокого сна
+        <br><br><img src="ic_activity_go_to_bed"> время отхода ко сну
+        <br><br><img src="ic_activity_sleep_start"> время засыпания
+        <br><br><img src="ic_activity_sleep_time"> общее время
+        <br><br><img src="ic_activity_sleep_end"> время окончания сна
+        <br><br><img src="ic_activity_get_up"> время подъёма
+        <br><br><img src="ic_activity_active"> активность
+        <br><br><img src="ic_activity_block"> не надет
         ]]>
     </string>
 
     <!-- Pulse  monitoring -->
-    <string name="action_pulse_current">Pulsação atual</string>
+    <string name="action_pulse_current">Текущий пульс</string>
 
-    <string name="pulse_tab_day">Gráficos diários</string>
-    <string name="pulse_tab_week">Gráficos semanais</string>
-    <string name="pulse_tab_month">Gráficos mensais</string>
-    <string name="pulse_tab_settings">Monitorização</string>
+    <string name="pulse_tab_day">День</string>
+    <string name="pulse_tab_week">Неделя</string>
+    <string name="pulse_tab_month">Месяц</string>
+    <string name="pulse_tab_settings">Настройки</string>
 
-    <string name="pulse_title_signals">Avisos</string>
-    <string name="pulse_signal_start_title">Aviso de começo</string>
-    <string name="pulse_signal_show_title">Mostrar pulsação</string>
-    <string name="pulse_signal_end_low_title">Aviso de pulsação baixa</string>
-    <string name="pulse_signal_end_title">Aviso de pulsação alta</string>
+    <string name="pulse_title_signals">Сигналы</string>
+    <string name="pulse_signal_start_title">Сигнал начала измерений</string>
+    <string name="pulse_signal_show_title">Показывать пульс</string>
+    <string name="pulse_signal_end_low_title">Сигнал низкого пульса</string>
+    <string name="pulse_signal_end_title">Сигнал высокого пульса</string>
 
-    <string name="pulse_title_timing_validity">Temporizador e validez</string>
-    <string name="pulse_interval_title">Tempo para repetir a leitura de pulsação</string>
-    <string name="pulse_time_set_next">Tempo para a próxima monitorização</string>
-    <string name="pulse_value_min">Valor minímo válido</string>
-    <string name="pulse_value_max">Valor máximo válido</string>
-    <string name="pulse_value_invalid">Valor inválido</string>
+    <string name="pulse_title_timing_validity">Время и приемлемость</string>
+    <string name="pulse_interval_title">Промежуток повтора измерений</string>
+    <string name="pulse_time_set_next">Время до следующего измерения</string>
+    <string name="pulse_value_min">Минимальное верное значение</string>
+    <string name="pulse_value_max">Максимальное верное значение</string>
+    <string name="pulse_value_invalid">Неверное значение</string>
 
-    <string name="pulse_details">Detalhes da pulsação</string>
+    <string name="pulse_details">Список измерений</string>
 
-    <string name="info_dialog_pulse"><![CDATA[Conexão bluetooth necessária para monitorar a pulsação.
-        <p>As medições iniciadas manualmente (na Mi band 2 ou  na aplicação Mi Fit) também são registadas quando a monitoração da pulsação é iniciada.</p>
-        <p>A leitura da pulsação é repetida várias vezes se o valor medido for inválido.<p>]]>
+    <string name="info_dialog_pulse"><![CDATA[Для измерения пульса необходимо Bluetooth-соединение.
+        <p>Измерения, сделанные вручную (Mi Band2, Mi Fit) записываются, когда измерение начинается.<p/>
+        <p>Измерение будет повторено, если оно окажется неверным.<p>]]>
     </string>
 
     <!-- Lost  monitoring -->
-    <string name="alarm_mi_band_title">Mi Band 2</string>
-    <string name="alarm_mi_band_dnd">Modo DND</string>
-    <string name="alarm_mi_band_interval_title">Tempo para repetir o alarme</string>
-    <string name="alarm_mi_band_time_set_next">Hora da próxima configuração</string>
-    <string name="alarm_mi_band_time">Hora do próximo alarme</string>
+    <string name="alarm_mi_band_title">Уведомление Mi Band 2</string>
+    <string name="alarm_mi_band_dnd">Режим \"Не беспокоить\"</string>
+    <string name="alarm_mi_band_interval_title">Период повтора предупреждения об отсоединении</string>
+    <string name="alarm_mi_band_time_set_next">Время следующей установки</string>
+    <string name="alarm_mi_band_time">Время следующего предупреждения</string>
 
-    <string name="alarm_mi_band_on_bluetooth_disabled_text">O sinal da monitorização de perda da Mi Band 2 está ativo.</string>
-    <string name="alarm_mi_band_on_bluetooth_disabled_info">Tempo do alarme: %1$s</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Уведомление о выкл. Bluetooth.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_info">Промежуток уведомления: %1$s</string>
 
-    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Mi Band 2</u></b>
-        <p>Quando o período de tempo especificado expirar, a Mi Band 2 vibra se não estiver conectada ao dispositivo.</p>
-        <p>A aplicação usa a função de alarme da Mi Fit para alertar (substitui a configuração).</p>
-        <p>O alarme será repetido várias vezes se a Mi Band 2 não detectar qualquer movimento (ela usa o alarme de fábrica).</p>
-        <p>Antes de desligar o Bluetooth (ou desinstalar a aplicação), você precisa de desativar o sinal da Mi Band 2.</p>
-        <p>Se você remover a aplicação quando o alarme estiver ativado, você pode desabilitá-lo com a ativação e desativação do alarme na Mi Fit.</p>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Уведомление Mi Band 2</u></b>
+        <p>Когда проходит выбранный промежуток времени, Mi Band 2 вибрирует, если не подключён к устройству.<p>
+        <p>Приложение использует будильник Mi Fit для предупреждения (переписывает 10. будильник).</p>
+        <p>Будильник повторится несколько раз, если Mi Band 2 не заметит движения (из-за использования заводского будильника).</p>
+        <p>Перед выключением Bluetooth или удалением приложения требуется отключить этот будильник Mi Band 2.</p>
+        <p>Если вы удалите приложение с включенным предупреждением, вы можете выключить его, включив и выключив 10. будильник Mi Fit.</p>
 
-        <img src="ic_phone_android"> <b><u>Dispositivo</u></b>
-        <p>Quando o período de tempo especificado expirar, o dispositivo emite sinais (vibrar/tocar) repetidamente se não estiver conectado à Mi Band 2.</p>
-        <p>A mensagem que é mostrada torna mais fácil encontrar o dispositivo, mas para isso terás de adicionar alguns números. Se alguém encontrar o dispositivo e ele estiver bloqueado, esse alguém saberá quem notificar, para que você possa receber uma mensagem.</p>
-        <p>Quando a pulseira reconectar, o alarme pára.</p>
-        <p>Deve ser habilitado para exibir a notificação na tela de bloqueio.</p>]]>
+        <img src="ic_phone_android"> <b><u>Сигналы на устройстве</u></b>
+        <p>Когда проходит заданный промежуток времени, устройство периодически сигнализирует, если не подключено к браслету.<p>
+        <p>Это упрощает поиск устройства. Если кто-то другой найдёт заблокированное устройство, он не будет знать кому сообщить, поэтому вы можете оставить сообщение.</p>
+        <p>Когда соединение восстанавливается, предупреждения прекращаются.</p>
+        <p>Должны быть включены уведомления на экране блокировки.</p>]]>
     </string>
 
     <!-- Time  monitoring -->
-    <string name="time_tab_alarm">Despertador</string>
-    <string name="time_tab_timer">Temporizador</string>
-    <string name="time_tab_stopper">Cronómetro</string>
-    <string name="time_tab_lap">Tempos gravados</string>
-    <string name="time_tab_interval">Treino</string>
+    <string name="time_tab_alarm">Будильник</string>
+    <string name="time_tab_timer">Таймер</string>
+    <string name="time_tab_stopper">Секундомер</string>
+    <string name="time_tab_lap">Время круга</string>
+    <string name="time_tab_interval">Интервал</string>
 
-    <string name="action_alarm_device">Alarme de fábrica</string>
-    <string name="time_alarm_mi_band_signal">Emitir sinal quando o alarme do dispositivo tocar</string>
-    <string name="time_alarm_mi_band_signal_alarm_off">Desligar alarme ao segundo toque</string>
-    <string name="time_alarm_title">Título</string>
-    <string name="time_alarm_pre_alarm">Lembrete</string>
-    <string name="time_alarm_pre_alarm_interval_title">Lembrete antes do alarme</string>
-    <string name="time_alarm_pre_alarm_type_vibrate_title">Vibração</string>
-    <string name="time_alarm_pre_alarm_type_remaining_title">Alerta:</string>
+    <string name="action_alarm_device">Будильник Mi</string>
+    <string name="time_alarm_mi_band_signal">Уведомление при будильнике на устройстве</string>
+    <string name="time_alarm_mi_band_signal_alarm_off">Будильник выключается по 2 касанию</string>
+    <string name="time_alarm_title">Название</string>
+    <string name="time_alarm_pre_alarm">Сигнал до будильника</string>
+    <string name="time_alarm_pre_alarm_interval_title">Сигнал до будильника за</string>
+    <string name="time_alarm_pre_alarm_type_vibrate_title">Вибрация</string>
+    <string name="time_alarm_pre_alarm_type_remaining_title">Мин. до звонка</string>
 
-    <string name="time_timer_time_alert">Hora do alarme</string>
-    <string name="time_timer_time_remaining">Alarme:</string>
+    <string name="time_timer_time_alert">Время сигнала</string>
+    <string name="time_timer_time_remaining">Оставшееся время</string>
 
-    <string name="time_timer_reminder">Lembrete</string>
-    <string name="time_timer_reminder_interval_before_title">Lembrete antes do fim</string>
-    <string name="time_timer_reminder_interval_repeat_title">Tempo entre os lembretes</string>
+    <string name="time_timer_reminder">Переодическое уведомление, оставшееся время</string>
+    <string name="time_timer_reminder_interval_before_title">Уведомлять заранее</string>
+    <string name="time_timer_reminder_interval_repeat_title">Интервал переодических уведомлений</string>
 
-    <string name="time_stopper_time_alert">Hora do alarme</string>
-    <string name="time_stopper_time_elapsed">Tempo decorrido</string>
+    <string name="time_stopper_time_alert">Время сигнала</string>
+    <string name="time_stopper_time_elapsed">Прошедщее время</string>
 
-    <string name="time_stopper_reminder">Lembrete</string>
-    <string name="time_stopper_reminder_interval_before_title">Lembrete antes do fim</string>
-    <string name="time_stopper_reminder_interval_repeat_title">Tempo entre os lembretes</string>
+    <string name="time_stopper_reminder">Переодическое уведомление, оставшееся время</string>
+    <string name="time_stopper_reminder_interval_before_title">Уведомлять заранее</string>
+    <string name="time_stopper_reminder_interval_repeat_title">Интервал переодических уведомлений</string>
 
-    <string name="time_stopper_touch">Botão touch</string>
-    <string name="time_stopper_touch_record">Gravar tempo (1 toque)</string>
-    <string name="time_stopper_touch_show">Mostrar tempo decorrido/gravado (1 toque)</string>
-    <string name="time_stopper_touch_time_format">Formato do tempo</string>
-    <string name="time_stopper_touch_time_format_minute">hora \u2032 min. \u2033</string>
-    <string name="time_stopper_touch_time_format_second">min. \u2032 seg. \u2033</string>
+    <string name="time_stopper_touch">Время круга, касания</string>
+    <string name="time_stopper_touch_record">Запись времени круга по касанию</string>
+    <string name="time_stopper_touch_show">Отображение времени круга по касанию</string>
+    <string name="time_stopper_touch_time_format">Формат времени</string>
+    <string name="time_stopper_touch_time_format_minute">час \u2032 мин \u2033</string>
+    <string name="time_stopper_touch_time_format_second">мин \u2032 секунда \u2033</string>
 
-    <string name="time_lap_details">Gráfico (t. decorrido x t. salvo)</string>
+    <string name="time_lap_details">Время круга</string>
 
-    <string name="time_mode_timer_title">Cronometragem</string>
-    <string name="time_mode_time_title">Hora</string>
+    <string name="time_mode_timer_title">Промежуток</string>
+    <string name="time_mode_time_title">Точное</string>
 
-    <string name="time_alert">Tipo de alerta</string>
-    <string name="time_alert_bell_title">Sino</string>
-    <string name="time_alert_alarm_title">Relógio</string>
+    <string name="time_alert">Вид сигнала</string>
+    <string name="time_alert_bell_title">Уведомление</string>
+    <string name="time_alert_alarm_title">Будильник</string>
 
-    <string name="time_interval_time_total">Tempo total</string>
-    <string name="time_interval_counter">Número de repetições</string>
-    <string name="time_interval_time_alert">Hora de fim</string>
-    <string name="time_interval_time_current">Repetição; Fase; Tempo decorrido</string>
-    <string name="time_interval_title">Título</string>
-    <string name="time_interval_time">Duração</string>
+    <string name="time_interval_time_total">Общее время</string>
+    <string name="time_interval_counter">Количество повторов</string>
+    <string name="time_interval_time_alert">Время окончания</string>
+    <string name="time_interval_time_current">Прошедшее время (повт.)</string>
+    <string name="time_interval_title">Название</string>
+    <string name="time_interval_time">Интервал</string>
 
-    <string name="time_text">Mostrar mensagem</string>
-    <string name="time_text_message">Texto</string>
+    <string name="time_text">Отображать сообщение</string>
+    <string name="time_text_message">Текст</string>
 
-    <string name="time_enable_bluetooth">Ligar o Bluetooth</string>
+    <string name="time_enable_bluetooth">Включить Bluetooth</string>
 
     <string name="info_dialog_time"><![CDATA[
-        <p><b>Desligue o alarme, o temporizador e o cronómetro antes de remover a aplicação.</b></p>
-        <img src="ic_miband_bell"> <b><u>Sino</u></b>
-        <p>Conexão Bluetooth necessária para o alarme (1 vez em 10 segundos).</p>
-        <img src="ic_alarm"> <b><u>Relógio</u></b>
-        <p>A conexão Bluetooth não é necessária para o alarme. A aplicação usa o alarme da Mi Fit para alertar (configura alguns).
-        <br>O alarme será repetido várias vezes se a Mi Band 2 não detectar qualquer movimento (ela usa o alarme de fábrica).
-        <br>Precisão nos minutos: a Mi band 2 não manipula os segundos na hora do alarme.</p>
-        <p>O lembrete requer uma conexão Bluetooth.</p>
+        <p><b>Выключите будильники, таймер и секундомер перед удалением приложения.</b></p>
+        <img src="ic_miband_bell"> <b><u>Уведомление</u></b>
+        <p>Bluetooth-соединение необходимо для сигнала, один сигнал длительностью 10 секунд.</p>
+        <img src="ic_alarm"> <b><u>Будильник</u></b>
+        <p>Bluetooth-соединение не требуется для сигнала, приложение использует будильник Mi Fit для сигнала (перезаписывает 4. - 9. будильник).
+        <br>Будильник повторится несколько раз, если Mi Band 2 не заметит движения (из-за использования заводского будильника).
+        <br>С точностью до минут, Mi band 2 не учитывает секунд для будильника.</p>
+        <p>Для повтора уведомлений требуется Bluetooth-соединение.</p>
     ]]></string>
 
     <!-- Agent -->
-    <string name="agent_title">Monitorar o dispositivo</string>
-    <string name="agent_tab_events">Registo</string>
-    <string name="agent_tab_settings">Definições</string>
+    <string name="agent_title">Взаимодействия с устройством</string>
+    <string name="agent_tab_events">Лог действий</string>
+    <string name="agent_tab_settings">Настройки</string>
 
-    <string name="pref_disconnected_agent_summary_on">Se alguém mexer no seu dispositivo, você saberá</string>
-    <string name="pref_disconnected_agent_text">Alguém mexeu no seu dispositivo enquanto se ausentou</string>
-    <string name="pref_disconnected_agent_user_present_title">Desbloqueio do dispositivo</string>
-    <string name="pref_disconnected_agent_screen_on_and_motion_title">Ligar ecrã/posição do dispositivo</string>
+    <string name="pref_disconnected_agent_summary_on">Если кто-то взаимодействует с устройством пока вас нет, вы узнаете</string>
+    <string name="pref_disconnected_agent_text">Кто-то взаимодействовал с устройством пока вас не было</string>
+    <string name="pref_disconnected_agent_user_present_title">Разблокировки</string>
 
     <!-- Agent log info dialog -->
-    <string name="info_dialog_disconnected_agent"><![CDATA[Eventos detetados pelo detetive:
-        <br>- ligar ecrã
-        <br>- desbloquear o dispositivo
-        <br>- posição do dispositivo (através do giroscópio deteta quando está na horizontal e na vertical)
+    <string name="info_dialog_disconnected_agent"><![CDATA[События, регистрируемые контролем взаимодействия с устройством:
+        <br>- активация
+        <br>- разблокировка экрана
+        <br>- перемещение
 
-        <p>Se alguém operar o dispositivo enquanto estiver ausente, os eventos acima serão registados. </ P>
-        <p> Quando a Mi Band 2 reconectar, você receberá uma notificação no caso de haver eventos registados.</p>]]>
+        <p>Если кто-то взаимодействует с устройством пока вас нет, действия будут записаны.</p>
+        <p>При восстановлении соединения, вы получите уведомление.</p>]]>
     </string>
 
     <!-- Backup and restore -->
-<string name="backup_tab_backup">Backup</string>
-    <string name="backup_tab_restore">Restaurar</string>
+    <string name="backup_tab_backup">Резервная копия</string>
+    <string name="backup_tab_restore">Восстановление</string>
 
-    <string name="backup_time">Último backup</string>
-    <string name="backup_path">Localização do backup</string>
+    <string name="backup_time">Время копии</string>
+    <string name="backup_path">Расположение копии</string>
 
-    <string name="backup_process">A preparar…</string>
-    <string name="backup_process_activity">Passos e Sono %1$,d%%</string>
-    <string name="backup_process_pulse">Pulsação %1$,d%%</string>
-    <string name="backup_process_notification">Notificações %1$,d%%</string>
-    <string name="backup_process_touch">Botão touch %1$,d%%</string>
-    <string name="backup_process_time">Tempo %1$,d%%</string>
-    <string name="backup_process_alarm">Perdidos %1$,d%%</string>
-    <string name="backup_process_disconnected_agent">Detetive %1$,d%%</string>
-    <string name="backup_process_settings">Definições %1$,d%%</string>
+    <string name="backup_process">Подготовка…</string>
+    <string name="backup_process_activity">Активность и сон %1$,d%%</string>
+    <string name="backup_process_pulse">Пульс %1$,d%%</string>
+    <string name="backup_process_notification">Уведомления %1$,d%%</string>
+    <string name="backup_process_touch">Касания %1$,d%%</string>
+    <string name="backup_process_time">Время %1$,d%%</string>
+    <string name="backup_process_alarm">Отсоединён %1$,d%%</string>
+    <string name="backup_process_disconnected_agent">Лог действий %1$,d%%</string>
+    <string name="backup_process_settings">Настройки %1$,d%%</string>
 
-    <string name="backup_restore_activity">Passos e Sono</string>
-    <string name="backup_restore_pulse">Pulsação</string>
-    <string name="backup_restore_notification">Notificações</string>
-    <string name="backup_restore_touch">Botão touch</string>
-    <string name="backup_restore_time">Tempo</string>
-    <string name="backup_restore_alarm">Perdidos</string>
-    <string name="backup_restore_disconnected_agent">Detetive</string>
-    <string name="backup_restore_settings">Definições</string>
+    <string name="backup_restore_activity">Активность и сон</string>
+    <string name="backup_restore_pulse">Пульс</string>
+    <string name="backup_restore_notification">Уведомления</string>
+    <string name="backup_restore_touch">Касания</string>
+    <string name="backup_restore_time">Время</string>
+    <string name="backup_restore_alarm">Отсоединён</string>
+    <string name="backup_restore_disconnected_agent">Лог действий</string>
+    <string name="backup_restore_settings">Настройки</string>
 
-    <string name="backup_restore_reset">É necessário ligar e desligar o Bluetooth e reiniciar a aplicação.</string>
+    <string name="backup_restore_reset">Необходимо включение и выключение Bluetooth и перезапуск приложения.</string>
 
     <!-- Rewarded mode -->
-    <string name="rewarded_policy_title">Termos e condições das recompensas</string>
+    <string name="rewarded_policy_title">Условия бонусного режима</string>
     <string name="rewarded_policy"><![CDATA[
-        <p>- Início da validade: hora atual
-        <br>- Fim da validade: Início da validade + %1$,d dias (depende dos anúncios; pode ser mais)
-        <br>- Manipular o tempo pode causar o término da validade</p>
-        <i>Depois de reproduzir o vídeo você precisa de reiniciar a aplicação.</i>
+        <p>- начало: прямо сейчас
+        <br>- минимальная продолжительность, дней: %1$,d (зависит от рекламы, может быть больше)
+        <br>- перевод времени может сбросить бонусный режим</p>
+        <i>После просмотра рекламы необходимо перезагрузить приложение.</i>
     ]]></string>
 
-    <string name="rewarded_advantage_banner_title">Bloquear banners</string>
-    <string name="rewarded_advantage_interstitial_title">Bloquear anúncios instersticiais</string>
+    <string name="rewarded_advantage_banner_title">Отключить блок внизу</string>
+    <string name="rewarded_advantage_interstitial_title">Отключить всплывающие баннеры</string>
 
-    <string name="rewarded_advantage_time_range">Validade</string>
-    <string name="rewarded_advantage_button_play">Reproduzir o vídeo</string>
+    <string name="rewarded_advantage_time_range">Активно</string>
+    <string name="rewarded_advantage_button_play">Воспроизвести видео</string>
 
-    <string name="message_rewarded_error">O carregamento do vídeo falhou</string>
+    <string name="message_rewarded_error">Не удалось воспроизвести</string>
 
     <!-- Premium mode -->
-    <string name="purchase_advantage_title">Vantagens do Modo Premium</string>
+    <string name="purchase_advantage_title">Преимущества премиума</string>
     <string name="purchase_advantage"><![CDATA[
-        - Não tem anúncios
-        <br>- Modo DND desbloqueado
-        <br>- Notificações ilimitadas
-        <br>- Controlos touch ilimitados
-        <br>- O prefixo de texto, o pré-ícone e a filtragem de texto podem ser usados no menu Notificações
-        <br>- O tempo para repetir pode ser ajustado livremente
-        <br>- Mostrar pulsação pode ser usado no menu Pulsação
-        <br>- Lembretes repetidos, mostrar mensagem e ligar o Bluetooth podem ser definidos livremente no menu Tempo
+        - нет рекламы
+        <br>- Режим \"Не беспокоить\"
+        <br>- нет ограничения на количество групп уведомлений
+        <br>- нет ограничения на функции касаний
+        <br>- префикс текстовых уведомлений, пре-иконки, фильтры текста уведомлений
+        <br>- <i>Шагомер</i>: установка промежутка сбора данных по желанию
+        <br>- <i>Измерение пульса</i>: установка промежутка измерений по желанию, настройка отображения пульса
+        <br>- <i>Долго отсоединён</i>: установка промежутка уведомлений по желанию, активация режима \'Не беспокоить\'
+        <br>- <i>Время</i>: установка промежутка уведомлений по желанию, отображение текста и включение Bluetooth
         <br>- …
     ]]></string>
-    <string name="purchase_policy_title">Termos e condições do Modo Premium</string>
+    <string name="purchase_policy_title">Правила и условия премиума</string>
     <string name="purchase_policy"><![CDATA[
-        <p>- Eu testei a aplicação e ela está a funcionar corretamente.
-        <br>- Eu estou ciente de que não posso exigir compensação ou reembolso devido a bugs, erros de software causados ​​por alterações, ambiente do hardware ou outras aplicações usadas.
-        <br>- Todas as vendas são finais e não podem ser reembolsadas (exceto pela política de reembolso do Google).
-        <br>- Não há garantia incluída.</p>
-        <p><i>Depois da compra, você precisa de reiniciar a aplicação.</i></p>
+        <p>- Вы протестировали приложение, оно работает правильно.
+        <br>- Вы предупреждены, что не можете требовать возмещения средств из-за багов, ошибок приложения, вызванных изменениями в приложении, вашими устройствами или другими приложениями.
+        <br>- Все покупки окончательны и возврату не подлежат (кроме возврата от Google Play).
+        <br>- Гарантия не предоставляется.</p>
+        <p><i>После покупки перезагрузите приложение.</i></p>
     ]]></string>
 
-    <string name="purchase_agree">Eu concordo com os Termos e Condições.</string>
-    <string name="purchase_order_id">ID da encomenda</string>
-    <string name="purchase_order_id_help">Copia de:
+    <string name="purchase_agree">Я согласен с правилами и условиями.</string>
+    <string name="purchase_order_id">ID заказа</string>
+    <string name="purchase_order_id_help">Скопируйте с:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
-    <string name="purchase_button_purchase">Comprar</string>
+    <string name="purchase_button_purchase">Приобрести</string>
 
     <!-- Feedback -->
-    <string name="feedback_google_play_title">Avalia esta aplicação</string>
-    <string name="feedback_request_feature_title">Recurso de solicitação/relatório de Bugs</string>
-    <string name="feedback_request_feature_summary">Processamento de email automático; pode não obter resposta (É preferivel escrever em inglês)</string>
+    <string name="feedback_google_play_title">Оцените приложение</string>
+    <string name="feedback_request_feature_title">Запрос функций, отправка ошибок</string>
+    <string name="feedback_request_feature_summary">Автоматическая обработка электронной почты, без ответа (Английский настоятельно рекомендуется)</string>
 
     <!-- Vibration dialog -->
-    <string name="vibration_title">Definições de vibração</string>
-    <string name="vibration_intensity">Duração</string>
-    <string name="vibration_pause">Pausa</string>
-    <string name="vibration_times">Número de vibrações</string>
+    <string name="vibration_title">Настройки вибрации</string>
+    <string name="vibration_intensity">Продолжительность</string>
+    <string name="vibration_pause">Пауза</string>
+    <string name="vibration_times">Повторы</string>
 
     <!-- Hack -->
-    <string name="info_dialog_hack"><![CDATA[Ferramenta de hack detetada!
-        <p>Enquanto a ferramenta de hack estiver instalada, o Modo Premium não vai estar disponivel</p>
-        <p>Eu gastei muito tempo a desenvolver esta aplicação. Por favor, não use ferramentas de hack.</p>]]>
+    <string name="info_dialog_hack"><![CDATA[Программа-взломщик обнаружена на устройстве.
+        <p>Пока она установлена, премиум недоступен.</p>
+        <p>Я угробил кучу времени на разработку, пожалуйста, не ломайте это приложение.</p>]]>
     </string>
 
     <!-- Others -->
-    <string name="on">Ligado</string>
-    <string name="off">Desligado</string>
-    <string name="none">Nenhum</string>
-    <string name="bpm">BPM</string>
-    <string name="time_start">Hora de início</string>
-    <string name="time_end">Hora de fim</string>
-    <string name="ringer_mode_mute">Silêncio</string>
-    <string name="ringer_mode_silent">Não perturbar</string>
+    <string name="on">Включено</string>
+    <string name="off">Отключено</string>
+    <string name="none">Нет</string>
+    <string name="bpm">у/м</string>
+    <string name="time_start">Время начала</string>
+    <string name="time_end">Время окончания</string>
+    <string name="ringer_mode_mute">Без звука</string>
+    <string name="ringer_mode_silent">Не беспокоить</string>
 
-    <string name="action_dismiss">Recusar</string>
-    <string name="action_setting">Definições</string>
-    <string name="action_delete">Apagar</string>
-    <string name="action_export">Exportar</string>
-    <string name="action_filter_no">Não filtrar</string>
+    <string name="action_dismiss">Отклонить</string>
+    <string name="action_setting">Настройки</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_export">Экспорт</string>
+    <string name="action_filter_no">Без фильтра</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
 
-    <string name="action_chart">Gráfico</string>
-    <string name="action_chart_normalize_minute">Valores medidos</string>
-    <string name="action_chart_normalize_hour">Valores por hora</string>
-    <string name="action_chart_sort_time_asc">Horas a ascender</string>
-    <string name="action_chart_sort_time_desc">Horas a descender</string>
-    <string name="action_chart_sort_step_asc">Passos a ascender</string>
-    <string name="action_chart_sort_step_desc">Passos a descender</string>
-    <string name="action_chart_sort_pulse_asc">Pulsação a ascender</string>
-    <string name="action_chart_sort_pulse_desc">Pulsação a descender</string>
-    <string name="action_chart_sort_lap_asc">Tempos a ascender</string>
-    <string name="action_chart_sort_lap_desc">Tempos a descender</string>
+    <string name="action_chart">График</string>
+    <string name="action_chart_normalize_minute">Измеренные значения</string>
+    <string name="action_chart_normalize_hour">Усереднённые значения</string>
+    <string name="action_chart_sort_time_asc">Время, по возрастанию</string>
+    <string name="action_chart_sort_time_desc">Время, по убыванию</string>
+    <string name="action_chart_sort_step_asc">Шаги, по возрастанию</string>
+    <string name="action_chart_sort_step_desc">Шаги, по убыванию</string>
+    <string name="action_chart_sort_pulse_asc">Пульс, по возрастанию</string>
+    <string name="action_chart_sort_pulse_desc">Пульс, по убыванию</string>
+    <string name="action_chart_sort_lap_asc">Круги, по возрастанию</string>
+    <string name="action_chart_sort_lap_desc">Круги, по убыванию</string>
 
-    <string name="power_on">Ligar</string>
-    <string name="screen_unlock">Desbloquear o ecrã</string>
-    <string name="motion">Movimento detetado</string>
+    <string name="power_on">Активация экрана</string>
+    <string name="screen_unlock">Разблокировка экрана</string>
+    <string name="motion">Замечено перемещение</string>
 
-    <string name="required_value">Necessário</string>
+    <string name="required_value">Необходимо указать</string>
 
     <!-- Constante -->
-    <string name="const_time_abbreviation_hour">h</string>
-    <string name="const_time_abbreviation_minute">m</string>
-    <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_hour">ч</string>
+    <string name="const_time_abbreviation_minute">м</string>
+    <string name="const_time_abbreviation_sec">с</string>
     <string name="const_time_abbreviation_milli_sec">ms</string>
 
-    <string name="const_number">%1$,d</string>
-    <string name="const_unit_meter">m</string>
-    <string name="const_unit_kcal">kcal</string>
-    <string name="const_unit_dbm">dBm</string>
-
     <plurals name="plural_time_minute">
-        <item quantity="zero">%d minutos</item>
-        <item quantity="one">%d minuto</item>
-        <item quantity="two">%d minutos</item>
-        <item quantity="few">%d minutos</item>
-        <item quantity="many">%d minutos</item>
-        <item quantity="other">%d minutos</item>
+        <item quantity="zero">%d минута</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="two">%d минуты</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+        <item quantity="other">%d минут</item>
     </plurals>
 
     <plurals name="plural_time_second">
-        <item quantity="zero">%d segundos</item>
-        <item quantity="one">%d segundo</item>
-        <item quantity="two">%d segundos</item>
-        <item quantity="few">%d segundos</item>
-        <item quantity="many">%d segundos</item>
-        <item quantity="other">%d segundos</item>
+        <item quantity="zero">%d секунда</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="two">%d секунды</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+        <item quantity="other">%d секунд</item>
     </plurals>
+
 </resources>
