@@ -35,23 +35,25 @@
     <string name="info_name">Informação</string>
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Passos, distância, calorias</string>
+    <string name="mi_band_tracker_title">Steps, distance, calories, goal, pulse</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Bateria; último carregamento</string>
-    <string name="mi_band_battery_remaining">Tempo restante de carga</string>
-    <string name="mi_band_battery_settings">Definições de bateria</string>
-    <string name="mi_band_battery_notification_level">Bateria baixa</string>
-    <string name="mi_band_battery_notification_message">Bateria baixa %1$,d%%</string>
+    <string name="mi_band_battery">Battery level, charging time, estimated remaining time</string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI, last connection and disconnection time</string>
+    <string name="mi_band_touch">Touch monitoring</string>
+    <string name="mi_band_alarm">Next alarm</string>
     <string name="mi_band_bonded_device_name">Mi Band 2 (nome do dispositivo emparelhado)</string>
     <string name="mi_band_mac_address">Endereço MAC</string>
     <string name="mi_band_firmware">Firmware</string>
     <string name="mi_band_hardware">Hardware</string>
-    <string name="mi_band_state_connected_last_time">Hora de conexão</string>
-    <string name="mi_band_state_disconnected_last_time">Hora de desconexão</string>
 
     <string name="mi_band_mac_address_invalid">O endereço MAC é inválido</string>
+
+    <string name="mi_band_battery_settings">Definições de bateria</string>
+    <string name="mi_band_battery_remaining">Tempo restante de carga</string>
+    <string name="mi_band_battery_notification_level">Bateria baixa</string>
+    <string name="mi_band_battery_notification_message">Bateria baixa %1$,d%%</string>
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Conexão</string>
@@ -603,7 +605,7 @@
     </string>
 
     <!-- Backup and restore -->
-    <string name="backup_tab_backup">Backup</string>
+<string name="backup_tab_backup">Backup</string>
     <string name="backup_tab_restore">Restaurar</string>
 
     <string name="backup_time">Último backup</string>
@@ -734,6 +736,11 @@
     <string name="const_time_abbreviation_minute">m</string>
     <string name="const_time_abbreviation_sec">s</string>
     <string name="const_time_abbreviation_milli_sec">ms</string>
+
+    <string name="const_number">%1$,d</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_kcal">kcal</string>
+    <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_minute">
         <item quantity="zero">%d minutos</item>
