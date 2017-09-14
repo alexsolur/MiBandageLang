@@ -35,23 +35,25 @@
     <string name="info_name">Informasi</string>
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Langkah, jarak, kalori</string>
+    <string name="mi_band_tracker_title">Steps, distance, calories, goal, pulse</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Tingkat baterai, waktu sejak pengisian daya terakhir</string>
-    <string name="mi_band_battery_remaining">Perkiraan waktu baterai tersisa</string>
-    <string name="mi_band_battery_settings">Pengaturan baterau</string>
-    <string name="mi_band_battery_notification_level">Pemberitahuan ambang baterai lemah</string>
-    <string name="mi_band_battery_notification_message">Level baterai lemah %1$,d%%</string>
+    <string name="mi_band_battery">Battery level, charging time, estimated remaining time</string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI, last connection and disconnection time</string>
+    <string name="mi_band_touch">Touch monitoring</string>
+    <string name="mi_band_alarm">Next alarm</string>
     <string name="mi_band_bonded_device_name">Nama perangkat pasangan Mi Band 2</string>
     <string name="mi_band_mac_address">Alamat MAC</string>
     <string name="mi_band_firmware">Perangkat lunak</string>
     <string name="mi_band_hardware">Perangkat keras</string>
-    <string name="mi_band_state_connected_last_time">Waktu koneksi terakhir</string>
-    <string name="mi_band_state_disconnected_last_time">Waktu pemutusan sambungan terakhir</string>
 
     <string name="mi_band_mac_address_invalid">Alamat MAC tidak valid</string>
+
+    <string name="mi_band_battery_settings">Pengaturan baterau</string>
+    <string name="mi_band_battery_remaining">Perkiraan waktu baterai tersisa</string>
+    <string name="mi_band_battery_notification_level">Pemberitahuan ambang baterai lemah</string>
+    <string name="mi_band_battery_notification_message">Level baterai lemah %1$,d%%</string>
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Koneksi</string>
@@ -612,7 +614,7 @@
     <string name="backup_process">Preparation…</string>
     <string name="backup_process_activity">Activity and sleep %1$,d%%</string>
     <string name="backup_process_pulse">Pulse %1$,d%%</string>
-    <string name="backup_process_notification">Notification%1$,d%%</string>
+    <string name="backup_process_notification">Notification %1$,d%%</string>
     <string name="backup_process_touch">Touch %1$,d%%</string>
     <string name="backup_process_time">Time %1$,d%%</string>
     <string name="backup_process_alarm">Lost %1$,d%%</string>
@@ -628,7 +630,7 @@
     <string name="backup_restore_disconnected_agent">Agent</string>
     <string name="backup_restore_settings">Settings</string>
 
-    <string name="backup_restore_reset">Turning Bluetooth on and off and restarting the application are required.</string>
+    <string name="backup_restore_reset">After restoring, Bluetooth will be turning off and on and the application will restart.</string>
 
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Syarat dan ketentuan mode Pencapaian (Rewarded Mode)</string>
@@ -735,6 +737,11 @@
     <string name="const_time_abbreviation_minute">m</string>
     <string name="const_time_abbreviation_sec">d</string>
     <string name="const_time_abbreviation_milli_sec">md</string>
+
+    <string name="const_number">%1$,d</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_kcal">kcal</string>
+    <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_minute">
         <item quantity="zero">%d menit</item>
