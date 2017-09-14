@@ -35,14 +35,14 @@
     <string name="info_name">Информация</string>
 
     <!-- Preference -->
-    <string name="mi_band_tracker_title">Steps, distance, calories, goal, pulse</string>
+    <string name="mi_band_tracker_title">Шаги, расстояние, калории, цель, пульс</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_title">%1$,d м</string> <!-- meter -->
     <string name="mi_band_tracker_calorie_title">%1$,d ккал</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Battery level, charging time, estimated remaining time</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI, last connection and disconnection time</string>
-    <string name="mi_band_touch">Touch monitoring</string>
-    <string name="mi_band_alarm">Next alarm</string>
+    <string name="mi_band_battery">Уровень заряда, время последней зарядки, ожидаемое время работы</string>
+    <string name="mi_band_state_connected_disconnected_last_time">Сигнал(RSSI), Время последнего соединенияи его разрыва</string>
+    <string name="mi_band_touch">Касания</string>
+    <string name="mi_band_alarm">Следующий будильник</string>
     <string name="mi_band_bonded_device_name">Имя спаренного Mi Band 2</string>
     <string name="mi_band_mac_address">MAC адрес</string>
     <string name="mi_band_firmware">Прошивка</string>
@@ -592,7 +592,7 @@
     <string name="pref_disconnected_agent_summary_on">Если кто-то взаимодействует с устройством пока вас нет, вы узнаете</string>
     <string name="pref_disconnected_agent_text">Кто-то взаимодействовал с устройством пока вас не было</string>
     <string name="pref_disconnected_agent_user_present_title">Разблокировки</string>
-    <string name="pref_disconnected_agent_screen_on_and_motion_title">Активации экрана и перемещений</string>
+    <string name="pref_disconnected_agent_screen_on_and_motion_title">Активация экрана и перемещения</string>
 
     <!-- Agent log info dialog -->
     <string name="info_dialog_disconnected_agent"><![CDATA[События, регистрируемые контролем взаимодействия с устройством:
@@ -739,8 +739,8 @@
     <string name="const_time_abbreviation_milli_sec">ms</string>
 
     <string name="const_number">%1$,d</string>
-    <string name="const_unit_meter">m</string>
-    <string name="const_unit_kcal">kcal</string>
+    <string name="const_unit_meter">м</string>
+    <string name="const_unit_kcal">ккал</string>
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_minute">
