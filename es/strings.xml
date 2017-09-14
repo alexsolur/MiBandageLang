@@ -35,23 +35,25 @@
     <string name="info_name">Información</string>
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Pasos, distancia, calorías</string>
+    <string name="mi_band_tracker_title">Steps, distance, calories, goal, pulse</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Tiempo restante estimado de la batería</string>
-    <string name="mi_band_battery_remaining">Tiempo estimado en agotar la batería</string>
-    <string name="mi_band_battery_settings">Configuraciones de bateria</string>
-    <string name="mi_band_battery_notification_level">Umbral de notificación de nivel de batería bajo</string>
-    <string name="mi_band_battery_notification_message">Low battery level %1$,d%%</string>
+    <string name="mi_band_battery">Battery level, charging time, estimated remaining time</string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI, last connection and disconnection time</string>
+    <string name="mi_band_touch">Touch monitoring</string>
+    <string name="mi_band_alarm">Next alarm</string>
     <string name="mi_band_bonded_device_name">Nivel de batería baja</string>
     <string name="mi_band_mac_address">Direccion MAC</string>
     <string name="mi_band_firmware">Firmware</string>
     <string name="mi_band_hardware">Hardware</string>
-    <string name="mi_band_state_connected_last_time">Última hora de conexión</string>
-    <string name="mi_band_state_disconnected_last_time">Última hora de desconexión</string>
 
     <string name="mi_band_mac_address_invalid">Dirección MAC inválida</string>
+
+    <string name="mi_band_battery_remaining">Tiempo estimado en agotar la batería</string>
+    <string name="mi_band_battery_settings">Configuraciones de bateria</string>
+    <string name="mi_band_battery_notification_level">Umbral de notificación de nivel de batería bajo</string>
+    <string name="mi_band_battery_notification_message">Low battery level %1$,d%%</string>
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Conexión</string>
@@ -613,7 +615,7 @@
     <string name="backup_process">Preparation…</string>
     <string name="backup_process_activity">Activity and sleep %1$,d%%</string>
     <string name="backup_process_pulse">Pulse %1$,d%%</string>
-    <string name="backup_process_notification">Notification%1$,d%%</string>
+    <string name="backup_process_notification">Notification %1$,d%%</string>
     <string name="backup_process_touch">Touch %1$,d%%</string>
     <string name="backup_process_time">Time %1$,d%%</string>
     <string name="backup_process_alarm">Lost %1$,d%%</string>
@@ -629,7 +631,7 @@
     <string name="backup_restore_disconnected_agent">Agent</string>
     <string name="backup_restore_settings">Settings</string>
 
-    <string name="backup_restore_reset">Turning Bluetooth on and off and restarting the application are required.</string>
+    <string name="backup_restore_reset">After restoring, Bluetooth will be turning off and on and the application will restart.</string>
 
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Términos y condiciones del modo recompensa</string>
@@ -736,6 +738,11 @@
     <string name="const_time_abbreviation_minute">m</string>
     <string name="const_time_abbreviation_sec">s</string>
     <string name="const_time_abbreviation_milli_sec">ms</string>
+
+    <string name="const_number">%1$,d</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_kcal">kcal</string>
+    <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_minute">
         <item quantity="zero">%d min</item>
