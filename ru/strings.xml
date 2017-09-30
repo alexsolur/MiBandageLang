@@ -104,10 +104,13 @@
     <string name="pref_disconnected_wakelock_title">Активировать экран устройства</string>
 
     <string name="pref_disconnected_settings">Настройки рассоединения</string>
-    <string name="pref_disconnected_settings_summary">Настройки отсоединения Mi Band 2, не уведомляет при вручную отключённом Bluetooth</string>
+    <string name="pref_disconnected_settings_summary">Настройки отсоединения Mi Band 2</string>
     <string name="pref_cat_disconnected_settings">Настройки устройства</string>
     <string name="pref_disconnected_volume_title">Изменить громкость</string>
     <string name="pref_disconnected_volume_ring_title">Громкость звонка</string>
+    <string name="pref_disconnected_volume_adapter_title">When Bluetooth is turned off</string>
+    <string name="pref_disconnected_volume_adapter_summary_on">Adjust the volume</string>
+    <string name="pref_disconnected_volume_adapter_summary_off">Do not adjust the volume</string>
 
     <string name="pref_cat_abandoned">Сигнал на устройстве</string>
     <string name="pref_abandoned_notif_interval_title">Интервал повторения сигнала</string>
@@ -680,6 +683,8 @@
     <string name="purchase_button_purchase">Приобрести</string>
 
     <!-- Feedback -->
+    <string name="action_log_notification">Notification log</string>
+
     <string name="feedback_google_play_title">Оцените приложение</string>
     <string name="feedback_request_feature_title">Запрос функций, отправка ошибок</string>
     <string name="feedback_request_feature_summary">Автоматическая обработка электронной почты, без ответа (Английский настоятельно рекомендуется)</string>
