@@ -104,10 +104,13 @@
     <string name="pref_disconnected_wakelock_title">Αφύπνιση οθόνης της συσκευής</string>
 
     <string name="pref_disconnected_settings">Ρυθμίσεις αποσύνδεσης</string>
-    <string name="pref_disconnected_settings_summary">Το Mi Band 2 και τα σήματα αποσύνδεσης της συσκευής, δεν σηματοδοτούνται όταν το Bluetooth απενεργοποιείται χειροκίνητα</string>
+    <string name="pref_disconnected_settings_summary">Το Mi Band 2 και τα σήματα αποσύνδεσης της συσκευής</string>
     <string name="pref_cat_disconnected_settings">Ρυθμίσεις συσκευής</string>
     <string name="pref_disconnected_volume_title">Αλλαγή έντασης ήχου</string>
     <string name="pref_disconnected_volume_ring_title">Ένταση ήχου κλήσης</string>
+    <string name="pref_disconnected_volume_adapter_title">When Bluetooth is turned off</string>
+    <string name="pref_disconnected_volume_adapter_summary_on">Adjust the volume</string>
+    <string name="pref_disconnected_volume_adapter_summary_off">Do not adjust the volume</string>
 
     <string name="pref_cat_abandoned">Σήμα συσκευής</string>
     <string name="pref_abandoned_notif_interval_title">Διάστημα επανάληψης σήματος</string>
@@ -680,6 +683,8 @@
     <string name="purchase_button_purchase">Αγορά</string>
 
     <!-- Feedback -->
+    <string name="action_log_notification">Notification log</string>
+
     <string name="feedback_google_play_title">Βαθμολόγησε αυτήν την εφαρμογή</string>
     <string name="feedback_request_feature_title">Ζητήστε κάποιο χαρακτηριστικό, αναφορά σφαλμάτων</string>
     <string name="feedback_request_feature_summary">Αυτόματη διαδικασία αποστολής e-mail, δεν θα πάρετε καμία απάντηση</string>
