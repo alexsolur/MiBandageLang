@@ -95,7 +95,7 @@
     <string name="pref_disconnected_summary">Bağlantı kopunca yapılacak bildirim ve ayarları</string>
 
     <string name="pref_disconnected_signals">Bildirimler</string>
-    <string name="pref_disconnected_signals_summary">Bağlantı kopunca yapılacak bildirimler. (bluetooth kapalıyken bildirim yapılamaz)</string>
+    <string name="pref_disconnected_signals_summary">Bağlantı kopunca yapılacak bildirimler (bluetooth kapalıyken bildirim yapılamaz)</string>
     <string name="pref_cat_disconnected_signals_mi_band">Bileklik</string>
     <string name="pref_disconnected_mi_band_title">Titreşim ve uyarı simgesi</string>
     <string name="pref_cat_disconnected_signals">Telefon</string>
@@ -104,10 +104,13 @@
     <string name="pref_disconnected_wakelock_title">Telefon ekranını aç</string>
 
     <string name="pref_disconnected_settings">Ayarlar</string>
-    <string name="pref_disconnected_settings_summary">Bağlantı kopunca yapılacak ayarlar. (bluetooth kapalıyken ayarlar uygulanamaz)</string>
+    <string name="pref_disconnected_settings_summary">Bağlantı kopunca yapılacak ayarlar</string>
     <string name="pref_cat_disconnected_settings">Telefon</string>
     <string name="pref_disconnected_volume_title">Ses yüksekliğini ayarla</string>
     <string name="pref_disconnected_volume_ring_title">Zil sesi seviyesi</string>
+    <string name="pref_disconnected_volume_adapter_title">When Bluetooth is turned off</string>
+    <string name="pref_disconnected_volume_adapter_summary_on">Adjust the volume</string>
+    <string name="pref_disconnected_volume_adapter_summary_off">Do not adjust the volume</string>
 
     <string name="pref_cat_abandoned">Telefondaki bildirimler</string>
     <string name="pref_abandoned_notif_interval_title">Bildirimi tekrarla</string>
@@ -680,6 +683,8 @@
     <string name="purchase_button_purchase">Satınal</string>
 
     <!-- Feedback -->
+    <string name="action_log_notification">Notification log</string>
+
     <string name="feedback_google_play_title">Uygulamayı değerlendir</string>
     <string name="feedback_request_feature_title">İstekleriniz, hata bildirimleri</string>
     <string name="feedback_request_feature_summary">mailiniz otomatik işlenir, yanıt alamayabilirsiniz</string>
