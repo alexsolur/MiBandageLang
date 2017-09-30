@@ -41,7 +41,7 @@
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Bateria, último carregamento, tempo restante de bateria</string>
     <string name="mi_band_state_connected_disconnected_last_time">RSSI, Hora da última conexão e desconexão</string>
-    <string name="mi_band_touch"> A monitorar touch</string>
+    <string name="mi_band_touch">A monitorar touch</string>
     <string name="mi_band_alarm">Próximo alarme</string>
     <string name="mi_band_bonded_device_name">Mi Band 2 (nome do dispositivo emparelhado)</string>
     <string name="mi_band_mac_address">Endereço MAC</string>
@@ -104,10 +104,13 @@
     <string name="pref_disconnected_wakelock_title">Acordar o dispositivo</string>
 
     <string name="pref_disconnected_settings">Deiniçções de desconexão</string>
-    <string name="pref_disconnected_settings_summary">Definições da Mi Band 2 e o dispositivo, o sinal não é emitido quando o Bluetooth é desligado manualmente</string>
+    <string name="pref_disconnected_settings_summary">Definições da Mi Band 2 e o dispositivo</string>
     <string name="pref_cat_disconnected_settings">Deefinições do dispositivo</string>
     <string name="pref_disconnected_volume_title">Alterar volume</string>
     <string name="pref_disconnected_volume_ring_title">Volume do toque</string>
+    <string name="pref_disconnected_volume_adapter_title">When Bluetooth is turned off</string>
+    <string name="pref_disconnected_volume_adapter_summary_on">Adjust the volume</string>
+    <string name="pref_disconnected_volume_adapter_summary_off">Do not adjust the volume</string>
 
     <string name="pref_cat_abandoned">Dispositivo</string>
     <string name="pref_abandoned_notif_interval_title">Tempo para repetir o alarme</string>
@@ -679,6 +682,8 @@
     <string name="purchase_button_purchase">Comprar</string>
 
     <!-- Feedback -->
+    <string name="action_log_notification">Notification log</string>
+
     <string name="feedback_google_play_title">Avalia esta aplicação</string>
     <string name="feedback_request_feature_title">Recurso de solicitação/relatório de Bugs</string>
     <string name="feedback_request_feature_summary">Processamento de email automático; pode não obter resposta (É preferivel escrever em inglês)</string>
