@@ -39,7 +39,7 @@
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Battery level, charging time, estimated remaining time</string>
+    <string name="mi_band_battery">Battery level, last charging time, estimated remaining time</string>
     <string name="mi_band_state_connected_disconnected_last_time">RSSI, last connection and disconnection time</string>
     <string name="mi_band_touch">Touch monitoring</string>
     <string name="mi_band_alarm">Next alarm</string>
@@ -95,7 +95,7 @@
     <string name="pref_disconnected_summary">Pengaturan Mi Band 2 dan pemutusan sinyal perangkat</string>
 
     <string name="pref_disconnected_signals">Tanda/sinyal perangkat terputus</string>
-    <string name="pref_disconnected_signals_summary">Mi Band 2 dan pengaturan pemutusan perangkat, tidak ada tanda/sinyal apabila Bluetooth dimatikan secara manual.</string>
+    <string name="pref_disconnected_signals_summary">Mi Band 2 dan pengaturan pemutusan perangkat, tidak ada tanda/sinyal apabila Bluetooth dimatikan secara manual</string>
     <string name="pref_cat_disconnected_signals_mi_band">Sinyal/Tanda Mi Band 2</string>
     <string name="pref_disconnected_mi_band_title">Penampilan ikon</string>
     <string name="pref_cat_disconnected_signals">Sinyal/tanda perangkat</string>
@@ -104,10 +104,13 @@
     <string name="pref_disconnected_wakelock_title">Hidupkan layar perangkat</string>
 
     <string name="pref_disconnected_settings">Pengaturan pemutusan sambungan</string>
-    <string name="pref_disconnected_settings_summary">Mi Band 2 dan pengaturan pemutusan perangkat, tidak ada tanda/sinyal apabila Bluetooth dimatikan secara manual.</string>
+    <string name="pref_disconnected_settings_summary">Mi Band 2 dan pengaturan pemutusan perangkat</string>
     <string name="pref_cat_disconnected_settings">Pengaturan perangkat</string>
     <string name="pref_disconnected_volume_title">Atur volume</string>
     <string name="pref_disconnected_volume_ring_title">Volume dering</string>
+    <string name="pref_disconnected_volume_adapter_title">When Bluetooth is turned off</string>
+    <string name="pref_disconnected_volume_adapter_summary_on">Adjust the volume</string>
+    <string name="pref_disconnected_volume_adapter_summary_off">Do not adjust the volume</string>
 
     <string name="pref_cat_abandoned">Tanda perangkat</string>
     <string name="pref_abandoned_notif_interval_title">Interval pengulangan sinyal</string>
@@ -680,6 +683,8 @@
     <string name="purchase_button_purchase">Beli</string>
 
     <!-- Feedback -->
+    <string name="action_log_notification">Notification log</string>
+
     <string name="feedback_google_play_title">Beri nilai aplikasi</string>
     <string name="feedback_request_feature_title">Permintaan fitur, dan laporan bug</string>
     <string name="feedback_request_feature_summary">Proses e-mail otomatis, Anda tidak akan mendapat respons</string>
