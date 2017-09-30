@@ -104,10 +104,13 @@
     <string name="pref_disconnected_wakelock_title">Attiva display dispositivo</string>
 
     <string name="pref_disconnected_settings">Imposta disconnessione</string>
-    <string name="pref_disconnected_settings_summary">Imposta disconnesione tra Mi Band 2 e dispositivo, nessuna notifica quando viene spento manualmente il bluetooth</string>
+    <string name="pref_disconnected_settings_summary">Imposta disconnesione tra Mi Band 2 e dispositivo</string>
     <string name="pref_cat_disconnected_settings">Imposta dispositivo</string>
     <string name="pref_disconnected_volume_title">Cambia volume</string>
     <string name="pref_disconnected_volume_ring_title">Volume suoneria</string>
+    <string name="pref_disconnected_volume_adapter_title">When Bluetooth is turned off</string>
+    <string name="pref_disconnected_volume_adapter_summary_on">Adjust the volume</string>
+    <string name="pref_disconnected_volume_adapter_summary_off">Do not adjust the volume</string>
 
     <string name="pref_cat_abandoned">Notifica su dispositivo</string>
     <string name="pref_abandoned_notif_interval_title">Intervallo di notifica</string>
@@ -680,6 +683,8 @@
     <string name="purchase_button_purchase">Acquista</string>
 
     <!-- Feedback -->
+    <string name="action_log_notification">Notification log</string>
+
     <string name="feedback_google_play_title">Valuta l\'app</string>
     <string name="feedback_request_feature_title">Richiedi una funzione, segnala malfunzionamenti</string>
     <string name="feedback_request_feature_summary">Processo con email automatico, non riceverai risposta</string>
