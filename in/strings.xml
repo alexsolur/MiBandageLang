@@ -13,6 +13,7 @@
     <string name="drawer_nav_time">Pemantau waktu</string>
     <string name="drawer_nav_alarm">Pemantau kehilangan</string>
     <string name="drawer_nav_disconnected_agent">Alat</string>
+    <string name="drawer_nav_theme">Tema</string>
     <string name="drawer_nav_backup">Backup</string>
     <string name="drawer_nav_rewarded_mode">Mode yang telah diraih</string>
     <string name="drawer_nav_premium_mode">Mode premium</string>
@@ -86,10 +87,6 @@
     <string name="pref_connected_have_notif_default_app_summary_on">\'app\' ikon (jika aplikasi tidak ada di grup notifikasi standar dan tidak ditentukan)</string>
     <string name="pref_connected_have_notif_pre_signal_title">Prediksi pemberitahuan</string>
     <string name="pref_connected_have_notif_pre_signal_summary_on">Sinyal (klik pada icon untuk mengubahnya) sebelum notifikasi yang sebenarnya agar lebih banyak waktu untuk melihat tampilan</string>
-
-    <string name="pref_foreground_service_title">Tampilkan status dipanel pemberitahuan</string>
-    <string name="pref_foreground_service_summary">Sistem Android menghentikan paksa layanan ketika memori rendah saja. Jika setelah beberapa saat tidak muncul notifikasi pada Mi Band 2, Anda bisa mencegahnya.</string>
-    <string name="pref_foreground_service_color_title">Warna ikon</string>
 
     <string name="pref_disconnected">Pemutusan</string>
     <string name="pref_disconnected_summary">Pengaturan Mi Band 2 dan pemutusan sinyal perangkat</string>
@@ -174,10 +171,6 @@
     <string name="pref_mi_band_lift_wrist_title">Angkat lengan untuk melihat info</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Mode jangan ganggu</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Aktif (informasi tidak ditampilkan untuk beberapa saat, pengaturan membutuhkan koneksi Bluetooth,)</string>
-
-    <string name="pref_theme">Tema</string>
-    <string name="pref_cat_theme">Tema</string>
-    <string name="pref_theme_title">Pilih tema</string>
 
     <string name="pref_language">Bahasa</string>
     <string name="pref_cat_language">Bahasa</string>
@@ -606,6 +599,26 @@
         <p>Jika seseorang mengoperasikan perangkat saat Anda pergi, maka kejadian tersebut akan dicatat.</p>
         <p>Saat Anda menyambung kembali, Anda akan menerima pemberitahuan jika terjadi peristiwa.</p>]]>
     </string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Tema</string>
+    <string name="theme_tab_widget">Widgets</string>
+    <string name="theme_tab_notification">Notification shade</string>
+
+    <string name="theme_summary">Pilih tema</string>
+
+    <string name="theme_widget_foreground_title">Foreground</string>
+    <string name="theme_widget_foreground_color_title">Icon and text color</string>
+    <string name="theme_widget_background_title">Background</string>
+    <string name="theme_widget_background_color_title">Color</string>
+    <string name="theme_widget_background_shape_title">Shape</string>
+    <string name="theme_widget_background_transparency_title">Transparency</string>
+
+    <string name="theme_widget_activity_touch_event_title">Touch event</string>
+
+    <string name="theme_notification_title">Tampilkan status dipanel pemberitahuan</string>
+    <string name="theme_notification_summary">Sistem Android menghentikan paksa layanan ketika memori rendah saja. Jika setelah beberapa saat tidak muncul notifikasi pada Mi Band 2, Anda bisa mencegahnya.</string>
+    <string name="theme_notification_color_title">Warna ikon</string>
 
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Backup</string>
