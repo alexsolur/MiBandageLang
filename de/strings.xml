@@ -13,8 +13,9 @@
     <string name="drawer_nav_time">Wecker &amp; Uhr</string>
     <string name="drawer_nav_alarm">Bei Verlust</string>
     <string name="drawer_nav_disconnected_agent">Agent</string>
-    <string name="drawer_nav_rewarded_mode">Belohnungsmodus</string>
+    <string name="drawer_nav_theme">Theme</string>
     <string name="drawer_nav_backup">Backup</string>
+    <string name="drawer_nav_rewarded_mode">Belohnungsmodus</string>
     <string name="drawer_nav_premium_mode">Premiummodus</string>
     <string name="drawer_nav_feedback">Feedback</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
@@ -87,10 +88,6 @@
     <string name="pref_connected_have_notif_pre_signal_title">Benachrichtigungsvorhersage</string>
     <string name="pref_connected_have_notif_pre_signal_summary_on">Signal (tippen Sie auf das Emblem, um es zu ändern) vor der Anzeige des Emblems, um mehr Zeit für das Erkennen des Emblems zu haben.</string>
 
-    <string name="pref_foreground_service_title">Zeige Status in Benachrichtigungsleiste an</string>
-    <string name="pref_foreground_service_summary">Android erzwingt eine Beendung eines Dienstes nur bei unzureichendem Arbeitsspeicher. Falls nach gewisser Zeit keine Benachrichtigungen auf dem Mi Band 2 erscheinen, kann man dies verhindern.</string>
-    <string name="pref_foreground_service_color_title">Farbe des Emblems</string>
-
     <string name="pref_disconnected">Verbindungstrennung</string>
     <string name="pref_disconnected_summary">Einstellungen des Signals, falls die Verbindung zwischen dem Mi Band 2 und dem Telefon getrennt wird</string>
 
@@ -156,7 +153,7 @@
         <p>Falls Sie <i>eingehende Anrufalarme</i> nicht aktiviert haben and die Sprache ihres Telefons nicht Englisch ist:
         <br/>1. Ändern Sie ihre Spracheinstellungen auf Englisch.
         <br/>2. Öffnen Sie die Mi Fit-App und warten Sie bis das Firmware-Update beendet ist. Falls das Firmware-Update nicht startet, versuchen Sie es mit einem Neustart.
-        <br/>3. Öffnen Sie das <i>Play/Incoming Call</i> Menü.
+        <br/>3. Öffnen Sie das <i>Profil/Mi Band/Incoming call</i> Menü.
         <br/>4. Aktivieren Sie: <i>Turn on incoming call alerts</i>.
         <br/>5. Aktivieren Sie: <i>Show contact information</i>.
         <br/>6. Kontrollieren Sie, ob das Mi Band 2 die Telefonnummer des Anrufers anzeigt, indem Sie ihr Telefon anrufen.
@@ -174,10 +171,6 @@
     <string name="pref_mi_band_lift_wrist_title">Für Informationen Handgelenk anheben</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Nicht Stören-Modus</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Aktiviert (in dem festgelegten Zeitraum werden keine Informationen angezeigt, für die korrekte Funktionsweise wird die Bluetooth-Verbindung zum Gerät benötigt.)</string>
-
-    <string name="pref_theme">Theme</string>
-    <string name="pref_cat_theme">Theme</string>
-    <string name="pref_theme_title">Wählen Sie ein Theme aus</string>
 
     <string name="pref_language">Sprache</string>
     <string name="pref_cat_language">Sprache</string>
@@ -606,6 +599,26 @@
         <p>Wenn jemand das Gerät während ihrer Abwesenheit verwendet, werden die Ereignise protokolliert.</p>
         <p>Wenn Sie die Verbindung zum Gerät aufbeuen, werden Sie eine Benachrichtigung zu den Ereignissen erhalten.</p>]]>
     </string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Theme</string>
+    <string name="theme_tab_widget">Widgets</string>
+    <string name="theme_tab_notification">Notification shade</string>
+
+    <string name="theme_summary">Wählen Sie ein Theme aus</string>
+
+    <string name="theme_widget_foreground_title">Foreground</string>
+    <string name="theme_widget_foreground_color_title">Icon and text color</string>
+    <string name="theme_widget_background_title">Background</string>
+    <string name="theme_widget_background_color_title">Color</string>
+    <string name="theme_widget_background_shape_title">Shape</string>
+    <string name="theme_widget_background_transparency_title">Transparency</string>
+
+    <string name="theme_widget_activity_touch_event_title">Touch event</string>
+
+    <string name="theme_notification_title">Zeige Status in Benachrichtigungsleiste an</string>
+    <string name="theme_notification_summary">Android erzwingt eine Beendung eines Dienstes nur bei unzureichendem Arbeitsspeicher. Falls nach gewisser Zeit keine Benachrichtigungen auf dem Mi Band 2 erscheinen, kann man dies verhindern.</string>
+    <string name="theme_notification_color_title">Farbe des Emblems</string>
 
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Backup</string>
