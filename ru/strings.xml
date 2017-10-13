@@ -13,6 +13,7 @@
     <string name="drawer_nav_time">Время</string>
     <string name="drawer_nav_alarm">Отсоединён</string>
     <string name="drawer_nav_disconnected_agent">Лог действий</string>
+    <string name="drawer_nav_theme">Настройки темы</string>
     <string name="drawer_nav_backup">Копия</string>
     <string name="drawer_nav_premium_mode">Премиум</string>
     <string name="drawer_nav_rewarded_mode">Бонус</string>
@@ -87,10 +88,6 @@
     <string name="pref_connected_have_notif_pre_signal_title">Предсказание уведомлений</string>
     <string name="pref_connected_have_notif_pre_signal_summary_on">Уведомление (настраиваемое) перед настоящим уведомлением, чтобы успеть увидеть его на Mi Band 2</string>
 
-    <string name="pref_foreground_service_title">Отображение статуса подключения в уведомлении</string>
-    <string name="pref_foreground_service_summary">Система Android принудительно останавливает приложение только при недостатке памяти. Если через некоторое время перестают приходить уведомления Mi Band 2, вы можете предотвратить это.</string>
-    <string name="pref_foreground_service_color_title">Цвет иконки</string>
-
     <string name="pref_disconnected">Настройки рассоединения</string>
     <string name="pref_disconnected_summary">Настройки отсоединения Mi Band 2</string>
 
@@ -156,7 +153,7 @@
         <p>Если вы не используете настройки из Mi Fit и язык устройства не английский:
         <br/>1. Выберите английский язык в настройках устройства.
         <br/>2. Откройте Mi Fit, подождите обновления шрифтов. Если обновление не начинается, попробуйте перезагрузить устройство.
-        <br/>3. Откройте <i>Play/Incomimg call</i>.
+        <br/>3. Откройте <i>Profil/Mi Band/Incoming call</i>.
         <br/>4. Включите: <i>Turn on incoming call alerts</i>.
         <br/>5. Включите: <i>Show contact information</i>.
         <br/>6. Проверьте, может ли Mi Band 2 показывать имя звонящего.
@@ -174,10 +171,6 @@
     <string name="pref_mi_band_lift_wrist_title">Поворот запястья</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Режим \"Не беспокоить\"</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Включено (в заданный промежуток времени отображение отключено, необоходимо Bluetooth-соединение)</string>
-
-    <string name="pref_theme">Настройки темы</string>
-    <string name="pref_cat_theme">Тема</string>
-    <string name="pref_theme_title">Выберите тему</string>
 
     <string name="pref_language">Язык</string>
     <string name="pref_cat_language">Язык</string>
@@ -606,6 +599,26 @@
         <p>Если кто-то взаимодействует с устройством пока вас нет, действия будут записаны.</p>
         <p>При восстановлении соединения, вы получите уведомление.</p>]]>
     </string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Тема</string>
+    <string name="theme_tab_widget">Widgets</string>
+    <string name="theme_tab_notification">Notification shade</string>
+
+    <string name="theme_summary">Выберите тему</string>
+
+    <string name="theme_widget_foreground_title">Foreground</string>
+    <string name="theme_widget_foreground_color_title">Icon and text color</string>
+    <string name="theme_widget_background_title">Background</string>
+    <string name="theme_widget_background_color_title">Color</string>
+    <string name="theme_widget_background_shape_title">Shape</string>
+    <string name="theme_widget_background_transparency_title">Transparency</string>
+
+    <string name="theme_widget_activity_touch_event_title">Touch event</string>
+
+    <string name="theme_notification_title">Отображение статуса подключения в уведомлении</string>
+    <string name="theme_notification_summary">Система Android принудительно останавливает приложение только при недостатке памяти. Если через некоторое время перестают приходить уведомления Mi Band 2, вы можете предотвратить это.</string>
+    <string name="theme_notification_color_title">Цвет иконки</string>
 
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Резервная копия</string>
