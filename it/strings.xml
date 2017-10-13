@@ -13,6 +13,7 @@
     <string name="drawer_nav_time">Timer</string>
     <string name="drawer_nav_alarm">Smarrimento</string>
     <string name="drawer_nav_disconnected_agent">Eventi</string>
+    <string name="drawer_nav_theme">Tema</string>
     <string name="drawer_nav_backup">Backup</string>
     <string name="drawer_nav_rewarded_mode">Modalità Ricompensa</string>
     <string name="drawer_nav_premium_mode">Modalità Premium</string>
@@ -86,10 +87,6 @@
     <string name="pref_connected_have_notif_default_app_summary_on">icona \'app\' (se l\'app non ha una icona predefinita o una personalizzata)</string>
     <string name="pref_connected_have_notif_pre_signal_title">Prevedi notifica</string>
     <string name="pref_connected_have_notif_pre_signal_summary_on">Notifica (clicca sull\'icona per cambiarla) prima di far vedere la notifica ricevuta per avere il tempo di guardare lo schermo</string>
-
-    <string name="pref_foreground_service_title">Mostra stato app come notifica persistente</string>
-    <string name="pref_foreground_service_summary">Android tende a chiudere i servizi aperti in secondo piano solo quando c\'è poca memoria. Se vedi che non ti arrivano più le notifiche attiva questa funzione per evitare che venga chiusa l\'app.</string>
-    <string name="pref_foreground_service_color_title">Colore icona</string>
 
     <string name="pref_disconnected">Disconnessione</string>
     <string name="pref_disconnected_summary">Imposta comportamento in caso di disconnessione tra dispositivo e Mi Band 2</string>
@@ -174,10 +171,6 @@
     <string name="pref_mi_band_lift_wrist_title">Solleva il polso per visualizzare le info</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Modalità non disturbare</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">On (nel periodo specificato non mostra le info, richiesta connessione Bluetooth)</string>
-
-    <string name="pref_theme">Tema</string>
-    <string name="pref_cat_theme">Tema</string>
-    <string name="pref_theme_title">Scegli tema</string>
 
     <string name="pref_language">Lingua</string>
     <string name="pref_cat_language">Lingua</string>
@@ -606,6 +599,26 @@
         <p>Se qualcuno usa il tuo dispositivo quando non ci sei, gli eventi soprastanti saranno salvati.</p>
         <p>Quando ti riconnetti al dispositivo riceverai una notifica in caso ci fosse stato qualche evento.</p>]]>
     </string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Tema</string>
+    <string name="theme_tab_widget">Widgets</string>
+    <string name="theme_tab_notification">Notification shade</string>
+
+    <string name="theme_summary">Scegli tema</string>
+
+   <string name="theme_widget_foreground_title">Foreground</string>
+   <string name="theme_widget_foreground_color_title">Icon and text color</string>
+   <string name="theme_widget_background_title">Background</string>
+   <string name="theme_widget_background_color_title">Color</string>
+   <string name="theme_widget_background_shape_title">Shape</string>
+   <string name="theme_widget_background_transparency_title">Transparency</string>
+
+    <string name="theme_widget_activity_touch_event_title">Touch event</string>
+
+    <string name="theme_notification_title">Mostra stato app come notifica persistente</string>
+    <string name="theme_notification_summary">Android tende a chiudere i servizi aperti in secondo piano solo quando c\'è poca memoria. Se vedi che non ti arrivano più le notifiche attiva questa funzione per evitare che venga chiusa l\'app.</string>
+    <string name="theme_notification_color_title">Colore icona</string>
 
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Backup</string>
