@@ -13,6 +13,7 @@
     <string name="drawer_nav_time">Time</string>
     <string name="drawer_nav_alarm">Lost</string>
     <string name="drawer_nav_disconnected_agent">Agent</string>
+    <string name="drawer_nav_theme">Theme</string>
     <string name="drawer_nav_backup">Backup</string>
     <string name="drawer_nav_rewarded_mode">Rewarded mode</string>
     <string name="drawer_nav_premium_mode">Premium mode</string>
@@ -87,10 +88,6 @@
     <string name="pref_connected_have_notif_pre_signal_title">Notification prediction</string>
     <string name="pref_connected_have_notif_pre_signal_summary_on">Signal (click on the icon to change it) before the actual notification in order to have more time to look at the display</string>
 
-    <string name="pref_foreground_service_title">Show status in notification shade</string>
-    <string name="pref_foreground_service_summary">The Android system force-stops a service only when memory is low. If after a while does not appear the notifications on the Band 2, you can prevent this.</string>
-    <string name="pref_foreground_service_color_title">Icon color</string>
-
     <string name="pref_disconnected">Disconnection</string>
     <string name="pref_disconnected_summary">Mi Band 2 and device disconnection signals and settings</string>
 
@@ -156,7 +153,7 @@
         <p>If you do not use <i>Incoming call alerts</i> and the phone language is not English:
         <br/>1. Set your phone language to English.
         <br/>2. Open Mi Fit app, wait until the font firmware update done. If firmware update doesn\'t start, try reboot your phone.
-        <br/>3. Open the <i>Play/Incoming call</i> menu.
+        <br/>3. Open the <i>Profil/Mi Band/Incoming call</i> menu.
         <br/>4. Turn on: <i>Turn on incoming call alerts</i>.
         <br/>5. Turn on: <i>Show contact information</i>.
         <br/>6. Check if you can Mi Band 2 shows caller name by calling your phone.
@@ -174,10 +171,6 @@
     <string name="pref_mi_band_lift_wrist_title">Lift wrist to view info</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Do not disturb mode</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">On (in the specified period will not display the information, Bluetooth connection is required for setting)</string>
-
-    <string name="pref_theme">Theme</string>
-    <string name="pref_cat_theme">Theme</string>
-    <string name="pref_theme_title">Select a theme</string>
 
     <string name="pref_language">Language</string>
     <string name="pref_cat_language">Language</string>
@@ -227,7 +220,7 @@
     <string name="message_touch_app_launcher1_not_found">App is not found: %1$s</string>
     <string name="message_touch_tasker_launcher1_not_set">Tasker task is not set</string>
 
-    <string name="message_notification_group_has_no_entry">Select applications with the lower right green \'+\' button on the card</string>
+    <string name="message_notification_group_has_no_entry">Select applications with the lower right \'+\' button on the card</string>
 
     <string name="message_time_alarm_free_counter">Up to 2 alarm can be used in normal mode</string>
     <string name="message_time_alarm_max_counter">Maximum 5 alarms can be used</string>
@@ -328,7 +321,7 @@
         <p>If you use the predefined apps, but want to disable some notifications, then create new notification group with <i>disable notifications</i> setting and add the apps.</p>
         ]]>
     </string>
-        <!--<p>Predefined signals can be disabled: <i>Connection and notification settings/Have notification</i>.</p>-->
+    <!--<p>Predefined signals can be disabled: <i>Connection and notification settings/Have notification</i>.</p>-->
 
     <!-- MiBandageApp chooser dialog -->
     <string name="action_search">Search</string>
@@ -606,6 +599,26 @@
         <p>If someone operates with the device while you are away, then events above are logged.</p>
         <p>When you reconnect you will receive a notification in case of an event occurred.</p>]]>
     </string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Theme</string>
+    <string name="theme_tab_widget">Widgets</string>
+    <string name="theme_tab_notification">Notification shade</string>
+
+    <string name="theme_summary">Select a theme</string>
+
+    <string name="theme_widget_foreground_title">Foreground</string>
+    <string name="theme_widget_foreground_color_title">Icon and text color</string>
+    <string name="theme_widget_background_title">Background</string>
+    <string name="theme_widget_background_color_title">Color</string>
+    <string name="theme_widget_background_shape_title">Shape</string>
+    <string name="theme_widget_background_transparency_title">Transparency</string>
+
+    <string name="theme_widget_activity_touch_event_title">Touch event</string>
+
+    <string name="theme_notification_title">Show status in notification shade</string>
+    <string name="theme_notification_summary">The Android system force-stops a service only when memory is low. If after a while does not appear the notifications on the Band 2, you can prevent this.</string>
+    <string name="theme_notification_color_title">Icon color</string>
 
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Backup</string>
