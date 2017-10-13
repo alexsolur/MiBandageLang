@@ -13,6 +13,7 @@
     <string name="drawer_nav_time">Παρακολούθηση χρόνου</string>
     <string name="drawer_nav_alarm">Εποπτεία συσκευής</string>
     <string name="drawer_nav_disconnected_agent">Συμβάν</string>
+    <string name="drawer_nav_theme">Pυθμίσεις θέματος</string>
     <string name="drawer_nav_backup">Αντίγραφα ασφαλείας</string>
     <string name="drawer_nav_rewarded_mode">Ανταμειβόμενη λειτουργία</string>
     <string name="drawer_nav_premium_mode">Λειτουργία Premium</string>
@@ -87,10 +88,6 @@
     <string name="pref_connected_have_notif_pre_signal_title">Πρόβλεψη ειδοποίησης</string>
     <string name="pref_connected_have_notif_pre_signal_summary_on">Σήμα (τροποποιήσιμο) πριν από την πραγματική ειδοποίηση, ώστε να έχουμε περισσότερο χρόνο για να δούμε την  οθόνη</string>
 
-    <string name="pref_foreground_service_title">Εμφάνιση κατάστασης στο πίνακα ειδοποιήσεων</string>
-    <string name="pref_foreground_service_summary">Το σύστημα Android κάνει αναγκαστική διακοπή υπηρεσίας μόνο όταν η μνήμη είναι χαμηλή. Εάν μετά από λίγο δεν εμφανίζεται στις ειδοποιήσεις στο Band 2, μπορείτε να αποτρέψετε.</string>
-    <string name="pref_foreground_service_color_title">Χρώμα εικονιδίου</string>
-
     <string name="pref_disconnected">Ρυθμίσεις αποσύνδεσης</string>
     <string name="pref_disconnected_summary">Mi Band 2 και ρυθμίσεις σήματος αποσύνδεσης της συσκευή</string>
 
@@ -156,7 +153,7 @@
         <p>Εάν δεν χρησιμοποιείτε την επιλογή <i>Incoming call alerts</i> και η γλώσσα του τηλεφώνου δεν είναι η Aγγλική:
         <br/>1. Ορίστε τη γλώσσα του τηλεφώνου σας στα Aγγλικά.
         <br/>2. Ανοίξτε την εφαρμογή Mi Fit, περιμένετε μέχρι να γίνει η ενημέρωση του υλικολογισμικού της γραμματοσειράς. Εάν η ενημερωμένη έκδοση του υλικολογισμικού δεν ξεκινήσει, δοκιμάστε να επανεκκινήσετε το τηλέφωνό σας.
-        <br/>3. Ανοίξτε το μενού <i>Αναπαραγωγή/εισερχόμενης κλήσης (Play/Incoming call)</ i>.
+        <br/>3. Ανοίξτε το μενού <i>Αναπαραγωγή/εισερχόμενης κλήσης (Profil/Mi Band/Incoming call)</ i>.
         <br/>4. Ενεργοποιήστε την επιλογή: <i>Ενεργοποίηση ειδοποιήσεων εισερχόμενων κλήσεων (Turn on incoming call alerts)</ i>.
         <br/>5. Ενεργοποιήστε την επιλογή: <i>Εμφάνιση πληροφοριών επαφής (Show contact information)</i>.
         <br/>6. Ελέγξτε αν το Mi Band 2 δείχνει το όνομα του καλούντος κάνοντας μια κλήση στο τηλεφωνό σας.
@@ -174,10 +171,6 @@
     <string name="pref_mi_band_lift_wrist_title">Σήκωσε τον καρπό για να δείς πληροφορίες</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Λειτουργία μην ενοχλείτε</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Ενεργό (στην καθορισμένη περίοδο δεν θα εμφανίζει τις πληροφορίες, για αύτη τη ρύθμιση η σύνδεση Bluetooth είναι απαραίτητη)</string>
-
-    <string name="pref_theme">Pυθμίσεις θέματος</string>
-    <string name="pref_cat_theme">Θέμα</string>
-    <string name="pref_theme_title">Επιλέξτε ένα θέμα</string>
 
     <string name="pref_language">Ρυθμίσεις γλώσσας</string>
     <string name="pref_cat_language">Γλώσσα</string>
@@ -606,6 +599,26 @@
         <p>Αν κάποιος πειράξει την συσκευή σας ενώ είστε μακριά, τα παραπάνω συμβάντα καταγράφονται.</p>
         <p>Όταν επανασυνδεθεί, θα λάβετε μια ειδοποίηση σε περίπτωση εκδήλωσης συμβάντος.</p>]]>
     </string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Θέμα</string>
+    <string name="theme_tab_widget">Widgets</string>
+    <string name="theme_tab_notification">Notification shade</string>
+
+    <string name="theme_summary">Επιλέξτε ένα θέμα</string>
+
+    <string name="theme_widget_foreground_title">Foreground</string>
+    <string name="theme_widget_foreground_color_title">Icon and text color</string>
+    <string name="theme_widget_background_title">Background</string>
+    <string name="theme_widget_background_color_title">Color</string>
+    <string name="theme_widget_background_shape_title">Shape</string>
+    <string name="theme_widget_background_transparency_title">Transparency</string>
+
+    <string name="theme_widget_activity_touch_event_title">Touch event</string>
+
+    <string name="theme_notification_title">Εμφάνιση κατάστασης στο πίνακα ειδοποιήσεων</string>
+    <string name="theme_notification_summary">Το σύστημα Android κάνει αναγκαστική διακοπή υπηρεσίας μόνο όταν η μνήμη είναι χαμηλή. Εάν μετά από λίγο δεν εμφανίζεται στις ειδοποιήσεις στο Band 2, μπορείτε να αποτρέψετε.</string>
+    <string name="theme_notification_color_title">Χρώμα εικονιδίου</string>
 
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Αντίγραφα ασφαλείας</string>
