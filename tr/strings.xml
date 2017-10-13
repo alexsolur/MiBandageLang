@@ -13,6 +13,7 @@
     <string name="drawer_nav_time">Alarm - Kronometre</string>
     <string name="drawer_nav_alarm">Kayıp arama</string>
     <string name="drawer_nav_disconnected_agent">Telefon izleyici</string>
+    <string name="drawer_nav_theme">Tema</string>
     <string name="drawer_nav_backup">Yedekleme</string>
     <string name="drawer_nav_rewarded_mode">Ödül kazan</string>
     <string name="drawer_nav_premium_mode">Premium ol</string>
@@ -86,10 +87,6 @@
     <string name="pref_connected_have_notif_default_app_summary_on">Uygulama önceden tanımlı değilse ve özel bildirim grubu yoksa, kullanılacak simge</string>
     <string name="pref_connected_have_notif_pre_signal_title">Ön bildirim</string>
     <string name="pref_connected_have_notif_pre_signal_summary_on">Bileklikteki bildiriyi kaçırmamak için bildiriden önce simge gösterilir (simgeyi tıklayarak değiştirebilirsiniz)</string>
-
-    <string name="pref_foreground_service_title">Bildirim çubuğunda durum gösterilsin</string>
-    <string name="pref_foreground_service_summary">!!!Burası önemli!!!,Android sistemi, bir hizmeti sadece bellek düşük olduğunda durdurur. Bir süre sonra bileklikteki bildirimler görünmezse, bu özelliği açarak bunu önleyebilirsiniz.</string>
-    <string name="pref_foreground_service_color_title">Simge rengi</string>
 
     <string name="pref_disconnected">Bağlantı kopunca</string>
     <string name="pref_disconnected_summary">Bağlantı kopunca yapılacak bildirim ve ayarları</string>
@@ -174,10 +171,6 @@
     <string name="pref_mi_band_lift_wrist_title">Bilgiliyi görüntülemek için bileğinizi kaldırın</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Rahatsız etme modu</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Açık (Belirtilen süre boyunca bilgi görüntülenmez, bu ayar için Bluetooth bağlantısı gereklidir)</string>
-
-    <string name="pref_theme">Tema</string>
-    <string name="pref_cat_theme">Uygulama teması</string>
-    <string name="pref_theme_title">Aktif tema</string>
 
     <string name="pref_language">Dil</string>
     <string name="pref_cat_language">Uygulama dili</string>
@@ -607,8 +600,28 @@
         <p>Yeniden bağladığınızda, bir olay meydana geldiğinde bildirim alırsınız.</p>]]>
     </string>
 
+    <!-- Theme -->
+    <string name="theme_tab_theme">Tema</string>
+    <string name="theme_tab_widget">Widgets</string>
+    <string name="theme_tab_notification">Notification shade</string>
+
+    <string name="theme_summary">Aktif tema</string>
+
+    <string name="theme_widget_foreground_title">Foreground</string>
+    <string name="theme_widget_foreground_color_title">Icon and text color</string>
+    <string name="theme_widget_background_title">Background</string>
+    <string name="theme_widget_background_color_title">Color</string>
+    <string name="theme_widget_background_shape_title">Shape</string>
+    <string name="theme_widget_background_transparency_title">Transparency</string>
+
+    <string name="theme_widget_activity_touch_event_title">Touch event</string>
+
+    <string name="theme_notification_title">Bildirim çubuğunda durum gösterilsin</string>
+    <string name="theme_notification_summary">!!!Burası önemli!!!,Android sistemi, bir hizmeti sadece bellek düşük olduğunda durdurur. Bir süre sonra bileklikteki bildirimler görünmezse, bu özelliği açarak bunu önleyebilirsiniz.</string>
+    <string name="theme_notification_color_title">Simge rengi</string>
+
     <!-- Backup and restore -->
- <string name="backup_tab_backup">Yedekle</string>
+    <string name="backup_tab_backup">Yedekle</string>
     <string name="backup_tab_restore">Geri Yükle</string>
 
     <string name="backup_time">Yedekleme zamanı</string>
