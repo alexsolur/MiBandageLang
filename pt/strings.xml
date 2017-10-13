@@ -13,6 +13,7 @@
     <string name="drawer_nav_time">Tempo</string>
     <string name="drawer_nav_alarm">Perdidos</string>
     <string name="drawer_nav_disconnected_agent">Detetive</string>
+    <string name="drawer_nav_theme">Tema</string>
     <string name="drawer_nav_backup">Backup</string>
     <string name="drawer_nav_rewarded_mode">Recompensas</string>
     <string name="drawer_nav_premium_mode">Modo Premium</string>
@@ -87,10 +88,6 @@
     <string name="pref_connected_have_notif_pre_signal_title">Prever notificações</string>
     <string name="pref_connected_have_notif_pre_signal_summary_on">Avisar antes da notificação real, a fim de ter mais tempo para olhar para o ecrã. (clique no ícone para o modificar)</string>
 
-    <string name="pref_foreground_service_title">Mostrar o status na barra de notificação</string>
-    <string name="pref_foreground_service_summary">O sistema android força a paragem do serviço quando a memória está baixa. Se depois de algum tempo a Mi Band 2 não mostrar as notificações, você pode prevenir isso.</string>
-    <string name="pref_foreground_service_color_title">Cor dos ícones na barra de notificação</string>
-
     <string name="pref_disconnected">Desconexão</string>
     <string name="pref_disconnected_summary">Sinal da Mi Band 2 e do dispositivo</string>
 
@@ -156,7 +153,7 @@
         <p>Se você não usa <i>Incoming call alerts</i> e a linguagem do dispositivo não está em inglês:
         <br/>1. Mude a linguagem do dispositivo para inglês.
         <br/>2. Abra a aplicação Mi Fit e espere até o firmware atualizar. Se a actualização do firmware não começar, reinicie o dipositivo.
-        <br/>3. Abra o menu <i>Play/Incomimg call</i>.
+        <br/>3. Abra o menu <i>Profil/Mi Band/Incoming call</i>.
         <br/>4. Ative: <i>Turn on incoming call alerts</i>.
         <br/>5. Ative: <i>Show contact information</i>.
         <br/>6. Verifique se a Mi Band 2 pode mostrar o nome do chamador ligando para o seu dispositivo.
@@ -174,10 +171,6 @@
     <string name="pref_mi_band_lift_wrist_title">Rodar o braço para ver a informação</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Modo DND</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Ligado (No período de tempo especificado não vai ser apresentada informação; Conexão Bluetooth necessária para configurar)</string>
-
-    <string name="pref_theme">Tema</string>
-    <string name="pref_cat_theme">Tema</string>
-    <string name="pref_theme_title">Selecionar um tema</string>
 
     <string name="pref_language">Linguagem</string>
     <string name="pref_cat_language">Linguagem</string>
@@ -607,8 +600,28 @@
         <p> Quando a Mi Band 2 reconectar, você receberá uma notificação no caso de haver eventos registados.</p>]]>
     </string>
 
+    <!-- Theme -->
+    <string name="theme_tab_theme">Tema</string>
+    <string name="theme_tab_widget">Widgets</string>
+    <string name="theme_tab_notification">Notification shade</string>
+
+    <string name="theme_summary">Selecionar um tema</string>
+
+    <string name="theme_widget_foreground_title">Foreground</string>
+    <string name="theme_widget_foreground_color_title">Icon and text color</string>
+    <string name="theme_widget_background_title">Background</string>
+    <string name="theme_widget_background_color_title">Color</string>
+    <string name="theme_widget_background_shape_title">Shape</string>
+    <string name="theme_widget_background_transparency_title">Transparency</string>
+
+    <string name="theme_widget_activity_touch_event_title">Touch event</string>
+
+    <string name="theme_notification_title">Mostrar o status na barra de notificação</string>
+    <string name="theme_notification_summary">O sistema android força a paragem do serviço quando a memória está baixa. Se depois de algum tempo a Mi Band 2 não mostrar as notificações, você pode prevenir isso.</string>
+    <string name="theme_notification_color_title">Cor dos ícones na barra de notificação</string>
+
     <!-- Backup and restore -->
-<string name="backup_tab_backup">Backup</string>
+    <string name="backup_tab_backup">Backup</string>
     <string name="backup_tab_restore">Restaurar</string>
 
     <string name="backup_time">Último backup</string>
