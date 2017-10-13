@@ -13,6 +13,7 @@
     <string name="drawer_nav_time">Giám sát thời gian</string>
     <string name="drawer_nav_alarm">Giám sát thất lạc</string>
     <string name="drawer_nav_disconnected_agent">Nhật ký</string>
+    <string name="drawer_nav_theme">Theme</string>
     <string name="drawer_nav_backup">Backup</string>
     <string name="drawer_nav_rewarded_mode">Chế độ thưởng</string>
     <string name="drawer_nav_premium_mode">Phiên bản nâng cấp</string>
@@ -87,10 +88,6 @@
     <string name="pref_connected_have_notif_pre_signal_title">Dự báo thông báo</string>
     <string name="pref_connected_have_notif_pre_signal_summary_on">Tín hiệu (sửa đổi) trước khi thông báo thực tế để có thêm thời gian để nhìn vào màn hình Mi Band 2</string>
 
-    <string name="pref_foreground_service_title">Hiện trạng thái trong vùng thông báo</string>
-    <string name="pref_foreground_service_summary">Hệ thống Android cưỡng bức dừng một dịch vụ chỉ khi bộ nhớ thấp. Nếu sau một thời gian không xuất hiện các thông báo trên Band 2, bạn có thể ngăn chặn điều này.</string>
-    <string name="pref_foreground_service_color_title">Màu biểu tượng</string>
-
     <string name="pref_disconnected">Cài đặt ngắt kết nối</string>
     <string name="pref_disconnected_summary">Tín hiệu Mi Band 2 và thiết bị  khi bị ngắt kết nối </string>
 
@@ -156,7 +153,7 @@
         <p>If you do not use <i>Incoming call alerts</i> and the phone language is not English:
         <br/>1. Set your phone language to English.
         <br/>2. Open Mi Fit app, wait until the font firmware update done. If firmware update doesn\'t start, try reboot your phone.
-        <br/>3. Open the <i>Play/Incoming call</i> menu.
+        <br/>3. Open the <i>Profil/Mi Band/Incoming call</i> menu.
         <br/>4. Turn on: <i>Turn on incoming call alerts</i>.
         <br/>5. Turn on: <i>Show contact information</i>.
         <br/>6. Check if you can Mi Band 2 shows caller name by calling your phone.
@@ -174,10 +171,6 @@
     <string name="pref_mi_band_lift_wrist_title">Nâng cổ tay để xem thông tin</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Chế độ không làm phiền</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Bật (trong thời hạn quy định sẽ không hiển thị các thông tin, kết nối Bluetooth là cần bật để cài đặt)</string>
-
-    <string name="pref_theme">Theme settings</string>
-    <string name="pref_cat_theme">Theme</string>
-    <string name="pref_theme_title">Select a theme</string>
 
     <string name="pref_language">Cài đặt ngôn ngữ</string>
     <string name="pref_cat_language">Ngôn ngữ</string>
@@ -606,6 +599,26 @@
         <p>If someone operates with the device while you are away, then events above are logged.</p>
         <p>When you reconnect you will receive a notification in case of an event occurred.</p>]]>
     </string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Theme</string>
+    <string name="theme_tab_widget">Widgets</string>
+    <string name="theme_tab_notification">Select a theme</string>
+
+    <string name="theme_summary">Select a theme</string>
+
+    <string name="theme_widget_foreground_title">Foreground</string>
+    <string name="theme_widget_foreground_color_title">Icon and text color</string>
+    <string name="theme_widget_background_title">Background</string>
+    <string name="theme_widget_background_color_title">Color</string>
+    <string name="theme_widget_background_shape_title">Shape</string>
+    <string name="theme_widget_background_transparency_title">Transparency</string>
+
+    <string name="theme_widget_activity_touch_event_title">Touch event</string>
+
+    <string name="theme_notification_title">Hiện trạng thái trong vùng thông báo</string>
+    <string name="theme_notification_summary">Hệ thống Android cưỡng bức dừng một dịch vụ chỉ khi bộ nhớ thấp. Nếu sau một thời gian không xuất hiện các thông báo trên Band 2, bạn có thể ngăn chặn điều này.</string>
+    <string name="theme_notification_color_title">Màu biểu tượng</string>
 
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Backup</string>
