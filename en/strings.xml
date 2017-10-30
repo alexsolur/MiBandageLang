@@ -153,7 +153,7 @@
         <p>If you do not use <i>Incoming call alerts</i> and the phone language is not English:
         <br/>1. Set your phone language to English.
         <br/>2. Open Mi Fit app, wait until the font firmware update done. If firmware update doesn\'t start, try reboot your phone.
-        <br/>3. Open the <i>Profil/Mi Band/Incoming call</i> menu.
+        <br/>3. Open the <i>Profile/Mi Band/Incoming call</i> menu.
         <br/>4. Turn on: <i>Turn on incoming call alerts</i>.
         <br/>5. Turn on: <i>Show contact information</i>.
         <br/>6. Check if you can Mi Band 2 shows caller name by calling your phone.
@@ -277,8 +277,10 @@
     <string name="notification_group_screen_off">Signal only when the screen is off</string>
     <string name="notification_group_counter_title">The number of signals</string>
     <string name="notification_group_wakelock">Wake up the device screen</string>
-    <string name="notification_group_filter">Filtering notifications</string>
-    <string name="notification_group_filter_hint">Signal only when the notification (delimiter: enter, case insensitive)</string>
+    <string name="notification_group_filter">Filter notifications</string>
+    <string name="notification_group_filter_title">Title filter</string>
+    <string name="notification_group_filter_content">Content filter</string>
+    <string name="notification_group_filter_hint">Signal only when the notification title or content (delimiter: enter, case insensitive)</string>
     <string name="notification_group_filter_contains">Contains any phrases</string>
     <string name="notification_group_filter_not_contains">Contains none phrases</string>
 
@@ -614,7 +616,7 @@
     <string name="theme_widget_background_shape_title">Shape</string>
     <string name="theme_widget_background_transparency_title">Transparency</string>
 
-    <string name="theme_widget_activity_touch_event_title">Touch event</string>
+    <string name="theme_widget_touch_event_title">Touch event</string>
 
     <string name="theme_notification_title">Show status in notification shade</string>
     <string name="theme_notification_summary">The Android system force-stops a service only when memory is low. If after a while does not appear the notifications on the Band 2, you can prevent this.</string>
@@ -731,6 +733,7 @@
     <string name="action_filter_no">No filter</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_save">Save</string>
 
     <string name="action_chart">Chart</string>
     <string name="action_chart_normalize_minute">Measured values</string>
@@ -768,6 +771,15 @@
         <item quantity="few">%d minutes</item>
         <item quantity="many">%d minutes</item>
         <item quantity="other">%d minutes</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d second</item>
+        <item quantity="one">%d second</item>
+        <item quantity="two">%d seconds</item>
+        <item quantity="few">%d seconds</item>
+        <item quantity="many">%d seconds</item>
+        <item quantity="other">%d seconds</item>
     </plurals>
 
 </resources>
