@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_connected_have_notif_counter">
-        <item>Una por cada icono de Mi Band 2</item>
-        <item>Numero de notificaciones</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
+        <item>Once per Mi Band 2 icon</item>
+        <item>Number of notifications</item>
+        <item>1 \'app\' icon</item>
+        <item>2 \'app\' icon</item>
+        <item>3 \'app\' icon</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_counter_values">
@@ -17,14 +17,14 @@
     </string-array>
 
     <string-array name="pref_connected_have_notif_interval">
-        <item>3 minutos</item>
-        <item>5 minutos</item>
-        <item>10 minutos</item>
-        <item>20 minutos</item>
-        <item>30 minutos</item>
-        <item>1 hora</item>
-        <item>2 horas</item>
-        <item>3 horas</item>
+        <item>3 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>20 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_interval_values">
@@ -39,16 +39,16 @@
     </string-array>
 
     <string-array name="pref_abandoned_interval">
-        <item>1 minuto</item>
-        <item>2 minutos</item>
-        <item>3 minutos</item>
-        <item>4 minutos</item>
-        <item>5 minutos</item>
-        <item>6 minutos</item>
-        <item>7 minutos</item>
-        <item>8 minutos</item>
-        <item>9 minutos</item>
-        <item>10 minutos</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>3 minutes</item>
+        <item>4 minutes</item>
+        <item>5 minutes</item>
+        <item>6 minutes</item>
+        <item>7 minutes</item>
+        <item>8 minutes</item>
+        <item>9 minutes</item>
+        <item>10 minutes</item>
     </string-array>
 
     <integer-array name="pref_abandoned_interval_values">
@@ -65,12 +65,12 @@
     </integer-array>
 
     <string-array name="pref_abandoned_notif_interval">
-        <item>10 minutos</item>
-        <item>20 minutos</item>
-        <item>30 minutos</item>
-        <item>1 hora</item>
-        <item>2 horas</item>
-        <item>3 horas</item>
+        <item>10 minutes</item>
+        <item>20 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
     </string-array>
 
     <integer-array name="pref_abandoned_notif_interval_values">
@@ -83,18 +83,18 @@
     </integer-array>
 
     <string-array name="notification_group_counter">
-        <item>Una señal</item>
-        <item>Una por cada aplicación</item>
-        <item>Número de notificaciones</item>
+        <item>One signal</item>
+        <item>Once per application</item>
+        <item>Number of notifications (all)</item>
     </string-array>
 
     <string-array name="touch_call_mute_ringer_mode">
-        <item>Vibrar</item>
-        <item>No molestar(solo alarmas)</item>
+        <item>Vibrate</item>
+        <item>Do not disturb (alarms only)</item>
     </string-array>
 
     <string-array name="touch_music_player">
-        <item>Reproductor de música predeterminado</item>
+        <item>Default music player</item>
         <item>Google Play Music</item>
         <item>Spotify Music</item>
     </string-array>
@@ -106,10 +106,10 @@
     </string-array>
 
     <string-array name="touch_music_info">
-        <item>Sin notificación</item>
+        <item>No notification</item>
         <item>Artist#Title</item>
-        <item>Artista#Titulo</item>
-        <item>Titulo</item>
+        <item>Artist, Title</item>
+        <item>Title</item>
     </string-array>
 
     <string-array name="touch_music_info_values">
@@ -120,31 +120,31 @@
     </string-array>
 
     <string-array name="pref_timer_time_interval_repeat">
-        <item>Apagado</item>
-        <item>1 minuto</item>
-        <item>2 minutos</item>
-        <item>3 minutos</item>
-        <item>4 minutos</item>
-        <item>5 minutos</item>
-        <item>6 minutos</item>
-        <item>7 minutos</item>
-        <item>8 minutos</item>
-        <item>9 minutos</item>
-        <item>10 minutos</item>
-        <item>11 minutos</item>
-        <item>12 minutos</item>
-        <item>13 minutos</item>
-        <item>14 minutos</item>
-        <item>15 minutos</item>
-        <item>20 minutos</item>
-        <item>30 minutos</item>
-        <item>40 minutos</item>
-        <item>50 minutos</item>
-        <item>1 hora</item>
-        <item>2 horas</item>
-        <item>3 horas</item>
-        <item>4 horas</item>
-        <item>5 horas</item>
+        <item>Off</item>
+        <item>1 minutes</item>
+        <item>2 minutes</item>
+        <item>3 minutes</item>
+        <item>4 minutes</item>
+        <item>5 minutes</item>
+        <item>6 minutes</item>
+        <item>7 minutes</item>
+        <item>8 minutes</item>
+        <item>9 minutes</item>
+        <item>10 minutes</item>
+        <item>11 minutes</item>
+        <item>12 minutes</item>
+        <item>13 minutes</item>
+        <item>14 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>30 minutes</item>
+        <item>40 minutes</item>
+        <item>50 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>4 hours</item>
+        <item>5 hours</item>
     </string-array>
 
     <integer-array name="pref_timer_time_interval_repeat_values">
@@ -176,16 +176,16 @@
     </integer-array>
 
     <string-array name="notification_group_text_content_slice">
-        <item>1 tira</item>
-        <item>2 tiras</item>
-        <item>3 tiras</item>
-        <item>4 tiras</item>
-        <item>5 tira</item>
-        <item>6 tiras</item>
-        <item>7 tiras</item>
-        <item>8 tiras</item>
-        <item>9 tiras</item>
-        <item>10 tiras</item>
+        <item>1 slice</item>
+        <item>2 slices</item>
+        <item>3 slices</item>
+        <item>4 slices</item>
+        <item>5 slices</item>
+        <item>6 slices</item>
+        <item>7 slices</item>
+        <item>8 slices</item>
+        <item>9 slices</item>
+        <item>10 slices</item>
     </string-array>
 
     <integer-array name="notification_group_text_content_slice_values">
@@ -216,8 +216,7 @@
     </string-array>
 
     <string-array name="pref_language">
-        <item>Predeterminado</item>
-        <item>Español</item>
+        <item>Default</item>
         <item>English</item>
         <item>Magyar</item>
         <item>Русский</item>
@@ -226,6 +225,7 @@
         <item>Ελληνικά</item>
         <item>Tiếng Việt</item>
         <item>Italiano</item>
+        <item>Español</item>
         <item>Indonesia</item>
         <item>Deutsche</item>
         <item>Čeština</item>
@@ -233,7 +233,6 @@
 
     <string-array name="pref_language_values">
         <item>DEFAULT</item>
-        <item>es</item>
         <item>en</item>
         <item>hu</item>
         <item>ru</item>
@@ -242,6 +241,7 @@
         <item>el</item>
         <item>vi</item>
         <item>it</item>
+        <item>es</item>
         <item>in</item>
         <item>de</item>
         <item>cs</item>
