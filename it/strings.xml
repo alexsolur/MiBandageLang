@@ -53,14 +53,14 @@
 
     <string name="mi_band_battery_settings">Impostazioni batteria</string>
     <string name="mi_band_battery_remaining">Durata stimata batteria al..</string>
-    <string name="mi_band_battery_notification">Low battery level notification</string>
-    <string name="mi_band_battery_notification_level">Low battery level</string>
-    <string name="mi_band_battery_notification_repeat_interval">Repeat interval</string>
-    <string name="mi_band_battery_notification_shade">Notify on the phone</string>
-    <string name="mi_band_battery_notification_shade_ongoing">Persistent (ongoing) notification</string>
-    <string name="mi_band_battery_notification_shade_message">Basso livello batteria %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">Notify on the bracelet</string>
-    <string name="mi_band_battery_notification_mi_band_message">Battery: %1$,d%%</string>
+    <string name="mi_band_battery_notification">Notifica basso livello batteria</string>
+    <string name="mi_band_battery_notification_level">Basso livello batteria</string>
+    <string name="mi_band_battery_notification_repeat_interval">Intervallo ripetizione</string>
+    <string name="mi_band_battery_notification_shade">Notifica sul telefono</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Notifica persistente (continua)</string>
+    <string name="mi_band_battery_notification_shade_message">Livello batteria minore del %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Notifica sul braccialetto</string>
+    <string name="mi_band_battery_notification_mi_band_message">Batteria: %1$,d%%</string>
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Connessione</string>
@@ -284,9 +284,9 @@
     <string name="notification_group_counter_title">Numero di notifiche</string>
     <string name="notification_group_wakelock">Attiva schermo dispositivo</string>
     <string name="notification_group_filter">Filtra notifiche</string>
-    <string name="notification_group_filter_title">Title filter</string>
-    <string name="notification_group_filter_content">Content filter</string>
-    <string name="notification_group_filter_hint">Usa una o più frasi (vai a capo per mettere più frasi; nessuna distione tra maiuscole e minuscole)</string>
+    <string name="notification_group_filter_title">Filtra titolo</string>
+    <string name="notification_group_filter_content">Filtra contenuto</string>
+    <string name="notification_group_filter_hint">Segnala solo quando il titolo o il contenuto della notifica (vai a capo per mettere più frasi; nessuna distione tra maiuscole e minuscole)</string>
     <string name="notification_group_filter_contains">Solo se contiene:</string>
     <string name="notification_group_filter_not_contains">Tutte tranne:</string>
 
@@ -739,7 +739,7 @@
     <string name="action_filter_no">Nessun filtro</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_save">Save</string>
+    <string name="action_save">Salva</string>
 
     <string name="action_chart">Grafico</string>
     <string name="action_chart_normalize_minute">Valori misurati</string>
@@ -771,16 +771,16 @@
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="zero">%d hour</item>
-        <item quantity="one">%d hour</item>
-        <item quantity="two">%d hours</item>
-        <item quantity="few">%d hours</item>
-        <item quantity="many">%d hours</item>
-        <item quantity="other">%d hours</item>
+        <item quantity="zero">%d ore</item>
+        <item quantity="one">%d ora</item>
+        <item quantity="two">%d ore</item>
+        <item quantity="few">%d ore</item>
+        <item quantity="many">%d ore</item>
+        <item quantity="other">%d ore</item>
     </plurals>
 
     <plurals name="plural_time_minute">
-        <item quantity="zero">%d min</item>
+        <item quantity="zero">%d minuti</item>
         <item quantity="one">%d minuto</item>
         <item quantity="two">%d minuti</item>
         <item quantity="few">%d minuti</item>
@@ -789,7 +789,7 @@
     </plurals>
 
     <plurals name="plural_time_second">
-        <item quantity="zero">%d secondo</item>
+        <item quantity="zero">%d secondi</item>
         <item quantity="one">%d secondo</item>
         <item quantity="two">%d secondi</item>
         <item quantity="few">%d secondi</item>
