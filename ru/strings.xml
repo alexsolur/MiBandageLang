@@ -53,14 +53,14 @@
 
     <string name="mi_band_battery_settings">Настройки батареи</string>
     <string name="mi_band_battery_remaining">Ожидаемое время работы</string>
-    <string name="mi_band_battery_notification">Low battery level notification</string>
-    <string name="mi_band_battery_notification_level">Low battery level</string>
-    <string name="mi_band_battery_notification_repeat_interval">Repeat interval</string>
-    <string name="mi_band_battery_notification_shade">Notify on the phone</string>
-    <string name="mi_band_battery_notification_shade_ongoing">Persistent (ongoing) notification</string>
+    <string name="mi_band_battery_notification">Уведомление о низком заряде</string>
+    <string name="mi_band_battery_notification_level">Низкий уровень</string>
+    <string name="mi_band_battery_notification_repeat_interval">Периодичность</string>
+    <string name="mi_band_battery_notification_shade">Уведомление на устройстве</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Постоянное уведомление</string>
     <string name="mi_band_battery_notification_shade_message">Низкий заряд %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">Notify on the bracelet</string>
-    <string name="mi_band_battery_notification_mi_band_message">Battery: %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Уведомление на браслете</string>
+    <string name="mi_band_battery_notification_mi_band_message">Батарея: %1$,d%%</string>
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Настройки соединения</string>
@@ -284,8 +284,8 @@
     <string name="notification_group_counter_title">Количество сигналов</string>
     <string name="notification_group_wakelock">Активировать экран усройства</string>
     <string name="notification_group_filter">Фильтр</string>
-    <string name="notification_group_filter_title">Title filter</string>
-    <string name="notification_group_filter_content">Content filter</string>
+    <string name="notification_group_filter_title">Фильтровать заголовок</string>
+    <string name="notification_group_filter_content">Фильтровать содержимое</string>
     <string name="notification_group_filter_hint">Уведомлять, если в уведомлении (разделитель: enter, без учёта регистра)</string>
     <string name="notification_group_filter_contains">Есть любая фраза</string>
     <string name="notification_group_filter_not_contains">Нет ни одной фразы</string>
@@ -739,7 +739,7 @@
     <string name="action_filter_no">Без фильтра</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_save">Save</string>
+    <string name="action_save">Сохранить</string>
 
     <string name="action_chart">График</string>
     <string name="action_chart_normalize_minute">Измеренные значения</string>
@@ -771,16 +771,16 @@
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="zero">%d hour</item>
-        <item quantity="one">%d hour</item>
-        <item quantity="two">%d hours</item>
-        <item quantity="few">%d hours</item>
-        <item quantity="many">%d hours</item>
-        <item quantity="other">%d hours</item>
+        <item quantity="zero">%d часов</item>
+        <item quantity="one">%d час</item>
+        <item quantity="two">%d часа</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+        <item quantity="other">%d часов</item>
     </plurals>
 
     <plurals name="plural_time_minute">
-        <item quantity="zero">%d минута</item>
+        <item quantity="zero">%d минут</item>
         <item quantity="one">%d минута</item>
         <item quantity="two">%d минуты</item>
         <item quantity="few">%d минуты</item>
@@ -789,7 +789,7 @@
     </plurals>
 
     <plurals name="plural_time_second">
-        <item quantity="zero">%d секунда</item>
+        <item quantity="zero">%d секунд</item>
         <item quantity="one">%d секунда</item>
         <item quantity="two">%d секунды</item>
         <item quantity="few">%d секунды</item>
