@@ -53,8 +53,14 @@
 
     <string name="mi_band_battery_settings">Battery settings</string>
     <string name="mi_band_battery_remaining">Vorrausichtliche Akkulaufzeit</string>
-    <string name="mi_band_battery_notification_level">Low battery level notification threshold</string>
-    <string name="mi_band_battery_notification_message">Niedriger Batteriestand %1$,d%%</string>
+    <string name="mi_band_battery_notification">Low battery level notification</string>
+    <string name="mi_band_battery_notification_level">Low battery level</string>
+    <string name="mi_band_battery_notification_repeat_interval">Repeat interval</string>
+    <string name="mi_band_battery_notification_shade">Notify on the phone</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Persistent (ongoing) notification</string>
+    <string name="mi_band_battery_notification_shade_message">Niedriger Batteriestand %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Notify on the bracelet</string>
+    <string name="mi_band_battery_notification_mi_band_message">Battery: %1$,d%%</string>
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Verbindung</string>
@@ -763,6 +769,15 @@
     <string name="const_unit_meter">m</string>
     <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="zero">%d hour</item>
+        <item quantity="one">%d hour</item>
+        <item quantity="two">%d hours</item>
+        <item quantity="few">%d hours</item>
+        <item quantity="many">%d hours</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
 
     <plurals name="plural_time_minute">
         <item quantity="zero">%d Min</item>
