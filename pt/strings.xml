@@ -52,15 +52,15 @@
     <string name="mi_band_mac_address_invalid">O endereço MAC é inválido</string>
 
     <string name="mi_band_battery_settings">Definições de bateria</string>
-    <string name="mi_band_battery_remaining">Tempo restante de carga</string>
-    <string name="mi_band_battery_notification">Low battery level notification</string>
-    <string name="mi_band_battery_notification_level">Bateria baixa</string>
-    <string name="mi_band_battery_notification_repeat_interval">Repeat interval</string>
-    <string name="mi_band_battery_notification_shade">Notify on the phone</string>
-    <string name="mi_band_battery_notification_shade_ongoing">Persistent (ongoing) notification</string>
+    <string name="mi_band_battery_remaining">Tempo restante de carga até</string>
+    <string name="mi_band_battery_notification">Notificação de Bateria baixa</string>
+    <string name="mi_band_battery_notification_level">Bateria baixa:</string>
+    <string name="mi_band_battery_notification_repeat_interval">Repetir notificação a cada</string>
+    <string name="mi_band_battery_notification_shade">Notificar no dispositivo</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Notificação persistente (Contínua)</string>
     <string name="mi_band_battery_notification_shade_message">Bateria baixa %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">Notify on the bracelet</string>
-    <string name="mi_band_battery_notification_mi_band_message">Battery: %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Notificar na Mi Band 2</string>
+    <string name="mi_band_battery_notification_mi_band_message">Bateria: %1$,d%%</string>
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Conexão</string>
@@ -284,9 +284,9 @@
     <string name="notification_group_counter_title">Cardinalidade dos sinais</string>
     <string name="notification_group_wakelock">Acordar o ecrã do dispositivo</string>
     <string name="notification_group_filter">Filtrar notificações</string>
-    <string name="notification_group_filter_title">Title filter</string>
-    <string name="notification_group_filter_content">Content filter</string>
-    <string name="notification_group_filter_hint">Avisar quando a notificação: (delimitador: MAIÚSCULAS e minúsculas)</string>
+    <string name="notification_group_filter_title">Filtrar os Títulos</string>
+    <string name="notification_group_filter_content">Filtrar o Conteúdo</string>
+    <string name="notification_group_filter_hint">(delimitador: MAIÚSCULAS e minúsculas) Notificar se a notificação:</string>
     <string name="notification_group_filter_contains">Contém</string>
     <string name="notification_group_filter_not_contains">Não contém</string>
 
@@ -738,7 +738,7 @@
     <string name="action_filter_no">Não filtrar</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_save">Save</string>
+    <string name="action_save">Guardar</string>
 
     <string name="action_chart">Gráfico</string>
     <string name="action_chart_normalize_minute">Valores medidos</string>
@@ -770,12 +770,12 @@
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="zero">%d hour</item>
-        <item quantity="one">%d hour</item>
-        <item quantity="two">%d hours</item>
-        <item quantity="few">%d hours</item>
-        <item quantity="many">%d hours</item>
-        <item quantity="other">%d hours</item>
+        <item quantity="zero">%d hora</item>
+        <item quantity="one">%d hora</item>
+        <item quantity="two">%d horas</item>
+        <item quantity="few">%d horas</item>
+        <item quantity="many">%d horas</item>
+        <item quantity="other">%d horas</item>
     </plurals>
 
     <plurals name="plural_time_minute">
