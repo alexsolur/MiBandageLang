@@ -262,6 +262,20 @@
     <br>5. Ανοίξτε την εφαρμογή Mi Fit, περιμένετε έως ότου γίνει ο συγχρονισμός, κλείστε την.
     <br>6. Ανοίξτε την εφαρμογή Mi Bandage, κάντε κλικ στο πράσινο κουμπί ανίχνευση.</p>]]></string>
 
+    <!-- Diagnostic -->
+    <string name="diagnostic_title">Diagnostic</string>
+
+    <string name="diagnostic_permissions_title">Permissions</string>
+
+    <string name="diagnostic_access_title">Access</string>
+    <string name="diagnostic_access_do_not_disturb">Do not Disturb access</string>
+    <string name="diagnostic_access_notification">Notification access</string>
+
+    <string name="diagnostic_protection_title">Protection against closing</string>
+    <string name="diagnostic_protection_battery">Battery optimisation off</string>
+    <string name="diagnostic_protection_service">Εμφάνιση κατάστασης στο πίνακα ειδοποιήσεων</string>
+    <string name="diagnostic_protection_lock">Lock on the recent apps screen</string>
+
     <!-- Notification  -->
     <string name="notification_tab_settings">Ρυθμίσεις</string>
     <string name="notification_tab_custom">Προσαρμοσμένες ειδοποιήσεις</string>
@@ -324,6 +338,7 @@
         <br><img src="ALERT_DINGTALK">  DingTalk
         <br><img src="ALERT_APP">  άλλα
 
+        <p>You have to disable app alert in the Mi Fit app.</p>
         <p>Η ομάδα ειδοποιήσεων που δημιουργούνται από εσάς έχει μεγαλύτερη προτεραιότητα από τη προκαθορισμένη.</p>
         <p><img src="ALERT_MESSAGE_TEXT"> icon: επιλέξτε αυτό το εικονίδιο για να εμφανιστεί στις ειδοποιήσεις τίτλο/περιεχόμενο.</p>
         <p>Εάν χρησιμοποιήσετε τις προκαθορισμένες εφαρμογές, αλλά θέλετε να εξαιρέσετε κάποιες ειδοποιήσεις, τότε δημιουργήσετε μια νέα ομάδα ειδοποιήσεων με την επιλογή <i>εξαιρέσεις ειδοποιήσεων</i> και προσθέστε τις εφαρμογές.</p>
@@ -353,6 +368,9 @@
     <string name="touch_device_location_not_muted_only_title">Ήχος εφόσον δεν είναι σε σίγαση</string>
 
     <string name="touch_repeat_notif_title">Επανάληψη ειδοποιήσης</string>
+    <string name="touch_repeat_notif_clear_all">Clear all notifications after repetition</string>
+
+    <string name="touch_clear_notif_title">Clear notifications</string>
 
     <string name="touch_music_play_pause_title">Έναρξη μουσικής, αναπαραγωγή, παύση</string>
     <string name="touch_music_skip_previous_title">Έναρξη μουσικής, προηγούμενο τραγούδι</string>
@@ -366,6 +384,7 @@
     <string name="touch_time_launch_type_timer_title">Αντίστροφή μέτρηση</string>
     <string name="touch_time_launch_type_stopper_title">Χρονόμετρο</string>
     <string name="touch_time_launch_type_interval_title">Διάστημα</string>
+    <string name="touch_time_launch_restart">Restart if it is in progress</string>
     <string name="touch_time_reminder_title">Εμφάνιση τρέχων/υπολειπόμενου χρόνου</string>
 
     <string name="touch_app_launcher1_title">Εκκίνηση εφαρμογής</string>
@@ -474,6 +493,9 @@
     <string name="pulse_tab_week">Eβδομαδιαία διαγράμματα</string>
     <string name="pulse_tab_month">Μηνιαία διαγράμματα</string>
     <string name="pulse_tab_settings">Ρυθμίσεις</string>
+
+    <string name="action_chart_pulse_type_pulse">Pulse</string>
+    <string name="action_chart_pulse_type_pulse_and_step">Pulse and activity</string>
 
     <string name="pulse_title_signals">Σήματα</string>
     <string name="pulse_signal_start_title">Παρακολούθηση σήματος εκκίνησης</string>
@@ -627,6 +649,7 @@
     <string name="theme_notification_title">Εμφάνιση κατάστασης στο πίνακα ειδοποιήσεων</string>
     <string name="theme_notification_summary">Το σύστημα Android κάνει αναγκαστική διακοπή υπηρεσίας μόνο όταν η μνήμη είναι χαμηλή. Εάν μετά από λίγο δεν εμφανίζεται στις ειδοποιήσεις στο Band 2, μπορείτε να το αποτρέψετε.</string>
     <string name="theme_notification_color_title">Χρώμα εικονιδίου</string>
+    <string name="theme_notification_text_color_title">Text color</string>
 
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Αντίγραφα ασφαλείας</string>
