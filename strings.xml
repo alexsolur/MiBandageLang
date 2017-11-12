@@ -1,0 +1,823 @@
+<resources>
+    <string name="app_name">Mi Bandage</string>
+
+    <string name="navigation_drawer_open">Άνοιγμα συρταριού πλοήγησης</string>
+    <string name="navigation_drawer_close">Kλείσιμο συρταριού πλοήγησης</string>
+
+    <string name="drawer_nav_home">Επίδεσμοι</string>
+    <string name="drawer_nav_notification">Παρακολούθηση ειδοποιήσεων</string>
+    <string name="drawer_nav_touch">Παρακολούθηση αφής</string>
+    <string name="drawer_nav_step">Δραστηριότητα</string>
+    <string name="drawer_nav_sleep">Ύπνος</string>
+    <string name="drawer_nav_pulse">Παρακολούθηση παλμών</string>
+    <string name="drawer_nav_time">Παρακολούθηση χρόνου</string>
+    <string name="drawer_nav_alarm">Εποπτεία συσκευής</string>
+    <string name="drawer_nav_disconnected_agent">Συμβάν</string>
+    <string name="drawer_nav_theme">Pυθμίσεις θέματος</string>
+    <string name="drawer_nav_backup">Αντίγραφα ασφαλείας</string>
+    <string name="drawer_nav_rewarded_mode">Ανταμειβόμενη λειτουργία</string>
+    <string name="drawer_nav_premium_mode">Λειτουργία Premium</string>
+    <string name="drawer_nav_feedback">Σχόλια</string>
+    <item name="drawer_nav_settings" type="string">@string/settings_name</item>
+
+    <string name="shortcut_touch">Αφή</string>
+    <string name="shortcut_step">Βηματόμετρο</string>
+    <string name="shortcut_pulse">Παλμός</string>
+    <string name="shortcut_time_alarm">Ειδοποίηση</string>
+
+    <!-- Foreground service, ongoing notification -->
+    <string name="foreground_service_connected">Χρόνος σε σύνδεση: %1$s</string>
+    <string name="foreground_service_disconnected_text">Το Mi Band 2 δεν είναι συνδεδεμένο</string>
+    <!--<string name="foreground_service_disconnected">Χρόνος Αποσύνδεσης: %1$s</string>-->
+
+    <!-- Strings related to Settings -->
+    <string name="settings_name">Ρυθμίσεις</string>
+    <string name="app_chooser">Επιλογέας εφαρμογής</string>
+    <string name="info_name">Πληροφορίες</string>
+
+    <!-- Bandages screen -->
+    <string name="mi_band_tracker_title">Βήματα, απόσταση, θερμίδες, στόχος, παλμός</string>
+    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
+    <string name="mi_band_tracker_distance_title">%1$,d μ </string> <!-- meter -->
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
+    <string name="mi_band_battery">Επίπεδο μπαταρίας, χρόνος φόρτισης, εκτιμώμενος χρόνος που απομένει</string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI, τελευταίος χρόνος σύνδεσης και αποσύνδεσης</string>
+    <string name="mi_band_touch">Παρακολούθηση αφής</string>
+    <string name="mi_band_alarm">Ειδοποίηση</string>
+    <string name="mi_band_bonded_device_name">Mi Band 2 όνομα συζευγμένης συσκευής</string>
+    <string name="mi_band_mac_address">Διεύθυνση MAC</string>
+    <string name="mi_band_firmware">Λογισμικό</string>
+    <string name="mi_band_hardware">Υλισμικό</string>
+
+    <string name="mi_band_mac_address_invalid">Η MAC διεύθυνση δεν είναι έγκυρη</string>
+
+    <string name="mi_band_battery_settings">Ρυθμίσεις μπαταρίας</string>
+    <string name="mi_band_battery_remaining">Εκτιμώμενος χρόνος υπολοίπου μπαταρίας</string>
+    <string name="mi_band_battery_notification">Ειδοποίηση χαμηλής στάθμης μπαταρίας</string>
+    <string name="mi_band_battery_notification_level">Χαμηλή στάθμη μπαταρίας</string>
+    <string name="mi_band_battery_notification_repeat_interval">Διάστημα επανάληψης</string>
+    <string name="mi_band_battery_notification_shade">Ειδοποίηση στο τηλέφωνο</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Επίμονη (συνεχής) ειδοποίηση</string>
+    <string name="mi_band_battery_notification_shade_message">Το επίπεδο μπαταρίας είναι χαμηλότερο από %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Ειδοποίηση στο βραχιόλι</string>
+    <string name="mi_band_battery_notification_mi_band_message">Μπαταρία: %1$,d%%</string>
+
+    <!-- PreferenceScreen -->
+    <string name="pref_connected">Ρυθμίσεις σύνδεσης</string>
+    <string name="pref_connected_summary">Mi Band 2 και ρυθμίσεις σήματος σύνδεση της συσκευής</string>
+
+    <string name="pref_connected_signals">Σήματα σύνδεσης</string>
+    <string name="pref_connected_signals_summary">Mi Band 2 συνδέεται και δεν έχει ειδοποιήσεις</string>
+    <string name="pref_cat_connected_signals_mi_band">Σήμα Mi Band 2</string>
+    <string name="pref_connected_mi_band_title">Δόνηση</string>
+    <string name="pref_cat_connected_signals">Σημάτα συσκευής</string>
+    <string name="pref_connected_wakelock_title">Αφύπνιση οθόνης της συσκευής</string>
+
+    <string name="pref_connected_settings">Ρυθμίσεις σύνδεσης</string>
+    <string name="pref_connected_settings_summary">Mi Band 2 και ρυθμίσεις σήματος σύνδεσης συσκευής</string>
+    <string name="pref_cat_connected_settings">Ρυθμίσεις συσκευής</string>
+    <string name="pref_connected_volume_title">Αλλαγή έντασης ήχου</string>
+    <string name="pref_connected_volume_ring_title">Ένταση ήχου κλήσης</string>
+
+    <string name="pref_cat_connected_have_notif">Προκαθορισμένες εφαρμογές και σήμα Mi Band 2</string>
+    <string name="pref_cat_connected_have_notif_default">Προκαθορισμένες και προσαρμοσμένες ρυθμίσεις</string>
+    <string name="pref_connected_have_notif_immediate_title">Άμεσο σήμα με την παραλαβή ειδοποιήσης</string>
+    <string name="pref_connected_have_notif_title">Σήμα κατά τη σύνδεση με τη συσκευή</string>
+    <string name="pref_connected_have_notif_reminder_title">Σήμα υπενθύμισης</string>
+    <string name="pref_connected_have_notif_screen_off_title">Σήμα μόνο όταν η οθόνη είναι απενεργοποιημένη</string>
+    <string name="pref_connected_have_notif_interval_title">Διάστημα επανάληψης υπενθύμισης</string>
+    <string name="pref_connected_have_notif_counter_title">Πλήθος αριθμού σημάτων</string>
+    <string name="pref_connected_have_notif_wakelock_title">Να ξυπνήσει την οθόνη της συσκευής</string>
+    <string name="pref_connected_have_notif_ongoing_title">Σήμα σε εξέλιξη (μόνιμη) ειδοποίηση</string>
+    <string name="pref_connected_have_notif_default_app_title">Σήμα από άγνωστη εφαρμογή</string>
+    <string name="pref_connected_have_notif_default_app_summary_on">\'app\' icon (αν η εφαρμογή δεν είναι προκαθορισμένη αλλά ούτε και σε ομάδα με προσαρμοσμένη ειδοποίηση)</string>
+    <string name="pref_connected_have_notif_pre_signal_title">Πρόβλεψη ειδοποίησης</string>
+    <string name="pref_connected_have_notif_pre_signal_summary_on">Σήμα (τροποποιήσιμο) πριν από την πραγματική ειδοποίηση, ώστε να έχουμε περισσότερο χρόνο για να δούμε την  οθόνη</string>
+
+    <string name="pref_disconnected">Ρυθμίσεις αποσύνδεσης</string>
+    <string name="pref_disconnected_summary">Mi Band 2 και ρυθμίσεις σήματος αποσύνδεσης της συσκευή</string>
+
+    <string name="pref_disconnected_signals">Σήματα αποσύνδεσης</string>
+    <string name="pref_disconnected_signals_summary">Το Mi Band 2 και τα σήματα αποσύνδεσης της συσκευής, δεν σηματοδοτούνται όταν το Bluetooth απενεργοποιείται χειροκίνητα</string>
+    <string name="pref_cat_disconnected_signals_mi_band">Σήμα Mi Band 2</string>
+    <string name="pref_disconnected_mi_band_title">Εμφάνιση εικονιδίου</string>
+    <string name="pref_cat_disconnected_signals">Σήμα συσκευής</string>
+    <string name="pref_disconnected_ringtone_title">Ήχος κλήσης</string>
+    <string name="pref_disconnected_vibration_title">Δόνηση</string>
+    <string name="pref_disconnected_wakelock_title">Αφύπνιση οθόνης της συσκευής</string>
+
+    <string name="pref_disconnected_settings">Ρυθμίσεις αποσύνδεσης</string>
+    <string name="pref_disconnected_settings_summary">Το Mi Band 2 και τα σήματα αποσύνδεσης της συσκευής</string>
+    <string name="pref_cat_disconnected_settings">Ρυθμίσεις συσκευής</string>
+    <string name="pref_disconnected_volume_title">Αλλαγή έντασης ήχου</string>
+    <string name="pref_disconnected_volume_ring_title">Ένταση ήχου κλήσης</string>
+    <string name="pref_disconnected_volume_adapter_title">Όταν το Bluetooth είναι απενεργοποιημένο</string>
+    <string name="pref_disconnected_volume_adapter_summary_on">Ρυθμίστε την ένταση</string>
+    <string name="pref_disconnected_volume_adapter_summary_off">Μη ρυθμίζετε την ένταση</string>
+
+    <string name="pref_cat_abandoned">Σήμα συσκευής</string>
+    <string name="pref_abandoned_notif_interval_title">Διάστημα επανάληψης σήματος</string>
+    <string name="pref_abandoned_notif_text_summary">Ειδοποίηση στην οθόνη της συσκευής</string>
+    <string name="pref_abandoned_notif_text_text">Η συσκευή αυτή έχει χαθεί, παρακαλώ καλέστε στους παρακάτω αριθμούς:</string>
+    <string name="pref_abandoned_ringtone_title">Ήχος κλήσης</string>
+    <string name="pref_abandoned_vibration_title">Δόνηση</string>
+    <string name="pref_abandoned_wakelock_title">Αφύπνιση οθόνης της συσκευής</string>
+    <string name="pref_abandoned_notif_title">Η συσκευή έχει χαθεί</string>
+
+    <string name="pref_call">Ρυθμίσεις κλήσης</string>
+    <string name="pref_call_summary">Ρυθμίσεις σήματος Mi Band 2</string>
+    <string name="pref_cat_call">Εισερχόμενη κλήση</string>
+    <string name="pref_call_title">Σήμα εισερχόμενης κλήσης</string>
+    <string name="pref_call_summary_on">Ενεργό (μην ξεχάσετε να απενεργοποιήσετε ειδοποιήσεις εισερχόμενων κλήσεων (incoming call alerts) στήν εφαρμογή Mi Fit)</string>
+    <string name="pref_call_text_title">Εμφάνιση ταυτότητας καλούντος</string>
+    <string name="pref_call_text_summary_on"><![CDATA[Ενεργό (περισσότερες πληροφορίες: <i>Ρυθμίσεις/Ρυθμίσεις εικονιδίων κειμένου)</i>]]></string>
+
+    <string name="pref_call_net_text_title">Σήμα εισερχόμενης κλήσης διαδικτύου, εμφάνιση ταυτότητας καλούντος</string>
+    <string name="pref_call_net_text_summary_on">Viber, WhatsApp, Line</string>
+
+    <string name="pref_cat_call_missed">Αναπάντητη κλήση</string>
+    <string name="pref_call_missed_title">Σήμα αναπάντητης κλήσης</string>
+
+    <string name="pref_call_missed_net_title">Αναπάντητη κλήση διαδικτύου, εμφάνιση ταυτότητας καλούντος</string>
+    <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
+
+    <string name="pref_call_missed_alert_title">Σήμα Mi Band 2</string>
+
+    <string name="pref_call_missed_text_prefix_title">Πρόθεμα κειμένου: %1$s</string>
+    <string name="pref_call_missed_text_prefix_summary">Αν περισσότερες από μία εφαρμογή χρησιμοποιεί το ίδιο εικονίδιο για να διαφοροποιήσει τις ειδοποιήσεις μεταξύ τους</string>
+    <string name="pref_call_missed_text_prefix_dialog_title">Πρόθεμα κειμένου</string>
+
+    <string name="pref_text_conversion">Ρυθμίσεις εικονιδίων κειμένου</string>
+    <string name="pref_text_conversion_summary">Ρυθμίσεις εικονιδίων κειμένου Mi Band 2</string>
+    <string name="pref_cat_text_conversion">Σήμα Mi Band 2</string>
+    <string name="pref_text_conversion_title">Μετατροπή χαρακτήρων</string>
+    <string name="pref_text_conversion_summary_on">Μή αναγνωρίσιμη μετατροπή χαρακτήρων</string>
+
+    <string name="pref_text_conversion_description_title">Περιγραφή</string>
+    <string name="pref_text_conversion_description_summary"><![CDATA[
+        <p>Αν το Mi Band 2 σας δείχνει το όνομα καλούντος της εισερχόμενης κλήσης, τότε δεν χρειάζεται να κάνετε τα παρακάτω βήματα, απλά απενεργοποιήστε την επιλογή <i>Incoming call alerts</i> από το Mi Fit.</p>
+        <p>Εάν δεν χρησιμοποιείτε την επιλογή <i>Incoming call alerts</i> και η γλώσσα του τηλεφώνου δεν είναι η Aγγλική:
+        <br/>1. Ορίστε τη γλώσσα του τηλεφώνου σας στα Aγγλικά.
+        <br/>2. Ανοίξτε την εφαρμογή Mi Fit, περιμένετε μέχρι να γίνει η ενημέρωση του υλικολογισμικού της γραμματοσειράς. Εάν η ενημερωμένη έκδοση του υλικολογισμικού δεν ξεκινήσει, δοκιμάστε να επανεκκινήσετε το τηλέφωνό σας.
+        <br/>3. Ανοίξτε το μενού <i>Αναπαραγωγή/εισερχόμενης κλήσης (Profile/Mi Band/Incoming call)</ i>.
+        <br/>4. Ενεργοποιήστε την επιλογή: <i>Ενεργοποίηση ειδοποιήσεων εισερχόμενων κλήσεων (Turn on incoming call alerts)</ i>.
+        <br/>5. Ενεργοποιήστε την επιλογή: <i>Εμφάνιση πληροφοριών επαφής (Show contact information)</i>.
+        <br/>6. Ελέγξτε αν το Mi Band 2 δείχνει το όνομα του καλούντος κάνοντας μια κλήση στο τηλεφωνό σας.
+        <br/>7. Απενεργοποιήστε την επιλογή: <i>Ενεργοποίηση ειδοποιήσεων εισερχόμενων κλήσεων (Turn on incoming call alerts)</i> (<i>Εμφάνιση πληροφοριών επαφής/Show contact information</i>παραμένει ενεργό).
+        <br/>8. Ορίστε τη γλώσσα του τηλεφώνου πίσω στην γλώσσα σας.</p>]]>
+    </string>
+
+    <string name="pref_touch">Ρυθμίσεις παρακολούθηση αφής</string>
+    <string name="pref_cat_touch">Σήμα Mi Band 2</string>
+    <string name="pref_touch_recognised_failed_title">Σήμα μη αναγνωρίσιμου μοτίβου αφής</string>
+    <string name="pref_touch_recognised_failed_summary_on">Ενεργό (2 δονήσεις μετά από το μεγαλύτερο μοτίβο)</string>
+
+    <string name="pref_mi_band">Ρυθμίσεις Mi Band 2</string>
+    <string name="pref_cat_mi_band_lift_wrist">Σήκωσε τον καρπό για να δείς πληροφορίες</string>
+    <string name="pref_mi_band_lift_wrist_title">Σήκωσε τον καρπό για να δείς πληροφορίες</string>
+    <string name="pref_mi_band_lift_wrist_dnd_title">Λειτουργία μην ενοχλείτε</string>
+    <string name="pref_mi_band_lift_wrist_dnd_summary_on">Ενεργό (στην καθορισμένη περίοδο δεν θα εμφανίζει τις πληροφορίες, για αύτη τη ρύθμιση η σύνδεση Bluetooth είναι απαραίτητη)</string>
+
+    <string name="pref_language">Ρυθμίσεις γλώσσας</string>
+    <string name="pref_cat_language">Γλώσσα</string>
+    <string name="pref_language_title">Γλώσσα</string>
+
+    <!-- Quick switch -->
+    <string name="details">Λεπτομέρειες</string>
+    <string name="bandages">Επίδεσμοι</string>
+    <string name="connected">Σήμα σύνδεσης και ειδοποιήσεων</string>
+    <string name="disconnected">Σήμα αποσύνδεσης και συμβάντων</string>
+    <string name="touch">Παρακολούθηση αφής</string>
+
+    <string name="pref_dnd_title">Λειτουργία μην ενοχλείτε</string>
+    <string name="pref_dnd_remember_state_summary">Στο τέλος της λειτουργίας μην ενοχλείτε, ενεργοποιήστε όλους τους επίδεσμους ή επαναφέρετε τις καταστάσεις όπως ήταν τη στιγμή της έναρξης</string>
+    <string name="pref_dnd_remember_state_on_title">Στο τέλος επαναφέρετε την κατάσταση στους επίδεσμους</string>
+    <string name="pref_dnd_remember_state_off_title">Στο τέλος ενεργοποιήστε όλους τους επίδεσμους</string>
+    <string name="pref_dnd_enable_bluetooth">Στην αρχή της λειτουργίας Dnd απενεργοποιήσε το Bluetooth, στο τέλος ενεργοποιήσε το Bluetooth</string>
+
+    <!-- Snackbar Messages -->
+    <string name="message_enable_bluetooth">Παρακαλούμε να ενεργοποιήσετε το Bluetooth και φέρτε τη συσκευή Mi Band 2 πιο κοντά στο τηλέφωνο</string>
+    <string name="message_discover_mi_band">Το Mi Band 2 δεν έχει οριστεί, παρακαλούμε πατήστε ανίχνευση</string>
+    <string name="message_discovered_mi_band">Το Mi Band 2 ανιχνεύθηκε</string>
+    <string name="message_discovering_mi_band">Ανίχνευση για Mi Band 2 (μπορεί να πάρει 1 λεπτό) &#8230;</string>
+    <string name="message_discovered_no_mi_band">Το Mi Band 2 δεν ανιχνεύθηκε</string>
+    <string name="message_discovered_not_found_mi_band">Σε περίπτωση που το Mi Band 2 δεν ανιχνευθεί, ενεργοποιήστε το: Mi Fit/Play/Discoverable ή συζεύξτε από τις ρυθμίσεις Bluetooth του κινητού σας.</string>
+    <string name="message_enable_notification_listener_access">Ενεργοποίηση πρόσβασης ειδοποίησης: Ρυθμίσεις/ειδοποιήσεις/Πρόσβασης ειδοποίησης (Settings/Notifications/Notification access)</string>
+    <string name="message_enable_notification_listener_access_4_4">Ενεργοποίηση πρόσβασης ειδοποίησης: Ρυθμίσεις/Ασφάλεια/Πρόσβασης ειδοποίησης (Settings/Security/Notification access)</string>
+    <string name="message_enable_notification_policy_access">Ενεργοποιήστε την πρόσβαση Μην ενοχλείτε</string>
+    <string name="message_open_settings">Ρυθμίσεις</string>
+
+    <string name="message_deleted">Διαγραφή</string>
+    <string name="message_undo">Επαναφορά</string>
+
+    <string name="message_app_chooser_no_selected">Επιλέξτε μια εφαρμογή</string>
+
+    <string name="message_notification_free_groups">Μπορούν να χρησιμοποιηθούν μέχρι 6 ομάδες</string>
+
+    <string name="message_step_goal_free_values">Μέχρι 3 τιμές μπορούν να ρυθμιστούν στη κανονική λειτουργία</string>
+    <string name="message_step_goal_max_values">Οι μέγιστες τιμές μπορούν να ρυθμιστούν</string>
+
+    <string name="message_touch_no_patterns">Πατήστε ένα από τα κόκκινα κουμπιά εγγραφής μοτίβου</string>
+    <string name="message_touch_record">Καταγράψτε το μοτίβο χρησιμοποιώντας το κουμπί αφής του Mi Band 2</string>
+    <string name="message_touch_pattern_error">Το καθορισμένο μοτίβο είναι παρόμοιο με ένα δείγμα κάποιας άλλης λειτουργίας, καταγράψτε άλλο</string>
+    <string name="message_touch_free_patterns">Μπορούν να χρησιμοποιηθούν μέχρι 3 λειτουργίες</string>
+    <string name="message_touch_music_player_not_found">Η αναπαραγωγής μουσικής δεν βρέθηκε</string>
+    <string name="message_touch_app_launcher1_not_set">Η εφαρμογή δεν έχει οριστεί</string>
+    <string name="message_touch_app_launcher1_not_found">Η εφαρμογή δεν βρέθηκε: %1$s</string>
+    <string name="message_touch_tasker_launcher1_not_set">Δεν έχει οριστεί εργασία στο Tasker</string>
+
+    <string name="message_notification_group_has_no_entry">Επιλέξτε εφαρμογές με το κάτω δεξιά πράσινο \'+\' κουμπί στην κάρτα</string>
+
+    <string name="message_time_alarm_free_counter">Μέχρι 2 ειδοποιήσεις μπορούν να χρησιμοποιηθούν σε κανονική λειτουργία</string>
+    <string name="message_time_alarm_max_counter">Μέγιστο 5 ειδοποιήσεις μπορούν να χρησιμοποιηθούν</string>
+    <string name="message_time_alarm_enabled">Ειδοποίηση ενεργοποιημένη</string>
+    <string name="message_time_alarm_disabled">Ειδοποίηση απενεργοποιημένη</string>
+    <string name="message_time_alarm_mi_band_off">Αφύπνιση εκτός λειτουργίας</string>
+
+    <string name="message_alarm_free_interval">Επανάληψης μικρότερου χρονικού διαστήματος μπορούν να ρυθμιστούν μόνο σε λειτουργία premium</string>
+    <string name="message_alarm_mi_band_set_failed">Η ρύθμιση της ειδοποίησης απέτυχε</string>
+    <string name="message_alarm_mi_band_clear_failed">Τη διαγραφή της ειδοποίησης απέτυχε</string>
+
+    <string name="message_premium_mode_only">Αυτή η λειτουργία είναι διαθέσιμη μόνο στη λειτουργία premium</string>
+    <string name="message_general_error">Η ρύθμιση απέτυχε (η σύνδεση χάθηκε), δοκιμάστε ξανά</string>
+    <string name="message_internet_error">Δεν υπάρχει σύνδεση στο internet</string>
+
+    <string name="message_in_progress">Σε εξέλιξη…</string>
+
+    <!-- Dialog -->
+    <string name="dialog_welcome_title">Καλώς ορίσατε!</string>
+    <string name="dialog_welcome_message"><![CDATA[Η εφαρμογή υποστηρίζει μόνο Mi Band 2.
+    <p>Το Mi Bandage  απαιτεί την εγκατάσταση της επίσημης εφαρμογής Mi Fit στην ίδια συσκευή. Στην αρχή θα πρέπει να αντιστοιχίσετε Mi Band 2 με την εφαρμογή Mi Fit, μετά θα μπορείτε να χρησιμοποιήσετε το Mi Bandage.</p>
+    <p>εάν χρησιμοποιείτε περισσότερες εφαρμογές για τον έλεγχο Mi Band 2, αλληλεπιδρούν μεταξύ τους και θα πρέπει να τις απενεργοποιήστε προσωρινά</p>
+    <p>Αν το Mi Band 2 δεν ανιχνευθεί, τότε μπορείτε να ρυθμίσετε τη διεύθυνση MAC χειροκίνητα από το μενού λεπτομέρειες (η διεύθυνση MAC βρίσκεται στο: Mi Fit/Profil/Mi Band 2).</p>
+    <p><b>Αν το Mi Band 2 δεν ανιχνευθεί η έχετε πρόβλημα συνχρονισμού στην εφαρμογή Mi Fit, τότε εγκαταστηστε το BToolkit, nRF Connect ή παρόμοια εφαρμογή διαχείρισης Bluetooth και αφαιρέσετε οποιαδήποτε αντιστοιχισμένη ή συζευγμενη συσκευή.</b></p>
+    <p><b>MIUI:</b>
+    <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
+    <br>- Security app screen: battery/app battery saver set Mi Bandage app to no restriction.</p>
+    <p>Αν έχετε πρόβλημα (ανιχνευμένο Mi Band 2, δεν παίρνει ειδοποιήσεις), δοκιμάστε αυτό:
+    <br>1. Άν έχετε εγκαταστήσει την εφαρμογή Greenify (ή άλλη εφαρμογή εξοικονόμησης ενέργειας βάζοντας την συσκευή σε λήθαργο) να την απενεργοποιήσετε.
+    <br>2. Εγκαταστήστε την εφαρμογή Mi Bandage.
+    <br>3. Κάντε επανεκκίνηση του τηλεφώνου.
+    <br>4. Απενεργοποιήστε, το Bluetooth.
+    <br>5. Ανοίξτε την εφαρμογή Mi Fit, περιμένετε έως ότου γίνει ο συγχρονισμός, κλείστε την.
+    <br>6. Ανοίξτε την εφαρμογή Mi Bandage, κάντε κλικ στο πράσινο κουμπί ανίχνευση.</p>]]></string>
+
+    <!-- Diagnostic -->
+    <string name="diagnostic_title">Diagnostic</string>
+
+    <string name="diagnostic_permissions_title">Permissions</string>
+
+    <string name="diagnostic_access_title">Access</string>
+    <string name="diagnostic_access_do_not_disturb">Do not Disturb access</string>
+    <string name="diagnostic_access_notification">Notification access</string>
+
+    <string name="diagnostic_protection_title">Protection against closing</string>
+    <string name="diagnostic_protection_battery">Battery optimisation off</string>
+    <string name="diagnostic_protection_service">Εμφάνιση κατάστασης στο πίνακα ειδοποιήσεων</string>
+    <string name="diagnostic_protection_lock">Lock on the recent apps screen</string>
+
+    <!-- Notification  -->
+    <string name="notification_tab_settings">Ρυθμίσεις</string>
+    <string name="notification_tab_custom">Προσαρμοσμένες ειδοποιήσεις</string>
+
+    <!-- Notification Dialog -->
+    <string name="notification_group_name">Όνομα</string>
+    <string name="notification_group_monitoring">Παρακολούθηση ειδοποιήσεων</string>
+    <string name="notification_group_monitoring_disabled">Εξαιρέσεις ειδοποιήσεων (μην εμφανίζεις τις ειδοποιήσεις της εφαρμογής)</string>
+    <string name="notification_group_alert_title">Σήμα Mi Band 2</string>
+    <string name="notification_group_text_title">Τίτλος</string>
+    <string name="notification_group_text_content">Περεχόμενο</string>
+    <string name="notification_group_pre_alert">Προ εικονίδιο</string>
+    <string name="notification_group_prefix">Πρόθεμα κειμένου</string>
+    <string name="notification_group_pre_signal_title">Προεπιλογή πρόβλεψης ειδοποίησης</string>
+    <string name="notification_group_pre_only_premium">Μόνο στη λειτουργία premium</string>
+    <string name="notification_group_immediate">Άμεσο σήμα με την παραλαβή της ειδοποίησης</string>
+    <string name="notification_group_connecting">Κατά τη σύνδεση με τη συσκευή</string>
+    <string name="notification_group_reminder">Σήμα υπενθύμισης</string>
+    <string name="notification_group_screen_off">Σήμα μόνο όταν η οθόνη είναι απενεργοποιημένη</string>
+    <string name="notification_group_counter_title">Πλήθος αριθμού σημάτων</string>
+    <string name="notification_group_wakelock">Αφύπνιση οθόνης της συσκευής</string>
+    <string name="notification_group_filter">Φιλτράρισμα ειδοποιήσεων</string>
+    <string name="notification_group_filter_title">Φίλτρο τίτλου</string>
+    <string name="notification_group_filter_content">Φίλτρο περιεχομένου</string>
+    <string name="notification_group_filter_hint">Σήμα μόνο όταν η ειδοποίηση (διαχωριστικό: εισάγετε, πεζά ή κεφαλαία)</string>
+    <string name="notification_group_filter_contains">Περιέχει φράσεων</string>
+    <string name="notification_group_filter_not_contains">Δεν περιέχει φράσεις</string>
+
+    <string name="notification_group_sample_sms">Εμφάνιση κειμένου SMS</string>
+    <string name="notification_group_sample_facebook">Εμφάνιση κειμένου Facebook</string>
+    <string name="notification_group_sample_whatsapp">Εμφάνιση κειμένου WhatsApp</string>
+
+    <!-- Notification info dialog -->
+    <string name="info_dialog_notification"><![CDATA[Προκαθορισμένες εφαρμογές και εικονίδια σημάτων του Mi Band 2:
+        <br><img src="ALERT_MESSAGE_TEXT">  αναπάντητη κλήση
+        <br><img src="ALERT_MESSAGE">  SMS
+        <br><img src="ALERT_EMAIL">  Email, Gmail
+        <br><img src="ALERT_CALENDAR">  Google Calendar
+        <br><img src="ALERT_HANGOUTS">  Hangouts
+        <br><img src="ALERT_MESSENGER">  Messenger
+        <br><img src="ALERT_SKYPE">  Skype
+        <br><img src="ALERT_VIBER">  Viber
+        <br><img src="ALERT_WHATSAPP">  WhatsApp
+        <br><img src="ALERT_LINE">  Line
+        <br><img src="ALERT_WECHAT">  WeChat
+        <br><img src="ALERT_TELEGRAM">  Telegram
+        <br><img src="ALERT_KAKAOTALK">  KakaoTalk
+        <br><img src="ALERT_VK">  VK
+        <br><img src="ALERT_FACEBOOK">  Facebook
+        <br><img src="ALERT_TWITTER">  Twitter
+        <br><img src="ALERT_SNAPCHAT">  Snapchat
+        <br><img src="ALERT_INSTAGRAM">  Instagram
+        <br><img src="ALERT_POKEMONGO">  Pokémon GO
+        <br><img src="ALERT_MOMO">  Momo
+        <br><img src="ALERT_QIANNIU">  Qianniu
+        <br><img src="ALERT_QQ">  QQ
+        <br><img src="ALERT_WEIBO">  Weibo
+        <br><img src="ALERT_ALIPAY">  AliPay
+        <br><img src="ALERT_QZONE">  QZone
+        <br><img src="ALERT_DINGTALK">  DingTalk
+        <br><img src="ALERT_APP">  άλλα
+
+        <p>You have to disable app alert in the Mi Fit app.</p>
+        <p>Η ομάδα ειδοποιήσεων που δημιουργούνται από εσάς έχει μεγαλύτερη προτεραιότητα από τη προκαθορισμένη.</p>
+        <p><img src="ALERT_MESSAGE_TEXT"> icon: επιλέξτε αυτό το εικονίδιο για να εμφανιστεί στις ειδοποιήσεις τίτλο/περιεχόμενο.</p>
+        <p>Εάν χρησιμοποιήσετε τις προκαθορισμένες εφαρμογές, αλλά θέλετε να εξαιρέσετε κάποιες ειδοποιήσεις, τότε δημιουργήσετε μια νέα ομάδα ειδοποιήσεων με την επιλογή <i>εξαιρέσεις ειδοποιήσεων</i> και προσθέστε τις εφαρμογές.</p>
+        ]]>
+    </string>
+        <!--<p>Προκαθορισμένα σήματα μπορούν να απενεργοποιηθούν: <i> Ρυθμίσεις σύνδεσης και ειδοποιήσεων / Να έχω ειδοποιήσεις</i>.</p>-->
+
+    <!-- MiBandageApp chooser dialog -->
+    <string name="action_search">Αναζήτηση</string>
+    <string name="action_filter_notification">Φίλτρο ειδοποιήσεων</string>
+
+    <!-- Touch monitoring -->
+    <string name="touch_headline_call_title">Έλεγχος κλήσης</string>
+    <string name="touch_headline_music_title">Έλεγχος μουσικής</string>
+    <string name="touch_headline_time_title">Έλεγχος αντιστροφής μέτρησης/χρονόμετρου</string>
+    <string name="touch_headline_other_title">Άλλοι έλεγχοι</string>
+
+    <string name="touch_device_location_title">Εύρεση της συσκευής μου</string>
+
+    <string name="touch_call_answer_title">Απάντηση κλήσης</string>
+    <string name="touch_call_answer_speakerphone_title">Μεγάφωνο</string>
+
+    <string name="touch_call_end_title">Απόρριψη/αποσύνδεση κλήσης</string>
+
+    <string name="touch_call_mute_title">Εναλλαγή σίγασης κλήσης</string>
+
+    <string name="touch_device_location_not_muted_only_title">Ήχος εφόσον δεν είναι σε σίγαση</string>
+
+    <string name="touch_repeat_notif_title">Επανάληψη ειδοποιήσης</string>
+    <string name="touch_repeat_notif_clear_all">Clear all notifications after repetition</string>
+
+    <string name="touch_clear_notif_title">Clear notifications</string>
+
+    <string name="touch_music_play_pause_title">Έναρξη μουσικής, αναπαραγωγή, παύση</string>
+    <string name="touch_music_skip_previous_title">Έναρξη μουσικής, προηγούμενο τραγούδι</string>
+    <string name="touch_music_skip_next_title">Έναρξη μουσικής, επόμενο τραγούδι</string>
+    <string name="touch_music_headset_only_title">Μόνο αν τα ακουστικά είναι συνδεδεμένα</string>
+    <string name="touch_music_volume_up_title">Αύξηση έντασης μουσικής</string>
+    <string name="touch_music_volume_down_title">Μείωση έντασης μουσικής</string>
+    <string name="touch_music_track_info_title">Εμφάνιση πληροφοριών μουσικού κομματιού.</string>
+
+    <string name="touch_time_launch_title">Παρακολούθηση χρόνου έναρξης</string>
+    <string name="touch_time_launch_type_timer_title">Αντίστροφή μέτρηση</string>
+    <string name="touch_time_launch_type_stopper_title">Χρονόμετρο</string>
+    <string name="touch_time_launch_type_interval_title">Διάστημα</string>
+    <string name="touch_time_launch_restart">Restart if it is in progress</string>
+    <string name="touch_time_reminder_title">Εμφάνιση τρέχων/υπολειπόμενου χρόνου</string>
+
+    <string name="touch_app_launcher1_title">Εκκίνηση εφαρμογής</string>
+    <string name="touch_app_launcher_package_no_title">Επιλέξτε μια εφαρμογή</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Μόνο αν η οθόνη δεν είναι κλειδωμένη</string>
+
+    <string name="touch_tasker_launcher1_title">Εκκίνηση εργασίας tasker</string>
+    <string name="touch_tasker_launcher_no_permission_title">Θα πρέπει να εγκαταστήσετε το Tasker πρώτα και μετά Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">Επέτρεψε την εξωτερική πρόσβαση (Allow external access)</string>
+    <string name="touch_tasker_launcher_no_task_title">Επιλογή εργασίας</string>
+
+    <string name="touch_testing_title">Παρακολούθηση αφής</string>
+
+    <string name="touch_tab_settings">Ρυθμίσεις</string>
+    <string name="touch_tab_testing">Δοκιμή</string>
+
+    <string name="touch_testing_second">δευτ.</string>
+
+    <!-- Touch monitoring info dialog -->
+    <string name="info_dialog_touch"><![CDATA[Η αφή είναι έγκυρη όταν η οθόνη της Mi Band 2 αλλάζει (γι \'αυτό είναι σκόπιμο να περιστρέψετε τον καρπό σας πριν αγγίξετε).
+        <p>Παρακολουθεί χρόνο που παρήλθε μεταξύ των αγγιγμάτων, όχι το χρόνο που έχει παρέλθει από το πρώτο πάτημα.</p>
+        <p>Τα πράσινα εικονίδια στις κάρτες δείχνει ποια άλλη λειτουργία μπορεί να είναι παρόμοια με το τρέχον μοτίβο.</p>
+        <p>Όταν έχετε μια εισερχόμενη κλήση η συσκευή δεν αναγνωρίζει τις ακόλουθες λειτουργίες, προκειμένου να διευκολυνθεί η είσοδος αφής: θέση της συσκευής, επανάληψη ειδοποιήσεων, τον έλεγχο της μουσικής.</p>
+        <p>Στην δοκιμαστική λειτουργία δεν εκτελεί η λειτουργία των αναγνωρισμένων μοτίβων.</p>
+        <p>Το Mi Band 2 ανατροφοδότηση δόνηση μόνο εάν υπάρχει ένα μοτίβο, λαμβάνοντας υπόψη την τρέχουσα κατάσταση της συσκευής (απάντηση κλήσης, απορρίπτοντας μόνο εφόσον υπάρχει μια εισερχόμενη κλήση …).</p>
+        <p>Το Mi Band 2 δονείται μία φορά, όταν αναγνωρίσει ένα μοτίβο.</p>
+        <p>Το Mi Band 2 δονείται δύο φορές, όταν δεν αναγνωρίζει οποιοδήποτε μοτίβο μετά το μεγαλύτερο μοτίβο (αν  το <i>Σήμα μη αναγνωρίσιμου μοτίβου αφής</i> είναι ενεργό).</p>
+        <p>Έγκυρα παραδείγματα αφής:
+        <br>- πάτημα
+        <br>- πάτημα και 1δευτ αναμονή, πάτημα
+        <br>- πάτημα και 1δευτ αναμονή, πάτημα και 1δευτ αναμονή, πάτημα
+        <br>- πάτημα και 2δευτ αναμονή, πάτημα
+        <br>- πάτημα και 2δευτ αναμονή, πάτημα και 1δευτ αναμονή, πάτημα
+        <br>- πάτημα και 2δευτ αναμονή, πάτημα και 2δευτ αναμονή, πάτημα
+        </p>
+    ]]></string>
+
+    <!-- Step monitoring -->
+    <string name="action_tracker_step">Βήματα</string>
+    <string name="action_tracker_distance">Απόσταση</string>
+    <string name="action_tracker_calorie">Θερμίδες</string>
+    <string name="action_chart_filter_activity_no">Χωρίς φίλτρο</string>
+    <string name="action_chart_filter_activity_active">Φίλτρο κίνησης</string>
+
+    <string name="step_tab_day">Ημερήσια διαγράμματα</string>
+    <string name="step_tab_week">Εβδομαδιαία διαγράμματα</string>
+    <string name="step_tab_month">Μηνιαία διαγράμματα</string>
+    <string name="step_tab_goal">Στόχοι δραστηριοτήτων</string>
+    <string name="step_tab_settings">Ρυθμίσεις</string>
+
+    <string name="activity_progress_title_prepare">Προετοιμασία συγχρονισμού...</string>
+    <string name="activity_progress_title_sync">Συγχρονισμός δεδομένων %1$,d%%</string>
+    <string name="activity_progress_title_save">Αποθήκευση δεδομένων %1$,d%%</string>
+
+    <string name="step_title_timing">Χρονισμός</string>
+    <string name="step_interval_title">Διαστήματα επανάληψης παρακολούθησης βημάτων</string>
+    <string name="step_time_set_next">Το χρονοδιάγραμμα του επόμενου ελέγχου</string>
+
+    <string name="step_goal_default_title">Προεπιλεγμένος στόχος</string>
+    <string name="step_goal_type_title">Τιμή παρακολούθησης</string>
+    <string name="step_details">Λεπτομέρειες βημάτων</string>
+
+    <string name="info_dialog_step"><![CDATA[
+        <img src="ic_activity_active"> καθημερινά βήματα/απόσταση/θερμίδες σύνολο
+        <br><br><img src="ic_timelapse"> χρόνος δραστηριότητας
+        <br><br><img src="ic_activity_get_up"> χρόνος αποχώρησης από το κρεβάτι
+        <br><br><img src="ic_activity_awake"> χρόνος εγρήγορσης
+        <br><br><img src="ic_activity_rest_sofa"> ανάπαυσης/καθισμένος κατά τη διάρκεια της εγρήγορσης
+        <br><br><img src="ic_activity_go_to_bed"> ώρα ύπνου
+        <br><br><img src="ic_activity_battery_charging_full"> φόρτιση μπαταρίας
+        <br><br><img src="ic_activity_block"> δεν φοράει
+        ]]>
+    </string>
+
+    <!-- Sleep monitoring -->
+    <string name="sleep_tab_day">Ημερήσια διαγράμματα</string>
+    <string name="sleep_tab_week">Εβδομαδιαία διαγράμματα</string>
+    <string name="sleep_tab_month">Μηνιαία διαγράμματα</string>
+    <string name="sleep_tab_settings">Ρυθμίσεις</string>
+
+    <string name="action_chart_sleep_type_phase">Φάση</string>
+    <string name="action_chart_sleep_type_time">Χρόνος</string>
+
+    <string name="sleep_details">Λεπτομέρειες ύπνου</string>
+    <string name="sleep_assistant">Βοηθός ύπνου καρδιακού ρυθμού</string>
+    <string name="sleep_assistant_summary">Βοηθάει στην επίτευξη ακριβέστερων δεδομένων ύπνου (μειώνει τη διάρκεια ζωής της μπαταρίας)</string>
+    <string name="sleep_assistant_show_pulse">Εμφάνιση τιμών μετρήσεων παλμών στο γράφημα ημερήσιων παλμών</string>
+
+    <string name="info_dialog_sleep"><![CDATA[
+        <img src="ic_timelapse"> ώρα ύπνου
+        <br><br><img src="ic_activity_sleep_deep"> χρόνος βαθύ ύπνου
+        <br><br><img src="ic_activity_go_to_bed"> χρόνος στο κρεβάτι/ξύπνιος
+        <br><br><img src="ic_activity_sleep_start"> χρόνος έναρξης ύπνου/χρόνος ελαφρύ ύπνου
+        <br><br><img src="ic_activity_sleep_time"> συνολικός χρόνος
+        <br><br><img src="ic_activity_sleep_end"> ώρα λήξης ύπνου
+        <br><br><img src="ic_activity_get_up"> χρόνος αποχώρησης από το κρεβάτι
+        <br><br><img src="ic_activity_active"> ενεργός χρόνος
+        <br><br><img src="ic_activity_block"> δεν φοράει
+        ]]>
+    </string>
+
+    <!-- Pulse  monitoring -->
+    <string name="action_pulse_current">Τρέχον παλμός</string>
+
+    <string name="pulse_tab_day">Ημερήσια διαγράμματα</string>
+    <string name="pulse_tab_week">Eβδομαδιαία διαγράμματα</string>
+    <string name="pulse_tab_month">Μηνιαία διαγράμματα</string>
+    <string name="pulse_tab_settings">Ρυθμίσεις</string>
+
+    <string name="action_chart_pulse_type_pulse">Pulse</string>
+    <string name="action_chart_pulse_type_pulse_and_step">Pulse and activity</string>
+
+    <string name="pulse_title_signals">Σήματα</string>
+    <string name="pulse_signal_start_title">Παρακολούθηση σήματος εκκίνησης</string>
+    <string name="pulse_signal_show_title">Εμφάνιση παλμού</string>
+    <string name="pulse_signal_end_low_title">Σήμα χαμηλού παλμού</string>
+    <string name="pulse_signal_end_title">Σήμα υψηλού παλμού</string>
+
+    <string name="pulse_title_timing_validity">Χρονισμός και εγκυρότητα</string>
+    <string name="pulse_interval_title">Διαστήματα επανάληψης παρακολούθησης παλμού</string>
+    <string name="pulse_time_set_next">Το χρονοδιάγραμμα του επόμενου ελέγχου</string>
+    <string name="pulse_value_min">Χαμηλότερη έγκυρη τιμή</string>
+    <string name="pulse_value_max">Υψηλότερη έγκυρη τιμή</string>
+    <string name="pulse_value_invalid">Μη έγκυρη τιμή</string>
+
+    <string name="pulse_details">Λεπτομέρειες παλμού</string>
+
+    <string name="info_dialog_pulse"><![CDATA[H σύνδεση Bluetooth είναι απαραίτητη για την παρακολούθηση του σφυγμού.
+        <p>Η χειροκίνητη εκκίνηση μετρήσεων καταγράφεται και (στις εφαρμογές Mi Band2, Mi Fit) όταν αρχίσει η παρακολούθηση των παλμών.<p/>
+        <p>Η παρακολούθηση παλμού επαναλαμβάνεται πολλές φορές εάν η τιμή που προκύπτει δεν είναι έγκυρη.<p>]]>
+    </string>
+
+    <!-- Lost  monitoring -->
+    <string name="alarm_mi_band_title">Σήμα Mi Band 2</string>
+    <string name="alarm_mi_band_dnd">Λειτουργία μην ενοχλείτε</string>
+    <string name="alarm_mi_band_interval_title">Διάστημα επανάληψης ρύθμισης υπενθύμισης</string>
+    <string name="alarm_mi_band_time_set_next">Το χρονοδιάγραμμα της επόμενης ρύθμισης</string>
+    <string name="alarm_mi_band_time">Το χρονοδιάγραμμα της επόμενης υπενθύμισης</string>
+
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Το σήμα της εποπτείας συσκευής Mi Band 2 είναι ενεργό.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_info">Χρόνος ειδοποίησης: %1$s</string>
+
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Σήμα Mi Band 2</u></b>
+        <p> Όταν λήξει καθορισμένο χρονικό διάστημα η συσκευή αν δεν είναι συνδεδεμένη, το Mi Band 2 στέλνει ένα σήμα.</p>
+        <p>Η εφαρμογή χρησιμοποιεί τη λειτουργία συναγερμού του Mi Fit να ειδοποιεί (αντικαταστήσετε 10. ρύθμιση).</p>
+        <p>Η ειδοποίηση θα επαναληφθεί αρκετές φορές αν το Mi Band 2 δεν ανιχνεύσει οποιαδήποτε κίνηση (επειδή χρησιμοποιεί την εργοστασιακή ειδοποίηση).</p>
+        <p>Πριν την απενεργοποίηση του Bluetooth ή την απεγκατάσταση της εφαρμογής θα πρέπει να απενεργοποιήσετε το σήμα του Mi Band 2.</p>
+        <p>Αν αφαιρέσετε την εφαρμογή, όταν η ειδοποίηση είναι ενεργοποιημένη, τότε μπορείτε να την απενεργοποιήσετε, ενεργοποιώντας και απενεργοποιώντας πάλι Mi Fit 10. ρύθμιση της ειδοποίησης.</p>
+
+        <img src="ic_phone_android"> <b><u>Σήματα της συσκευής</u></b>
+        <p>Όταν λήξει καθορισμένο χρονικό διάστημα, η συσκευή αν δεν είναι συνδεδεμένη με το βραχιόλι, στέλνει σήματα επανειλημμένα.<p>
+        <p>Αυτό καθιστά πιο εύκολο να βρείτε τη συσκευή. Αν κάποιος άλλος βρεί τη συσκευή και είναι κλειδωμένη δεν θα ξέρει ποιον να ενημερώσει, οπότε μπορείτε να εμφανίσετε ένα μήνυμα.</p>
+        <p>Όταν το βραχιόλι είναι συνδεδεμένο, η ειδοποίηση σταματά.</p>
+        <p>Πρέπει να είναι ενεργοποιημένη για να εμφανιστεί ειδοποίηση στην οθόνη κλειδώματος.</p>]]>
+    </string>
+
+    <!-- Time  monitoring -->
+    <string name="time_tab_alarm">Ειδοποίηση</string>
+    <string name="time_tab_timer">Αντίστροφή μέτρηση</string>
+    <string name="time_tab_stopper">Χρονόμετρο</string>
+    <string name="time_tab_lap">Χρόνος γύρου</string>
+    <string name="time_tab_interval">Διάστημα</string>
+
+    <string name="action_alarm_device">Επαναφορά ειδοποίησης</string>
+    <string name="time_alarm_mi_band_signal">Ειδοποίηση όταν ακούγεται το ξυπνητήρι του τηλεφώνου</string>
+    <string name="time_alarm_mi_band_signal_alarm_off">Το ξυπνητήρι σβήνει στο δεύτερο αγγίγμα</string>
+    <string name="time_alarm_title">Όνομα ξυπνητηριού</string>
+    <string name="time_alarm_pre_alarm">Σήμα υπενθύμισης, υπολειπόμενος χρόνος</string>
+    <string name="time_alarm_pre_alarm_interval_title">Πρίν την λήξη</string>
+    <string name="time_alarm_pre_alarm_type_vibrate_title">Δόνηση</string>
+    <string name="time_alarm_pre_alarm_type_remaining_title">Υπολειπόμενος χρόνος</string>
+
+    <string name="time_timer_time_alert">Τύπος ειδοποίησης</string>
+    <string name="time_timer_time_remaining">Υπολειπόμενος χρόνος</string>
+
+    <string name="time_timer_reminder">Σήμα υπενθύμισης, υπολειπόμενος χρόνος</string>
+    <string name="time_timer_reminder_interval_before_title">Πρίν την λήξη</string>
+    <string name="time_timer_reminder_interval_repeat_title">Διάστημα υπενθύμιση επανάληψης</string>
+
+    <string name="time_stopper_time_alert">Τύπος ειδοποίησης</string>
+    <string name="time_stopper_time_elapsed">Υπολειπόμενος χρόνος</string>
+
+    <string name="time_stopper_reminder">Σήμα υπενθύμισης, υπολειπόμενος χρόνος</string>
+    <string name="time_stopper_reminder_interval_before_title">Πρίν την λήξη</string>
+    <string name="time_stopper_reminder_interval_repeat_title">Διάστημα υπενθύμιση επανάληψης</string>
+
+    <string name="time_stopper_touch">Χρόνος γύρου, παρακολούθηση αφής</string>
+    <string name="time_stopper_touch_record">Χρόνος γύρου καταγραφή με ένα πάτημα</string>
+    <string name="time_stopper_touch_show">Χρόνος γύρου εμφάνιση με ένα πάτημα</string>
+    <string name="time_stopper_touch_time_format">Μορφή ώρας</string>
+    <string name="time_stopper_touch_time_format_minute">ώρα \u2032 λεπτά \u2033</string>
+    <string name="time_stopper_touch_time_format_second">λεπτά \u2032 δευτερόλεπτα \u2033</string>
+
+    <string name="time_lap_details">Λεπτομέρειες χρόνος γύρου</string>
+
+    <string name="time_mode_timer_title">Χρονομέτρηση</string>
+    <string name="time_mode_time_title">Ώρα</string>
+
+    <string name="time_alert">Τύπος ειδοποίησης</string>
+    <string name="time_alert_bell_title">Κουδούνι</string>
+    <string name="time_alert_alarm_title">Ειδοποίηση</string>
+
+    <string name="time_interval_time_total">Συνολικός χρόνος</string>
+    <string name="time_interval_counter">Αριθμός επαναλήψεων</string>
+    <string name="time_interval_time_alert">Τέλος χρόνου</string>
+    <string name="time_interval_time_current">Επανάληψη, χρονικό διάστημα που παρήλθε</string>
+    <string name="time_interval_title">Τίτλος</string>
+    <string name="time_interval_time">Χρόνος διαστήματος</string>
+
+    <string name="time_text">Εμφάνιση ειδοποίησης</string>
+    <string name="time_text_message">Μήνυμα</string>
+
+    <string name="time_enable_bluetooth">Ενεργοποίησε το Bluetooth</string>
+
+    <string name="info_dialog_time"><![CDATA[
+        <p><b>Απενεργοποιήστε την ειδοποίηση,την αντίστροφη μέτρηση και το χρονόμετρο πριν αφαιρεθεί η εφαρμογή.</b></p>
+        <img src="ic_miband_bell"> <b><u>Κουδούνι</u></b>
+        <p>Σύνδεση Bluetooth είναι απαραίτητη το κουδούνι χτυπάει απλά μόνο μία φορά για 10 δευτερόλεπτα.</p>
+        <img src="ic_alarm"> <b><u>Ειδοποίηση</u></b>
+        <p>Σύνδεση Bluetooth δεν απαιτείται για την ειδοποίηση, η εφαρμογή χρησιμοποιεί την λειτουργία του Mi Fit για την ειδοποίηση (αντικαταστήσετε 4. - 9. ρύθμιση).
+        <br>Η ειδοποίηση θα επαναληφθεί αρκετές φορές αν το Mi Band 2 δεν ανιχνεύσει οποιαδήποτε κίνηση (επειδή χρησιμοποιεί την εργοστασιακή ειδοποίηση).
+        <br>Ακρίβεια λεπτού, το Mi band 2 δεν χειρίζεται δευτερόλεπτα κατά τον χρόνο ειδοποίησης.</p>
+        <p>Το σήμα υπενθύμισης απαιτεί σύνδεση Bluetooth.</p>
+    ]]></string>
+
+    <!-- Agent -->
+    <string name="agent_title">Εποπτεία συσκευής</string>
+    <string name="agent_tab_events">Καταγραφή συμβάντων</string>
+    <string name="agent_tab_settings">Ρυθμίσεις</string>
+
+    <string name="pref_disconnected_agent_summary_on"> Αν κάποιος πειράξει την συσκευή σας (αφύπνιση οθόνης, ενεργοποίηση, ανίχνευση κίνησης) ενώ είστε μακριά, θα ξέρετε</string>
+    <string name="pref_disconnected_agent_text">Κάποιος πειράξει την συσκευή σας , ενώ λείπατε</string>
+    <string name="pref_disconnected_agent_user_present_title">Αφύπνιση της συσκευής παρακολούθησης</string>
+    <string name="pref_disconnected_agent_screen_on_and_motion_title">Παρακολούθηση ενεργοποίησης και κίνησης</string>
+
+    <!-- Agent log info dialog -->
+    <string name="info_dialog_disconnected_agent"><![CDATA[Συμβάντα που ανιχνεύθηκαν από τον παράγοντα ελέγχου της συσκευής:
+        <br>- ενεργοποίηση
+        <br>- ξεκλείδωμα της οθόνης
+        <br>- ανίχνευση κίνησης
+
+        <p>Αν κάποιος πειράξει την συσκευή σας ενώ είστε μακριά, τα παραπάνω συμβάντα καταγράφονται.</p>
+        <p>Όταν επανασυνδεθεί, θα λάβετε μια ειδοποίηση σε περίπτωση εκδήλωσης συμβάντος.</p>]]>
+    </string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Θέμα</string>
+    <string name="theme_tab_widget">Widgets</string>
+    <string name="theme_tab_notification">Σκιά ειδοποίησης</string>
+
+    <string name="theme_summary">Επιλέξτε ένα θέμα</string>
+
+    <string name="theme_widget_foreground_title">Προσκήνιο</string>
+    <string name="theme_widget_foreground_color_title">Εικονίδιο και χρώμα κειμένου</string>
+    <string name="theme_widget_background_title">φόντο</string>
+    <string name="theme_widget_background_color_title">Χρώμα</string>
+    <string name="theme_widget_background_shape_title">Σχήμα</string>
+    <string name="theme_widget_background_transparency_title">Διαφάνεια</string>
+
+    <string name="theme_widget_touch_event_title">Συμβάν αφής</string>
+
+    <string name="theme_notification_title">Εμφάνιση κατάστασης στο πίνακα ειδοποιήσεων</string>
+    <string name="theme_notification_summary">Το σύστημα Android κάνει αναγκαστική διακοπή υπηρεσίας μόνο όταν η μνήμη είναι χαμηλή. Εάν μετά από λίγο δεν εμφανίζεται στις ειδοποιήσεις στο Band 2, μπορείτε να το αποτρέψετε.</string>
+    <string name="theme_notification_color_title">Χρώμα εικονιδίου</string>
+    <string name="theme_notification_text_color_title">Text color</string>
+
+    <!-- Backup and restore -->
+    <string name="backup_tab_backup">Αντίγραφα ασφαλείας</string>
+    <string name="backup_tab_restore">Επαναφορά αντιγράφων ασφαλείας</string>
+
+    <string name="backup_time">Χρόνος δημιουργίας αντιγράφων ασφαλείας</string>
+    <string name="backup_path">Τοποθεσία αντιγράφων ασφαλείας</string>
+
+    <string name="backup_process">Προετοιμασία…</string>
+    <string name="backup_process_activity">Δραστηριότητα και ύπνος %1$,d%%</string>
+    <string name="backup_process_pulse">Σφυγμός %1$,d%%</string>
+    <string name="backup_process_notification">Ειδοποίηση %1$,d%%</string>
+    <string name="backup_process_touch">Αφή %1$,d%%</string>
+    <string name="backup_process_time">Χρόνος %1$,d%%</string>
+    <string name="backup_process_alarm">Εποπτεία συσκευής %1$,d%%</string>
+    <string name="backup_process_disconnected_agent">Συμβάν %1$,d%%</string>
+    <string name="backup_process_settings">Ρυθμίσεις %1$,d%%</string>
+
+    <string name="backup_restore_activity">Δραστηριότητα και ύπνος</string>
+    <string name="backup_restore_pulse">Σφυγμός</string>
+    <string name="backup_restore_notification">Ειδοποίηση</string>
+    <string name="backup_restore_touch">Αφή</string>
+    <string name="backup_restore_time">Χρόνος</string>
+    <string name="backup_restore_alarm">Εποπτεία συσκευής</string>
+    <string name="backup_restore_disconnected_agent">Συμβάν</string>
+    <string name="backup_restore_settings">Ρυθμίσεις</string>
+
+    <string name="backup_restore_reset">Απαιτείται ενεργοποίηση και απενεργοποίηση του Bluetooth και επανεκκίνηση της εφαρμογής.</string>
+
+    <!-- Rewarded mode -->
+    <string name="rewarded_policy_title">Όροι και προϋποθέσεις της Ανταμειβόμενης λειτουργίας</string>
+    <string name="rewarded_policy"><![CDATA[
+        <p>- έναρξη ισχύος: τρέχουσα ώρα
+        <br>-λήξης ισχύος: έναρξη ισχύος + τουλάχιστον %1$,d μέρες (ανάλογα με τη διαφήμιση μπορεί να είναι περισσότερο)
+        <br>- η χειραγώγηση του χρόνου μπορεί να προκαλέσει τον τερματισμό της ισχύος</p>
+        <i>Μετά την αναπαραγωγή του βίντεο θα πρέπει να επανεκκινήσετε την εφαρμογή.</i>
+    ]]></string>
+
+    <string name="rewarded_advantage_banner_title">Αποκλεισμός διαφημίσεων του banner</string>
+    <string name="rewarded_advantage_interstitial_title">Αποκλεισμός τις διάμεση διαφημίσεις</string>
+
+    <string name="rewarded_advantage_time_range">Εγκυρότητα</string>
+    <string name="rewarded_advantage_button_play">Αναπαραγωγή βίντεο</string>
+
+    <string name="message_rewarded_error">Αποτυχία φόρτωσης βίντεο</string>
+
+    <!-- Premium mode -->
+    <string name="purchase_advantage_title">Πλεονεκτήματα premium λειτουργίας</string>
+    <string name="purchase_advantage"><![CDATA[
+        - χωρίς διαφημίσεις
+        <br>- λειτουργία μην ενοχλείτε
+        <br>- απεριόριστη παρακολούθηση ειδοποιήσεων
+        <br>- απεριόριστη παρακολούθηση αφής
+        <br>- πρόθεμα κειμένου μπορεί να χρησιμοποιηθεί στην παρακολούθηση ειδοποιήσεων
+        <br>- το διάστημα επανάληψης μπορεί να ρυθμιστεί ελεύθερα στην λειτουργία παρακολούθησης βημάτων
+        <br>- στην λειτουργία παλμού τα διαστήματα επανάληψης παλμού μπορούν να ρυθμιστούν ελεύθερα
+        <br>- στην λειτουργία εποπτεία συσκευής μπορεί να χρησιμοποιηθεί η λειτουργία dnd (μην ενοχλείται) και τα διαστήματα επανάληψης μπορούν να ρυθμιστούν ελεύθερα
+        <br>- επανειλημμένες υπενθυμίσεις μπορούν να ρυθμιστούν ελεύθερα στην παρακολούθηση χρόνου
+        <br>- …
+    ]]></string>
+    <string name="purchase_policy_title">Όροι και προϋποθέσεις της premium λειτουργίας</string>
+    <string name="purchase_policy"><![CDATA[
+        <p>- Δοκίμασα την εφαρμογή και λειτουργεί σωστά.
+        <br>- Γνωρίζω ότι δεν μπορώ να απαιτήσω αποζημίωση ή επιστροφή χρημάτων που οφείλονται σε σφάλματα, σφάλματα του λογισμικού που προκαλείται από τις αλλαγές στο λογισμικό, το περιβάλλον υλικού ή χρησιμοποιώντας άλλες εφαρμογές.
+        <br>- Όλες οι πωλήσεις είναι τελικές και δεν μπορούν να επιστραφούν (εκτός από την πολιτική επιστροφής της Google).
+        <br>- Δεν συμπεριλαμβάνεται καμία εγγύηση.</p>
+        <p><i>Μετά την αγορά θα πρέπει να επανεκκινήσετε την εφαρμογή.</i></p>
+    ]]></string>
+
+    <string name="purchase_agree">Συμφωνώ με τους όρους και τις προυποθέσεις.</string>
+    <string name="purchase_order_id">Αριθμός παραγγελίας</string>
+    <string name="purchase_order_id_help">Αντιγραφή από:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_button_purchase">Αγορά</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">Notification log</string>
+
+    <string name="feedback_google_play_title">Βαθμολόγησε αυτήν την εφαρμογή</string>
+    <string name="feedback_request_feature_title">Ζητήστε κάποιο χαρακτηριστικό, αναφορά σφαλμάτων</string>
+    <string name="feedback_request_feature_summary">Αυτόματη διαδικασία αποστολής e-mail, δεν θα πάρετε καμία απάντηση</string>
+
+    <!-- Vibration dialog -->
+    <string name="vibration_title">Ρυθμίσεις δόνησης</string>
+    <string name="vibration_intensity">Ένταση</string>
+    <string name="vibration_pause">Παύση</string>
+    <string name="vibration_times">Επαναλήψεις</string>
+
+    <!-- Hack -->
+    <string name="info_dialog_hack"><![CDATA[Ανιχνεύτηκε αμυχές εργαλείο(Hack tool) στην συσκευή.
+        <p>Για το διάστημα που το αμυχές εργαλείο είναι εγκατεστημένο η λειτουργία premium δεν είναι διαθέσιμη.</p>
+        <p>Πέρασα πολύ χρόνο στην ανάπτυξη της εφαρμογής, για τον λόγο αυτό παρακαλούμε να μην χρησιμοποιείτε αμυχή εργαλεία.</p>]]>
+    </string>
+
+    <!-- Others -->
+    <string name="on">Ενεργό</string>
+    <string name="off">Ανενεργό</string>
+    <string name="none">Κανένας</string>
+    <string name="bpm">BPM</string>
+    <string name="time_start">Ώρα έναρξης</string>
+    <string name="time_end">Ώρα λήξης</string>
+    <string name="ringer_mode_mute">Αθόρυβο</string>
+    <string name="ringer_mode_silent">Μην ενοχλείτε</string>
+
+    <string name="action_dismiss">Απόρριψη</string>
+    <string name="action_setting">Ρυθμίσεις</string>
+    <string name="action_delete">Διαγραφή</string>
+    <string name="action_export">Εξαγωγή</string>
+    <string name="action_filter_no">Χωρίς φίλτρο</string>
+    <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_save">Αποθήκευση</string>
+
+    <string name="action_chart">Διάγραμμα</string>
+    <string name="action_chart_normalize_minute">Μετρούμενες τιμές</string>
+    <string name="action_chart_normalize_hour">Ωριαίες τιμές</string>
+    <string name="action_chart_sort_time_asc">Ώρα αύξουσα</string>
+    <string name="action_chart_sort_time_desc">Ώρα φθίνουσα</string>
+    <string name="action_chart_sort_step_asc">Βήμα αύξων</string>
+    <string name="action_chart_sort_step_desc">Βήμα φθίνων</string>
+    <string name="action_chart_sort_pulse_asc">Παλμός αύξων</string>
+    <string name="action_chart_sort_pulse_desc">Παλμός φθίνων</string>
+    <string name="action_chart_sort_lap_asc">Χρόνος γύρου αύξων</string>
+    <string name="action_chart_sort_lap_desc">Χρόνος γύρου φθίνων</string>
+
+    <string name="power_on">Ενεργοποίηση</string>
+    <string name="screen_unlock">Ξεκλείδωμα της οθόνης</string>
+    <string name="motion">Ανιχνεύθηκε κίνηση</string>
+
+    <string name="required_value">Απαιτείται</string>
+
+    <!-- Constante -->
+    <string name="const_time_abbreviation_hour">ω</string>
+    <string name="const_time_abbreviation_minute">λ</string>
+    <string name="const_time_abbreviation_sec">δ</string>
+    <string name="const_time_abbreviation_milli_sec">μδ</string>
+
+    <string name="const_number">%1$,d</string>
+    <string name="const_unit_meter">μ</string>
+    <string name="const_unit_kcal">kcal</string>
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="zero">%d ώρες</item>
+        <item quantity="one">%d ώρα</item>
+        <item quantity="two">%d ώρες</item>
+        <item quantity="few">%d ώρες</item>
+        <item quantity="many">%d ώρες</item>
+        <item quantity="other">%d ώρες</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">%d λεπτά</item>
+        <item quantity="one">%d λεπτό</item>
+        <item quantity="two">%d λεπτά</item>
+        <item quantity="few">%d λεπτά</item>
+        <item quantity="many">%d λεπτά</item>
+        <item quantity="other">%d λεπτά</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d δευτερόλεπτα</item>
+        <item quantity="one">%d δευτερόλεπτο</item>
+        <item quantity="two">%d δευτερόλεπτα</item>
+        <item quantity="few">%d δευτερόλεπτα</item>
+        <item quantity="many">%d δευτερόλεπτα</item>
+        <item quantity="other">%d δευτερόλεπτα</item>
+    </plurals>
+
+</resources>
