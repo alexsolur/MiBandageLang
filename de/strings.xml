@@ -262,6 +262,20 @@
     <br>5. Öffnen Sie die Mi Fit-App, warten Sie bis die Synchronisation abgeschlossen ist, und schließen Sie die App wieder.
     <br>6. Öffnen Sie die Mi Bandage-App und berühren Sie den grünen "Entdecken"-Button.</p>]]></string>
 
+    <!-- Diagnostic -->
+    <string name="diagnostic_title">Diagnostic</string>
+
+    <string name="diagnostic_permissions_title">Permissions</string>
+
+    <string name="diagnostic_access_title">Access</string>
+    <string name="diagnostic_access_do_not_disturb">Do not Disturb access</string>
+    <string name="diagnostic_access_notification">Notification access</string>
+
+    <string name="diagnostic_protection_title">Protection against closing</string>
+    <string name="diagnostic_protection_battery">Battery optimisation off</string>
+    <string name="diagnostic_protection_service">Zeige Status in Benachrichtigungsleiste an</string>
+    <string name="diagnostic_protection_lock">Lock on the recent apps screen</string>
+
     <!-- Notification  -->
     <string name="notification_tab_settings">Einstellungen</string>
     <string name="notification_tab_custom">Benutzerdefinierte Benachrichtigungen</string>
@@ -324,6 +338,7 @@
         <br><img src="ALERT_DINGTALK">  DingTalk
         <br><img src="ALERT_APP">  Sonstige
 
+        <p>You have to disable app alert in the Mi Fit app.</p>
         <p>Die von Ihnen erstelle Benachrichtigungsgruppe besitzt höhere Priorität als die vordefinierten.</p>
         <p><img src="ALERT_MESSAGE_TEXT"> Emblem: Wählen Sie dieses Emblem um den Inhalt/Titel der Benachrichtigung anzuzeigen.</p>
         <p>Falls Sie die vordefinierten Apps verwenden, Sie aber eine Benachrichtigung deaktivieren wollen, erstellen Sie einen neue Benachrichtigungsgruppe mit der Einstellung <i>"Benachrichtigungen deaktivieren"</i> und fügen Sie die Apps hinzu.</p>
@@ -353,6 +368,9 @@
     <string name="touch_device_location_not_muted_only_title">Nur Sound, wenn nicht stummgeschalten</string>
 
     <string name="touch_repeat_notif_title">Wiederhole Benachrichtigungen</string>
+    <string name="touch_repeat_notif_clear_all">Clear all notifications after repetition</string>
+
+    <string name="touch_clear_notif_title">Clear notifications</string>
 
     <string name="touch_music_play_pause_title">Start, Wiedergabe und Pausieren der Musik</string>
     <string name="touch_music_skip_previous_title">Start der Musik oder vorheriger Song</string>
@@ -366,6 +384,7 @@
     <string name="touch_time_launch_type_timer_title">Timer</string>
     <string name="touch_time_launch_type_stopper_title">Stoppuhr</string>
     <string name="touch_time_launch_type_interval_title">Intervall</string>
+    <string name="touch_time_launch_restart">Restart if it is in progress</string>
     <string name="touch_time_reminder_title">Zeige verbleibende/wiedergegebene Zeit an</string>
 
     <string name="touch_app_launcher1_title">App-Launcher</string>
@@ -474,6 +493,9 @@
     <string name="pulse_tab_week">Wöchentliche Statistiken</string>
     <string name="pulse_tab_month">Monthly charts</string>
     <string name="pulse_tab_settings">Einstellung</string>
+
+    <string name="action_chart_pulse_type_pulse">Pulse</string>
+    <string name="action_chart_pulse_type_pulse_and_step">Pulse and activity</string>
 
     <string name="pulse_title_signals">Signale</string>
     <string name="pulse_signal_start_title">Startsignal der Beobachtung</string>
@@ -627,6 +649,7 @@
     <string name="theme_notification_title">Zeige Status in Benachrichtigungsleiste an</string>
     <string name="theme_notification_summary">Android erzwingt eine Beendung eines Dienstes nur bei unzureichendem Arbeitsspeicher. Falls nach gewisser Zeit keine Benachrichtigungen auf dem Mi Band 2 erscheinen, kann man dies verhindern.</string>
     <string name="theme_notification_color_title">Farbe des Emblems</string>
+    <string name="theme_notification_text_color_title">Text color</string>
 
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Backup</string>
