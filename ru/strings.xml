@@ -28,7 +28,7 @@
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Время присоединения: %1$s</string>
     <string name="foreground_service_disconnected_text">Mi Band 2 не подключен</string>
-    <!--<string name="foreground_service_disconnected">Время рассоединения: %1$s</string>-->
+    <!--<string name="foreground_service_disconnected">Время разъединения: %1$s</string>-->
 
     <!-- Strings related to Settings -->
     <string name="settings_name">Настройки</string>
@@ -89,15 +89,15 @@
     <string name="pref_connected_have_notif_counter_title">Количество уведомлений</string>
     <string name="pref_connected_have_notif_wakelock_title">Активировать экран устройства</string>
     <string name="pref_connected_have_notif_ongoing_title">Постоянные уведомления</string>
-    <string name="pref_connected_have_notif_default_app_title">Уведомления нараспознанных приложений</string>
+    <string name="pref_connected_have_notif_default_app_title">Уведомления нераспознанных приложений</string>
     <string name="pref_connected_have_notif_default_app_summary_on">Иконка \'app\' для не рассортированных по группам или предопределённых</string>
     <string name="pref_connected_have_notif_pre_signal_title">Предсказание уведомлений</string>
     <string name="pref_connected_have_notif_pre_signal_summary_on">Уведомление (настраиваемое) перед настоящим уведомлением, чтобы успеть увидеть его на Mi Band 2</string>
 
-    <string name="pref_disconnected">Настройки рассоединения</string>
+    <string name="pref_disconnected">Настройки разъединения</string>
     <string name="pref_disconnected_summary">Настройки отсоединения Mi Band 2</string>
 
-    <string name="pref_disconnected_signals">Уведомления рассоединения</string>
+    <string name="pref_disconnected_signals">Уведомления разъединения</string>
     <string name="pref_disconnected_signals_summary">Уведомления отсоединения Mi Band 2, не уведомляет при вручную отключённом Bluetooth</string>
     <string name="pref_cat_disconnected_signals_mi_band">Уведомление Mi Band 2</string>
     <string name="pref_disconnected_mi_band_title">Отображение иконки</string>
@@ -106,7 +106,7 @@
     <string name="pref_disconnected_vibration_title">Вибрация</string>
     <string name="pref_disconnected_wakelock_title">Активировать экран устройства</string>
 
-    <string name="pref_disconnected_settings">Настройки рассоединения</string>
+    <string name="pref_disconnected_settings">Настройки разъединения</string>
     <string name="pref_disconnected_settings_summary">Настройки отсоединения Mi Band 2</string>
     <string name="pref_cat_disconnected_settings">Настройки устройства</string>
     <string name="pref_disconnected_volume_title">Изменить громкость</string>
@@ -159,7 +159,7 @@
         <p>Если вы не используете настройки из Mi Fit и язык устройства не английский:
         <br/>1. Выберите английский язык в настройках устройства.
         <br/>2. Откройте Mi Fit, подождите обновления шрифтов. Если обновление не начинается, попробуйте перезагрузить устройство.
-        <br/>3. Откройте <i>Profil/Mi Band/Incoming call</i>.
+        <br/>3. Откройте <i>Profile/Mi Band/Incoming call</i>.
         <br/>4. Включите: <i>Turn on incoming call alerts</i>.
         <br/>5. Включите: <i>Show contact information</i>.
         <br/>6. Проверьте, может ли Mi Band 2 показывать имя звонящего.
@@ -176,7 +176,7 @@
     <string name="pref_cat_mi_band_lift_wrist">Поворот запястья</string>
     <string name="pref_mi_band_lift_wrist_title">Поворот запястья</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Режим \"Не беспокоить\"</string>
-    <string name="pref_mi_band_lift_wrist_dnd_summary_on">Включено (в заданный промежуток времени отображение отключено, необоходимо Bluetooth-соединение)</string>
+    <string name="pref_mi_band_lift_wrist_dnd_summary_on">Включено (в заданный промежуток времени отображение отключено, необходимо Bluetooth-соединение)</string>
 
     <string name="pref_language">Язык</string>
     <string name="pref_cat_language">Язык</string>
@@ -263,18 +263,18 @@
     <br>6. Открыть Mi Bandage, нажать зелёную кнопку обнаружения.</p>]]></string>
 
     <!-- Diagnostic -->
-    <string name="diagnostic_title">Diagnostic</string>
+    <string name="diagnostic_title">Диагностика</string>
 
-    <string name="diagnostic_permissions_title">Permissions</string>
+    <string name="diagnostic_permissions_title">Разрешения</string>
 
-    <string name="diagnostic_access_title">Access</string>
-    <string name="diagnostic_access_do_not_disturb">Do not Disturb access</string>
-    <string name="diagnostic_access_notification">Notification access</string>
+    <string name="diagnostic_access_title">Доступ</string>
+    <string name="diagnostic_access_do_not_disturb">\'Не беспокоить\'</string>
+    <string name="diagnostic_access_notification">Уведомления</string>
 
-    <string name="diagnostic_protection_title">Protection against closing</string>
-    <string name="diagnostic_protection_battery">Battery optimisation off</string>
+    <string name="diagnostic_protection_title">Поддержка постоянной работы</string>
+    <string name="diagnostic_protection_battery">Отключить оптимизацию аккумулятора</string>
     <string name="diagnostic_protection_service">Отображение статуса подключения в уведомлении</string>
-    <string name="diagnostic_protection_lock">Lock on the recent apps screen</string>
+    <string name="diagnostic_protection_lock">Закрепить в панели недавних приложений</string>
 
     <!-- Notification  -->
     <string name="notification_tab_settings">Настройки</string>
@@ -338,7 +338,7 @@
         <br><img src="ALERT_DINGTALK">  DingTalk
         <br><img src="ALERT_APP"> другие
 
-        <p>You have to disable app alert in the Mi Fit app.</p>
+        <p>Не забудьте отключить уведомления приложений в Mi Fit.</p>
         <p>Группы уведомлений, созданные вами, имеют повышенный приоритет.</p>
         <p><img src="ALERT_MESSAGE_TEXT">: выберите эту иконку, для отображения заголовка/текста уведомлений.</p>
         <p>Если вы используете предустановленные уведомления, но хотите исключить некоторые приложения, создайте новую группу уведомлений с <i>исключением уведомлений</i> и добавьте туда эти приложения.</p>
@@ -368,9 +368,9 @@
     <string name="touch_device_location_not_muted_only_title">Подчиняться беззвучному режиму</string>
 
     <string name="touch_repeat_notif_title">Повторить уведомления</string>
-    <string name="touch_repeat_notif_clear_all">Clear all notifications after repetition</string>
+    <string name="touch_repeat_notif_clear_all">Очистить уведомления после повтора</string>
 
-    <string name="touch_clear_notif_title">Clear notifications</string>
+    <string name="touch_clear_notif_title">Очистить уведомления</string>
 
     <string name="touch_music_play_pause_title">Воспроизведение - пауза</string>
     <string name="touch_music_skip_previous_title">Предыдущий трек</string>
@@ -384,7 +384,7 @@
     <string name="touch_time_launch_type_timer_title">Таймер</string>
     <string name="touch_time_launch_type_stopper_title">Секундомер</string>
     <string name="touch_time_launch_type_interval_title">Интервал</string>
-    <string name="touch_time_launch_restart">Restart if it is in progress</string>
+    <string name="touch_time_launch_restart">Перезапустить, если включён</string>
     <string name="touch_time_reminder_title">Оставшееся/прошедшее время</string>
 
     <string name="touch_app_launcher1_title">Запуск приложений</string>
@@ -394,7 +394,7 @@
     <string name="touch_tasker_launcher1_title">Tasker</string>
     <string name="touch_tasker_launcher_no_permission_title">Необходимо соблюдать порядок установки для использования. Сначала Tasker, потом Mi Bandage.</string>
     <string name="touch_tasker_launcher_no_access_title">Разрешить внешний доступ (Allow external access)</string>
-    <string name="touch_tasker_launcher_no_task_title">Выбрать дейтсвие</string>
+    <string name="touch_tasker_launcher_no_task_title">Выбрать действие</string>
 
     <string name="touch_testing_title">Касания</string>
 
@@ -494,8 +494,8 @@
     <string name="pulse_tab_month">Месяц</string>
     <string name="pulse_tab_settings">Настройки</string>
 
-    <string name="action_chart_pulse_type_pulse">Pulse</string>
-    <string name="action_chart_pulse_type_pulse_and_step">Pulse and activity</string>
+    <string name="action_chart_pulse_type_pulse">Пульс</string>
+    <string name="action_chart_pulse_type_pulse_and_step">Пульс и активность</string>
 
     <string name="pulse_title_signals">Сигналы</string>
     <string name="pulse_signal_start_title">Сигнал начала измерений</string>
@@ -524,7 +524,7 @@
     <string name="alarm_mi_band_time_set_next">Время следующей установки</string>
     <string name="alarm_mi_band_time">Время следующего предупреждения</string>
 
-    <string name="alarm_mi_band_on_bluetooth_disabled_text">Уведомление о выкл. Bluetooth.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Уведомление о выкл. Bluetooth</string>
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Промежуток уведомления: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Уведомление Mi Band 2</u></b>
@@ -560,16 +560,16 @@
     <string name="time_timer_time_alert">Время сигнала</string>
     <string name="time_timer_time_remaining">Оставшееся время</string>
 
-    <string name="time_timer_reminder">Переодическое уведомление, оставшееся время</string>
+    <string name="time_timer_reminder">Периодическое уведомление, оставшееся время</string>
     <string name="time_timer_reminder_interval_before_title">Уведомлять заранее</string>
-    <string name="time_timer_reminder_interval_repeat_title">Интервал переодических уведомлений</string>
+    <string name="time_timer_reminder_interval_repeat_title">Интервал периодических уведомлений</string>
 
     <string name="time_stopper_time_alert">Время сигнала</string>
-    <string name="time_stopper_time_elapsed">Прошедщее время</string>
+    <string name="time_stopper_time_elapsed">Прошедшее время</string>
 
-    <string name="time_stopper_reminder">Переодическое уведомление, оставшееся время</string>
+    <string name="time_stopper_reminder">Периодическое уведомление, оставшееся время</string>
     <string name="time_stopper_reminder_interval_before_title">Уведомлять заранее</string>
-    <string name="time_stopper_reminder_interval_repeat_title">Интервал переодических уведомлений</string>
+    <string name="time_stopper_reminder_interval_repeat_title">Интервал периодических уведомлений</string>
 
     <string name="time_stopper_touch">Время круга, касания</string>
     <string name="time_stopper_touch_record">Запись времени круга по касанию</string>
@@ -649,7 +649,7 @@
     <string name="theme_notification_title">Отображение статуса подключения в уведомлении</string>
     <string name="theme_notification_summary">Система Android принудительно останавливает приложение только при недостатке памяти. Если через некоторое время перестают приходить уведомления Mi Band 2, вы можете предотвратить это.</string>
     <string name="theme_notification_color_title">Цвет иконки</string>
-    <string name="theme_notification_text_color_title">Text color</string>
+    <string name="theme_notification_text_color_title">Цвет текста</string>
 
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Резервная копия</string>
