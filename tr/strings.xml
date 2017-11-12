@@ -262,6 +262,20 @@
     <br>5. Mi Fit uygulamasını açın, eşitleme tamamlanana kadar bekleyin, kapatın.
     <br>6. Mi Bandage uygulamasını açın, yeşil keşfet düğmesini tıklayın.</p>]]></string>
 
+    <!-- Diagnostic -->
+    <string name="diagnostic_title">Diagnostic</string>
+
+    <string name="diagnostic_permissions_title">Permissions</string>
+
+    <string name="diagnostic_access_title">Access</string>
+    <string name="diagnostic_access_do_not_disturb">Do not Disturb access</string>
+    <string name="diagnostic_access_notification">Notification access</string>
+
+    <string name="diagnostic_protection_title">Protection against closing</string>
+    <string name="diagnostic_protection_battery">Battery optimisation off</string>
+    <string name="diagnostic_protection_service">Bildirim çubuğunda durum gösterilsin</string>
+    <string name="diagnostic_protection_lock">Lock on the recent apps screen</string>
+
     <!-- Notification  -->
     <string name="notification_tab_settings">Ayarlar</string>
     <string name="notification_tab_custom">Bildirimler</string>
@@ -324,6 +338,7 @@
         <br><img src="ALERT_DINGTALK">  DingTalk
         <br><img src="ALERT_APP">  diğer
 
+       <p>You have to disable app alert in the Mi Fit app.</p>
         <p>Kendi tanımladığınız bildirimler grubunun ön tanımlı bildirimlere göre daha yüksek önceliği vardır.</p>
         <p><img src="ALERT_MESSAGE_TEXT"> simge: bildirimlerin başlığını/içeriğini göstermek için bu simgeyi seçin.</p>
         <p>Ön tanımlı uygulamaları kullanıyor, ancak bazı bildirimleri hariç tutmak istiyorsanız, <i> hariç tutma bildirimleri ayarı</i> olan yeni bildirim grubu oluşturup uygulamaları ekleyin.</p>
@@ -353,6 +368,9 @@
     <string name="touch_device_location_not_muted_only_title">Rahatsız etmeyin modunda ve telefon zaten sessizde değilse</string>
 
     <string name="touch_repeat_notif_title">Bildirimleri tekrarla</string>
+    <string name="touch_repeat_notif_clear_all">Clear all notifications after repetition</string>
+
+    <string name="touch_clear_notif_title">Clear notifications</string>
 
     <string name="touch_music_play_pause_title">Müzik aç, başla, durakla</string>
     <string name="touch_music_skip_previous_title">Müzik aç, önceki şarkı</string>
@@ -366,6 +384,7 @@
     <string name="touch_time_launch_type_timer_title">Kronometre</string>
     <string name="touch_time_launch_type_stopper_title">Süre ölçer</string>
     <string name="touch_time_launch_type_interval_title">Tur süresi</string>
+    <string name="touch_time_launch_restart">Restart if it is in progress</string>
     <string name="touch_time_reminder_title">Kalan/geçen süreyi göster</string>
 
     <string name="touch_app_launcher1_title">Uygulama başlatıcı</string>
@@ -474,6 +493,9 @@
     <string name="pulse_tab_week">Haftalık graf.</string>
     <string name="pulse_tab_month">Aylık charts</string>
     <string name="pulse_tab_settings">Ayarlar</string>
+
+    <string name="action_chart_pulse_type_pulse">Pulse</string>
+    <string name="action_chart_pulse_type_pulse_and_step">Pulse and activity</string>
 
     <string name="pulse_title_signals">Bileklik bildirimleri</string>
     <string name="pulse_signal_start_title">İzleme başlangıç bildirimi</string>
@@ -627,6 +649,7 @@
     <string name="theme_notification_title">Bildirim çubuğunda durum gösterilsin</string>
     <string name="theme_notification_summary">!!!Burası önemli!!!,Android sistemi, bir hizmeti sadece bellek düşük olduğunda durdurur. Bir süre sonra bileklikteki bildirimler görünmezse, bu özelliği açarak bunu önleyebilirsiniz.</string>
     <string name="theme_notification_color_title">Simge rengi</string>
+    <string name="theme_notification_text_color_title">Text color</string>
 
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Yedekle</string>
