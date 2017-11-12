@@ -262,6 +262,20 @@
     <br>5. Open Mi Fit app, wait until the synchronization done, close it.
     <br>6. Open Mi Bandage app, click green discover button.</p>]]></string>
 
+    <!-- Diagnostic -->
+    <string name="diagnostic_title">Diagnostic</string>
+
+    <string name="diagnostic_permissions_title">Permissions</string>
+
+    <string name="diagnostic_access_title">Access</string>
+    <string name="diagnostic_access_do_not_disturb">Do not Disturb access</string>
+    <string name="diagnostic_access_notification">Notification access</string>
+
+    <string name="diagnostic_protection_title">Protection against closing</string>
+    <string name="diagnostic_protection_battery">Battery optimisation off</string>
+    <string name="diagnostic_protection_service">Hiện trạng thái trong vùng thông báo</string>
+    <string name="diagnostic_protection_lock">Lock on the recent apps screen</string>
+
     <!-- Notification  -->
     <string name="notification_tab_settings">Cài đặt</string>
     <string name="notification_tab_custom">Tùy chỉnh thông báo </string>
@@ -324,6 +338,7 @@
         <br><img src="ALERT_DINGTALK">  DingTalk
         <br><img src="ALERT_APP">  others
 
+        <p>You have to disable app alert in the Mi Fit app.</p>
         <p>The notifications group created by you has higher priority than the predefined.</p>
         <p><img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.</p>
         <p>If you use the predefined apps, but want to disable some notifications, then create new notification group with <i>disable notifications</i> setting and add the apps.</p>
@@ -353,6 +368,9 @@
     <string name="touch_device_location_not_muted_only_title">Chỉ phát tiếng nếu không im lặng</string>
 
     <string name="touch_repeat_notif_title">Lặp lại thông báo</string>
+    <string name="touch_repeat_notif_clear_all">Clear all notifications after repetition</string>
+
+    <string name="touch_clear_notif_title">Clear notifications</string>
 
     <string name="touch_music_play_pause_title">Bắt đầu phát nhạc, chơi, dừng</string>
     <string name="touch_music_skip_previous_title">Music start, previous song</string>
@@ -366,6 +384,7 @@
     <string name="touch_time_launch_type_timer_title">Hẹn giờ</string>
     <string name="touch_time_launch_type_stopper_title">Đồng hố bấm giờ</string>
     <string name="touch_time_launch_type_interval_title">Khoảng</string>
+    <string name="touch_time_launch_restart">Restart if it is in progress</string>
     <string name="touch_time_reminder_title">Hiển thị thời gian còn lại / trôi qua</string>
 
     <string name="touch_app_launcher1_title">Trình khởi chạy ứng dụng</string>
@@ -474,6 +493,9 @@
     <string name="pulse_tab_week">Biểu đồ theo tuần</string>
     <string name="pulse_tab_month">Monthly charts</string>
     <string name="pulse_tab_settings">Cài đặt</string>
+
+    <string name="action_chart_pulse_type_pulse">Pulse</string>
+    <string name="action_chart_pulse_type_pulse_and_step">Pulse and activity</string>
 
     <string name="pulse_title_signals">Các tín hiệu</string>
     <string name="pulse_signal_start_title">Tín hiệu bắt đầu giám sát</string>
@@ -627,6 +649,7 @@
     <string name="theme_notification_title">Hiện trạng thái trong vùng thông báo</string>
     <string name="theme_notification_summary">Hệ thống Android cưỡng bức dừng một dịch vụ chỉ khi bộ nhớ thấp. Nếu sau một thời gian không xuất hiện các thông báo trên Band 2, bạn có thể ngăn chặn điều này.</string>
     <string name="theme_notification_color_title">Màu biểu tượng</string>
+    <string name="theme_notification_text_color_title">Text color</string>
 
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Backup</string>
