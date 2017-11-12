@@ -262,6 +262,20 @@
     <br>5. Abra la aplicación Mi Fit, espere que la sincronizacion termine, cierrela.
     <br>6. Abra la aplicación Mi Bandage, presione el boton de descubrir.</p>]]></string>
 
+    <!-- Diagnostic -->
+    <string name="diagnostic_title">Diagnostic</string>
+
+    <string name="diagnostic_permissions_title">Permissions</string>
+
+    <string name="diagnostic_access_title">Access</string>
+    <string name="diagnostic_access_do_not_disturb">Do not Disturb access</string>
+    <string name="diagnostic_access_notification">Notification access</string>
+
+    <string name="diagnostic_protection_title">Protection against closing</string>
+    <string name="diagnostic_protection_battery">Battery optimisation off</string>
+    <string name="diagnostic_protection_service">Mostrar estado en la pantalla de notificación</string>
+    <string name="diagnostic_protection_lock">Lock on the recent apps screen</string>
+
     <!-- Notification  -->
     <string name="notification_tab_settings">Configuración</string>
     <string name="notification_tab_custom">Notificaciones personalizadas</string>
@@ -324,6 +338,7 @@
         <br><img src="ALERT_DINGTALK">  DingTalk
         <br><img src="ALERT_APP">  others
 
+        <p>You have to disable app alert in the Mi Fit app.</p>
         <p>El grupo de notificaciones creado por usted tiene mayor prioridad que el grupo predefinido.</p>
         <p><img src="ALERT_MESSAGE_TEXT"> icono: seleccione éste icono para mostrar el título/contenido de las notificaciones .</p>
         <p>Si utiliza las aplicaciones predefinidas, pero desea desactivar algunas notificaciones, cree un nuevo grupo de notificaciones con la configuración <i>deshabilitar notificaciones</i> y añada las aplicaciones.</p>
@@ -353,6 +368,9 @@
     <string name="touch_device_location_not_muted_only_title">Sonido,sólo si no está silenciado</string>
 
     <string name="touch_repeat_notif_title">Repetir notificaciones</string>
+    <string name="touch_repeat_notif_clear_all">Clear all notifications after repetition</string>
+
+    <string name="touch_clear_notif_title">Clear notifications</string>
 
     <string name="touch_music_play_pause_title">Inicio de la música, reproducción, pausa</string>
     <string name="touch_music_skip_previous_title">Inicio de la musica, canción anterior</string>
@@ -366,6 +384,7 @@
     <string name="touch_time_launch_type_timer_title">Temporizador</string>
     <string name="touch_time_launch_type_stopper_title">Cronómetro</string>
     <string name="touch_time_launch_type_interval_title">Intervalo</string>
+    <string name="touch_time_launch_restart">Restart if it is in progress</string>
     <string name="touch_time_reminder_title">Mostrar el tiempo restante/transcurrido</string>
 
     <string name="touch_app_launcher1_title">Lanzador de aplicaciones</string>
@@ -475,6 +494,9 @@
     <string name="pulse_tab_week">Gráficos semanales</string>
     <string name="pulse_tab_month">Monthly charts</string>
     <string name="pulse_tab_settings">Configuración</string>
+
+    <string name="action_chart_pulse_type_pulse">Pulse</string>
+    <string name="action_chart_pulse_type_pulse_and_step">Pulse and activity</string>
 
     <string name="pulse_title_signals">Señales</string>
     <string name="pulse_signal_start_title">Señal de inicio de monitoreo</string>
@@ -628,6 +650,7 @@
     <string name="theme_notification_title">Mostrar estado en la pantalla de notificación</string>
     <string name="theme_notification_summary">El sistema Android fuerza la detención de un servicio, si la memoria es escasa. Si después de un tiempo, no aparecen las notificaciones en la Mi Band 2, puede evitar esto.</string>
     <string name="theme_notification_color_title">Color del icono</string>
+    <string name="theme_notification_text_color_title">Text color</string>
 
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Backup</string>
