@@ -263,18 +263,18 @@
     <br>6. Apri l\'app Mi Bandage, tocca il tasto verde di ricerca.</p>]]></string>
 
     <!-- Diagnostic -->
-    <string name="diagnostic_title">Diagnostic</string>
+    <string name="diagnostic_title">Diagnostica</string>
 
-    <string name="diagnostic_permissions_title">Permissions</string>
+    <string name="diagnostic_permissions_title">Permessi</string>
 
-    <string name="diagnostic_access_title">Access</string>
-    <string name="diagnostic_access_do_not_disturb">Do not Disturb access</string>
-    <string name="diagnostic_access_notification">Notification access</string>
+    <string name="diagnostic_access_title">Accessi</string>
+    <string name="diagnostic_access_do_not_disturb">Accesso non disturbare</string>
+    <string name="diagnostic_access_notification">Accesso notifiche</string>
 
-    <string name="diagnostic_protection_title">Protection against closing</string>
-    <string name="diagnostic_protection_battery">Battery optimisation off</string>
+    <string name="diagnostic_protection_title">Protezioni contro chiusura</string>
+    <string name="diagnostic_protection_battery">Ottimizzazione batteria disattivato</string>
     <string name="diagnostic_protection_service">Mostra stato app come notifica persistente</string>
-    <string name="diagnostic_protection_lock">Lock on the recent apps screen</string>
+    <string name="diagnostic_protection_lock">Blocca nel menù delle app recenti</string>
 
     <!-- Notification  -->
     <string name="notification_tab_settings">Impostazioni</string>
@@ -338,7 +338,7 @@
         <br><img src="ALERT_DINGTALK">  DingTalk
         <br><img src="ALERT_APP">  altro
 
-        <p>You have to disable app alert in the Mi Fit app.</p>
+        <p>Devi disattivare le notifiche delle app nell\'app ufficiale Mi Fit.</p>
         <p>Il gruppo di notifiche creato da te, ha priorità maggiore sulle predefinite.</p>
         <p><img src="ALERT_MESSAGE_TEXT"> icona: sceglie questa icona per mostrare titolo e contenuto.</p>
         <p>Se vuoi usare l\'app predefinita, ma vuoi disattivare qualche notifica, crea un nuovo gruppo con impostato <i>disabilita notifiche</i> e aggiungi le app.</p>
@@ -368,9 +368,9 @@
     <string name="touch_device_location_not_muted_only_title">Suona solo se non silenziato</string>
 
     <string name="touch_repeat_notif_title">Ripeti notifiche</string>
-    <string name="touch_repeat_notif_clear_all">Clear all notifications after repetition</string>
+    <string name="touch_repeat_notif_clear_all">Cancella tutte le notifiche dopo la ripetizione</string>
 
-    <string name="touch_clear_notif_title">Clear notifications</string>
+    <string name="touch_clear_notif_title">Cancella notifiche</string>
 
     <string name="touch_music_play_pause_title">Avvia, pausa musica</string>
     <string name="touch_music_skip_previous_title">Canzone precedente</string>
@@ -384,7 +384,7 @@
     <string name="touch_time_launch_type_timer_title">Timer</string>
     <string name="touch_time_launch_type_stopper_title">Cronometro</string>
     <string name="touch_time_launch_type_interval_title">Intervallo</string>
-    <string name="touch_time_launch_restart">Restart if it is in progress</string>
+    <string name="touch_time_launch_restart">Resetta se già in corso</string>
     <string name="touch_time_reminder_title">Mostra tempo rimasto/passato</string>
 
     <string name="touch_app_launcher1_title">Avvia app</string>
@@ -494,8 +494,8 @@
     <string name="pulse_tab_month">Grafico mensile</string>
     <string name="pulse_tab_settings">Impostazione</string>
 
-    <string name="action_chart_pulse_type_pulse">Pulse</string>
-    <string name="action_chart_pulse_type_pulse_and_step">Pulse and activity</string>
+    <string name="action_chart_pulse_type_pulse">Battiti</string>
+    <string name="action_chart_pulse_type_pulse_and_step">Battiti e attività</string>
 
     <string name="pulse_title_signals">Notifica</string>
     <string name="pulse_signal_start_title">Notifica avvio monitoraggio</string>
@@ -649,7 +649,7 @@
     <string name="theme_notification_title">Mostra stato app come notifica persistente</string>
     <string name="theme_notification_summary">Android tende a chiudere i servizi aperti in secondo piano solo quando c\'è poca memoria. Se vedi che non ti arrivano più le notifiche attiva questa funzione per evitare che venga chiusa l\'app.</string>
     <string name="theme_notification_color_title">Colore icona</string>
-    <string name="theme_notification_text_color_title">Text color</string>
+    <string name="theme_notification_text_color_title">Colore testo</string>
 
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Backup</string>
