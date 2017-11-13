@@ -263,18 +263,18 @@
     <br>6. Abra a aplicação Mi Bandage e clique no botão para descobrir a Mi Band 2.</p>]]></string>
 
     <!-- Diagnostic -->
-    <string name="diagnostic_title">Diagnostic</string>
+    <string name="diagnostic_title">Diagnóstico</string>
 
-    <string name="diagnostic_permissions_title">Permissions</string>
+    <string name="diagnostic_permissions_title">Permissões</string>
 
-    <string name="diagnostic_access_title">Access</string>
-    <string name="diagnostic_access_do_not_disturb">Do not Disturb access</string>
-    <string name="diagnostic_access_notification">Notification access</string>
+    <string name="diagnostic_access_title">Acessos</string>
+    <string name="diagnostic_access_do_not_disturb">Acesso DND</string>
+    <string name="diagnostic_access_notification">Acesso às Notoficações</string>
 
-    <string name="diagnostic_protection_title">Protection against closing</string>
-    <string name="diagnostic_protection_battery">Battery optimisation off</string>
-    <string name="diagnostic_protection_service">Mostrar o status na barra de notificação</string>
-    <string name="diagnostic_protection_lock">Lock on the recent apps screen</string>
+    <string name="diagnostic_protection_title">Proteção Anti-Close</string>
+    <string name="diagnostic_protection_battery">Otimização de Bateria OFF</string>
+    <string name="diagnostic_protection_service">Mostrar o Status na barra de notificação</string>
+    <string name="diagnostic_protection_lock">Bloqueado nas aplicações recentes</string>
 
     <!-- Notification  -->
     <string name="notification_tab_settings">Definições</string>
@@ -338,9 +338,9 @@
         <br><img src="ALERT_DINGTALK">  DingTalk
         <br><img src="ALERT_APP">  Outros
 
-        <p>You have to disable app alert in the Mi Fit app.</p>
+        <p>Desative os avisos na aplicação Mi Fit.</p>
         <p>O grupo de notificações criado por si tem prioridade superior às notificações pré-definidas.</p>
-        <p><img src="ALERT_MESSAGE_TEXT"> : escolha este ícone para mostrar notificações com título/conteúdo</p>
+        <p><img src="ALERT_MESSAGE_TEXT">  escolha este ícone para mostrar notificações com título/conteúdo</p>
         <p>Se você usa aplicações pré-definidas mas quer excluir algumas aplicações, então crie um novo grupo de notificações, adicione algumas aplicações e desative-o a seguir.</p>
         ]]>
     </string>
@@ -368,9 +368,9 @@
     <string name="touch_device_location_not_muted_only_title">Emitir som se não estiver num modo \'sem som\'</string>
 
     <string name="touch_repeat_notif_title">Repetir as notificações</string>
-    <string name="touch_repeat_notif_clear_all">Clear all notifications after repetition</string>
+    <string name="touch_repeat_notif_clear_all">Limpar as notificações depois de repeti-las</string>
 
-    <string name="touch_clear_notif_title">Clear notifications</string>
+    <string name="touch_clear_notif_title">Limpar as notificações</string>
 
     <string name="touch_music_play_pause_title">Iniciar aplicação música, iniciar/pausar música</string>
     <string name="touch_music_skip_previous_title">Iniciar música, música anterior</string>
@@ -384,7 +384,7 @@
     <string name="touch_time_launch_type_timer_title">Temporizador</string>
     <string name="touch_time_launch_type_stopper_title">Cronómetro</string>
     <string name="touch_time_launch_type_interval_title">Treino</string>
-    <string name="touch_time_launch_restart">Restart if it is in progress</string>
+    <string name="touch_time_launch_restart">Reiniciar se estiver a decorrer</string>
     <string name="touch_time_reminder_title">Tempo restante/decorrido</string>
 
     <string name="touch_app_launcher1_title">Iniciar aplicações</string>
@@ -494,8 +494,8 @@
     <string name="pulse_tab_month">Gráficos mensais</string>
     <string name="pulse_tab_settings">Monitorização</string>
 
-    <string name="action_chart_pulse_type_pulse">Pulse</string>
-    <string name="action_chart_pulse_type_pulse_and_step">Pulse and activity</string>
+    <string name="action_chart_pulse_type_pulse">Pulsação</string>
+    <string name="action_chart_pulse_type_pulse_and_step">Pulsação e Atividade</string>
 
     <string name="pulse_title_signals">Avisos</string>
     <string name="pulse_signal_start_title">Aviso de começo</string>
@@ -649,7 +649,7 @@
     <string name="theme_notification_title">Mostrar o status na barra de notificação</string>
     <string name="theme_notification_summary">O sistema android força a paragem do serviço quando a memória está baixa. Se depois de algum tempo a Mi Band 2 não mostrar as notificações, você pode prevenir isso.</string>
     <string name="theme_notification_color_title">Cor dos ícones na barra de notificação</string>
-    <string name="theme_notification_text_color_title">Text color</string>
+    <string name="theme_notification_text_color_title">Cor do texto</string>
 
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Backup</string>
