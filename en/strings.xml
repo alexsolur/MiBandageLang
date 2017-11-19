@@ -220,7 +220,7 @@
     <string name="message_touch_no_patterns">Press one of the red buttons to record pattern</string>
     <string name="message_touch_record">Record the pattern using the Mi Band 2 touch button</string>
     <string name="message_touch_pattern_error">The specified pattern is similar to a sample of another function, record another</string>
-    <string name="message_touch_free_patterns">Up to 3 functions can be used in normal mode</string>
+    <string name="message_touch_free_patterns">You can not use more than 3 functions in normal mode</string>
     <string name="message_touch_music_player_not_found">Music player not found</string>
     <string name="message_touch_app_launcher1_not_set">App is not set</string>
     <string name="message_touch_app_launcher1_not_found">App is not found: %1$s</string>
@@ -364,6 +364,7 @@
     <string name="touch_call_end_title">Call rejecting, ending</string>
 
     <string name="touch_call_mute_title">Call mute toggle</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Only if you have an incoming call</string>
 
     <string name="touch_device_location_not_muted_only_title">Sound only if it is not muted or in DnD mode</string>
 
@@ -635,7 +636,8 @@
     <string name="theme_tab_widget">Widgets</string>
     <string name="theme_tab_notification">Notification shade</string>
 
-    <string name="theme_summary">Select a theme</string>
+    <string name="theme_title">Select a theme</string>
+    <string name="theme_background_color_title">Background color</string>
 
     <string name="theme_widget_foreground_title">Foreground</string>
     <string name="theme_widget_foreground_color_title">Icon and text color</string>
@@ -820,5 +822,4 @@
         <item quantity="other">%d seconds</item>
     </plurals>
 
-    
 </resources>
