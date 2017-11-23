@@ -224,7 +224,7 @@
     <string name="message_touch_music_player_not_found">Η αναπαραγωγής μουσικής δεν βρέθηκε</string>
     <string name="message_touch_app_launcher1_not_set">Η εφαρμογή δεν έχει οριστεί</string>
     <string name="message_touch_app_launcher1_not_found">Η εφαρμογή δεν βρέθηκε: %1$s</string>
-    <string name="message_touch_tasker_launcher1_not_set">Δεν έχει οριστεί εργασία στο Tasker</string>
+    <string name="message_touch_tasker_launcher_not_set">Δεν έχει οριστεί εργασία στο Tasker</string>
 
     <string name="message_notification_group_has_no_entry">Επιλέξτε εφαρμογές με το κάτω δεξιά πράσινο \'+\' κουμπί στην κάρτα</string>
 
@@ -392,7 +392,8 @@
     <string name="touch_app_launcher_package_no_title">Επιλέξτε μια εφαρμογή</string>
     <string name="touch_app_launcher1_not_wakelock_only_title">Μόνο αν η οθόνη δεν είναι κλειδωμένη</string>
 
-    <string name="touch_tasker_launcher1_title">Εκκίνηση εργασίας tasker</string>
+    <string name="touch_tasker_launcher1_title">1. Εκκίνηση εργασίας tasker</string>
+    <string name="touch_tasker_launcher2_title">2. Εκκίνηση εργασίας tasker</string>
     <string name="touch_tasker_launcher_no_permission_title">Θα πρέπει να εγκαταστήσετε το Tasker πρώτα και μετά Mi Bandage</string>
     <string name="touch_tasker_launcher_no_access_title">Επέτρεψε την εξωτερική πρόσβαση (Allow external access)</string>
     <string name="touch_tasker_launcher_no_task_title">Επιλογή εργασίας</string>
@@ -455,7 +456,7 @@
         <br><br><img src="ic_activity_awake"> χρόνος εγρήγορσης
         <br><br><img src="ic_activity_rest_sofa"> ανάπαυσης/καθισμένος κατά τη διάρκεια της εγρήγορσης
         <br><br><img src="ic_activity_go_to_bed"> ώρα ύπνου
-        <br><br><img src="ic_activity_battery_charging_full"> φόρτιση μπαταρίας
+        <br><br><img src="ic_battery_charging_full"> φόρτιση μπαταρίας
         <br><br><img src="ic_activity_block"> δεν φοράει
         ]]>
     </string>
