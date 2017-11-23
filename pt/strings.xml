@@ -224,7 +224,7 @@
     <string name="message_touch_music_player_not_found">Reprodutor de música não encontrado</string>
     <string name="message_touch_app_launcher1_not_set">A aplicação não está configurada</string>
     <string name="message_touch_app_launcher1_not_found">Aplicação não encontrada: %1$s</string>
-    <string name="message_touch_tasker_launcher1_not_set">Gerenciador de tarefas não definido</string>
+    <string name="message_touch_tasker_launcher_not_set">Gerenciador de tarefas não definido</string>
 
     <string name="message_notification_group_has_no_entry">Seleciona aplicações com o botão verde \'+\' localizado no canto inferior direito do cartão</string>
 
@@ -392,7 +392,8 @@
     <string name="touch_app_launcher_package_no_title">Selecionar uma aplicação</string>
     <string name="touch_app_launcher1_not_wakelock_only_title">Só com o ecrã desbloqueado</string>
 
-    <string name="touch_tasker_launcher1_title">Iniciar Gerenciador de tarefas</string>
+    <string name="touch_tasker_launcher1_title">1. Iniciar Gerenciador de tarefas</string>
+    <string name="touch_tasker_launcher2_title">2. Iniciar Gerenciador de tarefas</string>
     <string name="touch_tasker_launcher_no_permission_title">Você tem de instalar o Gerenciador primeiro e só depois a Mi Bandage.</string>
     <string name="touch_tasker_launcher_no_access_title">Permitir acesso externo</string>
     <string name="touch_tasker_launcher_no_task_title">Selecionar tarefa</string>
@@ -455,7 +456,7 @@
         <br><br><img src="ic_activity_awake"> Vigília
         <br><br><img src="ic_activity_rest_sofa"> Tempo repousado/sentado durante a Vigília
         <br><br><img src="ic_activity_go_to_bed"> Tempo na cama
-        <br><br><img src="ic_activity_battery_charging_full"> A carragar a bateria
+        <br><br><img src="ic_battery_charging_full"> A carragar a bateria
         <br><br><img src="ic_activity_block"> Não usou a Mi Band
         ]]>
     </string>
