@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_connected_have_notif_counter">
-        <item>Sekali per ikon Mi Band 2</item>
-        <item>Angka pemberitahuan</item>
+        <item>Una volta ogni icona Mi Band 2</item>
+        <item>Ogni notifica</item>
         <item>1 \'app\' icon</item>
         <item>2 \'app\' icon</item>
         <item>3 \'app\' icon</item>
@@ -17,14 +17,14 @@
     </string-array>
 
     <string-array name="pref_connected_have_notif_interval">
-        <item>3 menit</item>
-        <item>5 menit</item>
-        <item>10 menit</item>
-        <item>20 menit</item>
-        <item>30 menit</item>
-        <item>1 jam</item>
-        <item>2 jam</item>
-        <item>3 jam</item>
+        <item>3 minuti</item>
+        <item>5 minuti</item>
+        <item>10 minuti</item>
+        <item>20 minuti</item>
+        <item>30 minuti</item>
+        <item>1 ora</item>
+        <item>2 ore</item>
+        <item>3 ore</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_interval_values">
@@ -39,16 +39,16 @@
     </string-array>
 
     <string-array name="pref_abandoned_interval">
-        <item>1 menit</item>
-        <item>2 menit</item>
-        <item>3 menit</item>
-        <item>4 menit</item>
-        <item>5 menit</item>
-        <item>6 menit</item>
-        <item>7 menit</item>
-        <item>8 menit</item>
-        <item>9 menit</item>
-        <item>10 menit</item>
+        <item>1 minuto</item>
+        <item>2 minuti</item>
+        <item>3 minuti</item>
+        <item>4 minuti</item>
+        <item>5 minuti</item>
+        <item>6 minuti</item>
+        <item>7 minuti</item>
+        <item>8 minuti</item>
+        <item>9 minuti</item>
+        <item>10 minuti</item>
     </string-array>
 
     <integer-array name="pref_abandoned_interval_values">
@@ -65,12 +65,12 @@
     </integer-array>
 
     <string-array name="pref_abandoned_notif_interval">
-        <item>10 menit</item>
-        <item>20 menit</item>
-        <item>30 menit</item>
-        <item>1 jam</item>
-        <item>2 jam</item>
-        <item>3 jam</item>
+        <item>10 minuti</item>
+        <item>20 minuti</item>
+        <item>30 minuti</item>
+        <item>1 ora</item>
+        <item>2 ore</item>
+        <item>3 ore</item>
     </string-array>
 
     <integer-array name="pref_abandoned_notif_interval_values">
@@ -83,19 +83,19 @@
     </integer-array>
 
     <string-array name="notification_group_counter">
-        <item>Sekali tanda</item>
-        <item>Sekali per aplikasi</item>
-        <item>Angka pemberitahuan</item>
+        <item>Una segnalazione</item>
+        <item>Una per applicazione</item>
+        <item>Ogni notifica</item>
     </string-array>
 
     <string-array name="touch_call_mute_ringer_mode">
-        <item>Getar</item>
-        <item>Jangan ganggu (hanya alarm)</item>
+        <item>Vibrazione</item>
+        <item>Non disturbare (Solo Sveglie)</item>
     </string-array>
 
     <string-array name="touch_music_player">
-        <item>Pemutar musik bawaan</item>
-        <item>Google Play Musik</item>
+        <item>Lettore musicale predefinito</item>
+        <item>Google Play Music</item>
         <item>Spotify</item>
     </string-array>
 
@@ -106,10 +106,10 @@
     </string-array>
 
     <string-array name="touch_music_info">
-        <item>Tidak ada pemberitahuan</item>
-        <item>Artis#Judul</item>
-        <item>Artis, Judul</item>
-        <item>Judul</item>
+        <item>Nessuna notifica</item>
+        <item>Artista#Titolo</item>
+        <item>Artista, Titolo</item>
+        <item>Titolo</item>
     </string-array>
 
     <string-array name="touch_music_info_values">
@@ -120,31 +120,31 @@
     </string-array>
 
     <string-array name="pref_timer_time_interval_repeat">
-        <item>Mati</item>
-        <item>1 menit</item>
-        <item>2 menit</item>
-        <item>3 menit</item>
-        <item>4 menit</item>
-        <item>5 menit</item>
-        <item>6 menit</item>
-        <item>7 menit</item>
-        <item>8 menit</item>
-        <item>9 menit</item>
-        <item>10 menit</item>
-        <item>11 menit</item>
-        <item>12 menit</item>
-        <item>13 menit</item>
-        <item>14 menit</item>
-        <item>15 menit</item>
-        <item>20 menit</item>
-        <item>30 menit</item>
-        <item>40 menit</item>
-        <item>50 menit</item>
-        <item>1 jam</item>
-        <item>2 jam</item>
-        <item>3 jam</item>
-        <item>4 jam</item>
-        <item>5 jam</item>
+        <item>Off</item>
+        <item>1 minuti</item>
+        <item>2 minuti</item>
+        <item>3 minuti</item>
+        <item>4 minuti</item>
+        <item>5 minuti</item>
+        <item>6 minuti</item>
+        <item>7 minuti</item>
+        <item>8 minuti</item>
+        <item>9 minuti</item>
+        <item>10 minuti</item>
+        <item>11 minuti</item>
+        <item>12 minuti</item>
+        <item>13 minuti</item>
+        <item>14 minuti</item>
+        <item>15 minuti</item>
+        <item>20 minuti</item>
+        <item>30 minuti</item>
+        <item>40 minuti</item>
+        <item>50 minuti</item>
+        <item>1 ora</item>
+        <item>2 ore</item>
+        <item>3 ore</item>
+        <item>4 ore</item>
+        <item>5 ore</item>
     </string-array>
 
     <integer-array name="pref_timer_time_interval_repeat_values">
@@ -176,16 +176,16 @@
     </integer-array>
 
     <string-array name="notification_group_text_content_slice">
-        <item>1 keping</item>
-        <item>2 keping</item>
-        <item>3 keping</item>
-        <item>4 keping</item>
-        <item>5 keping</item>
-        <item>6 keping</item>
-        <item>7 keping</item>
-        <item>8 keping</item>
-        <item>9 keping</item>
-        <item>10 keping</item>
+        <item>1 linea (1-18 chars)</item>
+        <item>2 linee (1-36 chars)</item>
+        <item>3 linee (1-54 chars)</item>
+        <item>4 linee (1-72 chars)</item>
+        <item>5 linee (1-90 chars)</item>
+        <item>6 linee (1-108 chars)</item>
+        <item>7 linee (1-126 chars)</item>
+        <item>8 linee (1-144 chars)</item>
+        <item>9 linee (1-162 chars)</item>
+        <item>10 linee (1-180 chars)</item>
     </string-array>
 
     <integer-array name="notification_group_text_content_slice_values">
@@ -202,11 +202,11 @@
     </integer-array>
 
     <string-array name="widget_event">
-        <item>Bandages screen</item>
-        <item>Activity screen</item>
-        <item>Pulse screen</item>
-        <item>Pulse measurement</item>
-        <item>Alarm screen</item>
+        <item>Schermata bandages</item>
+        <item>Schermata attività</item>
+        <item>Schermata battiti</item>
+        <item>Misurazioni battiti</item>
+        <item>Schermata sveglia</item>
     </string-array>
 
     <string-array name="widget_event_values">
@@ -219,7 +219,7 @@
 
     <string-array name="pref_language">
         <item>Default</item>
-        <item>Indonesia</item>
+        <item>Italiano</item>
         <item>English</item>
         <item>Magyar</item>
         <item>Русский</item>
@@ -227,15 +227,15 @@
         <item>Türk</item>
         <item>Ελληνικά</item>
         <item>Tiếng Việt</item>
-        <item>Italiano</item>
         <item>Español</item>
+        <item>Indonesia</item>
         <item>Deutsche</item>
         <item>Čeština</item>
     </string-array>
 
     <string-array name="pref_language_values">
         <item>DEFAULT</item>
-        <item>in</item>
+        <item>it</item>
         <item>en</item>
         <item>hu</item>
         <item>ru</item>
@@ -243,8 +243,8 @@
         <item>tr</item>
         <item>el</item>
         <item>vi</item>
-        <item>it</item>
         <item>es</item>
+        <item>in</item>
         <item>de</item>
         <item>cs</item>
     </string-array>
