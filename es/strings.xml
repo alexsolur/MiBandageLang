@@ -224,7 +224,7 @@
     <string name="message_touch_music_player_not_found">Reproductor de música no encontrado</string>
     <string name="message_touch_app_launcher1_not_set">La aplicación no está configurada</string>
     <string name="message_touch_app_launcher1_not_found">No se ha encontrado la aplicación: %1$s</string>
-    <string name="message_touch_tasker_launcher1_not_set">Tarea en Tasker no está establecida</string>
+    <string name="message_touch_tasker_launcher_not_set">Tarea en Tasker no está establecida</string>
 
     <string name="message_notification_group_has_no_entry">Seleccione las aplicaciones con el botón verde inferior derecho \'+\' en la tarjeta</string>
 
@@ -392,7 +392,8 @@
     <string name="touch_app_launcher_package_no_title">Seleccione una aplicación</string>
     <string name="touch_app_launcher1_not_wakelock_only_title">Solo si la pantalla no está bloqueada</string>
 
-    <string name="touch_tasker_launcher1_title">Lanzador de tareas de Tasker</string>
+    <string name="touch_tasker_launcher1_title">1. Lanzador de tareas de Tasker</string>
+    <string name="touch_tasker_launcher2_title">2. Lanzador de tareas de Tasker</string>
     <string name="touch_tasker_launcher_no_permission_title">Tienes que instalar primero Tasker, después Mi Bandage</string>
     <string name="touch_tasker_launcher_no_access_title">Permitir acceso externo</string>
     <string name="touch_tasker_launcher_no_task_title">Seleccione una tarea</string>
@@ -455,7 +456,7 @@
         <br><br><img src="ic_activity_awake"> tiempo de desvelo
         <br><br><img src="ic_activity_rest_sofa"> tiempo de descanso/sentado durante el desvelo
         <br><br><img src="ic_activity_go_to_bed"> hora de dormir
-        <br><br><img src="ic_activity_battery_charging_full"> bateria cargando
+        <br><br><img src="ic_battery_charging_full"> bateria cargando
         <br><br><img src="ic_activity_block"> no llevando la pulsera
         ]]>
     </string>
