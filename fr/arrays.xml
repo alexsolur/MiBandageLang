@@ -1,1 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_connected_have_notif_counter">
+        <item>Une fois par icone Mi Band 2</item>
+        <item>Nombre de notifications</item>
+        <item>1 \'app\' icon</item>
+        <item>2 \'app\' icon</item>
+        <item>3 \'app\' icon</item>
+    </string-array>
 
+    <string-array name="pref_connected_have_notif_counter_values">
+        <item>-2</item>
+        <item>-1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_interval">
+        <item>3 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>20 minutes</item>
+        <item>30 minutes</item>
+        <item>1 heure</item>
+        <item>2 heures</item>
+        <item>3 heures</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_interval_values">
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </string-array>
+
+    <string-array name="pref_abandoned_interval">
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>3 minutes</item>
+        <item>4 minutes</item>
+        <item>5 minutes</item>
+        <item>6 minutes</item>
+        <item>7 minutes</item>
+        <item>8 minutes</item>
+        <item>9 minutes</item>
+        <item>10 minutes</item>
+    </string-array>
+
+    <integer-array name="pref_abandoned_interval_values">
+        <item>60000</item>
+        <item>120000</item>
+        <item>180000</item>
+        <item>240000</item>
+        <item>300000</item>
+        <item>360000</item>
+        <item>420000</item>
+        <item>480000</item>
+        <item>540000</item>
+        <item>600000</item>
+    </integer-array>
+
+    <string-array name="pref_abandoned_notif_interval">
+        <item>10 minutes</item>
+        <item>20 minutes</item>
+        <item>30 minutes</item>
+        <item>1 heure</item>
+        <item>2 heures</item>
+        <item>3 heures</item>
+    </string-array>
+
+    <integer-array name="pref_abandoned_notif_interval_values">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </integer-array>
+
+    <string-array name="notification_group_counter">
+        <item>Une alerte</item>
+        <item>Une fois apr application</item>
+        <item>Nombre de notifications (toutes)</item>
+    </string-array>
+
+    <string-array name="touch_call_mute_ringer_mode">
+        <item>Vibration</item>
+        <item>ne pas déranger (alarmes uniquement)</item>
+    </string-array>
+
+    <string-array name="touch_music_player">
+        <item>Lecteur de musique par défaut</item>
+        <item>Google Play Music</item>
+        <item>Spotify Music</item>
+    </string-array>
+
+    <string-array name="touch_music_player_values">
+        <item></item>
+        <item>com.google.android.music</item>
+        <item>com.spotify.music</item>
+    </string-array>
+
+    <string-array name="touch_music_info">
+        <item>Aucune notification</item>
+        <item>Artiste#Titre</item>
+        <item>Artiste, Titre</item>
+        <item>Titre</item>
+    </string-array>
+
+    <string-array name="touch_music_info_values">
+        <item>AUCUNE</item>
+        <item>ARTISTE#TITRE</item>
+        <item>ARTISTE_TITRE</item>
+        <item>TITRE</item>
+    </string-array>
+
+    <string-array name="pref_timer_time_interval_repeat">
+        <item>Off</item>
+        <item>1 minutes</item>
+        <item>2 minutes</item>
+        <item>3 minutes</item>
+        <item>4 minutes</item>
+        <item>5 minutes</item>
+        <item>6 minutes</item>
+        <item>7 minutes</item>
+        <item>8 minutes</item>
+        <item>9 minutes</item>
+        <item>10 minutes</item>
+        <item>11 minutes</item>
+        <item>12 minutes</item>
+        <item>13 minutes</item>
+        <item>14 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>30 minutes</item>
+        <item>40 minutes</item>
+        <item>50 minutes</item>
+        <item>1 heure</item>
+        <item>2 heures</item>
+        <item>3 heures</item>
+        <item>4 heures</item>
+        <item>5 heures</item>
+    </string-array>
+
+    <integer-array name="pref_timer_time_interval_repeat_values">
+        <item>0</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>180000</item>
+        <item>240000</item>
+        <item>300000</item>
+        <item>360000</item>
+        <item>420000</item>
+        <item>480000</item>
+        <item>540000</item>
+        <item>600000</item>
+        <item>660000</item>
+        <item>720000</item>
+        <item>780000</item>
+        <item>840000</item>
+        <item>900000</item>
+        <item>1200000</item>
+        <item>1800000</item>
+        <item>2400000</item>
+        <item>3000000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+        <item>10800000</item>
+        <item>14400000</item>
+        <item>18000000</item>
+    </integer-array>
+
+    <string-array name="notification_group_text_content_slice">
+        <item>1 bloc (1-18 graphs)</item>
+        <item>2 blocs (1-36 graphs)</item>
+        <item>3 blocs (1-54 graphs)</item>
+        <item>4 blocs (1-72 graphs)</item>
+        <item>5 blocs (1-90 graphs)</item>
+        <item>6 blocs (1-108 graphs)</item>
+        <item>7 blocs (1-126 graphs)</item>
+        <item>8 blocs (1-144 graphs)</item>
+        <item>9 blocs (1-162 graphs)</item>
+        <item>10 blocs (1-180 graphs)</item>
+    </string-array>
+
+    <integer-array name="notification_group_text_content_slice_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+
+    <string-array name="widget_event">
+        <item>Écran des bracelets</item>
+        <item>Écran d'activité</item>
+        <item>Écran du rythme</item>
+        <item>Mesure du rythme</item>
+        <item>Écran d'alarme</item>
+    </string-array>
+
+    <string-array name="widget_event_values">
+        <item>LAUNCH_BANDAGES</item>
+        <item>LAUNCH_ACTIVITY</item>
+        <item>LAUNCH_PULSE</item>
+        <item>ACTION_PULSE</item>
+        <item>LAUNCH_TIME_ALARM</item>
+    </string-array>
+
+    <string-array name="pref_language">
+        <item>Par défaut</item>
+        <item>English</item>
+        <item>Magyar</item>
+        <item>Русский</item>
+        <item>Português</item>
+        <item>Türk</item>
+        <item>Ελληνικά</item>
+        <item>Tiếng Việt</item>
+        <item>Italiano</item>
+        <item>Español</item>
+        <item>Indonesia</item>
+        <item>Deutsche</item>
+        <item>Čeština</item>
+    </string-array>
+
+    <string-array name="pref_language_values">
+        <item>PAR DÉFAUT</item>
+        <item>en</item>
+        <item>hu</item>
+        <item>ru</item>
+        <item>pt</item>
+        <item>tr</item>
+        <item>el</item>
+        <item>vi</item>
+        <item>it</item>
+        <item>es</item>
+        <item>in</item>
+        <item>de</item>
+        <item>cs</item>
+    </string-array>
+</resources>
