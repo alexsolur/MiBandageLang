@@ -51,6 +51,12 @@
 
     <string name="mi_band_mac_address_invalid">MAC adresi yanlış</string>
 
+    <string name="mi_band_state_title">Band settings</string>
+    <string name="mi_band_state_connected">Connected</string>
+    <string name="mi_band_state_disconnected">Disconnected</string>
+    <string name="mi_band_state_bonded">Paired device</string>
+    <string name="mi_band_state_not_bonded">Not paired device</string>
+
     <string name="mi_band_battery_settings">Şarj seviyesi uyarı ayarları</string>
     <string name="mi_band_battery_remaining">Tahmini kalan süre</string><!-- bu ne işe yarıyor -->
     <string name="mi_band_battery_notification">Düşük batarya seviyesi bildirimi</string>
@@ -246,15 +252,15 @@
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Hoşgeldiniz!</string>
-    <string name="dialog_welcome_message"><![CDATA[Uygulama şu an sadece Mi Band 2\'yi destekliyor.
-    <p>Mi Bandaj, resmi Mi Fit uygulamasının aynı cihaza kurulmasını gerektirir. İlk önce Mi Band 2\'yi Mi Fit uygulamasında eşleştirmeniz gerekir, o zaman Mi Bandaj\'ı kullanabilirsiniz.</p>
-    <p>Mi Band 2\'yi kontrol etmek için daha fazla uygulama kullanıyorsanız, birbirlerine müdahale ederek geçici olarak bunları kapatın.</p>
-    <p>Mi Band 2 bulunamazsa, ayrıntılar menüsünde MAC adresini manuel olarak ayarlayabilirsiniz (MAC adresi bulundu: Mi Fit/Profil/Mi Band 2).</p>
-    <p><b> Mi Band 2 bulunamazsa veya Mi Fit uygulamasını senkronize ederken sorun yaşıyorsanız, BToolkit, nRF Connect veya benzeri bir Bluetooth yöneticisi uygulamasını yükleyin ve eşleşen, bağlanan herhangi bir cihazı kaldırın.</b></p>
+    <string name="dialog_welcome_message"><![CDATA[Uygulama şu an sadece Band\'yi destekliyor.
+    <p>Mi Bandaj, resmi Mi Fit uygulamasının aynı cihaza kurulmasını gerektirir. İlk önce Band\'yi Mi Fit uygulamasında eşleştirmeniz gerekir, o zaman Mi Bandaj\'ı kullanabilirsiniz.</p>
+    <p>Band\'yi kontrol etmek için daha fazla uygulama kullanıyorsanız, birbirlerine müdahale ederek geçici olarak bunları kapatın.</p>
+    <p>Band bulunamazsa, ayrıntılar menüsünde MAC adresini manuel olarak ayarlayabilirsiniz (MAC adresi bulundu: Mi Fit/Profil/Band).</p>
+    <p><b> Band bulunamazsa veya Mi Fit uygulamasını senkronize ederken sorun yaşıyorsanız, BToolkit, nRF Connect veya benzeri bir Bluetooth yöneticisi uygulamasını yükleyin ve eşleşen, bağlanan herhangi bir cihazı kaldırın.</b></p>
     <p><b>MIUI:</b>
     <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
     <br>- Security app screen: battery/app battery saver set Mi Bandage app to no restriction.</p>
-    <p>Sorun yaşıyorsanız (Mi Band 2\'yi keşfedin, bildirim sinyaliniz yok), lütfen bunu deneyin:
+    <p>Sorun yaşıyorsanız (Band\'yi keşfedin, bildirim sinyaliniz yok), lütfen bunu deneyin:
     <br>1. Greenify\'ı (veya diğer hazırda bekletme uygulamasını) yüklediyseniz, kapatın.
     <br>2. Mi Bandage uygulamasını kurun.
     <br>3. Telefonu yeniden başlatın.
