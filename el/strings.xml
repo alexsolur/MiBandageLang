@@ -27,7 +27,7 @@
 
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Χρόνος σε σύνδεση: %1$s</string>
-    <string name="foreground_service_disconnected_text">Το Mi Band 2 δεν είναι συνδεδεμένο</string>
+    <string name="foreground_service_disconnected_text">Το Band δεν είναι συνδεδεμένο</string>
     <!--<string name="foreground_service_disconnected">Χρόνος Αποσύνδεσης: %1$s</string>-->
 
     <!-- Strings related to Settings -->
@@ -44,12 +44,18 @@
     <string name="mi_band_state_connected_disconnected_last_time">RSSI, τελευταίος χρόνος σύνδεσης και αποσύνδεσης</string>
     <string name="mi_band_touch">Παρακολούθηση αφής</string>
     <string name="mi_band_alarm">Ειδοποίηση</string>
-    <string name="mi_band_bonded_device_name">Mi Band 2 όνομα συζευγμένης συσκευής</string>
+    <string name="mi_band_bonded_device_name">Band όνομα συζευγμένης συσκευής</string>
     <string name="mi_band_mac_address">Διεύθυνση MAC</string>
     <string name="mi_band_firmware">Λογισμικό</string>
     <string name="mi_band_hardware">Υλισμικό</string>
 
     <string name="mi_band_mac_address_invalid">Η MAC διεύθυνση δεν είναι έγκυρη</string>
+
+    <string name="mi_band_state_title">Band settings</string>
+    <string name="mi_band_state_connected">Connected</string>
+    <string name="mi_band_state_disconnected">Disconnected</string>
+    <string name="mi_band_state_bonded">Paired device</string>
+    <string name="mi_band_state_not_bonded">Not paired device</string>
 
     <string name="mi_band_battery_settings">Ρυθμίσεις μπαταρίας</string>
     <string name="mi_band_battery_remaining">Εκτιμώμενος χρόνος υπολοίπου μπαταρίας</string>
@@ -64,22 +70,22 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Ρυθμίσεις σύνδεσης</string>
-    <string name="pref_connected_summary">Mi Band 2 και ρυθμίσεις σήματος σύνδεση της συσκευής</string>
+    <string name="pref_connected_summary">Band και ρυθμίσεις σήματος σύνδεση της συσκευής</string>
 
     <string name="pref_connected_signals">Σήματα σύνδεσης</string>
-    <string name="pref_connected_signals_summary">Mi Band 2 συνδέεται και δεν έχει ειδοποιήσεις</string>
-    <string name="pref_cat_connected_signals_mi_band">Σήμα Mi Band 2</string>
+    <string name="pref_connected_signals_summary">Band συνδέεται και δεν έχει ειδοποιήσεις</string>
+    <string name="pref_cat_connected_signals_mi_band">Σήμα Band</string>
     <string name="pref_connected_mi_band_title">Δόνηση</string>
     <string name="pref_cat_connected_signals">Σημάτα συσκευής</string>
     <string name="pref_connected_wakelock_title">Αφύπνιση οθόνης της συσκευής</string>
 
     <string name="pref_connected_settings">Ρυθμίσεις σύνδεσης</string>
-    <string name="pref_connected_settings_summary">Mi Band 2 και ρυθμίσεις σήματος σύνδεσης συσκευής</string>
+    <string name="pref_connected_settings_summary">Band και ρυθμίσεις σήματος σύνδεσης συσκευής</string>
     <string name="pref_cat_connected_settings">Ρυθμίσεις συσκευής</string>
     <string name="pref_connected_volume_title">Αλλαγή έντασης ήχου</string>
     <string name="pref_connected_volume_ring_title">Ένταση ήχου κλήσης</string>
 
-    <string name="pref_cat_connected_have_notif">Προκαθορισμένες εφαρμογές και σήμα Mi Band 2</string>
+    <string name="pref_cat_connected_have_notif">Προκαθορισμένες εφαρμογές και σήμα Band</string>
     <string name="pref_cat_connected_have_notif_default">Προκαθορισμένες και προσαρμοσμένες ρυθμίσεις</string>
     <string name="pref_connected_have_notif_immediate_title">Άμεσο σήμα με την παραλαβή ειδοποιήσης</string>
     <string name="pref_connected_have_notif_title">Σήμα κατά τη σύνδεση με τη συσκευή</string>
@@ -95,11 +101,11 @@
     <string name="pref_connected_have_notif_pre_signal_summary_on">Σήμα (τροποποιήσιμο) πριν από την πραγματική ειδοποίηση, ώστε να έχουμε περισσότερο χρόνο για να δούμε την  οθόνη</string>
 
     <string name="pref_disconnected">Ρυθμίσεις αποσύνδεσης</string>
-    <string name="pref_disconnected_summary">Mi Band 2 και ρυθμίσεις σήματος αποσύνδεσης της συσκευή</string>
+    <string name="pref_disconnected_summary">Band και ρυθμίσεις σήματος αποσύνδεσης της συσκευή</string>
 
     <string name="pref_disconnected_signals">Σήματα αποσύνδεσης</string>
-    <string name="pref_disconnected_signals_summary">Το Mi Band 2 και τα σήματα αποσύνδεσης της συσκευής, δεν σηματοδοτούνται όταν το Bluetooth απενεργοποιείται χειροκίνητα</string>
-    <string name="pref_cat_disconnected_signals_mi_band">Σήμα Mi Band 2</string>
+    <string name="pref_disconnected_signals_summary">Το Band και τα σήματα αποσύνδεσης της συσκευής, δεν σηματοδοτούνται όταν το Bluetooth απενεργοποιείται χειροκίνητα</string>
+    <string name="pref_cat_disconnected_signals_mi_band">Σήμα Band</string>
     <string name="pref_disconnected_mi_band_title">Εμφάνιση εικονιδίου</string>
     <string name="pref_cat_disconnected_signals">Σήμα συσκευής</string>
     <string name="pref_disconnected_ringtone_title">Ήχος κλήσης</string>
@@ -107,7 +113,7 @@
     <string name="pref_disconnected_wakelock_title">Αφύπνιση οθόνης της συσκευής</string>
 
     <string name="pref_disconnected_settings">Ρυθμίσεις αποσύνδεσης</string>
-    <string name="pref_disconnected_settings_summary">Το Mi Band 2 και τα σήματα αποσύνδεσης της συσκευής</string>
+    <string name="pref_disconnected_settings_summary">Το Band και τα σήματα αποσύνδεσης της συσκευής</string>
     <string name="pref_cat_disconnected_settings">Ρυθμίσεις συσκευής</string>
     <string name="pref_disconnected_volume_title">Αλλαγή έντασης ήχου</string>
     <string name="pref_disconnected_volume_ring_title">Ένταση ήχου κλήσης</string>
@@ -125,7 +131,7 @@
     <string name="pref_abandoned_notif_title">Η συσκευή έχει χαθεί</string>
 
     <string name="pref_call">Ρυθμίσεις κλήσης</string>
-    <string name="pref_call_summary">Ρυθμίσεις σήματος Mi Band 2</string>
+    <string name="pref_call_summary">Ρυθμίσεις σήματος Band</string>
     <string name="pref_cat_call">Εισερχόμενη κλήση</string>
     <string name="pref_call_title">Σήμα εισερχόμενης κλήσης</string>
     <string name="pref_call_summary_on">Ενεργό (μην ξεχάσετε να απενεργοποιήσετε ειδοποιήσεις εισερχόμενων κλήσεων (incoming call alerts) στήν εφαρμογή Mi Fit)</string>
@@ -141,38 +147,38 @@
     <string name="pref_call_missed_net_title">Αναπάντητη κλήση διαδικτύου, εμφάνιση ταυτότητας καλούντος</string>
     <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
 
-    <string name="pref_call_missed_alert_title">Σήμα Mi Band 2</string>
+    <string name="pref_call_missed_alert_title">Σήμα Band</string>
 
     <string name="pref_call_missed_text_prefix_title">Πρόθεμα κειμένου: %1$s</string>
     <string name="pref_call_missed_text_prefix_summary">Αν περισσότερες από μία εφαρμογή χρησιμοποιεί το ίδιο εικονίδιο για να διαφοροποιήσει τις ειδοποιήσεις μεταξύ τους</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Πρόθεμα κειμένου</string>
 
     <string name="pref_text_conversion">Ρυθμίσεις εικονιδίων κειμένου</string>
-    <string name="pref_text_conversion_summary">Ρυθμίσεις εικονιδίων κειμένου Mi Band 2</string>
-    <string name="pref_cat_text_conversion">Σήμα Mi Band 2</string>
+    <string name="pref_text_conversion_summary">Ρυθμίσεις εικονιδίων κειμένου Band</string>
+    <string name="pref_cat_text_conversion">Σήμα Band</string>
     <string name="pref_text_conversion_title">Μετατροπή χαρακτήρων</string>
     <string name="pref_text_conversion_summary_on">Μή αναγνωρίσιμη μετατροπή χαρακτήρων</string>
 
     <string name="pref_text_conversion_description_title">Περιγραφή</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
-        <p>Αν το Mi Band 2 σας δείχνει το όνομα καλούντος της εισερχόμενης κλήσης, τότε δεν χρειάζεται να κάνετε τα παρακάτω βήματα, απλά απενεργοποιήστε την επιλογή <i>Incoming call alerts</i> από το Mi Fit.</p>
+        <p>Αν το Band σας δείχνει το όνομα καλούντος της εισερχόμενης κλήσης, τότε δεν χρειάζεται να κάνετε τα παρακάτω βήματα, απλά απενεργοποιήστε την επιλογή <i>Incoming call alerts</i> από το Mi Fit.</p>
         <p>Εάν δεν χρησιμοποιείτε την επιλογή <i>Incoming call alerts</i> και η γλώσσα του τηλεφώνου δεν είναι η Aγγλική:
         <br/>1. Ορίστε τη γλώσσα του τηλεφώνου σας στα Aγγλικά.
         <br/>2. Ανοίξτε την εφαρμογή Mi Fit, περιμένετε μέχρι να γίνει η ενημέρωση του υλικολογισμικού της γραμματοσειράς. Εάν η ενημερωμένη έκδοση του υλικολογισμικού δεν ξεκινήσει, δοκιμάστε να επανεκκινήσετε το τηλέφωνό σας.
         <br/>3. Ανοίξτε το μενού <i>Αναπαραγωγή/εισερχόμενης κλήσης (Profile/Mi Band/Incoming call)</ i>.
         <br/>4. Ενεργοποιήστε την επιλογή: <i>Ενεργοποίηση ειδοποιήσεων εισερχόμενων κλήσεων (Turn on incoming call alerts)</ i>.
         <br/>5. Ενεργοποιήστε την επιλογή: <i>Εμφάνιση πληροφοριών επαφής (Show contact information)</i>.
-        <br/>6. Ελέγξτε αν το Mi Band 2 δείχνει το όνομα του καλούντος κάνοντας μια κλήση στο τηλεφωνό σας.
+        <br/>6. Ελέγξτε αν το Band δείχνει το όνομα του καλούντος κάνοντας μια κλήση στο τηλεφωνό σας.
         <br/>7. Απενεργοποιήστε την επιλογή: <i>Ενεργοποίηση ειδοποιήσεων εισερχόμενων κλήσεων (Turn on incoming call alerts)</i> (<i>Εμφάνιση πληροφοριών επαφής/Show contact information</i>παραμένει ενεργό).
         <br/>8. Ορίστε τη γλώσσα του τηλεφώνου πίσω στην γλώσσα σας.</p>]]>
     </string>
 
     <string name="pref_touch">Ρυθμίσεις παρακολούθηση αφής</string>
-    <string name="pref_cat_touch">Σήμα Mi Band 2</string>
+    <string name="pref_cat_touch">Σήμα Band</string>
     <string name="pref_touch_recognised_failed_title">Σήμα μη αναγνωρίσιμου μοτίβου αφής</string>
     <string name="pref_touch_recognised_failed_summary_on">Ενεργό (2 δονήσεις μετά από το μεγαλύτερο μοτίβο)</string>
 
-    <string name="pref_mi_band">Ρυθμίσεις Mi Band 2</string>
+    <string name="pref_mi_band">Ρυθμίσεις Band</string>
     <string name="pref_cat_mi_band_lift_wrist">Σήκωσε τον καρπό για να δείς πληροφορίες</string>
     <string name="pref_mi_band_lift_wrist_title">Σήκωσε τον καρπό για να δείς πληροφορίες</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Λειτουργία μην ενοχλείτε</string>
@@ -196,12 +202,12 @@
     <string name="pref_dnd_enable_bluetooth">Στην αρχή της λειτουργίας Dnd απενεργοποιήσε το Bluetooth, στο τέλος ενεργοποιήσε το Bluetooth</string>
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Παρακαλούμε να ενεργοποιήσετε το Bluetooth και φέρτε τη συσκευή Mi Band 2 πιο κοντά στο τηλέφωνο</string>
-    <string name="message_discover_mi_band">Το Mi Band 2 δεν έχει οριστεί, παρακαλούμε πατήστε ανίχνευση</string>
-    <string name="message_discovered_mi_band">Το Mi Band 2 ανιχνεύθηκε</string>
-    <string name="message_discovering_mi_band">Ανίχνευση για Mi Band 2 (μπορεί να πάρει 1 λεπτό) &#8230;</string>
-    <string name="message_discovered_no_mi_band">Το Mi Band 2 δεν ανιχνεύθηκε</string>
-    <string name="message_discovered_not_found_mi_band">Σε περίπτωση που το Mi Band 2 δεν ανιχνευθεί, ενεργοποιήστε το: Mi Fit/Play/Discoverable ή συζεύξτε από τις ρυθμίσεις Bluetooth του κινητού σας.</string>
+    <string name="message_enable_bluetooth">Παρακαλούμε να ενεργοποιήσετε το Bluetooth και φέρτε τη συσκευή Band πιο κοντά στο τηλέφωνο</string>
+    <string name="message_discover_mi_band">Το Band δεν έχει οριστεί, παρακαλούμε πατήστε ανίχνευση</string>
+    <string name="message_discovered_mi_band">Το Band ανιχνεύθηκε</string>
+    <string name="message_discovering_mi_band">Ανίχνευση για Band (μπορεί να πάρει 1 λεπτό) &#8230;</string>
+    <string name="message_discovered_no_mi_band">Το Band δεν ανιχνεύθηκε</string>
+    <string name="message_discovered_not_found_mi_band">Σε περίπτωση που το Band δεν ανιχνευθεί, ενεργοποιήστε το: Mi Fit/Play/Discoverable ή συζεύξτε από τις ρυθμίσεις Bluetooth του κινητού σας.</string>
     <string name="message_enable_notification_listener_access">Ενεργοποίηση πρόσβασης ειδοποίησης: Ρυθμίσεις/ειδοποιήσεις/Πρόσβασης ειδοποίησης (Settings/Notifications/Notification access)</string>
     <string name="message_enable_notification_listener_access_4_4">Ενεργοποίηση πρόσβασης ειδοποίησης: Ρυθμίσεις/Ασφάλεια/Πρόσβασης ειδοποίησης (Settings/Security/Notification access)</string>
     <string name="message_enable_notification_policy_access">Ενεργοποιήστε την πρόσβαση Μην ενοχλείτε</string>
@@ -218,7 +224,7 @@
     <string name="message_step_goal_max_values">Οι μέγιστες τιμές μπορούν να ρυθμιστούν</string>
 
     <string name="message_touch_no_patterns">Πατήστε ένα από τα κόκκινα κουμπιά εγγραφής μοτίβου</string>
-    <string name="message_touch_record">Καταγράψτε το μοτίβο χρησιμοποιώντας το κουμπί αφής του Mi Band 2</string>
+    <string name="message_touch_record">Καταγράψτε το μοτίβο χρησιμοποιώντας το κουμπί αφής του Band</string>
     <string name="message_touch_pattern_error">Το καθορισμένο μοτίβο είναι παρόμοιο με ένα δείγμα κάποιας άλλης λειτουργίας, καταγράψτε άλλο</string>
     <string name="message_touch_free_patterns">Μπορούν να χρησιμοποιηθούν μέχρι 3 λειτουργίες</string>
     <string name="message_touch_music_player_not_found">Η αναπαραγωγής μουσικής δεν βρέθηκε</string>
@@ -246,15 +252,15 @@
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Καλώς ορίσατε!</string>
-    <string name="dialog_welcome_message"><![CDATA[Η εφαρμογή υποστηρίζει μόνο Mi Band 2.
-    <p>Το Mi Bandage  απαιτεί την εγκατάσταση της επίσημης εφαρμογής Mi Fit στην ίδια συσκευή. Στην αρχή θα πρέπει να αντιστοιχίσετε Mi Band 2 με την εφαρμογή Mi Fit, μετά θα μπορείτε να χρησιμοποιήσετε το Mi Bandage.</p>
-    <p>εάν χρησιμοποιείτε περισσότερες εφαρμογές για τον έλεγχο Mi Band 2, αλληλεπιδρούν μεταξύ τους και θα πρέπει να τις απενεργοποιήστε προσωρινά</p>
-    <p>Αν το Mi Band 2 δεν ανιχνευθεί, τότε μπορείτε να ρυθμίσετε τη διεύθυνση MAC χειροκίνητα από το μενού λεπτομέρειες (η διεύθυνση MAC βρίσκεται στο: Mi Fit/Profil/Mi Band 2).</p>
-    <p><b>Αν το Mi Band 2 δεν ανιχνευθεί η έχετε πρόβλημα συνχρονισμού στην εφαρμογή Mi Fit, τότε εγκαταστηστε το BToolkit, nRF Connect ή παρόμοια εφαρμογή διαχείρισης Bluetooth και αφαιρέσετε οποιαδήποτε αντιστοιχισμένη ή συζευγμενη συσκευή.</b></p>
+    <string name="dialog_welcome_message"><![CDATA[Η εφαρμογή υποστηρίζει μόνο Band.
+    <p>Το Mi Bandage  απαιτεί την εγκατάσταση της επίσημης εφαρμογής Mi Fit στην ίδια συσκευή. Στην αρχή θα πρέπει να αντιστοιχίσετε Band με την εφαρμογή Mi Fit, μετά θα μπορείτε να χρησιμοποιήσετε το Mi Bandage.</p>
+    <p>εάν χρησιμοποιείτε περισσότερες εφαρμογές για τον έλεγχο Band, αλληλεπιδρούν μεταξύ τους και θα πρέπει να τις απενεργοποιήστε προσωρινά</p>
+    <p>Αν το Band δεν ανιχνευθεί, τότε μπορείτε να ρυθμίσετε τη διεύθυνση MAC χειροκίνητα από το μενού λεπτομέρειες (η διεύθυνση MAC βρίσκεται στο: Mi Fit/Profil/Band).</p>
+    <p><b>Αν το Band δεν ανιχνευθεί η έχετε πρόβλημα συνχρονισμού στην εφαρμογή Mi Fit, τότε εγκαταστηστε το BToolkit, nRF Connect ή παρόμοια εφαρμογή διαχείρισης Bluetooth και αφαιρέσετε οποιαδήποτε αντιστοιχισμένη ή συζευγμενη συσκευή.</b></p>
     <p><b>MIUI:</b>
     <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
     <br>- Security app screen: battery/app battery saver set Mi Bandage app to no restriction.</p>
-    <p>Αν έχετε πρόβλημα (ανιχνευμένο Mi Band 2, δεν παίρνει ειδοποιήσεις), δοκιμάστε αυτό:
+    <p>Αν έχετε πρόβλημα (ανιχνευμένο Band, δεν παίρνει ειδοποιήσεις), δοκιμάστε αυτό:
     <br>1. Άν έχετε εγκαταστήσει την εφαρμογή Greenify (ή άλλη εφαρμογή εξοικονόμησης ενέργειας βάζοντας την συσκευή σε λήθαργο) να την απενεργοποιήσετε.
     <br>2. Εγκαταστήστε την εφαρμογή Mi Bandage.
     <br>3. Κάντε επανεκκίνηση του τηλεφώνου.
@@ -284,7 +290,7 @@
     <string name="notification_group_name">Όνομα</string>
     <string name="notification_group_monitoring">Παρακολούθηση ειδοποιήσεων</string>
     <string name="notification_group_monitoring_disabled">Εξαιρέσεις ειδοποιήσεων (μην εμφανίζεις τις ειδοποιήσεις της εφαρμογής)</string>
-    <string name="notification_group_alert_title">Σήμα Mi Band 2</string>
+    <string name="notification_group_alert_title">Σήμα Band</string>
     <string name="notification_group_text_title">Τίτλος</string>
     <string name="notification_group_text_content">Περεχόμενο</string>
     <string name="notification_group_pre_alert">Προ εικονίδιο</string>
@@ -309,7 +315,7 @@
     <string name="notification_group_sample_whatsapp">Εμφάνιση κειμένου WhatsApp</string>
 
     <!-- Notification info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Προκαθορισμένες εφαρμογές και εικονίδια σημάτων του Mi Band 2:
+    <string name="info_dialog_notification"><![CDATA[Προκαθορισμένες εφαρμογές και εικονίδια σημάτων του Band:
         <br><img src="ALERT_MESSAGE_TEXT">  αναπάντητη κλήση
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  Email, Gmail
@@ -406,14 +412,14 @@
     <string name="touch_testing_second">δευτ.</string>
 
     <!-- Touch monitoring info dialog -->
-    <string name="info_dialog_touch"><![CDATA[Η αφή είναι έγκυρη όταν η οθόνη της Mi Band 2 αλλάζει (γι \'αυτό είναι σκόπιμο να περιστρέψετε τον καρπό σας πριν αγγίξετε).
+    <string name="info_dialog_touch"><![CDATA[Η αφή είναι έγκυρη όταν η οθόνη της Band αλλάζει (γι \'αυτό είναι σκόπιμο να περιστρέψετε τον καρπό σας πριν αγγίξετε).
         <p>Παρακολουθεί χρόνο που παρήλθε μεταξύ των αγγιγμάτων, όχι το χρόνο που έχει παρέλθει από το πρώτο πάτημα.</p>
         <p>Τα πράσινα εικονίδια στις κάρτες δείχνει ποια άλλη λειτουργία μπορεί να είναι παρόμοια με το τρέχον μοτίβο.</p>
         <p>Όταν έχετε μια εισερχόμενη κλήση η συσκευή δεν αναγνωρίζει τις ακόλουθες λειτουργίες, προκειμένου να διευκολυνθεί η είσοδος αφής: θέση της συσκευής, επανάληψη ειδοποιήσεων, τον έλεγχο της μουσικής.</p>
         <p>Στην δοκιμαστική λειτουργία δεν εκτελεί η λειτουργία των αναγνωρισμένων μοτίβων.</p>
-        <p>Το Mi Band 2 ανατροφοδότηση δόνηση μόνο εάν υπάρχει ένα μοτίβο, λαμβάνοντας υπόψη την τρέχουσα κατάσταση της συσκευής (απάντηση κλήσης, απορρίπτοντας μόνο εφόσον υπάρχει μια εισερχόμενη κλήση …).</p>
-        <p>Το Mi Band 2 δονείται μία φορά, όταν αναγνωρίσει ένα μοτίβο.</p>
-        <p>Το Mi Band 2 δονείται δύο φορές, όταν δεν αναγνωρίζει οποιοδήποτε μοτίβο μετά το μεγαλύτερο μοτίβο (αν  το <i>Σήμα μη αναγνωρίσιμου μοτίβου αφής</i> είναι ενεργό).</p>
+        <p>Το Band ανατροφοδότηση δόνηση μόνο εάν υπάρχει ένα μοτίβο, λαμβάνοντας υπόψη την τρέχουσα κατάσταση της συσκευής (απάντηση κλήσης, απορρίπτοντας μόνο εφόσον υπάρχει μια εισερχόμενη κλήση …).</p>
+        <p>Το Band δονείται μία φορά, όταν αναγνωρίσει ένα μοτίβο.</p>
+        <p>Το Band δονείται δύο φορές, όταν δεν αναγνωρίζει οποιοδήποτε μοτίβο μετά το μεγαλύτερο μοτίβο (αν  το <i>Σήμα μη αναγνωρίσιμου μοτίβου αφής</i> είναι ενεργό).</p>
         <p>Έγκυρα παραδείγματα αφής:
         <br>- πάτημα
         <br>- πάτημα και 1δευτ αναμονή, πάτημα
@@ -515,25 +521,25 @@
     <string name="pulse_details">Λεπτομέρειες παλμού</string>
 
     <string name="info_dialog_pulse"><![CDATA[H σύνδεση Bluetooth είναι απαραίτητη για την παρακολούθηση του σφυγμού.
-        <p>Η χειροκίνητη εκκίνηση μετρήσεων καταγράφεται και (στις εφαρμογές Mi Band2, Mi Fit) όταν αρχίσει η παρακολούθηση των παλμών.<p/>
+        <p>Η χειροκίνητη εκκίνηση μετρήσεων καταγράφεται και (στις εφαρμογές Band, Mi Fit) όταν αρχίσει η παρακολούθηση των παλμών.<p/>
         <p>Η παρακολούθηση παλμού επαναλαμβάνεται πολλές φορές εάν η τιμή που προκύπτει δεν είναι έγκυρη.<p>]]>
     </string>
 
     <!-- Lost  monitoring -->
-    <string name="alarm_mi_band_title">Σήμα Mi Band 2</string>
+    <string name="alarm_mi_band_title">Σήμα Band</string>
     <string name="alarm_mi_band_dnd">Λειτουργία μην ενοχλείτε</string>
     <string name="alarm_mi_band_interval_title">Διάστημα επανάληψης ρύθμισης υπενθύμισης</string>
     <string name="alarm_mi_band_time_set_next">Το χρονοδιάγραμμα της επόμενης ρύθμισης</string>
     <string name="alarm_mi_band_time">Το χρονοδιάγραμμα της επόμενης υπενθύμισης</string>
 
-    <string name="alarm_mi_band_on_bluetooth_disabled_text">Το σήμα της εποπτείας συσκευής Mi Band 2 είναι ενεργό.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Το σήμα της εποπτείας συσκευής Band είναι ενεργό.</string>
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Χρόνος ειδοποίησης: %1$s</string>
 
-    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Σήμα Mi Band 2</u></b>
-        <p> Όταν λήξει καθορισμένο χρονικό διάστημα η συσκευή αν δεν είναι συνδεδεμένη, το Mi Band 2 στέλνει ένα σήμα.</p>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Σήμα Band</u></b>
+        <p> Όταν λήξει καθορισμένο χρονικό διάστημα η συσκευή αν δεν είναι συνδεδεμένη, το Band στέλνει ένα σήμα.</p>
         <p>Η εφαρμογή χρησιμοποιεί τη λειτουργία συναγερμού του Mi Fit να ειδοποιεί (αντικαταστήσετε 10. ρύθμιση).</p>
-        <p>Η ειδοποίηση θα επαναληφθεί αρκετές φορές αν το Mi Band 2 δεν ανιχνεύσει οποιαδήποτε κίνηση (επειδή χρησιμοποιεί την εργοστασιακή ειδοποίηση).</p>
-        <p>Πριν την απενεργοποίηση του Bluetooth ή την απεγκατάσταση της εφαρμογής θα πρέπει να απενεργοποιήσετε το σήμα του Mi Band 2.</p>
+        <p>Η ειδοποίηση θα επαναληφθεί αρκετές φορές αν το Band δεν ανιχνεύσει οποιαδήποτε κίνηση (επειδή χρησιμοποιεί την εργοστασιακή ειδοποίηση).</p>
+        <p>Πριν την απενεργοποίηση του Bluetooth ή την απεγκατάσταση της εφαρμογής θα πρέπει να απενεργοποιήσετε το σήμα του Band.</p>
         <p>Αν αφαιρέσετε την εφαρμογή, όταν η ειδοποίηση είναι ενεργοποιημένη, τότε μπορείτε να την απενεργοποιήσετε, ενεργοποιώντας και απενεργοποιώντας πάλι Mi Fit 10. ρύθμιση της ειδοποίησης.</p>
 
         <img src="ic_phone_android"> <b><u>Σήματα της συσκευής</u></b>
@@ -607,8 +613,8 @@
         <p>Σύνδεση Bluetooth είναι απαραίτητη το κουδούνι χτυπάει απλά μόνο μία φορά για 10 δευτερόλεπτα.</p>
         <img src="ic_alarm"> <b><u>Ειδοποίηση</u></b>
         <p>Σύνδεση Bluetooth δεν απαιτείται για την ειδοποίηση, η εφαρμογή χρησιμοποιεί την λειτουργία του Mi Fit για την ειδοποίηση (αντικαταστήσετε 4. - 9. ρύθμιση).
-        <br>Η ειδοποίηση θα επαναληφθεί αρκετές φορές αν το Mi Band 2 δεν ανιχνεύσει οποιαδήποτε κίνηση (επειδή χρησιμοποιεί την εργοστασιακή ειδοποίηση).
-        <br>Ακρίβεια λεπτού, το Mi band 2 δεν χειρίζεται δευτερόλεπτα κατά τον χρόνο ειδοποίησης.</p>
+        <br>Η ειδοποίηση θα επαναληφθεί αρκετές φορές αν το Band δεν ανιχνεύσει οποιαδήποτε κίνηση (επειδή χρησιμοποιεί την εργοστασιακή ειδοποίηση).
+        <br>Ακρίβεια λεπτού, το Band δεν χειρίζεται δευτερόλεπτα κατά τον χρόνο ειδοποίησης.</p>
         <p>Το σήμα υπενθύμισης απαιτεί σύνδεση Bluetooth.</p>
     ]]></string>
 
@@ -638,7 +644,7 @@
     <string name="theme_tab_notification">Σκιά ειδοποίησης</string>
 
     <string name="theme_title">Επιλέξτε ένα θέμα</string>
-    <string name="theme_background_color_title">Χρώμα φόντου</string>
+    <string name="theme_background_color_title">Background color</string>
 
     <string name="theme_widget_foreground_title">Προσκήνιο</string>
     <string name="theme_widget_foreground_color_title">Εικονίδιο και χρώμα κειμένου</string>

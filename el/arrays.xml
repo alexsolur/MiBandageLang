@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_connected_have_notif_counter">
-        <item>Μία φορά ανά εικονίδιο του Mi Band 2</item>
+        <item>Μία φορά ανά εικονίδιο του Band</item>
         <item>Αριθμός ειδοποιήσεων</item>
         <item>1 \'app\' icon</item>
         <item>2 \'app\' icon</item>
@@ -176,16 +176,16 @@
     </integer-array>
 
     <string-array name="notification_group_text_content_slice">
-        <item>1 κομμάτι (1-18 χαρακτήρες)</item>
-        <item>2 κομμάτια (1-36 χαρακτήρες)</item>
-        <item>3 κομμάτια (1-54 χαρακτήρες)</item>
-        <item>4 κομμάτια (1-72 χαρακτήρες)</item>
-        <item>5 κομμάτια (1-90 χαρακτήρες)</item>
-        <item>6 κομμάτια (1-108 χαρακτήρες)</item>
-        <item>7 κομμάτια (1-126 χαρακτήρες)</item>
-        <item>8 κομμάτια (1-144 χαρακτήρες)</item>
-        <item>9 κομμάτια (1-162 χαρακτήρες)</item>
-        <item>10 κομμάτια (1-180 χαρακτήρες)</item>
+        <item>1 κομμάτι (1-18 chars)</item>
+        <item>2 κομμάτια (1-36 chars)</item>
+        <item>3 κομμάτια (1-54 chars)</item>
+        <item>4 κομμάτια (1-72 chars)</item>
+        <item>5 κομμάτια (1-90 chars)</item>
+        <item>6 κομμάτια (1-108 chars)</item>
+        <item>7 κομμάτια (1-126 chars)</item>
+        <item>8 κομμάτια (1-144 chars)</item>
+        <item>9 κομμάτια (1-162 chars)</item>
+        <item>10 κομμάτια (1-180 chars)</item>
     </string-array>
 
     <integer-array name="notification_group_text_content_slice_values">
@@ -231,6 +231,7 @@
         <item>Indonesia</item>
         <item>Deutsche</item>
         <item>Čeština</item>
+        <item>Français</item>
     </string-array>
 
     <string-array name="pref_language_values">
@@ -247,5 +248,6 @@
         <item>in</item>
         <item>de</item>
         <item>cs</item>
+        <item>fr</item>
     </string-array>
 </resources>
