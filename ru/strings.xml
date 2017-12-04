@@ -27,7 +27,7 @@
 
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Время присоединения: %1$s</string>
-    <string name="foreground_service_disconnected_text">Mi Band 2 не подключен</string>
+    <string name="foreground_service_disconnected_text">Band не подключен</string>
     <!--<string name="foreground_service_disconnected">Время разъединения: %1$s</string>-->
 
     <!-- Strings related to Settings -->
@@ -44,12 +44,18 @@
     <string name="mi_band_state_connected_disconnected_last_time">Сигнал(RSSI), время последнего соединения и его разрыва</string>
     <string name="mi_band_touch">Касания</string>
     <string name="mi_band_alarm">Следующий будильник</string>
-    <string name="mi_band_bonded_device_name">Имя спаренного Mi Band 2</string>
+    <string name="mi_band_bonded_device_name">Имя спаренного Band</string>
     <string name="mi_band_mac_address">MAC адрес</string>
     <string name="mi_band_firmware">Прошивка</string>
     <string name="mi_band_hardware">Версия устройства</string>
 
     <string name="mi_band_mac_address_invalid">Неверный MAC адрес</string>
+
+    <string name="mi_band_state_title">Band settings</string>
+    <string name="mi_band_state_connected">Connected</string>
+    <string name="mi_band_state_disconnected">Disconnected</string>
+    <string name="mi_band_state_bonded">Paired device</string>
+    <string name="mi_band_state_not_bonded">Not paired device</string>
 
     <string name="mi_band_battery_settings">Настройки батареи</string>
     <string name="mi_band_battery_remaining">Ожидаемое время работы</string>
@@ -64,22 +70,22 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Настройки соединения</string>
-    <string name="pref_connected_summary">Настройки соединения Mi Band 2 и устройства</string>
+    <string name="pref_connected_summary">Настройки соединения Band и устройства</string>
 
     <string name="pref_connected_signals">Уведомления при соединении</string>
-    <string name="pref_connected_signals_summary">Присоединение Mi Band 2 в отсутствие новых уведомлений</string>
-    <string name="pref_cat_connected_signals_mi_band">Уведомление Mi Band 2</string>
+    <string name="pref_connected_signals_summary">Присоединение Band в отсутствие новых уведомлений</string>
+    <string name="pref_cat_connected_signals_mi_band">Уведомление Band</string>
     <string name="pref_connected_mi_band_title">Вибрация</string>
     <string name="pref_cat_connected_signals">Уведомление устройства</string>
     <string name="pref_connected_wakelock_title">Активировать экран устройства</string>
 
     <string name="pref_connected_settings">Настройки соединения</string>
-    <string name="pref_connected_settings_summary">Настройки соединения Mi Band 2 и устройства</string>
+    <string name="pref_connected_settings_summary">Настройки соединения Band и устройства</string>
     <string name="pref_cat_connected_settings">Настройки устройства</string>
     <string name="pref_connected_volume_title">Изменить громкость</string>
     <string name="pref_connected_volume_ring_title">Громкость звонка</string>
 
-    <string name="pref_cat_connected_have_notif">Изначально заданные приложения и уведомления Mi Band 2</string>
+    <string name="pref_cat_connected_have_notif">Изначально заданные приложения и уведомления Band</string>
     <string name="pref_cat_connected_have_notif_default">Предустановленные и пользовательские настройки</string>
     <string name="pref_connected_have_notif_immediate_title">Мгновенные уведомления</string>
     <string name="pref_connected_have_notif_title">При подключении к устройству</string>
@@ -92,14 +98,14 @@
     <string name="pref_connected_have_notif_default_app_title">Уведомления нераспознанных приложений</string>
     <string name="pref_connected_have_notif_default_app_summary_on">Иконка \'app\' для не рассортированных по группам или предопределённых</string>
     <string name="pref_connected_have_notif_pre_signal_title">Предсказание уведомлений</string>
-    <string name="pref_connected_have_notif_pre_signal_summary_on">Уведомление (настраиваемое) перед настоящим уведомлением, чтобы успеть увидеть его на Mi Band 2</string>
+    <string name="pref_connected_have_notif_pre_signal_summary_on">Уведомление (настраиваемое) перед настоящим уведомлением, чтобы успеть увидеть его на Band</string>
 
     <string name="pref_disconnected">Настройки разъединения</string>
-    <string name="pref_disconnected_summary">Настройки отсоединения Mi Band 2</string>
+    <string name="pref_disconnected_summary">Настройки отсоединения Band</string>
 
     <string name="pref_disconnected_signals">Уведомления разъединения</string>
-    <string name="pref_disconnected_signals_summary">Уведомления отсоединения Mi Band 2, не уведомляет при вручную отключённом Bluetooth</string>
-    <string name="pref_cat_disconnected_signals_mi_band">Уведомление Mi Band 2</string>
+    <string name="pref_disconnected_signals_summary">Уведомления отсоединения Band, не уведомляет при вручную отключённом Bluetooth</string>
+    <string name="pref_cat_disconnected_signals_mi_band">Уведомление Band</string>
     <string name="pref_disconnected_mi_band_title">Отображение иконки</string>
     <string name="pref_cat_disconnected_signals">Сигналы при отсоединении</string>
     <string name="pref_disconnected_ringtone_title">Рингтон</string>
@@ -107,7 +113,7 @@
     <string name="pref_disconnected_wakelock_title">Активировать экран устройства</string>
 
     <string name="pref_disconnected_settings">Настройки разъединения</string>
-    <string name="pref_disconnected_settings_summary">Настройки отсоединения Mi Band 2</string>
+    <string name="pref_disconnected_settings_summary">Настройки отсоединения Band</string>
     <string name="pref_cat_disconnected_settings">Настройки устройства</string>
     <string name="pref_disconnected_volume_title">Изменить громкость</string>
     <string name="pref_disconnected_volume_ring_title">Громкость звонка</string>
@@ -125,7 +131,7 @@
     <string name="pref_abandoned_notif_title">Устройство утеряно</string>
 
     <string name="pref_call">Настройки звонков</string>
-    <string name="pref_call_summary">Настройки уведомлений Mi Band 2</string>
+    <string name="pref_call_summary">Настройки уведомлений Band</string>
     <string name="pref_cat_call">Входящий звонок</string>
     <string name="pref_call_title">Уведомление о входящем звонке</string>
     <string name="pref_call_summary_on">Включено (не забудьте отключить эти уведомления в Mi Fit)</string>
@@ -141,38 +147,38 @@
     <string name="pref_call_missed_net_title">Пропущенный интернет-вызов, отображение ID звонящего</string>
     <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
 
-    <string name="pref_call_missed_alert_title">Уведомление Mi Band 2</string>
+    <string name="pref_call_missed_alert_title">Уведомление Band</string>
 
     <string name="pref_call_missed_text_prefix_title">Префикс текста: %1$s</string>
     <string name="pref_call_missed_text_prefix_summary">Если несколько приложений используют иконку (чтобы отличить сообщения)</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Префикс текста</string>
 
     <string name="pref_text_conversion">Настройки текста</string>
-    <string name="pref_text_conversion_summary">Настройки текстовых иконок Mi Band 2</string>
-    <string name="pref_cat_text_conversion">Символы Mi Band 2</string>
+    <string name="pref_text_conversion_summary">Настройки текстовых иконок Band</string>
+    <string name="pref_cat_text_conversion">Символы Band</string>
     <string name="pref_text_conversion_title">Преобразование символов</string>
     <string name="pref_text_conversion_summary_on">Преобразование нераспознанных символов</string>
 
     <string name="pref_text_conversion_description_title">Описание</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
-        <p>Если ваш Mi Band 2 показывает имя звонящего, включение преобразования не требуется, просто выключите <i>Входящий вызов</i> Mi Fit.</p>
+        <p>Если ваш Band показывает имя звонящего, включение преобразования не требуется, просто выключите <i>Входящий вызов</i> Mi Fit.</p>
         <p>Если вы не используете настройки из Mi Fit и язык устройства не английский:
         <br/>1. Выберите английский язык в настройках устройства.
         <br/>2. Откройте Mi Fit, подождите обновления шрифтов. Если обновление не начинается, попробуйте перезагрузить устройство.
         <br/>3. Откройте <i>Profile/Mi Band/Incoming call</i>.
         <br/>4. Включите: <i>Turn on incoming call alerts</i>.
         <br/>5. Включите: <i>Show contact information</i>.
-        <br/>6. Проверьте, может ли Mi Band 2 показывать имя звонящего.
+        <br/>6. Проверьте, может ли Band показывать имя звонящего.
         <br/>7. Выключите : <i>Turn on incoming call alerts</i> (<i>Show contact information</i> оставьте включённым).
         <br/>8. Верните язык устройства.</p>]]>
     </string>
 
     <string name="pref_touch">Настройки касаний</string>
-    <string name="pref_cat_touch">Уведомления Mi Band 2</string>
+    <string name="pref_cat_touch">Уведомления Band</string>
     <string name="pref_touch_recognised_failed_title">Не распознанные нажатия</string>
     <string name="pref_touch_recognised_failed_summary_on">Включено (2 вибрации после длиннейшей комбинации)</string>
 
-    <string name="pref_mi_band">Настройки Mi Band 2</string>
+    <string name="pref_mi_band">Настройки Band</string>
     <string name="pref_cat_mi_band_lift_wrist">Поворот запястья</string>
     <string name="pref_mi_band_lift_wrist_title">Поворот запястья</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Режим \"Не беспокоить\"</string>
@@ -196,12 +202,12 @@
     <string name="pref_dnd_enable_bluetooth">При включении режима \"Не беспокоить\" выключить Bluetooth, при отключении - включить</string>
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Пожалуйста, включите Bluetooth и поднесите Mi Band 2 ближе к устройству</string>
-    <string name="message_discover_mi_band">Mi Band 2 не выбран, пожалуйста, подключите его</string>
-    <string name="message_discovered_mi_band">Mi Band 2 подключён</string>
-    <string name="message_discovering_mi_band">Поиск Mi Band 2 (это может занять около минуты) &#8230;</string>
-    <string name="message_discovered_no_mi_band">Mi Band 2 не подключён</string>
-    <string name="message_discovered_not_found_mi_band">Если Mi Band 2 не обнаружен, включите: Mi Fit/Уведомления/Видимость или свяжите через настройки Bluetooth устройства</string>
+    <string name="message_enable_bluetooth">Пожалуйста, включите Bluetooth и поднесите Band ближе к устройству</string>
+    <string name="message_discover_mi_band">Band не выбран, пожалуйста, подключите его</string>
+    <string name="message_discovered_mi_band">Band подключён</string>
+    <string name="message_discovering_mi_band">Поиск Band (это может занять около минуты) &#8230;</string>
+    <string name="message_discovered_no_mi_band">Band не подключён</string>
+    <string name="message_discovered_not_found_mi_band">Если Band не обнаружен, включите: Mi Fit/Уведомления/Видимость или свяжите через настройки Bluetooth устройства</string>
     <string name="message_enable_notification_listener_access">Разрешите доступ к уведомлениям</string>
     <string name="message_enable_notification_listener_access_4_4">Разрешите доступ к уведомлениям</string>
     <string name="message_enable_notification_policy_access">Включите доступ к режиму \"Не беспокоить\"</string>
@@ -218,7 +224,7 @@
     <string name="message_step_goal_max_values">Максимум 10 значений может быть уставлено</string>
 
     <string name="message_touch_no_patterns">Нажмите на требуемую красную кнопку записи последовательности</string>
-    <string name="message_touch_record">Запишите образец использования кнопки Mi Band 2</string>
+    <string name="message_touch_record">Запишите образец использования кнопки Band</string>
     <string name="message_touch_pattern_error">Заданная последовательность похожа на последовательность другой функции, запишите другую</string>
     <string name="message_touch_free_patterns">Максимум 3 функции</string>
     <string name="message_touch_music_player_not_found">Плеер не найден</string>
@@ -246,15 +252,15 @@
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Добро пожаловать!</string>
-    <string name="dialog_welcome_message"><![CDATA[Приложение пока поддерживает только Mi Band 2.
-    <p>Mi Bandage требуется приложение Mi Fit на устройстве. Сначала, подключите Mi Band 2 к Mi Fit, потом пользуйтесь Mi Bandage.</p>
-    <p>Если вы используете несколько приложений для управления Mi Band 2, они могут мешать друг другу, поэтому временно отключите их.</p>
-    <p>Если Mi Band 2 не обнаружен, вы можете установить MAC вручную в настройках (MAC можно найти в: Mi Fit/Профиль/Mi Band 2).</p>
-    <p><b>Если Mi Band 2 не обнаружен или имеются проблемы синхронизации в Mi Fit, установите BToolkit, nRF Connect или другое приложение управления Bluetooth и удалите связанные устройства.</b></p>
+    <string name="dialog_welcome_message"><![CDATA[Приложение пока поддерживает только Band.
+    <p>Mi Bandage требуется приложение Mi Fit на устройстве. Сначала, подключите Band к Mi Fit, потом пользуйтесь Mi Bandage.</p>
+    <p>Если вы используете несколько приложений для управления Band, они могут мешать друг другу, поэтому временно отключите их.</p>
+    <p>Если Band не обнаружен, вы можете установить MAC вручную в настройках (MAC можно найти в: Mi Fit/Профиль/Band).</p>
+    <p><b>Если Band не обнаружен или имеются проблемы синхронизации в Mi Fit, установите BToolkit, nRF Connect или другое приложение управления Bluetooth и удалите связанные устройства.</b></p>
     <p><b>MIUI:</b>
     <br>- Окно недавних приложений: закрепите Mi Bandage (протяните приложение вниз и нажмите иконку замка).
     <br>- Окно безопасности приложений: снимите запреты, связанные с экономией энергии для Mi Bandage.</p>
-    <p>При неполадках (обнаружение Mi Band 2, отсутствие уведомлений), попробуйте:
+    <p>При неполадках (обнаружение Band, отсутствие уведомлений), попробуйте:
     <br>1. Если у вас установлено приложение Greenify (или другое приложение для гибернации) настоятельно рекомендуется отключить его.
     <br>2. (Пере-)Установить Mi Bandage.
     <br>3. Перезагрузить устройство.
@@ -284,7 +290,7 @@
     <string name="notification_group_name">Название группы</string>
     <string name="notification_group_monitoring">Управлять уведомлениями</string>
     <string name="notification_group_monitoring_disabled">Исключить уведомления (не отображать уведомления приложений)</string>
-    <string name="notification_group_alert_title">Иконка на Mi Band 2</string>
+    <string name="notification_group_alert_title">Иконка на Band</string>
     <string name="notification_group_text_title">Заголовок</string>
     <string name="notification_group_text_content">Содержимое</string>
     <string name="notification_group_pre_alert">Пре-иконка</string>
@@ -309,7 +315,7 @@
     <string name="notification_group_sample_whatsapp">Текст сообщения WhatsApp</string>
 
     <!-- Notification info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Предустановленные иконки уведомлений Mi Band 2 и приложений:
+    <string name="info_dialog_notification"><![CDATA[Предустановленные иконки уведомлений Band и приложений:
         <br><img src="ALERT_MESSAGE_TEXT">  пропущенный звонок
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  Email, Gmail
@@ -411,9 +417,9 @@
         <p>Зелёная иконка указывает, что другая функция похожа на текущую комбинацию.</p>
         <p>Во время входящего звонка не обрабатываются следующие функции: Положение устройства, Повтор уведомлений и Воспроизведение во избежание нежелательных срабатываний.</p>
         <p>Распознанная функция не выполняется в тестовом режиме.</p>
-        <p>Вибрация Mi Band 2 срабатывает, если есть действительная комбинация с учётом текущего состояния устройства (ответ на звонок, отмена звонка только во время входящего звока и т. д.…).</p>
-        <p>Mi Band 2 вибрирует один раз, когда распознаёт комбинацию.</p>
-        <p>Mi Band 2 вибрирует дважды, когда не распознаёт ни одну комбинацию после самой длинной (если <i>Не распознанные нажатия</i> включены).</p>
+        <p>Вибрация Band срабатывает, если есть действительная комбинация с учётом текущего состояния устройства (ответ на звонок, отмена звонка только во время входящего звока и т. д.…).</p>
+        <p>Band вибрирует один раз, когда распознаёт комбинацию.</p>
+        <p>Band вибрирует дважды, когда не распознаёт ни одну комбинацию после самой длинной (если <i>Не распознанные нажатия</i> включены).</p>
         <p>Например, верный набор:
         <br>- касание
         <br>- касание, 1 секунда, касание
@@ -515,12 +521,12 @@
     <string name="pulse_details">Список измерений</string>
 
     <string name="info_dialog_pulse"><![CDATA[Для измерения пульса необходимо Bluetooth-соединение.
-        <p>Измерения, сделанные вручную (Mi Band2, Mi Fit) записываются, когда измерение начинается.<p/>
+        <p>Измерения, сделанные вручную (Band, Mi Fit) записываются, когда измерение начинается.<p/>
         <p>Измерение будет повторено, если оно окажется неверным.<p>]]>
     </string>
 
     <!-- Lost  monitoring -->
-    <string name="alarm_mi_band_title">Уведомление Mi Band 2</string>
+    <string name="alarm_mi_band_title">Уведомление Band</string>
     <string name="alarm_mi_band_dnd">Режим \"Не беспокоить\"</string>
     <string name="alarm_mi_band_interval_title">Период повтора предупреждения об отсоединении</string>
     <string name="alarm_mi_band_time_set_next">Время следующей установки</string>
@@ -529,11 +535,11 @@
     <string name="alarm_mi_band_on_bluetooth_disabled_text">Уведомление о выкл. Bluetooth</string>
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Промежуток уведомления: %1$s</string>
 
-    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Уведомление Mi Band 2</u></b>
-        <p>Когда проходит выбранный промежуток времени, Mi Band 2 вибрирует, если не подключён к устройству.<p>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Уведомление Band</u></b>
+        <p>Когда проходит выбранный промежуток времени, Band вибрирует, если не подключён к устройству.<p>
         <p>Приложение использует будильник Mi Fit для предупреждения (переписывает 10. будильник).</p>
-        <p>Будильник повторится несколько раз, если Mi Band 2 не заметит движения (из-за использования заводского будильника).</p>
-        <p>Перед выключением Bluetooth или удалением приложения требуется отключить этот будильник Mi Band 2.</p>
+        <p>Будильник повторится несколько раз, если Band не заметит движения (из-за использования заводского будильника).</p>
+        <p>Перед выключением Bluetooth или удалением приложения требуется отключить этот будильник Band.</p>
         <p>Если вы удалите приложение с включенным предупреждением, вы можете выключить его, включив и выключив 10. будильник Mi Fit.</p>
 
         <img src="ic_phone_android"> <b><u>Сигналы на устройстве</u></b>
@@ -607,8 +613,8 @@
         <p>Bluetooth-соединение необходимо для сигнала, один сигнал длительностью 10 секунд.</p>
         <img src="ic_alarm"> <b><u>Будильник</u></b>
         <p>Bluetooth-соединение не требуется для сигнала, приложение использует будильник Mi Fit для сигнала (перезаписывает 4. - 9. будильник).
-        <br>Будильник повторится несколько раз, если Mi Band 2 не заметит движения (из-за использования заводского будильника).
-        <br>С точностью до минут, Mi band 2 не учитывает секунд для будильника.</p>
+        <br>Будильник повторится несколько раз, если Band не заметит движения (из-за использования заводского будильника).
+        <br>С точностью до минут, Band не учитывает секунд для будильника.</p>
         <p>Для повтора уведомлений требуется Bluetooth-соединение.</p>
     ]]></string>
 
@@ -650,7 +656,7 @@
     <string name="theme_widget_touch_event_title">По нажатию</string>
 
     <string name="theme_notification_title">Отображение статуса подключения в уведомлении</string>
-    <string name="theme_notification_summary">Система Android принудительно останавливает приложение только при недостатке памяти. Если через некоторое время перестают приходить уведомления Mi Band 2, вы можете предотвратить это.</string>
+    <string name="theme_notification_summary">Система Android принудительно останавливает приложение только при недостатке памяти. Если через некоторое время перестают приходить уведомления Band, вы можете предотвратить это.</string>
     <string name="theme_notification_color_title">Цвет иконки</string>
     <string name="theme_notification_text_color_title">Цвет текста</string>
 
