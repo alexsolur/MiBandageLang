@@ -1,319 +1,325 @@
 <resources>
     <string name="app_name">Mi Bandage</string>
 
-    <string name="navigation_drawer_open">Apri menu navigazione</string>
-    <string name="navigation_drawer_close">Chiudi menu navigazione</string>
+    <string name="navigation_drawer_open">Buka laci navigasi</string>
+    <string name="navigation_drawer_close">Tutup laci navigasi</string>
 
-    <string name="drawer_nav_home">Bandages</string>
-    <string name="drawer_nav_notification">Notifiche</string>
-    <string name="drawer_nav_touch">Tocco</string>
-    <string name="drawer_nav_step">Attività</string>
-    <string name="drawer_nav_sleep">Sonno</string>
-    <string name="drawer_nav_pulse">Battiti</string>
-    <string name="drawer_nav_time">Timer</string>
-    <string name="drawer_nav_alarm">Smarrimento</string>
-    <string name="drawer_nav_disconnected_agent">Eventi</string>
+    <string name="drawer_nav_home">Beranda</string>
+    <string name="drawer_nav_notification">Pemantau pemberitahuan</string>
+    <string name="drawer_nav_touch">Pemantau sentuhan</string>
+    <string name="drawer_nav_step">Pemantau aktifitas</string>
+    <string name="drawer_nav_sleep">Tidur</string>
+    <string name="drawer_nav_pulse">Pemantau detak</string>
+    <string name="drawer_nav_time">Pemantau waktu</string>
+    <string name="drawer_nav_alarm">Pemantau kehilangan</string>
+    <string name="drawer_nav_disconnected_agent">Alat</string>
     <string name="drawer_nav_theme">Tema</string>
     <string name="drawer_nav_backup">Backup</string>
-    <string name="drawer_nav_rewarded_mode">Modalità Ricompensa</string>
-    <string name="drawer_nav_premium_mode">Modalità Premium</string>
-    <string name="drawer_nav_feedback">Feedback</string>
+    <string name="drawer_nav_rewarded_mode">Mode yang telah diraih</string>
+    <string name="drawer_nav_premium_mode">Mode premium</string>
+    <string name="drawer_nav_feedback">Umpan balik</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
-    <string name="shortcut_touch">Tocco</string>
-    <string name="shortcut_step">Attività</string>
-    <string name="shortcut_pulse">Battiti</string>
-    <string name="shortcut_time_alarm">Sveglia</string>
+    <string name="shortcut_touch">Sentuh</string>
+    <string name="shortcut_step">Aktifitas</string>
+    <string name="shortcut_pulse">Detak</string>
+    <string name="shortcut_time_alarm">Alarm</string>
 
     <!-- Foreground service, ongoing notification -->
-    <string name="foreground_service_connected">Tempo connessione: %1$s</string>
-    <string name="foreground_service_disconnected_text">Mi Band 2 non connessa</string>
-    <!--<string name="foreground_service_disconnected">Tempo disconnessione: %1$s</string>-->
+    <string name="foreground_service_connected">Waktu koneksi: %1$s</string>
+    <string name="foreground_service_disconnected_text">Band tidak terhubung</string>
+    <!--<string name="foreground_service_disconnected">Waktu terputus: %1$s</string>-->
 
     <!-- Strings related to Settings -->
-    <string name="settings_name">Impostazioni</string>
-    <string name="app_chooser">Scegli App</string>
-    <string name="info_name">Informazioni</string>
+    <string name="settings_name">Pengaturan</string>
+    <string name="app_chooser">Pemilih apl</string>
+    <string name="info_name">Informasi</string>
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Passi, distanza, calorie, obiettivo, battiti</string>
+    <string name="mi_band_tracker_title">Steps, distance, calories, goal, pulse</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Livello batteria, ultima ricarica, durata stimata rimanente</string>
-    <string name="mi_band_state_connected_disconnected_last_time">Potenza segnale, tempo dall\'ultima connessione e disconnessione</string>
-    <string name="mi_band_touch">Monitor tocchi</string>
-    <string name="mi_band_alarm">Prossimo allarme</string>
-    <string name="mi_band_bonded_device_name">Nome Mi Band 2 connessa</string>
-    <string name="mi_band_mac_address">MAC address</string>
-    <string name="mi_band_firmware">Firmware</string>
-    <string name="mi_band_hardware">Hardware</string>
+    <string name="mi_band_battery">Battery level, last charging time, estimated remaining time</string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI, last connection and disconnection time</string>
+    <string name="mi_band_touch">Touch monitoring</string>
+    <string name="mi_band_alarm">Next alarm</string>
+    <string name="mi_band_bonded_device_name">Nama perangkat pasangan Band</string>
+    <string name="mi_band_mac_address">Alamat MAC</string>
+    <string name="mi_band_firmware">Perangkat lunak</string>
+    <string name="mi_band_hardware">Perangkat keras</string>
 
-    <string name="mi_band_mac_address_invalid">MAC address non valido</string>
+    <string name="mi_band_mac_address_invalid">Alamat MAC tidak valid</string>
 
-    <string name="mi_band_battery_settings">Impostazioni batteria</string>
-    <string name="mi_band_battery_remaining">Durata stimata batteria al..</string>
-    <string name="mi_band_battery_notification">Notifica basso livello batteria</string>
-    <string name="mi_band_battery_notification_level">Basso livello batteria</string>
-    <string name="mi_band_battery_notification_repeat_interval">Intervallo ripetizione</string>
-    <string name="mi_band_battery_notification_shade">Notifica sul telefono</string>
-    <string name="mi_band_battery_notification_shade_ongoing">Notifica persistente (continua)</string>
-    <string name="mi_band_battery_notification_shade_message">Livello batteria minore del %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">Notifica sul braccialetto</string>
-    <string name="mi_band_battery_notification_mi_band_message">Batteria: %1$,d%%</string>
+    <string name="mi_band_state_title">Band settings</string>
+    <string name="mi_band_state_connected">Connected</string>
+    <string name="mi_band_state_disconnected">Disconnected</string>
+    <string name="mi_band_state_bonded">Paired device</string>
+    <string name="mi_band_state_not_bonded">Not paired device</string>
+
+    <string name="mi_band_battery_settings">Pengaturan baterau</string>
+    <string name="mi_band_battery_remaining">Perkiraan waktu baterai tersisa</string>
+    <string name="mi_band_battery_notification">Low battery level notification</string>
+    <string name="mi_band_battery_notification_level">Low battery level</string>
+    <string name="mi_band_battery_notification_repeat_interval">Repeat interval</string>
+    <string name="mi_band_battery_notification_shade">Notify on the phone</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Persistent (ongoing) notification</string>
+    <string name="mi_band_battery_notification_shade_message">Level baterai lemah %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Notify on the bracelet</string>
+    <string name="mi_band_battery_notification_mi_band_message">Battery: %1$,d%%</string>
 
     <!-- PreferenceScreen -->
-    <string name="pref_connected">Connessione</string>
-    <string name="pref_connected_summary">Imposta comportamento alla connessione dispositivo e Mi Band 2</string>
+    <string name="pref_connected">Koneksi</string>
+    <string name="pref_connected_summary">Pengaturan sinyal Band dan koneksi perangkat</string>
 
-    <string name="pref_connected_signals">Notifica connessione</string>
-    <string name="pref_connected_signals_summary">Abilitare o no notifica connessione Mi Band 2</string>
-    <string name="pref_cat_connected_signals_mi_band">Notifiche Mi Band 2</string>
-    <string name="pref_connected_mi_band_title">Vibrazione</string>
-    <string name="pref_cat_connected_signals">Notifica dispositivo</string>
-    <string name="pref_connected_wakelock_title">Accendi schermo dispositivo</string>
+    <string name="pref_connected_signals">Sinyal/Tanda koneksi</string>
+    <string name="pref_connected_signals_summary">Band sedang menghubungkan dan tidak ada notifikasi</string>
+    <string name="pref_cat_connected_signals_mi_band">Tanda Band</string>
+    <string name="pref_connected_mi_band_title">Bergetar</string>
+    <string name="pref_cat_connected_signals">Tanda pada perangkat</string>
+    <string name="pref_connected_wakelock_title">Nyalakan layar perangkat</string>
 
-    <string name="pref_connected_settings">Imposta connessione</string>
-    <string name="pref_connected_settings_summary">Impostazioni connessione Mi Band 2 e dispositivo</string>
-    <string name="pref_cat_connected_settings">Impostazioni dispositivo</string>
-    <string name="pref_connected_volume_title">Cambia volume</string>
-    <string name="pref_connected_volume_ring_title">Volume suoneria</string>
+    <string name="pref_connected_settings">Pengaturan koneksi</string>
+    <string name="pref_connected_settings_summary">Band dan pengaturan koneksi perangkat</string>
+    <string name="pref_cat_connected_settings">Pengaturan perangkat</string>
+    <string name="pref_connected_volume_title">Atur volume </string>
+    <string name="pref_connected_volume_ring_title">Volume dering</string>
 
-    <string name="pref_cat_connected_have_notif">Notifiche predefinite per app e Mi Band 2</string>
-    <string name="pref_cat_connected_have_notif_default">Impostazioni predefinite e personali</string>
-    <string name="pref_connected_have_notif_immediate_title">Notifica immediata alla ricezione</string>
-    <string name="pref_connected_have_notif_title">Notifica quando ti connetti al dispositivo</string>
-    <string name="pref_connected_have_notif_reminder_title">Promemoria notifica</string>
-    <string name="pref_connected_have_notif_screen_off_title">Notifica solo con schermo spento</string>
-    <string name="pref_connected_have_notif_interval_title">Intervallo promemoria notifica</string>
-    <string name="pref_connected_have_notif_counter_title">Numeri di notifiche</string>
-    <string name="pref_connected_have_notif_wakelock_title">Accendi schermo dispositivo</string>
-    <string name="pref_connected_have_notif_ongoing_title">Segnala notifiche continue (permanenti)</string>
-    <string name="pref_connected_have_notif_default_app_title">Notifiche app non riconosciute</string>
-    <string name="pref_connected_have_notif_default_app_summary_on">icona \'app\' (se l\'app non ha una icona predefinita o una personalizzata)</string>
-    <string name="pref_connected_have_notif_pre_signal_title">Prevedi notifica</string>
-    <string name="pref_connected_have_notif_pre_signal_summary_on">Notifica (clicca sull\'icona per cambiarla) prima di far vedere la notifica ricevuta per avere il tempo di guardare lo schermo</string>
+    <string name="pref_cat_connected_have_notif">Aplikasi yang telah ditentukan dan tanda Band</string>
+    <string name="pref_cat_connected_have_notif_default">Setelan standar dan kustomisasi</string>
+    <string name="pref_connected_have_notif_immediate_title">Nyalakan tanda langsung ketika ada pemberitahuan masuk</string>
+    <string name="pref_connected_have_notif_title">Tanda saat menghubungkan ke perangkat</string>
+    <string name="pref_connected_have_notif_reminder_title">Tanda pengingat</string>
+    <string name="pref_connected_have_notif_screen_off_title">Tanda saja ketika layar mati</string>
+    <string name="pref_connected_have_notif_interval_title">Jeda pengulangan pengingat</string>
+    <string name="pref_connected_have_notif_counter_title">Jumlah tanda</string>
+    <string name="pref_connected_have_notif_wakelock_title">Hidupkan layar perangkat</string>
+    <string name="pref_connected_have_notif_ongoing_title">Tanda pemberitahuan yang sedang berlangsung (permanen)</string>
+    <string name="pref_connected_have_notif_default_app_title">Tanda aplikasi tidak dikenal</string>
+    <string name="pref_connected_have_notif_default_app_summary_on">\'app\' ikon (jika aplikasi tidak ada di grup notifikasi standar dan tidak ditentukan)</string>
+    <string name="pref_connected_have_notif_pre_signal_title">Prediksi pemberitahuan</string>
+    <string name="pref_connected_have_notif_pre_signal_summary_on">Sinyal (klik pada icon untuk mengubahnya) sebelum notifikasi yang sebenarnya agar lebih banyak waktu untuk melihat tampilan</string>
 
-    <string name="pref_disconnected">Disconnessione</string>
-    <string name="pref_disconnected_summary">Imposta comportamento in caso di disconnessione tra dispositivo e Mi Band 2</string>
+    <string name="pref_disconnected">Pemutusan</string>
+    <string name="pref_disconnected_summary">Pengaturan Band dan pemutusan sinyal perangkat</string>
 
-    <string name="pref_disconnected_signals">Notifica disconnessione</string>
-    <string name="pref_disconnected_signals_summary">Notifica disconnessione tra Mi Band 2 e dispositivo, nessuna notifica quando viene spento manualmente il bluetooth</string>
-    <string name="pref_cat_disconnected_signals_mi_band">Segnale Mi Band 2</string>
-    <string name="pref_disconnected_mi_band_title">Mostra icona</string>
-    <string name="pref_cat_disconnected_signals">Notifiche dispositivo</string>
-    <string name="pref_disconnected_ringtone_title">Suoneria</string>
-    <string name="pref_disconnected_vibration_title">Vibrazione</string>
-    <string name="pref_disconnected_wakelock_title">Attiva display dispositivo</string>
+    <string name="pref_disconnected_signals">Tanda/sinyal perangkat terputus</string>
+    <string name="pref_disconnected_signals_summary">Band dan pengaturan pemutusan perangkat, tidak ada tanda/sinyal apabila Bluetooth dimatikan secara manual</string>
+    <string name="pref_cat_disconnected_signals_mi_band">Sinyal/Tanda Band</string>
+    <string name="pref_disconnected_mi_band_title">Penampilan ikon</string>
+    <string name="pref_cat_disconnected_signals">Sinyal/tanda perangkat</string>
+    <string name="pref_disconnected_ringtone_title">Nada dering</string>
+    <string name="pref_disconnected_vibration_title">Getaran</string>
+    <string name="pref_disconnected_wakelock_title">Hidupkan layar perangkat</string>
 
-    <string name="pref_disconnected_settings">Imposta disconnessione</string>
-    <string name="pref_disconnected_settings_summary">Imposta disconnesione tra Mi Band 2 e dispositivo</string>
-    <string name="pref_cat_disconnected_settings">Imposta dispositivo</string>
-    <string name="pref_disconnected_volume_title">Cambia volume</string>
-    <string name="pref_disconnected_volume_ring_title">Volume suoneria</string>
-    <string name="pref_disconnected_volume_adapter_title">Quando il Bluetooth è spento</string>
-    <string name="pref_disconnected_volume_adapter_summary_on">Modifica il volume</string>
-    <string name="pref_disconnected_volume_adapter_summary_off">Non modificare il volume</string>
+    <string name="pref_disconnected_settings">Pengaturan pemutusan sambungan</string>
+    <string name="pref_disconnected_settings_summary">Band dan pengaturan pemutusan perangkat</string>
+    <string name="pref_cat_disconnected_settings">Pengaturan perangkat</string>
+    <string name="pref_disconnected_volume_title">Atur volume</string>
+    <string name="pref_disconnected_volume_ring_title">Volume dering</string>
+    <string name="pref_disconnected_volume_adapter_title">When Bluetooth is turned off</string>
+    <string name="pref_disconnected_volume_adapter_summary_on">Adjust the volume</string>
+    <string name="pref_disconnected_volume_adapter_summary_off">Do not adjust the volume</string>
 
-    <string name="pref_cat_abandoned">Notifica su dispositivo</string>
-    <string name="pref_abandoned_notif_interval_title">Intervallo di notifica</string>
-    <string name="pref_abandoned_notif_text_summary">Messaggio di notifica sul dispositivo</string>
-    <string name="pref_abandoned_notif_text_text">Dispositivo smarrito, per favore contatta il numero:</string>
-    <string name="pref_abandoned_ringtone_title">Suoneria</string>
-    <string name="pref_abandoned_vibration_title">Vibrazione</string>
-    <string name="pref_abandoned_wakelock_title">Attiva il display</string>
-    <string name="pref_abandoned_notif_title">Dispositivo smarrito</string>
+    <string name="pref_cat_abandoned">Tanda perangkat</string>
+    <string name="pref_abandoned_notif_interval_title">Interval pengulangan sinyal</string>
+    <string name="pref_abandoned_notif_text_summary">Pemberitahuan pada layar perangkat</string>
+    <string name="pref_abandoned_notif_text_text">Perangkat hilang, tolong hubungi nomer dibawah ini:</string>
+    <string name="pref_abandoned_ringtone_title">Nada dering</string>
+    <string name="pref_abandoned_vibration_title">Getar</string>
+    <string name="pref_abandoned_wakelock_title">Bangunkan layar</string>
+    <string name="pref_abandoned_notif_title">Perangkat hilang</string>
 
-    <string name="pref_call">Chiamata</string>
-    <string name="pref_call_summary">Imposta notifiche su Mi Band 2</string>
-    <string name="pref_cat_call">Ricezione chiamate</string>
-    <string name="pref_call_title">Notifica chiamata in arrivo</string>
-    <string name="pref_call_summary_on">On (ricorda di disattivare la notifica per le chiamate ricevute dall\'app Mi Fit)</string>
-    <string name="pref_call_text_title">Mostra ID chiamante</string>
-    <string name="pref_call_text_summary_on"><![CDATA[On (maggiori dettagli: <i>Impostazioni/Impostazione icona con testi)</i>]]></string>
+    <string name="pref_call">Panggilan</string>
+    <string name="pref_call_summary">pengaturan tanda Band</string>
+    <string name="pref_cat_call">Panggilan masuk</string>
+    <string name="pref_call_title">Tanda panggilan masuk</string>
+    <string name="pref_call_summary_on">Aktif (jangan lupa mematikan tanda panggilan masuk pada apl Mi Fit)</string>
+    <string name="pref_call_text_title">Tampilkan identitas pemanggil</string>
+    <string name="pref_call_text_summary_on"><![CDATA[On (informasi lebih lanjut: <i>Pengaturan/Pengaturan ikon teks)</i>]]></string>
 
-    <string name="pref_call_net_text_title">ID chiamante per chiamate voip</string>
+    <string name="pref_call_net_text_title">Tanda panggilan internet masuk, tampilan identitas pemanggil</string>
     <string name="pref_call_net_text_summary_on">Viber, WhatsApp, Line</string>
 
-    <string name="pref_cat_call_missed">Chiamate perse</string>
-    <string name="pref_call_missed_title">Notifica chiamata persa</string>
+    <string name="pref_cat_call_missed">Panggilan tidak terjawab</string>
+    <string name="pref_call_missed_title">Tanda panggilan tidak terjawab</string>
 
-    <string name="pref_call_missed_net_title">Chiamate voip perse </string>
+    <string name="pref_call_missed_net_title">Tanda panggilan internet tak terjawab, tampilan identitas pemanggil</string>
     <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
 
-    <string name="pref_call_missed_alert_title">Notifica Mi Band 2</string>
+    <string name="pref_call_missed_alert_title">Sinyal/Tanda Band</string>
 
-    <string name="pref_call_missed_text_prefix_title">Testo identificativo: %1$s</string>
-    <string name="pref_call_missed_text_prefix_summary">Se più app usano la stessa icona usa questo testo per differenziarle</string>
-    <string name="pref_call_missed_text_prefix_dialog_title">Testo identificativo</string>
+    <string name="pref_call_missed_text_prefix_title">Awalan teks: %1$s</string>
+    <string name="pref_call_missed_text_prefix_summary">Jika lebih dari satu aplikasi juga menggunakan ikon untuk membedakan pemberitahuan satu sama lain</string>
+    <string name="pref_call_missed_text_prefix_dialog_title">Awalan teks</string>
 
-    <string name="pref_text_conversion">Icona con testi</string>
-    <string name="pref_text_conversion_summary">Imposta icona con testi su Mi Band 2</string>
-    <string name="pref_cat_text_conversion">Notifica Mi Band 2</string>
-    <string name="pref_text_conversion_title">Converti caratteri</string>
-    <string name="pref_text_conversion_summary_on">Converti caratteri non riconosciuti</string>
+    <string name="pref_text_conversion">Ikon teks</string>
+    <string name="pref_text_conversion_summary">Pengaturan ikon teks Band</string>
+    <string name="pref_cat_text_conversion">Tanda Band</string>
+    <string name="pref_text_conversion_title">Konversi karakter</string>
+    <string name="pref_text_conversion_summary_on">Karakter konversi tidak dikenal</string>
 
-    <string name="pref_text_conversion_description_title">Descrizione</string>
+    <string name="pref_text_conversion_description_title">Deskripsi</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
-        <p>Se la tua Mi Band 2 mostra già l\'ID del chiamante correttamente, non devi nessuno dei passaggi seguenti ma devi soltanto disattivare le notifiche sulle<i>Notifica Chiamate in arrivo</i> dell\'app Mi Fit.</p>
-        <p>Se non usi <i>Notifica Chiamate in arrivo</i> e se la lingua del tuo telefono non è impostata su \'Inglese\':
-        <br/>1. Imposta la lingua del telefono in Inglese.
-        <br/>2. Apri l\'app Mi Fit, aspetta che si aggiorni il firmware. Se l\'aggiornamento non si avvia, prova a riavviare lo smartphone.
-        <br/>3. Apri il menu <i>Profile/Mi Band 2/Incoming call</i>.
-        <br/>4. Attiva: <i>Turn on incoming call alerts</i>.
-        <br/>5. Attiva: <i>Show contact information</i>.
-        <br/>6. Verifica se la tua Mi Band 2 mostra l\'ID del chiamante provando a telefonarti.
-        <br/>7. Disattiva : <i>Turn on incoming call alerts</i> (<i>Show contact information</i> Rimane attivo).
-        <br/>8. Imposta nuovamente la lingua del telefono su Italiano.</p>]]>
+        <p>Jika Band Anda menampilkan nama pemanggil yang masuk saat ini, maka Anda tidak perlu melakukan langkah-langkah berikut. matikan saja <i>Peringatan panggilan masuk</i> pada Mi Fit.</p>
+        <p>Jika Anda tida menggunakan <i>Peringatan panggilan masuk</i> dan bahasa telepon bukan bahasa Inggris:
+        <br/>1. Ubah bahasa ke Bahasa Inggris.
+        <br/>2. Buka aplikasi Mi Fit, tunggu sampai update firmware font selesai. Jika update firmware tidak dimulai, coba reboot ponsel Anda..
+        <br/>3. Buka <i>Mainkan/Panggilan masuk</i> menu.
+        <br/>4. Aktifkan: <i>Aktifkan peringatan panggilan masuk</i>.
+        <br/>5. Aktifkan: <i>Tampilkan informasi kontak</i>.
+        <br/>6. Periksa apakah Band Anda bisa menampilkan nama pemanggil dengan menghubungi telepon Anda.
+        <br/>7. Matikan: <i>Aktifkan peringatan panggilan masuk</i> (<i>Show contact information</i> stays on).
+        <br/>8. Atur ulang bahasa telepon ke bahasa Anda.</p>]]>
     </string>
 
-    <string name="pref_touch">Controllo tocco</string>
-    <string name="pref_cat_touch">Notifica Mi Band 2</string>
-    <string name="pref_touch_recognised_failed_title">Notifica sequenza tocco non riconosciuta</string>
-    <string name="pref_touch_recognised_failed_summary_on">On (vibra 2 volte dopo la sequenza di tocchi)</string>
+    <string name="pref_touch">Pemantau sentuhan</string>
+    <string name="pref_cat_touch">Tanda Band</string>
+    <string name="pref_touch_recognised_failed_title">Sinyal pola sentuh tidak dikenali</string>
+    <string name="pref_touch_recognised_failed_summary_on">Aktif (2 getaran setelah pola terpanjang)</string>
 
-    <string name="pref_mi_band">Mi Band 2</string>
-    <string name="pref_cat_mi_band_lift_wrist">Solleva il polso per visualizzare le info</string>
-    <string name="pref_mi_band_lift_wrist_title">Solleva il polso per visualizzare le info</string>
-    <string name="pref_mi_band_lift_wrist_dnd_title">Modalità non disturbare</string>
-    <string name="pref_mi_band_lift_wrist_dnd_summary_on">On (nel periodo specificato non mostra le info, richiesta connessione Bluetooth)</string>
+    <string name="pref_mi_band">Band</string>
+    <string name="pref_cat_mi_band_lift_wrist">Angkat lengan untuk melihat info</string>
+    <string name="pref_mi_band_lift_wrist_title">Angkat lengan untuk melihat info</string>
+    <string name="pref_mi_band_lift_wrist_dnd_title">Mode jangan ganggu</string>
+    <string name="pref_mi_band_lift_wrist_dnd_summary_on">Aktif (informasi tidak ditampilkan untuk beberapa saat, pengaturan membutuhkan koneksi Bluetooth,)</string>
 
-    <string name="pref_language">Lingua</string>
-    <string name="pref_cat_language">Lingua</string>
-    <string name="pref_language_title">Lingua</string>
+    <string name="pref_language">Bahasa</string>
+    <string name="pref_cat_language">Bahasa</string>
+    <string name="pref_language_title">Bahasa</string>
 
     <!-- Quick switch -->
-    <string name="details">Dettagli</string>
+    <string name="details">Rincian</string>
     <string name="bandages">Bandages</string>
-    <string name="connected">Segnala connessione e notifica</string>
-    <string name="disconnected">Segnala disconnessione e eventi</string>
-    <string name="touch">Monitor tocchi</string>
+    <string name="connected">Sinyal koneksi dan pemberitahuan</string>
+    <string name="disconnected">Pemutusan dan pengantar sinyal</string>
+    <string name="touch">Pemantau sentuhan</string>
 
-    <string name="pref_dnd_title">Modalità non disturbare</string>
-    <string name="pref_dnd_remember_state_summary">Alla fine della modalità non distrurbare, riattiva tutte le bandages o ripristina il tutto allo stato precedente all\'ora di attivazione</string>
-    <string name="pref_dnd_remember_state_on_title">Alla fine ripristina lo stato delle bandages</string>
-    <string name="pref_dnd_remember_state_off_title">Alla fine riattiva tutte le bandages</string>
-    <string name="pref_dnd_enable_bluetooth">Spegni Bluetooth all\'avvio della modalità non disturbare, e riaccendilo alla fine di essa</string>
+    <string name="pref_dnd_title">Mode jangan ganggu</string>
+    <string name="pref_dnd_remember_state_summary">Pada akhir mode jangan ganggu, aktifkan semua balutan atau pulihkan keadaan seperti semula pada saat mulai</string>
+    <string name="pref_dnd_remember_state_on_title">Keadaan pada akhir pemulihan balutan</string>
+    <string name="pref_dnd_remember_state_off_title">Aktifkan semua balutan di akhir</string>
+    <string name="pref_dnd_enable_bluetooth">Matikan Bluetooth pada permulaan mode jangan ganggu, dan hidupkan kembali setelah mode jangan ganggu berakhir</string>
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Per favore attiva il Bluetooth e tieni vicino la Mi Band 2</string>
-    <string name="message_discover_mi_band">Mi Band 2 non configurata, per favore esegui l\'accoppiamento</string>
-    <string name="message_discovered_mi_band">Mi Band 2 trovata</string>
-    <string name="message_discovering_mi_band">Ricerca Mi Band 2 (può richiedere 1 minuto) &#8230;</string>
-    <string name="message_discovered_no_mi_band">Mi Band 2 non trovata</string>
-    <string name="message_discovered_not_found_mi_band">Se la Mi Band 2 non viene trovata, Attiva: Mi Fit/Funzioni/Rilevabile oppure effettua l\'accoppiamento nelle impostazioni bluetooth</string>
-    <string name="message_enable_notification_listener_access">Abilita accesso notifiche: Impostazioni/Notifiche/Accesso notifiche</string>
-    <string name="message_enable_notification_listener_access_4_4">Abilita accesso notifiche: Impostazioni/Sicurezza/Accesso notifiche</string>
-    <string name="message_enable_notification_policy_access">Abilita accesso alla Modalità Non Disturbare</string>
-    <string name="message_open_settings">Impostazioni</string>
+    <string name="message_enable_bluetooth">Aktifkan Bluetooth dan dekatkan perangkat Band ke telepon</string>
+    <string name="message_discover_mi_band">Band belum diatur, sambungkan terlebih dahulu</string>
+    <string name="message_discovered_mi_band">Band Tersambung</string>
+    <string name="message_discovering_mi_band">Menyambungkan Band (mungkin memerlukan 1 menit) &#8230;</string>
+    <string name="message_discovered_no_mi_band">Band tidak ditemukan</string>
+    <string name="message_discovered_not_found_mi_band">Jika Band tidak ditemukan, nyalakan: Mi Fit - Mainkan - tidak dapat ditemukan atau sandingkan perangkat di pengaturan Bluetooth</string>
+    <string name="message_enable_notification_listener_access">Aktifkan akses notifikasi: Pengaturan - Pemberitahuan - Akses notifikasi</string>
+    <string name="message_enable_notification_listener_access_4_4">Aktifkan akses notifikasi: Pengaturan - Keamanan - Akses notifikasi</string>
+    <string name="message_enable_notification_policy_access">Aktifkan akses mode jangan ganggu</string>
+    <string name="message_open_settings">Pengaturan</string>
 
-    <string name="message_deleted">Cancella</string>
-    <string name="message_undo">Annulla</string>
+    <string name="message_deleted">Terhapus</string>
+    <string name="message_undo">Ulang</string>
 
-    <string name="message_app_chooser_no_selected">Scegli un\'applicazione</string>
+    <string name="message_app_chooser_no_selected">Pilih aplikasi</string>
 
-    <string name="message_notification_free_groups">In modalità free puoi settare massimo 6 gruppi</string>
+    <string name="message_notification_free_groups">Mode normal dapat menggunakan hingga 6 grup</string>
 
-    <string name="message_step_goal_free_values">In modalità free puoi settare massimo 3 valori</string>
-    <string name="message_step_goal_max_values">Puoi settare massimo 10 valori</string>
+    <string name="message_step_goal_free_values">Mode normal dapat mengatur hingga 3 nilai</string>
+    <string name="message_step_goal_max_values">Hanya dapat mengatur maksimal 10 nilai</string>
 
-    <string name="message_touch_no_patterns">Premi uno dei tasti rossi di registrazione</string>
-    <string name="message_touch_record">Registra la combinazione di tocchi usando il tasto della Mi Band 2</string>
-    <string name="message_touch_pattern_error">La combinazione usata è simile ad un\'altra , registrane una diversa.</string>
-    <string name="message_touch_free_patterns">In modalità free puoi usare massimo 3 funzioni</string>
-    <string name="message_touch_music_player_not_found">Lettore Musicale non trovato</string>
-    <string name="message_touch_app_launcher1_not_set">App non impostata</string>
-    <string name="message_touch_app_launcher1_not_found">App non trovata: %1$s</string>
-    <string name="message_touch_tasker_launcher_not_set">Comando Tasker non impostato</string>
+    <string name="message_touch_no_patterns">Tekan salah satu dari tombol rekaman pola merah</string>
+    <string name="message_touch_record">Rekam pola dengan menggunakan tombol sentuh Band</string>
+    <string name="message_touch_pattern_error">Pola yang ditentukan mirip dengan contoh fungsi lain, rekam yang lain</string>
+    <string name="message_touch_free_patterns">Mode normal hanya bisa menggunakan hingga 3 fungsi</string>
+    <string name="message_touch_music_player_not_found">Pemutar musik tidak tersedia</string>
+    <string name="message_touch_app_launcher1_not_set">Apl belum diatur</string>
+    <string name="message_touch_app_launcher1_not_found">Apl tidak ditemukan: %1$s</string>
+    <string name="message_touch_tasker_launcher_not_set">Kegiatan Tasker belum diatur</string>
 
-    <string name="message_notification_group_has_no_entry">Seleziona applicazioni usando il tasto verde \'+\' in basso a destra della scheda</string>
+    <string name="message_notification_group_has_no_entry">Pilih aplikasi dengan tombol hijau di bagian kanan bawah \'+\' pada kartu</string>
 
-    <string name="message_time_alarm_free_counter">In modalità free possono essere usate massimo 2 sveglie</string>
-    <string name="message_time_alarm_max_counter">Possono essere usate massimo 5 sveglie</string>
-    <string name="message_time_alarm_enabled">Sveglia attivata</string>
-    <string name="message_time_alarm_disabled">Sveglia disattivata</string>
-    <string name="message_time_alarm_mi_band_off">Disattiva sveglia</string>
+    <string name="message_time_alarm_free_counter">Mode normal hanya bisa menggunakan sampai 2 alarm</string>
+    <string name="message_time_alarm_max_counter">Maksimal 5 alarm yang bisa digunakan</string>
+    <string name="message_time_alarm_enabled">Alarm diaktifkan</string>
+    <string name="message_time_alarm_disabled">Alarm dimatikan</string>
+    <string name="message_time_alarm_mi_band_off">Alarm off</string>
 
-    <string name="message_alarm_free_interval">Intervalli di ripetizione minori possono essere usati solo in modalità premium</string>
-    <string name="message_alarm_mi_band_set_failed">Impostazione allarme fallito</string>
-    <string name="message_alarm_mi_band_clear_failed">Cancellazione allarme fallito</string>
+    <string name="message_alarm_free_interval">Interval berulang yang lebih kecil hanya bisa diatur dalam mode premium</string>
+    <string name="message_alarm_mi_band_set_failed">Pengaturan alarm gagal</string>
+    <string name="message_alarm_mi_band_clear_failed">Penghapusan alarm gagal</string>
 
-    <string name="message_premium_mode_only">Questa funzione è disponibile solo in verione premium</string>
-    <string name="message_general_error">Impostazione fallita (connessione persa), riprova</string>
-    <string name="message_internet_error">Manca connessione internet</string>
+    <string name="message_premium_mode_only">Fitur ini hanya tersedia di mode premium</string>
+    <string name="message_general_error">Pengaturan gagal (koneksi hilang), coba lagi</string>
+    <string name="message_internet_error">Tidak ada koneksi internet</string>
 
-    <string name="message_in_progress">In corso…</string>
+    <string name="message_in_progress">In progress…</string>
 
     <!-- Dialog -->
-    <string name="dialog_welcome_title">Benvenuto!</string>
-    <string name="dialog_welcome_message"><![CDATA[Quest\'app supporta solo Mi Band 2.
-    <p>Mi Bandage richiede l\'installazione dell\'app ufficiale Mi Fit sullo stesso dispositivo. Per prima cosa devi collegare la Mi Band 2 nell\'app Mi Fit, dopo puoi usare Mi Bandage.</p>
-    <p>Se usi altre applicazioni per controllare Mi Band 2, interferiranno tra di loro quindi disattivale temporaneamente.</p>
-    <p>Se la Mi Band 2 non viene trovata, puoi impostare manualmente l\'indirizzo MAC dal menu dettagli (puoi trovare l\'indirizzo MAC in: Mi Fit/Profilo/Mi Band 2).</p>
-    <p><b>Se la Mi Band 2 non viene trovata o da problemi con l\'app Mi Fit, Prova installando BToolkit, nRF Connect o app simili per la gestione Bluetooth e rimuovi ogni dispositivo accoppiato.</b></p>
+    <string name="dialog_welcome_title">Selamat Datang!</string>
+    <string name="dialog_welcome_message"><![CDATA[Untuk saat ini, aplikasi ini hanya mendukung Band.
+    <p>Mi Bandage membutuhkan aplikasi Mi Fit (asli) yang telah terpasang di perangkat yang sama. Pertama tama, mungkin anda perlu untuk menghubungkan Band ke Aplikasi Mi Fit, lalu anda baru bisa memakai Mi Bandage.</p>
+    <p>Jika anda menggunakan aplikasi lebih untuk mengontrol Band, mungkin aplikasi-aplikasi tersebut akan saling ganggu, jadi untuk sementara harap mematikan apl-apl tersebut.</p>
+    <p>Jika Band tidak terdeteksi, anda bisa mengatur alamat MAC secara manual pada menu rincian/lanjutan (Alamat MAC dapat di temukan di : Mi Fit - Profil - Band).</p>
+    <p><b>Jika Band masih tidak terdeteksi atau anda memiliki masalah sinkronisasi pada aplikasi Mi Fit, pasanglah apl BToolkit, nRF Connect atau apl-apl manajer bluetooth lainnya, kemudian hapus pair/sambungan dari semua perangkat, lalu coba sambungkan kembali.</b></p>
     <p><b>MIUI:</b>
-    <br>- Schermata app recenti: blocca Mi Bandage (tira già l\'app e clicca sull\'icona del lucchetto).
-    <br>- Schermata sicurezza: impostare Mi Bandage senza restrinzioni nella schermata batteria/app risparmio batteria.</p>
-    <p>Se hai problemi (trovare la Mi Band 2, non ricevere notifiche), prova:
-    <br>1. Se hai installato Greenify (o altre app per ibernare) prova a disattivarle.
-    <br>2. Installa l\'app Mi Bandage.
-    <br>3. Riavvia lo smartphone.
-    <br>4. Spegni e riaccendi il Bluetooth.
-    <br>5. Apri l\'app Mi Fit, aspetta fino all\'avvenuta sincronizzazione e poi chiudila.
-    <br>6. Apri l\'app Mi Bandage, tocca il tasto verde di ricerca.</p>]]></string>
+    <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
+    <br>- Security app screen: battery/app battery saver set Mi Bandage app to no restriction.</p>
+    <p>Jika ada masalah (Band, tidak mendapatkan sinyal pemberitahuan), silahkan coba beberapa tips berikut:
+    <br>1. Jika sudah memasang Greenify (atau aplikasi yang sejenis itu) coba matikan.
+    <br>2. Pasang apl Mi Bandage.
+    <br>3. Nyalakan ulang perangkat.
+    <br>4. Matikan, hidupkan bluetooth.
+    <br>5. Buka Mi Fit, tunggu hingga sinkronisasi selesai, kemudian tutup apl tersebut.
+    <br>6. Buka Mi Bandage, klik tombol temukan yang berwarna hijau.</p>]]></string>
 
     <!-- Diagnostic -->
-    <string name="diagnostic_title">Diagnostica</string>
+    <string name="diagnostic_title">Diagnostic</string>
 
-    <string name="diagnostic_permissions_title">Permessi</string>
+    <string name="diagnostic_permissions_title">Permissions</string>
 
-    <string name="diagnostic_access_title">Accessi</string>
-    <string name="diagnostic_access_do_not_disturb">Accesso non disturbare</string>
-    <string name="diagnostic_access_notification">Accesso notifiche</string>
+    <string name="diagnostic_access_title">Access</string>
+    <string name="diagnostic_access_do_not_disturb">Do not Disturb access</string>
+    <string name="diagnostic_access_notification">Notification access</string>
 
-    <string name="diagnostic_protection_title">Protezioni contro chiusura</string>
-    <string name="diagnostic_protection_battery">Ottimizzazione batteria disattivato</string>
-    <string name="diagnostic_protection_service">Mostra stato app come notifica persistente</string>
-    <string name="diagnostic_protection_lock">Blocca nel menù delle app recenti</string>
+    <string name="diagnostic_protection_title">Protection against closing</string>
+    <string name="diagnostic_protection_battery">Battery optimisation off</string>
+    <string name="diagnostic_protection_service">Tampilkan status dipanel pemberitahuan</string>
+    <string name="diagnostic_protection_lock">Lock on the recent apps screen</string>
 
     <!-- Notification  -->
-    <string name="notification_tab_settings">Impostazioni</string>
-    <string name="notification_tab_custom">Notifiche personalizzate</string>
+    <string name="notification_tab_settings">Atur</string>
+    <string name="notification_tab_custom">Penyesuaian pemberitahuan</string>
 
     <!-- Notification Dialog -->
-    <string name="notification_group_name">Nome</string>
-    <string name="notification_group_monitoring">Abilita notifiche</string>
-    <string name="notification_group_monitoring_disabled">Disabilita notifiche (non mostrare le notifiche dell\'applicazioni)</string>
-    <string name="notification_group_alert_title">Tipo notifica Mi Band 2</string>
-    <string name="notification_group_text_title">Titolo</string>
-    <string name="notification_group_text_content">Contenuto</string>
-    <string name="notification_group_pre_alert">Pre icona</string>
-    <string name="notification_group_prefix">Testo identificativo</string>
-    <string name="notification_group_pre_signal_title">Predizione predefinita di notifica</string>
-    <string name="notification_group_pre_only_premium">Solo in versione premium</string>
-    <string name="notification_group_immediate">Segnala immediatamente alla ricezione della notifica</string>
-    <string name="notification_group_connecting">Quando connesso al dispositivo</string>
-    <string name="notification_group_reminder">Promemoria notifica</string>
-    <string name="notification_group_screen_off">Notifica solo a schermo spento</string>
-    <string name="notification_group_counter_title">Numero di notifiche</string>
-    <string name="notification_group_wakelock">Attiva schermo dispositivo</string>
-    <string name="notification_group_filter">Filtra notifiche</string>
-    <string name="notification_group_filter_title">Filtra titolo</string>
-    <string name="notification_group_filter_content">Filtra contenuto</string>
-    <string name="notification_group_filter_hint">Segnala solo quando il titolo o il contenuto della notifica (vai a capo per mettere più frasi; nessuna distione tra maiuscole e minuscole)</string>
-    <string name="notification_group_filter_contains">Solo se contiene:</string>
-    <string name="notification_group_filter_not_contains">Tutte tranne:</string>
+    <string name="notification_group_name">Nama</string>
+    <string name="notification_group_monitoring">Pemantau pemberitahuan</string>
+    <string name="notification_group_monitoring_disabled">Matikan pemberitahuan (sembunyikan pemberitahuan aplikasi)</string>
+    <string name="notification_group_alert_title">Tanda Band</string>
+    <string name="notification_group_text_title">Judul</string>
+    <string name="notification_group_text_content">Isi</string>
+    <string name="notification_group_pre_alert">Ikon awal</string>
+    <string name="notification_group_prefix">Awalan teks</string>
+    <string name="notification_group_pre_signal_title">Prediksi pemberitahuan default</string>
+    <string name="notification_group_pre_only_premium">Hanya mode premium</string>
+    <string name="notification_group_immediate">Nyalakan tanda langsung ketika ada pemberitahuan masuk</string>
+    <string name="notification_group_connecting">Saat menyambungkan perangkat</string>
+    <string name="notification_group_reminder">Tanda pengingat</string>
+    <string name="notification_group_screen_off">Tanda saja ketika layar mati</string>
+    <string name="notification_group_counter_title">Jumlah tanda</string>
+    <string name="notification_group_wakelock">Hidupkan layar perangkat</string>
+    <string name="notification_group_filter">Menyaring pemberitahuan</string>
+    <string name="notification_group_filter_title">Title filtering</string>
+    <string name="notification_group_filter_content">Content filtering</string>
+    <string name="notification_group_filter_hint">Tanda saja ketika ada pemberitahuan (batas: enter, case insensitive)</string>
+    <string name="notification_group_filter_contains">Berisi frase apapun</string>
+    <string name="notification_group_filter_not_contains">Tidak mengandung frase</string>
 
-    <string name="notification_group_sample_sms">Visualizza testo SMS</string>
-    <string name="notification_group_sample_facebook">Visualizza testo Facebook</string>
-    <string name="notification_group_sample_whatsapp">Visualizza testo WhatsApp</string>
+    <string name="notification_group_sample_sms">Tampilkan pesan SMS</string>
+    <string name="notification_group_sample_facebook">Tampilkan pesan Facebook</string>
+    <string name="notification_group_sample_whatsapp">Tampilkan pesan WhatsApp</string>
 
     <!-- Notification info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Icone predefinite in Mi Band 2:
-        <br><img src="ALERT_MESSAGE_TEXT">  chiamate perse
+    <string name="info_dialog_notification"><![CDATA[Aplikasi yang telah ditentukan sebelumnya dan tanda ikon Band:
+        <br><img src="ALERT_MESSAGE_TEXT">  panggilan tak terjawab
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  Email, Gmail
-        <br><img src="ALERT_CALENDAR">  Calendario Google
+        <br><img src="ALERT_CALENDAR">  Google Calendar
         <br><img src="ALERT_HANGOUTS">  Hangouts
         <br><img src="ALERT_MESSENGER">  Messenger
         <br><img src="ALERT_SKYPE">  Skype
@@ -336,460 +342,460 @@
         <br><img src="ALERT_ALIPAY">  AliPay
         <br><img src="ALERT_QZONE">  QZone
         <br><img src="ALERT_DINGTALK">  DingTalk
-        <br><img src="ALERT_APP">  altro
+        <br><img src="ALERT_APP">  lainnya
 
-        <p>Devi disattivare le notifiche delle app nell\'app ufficiale Mi Fit.</p>
-        <p>Il gruppo di notifiche creato da te, ha priorità maggiore sulle predefinite.</p>
-        <p><img src="ALERT_MESSAGE_TEXT"> icona: sceglie questa icona per mostrare titolo e contenuto.</p>
-        <p>Se vuoi usare l\'app predefinita, ma vuoi disattivare qualche notifica, crea un nuovo gruppo con impostato <i>disabilita notifiche</i> e aggiungi le app.</p>
+        <p>You have to disable app alert in the Mi Fit app.</p>
+        <p>Grup notifikasi yang Anda buat memiliki prioritas lebih daripada yang ditentukan sebelumnya.</p>
+        <p><img src="ALERT_MESSAGE_TEXT"> Ikon: pilih ikon ini untuk menampilkan judul/konten pemberitahuan.</p>
+        <p>Jika Anda menggunakan aplikasi yang telah ditentukan sebelumnya, namun ingin menonaktifkan beberapa notifikasi, buat grup notifikasi baru dengan <i>mematikan pengaturan notifikasi</i> dan menambahkan aplikasi.</p>
         ]]>
     </string>
         <!--<p>Predefined signals can be disabled: <i>Connection and notification settings/Have notification</i>.</p>-->
 
     <!-- MiBandageApp chooser dialog -->
-    <string name="action_search">Cerca</string>
-    <string name="action_filter_notification">Filtra notifiche</string>
+    <string name="action_search">Cari</string>
+    <string name="action_filter_notification">Notification filter</string>
 
     <!-- Touch monitoring -->
-    <string name="touch_headline_call_title">Controllo chiamata</string>
-    <string name="touch_headline_music_title">Controllo musica</string>
-    <string name="touch_headline_time_title">Controlla Timer/Cronometro</string>
-    <string name="touch_headline_other_title">Altri controlli</string>
+    <string name="touch_headline_call_title">Kontrol panggilan</string>
+    <string name="touch_headline_music_title">Kontrol musik</string>
+    <string name="touch_headline_time_title">Kontrol Timer/stopwatch</string>
+    <string name="touch_headline_other_title">Kontrol lain</string>
 
-    <string name="touch_device_location_title">Trova il mio dispositivo</string>
+    <string name="touch_device_location_title">Temukan perangkat saya</string>
 
-    <string name="touch_call_answer_title">Rispondi alle chiamate</string>
-    <string name="touch_call_answer_speakerphone_title">Vivavoce telefono</string>
+    <string name="touch_call_answer_title">Jawab panggilan</string>
+    <string name="touch_call_answer_speakerphone_title">Pengeras suara telpon</string>
 
-    <string name="touch_call_end_title">Rifiuta e chiudi chiamate</string>
+    <string name="touch_call_end_title">Tolak panggilan, berakhir</string>
 
-    <string name="touch_call_mute_title">Attiva muto nelle chiamate</string>
+    <string name="touch_call_mute_title">Tombol bisukan panggilan</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Only if you have an incoming call</string>
 
-    <string name="touch_device_location_not_muted_only_title">Suona solo se non silenziato</string>
+    <string name="touch_device_location_not_muted_only_title">Suara saja ketika tidak dibisukan</string>
 
-    <string name="touch_repeat_notif_title">Ripeti notifiche</string>
-    <string name="touch_repeat_notif_clear_all">Cancella tutte le notifiche dopo la ripetizione</string>
+    <string name="touch_repeat_notif_title">Ulangi notifikasi</string>
+    <string name="touch_repeat_notif_clear_all">Clear all notifications after repetition</string>
 
-    <string name="touch_clear_notif_title">Cancella notifiche</string>
+    <string name="touch_clear_notif_title">Clear notifications</string>
 
-    <string name="touch_music_play_pause_title">Avvia, pausa musica</string>
-    <string name="touch_music_skip_previous_title">Canzone precedente</string>
-    <string name="touch_music_skip_next_title">Canzone successiva</string>
-    <string name="touch_music_headset_only_title">Solo con cuffie collegate</string>
-    <string name="touch_music_volume_up_title">Alza volume musica</string>
-    <string name="touch_music_volume_down_title">Abbassa volume musica</string>
-    <string name="touch_music_track_info_title">Mostra musica in ascolto.</string>
+    <string name="touch_music_play_pause_title">Mulai musik, mainkan, jeda</string>
+    <string name="touch_music_skip_previous_title">Mulai musik, lagu sebelumnya</string>
+    <string name="touch_music_skip_next_title">Mulai musik, lagu selanjutnya</string>
+    <string name="touch_music_headset_only_title">Hanya jika headset tersambung</string>
+    <string name="touch_music_volume_up_title">Volume musik naik</string>
+    <string name="touch_music_volume_down_title">Volume musik turun</string>
+    <string name="touch_music_track_info_title">Tampilkan info musik.</string>
 
-    <string name="touch_time_launch_title">Inizia monitoraggio tempo</string>
+    <string name="touch_time_launch_title">Mulai pemantauan waktu</string>
     <string name="touch_time_launch_type_timer_title">Timer</string>
-    <string name="touch_time_launch_type_stopper_title">Cronometro</string>
-    <string name="touch_time_launch_type_interval_title">Intervallo</string>
-    <string name="touch_time_launch_restart">Resetta se già in corso</string>
-    <string name="touch_time_reminder_title">Mostra tempo rimasto/passato</string>
+    <string name="touch_time_launch_type_stopper_title">Stopwatch</string>
+    <string name="touch_time_launch_type_interval_title">Interval</string>
+    <string name="touch_time_launch_restart">Restart if it is in progress</string>
+    <string name="touch_time_reminder_title">Tampilkan waktu sisa/berlalu</string>
 
-    <string name="touch_app_launcher1_title">Avvia app</string>
-    <string name="touch_app_launcher_package_no_title">Seleziona applicazione</string>
-    <string name="touch_app_launcher1_not_wakelock_only_title">Solo con schermo sbloccato</string>
+    <string name="touch_app_launcher1_title">Peluncur apl</string>
+    <string name="touch_app_launcher_package_no_title">Pilih aplikasi</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Hanya jika layar tidak terkunci</string>
 
-    <string name="touch_tasker_launcher1_title">1. Avvia Task di Tasker</string>
-    <string name="touch_tasker_launcher2_title">2. Avvia Task di Tasker</string>
-    <string name="touch_tasker_launcher_no_permission_title">Devi prima installare Tasker, dopo Mi Bandage</string>
-    <string name="touch_tasker_launcher_no_access_title">Permetti accessi esterni</string>
-    <string name="touch_tasker_launcher_no_task_title">Seleziona un task</string>
+    <string name="touch_tasker_launcher1_title">1. Tasker peluncur kegiatan</string>
+    <string name="touch_tasker_launcher2_title">2. Tasker peluncur kegiatan</string>
+    <string name="touch_tasker_launcher_no_permission_title">Anda harus memasang Tasker terlebih dahulu, lalu Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">Ijinkan akses eksternal</string>
+    <string name="touch_tasker_launcher_no_task_title">Pilih kegiatan</string>
 
-    <string name="touch_testing_title">Controllo tocchi</string>
+    <string name="touch_testing_title">Pemantau sentuhan</string>
 
-    <string name="touch_tab_settings">Impostazioni</string>
-    <string name="touch_tab_testing">Area Test</string>
+    <string name="touch_tab_settings">Atur</string>
+    <string name="touch_tab_testing">Coba</string>
 
-    <string name="touch_testing_second">sec.</string>
+    <string name="touch_testing_second">det.</string>
 
     <!-- Touch monitoring info dialog -->
-    <string name="info_dialog_touch"><![CDATA[Il tocco è valido quando il display della Mi Band 2 cambia (quindi conviene prima alzare il polso per attivare il display prima di iniziare a toccare).
-        <p>Controlla il tempo passato tra i tocchi, non il tempo passato per il primo tocco.</p>
-        <p>L\'icona verde sulla scheda indica possibili conflitti con altre funzioni.</p>
-        <p>Quando ricevi una chiamata il dispositivo non riconosce le seguenti funzioni per facilitare l\'interazione col tocco: localizzazione dispositivo, ripeti notifiche, controlla musica.</p>
-        <p>In area test le funzioni riconosciute non verranno eseguite.</p>
-        <p>Mi Band 2 vibra al tocco solo se hai impostato dei tocchi (risposta alla chiamata, rifiuta solo se c\'è una chiamata in arrivo…).</p>
-        <p>Mi Band 2 vibra una volta, quando riconosce il comando.</p>
-        <p>Mi Band 2 vibra due volte, quando non riconosce il comando (se attivi <i>Vibra quando non riconosci comando</i> is set).</p>
-        <p>Esempi di tocchi validi:
-        <br>- tocco
-        <br>- tocco e aspetta 1sec, tocco
-        <br>- tocco e aspetta 1sec, tocco e aspetta 1sec, tocco
-        <br>- tocco e aspetta 2sec, tocco
-        <br>- tocco e aspetta 2sec, tocco e aspetta 1sec, tocco
-        <br>- tocco e aspetta 2sec, tocco e aspetta 2sec, tocco
+    <string name="info_dialog_touch"><![CDATA[Sentuhan ini berlaku saat tampilan Band berubah (jadi sebaiknya putar pergelangan tangan sebelum menyentuh).
+        <p>Fitur ini memantau waktu antar sentuhan, bukan waktu sentuhan pertama.</p>
+        <p>Ikon hijau pada kartu mengindikasikan dimana fungsi lain bisa sama dengan pola saat ini.</p>
+        <p>Ketika anda menerima panggilan masuk perangkat tidak mengenali fungsi berikut untuk memudahkan masukan sentuh: lokasi perangkat, pengulangan pemberitahuan, kontrol musik.</p>
+        <p>Pola tersimpan tidak berjalan pada mode uji coba.</p>
+        <p>Hanya getaran umpan balik Band, jika ada pola yang memperhitungkan status perangkat saat ini (jawab panggilan, menolak hanya jika ada panggilan masuk …).</p>
+        <p>Band bergetar sekali, ketika pola terdeteksi.</p>
+        <p>Band bergetar 2 kali, ketika pola tidak terdeteksi setelah pola terpanjang (jika <i>tanda pola tidak terdeteksi</i> telah diatur).</p>
+        <p>Contoh sentuhan yang valid:
+        <br>- sentuh
+        <br>- sentuh dan tunggu 1 detik, sentuh
+        <br>- sentuh dan tunggu 1 detik, sentuh dan tunggu 1 detik, sentuh
+        <br>- sentuh dan tunggu 2 detik, sentuh
+        <br>- sentuh dan tunggu 2 detik, sentuh dan tunggu 1 detik, sentuh
+        <br>- sentuh dan tunggu 2 detik, sentuh dan tunggu 2 detik, sentuh
         </p>
     ]]></string>
 
     <!-- Step monitoring -->
-    <string name="action_tracker_step">Passi</string>
-    <string name="action_tracker_distance">Distanza</string>
-    <string name="action_tracker_calorie">Calorie</string>
-    <string name="action_chart_filter_activity_no">Nessun filtro</string>
-    <string name="action_chart_filter_activity_active">Filtra movimenti</string>
+    <string name="action_tracker_step">Langkah</string>
+    <string name="action_tracker_distance">Jarak</string>
+    <string name="action_tracker_calorie">Kalori</string>
+    <string name="action_chart_filter_activity_no">Tidak ada filter</string>
+    <string name="action_chart_filter_activity_active">Gerakan filter</string>
 
-    <string name="step_tab_day">Grafico giornaliero</string>
-    <string name="step_tab_week">Grafico settimanale</string>
-    <string name="step_tab_goal">Obiettivo attività</string>
-    <string name="step_tab_month">Grafico mensile</string>
-    <string name="step_tab_settings">Impostazioni</string>
+    <string name="step_tab_day">Bagan harian</string>
+    <string name="step_tab_week">Bagan mingguan</string>
+    <string name="step_tab_month">Bagan bulanan</string>
+    <string name="step_tab_goal">Tujuan kegiatan</string>
+    <string name="step_tab_settings">Atur</string>
 
-    <string name="activity_progress_title_prepare">Sincronizzazione in corso…</string>
-    <string name="activity_progress_title_sync">Sincronizzazione al %1$,d%%</string>
-    <string name="activity_progress_title_save">Salvataggio al %1$,d%%</string>
+    <string name="activity_progress_title_prepare">Menyiapkan sinkronisasi…</string>
+    <string name="activity_progress_title_sync">Sinkronisasi data %1$,d%%</string>
+    <string name="activity_progress_title_save">Penghematan data %1$,d%%</string>
 
-    <string name="step_title_timing">Tempistiche</string>
-    <string name="step_interval_title">Intervallo di ripetizione del conta passi</string>
-    <string name="step_time_set_next">Tempo mancante al prossimo monitoraggio</string>
+    <string name="step_title_timing">Pemilihan waktu</string>
+    <string name="step_interval_title">Interval berulang dari pemantauan langkah</string>
+    <string name="step_time_set_next">Pilih waktu untuk pemantauan selanjutnya</string>
 
-    <string name="step_goal_default_title">Obiettivo predefinito</string>
-    <string name="step_goal_type_title">Obiettivi aggiuntivi</string>
-    <string name="step_details">Dettaglio passi</string>
+    <string name="step_goal_default_title">Target default</string>
+    <string name="step_goal_type_title">Nilai pemantauan</string>
+    <string name="step_details">Rincian langkah</string>
 
     <string name="info_dialog_step"><![CDATA[
-        <img src="ic_activity_active"> Passi giornalieri/distanza/calorie totali
-        <br><br><img src="ic_timelapse"> Durata attività
-        <br><br><img src="ic_activity_get_up"> Alzato dal letto
-        <br><br><img src="ic_activity_awake"> Tempo veglia
-        <br><br><img src="ic_activity_rest_sofa"> tempo di riposo/seduto durante il tempo di veglia
-        <br><br><img src="ic_activity_go_to_bed"> A letto
-        <br><br><img src="ic_battery_charging_full"> Ricarica batteria
-        <br><br><img src="ic_activity_block"> Non indossato
+        <img src="ic_activity_active"> total langkah/jarak/kalori harian
+        <br><br><img src="ic_timelapse"> ketika beraktifitas
+        <br><br><img src="ic_activity_get_up"> beranjak dari kasur
+        <br><br><img src="ic_activity_awake"> waktu terjaga (tertidur lelap)
+        <br><br><img src="ic_activity_rest_sofa"> beristirahat/duduk saat terjaga
+        <br><br><img src="ic_activity_go_to_bed"> waktu tidur
+        <br><br><img src="ic_battery_charging_full"> pengisian daya
+        <br><br><img src="ic_activity_block"> tidak menggunakan perangkat
         ]]>
     </string>
 
     <!-- Sleep monitoring -->
-    <string name="sleep_tab_day">Grafico giornaliero</string>
-    <string name="sleep_tab_week">Grafico settimanale</string>
-    <string name="sleep_tab_month">Grafico mensile</string>
-    <string name="sleep_tab_settings">Impostazioni</string>
+    <string name="sleep_tab_day">Bagan harian</string>
+    <string name="sleep_tab_week">Bagan mingguan</string>
+    <string name="sleep_tab_month">Bagan bulanan</string>
+    <string name="sleep_tab_settings">Atur</string>
 
-    <string name="action_chart_sleep_type_phase">Fase</string>
-    <string name="action_chart_sleep_type_time">Tempo</string>
+    <string name="action_chart_sleep_type_phase">Phase</string>
+    <string name="action_chart_sleep_type_time">Time</string>
 
-    <string name="sleep_details">Dettagli sonno</string>
-    <string name="sleep_assistant">Frequenza cardiaca assistente sonno</string>
-    <string name="sleep_assistant_summary">Misura la frequenza cardiaca durante il sonno per migliorare la precisione dei dati (consuma più batteria)</string>
-    <string name="sleep_assistant_show_pulse">Mostra i battiti misurati sul grafico giornaliero dei battiti</string>
+    <string name="sleep_details">Rincian Tidur</string>
+    <string name="sleep_assistant">Asisten detak jantung saat tidur</string>
+    <string name="sleep_assistant_summary">Membantu mendapatkan data tidur yang lebih tepat (mengurangi masa pakai baterai)</string>
+    <string name="sleep_assistant_show_pulse">Tampilkan nilai dari bagan detak harian</string>
 
     <string name="info_dialog_sleep"><![CDATA[
-        <img src="ic_timelapse"> Durata sonno
-        <br><br><img src="ic_activity_sleep_deep"> Sonno profondo
-        <br><br><img src="ic_activity_go_to_bed"> A letto sveglio
-        <br><br><img src="ic_activity_sleep_start"> Sonno leggero
-        <br><br><img src="ic_activity_sleep_time"> Durata totale
-        <br><br><img src="ic_activity_sleep_end"> Ora risveglio
-        <br><br><img src="ic_activity_get_up"> Alzato dal letto
-        <br><br><img src="ic_activity_active"> Attivo
-        <br><br><img src="ic_activity_block"> Non indossato
+        <img src="ic_timelapse"> selama waktu tidur
+        <br><br><img src="ic_activity_sleep_deep"> tidur lelap
+        <br><br><img src="ic_activity_go_to_bed"> waktu bangun
+        <br><br><img src="ic_activity_sleep_start"> waktu mulai tidur
+        <br><br><img src="ic_activity_sleep_time"> total waktu
+        <br><br><img src="ic_activity_sleep_end"> berakhirnya waktu tidur
+        <br><br><img src="ic_activity_get_up"> beranjak dari kasur
+        <br><br><img src="ic_activity_active"> ketika beraktifitas
+        <br><br><img src="ic_activity_block"> tidak menggunakan perangkat
         ]]>
     </string>
 
     <!-- Pulse  monitoring -->
-    <string name="action_pulse_current">Battito corrente</string>
+    <string name="action_pulse_current">Detak jantung saat ini</string>
 
-    <string name="pulse_tab_day">Grafico giornaliero</string>
-    <string name="pulse_tab_week">Grafico settimanale</string>
-    <string name="pulse_tab_month">Grafico mensile</string>
-    <string name="pulse_tab_settings">Impostazioni</string>
+    <string name="pulse_tab_day">Bagan harian</string>
+    <string name="pulse_tab_week">Bagan mingguan</string>
+    <string name="pulse_tab_month">Bagan bulanan</string>
+    <string name="pulse_tab_settings">Atur</string>
 
-    <string name="action_chart_pulse_type_pulse">Battiti</string>
-    <string name="action_chart_pulse_type_pulse_and_step">Battiti e attività</string>
+    <string name="action_chart_pulse_type_pulse">Pulse</string>
+    <string name="action_chart_pulse_type_pulse_and_step">Pulse and activity</string>
 
-    <string name="pulse_title_signals">Notifica</string>
-    <string name="pulse_signal_start_title">Notifica avvio monitoraggio</string>
-    <string name="pulse_signal_show_title">Mostra battiti</string>
-    <string name="pulse_signal_end_low_title">Notifica battiti bassi</string>
-    <string name="pulse_signal_end_title">Notifica battiti alti</string>
+    <string name="pulse_title_signals">Tanda</string>
+    <string name="pulse_signal_start_title">Tanda pemantauan dimulai</string>
+    <string name="pulse_signal_show_title">Tampilkan detak</string>
+    <string name="pulse_signal_end_low_title">Tanda detak lemah</string>
+    <string name="pulse_signal_end_title">Tanda detak tinggi</string>
 
-    <string name="pulse_title_timing_validity">Tempistiche e vadilità</string>
-    <string name="pulse_interval_title">Intervallo di ripetizione del monitoraggio battiti</string>
-    <string name="pulse_time_set_next">Tempo mancante al prossimo monitoraggio</string>
-    <string name="pulse_value_min">Valuta valori minori</string>
-    <string name="pulse_value_max">Valuta valori maggiori</string>
-    <string name="pulse_value_invalid">Valore invalido</string>
+    <string name="pulse_title_timing_validity">Pemilihan waktu dan validitas</string>
+    <string name="pulse_interval_title">Interval pemantauan detak jantung berulang</string>
+    <string name="pulse_time_set_next">Pilih waktu untuk pemantauan selanjutnya</string>
+    <string name="pulse_value_min">Valid nilai terendah</string>
+    <string name="pulse_value_max">Valid nilai tertinggi</string>
+    <string name="pulse_value_invalid">Nilai salah</string>
 
-    <string name="pulse_details">Dettagli pulsazioni</string>
+    <string name="pulse_details">Rincian detak jantung</string>
 
-    <string name="info_dialog_pulse"><![CDATA[Connessione Bluetooth richiesta per monitorare i battiti.
-        <p>I battiti misurati manualmente (Mi Band2 o app Mi Fit) saranno registrate anche loro quando il monitoraggio dei battiti sarà attivo.<p/>
-        <p>Il monitor dei battiti riproverà più volte se non riceve risultati validi.<p>]]>
+    <string name="info_dialog_pulse"><![CDATA[Koneksi Bluetooth diperlukan untuk pemantauan detak jantung.
+        <p>Pengukuran yang diluncurkan secara manual (apl Band, Mi Fit) dicatat juga saat pemantauan detak jantung dimulai.<p/>
+        <p>Pemantauan detak jantung diulang beberapa kali jika nilai yang dihasilkan tidak valid.<p>]]>
     </string>
 
     <!-- Lost monitoring -->
-    <string name="alarm_mi_band_title">Notifica Mi Band 2</string>
-    <string name="alarm_mi_band_dnd">Modalità non disturbare</string>
-    <string name="alarm_mi_band_interval_title">Intervallo ripetizione allarme impostato</string>
-    <string name="alarm_mi_band_time_set_next">Tempo mancante alle prossime impostazioni</string>
-    <string name="alarm_mi_band_time">Tempo mancante al prossimo allarme</string>
+    <string name="alarm_mi_band_title">Sinyal Band</string>
+    <string name="alarm_mi_band_dnd">Mode jangan ganggu</string>
+    <string name="alarm_mi_band_interval_title">Pengaturan interval alarm berulang</string>
+    <string name="alarm_mi_band_time_set_next">Pilih waktu untuk pengaturan selanjutnya</string>
+    <string name="alarm_mi_band_time">Pilih waktu untuk alarm selanjutnya</string>
 
-    <string name="alarm_mi_band_on_bluetooth_disabled_text">Notifica smarrimento su Mi Band 2 attivata.</string>
-    <string name="alarm_mi_band_on_bluetooth_disabled_info">Tempo allarme: %1$s</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Tanda pemantau kehilangan Band diaktifkan.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_info">Waktu alarm: %1$s</string>
 
-    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Notifica Mi Band 2</u></b>
-        <p>Quando finisce il tempo specificato, la Mi Band 2 invia una notifica se non è connessa al dispositivo.</p>
-        <p>L\'app usa la funzione allarme dell\'app Mi Fit per avvisarti.</p>
-        <p>L\'allarme verrà ripetuto più volte se la Mi Band 2 non rileva alcun movimento (perchè usa la funzione allarme di fabbrica).</p>
-        <p>Prima di disattivare il Bluetooth o disinstallare l\'app, devi disattivare la notifica della Mi Band 2.</p>
-        <p>Se disinstalli l\'app con l\'allarme è attivo, puoi disabilitarlo attivando e disattivando la funzione allarme nell\'app Mi Fit.</p>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>Tanda Band</u></b>
+        <p>Bila periode waktu yang ditentukan berakhir, Band mengirim sinyal tidak terhubung ke perangkat.</p>
+        <p>Aplikasi menggunakan fungsi alarm Mi Fit sebagai pengingat (overwrite 10. setting).</p>
+        <p>Alarm akan diulang beberapa kali jika Band tidak ada mendeteksi gerakan (karena menggunakan alarm pabrik/bawaan).</p>
+        <p>Sebelum mematikan Bluetooth atau mencopot pemasangan aplikasi, Anda perlu menonaktifkan sinyal Band.</p>
+        <p>Jika Anda menghapus aplikasi saat alarm menyala, Anda dapat menonaktifkannya dengan menghidupkan dan mematikan Mi Fit 10. setelan alarm.</p>
 
-        <img src="ic_phone_android"> <b><u>Notifiche dispositivo</u></b>
-        <p>Quando finisce il tempo specificato, il dispositivo manda continuamente notifiche se non connesso alla Mi Band 2.<p>
-        <p>Questo rende più facile trovare il dispositivo. Se qualcuno trova il dispositivo ed è bloccato non può sapere a chi dirlo, quindi puoi far uscire un messaggio.</p>
-        <p>Quando la Mi Band 2 sarà connessa, l\'allarme cesserà.</p>
-        <p>Dev\'essere abilitato a mostrare le notifiche nella schermata di blocco.</p>]]>
+        <img src="ic_phone_android"> <b><u>Sinyal/Tanda perangkat</u></b>
+        <p>Bila jangka waktu yang ditentukan habis, perangkat akan mengirim sinyal berulang kali jika tidak terhubung ke gelang.<p>
+        <p>Hal ini memudahkan untuk menemukan perangkat. Jika ada orang lain yang menemukan perangkat dan terkunci dia tidak tahu siapa yang harus diberitahu, sehingga Anda bisa menampilkan pesan.</p>
+        <p>Saat gelang tersambung, alarm akan langsung berhenti.</p>
+        <p>Harus diaktifkan untuk menampilkan pemberitahuan pada layar kunci.</p>]]>
     </string>
 
     <!-- Time  monitoring -->
-    <string name="time_tab_alarm">Sveglia</string>
+    <string name="time_tab_alarm">Alarm</string>
     <string name="time_tab_timer">Timer</string>
-    <string name="time_tab_stopper">Cronometro</string>
-    <string name="time_tab_lap">Tempo su giro</string>
-    <string name="time_tab_interval">Intervallo</string>
+    <string name="time_tab_stopper">Stopwatch</string>
+    <string name="time_tab_lap">Waktu putaran</string>
+    <string name="time_tab_interval">Interval</string>
 
-    <string name="action_alarm_device">Sveglia di sistema</string>
-    <string name="time_alarm_mi_band_signal">Vibra quando suona la sveglia del dispositivo</string>
-    <string name="time_alarm_mi_band_signal_alarm_off">Disattiva sveglia con un doppio tocco</string>
-    <string name="time_alarm_title">Titolo</string>
-    <string name="time_alarm_pre_alarm">Ripeti notifica, tempo rimanente</string>
-    <string name="time_alarm_pre_alarm_interval_title">Tempo mancante alla scadenza</string>
-    <string name="time_alarm_pre_alarm_type_vibrate_title">Vibrazione</string>
-    <string name="time_alarm_pre_alarm_type_remaining_title">Tempo rimasto</string>
+    <string name="action_alarm_device">Alarm bawaan/pabrik</string>
+    <string name="time_alarm_mi_band_signal">Tanda/Sinyal ketika alarm telfon anda berbunyi</string>
+    <string name="time_alarm_mi_band_signal_alarm_off">Alarm mati dalam sentuhan ke-dua</string>
+    <string name="time_alarm_title">Judul</string>
+    <string name="time_alarm_pre_alarm">Tanda pengingat, waktu yang tersisa</string>
+    <string name="time_alarm_pre_alarm_interval_title">Sebelum waktu</string>
+    <string name="time_alarm_pre_alarm_type_vibrate_title">Getaran</string>
+    <string name="time_alarm_pre_alarm_type_remaining_title">Waktu yang tersisa</string>
 
-    <string name="time_timer_time_alert">Ora attivazione allarme</string>
-    <string name="time_timer_time_remaining">Tempo rimasto</string>
+    <string name="time_timer_time_alert">Waktu alarm</string>
+    <string name="time_timer_time_remaining">Waktu tersisa</string>
 
-    <string name="time_timer_reminder">Ripeti notifica, tempo rimanente</string>
-    <string name="time_timer_reminder_interval_before_title">Tempo mancante alla scadenza</string>
-    <string name="time_timer_reminder_interval_repeat_title">Ripeti notifica ogni</string>
+    <string name="time_timer_reminder">Tanda pengingat, waktu yang tersisa</string>
+    <string name="time_timer_reminder_interval_before_title">Sebelum waktu</string>
+    <string name="time_timer_reminder_interval_repeat_title">Interval pengingat berulang</string>
 
-    <string name="time_stopper_time_alert">Tipo di allarme</string>
-    <string name="time_stopper_time_elapsed">Tempo rimasto</string>
+    <string name="time_stopper_time_alert">Waktu alarm</string>
+    <string name="time_stopper_time_elapsed">Waktu berlalu</string>
 
-    <string name="time_stopper_reminder">Ripeti notifica, tempo rimanente</string>
-    <string name="time_stopper_reminder_interval_before_title">Tempo mancante alla scadenza</string>
-    <string name="time_stopper_reminder_interval_repeat_title">Ripeti notifica ogni</string>
+    <string name="time_stopper_reminder">Sinyal pengingat, waktu berlalu</string>
+    <string name="time_stopper_reminder_interval_before_title">Waktu sebelum</string>
+    <string name="time_stopper_reminder_interval_repeat_title">Interval pengingat berulang</string>
 
-    <string name="time_stopper_touch">Tempo su giro, controllo tocco</string>
-    <string name="time_stopper_touch_record">Registra tempo su giro con un tocco</string>
-    <string name="time_stopper_touch_show">Mostra tempo su giro con un tocco</string>
-    <string name="time_stopper_touch_time_format">Formato tempo</string>
-    <string name="time_stopper_touch_time_format_minute">ore \u2032 min \u2033</string>
-    <string name="time_stopper_touch_time_format_second">min \u2032 secondi \u2033</string>
+    <string name="time_stopper_touch">Waktu putaran, pemantau sentuhan</string>
+    <string name="time_stopper_touch_record">Perekaman waktu putaran dengan sekali sentuh</string>
+    <string name="time_stopper_touch_show">Penampil waktu putaran dengan sekali sentuh</string>
+    <string name="time_stopper_touch_time_format">Format waktu</string>
+    <string name="time_stopper_touch_time_format_minute">jam \u2032 menit \u2033</string>
+    <string name="time_stopper_touch_time_format_second">menit \u2032 detik \u2033</string>
 
-    <string name="time_lap_details">Dettagli tempi su giro</string>
+    <string name="time_lap_details">Rincian waktu putaran</string>
 
-    <string name="time_mode_timer_title">Tempo</string>
-    <string name="time_mode_time_title">Orario</string>
+    <string name="time_mode_timer_title">Pemilihan waktu</string>
+    <string name="time_mode_time_title">Waktu</string>
 
-    <string name="time_alert">Tipo di allarme</string>
-    <string name="time_alert_bell_title">Campanella</string>
-    <string name="time_alert_alarm_title">Sveglia</string>
+    <string name="time_alert">Tipe alarm</string>
+    <string name="time_alert_bell_title">Bel</string>
+    <string name="time_alert_alarm_title">Alarm</string>
 
-    <string name="time_interval_time_total">Tempo totale</string>
-    <string name="time_interval_counter">Numero di ripetizioni</string>
-    <string name="time_interval_time_alert">Tempo finale</string>
-    <string name="time_interval_time_current">Ripetizioni, intervalli passati</string>
-    <string name="time_interval_title">Titolo</string>
-    <string name="time_interval_time">Tempo intervallo</string>
+    <string name="time_interval_time_total">Jumlah waktu</string>
+    <string name="time_interval_counter">Jumlah waktu pengulangan</string>
+    <string name="time_interval_time_alert">Waktu berakhir</string>
+    <string name="time_interval_time_current">Pengulangan, interval waktu berlalu</string>
+    <string name="time_interval_title">Judul</string>
+    <string name="time_interval_time">Interval waktu</string>
 
-    <string name="time_text">Mostra messaggio</string>
-    <string name="time_text_message">Messaggio</string>
+    <string name="time_text">Tampilkan pesan</string>
+    <string name="time_text_message">Teks</string>
 
-    <string name="time_enable_bluetooth">Attiva Bluetooth</string>
+    <string name="time_enable_bluetooth">Aktifkan Bluetooth</string>
 
     <string name="info_dialog_time"><![CDATA[
-        <p><b>Disattiva le sveglie, i timer e i cronometri prima di rimuovere questa app.</b></p>
-        <img src="ic_miband_bell"> <b><u>Campanella</u></b>
-        <p>Richiede connessione Bluetooth per l\'allarme, e si può ricevere una sola volta per 10 secondi.</p>
-        <img src="ic_alarm"> <b><u>Sveglia</u></b>
-        <p>Non è richiesta una connessione Bluetooth per l\'allarme, l\'app usa la funzione allarme dell\'app Mi Fit per avvisarti.
-        <br>L\'allarme verrà ripetuto più volte se la Mi Band 2 non rileva alcun movimento (perchè usa la funzione allarme di fabbrica).
-        <br>Arrotonda al Minuto, la Mi band 2 non mostra i secondi nel tempo.</p>
-        <p>La funzione "ripeti notifica" richiede una connessione Bluetooth.</p>
+        <p><b>Matikan alarm, timer dan stopwatch sebelum menghapus aplikasi.</b></p>
+        <img src="ic_miband_bell"> <b><u>Bel</u></b>
+        <p>Koneksi bluetooth diperlukan untuk alarm, dan hanya digunakan untuk 10 detik.</p>
+        <img src="ic_alarm"> <b><u>Alarm</u></b>
+        <p>Koneksi bluetooth tidak diperlukan untuk alarm, apl menggunakan fungsi alarm pada Mi Fit sebagai pengingat (overwrite 4. - 9. setting).
+        <br>Alarm tidak akan diulang beberapa kali jika Band tidak mendeteksi gerakan (karena menggunakan alarm pabrik/bawaan).
+        <br>Akurasi menit, Band tidak menggunakan detik pada alarm.</p>
+        <p>Tanda pengingat dan penampil pesan membutuhkan koneksi Bluetooth.</p>
     ]]></string>
 
     <!-- Agent -->
-    <string name="agent_title">Monitor eventi</string>
-    <string name="agent_tab_events">Log eventi</string>
-    <string name="agent_tab_settings">Impostazioni</string>
+    <string name="agent_title">Pengantar manajemen perangkat</string>
+    <string name="agent_tab_events">Catatan pengantar</string>
+    <string name="agent_tab_settings">Atur</string>
 
-    <string name="pref_disconnected_agent_summary_on">Se qualcuno usa il tuo dispositivo quando non ci sei, lo saprai</string>
-    <string name="pref_disconnected_agent_text">Qualcuno ha usato il tuo dispositivo quando eri via</string>
-    <string name="pref_disconnected_agent_user_present_title">Monitorizza accensione schermo</string>
-    <string name="pref_disconnected_agent_screen_on_and_motion_title">Monitorizza accensione e movimento</string>
+    <string name="pref_disconnected_agent_summary_on">Jika seseorang mencoba merusak perangkat saat Anda pergi, Anda akan mengetahuinya</string>
+    <string name="pref_disconnected_agent_text">Tampaknya ada seseorang merusak perangkat saat Anda pergi</string>
+    <string name="pref_disconnected_agent_user_present_title">Hidupkan layar pemantauan perangkat</string>
+    <string name="pref_disconnected_agent_screen_on_and_motion_title">Aktifkan dan jalankan pemantauan</string>
 
     <!-- Agent log info dialog -->
-    <string name="info_dialog_disconnected_agent"><![CDATA[Eventi rilevati dal "Monitor Eventi":
-        <br>- Accensione
-        <br>- Sblocco dello schermo
-        <br>- Rileva movimenti
+    <string name="info_dialog_disconnected_agent"><![CDATA[Ada kegiatan yang terdeteksi oleh agen manajemen perangkat :
+        <br>- aktifkan
+        <br>- membuka kunci layar
+        <br>- gerakan terdeteksi
 
-        <p>Se qualcuno usa il tuo dispositivo quando non ci sei, gli eventi soprastanti saranno salvati.</p>
-        <p>Quando ti riconnetti al dispositivo riceverai una notifica in caso ci fosse stato qualche evento.</p>]]>
+        <p>Jika seseorang mengoperasikan perangkat saat Anda pergi, maka kejadian tersebut akan dicatat.</p>
+        <p>Saat Anda menyambung kembali, Anda akan menerima pemberitahuan jika terjadi peristiwa.</p>]]>
     </string>
 
     <!-- Theme -->
     <string name="theme_tab_theme">Tema</string>
     <string name="theme_tab_widget">Widgets</string>
-    <string name="theme_tab_notification">Notifica persistente</string>
+    <string name="theme_tab_notification">Notification shade</string>
 
-    <string name="theme_title">Scegli un tema</string>
+    <string name="theme_title">Pilih tema</string>
     <string name="theme_background_color_title">Background color</string>
 
-   <string name="theme_widget_foreground_title">Primo piano</string>
-   <string name="theme_widget_foreground_color_title">Colore scritta e icona</string>
-   <string name="theme_widget_background_title">Sfondo</string>
-   <string name="theme_widget_background_color_title">Colore</string>
-   <string name="theme_widget_background_shape_title">Forma</string>
-   <string name="theme_widget_background_transparency_title">Trasparenza</string>
+    <string name="theme_widget_foreground_title">Foreground</string>
+    <string name="theme_widget_foreground_color_title">Icon and text color</string>
+    <string name="theme_widget_background_title">Background</string>
+    <string name="theme_widget_background_color_title">Color</string>
+    <string name="theme_widget_background_shape_title">Shape</string>
+    <string name="theme_widget_background_transparency_title">Transparency</string>
 
-    <string name="theme_widget_touch_event_title">Azione al tocco</string>
+    <string name="theme_widget_touch_event_title">Touch event</string>
 
-    <string name="theme_notification_title">Mostra stato app come notifica persistente</string>
-    <string name="theme_notification_summary">Android tende a chiudere i servizi aperti in secondo piano solo quando c\'è poca memoria. Se vedi che non ti arrivano più le notifiche attiva questa funzione per evitare che venga chiusa l\'app.</string>
-    <string name="theme_notification_color_title">Colore icona</string>
-    <string name="theme_notification_text_color_title">Colore testo</string>
+    <string name="theme_notification_title">Tampilkan status dipanel pemberitahuan</string>
+    <string name="theme_notification_summary">Sistem Android menghentikan paksa layanan ketika memori rendah saja. Jika setelah beberapa saat tidak muncul notifikasi pada Band, Anda bisa mencegahnya.</string>
+    <string name="theme_notification_color_title">Warna ikon</string>
+    <string name="theme_notification_text_color_title">Text color</string>
 
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Backup</string>
-    <string name="backup_tab_restore">Ripristino</string>
+    <string name="backup_tab_restore">Restore</string>
 
-    <string name="backup_time">Ora backup</string>
-    <string name="backup_path">Posizione backup</string>
+    <string name="backup_time">Backup time</string>
+    <string name="backup_path">Backup location</string>
 
-    <string name="backup_process">Preparazione…</string>
-    <string name="backup_process_activity">Attività e sonno %1$,d%%</string>
-    <string name="backup_process_pulse">Battiti %1$,d%%</string>
-    <string name="backup_process_notification">Notifiche%1$,d%%</string>
-    <string name="backup_process_touch">Tocco %1$,d%%</string>
-    <string name="backup_process_time">Timer %1$,d%%</string>
-    <string name="backup_process_alarm">Smarrimento %1$,d%%</string>
-    <string name="backup_process_disconnected_agent">Eventi %1$,d%%</string>
-    <string name="backup_process_settings">Impostazioni %1$,d%%</string>
+    <string name="backup_process">Preparation…</string>
+    <string name="backup_process_activity">Activity and sleep %1$,d%%</string>
+    <string name="backup_process_pulse">Pulse %1$,d%%</string>
+    <string name="backup_process_notification">Notification %1$,d%%</string>
+    <string name="backup_process_touch">Touch %1$,d%%</string>
+    <string name="backup_process_time">Time %1$,d%%</string>
+    <string name="backup_process_alarm">Lost %1$,d%%</string>
+    <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
+    <string name="backup_process_settings">Settings %1$,d%%</string>
 
-    <string name="backup_restore_activity">Attività e sonno</string>
-    <string name="backup_restore_pulse">Battiti</string>
-    <string name="backup_restore_notification">Notifiche</string>
-    <string name="backup_restore_touch">Tocco</string>
-    <string name="backup_restore_time">Timer</string>
-    <string name="backup_restore_alarm">Smarrimento</string>
-    <string name="backup_restore_disconnected_agent">Eventi</string>
-    <string name="backup_restore_settings">Impostazioni</string>
+    <string name="backup_restore_activity">Activity and sleep</string>
+    <string name="backup_restore_pulse">Pulse</string>
+    <string name="backup_restore_notification">Notification</string>
+    <string name="backup_restore_touch">Touch</string>
+    <string name="backup_restore_time">Time</string>
+    <string name="backup_restore_alarm">Lost</string>
+    <string name="backup_restore_disconnected_agent">Agent</string>
+    <string name="backup_restore_settings">Settings</string>
 
-    <string name="backup_restore_reset">E\' richiesto di spegnere e riaccendere il Bluetooth e riavviare l\'app.</string>
+    <string name="backup_restore_reset">After restoring, Bluetooth will be turning off and on and the application will restart.</string>
 
     <!-- Rewarded mode -->
-    <string name="rewarded_policy_title">Termini e condizioni della modalità ricompensa</string>
+    <string name="rewarded_policy_title">Syarat dan ketentuan mode Pencapaian (Rewarded Mode)</string>
     <string name="rewarded_policy"><![CDATA[
-        <p>- inizio vadilità: orario corrente
-        <br>- fine vadilità: inizio vadilità + il minimo di %1$,d giorno (dipende dalla pubblicità può anche essere di più)
-        <br>- la manipolazione del tempo può causare il termine della vadilità</p>
-        <i> Dopo aver riprodotto il video bisogna riavviare l\'app.</i>
+        <p>- awal validitas: saat ini
+        <br>- akhir validitas: mulai dari validitas + paling tidak %1$,d hari (tergantung iklan, bahkan bisa lebih)
+        <br>- manipulasi waktu dapat menyebabkan penghentian validitas</p>
+        <i>Buka ulang aplikasi setelah memainkan video.</i>
     ]]></string>
 
-    <string name="rewarded_advantage_banner_title">Rimuovi la barra di pubblicità</string>
-    <string name="rewarded_advantage_interstitial_title">Blocca le inserzioni pubblicitarie</string>
+    <string name="rewarded_advantage_banner_title">Blokir banner iklan</string>
+    <string name="rewarded_advantage_interstitial_title">Blokir iklan pengantar</string>
 
-    <string name="rewarded_advantage_time_range">Vadilità</string>
-    <string name="rewarded_advantage_button_play">Riproduci video</string>
+    <string name="rewarded_advantage_time_range">Berlaku</string>
+    <string name="rewarded_advantage_button_play">Mainkan video</string>
 
-    <string name="message_rewarded_error">Caricamento video fallito</string>
+    <string name="message_rewarded_error">Gagal memuat video</string>
 
     <!-- Premium mode -->
-    <string name="purchase_advantage_title">Vantaggi modalità premium</string>
+    <string name="purchase_advantage_title">Beberapa keuntungan mode permium</string>
     <string name="purchase_advantage"><![CDATA[
-        - Senza pubblicità
-        <br>- Modalità non disturbare
-        <br>- Monitoraggio notifiche illimitato
-        <br>- Monitoraggio tocco illimitato
-        <br>- Il testo identificativo può essere usato nel monitoraggio notifiche
-        <br>- GLi intervalli di ripetizione possono essere impostati liberamente nella sezione di monitoraggio passi
-        <br>- Gli intervalli di ripetizione delle notifiche possono essere personalizzati e "mostra battiti" può essere usato nelle funzioni di monitoraggio battiti
-        <br>- Gli intervalli di ripetizione delle notifiche possono essere personalizzati e "non disturbare" può essere usato nelle funzioni di smarrimento
-        <br>- Gli intervalli di ripetizione possono essere personalizzati nelle funzioni di monitoraggio tempo
+        - tanpa iklan
+        <br>- mode jangan ganggu
+        <br>- pemantauan pemberitahuan tak terbatas
+        <br>- pemantauan sentuhan tak terbatas
+        <br>- awalan teks, ikon pembuka dan teks penyaringan dapat digunakan dalam pemantau pemberitahuan
+        <br>- interval berulang dapat diatur secara bebas dalam fungsi pemantau langkah
+        <br>- interval berulang dapat diatur secara bebas dan menampilkan detak yang bisa digunakan dalam fungsi pemantau detak jantung
+        <br>- interval berulang dapat diatur secara bebas dan mode jangan ganggu dapat digunakan dalam fungsi pemantau kehilangan
+        <br>- pengingat berulang, menampilkan pesan dan menghidupkan bluetooth yang dapat diatur secara bebas di pemantau waktu
         <br>- …
     ]]></string>
-    <string name="purchase_policy_title">Termini e condizioni della modalità premium</string>
+    <string name="purchase_policy_title">Syarat dan ketentuan mode premium:</string>
     <string name="purchase_policy"><![CDATA[
-        <p>- Io ho testato l\'app e funziona correttamente.
-        <br>- Sono consapevole che non posso richiedere un rimborso a causa di bug, errori software causati da modifiche al software, condizioni hardware o l\'uso di altra applicazioni.
-        <br>- Tutti i prezzi sono definitivi e non possono essere rimborsati (ad eccezzione delle politiche sul rimborso di Google).
-        <br>- Non c\'è nessuna garanzia inclusa.</p>
-        <p><i>Dopo l\'acquisto bisogna riavviare l\'app.</i></p>
+        <p>- Saya telah menggunaka aplikasi ini, dan berjalan dengan baik.
+        <br>- Saya sadar bahwa saya tidak dapat meminta kompensasi atau pengembalian karena bug, kesalahan perangkat lunak yang disebabkan oleh perubahan perangkat lunak, lingkungan perangkat keras atau penggunaan aplikasi lainnya.
+        <br>- Semua penjualan bersifat final/selesai dan tidak dapat dikembalikan (kecuali kebijakan pengembalian Google).
+        <br>- Garansi tidak disertakan.</p>
+        <p><i>Buka ulang aplikasi setelah pembelian.</i></p>
     ]]></string>
 
-    <string name="purchase_agree">Accetto i termini e le condizioni.</string>
-    <string name="purchase_order_id">ID Ordine</string>
-    <string name="purchase_order_id_help">Copia da:
+    <string name="purchase_agree">Saya menyetujui syarat dan ketentuan.</string>
+    <string name="purchase_order_id">ID Pesanan</string>
+    <string name="purchase_order_id_help">Salin dari:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
-    <string name="purchase_button_purchase">Acquista</string>
+    <string name="purchase_button_purchase">Beli</string>
 
     <!-- Feedback -->
     <string name="action_log_notification">Notification log</string>
 
-    <string name="feedback_google_play_title">Valuta l\'app</string>
-    <string name="feedback_request_feature_title">Richiedi una funzione, segnala malfunzionamenti</string>
-    <string name="feedback_request_feature_summary">Processo con email automatico, non riceverai risposta</string>
+    <string name="feedback_google_play_title">Beri nilai aplikasi</string>
+    <string name="feedback_request_feature_title">Permintaan fitur, dan laporan bug</string>
+    <string name="feedback_request_feature_summary">Proses e-mail otomatis, Anda tidak akan mendapat respons</string>
 
     <!-- Vibration dialog -->
-    <string name="vibration_title">Impostazioni vibrazione</string>
-    <string name="vibration_intensity">Intensità</string>
-    <string name="vibration_pause">Pausa</string>
-    <string name="vibration_times">Ripetizioni</string>
+    <string name="vibration_title">Pengaturan getaran</string>
+    <string name="vibration_intensity">Durasi</string>
+    <string name="vibration_pause">Jeda</string>
+    <string name="vibration_times">Pengulangan</string>
 
     <!-- Hack -->
-    <string name="info_dialog_hack"><![CDATA[Rilevato Hack tool sul dispositivo.
-        <p>Quando un hack tool è installato la modalità premium non è attivata.</p>
-        <p>Ho speso tempo per lo sviluppo dell\'applicazione, per favore non usare hack tools.</p>]]>
+    <string name="info_dialog_hack"><![CDATA[Aplikasi pembajak/hack terdeteksi pada perangkat.
+        <p>Jika alat hack terpasang, mode premium tidak akan bekerja.</p>
+        <p>Kami menghabiskan banyam waktu dan tenaga untuk membuat aplikasi ini, mohon jangan menggunakan alat bajak/hack dan aplikasi bajakan</p>]]>
     </string>
 
     <!-- Others -->
-    <string name="on">On</string>
-    <string name="off">Off</string>
-    <string name="none">Nessuna</string>
+    <string name="on">Aktif</string>
+    <string name="off">Mati</string>
+    <string name="none">Tidak ada</string>
     <string name="bpm">BPM</string>
-    <string name="time_start">Ora inizio</string>
-    <string name="time_end">Ora fine</string>
-    <string name="ringer_mode_mute">Muto</string>
-    <string name="ringer_mode_silent">Non disturbare</string>
+    <string name="time_start">Waktu mulai</string>
+    <string name="time_end">Waktu berakhir</string>
+    <string name="ringer_mode_mute">Diam</string>
+    <string name="ringer_mode_silent">Jangan ganggu</string>
 
-    <string name="action_dismiss">Dimentica</string>
-    <string name="action_setting">Impostazioni</string>
-    <string name="action_delete">Cancella</string>
-    <string name="action_export">Esporta</string>
-    <string name="action_filter_no">Nessun filtro</string>
+    <string name="action_dismiss">Tutup</string>
+    <string name="action_setting">Atur</string>
+    <string name="action_delete">Hapus</string>
+    <string name="action_export">Ekspor</string>
+    <string name="action_filter_no">Tidak ada filter</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_save">Salva</string>
+    <string name="action_save">Save</string>
 
-    <string name="action_chart">Grafico</string>
-    <string name="action_chart_normalize_minute">Valori misurati</string>
-    <string name="action_chart_normalize_hour">Valori orari</string>
-    <string name="action_chart_sort_time_asc">Tempo crescente</string>
-    <string name="action_chart_sort_time_desc">Tempo decrescente</string>
-    <string name="action_chart_sort_step_asc">Passi crescenti</string>
-    <string name="action_chart_sort_step_desc">Passi decrescenti</string>
-    <string name="action_chart_sort_pulse_asc">Battiti crescenti</string>
-    <string name="action_chart_sort_pulse_desc">Battiti decrescenti</string>
-    <string name="action_chart_sort_lap_asc">Giri crescenti</string>
-    <string name="action_chart_sort_lap_desc">Giri decrescenti</string>
+    <string name="action_chart">Grafik</string>
+    <string name="action_chart_normalize_minute">Nilai terukur</string>
+    <string name="action_chart_normalize_hour">Rata-rata per jam</string>	
+    <string name="action_chart_sort_time_asc">Time ascending</string>
+    <string name="action_chart_sort_time_desc">Time descending</string>
+    <string name="action_chart_sort_step_asc">Step ascending</string>
+    <string name="action_chart_sort_step_desc">Step descending</string>
+    <string name="action_chart_sort_pulse_asc">Pulse ascending</string>
+    <string name="action_chart_sort_pulse_desc">Pulse descending</string>
+    <string name="action_chart_sort_lap_asc">Lap ascending</string>
+    <string name="action_chart_sort_lap_desc">Lap descending</string>
 
-    <string name="power_on">Accensione</string>
-    <string name="screen_unlock">Sblocco dello schermo</string>
-    <string name="motion">Rilevatore movimento</string>
+    <string name="power_on">Nyalakan</string>
+    <string name="screen_unlock">Membukan layar kunci</string>
+    <string name="motion">Gerakan terdeteksi</string>
 
-    <string name="required_value">Richiesto</string>
+    <string name="required_value">Dibutuhkan</string>
 
     <!-- Constante -->
-    <string name="const_time_abbreviation_hour">h</string>
+    <string name="const_time_abbreviation_hour">j</string>
     <string name="const_time_abbreviation_minute">m</string>
-    <string name="const_time_abbreviation_sec">s</string>
-    <string name="const_time_abbreviation_milli_sec">ms</string>
+    <string name="const_time_abbreviation_sec">d</string>
+    <string name="const_time_abbreviation_milli_sec">md</string>
 
     <string name="const_number">%1$,d</string>
     <string name="const_unit_meter">m</string>
@@ -797,30 +803,31 @@
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="zero">%d ore</item>
-        <item quantity="one">%d ora</item>
-        <item quantity="two">%d ore</item>
-        <item quantity="few">%d ore</item>
-        <item quantity="many">%d ore</item>
-        <item quantity="other">%d ore</item>
+        <item quantity="zero">%d hour</item>
+        <item quantity="one">%d hour</item>
+        <item quantity="two">%d hours</item>
+        <item quantity="few">%d hours</item>
+        <item quantity="many">%d hours</item>
+        <item quantity="other">%d hours</item>
     </plurals>
 
     <plurals name="plural_time_minute">
-        <item quantity="zero">%d minuti</item>
-        <item quantity="one">%d minuto</item>
-        <item quantity="two">%d minuti</item>
-        <item quantity="few">%d minuti</item>
-        <item quantity="many">%d minuti</item>
-        <item quantity="other">%d minuti</item>
+        <item quantity="zero">%d menit</item>
+        <item quantity="one">%d menit</item>
+        <item quantity="two">%d menit</item>
+        <item quantity="few">%d menit</item>
+        <item quantity="many">%d menit</item>
+        <item quantity="other">%d menit</item>
     </plurals>
 
     <plurals name="plural_time_second">
-        <item quantity="zero">%d secondi</item>
-        <item quantity="one">%d secondo</item>
-        <item quantity="two">%d secondi</item>
-        <item quantity="few">%d secondi</item>
-        <item quantity="many">%d secondi</item>
-        <item quantity="other">%d secondi</item>
+        <item quantity="zero">%d detik</item>
+        <item quantity="one">%d detik</item>
+        <item quantity="two">%d detik</item>
+        <item quantity="few">%d detik</item>
+        <item quantity="many">%d detik</item>
+        <item quantity="other">%d detik</item>
     </plurals>
+
 
 </resources>
