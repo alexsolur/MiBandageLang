@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_connected_have_notif_counter">
-        <item>Une fois par icone Mi Band 2</item>
+        <item>Une fois par icone Band</item>
         <item>Nombre de notifications</item>
         <item>1 \'app\' icon</item>
         <item>2 \'app\' icon</item>
@@ -113,10 +113,10 @@
     </string-array>
 
     <string-array name="touch_music_info_values">
-        <item>AUCUNE</item>
-        <item>ARTISTE#TITRE</item>
-        <item>ARTISTE_TITRE</item>
-        <item>TITRE</item>
+        <item>NONE</item>
+        <item>ARTIST#TITLE</item>
+        <item>ARTIST_TITLE</item>
+        <item>TITLE</item>
     </string-array>
 
     <string-array name="pref_timer_time_interval_repeat">
@@ -234,7 +234,7 @@
     </string-array>
 
     <string-array name="pref_language_values">
-        <item>PAR DÉFAUT</item>
+        <item>DEFAULT</item>
         <item>en</item>
         <item>hu</item>
         <item>ru</item>
