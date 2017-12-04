@@ -27,7 +27,7 @@
 
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Tempo connessione: %1$s</string>
-    <string name="foreground_service_disconnected_text">Mi Band 2 non connessa</string>
+    <string name="foreground_service_disconnected_text">Band non connessa</string>
     <!--<string name="foreground_service_disconnected">Tempo disconnessione: %1$s</string>-->
 
     <!-- Strings related to Settings -->
@@ -44,12 +44,18 @@
     <string name="mi_band_state_connected_disconnected_last_time">Potenza segnale, tempo dall\'ultima connessione e disconnessione</string>
     <string name="mi_band_touch">Monitor tocchi</string>
     <string name="mi_band_alarm">Prossimo allarme</string>
-    <string name="mi_band_bonded_device_name">Nome Mi Band 2 connessa</string>
+    <string name="mi_band_bonded_device_name">Nome Band connessa</string>
     <string name="mi_band_mac_address">MAC address</string>
     <string name="mi_band_firmware">Firmware</string>
     <string name="mi_band_hardware">Hardware</string>
 
     <string name="mi_band_mac_address_invalid">MAC address non valido</string>
+
+    <string name="mi_band_state_title">Band settings</string>
+    <string name="mi_band_state_connected">Connected</string>
+    <string name="mi_band_state_disconnected">Disconnected</string>
+    <string name="mi_band_state_bonded">Paired device</string>
+    <string name="mi_band_state_not_bonded">Not paired device</string>
 
     <string name="mi_band_battery_settings">Impostazioni batteria</string>
     <string name="mi_band_battery_remaining">Durata stimata batteria al..</string>
@@ -64,22 +70,22 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Connessione</string>
-    <string name="pref_connected_summary">Imposta comportamento alla connessione dispositivo e Mi Band 2</string>
+    <string name="pref_connected_summary">Imposta comportamento alla connessione dispositivo e Band</string>
 
     <string name="pref_connected_signals">Notifica connessione</string>
-    <string name="pref_connected_signals_summary">Abilitare o no notifica connessione Mi Band 2</string>
-    <string name="pref_cat_connected_signals_mi_band">Notifiche Mi Band 2</string>
+    <string name="pref_connected_signals_summary">Abilitare o no notifica connessione Band</string>
+    <string name="pref_cat_connected_signals_mi_band">Notifiche Band</string>
     <string name="pref_connected_mi_band_title">Vibrazione</string>
     <string name="pref_cat_connected_signals">Notifica dispositivo</string>
     <string name="pref_connected_wakelock_title">Accendi schermo dispositivo</string>
 
     <string name="pref_connected_settings">Imposta connessione</string>
-    <string name="pref_connected_settings_summary">Impostazioni connessione Mi Band 2 e dispositivo</string>
+    <string name="pref_connected_settings_summary">Impostazioni connessione Band e dispositivo</string>
     <string name="pref_cat_connected_settings">Impostazioni dispositivo</string>
     <string name="pref_connected_volume_title">Cambia volume</string>
     <string name="pref_connected_volume_ring_title">Volume suoneria</string>
 
-    <string name="pref_cat_connected_have_notif">Notifiche predefinite per app e Mi Band 2</string>
+    <string name="pref_cat_connected_have_notif">Notifiche predefinite per app e Band</string>
     <string name="pref_cat_connected_have_notif_default">Impostazioni predefinite e personali</string>
     <string name="pref_connected_have_notif_immediate_title">Notifica immediata alla ricezione</string>
     <string name="pref_connected_have_notif_title">Notifica quando ti connetti al dispositivo</string>
@@ -95,11 +101,11 @@
     <string name="pref_connected_have_notif_pre_signal_summary_on">Notifica (clicca sull\'icona per cambiarla) prima di far vedere la notifica ricevuta per avere il tempo di guardare lo schermo</string>
 
     <string name="pref_disconnected">Disconnessione</string>
-    <string name="pref_disconnected_summary">Imposta comportamento in caso di disconnessione tra dispositivo e Mi Band 2</string>
+    <string name="pref_disconnected_summary">Imposta comportamento in caso di disconnessione tra dispositivo e Band</string>
 
     <string name="pref_disconnected_signals">Notifica disconnessione</string>
-    <string name="pref_disconnected_signals_summary">Notifica disconnessione tra Mi Band 2 e dispositivo, nessuna notifica quando viene spento manualmente il bluetooth</string>
-    <string name="pref_cat_disconnected_signals_mi_band">Segnale Mi Band 2</string>
+    <string name="pref_disconnected_signals_summary">Notifica disconnessione tra Band e dispositivo, nessuna notifica quando viene spento manualmente il bluetooth</string>
+    <string name="pref_cat_disconnected_signals_mi_band">Segnale Band</string>
     <string name="pref_disconnected_mi_band_title">Mostra icona</string>
     <string name="pref_cat_disconnected_signals">Notifiche dispositivo</string>
     <string name="pref_disconnected_ringtone_title">Suoneria</string>
@@ -107,7 +113,7 @@
     <string name="pref_disconnected_wakelock_title">Attiva display dispositivo</string>
 
     <string name="pref_disconnected_settings">Imposta disconnessione</string>
-    <string name="pref_disconnected_settings_summary">Imposta disconnesione tra Mi Band 2 e dispositivo</string>
+    <string name="pref_disconnected_settings_summary">Imposta disconnesione tra Band e dispositivo</string>
     <string name="pref_cat_disconnected_settings">Imposta dispositivo</string>
     <string name="pref_disconnected_volume_title">Cambia volume</string>
     <string name="pref_disconnected_volume_ring_title">Volume suoneria</string>
@@ -125,7 +131,7 @@
     <string name="pref_abandoned_notif_title">Dispositivo smarrito</string>
 
     <string name="pref_call">Chiamata</string>
-    <string name="pref_call_summary">Imposta notifiche su Mi Band 2</string>
+    <string name="pref_call_summary">Imposta notifiche su Band</string>
     <string name="pref_cat_call">Ricezione chiamate</string>
     <string name="pref_call_title">Notifica chiamata in arrivo</string>
     <string name="pref_call_summary_on">On (ricorda di disattivare la notifica per le chiamate ricevute dall\'app Mi Fit)</string>
@@ -141,38 +147,38 @@
     <string name="pref_call_missed_net_title">Chiamate voip perse </string>
     <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
 
-    <string name="pref_call_missed_alert_title">Notifica Mi Band 2</string>
+    <string name="pref_call_missed_alert_title">Notifica Band</string>
 
     <string name="pref_call_missed_text_prefix_title">Testo identificativo: %1$s</string>
     <string name="pref_call_missed_text_prefix_summary">Se più app usano la stessa icona usa questo testo per differenziarle</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Testo identificativo</string>
 
     <string name="pref_text_conversion">Icona con testi</string>
-    <string name="pref_text_conversion_summary">Imposta icona con testi su Mi Band 2</string>
-    <string name="pref_cat_text_conversion">Notifica Mi Band 2</string>
+    <string name="pref_text_conversion_summary">Imposta icona con testi su Band</string>
+    <string name="pref_cat_text_conversion">Notifica Band</string>
     <string name="pref_text_conversion_title">Converti caratteri</string>
     <string name="pref_text_conversion_summary_on">Converti caratteri non riconosciuti</string>
 
     <string name="pref_text_conversion_description_title">Descrizione</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
-        <p>Se la tua Mi Band 2 mostra già l\'ID del chiamante correttamente, non devi nessuno dei passaggi seguenti ma devi soltanto disattivare le notifiche sulle<i>Notifica Chiamate in arrivo</i> dell\'app Mi Fit.</p>
+        <p>Se la tua Band mostra già l\'ID del chiamante correttamente, non devi nessuno dei passaggi seguenti ma devi soltanto disattivare le notifiche sulle<i>Notifica Chiamate in arrivo</i> dell\'app Mi Fit.</p>
         <p>Se non usi <i>Notifica Chiamate in arrivo</i> e se la lingua del tuo telefono non è impostata su \'Inglese\':
         <br/>1. Imposta la lingua del telefono in Inglese.
         <br/>2. Apri l\'app Mi Fit, aspetta che si aggiorni il firmware. Se l\'aggiornamento non si avvia, prova a riavviare lo smartphone.
-        <br/>3. Apri il menu <i>Profile/Mi Band 2/Incoming call</i>.
+        <br/>3. Apri il menu <i>Profile/Band/Incoming call</i>.
         <br/>4. Attiva: <i>Turn on incoming call alerts</i>.
         <br/>5. Attiva: <i>Show contact information</i>.
-        <br/>6. Verifica se la tua Mi Band 2 mostra l\'ID del chiamante provando a telefonarti.
+        <br/>6. Verifica se la tua Band mostra l\'ID del chiamante provando a telefonarti.
         <br/>7. Disattiva : <i>Turn on incoming call alerts</i> (<i>Show contact information</i> Rimane attivo).
         <br/>8. Imposta nuovamente la lingua del telefono su Italiano.</p>]]>
     </string>
 
     <string name="pref_touch">Controllo tocco</string>
-    <string name="pref_cat_touch">Notifica Mi Band 2</string>
+    <string name="pref_cat_touch">Notifica Band</string>
     <string name="pref_touch_recognised_failed_title">Notifica sequenza tocco non riconosciuta</string>
     <string name="pref_touch_recognised_failed_summary_on">On (vibra 2 volte dopo la sequenza di tocchi)</string>
 
-    <string name="pref_mi_band">Mi Band 2</string>
+    <string name="pref_mi_band">Band</string>
     <string name="pref_cat_mi_band_lift_wrist">Solleva il polso per visualizzare le info</string>
     <string name="pref_mi_band_lift_wrist_title">Solleva il polso per visualizzare le info</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Modalità non disturbare</string>
@@ -196,12 +202,12 @@
     <string name="pref_dnd_enable_bluetooth">Spegni Bluetooth all\'avvio della modalità non disturbare, e riaccendilo alla fine di essa</string>
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Per favore attiva il Bluetooth e tieni vicino la Mi Band 2</string>
-    <string name="message_discover_mi_band">Mi Band 2 non configurata, per favore esegui l\'accoppiamento</string>
-    <string name="message_discovered_mi_band">Mi Band 2 trovata</string>
-    <string name="message_discovering_mi_band">Ricerca Mi Band 2 (può richiedere 1 minuto) &#8230;</string>
-    <string name="message_discovered_no_mi_band">Mi Band 2 non trovata</string>
-    <string name="message_discovered_not_found_mi_band">Se la Mi Band 2 non viene trovata, Attiva: Mi Fit/Funzioni/Rilevabile oppure effettua l\'accoppiamento nelle impostazioni bluetooth</string>
+    <string name="message_enable_bluetooth">Per favore attiva il Bluetooth e tieni vicino la Band</string>
+    <string name="message_discover_mi_band">Band non configurata, per favore esegui l\'accoppiamento</string>
+    <string name="message_discovered_mi_band">Band trovata</string>
+    <string name="message_discovering_mi_band">Ricerca Band (può richiedere 1 minuto) &#8230;</string>
+    <string name="message_discovered_no_mi_band">Band non trovata</string>
+    <string name="message_discovered_not_found_mi_band">Se la Band non viene trovata, Attiva: Mi Fit/Funzioni/Rilevabile oppure effettua l\'accoppiamento nelle impostazioni bluetooth</string>
     <string name="message_enable_notification_listener_access">Abilita accesso notifiche: Impostazioni/Notifiche/Accesso notifiche</string>
     <string name="message_enable_notification_listener_access_4_4">Abilita accesso notifiche: Impostazioni/Sicurezza/Accesso notifiche</string>
     <string name="message_enable_notification_policy_access">Abilita accesso alla Modalità Non Disturbare</string>
@@ -218,7 +224,7 @@
     <string name="message_step_goal_max_values">Puoi settare massimo 10 valori</string>
 
     <string name="message_touch_no_patterns">Premi uno dei tasti rossi di registrazione</string>
-    <string name="message_touch_record">Registra la combinazione di tocchi usando il tasto della Mi Band 2</string>
+    <string name="message_touch_record">Registra la combinazione di tocchi usando il tasto della Band</string>
     <string name="message_touch_pattern_error">La combinazione usata è simile ad un\'altra , registrane una diversa.</string>
     <string name="message_touch_free_patterns">In modalità free puoi usare massimo 3 funzioni</string>
     <string name="message_touch_music_player_not_found">Lettore Musicale non trovato</string>
@@ -246,15 +252,15 @@
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Benvenuto!</string>
-    <string name="dialog_welcome_message"><![CDATA[Quest\'app supporta solo Mi Band 2.
-    <p>Mi Bandage richiede l\'installazione dell\'app ufficiale Mi Fit sullo stesso dispositivo. Per prima cosa devi collegare la Mi Band 2 nell\'app Mi Fit, dopo puoi usare Mi Bandage.</p>
-    <p>Se usi altre applicazioni per controllare Mi Band 2, interferiranno tra di loro quindi disattivale temporaneamente.</p>
-    <p>Se la Mi Band 2 non viene trovata, puoi impostare manualmente l\'indirizzo MAC dal menu dettagli (puoi trovare l\'indirizzo MAC in: Mi Fit/Profilo/Mi Band 2).</p>
-    <p><b>Se la Mi Band 2 non viene trovata o da problemi con l\'app Mi Fit, Prova installando BToolkit, nRF Connect o app simili per la gestione Bluetooth e rimuovi ogni dispositivo accoppiato.</b></p>
+    <string name="dialog_welcome_message"><![CDATA[Quest\'app supporta solo Band.
+    <p>Mi Bandage richiede l\'installazione dell\'app ufficiale Mi Fit sullo stesso dispositivo. Per prima cosa devi collegare la Band nell\'app Mi Fit, dopo puoi usare Mi Bandage.</p>
+    <p>Se usi altre applicazioni per controllare Band, interferiranno tra di loro quindi disattivale temporaneamente.</p>
+    <p>Se la Band non viene trovata, puoi impostare manualmente l\'indirizzo MAC dal menu dettagli (puoi trovare l\'indirizzo MAC in: Mi Fit/Profilo/Band).</p>
+    <p><b>Se la Band non viene trovata o da problemi con l\'app Mi Fit, Prova installando BToolkit, nRF Connect o app simili per la gestione Bluetooth e rimuovi ogni dispositivo accoppiato.</b></p>
     <p><b>MIUI:</b>
     <br>- Schermata app recenti: blocca Mi Bandage (tira già l\'app e clicca sull\'icona del lucchetto).
     <br>- Schermata sicurezza: impostare Mi Bandage senza restrinzioni nella schermata batteria/app risparmio batteria.</p>
-    <p>Se hai problemi (trovare la Mi Band 2, non ricevere notifiche), prova:
+    <p>Se hai problemi (trovare la Band, non ricevere notifiche), prova:
     <br>1. Se hai installato Greenify (o altre app per ibernare) prova a disattivarle.
     <br>2. Installa l\'app Mi Bandage.
     <br>3. Riavvia lo smartphone.
@@ -284,7 +290,7 @@
     <string name="notification_group_name">Nome</string>
     <string name="notification_group_monitoring">Abilita notifiche</string>
     <string name="notification_group_monitoring_disabled">Disabilita notifiche (non mostrare le notifiche dell\'applicazioni)</string>
-    <string name="notification_group_alert_title">Tipo notifica Mi Band 2</string>
+    <string name="notification_group_alert_title">Tipo notifica Band</string>
     <string name="notification_group_text_title">Titolo</string>
     <string name="notification_group_text_content">Contenuto</string>
     <string name="notification_group_pre_alert">Pre icona</string>
@@ -309,7 +315,7 @@
     <string name="notification_group_sample_whatsapp">Visualizza testo WhatsApp</string>
 
     <!-- Notification info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Icone predefinite in Mi Band 2:
+    <string name="info_dialog_notification"><![CDATA[Icone predefinite in Band:
         <br><img src="ALERT_MESSAGE_TEXT">  chiamate perse
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  Email, Gmail
@@ -406,14 +412,14 @@
     <string name="touch_testing_second">sec.</string>
 
     <!-- Touch monitoring info dialog -->
-    <string name="info_dialog_touch"><![CDATA[Il tocco è valido quando il display della Mi Band 2 cambia (quindi conviene prima alzare il polso per attivare il display prima di iniziare a toccare).
+    <string name="info_dialog_touch"><![CDATA[Il tocco è valido quando il display della Band cambia (quindi conviene prima alzare il polso per attivare il display prima di iniziare a toccare).
         <p>Controlla il tempo passato tra i tocchi, non il tempo passato per il primo tocco.</p>
         <p>L\'icona verde sulla scheda indica possibili conflitti con altre funzioni.</p>
         <p>Quando ricevi una chiamata il dispositivo non riconosce le seguenti funzioni per facilitare l\'interazione col tocco: localizzazione dispositivo, ripeti notifiche, controlla musica.</p>
         <p>In area test le funzioni riconosciute non verranno eseguite.</p>
-        <p>Mi Band 2 vibra al tocco solo se hai impostato dei tocchi (risposta alla chiamata, rifiuta solo se c\'è una chiamata in arrivo…).</p>
-        <p>Mi Band 2 vibra una volta, quando riconosce il comando.</p>
-        <p>Mi Band 2 vibra due volte, quando non riconosce il comando (se attivi <i>Vibra quando non riconosci comando</i> is set).</p>
+        <p>Band vibra al tocco solo se hai impostato dei tocchi (risposta alla chiamata, rifiuta solo se c\'è una chiamata in arrivo…).</p>
+        <p>Band vibra una volta, quando riconosce il comando.</p>
+        <p>Band vibra due volte, quando non riconosce il comando (se attivi <i>Vibra quando non riconosci comando</i> is set).</p>
         <p>Esempi di tocchi validi:
         <br>- tocco
         <br>- tocco e aspetta 1sec, tocco
@@ -515,31 +521,31 @@
     <string name="pulse_details">Dettagli pulsazioni</string>
 
     <string name="info_dialog_pulse"><![CDATA[Connessione Bluetooth richiesta per monitorare i battiti.
-        <p>I battiti misurati manualmente (Mi Band2 o app Mi Fit) saranno registrate anche loro quando il monitoraggio dei battiti sarà attivo.<p/>
+        <p>I battiti misurati manualmente (Band o app Mi Fit) saranno registrate anche loro quando il monitoraggio dei battiti sarà attivo.<p/>
         <p>Il monitor dei battiti riproverà più volte se non riceve risultati validi.<p>]]>
     </string>
 
     <!-- Lost monitoring -->
-    <string name="alarm_mi_band_title">Notifica Mi Band 2</string>
+    <string name="alarm_mi_band_title">Notifica Band</string>
     <string name="alarm_mi_band_dnd">Modalità non disturbare</string>
     <string name="alarm_mi_band_interval_title">Intervallo ripetizione allarme impostato</string>
     <string name="alarm_mi_band_time_set_next">Tempo mancante alle prossime impostazioni</string>
     <string name="alarm_mi_band_time">Tempo mancante al prossimo allarme</string>
 
-    <string name="alarm_mi_band_on_bluetooth_disabled_text">Notifica smarrimento su Mi Band 2 attivata.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Notifica smarrimento su Band attivata.</string>
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Tempo allarme: %1$s</string>
 
-    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Notifica Mi Band 2</u></b>
-        <p>Quando finisce il tempo specificato, la Mi Band 2 invia una notifica se non è connessa al dispositivo.</p>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Notifica Band</u></b>
+        <p>Quando finisce il tempo specificato, la Band invia una notifica se non è connessa al dispositivo.</p>
         <p>L\'app usa la funzione allarme dell\'app Mi Fit per avvisarti.</p>
-        <p>L\'allarme verrà ripetuto più volte se la Mi Band 2 non rileva alcun movimento (perchè usa la funzione allarme di fabbrica).</p>
-        <p>Prima di disattivare il Bluetooth o disinstallare l\'app, devi disattivare la notifica della Mi Band 2.</p>
+        <p>L\'allarme verrà ripetuto più volte se la Band non rileva alcun movimento (perchè usa la funzione allarme di fabbrica).</p>
+        <p>Prima di disattivare il Bluetooth o disinstallare l\'app, devi disattivare la notifica della Band.</p>
         <p>Se disinstalli l\'app con l\'allarme è attivo, puoi disabilitarlo attivando e disattivando la funzione allarme nell\'app Mi Fit.</p>
 
         <img src="ic_phone_android"> <b><u>Notifiche dispositivo</u></b>
-        <p>Quando finisce il tempo specificato, il dispositivo manda continuamente notifiche se non connesso alla Mi Band 2.<p>
+        <p>Quando finisce il tempo specificato, il dispositivo manda continuamente notifiche se non connesso alla Band.<p>
         <p>Questo rende più facile trovare il dispositivo. Se qualcuno trova il dispositivo ed è bloccato non può sapere a chi dirlo, quindi puoi far uscire un messaggio.</p>
-        <p>Quando la Mi Band 2 sarà connessa, l\'allarme cesserà.</p>
+        <p>Quando la Band sarà connessa, l\'allarme cesserà.</p>
         <p>Dev\'essere abilitato a mostrare le notifiche nella schermata di blocco.</p>]]>
     </string>
 
@@ -607,8 +613,8 @@
         <p>Richiede connessione Bluetooth per l\'allarme, e si può ricevere una sola volta per 10 secondi.</p>
         <img src="ic_alarm"> <b><u>Sveglia</u></b>
         <p>Non è richiesta una connessione Bluetooth per l\'allarme, l\'app usa la funzione allarme dell\'app Mi Fit per avvisarti.
-        <br>L\'allarme verrà ripetuto più volte se la Mi Band 2 non rileva alcun movimento (perchè usa la funzione allarme di fabbrica).
-        <br>Arrotonda al Minuto, la Mi band 2 non mostra i secondi nel tempo.</p>
+        <br>L\'allarme verrà ripetuto più volte se la Band non rileva alcun movimento (perchè usa la funzione allarme di fabbrica).
+        <br>Arrotonda al Minuto, la Band non mostra i secondi nel tempo.</p>
         <p>La funzione "ripeti notifica" richiede una connessione Bluetooth.</p>
     ]]></string>
 
