@@ -27,7 +27,7 @@
 
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Thời gian kết nối: %1$s</string>
-    <string name="foreground_service_disconnected_text">Mi Band 2 chưa được kết nối</string>
+    <string name="foreground_service_disconnected_text">Band chưa được kết nối</string>
     <!--<string name="foreground_service_disconnected">Thời gian ngắt kết nối: %1$s</string>-->
 
     <!-- Strings related to Settings -->
@@ -44,12 +44,18 @@
     <string name="mi_band_state_connected_disconnected_last_time">RSSI, last connection and disconnection time</string>
     <string name="mi_band_touch">Touch monitoring</string>
     <string name="mi_band_alarm">Next alarm</string>
-    <string name="mi_band_bonded_device_name">Tên thiết bị kết nối Mi Band 2</string>
+    <string name="mi_band_bonded_device_name">Tên thiết bị kết nối Band</string>
     <string name="mi_band_mac_address">Địa chỉ MAC</string>
     <string name="mi_band_firmware">Firmware</string>
     <string name="mi_band_hardware">Phần cứng</string>
 
     <string name="mi_band_mac_address_invalid">Địa chỉ MAC không hợp lý</string>
+
+    <string name="mi_band_state_title">Band settings</string>
+    <string name="mi_band_state_connected">Connected</string>
+    <string name="mi_band_state_disconnected">Disconnected</string>
+    <string name="mi_band_state_bonded">Paired device</string>
+    <string name="mi_band_state_not_bonded">Not paired device</string>
 
     <string name="mi_band_battery_remaining">Thời gian bắt đầu giám sát</string>
     <string name="mi_band_battery_settings">Battery settings</string>
@@ -64,22 +70,22 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Cài đặt kết nối</string>
-    <string name="pref_connected_summary">Cài đặt tín hiệu kết nối trên Mi Band 2 và thiết bị </string>
+    <string name="pref_connected_summary">Cài đặt tín hiệu kết nối trên Band và thiết bị </string>
 
     <string name="pref_connected_signals">Connection signals</string>
-    <string name="pref_connected_signals_summary">Mi Band 2 đang kết nối và không có thông báo</string>
-    <string name="pref_cat_connected_signals_mi_band">Mi Band 2 signal</string>
-    <string name="pref_connected_mi_band_title">Tín hiệu Mi Band 2</string>
+    <string name="pref_connected_signals_summary">Band đang kết nối và không có thông báo</string>
+    <string name="pref_cat_connected_signals_mi_band">Band signal</string>
+    <string name="pref_connected_mi_band_title">Tín hiệu Band</string>
     <string name="pref_cat_connected_signals">Device signals</string>
     <string name="pref_connected_wakelock_title">Sáng màn hình thiết bị</string>
 
     <string name="pref_connected_settings">Connection settings</string>
-    <string name="pref_connected_settings_summary">Mi Band 2 and device connection settings</string>
+    <string name="pref_connected_settings_summary">Band and device connection settings</string>
     <string name="pref_cat_connected_settings">Device settings</string>
     <string name="pref_connected_volume_title">Change volume</string>
     <string name="pref_connected_volume_ring_title">Ring volume</string>
 
-    <string name="pref_cat_connected_have_notif">Tín hiệu cho ứng dụng được xác định trước và Mi Band 2</string>
+    <string name="pref_cat_connected_have_notif">Tín hiệu cho ứng dụng được xác định trước và Band</string>
     <string name="pref_cat_connected_have_notif_default">Cài đặt được xác định trước và cài đặt tùy chỉnh</string>
     <string name="pref_connected_have_notif_immediate_title">Tín hiệu lập tức khi nhận thông báo</string>
     <string name="pref_connected_have_notif_title">Tín hiệu khi kết nối thiết bị</string>
@@ -92,14 +98,14 @@
     <string name="pref_connected_have_notif_default_app_title">Tín hiệu ứng dụng không nhận dạng</string>
     <string name="pref_connected_have_notif_default_app_summary_on">\'app\' biểu tượng (nếu ứng dụng được định nghĩa trước hoặc không phải nhóm thông báo tùy chỉnh)</string>
     <string name="pref_connected_have_notif_pre_signal_title">Dự báo thông báo</string>
-    <string name="pref_connected_have_notif_pre_signal_summary_on">Tín hiệu (sửa đổi) trước khi thông báo thực tế để có thêm thời gian để nhìn vào màn hình Mi Band 2</string>
+    <string name="pref_connected_have_notif_pre_signal_summary_on">Tín hiệu (sửa đổi) trước khi thông báo thực tế để có thêm thời gian để nhìn vào màn hình Band</string>
 
     <string name="pref_disconnected">Cài đặt ngắt kết nối</string>
-    <string name="pref_disconnected_summary">Tín hiệu Mi Band 2 và thiết bị  khi bị ngắt kết nối </string>
+    <string name="pref_disconnected_summary">Tín hiệu Band và thiết bị  khi bị ngắt kết nối </string>
 
     <string name="pref_disconnected_signals">Disconnection signals</string>
-    <string name="pref_disconnected_signals_summary">Mi Band 2 and device disconnection signals, it does not signal when the bluetooth is turned off manually</string>
-    <string name="pref_cat_disconnected_signals_mi_band">Tín hiệu Mi Band 2</string>
+    <string name="pref_disconnected_signals_summary">Band and device disconnection signals, it does not signal when the bluetooth is turned off manually</string>
+    <string name="pref_cat_disconnected_signals_mi_band">Tín hiệu Band</string>
     <string name="pref_disconnected_mi_band_title">Hiển thị biểu tượng</string>
     <string name="pref_cat_disconnected_signals">Tín hiệu thiết bị</string>
     <string name="pref_disconnected_ringtone_title">Nhạc chuông</string>
@@ -107,7 +113,7 @@
     <string name="pref_disconnected_wakelock_title">Đánh thức màn hình thiết bị</string>
 
     <string name="pref_disconnected_settings">Disconnection settings</string>
-    <string name="pref_disconnected_settings_summary">Mi Band 2 and device disconnection settings</string>
+    <string name="pref_disconnected_settings_summary">Band and device disconnection settings</string>
     <string name="pref_cat_disconnected_settings">Device settings</string>
     <string name="pref_disconnected_volume_title">Change volume</string>
     <string name="pref_disconnected_volume_ring_title">Ring volume</string>
@@ -125,7 +131,7 @@
     <string name="pref_abandoned_notif_title">Thiết bị này bị mất</string>
 
     <string name="pref_call">Cài đặt cuộc gọi</string>
-    <string name="pref_call_summary">Tín hiệu Mi Band 2 settings</string>
+    <string name="pref_call_summary">Tín hiệu Band settings</string>
     <string name="pref_cat_call">Cuộc gọi đến</string>
     <string name="pref_call_title">Tín hiệu cuộc gọi đến</string>
     <string name="pref_call_summary_on">Bật (nhớ tắt thông báo cuộc gọi đến trong ứng dụng Mi Fit)</string>
@@ -141,38 +147,38 @@
     <string name="pref_call_missed_net_title">Tín hiệu lỡ cuộc gọi internet, hiện tên/ số người gọi</string>
     <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
 
-    <string name="pref_call_missed_alert_title">Tín hiệu Mi Band 2</string>
+    <string name="pref_call_missed_alert_title">Tín hiệu Band</string>
 
     <string name="pref_call_missed_text_prefix_title">Tiền tố văn bản: %1$s</string>
     <string name="pref_call_missed_text_prefix_summary">Nếu có nhiều hơn một ứng dụng cũng sử dụng các biểu tượng để phân biệt thông báo từ với nhau</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Tiền tố văn bản</string>
 
     <string name="pref_text_conversion">Cài đặt biểu tượng văn bản</string>
-    <string name="pref_text_conversion_summary">Cài đặt biểu tượng văn bản Mi Band 2</string>
-    <string name="pref_cat_text_conversion">Tín hiệu Mi Band 2</string>
+    <string name="pref_text_conversion_summary">Cài đặt biểu tượng văn bản Band</string>
+    <string name="pref_cat_text_conversion">Tín hiệu Band</string>
     <string name="pref_text_conversion_title">Chuyển đổi ký tự có dấu</string>
     <string name="pref_text_conversion_summary_on">Chuyển đổi ký tự không nhận diện</string>
 
     <string name="pref_text_conversion_description_title">Mô tả</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
-        <p>If your Mi Band 2 shows the incoming caller name currently, then you do not need to do the following steps just turn off <i>Incoming call alerts</i> on Mi Fit.</p>
+        <p>If your Band shows the incoming caller name currently, then you do not need to do the following steps just turn off <i>Incoming call alerts</i> on Mi Fit.</p>
         <p>If you do not use <i>Incoming call alerts</i> and the phone language is not English:
         <br/>1. Set your phone language to English.
         <br/>2. Open Mi Fit app, wait until the font firmware update done. If firmware update doesn\'t start, try reboot your phone.
         <br/>3. Open the <i>Profile/Mi Band/Incoming call</i> menu.
         <br/>4. Turn on: <i>Turn on incoming call alerts</i>.
         <br/>5. Turn on: <i>Show contact information</i>.
-        <br/>6. Check if you can Mi Band 2 shows caller name by calling your phone.
+        <br/>6. Check if you can Band shows caller name by calling your phone.
         <br/>7. Turn off : <i>Turn on incoming call alerts</i> (<i>Show contact information</i> stays on).
         <br/>8. Set phone language back to your language.</p>]]>
     </string>
 
     <string name="pref_touch">Cài đặt giám sát chạm</string>
-    <string name="pref_cat_touch">Tín hiệu Mi Band 2</string>
+    <string name="pref_cat_touch">Tín hiệu Band</string>
     <string name="pref_touch_recognised_failed_title">Tín hiệu không nhận ra cử chỉ</string>
     <string name="pref_touch_recognised_failed_summary_on">Bật (rung  2 lần sau khi cử chỉ dài nhất)</string>
 
-    <string name="pref_mi_band">Các cài đặt Mi Band 2</string>
+    <string name="pref_mi_band">Các cài đặt Band</string>
     <string name="pref_cat_mi_band_lift_wrist">Nâng cổ tay để xem thông tin</string>
     <string name="pref_mi_band_lift_wrist_title">Nâng cổ tay để xem thông tin</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Chế độ không làm phiền</string>
@@ -196,12 +202,12 @@
     <string name="pref_dnd_enable_bluetooth">At the start of the Dnd mode turn Bluetooth off, at the end turn Bluetooth on</string>
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Vui lòng kích hoạt Bluetooth và mang Mi Band 2 gần hơn với điện thoại</string>
-    <string name="message_discover_mi_band">Mi Band 2 chưa được cài đặt, hãy kết nối với nó</string>
-    <string name="message_discovered_mi_band">Phát hiện Mi Band 2</string>
-    <string name="message_discovering_mi_band">Tìm Mi Band 2 (có thể mất 1 phút) &#8230;</string>
-    <string name="message_discovered_no_mi_band">Mi Band 2 không được tìm thấy</string>
-    <string name="message_discovered_not_found_mi_band">Nếu Mi Band 2 không được tìm thấy, bật: Mi Fit / cài đặt … hoặc ghép nối tại cài đặt Bluetooth</string>
+    <string name="message_enable_bluetooth">Vui lòng kích hoạt Bluetooth và mang Band gần hơn với điện thoại</string>
+    <string name="message_discover_mi_band">Band chưa được cài đặt, hãy kết nối với nó</string>
+    <string name="message_discovered_mi_band">Phát hiện Band</string>
+    <string name="message_discovering_mi_band">Tìm Band (có thể mất 1 phút) &#8230;</string>
+    <string name="message_discovered_no_mi_band">Band không được tìm thấy</string>
+    <string name="message_discovered_not_found_mi_band">Nếu Band không được tìm thấy, bật: Mi Fit / cài đặt … hoặc ghép nối tại cài đặt Bluetooth</string>
     <string name="message_enable_notification_listener_access">Kích hoạt tính năng truy cập thông báo: Cài đặt / Bảo mật / Truy cập thông báo</string>
     <string name="message_enable_notification_listener_access_4_4">Kích hoạt tính năng truy cập thông báo: Cài đặt / Bảo mật / Truy cập thông báo</string>
     <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
@@ -218,7 +224,7 @@
     <string name="message_step_goal_max_values">Có thể đặt nhiều nhất 10 giá trị</string>
 
     <string name="message_touch_no_patterns">Press one of the red pattern recording buttons</string>
-    <string name="message_touch_record">Ghi lại các cử chỉ sử dụng  nút cảm ứng Mi Band 2 </string>
+    <string name="message_touch_record">Ghi lại các cử chỉ sử dụng  nút cảm ứng Band </string>
     <string name="message_touch_pattern_error">Các mẫu cụ thể là tương tự mẫu của một chức năng khác, ghi lại cách khác</string>
     <string name="message_touch_free_patterns">Lên đến 3 chức năng có thể được sử dụng</string>
     <string name="message_touch_music_player_not_found">Trình phát nhạc không được tìm thấy</string>
@@ -246,15 +252,15 @@
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Chào mừng!</string>
-    <string name="dialog_welcome_message"><![CDATA[The app currently only supports Mi Band 2.
-    <p>Mi Bandage requires the installation of the official Mi Fit app on the same device. At first you have to pair Mi Band 2 in Mi Fit app, then you can use Mi Bandage.</p>
-    <p>If you use more applications to control Mi Band 2, they interfere with each other so temporarily turn off those.</p>
-    <p>If Mi Band 2 is not found, then you can set the MAC address manually in the details menu (MAC address is found: Mi Fit/Profil/Mi Band 2).</p>
-    <p><b>If Mi Band 2 is not found or if you are having trouble syncing Mi Fit app, then install the BToolkit, nRF Connect or similar Bluetooth manager app and remove any pairing, bonded device.</b></p>
+    <string name="dialog_welcome_message"><![CDATA[The app currently only supports Band.
+    <p>Mi Bandage requires the installation of the official Mi Fit app on the same device. At first you have to pair Band in Mi Fit app, then you can use Mi Bandage.</p>
+    <p>If you use more applications to control Band, they interfere with each other so temporarily turn off those.</p>
+    <p>If Band is not found, then you can set the MAC address manually in the details menu (MAC address is found: Mi Fit/Profil/Band).</p>
+    <p><b>If Band is not found or if you are having trouble syncing Mi Fit app, then install the BToolkit, nRF Connect or similar Bluetooth manager app and remove any pairing, bonded device.</b></p>
     <p><b>MIUI:</b>
     <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
     <br>- Security app screen: battery/app battery saver set Mi Bandage app to no restriction.</p>
-    <p>If you have problem (discover Mi Band 2, not have notification signal), please try it:
+    <p>If you have problem (discover Band, not have notification signal), please try it:
     <br>1. If you installed the Greenify (or other hibernating app) turn it off.
     <br>2. Install Mi Bandage app.
     <br>3. Restart phone.
@@ -284,7 +290,7 @@
     <string name="notification_group_name">Tên</string>
     <string name="notification_group_monitoring">Giám sát thông báo</string>
     <string name="notification_group_monitoring_disabled">Vô hiệu hóa các thông báo (không hiển thị các thông báo ứng dụng)</string>
-    <string name="notification_group_alert_title">Tín hiệu Mi Band 2</string>
+    <string name="notification_group_alert_title">Tín hiệu Band</string>
     <string name="notification_group_text_title">Tiêu đề</string>
     <string name="notification_group_text_content">Nội dung</string>
     <string name="notification_group_pre_alert">Biểu tượng báo trước</string>
@@ -309,7 +315,7 @@
     <string name="notification_group_sample_whatsapp">WhatsApp text display</string>
 
     <!-- Notification info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Predefined app and Mi Band 2 icon signals:
+    <string name="info_dialog_notification"><![CDATA[Predefined app and Band icon signals:
         <br><img src="ALERT_MESSAGE_TEXT">  missed call
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  Email, Gmail
@@ -394,7 +400,7 @@
 
     <string name="touch_tasker_launcher1_title">1. Tasker task launcher</string>
     <string name="touch_tasker_launcher2_title">2. Tasker task launcher</string>
-    <string name="touch_tasker_launcher_no_permission_title">You have to install Tasker first, after Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_permission_title">First you have to install Tasker, then Mi Bandage</string>
     <string name="touch_tasker_launcher_no_access_title">Allow external access</string>
     <string name="touch_tasker_launcher_no_task_title">Select an task</string>
    
@@ -406,14 +412,14 @@
     <string name="touch_testing_second">giây.</string>
 
     <!-- Touch monitoring info dialog -->
-    <string name="info_dialog_touch"><![CDATA[The touch is valid when the display of Mi Band 2 changes (so it is advisable to rotate your wrist before touching).
+    <string name="info_dialog_touch"><![CDATA[The touch is valid when the display of Band changes (so it is advisable to rotate your wrist before touching).
         <p>It monitors elapsed time between touches, not the elapsed time to first touch.</p>
         <p>Green icons on the cards indicates which another function can be similar to current pattern.</p>
         <p>When you have an incoming call the device does not recognise the following functions in order to ease touch input: location of the device, repeat notifications, music control.</p>
         <p>In test mode does not execute the function of recognised pattern.</p>
-        <p>Mi Band 2 vibration feedback just only, if there is a pattern taking into account the current status of the device (call answering, rejecting only if there is an incoming call…).</p>
-        <p>Mi Band 2 vibrates once, when recognise a pattern.</p>
-        <p>Mi Band 2 vibrates twice, when not recognise any pattern after the longest pattern (if <i>Not recognisable touch pattern signal</i> is set).</p>
+        <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the device (call answering, rejecting only if there is an incoming call…).</p>
+        <p>Band vibrates once, when recognise a pattern.</p>
+        <p>Band vibrates twice, when not recognise any pattern after the longest pattern (if <i>Not recognisable touch pattern signal</i> is set).</p>
         <p>Valid touching examples:
         <br>- touch
         <br>- touch and 1sec waiting, touch
@@ -515,25 +521,25 @@
     <string name="pulse_details">Chi tiết nhịp tim</string>
 
     <string name="info_dialog_pulse"><![CDATA[Bluetooth connection is required for monitoring the pulse.
-        <p>Manually launched measurements (Mi Band2, Mi Fit app) are logged too when pulse monitoring is started.<p/>
+        <p>Manually launched measurements (Band, Mi Fit app) are logged too when pulse monitoring is started.<p/>
         <p>Pulse monitor is repeated serveral times if the resulting value is invalid.<p>]]>
     </string>
 
     <!-- Lost  monitoring -->
-    <string name="alarm_mi_band_title">Tín hiệu Mi Band 2</string>
+    <string name="alarm_mi_band_title">Tín hiệu Band</string>
     <string name="alarm_mi_band_dnd">Chế độ không làm phiền</string>
     <string name="alarm_mi_band_interval_title">Cài đặt khoảng thời gian báo thức lặp lại</string>
     <string name="alarm_mi_band_time_set_next">Cài đặt thời điểm của tiếp theo</string>
     <string name="alarm_mi_band_time">Thời điểm của báo thức tiếp theo</string>
 
-    <string name="alarm_mi_band_on_bluetooth_disabled_text">Lost monitoring Mi Band 2 signal is enabled.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Lost monitoring Band signal is enabled.</string>
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm time: %1$s</string>
 
-    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Tín hiệu Mi Band 2</u></b>
-        <p>When specified period of time expires, Mi Band 2 send signals if not connected to the device.</p>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Tín hiệu Band</u></b>
+        <p>When specified period of time expires, Band send signals if not connected to the device.</p>
         <p>App uses alarm function of Mi Fit to alert (overwrite 10. setting).</p>
-        <p>The alarm will be repeated several times if the Mi Band 2 do not detect any movement (because it uses the factory alarm).</p>
-        <p>Before switching off Bluetooth or uninstalling the app you need to deactivate Tín hiệu Mi Band 2.</p>
+        <p>The alarm will be repeated several times if the Band do not detect any movement (because it uses the factory alarm).</p>
+        <p>Before switching off Bluetooth or uninstalling the app you need to deactivate Tín hiệu Band.</p>
         <p>If you remove the application when the alarm is on, then you can disable it with turning on and off again Mi Fit 10. alarm setting.</p>
 
         <img src="ic_phone_android"> <b><u>Device signals</u></b>
@@ -607,7 +613,7 @@
         <p>Bluetooth connection is required for alarm, it alarms just only once for 10 seconds.</p>
         <img src="ic_alarm"> <b><u>Alarm</u></b>
         <p>Bluetooth connection is not required for alarm, app uses alarm function of Mi Fit to alert (overwrite 4. - 9. setting).
-        <br>The alarm will be repeated several times if the Mi Band 2 do not detect any movement (because it uses the factory alarm).
+        <br>The alarm will be repeated several times if the Band do not detect any movement (because it uses the factory alarm).
         <br>Độ chính xác theo phút, Miband 2 không chính xác từng giây trong thời gian báo thức.</p>
         <p>Reminder signal requires Bluetooth connection.</p>
     ]]></string>
