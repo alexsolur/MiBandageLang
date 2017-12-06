@@ -41,7 +41,7 @@
     <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Niveau de batterie, heure de dernière recharge, temps restant estimé</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI, heure de dernière connexion et déconnexion</string>
+    <string name="mi_band_state_connected_disconnected_last_time">Signal, dernière connexion et déconnexion</string>
     <string name="mi_band_touch">Supervision du touché</string>
     <string name="mi_band_alarm">Prochaine alarme</string>
     <string name="mi_band_bonded_device_name">Nom du Band apairé</string>
@@ -369,7 +369,7 @@
 
     <string name="touch_call_end_title">Appels rejetés, terminés</string>
 
-    <string name="touch_call_mute_title">Call mute toggle</string>
+    <string name="touch_call_mute_title">Appels basculés en muet</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Uniquement si vous avez un appel entrant</string>
 
     <string name="touch_device_location_not_muted_only_title">Emettre un son s'il n'est pas en muet ou en mode DnD</string>
@@ -447,9 +447,9 @@
     <string name="activity_progress_title_sync">Synchronisation des données %1$,d%%</string>
     <string name="activity_progress_title_save">Sauvegarde des données %1$,d%%</string>
 
-    <string name="step_title_timing">Timing</string>
+    <string name="step_title_timing">Planification</string>
     <string name="step_interval_title">Intervalle de répétition de la supervision des pas</string>
-    <string name="step_time_set_next">Timing of next monitoring</string>
+    <string name="step_time_set_next">Heure du prochain relevé</string>
 
     <string name="step_goal_default_title">Objectif par défaut</string>
     <string name="step_goal_type_title">Objectifs supplémentaires</string>
@@ -530,7 +530,7 @@
     <string name="alarm_mi_band_dnd">Mode ne pas déranger</string>
     <string name="alarm_mi_band_interval_title">Intervalle de répétition de l'alerte</string>
     <string name="alarm_mi_band_time_set_next">Timing of next setting</string>
-    <string name="alarm_mi_band_time">Timing of next alarm</string>
+    <string name="alarm_mi_band_time">Horaire de la prochaine alerte</string>
 
     <string name="alarm_mi_band_on_bluetooth_disabled_text">L\'alerte de perte de la supervision du Band est activée.</string>
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Heure de l\'alarme: %1$s</string>
