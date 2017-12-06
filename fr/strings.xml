@@ -106,7 +106,7 @@
     <string name="pref_disconnected_signals">Alertes de déconnexion</string>
     <string name="pref_disconnected_signals_summary">Alertes de déconnexion du Band et du mobile, aucune alerte ne sera transmise si le bluetooth est désactivé manuellement</string>
     <string name="pref_cat_disconnected_signals_mi_band">Alerte du Band</string>
-    <string name="pref_disconnected_mi_band_title">Icone displaying and vibration</string>
+    <string name="pref_disconnected_mi_band_title">Affichage de l'icone et vibration</string>
     <string name="pref_cat_disconnected_signals">Alertes du mobile</string>
     <string name="pref_disconnected_ringtone_title">Type de sonnerie</string>
     <string name="pref_disconnected_vibration_title">Vibration</string>
@@ -124,7 +124,7 @@
     <string name="pref_cat_abandoned">Alerte du mobile</string>
     <string name="pref_abandoned_notif_interval_title">Intervalle de répétition de l\'alerte</string>
     <string name="pref_abandoned_notif_text_summary">Notification sur l\'écran du mobile</string>
-    <string name="pref_abandoned_notif_text_text">Mobile égaré, veillez appeler les numéros suivants:</string>
+    <string name="pref_abandoned_notif_text_text">Mobile égaré, veuillez appeler les numéros suivants:</string>
     <string name="pref_abandoned_ringtone_title">Type de sonnerie</string>
     <string name="pref_abandoned_vibration_title">Vibration</string>
     <string name="pref_abandoned_wakelock_title">Allumer l\'écran</string>
@@ -150,14 +150,14 @@
     <string name="pref_call_missed_alert_title">Alerte Band</string>
 
     <string name="pref_call_missed_text_prefix_title">Préfix texte: %1$s</string>
-    <string name="pref_call_missed_text_prefix_summary">Si plus d\'une appli  Si plusieurs applications utilisent également l\'icône pour différencier les notifications les unes des autres</string>
+    <string name="pref_call_missed_text_prefix_summary">Si plusieurs applications utilisent également l\'icône pour différencier les notifications les unes des autres</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Préfix texte</string>
 
     <string name="pref_text_conversion">Icones texte</string>
     <string name="pref_text_conversion_summary">Réglages de l\'icone teste du Band</string>
     <string name="pref_cat_text_conversion">Alerte Band</string>
     <string name="pref_text_conversion_title">Convertion des caractères</string>
-    <string name="pref_text_conversion_summary_on">Convertion des caractères non reconnue</string>
+    <string name="pref_text_conversion_summary_on">Convertion des caractères non reconnus</string>
 
     <string name="pref_text_conversion_description_title">Description</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -283,7 +283,7 @@
     <string name="diagnostic_protection_lock">Vérouiller l\'écran des applis récentes</string>
 
     <!-- Notification  -->
-    <string name="notification_tab_settings">Réglage</string>
+    <string name="notification_tab_settings">Réglages</string>
     <string name="notification_tab_custom">Notifications personnalisées</string>
 
     <!-- Notification Dialog -->
@@ -359,7 +359,7 @@
     <!-- Touch monitoring -->
     <string name="touch_headline_call_title">Contrôle des appels</string>
     <string name="touch_headline_music_title">Contrôle de la musique</string>
-    <string name="touch_headline_time_title">Contrôle du chronomètre minuteur/stopwatch</string>
+    <string name="touch_headline_time_title">Contrôle du chronomètre minuteur</string>
     <string name="touch_headline_other_title">Autres contrôles</string>
 
     <string name="touch_device_location_title">Trouver mon mobile</string>
@@ -372,7 +372,7 @@
     <string name="touch_call_mute_title">Call mute toggle</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Uniquement si vous avez un appel entrant</string>
 
-    <string name="touch_device_location_not_muted_only_title">Sound only if it is not muted or in DnD mode</string>
+    <string name="touch_device_location_not_muted_only_title">Emettre un son s'il n'est pas en muet ou en mode DnD</string>
 
     <string name="touch_repeat_notif_title">Notifications répétées</string>
     <string name="touch_repeat_notif_clear_all">Effacer toutes les notifications après la répétition</string>
@@ -398,15 +398,15 @@
     <string name="touch_app_launcher_package_no_title">Sélectionner une application</string>
     <string name="touch_app_launcher1_not_wakelock_only_title">Uniquement si l\'écran n\'est pas vérouillé</string>
 
-    <string name="touch_tasker_launcher1_title">1. Tasker lancement de tâche</string>
-    <string name="touch_tasker_launcher2_title">2. Tasker lancement de tâche</string>
+    <string name="touch_tasker_launcher1_title">1. Tasker lancement de tâches</string>
+    <string name="touch_tasker_launcher2_title">2. Tasker lancement de tâches</string>
     <string name="touch_tasker_launcher_no_permission_title">Vous devez installer Tasker en premier, puis Mi Bandage ensuite</string>
     <string name="touch_tasker_launcher_no_access_title">Autoriser un accès externe</string>
     <string name="touch_tasker_launcher_no_task_title">Sélectionner une tâche</string>
 
     <string name="touch_testing_title">Supervision du touché</string>
 
-    <string name="touch_tab_settings">Réglage</string>
+    <string name="touch_tab_settings">Réglages</string>
     <string name="touch_tab_testing">Essai</string>
 
     <string name="touch_testing_second">sec.</string>
@@ -441,7 +441,7 @@
     <string name="step_tab_week">Graphs semaine</string>
     <string name="step_tab_month">Graphs mensuel</string>
     <string name="step_tab_goal">Objectifs d\'activité</string>
-    <string name="step_tab_settings">Réglage</string>
+    <string name="step_tab_settings">Réglages</string>
 
     <string name="activity_progress_title_prepare">Préparation à la synchronisation…</string>
     <string name="activity_progress_title_sync">Synchronisation des données %1$,d%%</string>
@@ -471,7 +471,7 @@
     <string name="sleep_tab_day">Graphs quotidien</string>
     <string name="sleep_tab_week">Graphs semaine</string>
     <string name="sleep_tab_month">Graphs mensuel</string>
-    <string name="sleep_tab_settings">Réglage</string>
+    <string name="sleep_tab_settings">Réglages</string>
 
     <string name="action_chart_sleep_type_phase">Phase</string>
     <string name="action_chart_sleep_type_time">Heure</string>
@@ -500,7 +500,7 @@
     <string name="pulse_tab_day">Graphs quotidien</string>
     <string name="pulse_tab_week">Graphs semaine</string>
     <string name="pulse_tab_month">Graphs mensuel</string>
-    <string name="pulse_tab_settings">Réglage</string>
+    <string name="pulse_tab_settings">Réglages</string>
 
     <string name="action_chart_pulse_type_pulse">Rythme</string>
     <string name="action_chart_pulse_type_pulse_and_step">Rythme et activité</string>
@@ -511,11 +511,11 @@
     <string name="pulse_signal_end_low_title">Alerte sur faible rythme</string>
     <string name="pulse_signal_end_title">Alerte sur rythme élevé </string>
 
-    <string name="pulse_title_timing_validity">Timing and validity</string>
-    <string name="pulse_interval_title">Repeat interval of pulse monitoring</string>
-    <string name="pulse_time_set_next">Timing of next monitoring</string>
-    <string name="pulse_value_min">Valid lower value</string>
-    <string name="pulse_value_max">Valid higher value</string>
+    <string name="pulse_title_timing_validity">Fréquence et plage</string>
+    <string name="pulse_interval_title">Intervalle de supervision du rythme</string>
+    <string name="pulse_time_set_next">Heure du prochain relevé</string>
+    <string name="pulse_value_min">Valeur mini</string>
+    <string name="pulse_value_max">Valeur maxi</string>
     <string name="pulse_value_invalid">Invalid value</string>
 
     <string name="pulse_details">Détails du rythme</string>
@@ -528,7 +528,7 @@
     <!-- Lost monitoring -->
     <string name="alarm_mi_band_title">Alerte Band</string>
     <string name="alarm_mi_band_dnd">Mode ne pas déranger</string>
-    <string name="alarm_mi_band_interval_title">Repeat interval of alarm setting</string>
+    <string name="alarm_mi_band_interval_title">Intervalle de répétition de l'alerte</string>
     <string name="alarm_mi_band_time_set_next">Timing of next setting</string>
     <string name="alarm_mi_band_time">Timing of next alarm</string>
 
@@ -595,7 +595,7 @@
     <string name="time_alert_bell_title">Sonnerie</string>
     <string name="time_alert_alarm_title">Alarme</string>
 
-    <string name="time_interval_time_total">Total time</string>
+    <string name="time_interval_time_total">Temps total</string>
     <string name="time_interval_counter">Nombre de répétitions</string>
     <string name="time_interval_time_alert">End time</string>
     <string name="time_interval_time_current">Répétition, interval elapsed time</string>
@@ -621,7 +621,7 @@
     <!-- Agent -->
     <string name="agent_title">Agent de supervision du mobile</string>
     <string name="agent_tab_events">Journaux de l\'agent</string>
-    <string name="agent_tab_settings">Réglage</string>
+    <string name="agent_tab_settings">Réglages</string>
 
     <string name="pref_disconnected_agent_summary_on">Si quelqu\'un a manipulé l\'appareil pendant votre absence, vous le saurez</string>
     <string name="pref_disconnected_agent_text">Quelqu\'un a manipulé votre mobile en votre absence</string>
@@ -655,8 +655,8 @@
 
     <string name="theme_widget_touch_event_title">Touch event</string>
 
-    <string name="theme_notification_title">Show status in notification shade</string>
-    <string name="theme_notification_summary">The Android system force-stops a service only when memory is low. If after a while does not appear the notifications on the Band 2, you can prevent this.</string>
+    <string name="theme_notification_title">Afficher l'état dans la barre de notification</string>
+    <string name="theme_notification_summary">Android coupe un service uniquement si la mémoire est faible. Si après un certain temps les notifications n'apparaissent pas sur le band, vous pouvez empêcher cela.</string>
     <string name="theme_notification_color_title">Couleur de l\'icone</string>
     <string name="theme_notification_text_color_title">Couleur du texte</string>
 
@@ -689,11 +689,11 @@
     <string name="backup_restore_reset">Après la restauration, le Bluetooth sera éteint puis réactivé et l\'application va redémarrer.</string>
 
     <!-- Rewarded mode -->
-    <string name="rewarded_policy_title">Termes et conditions d\'utilisation du mode récompenses</string>
+    <string name="rewarded_policy_title">Termes et conditions d\'utilisation</string>
     <string name="rewarded_policy"><![CDATA[
         <p>- début de validité: l\'heure actuelle
         <br>- fin de validité: début de validité + au moins %1$,d jour(s) (dépend de l\'annonce, cela peut être plus)
-        <br>- time manipulation can cause termination of validity</p>
+        <br>- Agir sur la durée peut engendrer une fin de validité</p>
         <i>Après avoir lancé la video vous devez redémarrer l\'appli.</i>
     ]]></string>
 
@@ -713,23 +713,23 @@
         <br>- supervision illimitée des notifications
         <br>- supervision illimitée du touché
         <br>- text prefix, pre icon and filtering text peuvent être utilisé dans la supervision des notifications
-        <br>- l\'intervalle de répétition peut être défini librement freely in step monitoring function
-        <br>- l\'intervalle de répétition peut être défini librement et l\'affichage du rythme  and show pulse can be used in pulse monitoring function
-        <br>- l\'intervalle de répétition peut être défini librement et le mode ne pas dérranger  and DnD mode can be used in lost monitoring function
-        <br>- repeated reminders, l\'affichage de message et l\'activation du bluetooth peuvent être définis librement dans la supervision  in time monitoring
+        <br>- l\'intervalle de répétition peut être défini librement dans la supervision des pas
+        <br>- l\'intervalle de répétition peut être défini librement et l\'affichage du rythme peut etre utilisé dans la supervision du rythme
+        <br>- l\'intervalle de répétition peut être défini librement et le mode ne pas déranger, DnD, peut etre utilisé dans la supervision de la connexion
+        <br>- l\'affichage de message et l\'activation du bluetooth peuvent être définis librement dans la supervision des horaires
         <br>- …
     ]]></string>
-    <string name="purchase_policy_title">Termes et conditions d\'utilisation du mode Premium</string>
+    <string name="purchase_policy_title">Termes et conditions d\'utilisation</string>
     <string name="purchase_policy"><![CDATA[
         <p>- J\'ai testé cette appli et elle fonctionne parfaitement.
-        <br>- I am aware of that I can not require compensation or refund due to bugs, software errors caused by changes in the software, hardware environment or using other applications.
-        <br>- All sales are final and can not be refund (except Google refund policy).
-        <br>- There is no warranty included.</p>
-        <p><i>After purchasing you need to restart the app.</i></p>
+        <br>- J'accepte et je suis d'accord sur le fait de ne pas pouvoir demander de remboursement à cause de bugs, les erreurs de programme causées par des modifications du programme, de l'environnement matériel ou par l'utilisation d'autres applications.
+        <br>- Toute vente est définitive et ne peut espérer un remboursement (sauf via la politique d'indemnisation de Google).
+        <br>- Il n'y a aucune garantie fournie.</p>
+        <p><i>Après l'achat vous devez redémarrer l'appli.</i></p>
     ]]></string>
 
     <string name="purchase_agree">J\'accèpte les termes et conditions d\'utilisation.</string>
-    <string name="purchase_order_id">Order ID</string>
+    <string name="purchase_order_id">N° de payement</string>
     <string name="purchase_order_id_help">Copier depuis:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
