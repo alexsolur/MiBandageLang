@@ -44,7 +44,7 @@
     <string name="mi_band_state_connected_disconnected_last_time">Signal, dernière connexion et déconnexion</string>
     <string name="mi_band_touch">Supervision du touché</string>
     <string name="mi_band_alarm">Prochaine alarme</string>
-    <string name="mi_band_bonded_device_name">Nom du Band apairé</string>
+    <string name="mi_band_bonded_device_name">Nom du Band appairé</string>
     <string name="mi_band_mac_address">Adresse MAC</string>
     <string name="mi_band_firmware">Firmware</string>
     <string name="mi_band_hardware">Matériel</string>
@@ -86,7 +86,7 @@
     <string name="pref_connected_volume_ring_title">Niveau de la sonnerie</string>
 
     <string name="pref_cat_connected_have_notif">Alertes par défaut de l\'appli et du Band</string>
-    <string name="pref_cat_connected_have_notif_default">Réglages par défaut et personalisés</string>
+    <string name="pref_cat_connected_have_notif_default">Réglages par défaut et personnalisés</string>
     <string name="pref_connected_have_notif_immediate_title">Alerte immédiate lorsqu\'une notification est reçue</string>
     <string name="pref_connected_have_notif_title">Alerte lors de la connexion au mobile</string>
     <string name="pref_connected_have_notif_reminder_title">Alerte de rappel</string>
@@ -96,9 +96,9 @@
     <string name="pref_connected_have_notif_wakelock_title">Allumer l\'écran du mobile</string>
     <string name="pref_connected_have_notif_ongoing_title">Alerte sur les notifications permanentes (en cours)</string>
     <string name="pref_connected_have_notif_default_app_title">Alerte sur une appli non reconnue</string>
-    <string name="pref_connected_have_notif_default_app_summary_on">Icone \'app\' (si l\'appli n\'est dans aucun groupe par défaut ni personnalisé)</string>
+    <string name="pref_connected_have_notif_default_app_summary_on">Icône \'app\' (si l\'appli n\'est dans aucun groupe par défaut ni personnalisé)</string>
     <string name="pref_connected_have_notif_pre_signal_title">Notification de prédiction</string>
-    <string name="pref_connected_have_notif_pre_signal_summary_on">Alerter (cliquez sur l\'icone pour modifier) avant la notification afin d\'avoir plus de temps pour consulter sur l\'écran</string>
+    <string name="pref_connected_have_notif_pre_signal_summary_on">Alerter (cliquez sur l\'icône pour modifier) avant la notification afin d\'avoir plus de temps pour consulter sur l\'écran</string>
 
     <string name="pref_disconnected">Déconnexion</string>
     <string name="pref_disconnected_summary">Réglages des alertes de déconnexion du Band et du mobile</string>
@@ -106,7 +106,7 @@
     <string name="pref_disconnected_signals">Alertes de déconnexion</string>
     <string name="pref_disconnected_signals_summary">Alertes de déconnexion du Band et du mobile, aucune alerte ne sera transmise si le bluetooth est désactivé manuellement</string>
     <string name="pref_cat_disconnected_signals_mi_band">Alerte du Band</string>
-    <string name="pref_disconnected_mi_band_title">Affichage de l'icone et vibration</string>
+    <string name="pref_disconnected_mi_band_title">Affichage de l'icône et vibration</string>
     <string name="pref_cat_disconnected_signals">Alertes du mobile</string>
     <string name="pref_disconnected_ringtone_title">Type de sonnerie</string>
     <string name="pref_disconnected_vibration_title">Vibration</string>
@@ -153,11 +153,11 @@
     <string name="pref_call_missed_text_prefix_summary">Si plusieurs applications utilisent également l\'icône pour différencier les notifications les unes des autres</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Préfix texte</string>
 
-    <string name="pref_text_conversion">Icones texte</string>
-    <string name="pref_text_conversion_summary">Réglages de l\'icone teste du Band</string>
+    <string name="pref_text_conversion">Icônes texte</string>
+    <string name="pref_text_conversion_summary">Réglages de l\'icône teste du Band</string>
     <string name="pref_cat_text_conversion">Alerte Band</string>
-    <string name="pref_text_conversion_title">Convertion des caractères</string>
-    <string name="pref_text_conversion_summary_on">Convertion des caractères non reconnus</string>
+    <string name="pref_text_conversion_title">Conversion des caractères</string>
+    <string name="pref_text_conversion_summary_on">Conversion des caractères non reconnus</string>
 
     <string name="pref_text_conversion_description_title">Description</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -258,7 +258,7 @@
     <p>Si votre Band n\'est pas détecté, vous pouvez saisir son adresse MAC manuellement dans les détails de la fenêtre principale (l\'adresse MAC se trouve dans: Mi Fit/Profil/Band).</p>
     <p><b>Si votre Band n\'est pas détecté ou si vous avez un problème de synchronisation avec l\'appli Mi Fit, veuillez installer BToolkit, nRF Connect ou toute autre appli pour gérer le Bluetooth et retirez tous les appareils appairés.</b></p>
     <p><b>MIUI:</b>
-    <br>- Écran des applis récentes: vérouiller Mi Bandage (déroulez l\'application et cliquez sur l\'icône de verrouillage).
+    <br>- Écran des applis récentes: verrouiller Mi Bandage (déroulez l\'application et cliquez sur l\'icône de verrouillage).
     <br>- Écran d\'appli de sécurité: définir Mi Bandage dans votre appli d\'économie de batterie sur aucune restriction.</p>
     <p>Si vous avez un souci (détection du Band, aucune alerte de notification), essayez ceci:
     <br>1. Si vous avez installé Greenify (ou tout autre appli de mise en veille) désactivez là.
@@ -280,7 +280,7 @@
     <string name="diagnostic_protection_title">Protection contre la fermeture</string>
     <string name="diagnostic_protection_battery">Optimisation de la batterie désactivée</string>
     <string name="diagnostic_protection_service">Afficher l\'état dans le déroulé des notifications</string>
-    <string name="diagnostic_protection_lock">Vérouiller l\'écran des applis récentes</string>
+    <string name="diagnostic_protection_lock">Verrouiller l\'écran des applis récentes</string>
 
     <!-- Notification  -->
     <string name="notification_tab_settings">Réglages</string>
@@ -293,7 +293,7 @@
     <string name="notification_group_alert_title">Alerte Band</string>
     <string name="notification_group_text_title">Titre</string>
     <string name="notification_group_text_content">Contenu</string>
-    <string name="notification_group_pre_alert">Pré icone</string>
+    <string name="notification_group_pre_alert">Pré icône</string>
     <string name="notification_group_prefix">Prefix texte</string>
     <string name="notification_group_pre_signal_title">Default notification prediction</string>
     <string name="notification_group_pre_only_premium">Uniquement en mode premium</string>
@@ -315,7 +315,7 @@
     <string name="notification_group_sample_whatsapp">Afficher le texte de WhatsApp</string>
 
     <!-- Notification info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Alertes par défaut pour l\'appli et l\'icone du Band:
+    <string name="info_dialog_notification"><![CDATA[Alertes par défaut pour l\'appli et l\'icône du Band:
         <br><img src="ALERT_MESSAGE_TEXT">  Appels manqués
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  Email, Gmail
@@ -346,7 +346,7 @@
 
         <p>You have to disable app alert in the Mi Fit app.</p>
         <p>Ne groupe de notifications que vous avez créé a une priorité plus élevée que celui par défaut.</p>
-        <p><img src="ALERT_MESSAGE_TEXT"> icone: choisir cet icone pour afficher les notifications titre/contenu.</p>
+        <p><img src="ALERT_MESSAGE_TEXT"> icône: choisir cet icône pour afficher les notifications titre/contenu.</p>
         <p>Si vous utilisez les applis par défaut, mais que vous voulez désactiver des notifications, veuillez créer un nouveau groupe de notification avec le paramètre <i>désactiver les notifications</i> et ajouter y les applis.</p>
         ]]>
     </string>
@@ -354,7 +354,7 @@
 
     <!-- MiBandageApp chooser dialog -->
     <string name="action_search">Recherche</string>
-    <string name="action_filter_notification">Fitre de notification</string>
+    <string name="action_filter_notification">Filtre de notification</string>
 
     <!-- Touch monitoring -->
     <string name="touch_headline_call_title">Contrôle des appels</string>
@@ -372,7 +372,7 @@
     <string name="touch_call_mute_title">Appels basculés en muet</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Uniquement si vous avez un appel entrant</string>
 
-    <string name="touch_device_location_not_muted_only_title">Emettre un son s'il n'est pas en muet ou en mode DnD</string>
+    <string name="touch_device_location_not_muted_only_title">Émettre un son s'il n'est pas en muet ou en mode DnD</string>
 
     <string name="touch_repeat_notif_title">Notifications répétées</string>
     <string name="touch_repeat_notif_clear_all">Effacer toutes les notifications après la répétition</string>
@@ -396,7 +396,7 @@
 
     <string name="touch_app_launcher1_title">Lanceur d\'appli</string>
     <string name="touch_app_launcher_package_no_title">Sélectionner une application</string>
-    <string name="touch_app_launcher1_not_wakelock_only_title">Uniquement si l\'écran n\'est pas vérouillé</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Uniquement si l\'écran n\'est pas verrouillé</string>
 
     <string name="touch_tasker_launcher1_title">1. Tasker lancement de tâches</string>
     <string name="touch_tasker_launcher2_title">2. Tasker lancement de tâches</string>
@@ -414,7 +414,7 @@
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[Le touché est valide lorsque l\'écran du Band change (il est donc conseillé de tourner votre poignet avant de toucher).
         <p>Cela supervise le temps entre 2 touches et non le temps passé depuis la 1ere touche.</p>
-        <p>Les icones vert sur les cartes indiquent quelle autre fonction a un motif identique.</p>
+        <p>Les icônes vert sur les cartes indiquent quelle autre fonction a un motif identique.</p>
         <p>Lorsque vous avez un appel entrant le mobile ne reconnait pas les fonctions suivantes pour faciliter la saisie tactile: géolocalisation du mobile, notifications répétés, contrôle de la musique.</p>
         <p>En mode test la fonction de reconnaissance du motif n\'est pas disponible.</p>
         <p>Retour de ibration du Band uniquement s'il y a un motif qui prend en compte l'état actuel du mobile (appel répondu, rejeté uniquement s\'il y a un appel entrant…).</p>
@@ -544,9 +544,9 @@
 
         <img src="ic_phone_android"> <b><u>Alertes du mobile</u></b>
         <p>Lorsque la période spécifiée est expirée, le mobile envoie des alertes répétées s\'il n\'est pas connecté au bracelet.<p>
-        <p>Cela rend plus simple la recherche du mobile. Si quelqu\'un trouve le mobile et que celui-ci est vérouillé il ne sait pas qui informer, vosu pourrez donc afficher un message.</p>
+        <p>Cela rend plus simple la recherche du mobile. Si quelqu\'un trouve le mobile et que celui-ci est verrouillé il ne sait pas qui informer, vosu pourrez donc afficher un message.</p>
         <p>Lorsque le bracelet est connecté, l\'alarme s\'arrête.</p>
-        <p>Doit être actif pour afficher une notification sur l\'écran de vérouillage.</p>]]>
+        <p>Doit être actif pour afficher une notification sur l\'écran de verrouillage.</p>]]>
     </string>
 
     <!-- Time  monitoring -->
@@ -631,7 +631,7 @@
     <!-- Agent log info dialog -->
     <string name="info_dialog_disconnected_agent"><![CDATA[Évènements détectés par l\'agent de supervision du mobile:
         <br>- allumage
-        <br>- écran dévérouillé
+        <br>- écran déverrouillé
         <br>- capture détectée
 
         <p>Si quelqu\'un utilise votre mobile en votre absence, les évènements suivants seront historisés.</p>
@@ -643,11 +643,11 @@
     <string name="theme_tab_widget">Widgets</string>
     <string name="theme_tab_notification">Forme de la notification</string>
 
-    <string name="theme_title">Sélèctionnez un thème</string>
+    <string name="theme_title">Sélectionnez un thème</string>
     <string name="theme_background_color_title">Couleur du fond</string>
 
     <string name="theme_widget_foreground_title">Avant plan</string>
-    <string name="theme_widget_foreground_color_title">Couleur du texte et de l\'icone</string>
+    <string name="theme_widget_foreground_color_title">Couleur du texte et de l\'icône</string>
     <string name="theme_widget_background_title">Arrière plan</string>
     <string name="theme_widget_background_color_title">Couleur</string>
     <string name="theme_widget_background_shape_title">Forme</string>
@@ -657,7 +657,7 @@
 
     <string name="theme_notification_title">Afficher l'état dans la barre de notification</string>
     <string name="theme_notification_summary">Android coupe un service uniquement si la mémoire est faible. Si après un certain temps les notifications n'apparaissent pas sur le band, vous pouvez empêcher cela.</string>
-    <string name="theme_notification_color_title">Couleur de l\'icone</string>
+    <string name="theme_notification_color_title">Couleur de l\'icône</string>
     <string name="theme_notification_text_color_title">Couleur du texte</string>
 
     <!-- Backup and restore -->
@@ -712,7 +712,7 @@
         <br>- mode ne pas déranger
         <br>- supervision illimitée des notifications
         <br>- supervision illimitée du touché
-        <br>- prefix texte, pré icone and filtrage du texte peuvent être utilisé dans la supervision des notifications
+        <br>- prefix texte, pré icône and filtrage du texte peuvent être utilisé dans la supervision des notifications
         <br>- l\'intervalle de répétition peut être défini librement dans la supervision des pas
         <br>- l\'intervalle de répétition peut être défini librement et l\'affichage du rythme peut etre utilisé dans la supervision du rythme
         <br>- l\'intervalle de répétition peut être défini librement et le mode ne pas déranger, DnD, peut etre utilisé dans la supervision de la connexion
@@ -786,7 +786,7 @@
     <string name="action_chart_sort_lap_desc">Tour décroissant</string>
 
     <string name="power_on">Démarrer</string>
-    <string name="screen_unlock">Dévérouiller l\'écran</string>
+    <string name="screen_unlock">Déverrouiller l\'écran</string>
     <string name="motion">Capture détectée</string>
 
     <string name="required_value">Requis</string>
