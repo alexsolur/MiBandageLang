@@ -10,7 +10,7 @@
     <string name="drawer_nav_step">Activité</string>
     <string name="drawer_nav_sleep">Sommeil</string>
     <string name="drawer_nav_pulse">Rythme cardiaque</string>
-    <string name="drawer_nav_time">Horaires</string>
+    <string name="drawer_nav_time">Planification horaire</string>
     <string name="drawer_nav_alarm">Perte de la connexion</string>
     <string name="drawer_nav_disconnected_agent">Agent</string>
     <string name="drawer_nav_theme">Thème</string>
@@ -379,7 +379,7 @@
 
     <string name="touch_clear_notif_title">Effacer les notifications</string>
 
-    <string name="touch_music_play_pause_title">Musique start, play, pause</string>
+    <string name="touch_music_play_pause_title">Musique start, lecture, pause</string>
     <string name="touch_music_skip_previous_title">Musique start, piste précédente</string>
     <string name="touch_music_skip_next_title">Musique start, piste suivante</string>
     <string name="touch_music_headset_only_title">Uniquement si le casque est connecté</string>
@@ -417,7 +417,7 @@
         <p>Les icones vert sur les cartes indiquent quelle autre fonction a un motif identique.</p>
         <p>Lorsque vous avez un appel entrant le mobile ne reconnait pas les fonctions suivantes pour faciliter la saisie tactile: géolocalisation du mobile, notifications répétés, contrôle de la musique.</p>
         <p>En mode test la fonction de reconnaissance du motif n\'est pas disponible.</p>
-        <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the device (appel répondu, rejeté uniquement s\'il y a un appel entrant…).</p>
+        <p>Retour de ibration du Band uniquement s'il y a un motif qui prend en compte l'état actuel du mobile (appel répondu, rejeté uniquement s\'il y a un appel entrant…).</p>
         <p>Le Band vibre une fois, lorsque le motif est reconnu.</p>
         <p>Le Band vibre deux fois, lorsqu\'aucun motif n\'est reconnu après le plus long motif (si l\'<i>alerte de touché non reconnue</i> est définie).</p>
         <p>Exemples de touchés valides:
@@ -597,10 +597,10 @@
 
     <string name="time_interval_time_total">Temps total</string>
     <string name="time_interval_counter">Nombre de répétitions</string>
-    <string name="time_interval_time_alert">End time</string>
+    <string name="time_interval_time_alert">Heure de fin</string>
     <string name="time_interval_time_current">Répétition, interval elapsed time</string>
     <string name="time_interval_title">Titre</string>
-    <string name="time_interval_time">Interval time</string>
+    <string name="time_interval_time">Durée de l'intervalle</string>
 
     <string name="time_text">Afficher le message</string>
     <string name="time_text_message">Texte</string>
