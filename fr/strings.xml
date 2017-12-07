@@ -106,7 +106,7 @@
     <string name="pref_disconnected_signals">Alertes de déconnexion</string>
     <string name="pref_disconnected_signals_summary">Alertes de déconnexion du Band et du mobile, aucune alerte ne sera transmise si le bluetooth est désactivé manuellement</string>
     <string name="pref_cat_disconnected_signals_mi_band">Alerte du Band</string>
-    <string name="pref_disconnected_mi_band_title">Affichage de l'icône et vibration</string>
+    <string name="pref_disconnected_mi_band_title">Affichage de l\'icône et vibration</string>
     <string name="pref_cat_disconnected_signals">Alertes du mobile</string>
     <string name="pref_disconnected_ringtone_title">Type de sonnerie</string>
     <string name="pref_disconnected_vibration_title">Vibration</string>
@@ -208,9 +208,9 @@
     <string name="message_discovering_mi_band">Découverte du Band (cela peut prendre 1 minute) &#8230;</string>
     <string name="message_discovered_no_mi_band">Band non détecté</string>
     <string name="message_discovered_not_found_mi_band">Si le Band n\'est pas détecté, activez: Mi Fit/Play/Discoverable or pair at the device Bluetooth settings</string>
-    <string name="message_enable_notification_listener_access">Activer l'accès aux notifications: Paramètres/Notifications/accès aux notifications</string>
-    <string name="message_enable_notification_listener_access_4_4">Activer l'accès aux: Paramètres/Sécurité/accès aux notifications</string>
-    <string name="message_enable_notification_policy_access">Activer l'accès ne pas déranger</string>
+    <string name="message_enable_notification_listener_access">Activer l\'accès aux notifications: Paramètres/Notifications/accès aux notifications</string>
+    <string name="message_enable_notification_listener_access_4_4">Activer l\'accès aux: Paramètres/Sécurité/accès aux notifications</string>
+    <string name="message_enable_notification_policy_access">Activer l\'accès ne pas déranger</string>
     <string name="message_open_settings">Réglages</string>
 
     <string name="message_deleted">Supprimé</string>
@@ -373,7 +373,7 @@
     <string name="touch_call_mute_title">Appels basculés en muet</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Uniquement si vous avez un appel entrant</string>
 
-    <string name="touch_device_location_not_muted_only_title">Émettre un son s'il n'est pas en muet ou en mode DnD</string>
+    <string name="touch_device_location_not_muted_only_title">Émettre un son s\'il n\'est pas en muet ou en mode DnD</string>
 
     <string name="touch_repeat_notif_title">Notifications répétées</string>
     <string name="touch_repeat_notif_clear_all">Effacer toutes les notifications après la répétition</string>
@@ -418,7 +418,7 @@
         <p>Les icônes vert sur les cartes indiquent quelle autre fonction a un motif identique.</p>
         <p>Lorsque vous avez un appel entrant le mobile ne reconnait pas les fonctions suivantes pour faciliter la saisie tactile: géolocalisation du mobile, notifications répétés, contrôle de la musique.</p>
         <p>En mode test la fonction de reconnaissance du motif n\'est pas disponible.</p>
-        <p>Retour de ibration du Band uniquement s'il y a un motif qui prend en compte l'état actuel du mobile (appel répondu, rejeté uniquement s\'il y a un appel entrant…).</p>
+        <p>Retour de ibration du Band uniquement s\'il y a un motif qui prend en compte l\'état actuel du mobile (appel répondu, rejeté uniquement s\'il y a un appel entrant…).</p>
         <p>Le Band vibre une fois, lorsque le motif est reconnu.</p>
         <p>Le Band vibre deux fois, lorsqu\'aucun motif n\'est reconnu après le plus long motif (si l\'<i>alerte de touché non reconnue</i> est définie).</p>
         <p>Exemples de touchés valides:
@@ -485,12 +485,12 @@
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> durée d\'endormissement
         <br><br><img src="ic_activity_sleep_deep"> temps de sommeil profond
-        <br><br><img src="ic_activity_go_to_bed"> heure du coucher/heure du levé
+        <br><br><img src="ic_activity_go_to_bed"> phase d\'assoupissement/de réveil
         <br><br><img src="ic_activity_sleep_start"> début d\'endormissement ou sommeil léger
         <br><br><img src="ic_activity_sleep_time"> temps total
         <br><br><img src="ic_activity_sleep_end"> heure de fin de sommeil
-        <br><br><img src="ic_activity_get_up"> getting out depuis l\'heure du coucher
-        <br><br><img src="ic_activity_active"> active time
+        <br><br><img src="ic_activity_get_up"> sortie du lit
+        <br><br><img src="ic_activity_active"> actif
         <br><br><img src="ic_activity_block"> non porté
         ]]>
     </string>
@@ -529,7 +529,7 @@
     <!-- Lost monitoring -->
     <string name="alarm_mi_band_title">Alerte Band</string>
     <string name="alarm_mi_band_dnd">Mode ne pas déranger</string>
-    <string name="alarm_mi_band_interval_title">Intervalle de répétition de l'alerte</string>
+    <string name="alarm_mi_band_interval_title">Intervalle de répétition de l\'alerte</string>
     <string name="alarm_mi_band_time_set_next">Timing of next setting</string>
     <string name="alarm_mi_band_time">Horaire de la prochaine alerte</string>
 
@@ -601,7 +601,7 @@
     <string name="time_interval_time_alert">Heure de fin</string>
     <string name="time_interval_time_current">Répétition, interval elapsed time</string>
     <string name="time_interval_title">Titre</string>
-    <string name="time_interval_time">Durée de l'intervalle</string>
+    <string name="time_interval_time">Durée de l\'intervalle</string>
 
     <string name="time_text">Afficher le message</string>
     <string name="time_text_message">Texte</string>
@@ -656,7 +656,7 @@
 
     <string name="theme_widget_touch_event_title">Touch event</string>
 
-    <string name="theme_notification_title">Afficher l'état dans la barre de notification</string>
+    <string name="theme_notification_title">Afficher l\'état dans la barre de notification</string>
     <string name="theme_notification_summary">Android coupe un service uniquement si la mémoire est faible. Si après un certain temps les notifications n'apparaissent pas sur le band, vous pouvez empêcher cela.</string>
     <string name="theme_notification_color_title">Couleur de l\'icône</string>
     <string name="theme_notification_text_color_title">Couleur du texte</string>
@@ -723,9 +723,9 @@
     <string name="purchase_policy_title">Termes et conditions d\'utilisation</string>
     <string name="purchase_policy"><![CDATA[
         <p>- J\'ai testé cette appli et elle fonctionne parfaitement.
-        <br>- J'accepte et je suis d'accord sur le fait de ne pas pouvoir demander de remboursement à cause de bugs, les erreurs de programme causées par des modifications du programme, de l'environnement matériel ou par l'utilisation d'autres applications.
-        <br>- Toute vente est définitive et ne peut espérer un remboursement (sauf via la politique d'indemnisation de Google).
-        <br>- Il n'y a aucune garantie fournie.</p>
+        <br>- J\'accepte et je suis d\'accord sur le fait de ne pas pouvoir demander de remboursement à cause de bugs, les erreurs de programme causées par des modifications du programme, de l\'environnement matériel ou par l\'utilisation d\'autres applications.
+        <br>- Toute vente est définitive et ne peut espérer un remboursement (sauf via la politique d\'indemnisation de Google).
+        <br>- Il n\'y a aucune garantie fournie.</p>
         <p><i>Après l'achat vous devez redémarrer l'appli.</i></p>
     ]]></string>
 
