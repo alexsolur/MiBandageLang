@@ -36,7 +36,7 @@
     <string name="info_name">Informasi</string>
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Steps, distance, calories, goal, pulse</string>
+    <string name="mi_band_tracker_title">Langkah, jarak, kalori, tujuan, detak</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
@@ -51,11 +51,11 @@
 
     <string name="mi_band_mac_address_invalid">Alamat MAC tidak valid</string>
 
-    <string name="mi_band_state_title">Band settings</string>
-    <string name="mi_band_state_connected">Connected</string>
-    <string name="mi_band_state_disconnected">Disconnected</string>
-    <string name="mi_band_state_bonded">Paired device</string>
-    <string name="mi_band_state_not_bonded">Not paired device</string>
+    <string name="mi_band_state_title">Pengaturan Band</string>
+    <string name="mi_band_state_connected">Tersambung</string>
+    <string name="mi_band_state_disconnected">Terputus</string>
+    <string name="mi_band_state_bonded">Perangkat tersambung</string>
+    <string name="mi_band_state_not_bonded">Perangkat tidak tersambung</string>
 
     <string name="mi_band_battery_settings">Pengaturan baterau</string>
     <string name="mi_band_battery_remaining">Perkiraan waktu baterai tersisa</string>
@@ -190,7 +190,7 @@
 
     <!-- Quick switch -->
     <string name="details">Rincian</string>
-    <string name="bandages">Bandages</string>
+    <string name="bandages">Bandage</string>
     <string name="connected">Sinyal koneksi dan pemberitahuan</string>
     <string name="disconnected">Pemutusan dan pengantar sinyal</string>
     <string name="touch">Pemantau sentuhan</string>
@@ -238,7 +238,7 @@
     <string name="message_time_alarm_max_counter">Maksimal 5 alarm yang bisa digunakan</string>
     <string name="message_time_alarm_enabled">Alarm diaktifkan</string>
     <string name="message_time_alarm_disabled">Alarm dimatikan</string>
-    <string name="message_time_alarm_mi_band_off">Alarm off</string>
+    <string name="message_time_alarm_mi_band_off">Alarm mati</string>
 
     <string name="message_alarm_free_interval">Interval berulang yang lebih kecil hanya bisa diatur dalam mode premium</string>
     <string name="message_alarm_mi_band_set_failed">Pengaturan alarm gagal</string>
@@ -248,7 +248,7 @@
     <string name="message_general_error">Pengaturan gagal (koneksi hilang), coba lagi</string>
     <string name="message_internet_error">Tidak ada koneksi internet</string>
 
-    <string name="message_in_progress">In progress…</string>
+    <string name="message_in_progress">Dalam proses…</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Selamat Datang!</string>
@@ -269,18 +269,18 @@
     <br>6. Buka Mi Bandage, klik tombol temukan yang.</p>]]></string>
 
     <!-- Diagnostic -->
-    <string name="diagnostic_title">Diagnostic</string>
+    <string name="diagnostic_title">Diagnosa</string>
 
-    <string name="diagnostic_permissions_title">Permissions</string>
+    <string name="diagnostic_permissions_title">Perizinan</string>
 
-    <string name="diagnostic_access_title">Access</string>
-    <string name="diagnostic_access_do_not_disturb">Do not Disturb access</string>
-    <string name="diagnostic_access_notification">Notification access</string>
+    <string name="diagnostic_access_title">Akses</string>
+    <string name="diagnostic_access_do_not_disturb">Akses jangan ganggu (DnD)</string>
+    <string name="diagnostic_access_notification">Akses pemberitahuan</string>
 
-    <string name="diagnostic_protection_title">Protection against closing</string>
-    <string name="diagnostic_protection_battery">Battery optimisation off</string>
+    <string name="diagnostic_protection_title">Proteksi dari penutupan</string>
+    <string name="diagnostic_protection_battery">Optimisasi baterai mati</string>
     <string name="diagnostic_protection_service">Tampilkan status dipanel pemberitahuan</string>
-    <string name="diagnostic_protection_lock">Lock on the recent apps screen</string>
+    <string name="diagnostic_protection_lock">Kunci pada layar aplikasi terkini</string>
 
     <!-- Notification  -->
     <string name="notification_tab_settings">Atur</string>
@@ -355,7 +355,7 @@
 
     <!-- MiBandageApp chooser dialog -->
     <string name="action_search">Cari</string>
-    <string name="action_filter_notification">Notification filter</string>
+    <string name="action_filter_notification">Filter pemberitahuan</string>
 
     <!-- Touch monitoring -->
     <string name="touch_headline_call_title">Kontrol panggilan</string>
@@ -371,14 +371,14 @@
     <string name="touch_call_end_title">Tolak panggilan, berakhir</string>
 
     <string name="touch_call_mute_title">Tombol bisukan panggilan</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">Only if you have an incoming call</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Hanya ketika ada panggilan masuk</string>
 
     <string name="touch_device_location_not_muted_only_title">Suara saja ketika tidak dibisukan</string>
 
     <string name="touch_repeat_notif_title">Ulangi notifikasi</string>
-    <string name="touch_repeat_notif_clear_all">Clear all notifications after repetition</string>
+    <string name="touch_repeat_notif_clear_all">Hapus semua pemberitahuan setelah pengulangan</string>
 
-    <string name="touch_clear_notif_title">Clear notifications</string>
+    <string name="touch_clear_notif_title">Bersihkan pemberitahuan</string>
 
     <string name="touch_music_play_pause_title">Mulai musik, mainkan, jeda</string>
     <string name="touch_music_skip_previous_title">Mulai musik, lagu sebelumnya</string>
@@ -474,7 +474,7 @@
     <string name="sleep_tab_month">Bagan bulanan</string>
     <string name="sleep_tab_settings">Atur</string>
 
-    <string name="action_chart_sleep_type_phase">Phase</string>
+    <string name="action_chart_sleep_type_phase">Fase</string>
     <string name="action_chart_sleep_type_time">Time</string>
 
     <string name="sleep_details">Rincian Tidur</string>
@@ -503,8 +503,8 @@
     <string name="pulse_tab_month">Bagan bulanan</string>
     <string name="pulse_tab_settings">Atur</string>
 
-    <string name="action_chart_pulse_type_pulse">Pulse</string>
-    <string name="action_chart_pulse_type_pulse_and_step">Pulse and activity</string>
+    <string name="action_chart_pulse_type_pulse">Detakan</string>
+    <string name="action_chart_pulse_type_pulse_and_step">Detakan dan aktifitas</string>
 
     <string name="pulse_title_signals">Tanda</string>
     <string name="pulse_signal_start_title">Tanda pemantauan dimulai</string>
@@ -641,53 +641,53 @@
 
     <!-- Theme -->
     <string name="theme_tab_theme">Tema</string>
-    <string name="theme_tab_widget">Widgets</string>
-    <string name="theme_tab_notification">Notification shade</string>
+    <string name="theme_tab_widget">Widget</string>
+    <string name="theme_tab_notification">Bayangan pemberitahuan</string>
 
     <string name="theme_title">Pilih tema</string>
-    <string name="theme_background_color_title">Background color</string>
+    <string name="theme_background_color_title">Warna latar belakang</string>
 
-    <string name="theme_widget_foreground_title">Foreground</string>
-    <string name="theme_widget_foreground_color_title">Icon and text color</string>
-    <string name="theme_widget_background_title">Background</string>
-    <string name="theme_widget_background_color_title">Color</string>
-    <string name="theme_widget_background_shape_title">Shape</string>
-    <string name="theme_widget_background_transparency_title">Transparency</string>
+    <string name="theme_widget_foreground_title">Latar depan</string>
+    <string name="theme_widget_foreground_color_title">Warna ikon dan teks</string>
+    <string name="theme_widget_background_title">Latar belakang</string>
+    <string name="theme_widget_background_color_title">Warna</string>
+    <string name="theme_widget_background_shape_title">Bentuk</string>
+    <string name="theme_widget_background_transparency_title">Transparansi</string>
 
-    <string name="theme_widget_touch_event_title">Touch event</string>
+    <string name="theme_widget_touch_event_title">Peristiwa sentuhan</string>
 
     <string name="theme_notification_title">Tampilkan status dipanel pemberitahuan</string>
     <string name="theme_notification_summary">Sistem Android menghentikan paksa layanan ketika memori rendah saja. Jika setelah beberapa saat tidak muncul notifikasi pada Band, Anda bisa mencegahnya.</string>
     <string name="theme_notification_color_title">Warna ikon</string>
-    <string name="theme_notification_text_color_title">Text color</string>
+    <string name="theme_notification_text_color_title">Warna Teks</string>
 
     <!-- Backup and restore -->
-    <string name="backup_tab_backup">Backup</string>
-    <string name="backup_tab_restore">Restore</string>
+    <string name="backup_tab_backup">Cadangkan</string>
+    <string name="backup_tab_restore">Pulihkan</string>
 
-    <string name="backup_time">Backup time</string>
-    <string name="backup_path">Backup location</string>
+    <string name="backup_time">Waktu pencadangan</string>
+    <string name="backup_path">Lokasi pencadangan</string>
 
-    <string name="backup_process">Preparation…</string>
-    <string name="backup_process_activity">Activity and sleep %1$,d%%</string>
-    <string name="backup_process_pulse">Pulse %1$,d%%</string>
-    <string name="backup_process_notification">Notification %1$,d%%</string>
-    <string name="backup_process_touch">Touch %1$,d%%</string>
-    <string name="backup_process_time">Time %1$,d%%</string>
-    <string name="backup_process_alarm">Lost %1$,d%%</string>
-    <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
-    <string name="backup_process_settings">Settings %1$,d%%</string>
+    <string name="backup_process">Persiapan…</string>
+    <string name="backup_process_activity">Aktifitas dan tidur %1$,d%%</string>
+    <string name="backup_process_pulse">Detakan %1$,d%%</string>
+    <string name="backup_process_notification">Pemberitahuan %1$,d%%</string>
+    <string name="backup_process_touch">Sentuhan %1$,d%%</string>
+    <string name="backup_process_time">Waktu %1$,d%%</string>
+    <string name="backup_process_alarm">Kehilangan %1$,d%%</string>
+    <string name="backup_process_disconnected_agent">Agen %1$,d%%</string>
+    <string name="backup_process_settings">Pengaturan %1$,d%%</string>
 
-    <string name="backup_restore_activity">Activity and sleep</string>
-    <string name="backup_restore_pulse">Pulse</string>
-    <string name="backup_restore_notification">Notification</string>
-    <string name="backup_restore_touch">Touch</string>
-    <string name="backup_restore_time">Time</string>
-    <string name="backup_restore_alarm">Lost</string>
-    <string name="backup_restore_disconnected_agent">Agent</string>
-    <string name="backup_restore_settings">Settings</string>
+    <string name="backup_restore_activity">Aktifitas dan tidur</string>
+    <string name="backup_restore_pulse">Detakan</string>
+    <string name="backup_restore_notification">Pemberitahuan</string>
+    <string name="backup_restore_touch">Sentuhan</string>
+    <string name="backup_restore_time">Waktu</string>
+    <string name="backup_restore_alarm">Kehilangan</string>
+    <string name="backup_restore_disconnected_agent">Agen</string>
+    <string name="backup_restore_settings">Pengaturan</string>
 
-    <string name="backup_restore_reset">After restoring, Bluetooth will be turning off and on and the application will restart.</string>
+    <string name="backup_restore_reset">Setelah pemulihan, Bluetooth akan dimatikan kemudian dihidupkan, dan aplikasi akan memulai ulang.</string>
 
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Syarat dan ketentuan mode Pencapaian (Rewarded Mode)</string>
@@ -722,7 +722,7 @@
     ]]></string>
     <string name="purchase_policy_title">Syarat dan ketentuan mode premium:</string>
     <string name="purchase_policy"><![CDATA[
-        <p>- Saya telah menggunaka aplikasi ini, dan berjalan dengan baik.
+        <p>- Saya telah menggunakan aplikasi ini, dan berjalan dengan baik.
         <br>- Saya sadar bahwa saya tidak dapat meminta kompensasi atau pengembalian karena bug, kesalahan perangkat lunak yang disebabkan oleh perubahan perangkat lunak, lingkungan perangkat keras atau penggunaan aplikasi lainnya.
         <br>- Semua penjualan bersifat final/selesai dan tidak dapat dikembalikan (kecuali kebijakan pengembalian Google).
         <br>- Garansi tidak disertakan.</p>
@@ -772,19 +772,19 @@
     <string name="action_filter_no">Tidak ada filter</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_save">Save</string>
+    <string name="action_save">Simpen</string>
 
     <string name="action_chart">Grafik</string>
     <string name="action_chart_normalize_minute">Nilai terukur</string>
     <string name="action_chart_normalize_hour">Rata-rata per jam</string>	
-    <string name="action_chart_sort_time_asc">Time ascending</string>
-    <string name="action_chart_sort_time_desc">Time descending</string>
-    <string name="action_chart_sort_step_asc">Step ascending</string>
-    <string name="action_chart_sort_step_desc">Step descending</string>
-    <string name="action_chart_sort_pulse_asc">Pulse ascending</string>
-    <string name="action_chart_sort_pulse_desc">Pulse descending</string>
-    <string name="action_chart_sort_lap_asc">Lap ascending</string>
-    <string name="action_chart_sort_lap_desc">Lap descending</string>
+    <string name="action_chart_sort_time_asc">Waktu naik</string>
+    <string name="action_chart_sort_time_desc">Waktu turun</string>
+    <string name="action_chart_sort_step_asc">Langkah naik</string>
+    <string name="action_chart_sort_step_desc">Langkah turun</string>
+    <string name="action_chart_sort_pulse_asc">Detak naik</string>
+    <string name="action_chart_sort_pulse_desc">Detak turun</string>
+    <string name="action_chart_sort_lap_asc">Perputaran naik</string>
+    <string name="action_chart_sort_lap_desc">Perputaran turun</string>
 
     <string name="power_on">Nyalakan</string>
     <string name="screen_unlock">Membukan layar kunci</string>
