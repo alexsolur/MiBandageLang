@@ -51,7 +51,7 @@
 
     <string name="mi_band_mac_address_invalid">Η MAC διεύθυνση δεν είναι έγκυρη</string>
 
-    <string name="mi_band_state_title">Band ρυθμίσεις</string>
+<string name="mi_band_state_title">Band ρυθμίσεις</string>
     <string name="mi_band_state_connected">Συνδεδεμένο</string>
     <string name="mi_band_state_disconnected">Ξεσυνδεδεμένο</string>
     <string name="mi_band_state_bonded">Συνδεδεμένη συσκευή</string>
@@ -173,11 +173,6 @@
         <br/>8. Ορίστε τη γλώσσα του τηλεφώνου πίσω στην γλώσσα σας.</p>]]>
     </string>
 
-    <string name="pref_touch">Ρυθμίσεις παρακολούθηση αφής</string>
-    <string name="pref_cat_touch">Σήμα Band</string>
-    <string name="pref_touch_recognised_failed_title">Σήμα μη αναγνωρίσιμου μοτίβου αφής</string>
-    <string name="pref_touch_recognised_failed_summary_on">Ενεργό (2 δονήσεις μετά από το μεγαλύτερο μοτίβο)</string>
-
     <string name="pref_mi_band">Ρυθμίσεις Band</string>
     <string name="pref_cat_mi_band_lift_wrist">Σήκωσε τον καρπό για να δείς πληροφορίες</string>
     <string name="pref_mi_band_lift_wrist_title">Σήκωσε τον καρπό για να δείς πληροφορίες</string>
@@ -204,8 +199,8 @@
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Παρακαλούμε να ενεργοποιήσετε το Bluetooth και φέρτε τη συσκευή Band πιο κοντά στο τηλέφωνο</string>
     <string name="message_discover_mi_band">Το Band δεν έχει οριστεί, παρακαλούμε πατήστε ανίχνευση</string>
-    <string name="message_discovered_mi_band">Το Band ανιχνεύθηκε</string>
     <string name="message_discovering_mi_band">Ανίχνευση για Band (μπορεί να πάρει 1 λεπτό) &#8230;</string>
+    <string name="message_discovered_mi_band">Το %1$s ανιχνεύθηκε</string>
     <string name="message_discovered_no_mi_band">Το Band δεν ανιχνεύθηκε</string>
     <string name="message_discovered_not_found_mi_band">Σε περίπτωση που το Band δεν ανιχνευθεί, ενεργοποιήστε το: Mi Fit/Play/Discoverable ή συζεύξτε από τις ρυθμίσεις Bluetooth του κινητού σας.</string>
     <string name="message_enable_notification_listener_access">Ενεργοποίηση πρόσβασης ειδοποίησης: Ρυθμίσεις/ειδοποιήσεις/Πρόσβασης ειδοποίησης (Settings/Notifications/Notification access)</string>
@@ -218,7 +213,7 @@
 
     <string name="message_app_chooser_no_selected">Επιλέξτε μια εφαρμογή</string>
 
-    <string name="message_notification_free_groups">Μπορούν να χρησιμοποιηθούν μέχρι 6 ομάδες</string>
+    <string name="message_notification_free_groups">Μπορούν να χρησιμοποιηθούν μέχρι %1$,d ομάδες</string>
 
     <string name="message_step_goal_free_values">Μέχρι 3 τιμές μπορούν να ρυθμιστούν στη κανονική λειτουργία</string>
     <string name="message_step_goal_max_values">Οι μέγιστες τιμές μπορούν να ρυθμιστούν</string>
@@ -226,7 +221,7 @@
     <string name="message_touch_no_patterns">Πατήστε ένα από τα κόκκινα κουμπιά εγγραφής μοτίβου</string>
     <string name="message_touch_record">Καταγράψτε το μοτίβο χρησιμοποιώντας το κουμπί αφής του Band</string>
     <string name="message_touch_pattern_error">Το καθορισμένο μοτίβο είναι παρόμοιο με ένα δείγμα κάποιας άλλης λειτουργίας, καταγράψτε άλλο</string>
-    <string name="message_touch_free_patterns">Μπορούν να χρησιμοποιηθούν μέχρι 3 λειτουργίες</string>
+    <string name="message_touch_free_patterns">Μπορούν να χρησιμοποιηθούν μέχρι %1$,d λειτουργίες</string>
     <string name="message_touch_music_player_not_found">Η αναπαραγωγής μουσικής δεν βρέθηκε</string>
     <string name="message_touch_app_launcher1_not_set">Η εφαρμογή δεν έχει οριστεί</string>
     <string name="message_touch_app_launcher1_not_found">Η εφαρμογή δεν βρέθηκε: %1$s</string>
@@ -252,7 +247,11 @@
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Καλώς ορίσατε!</string>
-    <string name="dialog_welcome_message"><![CDATA[Η εφαρμογή υποστηρίζει μόνο Band.
+    <string name="dialog_welcome_message"><![CDATA[Υποστηριζόμενες συσκευές:
+    <br>- <b>Xiaomi Mi Band 2</b>
+    <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit Arc (A1603)</b>
+    <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
     <p>Το Mi Bandage  απαιτεί την εγκατάσταση της επίσημης εφαρμογής Mi Fit στην ίδια συσκευή. Στην αρχή θα πρέπει να αντιστοιχίσετε Band με την εφαρμογή Mi Fit, μετά θα μπορείτε να χρησιμοποιήσετε το Mi Bandage.</p>
     <p>εάν χρησιμοποιείτε περισσότερες εφαρμογές για τον έλεγχο Band, αλληλεπιδρούν μεταξύ τους και θα πρέπει να τις απενεργοποιήστε προσωρινά</p>
     <p>Αν το Band δεν ανιχνευθεί, τότε μπορείτε να ρυθμίσετε τη διεύθυνση MAC χειροκίνητα από το μενού λεπτομέρειες (η διεύθυνση MAC βρίσκεται στο: Mi Fit/Profil/Band).</p>
@@ -283,8 +282,8 @@
     <string name="diagnostic_protection_lock">Κλείδωμα στην οθόνη των πρόσφατων εφαρμογών</string>
 
     <!-- Notification  -->
-    <string name="notification_tab_settings">Ρυθμίσεις</string>
     <string name="notification_tab_custom">Προσαρμοσμένες ειδοποιήσεις</string>
+    <string name="notification_tab_settings">Ρυθμίσεις</string>
 
     <!-- Notification Dialog -->
     <string name="notification_group_name">Όνομα</string>
@@ -294,9 +293,11 @@
     <string name="notification_group_alert_title">Σήμα Band</string>
     <string name="notification_group_text_title">Τίτλος</string>
     <string name="notification_group_text_content">Περεχόμενο</string>
-    <string name="notification_group_pre_alert">Προ εικονίδιο</string>
-    <string name="notification_group_prefix">Πρόθεμα κειμένου</string>
+    <string name="notification_group_vibration_title">Custom vibration</string>
     <string name="notification_group_pre_signal_title">Προεπιλογή πρόβλεψης ειδοποίησης</string>
+    <string name="notification_group_pre_vibration_title">Pre vibration</string>
+    <string name="notification_group_pre_alert_title">Προ εικονίδιο</string>
+    <string name="notification_group_prefix">Πρόθεμα κειμένου</string>
     <string name="notification_group_pre_only_premium">Μόνο στη λειτουργία premium</string>
     <string name="notification_group_immediate">Άμεσο σήμα με την παραλαβή της ειδοποίησης</string>
     <string name="notification_group_connecting">Κατά τη σύνδεση με τη συσκευή</string>
@@ -354,6 +355,10 @@
         <!--<p>Προκαθορισμένα σήματα μπορούν να απενεργοποιηθούν: <i> Ρυθμίσεις σύνδεσης και ειδοποιήσεων / Να έχω ειδοποιήσεις</i>.</p>-->
 
     <!-- MiBandageApp chooser dialog -->
+    <string name="touch_tab_control">Control</string>
+    <string name="touch_tab_testing">Δοκιμή</string>
+    <string name="touch_tab_settings">Ρυθμίσεις</string>
+
     <string name="action_search">Αναζήτηση</string>
     <string name="action_filter_notification">Φίλτρο ειδοποιήσεων</string>
 
@@ -384,6 +389,7 @@
     <string name="touch_music_skip_previous_title">Έναρξη μουσικής, προηγούμενο τραγούδι</string>
     <string name="touch_music_skip_next_title">Έναρξη μουσικής, επόμενο τραγούδι</string>
     <string name="touch_music_headset_only_title">Μόνο αν τα ακουστικά είναι συνδεδεμένα</string>
+    <string name="touch_music_launch">Start music</string>
     <string name="touch_music_volume_up_title">Αύξηση έντασης μουσικής</string>
     <string name="touch_music_volume_down_title">Μείωση έντασης μουσικής</string>
     <string name="touch_music_track_info_title">Εμφάνιση πληροφοριών μουσικού κομματιού.</string>
@@ -406,11 +412,15 @@
     <string name="touch_tasker_launcher_no_task_title">Επιλογή εργασίας</string>
 
     <string name="touch_testing_title">Παρακολούθηση αφής</string>
-
-    <string name="touch_tab_settings">Ρυθμίσεις</string>
-    <string name="touch_tab_testing">Δοκιμή</string>
-
     <string name="touch_testing_second">δευτ.</string>
+
+    <string name="touch_setting_recognition_start_title">Start touch recognition</string>
+    <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
+    <string name="touch_setting_recognition_time_title">Recognition time</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">Σήμα Band</string>
+    <string name="touch_setting_recognition_succeeded_title">Recognisable touch pattern</string>
+    <string name="touch_setting_recognition_failed_title">Σήμα μη αναγνωρίσιμου μοτίβου αφής</string>
 
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[Η αφή είναι έγκυρη όταν η οθόνη της Band αλλάζει (γι \'αυτό είναι σκόπιμο να περιστρέψετε τον καρπό σας πριν αγγίξετε).
@@ -773,6 +783,7 @@
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
     <string name="action_save">Αποθήκευση</string>
+    <string name="action_test">Test</string>
 
     <string name="action_chart">Διάγραμμα</string>
     <string name="action_chart_normalize_minute">Μετρούμενες τιμές</string>
