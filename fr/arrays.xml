@@ -201,6 +201,18 @@
         <item>10</item>
     </integer-array>
 
+    <string-array name="touch_recognition_start_trigger">
+        <item>None</item>
+        <item>Pattern</item>
+        <item>Long press the button</item>
+    </string-array>
+
+    <string-array name="touch_recognition_start_trigger_values">
+        <item>NONE</item>
+        <item>PATTERN</item>
+        <item>LONG_PRESS</item>
+    </string-array>
+
     <string-array name="widget_event">
         <item>Écran des bracelets</item>
         <item>Écran d'activité</item>
