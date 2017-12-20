@@ -173,11 +173,6 @@
         <br/>8. Atur ulang bahasa telepon ke bahasa Anda.</p>]]>
     </string>
 
-    <string name="pref_touch">Pemantau sentuhan</string>
-    <string name="pref_cat_touch">Tanda Band</string>
-    <string name="pref_touch_recognised_failed_title">Sinyal pola sentuh tidak dikenali</string>
-    <string name="pref_touch_recognised_failed_summary_on">Aktif (2 getaran setelah pola terpanjang)</string>
-
     <string name="pref_mi_band">Band</string>
     <string name="pref_cat_mi_band_lift_wrist">Angkat lengan untuk melihat info</string>
     <string name="pref_mi_band_lift_wrist_title">Angkat lengan untuk melihat info</string>
@@ -204,8 +199,8 @@
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Aktifkan Bluetooth dan dekatkan perangkat Band ke telepon</string>
     <string name="message_discover_mi_band">Band belum diatur, sambungkan terlebih dahulu</string>
-    <string name="message_discovered_mi_band">Band Tersambung</string>
     <string name="message_discovering_mi_band">Menyambungkan Band (mungkin memerlukan 1 menit) &#8230;</string>
+    <string name="message_discovered_mi_band">%1$s Tersambung</string>
     <string name="message_discovered_no_mi_band">Band tidak ditemukan</string>
     <string name="message_discovered_not_found_mi_band">Jika Band tidak ditemukan, nyalakan: Mi Fit - Mainkan - tidak dapat ditemukan atau sandingkan perangkat di pengaturan Bluetooth</string>
     <string name="message_enable_notification_listener_access">Aktifkan akses notifikasi: Pengaturan - Pemberitahuan - Akses notifikasi</string>
@@ -218,7 +213,7 @@
 
     <string name="message_app_chooser_no_selected">Pilih aplikasi</string>
 
-    <string name="message_notification_free_groups">Mode normal dapat menggunakan hingga 6 grup</string>
+    <string name="message_notification_free_groups">Mode normal dapat menggunakan hingga %1$,d grup</string>
 
     <string name="message_step_goal_free_values">Mode normal dapat mengatur hingga 3 nilai</string>
     <string name="message_step_goal_max_values">Hanya dapat mengatur maksimal 10 nilai</string>
@@ -226,7 +221,7 @@
     <string name="message_touch_no_patterns">Tekan salah satu dari tombol rekaman pola merah</string>
     <string name="message_touch_record">Rekam pola dengan menggunakan tombol sentuh Band</string>
     <string name="message_touch_pattern_error">Pola yang ditentukan mirip dengan contoh fungsi lain, rekam yang lain</string>
-    <string name="message_touch_free_patterns">Mode normal hanya bisa menggunakan hingga 3 fungsi</string>
+    <string name="message_touch_free_patterns">Mode normal hanya bisa menggunakan hingga %1$,d fungsi</string>
     <string name="message_touch_music_player_not_found">Pemutar musik tidak tersedia</string>
     <string name="message_touch_app_launcher1_not_set">Apl belum diatur</string>
     <string name="message_touch_app_launcher1_not_found">Apl tidak ditemukan: %1$s</string>
@@ -252,7 +247,11 @@
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Selamat Datang!</string>
-    <string name="dialog_welcome_message"><![CDATA[Untuk saat ini, aplikasi ini hanya mendukung Band.
+    <string name="dialog_welcome_message"><![CDATA[Perangkat yang didukung:
+    <br>- <b>Xiaomi Mi Band 2</b>
+    <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit Arc (A1603)</b>
+    <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
     <p>Mi Bandage membutuhkan aplikasi Mi Fit (asli) yang telah terpasang di perangkat yang sama. Pertama tama, mungkin anda perlu untuk menghubungkan Band ke Aplikasi Mi Fit, lalu anda baru bisa memakai Mi Bandage.</p>
     <p>Jika anda menggunakan aplikasi lebih untuk mengontrol Band, mungkin aplikasi-aplikasi tersebut akan saling ganggu, jadi untuk sementara harap mematikan apl-apl tersebut.</p>
     <p>Jika Band tidak terdeteksi, anda bisa mengatur alamat MAC secara manual pada menu rincian/lanjutan (Alamat MAC dapat di temukan di : Mi Fit - Profil - Band).</p>
@@ -283,8 +282,8 @@
     <string name="diagnostic_protection_lock">Kunci pada layar aplikasi terkini</string>
 
     <!-- Notification  -->
-    <string name="notification_tab_settings">Atur</string>
     <string name="notification_tab_custom">Penyesuaian pemberitahuan</string>
+    <string name="notification_tab_settings">Atur</string>
 
     <!-- Notification Dialog -->
     <string name="notification_group_name">Nama</string>
@@ -294,9 +293,11 @@
     <string name="notification_group_alert_title">Tanda Band</string>
     <string name="notification_group_text_title">Judul</string>
     <string name="notification_group_text_content">Isi</string>
-    <string name="notification_group_pre_alert">Ikon awal</string>
-    <string name="notification_group_prefix">Awalan teks</string>
+    <string name="notification_group_vibration_title">Custom vibration</string>
+    <string name="notification_group_pre_alert_title">Ikon awal</string>
+    <string name="notification_group_pre_vibration_title">Pre vibration</string>
     <string name="notification_group_pre_signal_title">Prediksi pemberitahuan default</string>
+    <string name="notification_group_prefix">Awalan teks</string>
     <string name="notification_group_pre_only_premium">Hanya mode premium</string>
     <string name="notification_group_immediate">Nyalakan tanda langsung ketika ada pemberitahuan masuk</string>
     <string name="notification_group_connecting">Saat menyambungkan perangkat</string>
@@ -358,6 +359,10 @@
     <string name="action_filter_notification">Filter pemberitahuan</string>
 
     <!-- Touch monitoring -->
+    <string name="touch_tab_control">Kontrol</string>
+    <string name="touch_tab_testing">Coba</string>
+    <string name="touch_tab_settings">Atur</string>
+
     <string name="touch_headline_call_title">Kontrol panggilan</string>
     <string name="touch_headline_music_title">Kontrol musik</string>
     <string name="touch_headline_time_title">Kontrol Timer/stopwatch</string>
@@ -384,6 +389,7 @@
     <string name="touch_music_skip_previous_title">Mulai musik, lagu sebelumnya</string>
     <string name="touch_music_skip_next_title">Mulai musik, lagu selanjutnya</string>
     <string name="touch_music_headset_only_title">Hanya jika headset tersambung</string>
+    <string name="touch_music_launch">Start music</string>
     <string name="touch_music_volume_up_title">Volume musik naik</string>
     <string name="touch_music_volume_down_title">Volume musik turun</string>
     <string name="touch_music_track_info_title">Tampilkan info musik.</string>
@@ -406,11 +412,15 @@
     <string name="touch_tasker_launcher_no_task_title">Pilih kegiatan</string>
 
     <string name="touch_testing_title">Pemantau sentuhan</string>
-
-    <string name="touch_tab_settings">Atur</string>
-    <string name="touch_tab_testing">Coba</string>
-
     <string name="touch_testing_second">det.</string>
+
+    <string name="touch_setting_recognition_start_title">Start touch recognition</string>
+    <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
+    <string name="touch_setting_recognition_time_title">Recognition time</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">Tanda Band</string>
+    <string name="touch_setting_recognition_succeeded_title">Sinyal pola sentuh dikenali</string>
+    <string name="touch_setting_recognition_failed_title">Sinyal pola sentuh tidak dikenali</string>
 
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[Sentuhan ini berlaku saat tampilan Band berubah (jadi sebaiknya putar pergelangan tangan sebelum menyentuh).
@@ -603,7 +613,7 @@
     <string name="time_interval_title">Judul</string>
     <string name="time_interval_time">Interval waktu</string>
 
-    <string name="time_text">Tampilkan pesan</string>
+    <string name="time_text">Tampilkan pesan saat alarm</string>
     <string name="time_text_message">Teks</string>
 
     <string name="time_enable_bluetooth">Aktifkan Bluetooth</string>
@@ -773,6 +783,7 @@
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
     <string name="action_save">Simpen</string>
+    <string name="action_test">Test</string>
 
     <string name="action_chart">Grafik</string>
     <string name="action_chart_normalize_minute">Nilai terukur</string>
