@@ -173,11 +173,6 @@
         <br/>8. Set phone language back to your language.</p>]]>
     </string>
 
-    <string name="pref_touch">Cài đặt giám sát chạm</string>
-    <string name="pref_cat_touch">Tín hiệu Band</string>
-    <string name="pref_touch_recognised_failed_title">Tín hiệu không nhận ra cử chỉ</string>
-    <string name="pref_touch_recognised_failed_summary_on">Bật (rung  2 lần sau khi cử chỉ dài nhất)</string>
-
     <string name="pref_mi_band">Các cài đặt Band</string>
     <string name="pref_cat_mi_band_lift_wrist">Nâng cổ tay để xem thông tin</string>
     <string name="pref_mi_band_lift_wrist_title">Nâng cổ tay để xem thông tin</string>
@@ -204,8 +199,8 @@
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Vui lòng kích hoạt Bluetooth và mang Band gần hơn với điện thoại</string>
     <string name="message_discover_mi_band">Band chưa được cài đặt, hãy kết nối với nó</string>
-    <string name="message_discovered_mi_band">Phát hiện Band</string>
     <string name="message_discovering_mi_band">Tìm Band (có thể mất 1 phút) &#8230;</string>
+    <string name="message_discovered_mi_band">Phát hiện %1$s</string>
     <string name="message_discovered_no_mi_band">Band không được tìm thấy</string>
     <string name="message_discovered_not_found_mi_band">Nếu Band không được tìm thấy, bật: Mi Fit / cài đặt … hoặc ghép nối tại cài đặt Bluetooth</string>
     <string name="message_enable_notification_listener_access">Kích hoạt tính năng truy cập thông báo: Cài đặt / Bảo mật / Truy cập thông báo</string>
@@ -218,15 +213,15 @@
 
     <string name="message_app_chooser_no_selected">Chọn một ứng dụng</string>
 
-    <string name="message_notification_free_groups">Lên đến 6 nhóm có thể được sử dụng</string>
+    <string name="message_notification_free_groups">Lên đến %1$,d nhóm có thể được sử dụng</string>
 
     <string name="message_step_goal_free_values">Có thể đặt tới 3 giá trị ở chế độ bình thường</string>
     <string name="message_step_goal_max_values">Có thể đặt nhiều nhất 10 giá trị</string>
 
-    <string name="message_touch_no_patterns">Press one of the red pattern recording buttons</string>
+    <string name="message_touch_no_patterns">Press one of the red buttons to record pattern</string>
     <string name="message_touch_record">Ghi lại các cử chỉ sử dụng  nút cảm ứng Band </string>
     <string name="message_touch_pattern_error">Các mẫu cụ thể là tương tự mẫu của một chức năng khác, ghi lại cách khác</string>
-    <string name="message_touch_free_patterns">Lên đến 3 chức năng có thể được sử dụng</string>
+    <string name="message_touch_free_patterns">Lên đến %1$,d chức năng có thể được sử dụng</string>
     <string name="message_touch_music_player_not_found">Trình phát nhạc không được tìm thấy</string>
     <string name="message_touch_app_launcher1_not_set">Ứng dụng không được cài đặt</string>
     <string name="message_touch_app_launcher1_not_found">Không tìm thấy ứng dụng: %1$s</string>
@@ -252,7 +247,11 @@
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Chào mừng!</string>
-    <string name="dialog_welcome_message"><![CDATA[The app currently only supports Band.
+    <string name="dialog_welcome_message"><![CDATA[Supported devices:
+    <br>- <b>Xiaomi Mi Band 2</b>
+    <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit Arc (A1603)</b>
+    <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
     <p>Mi Bandage requires the installation of the official Mi Fit app on the same device. At first you have to pair Band in Mi Fit app, then you can use Mi Bandage.</p>
     <p>If you use more applications to control Band, they interfere with each other so temporarily turn off those.</p>
     <p>If Band is not found, then you can set the MAC address manually in the details menu (MAC address is found: Mi Fit/Profil/Band).</p>
@@ -283,8 +282,8 @@
     <string name="diagnostic_protection_lock">Lock on the recent apps screen</string>
 
     <!-- Notification  -->
-    <string name="notification_tab_settings">Cài đặt</string>
     <string name="notification_tab_custom">Tùy chỉnh thông báo </string>
+    <string name="notification_tab_settings">Cài đặt</string>
 
     <!-- Notification Dialog -->
     <string name="notification_group_name">Tên</string>
@@ -294,9 +293,11 @@
     <string name="notification_group_alert_title">Tín hiệu Band</string>
     <string name="notification_group_text_title">Tiêu đề</string>
     <string name="notification_group_text_content">Nội dung</string>
-    <string name="notification_group_pre_alert">Biểu tượng báo trước</string>
-    <string name="notification_group_prefix">Tiền tố văn bản</string>
+    <string name="notification_group_vibration_title">Custom vibration</string>
     <string name="notification_group_pre_signal_title">Dự báo thông báo mặc định</string>
+    <string name="notification_group_pre_vibration_title">Pre vibration</string>
+    <string name="notification_group_pre_alert_title">Biểu tượng báo trước</string>
+    <string name="notification_group_prefix">Tiền tố văn bản</string>
     <string name="notification_group_pre_only_premium">Chỉ có ở bản nâng cấp</string>
     <string name="notification_group_immediate">Phát tín hiệu ngay lập tức khi nhận được thông báo</string>
     <string name="notification_group_connecting">Khi kết nối với thiết bị</string>
@@ -358,6 +359,10 @@
     <string name="action_filter_notification">Notification filter</string>
 
     <!-- Touch monitoring -->
+    <string name="touch_tab_control">Control</string>
+    <string name="touch_tab_testing">Đang thử</string>
+    <string name="touch_tab_settings">Cài đặt</string>
+
     <string name="touch_headline_call_title">Điều khiển cuộc gọi</string>
     <string name="touch_headline_music_title">Điều khiển phát nhạc</string>
     <string name="touch_headline_time_title">Điều khiển hẹn giờ, đồng hồ bấm giờ</string>
@@ -384,6 +389,7 @@
     <string name="touch_music_skip_previous_title">Music start, previous song</string>
     <string name="touch_music_skip_next_title">Bắt đầu phát nhạc, bài hát tiếp theo</string>
     <string name="touch_music_headset_only_title">Chỉ khi tai nghe được kết nối</string>
+    <string name="touch_music_launch">Bắt đầu phát nhạc</string>
     <string name="touch_music_volume_up_title">Tăng âm lượng nhạc</string>
     <string name="touch_music_volume_down_title">Giảm âm lượng nhạc</string>
     <string name="touch_music_track_info_title">Hiển thị thông tin bài hát.</string>
@@ -406,11 +412,15 @@
     <string name="touch_tasker_launcher_no_task_title">Select an task</string>
    
     <string name="touch_testing_title">Giám sát chạm</string>
-
-    <string name="touch_tab_settings">Cài đặt</string>
-    <string name="touch_tab_testing">Đang thử</string>
-
     <string name="touch_testing_second">giây.</string>
+
+    <string name="touch_setting_recognition_start_title">Start touch recognition</string>
+    <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
+    <string name="touch_setting_recognition_time_title">Recognition time</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">Tín hiệu Band</string>
+    <string name="touch_setting_recognition_succeeded_title">Recognisable touch pattern</string>
+    <string name="touch_setting_recognition_failed_title">Tín hiệu không nhận ra cử chỉ</string>
 
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[The touch is valid when the display of Band changes (so it is advisable to rotate your wrist before touching).
@@ -603,7 +613,7 @@
     <string name="time_interval_title">Tiêu đề</string>
     <string name="time_interval_time">Khoảng thời gian</string>
 
-    <string name="time_text">Hiển thị tin nhắn</string>
+    <string name="time_text">Hiển thị tin nhắn khi báo thức</string>
     <string name="time_text_message">Văn bản</string>
 
     <string name="time_enable_bluetooth">Bật Bluetooth</string>
@@ -773,6 +783,7 @@
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
     <string name="action_save">Save</string>
+    <string name="action_test">Test</string>
 
     <string name="action_chart">Biểu đồ</string>
     <string name="action_chart_normalize_minute">Measured values</string>
