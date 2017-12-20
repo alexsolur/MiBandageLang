@@ -293,9 +293,9 @@
     <string name="notification_group_alert_title">Иконка на Band</string>
     <string name="notification_group_text_title">Заголовок</string>
     <string name="notification_group_text_content">Содержимое</string>
-    <string name="notification_group_vibration_title">Custom vibration</string>
+    <string name="notification_group_vibration_title">Особая вибрация</string>
     <string name="notification_group_pre_signal_title">Предсказание уведомлений по умолчанию</string>
-    <string name="notification_group_pre_vibration_title">Pre vibration</string>
+    <string name="notification_group_pre_vibration_title">Пре-вибрация</string>
     <string name="notification_group_pre_alert_title">Пре-иконка</string>
     <string name="notification_group_prefix">Префикс текста</string>
     <string name="notification_group_pre_only_premium">Только для премиума</string>
@@ -359,7 +359,7 @@
     <string name="action_filter_notification">Активные сейчас уведомления</string>
 
     <!-- Touch monitoring -->
-    <string name="touch_tab_control">Control</string>
+    <string name="touch_tab_control">Касания</string>
     <string name="touch_tab_testing">Тестирование</string>
     <string name="touch_tab_settings">Настройка</string>
 
@@ -389,7 +389,7 @@
     <string name="touch_music_skip_previous_title">Предыдущий трек</string>
     <string name="touch_music_skip_next_title">Следующий трек</string>
     <string name="touch_music_headset_only_title">Только при подключённой гарнитуре</string>
-    <string name="touch_music_launch">Start music</string>
+    <string name="touch_music_launch">Начать воспроизведение</string>
     <string name="touch_music_volume_up_title">Повысить громкость</string>
     <string name="touch_music_volume_down_title">Понизить громкость</string>
     <string name="touch_music_track_info_title">Информация о треке</string>
@@ -414,13 +414,13 @@
     <string name="touch_testing_title">Касания</string>
     <string name="touch_testing_second">с</string>
 
-    <string name="touch_setting_recognition_start_title">Start touch recognition</string>
-    <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
-    <string name="touch_setting_recognition_time_title">Recognition time</string>
+    <string name="touch_setting_recognition_start_title">Начало распознавания касаний</string>
+    <string name="touch_setting_recognition_start_trigger_title">Триггер</string>
+    <string name="touch_setting_recognition_time_title">Время распознавания</string>
 
     <string name="touch_setting_recognition_mi_band_signal_title">Уведомления Band</string>
-    <string name="touch_setting_recognition_succeeded_title">Recognisable touch pattern</string>
-    <string name="touch_setting_recognition_failed_title">Не распознанные нажатия</string>
+    <string name="touch_setting_recognition_succeeded_title">Последовательность распознана</string>
+    <string name="touch_setting_recognition_failed_title">Последовательность не распознана</string>
 
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[Нажатие считается корректным, если происходит переход на новый пункт отображения (рекомендуется повернуть запястье перед нажатием).
@@ -613,7 +613,7 @@
     <string name="time_interval_title">Название</string>
     <string name="time_interval_time">Интервал</string>
 
-    <string name="time_text">Show message on alarm</string>
+    <string name="time_text">Отображать сообщение в уведомлении</string>
     <string name="time_text_message">Текст</string>
 
     <string name="time_enable_bluetooth">Включить Bluetooth</string>
@@ -783,7 +783,7 @@
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
     <string name="action_save">Сохранить</string>
-    <string name="action_test">Test</string>
+    <string name="action_test">Тестировать</string>
 
     <string name="action_chart">График</string>
     <string name="action_chart_normalize_minute">Измеренные значения</string>
