@@ -201,6 +201,18 @@
         <item>10</item>
     </integer-array>
 
+    <string-array name="touch_recognition_start_trigger">
+        <item>Keine</item>
+        <item>Muster</item>
+        <item>Lange drücken Sie den Knopf</item>
+    </string-array>
+
+    <string-array name="touch_recognition_start_trigger_values">
+        <item>NONE</item>
+        <item>PATTERN</item>
+        <item>LONG_PRESS</item>
+    </string-array>
+
     <string-array name="widget_event">
         <item>Bandages screen</item>
         <item>Activity screen</item>
