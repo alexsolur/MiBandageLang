@@ -6,7 +6,7 @@
 
     <string name="drawer_nav_home">Bracelets</string>
     <string name="drawer_nav_notification">Notification</string>
-    <string name="drawer_nav_touch">Touché</string>
+    <string name="drawer_nav_touch">Tactile</string>
     <string name="drawer_nav_step">Activité</string>
     <string name="drawer_nav_sleep">Sommeil</string>
     <string name="drawer_nav_pulse">Rythme cardiaque</string>
@@ -20,7 +20,7 @@
     <string name="drawer_nav_feedback">Avis</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
-    <string name="shortcut_touch">Touché</string>
+    <string name="shortcut_touch">Tactile</string>
     <string name="shortcut_step">Activité</string>
     <string name="shortcut_pulse">Rythme cardiaque</string>
     <string name="shortcut_time_alarm">Alarme</string>
@@ -42,7 +42,7 @@
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Niveau de batterie, heure de dernière recharge, temps restant estimé</string>
     <string name="mi_band_state_connected_disconnected_last_time">Signal, dernière connexion et déconnexion</string>
-    <string name="mi_band_touch">Supervision du touché</string>
+    <string name="mi_band_touch">Supervision du tactile</string>
     <string name="mi_band_alarm">Prochaine alarme</string>
     <string name="mi_band_bonded_device_name">Nom du Band appairé</string>
     <string name="mi_band_mac_address">Adresse MAC</string>
@@ -293,9 +293,9 @@
     <string name="notification_group_alert_title">Alerte Band</string>
     <string name="notification_group_text_title">Titre</string>
     <string name="notification_group_text_content">Contenu</string>
-    <string name="notification_group_vibration_title">Custom vibration</string>
-    <string name="notification_group_pre_signal_title">Default notification prediction</string>
-    <string name="notification_group_pre_vibration_title">Pre vibration</string>
+    <string name="notification_group_vibration_title">Vibration personnalisée</string>
+    <string name="notification_group_pre_signal_title">Prévision de notification par défaut</string>
+    <string name="notification_group_pre_vibration_title">Pré vibration</string>
     <string name="notification_group_pre_alert_title">Pré icône</string>
     <string name="notification_group_prefix">Prefix texte</string>
     <string name="notification_group_pre_only_premium">Uniquement en mode premium</string>
@@ -359,7 +359,7 @@
     <string name="action_filter_notification">Filtre de notification</string>
 
     <!-- Touch monitoring -->
-    <string name="touch_tab_control">Control</string>
+    <string name="touch_tab_control">Contrôle</string>
     <string name="touch_tab_testing">Essai</string>
     <string name="touch_tab_settings">Réglages</string>
 
@@ -389,7 +389,7 @@
     <string name="touch_music_skip_previous_title">Musique start, piste précédente</string>
     <string name="touch_music_skip_next_title">Musique start, piste suivante</string>
     <string name="touch_music_headset_only_title">Uniquement si le casque est connecté</string>
-    <string name="touch_music_launch">Start music</string>
+    <string name="touch_music_launch">Démarrer la musique</string>
     <string name="touch_music_volume_up_title">Musique volume +</string>
     <string name="touch_music_volume_down_title">Musique volume -</string>
     <string name="touch_music_track_info_title">Afficher le titre de la piste.</string>
@@ -411,27 +411,27 @@
     <string name="touch_tasker_launcher_no_access_title">Autoriser un accès externe</string>
     <string name="touch_tasker_launcher_no_task_title">Sélectionner une tâche</string>
 
-    <string name="touch_testing_title">Supervision du touché</string>
+    <string name="touch_testing_title">Supervision du tactile</string>
     <string name="touch_testing_second">sec.</string>
 
-    <string name="touch_setting_recognition_start_title">Start touch recognition</string>
-    <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
-    <string name="touch_setting_recognition_time_title">Recognition time</string>
+    <string name="touch_setting_recognition_start_title">démarrer la reconnaissance du tactile</string>
+    <string name="touch_setting_recognition_start_trigger_title">Déclancher</string>
+    <string name="touch_setting_recognition_time_title">Temps de reconnaissance</string>
 
     <string name="touch_setting_recognition_mi_band_signal_title">Alerte Band</string>
-    <string name="touch_setting_recognition_succeeded_title">Recognisable touch pattern</string>
-    <string name="touch_setting_recognition_failed_title">Alerte du motif de touché non reconnue</string>
+    <string name="touch_setting_recognition_succeeded_title">Motif tactile reconnaissable</string>
+    <string name="touch_setting_recognition_failed_title">Alerte du motif tactile non reconnue</string>
 
     <!-- Touch monitoring info dialog -->
-    <string name="info_dialog_touch"><![CDATA[Le touché est valide lorsque l\'écran du Band change (il est donc conseillé de tourner votre poignet avant de toucher).
+    <string name="info_dialog_touch"><![CDATA[Le tactile est valide lorsque l\'écran du Band change (il est donc conseillé de tourner votre poignet avant de toucher).
         <p>Cela supervise le temps entre 2 touches et non le temps passé depuis la 1ere touche.</p>
         <p>Les icônes vert sur les cartes indiquent quelle autre fonction a un motif identique.</p>
         <p>Lorsque vous avez un appel entrant le mobile ne reconnait pas les fonctions suivantes pour faciliter la saisie tactile: géolocalisation du mobile, notifications répétés, contrôle de la musique.</p>
         <p>En mode test la fonction de reconnaissance du motif n\'est pas disponible.</p>
         <p>Retour de ibration du Band uniquement s\'il y a un motif qui prend en compte l\'état actuel du mobile (appel répondu, rejeté uniquement s\'il y a un appel entrant…).</p>
         <p>Le Band vibre une fois, lorsque le motif est reconnu.</p>
-        <p>Le Band vibre deux fois, lorsqu\'aucun motif n\'est reconnu après le plus long motif (si l\'<i>alerte de touché non reconnue</i> est définie).</p>
-        <p>Exemples de touchés valides:
+        <p>Le Band vibre deux fois, lorsqu\'aucun motif n\'est reconnu après le plus long motif (si l\'<i>alerte de tactile non reconnue</i> est définie).</p>
+        <p>Exemples de tactiles valides:
         <br>- toucher
         <br>- toucher, 1 seconde d\'attente, toucher
         <br>- toucher, 1 seconde d\'attente, toucher, 1 seconde d\'attente, toucher
@@ -613,7 +613,7 @@
     <string name="time_interval_title">Titre</string>
     <string name="time_interval_time">Durée de l\'intervalle</string>
 
-    <string name="time_text">Show message on alarm</string>
+    <string name="time_text">Afficher un message d'alerte</string>
     <string name="time_text_message">Texte</string>
 
     <string name="time_enable_bluetooth">Activer le Bluetooth</string>
@@ -677,7 +677,7 @@
 
     <string name="backup_time">Heure de la sauvegarde</string>
     <string name="backup_path">Destination de la sauvegarde</string>
-    <string name="backup_auto">Automatic backup</string>
+    <string name="backup_auto">Sauvegarde automatique</string>
     <string name="backup_auto_time">Heure</string>
 
     <string name="backup_process">Préparation…</string>
