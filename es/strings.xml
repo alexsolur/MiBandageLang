@@ -244,14 +244,15 @@
     <string name="message_internet_error">No tiene conexión a internet</string>
 
     <string name="message_in_progress">In progress…</string>
+    <string name="message_no_data">No data available</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Bienvenido!</string>
     <string name="dialog_welcome_message"><![CDATA[Dispositivos soportados:
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit Arc (A1603)</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>Mi Bandage requiere la instalación de la aplicación oficial Mi Fit en el mismo dispositivo. Al principio, tienes que emparejar la Band con la Mi Fit, entonces podras usar Mi Bandage.</p>
     <p>Si utiliza mas aplicaciones para controlar la Band, puede que interfieran entre si, desactivelas temporalmente.</p>
     <p>Si no se puede enontrar la Band, puedes establecer la dirección MAC, manualment, en el menú de detalles(La dirección MAC se puede encontrar en: Mi Fit/Perfil/Band).</p>
@@ -266,6 +267,11 @@
     <br>4. Desactive y active, nuevamente, el Bluetooth.
     <br>5. Abra la aplicación Mi Fit, espere que la sincronizacion termine, cierrela.
     <br>6. Abra la aplicación Mi Bandage, presione el boton de descubrir.</p>]]></string>
+
+
+
+
+
 
     <!-- Diagnostic -->
     <string name="diagnostic_title">Diagnostic</string>
@@ -332,6 +338,7 @@
         <br><img src="ALERT_TELEGRAM">  Telegram
         <br><img src="ALERT_KAKAOTALK">  KakaoTalk
         <br><img src="ALERT_VK">  VK
+        <br><img src="ALERT_YOUTUBE">  Youtube
         <br><img src="ALERT_FACEBOOK">  Facebook
         <br><img src="ALERT_TWITTER">  Twitter
         <br><img src="ALERT_SNAPCHAT">  Snapchat
@@ -377,6 +384,7 @@
 
     <string name="touch_call_mute_title">Silenciar llamada</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Only if you have an incoming call</string>
+    <string name="touch_call_mute_recognition_title">On incoming call</string>
 
     <string name="touch_device_location_not_muted_only_title">Sonido,sólo si no está silenciado</string>
 
