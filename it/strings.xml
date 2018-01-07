@@ -244,14 +244,15 @@
     <string name="message_internet_error">Manca connessione internet</string>
 
     <string name="message_in_progress">In corso…</string>
+    <string name="message_no_data">No data available</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Benvenuto!</string>
     <string name="dialog_welcome_message"><![CDATA[Dispositivi supportati:
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit Arc (A1603)</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>Mi Bandage richiede l\'installazione dell\'app ufficiale Mi Fit sullo stesso dispositivo. Per prima cosa devi collegare la Band nell\'app Mi Fit, dopo puoi usare Mi Bandage.</p>
     <p>Se usi altre applicazioni per controllare Band, interferiranno tra di loro quindi disattivale temporaneamente.</p>
     <p>Se la Band non viene trovata, puoi impostare manualmente l\'indirizzo MAC dal menu dettagli (puoi trovare l\'indirizzo MAC in: Mi Fit/Profilo/Band).</p>
@@ -266,6 +267,11 @@
     <br>4. Spegni e riaccendi il Bluetooth.
     <br>5. Apri l\'app Mi Fit, aspetta fino all\'avvenuta sincronizzazione e poi chiudila.
     <br>6. Apri l\'app Mi Bandage, tocca il tasto di ricerca.</p>]]></string>
+
+
+
+
+
 
     <!-- Diagnostic -->
     <string name="diagnostic_title">Diagnostica</string>
@@ -332,6 +338,7 @@
         <br><img src="ALERT_TELEGRAM">  Telegram
         <br><img src="ALERT_KAKAOTALK">  KakaoTalk
         <br><img src="ALERT_VK">  VK
+        <br><img src="ALERT_YOUTUBE">  Youtube
         <br><img src="ALERT_FACEBOOK">  Facebook
         <br><img src="ALERT_TWITTER">  Twitter
         <br><img src="ALERT_SNAPCHAT">  Snapchat
@@ -377,6 +384,7 @@
 
     <string name="touch_call_mute_title">Attiva muto nelle chiamate</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Solo se stai ricevendo una chiamata</string>
+    <string name="touch_call_mute_recognition_title">On incoming call</string>
 
     <string name="touch_device_location_not_muted_only_title">Suona solo se non silenziato</string>
 
