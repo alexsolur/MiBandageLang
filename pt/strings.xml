@@ -244,14 +244,15 @@
     <string name="message_internet_error">Não tem ligação à internet</string>
 
     <string name="message_in_progress">A processar…</string>
+    <string name="message_no_data">No data available</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Bem vindo!</string>
     <string name="dialog_welcome_message"><![CDATA[Dispositivos suportados:
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit Arc (A1603)</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>A Mi Bandage precisa da Mi Fit instalada pra funcionar. Primeiro tem de emparelhar a Band na aplicação Mi Fit e só depois poderá usar a Mi Bandage.</p>
     <p>Se você usa mais aplicações para controlar a Band, elas vão interferir umas com as outras por isso desative-as.</p>
     <p>Se a Band não for encontrada, você pode configurar o endereço MAC manualmente nos detalhes do menu (O endereço MAC encontra-se em: Mi Fit/Profil/Band).</p>
@@ -266,6 +267,11 @@
     <br>4. Desligue e volte a ligar o Bluetooth.
     <br>5. Abra a aplicação Mi Fit, espere até a sincronização ser feita e feche-a.
     <br>6. Abra a aplicação Mi Bandage e clique no botão para descobrir a Band.</p>]]></string>
+
+
+
+
+
 
     <!-- Diagnostic -->
     <string name="diagnostic_title">Diagnóstico</string>
@@ -332,6 +338,7 @@
         <br><img src="ALERT_TELEGRAM">  Telegram
         <br><img src="ALERT_KAKAOTALK">  KakaoTalk
         <br><img src="ALERT_VK">  VK
+        <br><img src="ALERT_YOUTUBE">  Youtube
         <br><img src="ALERT_FACEBOOK">  Facebook
         <br><img src="ALERT_TWITTER">  Twitter
         <br><img src="ALERT_SNAPCHAT">  Snapchat
@@ -377,6 +384,7 @@
 
     <string name="touch_call_mute_title">Silenciar</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Só se estiver a receber uma chamada</string>
+    <string name="touch_call_mute_recognition_title">On incoming call</string>
 
     <string name="touch_device_location_not_muted_only_title">Emitir som se não estiver num modo \'sem som\'</string>
 
@@ -419,7 +427,7 @@
     <string name="touch_setting_recognition_time_title">Tempo de reconhecimento</string>
 
     <string name="touch_setting_recognition_mi_band_signal_title">Sinal da Band</string>
-    <string name="touch_setting_recognition_succeeded_title">Padrão touch reconhecido/string>
+    <string name="touch_setting_recognition_succeeded_title">Padrão touch reconhecido</string>
     <string name="touch_setting_recognition_failed_title">Padrão touch não reconhecido</string>
 
     <!-- Touch monitoring info dialog -->
