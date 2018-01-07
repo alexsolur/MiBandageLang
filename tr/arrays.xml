@@ -201,16 +201,30 @@
         <item>10</item>
     </integer-array>
 
-    <string-array name="touch_recognition_start_trigger">
+    <string-array name="touch_recognition_press">
         <item>None</item>
-        <item>Pattern</item>
-        <item>Long press the button</item>
+        <item>Touch</item>
+        <item>Double touch</item>
+        <item>Long touch</item>
+    </string-array>
+
+    <string-array name="touch_recognition_press_values">
+        <item>NONE</item>
+        <item>TOUCH</item>
+        <item>DOUBLE_TOUCH</item>
+        <item>LONG_TOUCH</item>
+    </string-array>
+
+    <string-array name="touch_recognition_start_trigger">
+        <item>Yok</item>
+        <item>Desen</item>
+        <item>Uzun basma</item>
     </string-array>
 
     <string-array name="touch_recognition_start_trigger_values">
-        <item>YOK</item>
-        <item>DESEN</item>
-        <item>UZUN_BASMA</item>
+        <item>NONE</item>
+        <item>PATTERN</item>
+        <item>LONG_PRESS</item>
     </string-array>
 
     <string-array name="widget_event">
