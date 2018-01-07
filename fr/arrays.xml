@@ -201,6 +201,20 @@
         <item>10</item>
     </integer-array>
 
+    <string-array name="touch_recognition_press">
+        <item>None</item>
+        <item>Touch</item>
+        <item>Double touch</item>
+        <item>Long touch</item>
+    </string-array>
+
+    <string-array name="touch_recognition_press_values">
+        <item>NONE</item>
+        <item>TOUCH</item>
+        <item>DOUBLE_TOUCH</item>
+        <item>LONG_TOUCH</item>
+    </string-array>
+
     <string-array name="touch_recognition_start_trigger">
         <item>Aucun</item>
         <item>Motif</item>

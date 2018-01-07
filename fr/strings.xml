@@ -244,14 +244,15 @@
     <string name="message_internet_error">Connexion internet indisponible</string>
 
     <string name="message_in_progress">En cours…</string>
+    <string name="message_no_data">No data available</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Bienvenue!</string>
     <string name="dialog_welcome_message"><![CDATA[Équipements supportés:
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit Arc (A1603)</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>Mi Bandage nécessite l\'installation de l\'appli officielle Mi Fit sur le même téléphone. Pour commencer vous devez appairer votre Band dans l\'appli Mi Fit, ensuite pour pourrez utiliser Mi Bandage.</p>
     <p>Si vous utilisez plus d\'applications pour contrôler votre Band, elles vont interférer entre elles et se désactiver.</p>
     <p>Si votre Band n\'est pas détecté, vous pouvez saisir son adresse MAC manuellement dans les détails de la fenêtre principale (l\'adresse MAC se trouve dans: Mi Fit/Profil/Band).</p>
@@ -266,6 +267,11 @@
     <br>4. Désactiver, activer le Bluetooth.
     <br>5. Ouvrir l\'appli Mi Fit, attendre la fin de la synchronisation, fermez la.
     <br>6. Ouvrir Mi Bandage, cliquer sur le bouton de découverte vert.</p>]]></string>
+
+
+
+
+
 
     <!-- Diagnostic -->
     <string name="diagnostic_title">Diagnostiques</string>
@@ -332,6 +338,7 @@
         <br><img src="ALERT_TELEGRAM">  Telegram
         <br><img src="ALERT_KAKAOTALK">  KakaoTalk
         <br><img src="ALERT_VK">  VK
+        <br><img src="ALERT_YOUTUBE">  Youtube
         <br><img src="ALERT_FACEBOOK">  Facebook
         <br><img src="ALERT_TWITTER">  Twitter
         <br><img src="ALERT_SNAPCHAT">  Snapchat
@@ -377,6 +384,7 @@
 
     <string name="touch_call_mute_title">Appels basculés en muet</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Uniquement si vous avez un appel entrant</string>
+    <string name="touch_call_mute_recognition_title">On incoming call</string>
 
     <string name="touch_device_location_not_muted_only_title">Émettre un son s\'il n\'est pas en muet ou en mode DnD</string>
 
