@@ -1,0 +1,854 @@
+﻿<resources>
+    <string name="app_name">Mi Bandage</string>
+
+    <string name="navigation_drawer_open">Öffne Navigationsleiste</string>
+    <string name="navigation_drawer_close">Schließe Navigationsleiste</string>
+
+    <string name="drawer_nav_home">Bandages</string>
+    <string name="drawer_nav_notification">Benachrichtigungsanzeige</string>
+    <string name="drawer_nav_touch">Beobachtung des Berührungsssensors</string>
+    <string name="drawer_nav_step">Schrittzähler</string>
+    <string name="drawer_nav_sleep">Sleep</string>
+    <string name="drawer_nav_pulse">Herzfrequenz</string>
+    <string name="drawer_nav_time">Wecker &amp; Uhr</string>
+    <string name="drawer_nav_alarm">Bei Verlust</string>
+    <string name="drawer_nav_disconnected_agent">Agent</string>
+    <string name="drawer_nav_theme">Theme</string>
+    <string name="drawer_nav_backup">Backup</string>
+    <string name="drawer_nav_rewarded_mode">Belohnungsmodus</string>
+    <string name="drawer_nav_premium_mode">Premiummodus</string>
+    <string name="drawer_nav_feedback">Feedback</string>
+    <item name="drawer_nav_settings" type="string">@string/settings_name</item>
+
+    <string name="shortcut_touch">Berühren</string>
+    <string name="shortcut_step">Schrittzähler</string>
+    <string name="shortcut_pulse">Herzfrequenz</string>
+    <string name="shortcut_time_alarm">Wecker</string>
+
+    <!-- Foreground service, ongoing notification -->
+    <string name="foreground_service_connected">Uhrzeit der Verbindung: %1$s</string>
+    <string name="foreground_service_disconnected_text">Band ist nicht verbunden</string>
+    <!--<string name="foreground_service_disconnected">Uhrzeit der Verbindungsunterbrechung: %1$s</string>-->
+
+    <!-- Strings related to Settings -->
+    <string name="settings_name">Einstellungen</string>
+    <string name="app_chooser">App-Auswahl</string>
+    <string name="info_name">Informationen</string>
+
+    <!-- Bandages screen -->
+    <string name="mi_band_tracker_title">Steps, distance, calories, goal, pulse</string>
+    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
+    <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
+    <string name="mi_band_battery">Battery level, last charging time, estimated remaining time</string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI, last connection and disconnection time</string>
+    <string name="mi_band_touch">Touch monitoring</string>
+    <string name="mi_band_alarm">Wecker</string>
+    <string name="mi_band_bonded_device_name">Band gekoppelter Name</string>
+    <string name="mi_band_mac_address">MAC-Adresse</string>
+    <string name="mi_band_firmware">Firmware</string>
+    <string name="mi_band_hardware">Hardware</string>
+
+    <string name="mi_band_mac_address_invalid">Ungültige MAC-Adresse</string>
+
+    <string name="mi_band_state_title">Band settings</string>
+    <string name="mi_band_state_connected">Connected</string>
+    <string name="mi_band_state_disconnected">Disconnected</string>
+    <string name="mi_band_state_bonded">Paired device</string>
+    <string name="mi_band_state_not_bonded">Not paired device</string>
+
+    <string name="mi_band_battery_settings">Battery settings</string>
+    <string name="mi_band_battery_remaining">Vorrausichtliche Akkulaufzeit</string>
+    <string name="mi_band_battery_notification">Low battery level notification</string>
+    <string name="mi_band_battery_notification_level">Low battery level</string>
+    <string name="mi_band_battery_notification_repeat_interval">Repeat interval</string>
+    <string name="mi_band_battery_notification_shade">Notify on the phone</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Persistent (ongoing) notification</string>
+    <string name="mi_band_battery_notification_shade_message">Niedriger Batteriestand %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Notify on the bracelet</string>
+    <string name="mi_band_battery_notification_mi_band_message">Battery: %1$,d%%</string>
+
+    <!-- PreferenceScreen -->
+    <string name="pref_connected">Verbindung</string>
+    <string name="pref_connected_summary">Einstellungen zur Verbindung zwischen Band und Gerät</string>
+
+    <string name="pref_connected_signals">Verbindungssignale</string>
+    <string name="pref_connected_signals_summary">Band verbunden, keine Benachrichtigungen</string>
+    <string name="pref_cat_connected_signals_mi_band">Band Signal</string>
+    <string name="pref_connected_mi_band_title">Vibration</string>
+    <string name="pref_cat_connected_signals">Gerätesignal</string>
+    <string name="pref_connected_wakelock_title">Gerätebildschirm aufwecken</string>
+
+    <string name="pref_connected_settings">Verbindungseinstellungen</string>
+    <string name="pref_connected_settings_summary">Verbindungseinstellungen zu Band und Telefon</string>
+    <string name="pref_cat_connected_settings">Gerätesignal</string>
+    <string name="pref_connected_volume_title">Lautstärke ändern</string>
+    <string name="pref_connected_volume_ring_title">Klingellautstärke</string>
+
+    <string name="pref_cat_connected_have_notif">Voreingestellte App und Band bekommen Benachrichtigungen</string>
+    <string name="pref_cat_connected_have_notif_default">Voreingestellte und benutzerdefinierte Einstellungen</string>
+    <string name="pref_connected_have_notif_immediate_title">Sofortiges Signal bei Empfang einer Benachrichtigung</string>
+    <string name="pref_connected_have_notif_title">Signal bei Verbindung zum Gerät</string>
+    <string name="pref_connected_have_notif_reminder_title">Erinnerungssignal</string>
+    <string name="pref_connected_have_notif_screen_off_title">Signal nur bei ausgeschaltetem Bildschirm</string>
+    <string name="pref_connected_have_notif_interval_title">Intervall der Erinnerungswiederholung</string>
+    <string name="pref_connected_have_notif_counter_title">Anzahl der Signale</string>
+    <string name="pref_connected_have_notif_wakelock_title">Gerätebildschirm aufwecken</string>
+    <string name="pref_connected_have_notif_ongoing_title">Signal fortlaufender (permanenter) Benachrichtigungen</string>
+    <string name="pref_connected_have_notif_default_app_title">Signal einer nicht bekannten App</string>
+    <string name="pref_connected_have_notif_default_app_summary_on">\'App\'-Emblem (Falls sich die App weder in einer voreingestellten, noch in einer benutzerdefinerten Gruppe befindet)</string>
+    <string name="pref_connected_have_notif_pre_signal_title">Benachrichtigungsvorhersage</string>
+    <string name="pref_connected_have_notif_pre_signal_summary_on">Signal (tippen Sie auf das Emblem, um es zu ändern) vor der Anzeige des Emblems, um mehr Zeit für das Erkennen des Emblems zu haben.</string>
+
+    <string name="pref_disconnected">Verbindungstrennung</string>
+    <string name="pref_disconnected_summary">Einstellungen des Signals, falls die Verbindung zwischen dem Band und dem Telefon getrennt wird</string>
+
+    <string name="pref_disconnected_signals">Signale bei Verbindungstrennung</string>
+    <string name="pref_disconnected_signals_summary">Signale bei Verbindungstrennung zwischen Band und Telefon, werden nicht ausgesendet, wenn Bluetooth manuell deaktiviert wird</string>
+    <string name="pref_cat_disconnected_signals_mi_band">Band Signal</string>
+    <string name="pref_disconnected_mi_band_title">Anzeige des Emblems</string>
+    <string name="pref_cat_disconnected_signals">Gerätesignal</string>
+    <string name="pref_disconnected_ringtone_title">Klingelton</string>
+    <string name="pref_disconnected_vibration_title">Vibration</string>
+    <string name="pref_disconnected_wakelock_title">Gerätebildschirm aufwecken</string>
+
+    <string name="pref_disconnected_settings">Einstellungen zur Verbindungstrennung</string>
+    <string name="pref_disconnected_settings_summary">Einstellungen bei Verbindungstrennung zwischen Band und Telefon</string>
+    <string name="pref_cat_disconnected_settings">Telefoneinstellungen</string>
+    <string name="pref_disconnected_volume_title">Lautstärke ändern</string>
+    <string name="pref_disconnected_volume_ring_title">Lautstärke des Klingeltons</string>
+    <string name="pref_disconnected_volume_adapter_title">When Bluetooth is turned off</string>
+    <string name="pref_disconnected_volume_adapter_summary_on">Adjust the volume</string>
+    <string name="pref_disconnected_volume_adapter_summary_off">Do not adjust the volume</string>
+
+    <string name="pref_cat_abandoned">Gerätesignal</string>
+    <string name="pref_abandoned_notif_interval_title">Intervall der Erinnerungswiederholung</string>
+    <string name="pref_abandoned_notif_text_summary">Benachrichtigung auf Gerätebildschirm</string>
+    <string name="pref_abandoned_notif_text_text">Bei Verlust des Geräts bitte folgende Nummer anrufen: </string>
+    <string name="pref_abandoned_ringtone_title">Klingelton</string>
+    <string name="pref_abandoned_vibration_title">Vibration</string>
+    <string name="pref_abandoned_wakelock_title">Bildschirm aufwecken</string>
+    <string name="pref_abandoned_notif_title">Gerät verloren</string>
+
+    <string name="pref_call">Anruf</string>
+    <string name="pref_call_summary">Einstellungen zu dem Signal des Mi Bands 2</string>
+    <string name="pref_cat_call">Eingehender Anruf</string>
+    <string name="pref_call_title">Signal eines eingehenden Anrufs</string>
+    <string name="pref_call_summary_on">Aktiviert (Vergessen Sie nicht, den Alarm für eingehende Anrufe in der Mi Fit-App zu deaktivieren.)</string>
+    <string name="pref_call_text_title">Anzeige der Telefonnummer des Anrufers</string>
+    <string name="pref_call_text_summary_on"><![CDATA[Aktiviert (mehr Informationen: <i>Einstellungen/Einstellungen zu Textikonen)</i>]]></string>
+
+    <string name="pref_call_net_text_title">Eingehendes Signal eines Internetanrufs, zeige Telefonnummer des Anrufers an</string>
+    <string name="pref_call_net_text_summary_on">Viber, WhatsApp, Line</string>
+
+    <string name="pref_cat_call_missed">Verpasster Anruf</string>
+    <string name="pref_call_missed_title">Signal eines verpassten Anrufes</string>
+
+    <string name="pref_call_missed_net_title">Verpasstes Signal eines Internetanrufs, zeige Telefonnummer des Anrufers an</string>
+    <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
+
+    <string name="pref_call_missed_alert_title">Band Signal</string>
+
+    <string name="pref_call_missed_text_prefix_title">Text Präfix: %1$s</string>
+    <string name="pref_call_missed_text_prefix_summary">Falls mehr als eine App dasselbe Emblem benutzt, um Benachrichtigungen voneinander unterscheiden zu können</string>
+    <string name="pref_call_missed_text_prefix_dialog_title">Text Präfix</string>
+
+    <string name="pref_text_conversion">Textembleme</string>
+    <string name="pref_text_conversion_summary">Einstellungen zu den Textemblemen des Mi Bands 2</string>
+    <string name="pref_cat_text_conversion">Band Signal</string>
+    <string name="pref_text_conversion_title">Buchstabenumwandlung</string>
+    <string name="pref_text_conversion_summary_on">Nicht erkennbare Buchstabenumwandlung</string>
+
+    <string name="pref_text_conversion_description_title">Beschreibung</string>
+    <string name="pref_text_conversion_description_summary"><![CDATA[
+        <p>Falls das Band den Namen des Anrufers aktuell anzeigt, müssen Sie die folgenden Schritte nicht befolgen <i>Alarm eingehender Anrufe</i> in der Mi Fit-App.</p>
+        <p>Falls Sie <i>eingehende Anrufalarme</i> nicht aktiviert haben and die Sprache ihres Telefons nicht Englisch ist:
+        <br/>1. Ändern Sie ihre Spracheinstellungen auf Englisch.
+        <br/>2. Öffnen Sie die Mi Fit-App und warten Sie bis das Firmware-Update beendet ist. Falls das Firmware-Update nicht startet, versuchen Sie es mit einem Neustart.
+        <br/>3. Öffnen Sie das <i>Profile/Mi Band/Incoming call</i> Menü.
+        <br/>4. Aktivieren Sie: <i>Turn on incoming call alerts</i>.
+        <br/>5. Aktivieren Sie: <i>Show contact information</i>.
+        <br/>6. Kontrollieren Sie, ob das Band die Telefonnummer des Anrufers anzeigt, indem Sie ihr Telefon anrufen.
+        <br/>7. Deaktivieren Sie: <i>Turn on incoming call alerts</i> (<i>Show contact information</i> bleibt aktiviert).
+        <br/>8. Ändern Sie ihre Spracheinstellungen auf Ihre Sprache.</p>]]>
+    </string>
+
+    <string name="pref_mi_band">Band</string>
+    <string name="pref_cat_mi_band_lift_wrist">Für Informationen Handgelenk anheben</string>
+    <string name="pref_mi_band_lift_wrist_title">Für Informationen Handgelenk anheben</string>
+    <string name="pref_mi_band_lift_wrist_dnd_title">Nicht Stören-Modus</string>
+    <string name="pref_mi_band_lift_wrist_dnd_summary_on">Aktiviert (in dem festgelegten Zeitraum werden keine Informationen angezeigt, für die korrekte Funktionsweise wird die Bluetooth-Verbindung zum Gerät benötigt.)</string>
+
+    <string name="pref_language">Sprache</string>
+    <string name="pref_cat_language">Sprache</string>
+    <string name="pref_language_title">Sprache</string>
+
+    <!-- Quick switch -->
+    <string name="details">Details</string>
+    <string name="bandages">Bandages</string>
+    <string name="connected">Verbindungs- and Benachrichtigungssignal</string>
+    <string name="disconnected">Verbindungstrennungs- und Agentsignal</string>
+    <string name="touch">Beobachtung von Berührungen</string>
+
+    <string name="pref_dnd_title">Nicht Stören-Modus</string>
+    <string name="pref_dnd_remember_state_summary">Wenn der Nicht Stören-Modus beendet ist, aktivieren Sie alle Bandages oder stellen Sie die vorherigen Einstellungen, wie Sie vor dem Start des Nicht Stören-Modus eingestellt waren, wieder her.</string>
+    <string name="pref_dnd_remember_state_on_title">Nach Beendigung alle Bandages wiederherstellen\' state</string>
+    <string name="pref_dnd_remember_state_off_title">Nach Beendigung alle Bandages aktivieren</string>
+    <string name="pref_dnd_enable_bluetooth">Deaktivieren Sie beim Start des Nicht Stören-Modus das Bluetooth, am Ende aktivieren.</string>
+
+    <!-- Snackbar Messages -->
+    <string name="message_enable_bluetooth">Bitte aktivieren Sie Bluetooth und bringen Sie das Band näher an das Telefon.</string>
+    <string name="message_discover_mi_band">Band wurde nicht erkannt, bitte aktivieren Sie die Sichtbarkeit (Mi Fit/Play/Erkennbar).</string>
+    <string name="message_discovering_mi_band">Suche nach Mi Band… (kann bis zu eine Minute beanspruchen) …</string>
+    <string name="message_discovered_mi_band">%1$s erkannt</string>
+    <string name="message_discovered_no_mi_band">Suche nach dem Band fehlgeschlagen</string>
+    <string name="message_discovered_not_found_mi_band">Falls das Band nicht gefunden wurde, aktivieren Sie: Mi Fit/Play/Erkennbar oder koppeln Sie das Gerät über die Bluetooth-Einstellungen.</string>
+    <string name="message_enable_notification_listener_access">Aktivieren Sie den Benachrichtigungszugriff: Einstellungen/Benachrichtigungen/Benachrichtigungszugriff</string>
+    <string name="message_enable_notification_listener_access_4_4">Aktivieren Sie den Benachrichtigungszugriff: Einstellungen/Sicherheit/Benachrichtigungszugriff</string>
+    <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
+    <string name="message_open_settings">Einstellungen</string>
+
+    <string name="message_deleted">Gelöscht</string>
+    <string name="message_undo">Rückgängig</string>
+
+    <string name="message_app_chooser_no_selected">Wählen Sie eine App aus</string>
+
+    <string name="message_notification_free_groups">Bis zu %1$,d Gruppen können im normalen Modus verwendet werden.</string>
+
+    <string name="message_step_goal_free_values">Bis zu 3 Werte können im normalen Modus eingestellt werden.</string>
+    <string name="message_step_goal_max_values">Maximal können 10 Werte gespeichert werden.</string>
+
+    <string name="message_touch_no_patterns">Drücken Sie einen der roten Aufnahme-Buttons</string>
+    <string name="message_touch_record">Zeichnen Sie das Muster mithilfe des Berührungssensors des Mi Bands 2 auf.</string>
+    <string name="message_touch_pattern_error">Dieses Muster ähnelt zu sehr einem einer anderen Funktion, bitte zeichnen Sie ein anderes auf.</string>
+    <string name="message_touch_free_patterns">Bis zu %1$,d Funktionen können im normalen Modus verwndet werden.</string>
+    <string name="message_touch_music_player_not_found">Musikplayer nicht gefunden</string>
+    <string name="message_touch_app_launcher1_not_set">Keine App eingestellt</string>
+    <string name="message_touch_app_launcher1_not_found">App wurde nicht gefunden: %1$s</string>
+    <string name="message_touch_tasker_launcher_not_set">Aufgabe des Taskers nicht eingestellt</string>
+
+    <string name="message_notification_group_has_no_entry">Select applications with the lower right green \'+\' button on the card</string>
+
+    <string name="message_time_alarm_free_counter">Bis zu 2 Wecker können im normalen Modus aktiviert werden.</string>
+    <string name="message_time_alarm_max_counter">Es können maximal 5 Wecker verwndet werden.</string>
+    <string name="message_time_alarm_enabled">Alarm aktiviert</string>
+    <string name="message_time_alarm_disabled">Alarm deaktiviert</string>
+    <string name="message_time_alarm_mi_band_off">Alarm off</string>
+
+    <string name="message_alarm_free_interval">Kleinerer Wiederholngsintervall kann nur im Premium-Modus eingestellt werden.</string>
+    <string name="message_alarm_mi_band_set_failed">Einstellen des Weckers fehlgeschlagen</string>
+    <string name="message_alarm_mi_band_clear_failed">Löschen des Weckers fehlgeschlagen</string>
+
+    <string name="message_premium_mode_only">Dieses Feature ist nur im Premium-Modus verfügbar.</string>
+    <string name="message_general_error">Einstellen fehlgeschlagen (Verbindung unterbrochen), versuchen Sie es erneut.</string>
+    <string name="message_internet_error">Sie haben keine Internetverbindung</string>
+
+    <string name="message_in_progress">In progress…</string>
+    <string name="message_no_data">No data available</string>
+
+    <!-- Dialog -->
+    <string name="dialog_welcome_title">Herzlich willkommen!</string>
+    <string name="dialog_welcome_message"><![CDATA[Unterstützte Geräte:
+    <br>- <b>Xiaomi Mi Band 2</b>
+    <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Arc (A1603)</b>
+    <p>Mi Bandage benötigt die offizielle Mi Fit-App auf demselben Gerät. Vor der Verwendung der Mi Bandage-App muss das Band mit der Mi Fit-App verbunden sein.</p>
+    <p>Falls mehrere Apps das Band kontollieren, können Interferenzen auftreten. Bitte deaktivieren Sie diese temporär.</p>
+    <p>Sie können die MAC-Adresse manuell einstellen, falls das Band nicht erkannt wird (die MAC-Adresse kann in Mi Fit/Profil/Band gefunden werden.).</p>
+    <p><b>Falls das Band nicht erkannt wird oder Komplikationen beim Synchronisieren der Mi Fit-App auftreten, installieren Sie BToolkit, nRF Connect oder ähnliche Bluetooth-Manager und löschen Sie jedes gekoppelte Gerät.</b></p>
+    <p>Falls Sie Probleme mit der Erkennung des Mi Bands 2 und kein Benachrichtigungssignal erhalten, bitte versuchen Sie folgende Schritte:
+    <p><b>MIUI:</b>
+    <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
+    <br>- Security app screen: battery/app battery saver set Mi Bandage app to no restriction.</p>
+    <br>1. Falls Sie Greenify oder eine andere sich im Ruhezustand befindende App installiert haben, deaktivieren Sie diese.
+    <br>2. Installieren Sie die Mi Bandage-App.
+    <br>3. Führen Sie einen Neustart ihres Telefons durch.
+    <br>4. Deaktivieren Sie Bluetooth und aktivieren Sie es anschließend wieder.
+    <br>5. Öffnen Sie die Mi Fit-App, warten Sie bis die Synchronisation abgeschlossen ist, und schließen Sie die App wieder.
+    <br>6. Öffnen Sie die Mi Bandage-App und berühren Sie den "Entdecken"-Button.</p>]]></string>
+
+
+
+
+
+
+    <!-- Diagnostic -->
+    <string name="diagnostic_title">Diagnostic</string>
+
+    <string name="diagnostic_permissions_title">Permissions</string>
+
+    <string name="diagnostic_access_title">Access</string>
+    <string name="diagnostic_access_do_not_disturb">Do not Disturb access</string>
+    <string name="diagnostic_access_notification">Notification access</string>
+
+    <string name="diagnostic_protection_title">Protection against closing</string>
+    <string name="diagnostic_protection_battery">Battery optimisation off</string>
+    <string name="diagnostic_protection_service">Zeige Status in Benachrichtigungsleiste an</string>
+    <string name="diagnostic_protection_lock">Lock on the recent apps screen</string>
+
+    <!-- Notification  -->
+    <string name="notification_tab_custom">Benutzerdefinierte Benachrichtigungen</string>
+    <string name="notification_tab_settings">Einstellungen</string>
+
+    <!-- Notification Dialog -->
+    <string name="notification_group_name">Name</string>
+    <string name="notification_group_monitoring">Beobachtung von Benachrichtigungen</string>
+    <string name="notification_group_monitoring_disabled">Deaktivieren Sie Benachrichtigungen (App-Benachrichtigungen nicht anzeigen)</string>
+    <string name="notification_group_text">Text display</string>
+    <string name="notification_group_alert_title">Band Signal</string>
+    <string name="notification_group_text_title">Titel</string>
+    <string name="notification_group_text_content">Inhalt</string>
+    <string name="notification_group_vibration_title">Custom vibration</string>
+    <string name="notification_group_pre_alert_title">Prä-Ikon</string>
+    <string name="notification_group_pre_signal_title">Standard-Benachrichtigungsvorhersage</string>
+    <string name="notification_group_pre_vibration_title">Pre vibration</string>
+    <string name="notification_group_prefix">Text-Präfixprefix</string>
+    <string name="notification_group_pre_only_premium">Nur im Premium-Modus verfügbar</string>
+    <string name="notification_group_immediate">Bei Benachrichtigungsempfang sofortiges Signal</string>
+    <string name="notification_group_connecting">Wenn Verbindung zum Gerät aufgebaut wird</string>
+    <string name="notification_group_reminder">Erinnerungssignal</string>
+    <string name="notification_group_screen_off">Signal erfolgt nur, wenn der Bildschirm ausgeschalten ist.</string>
+    <string name="notification_group_counter_title">Anzahl der Signale</string>
+    <string name="notification_group_wakelock">Gerätebildschirm aufwecken</string>
+    <string name="notification_group_filter">Benachrichtigungsfilter</string>
+    <string name="notification_group_filter_title">Title filter</string>
+    <string name="notification_group_filter_content">Content filter</string>
+    <string name="notification_group_filter_hint">Signal erfolgt nur dann, wenn (Abgrenzungen: Absatz, ignoriert Groß- und Kleinschreibung)</string>
+    <string name="notification_group_filter_contains">Phrasen enthalten sind</string>
+    <string name="notification_group_filter_not_contains">keine Phrasen enthalten sind</string>
+
+    <string name="notification_group_sample_sms">SMS text display</string>
+    <string name="notification_group_sample_facebook">Messenger text display</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp text display</string>
+
+    <!-- Notification info dialog -->
+    <string name="info_dialog_notification"><![CDATA[Signale der vordefinierten App und der Band-Embleme
+        <br><img src="ALERT_MESSAGE_TEXT">  Verpasster Anruf
+        <br><img src="ALERT_MESSAGE">  SMS
+        <br><img src="ALERT_EMAIL">  E-Mail, Gmail
+        <br><img src="ALERT_CALENDAR">  Google Kalender
+        <br><img src="ALERT_HANGOUTS">  Hangouts
+        <br><img src="ALERT_MESSENGER">  Messenger
+        <br><img src="ALERT_SKYPE">  Skype
+        <br><img src="ALERT_VIBER">  Viber
+        <br><img src="ALERT_WHATSAPP">  WhatsApp
+        <br><img src="ALERT_LINE">  Line
+        <br><img src="ALERT_WECHAT">  WeChat
+        <br><img src="ALERT_TELEGRAM">  Telegram
+        <br><img src="ALERT_KAKAOTALK">  KakaoTalk
+        <br><img src="ALERT_VK">  VK
+        <br><img src="ALERT_YOUTUBE">  Youtube
+        <br><img src="ALERT_FACEBOOK">  Facebook
+        <br><img src="ALERT_TWITTER">  Twitter
+        <br><img src="ALERT_SNAPCHAT">  Snapchat
+        <br><img src="ALERT_INSTAGRAM">  Instagram
+        <br><img src="ALERT_POKEMONGO">  Pokémon GO
+        <br><img src="ALERT_MOMO">  Momo
+        <br><img src="ALERT_QIANNIU">  Qianniu
+        <br><img src="ALERT_QQ">  QQ
+        <br><img src="ALERT_WEIBO">  Weibo
+        <br><img src="ALERT_ALIPAY">  AliPay
+        <br><img src="ALERT_QZONE">  QZone
+        <br><img src="ALERT_DINGTALK">  DingTalk
+        <br><img src="ALERT_APP">  Sonstige
+
+        <p>You have to disable app alert in the Mi Fit app.</p>
+        <p>Die von Ihnen erstelle Benachrichtigungsgruppe besitzt höhere Priorität als die vordefinierten.</p>
+        <p><img src="ALERT_MESSAGE_TEXT"> Emblem: Wählen Sie dieses Emblem um den Inhalt/Titel der Benachrichtigung anzuzeigen.</p>
+        <p>Falls Sie die vordefinierten Apps verwenden, Sie aber eine Benachrichtigung deaktivieren wollen, erstellen Sie einen neue Benachrichtigungsgruppe mit der Einstellung <i>"Benachrichtigungen deaktivieren"</i> und fügen Sie die Apps hinzu.</p>
+        ]]>
+    </string>
+        <!--<p>Vordefinierte Signale können deaktiviert werden: <i>Verbindungs- und Benachrichtigungseinstellungen/Habe eine Benachrichtigung</i>.</p>-->
+
+    <!-- MiBandageApp chooser dialog -->
+    <string name="action_search">Suchen</string>
+    <string name="action_filter_notification">Notification filter</string>
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_control">Steuerung</string>
+    <string name="touch_tab_testing">Testen</string>
+    <string name="touch_tab_settings">Einstellung</string>
+
+    <string name="touch_headline_call_title">Anrufsteuerung</string>
+    <string name="touch_headline_music_title">Musiksteuerung</string>
+    <string name="touch_headline_time_title">Timer-/Stoppuhrsteuerung</string>
+    <string name="touch_headline_other_title">Sonstige Steuerungen</string>
+
+    <string name="touch_device_location_title">Finde mein Gerät</string>
+
+    <string name="touch_call_answer_title">Anrufbeantwortung</string>
+    <string name="touch_call_answer_speakerphone_title">Handylautsprecher</string>
+
+    <string name="touch_call_end_title">Anruf ablehnen, beenden</string>
+
+    <string name="touch_call_mute_title">Stummschaltung des Anrufs ändern</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Only if you have an incoming call</string>
+    <string name="touch_call_mute_recognition_title">On incoming call</string>
+
+    <string name="touch_device_location_not_muted_only_title">Nur Sound, wenn nicht stummgeschalten</string>
+
+    <string name="touch_repeat_notif_title">Wiederhole Benachrichtigungen</string>
+    <string name="touch_repeat_notif_clear_all">Clear all notifications after repetition</string>
+
+    <string name="touch_clear_notif_title">Clear notifications</string>
+
+    <string name="touch_music_play_pause_title">Start, Wiedergabe und Pausieren der Musik</string>
+    <string name="touch_music_skip_previous_title">Start der Musik oder vorheriger Song</string>
+    <string name="touch_music_skip_next_title">Start der Musik oder nächster Song</string>
+    <string name="touch_music_headset_only_title">Nur wenn das Headset verbunden ist</string>
+    <string name="touch_music_launch">Starten Sie Musik</string>
+    <string name="touch_music_volume_up_title">Musiklautstärke erhöhen</string>
+    <string name="touch_music_volume_down_title">Musiklautstärke verringern</string>
+    <string name="touch_music_track_info_title">Zeige Informationen zum Track an.</string>
+
+    <string name="touch_time_launch_title">State Zeitbeobachtung</string>
+    <string name="touch_time_launch_type_timer_title">Timer</string>
+    <string name="touch_time_launch_type_stopper_title">Stoppuhr</string>
+    <string name="touch_time_launch_type_interval_title">Intervall</string>
+    <string name="touch_time_launch_restart">Restart if it is in progress</string>
+    <string name="touch_time_reminder_title">Zeige verbleibende/wiedergegebene Zeit an</string>
+
+    <string name="touch_app_launcher1_title">App-Launcher</string>
+    <string name="touch_app_launcher_package_no_title">Wählen Sie eine App aus</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Nur wenn der Bildschirm entsperrt ist</string>
+
+    <string name="touch_tasker_launcher1_title">1. Tasker Aufgaben-Launcher</string>
+    <string name="touch_tasker_launcher2_title">2. Tasker Aufgaben-Launcher</string>
+    <string name="touch_tasker_launcher_no_permission_title">Zuerst müssen Sie Tasker installieren, danach Mi Bandage.</string>
+    <string name="touch_tasker_launcher_no_access_title">Externen Zugang erlauben</string>
+    <string name="touch_tasker_launcher_no_task_title">Aufgabe auswählen</string>
+
+    <string name="touch_testing_title">Beobachtung des Berührungsssensors</string>
+    <string name="touch_testing_second">Sek.</string>
+
+    <string name="touch_setting_recognition_start_title">Start touch recognition</string>
+    <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
+    <string name="touch_setting_recognition_time_title">Recognition time</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">Band Signal</string>
+    <string name="touch_setting_recognition_succeeded_title">Erkennbares Touch-Muster-Signal</string>
+    <string name="touch_setting_recognition_failed_title">Kein erkennbares Touch-Muster-Signal</string>
+
+    <!-- Touch monitoring info dialog -->
+    <string name="info_dialog_touch"><![CDATA[Die Berührung wird erkannt, wenn sich der Bildschirminhalt der Mi Bands 2 sich verändert. (Sie sollten also vor der Berührung ihr Handgelenk anheben).
+        <p>Es zeigt die vergangene Zeit zwischen den Berührungen an, nicht die der ersten Berührung.</p>
+        <p>Grüne Embleme auf den Karten zeigen an, welche Funktionen ähnlich zu dem aktuellen Muster sein könnten.</p>
+        <p>Falls Sie angerufen werden, wird das Gerät zur Erleichterung der Touch-Eingabe die folgenden Funktionene ignorieren: Standort des Geräts, Benachrichtigungen wiederholen und Musiksteuerung.</p>
+        <p>Im Test-Modus wird die ausgelöste Funktion nicht ausgeführt.</p>
+        <p>Band Vibration Feedback erfolgt nur, wenn es ein Muster gibt, welches den aktuellen Status des Geräts berücksichtigt. (Anrufbeantwortung, Ablehnen nur bei eingehendem Anruf etc.).</p>
+        <p>Band vibriert einmal, wenn ein Muster erkannt wurde.</p>
+        <p>Band vibriert zweimal, wenn kein Muster nach dem längsten Muster erkannt wurde (wenn <i>unerkennbares Touch-Muster-Signal</i> eingestellt ist).</p>
+        <p>Gültige Beispiele für Muster:
+        <br>- berühren
+        <br>- berühren und 1 Sek. warten, berühren
+        <br>- berühren und 1 Sek. warten, berühren und 1 Sek. warten, berühren
+        <br>- berühren und 2 Sek. warten, berühren
+        <br>- berühren und 2 Sek. warten, berühren und 1 Sek. warten, berühren
+        <br>- berühren und 2 Sek. warten, berühren und 2 Sek. warten, berühren
+        </p>
+    ]]></string>
+
+    <!-- Step monitoring -->
+    <string name="action_tracker_step">Schritte</string>
+    <string name="action_tracker_distance">Distanz</string>
+    <string name="action_tracker_calorie">Kalorien</string>
+    <string name="action_chart_filter_activity_no">No filter</string>
+    <string name="action_chart_filter_activity_active">Movement filter</string>
+
+    <string name="step_tab_day">Tägliche Statistiken</string>
+    <string name="step_tab_week">Wöchentliche Statistiken</string>
+    <string name="step_tab_month">Monthly charts</string>
+    <string name="step_tab_goal">Aktivitätsziel</string>
+    <string name="step_tab_settings">Einstellung</string>
+
+    <string name="activity_progress_title_prepare">Synchronisation wird vorbereitet…</string>
+    <string name="activity_progress_title_sync">Datensynchronisation %1$,d%%</string>
+    <string name="activity_progress_title_save">Daten werden gespeichert %1$,d%%</string>
+
+    <string name="step_title_timing">Timing</string>
+    <string name="step_interval_title">Wiederholungsintervall der Schrittebeobachtung</string>
+    <string name="step_time_set_next">Timing der nächsten Beobachtung</string>
+
+    <string name="step_goal_default_title">Standard-Ziel</string>
+    <string name="step_goal_type_title">Zusätzliche Ziele</string>
+    <string name="step_details">Details zu Schritten</string>
+
+    <string name="info_dialog_step"><![CDATA[
+        <img src="ic_activity_active"> daily step/distance/calories total
+        <br><br><img src="ic_timelapse"> activity time
+        <br><br><img src="ic_activity_get_up"> getting out from the bed time
+        <br><br><img src="ic_activity_awake"> wakefulness time
+        <br><br><img src="ic_activity_rest_sofa"> resting/sitting time during wakefulness
+        <br><br><img src="ic_activity_go_to_bed"> bedtime
+        <br><br><img src="ic_battery_charging_full"> battery charging
+        <br><br><img src="ic_activity_block"> not wearing
+        ]]>
+    </string>
+
+    <!-- Sleep monitoring -->
+    <string name="sleep_tab_day">Tägliche Statistiken</string>
+    <string name="sleep_tab_week">Wöchentliche Statistiken</string>
+    <string name="sleep_tab_month">Monthly charts</string>
+    <string name="sleep_tab_settings">Einstellung</string>
+
+    <string name="action_chart_sleep_type_phase">Phase</string>
+    <string name="action_chart_sleep_type_time">Time</string>
+
+    <string name="sleep_details">Sleep details</string>
+    <string name="sleep_assistant">Herzfrequenz Schlafassistent</string>
+    <string name="sleep_assistant_summary">Hilft genauere Schlafdaten zu erhalten (verkürzt die Lebensdauer des Akkus)</string>
+    <string name="sleep_assistant_show_pulse">Show the measured pulse values on the daily pulse graph</string>
+
+    <string name="info_dialog_sleep"><![CDATA[
+        <img src="ic_timelapse"> sleeping time
+        <br><br><img src="ic_activity_sleep_deep"> deep sleeping time
+        <br><br><img src="ic_activity_go_to_bed"> bedtime/awake time
+        <br><br><img src="ic_activity_sleep_start"> sleep start time/light sleeping time
+        <br><br><img src="ic_activity_sleep_time"> total time
+        <br><br><img src="ic_activity_sleep_end"> sleep end time
+        <br><br><img src="ic_activity_get_up"> getting out from the bed time
+        <br><br><img src="ic_activity_active"> active time
+        <br><br><img src="ic_activity_block"> not wearing
+        ]]>
+    </string>
+
+    <!-- Pulse  monitoring -->
+    <string name="action_pulse_current">Aktuelle Herzfrequenz</string>
+
+    <string name="pulse_tab_day">Tägliche Statistiken</string>
+    <string name="pulse_tab_week">Wöchentliche Statistiken</string>
+    <string name="pulse_tab_month">Monthly charts</string>
+    <string name="pulse_tab_settings">Einstellung</string>
+
+    <string name="action_chart_pulse_type_pulse">Pulse</string>
+    <string name="action_chart_pulse_type_pulse_and_step">Pulse and activity</string>
+
+    <string name="pulse_title_signals">Signale</string>
+    <string name="pulse_signal_start_title">Startsignal der Beobachtung</string>
+    <string name="pulse_signal_show_title">Zeige Herzfrequenz an</string>
+    <string name="pulse_signal_end_low_title">Signal für niedrigen Puls</string>
+    <string name="pulse_signal_end_title">Signal für hohen Puls</string>
+
+    <string name="pulse_title_timing_validity">Timing und Gültigkeit</string>
+    <string name="pulse_interval_title">Wiederholungsintervall der Herzfrequenzbeobachtung</string>
+    <string name="pulse_time_set_next">Timing der nächsten Beobachtung</string>
+    <string name="pulse_value_min">Gültiger minimalster Wert</string>
+    <string name="pulse_value_max">Gültiger maximaler Wert</string>
+    <string name="pulse_value_invalid">Ungültiger Wert</string>
+
+    <string name="pulse_details">Details zur Herzfrequenz</string>
+
+    <string name="info_dialog_pulse"><![CDATA[Zur Anzeige der Herzfrequenz wird eine Bluetooth-Verbindung benötigt.
+        <p>Manuell gestartete Messungen (Band, Mi Fit-App) werden ebenfalls protokolliert, when die Beobachtung der Herzfrequenz gestartet wird.<p/>
+        <p>Die Herzfrequenzmessung wird wiederholt, wenn der gemessene Wert ungültig ist.<p>]]>
+    </string>
+
+    <!-- Lost monitoring -->
+    <string name="alarm_mi_band_title">Band Signal</string>
+    <string name="alarm_mi_band_dnd">Nicht Stören-Modus</string>
+    <string name="alarm_mi_band_interval_title">Wiederholungsintervall des Alarms</string>
+    <string name="alarm_mi_band_time_set_next">Zeitpunkt der nächsten Einstellung</string>
+    <string name="alarm_mi_band_time">Zeitpunkt des nächsten Alarms</string>
+
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Verlustmonitoring des Band Signals ist aktiviert.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_info">Zeitpunkt des Alarms: %1$s</string>
+
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>Band Signal</u></b>
+        <p>Wenn die festgelegte Zeitperiode endet und das Band nicht verbunden ist, sendet das Band Signale.</p>
+        <p>Die App verwendet die Alarmfunktion der Mi Fit-App (Überschriebt 10. Einstellung).</p>
+        <p>Der Alarm wird einige Male wiederholt, wenn das Band keine Bewegungen erkennt.</p>
+        <p>Bevor Sie Bluetooth deaktivieren oder die App deinstallieren, müssen Sie das Signal des Armbands deaktivieren.</p>
+        <p>In dem Fall, dass Sie die App trotz aktiviertem Alarm deinstallieren, können Sie diesen deaktivieren, indem Sie die 10. Mi Fit-Alarmeinstellung aktivieren und anschließend wieder deaktivieren.</p>
+
+        <img src="ic_phone_android"> <b><u>Device signals</u></b>
+        <p>Wenn die festgelegte Zeitperiode endet und das Telefon nicht mit dem Band ist, sendet das Telefon wiederholt Signale.<p>
+        <p>Dies erleichtert die Suche nach dem Gerät. Falls es von einer dritten Person gefunden wird und das Gerät gesperrt ist, können Sie eine Nachricht auf dem Sperrbildschirm anzeigen lassen.</p>
+        <p>Sobald das Armband verbunden wird, stoppt der Alarm.</p>
+        <p>Muss aktiviert sein, um die Nachricht auf dem Sperrbildschirm anzeigen zu können.</p>]]>
+    </string>
+
+    <!-- Time  monitoring -->
+    <string name="time_tab_alarm">Wecker</string>
+    <string name="time_tab_timer">Timer</string>
+    <string name="time_tab_stopper">Stoppuhr</string>
+    <string name="time_tab_lap">Rundenzeit</string>
+    <string name="time_tab_interval">Intervall</string>
+
+    <string name="action_alarm_device">Standard-Wecker</string>
+    <string name="time_alarm_mi_band_signal">Signal when phone alarm sounds</string>
+    <string name="time_alarm_mi_band_signal_alarm_off">Alarm off at second touch</string>
+    <string name="time_alarm_title">Titel</string>
+    <string name="time_alarm_pre_alarm">Erinnerungssignal, verbleibende Zeit</string>
+    <string name="time_alarm_pre_alarm_interval_title">Zeit zuvor</string>
+    <string name="time_alarm_pre_alarm_type_vibrate_title">Vibration</string>
+    <string name="time_alarm_pre_alarm_type_remaining_title">Verbleibende Zeit</string>
+
+    <string name="time_timer_time_alert">Zeit des Weckers</string>
+    <string name="time_timer_time_remaining">Verbleibende Zeit</string>
+
+    <string name="time_timer_reminder">Erinnerungssignal, verbleibende Zeit</string>
+    <string name="time_timer_reminder_interval_before_title">Zeit zuvor</string>
+    <string name="time_timer_reminder_interval_repeat_title">Intervall der Erinnerungswiederholung</string>
+
+    <string name="time_stopper_time_alert">Zeit des Alarms</string>
+    <string name="time_stopper_time_elapsed">Vergangene Zeit</string>
+
+    <string name="time_stopper_reminder">Erinnerungssignal, vergangene Zeit</string>
+    <string name="time_stopper_reminder_interval_before_title">Zeit zuvor</string>
+    <string name="time_stopper_reminder_interval_repeat_title">Intervall der Erinnerungswiederholung</string>
+
+    <string name="time_stopper_touch">Rundenzeit, Beobachtung des Berührungssensors</string>
+    <string name="time_stopper_touch_record">Aufnahme der Rundenzeit durch eine Berührung</string>
+    <string name="time_stopper_touch_show">Anzeigen der Rundenzeit durch eine Berührung</string>
+    <string name="time_stopper_touch_time_format">Zeitformat</string>
+    <string name="time_stopper_touch_time_format_minute">Stunde \u2032 Min. \u2033</string>
+    <string name="time_stopper_touch_time_format_second">Min \u2032 Sekunde(n) \u2033</string>
+
+    <string name="time_lap_details">Details zur Rundenzeit</string>
+
+    <string name="time_mode_timer_title">Timing</string>
+    <string name="time_mode_time_title">Zeit</string>
+
+    <string name="time_alert">Alarmtyp</string>
+    <string name="time_alert_bell_title">Glocke</string>
+    <string name="time_alert_alarm_title">Alarm</string>
+
+    <string name="time_interval_time_total">Zeit insgesamt</string>
+    <string name="time_interval_counter">Anzahl an Wiederholungen</string>
+    <string name="time_interval_time_alert">Endzeit</string>
+    <string name="time_interval_time_current">Wiederholung, Intervall vergangener Zeit</string>
+    <string name="time_interval_title">Titel</string>
+    <string name="time_interval_time">Zeit des Intervalls</string>
+
+    <string name="time_text">Meldung bei Alarm anzeigen</string>
+    <string name="time_text_message">Text</string>
+
+    <string name="time_enable_bluetooth">Aktiviere Bluetooth</string>
+
+    <string name="info_dialog_time"><![CDATA[
+        <p><b>Deaktivieren Sie sowohl den Alarm, Timer als auch die Stoppuhr bevor Sie die App deinstallieren.</b></p>
+        <img src="ic_miband_bell"> <b><u>Glocke</u></b>
+        <p>Für den Alarm wird eine Bluetooth-Verbindung benötigt, er wird nur einmal für 10 Sek. aktiv sein.</p>
+        <img src="ic_alarm"> <b><u>Alarm</u></b>
+        <p>Für den Alarm wird keine Bluetooth-Verbindung benötigt, die App verwendet die Alarmfunktion der Mi Fit-App (4.-9. Einstellung wird überschrieben).
+        <br>Der Alarm wird einige Male wiederholt, wenn das Band keine Bewegungen erkennt (weil der Standard-Alarm verwendet wird.).
+        <br>Die Genauigkeit des Alarms ist auf Minuten beschränkt, das Band unterstützt keine Sekunden.</p>
+        <p>Das Erinnerungssignal und das Anzeigen der Nachricht benötigen eine Bluetooth-Verbindung.</p>
+    ]]></string>
+
+    <!-- Agent -->
+    <string name="agent_title">Agent zum Monitoring des Geräts</string>
+    <string name="agent_tab_events">Ereignisprotokoll des Agents</string>
+    <string name="agent_tab_settings">Einstellung</string>
+
+    <string name="pref_disconnected_agent_summary_on">Falls jemand versucht hat, das Gerät während ihrer Abwesenheit zu verwenden, werden Sie es wissen.</string>
+    <string name="pref_disconnected_agent_text">Jemand hat während ihrer Abwesenheit versucht, das Gerät zu verwenden</string>
+    <string name="pref_disconnected_agent_user_present_title">Gerätebildschirmbeobachtung aufwecken</string>
+    <string name="pref_disconnected_agent_screen_on_and_motion_title">Schalte an und Bewegungsbeobachtung</string>
+
+    <!-- Agent log info dialog -->
+    <string name="info_dialog_disconnected_agent"><![CDATA[Aktionen, die von dem Agent beobachtet wurden:
+        <br>- Start erkannt
+        <br>- Entsperren des Bildschirms
+        <br>- Bewegung erkannt
+
+        <p>Wenn jemand das Gerät während ihrer Abwesenheit verwendet, werden die Ereignise protokolliert.</p>
+        <p>Wenn Sie die Verbindung zum Gerät aufbeuen, werden Sie eine Benachrichtigung zu den Ereignissen erhalten.</p>]]>
+    </string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Theme</string>
+    <string name="theme_tab_widget">Widgets</string>
+    <string name="theme_tab_notification">Notification shade</string>
+
+    <string name="theme_title">Wählen Sie ein Theme aus</string>
+    <string name="theme_background_color_title">Background color</string>
+
+    <string name="theme_widget_foreground_title">Foreground</string>
+    <string name="theme_widget_foreground_color_title">Icon and text color</string>
+    <string name="theme_widget_background_title">Background</string>
+    <string name="theme_widget_background_color_title">Color</string>
+    <string name="theme_widget_background_shape_title">Shape</string>
+    <string name="theme_widget_background_transparency_title">Transparency</string>
+
+    <string name="theme_widget_touch_event_title">Touch event</string>
+
+    <string name="theme_notification_title">Zeige Status in Benachrichtigungsleiste an</string>
+    <string name="theme_notification_summary">Android erzwingt eine Beendung eines Dienstes nur bei unzureichendem Arbeitsspeicher. Falls nach gewisser Zeit keine Benachrichtigungen auf dem Band erscheinen, kann man dies verhindern.</string>
+    <string name="theme_notification_color_title">Farbe des Emblems</string>
+    <string name="theme_notification_text_color_title">Text color</string>
+
+    <!-- Backup and restore -->
+    <string name="backup_tab_backup">Backup</string>
+    <string name="backup_tab_restore">Restore</string>
+
+    <string name="backup_time">Backup time</string>
+    <string name="backup_path">Backup location</string>
+    <string name="backup_auto">Automatic backup</string>
+    <string name="backup_auto_time">Time</string>
+
+    <string name="backup_process">Preparation…</string>
+    <string name="backup_process_activity">Activity and sleep %1$,d%%</string>
+    <string name="backup_process_pulse">Pulse %1$,d%%</string>
+    <string name="backup_process_notification">Notification %1$,d%%</string>
+    <string name="backup_process_touch">Touch %1$,d%%</string>
+    <string name="backup_process_time">Time %1$,d%%</string>
+    <string name="backup_process_alarm">Lost %1$,d%%</string>
+    <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
+    <string name="backup_process_settings">Settings %1$,d%%</string>
+
+    <string name="backup_restore_activity">Activity and sleep</string>
+    <string name="backup_restore_pulse">Pulse</string>
+    <string name="backup_restore_notification">Notification</string>
+    <string name="backup_restore_touch">Touch</string>
+    <string name="backup_restore_time">Time</string>
+    <string name="backup_restore_alarm">Lost</string>
+    <string name="backup_restore_disconnected_agent">Agent</string>
+    <string name="backup_restore_settings">Settings</string>
+
+    <string name="backup_restore_reset">After restoring, Bluetooth will be turning off and on and the application will restart.</string>
+
+    <!-- Rewarded mode -->
+    <string name="rewarded_policy_title">Geschäftsbedingungen des Belohnungsmodus</string>
+    <string name="rewarded_policy"><![CDATA[
+        <p>- Start der Gültigkeit: aktuelle Zeit
+        <br>- Ende der Gültigkeit: Start der Gültigkeit + mindestens %1$,d Tage (hängt von der Werbung ab, kann länger sein)
+        <br>- Eine Manipulation der Zeit kann zur Beendigung der Gültigkeit führen.</p>
+        <i>Sie müssen die App neustarten, nachdem Sie das Video angesehen haben.</i>
+    ]]></string>
+
+    <string name="rewarded_advantage_banner_title">Banner-Werbung blockieren</string>
+    <string name="rewarded_advantage_interstitial_title">unterbrechende Werbungen blockieren</string>
+
+    <string name="rewarded_advantage_time_range">Gültigkeit</string>
+    <string name="rewarded_advantage_button_play">Video abspielen</string>
+
+    <string name="message_rewarded_error">Laden des Videos fehlgeschlagen</string>
+
+    <!-- Premium mode -->
+    <string name="purchase_advantage_title">Vorteile des Premium-Modus</string>
+    <string name="purchase_advantage"><![CDATA[
+        - keine Werbungen
+        <br>- Nicht Stören-Modus
+        <br>- unbegrenzte Benachrichtigungsanzeigen
+        <br>- unlimitierte Beobachtung des Berührungsssensors
+        <br>- Textpräfix, Prä-Emblem und der Textfilter können in den Einstellungen der Benachrichtigungsanzeigen verändert werden.
+        <br>- Wiederholungsintervall kann unlimitiert in den Einstellungen des Schrittzählers verändert werden.
+        <br>- Wiederholungsintervall kann unlimitiert eingestellt werden und die Anzeige der Herzfrequenz kann der \'Herzfrequenz\'-Funktion verwendet werden.
+        <br>- Wiederholungsintervall kann unlimitiert eingestellt werden und Nicht Stören-Modus kann in der \'Bei Verlust\'-Funktion verwendet werden.
+        <br>- wiederholte Erinnerungen, die Anzeige von Nachrichten und die Aktivierung von Bluetooth kann im Zeitmonitoring unlimitiert eingestellt werden.
+        <br>- …
+    ]]></string>
+    <string name="purchase_policy_title">Geschäftsbedingungen des Premiummodus</string>
+    <string name="purchase_policy"><![CDATA[
+        <p>- Die App wurde ausführlich getestet und auf eine komplikationsfreie Funktionsweise geprüft.
+        <br>- Ich bin mir bewusst, dass ich im Falle von Bugs, Softwarefehlern, die wegen Veränderungen in der Software, der Hardware oder wegen anderen Apps entstehen keine Rückerstattung bieten kann.
+        <br>- Alle Verkäufe sind final und können nicht zurückgegeben werden (außer nach den Bedingungen des Rückgaberechts von Google).
+        <br>- Es gibt keine Garantie.</p>
+        <p><i>Bitte starten Sie die App nach dem Kauf neu.</i></p>
+    ]]></string>
+
+    <string name="purchase_agree">Ich aktzeptiere die Geschäftsbedingungen.</string>
+    <string name="purchase_order_id">Bestellungs-ID</string>
+    <string name="purchase_order_id_help">Kopie von:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_button_purchase">Purchase</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">Notification log</string>
+
+    <string name="feedback_google_play_title">App bewerten</string>
+    <string name="feedback_request_feature_title">Forderungen stellen, Bugs melden</string>
+    <string name="feedback_request_feature_summary">Aufgrund der automatischen Verarbeitung der E-Mails erhalten Sie keine Antwort.</string>
+
+    <!-- Vibration dialog -->
+    <string name="vibration_title">Vibrationseinstellungen</string>
+    <string name="vibration_intensity">Dauer</string>
+    <string name="vibration_pause">Pause</string>
+    <string name="vibration_times">Anzahl</string>
+
+    <!-- Hack -->
+    <string name="info_dialog_hack"><![CDATA[Hack-Tool auf Gerät erkannt.
+        <p>Solange das Hack-Tool auf dem Gerät installiert ist, wird der Premiummodus nicht verfügbar sein.</p>
+        <p>Ich habe eine Menge Zeit in die Entwicklung der App investiert, deshalb bitte ich Sie solche Hack-Tools nicht zu verwenden.</p>]]>
+    </string>
+
+    <!-- Others -->
+    <string name="on">Aktiviert</string>
+    <string name="off">Deaktiviert</string>
+    <string name="none">Keine</string>
+    <string name="bpm">BPM</string>
+    <string name="time_start">Startzeit</string>
+    <string name="time_end">Endzeit</string>
+    <string name="ringer_mode_mute">Lautlos</string>
+    <string name="ringer_mode_silent">Nicht Stören</string>
+
+    <string name="action_dismiss">Verwerfen</string>
+    <string name="action_setting">Einstellung</string>
+    <string name="action_delete">Löschen</string>
+    <string name="action_export">Exportieren</string>
+    <string name="action_filter_no">No filter</string>
+    <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_save">Save</string>
+    <string name="action_test">Test</string>
+
+    <string name="action_chart">Diagramm</string>
+    <string name="action_chart_normalize_minute">Measured values</string>
+    <string name="action_chart_normalize_hour">Hourly average</string>
+    <string name="action_chart_sort_time_asc">Time ascending</string>
+    <string name="action_chart_sort_time_desc">Time descending</string>
+    <string name="action_chart_sort_step_asc">Step ascending</string>
+    <string name="action_chart_sort_step_desc">Step descending</string>
+    <string name="action_chart_sort_pulse_asc">Pulse ascending</string>
+    <string name="action_chart_sort_pulse_desc">Pulse descending</string>
+    <string name="action_chart_sort_lap_asc">Lap ascending</string>
+    <string name="action_chart_sort_lap_desc">Lap descending</string>
+
+    <string name="power_on">Anschalten</string>
+    <string name="screen_unlock">Bildschirm entsperren</string>
+    <string name="motion">Bewegung erkannt</string>
+
+    <string name="required_value">Zwingend erforderlich</string>
+
+    <!-- Constante -->
+    <string name="const_time_abbreviation_hour">h</string>
+    <string name="const_time_abbreviation_minute">m</string>
+    <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
+
+    <string name="const_number">%1$,d</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_kcal">kcal</string>
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="zero">%d hour</item>
+        <item quantity="one">%d hour</item>
+        <item quantity="two">%d hours</item>
+        <item quantity="few">%d hours</item>
+        <item quantity="many">%d hours</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">%d Min</item>
+        <item quantity="one">%d Minute</item>
+        <item quantity="two">%d Minuten</item>
+        <item quantity="few">%d Minuten</item>
+        <item quantity="many">%d Minuten</item>
+        <item quantity="other">%d Minuten</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d Sekunden</item>
+        <item quantity="one">%d Sekunde</item>
+        <item quantity="two">%d Sekunden</item>
+        <item quantity="few">%d Sekunden</item>
+        <item quantity="many">%d Sekunden</item>
+        <item quantity="other">%d Sekunden</item>
+    </plurals>
+
+</resources>
