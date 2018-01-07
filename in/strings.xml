@@ -244,14 +244,15 @@
     <string name="message_internet_error">Tidak ada koneksi internet</string>
 
     <string name="message_in_progress">Dalam proses…</string>
+    <string name="message_no_data">No data available</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Selamat Datang!</string>
     <string name="dialog_welcome_message"><![CDATA[Perangkat yang didukung:
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit Arc (A1603)</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>Mi Bandage membutuhkan aplikasi Mi Fit (asli) yang telah terpasang di perangkat yang sama. Pertama tama, mungkin anda perlu untuk menghubungkan Band ke Aplikasi Mi Fit, lalu anda baru bisa memakai Mi Bandage.</p>
     <p>Jika anda menggunakan aplikasi lebih untuk mengontrol Band, mungkin aplikasi-aplikasi tersebut akan saling ganggu, jadi untuk sementara harap mematikan apl-apl tersebut.</p>
     <p>Jika Band tidak terdeteksi, anda bisa mengatur alamat MAC secara manual pada menu rincian/lanjutan (Alamat MAC dapat di temukan di : Mi Fit - Profil - Band).</p>
@@ -266,6 +267,11 @@
     <br>4. Matikan, hidupkan bluetooth.
     <br>5. Buka Mi Fit, tunggu hingga sinkronisasi selesai, kemudian tutup apl tersebut.
     <br>6. Buka Mi Bandage, klik tombol temukan yang.</p>]]></string>
+
+
+
+
+
 
     <!-- Diagnostic -->
     <string name="diagnostic_title">Diagnosa</string>
@@ -332,6 +338,7 @@
         <br><img src="ALERT_TELEGRAM">  Telegram
         <br><img src="ALERT_KAKAOTALK">  KakaoTalk
         <br><img src="ALERT_VK">  VK
+        <br><img src="ALERT_YOUTUBE">  Youtube
         <br><img src="ALERT_FACEBOOK">  Facebook
         <br><img src="ALERT_TWITTER">  Twitter
         <br><img src="ALERT_SNAPCHAT">  Snapchat
@@ -377,6 +384,7 @@
 
     <string name="touch_call_mute_title">Tombol bisukan panggilan</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Hanya ketika ada panggilan masuk</string>
+    <string name="touch_call_mute_recognition_title">On incoming call</string>
 
     <string name="touch_device_location_not_muted_only_title">Suara saja ketika tidak dibisukan</string>
 
