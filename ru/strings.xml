@@ -244,14 +244,15 @@
     <string name="message_internet_error">Нет подключения к Интернету</string>
 
     <string name="message_in_progress">В процессе…</string>
+    <string name="message_no_data">No data available</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Добро пожаловать!</string>
     <string name="dialog_welcome_message"><![CDATA[Поддерживаемые устройства:
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit Arc (A1603)</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>Mi Bandage требуется приложение Mi Fit на устройстве. Сначала, подключите Band к Mi Fit, потом пользуйтесь Mi Bandage.</p>
     <p>Если вы используете несколько приложений для управления Band, они могут мешать друг другу, поэтому временно отключите их.</p>
     <p>Если Band не обнаружен, вы можете установить MAC вручную в настройках (MAC можно найти в: Mi Fit/Профиль/Band).</p>
@@ -266,6 +267,11 @@
     <br>4. Выключить и включить Bluetooth.
     <br>5. Открыть Mi Fit, подождать окончания синхронизации.
     <br>6. Открыть Mi Bandage, нажать кнопку обнаружения.</p>]]></string>
+
+
+
+
+
 
     <!-- Diagnostic -->
     <string name="diagnostic_title">Диагностика</string>
@@ -332,6 +338,7 @@
         <br><img src="ALERT_TELEGRAM">  Telegram
         <br><img src="ALERT_KAKAOTALK">  KakaoTalk
         <br><img src="ALERT_VK">  VK
+        <br><img src="ALERT_YOUTUBE">  Youtube
         <br><img src="ALERT_FACEBOOK">  Facebook
         <br><img src="ALERT_TWITTER">  Twitter
         <br><img src="ALERT_SNAPCHAT">  Snapchat
@@ -376,7 +383,8 @@
     <string name="touch_call_end_title">Сброс звонка, окончание</string>
 
     <string name="touch_call_mute_title">Переключение звука звонка</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">Only if you have an incoming call</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Только при входящем звонке</string>
+    <string name="touch_call_mute_recognition_title">On incoming call</string>
 
     <string name="touch_device_location_not_muted_only_title">Подчиняться беззвучному режиму</string>
 
