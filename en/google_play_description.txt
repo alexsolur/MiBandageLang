@@ -1,28 +1,32 @@
-Supported devices:
+Supported devices:<b>
 - Xiaomi Mi Band 2
 - Xiaomi Mi Band HRX
+- Huami Amazfit Bip (Pace Lite Youth)
 - Huami Amazfit Arc (A1603)
-
+</b>
 Mi Bandage requires the installation of the official Mi Fit app on the same device. At first you have to pair Xiaomi/Amazfit Band in Mi Fit app, then you can use Mi Bandage.
 
-<b>MIUI users:</b>
-- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
-- Security app screen: battery/app battery saver set Mi Bandage app to no restriction.
-- If Xiaomi/Amazfit Band is not found or if you are having trouble syncing Mi Fit app, then install the BToolkit, nRF Connect or similar Bluetooth manager app and remove any pairing. </b>
+<b>If you have a connection problem:</b>
+- recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon)
+- phone battery settings/battery optimization: set Mi Bandage app to not optimized
+- Settings/Developer options:
+ - Don't keep activities: disable
+ - Background process limit: standard limit
+ - Memory optimization: middle/low/disable
+- if you are having trouble syncing Mi Fit app, then install the BToolkit, nRF Connect or similar Bluetooth manager app and remove any pairing.
 
-Features:
+<b>Features:</b>
 - show battery state, estimated remaining time
-- <b>incoming call signal with caller display and automatic character conversion on Mi Band 2</b>
-- <b>missed call signal with caller display on Mi Band 2</b>
-- <b>displays the app's notification texts on Mi Band 2</b>
+- incoming call signal with caller display and automatic character conversion on Mi Band2/Amazfit
+- missed call signal with caller display on Mi Band2/Amazfit
+- displays the app's notification texts on Band
 
-<b>Mi Band 2 connection features:</b>
+<b>Band connection features:</b>
  - change volume
 &#8226; not have notification
- - Mi Band 2 vibrates
+ - Band vibrates
  - device screen wake up
 &#8226; have notification
- - Mi Band 2 vibrates and displays icon 1,2,3 times, icon based on the number of notifications, once per Mi Band 2 icon
  - immediate signal when notification is received
  - when connecting to device
  - reminder signal and repeat interval
@@ -30,17 +34,17 @@ Features:
  - ongoing notifications are enabled or disabled
  - device screen wake up
 
-<b>Mi Band 2 disconnection features:</b>
- - icon displaying and vibrate on Mi Band 2
+<b>Band disconnection features:</b>
+ - icon displaying and vibrate on Band
  - playing ringtone on device, vibration, screen wake up
  - change volume
- - device monitoring agent: if someone tampered with the device while you are away, you will know (wake up the screen, power on, motion): notification on the device and Weibo icon on the Mi Band 2
+ - device monitoring agent: if someone tampered with the device while you are away, you will know (wake up the screen, power on, motion): notification on the device and Weibo icon on the Band
 
 <b>Notification monitoring:</b>
  - unique signal configuration for apps notification
- - displays the app's notification texts on Mi Band 2
+ - displays the app's notification texts on Band
 
-<b>Touch monitoring (use Mi Band 2 touch button):</b>
+<b>Touch monitoring (use Band touch button):</b>
  - call answering, speakerphone (turn off the launch music app when headset is connected setting, otherwise the music starts) (not all devices are supported)
  - call rejecting, ending (not all devices are supported)
  - toggle call mute
@@ -66,12 +70,12 @@ Features:
 <b>Time monitoring:</b>
 - signal when phone alarm sounds
 - alarm setting
-- timer: alarm type, reminder, remaining time display on Mi Band 2
-- stopwatch: alarm type, reminder, elapsed time, lap time recording, lap time displaying on Mi Band 2
+- timer: alarm type, reminder, remaining time display on Band
+- stopwatch: alarm type, reminder, elapsed time, lap time recording, lap time displaying on Band
 - interval: timer for interval training
 
 <b>Lost monitoring:</b>
-- Mi Band 2 signal: when specified period of time expires Mi Band 2 will alert you
+- Band signal: when specified period of time expires Band will alert you
 - device signals: when specified period of time expires, device send signals repeatedly if not connected to the bracelet. This makes it easier to find the device.
 
 <b>Agent log:</b> 
