@@ -194,7 +194,7 @@
     <string name="pref_dnd_remember_state_summary">At the end of the do not disturb mode, turn on all bandages or restore states as those were at the time of start</string>
     <string name="pref_dnd_remember_state_on_title">At the end restore bandages\' state</string>
     <string name="pref_dnd_remember_state_off_title">At the end turn on all bandages</string>
-    <string name="pref_dnd_mi_fit_scheduled">Activate Band DND mode (disable messages and lift wrist to view info)</string>
+    <string name="pref_dnd_mi_fit_scheduled">Activate Band DND mode (disable calls, messages and lift wrist to view info)</string>
     <string name="pref_dnd_enable_bluetooth">At the start of the DnD mode turn Bluetooth off, at the end turn Bluetooth on</string>
 
     <!-- Snackbar Messages -->
@@ -520,7 +520,11 @@
     <string name="pulse_tab_day">Daily charts</string>
     <string name="pulse_tab_week">Weekly charts</string>
     <string name="pulse_tab_month">Monthly charts</string>
-    <string name="pulse_tab_settings">Setting</string>
+    <string name="pulse_tab_settings_online">Online setting</string>
+    <string name="pulse_tab_settings_offline">Offline setting</string>
+
+    <string name="pulse_online_title">Online pulse measurement</string>
+    <string name="pulse_offline_title">Offline pulse measurement</string>
 
     <string name="action_chart_pulse_type_pulse">Pulse</string>
     <string name="action_chart_pulse_type_pulse_and_step">Pulse and activity</string>
@@ -538,11 +542,21 @@
     <string name="pulse_value_max">Valid higher value</string>
     <string name="pulse_value_invalid">Invalid value</string>
 
+    <string name="pulse_offline_timed_title">Timed measurement</string>
+    <string name="pulse_all_day">All-day</string>
+
     <string name="pulse_details">Pulse details</string>
 
-    <string name="info_dialog_pulse"><![CDATA[Bluetooth connection is required for monitoring the pulse.
-        <p>Manually launched measurements (Band, Mi Fit app) are logged too when pulse monitoring is started.<p/>
-        <p>Pulse monitor is repeated serveral times if the resulting value is invalid.<p>]]>
+    <string name="message_pulse_premium_mode_only">Az online és offline pulzus mérés csak prémium módban használható együtt</string>
+
+    <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Online pulse measurement</u></b>
+        <p>Bluetooth connection is required for monitoring the pulse.</p>
+        <p>Pulse monitor is repeated several times if the resulting value is invalid.<p>
+        <img src="ic_pulse_offline"> <b><u>Offline pulse measurement</u></b>
+        <p>No Bluetooth connection required for pulse measurement.</p>
+        <p>Bluetooth connection is required for timed start and stop.</p>
+        <p>Manually launched measurements (Band, Mi Fit app) are also synchronized.<p>
+        ]]>
     </string>
 
     <!-- Lost monitoring -->
@@ -798,7 +812,9 @@
 
     <string name="action_chart">Chart</string>
     <string name="action_chart_normalize_minute">Measured values</string>
-    <string name="action_chart_normalize_hour">Hourly values</string>
+    <string name="action_chart_normalize_quarter_hourly">Quarter-hourly values</string>
+    <string name="action_chart_normalize_half_hourly">Half-hourly values</string>
+    <string name="action_chart_normalize_hourly">Hourly values</string>
     <string name="action_chart_sort_time_asc">Time ascending</string>
     <string name="action_chart_sort_time_desc">Time descending</string>
     <string name="action_chart_sort_step_asc">Step ascending</string>
@@ -851,5 +867,6 @@
         <item quantity="many">%d seconds</item>
         <item quantity="other">%d seconds</item>
     </plurals>
+
 
 </resources>
