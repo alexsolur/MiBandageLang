@@ -520,7 +520,11 @@
     <string name="pulse_tab_day">Grafico giornaliero</string>
     <string name="pulse_tab_week">Grafico settimanale</string>
     <string name="pulse_tab_month">Grafico mensile</string>
-    <string name="pulse_tab_settings">Impostazioni</string>
+    <string name="pulse_tab_settings_online">Online setting</string>
+    <string name="pulse_tab_settings_offline">Offline setting</string>
+
+    <string name="pulse_online_title">Online pulse measurement</string>
+    <string name="pulse_offline_title">Offline pulse measurement</string>
 
     <string name="action_chart_pulse_type_pulse">Battiti</string>
     <string name="action_chart_pulse_type_pulse_and_step">Battiti e attività</string>
@@ -538,11 +542,20 @@
     <string name="pulse_value_max">Valuta valori maggiori</string>
     <string name="pulse_value_invalid">Valore invalido</string>
 
+    <string name="pulse_offline_timed_title">Timed measurement</string>
+    <string name="pulse_all_day">All-day</string>
+
     <string name="pulse_details">Dettagli pulsazioni</string>
 
-    <string name="info_dialog_pulse"><![CDATA[Connessione Bluetooth richiesta per monitorare i battiti.
-        <p>I battiti misurati manualmente (Band o app Mi Fit) saranno registrate anche loro quando il monitoraggio dei battiti sarà attivo.<p/>
-        <p>Il monitor dei battiti riproverà più volte se non riceve risultati validi.<p>]]>
+    <string name="message_pulse_premium_mode_only">Online and offline pulse measurement can only be used in premium mode at the same time</string>
+
+    <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Online pulse measurement</u></b>
+        <p>Connessione Bluetooth richiesta per monitorare i battiti.</p>
+        <p>Il monitor dei battiti riproverà più volte se non riceve risultati validi.<p>
+        <img src="ic_pulse_offline"> <b><u>Offline pulse measurement</u></b>
+        <p>No Bluetooth connection required for pulse measurement.</p>
+        <p>Bluetooth connection is required for timed start and stop.</p>
+        <p>I battiti misurati manualmente (Band o app Mi Fit) saranno registrate anche loro quando il monitoraggio dei battiti sarà attivo.<p/>]]>
     </string>
 
     <!-- Lost monitoring -->
@@ -798,7 +811,9 @@
 
     <string name="action_chart">Grafico</string>
     <string name="action_chart_normalize_minute">Valori misurati</string>
-    <string name="action_chart_normalize_hour">Valori orari</string>
+    <string name="action_chart_normalize_quarter_hourly">Quarter-hourly values</string>
+    <string name="action_chart_normalize_half_hourly">Half-hourly values</string>
+    <string name="action_chart_normalize_hourly">Valori orari</string>
     <string name="action_chart_sort_time_asc">Tempo crescente</string>
     <string name="action_chart_sort_time_desc">Tempo decrescente</string>
     <string name="action_chart_sort_step_asc">Passi crescenti</string>
