@@ -520,7 +520,11 @@
     <string name="pulse_tab_day">Graphs quotidien</string>
     <string name="pulse_tab_week">Graphs semaine</string>
     <string name="pulse_tab_month">Graphs mensuel</string>
-    <string name="pulse_tab_settings">Réglages</string>
+    <string name="pulse_tab_settings_online">Online setting</string>
+    <string name="pulse_tab_settings_offline">Offline setting</string>
+
+    <string name="pulse_online_title">Online pulse measurement</string>
+    <string name="pulse_offline_title">Offline pulse measurement</string>
 
     <string name="action_chart_pulse_type_pulse">Rythme</string>
     <string name="action_chart_pulse_type_pulse_and_step">Rythme et activité</string>
@@ -538,11 +542,19 @@
     <string name="pulse_value_max">Valeur maxi</string>
     <string name="pulse_value_invalid">Invalid value</string>
 
+    <string name="pulse_offline_timed_title">Timed measurement</string>
+    <string name="pulse_all_day">All-day</string>
+
     <string name="pulse_details">Détails du rythme</string>
 
+    <string name="message_pulse_premium_mode_only">Online and offline pulse measurement can only be used in premium mode at the same time</string>
+
     <string name="info_dialog_pulse"><![CDATA[La connexion Bluetooth est nécessaire pour superviser le rythme.
-        <p>Les mesures lancées manuellement (Band, appli Mi Fit) sont aussi enregistrées lorsque la supervision du rythme est démarrée.<p/>
-        <p>La supervision du rythme est renouvelée plusieurs fois si le résultat obtenu n\'est pas valide.<p>]]>
+        <p>La supervision du rythme est renouvelée plusieurs fois si le résultat obtenu n\'est pas valide.<p>
+        <img src="ic_pulse_offline"> <b><u>Offline pulse measurement</u></b>
+        <p>No Bluetooth connection required for pulse measurement.</p>
+        <p>Bluetooth connection is required for timed start and stop.</p>
+        <p>Les mesures lancées manuellement (Band, appli Mi Fit) sont aussi enregistrées lorsque la supervision du rythme est démarrée.<p/>]]>
     </string>
 
     <!-- Lost monitoring -->
@@ -798,7 +810,9 @@
 
     <string name="action_chart">Graph</string>
     <string name="action_chart_normalize_minute">Valeurs mesurées</string>
-    <string name="action_chart_normalize_hour">Valeurs par heure</string>
+    <string name="action_chart_normalize_quarter_hourly">Quarter-hourly values</string>
+    <string name="action_chart_normalize_half_hourly">Half-hourly values</string>
+    <string name="action_chart_normalize_hourly">Valeurs par heure</string>
     <string name="action_chart_sort_time_asc">Temps croissant</string>
     <string name="action_chart_sort_time_desc">Temps décroissant</string>
     <string name="action_chart_sort_step_asc">Pas croissant</string>
