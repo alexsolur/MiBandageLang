@@ -520,11 +520,11 @@
     <string name="pulse_tab_day">Ημερήσια διαγράμματα</string>
     <string name="pulse_tab_week">Eβδομαδιαία διαγράμματα</string>
     <string name="pulse_tab_month">Μηνιαία διαγράμματα</string>
-    <string name="pulse_tab_settings_online">Online setting</string>
-    <string name="pulse_tab_settings_offline">Offline setting</string>
+    <string name="pulse_tab_settings_online">Ρύθμιση εντός σύνδεσης</string>
+    <string name="pulse_tab_settings_offline">Ρύθμιση εκτός σύνδεσης</string>
 
-    <string name="pulse_online_title">Online pulse measurement</string>
-    <string name="pulse_offline_title">Offline pulse measurement</string>
+    <string name="pulse_online_title">Μέτρηση παλμών εντός σύνδεσης</string>
+    <string name="pulse_offline_title">Μέτρηση παλμών εκτός σύνδεσης</string>
 
     <string name="action_chart_pulse_type_pulse">Παλμός</string>
     <string name="action_chart_pulse_type_pulse_and_step">Παλμός και δραστηριότητα</string>
@@ -542,19 +542,19 @@
     <string name="pulse_value_max">Υψηλότερη έγκυρη τιμή</string>
     <string name="pulse_value_invalid">Μη έγκυρη τιμή</string>
 
-    <string name="pulse_offline_timed_title">Timed measurement</string>
-    <string name="pulse_all_day">All-day</string>
+    <string name="pulse_offline_timed_title">Μέτρηση χρονικής στιγμής</string>
+    <string name="pulse_all_day">Ολοήμερη μέτρηση</string>
 
     <string name="pulse_details">Λεπτομέρειες παλμού</string>
 
-    <string name="message_pulse_premium_mode_only">Online and offline pulse measurement can only be used in premium mode at the same time</string>
+    <string name="message_pulse_premium_mode_only">Οι μετρήσεις παλμών εντός και εκτός σύνδεσης μπορούν να χρησιμοποιηθούν ταυτόχρονα στήν λειτουργία premium</string>
 
-    <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Online pulse measurement</u></b>
+    <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Μέτρηση παλμών εντός σύνδεσης</u></b>
         <p>H σύνδεση Bluetooth είναι απαραίτητη για την παρακολούθηση του σφυγμού.</p>
         <p>Η παρακολούθηση παλμού επαναλαμβάνεται πολλές φορές εάν η τιμή που προκύπτει δεν είναι έγκυρη.<p>
-        <img src="ic_pulse_offline"> <b><u>Offline pulse measurement</u></b>
-        <p>No Bluetooth connection required for pulse measurement.</p>
-        <p>Bluetooth connection is required for timed start and stop.</p>
+        <img src="ic_pulse_offline"> <b><u>Μέτρηση παλμών εκτός σύνδεσης</u></b>
+        <p>Δεν απαιτείται σύνδεση Bluetooth για τη μέτρηση παλμών.</p>
+        <p>Απαιτείται σύνδεση Bluetooth για τη χρονική εκκίνηση και τη διακοπή.</p>
         <p>Η χειροκίνητη εκκίνηση μετρήσεων καταγράφεται και (στις εφαρμογές Band, Mi Fit) όταν αρχίσει η παρακολούθηση των παλμών.<p/>
         ]]>
     </string>
@@ -812,8 +812,8 @@
 
     <string name="action_chart">Διάγραμμα</string>
     <string name="action_chart_normalize_minute">Μετρούμενες τιμές</string>
-    <string name="action_chart_normalize_quarter_hourly">Quarter-hourly values</string>
-    <string name="action_chart_normalize_half_hourly">Half-hourly values</string>
+    <string name="action_chart_normalize_quarter_hourly">Τιμές δεκαπέντε λεπτών</string>
+    <string name="action_chart_normalize_half_hourly">Τιμές μισής ώρας</string>
     <string name="action_chart_normalize_hourly">Ωριαίες τιμές</string>
     <string name="action_chart_sort_time_asc">Ώρα αύξουσα</string>
     <string name="action_chart_sort_time_desc">Ώρα φθίνουσα</string>
