@@ -11,7 +11,7 @@
     <string name="drawer_nav_sleep">Сон</string>
     <string name="drawer_nav_pulse">Пульс</string>
     <string name="drawer_nav_time">Время</string>
-    <string name="drawer_nav_watch_face">Watch face</string>
+    <string name="drawer_nav_watch_face">Циферблат</string>
     <string name="drawer_nav_alarm">Отсоединён</string>
     <string name="drawer_nav_disconnected_agent">Лог действий</string>
     <string name="drawer_nav_theme">Настройки темы</string>
@@ -128,7 +128,7 @@
     <string name="pref_abandoned_notif_text_text">Устройство утеряно, пожалуйста, позвоните по номеру:</string>
     <string name="pref_abandoned_ringtone_title">Рингтон</string>
     <string name="pref_abandoned_vibration_title">Вибрация</string>
-    <string name="pref_abandoned_wakelock_title">Активировать экран усройства</string>
+    <string name="pref_abandoned_wakelock_title">Активировать экран устройства</string>
     <string name="pref_abandoned_notif_title">Устройство утеряно</string>
 
     <string name="pref_call">Настройки звонков</string>
@@ -313,7 +313,7 @@
     <string name="notification_group_reminder">Периодические уведомления</string>
     <string name="notification_group_screen_off">Уведомлять только при выключенном экране</string>
     <string name="notification_group_counter_title">Количество сигналов</string>
-    <string name="notification_group_wakelock">Активировать экран усройства</string>
+    <string name="notification_group_wakelock">Активировать экран устройства</string>
     <string name="notification_group_filter">Фильтр</string>
     <string name="notification_group_filter_title">Фильтровать заголовок</string>
     <string name="notification_group_filter_content">Фильтровать содержимое</string>
@@ -654,23 +654,23 @@
     ]]></string>
 
     <!-- Watch face -->
-    <string name="watch_face_default_title">Watch face change</string>
+    <string name="watch_face_default_title">Изменение циферблата</string>
 
-    <string name="watch_face_init_title">Initialization</string>
-    <string name="watch_face_init_content"><![CDATA[In the Mi Fit Application set one of the factory watch face.
-        <br>You have to select the same watch face when uploading.
-        <br><i>(initialization is only required once)</i>
+    <string name="watch_face_init_title">Начало работы</string>
+    <string name="watch_face_init_content"><![CDATA[В Mi Fit установите один из заводских циферблатов.
+        <br>При загрузке необходимо выбрать тот же циферблат.
+        <br><i>(процедура необходима только один раз)</i>
     ]]></string>
 
-    <string name="watch_face_download_title">Download</string>
-    <string name="watch_face_download_path">Save the downloaded watch face file here:</string>
-    <string name="watch_face_download_name">File name</string>
+    <string name="watch_face_download_title">Загрузка</string>
+    <string name="watch_face_download_path">Поместите загруженный циферблат сюда:</string>
+    <string name="watch_face_download_name">Имя файла</string>
 
-    <string name="watch_face_upload_title">Upload</string>
-    <string name="watch_face_upload_empty_title"><![CDATA[Watch face not found
+    <string name="watch_face_upload_title">Установка</string>
+    <string name="watch_face_upload_empty_title"><![CDATA[Циферблат не найден
         <br><i>(%1$s)</i>
     ]]></string>
-    <string name="message_watch_face_upload_error">Initialization is required</string>
+    <string name="message_watch_face_upload_error">Необходима подготовка к работе</string>
 
     <!-- Agent -->
     <string name="agent_title">Взаимодействия с устройством</string>
