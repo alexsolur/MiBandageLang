@@ -11,6 +11,7 @@
     <string name="drawer_nav_sleep">Tidur</string>
     <string name="drawer_nav_pulse">Pemantau detak</string>
     <string name="drawer_nav_time">Pemantau waktu</string>
+    <string name="drawer_nav_watch_face">Watch face</string>
     <string name="drawer_nav_alarm">Pemantau kehilangan</string>
     <string name="drawer_nav_disconnected_agent">Alat</string>
     <string name="drawer_nav_theme">Tema</string>
@@ -253,6 +254,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>Mi Bandage membutuhkan aplikasi Mi Fit (asli) yang telah terpasang di perangkat yang sama. Pertama tama, mungkin anda perlu untuk menghubungkan Band ke Aplikasi Mi Fit, lalu anda baru bisa memakai Mi Bandage.</p>
     <p>Jika anda menggunakan aplikasi lebih untuk mengontrol Band, mungkin aplikasi-aplikasi tersebut akan saling ganggu, jadi untuk sementara harap mematikan apl-apl tersebut.</p>
@@ -650,6 +652,25 @@
         <br>Akurasi menit, Band tidak menggunakan detik pada alarm.</p>
         <p>Tanda pengingat dan penampil pesan membutuhkan koneksi Bluetooth.</p>
     ]]></string>
+
+    <!-- Watch face -->
+    <string name="watch_face_default_title">Watch face change</string>
+
+    <string name="watch_face_init_title">Initialization</string>
+    <string name="watch_face_init_content"><![CDATA[In the Mi Fit Application set one of the factory watch face.
+        <br>You have to select the same watch face when uploading.
+        <br><i>(initialization is only required once)</i>
+    ]]></string>
+
+    <string name="watch_face_download_title">Download</string>
+    <string name="watch_face_download_path">Save the downloaded watch face file here:</string>
+    <string name="watch_face_download_name">File name</string>
+
+    <string name="watch_face_upload_title">Upload</string>
+    <string name="watch_face_upload_empty_title"><![CDATA[Watch face not found
+        <br><i>(%1$s)</i>
+    ]]></string>
+    <string name="message_watch_face_upload_error">Initialization is required</string>
 
     <!-- Agent -->
     <string name="agent_title">Pengantar manajemen perangkat</string>
