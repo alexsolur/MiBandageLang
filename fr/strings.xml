@@ -11,6 +11,7 @@
     <string name="drawer_nav_sleep">Sommeil</string>
     <string name="drawer_nav_pulse">Rythme cardiaque</string>
     <string name="drawer_nav_time">Planification horaire</string>
+    <string name="drawer_nav_watch_face">Watch face</string>
     <string name="drawer_nav_alarm">Perte de la connexion</string>
     <string name="drawer_nav_disconnected_agent">Agent</string>
     <string name="drawer_nav_theme">Thème</string>
@@ -253,6 +254,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>Mi Bandage nécessite l\'installation de l\'appli officielle Mi Fit sur le même téléphone. Pour commencer vous devez appairer votre Band dans l\'appli Mi Fit, ensuite pour pourrez utiliser Mi Bandage.</p>
     <p>Si vous utilisez plus d\'applications pour contrôler votre Band, elles vont interférer entre elles et se désactiver.</p>
@@ -547,7 +549,7 @@
 
     <string name="pulse_details">Détails du rythme</string>
 
-    <string name="message_pulse_premium_mode_only">La mesure du rythme online et offline ne fonctionne simultanément qu'en mode premium</string>
+    <string name="message_pulse_premium_mode_only">La mesure du rythme online et offline ne fonctionne simultanément qu\'en mode premium</string>
 
     <string name="info_dialog_pulse"><![CDATA[La connexion Bluetooth est nécessaire pour superviser le rythme.
         <p>La supervision du rythme est renouvelée plusieurs fois si le résultat obtenu n\'est pas valide.<p>
@@ -634,7 +636,7 @@
     <string name="time_interval_title">Titre</string>
     <string name="time_interval_time">Durée de l\'intervalle</string>
 
-    <string name="time_text">Afficher un message d'alerte</string>
+    <string name="time_text">Afficher un message d\'alerte</string>
     <string name="time_text_message">Texte</string>
 
     <string name="time_enable_bluetooth">Activer le Bluetooth</string>
@@ -649,6 +651,25 @@
         <br>A la minute près, le Band ne gère pas les alarmes à la seconde.</p>
         <p>L\'alerte de rappel l\'affichage de message nécessite une connexion Bluetooth.</p>
     ]]></string>
+
+    <!-- Watch face -->
+    <string name="watch_face_default_title">Watch face change</string>
+
+    <string name="watch_face_init_title">Initialization</string>
+    <string name="watch_face_init_content"><![CDATA[In the Mi Fit Application set one of the factory watch face.
+        <br>You have to select the same watch face when uploading.
+        <br><i>(initialization is only required once)</i>
+    ]]></string>
+
+    <string name="watch_face_download_title">Download</string>
+    <string name="watch_face_download_path">Save the downloaded watch face file here:</string>
+    <string name="watch_face_download_name">File name</string>
+
+    <string name="watch_face_upload_title">Upload</string>
+    <string name="watch_face_upload_empty_title"><![CDATA[Watch face not found
+        <br><i>(%1$s)</i>
+    ]]></string>
+    <string name="message_watch_face_upload_error">Initialization is required</string>
 
     <!-- Agent -->
     <string name="agent_title">Agent de supervision du mobile</string>
@@ -810,7 +831,7 @@
 
     <string name="action_chart">Graph</string>
     <string name="action_chart_normalize_minute">Valeurs mesurées</string>
-    <string name="action_chart_normalize_quarter_hourly">Tous les quarts d'heure</string>
+    <string name="action_chart_normalize_quarter_hourly">Tous les quarts d\'heure</string>
     <string name="action_chart_normalize_half_hourly">Toutes les demi-heures</string>
     <string name="action_chart_normalize_hourly">Toutes les heures</string>
     <string name="action_chart_sort_time_asc">Temps croissant</string>
