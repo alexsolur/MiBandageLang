@@ -11,6 +11,7 @@
     <string name="drawer_nav_sleep">Sono</string>
     <string name="drawer_nav_pulse">Pulsação</string>
     <string name="drawer_nav_time">Tempo</string>
+    <string name="drawer_nav_watch_face">Watch face</string>
     <string name="drawer_nav_alarm">Perdidos</string>
     <string name="drawer_nav_disconnected_agent">Detetive</string>
     <string name="drawer_nav_theme">Tema</string>
@@ -253,6 +254,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>A Mi Bandage precisa da Mi Fit instalada para funcionar. Primeiro tem de emparelhar a Band na aplicação Mi Fit e só depois poderá usar a Mi Bandage.</p>
     <p>Se você usa mais aplicações para controlar a Band, elas vão interferir umas com as outras por isso desative-as.</p>
@@ -554,8 +556,8 @@
         <p>A leitura da pulsação é repetida várias vezes se o valor medido for inválido.<p>
         <img src="ic_pulse_offline"> <b><u>Monitorização da pulsação_Offline</u></b>
         <p>Não é necessário estar conectado por Bluetooth para monitorar a pulsação.</p>
-        <p>É necessário estar conectado por Bluetooth para a 'Monitorização temporizada' funcionar.</p>
-        <p>As medições iniciadas manualmente (na Band ou  na aplicação Mi Fit) também são registadas quando a monitoração da pulsação é iniciada.</p>]]>
+        <p>É necessário estar conectado por Bluetooth para a \'Monitorização temporizada\' funcionar.</p>
+        <p>As medições iniciadas manualmente (na Band ou  na aplicação Mi Fit) também são registadas quando a monitoração da pulsação é iniciada.</p>]]>
     </string>
 
     <!-- Lost  monitoring -->
@@ -570,16 +572,16 @@
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Band</u></b>
         <p>Quando o período de tempo especificado expirar, a Band vibra se não estiver conectada ao dispositivo.</p>
-        <p>A aplicação usa a função de alarme da Mi Fit para alertar (substitui a configuração).</p>
-        <p>O alarme será repetido várias vezes se a Band não detectar qualquer movimento (ela usa o alarme de fábrica).</p>
-        <p>Antes de desligar o Bluetooth (ou desinstalar a aplicação), você precisa de desativar o sinal da Band.</p>
-        <p>Se você remover a aplicação quando o alarme estiver ativado, você pode desabilitá-lo com a ativação e desativação do alarme na Mi Fit.</p>
+        <p>A aplicação usa a função de alarme da Mi Fit para alertar (substitui a configuração).</p>
+        <p>O alarme será repetido várias vezes se a Band não detectar qualquer movimento (ela usa o alarme de fábrica).</p>
+        <p>Antes de desligar o Bluetooth (ou desinstalar a aplicação), você precisa de desativar o sinal da Band.</p>
+        <p>Se você remover a aplicação quando o alarme estiver ativado, você pode desabilitá-lo com a ativação e desativação do alarme na Mi Fit.</p>
 
-        <img src="ic_phone_android"> <b><u>Dispositivo</u></b>
-        <p>Quando o período de tempo especificado expirar, o dispositivo emite sinais (vibrar/tocar) repetidamente se não estiver conectado à Band.</p>
-        <p>A mensagem que é mostrada torna mais fácil encontrar o dispositivo, mas para isso terás de adicionar alguns números. Se alguém encontrar o dispositivo e ele estiver bloqueado, esse alguém saberá quem notificar, para que você possa receber uma mensagem.</p>
-        <p>Quando a pulseira reconectar, o alarme pára.</p>
-        <p>Deve ser habilitado para exibir a notificação na tela de bloqueio.</p>]]>
+        <img src="ic_phone_android"> <b><u>Dispositivo</u></b>
+        <p>Quando o período de tempo especificado expirar, o dispositivo emite sinais (vibrar/tocar) repetidamente se não estiver conectado à Band.</p>
+        <p>A mensagem que é mostrada torna mais fácil encontrar o dispositivo, mas para isso terás de adicionar alguns números. Se alguém encontrar o dispositivo e ele estiver bloqueado, esse alguém saberá quem notificar, para que você possa receber uma mensagem.</p>
+        <p>Quando a pulseira reconectar, o alarme pára.</p>
+        <p>Deve ser habilitado para exibir a notificação na tela de bloqueio.</p>]]>
     </string>
 
     <!-- Time  monitoring -->
@@ -652,6 +654,25 @@
         <p>O lembrete requer uma conexão Bluetooth.</p>
     ]]></string>
 
+    <!-- Watch face -->
+    <string name="watch_face_default_title">Watch face change</string>
+
+    <string name="watch_face_init_title">Initialization</string>
+    <string name="watch_face_init_content"><![CDATA[In the Mi Fit Application set one of the factory watch face.
+        <br>You have to select the same watch face when uploading.
+        <br><i>(initialization is only required once)</i>
+    ]]></string>
+
+    <string name="watch_face_download_title">Download</string>
+    <string name="watch_face_download_path">Save the downloaded watch face file here:</string>
+    <string name="watch_face_download_name">File name</string>
+
+    <string name="watch_face_upload_title">Upload</string>
+    <string name="watch_face_upload_empty_title"><![CDATA[Watch face not found
+        <br><i>(%1$s)</i>
+    ]]></string>
+    <string name="message_watch_face_upload_error">Initialization is required</string>
+
     <!-- Agent -->
     <string name="agent_title">Monitorar o dispositivo</string>
     <string name="agent_tab_events">Registo</string>
@@ -669,7 +690,7 @@
         <br>- posição do dispositivo (através do giroscópio deteta quando está na horizontal e na vertical)
 
         <p>Se alguém operar o dispositivo enquanto estiver ausente, os eventos acima serão registados. </ P>
-        <p> Quando a Band reconectar, você receberá uma notificação no caso de haver eventos registados.</p>]]>
+        <p> Quando a Band reconectar, você receberá uma notificação no caso de haver eventos registados.</p>]]>
     </string>
 
     <!-- Theme -->
@@ -747,7 +768,7 @@
         - Não tem anúncios
         <br>- Modo DND desbloqueado
         <br>- Notificações ilimitadas
-        <br>- Controlos touch ilimitados
+        <br>- Controlos touch ilimitados
         <br>- O prefixo de texto, o pré-ícone e a filtragem de texto podem ser usados no menu Notificações
         <br>- O tempo para repetir pode ser ajustado livremente
         <br>- Mostrar pulsação pode ser usado no menu Pulsação
@@ -758,9 +779,9 @@
     <string name="purchase_policy"><![CDATA[
         <p>- Eu testei a aplicação e ela está a funcionar corretamente.
         <br>- Eu estou ciente de que não posso exigir compensação ou reembolso devido a bugs, erros de software causados ​​por alterações, ambiente do hardware ou outras aplicações usadas.
-        <br>- Todas as vendas são finais e não podem ser reembolsadas (exceto pela política de reembolso do Google).
-        <br>- Não há garantia incluída.</p>
-        <p><i>Depois da compra, você precisa de reiniciar a aplicação.</i></p>
+        <br>- Todas as vendas são finais e não podem ser reembolsadas (exceto pela política de reembolso do Google).
+        <br>- Não há garantia incluída.</p>
+        <p><i>Depois da compra, você precisa de reiniciar a aplicação.</i></p>
     ]]></string>
 
     <string name="purchase_agree">Eu concordo com os Termos e Condições.</string>
