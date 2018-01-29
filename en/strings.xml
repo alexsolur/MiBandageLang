@@ -11,6 +11,7 @@
     <string name="drawer_nav_sleep">Sleep</string>
     <string name="drawer_nav_pulse">Pulse</string>
     <string name="drawer_nav_time">Time</string>
+    <string name="drawer_nav_watch_face">Watch face</string>
     <string name="drawer_nav_alarm">Lost</string>
     <string name="drawer_nav_disconnected_agent">Agent</string>
     <string name="drawer_nav_theme">Theme</string>
@@ -253,6 +254,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>Mi Bandage requires the installation of the official Mi Fit app on the same phone. At first you have to pair Band in Mi Fit app, then you can use Mi Bandage.</p>
     <p>If you use more applications to control Band, they interfere with each other so temporarily turn off those.</p>
@@ -652,6 +654,25 @@
         <p>Reminder signal and showing message require Bluetooth connection.</p>
     ]]></string>
 
+    <!-- Watch face -->
+    <string name="watch_face_default_title">Watch face change</string>
+
+    <string name="watch_face_init_title">Initialization</string>
+    <string name="watch_face_init_content"><![CDATA[In the Mi Fit Application set one of the factory watch face.
+        <br>You have to select the same watch face when uploading.
+        <br><i>(initialization is only required once)</i>
+    ]]></string>
+
+    <string name="watch_face_download_title">Download</string>
+    <string name="watch_face_download_path">Save the downloaded watch face file here:</string>
+    <string name="watch_face_download_name">File name</string>
+
+    <string name="watch_face_upload_title">Upload</string>
+    <string name="watch_face_upload_empty_title"><![CDATA[Watch face not found
+        <br><i>(%1$s)</i>
+    ]]></string>
+    <string name="message_watch_face_upload_error">Initialization is required</string>
+
     <!-- Agent -->
     <string name="agent_title">Device monitoring agent</string>
     <string name="agent_tab_events">Agent log</string>
@@ -867,6 +888,5 @@
         <item quantity="many">%d seconds</item>
         <item quantity="other">%d seconds</item>
     </plurals>
-
 
 </resources>
