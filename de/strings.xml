@@ -11,6 +11,7 @@
     <string name="drawer_nav_sleep">Sleep</string>
     <string name="drawer_nav_pulse">Herzfrequenz</string>
     <string name="drawer_nav_time">Wecker &amp; Uhr</string>
+    <string name="drawer_nav_watch_face">Watch face</string>
     <string name="drawer_nav_alarm">Bei Verlust</string>
     <string name="drawer_nav_disconnected_agent">Agent</string>
     <string name="drawer_nav_theme">Theme</string>
@@ -253,6 +254,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>Mi Bandage benötigt die offizielle Mi Fit-App auf demselben Gerät. Vor der Verwendung der Mi Bandage-App muss das Band mit der Mi Fit-App verbunden sein.</p>
     <p>Falls mehrere Apps das Band kontollieren, können Interferenzen auftreten. Bitte deaktivieren Sie diese temporär.</p>
@@ -651,6 +653,25 @@
         <br>Die Genauigkeit des Alarms ist auf Minuten beschränkt, das Band unterstützt keine Sekunden.</p>
         <p>Das Erinnerungssignal und das Anzeigen der Nachricht benötigen eine Bluetooth-Verbindung.</p>
     ]]></string>
+
+    <!-- Watch face -->
+    <string name="watch_face_default_title">Watch face change</string>
+
+    <string name="watch_face_init_title">Initialization</string>
+    <string name="watch_face_init_content"><![CDATA[In the Mi Fit Application set one of the factory watch face.
+        <br>You have to select the same watch face when uploading.
+        <br><i>(initialization is only required once)</i>
+    ]]></string>
+
+    <string name="watch_face_download_title">Download</string>
+    <string name="watch_face_download_path">Save the downloaded watch face file here:</string>
+    <string name="watch_face_download_name">File name</string>
+
+    <string name="watch_face_upload_title">Upload</string>
+    <string name="watch_face_upload_empty_title"><![CDATA[Watch face not found
+        <br><i>(%1$s)</i>
+    ]]></string>
+    <string name="message_watch_face_upload_error">Initialization is required</string>
 
     <!-- Agent -->
     <string name="agent_title">Agent zum Monitoring des Geräts</string>
