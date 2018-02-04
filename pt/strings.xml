@@ -192,6 +192,10 @@
     <string name="touch">Botão touch</string>
 
     <string name="pref_dnd_title">Modo DND</string>
+    <string name="pref_dnd_summary">State of controllers in do not disturb mode</string>
+    <string name="pref_dnd_auto_title">Automatic do not disturb mode</string>
+    <string name="pref_dnd_auto_summary">Controlled by the phone\'s do not disturb mode</string>
+    <string name="pref_dnd_scheduled_title">Scheduled do not disturb mode</string>
     <string name="pref_dnd_remember_state_summary">Quando o modo DND terminar, toda a bandagem é ligada ou restaurada para as que tinha antes do modo DND começar</string>
     <string name="pref_dnd_remember_state_on_title">Restaurar tudo</string>
     <string name="pref_dnd_remember_state_off_title">Ligar tudo</string>
@@ -247,6 +251,8 @@
 
     <string name="message_in_progress">A processar…</string>
     <string name="message_no_data">No data available</string>
+
+    <string name="message_new_message">A new message is received, view it on the phone.</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Bem vindo!</string>
@@ -356,9 +362,11 @@
         <br><img src="ALERT_DINGTALK">  DingTalk
         <br><img src="ALERT_APP">  Outros
 
+        <p>Predefined app and Band icon signals will only show the icon not the message.</p>
         <p>Desative os avisos na aplicação Mi Fit.</p>
         <p>O grupo de notificações criado por si tem prioridade superior às notificações pré-definidas.</p>
-        <p><img src="ALERT_MESSAGE_TEXT">  escolha este ícone para mostrar notificações com título/conteúdo</p>
+        <mi_band_2><p><img src="ALERT_MESSAGE_TEXT">  escolha este ícone para mostrar notificações com título/conteúdo</p></mi_band_2>
+        <mi_band_hrx><p><img src="ALERT_MESSAGE_TEXT">  escolha este ícone para mostrar notificações com título/conteúdo</p></mi_band_hrx>
         <p>Se você usa aplicações pré-definidas mas quer excluir algumas aplicações, então crie um novo grupo de notificações, adicione algumas aplicações e desative-o a seguir.</p>
         ]]>
     </string>
@@ -666,12 +674,35 @@
     <string name="watch_face_download_title">Download</string>
     <string name="watch_face_download_path">Guarde o ficheiro da Watch Face descarregada aqui:</string>
     <string name="watch_face_download_name">Nome do ficeiro</string>
+    <string name="watch_face_download_move">Move the downloaded watch face files from the %1$s directory</string>
 
     <string name="watch_face_upload_title">Upload</string>
     <string name="watch_face_upload_empty_title"><![CDATA[Watch face não encontrada
         <br><i>(%1$s)</i>
     ]]></string>
     <string name="message_watch_face_upload_error">É necessário fazer a Inicialização</string>
+
+    <string name="info_dialog_watch_face"><![CDATA[<b><u>Watch face change procedure:</u></b>
+        <br><br><img src="ic_mi_fit_init"> <b>1. Inicialização</b>
+        <p>Resets the watch face\'s states to the original in the Mi Fit application, upload the first factory watch face.
+
+        <br><br><b>2. Download</b>
+        <p>Download watch faces from the web sites.
+
+        <br><br><img src="ic_content_duplicate"> <b>3. Move the files</b>
+        <p>If necessary, move the downloaded watch face files from the Download directory to the MiBandage directory.
+
+        <br><br><img src="ic_mi_fit_upload"> <b>4. Upload</b>
+        <p>Upload the selected watch face in the Mi Fit. It replaces the last uploaded factory watch face.
+
+        <br><br><br><b><u>Upload multiple watch face</u></b>
+        <p><img src="ic_action_launch_mi_fit"> Launching Mi Fit without watch face replacing, upload the second factory watch face.
+        <p><img src="ic_mi_fit_upload">  Upload the selected watch face in the Mi Fit.
+        <p>Repeat these steps.
+
+        <br><br>In the Mi Fit the watch face\'s picture will not change.
+        ]]>
+    </string>
 
     <!-- Agent -->
     <string name="agent_title">Monitorar o dispositivo</string>
@@ -887,4 +918,14 @@
         <item quantity="many">%d segundos</item>
         <item quantity="other">%d segundos</item>
     </plurals>
+
+    <plurals name="plural_file_moved">
+        <item quantity="zero">%d file moved</item>
+        <item quantity="one">%d file moved</item>
+        <item quantity="two">%d files moved</item>
+        <item quantity="few">%d files moved</item>
+        <item quantity="many">%d files moved</item>
+        <item quantity="other">%d files moved</item>
+    </plurals>
+
 </resources>
