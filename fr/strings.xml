@@ -192,10 +192,10 @@
     <string name="touch">Supervision du touché</string>
 
     <string name="pref_dnd_title">Mode ne pas déranger</string>
-    <string name="pref_dnd_summary">State of controllers in do not disturb mode</string>
-    <string name="pref_dnd_auto_title">Automatic do not disturb mode</string>
-    <string name="pref_dnd_auto_summary">Controlled by the phone\'s do not disturb mode</string>
-    <string name="pref_dnd_scheduled_title">Scheduled do not disturb mode</string>
+    <string name="pref_dnd_summary">Définir les pilotes en mode ne pas déranger</string>
+    <string name="pref_dnd_auto_title">Mode ne pas déranger automatique</string>
+    <string name="pref_dnd_auto_summary">Piloté par le mode ne pas dérangé du téléphone</string>
+    <string name="pref_dnd_scheduled_title">Programmer le mode ne pas déranger</string>
     <string name="pref_dnd_remember_state_summary">A la fin du mode ne pas déranger, activer tous les bracelets ou restaurer l\'état comme ils étaient au début</string>
     <string name="pref_dnd_remember_state_on_title">Restaurer l\'état</string>
     <string name="pref_dnd_remember_state_off_title">Activer tous les bracelets</string>
@@ -252,7 +252,7 @@
     <string name="message_in_progress">En cours…</string>
     <string name="message_no_data">No data available</string>
 
-    <string name="message_new_message">A new message is received, view it on the phone.</string>
+    <string name="message_new_message">Nouveau message reçu, visualisez le sur le téléphone.</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Bienvenue!</string>
@@ -362,9 +362,9 @@
         <br><img src="ALERT_DINGTALK">  DingTalk
         <br><img src="ALERT_APP">  Autres
 
-        <p>Predefined app and Band icon signals will only show the icon not the message.</p>
-        <p>You have to disable app alert in the Mi Fit app.</p>
-        <p>Ne groupe de notifications que vous avez créé a une priorité plus élevée que celui par défaut.</p>
+        <p>L'appli prédéfinie et l'icône du signal afficheront uniquement l'icone et pas le message.</p>
+        <p>Vous devez désactiver l'alarme de l'appli dans Mi Fit.</p>
+        <p>Le groupe de notifications que vous avez créé a une priorité plus élevée que celui par défaut.</p>
         <mi_band_2><p><img src="ALERT_MESSAGE_TEXT"> icône: choisir cet icône pour afficher les notifications titre/contenu.</p></mi_band_2>
         <mi_band_hrx><p><img src="ALERT_MESSAGE_TEXT"> icône: choisir cet icône pour afficher les notifications titre/contenu.</p></mi_band_hrx>
         <p>Si vous utilisez les applis par défaut, mais que vous voulez désactiver des notifications, veuillez créer un nouveau groupe de notification avec le paramètre <i>désactiver les notifications</i> et ajouter y les applis.</p>
@@ -672,9 +672,9 @@
     <string name="watch_face_download_title">Téléchargement</string>
     <string name="watch_face_download_path">Sauvegarder le cadran téléchargé ici:</string>
     <string name="watch_face_download_name">Nom du fichier</string>
-    <string name="watch_face_download_move">Move the downloaded watch face files from the %1$s directory</string>
+    <string name="watch_face_download_move">Déplacer les cadrans téléchargés depuis le dossier %1$s</string>
 
-    <string name="watch_face_upload_title">Upload</string>
+    <string name="watch_face_upload_title">Charger</string>
     <string name="watch_face_upload_empty_title"><![CDATA[Cadran non trouvé
         <br><i>(%1$s)</i>
     ]]></string>
@@ -682,23 +682,23 @@
 
     <string name="info_dialog_watch_face"><![CDATA[<b><u>Watch face change procedure:</u></b>
         <br><br><img src="ic_mi_fit_init"> <b>1. Initialisation</b>
-        <p>Resets the watch face\'s states to the original in the Mi Fit application, upload the first factory watch face.
+        <p>Réinitialiser le cadran à celui d'origine dans l'appli Mi Fit, charger le cadran en mode sorti d'usine.
 
         <br><br><b>2. Téléchargement</b>
-        <p>Download watch faces from the web sites.
+        <p>Télécharger les cadrans depuis des sites web.
 
-        <br><br><img src="ic_content_duplicate"> <b>3. Move the files</b>
-        <p>If necessary, move the downloaded watch face files from the Download directory to the MiBandage directory.
+        <br><br><img src="ic_content_duplicate"> <b>3. Déplacer les fichiers</b>
+        <p>Si nécéssaire, déplacer les fichiers de cadrans téléchargés du dossier de télé chargement vers le dossier MiBandage.
 
-        <br><br><img src="ic_mi_fit_upload"> <b>4. Upload</b>
-        <p>Upload the selected watch face in the Mi Fit. It replaces the last uploaded factory watch face.
+        <br><br><img src="ic_mi_fit_upload"> <b>4. Charger</b>
+        <p>Charger la cadran sélectionné dans Mi Fit. Il remplacera le cadran d'origine précédemment chargé.
 
-        <br><br><br><b><u>Upload multiple watch face</u></b>
-        <p><img src="ic_action_launch_mi_fit"> Launching Mi Fit without watch face replacing, upload the second factory watch face.
-        <p><img src="ic_mi_fit_upload">  Upload the selected watch face in the Mi Fit.
-        <p>Repeat these steps.
+        <br><br><br><b><u>Charger plusieurs cadrans</u></b>
+        <p><img src="ic_action_launch_mi_fit"> Lancer Mi Fit sans remplacement de cadran, charge le second cadran.
+        <p><img src="ic_mi_fit_upload">  Charger le cadran sélectionné dans Mi Fit.
+        <p>Répéter les étapes.
 
-        <br><br>In the Mi Fit the watch face\'s picture will not change.
+        <br><br>Dans Mi Fit l'image du cadran ne changera pas.
         ]]>
     </string>
 
@@ -919,11 +919,11 @@
     </plurals>
 
     <plurals name="plural_file_moved">
-        <item quantity="zero">%d file moved</item>
-        <item quantity="one">%d file moved</item>
-        <item quantity="two">%d files moved</item>
-        <item quantity="few">%d files moved</item>
-        <item quantity="many">%d files moved</item>
-        <item quantity="other">%d files moved</item>
+        <item quantity="zero">%d fichier déplacé</item>
+        <item quantity="one">%d fichiers déplacés</item>
+        <item quantity="two">%d fichiers déplacés</item>
+        <item quantity="few">%d fichiers déplacés</item>
+        <item quantity="many">%d fichiers déplacés</item>
+        <item quantity="other">%d fichiers déplacés</item>
     </plurals>
 </resources>
