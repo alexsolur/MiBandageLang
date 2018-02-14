@@ -64,7 +64,7 @@
     <string name="mi_band_battery_notification_level">Bateria baixa:</string>
     <string name="mi_band_battery_notification_repeat_interval">Repetir notificação a cada</string>
     <string name="mi_band_battery_notification_shade">Notificar no dispositivo</string>
-    <string name="mi_band_battery_notification_shade_ongoing">Notificação persistente (Contínua)</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Notificação persistente (Não removível)</string>
     <string name="mi_band_battery_notification_shade_message">Bateria baixa %1$,d%%</string>
     <string name="mi_band_battery_notification_mi_band">Notificar na Band</string>
     <string name="mi_band_battery_notification_mi_band_message">Bateria: %1$,d%%</string>
@@ -74,7 +74,7 @@
     <string name="pref_connected_summary">Sinal da Band e do dispositivo</string>
 
     <string name="pref_connected_signals">Sinais de conexão</string>
-    <string name="pref_connected_signals_summary">A conetar com a Band sem notificação</string>
+    <string name="pref_connected_signals_summary">Aviso ao se conectar com a Band</string>
     <string name="pref_cat_connected_signals_mi_band">Aviso da Band</string>
     <string name="pref_connected_mi_band_title">Vibração</string>
     <string name="pref_cat_connected_signals">Aviso do dispositivo</string>
@@ -105,7 +105,7 @@
     <string name="pref_disconnected_summary">Sinal da Band e do dispositivo</string>
 
     <string name="pref_disconnected_signals">Sinais de desconexão</string>
-    <string name="pref_disconnected_signals_summary">Sinais de desconexão da Band e do dispositivo, o sinal não é emitido quando o Bluetooth é desligado manualmente</string>
+    <string name="pref_disconnected_signals_summary">Aviso ao se desconectar da Band</string>
     <string name="pref_cat_disconnected_signals_mi_band">Band</string>
     <string name="pref_disconnected_mi_band_title">Mostrar ícone</string>
     <string name="pref_cat_disconnected_signals">Dispositivo</string>
@@ -175,7 +175,7 @@
     </string>
 
     <string name="pref_mi_band">Band</string>
-    <string name="pref_cat_mi_band_lift_wrist">Rodar o braço para ver a informação</string>
+    <string name="pref_cat_mi_band_lift_wrist">Rodar o braço</string>
     <string name="pref_mi_band_lift_wrist_title">Rodar o braço para ver a informação</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Modo DND</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Ligado (No período de tempo especificado não vai ser apresentada informação; Conexão Bluetooth necessária para configurar)</string>
@@ -194,12 +194,12 @@
     <string name="pref_dnd_title">Modo DND</string>
     <string name="pref_dnd_summary">Estado das funções no modo DND</string>
     <string name="pref_dnd_auto_title">Modo DND Automatizado</string>
-    <string name="pref_dnd_auto_summary">Modo DND controlado pelo dispositivo</string>
+    <string name="pref_dnd_auto_summary">Modo DND do dispositivo</string>
     <string name="pref_dnd_scheduled_title">Modo DND Programado</string>
     <string name="pref_dnd_remember_state_summary">Quando o modo DND terminar, toda a bandagem é ligada ou restaurada para as que tinha antes do modo DND começar</string>
     <string name="pref_dnd_remember_state_on_title">Restaurar tudo</string>
     <string name="pref_dnd_remember_state_off_title">Ligar tudo</string>
-    <string name="pref_dnd_mi_fit_scheduled">Ativar o modo DND da Bnad (desativa: Notificações [Chamadas e Mensagens]; Rodar o braço para ver a informação)</string>
+    <string name="pref_dnd_mi_fit_scheduled">Ativar o modo DND da Band (desativa: Notificações [Chamadas e Mensagens]; Rodar o braço para ver a informação)</string>
     <string name="pref_dnd_enable_bluetooth">Desligar Bluetooth ao iniciar o modo DND e voltar a ligar quando terminar</string>
 
     <!-- Snackbar Messages -->
@@ -450,7 +450,7 @@
         <p>Feedback por meio de vibração da Band se houver um padrão não reconhecido, levando em consideração o status atual do dispositivo (atender chamadas, rejeitar/terminar somente se houver uma chamada recebida, …).</p>
         <p>A Band vibra 1 vez, quando reconhece o padrão.</p>
         <p>A Band vibra 2 vezes, quando não reconhece o padrão após o padrão mais longo (se o <i>padrão não é reconhecido</ i>).</p>
-        <p><b>Exemplos</b> de touch válidos:
+        <p><b>Exemplos</b> de padrões válidos:
         <br>- toque
         <br>- toque e espere 1 seg, toque
         <br>- toque e espere 1 seg, toque e espere 1 seg, toque
