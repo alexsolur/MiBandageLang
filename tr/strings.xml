@@ -158,7 +158,7 @@
     <string name="pref_text_conversion_summary">Bileklik altyazılı simge ayarları</string>
     <string name="pref_cat_text_conversion">Ayarlar</string>
     <string name="pref_text_conversion_title">Karakterleri dönüştür</string>
-    <string name="pref_text_conversion_summary_on">Tanımlanamayan karakterleri döünüştürür</string>
+    <string name="pref_text_conversion_summary_on">Tanımlanamayan karakterleri döünüştürür, turn off if the Band supports your language or you have installed custom font firmware</string>
 
     <string name="pref_text_conversion_description_title">Açıklama</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -194,8 +194,11 @@
     <string name="pref_dnd_title">Rahatsız etmeyin modu</string>
     <string name="pref_dnd_summary">Rahatsız etmeyin modunda denetleyicilerin durumu</string>
     <string name="pref_dnd_auto_title">Otomatik rahatsız etme modu</string>
-    <string name="pref_dnd_auto_summary">Telefon ayarları ile rahatsız etmeyin modu</string>
+    <string name="pref_dnd_auto_summary">Telefon ayarları ile rahatsız etmeyin modu, it has a higher priority than the scheduled do not disturb mode</string>
+    <string name="pref_dnd_auto_vibrate">Vibration (silent)</string>
+    <string name="pref_dnd_auto_silent">Do not disturb</string>
     <string name="pref_dnd_scheduled_title">Zamanlanmış rahatsız etme modu</string>
+    <string name="pref_dnd_scheduled_new_title">Ismi</string>
     <string name="pref_dnd_remember_state_summary">Rahatsız etmeyin modu sonunda neyapacağınızı belirleyin</string>
     <string name="pref_dnd_remember_state_on_title">Mod öncesi ayarlara dön</string>
     <string name="pref_dnd_remember_state_off_title">Tüm ayarları aktif et</string>
@@ -803,7 +806,7 @@
         <br>- Adım izleme fonksiyonunda tekrar aralığını serbestçe ayarlanabilme
         <br>- Nabız izleme fonksiyonunda tekrar aralığını serbestçe ayarlanabilme
         <br>- Rahatsız etme ve kayıp izleme fonksiyonlarında tekrar aralığını serbestçe ayarlanabilme
-        <br>- Tekrarlanan anımsatıcılar, mesaj gösterme ve bluetooth'u açma sürelerinin serbestçe ayarlanabilme
+        <br>- Tekrarlanan anımsatıcılar, mesaj gösterme ve bluetooth\'u açma sürelerinin serbestçe ayarlanabilme
         <br>- …
     ]]></string>
     <string name="purchase_policy_title">Premium şartları ve koşulları</string>
