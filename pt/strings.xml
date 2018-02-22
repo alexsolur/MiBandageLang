@@ -158,7 +158,7 @@
     <string name="pref_text_conversion_summary">Definições do ícone de texto da Band</string>
     <string name="pref_cat_text_conversion">Sinal da Band</string>
     <string name="pref_text_conversion_title">Conversão de caracteres</string>
-    <string name="pref_text_conversion_summary_on">Converter caracteres não reconhecidos</string>
+    <string name="pref_text_conversion_summary_on">Converter caracteres não reconhecidos, turn off if the Band supports your language or you have installed custom font firmware</string>
 
     <string name="pref_text_conversion_description_title">Descrição</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -194,8 +194,11 @@
     <string name="pref_dnd_title">Modo DND</string>
     <string name="pref_dnd_summary">Estado das funções no modo DND</string>
     <string name="pref_dnd_auto_title">Modo DND Automatizado</string>
-    <string name="pref_dnd_auto_summary">Modo DND do dispositivo</string>
+    <string name="pref_dnd_auto_summary">Modo DND do dispositivo, it has a higher priority than the scheduled do not disturb mode</string>
+    <string name="pref_dnd_auto_vibrate">Vibration (silent)</string>
+    <string name="pref_dnd_auto_silent">Do not disturb</string>
     <string name="pref_dnd_scheduled_title">Modo DND Programado</string>
+    <string name="pref_dnd_scheduled_new_title">Título</string>
     <string name="pref_dnd_remember_state_summary">Quando o modo DND terminar, toda a bandagem é ligada ou restaurada para as que tinha antes do modo DND começar</string>
     <string name="pref_dnd_remember_state_on_title">Restaurar tudo</string>
     <string name="pref_dnd_remember_state_off_title">Ligar tudo</string>
