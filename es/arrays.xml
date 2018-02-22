@@ -107,8 +107,8 @@
 
     <string-array name="touch_music_info">
         <item>Sin notificación</item>
-        <item>Artist#Title</item>
         <item>Artista#Titulo</item>
+        <item>Artista, Titulo</item>
         <item>Titulo</item>
     </string-array>
 
@@ -202,10 +202,10 @@
     </integer-array>
 
     <string-array name="touch_recognition_press">
-        <item>None</item>
-        <item>Touch</item>
-        <item>Double touch</item>
-        <item>Long touch</item>
+        <item>Ninguno</item>
+        <item>Pulsar</item>
+        <item>Doble pulsación</item>
+        <item>Larage pulsación</item>
     </string-array>
 
     <string-array name="touch_recognition_press_values">
@@ -228,11 +228,11 @@
     </string-array>
 
     <string-array name="widget_event">
-        <item>Bandages screen</item>
-        <item>Activity screen</item>
-        <item>Pulse screen</item>
-        <item>Pulse measurement</item>
-        <item>Alarm screen</item>
+        <item>Bandages pantalla</item>
+        <item>Actividad pantalla</item>
+        <item>Pantalla de Pulso</item>
+        <item>Pantalla de mediciones</item>
+        <item>Pantalla de Alarma</item>
     </string-array>
 
     <string-array name="widget_event_values">
@@ -258,6 +258,7 @@
         <item>Deutsche</item>
         <item>Čeština</item>
         <item>Français</item>
+        <item>中文</item>
     </string-array>
 
     <string-array name="pref_language_values">
@@ -275,5 +276,6 @@
         <item>de</item>
         <item>cs</item>
         <item>fr</item>
+        <item>zh</item>
     </string-array>
 </resources>

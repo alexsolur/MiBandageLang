@@ -37,14 +37,14 @@
     <string name="info_name">Información</string>
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Steps, distance, calories, goal, pulse</string>
+    <string name="mi_band_tracker_title">Pasos, Distancia, Calorías, Objetivo, Pulso</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Battery level, last charging time, estimated remaining time</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI, last connection and disconnection time</string>
-    <string name="mi_band_touch">Touch monitoring</string>
-    <string name="mi_band_alarm">Next alarm</string>
+    <string name="mi_band_battery">Nivel de Batería, Ultima hora de carga, Tiempo estimado pendiente </string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI, Ultima hora de conexión y desconexión </string>
+    <string name="mi_band_touch">Control Táctil </string>
+    <string name="mi_band_alarm">Siguiente Alarma </string>
     <string name="mi_band_bonded_device_name">Nivel de batería baja</string>
     <string name="mi_band_mac_address">Direccion MAC</string>
     <string name="mi_band_firmware">Firmware</string>
@@ -52,22 +52,22 @@
 
     <string name="mi_band_mac_address_invalid">Dirección MAC inválida</string>
 
-    <string name="mi_band_state_title">Band settings</string>
-    <string name="mi_band_state_connected">Connected</string>
-    <string name="mi_band_state_disconnected">Disconnected</string>
-    <string name="mi_band_state_bonded">Paired device</string>
-    <string name="mi_band_state_not_bonded">Not paired device</string>
+    <string name="mi_band_state_title">Menú de la Band</string>
+    <string name="mi_band_state_connected">Conectado</string>
+    <string name="mi_band_state_disconnected">Desconectado</string>
+    <string name="mi_band_state_bonded">Dispositivo Emparejado</string>
+    <string name="mi_band_state_not_bonded">Dispositivo No emparejado</string>
 
     <string name="mi_band_battery_remaining">Tiempo estimado en agotar la batería</string>
     <string name="mi_band_battery_settings">Configuraciones de bateria</string>
-    <string name="mi_band_battery_notification">Low battery level notification</string>
-    <string name="mi_band_battery_notification_level">Low battery level</string>
-    <string name="mi_band_battery_notification_repeat_interval">Repeat interval</string>
-    <string name="mi_band_battery_notification_shade">Notify on the phone</string>
-    <string name="mi_band_battery_notification_shade_ongoing">Persistent (ongoing) notification</string>
-    <string name="mi_band_battery_notification_shade_message">Battery level is lower then %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">Notify on the bracelet</string>
-    <string name="mi_band_battery_notification_mi_band_message">Battery: %1$,d%%</string>
+    <string name="mi_band_battery_notification">Notificación Nivel de Batería Bajo</string>
+    <string name="mi_band_battery_notification_level">Nivel Batería Bajo</string>
+    <string name="mi_band_battery_notification_repeat_interval">Repetir Intervalo</string>
+    <string name="mi_band_battery_notification_shade">Notificación en el teléfono</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Notificación Persistente</string>
+    <string name="mi_band_battery_notification_shade_message">El nivel de batería es inferior a %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Notificación en la Band</string>
+    <string name="mi_band_battery_notification_mi_band_message">Batería: %1$,d%%</string>
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Conexión</string>
@@ -77,7 +77,7 @@
     <string name="pref_connected_signals_summary">Band conectando y no tiene notificación</string>
     <string name="pref_cat_connected_signals_mi_band">Señal de Band</string>
     <string name="pref_connected_mi_band_title">Vibración</string>
-    <string name="pref_cat_connected_signals">Device signals</string>
+    <string name="pref_cat_connected_signals">Señales del dispositivo</string>
     <string name="pref_connected_wakelock_title">Encender pantalla del dispositivo</string>
 
     <string name="pref_connected_settings">Configuración de la conexión</string>
@@ -118,9 +118,9 @@
     <string name="pref_cat_disconnected_settings">Configuración de dispositivo</string>
     <string name="pref_disconnected_volume_title">Cambiar volumen</string>
     <string name="pref_disconnected_volume_ring_title">Volumen del timbre</string>
-    <string name="pref_disconnected_volume_adapter_title">When Bluetooth is turned off</string>
-    <string name="pref_disconnected_volume_adapter_summary_on">Adjust the volume</string>
-    <string name="pref_disconnected_volume_adapter_summary_off">Do not adjust the volume</string>
+    <string name="pref_disconnected_volume_adapter_title">Cuando el Bluetooth esta apagado</string>
+    <string name="pref_disconnected_volume_adapter_summary_on">Ajustar volumen</string>
+    <string name="pref_disconnected_volume_adapter_summary_off">No ajustar volumen</string>
 
     <string name="pref_cat_abandoned">Señal del dispositivo</string>
     <string name="pref_abandoned_notif_interval_title">Intervalo de repetición de la señal</string>
@@ -158,7 +158,7 @@
     <string name="pref_text_conversion_summary">Configuraciones de iconos de texto en Band</string>
     <string name="pref_cat_text_conversion">Señal en Band</string>
     <string name="pref_text_conversion_title">Conversión de caracteres</string>
-    <string name="pref_text_conversion_summary_on">Conversión de caracteres no reconocibles</string>
+    <string name="pref_text_conversion_summary_on">Conversión de caracteres no reconocibles, turn off if the Band supports your language or you have installed custom font firmware</string>
 
     <string name="pref_text_conversion_description_title">Descripción</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -192,10 +192,13 @@
     <string name="touch">Monitoreo táctil</string>
 
     <string name="pref_dnd_title">Modo no molestar</string>
-    <string name="pref_dnd_summary">Status of controllers in do not disturb mode</string>
-    <string name="pref_dnd_auto_title">Automatic do not disturb mode</string>
-    <string name="pref_dnd_auto_summary">Controlled by the phone\'s do not disturb mode</string>
-    <string name="pref_dnd_scheduled_title">Scheduled do not disturb mode</string>
+    <string name="pref_dnd_summary">Estado de los controles no molestar</string>
+    <string name="pref_dnd_auto_title">Modo automático no molestar</string>
+    <string name="pref_dnd_auto_summary">Controlado por el teléfono modo no molestar, it has a higher priority than the scheduled do not disturb mode</string>
+    <string name="pref_dnd_auto_vibrate">Vibration (silent)</string>
+    <string name="pref_dnd_auto_silent">Do not disturb</string>
+    <string name="pref_dnd_scheduled_title">Programación modo no molestar</string>
+    <string name="pref_dnd_scheduled_new_title">Título</string>
     <string name="pref_dnd_remember_state_summary">Al final del modo no molestar, active todas las herramientas o restaure los estados a como estaban en el momento del inicio</string>
     <string name="pref_dnd_remember_state_on_title">Al final, restaura el estado de las herramientas</string>
     <string name="pref_dnd_remember_state_off_title">Al final, active todas las herramientas</string>
@@ -211,7 +214,7 @@
     <string name="message_discovered_not_found_mi_band">Si la Band no se puede encontrar, encienda: Mi Fit/Play/Discoverable o empareje en las configuraciones de Bluetooth del dispositivo</string>
     <string name="message_enable_notification_listener_access">Habilitar el acceso a notificaciones: Ajustes/Notificaciones/Acceso a notificaciones</string>
     <string name="message_enable_notification_listener_access_4_4">Habilitar el acceso a notificaciones: Ajustes/Seguridad/Acceso a notificaciones</string>
-    <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
+    <string name="message_enable_notification_policy_access">Habilitar Modo No Molestar</string>
     <string name="message_open_settings">Configuraciones</string>
 
     <string name="message_deleted">Eliminado</string>
@@ -249,10 +252,10 @@
     <string name="message_general_error">Se ha producido un error en la configuración (perdida de conexion), reintente de nuevo</string>
     <string name="message_internet_error">No tiene conexión a internet</string>
 
-    <string name="message_in_progress">In progress…</string>
-    <string name="message_no_data">No data available</string>
+    <string name="message_in_progress">En progreso…</string>
+    <string name="message_no_data">Información no disponible</string>
 
-    <string name="message_new_message">A new message is received, view it on the phone.</string>
+    <string name="message_new_message">Un nuevo mensaje ha sido recibido, ver en teléfono.</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Bienvenido!</string>
@@ -267,8 +270,8 @@
     <p>Si no se puede enontrar la Band, puedes establecer la dirección MAC, manualment, en el menú de detalles(La dirección MAC se puede encontrar en: Mi Fit/Perfil/Band).</p>
     <p><b>Si no se encuentra la Band o si está teniendo poblemas para sincronizar la aplicacion Mi Fit, entonces instale BToolkit, nRF Connect o alguna aplicación de gestión de Bluetooth similar y elimine cualquier emparejamiento.</b></p>
     <p><b>MIUI:</b>
-    <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
-    <br>- Security app screen: battery/app battery saver set Mi Bandage app to no restriction.</p>
+    <br>- Aplicaciones Recientes en Pantalla: cierra Mi Band (estire la app hacia bajo y pulse cerrar).
+    <br>- Aplicación de Seguridad en Pantalla: El ahorro de Energía de la App No muestra restricciones.</p>
     <p>Si tiene problemas(como encontrar Band, no tiene señales de notificiaciones), por favor intente:
     <br>1. Si tiene instalado Greenfy (u otra aplicacion de hibernación) desactívela, por favor
     <br>2. Instalar Mi Bandage.
@@ -283,18 +286,18 @@
 
 
     <!-- Diagnostic -->
-    <string name="diagnostic_title">Diagnostic</string>
+    <string name="diagnostic_title">Diagnostico</string>
 
-    <string name="diagnostic_permissions_title">Permissions</string>
+    <string name="diagnostic_permissions_title">Permisos</string>
 
-    <string name="diagnostic_access_title">Access</string>
-    <string name="diagnostic_access_do_not_disturb">Do not Disturb access</string>
-    <string name="diagnostic_access_notification">Notification access</string>
+    <string name="diagnostic_access_title">Accesos</string>
+    <string name="diagnostic_access_do_not_disturb">Acceso a modo no molestar</string>
+    <string name="diagnostic_access_notification">Acceso de dotificaciones</string>
 
-    <string name="diagnostic_protection_title">Protection against closing</string>
-    <string name="diagnostic_protection_battery">Battery optimisation off</string>
+    <string name="diagnostic_protection_title">Protección contra cierres</string>
+    <string name="diagnostic_protection_battery">Optimización de batería apagado</string>
     <string name="diagnostic_protection_service">Mostrar estado en la pantalla de notificación</string>
-    <string name="diagnostic_protection_lock">Lock on the recent apps screen</string>
+    <string name="diagnostic_protection_lock">Cierre de diagnostico de protección</string>
 
     <!-- Notification  -->
     <string name="notification_tab_custom">Notificaciones personalizadas</string>
@@ -308,9 +311,9 @@
     <string name="notification_group_alert_title">Señal de Band</string>
     <string name="notification_group_text_title">Título</string>
     <string name="notification_group_text_content">Contenido</string>
-    <string name="notification_group_vibration_title">Custom vibration</string>
+    <string name="notification_group_vibration_title">Personalización vibración</string>
     <string name="notification_group_pre_signal_title">Predicción de notificacion predeterminada</string>
-    <string name="notification_group_pre_vibration_title">Pre vibration</string>
+    <string name="notification_group_pre_vibration_title">Pre vibración</string>
     <string name="notification_group_pre_alert_title">Icono previo</string>
     <string name="notification_group_prefix">Prefijo de texto</string>
     <string name="notification_group_pre_only_premium">Sólo en modo premium</string>
@@ -321,15 +324,15 @@
     <string name="notification_group_counter_title">Numero de señales</string>
     <string name="notification_group_wakelock">Encender la pantalla del dispositivo</string>
     <string name="notification_group_filter">Filtrar notificaciones</string>
-    <string name="notification_group_filter_title">Title filtering</string>
-    <string name="notification_group_filter_content">Content filtering</string>
+    <string name="notification_group_filter_title">Filtar titulo</string>
+    <string name="notification_group_filter_content">Filtar contenido</string>
     <string name="notification_group_filter_hint">Señal solo cuando la notificación (delimitador: enter, ignorar mayusculas)</string>
     <string name="notification_group_filter_contains">Contiene frases</string>
     <string name="notification_group_filter_not_contains">No contiene frases</string>
 
-    <string name="notification_group_sample_sms">SMS text display</string>
-    <string name="notification_group_sample_facebook">Messenger text display</string>
-    <string name="notification_group_sample_whatsapp">WhatsApp text display</string>
+    <string name="notification_group_sample_sms">Texto de SMS mostrado</string>
+    <string name="notification_group_sample_facebook">Texto de Messenger mostrado</string>
+    <string name="notification_group_sample_whatsapp">Texto de WhatsApp mostrado</string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Aplicación predefinida y señales de icono de Band:
@@ -370,7 +373,7 @@
         <p>Si utiliza las aplicaciones predefinidas, pero desea desactivar algunas notificaciones, cree un nuevo grupo de notificaciones con la configuración <i>deshabilitar notificaciones</i> y añada las aplicaciones.</p>
         ]]>
     </string>
-        <!--<p>Predefined signals can be disabled: <i>Connection and notification settings/Have notification</i>.</p>-->
+        <!--<p>Predefined signals can be disabled: <i>Conexion y ajustes de notificaciones /Tienes una notificación </i>.</p>-->
 
     <!-- MiBandageApp chooser dialog -->
     <string name="action_search">Buscar</string>
@@ -394,15 +397,15 @@
     <string name="touch_call_end_title">Rechazar llamada, terminar</string>
 
     <string name="touch_call_mute_title">Silenciar llamada</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">Only if you have an incoming call</string>
-    <string name="touch_call_mute_recognition_title">On incoming call</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">solo si tu  tienes una llamada entrante</string>
+    <string name="touch_call_mute_recognition_title">En llamada entrante </string>
 
     <string name="touch_device_location_not_muted_only_title">Sonido,sólo si no está silenciado</string>
 
     <string name="touch_repeat_notif_title">Repetir notificaciones</string>
-    <string name="touch_repeat_notif_clear_all">Clear all notifications after repetition</string>
+    <string name="touch_repeat_notif_clear_all">Limpiar notificaciones tras repetir</string>
 
-    <string name="touch_clear_notif_title">Clear notifications</string>
+    <string name="touch_clear_notif_title">Limpiar notificaciones</string>
 
     <string name="touch_music_play_pause_title">Inicio de la música, reproducción, pausa</string>
     <string name="touch_music_skip_previous_title">Inicio de la musica, canción anterior</string>
@@ -503,8 +506,8 @@
     <string name="sleep_tab_month">Monthly charts</string>
     <string name="sleep_tab_settings">Configuración</string>
 
-    <string name="action_chart_sleep_type_phase">Phase</string>
-    <string name="action_chart_sleep_type_time">Time</string>
+    <string name="action_chart_sleep_type_phase">Fase</string>
+    <string name="action_chart_sleep_type_time">Tiempo</string>
 
     <string name="sleep_details">Detalles del sueño</string>
     <string name="sleep_assistant">Asistente de sueño de ritmo cardíaco</string>
@@ -530,15 +533,15 @@
 
     <string name="pulse_tab_day">Gráficos diarios</string>
     <string name="pulse_tab_week">Gráficos semanales</string>
-    <string name="pulse_tab_month">Monthly charts</string>
-    <string name="pulse_tab_settings_online">Online setting</string>
-    <string name="pulse_tab_settings_offline">Offline setting</string>
+    <string name="pulse_tab_month">Gráficos mensuales</string>
+    <string name="pulse_tab_settings_online">En línea ajustes</string>
+    <string name="pulse_tab_settings_offline">Fuera de línea ajustes</string>
 
-    <string name="pulse_online_title">Online pulse measurement</string>
-    <string name="pulse_offline_title">Offline pulse measurement</string>
+    <string name="pulse_online_title">Medidas de pulso online</string>
+    <string name="pulse_offline_title">Medidas de pulso offline</string>
 
-    <string name="action_chart_pulse_type_pulse">Pulse</string>
-    <string name="action_chart_pulse_type_pulse_and_step">Pulse and activity</string>
+    <string name="action_chart_pulse_type_pulse">Pulso</string>
+    <string name="action_chart_pulse_type_pulse_and_step">Pulso y actividad</string>
 
     <string name="pulse_title_signals">Señales</string>
     <string name="pulse_signal_start_title">Señal de inicio de monitoreo</string>
@@ -553,19 +556,19 @@
     <string name="pulse_value_max">Valor superior válido</string>
     <string name="pulse_value_invalid">Valor inválido</string>
 
-    <string name="pulse_offline_timed_title">Timed measurement</string>
-    <string name="pulse_all_day">All-day</string>
+    <string name="pulse_offline_timed_title">Tiempo medido</string>
+    <string name="pulse_all_day">Todo el día</string>
 
     <string name="pulse_details">Detalles del pulso</string>
 
-    <string name="message_pulse_premium_mode_only">Online and offline pulse measurement can only be used in premium mode at the same time</string>
+    <string name="message_pulse_premium_mode_only">Mediciones en línea y no en línea puede solo ser usado a la vez por el modo premium</string>
 
-    <string name="info_dialog_pulse"><![CDATA[ <b><u>Online pulse measurement</u></b>
+    <string name="info_dialog_pulse"><![CDATA[ <b><u>Medición de pulso en línea</u></b>
         <p>Se requiere conexión Bluetooth para monitorizar el pulso.</p>
         <p>El monitor de pulso se repite varias veces si el valor resultante no es valido.<p>
-        <img src="ic_pulse_offline"> <b><u>Offline pulse measurement</u></b>
-        <p>No Bluetooth connection required for pulse measurement.</p>
-        <p>Bluetooth connection is required for timed start and stop.</p>
+        <img src="ic_pulse_offline"> <b><u>Medición de pulso no en línea </u></b>
+        <p>Conexión de bluetooth no necesaria para la medición de pulso no en línea .</p>
+        <p>Conexión de Bluetooth es necesaria para tiempos de inicio y paro </p>
         <p>Las mediciones iniciadas manualmente (Band, aplicación Mi Fit) tambien se registran cuando se inicia la monitorización de pulsos.<p/>
         ]]>
     </string>
@@ -664,44 +667,44 @@
     ]]></string>
 
     <!-- Watch face -->
-    <string name="watch_face_default_title">Watch face change</string>
+    <string name="watch_face_default_title">Cambio de Watchface</string>
 
-    <string name="watch_face_init_title">Initialization</string>
-    <string name="watch_face_init_content"><![CDATA[In the Mi Fit Application set one of the factory watch face.
-        <br>You have to select the same watch face when uploading.
-        <br><i>(initialization is only required once)</i>
+    <string name="watch_face_init_title">Inicialización</string>
+    <string name="watch_face_init_content"><![CDATA[En la aplicación Mi Fit selecciona el watchface de fabrica.
+        <br><i>Tú tienes que seleccionar el watchface que cargas.
+        <i>(la inicialización es requería solo una vez)</i>
     ]]></string>
 
-    <string name="watch_face_download_title">Download</string>
-    <string name="watch_face_download_path">Save the downloaded watch face file here:</string>
-    <string name="watch_face_download_name">File name</string>
-    <string name="watch_face_download_move">Move the downloaded watch face files from the %1$s directory</string>
+    <string name="watch_face_download_title">Descarga</string>
+    <string name="watch_face_download_path">Guarda el watchface descargado aquí:</string>
+    <string name="watch_face_download_name">Nombre del archivo</string>
+    <string name="watch_face_download_move">Mueve el archivo watchface descargado desde el %1$s archivo</string>
 
-    <string name="watch_face_upload_title">Upload</string>
-    <string name="watch_face_upload_empty_title"><![CDATA[Watch face not found
+    <string name="watch_face_upload_title">Carga</string>
+    <string name="watch_face_upload_empty_title"><![CDATA[Watchface no encontrado
         <br><i>(%1$s)</i>
     ]]></string>
-    <string name="message_watch_face_upload_error">Initialization is required</string>
+    <string name="message_watch_face_upload_error">Inicialización es necesaria</string>
 
-    <string name="info_dialog_watch_face"><![CDATA[<b><u>Watch face change procedure:</u></b>
-        <br><br><img src="ic_mi_fit_init"> <b>1. Initialization</b>
-        <p>Resets the watch face\'s states to the original in the Mi Fit application, upload the first factory watch face.
+    <string name="info_dialog_watch_face"><![CDATA[<b><u>Procedimiento de cambio del watchface :</u></b>
+        <br><br><img src="ic_mi_fit_init"> <b>1. Inicialización </b>
+        <p>Resetear el estado del watchface\'s al original de la aplicación Mi Fit, carga el primer watchface de fabrica.
 
-        <br><br><b>2. Download</b>
-        <p>Download watch faces from the web sites.
+        <br><br><b>2. Descarga</b>
+        <p>Descarga Watchface desde la página web.
 
-        <br><br><img src="ic_content_duplicate"> <b>3. Move the files</b>
-        <p>If necessary, move the downloaded watch face files from the Download directory to the MiBandage directory.
+        <br><br><img src="ic_content_duplicate"> <b>3. Mover los archivos</b>
+        <p>Si fuese necesario, mover el archivo de watchface seleccionado  desde la carpeta de Descarga a la carpeta MiBandage.
 
-        <br><br><img src="ic_mi_fit_upload"> <b>4. Upload</b>
-        <p>Upload the selected watch face in the Mi Fit. It replaces the last uploaded factory watch face.
+        <br><br><img src="ic_mi_fit_upload"> <b>4.Carga</b>
+        <p>Carga el watchface seleccionado en Mi Fit. Reemplazará el último watchface. 
 
-        <br><br><br><b><u>Upload multiple watch face</u></b>
-        <p><img src="ic_action_launch_mi_fit"> Launching Mi Fit without watch face replacing, upload the second factory watch face.
-        <p><img src="ic_mi_fit_upload">  Upload the selected watch face in the Mi Fit.
-        <p>Repeat these steps.
+        <br><br><br><b><u>Cargar múltiples Watchface</u></b>
+        <p><img src="ic_action_launch_mi_fit"> Lanzado Mi Fit sin reemplazo de watchface , cargar el segundo watchface de fabrica.
+        <p><img src="ic_mi_fit_upload">  Carga el watchface seleccionado en Mi Fit.
+        <p>Repite estos pasos.
 
-        <br><br>In the Mi Fit the watch face\'s picture will not change.
+        <br><br>En Mi Fit la imagen\'s del watchface no cambiará.
         ]]>
     </string>
 
@@ -728,54 +731,54 @@
     <!-- Theme -->
     <string name="theme_tab_theme">Tema</string>
     <string name="theme_tab_widget">Widgets</string>
-    <string name="theme_tab_notification">Notification shade</string>
+    <string name="theme_tab_notification">Forma de la notificación</string>
 
     <string name="theme_title">Selecciona un tema</string>
-    <string name="theme_background_color_title">Background color</string>
+    <string name="theme_background_color_title">Color de Fondo</string>
 
-    <string name="theme_widget_foreground_title">Foreground</string>
-    <string name="theme_widget_foreground_color_title">Icon and text color</string>
-    <string name="theme_widget_background_title">Background</string>
+    <string name="theme_widget_foreground_title">Primer Plano</string>
+    <string name="theme_widget_foreground_color_title">Icono y color de texto</string>
+    <string name="theme_widget_background_title">Fondo</string>
     <string name="theme_widget_background_color_title">Color</string>
-    <string name="theme_widget_background_shape_title">Shape</string>
-    <string name="theme_widget_background_transparency_title">Transparency</string>
+    <string name="theme_widget_background_shape_title">Forma</string>
+    <string name="theme_widget_background_transparency_title">Transparencia</string>
 
-    <string name="theme_widget_touch_event_title">Touch event</string>
+    <string name="theme_widget_touch_event_title">Situación al pulsar</string>
 
     <string name="theme_notification_title">Mostrar estado en la pantalla de notificación</string>
     <string name="theme_notification_summary">El sistema Android fuerza la detención de un servicio, si la memoria es escasa. Si después de un tiempo, no aparecen las notificaciones en la Band, puede evitar esto.</string>
     <string name="theme_notification_color_title">Color del icono</string>
-    <string name="theme_notification_text_color_title">Text color</string>
+   <string name="theme_notification_text_color_title">Color del texto</string>
 
     <!-- Backup and restore -->
-    <string name="backup_tab_backup">Backup</string>
-    <string name="backup_tab_restore">Restore</string>
+    <string name="backup_tab_backup">Copia</string>
+    <string name="backup_tab_restore">Restaurar</string>
 
-    <string name="backup_time">Backup time</string>
-    <string name="backup_path">Backup location</string>
-    <string name="backup_auto">Automatic backup</string>
-    <string name="backup_auto_time">Time</string>
+    <string name="backup_time">Copia tiempo</string>
+    <string name="backup_path">Copia localización</string>
+    <string name="backup_auto">Automático backup</string>
+    <string name="backup_auto_time">Tiempo</string>
 
-    <string name="backup_process">Preparation…</string>
-    <string name="backup_process_activity">Activity and sleep %1$,d%%</string>
-    <string name="backup_process_pulse">Pulse %1$,d%%</string>
-    <string name="backup_process_notification">Notification %1$,d%%</string>
-    <string name="backup_process_touch">Touch %1$,d%%</string>
-    <string name="backup_process_time">Time %1$,d%%</string>
-    <string name="backup_process_alarm">Lost %1$,d%%</string>
-    <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
-    <string name="backup_process_settings">Settings %1$,d%%</string>
+    <string name="backup_process">Preparación...</string>
+    <string name="backup_process_activity">Actividad y dormir %1$,d%%</string>
+    <string name="backup_process_pulse">Pulso %1$,d%%</string>
+    <string name="backup_process_notification">Notificación %1$,d%%</string>
+    <string name="backup_process_touch">Pulsar %1$,d%%</string>
+    <string name="backup_process_time">Tiempo %1$,d%%</string>
+    <string name="backup_process_alarm">Pérdida %1$,d%%</string>
+    <string name="backup_process_disconnected_agent">Agente %1$,d%%</string>
+    <string name="backup_process_settings">Ajustes %1$,d%%</string>
 
-    <string name="backup_restore_activity">Activity and sleep</string>
-    <string name="backup_restore_pulse">Pulse</string>
-    <string name="backup_restore_notification">Notification</string>
-    <string name="backup_restore_touch">Touch</string>
-    <string name="backup_restore_time">Time</string>
-    <string name="backup_restore_alarm">Lost</string>
-    <string name="backup_restore_disconnected_agent">Agent</string>
-    <string name="backup_restore_settings">Settings</string>
+    <string name="backup_restore_activity">Actividad y Dormir</string>
+    <string name="backup_restore_pulse">Pulso</string>
+    <string name="backup_restore_notification">Notificación</string>
+    <string name="backup_restore_touch">Pulsar</string>
+    <string name="backup_restore_time">Tiempo</string>
+    <string name="backup_restore_alarm">Pérdida</string>
+    <string name="backup_restore_disconnected_agent">Agente</string>
+    <string name="backup_restore_settings">Ajustes</string>
 
-    <string name="backup_restore_reset">After restoring, Bluetooth will be turning off and on and the application will restart.</string>
+    <string name="backup_restore_reset">Después de restaurar, el Bluetooth se apagará y se encenderá y la aplicación se reiniciará.</string>
 
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Términos y condiciones del modo recompensa</string>
@@ -857,25 +860,25 @@
     <string name="action_setting">Configuraciones</string>
     <string name="action_delete">Eliminar</string>
     <string name="action_export">Exportar</string>
-    <string name="action_filter_no">No filter</string>
+    <string name="action_filter_no">Sin filtros</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_save">Save</string>
-    <string name="action_test">Test</string>
+    <string name="action_save">Guarda</string>
+    <string name="action_test">Prueba</string>
 
     <string name="action_chart">Gráfico</string>
-    <string name="action_chart_normalize_minute">Measured values</string>
-    <string name="action_chart_normalize_quarter_hourly">Quarter-hourly values</string>
-    <string name="action_chart_normalize_half_hourly">Half-hourly values</string>
-    <string name="action_chart_normalize_hourly">Hourly average</string>
-    <string name="action_chart_sort_time_asc">Time ascending</string>
-    <string name="action_chart_sort_time_desc">Time descending</string>
-    <string name="action_chart_sort_step_asc">Step ascending</string>
-    <string name="action_chart_sort_step_desc">Step descending</string>
-    <string name="action_chart_sort_pulse_asc">Pulse ascending</string>
-    <string name="action_chart_sort_pulse_desc">Pulse descending</string>
-    <string name="action_chart_sort_lap_asc">Lap ascending</string>
-    <string name="action_chart_sort_lap_desc">Lap descending</string>
+    <string name="action_chart_normalize_minute">Valores medidos</string>
+    <string name="action_chart_normalize_quarter_hourly">Valores Cada cuarto de hora</string>
+    <string name="action_chart_normalize_half_hourly">Valores cada media hora</string>
+    <string name="action_chart_normalize_hourly">Hora media</string>
+    <string name="action_chart_sort_time_asc">Tiempo ascendente</string>
+    <string name="action_chart_sort_time_desc">Tiempo descendente</string>
+    <string name="action_chart_sort_step_asc">Paso ascendente</string>
+    <string name="action_chart_sort_step_desc">Paso descendente</string>
+    <string name="action_chart_sort_pulse_asc">Pulse ascendente</string>
+    <string name="action_chart_sort_pulse_desc">Pulso descendiente</string>
+    <string name="action_chart_sort_lap_asc">Etapa de ascenso</string>
+    <string name="action_chart_sort_lap_desc">Etapa de descenso</string>
 
     <string name="power_on">Encendido</string>
     <string name="screen_unlock">Desbloquear pantalla</string>
@@ -895,12 +898,12 @@
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="zero">%d hour</item>
-        <item quantity="one">%d hour</item>
-        <item quantity="two">%d hours</item>
-        <item quantity="few">%d hours</item>
-        <item quantity="many">%d hours</item>
-        <item quantity="other">%d hours</item>
+        <item quantity="zero">%d horas</item>
+        <item quantity="one">%d horas</item>
+        <item quantity="two">%d horas</item>
+        <item quantity="few">%d horas</item>
+        <item quantity="many">%d horas</item>
+        <item quantity="other">%d horas</item>
     </plurals>
 
     <plurals name="plural_time_minute">
@@ -922,12 +925,12 @@
     </plurals>
 
     <plurals name="plural_file_moved">
-        <item quantity="zero">%d file moved</item>
-        <item quantity="one">%d file moved</item>
-        <item quantity="two">%d files moved</item>
-        <item quantity="few">%d files moved</item>
-        <item quantity="many">%d files moved</item>
-        <item quantity="other">%d files moved</item>
+        <item quantity="zero">%d archivo movido</item>
+        <item quantity="one">%d archivo movido</item>
+        <item quantity="two">%d archivos movidos</item>
+        <item quantity="few">%d archivos movidos</item>
+        <item quantity="many">%d archivos movidos</item>
+        <item quantity="other">%d archivos movidos</item>
     </plurals>
 
 </resources>
