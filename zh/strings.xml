@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Mi 手环</string>
+    <string name="app_name">Mi Bandage</string>
 
     <string name="navigation_drawer_open">打开抽屉导航</string>
     <string name="navigation_drawer_close">关闭抽屉导航</string>
@@ -158,7 +158,7 @@
     <string name="pref_text_conversion_summary">手环文字图标设置</string>
     <string name="pref_cat_text_conversion">手环连接</string>
     <string name="pref_text_conversion_title">字符转换</string>
-    <string name="pref_text_conversion_summary_on">不可识别的字符转换</string>
+    <string name="pref_text_conversion_summary_on">不可识别的字符转换, turn off if the Band supports your language or you have installed custom font firmware</string>
 
     <string name="pref_text_conversion_description_title">说明</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -194,8 +194,11 @@
     <string name="pref_dnd_title">勿扰模式</string>
     <string name="pref_dnd_summary">勿扰模式状态</string>
     <string name="pref_dnd_auto_title">自动打开勿扰模式</string>
-    <string name="pref_dnd_auto_summary">遵循手机的勿扰模式控制</string>
+    <string name="pref_dnd_auto_summary">遵循手机的勿扰模式控制, it has a higher priority than the scheduled do not disturb mode</string>
+    <string name="pref_dnd_auto_vibrate">Vibration (silent)</string>
+    <string name="pref_dnd_auto_silent">Do not disturb</string>
     <string name="pref_dnd_scheduled_title">定时勿扰模式</string>
+    <string name="pref_dnd_scheduled_new_title">标题</string>
     <string name="pref_dnd_remember_state_summary">勿扰模式结束时恢复手环状态</string>
     <string name="pref_dnd_remember_state_on_title">还原手环最后的状态</string>
     <string name="pref_dnd_remember_state_off_title">打开最后所有手环</string>
@@ -929,6 +932,5 @@
         <item quantity="many">%d 个文件移动</item>
         <item quantity="other">%d 个文件移动</item>
     </plurals>
-
 
 </resources>
