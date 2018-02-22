@@ -158,7 +158,7 @@
     <string name="pref_text_conversion_summary">Réglages de l\'icône teste du Band</string>
     <string name="pref_cat_text_conversion">Alerte Band</string>
     <string name="pref_text_conversion_title">Conversion des caractères</string>
-    <string name="pref_text_conversion_summary_on">Conversion des caractères non reconnus</string>
+    <string name="pref_text_conversion_summary_on">Conversion des caractères non reconnus, turn off if the Band supports your language or you have installed custom font firmware</string>
 
     <string name="pref_text_conversion_description_title">Description</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -194,8 +194,11 @@
     <string name="pref_dnd_title">Mode ne pas déranger</string>
     <string name="pref_dnd_summary">Définir les pilotes en mode ne pas déranger</string>
     <string name="pref_dnd_auto_title">Mode ne pas déranger automatique</string>
-    <string name="pref_dnd_auto_summary">Piloté par le mode ne pas dérangé du téléphone</string>
+    <string name="pref_dnd_auto_summary">Piloté par le mode ne pas dérangé du téléphone, it has a higher priority than the scheduled do not disturb mode</string>
+    <string name="pref_dnd_auto_vibrate">Vibration (silent)</string>
+    <string name="pref_dnd_auto_silent">Do not disturb</string>
     <string name="pref_dnd_scheduled_title">Programmer le mode ne pas déranger</string>
+    <string name="pref_dnd_scheduled_new_title">Titre</string>
     <string name="pref_dnd_remember_state_summary">A la fin du mode ne pas déranger, activer tous les bracelets ou restaurer l\'état comme ils étaient au début</string>
     <string name="pref_dnd_remember_state_on_title">Restaurer l\'état</string>
     <string name="pref_dnd_remember_state_off_title">Activer tous les bracelets</string>
@@ -362,8 +365,8 @@
         <br><img src="ALERT_DINGTALK">  DingTalk
         <br><img src="ALERT_APP">  Autres
 
-        <p>L'appli prédéfinie et l'icône du signal afficheront uniquement l'icone et pas le message.</p>
-        <p>Vous devez désactiver l'alarme de l'appli dans Mi Fit.</p>
+        <p>L\'appli prédéfinie et l\'icône du signal afficheront uniquement l\'icone et pas le message.</p>
+        <p>Vous devez désactiver l\'alarme de l\'appli dans Mi Fit.</p>
         <p>Le groupe de notifications que vous avez créé a une priorité plus élevée que celui par défaut.</p>
         <mi_band_2><p><img src="ALERT_MESSAGE_TEXT"> icône: choisir cet icône pour afficher les notifications titre/contenu.</p></mi_band_2>
         <mi_band_hrx><p><img src="ALERT_MESSAGE_TEXT"> icône: choisir cet icône pour afficher les notifications titre/contenu.</p></mi_band_hrx>
@@ -563,7 +566,7 @@
         <p>La supervision du rythme est renouvelée plusieurs fois si le résultat obtenu n\'est pas valide.<p>
         <img src="ic_pulse_offline"> <b><u>Mesure offline du rythme</u></b>
         <p>Pas de connexion Bluetooth nécessaire.</p>
-        <p>La connexion Bluetooth n'est requise que pour le démarrage et l'arret de la mesure programmée.</p>
+        <p>La connexion Bluetooth n\'est requise que pour le démarrage et l\'arret de la mesure programmée.</p>
         <p>Les mesures lancées manuellement (Band, appli Mi Fit) sont aussi enregistrées lorsque la supervision du rythme est démarrée.<p/>]]>
     </string>
 
@@ -666,7 +669,7 @@
     <string name="watch_face_init_title">Initialisation</string>
     <string name="watch_face_init_content"><![CDATA[Dans l\'application Mi Fit choisissez un des cadrans proposé.
         <br>Vous devez choisir le même cadran lors du chargement.
-        <br><i>(l\'initialisation n'est requise qu'une fois)</i>
+        <br><i>(l\'initialisation n\'est requise qu\'une fois)</i>
     ]]></string>
 
     <string name="watch_face_download_title">Téléchargement</string>
@@ -682,7 +685,7 @@
 
     <string name="info_dialog_watch_face"><![CDATA[<b><u>Watch face change procedure:</u></b>
         <br><br><img src="ic_mi_fit_init"> <b>1. Initialisation</b>
-        <p>Réinitialiser le cadran à celui d'origine dans l'appli Mi Fit, charger le cadran en mode sorti d'usine.
+        <p>Réinitialiser le cadran à celui d\'origine dans l\'appli Mi Fit, charger le cadran en mode sorti d\'usine.
 
         <br><br><b>2. Téléchargement</b>
         <p>Télécharger les cadrans depuis des sites web.
@@ -691,14 +694,14 @@
         <p>Si nécéssaire, déplacer les fichiers de cadrans téléchargés du dossier de télé chargement vers le dossier MiBandage.
 
         <br><br><img src="ic_mi_fit_upload"> <b>4. Charger</b>
-        <p>Charger la cadran sélectionné dans Mi Fit. Il remplacera le cadran d'origine précédemment chargé.
+        <p>Charger la cadran sélectionné dans Mi Fit. Il remplacera le cadran d\'origine précédemment chargé.
 
         <br><br><br><b><u>Charger plusieurs cadrans</u></b>
         <p><img src="ic_action_launch_mi_fit"> Lancer Mi Fit sans remplacement de cadran, charge le second cadran.
         <p><img src="ic_mi_fit_upload">  Charger le cadran sélectionné dans Mi Fit.
         <p>Répéter les étapes.
 
-        <br><br>Dans Mi Fit l'image du cadran ne changera pas.
+        <br><br>Dans Mi Fit l\'image du cadran ne changera pas.
         ]]>
     </string>
 
@@ -811,7 +814,7 @@
         <br>- J\'accepte et je suis d\'accord sur le fait de ne pas pouvoir demander de remboursement à cause de bugs, les erreurs de programme causées par des modifications du programme, de l\'environnement matériel ou par l\'utilisation d\'autres applications.
         <br>- Toute vente est définitive et ne peut espérer un remboursement (sauf via la politique d\'indemnisation de Google).
         <br>- Il n\'y a aucune garantie fournie.</p>
-        <p><i>Après l'achat vous devez redémarrer l'appli.</i></p>
+        <p><i>Après l\'achat vous devez redémarrer l\'appli.</i></p>
     ]]></string>
 
     <string name="purchase_agree">J\'accepte les termes et conditions d\'utilisation.</string>
