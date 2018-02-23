@@ -158,7 +158,9 @@
     <string name="pref_text_conversion_summary">Cài đặt biểu tượng văn bản Band</string>
     <string name="pref_cat_text_conversion">Tín hiệu Band</string>
     <string name="pref_text_conversion_title">Chuyển đổi ký tự có dấu</string>
-    <string name="pref_text_conversion_summary_on">Chuyển đổi ký tự không nhận diện</string>
+    <string name="pref_text_conversion_summary_on">Chuyển đổi ký tự không nhận diện, turn off if the Band supports your language or you have installed custom font firmware</string>
+    <string name="pref_text_length">Text length, depends on the font used (for example Chinese or Cyrillic characters)</string>
+    <string name="pref_text_length_summary_on">%1$,d characters</string>
 
     <string name="pref_text_conversion_description_title">Mô tả</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -194,8 +196,11 @@
     <string name="pref_dnd_title">Chế độ không làm phiền</string>
     <string name="pref_dnd_summary">State of controllers in do not disturb mode</string>
     <string name="pref_dnd_auto_title">Automatic do not disturb mode</string>
-    <string name="pref_dnd_auto_summary">Controlled by the phone\'s do not disturb mode</string>
+    <string name="pref_dnd_auto_summary">Controlled by the phone\'s do not disturb mode, it has a higher priority than the scheduled do not disturb mode</string>
+    <string name="pref_dnd_auto_vibrate">Vibration (silent)</string>
+    <string name="pref_dnd_auto_silent">Do not disturb</string>
     <string name="pref_dnd_scheduled_title">Scheduled do not disturb mode</string>
+    <string name="pref_dnd_scheduled_new_title">Tiêu đề</string>
     <string name="pref_dnd_remember_state_summary">Vào lúc kết thúc chế độ không làm phiền, bật tất cả mọi thứ hoặc khôi phục trạng thái mặc định như lúc đầu</string>
     <string name="pref_dnd_remember_state_on_title">Khôi phục tất cả vào lúc kết thúc</string>
     <string name="pref_dnd_remember_state_off_title">Bật tất cả vào lúc kết thúc</string>
