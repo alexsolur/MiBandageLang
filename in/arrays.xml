@@ -176,16 +176,16 @@
     </integer-array>
 
     <string-array name="notification_group_text_content_slice">
-        <item>1 keping (1-18 chars)</item>
-        <item>2 keping (1-36 chars)</item>
-        <item>3 keping (1-54 chars)</item>
-        <item>4 keping (1-72 chars)</item>
-        <item>5 keping (1-90 chars)</item>
-        <item>6 keping (1-108 chars)</item>
-        <item>7 keping (1-126 chars)</item>
-        <item>8 keping (1-144 chars)</item>
-        <item>9 keping (1-162 chars)</item>
-        <item>10 keping (1-180 chars)</item>
+        <item>1 keping (1-%1$,d chars)</item>
+        <item>2 keping (1-%1$,d chars)</item>
+        <item>3 keping (1-%1$,d chars)</item>
+        <item>4 keping (1-%1$,d chars)</item>
+        <item>5 keping (1-%1$,d chars)</item>
+        <item>6 keping (1-%1$,d chars)</item>
+        <item>7 keping (1-%1$,d chars)</item>
+        <item>8 keping (1-%1$,d chars)</item>
+        <item>9 keping (1-%1$,d chars)</item>
+        <item>10 keping (1-%1$,d chars)</item>
     </string-array>
 
     <integer-array name="notification_group_text_content_slice_values">
@@ -258,6 +258,7 @@
         <item>Deutsche</item>
         <item>Čeština</item>
         <item>Français</item>
+        <item>中文</item>
     </string-array>
 
     <string-array name="pref_language_values">
@@ -275,5 +276,6 @@
         <item>de</item>
         <item>cs</item>
         <item>fr</item>
+        <item>zh</item>
     </string-array>
 </resources>

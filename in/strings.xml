@@ -158,7 +158,9 @@
     <string name="pref_text_conversion_summary">Pengaturan ikon teks Band</string>
     <string name="pref_cat_text_conversion">Tanda Band</string>
     <string name="pref_text_conversion_title">Konversi karakter</string>
-    <string name="pref_text_conversion_summary_on">Karakter konversi tidak dikenal</string>
+    <string name="pref_text_conversion_summary_on">Karakter konversi tidak dikenal, turn off if the Band supports your language or you have installed custom font firmware</string>
+    <string name="pref_text_length">Text length, depends on the font used (for example Chinese or Cyrillic characters)</string>
+    <string name="pref_text_length_summary_on">%1$,d characters</string>
 
     <string name="pref_text_conversion_description_title">Deskripsi</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -194,8 +196,11 @@
     <string name="pref_dnd_title">Mode jangan ganggu</string>
     <string name="pref_dnd_summary">State of controllers in do not disturb mode</string>
     <string name="pref_dnd_auto_title">Automatic do not disturb mode</string>
-    <string name="pref_dnd_auto_summary">Controlled by the phone\'s do not disturb mode</string>
+    <string name="pref_dnd_auto_summary">Controlled by the phone\'s do not disturb mode, it has a higher priority than the scheduled do not disturb mode</string>
+    <string name="pref_dnd_auto_vibrate">Vibration (silent)</string>
+    <string name="pref_dnd_auto_silent">Do not disturb</string>
     <string name="pref_dnd_scheduled_title">Scheduled do not disturb mode</string>
+    <string name="pref_dnd_scheduled_new_title">Judul</string>
     <string name="pref_dnd_remember_state_summary">Pada akhir mode jangan ganggu, aktifkan semua balutan atau pulihkan keadaan seperti semula pada saat mulai</string>
     <string name="pref_dnd_remember_state_on_title">Keadaan pada akhir pemulihan balutan</string>
     <string name="pref_dnd_remember_state_off_title">Aktifkan semua balutan di akhir</string>
