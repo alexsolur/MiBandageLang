@@ -176,16 +176,16 @@
     </integer-array>
 
     <string-array name="notification_group_text_content_slice">
-        <item>1 段 (1-18 字符)</item>
-        <item>2 段 (1-36 字符)</item>
-        <item>3 段 (1-54 字符)</item>
-        <item>4 段 (1-72 字符)</item>
-        <item>5 段 (1-90 字符)</item>
-        <item>6 段 (1-108 字符)</item>
-        <item>7 段 (1-126 字符)</item>
-        <item>8 段 (1-144 字符)</item>
-        <item>9 段 (1-162 字符)</item>
-        <item>10 段 (1-180 字符)</item>
+        <item>1 段 (1-%1$,d 字符)</item>
+        <item>2 段 (1-%1$,d 字符)</item>
+        <item>3 段 (1-%1$,d 字符)</item>
+        <item>4 段 (1-%1$,d 字符)</item>
+        <item>5 段 (1-%1$,d 字符)</item>
+        <item>6 段 (1-%1$,d 字符)</item>
+        <item>7 段 (1-%1$,d 字符)</item>
+        <item>8 段 (1-%1$,d 字符)</item>
+        <item>9 段 (1-%1$,d 字符)</item>
+        <item>10 段 (1-%1$,d 字符)</item>
     </string-array>
 
     <integer-array name="notification_group_text_content_slice_values">
