@@ -140,13 +140,13 @@
     <string name="pref_call_text_summary_on"><![CDATA[Ενεργό (περισσότερες πληροφορίες: <i>Ρυθμίσεις/Ρυθμίσεις εικονιδίων κειμένου)</i>]]></string>
 
     <string name="pref_call_net_text_title">Σήμα εισερχόμενης κλήσης διαδικτύου, εμφάνιση ταυτότητας καλούντος</string>
-    <string name="pref_call_net_text_summary_on">Viber, WhatsApp, Line</string>
+    <string name="pref_call_net_text_summary_on">WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
     <string name="pref_cat_call_missed">Αναπάντητη κλήση</string>
     <string name="pref_call_missed_title">Σήμα αναπάντητης κλήσης</string>
 
     <string name="pref_call_missed_net_title">Αναπάντητη κλήση διαδικτύου, εμφάνιση ταυτότητας καλούντος</string>
-    <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
+    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
     <string name="pref_call_missed_alert_title">Σήμα Band</string>
 
@@ -181,6 +181,24 @@
     <string name="pref_mi_band_lift_wrist_title">Σήκωσε τον καρπό για να δείς πληροφορίες</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Λειτουργία μην ενοχλείτε</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Ενεργό (στην καθορισμένη περίοδο δεν θα εμφανίζει τις πληροφορίες, για αύτη τη ρύθμιση η σύνδεση Bluetooth είναι απαραίτητη)</string>
+
+    <string name="pref_battery_phone">Phone battery</string>
+    <string name="pref_battery_phone_summary">Low and full battery level notifications</string>
+    <string name="pref_cat_battery_phone_low">Low battery level</string>
+    <string name="pref_battery_phone_low_title">Ειδοποίηση χαμηλής στάθμης μπαταρίας</string>
+    <string name="pref_battery_phone_low_level_title">Χαμηλή στάθμη μπαταρίας</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Διάστημα επανάληψης</string>
+    <string name="pref_cat_battery_phone_full">Full battery level</string>
+    <string name="pref_battery_phone_full_title">Full battery notification</string>
+    <string name="pref_battery_phone_full_plugged_ac">AC charger power source</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB port power source</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Wireless power source</string>
+    <string name="pref_battery_phone_full_repeat_interval_title">Διάστημα επανάληψης</string>
+
+    <!-- Mi Band 2 max. 18 chars with 100% -->
+    <string name="pref_battery_phone_mi_band_message">Phone batt.: %1$,d%%</string>
+    <!-- Other Bands-->
+    <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
 
     <string name="pref_language">Ρυθμίσεις γλώσσας</string>
     <string name="pref_cat_language">Γλώσσα</string>
@@ -335,6 +353,14 @@
     <string name="notification_group_sample_sms">Εμφάνιση κειμένου SMS</string>
     <string name="notification_group_sample_facebook">Εμφάνιση κειμένου Messenger</string>
     <string name="notification_group_sample_whatsapp">Εμφάνιση κειμένου WhatsApp</string>
+
+    <string name="notification_edit_play_text_title">Notification title</string>
+    <string name="notification_edit_play_text_content">Notification content:
+    Με τον όρο Lorem ipsum αναφέρονται τα κείμενα εκείνα τα οποία είναι ακατάληπτα, δεν μπορεί δηλαδή κάποιος να βγάλει κάποιο λογικό νόημα από αυτά, και έχουν δημιουργηθεί με σκοπό να παρουσιάσουν στον αναγνώστη μόνο τα γραφιστικά χαρακτηριστικά, αυτά καθ\' εαυτά, ενός κειμένου (π.χ. γραμματοσειρά, μέγεθος και χρώμα γραμμάτων) ή μιας οπτικής παρουσίασης και όχι να εκφέρουν γραπτό λόγο.
+        \nΤα κείμενα αυτά αρχίζουν συνήθως με τον όρο αυτό και χρησιμοποιούνται πολύ συχνά στη γραφιστική.
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: επιλέξτε αυτό το εικονίδιο για να εμφανιστεί στις ειδοποιήσεις τίτλο/περιεχόμενο.]]></string>
+
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Προκαθορισμένες εφαρμογές και εικονίδια σημάτων του Band:
@@ -658,6 +684,8 @@
 
     <string name="info_dialog_time"><![CDATA[
         <p><b>Απενεργοποιήστε την ειδοποίηση,την αντίστροφη μέτρηση και το χρονόμετρο πριν αφαιρεθεί η εφαρμογή.</b></p>
+        <img src="ic_device_alarm"> <b><u>Ειδοποίηση όταν ακούγεται το ξυπνητήρι του τηλεφώνου</u></b>
+        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from a Google Play.</p>
         <img src="ic_miband_bell"> <b><u>Κουδούνι</u></b>
         <p>Σύνδεση Bluetooth είναι απαραίτητη το κουδούνι χτυπάει απλά μόνο μία φορά για 10 δευτερόλεπτα.</p>
         <img src="ic_alarm"> <b><u>Ειδοποίηση</u></b>
@@ -821,6 +849,7 @@
         <p><i>Μετά την αγορά θα πρέπει να επανεκκινήσετε την εφαρμογή.</i></p>
     ]]></string>
 
+    <!--<string name="purchase_price">Τιμή:</string>-->
     <string name="purchase_agree">Συμφωνώ με τους όρους και τις προυποθέσεις.</string>
     <string name="purchase_order_id">Αριθμός παραγγελίας</string>
     <string name="purchase_order_id_help">Αντιγραφή από:
