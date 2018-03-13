@@ -140,13 +140,13 @@
     <string name="pref_call_text_summary_on"><![CDATA[Aktiviert (mehr Informationen: <i>Einstellungen/Einstellungen zu Textikonen)</i>]]></string>
 
     <string name="pref_call_net_text_title">Eingehendes Signal eines Internetanrufs, zeige Telefonnummer des Anrufers an</string>
-    <string name="pref_call_net_text_summary_on">Viber, WhatsApp, Line</string>
+    <string name="pref_call_net_text_summary_on">WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
     <string name="pref_cat_call_missed">Verpasster Anruf</string>
     <string name="pref_call_missed_title">Signal eines verpassten Anrufes</string>
 
     <string name="pref_call_missed_net_title">Verpasstes Signal eines Internetanrufs, zeige Telefonnummer des Anrufers an</string>
-    <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
+    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
     <string name="pref_call_missed_alert_title">Band Signal</string>
 
@@ -181,6 +181,24 @@
     <string name="pref_mi_band_lift_wrist_title">Für Informationen Handgelenk anheben</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Nicht Stören-Modus</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Aktiviert (in dem festgelegten Zeitraum werden keine Informationen angezeigt, für die korrekte Funktionsweise wird die Bluetooth-Verbindung zum Gerät benötigt.)</string>
+
+    <string name="pref_battery_phone">Phone battery</string>
+    <string name="pref_battery_phone_summary">Low and full battery level notifications</string>
+    <string name="pref_cat_battery_phone_low">Low battery level</string>
+    <string name="pref_battery_phone_low_title">Low battery notification</string>
+    <string name="pref_battery_phone_low_level_title">Battery level threshold</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Repeat interval</string>
+    <string name="pref_cat_battery_phone_full">Full battery level</string>
+    <string name="pref_battery_phone_full_title">Full battery notification</string>
+    <string name="pref_battery_phone_full_plugged_ac">AC charger power source</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB port power source</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Wireless power source</string>
+    <string name="pref_battery_phone_full_repeat_interval_title">Repeat interval</string>
+
+    <!-- Mi Band 2 max. 18 chars with 100% -->
+    <string name="pref_battery_phone_mi_band_message">Phone batt.: %1$,d%%</string>
+    <!-- Other Bands-->
+    <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
 
     <string name="pref_language">Sprache</string>
     <string name="pref_cat_language">Sprache</string>
@@ -335,6 +353,13 @@
     <string name="notification_group_sample_sms">SMS text display</string>
     <string name="notification_group_sample_facebook">Messenger text display</string>
     <string name="notification_group_sample_whatsapp">WhatsApp text display</string>
+
+    <string name="notification_edit_play_text_title">Benachrichtigungstitel</string>
+    <string name="notification_edit_play_text_content">Benachrichtigungsinhalt:
+    \"Lorem ipsum dolor sit amet, consectetur adipisici elit, …\" ist ein Blindtext, der nichts bedeuten soll, sondern als Platzhalter im Layout verwendet wird, um einen Eindruck vom fertigen Dokument zu erhalten.
+        \nDie Verteilung der Buchstaben und der Wortlängen des pseudo-lateinischen Textes entspricht in etwa der natürlichen lateinischen Sprache. Der Text ist absichtlich unverständlich, damit der Betrachter nicht durch den Inhalt abgelenkt wird.
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> Emblem: Wählen Sie dieses Emblem um den Inhalt/Titel der Benachrichtigung anzuzeigen.]]></string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Signale der vordefinierten App und der Band-Embleme
@@ -658,6 +683,8 @@
 
     <string name="info_dialog_time"><![CDATA[
         <p><b>Deaktivieren Sie sowohl den Alarm, Timer als auch die Stoppuhr bevor Sie die App deinstallieren.</b></p>
+        <img src="ic_device_alarm"> <b><u>Signal when phone alarm sounds</u></b>
+        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from a Google Play.</p>
         <img src="ic_miband_bell"> <b><u>Glocke</u></b>
         <p>Für den Alarm wird eine Bluetooth-Verbindung benötigt, er wird nur einmal für 10 Sek. aktiv sein.</p>
         <img src="ic_alarm"> <b><u>Alarm</u></b>
@@ -821,6 +848,7 @@
         <p><i>Bitte starten Sie die App nach dem Kauf neu.</i></p>
     ]]></string>
 
+    <!--<string name="purchase_price">Preis:</string>-->
     <string name="purchase_agree">Ich aktzeptiere die Geschäftsbedingungen.</string>
     <string name="purchase_order_id">Bestellungs-ID</string>
     <string name="purchase_order_id_help">Kopie von:
