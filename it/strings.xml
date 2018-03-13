@@ -140,13 +140,13 @@
     <string name="pref_call_text_summary_on"><![CDATA[On (maggiori dettagli: <i>Impostazioni/Impostazione icona con testi)</i>]]></string>
 
     <string name="pref_call_net_text_title">ID chiamante per chiamate voip</string>
-    <string name="pref_call_net_text_summary_on">Viber, WhatsApp, Line</string>
+    <string name="pref_call_net_text_summary_on">WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
     <string name="pref_cat_call_missed">Chiamate perse</string>
     <string name="pref_call_missed_title">Notifica chiamata persa</string>
 
     <string name="pref_call_missed_net_title">Chiamate voip perse </string>
-    <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
+    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
     <string name="pref_call_missed_alert_title">Notifica Band</string>
 
@@ -159,8 +159,8 @@
     <string name="pref_cat_text_conversion">Notifica Band</string>
     <string name="pref_text_conversion_title">Converti caratteri</string>
     <string name="pref_text_conversion_summary_on">Converti caratteri non riconosciuti, disattivalo se la tua Band supporta la tua lingua o hai installato firmware con caratteri personalizzati</string>
-   <string name="pref_text_length">Lunghezza testo, dipende dal carattere usato (per esempio caratteri cinesi o cirillico)</string>
-   <string name="pref_text_length_summary_on">%1$,d caratteri</string>
+    <string name="pref_text_length">Lunghezza testo, dipende dal carattere usato (per esempio caratteri cinesi o cirillico)</string>
+    <string name="pref_text_length_summary_on">%1$,d caratteri</string>
 
     <string name="pref_text_conversion_description_title">Descrizione</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -181,6 +181,24 @@
     <string name="pref_mi_band_lift_wrist_title">Solleva il polso per visualizzare le info</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Modalità non disturbare</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">On (nel periodo specificato non mostra le info, richiesta connessione Bluetooth)</string>
+
+    <string name="pref_battery_phone">Phone battery</string>
+    <string name="pref_battery_phone_summary">Low and full battery level notifications</string>
+    <string name="pref_cat_battery_phone_low">Low battery level</string>
+    <string name="pref_battery_phone_low_title">Notifica basso livello batteria</string>
+    <string name="pref_battery_phone_low_level_title">Basso livello batteria</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Intervallo ripetizione</string>
+    <string name="pref_cat_battery_phone_full">Full battery level</string>
+    <string name="pref_battery_phone_full_title">Full battery notification</string>
+    <string name="pref_battery_phone_full_plugged_ac">AC charger power source</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB port power source</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Wireless power source</string>
+    <string name="pref_battery_phone_full_repeat_interval_title">Intervallo ripetizione</string>
+
+    <!-- Mi Band 2 max. 18 chars with 100% -->
+    <string name="pref_battery_phone_mi_band_message">Phone batt.: %1$,d%%</string>
+    <!-- Other Bands-->
+    <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
 
     <string name="pref_language">Lingua</string>
     <string name="pref_cat_language">Lingua</string>
@@ -335,6 +353,13 @@
     <string name="notification_group_sample_sms">Visualizza testo SMS</string>
     <string name="notification_group_sample_facebook">Visualizza testo Messenger</string>
     <string name="notification_group_sample_whatsapp">Visualizza testo WhatsApp</string>
+
+   <string name="notification_edit_play_text_title">Notification title</string>
+   <string name="notification_edit_play_text_content">Notification content:
+    Il lorem ipsum è un testo segnaposto utilizzato da grafici, designer, programmatori e tipografi a modo riempitivo per bozzetti e prove grafiche[1]. È un testo privo di senso, composto da parole (o parti di parole) in lingua latina, riprese pseudocasualmente da uno scritto di Cicerone del 45 a.C, a volte alterate con l\'inserzione di passaggi ironici.
+      \n La caratteristica principale è data dal fatto che offre una distribuzione delle lettere uniforme, apparendo come un normale blocco di testo leggibile.
+    </string>
+   <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.]]></string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Icone predefinite in Band:
@@ -657,6 +682,8 @@
 
     <string name="info_dialog_time"><![CDATA[
         <p><b>Disattiva le sveglie, i timer e i cronometri prima di rimuovere questa app.</b></p>
+        <img src="ic_device_alarm"> <b><u>Vibra quando suona la sveglia del dispositivo</u></b>
+        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from a Google Play.</p>
         <img src="ic_miband_bell"> <b><u>Campanella</u></b>
         <p>Richiede connessione Bluetooth per l\'allarme, e si può ricevere una sola volta per 10 secondi.</p>
         <img src="ic_alarm"> <b><u>Sveglia</u></b>
@@ -820,6 +847,7 @@
         <p><i>Dopo l\'acquisto bisogna riavviare l\'app.</i></p>
     ]]></string>
 
+    <!--<string name="purchase_price">Prezzo:</string>-->
     <string name="purchase_agree">Accetto i termini e le condizioni.</string>
     <string name="purchase_order_id">ID Ordine</string>
     <string name="purchase_order_id_help">Copia da:
