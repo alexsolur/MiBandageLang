@@ -140,13 +140,13 @@
     <string name="pref_call_text_summary_on"><![CDATA[On (more information: <i>Settings/Text icons settings)</i>]]></string>
 
     <string name="pref_call_net_text_title">网络电话呼入，来电显示</string>
-    <string name="pref_call_net_text_summary_on">Viber, WhatsApp, Line</string>
+    <string name="pref_call_net_text_summary_on">WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
     <string name="pref_cat_call_missed">未接来电</string>
     <string name="pref_call_missed_title">未接来电通知</string>
 
     <string name="pref_call_missed_net_title">错过网络电话通知, 来电显示</string>
-    <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
+    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
     <string name="pref_call_missed_alert_title">手环连接</string>
 
@@ -181,6 +181,24 @@
     <string name="pref_mi_band_lift_wrist_title">举起手腕查看</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">勿扰模式</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">开 (在指定时间内不显示信息，需连接蓝牙设置)</string>
+
+    <string name="pref_battery_phone">Phone battery</string>
+    <string name="pref_battery_phone_summary">Low and full battery level notifications</string>
+    <string name="pref_cat_battery_phone_low">Low battery level</string>
+    <string name="pref_battery_phone_low_title">电量不足通知</string>
+    <string name="pref_battery_phone_low_level_title">电量阈值</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">重复间隔</string>
+    <string name="pref_cat_battery_phone_full">Full battery level</string>
+    <string name="pref_battery_phone_full_title">Full battery indicator</string>
+    <string name="pref_battery_phone_full_plugged_ac">AC charger power source</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB port power source</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Wireless power source</string>
+    <string name="pref_battery_phone_full_repeat_interval_title">重复间隔</string>
+
+    <!-- Mi Band 2 max. 18 chars with 100% -->
+    <string name="pref_battery_phone_mi_band_message">Phone batt.: %1$,d%%</string>
+    <!-- Other Bands-->
+    <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
 
     <string name="pref_language">语言</string>
     <string name="pref_cat_language">语言</string>
@@ -335,6 +353,12 @@
     <string name="notification_group_sample_sms">SMS文本显示</string>
     <string name="notification_group_sample_facebook">Messenger文本显示</string>
     <string name="notification_group_sample_whatsapp">WhatsApp文本显示</string>
+
+    <string name="notification_edit_play_text_title">Notification title</string>
+    <string name="notification_edit_play_text_content">Notification content:
+    北京市，简称“京”，是中華人民共和國首都、直辖市、中国国家中心城市和京津冀城市群的重要组成部分，是中國的政治、文化、科技创新和国际交往中心，具有重要的国际影响力.
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> 图标：选择此图标来显示通知标题/内容.]]></string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Predefined app and Band icon signals:
@@ -659,6 +683,8 @@
 
     <string name="info_dialog_time"><![CDATA[
         <p><b>在移除应用前关闭闹钟，计时器和秒表.</b></p>
+        <img src="ic_device_alarm"> <b><u>手机闹铃响起时</u></b>
+        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from a Google Play.</p>
         <img src="ic_miband_bell"> <b><u>Bell</u></b>
         <p>闹铃需要蓝牙连接，10秒发送一次.</p>
         <img src="ic_alarm"> <b><u>Alarm</u></b>
@@ -822,6 +848,7 @@
         <p><i>购买后你可能需要重启应用.</i></p>
     ]]></string>
 
+    <!--<string name="purchase_price">价钱:</string>-->
     <string name="purchase_agree">我同意条款和条件.</string>
     <string name="purchase_order_id">订单ID</string>
     <string name="purchase_order_id_help">复制自:
