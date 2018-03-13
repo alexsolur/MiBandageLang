@@ -140,13 +140,13 @@
     <string name="pref_call_text_summary_on"><![CDATA[Включено (подробнее: <i>Настройки/Настройки текста)</i>]]></string>
 
     <string name="pref_call_net_text_title">Входящий интернет-вызов, отображение ID звонящего</string>
-    <string name="pref_call_net_text_summary_on">Viber, WhatsApp, Line</string>
+    <string name="pref_call_net_text_summary_on">WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
     <string name="pref_cat_call_missed">Пропущенный звонок</string>
     <string name="pref_call_missed_title">Уведомление о пропущенном звонке</string>
 
     <string name="pref_call_missed_net_title">Пропущенный интернет-вызов, отображение ID звонящего</string>
-    <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
+    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
     <string name="pref_call_missed_alert_title">Уведомление Band</string>
 
@@ -181,6 +181,24 @@
     <string name="pref_mi_band_lift_wrist_title">Поворот запястья</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Режим \"Не беспокоить\"</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Включено (в заданный промежуток времени отображение отключено, необходимо Bluetooth-соединение)</string>
+
+    <string name="pref_battery_phone">Phone battery</string>
+    <string name="pref_battery_phone_summary">Low and full battery level notifications</string>
+    <string name="pref_cat_battery_phone_low">Low battery level</string>
+    <string name="pref_battery_phone_low_title">Уведомление о низком заряде</string>
+    <string name="pref_battery_phone_low_level_title">Низкий уровень</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Периодичность</string>
+    <string name="pref_cat_battery_phone_full">Full battery level</string>
+    <string name="pref_battery_phone_full_title">Full battery notification</string>
+    <string name="pref_battery_phone_full_plugged_ac">AC charger power source</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB port power source</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Wireless power source</string>
+    <string name="pref_battery_phone_full_repeat_interval_title">Периодичность</string>
+
+    <!-- Mi Band 2 max. 18 chars with 100% -->
+    <string name="pref_battery_phone_mi_band_message">Phone batt.: %1$,d%%</string>
+    <!-- Other Bands-->
+    <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
 
     <string name="pref_language">Язык</string>
     <string name="pref_cat_language">Язык</string>
@@ -335,6 +353,13 @@
     <string name="notification_group_sample_sms">Текст SMS сообщения</string>
     <string name="notification_group_sample_facebook">Текст сообщения Messenger</string>
     <string name="notification_group_sample_whatsapp">Текст сообщения WhatsApp</string>
+
+    <string name="notification_edit_play_text_title">Notification title</string>
+    <string name="notification_edit_play_text_content">Notification content:
+    Lorem ipsum - классическая панграмма, условный, зачастую бессмысленный текст-заполнитель, вставляемый в макет страницы. Используется в качестве заполнителя по крайней мере с XVI века.
+        \nЯвляется искажённым отрывком из философского трактата Марка Туллия Цицерона «О пределах добра и зла», написанного в 45 году до н. э. на латинском языке, обнаружение сходства атрибутируется Ричарду МакКлинтоку.
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT">: выберите эту иконку, для отображения заголовка/текста уведомлений.]]></string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Предустановленные иконки уведомлений Band и приложений:
@@ -657,6 +682,8 @@
 
     <string name="info_dialog_time"><![CDATA[
         <p><b>Выключите будильники, таймер и секундомер перед удалением приложения.</b></p>
+        <img src="ic_device_alarm"> <b><u>Уведомление при будильнике на устройстве</u></b>
+        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from a Google Play.</p>
         <img src="ic_miband_bell"> <b><u>Уведомление</u></b>
         <p>Bluetooth-соединение необходимо для сигнала, один сигнал длительностью 10 секунд.</p>
         <img src="ic_alarm"> <b><u>Будильник</u></b>
@@ -820,6 +847,7 @@
         <p><i>После покупки перезагрузите приложение.</i></p>
     ]]></string>
 
+    <!--<string name="purchase_price">Цена:</string>-->
     <string name="purchase_agree">Я согласен с правилами и условиями.</string>
     <string name="purchase_order_id">ID заказа</string>
     <string name="purchase_order_id_help">Скопируйте с:
