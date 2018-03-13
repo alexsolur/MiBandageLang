@@ -61,7 +61,7 @@
     <string name="mi_band_battery_settings">Definições de bateria</string>
     <string name="mi_band_battery_remaining">Tempo restante de carga até</string>
     <string name="mi_band_battery_notification">Notificação de Bateria baixa</string>
-    <string name="mi_band_battery_notification_level">Bateria baixa:</string>
+    <string name="mi_band_battery_notification_level">Bateria baixa</string>
     <string name="mi_band_battery_notification_repeat_interval">Repetir notificação a cada</string>
     <string name="mi_band_battery_notification_shade">Notificar no dispositivo</string>
     <string name="mi_band_battery_notification_shade_ongoing">Notificação persistente (Não removível)</string>
@@ -140,13 +140,13 @@
     <string name="pref_call_text_summary_on"><![CDATA[Ligado (mais informação: <i>Definições/Ícone de texto)</i>]]></string>
 
     <string name="pref_call_net_text_title">Aviso de chamada online recebida; mostrar o ID do chamador</string>
-    <string name="pref_call_net_text_summary_on">Viber; WhatsApp; Line</string>
+    <string name="pref_call_net_text_summary_on">WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
     <string name="pref_cat_call_missed">Chamada perdida</string>
     <string name="pref_call_missed_title">Aviso de chamada perdida</string>
 
     <string name="pref_call_missed_net_title">Aviso de chamada online perdida; mostrar o ID do chamador</string>
-    <string name="pref_call_missed_net_summary_on">Viber; WhatsApp; Skype; Line; Messenger</string>
+    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
     <string name="pref_call_missed_alert_title">Aviso da Band</string>
 
@@ -181,6 +181,24 @@
     <string name="pref_mi_band_lift_wrist_title">Rodar o braço para ver a informação</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Modo DND</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Ligado (No período de tempo especificado não vai ser apresentada informação; Conexão Bluetooth necessária para configurar)</string>
+
+    <string name="pref_battery_phone">Phone battery</string>
+    <string name="pref_battery_phone_summary">Low and full battery level notifications</string>
+    <string name="pref_cat_battery_phone_low">Low battery level</string>
+    <string name="pref_battery_phone_low_title">Notificação de Bateria baixa</string>
+    <string name="pref_battery_phone_low_level_title">Bateria baixa</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Repetir notificação a cada</string>
+    <string name="pref_cat_battery_phone_full">Full battery level</string>
+    <string name="pref_battery_phone_full_title">Full battery notification</string>
+    <string name="pref_battery_phone_full_plugged_ac">AC charger power source</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB port power source</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Wireless power source</string>
+    <string name="pref_battery_phone_full_repeat_interval_title">Repetir notificação a cada</string>
+
+    <!-- Mi Band 2 max. 18 chars with 100% -->
+    <string name="pref_battery_phone_mi_band_message">Phone batt.: %1$,d%%</string>
+    <!-- Other Bands-->
+    <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
 
     <string name="pref_language">Linguagem</string>
     <string name="pref_cat_language">Linguagem</string>
@@ -335,6 +353,13 @@
     <string name="notification_group_sample_sms">Mostrar texto de SMS</string>
     <string name="notification_group_sample_facebook">Mostrar texto de Messenger</string>
     <string name="notification_group_sample_whatsapp">Mostrar texto de WhatsApp</string>
+
+    <string name="notification_edit_play_text_title">Notification title</string>
+    <string name="notification_edit_play_text_content">Notification content:
+    Em design gráfico e editoração, Lorem ipsum é um texto utilizado para preencher o espaço de texto em publicações (jornais, revistas, e websites) e testar aspectos visuais(cores, fontes), com a finalidade de verificar o lay-out, tipografia e formatação antes de utilizar conteúdo real.
+        \nMuitas vezes este texto também é utilizado em catálogos de tipografia para demonstrar textos e títulos escritos com as fontes.
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> escolha este ícone para mostrar notificações com título/conteúdo]]></string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Ícones da Mi Bnad 2 e aplicação correspondente:
@@ -657,6 +682,8 @@
 
     <string name="info_dialog_time"><![CDATA[
         <p><b>Desligue o alarme, o temporizador e o cronómetro antes de remover a aplicação.</b></p>
+        <img src="ic_device_alarm"> <b><u>Emitir sinal quando o alarme do dispositivo tocar</u></b>
+        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from a Google Play.</p>
         <p>A mensagem que aparece no menu \'DESPERTADOR\' é o título do respetivo despertador</p>
         <img src="ic_miband_bell"> <b><u>Sino</u></b>
         <p>Conexão Bluetooth necessária para o alarme (1 vez em 10 segundos).</p>
@@ -820,6 +847,7 @@
         <p><i>Depois da compra, você precisa de reiniciar a aplicação.</i></p>
     ]]></string>
 
+    <!--<string name="purchase_price">Preço:</string>-->
     <string name="purchase_agree">Eu concordo com os Termos e Condições.</string>
     <string name="purchase_order_id">ID da encomenda</string>
     <string name="purchase_order_id_help">Copia de:
