@@ -140,13 +140,13 @@
     <string name="pref_call_text_summary_on"><![CDATA[On (plus d\'information: <i>Settings/Text icons settings)</i>]]></string>
 
     <string name="pref_call_net_text_title">Alerte sur appels internet entrants, afficher l\'identité de l\'appelant</string>
-    <string name="pref_call_net_text_summary_on">Viber, WhatsApp, Line</string>
+    <string name="pref_call_net_text_summary_on">WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
     <string name="pref_cat_call_missed">Appels manqués</string>
     <string name="pref_call_missed_title">Alerte sur appels manqués</string>
 
     <string name="pref_call_missed_net_title">Alerte sur appels internet manqués, afficher l\'identité de l\'appelant</string>
-    <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
+    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
     <string name="pref_call_missed_alert_title">Alerte Band</string>
 
@@ -181,6 +181,24 @@
     <string name="pref_mi_band_lift_wrist_title">Soulevez le poignet pour afficher les informations</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Mode ne pas déranger</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Activé (aucune information ne sera affichée dans l\'intervalle spécifié, la connexion Bluetooth doit être établie pour effectuer ce réglage)</string>
+
+    <string name="pref_battery_phone">Phone battery</string>
+    <string name="pref_battery_phone_summary">Low and full battery level notifications</string>
+    <string name="pref_cat_battery_phone_low">Low battery level</string>
+    <string name="pref_battery_phone_low_title">Notification sur niveau de batterie faible</string>
+    <string name="pref_battery_phone_low_level_title">Seuil du niveau de batterie</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Intervalle de répétition</string>
+    <string name="pref_cat_battery_phone_full">Full battery level</string>
+    <string name="pref_battery_phone_full_title">Full battery notification</string>
+    <string name="pref_battery_phone_full_plugged_ac">AC charger power source</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB port power source</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Wireless power source</string>
+    <string name="pref_battery_phone_full_repeat_interval_title">Repeat interval</string>
+
+    <!-- Mi Band 2 max. 18 chars with 100% -->
+    <string name="pref_battery_phone_mi_band_message">Phone batt.: %1$,d%%</string>
+    <!-- Other Bands-->
+    <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
 
     <string name="pref_language">Langue</string>
     <string name="pref_cat_language">Langue</string>
@@ -335,6 +353,13 @@
     <string name="notification_group_sample_sms">Afficher le texte du SMS</string>
     <string name="notification_group_sample_facebook">Afficher le texte de Messenger</string>
     <string name="notification_group_sample_whatsapp">Afficher le texte de WhatsApp</string>
+
+    <string name="notification_edit_play_text_title">Notification title</string>
+    <string name="notification_edit_play_text_content">Notification content:
+    Le faux-texte (également appelé lorem ipsum, lipsum, ou bolo bolo1) est, en imprimerie, un texte sans signification, dont le seul objectif est de calibrer le contenu d\'une page par du texte, fût-il non éditorial, pour travailler sur la seule mise en forme de la page.
+        \n Le texte définitif (qui a une signification) prendra la place du faux-texte, une fois que la mise en forme sera jugée acceptable.
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icône: choisir cet icône pour afficher les notifications titre/contenu.]]></string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Alertes par défaut pour l\'appli et l\'icône du Band:
@@ -656,6 +681,8 @@
 
     <string name="info_dialog_time"><![CDATA[
         <p><b>Désactivez l\'alarme, le minuteur et le chronomètre avant de désinstaller l\'application.</b></p>
+        <img src="ic_device_alarm"> <b><u>Alerte lorsque l\'alarme du mobile sonne</u></b>
+        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from a Google Play.</p>
         <img src="ic_miband_bell"> <b><u>Sonnerie</u></b>
         <p>La connexion Bluetooth est nécessaire pour l\'alarme, cela alerte seulement une fois pendant 10 secondes.</p>
         <img src="ic_alarm"> <b><u>Alarme</u></b>
@@ -819,6 +846,7 @@
         <p><i>Après l\'achat vous devez redémarrer l\'appli.</i></p>
     ]]></string>
 
+    <!--<string name="purchase_price">Prix:</string>-->
     <string name="purchase_agree">J\'accepte les termes et conditions d\'utilisation.</string>
     <string name="purchase_order_id">N° de payement</string>
     <string name="purchase_order_id_help">Copier depuis:
