@@ -140,13 +140,13 @@
     <string name="pref_call_text_summary_on"><![CDATA[On (more information: <i>Settings/Text icons settings)</i>]]></string>
 
     <string name="pref_call_net_text_title">Tín hiệu cuộc gọi internet, hiện tên/ số người gọi</string>
-    <string name="pref_call_net_text_summary_on">Viber, WhatsApp, Line</string>
+    <string name="pref_call_net_text_summary_on">WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
     <string name="pref_cat_call_missed">Cuộc gọi nhỡ</string>
     <string name="pref_call_missed_title">Tín hiệu cuộc gọi nhỡ</string>
 
     <string name="pref_call_missed_net_title">Tín hiệu lỡ cuộc gọi internet, hiện tên/ số người gọi</string>
-    <string name="pref_call_missed_net_summary_on">Viber, WhatsApp, Skype, Line, Messenger</string>
+    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
     <string name="pref_call_missed_alert_title">Tín hiệu Band</string>
 
@@ -181,6 +181,24 @@
     <string name="pref_mi_band_lift_wrist_title">Nâng cổ tay để xem thông tin</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Chế độ không làm phiền</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Bật (trong thời hạn quy định sẽ không hiển thị các thông tin, kết nối Bluetooth là cần bật để cài đặt)</string>
+
+    <string name="pref_battery_phone">Phone battery</string>
+    <string name="pref_battery_phone_summary">Low and full battery level notifications</string>
+    <string name="pref_cat_battery_phone_low">Low battery level</string>
+    <string name="pref_battery_phone_low_title">Low battery indicator</string>
+    <string name="pref_battery_phone_low_level_title">Battery level threshold</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Repeat interval</string>
+    <string name="pref_cat_battery_phone_full">Full battery level</string>
+    <string name="pref_battery_phone_full_title">Full battery notification</string>
+    <string name="pref_battery_phone_full_plugged_ac">AC charger power source</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB port power source</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Wireless power source</string>
+    <string name="pref_battery_phone_full_repeat_interval_title">Repeat interval</string>
+
+    <!-- Mi Band 2 max. 18 chars with 100% -->
+    <string name="pref_battery_phone_mi_band_message">Phone batt.: %1$,d%%</string>
+    <!-- Other Bands-->
+    <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
 
     <string name="pref_language">Cài đặt ngôn ngữ</string>
     <string name="pref_cat_language">Ngôn ngữ</string>
@@ -335,6 +353,14 @@
     <string name="notification_group_sample_sms">SMS text display</string>
     <string name="notification_group_sample_facebook">Messenger text display</string>
     <string name="notification_group_sample_whatsapp">WhatsApp text display</string>
+
+    <string name="notification_edit_play_text_title">Notification title</string>
+    <string name="notification_edit_play_text_content">Notification content:
+    Hà Nội là thủ đô của nước Cộng hòa xã hội chủ nghĩa Việt Nam và cũng là kinh đô của hầu hết các vương triều phong kiến Việt trước đây. Do đó, lịch sử Hà Nội gắn liền với sự thăng trầm của lịch sử Việt Nam qua các thời kỳ.
+        \nHà Nội là thành phố lớn thứ 2 cả nước, sau Thành phố Hồ Chí Minh, đồng thời cũng là địa phương đứng thứ nhì về dân số với 7.742.200 người (năm 2017), sau Thành phố Hồ Chí Minh.
+        \nTuy nhiên, nếu tính những người cư trú không đăng ký thì dân số thực tế của thành phố này năm 2017 là hơn 8 triệu người. Hiện nay, thủ đô Hà Nội và Thành phố Hồ Chí Minh là đô thị loại đặc biệt của Việt Nam.
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.]]></string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Predefined app and Band icon signals:
@@ -658,11 +684,13 @@
 
     <string name="info_dialog_time"><![CDATA[
         <p><b>Turn off the alarm, timer and stopwatch before removing the application.</b></p>
+        <img src="ic_device_alarm"> <b><u>Signal when phone alarm sounds</u></b>
+        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from a Google Play.</p>
         <img src="ic_miband_bell"> <b><u>Bell</u></b>
         <p>Bluetooth connection is required for alarm, it alarms just only once for 10 seconds.</p>
         <img src="ic_alarm"> <b><u>Alarm</u></b>
         <p>Bluetooth connection is not required for alarm, app uses alarm function of Mi Fit to alert (overwrite 4. - 9. setting).
-        <br>The alarm will be repeated several times if the Band do not detect any movement (because it uses the factory alarm).
+        <br>The alarm will be repeated several times if the Band do not detect any movement (because it uses the Band\'s alarm).
         <br>Độ chính xác theo phút, Miband 2 không chính xác từng giây trong thời gian báo thức.</p>
         <p>Reminder signal requires Bluetooth connection.</p>
     ]]></string>
@@ -821,6 +849,7 @@
         <p><i>After purchasing you need to restart the app.</i></p>
     ]]></string>
 
+    <!--<string name="purchase_price">Giá bán:</string>-->
     <string name="purchase_agree">Tôi đồng ý với các Điều khoản và Điều kiện.</string>
     <string name="purchase_order_id">ID đơn hàng</string>
     <string name="purchase_order_id_help">Sao chép từ:
