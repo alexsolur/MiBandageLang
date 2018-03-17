@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_connected_have_notif_counter">
+        <item>Una volta ogni icona Band</item>
+        <item>Ogni notifica</item>
+        <item>1 \'app\' icon</item>
+        <item>2 \'app\' icon</item>
+        <item>3 \'app\' icon</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_counter_values">
+        <item>-2</item>
+        <item>-1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_interval">
+        <item>3 minuti</item>
+        <item>5 minuti</item>
+        <item>10 minuti</item>
+        <item>20 minuti</item>
+        <item>30 minuti</item>
+        <item>1 ora</item>
+        <item>2 ore</item>
+        <item>3 ore</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_interval_values">
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </string-array>
+
+    <string-array name="pref_abandoned_interval">
+        <item>1 minuto</item>
+        <item>2 minuti</item>
+        <item>3 minuti</item>
+        <item>4 minuti</item>
+        <item>5 minuti</item>
+        <item>6 minuti</item>
+        <item>7 minuti</item>
+        <item>8 minuti</item>
+        <item>9 minuti</item>
+        <item>10 minuti</item>
+    </string-array>
+
+    <integer-array name="pref_abandoned_interval_values">
+        <item>60000</item>
+        <item>120000</item>
+        <item>180000</item>
+        <item>240000</item>
+        <item>300000</item>
+        <item>360000</item>
+        <item>420000</item>
+        <item>480000</item>
+        <item>540000</item>
+        <item>600000</item>
+    </integer-array>
+
+    <string-array name="pref_abandoned_notif_interval">
+        <item>10 minuti</item>
+        <item>20 minuti</item>
+        <item>30 minuti</item>
+        <item>1 ora</item>
+        <item>2 ore</item>
+        <item>3 ore</item>
+    </string-array>
+
+    <integer-array name="pref_abandoned_notif_interval_values">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </integer-array>
+
+    <string-array name="notification_group_counter">
+        <item>Una segnalazione</item>
+        <item>Una per applicazione</item>
+        <item>Ogni notifica</item>
+    </string-array>
+
+    <string-array name="touch_call_mute_ringer_mode">
+        <item>Vibrazione</item>
+        <item>Non disturbare (Solo Sveglie)</item>
+    </string-array>
+
+    <string-array name="touch_music_player">
+        <item>Lettore musicale predefinito</item>
+        <item>Google Play Music</item>
+        <item>Spotify</item>
+    </string-array>
+
+    <string-array name="touch_music_player_values">
+        <item></item>
+        <item>com.google.android.music</item>
+        <item>com.spotify.music</item>
+    </string-array>
+
+    <string-array name="touch_music_info">
+        <item>Nessuna notifica</item>
+        <item>Artista#Titolo</item>
+        <item>Artista, Titolo</item>
+        <item>Titolo</item>
+    </string-array>
+
+    <string-array name="touch_music_info_values">
+        <item>NONE</item>
+        <item>ARTIST#TITLE</item>
+        <item>ARTIST_TITLE</item>
+        <item>TITLE</item>
+    </string-array>
+
+    <string-array name="touch_camera_app">
+        <item>Default (root is needed)</item>
+        <item>Open Camera</item>
+    </string-array>
+
+    <string-array name="touch_camera_app_values">
+        <item></item>
+        <item>net.sourceforge.opencamera</item>
+    </string-array>
+
+    <string-array name="pref_timer_time_interval_repeat">
+        <item>Off</item>
+        <item>1 minuti</item>
+        <item>2 minuti</item>
+        <item>3 minuti</item>
+        <item>4 minuti</item>
+        <item>5 minuti</item>
+        <item>6 minuti</item>
+        <item>7 minuti</item>
+        <item>8 minuti</item>
+        <item>9 minuti</item>
+        <item>10 minuti</item>
+        <item>11 minuti</item>
+        <item>12 minuti</item>
+        <item>13 minuti</item>
+        <item>14 minuti</item>
+        <item>15 minuti</item>
+        <item>20 minuti</item>
+        <item>30 minuti</item>
+        <item>40 minuti</item>
+        <item>50 minuti</item>
+        <item>1 ora</item>
+        <item>2 ore</item>
+        <item>3 ore</item>
+        <item>4 ore</item>
+        <item>5 ore</item>
+    </string-array>
+
+    <integer-array name="pref_timer_time_interval_repeat_values">
+        <item>0</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>180000</item>
+        <item>240000</item>
+        <item>300000</item>
+        <item>360000</item>
+        <item>420000</item>
+        <item>480000</item>
+        <item>540000</item>
+        <item>600000</item>
+        <item>660000</item>
+        <item>720000</item>
+        <item>780000</item>
+        <item>840000</item>
+        <item>900000</item>
+        <item>1200000</item>
+        <item>1800000</item>
+        <item>2400000</item>
+        <item>3000000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+        <item>10800000</item>
+        <item>14400000</item>
+        <item>18000000</item>
+    </integer-array>
+
+    <string-array name="notification_group_text_content_slice">
+        <item>1 linea (1-%1$,d caratteri)</item>
+        <item>2 linee (1-%1$,d caratteri)</item>
+        <item>3 linee (1-%1$,d caratteri)</item>
+        <item>4 linee (1-%1$,d caratteri)</item>
+        <item>5 linee (1-%1$,d caratteri)</item>
+        <item>6 linee (1-%1$,d caratteri)</item>
+        <item>7 linee (1-%1$,d caratteri)</item>
+        <item>8 linee (1-%1$,d caratteri)</item>
+        <item>9 linee (1-%1$,d caratteri)</item>
+        <item>10 linee (1-%1$,d caratteri)</item>
+    </string-array>
+
+    <integer-array name="notification_group_text_content_slice_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+
+    <string-array name="touch_recognition_press">
+        <item>Nessuno</item>
+        <item>Tocco</item>
+        <item>Doppio tocco</item>
+        <item>Tocco lungo</item>
+    </string-array>
+
+    <string-array name="touch_recognition_press_values">
+        <item>NONE</item>
+        <item>TOUCH</item>
+        <item>DOUBLE_TOUCH</item>
+        <item>LONG_TOUCH</item>
+    </string-array>
+
+    <string-array name="touch_recognition_start_trigger">
+        <item>Nessuno</item>
+        <item>Schema</item>
+        <item>Pressione prolungata del tasto</item>
+    </string-array>
+
+    <string-array name="touch_recognition_start_trigger_values">
+        <item>NONE</item>
+        <item>PATTERN</item>
+        <item>LONG_PRESS</item>
+    </string-array>
+
+    <string-array name="widget_event">
+        <item>Schermata bandages</item>
+        <item>Schermata attività</item>
+        <item>Schermata battiti</item>
+        <item>Misurazioni battiti</item>
+        <item>Schermata sveglia</item>
+    </string-array>
+
+    <string-array name="widget_event_values">
+        <item>LAUNCH_BANDAGES</item>
+        <item>LAUNCH_ACTIVITY</item>
+        <item>LAUNCH_PULSE</item>
+        <item>ACTION_PULSE</item>
+        <item>LAUNCH_TIME_ALARM</item>
+    </string-array>
+
+    <string-array name="pref_language">
+        <item>Default</item>
+        <item>Italiano</item>
+        <item>English</item>
+        <item>Magyar</item>
+        <item>Русский</item>
+        <item>Português</item>
+        <item>Türk</item>
+        <item>Ελληνικά</item>
+        <item>Tiếng Việt</item>
+        <item>Español</item>
+        <item>Indonesia</item>
+        <item>Deutsche</item>
+        <item>Čeština</item>
+        <item>Français</item>
+        <item>中文</item>
+    </string-array>
+
+    <string-array name="pref_language_values">
+        <item>DEFAULT</item>
+        <item>it</item>
+        <item>en</item>
+        <item>hu</item>
+        <item>ru</item>
+        <item>pt</item>
+        <item>tr</item>
+        <item>el</item>
+        <item>vi</item>
+        <item>es</item>
+        <item>in</item>
+        <item>de</item>
+        <item>cs</item>
+        <item>fr</item>
+        <item>zh</item>
+    </string-array>
+</resources>
