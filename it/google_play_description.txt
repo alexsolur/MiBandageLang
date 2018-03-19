@@ -1,43 +1,53 @@
-Questa app supporta solo Xiaomi Mi Band 2.
+Dispositivi supportati:<b>
+- Xiaomi Mi Band 2
+- Xiaomi Mi Band HRX
+- Huami Amazfit Bip (Pace Lite Youth)
+- Huami Amazfit Cor (MiDong)
+- Huami Amazfit Arc (A1603)
+</b>
 
 Mi Bandage richiede l'installazione dell'app ufficiale Mi Fit sullo stesso dispositivo. Come prima cosa dovrai eseguire l'accoppiamento della Xiaomi Mi Band 2 dall'app Mi Fit, dopo potrai usare Mi Bandage.
 
-<b>Utenti MIUI:</b>
+<b>Se hai problemi di connessione:</b>
 - Schermata app recenti: blocca Mi Bandage (tira già l'app e clicca sull'icona del lucchetto).
-- Schermata sicurezza: impostare Mi Bandage senza restrinzioni nella schermata batteria/app risparmio batteria.
-- Se la Mi Band 2 non viene trovata o ci sono problemi di sincronizzazione con l'app Mi Fit, provate a installare BToolkit, nRF Connect o app simili per la gestione bluetooth e rimuovete ogni dispositivo accoppiato.</b>
+- Impostazioni batteria/ottimizza batteria: imposta Mi Bandage su non ottimizzare
+- Attiva impostazioni/barra notifiche
+
+<b>Se il problema persiste:</b>
+- Riavvia lo smartphone
+- Scrivimi una email
 
 Funzioni:
 - Mostra stato batteria e durata stimata
-- <b>Chiamate ricevute con visualizzazione chiamate e con conversione automatica dei caratteri su Mi Band 2</b>
-- <b>Chiamate perse con visualizzazione chiamante su Mi Band 2</b>
-- <b>Visualizza i testi delle notifiche su Mi Band 2</b>
+- Chiamate ricevute classiche e voip con visualizzazione del chiamante
+- Chiamate perse con visualizzazione chiamante su Mi Band 2 e Amazfit
+- Rifiuta, rispondi, e silenzia una chiamata normale o voip
+- Conversione automatica dei caratteri su Mi Band 2 e Amazfit
+- Visualizza i testi delle notifiche sulla tua smartband
+- Visualizza le emoticon più comuni
 
-<b>Funzioni connettività Mi Band 2:</b>
+<b>Funzioni connettività Mi Band 2 e Amazfit:</b>
 - Cambia volume
-&#8226; Non hai notifiche
-- Mi Band 2 vibra
+- La smartband vibra
 - Lo schermo del dispositivo si accende
-&#8226; Hai notifiche
-- Mi Band 2 vibra e mostra l'icona 1,2,3 volte, in base al numero di notifiche, una per ogni icona Mi Band 2
 - Segnala immediatamente quando ricevi una notifica
-- Quando collegato al dispositivo
+- Quando collegato al dispositivo mostra notifiche perse
 - Ripeti notifica dopo un intervallo predefinito
 - Notifica solo a schermo spento
 - Le notifiche in corso sono attivate o disattivate
-- Accensione schermo
 
-<b>Funzioni alla disconnessione Mi Band 2:</b>
-- Visualizza icona sulla Mi Band 2 e vibra
+<b>Funzioni alla disconnessione della smartband:</b>
+- Visualizza icona sulla smartband e vibra
 - Riproduci suoneria sul dispositivo, vibra e accendi lo schermo
 - Cambia volume suoneria
-- Monitor eventi sul dispositivo: Se qualcuno usa il tuo dispositivo quando non ci sei, lo saprai (accensione dello schermo, accensione, movimento): notifica sul dispositivo e l'icona di un occhio sulla Mi Band 2
+- Monitor eventi sul dispositivo: Se qualcuno usa il tuo dispositivo quando non ci sei, lo saprai (accensione dello schermo, accensione, movimento): notifica sul dispositivo e l'icona di un occhio sulla smartband
 
 <b>Monitoraggio notifiche:</b>
 - Configura un segnale per le notifiche delle app
-- Mostra il testo delle notifiche sulla Mi Band 2
+- Mostra il testo delle notifiche sulla smartband
+- Avviso di notifica per avere il tempo di guardare la smartband
 
-<b>Monitoraggio tocco (usa il tasto della Mi Band 2):</b>
+<b>Monitoraggio tocco (usa il tasto touch della smartband):</b>
 - Risposta alle chiamate, tramite cassa smartphone (disattiva l'avvio del lettore musicale al collegamento delle cuffie altrimenti  si avvierà la musica) (non tutti i dispositivi sono supportati)
 - Rifiuta, chiudi chiamate (non tutti i dispositivi sono supportati)
 - Attiva muto nelle chiamate
@@ -45,8 +55,12 @@ Funzioni:
 - Ripeti notifiche
 - Controllo musica (riproduci, pausa, manda avanti/indietro, alza/abbassa volume)
 - Avvia timer/cronometro, mostra tempo trascorso/rimanente
+- Scatta una foto
 - Avvia app
 - Lancia task di Tasker
+
+<b>Amazfit Bip/Cor:</b>
+ - Cambia watchface
 
 <b>Monitoraggio passi:</b>
 - Grafico giornaliero/settimanale/mensile: mostra i valori misurati
@@ -68,8 +82,8 @@ Funzioni:
 - Intervalli: timer per allenamenti a circuito
 
 <b>monitoraggio smarrimento:</b>
-- Notifiche Mi Band 2 : quando passa un determinato periodo di tempo Mi Band 2 ti avviserà
-- Notifica su dispositivo: quando passa un determinato periodo di tempo, il dispositivo manderà continuamente notifiche fino alla riconnessione col braccialetto. Questo renderà più semplice trovare il dispositivo. Se qualcuno trova il dispositivo ed è bloccato non può sapere a chi dirlo, quindi puoi far uscire un messaggio.
+- Notifiche su smartband : quando passa un determinato periodo di tempo la smartband ti avviserà
+- Notifica su smartphone: quando passa un determinato periodo di tempo, lo smartphone manderà continuamente notifiche fino alla riconnessione col braccialetto. Questo renderà più semplice trovarlo.
 
 <b>Log eventi:</b> 
 - Visualizza eventi rilevati dal monitoraggio eventi dispositivo
