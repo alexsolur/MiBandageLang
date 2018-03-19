@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_connected_have_notif_counter">
-        <item>Once per Band icon</item>
-        <item>Number of notifications</item>
-        <item>1 \'app\' 图标</item>
-        <item>2 \'app\' 图标</item>
-        <item>3 \'app\' 图标</item>
+        <item>Một lần cho mỗi biểu tượng trên Band</item>
+        <item>Số lượng thông báo</item>
+        <item>1 \'app\' icon</item>
+        <item>2 \'app\' icon</item>
+        <item>3 \'app\' icon</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_counter_values">
@@ -17,14 +17,14 @@
     </string-array>
 
     <string-array name="pref_connected_have_notif_interval">
-        <item>3 分</item>
-        <item>5 分</item>
-        <item>10 分</item>
-        <item>20 分</item>
-        <item>30 分</item>
-        <item>1 小时</item>
-        <item>2 小时</item>
-        <item>3 小时</item>
+        <item>3 phút</item>
+        <item>5 phút</item>
+        <item>10 phút</item>
+        <item>20 phút</item>
+        <item>30 phút</item>
+        <item>1 giờ</item>
+        <item>2 giờ</item>
+        <item>3 giờ</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_interval_values">
@@ -39,16 +39,16 @@
     </string-array>
 
     <string-array name="pref_abandoned_interval">
-        <item>1 分</item>
-        <item>2 分</item>
-        <item>3 分</item>
-        <item>4 分</item>
-        <item>5 分</item>
-        <item>6 分</item>
-        <item>7 分</item>
-        <item>8 分</item>
-        <item>9 分</item>
-        <item>10 分</item>
+        <item>1 phút</item>
+        <item>2 phút</item>
+        <item>3 phút</item>
+        <item>4 phút</item>
+        <item>5 phút</item>
+        <item>6 phút</item>
+        <item>7 phút</item>
+        <item>8 phút</item>
+        <item>9 phút</item>
+        <item>10 phút</item>
     </string-array>
 
     <integer-array name="pref_abandoned_interval_values">
@@ -65,12 +65,12 @@
     </integer-array>
 
     <string-array name="pref_abandoned_notif_interval">
-        <item>10 分</item>
-        <item>20 分</item>
-        <item>30 分</item>
-        <item>1 小时</item>
-        <item>2 小时</item>
-        <item>3 小时</item>
+        <item>10 phút</item>
+        <item>20 phút</item>
+        <item>30 phút</item>
+        <item>1 giờ</item>
+        <item>2 giờ</item>
+        <item>3 giờ</item>
     </string-array>
 
     <integer-array name="pref_abandoned_notif_interval_values">
@@ -83,20 +83,20 @@
     </integer-array>
 
     <string-array name="notification_group_counter">
-        <item>一个信号</item>
-        <item>每个应用</item>
-        <item>通知数量 (全部)</item>
+        <item>Báo mộtlần</item>
+        <item>Một lần mỗi ứng dụng</item>
+        <item>Số thông báo</item>
     </string-array>
 
     <string-array name="touch_call_mute_ringer_mode">
-        <item>震动</item>
-        <item>勿扰 (仅闹钟)</item>
+        <item>Rung</item>
+        <item>Đừng làm phiền (chỉ báo thức)</item>
     </string-array>
 
     <string-array name="touch_music_player">
-        <item>默认音乐播放器</item>
-        <item>Google Play 音乐</item>
-        <item>Spotify 音乐</item>
+        <item>Trình phát nhạc mặc định</item>
+        <item>Google Play Music</item>
+        <item>Spotify Music</item>
     </string-array>
 
     <string-array name="touch_music_player_values">
@@ -106,10 +106,10 @@
     </string-array>
 
     <string-array name="touch_music_info">
-        <item>没有通知</item>
-        <item>艺术家#标题</item>
-        <item>艺术家, 标题</item>
-        <item></item>
+        <item>Không thông báo</item>
+        <item>Nghệ sĩ#Bài hát</item>
+        <item>Nghệ sĩ, Tiêu đề</item>
+        <item>Nghệ sĩ</item>
     </string-array>
 
     <string-array name="touch_music_info_values">
@@ -130,31 +130,31 @@
     </string-array>
 
     <string-array name="pref_timer_time_interval_repeat">
-        <item>Off</item>
-        <item>1 分</item>
-        <item>2 分</item>
-        <item>3 分</item>
-        <item>4 分</item>
-        <item>5 分</item>
-        <item>6 分</item>
-        <item>7 分</item>
-        <item>8 分</item>
-        <item>9 分</item>
-        <item>10 分</item>
-        <item>11 分</item>
-        <item>12 分</item>
-        <item>13 分</item>
-        <item>14 分</item>
-        <item>15 分</item>
-        <item>20 分</item>
-        <item>30 分</item>
-        <item>40 分</item>
-        <item>50 分</item>
-        <item>1 小时</item>
-        <item>2 小时</item>
-        <item>3 小时</item>
-        <item>4 小时</item>
-        <item>5 小时</item>
+        <item>Tắt</item>
+        <item>1 phút</item>
+        <item>2 phút</item>
+        <item>3 phút</item>
+        <item>4 phút</item>
+        <item>5 phút</item>
+        <item>6 phút</item>
+        <item>7 phút</item>
+        <item>8 phút</item>
+        <item>9 phút</item>
+        <item>10 phút</item>
+        <item>11 phút</item>
+        <item>12 phút</item>
+        <item>13 phút</item>
+        <item>14 phút</item>
+        <item>15 phút</item>
+        <item>20 phút</item>
+        <item>30 phút</item>
+        <item>40 phút</item>
+        <item>50 phút</item>
+        <item>1 giờ</item>
+        <item>2 giờ</item>
+        <item>3 giờ</item>
+        <item>4 giờ</item>
+        <item>5 giờ</item>
     </string-array>
 
     <integer-array name="pref_timer_time_interval_repeat_values">
@@ -186,16 +186,16 @@
     </integer-array>
 
     <string-array name="notification_group_text_content_slice">
-        <item>1 段 (1-%1$,d 字符)</item>
-        <item>2 段 (1-%1$,d 字符)</item>
-        <item>3 段 (1-%1$,d 字符)</item>
-        <item>4 段 (1-%1$,d 字符)</item>
-        <item>5 段 (1-%1$,d 字符)</item>
-        <item>6 段 (1-%1$,d 字符)</item>
-        <item>7 段 (1-%1$,d 字符)</item>
-        <item>8 段 (1-%1$,d 字符)</item>
-        <item>9 段 (1-%1$,d 字符)</item>
-        <item>10 段 (1-%1$,d 字符)</item>
+        <item>1 đoạn(1-%1$,d chars)</item>
+        <item>2 đoạn (1-%1$,d chars)</item>
+        <item>3 đoạn (1-%1$,d chars)</item>
+        <item>4 đoạn (1-%1$,d chars)</item>
+        <item>5 đoạn (1-%1$,d chars)</item>
+        <item>6 đoạn (1-%1$,d chars)</item>
+        <item>7 đoạn (1-%1$,d chars)</item>
+        <item>8 đoạn (1-%1$,d chars)</item>
+        <item>9 đoạn (1-%1$,d chars)</item>
+        <item>10 đoạn (1-%1$,d chars)</item>
     </string-array>
 
     <integer-array name="notification_group_text_content_slice_values">
@@ -212,10 +212,10 @@
     </integer-array>
 
     <string-array name="touch_recognition_press">
-        <item>无</item>
-        <item>触摸</item>
-        <item>双触</item>
-        <item>长按</item>
+        <item>None</item>
+        <item>Touch</item>
+        <item>Double touch</item>
+        <item>Long touch</item>
     </string-array>
 
     <string-array name="touch_recognition_press_values">
@@ -226,9 +226,9 @@
     </string-array>
 
     <string-array name="touch_recognition_start_trigger">
-        <item>无</item>
-        <item>模式</item>
-        <item>长按按钮</item>
+        <item>Không</item>
+        <item>Mẫu</item>
+        <item>Nhấn nút lâu</item>
     </string-array>
 
     <string-array name="touch_recognition_start_trigger_values">
@@ -238,11 +238,11 @@
     </string-array>
 
     <string-array name="widget_event">
-        <item>显示手环</item>
-        <item>显示活动</item>
-        <item>显示心率</item>
-        <item>测量心率</item>
-        <item>显示闹钟</item>
+        <item>Bandages screen</item>
+        <item>Activity screen</item>
+        <item>Pulse screen</item>
+        <item>Pulse measurement</item>
+        <item>Alarm screen</item>
     </string-array>
 
     <string-array name="widget_event_values">
@@ -254,38 +254,38 @@
     </string-array>
 
     <string-array name="pref_language">
-        <item>Default</item>
-        <item>中文</item>
+        <item>Mặc định</item>
+        <item>Tiếng Việt</item>
         <item>English</item>
         <item>Magyar</item>
         <item>Русский</item>
         <item>Português</item>
         <item>Türk</item>
         <item>Ελληνικά</item>
-        <item>Tiếng Việt</item>
         <item>Italiano</item>
         <item>Español</item>
         <item>Indonesia</item>
         <item>Deutsche</item>
         <item>Čeština</item>
         <item>Français</item>
+        <item>中文</item>
     </string-array>
 
     <string-array name="pref_language_values">
         <item>DEFAULT</item>
-        <item>zh</item>
+        <item>vi</item>
         <item>en</item>
         <item>hu</item>
         <item>ru</item>
         <item>pt</item>
         <item>tr</item>
         <item>el</item>
-        <item>vi</item>
         <item>it</item>
         <item>es</item>
         <item>in</item>
         <item>de</item>
         <item>cs</item>
         <item>fr</item>
+        <item>zh</item>
     </string-array>
 </resources>
