@@ -159,8 +159,8 @@
     <string name="pref_cat_text_conversion">Notifica Band</string>
     <string name="pref_text_conversion_title">Converti caratteri</string>
     <string name="pref_text_conversion_summary_on">Converti caratteri non riconosciuti, disattivalo se la tua Band supporta la tua lingua o hai installato firmware con caratteri personalizzati</string>
-    <string name="pref_text_emoticon_title">Emoji conversion</string>
-    <string name="pref_text_emoticon_summary_on">Convert emoji to emoticon</string>
+    <string name="pref_text_emoticon_title">Converti emoji</string>
+    <string name="pref_text_emoticon_summary_on">Converti emoji in emoticon</string>
     <string name="pref_text_length">Lunghezza testo, dipende dal carattere usato (per esempio caratteri cinesi o cirillico)</string>
     <string name="pref_text_length_summary_on">%1$,d caratteri</string>
 
@@ -184,23 +184,23 @@
     <string name="pref_mi_band_lift_wrist_dnd_title">Modalità non disturbare</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">On (nel periodo specificato non mostra le info, richiesta connessione Bluetooth)</string>
 
-    <string name="pref_battery_phone">Phone battery</string>
-    <string name="pref_battery_phone_summary">Low and full battery level notifications</string>
-    <string name="pref_cat_battery_phone_low">Low battery level</string>
-    <string name="pref_battery_phone_low_title">Notifica basso livello batteria</string>
-    <string name="pref_battery_phone_low_level_title">Basso livello batteria</string>
+    <string name="pref_battery_phone">Batteria smartphone</string>
+    <string name="pref_battery_phone_summary">Notifiche per batteria scarica e carica</string>
+    <string name="pref_cat_battery_phone_low">Batteria scarica</string>
+    <string name="pref_battery_phone_low_title">Notifica batteria scarica</string>
+    <string name="pref_battery_phone_low_level_title">Batteria scarica</string>
     <string name="pref_battery_phone_low_repeat_interval_title">Intervallo ripetizione</string>
-    <string name="pref_cat_battery_phone_full">Full battery level</string>
-    <string name="pref_battery_phone_full_title">Full battery notification</string>
-    <string name="pref_battery_phone_full_plugged_ac">AC charger power source</string>
-    <string name="pref_battery_phone_full_plugged_usb">USB port power source</string>
-    <string name="pref_battery_phone_full_plugged_wireless">Wireless power source</string>
+    <string name="pref_cat_battery_phone_full">Batteria carica</string>
+    <string name="pref_battery_phone_full_title">Notifica batteria carica</string>
+    <string name="pref_battery_phone_full_plugged_ac">Sorgente carica AC</string>
+    <string name="pref_battery_phone_full_plugged_usb">Sorgente di carica USB</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Sorgente di carica wireless</string>
     <string name="pref_battery_phone_full_repeat_interval_title">Intervallo ripetizione</string>
 
     <!-- Mi Band 2 max. 18 chars with 100% -->
-    <string name="pref_battery_phone_mi_band_message">Phone batt.: %1$,d%%</string>
+    <string name="pref_battery_phone_mi_band_message">Batt. tel.: %1$,d%%</string>
     <!-- Other Bands-->
-    <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
+    <string name="pref_battery_phone_message">Batteria smartphone:\n %1$,d%%</string>
 
     <string name="pref_language">Lingua</string>
     <string name="pref_cat_language">Lingua</string>
@@ -356,12 +356,12 @@
     <string name="notification_group_sample_facebook">Visualizza testo Messenger</string>
     <string name="notification_group_sample_whatsapp">Visualizza testo WhatsApp</string>
 
-   <string name="notification_edit_play_text_title">Notification title</string>
-   <string name="notification_edit_play_text_content">Notification content:
+   <string name="notification_edit_play_text_title">Titolo notifica</string>
+   <string name="notification_edit_play_text_content">Contenuto notifica:
     Il lorem ipsum è un testo segnaposto utilizzato da grafici, designer, programmatori e tipografi a modo riempitivo per bozzetti e prove grafiche[1]. È un testo privo di senso, composto da parole (o parti di parole) in lingua latina, riprese pseudocasualmente da uno scritto di Cicerone del 45 a.C, a volte alterate con l\'inserzione di passaggi ironici.
       \n La caratteristica principale è data dal fatto che offre una distribuzione delle lettere uniforme, apparendo come un normale blocco di testo leggibile.
     </string>
-   <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.]]></string>
+   <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icona: scegli questa icona per mostrare il titolo delle notifiche/contentuto.]]></string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Icone predefinite in Band:
@@ -429,12 +429,12 @@
     <string name="touch_call_mute_only_call_state_ringing_title">Solo se stai ricevendo una chiamata</string>
     <string name="touch_call_mute_recognition_title">Per le chiamate in arrivo</string>
 
-    <string name="touch_call_out_title">Call out</string>
-    <string name="touch_call_out_no_contact">Select an contact</string>
-    <string name="touch_call_out_summary">Double press to answer the call</string>
-    <string name="touch_call_out_summary_support_call_display_button">Press the button to answer the call</string>
+    <string name="touch_call_out_title">Chiamata</string>
+    <string name="touch_call_out_no_contact">Seleziona un contatto</string>
+    <string name="touch_call_out_summary">Doppio tocco per rispondere alla chiamata</string>
+    <string name="touch_call_out_summary_support_call_display_button">Tocca per rispondere alla chiamata</string>
     <string name="touch_call_out_speakerphone_title">Vivavoce telefono</string>
-    <string name="touch_call_out_call_text">Call out: %1$s</string>
+    <string name="touch_call_out_call_text">Chiamata: %1$s</string>
 
     <string name="touch_device_location_not_muted_only_title">Suona solo se non silenziato</string>
 
@@ -459,10 +459,10 @@
     <string name="touch_time_launch_restart">Resetta se già in corso</string>
     <string name="touch_time_reminder_title">Mostra tempo rimasto/passato</string>
 
-    <string name="touch_camera_title">Take a photo</string>
-    <string name="touch_camera_front_title">Front</string>
-    <string name="touch_camera_rear_title">Rear</string>
-    <string name="touch_camera_install_title">Install</string>
+    <string name="touch_camera_title">Scatta una foto</string>
+    <string name="touch_camera_front_title">Frontale</string>
+    <string name="touch_camera_rear_title">Posteriore</string>
+    <string name="touch_camera_install_title">Installa</string>
 
     <string name="touch_app_launcher1_title">Avvia app</string>
     <string name="touch_app_launcher_package_no_title">Seleziona applicazione</string>
