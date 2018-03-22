@@ -159,8 +159,8 @@
     <string name="pref_cat_text_conversion">Ayarlar</string>
     <string name="pref_text_conversion_title">Karakterleri dönüştür</string>
     <string name="pref_text_conversion_summary_on">Tanımlanamayan karakterleri döünüştürür, turn off if the Band supports your language or you have installed custom font firmware</string>
-    <string name="pref_text_emoticon_title">Emoji conversion</string>
-    <string name="pref_text_emoticon_summary_on">Convert emoji to emoticon</string>
+    <string name="pref_text_emoticon_title">Emoji dönüştürme</string>
+    <string name="pref_text_emoticon_summary_on">emoji yi emoticon a dönüştür</string>
     <string name="pref_text_length">Metin uzunluğu, kullanılan yazı tipine bağlıdır (örneğin, Çince veya Kril karatkterleri)</string>
     <string name="pref_text_length_summary_on">%1$,d karakter</string>
 
@@ -184,23 +184,23 @@
     <string name="pref_mi_band_lift_wrist_dnd_title">Rahatsız etme modu</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Açık (Belirtilen süre boyunca bilgi görüntülenmez, bu ayar için Bluetooth bağlantısı gereklidir)</string>
 
-    <string name="pref_battery_phone">Phone battery</string>
-    <string name="pref_battery_phone_summary">Low and full battery level notifications</string>
-    <string name="pref_cat_battery_phone_low">Low battery level</string>
-    <string name="pref_battery_phone_low_title">Düşük batarya seviyesi bildirimi</string>
-    <string name="pref_battery_phone_low_level_title">Düşük batarya seviyesi</string>
+    <string name="pref_battery_phone">Pil</string>
+    <string name="pref_battery_phone_summary">Pil seviyesi düşük veya tam dolu bildirimleri</string>
+    <string name="pref_cat_battery_phone_low">Düşük pil seviyesi</string>
+    <string name="pref_battery_phone_low_title">Düşük pil seviyesi bildirimi</string>
+    <string name="pref_battery_phone_low_level_title">Düşük pil seviyesi</string>
     <string name="pref_battery_phone_low_repeat_interval_title">Tekrarlama aralığı</string>
-    <string name="pref_cat_battery_phone_full">Full battery level</string>
-    <string name="pref_battery_phone_full_title">Full battery notification</string>
-    <string name="pref_battery_phone_full_plugged_ac">AC charger power source</string>
-    <string name="pref_battery_phone_full_plugged_usb">USB port power source</string>
-    <string name="pref_battery_phone_full_plugged_wireless">Wireless power source</string>
+    <string name="pref_cat_battery_phone_full">Tam dolu seviyesi</string>
+    <string name="pref_battery_phone_full_title">Tam dolu pil bildirimleri</string>
+    <string name="pref_battery_phone_full_plugged_ac">Adaptörden doluyor</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB 'den doluyor</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Kablosuz doluyor</string>
     <string name="pref_battery_phone_full_repeat_interval_title">Tekrarlama aralığı</string>
 
     <!-- Mi Band 2 max. 18 chars with 100% -->
-    <string name="pref_battery_phone_mi_band_message">Phone batt.: %1$,d%%</string>
+    <string name="pref_battery_phone_mi_band_message">Pil.: %1$,d%%</string>
     <!-- Other Bands-->
-    <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
+    <string name="pref_battery_phone_message">Pil:\n %1$,d%%</string>
 
     <string name="pref_language">Dil</string>
     <string name="pref_cat_language">Uygulama dili</string>
@@ -356,8 +356,8 @@
     <string name="notification_group_sample_facebook">Messenger gösterim</string>
     <string name="notification_group_sample_whatsapp">WhatsApp gösterim</string>
 
-    <string name="notification_edit_play_text_title">Notification title</string>
-    <string name="notification_edit_play_text_content">Notification content:
+    <string name="notification_edit_play_text_title">Bildirim başlığı</string>
+    <string name="notification_edit_play_text_content">Bildirim içeriği:
     Lorem Ipsum, masaüstü yayıncılık ve basın yayın sektöründe kullanılan taklit yazı bloğu olarak tanımlanır. Lipsum, oluşturulacak şablon ve taslaklarda içerik yerine geçerek yazı bloğunu doldurmak için kullanılır.
     \n Lipsum, 1500\'lerin başlarında bir matbaacının font model kitabı oluşturmak için, bir yazı tipi kütüphanesindeki harflerin sıralamasını bozarak yerleştirdiğinden bu yana endüstri standardı haline gelmiştir.
     </string>
@@ -429,12 +429,12 @@
     <string name="touch_call_mute_only_call_state_ringing_title">Yalnızca gelen bir aramanız varsa</string>
     <string name="touch_call_mute_recognition_title">Gelen çağrılarda</string>
 
-    <string name="touch_call_out_title">Call out</string>
-    <string name="touch_call_out_no_contact">Select an contact</string>
-    <string name="touch_call_out_summary">Double press to answer the call</string>
-    <string name="touch_call_out_summary_support_call_display_button">Press the button to answer the call</string>
+    <string name="touch_call_out_title">Arama</string>
+    <string name="touch_call_out_no_contact">Kişi seç</string>
+    <string name="touch_call_out_summary">Çağrıyı cevaplamak için çift tıkla</string>
+    <string name="touch_call_out_summary_support_call_display_button">Çağrıyı cevaplamak için düğmeye bas</string>
     <string name="touch_call_out_speakerphone_title">Hoparlör ile</string>
-    <string name="touch_call_out_call_text">Call out: %1$s</string>
+    <string name="touch_call_out_call_text">Arama: %1$s</string>
 
     <string name="touch_device_location_not_muted_only_title">Rahatsız etmeyin modunda ve telefon zaten sessizde değilse</string>
 
@@ -459,10 +459,10 @@
     <string name="touch_time_launch_restart">İşlem devam ediyorsa yeniden başlatın</string>
     <string name="touch_time_reminder_title">Kalan/geçen süreyi göster</string>
 
-    <string name="touch_camera_title">Take a photo</string>
-    <string name="touch_camera_front_title">Front</string>
-    <string name="touch_camera_rear_title">Rear</string>
-    <string name="touch_camera_install_title">Install</string>
+    <string name="touch_camera_title">Resim çek</string>
+    <string name="touch_camera_front_title">Ön kamera</string>
+    <string name="touch_camera_rear_title">Arka kamera</string>
+    <string name="touch_camera_install_title">Kurulum</string>
 
     <string name="touch_app_launcher1_title">Uygulama başlatıcı</string>
     <string name="touch_app_launcher_package_no_title">Bir uygulama seçin</string>
