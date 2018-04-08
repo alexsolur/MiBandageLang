@@ -290,10 +290,15 @@
     <p>Mi Bandage membutuhkan aplikasi Mi Fit (asli) yang telah terpasang di perangkat yang sama. Pertama tama, mungkin anda perlu untuk menghubungkan Band ke Aplikasi Mi Fit, lalu anda baru bisa memakai Mi Bandage.</p>
     <p>Jika anda menggunakan aplikasi lebih untuk mengontrol Band, mungkin aplikasi-aplikasi tersebut akan saling ganggu, jadi untuk sementara harap mematikan apl-apl tersebut.</p>
     <p>Jika Band tidak terdeteksi, anda bisa mengatur alamat MAC secara manual pada menu rincian/lanjutan (Alamat MAC dapat di temukan di : Mi Fit - Profil - Band).</p>
-    <p><b>Jika Band masih tidak terdeteksi atau anda memiliki masalah sinkronisasi pada aplikasi Mi Fit, pasanglah apl BToolkit, nRF Connect atau apl-apl manajer bluetooth lainnya, kemudian hapus pair/sambungan dari semua perangkat, lalu coba sambungkan kembali.</b></p>
-    <p><b>MIUI:</b>
+    <p><b>If you have a connection problem:</b>
     <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
-    <br>- Security app screen: battery/app battery saver set Mi Bandage app to no restriction.</p>
+    <br>- Phone/battery optimization: set Mi Bandage app to not optimized.
+    <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
+    <br>Settings/Developer options:
+    <br>- Don\'t keep activities: disable
+    <br>- Background process limit: standard limit
+    <br>- Memory optimization: middle/low/disable</p>
+    <p>Jika Band masih tidak terdeteksi atau anda memiliki masalah sinkronisasi pada aplikasi Mi Fit, pasanglah apl BToolkit, nRF Connect atau apl-apl manajer bluetooth lainnya, kemudian hapus pair/sambungan dari semua perangkat, lalu coba sambungkan kembali.</p>
     <p>Jika ada masalah (Band, tidak mendapatkan sinyal pemberitahuan), silahkan coba beberapa tips berikut:
     <br>1. Jika sudah memasang Greenify (atau aplikasi yang sejenis itu) coba matikan.
     <br>2. Pasang apl Mi Bandage.
@@ -301,11 +306,6 @@
     <br>4. Matikan, hidupkan bluetooth.
     <br>5. Buka Mi Fit, tunggu hingga sinkronisasi selesai, kemudian tutup apl tersebut.
     <br>6. Buka Mi Bandage, klik tombol temukan yang.</p>]]></string>
-
-
-
-
-
 
     <!-- Diagnostic -->
     <string name="diagnostic_title">Diagnosa</string>
@@ -583,6 +583,7 @@
     <string name="action_chart_pulse_type_pulse">Detakan</string>
     <string name="action_chart_pulse_type_pulse_and_step">Detakan dan aktifitas</string>
 
+    <string name="pulse_notification_shade">Chart on the notification shade</string>
     <string name="pulse_title_signals">Tanda</string>
     <string name="pulse_signal_start_title">Tanda pemantauan dimulai</string>
     <string name="pulse_signal_show_title">Tampilkan detak</string>
@@ -697,7 +698,7 @@
     <string name="info_dialog_time"><![CDATA[
         <p><b>Matikan alarm, timer dan stopwatch sebelum menghapus aplikasi.</b></p>
         <img src="ic_device_alarm"> <b><u>Tanda/Sinyal ketika alarm telfon anda berbunyi</u></b>
-        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from a Google Play.</p>
+        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from the Google Play.</p>
         <img src="ic_miband_bell"> <b><u>Bel</u></b>
         <p>Koneksi bluetooth diperlukan untuk alarm, dan hanya digunakan untuk 10 detik.</p>
         <img src="ic_alarm"> <b><u>Alarm</u></b>
