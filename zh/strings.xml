@@ -1,368 +1,366 @@
 <resources>
     <string name="app_name">Mi Bandage</string>
 
-    <string name="navigation_drawer_open">Mở ngăn điều hướng</string>
-    <string name="navigation_drawer_close">Đóng ngăn điều hướng</string>
+    <string name="navigation_drawer_open">打开抽屉导航</string>
+    <string name="navigation_drawer_close">关闭抽屉导航</string>
 
-    <string name="drawer_nav_home">Bandages</string>
-    <string name="drawer_nav_notification">Giám sát thông báo</string>
-    <string name="drawer_nav_touch">Giám sát chạm</string>
-    <string name="drawer_nav_step">Giám sát bước chân</string>
-    <string name="drawer_nav_sleep">Sleep</string>
-    <string name="drawer_nav_pulse">Giám sát nhịp tim</string>
-    <string name="drawer_nav_time">Giám sát thời gian</string>
-    <string name="drawer_nav_watch_face">Watch face</string>
-    <string name="drawer_nav_alarm">Giám sát thất lạc</string>
-    <string name="drawer_nav_disconnected_agent">Nhật ký</string>
-    <string name="drawer_nav_theme">Theme</string>
-    <string name="drawer_nav_backup">Backup</string>
-    <string name="drawer_nav_rewarded_mode">Chế độ thưởng</string>
-    <string name="drawer_nav_premium_mode">Phiên bản nâng cấp</string>
-    <string name="drawer_nav_feedback">Phản hồi</string>
+    <string name="drawer_nav_home">手环设备</string>
+    <string name="drawer_nav_notification">通知</string>
+    <string name="drawer_nav_touch">触摸</string>
+    <string name="drawer_nav_step">活动</string>
+    <string name="drawer_nav_sleep">睡眠</string>
+    <string name="drawer_nav_pulse">心率</string>
+    <string name="drawer_nav_time">时间</string>
+    <string name="drawer_nav_watch_face">表盘</string>
+    <string name="drawer_nav_alarm">丢失</string>
+    <string name="drawer_nav_disconnected_agent">代理</string>
+    <string name="drawer_nav_theme">主题</string>
+    <string name="drawer_nav_backup">备份</string>
+    <string name="drawer_nav_rewarded_mode">奖励模式</string>
+    <string name="drawer_nav_premium_mode">高级模式</string>
+    <string name="drawer_nav_feedback">反馈</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
-    <string name="shortcut_touch">Chạm</string>
-    <string name="shortcut_step">Pedometer</string>
-    <string name="shortcut_pulse">Nhịp timi</string>
-    <string name="shortcut_time_alarm">Báo thức</string>
+    <string name="shortcut_touch">触摸</string>
+    <string name="shortcut_step">活动</string>
+    <string name="shortcut_pulse">心率</string>
+    <string name="shortcut_time_alarm">闹钟</string>
 
     <!-- Foreground service, ongoing notification -->
-    <string name="foreground_service_connected">Thời gian kết nối: %1$s</string>
-    <string name="foreground_service_disconnected_text">Band chưa được kết nối</string>
-    <!--<string name="foreground_service_disconnected">Thời gian ngắt kết nối: %1$s</string>-->
+    <string name="foreground_service_connected">连接时间: %1$s</string>
+    <string name="foreground_service_disconnected_text">设备未连接</string>
+    <!--<string name="foreground_service_disconnected">断开连接时间: %1$s</string>-->
 
     <!-- Strings related to Settings -->
-    <string name="settings_name">Cài đặt</string>
-    <string name="app_chooser">Chọn ứng dụng</string>
-    <string name="info_name">Thông tin</string>
+    <string name="settings_name">设置</string>
+    <string name="app_chooser">选择应用</string>
+    <string name="info_name">信息</string>
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Steps, distance, calories, goal, pulse</string>
+    <string name="mi_band_tracker_title">步数, 距离, 卡路里, 目标, 心率</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Battery level, last charging time, estimated remaining time</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI, last connection and disconnection time</string>
-    <string name="mi_band_touch">Touch monitoring</string>
-    <string name="mi_band_alarm">Next alarm</string>
-    <string name="mi_band_bonded_device_name">Tên thiết bị kết nối Band</string>
-    <string name="mi_band_mac_address">Địa chỉ MAC</string>
-    <string name="mi_band_firmware">Firmware</string>
-    <string name="mi_band_hardware">Phần cứng</string>
+    <string name="mi_band_battery">电池电量, 最后充电时间, 预计剩余时间</string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI, 上次连接和断开时间</string>
+    <string name="mi_band_touch">触摸检查</string>
+    <string name="mi_band_alarm">下一个闹钟</string>
+    <string name="mi_band_bonded_device_name">配对设备‘你的名字O.O’</string>
+    <string name="mi_band_mac_address">MAC 地址</string>
+    <string name="mi_band_firmware">固件版本</string>
+    <string name="mi_band_hardware">硬件版本</string>
 
-    <string name="mi_band_mac_address_invalid">Địa chỉ MAC không hợp lý</string>
+    <string name="mi_band_mac_address_invalid">MAC 地址无效</string>
 
-    <string name="mi_band_state_title">Band settings</string>
-    <string name="mi_band_state_connected">Connected</string>
-    <string name="mi_band_state_disconnected">Disconnected</string>
-    <string name="mi_band_state_bonded">Paired device</string>
-    <string name="mi_band_state_not_bonded">Not paired device</string>
+    <string name="mi_band_state_title">手环设置</string>
+    <string name="mi_band_state_connected">已连接</string>
+    <string name="mi_band_state_disconnected">断开连接</string>
+    <string name="mi_band_state_bonded">配对设备</string>
+    <string name="mi_band_state_not_bonded">未配对设备</string>
 
-    <string name="mi_band_battery_remaining">Thời gian bắt đầu giám sát</string>
-    <string name="mi_band_battery_settings">Battery settings</string>
-    <string name="mi_band_battery_notification">Low battery level notification</string>
-    <string name="mi_band_battery_notification_level">Low battery level</string>
-    <string name="mi_band_battery_notification_repeat_interval">Repeat interval</string>
-    <string name="mi_band_battery_notification_shade">Notify on the phone</string>
-    <string name="mi_band_battery_notification_shade_ongoing">Persistent (ongoing) notification</string>
-    <string name="mi_band_battery_notification_shade_message">Battery level is lower then %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">Notify on the bracelet</string>
-    <string name="mi_band_battery_notification_mi_band_message">Battery: %1$,d%%</string>
+    <string name="mi_band_battery_settings">电池设置</string>
+    <string name="mi_band_battery_remaining">电池预计剩余时间</string>
+    <string name="mi_band_battery_notification">电量不足通知</string>
+    <string name="mi_band_battery_notification_level">电量阈值</string>
+    <string name="mi_band_battery_notification_repeat_interval">重复间隔</string>
+    <string name="mi_band_battery_notification_shade">通过电话通知</string>
+    <string name="mi_band_battery_notification_shade_ongoing">持续(不断的)通知</string>
+    <string name="mi_band_battery_notification_shade_message">电池电量低于 %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">通知手环</string>
+    <string name="mi_band_battery_notification_mi_band_message">电量: %1$,d%%</string>
 
     <!-- PreferenceScreen -->
-    <string name="pref_connected">Cài đặt kết nối</string>
-    <string name="pref_connected_summary">Cài đặt tín hiệu kết nối trên Band và thiết bị </string>
+    <string name="pref_connected">连接</string>
+    <string name="pref_connected_summary">手环和电话连接信号及设置</string>
 
-    <string name="pref_connected_signals">Connection signals</string>
-    <string name="pref_connected_signals_summary">Band đang kết nối và không có thông báo</string>
-    <string name="pref_cat_connected_signals_mi_band">Band signal</string>
-    <string name="pref_connected_mi_band_title">Tín hiệu Band</string>
-    <string name="pref_cat_connected_signals">Device signals</string>
-    <string name="pref_connected_wakelock_title">Sáng màn hình thiết bị</string>
+    <string name="pref_connected_signals">连接信号 </string>
+    <string name="pref_connected_signals_summary">手环连接但未通知</string>
+    <string name="pref_cat_connected_signals_mi_band">手环信号</string>
+    <string name="pref_connected_mi_band_title">震动</string>
+    <string name="pref_cat_connected_signals">手机信号</string>
+    <string name="pref_connected_wakelock_title">唤醒手机屏幕</string>
 
-    <string name="pref_connected_settings">Connection settings</string>
-    <string name="pref_connected_settings_summary">Band and device connection settings</string>
-    <string name="pref_cat_connected_settings">Device settings</string>
-    <string name="pref_connected_volume_title">Change volume</string>
-    <string name="pref_connected_volume_ring_title">Ring volume</string>
+    <string name="pref_connected_settings">连接设置</string>
+    <string name="pref_connected_settings_summary">手环和手机连接设置</string>
+    <string name="pref_cat_connected_settings">手机设置</string>
+    <string name="pref_connected_volume_title">更改音量</string>
+    <string name="pref_connected_volume_ring_title">振铃音量</string>
 
-    <string name="pref_cat_connected_have_notif">Tín hiệu cho ứng dụng được xác định trước và Band</string>
-    <string name="pref_cat_connected_have_notif_default">Cài đặt được xác định trước và cài đặt tùy chỉnh</string>
-    <string name="pref_connected_have_notif_immediate_title">Tín hiệu lập tức khi nhận thông báo</string>
-    <string name="pref_connected_have_notif_title">Tín hiệu khi kết nối thiết bị</string>
-    <string name="pref_connected_have_notif_reminder_title">Tín hiệu nhắc nhở</string>
-    <string name="pref_connected_have_notif_screen_off_title">Phát tín hiệu chỉ khi màn hình thiết bị tắt</string>
-    <string name="pref_connected_have_notif_interval_title">Khoảng thời gian lặp lại nhắc nhở </string>
-    <string name="pref_connected_have_notif_counter_title">Signals cardinality</string>
-    <string name="pref_connected_have_notif_wakelock_title">Sáng màn hình thiết bị</string>
-    <string name="pref_connected_have_notif_ongoing_title">Tín hiệu liên tục thông báo (thường xuyên)</string>
-    <string name="pref_connected_have_notif_default_app_title">Tín hiệu ứng dụng không nhận dạng</string>
-    <string name="pref_connected_have_notif_default_app_summary_on">\'app\' biểu tượng (nếu ứng dụng được định nghĩa trước hoặc không phải nhóm thông báo tùy chỉnh)</string>
-    <string name="pref_connected_have_notif_pre_signal_title">Dự báo thông báo</string>
-    <string name="pref_connected_have_notif_pre_signal_summary_on">Tín hiệu (sửa đổi) trước khi thông báo thực tế để có thêm thời gian để nhìn vào màn hình Band</string>
+    <string name="pref_cat_connected_have_notif">预定义应用及手环信号</string>
+    <string name="pref_cat_connected_have_notif_default">预定义和自定义设置</string>
+    <string name="pref_connected_have_notif_immediate_title">收到通知时立即</string>
+    <string name="pref_connected_have_notif_title">连接到手机的信号</string>
+    <string name="pref_connected_have_notif_reminder_title">提醒信号</string>
+    <string name="pref_connected_have_notif_screen_off_title">仅在熄屏时通知</string>
+    <string name="pref_connected_have_notif_interval_title">提醒重复间隔</string>
+    <string name="pref_connected_have_notif_counter_title">通知数</string>
+    <string name="pref_connected_have_notif_wakelock_title">唤醒手机屏幕</string>
+    <string name="pref_connected_have_notif_ongoing_title">持续(不断的)通知</string>
+    <string name="pref_connected_have_notif_default_app_title">无法识别的应用</string>
+    <string name="pref_connected_have_notif_default_app_summary_on">\'app\' icon (如果应用未在预设的自定义通知中)</string>
+    <string name="pref_connected_have_notif_pre_signal_title">通知预报</string>
+    <string name="pref_connected_have_notif_pre_signal_summary_on">信号(点击图标进行更改)在实际通知之前以便于有更多时间查看</string>
 
-    <string name="pref_disconnected">Cài đặt ngắt kết nối</string>
-    <string name="pref_disconnected_summary">Tín hiệu Band và thiết bị  khi bị ngắt kết nối </string>
+    <string name="pref_disconnected">断开连接</string>
+    <string name="pref_disconnected_summary">手环断开连接和设置</string>
 
-    <string name="pref_disconnected_signals">Disconnection signals</string>
-    <string name="pref_disconnected_signals_summary">Band and device disconnection signals, it does not signal when the bluetooth is turned off manually</string>
-    <string name="pref_cat_disconnected_signals_mi_band">Tín hiệu Band</string>
-    <string name="pref_disconnected_mi_band_title">Hiển thị biểu tượng</string>
-    <string name="pref_cat_disconnected_signals">Tín hiệu thiết bị</string>
-    <string name="pref_disconnected_ringtone_title">Nhạc chuông</string>
-    <string name="pref_disconnected_vibration_title">Rung</string>
-    <string name="pref_disconnected_wakelock_title">Đánh thức màn hình thiết bị</string>
+    <string name="pref_disconnected_signals">断开连接</string>
+    <string name="pref_disconnected_signals_summary">当手动关闭蓝牙时手环将断开连接</string>
+    <string name="pref_cat_disconnected_signals_mi_band">手环连接</string>
+    <string name="pref_disconnected_mi_band_title">图标显示和震动</string>
+    <string name="pref_cat_disconnected_signals">手机信号</string>
+    <string name="pref_disconnected_ringtone_title">铃声</string>
+    <string name="pref_disconnected_vibration_title">震动</string>
+    <string name="pref_disconnected_wakelock_title">唤醒手机屏幕</string>
 
-    <string name="pref_disconnected_settings">Disconnection settings</string>
-    <string name="pref_disconnected_settings_summary">Band and device disconnection settings</string>
-    <string name="pref_cat_disconnected_settings">Device settings</string>
-    <string name="pref_disconnected_volume_title">Change volume</string>
-    <string name="pref_disconnected_volume_ring_title">Ring volume</string>
-    <string name="pref_disconnected_volume_adapter_title">When Bluetooth is turned off</string>
-    <string name="pref_disconnected_volume_adapter_summary_on">Adjust the volume</string>
-    <string name="pref_disconnected_volume_adapter_summary_off">Do not adjust the volume</string>
+    <string name="pref_disconnected_settings">断开连接设置</string>
+    <string name="pref_disconnected_settings_summary">手环断开设置</string>
+    <string name="pref_cat_disconnected_settings">手机设置</string>
+    <string name="pref_disconnected_volume_title">调整音量</string>
+    <string name="pref_disconnected_volume_ring_title">振铃音量</string>
+    <string name="pref_disconnected_volume_adapter_title">关闭蓝牙时</string>
+    <string name="pref_disconnected_volume_adapter_summary_on">调整音量</string>
+    <string name="pref_disconnected_volume_adapter_summary_off">不调整音量</string>
 
-    <string name="pref_cat_abandoned">Tín hiệu thiết bị</string>
-    <string name="pref_abandoned_notif_interval_title">Khoảng thời gian lặp lại tín hiệu</string>
-    <string name="pref_abandoned_notif_text_summary">Thông báo trên màn hình thiết bị</string>
-    <string name="pref_abandoned_notif_text_text">Thiết bị này được mất, xin gọi số điện thoại sau:</string>
-    <string name="pref_abandoned_ringtone_title">Nhạc chuông</string>
-    <string name="pref_abandoned_vibration_title">Rung</string>
-    <string name="pref_abandoned_wakelock_title">Đánh thức màn hình</string>
-    <string name="pref_abandoned_notif_title">Thiết bị này bị mất</string>
+    <string name="pref_cat_abandoned">手机信号</string>
+    <string name="pref_abandoned_notif_interval_title">重复间隔</string>
+    <string name="pref_abandoned_notif_text_summary">手机屏幕的通知</string>
+    <string name="pref_abandoned_notif_text_text">手机已丢失, 请拨打这个号码:</string>
+    <string name="pref_abandoned_ringtone_title">铃声</string>
+    <string name="pref_abandoned_vibration_title">震动</string>
+    <string name="pref_abandoned_wakelock_title">唤醒屏幕</string>
+    <string name="pref_abandoned_notif_title">手机丢失</string>
 
-    <string name="pref_call">Cài đặt cuộc gọi</string>
-    <string name="pref_call_summary">Tín hiệu Band settings</string>
-    <string name="pref_cat_call">Cuộc gọi đến</string>
-    <string name="pref_call_title">Tín hiệu cuộc gọi đến</string>
-    <string name="pref_call_summary_on">Bật (nhớ tắt thông báo cuộc gọi đến trong ứng dụng Mi Fit)</string>
-    <string name="pref_call_text_title">Hiện tên/ số người gọi</string>
+    <string name="pref_call">呼叫</string>
+    <string name="pref_call_summary">手环连接设置</string>
+    <string name="pref_cat_call">来电</string>
+    <string name="pref_call_title">来电设置</string>
+    <string name="pref_call_summary_on">开 (不要忘记关闭Mi Fit应用里的提醒)</string>
+    <string name="pref_call_text_title">来电显示</string>
     <string name="pref_call_text_summary_on"><![CDATA[On (more information: <i>Settings/Text icons settings)</i>]]></string>
 
-    <string name="pref_call_net_text_title">Tín hiệu cuộc gọi internet, hiện tên/ số người gọi</string>
+    <string name="pref_call_net_text_title">网络电话呼入，来电显示</string>
     <string name="pref_call_net_text_summary_on">WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
-    <string name="pref_cat_call_missed">Cuộc gọi nhỡ</string>
-    <string name="pref_call_missed_title">Tín hiệu cuộc gọi nhỡ</string>
+    <string name="pref_cat_call_missed">未接来电</string>
+    <string name="pref_call_missed_title">未接来电通知</string>
 
-    <string name="pref_call_missed_net_title">Tín hiệu lỡ cuộc gọi internet, hiện tên/ số người gọi</string>
+    <string name="pref_call_missed_net_title">错过网络电话通知, 来电显示</string>
     <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
-    <string name="pref_call_missed_alert_title">Tín hiệu Band</string>
+    <string name="pref_call_missed_alert_title">手环连接</string>
 
-    <string name="pref_call_missed_text_prefix_title">Tiền tố văn bản: %1$s</string>
-    <string name="pref_call_missed_text_prefix_summary">Nếu có nhiều hơn một ứng dụng cũng sử dụng các biểu tượng để phân biệt thông báo từ với nhau</string>
-    <string name="pref_call_missed_text_prefix_dialog_title">Tiền tố văn bản</string>
+    <string name="pref_call_missed_text_prefix_title">前缀: %1$s</string>
+    <string name="pref_call_missed_text_prefix_summary">如果多个应用也使用该图标来区分彼此的通知</string>
+    <string name="pref_call_missed_text_prefix_dialog_title">文字前缀</string>
 
-    <string name="pref_text_conversion">Cài đặt biểu tượng văn bản</string>
-    <string name="pref_text_conversion_summary">Cài đặt biểu tượng văn bản Band</string>
-    <string name="pref_cat_text_conversion">Tín hiệu Band</string>
-    <string name="pref_text_conversion_title">Chuyển đổi ký tự có dấu</string>
-    <string name="pref_text_conversion_summary_on">Chuyển đổi ký tự không nhận diện, turn off if the Band supports your language or you have installed custom font firmware</string>
+    <string name="pref_text_conversion">文字图标</string>
+    <string name="pref_text_conversion_summary">手环文字图标设置</string>
+    <string name="pref_cat_text_conversion">手环连接</string>
+    <string name="pref_text_conversion_title">字符转换</string>
+    <string name="pref_text_conversion_summary_on">不可识别的字符转换, turn off if the Band supports your language or you have installed custom font firmware</string>
     <string name="pref_text_emoticon_title">Emoji conversion</string>
     <string name="pref_text_emoticon_summary_on">Convert emoji to emoticon</string>
     <string name="pref_text_length">Text length, depends on the font used (for example Chinese or Cyrillic characters)</string>
     <string name="pref_text_length_summary_on">%1$,d characters</string>
 
-    <string name="pref_text_conversion_description_title">Mô tả</string>
+    <string name="pref_text_conversion_description_title">说明</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
-        <p>If your Band shows the incoming caller name currently, then you do not need to do the following steps just turn off <i>Incoming call alerts</i> on Mi Fit.</p>
-        <p>If you do not use <i>Incoming call alerts</i> and the phone language is not English:
-        <br/>1. Set your phone language to English.
-        <br/>2. Open Mi Fit app, wait until the font firmware update done. If firmware update doesn\'t start, try reboot your phone.
-        <br/>3. Open the <i>Profile/Mi Band/Incoming call</i> menu.
-        <br/>4. Turn on: <i>Turn on incoming call alerts</i>.
-        <br/>5. Turn on: <i>Show contact information</i>.
-        <br/>6. Check if you can Band shows caller name by calling your phone.
-        <br/>7. Turn off : <i>Turn on incoming call alerts</i> (<i>Show contact information</i> stays on).
-        <br/>8. Set phone language back to your language.</p>]]>
+        <p>如果你的手环目前显示来电名称正常, 则无需进行以下步骤 <i>只需关闭来电提示</i> 在Mi Fit上.</p>
+        <p>如果你不使用 <i>来电提示</i> 且手机语言不是英文:
+        <br/>1. 设置你的手机语言为英文.
+        <br/>2. 打开Mi Fit应用,等待字体固件更新完成.如果无法更新,尝试重启手机.
+        <br/>3. 打开 <i>Profile/Mi Band/Incoming call</i> 菜单.
+        <br/>4. 开启: <i>Turn on incoming call alerts</i>.
+        <br/>5. 开启: <i>Show contact information</i>.
+        <br/>6. 检查手环是否可以正常显示来电显示.
+        <br/>7. 关闭: <i>Turn on incoming call alerts</i> (<i>Show contact information</i> 保持).
+        <br/>8. 将手机语言设置回你的语言.</p>]]>
     </string>
 
-    <string name="pref_mi_band">Các cài đặt Band</string>
-    <string name="pref_cat_mi_band_lift_wrist">Nâng cổ tay để xem thông tin</string>
-    <string name="pref_mi_band_lift_wrist_title">Nâng cổ tay để xem thông tin</string>
-    <string name="pref_mi_band_lift_wrist_dnd_title">Chế độ không làm phiền</string>
-    <string name="pref_mi_band_lift_wrist_dnd_summary_on">Bật (trong thời hạn quy định sẽ không hiển thị các thông tin, kết nối Bluetooth là cần bật để cài đặt)</string>
+    <string name="pref_mi_band">手环</string>
+    <string name="pref_cat_mi_band_lift_wrist">抬起手腕查看</string>
+    <string name="pref_mi_band_lift_wrist_title">举起手腕查看</string>
+    <string name="pref_mi_band_lift_wrist_dnd_title">勿扰模式</string>
+    <string name="pref_mi_band_lift_wrist_dnd_summary_on">开 (在指定时间内不显示信息，需连接蓝牙设置)</string>
 
     <string name="pref_battery_phone">Phone battery</string>
     <string name="pref_battery_phone_summary">Low and full battery level notifications</string>
     <string name="pref_cat_battery_phone_low">Low battery level</string>
-    <string name="pref_battery_phone_low_title">Low battery indicator</string>
-    <string name="pref_battery_phone_low_level_title">Battery level threshold</string>
-    <string name="pref_battery_phone_low_repeat_interval_title">Repeat interval</string>
+    <string name="pref_battery_phone_low_title">电量不足通知</string>
+    <string name="pref_battery_phone_low_level_title">电量阈值</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">重复间隔</string>
     <string name="pref_cat_battery_phone_full">Full battery level</string>
-    <string name="pref_battery_phone_full_title">Full battery notification</string>
+    <string name="pref_battery_phone_full_title">Full battery indicator</string>
     <string name="pref_battery_phone_full_plugged_ac">AC charger power source</string>
     <string name="pref_battery_phone_full_plugged_usb">USB port power source</string>
     <string name="pref_battery_phone_full_plugged_wireless">Wireless power source</string>
-    <string name="pref_battery_phone_full_repeat_interval_title">Repeat interval</string>
+    <string name="pref_battery_phone_full_repeat_interval_title">重复间隔</string>
 
     <!-- Mi Band 2 max. 18 chars with 100% -->
     <string name="pref_battery_phone_mi_band_message">Phone batt.: %1$,d%%</string>
     <!-- Other Bands-->
     <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
 
-    <string name="pref_language">Cài đặt ngôn ngữ</string>
-    <string name="pref_cat_language">Ngôn ngữ</string>
-    <string name="pref_language_title">Ngôn ngữ</string>
+    <string name="pref_language">语言</string>
+    <string name="pref_cat_language">语言</string>
+    <string name="pref_language_title">语言</string>
 
     <!-- Quick switch -->
-    <string name="details">Chi tiết</string>
-    <string name="bandages">Bandages</string>
-    <string name="connected">Tín hiệu kết nối và thông báo</string>
-    <string name="disconnected">Tín hiệu ngắt kết nối</string>
-    <string name="touch">Giám sát chạm</string>
+    <string name="details">详情</string>
+    <string name="bandages">手环</string>
+    <string name="connected">连接和通知</string>
+    <string name="disconnected">断开连接和代理</string>
+    <string name="touch">触摸检测</string>
 
-    <string name="pref_dnd_title">Chế độ không làm phiền</string>
-    <string name="pref_dnd_summary">State of controllers in do not disturb mode</string>
-    <string name="pref_dnd_auto_title">Automatic do not disturb mode</string>
-    <string name="pref_dnd_auto_summary">Controlled by the phone\'s do not disturb mode, it has a higher priority than the scheduled do not disturb mode</string>
+    <string name="pref_dnd_title">勿扰模式</string>
+    <string name="pref_dnd_summary">勿扰模式状态</string>
+    <string name="pref_dnd_auto_title">自动打开勿扰模式</string>
+    <string name="pref_dnd_auto_summary">遵循手机的勿扰模式控制, it has a higher priority than the scheduled do not disturb mode</string>
     <string name="pref_dnd_auto_vibrate">Vibration (silent)</string>
     <string name="pref_dnd_auto_silent">Do not disturb</string>
-    <string name="pref_dnd_scheduled_title">Scheduled do not disturb mode</string>
-    <string name="pref_dnd_scheduled_new_title">Tiêu đề</string>
-    <string name="pref_dnd_remember_state_summary">Vào lúc kết thúc chế độ không làm phiền, bật tất cả mọi thứ hoặc khôi phục trạng thái mặc định như lúc đầu</string>
-    <string name="pref_dnd_remember_state_on_title">Khôi phục tất cả vào lúc kết thúc</string>
-    <string name="pref_dnd_remember_state_off_title">Bật tất cả vào lúc kết thúc</string>
-    <string name="pref_dnd_mi_fit_scheduled">Activate Band DnD mode (disable messages and lift wrist to view info)</string>
-    <string name="pref_dnd_enable_bluetooth">At the start of the Dnd mode turn Bluetooth off, at the end turn Bluetooth on</string>
+    <string name="pref_dnd_scheduled_title">定时勿扰模式</string>
+    <string name="pref_dnd_scheduled_new_title">标题</string>
+    <string name="pref_dnd_remember_state_summary">勿扰模式结束时恢复手环状态</string>
+    <string name="pref_dnd_remember_state_on_title">还原手环最后的状态</string>
+    <string name="pref_dnd_remember_state_off_title">打开最后所有手环</string>
+    <string name="pref_dnd_mi_fit_scheduled">激活手环DND模式 (禁用呼叫，消息和抬腕查看)</string>
+    <string name="pref_dnd_enable_bluetooth">在DnD模式开始时关闭蓝牙,最后再打开蓝牙</string>
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Vui lòng kích hoạt Bluetooth và mang Band gần hơn với điện thoại</string>
-    <string name="message_discover_mi_band">Band chưa được cài đặt, hãy kết nối với nó</string>
-    <string name="message_discovering_mi_band">Tìm Band (có thể mất 1 phút) &#8230;</string>
-    <string name="message_discovered_mi_band">Phát hiện %1$s</string>
-    <string name="message_discovered_no_mi_band">Band không được tìm thấy</string>
-    <string name="message_discovered_not_found_mi_band">Nếu Band không được tìm thấy, bật: Mi Fit / cài đặt … hoặc ghép nối tại cài đặt Bluetooth</string>
-    <string name="message_enable_notification_listener_access">Kích hoạt tính năng truy cập thông báo: Cài đặt / Bảo mật / Truy cập thông báo</string>
-    <string name="message_enable_notification_listener_access_4_4">Kích hoạt tính năng truy cập thông báo: Cài đặt / Bảo mật / Truy cập thông báo</string>
-    <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
-    <string name="message_open_settings">Các cài đặt</string>
+    <string name="message_enable_bluetooth">请打开蓝牙并将手环靠近手机</string>
+    <string name="message_discover_mi_band">没有设置手环，请寻找</string>
+    <string name="message_discovering_mi_band">发现手环(可能需要1分钟) &#8230;</string>
+    <string name="message_discovered_mi_band">%1$s 连接成功</string>
+    <string name="message_discovered_no_mi_band">连接失败</string>
+    <string name="message_discovered_not_found_mi_band">如果找不到手环请打开: Mi Fit/Play/Discoverable 或在手机蓝牙里设置</string>
+    <string name="message_enable_notification_listener_access">启用通知访问: 设置/通知/通知访问</string>
+    <string name="message_enable_notification_listener_access_4_4">启用通知访问: 设置/通知/通知访问</string>
+    <string name="message_enable_notification_policy_access">启用勿扰访问</string>
+    <string name="message_open_settings">设置</string>
 
-    <string name="message_deleted">Đã xóa</string>
-    <string name="message_undo">Làm lại</string>
+    <string name="message_deleted">删除</string>
+    <string name="message_undo">撤销</string>
 
-    <string name="message_app_chooser_no_selected">Chọn một ứng dụng</string>
+    <string name="message_app_chooser_no_selected">选择应用</string>
 
-    <string name="message_notification_free_groups">Lên đến %1$,d nhóm có thể được sử dụng</string>
+    <string name="message_notification_free_groups">组多 %1$,d 组可以在正常模式下使用</string>
 
-    <string name="message_step_goal_free_values">Có thể đặt tới 3 giá trị ở chế độ bình thường</string>
-    <string name="message_step_goal_max_values">Có thể đặt nhiều nhất 10 giá trị</string>
+    <string name="message_step_goal_free_values">正常模式下最多可以设置3个</string>
+    <string name="message_step_goal_max_values">最多可以设置10个</string>
 
-    <string name="message_touch_no_patterns">Press one of the red buttons to record pattern</string>
-    <string name="message_touch_record">Ghi lại các cử chỉ sử dụng  nút cảm ứng Band </string>
-    <string name="message_touch_pattern_error">Các mẫu cụ thể là tương tự mẫu của một chức năng khác, ghi lại cách khác</string>
-    <string name="message_touch_free_patterns">Lên đến %1$,d chức năng có thể được sử dụng</string>
-    <string name="message_touch_music_player_not_found">Trình phát nhạc không được tìm thấy</string>
-    <string name="message_touch_app_launcher1_not_set">Ứng dụng không được cài đặt</string>
-    <string name="message_touch_app_launcher1_not_found">Không tìm thấy ứng dụng: %1$s</string>
-    <string name="message_touch_tasker_launcher_not_set">Tasker task is not set</string>
+    <string name="message_touch_no_patterns">按下红色按钮来进行记录</string>
+    <string name="message_touch_record">使用手环触摸按钮</string>
+    <string name="message_touch_pattern_error">制定模式类似另一个函数样本,记录另一个</string>
+    <string name="message_touch_free_patterns">在正常模式下不能使用多余 %1$,d 的函数</string>
+    <string name="message_touch_music_player_not_found">找不到播放器</string>
+    <string name="message_touch_app_launcher1_not_set">应用未设置</string>
+    <string name="message_touch_app_launcher1_not_found">未找到应用: %1$s</string>
+    <string name="message_touch_tasker_launcher_not_set">Tasker未设置</string>
 
-    <string name="message_notification_group_has_no_entry">Select applications with the lower right green \'+\' button on the card</string>
+    <string name="message_notification_group_has_no_entry">按右下角 \'+\' 号来选择应用</string>
 
-    <string name="message_time_alarm_free_counter">Có thể sử dụng tới 2 báo thức ở chế độ bình thường</string>
-    <string name="message_time_alarm_max_counter">Tối đa 5 báo thức có thể sử dụng</string>
-    <string name="message_time_alarm_enabled">Báo thức đang bật</string>
-    <string name="message_time_alarm_disabled">Báo thức đang tắt</string>
-    <string name="message_time_alarm_mi_band_off">Alarm off</string>
+    <string name="message_time_alarm_free_counter">正常模式下最多可使用2个闹钟</string>
+    <string name="message_time_alarm_max_counter">最多可使用5个闹钟</string>
+    <string name="message_time_alarm_enabled">开启闹钟</string>
+    <string name="message_time_alarm_disabled">关闭闹钟</string>
+    <string name="message_time_alarm_mi_band_off">关闭闹钟</string>
 
-    <string name="message_alarm_free_interval">Khoảng thời gian lặp lại nhỏ hơn có thể được cài đặt chỉ trong bản nâng cấp</string>
-    <string name="message_alarm_mi_band_set_failed">Cài đặt báo thức thất bại</string>
-    <string name="message_alarm_mi_band_clear_failed">Xóa báo thức thất bại</string>
+    <string name="message_alarm_free_interval">仅在高级模式下可设置更小的重复间隔</string>
+    <string name="message_alarm_mi_band_set_failed">设置失败</string>
+    <string name="message_alarm_mi_band_clear_failed">清除失败</string>
 
-    <string name="message_premium_mode_only">Tính năng này chỉ có sẵn trong bản nâng cấp</string>
-    <string name="message_general_error">cài đặt thất bại (kết nối bị mất), hãy thử lại</string>
-    <string name="message_internet_error">Không có mạng</string>
+    <string name="message_premium_mode_only">此功能仅在高级模式</string>
+    <string name="message_general_error">设置失败(连接丢失),请重试</string>
+    <string name="message_internet_error">没有网络连接</string>
 
-    <string name="message_in_progress">In progress…</string>
-    <string name="message_no_data">No data available</string>
+    <string name="message_in_progress">进行中…</string>
+    <string name="message_no_data">没有可用的数据</string>
 
-    <string name="message_new_message">A new message is received, view it on the phone.</string>
+    <string name="message_new_message">收到一条新信息，在手机上查看.</string>
 
     <!-- Dialog -->
-    <string name="dialog_welcome_title">Chào mừng!</string>
+    <string name="dialog_welcome_title">欢迎!</string>
     <string name="dialog_welcome_message"><![CDATA[Supported devices:
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
-    <p>Mi Bandage requires the installation of the official Mi Fit app on the same device. At first you have to pair Band in Mi Fit app, then you can use Mi Bandage.</p>
-    <p>If you use more applications to control Band, they interfere with each other so temporarily turn off those.</p>
-    <p>If Band is not found, then you can set the MAC address manually in the details menu (MAC address is found: Mi Fit/Profil/Band).</p>
-    <p><b>If Band is not found or if you are having trouble syncing Mi Fit app, then install the BToolkit, nRF Connect or similar Bluetooth manager app and remove any pairing, bonded device.</b></p>
-    <p><b>MIUI:</b>
-    <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
-    <br>- Security app screen: battery/app battery saver set Mi Bandage app to no restriction.</p>
-    <p>If you have problem (discover Band, not have notification signal), please try it:
-    <br>1. If you installed the Greenify (or other hibernating app) turn it off.
-    <br>2. Install Mi Bandage app.
-    <br>3. Restart phone.
-    <br>4. Turn off, on Bluetooth.
-    <br>5. Open Mi Fit app, wait until the synchronization done, close it.
-    <br>6. Open Mi Bandage app, click green discover button.</p>]]></string>
-
-
-
-
-
+    <p>Mi Bandage需要在同一个手机上安装小米运动（Mi Fit）应用. 首先你需要在Mi Fit里连接手环,然后才能使用Mi Bandage.</p>
+    <p>如果使用更多的手环应用,它们会互相干扰，请关闭这些应用.</p>
+    <p>如果未找到手环,你可以手动设置MAC 地址(MAC address: Mi Fit/我/手环).</p>
+    <p><b>如果你有连接问题:</b>
+    <br>- 最近的应用程序界面:锁定Mi Bandage(下拉该应用并点击锁的图标).
+    <br>- 手机电池设置/电池优化: 设置Mi Bandage应用为未优化.
+    <br>设置/开发者选项:
+    <br>- 不保持活动:禁用
+    <br>- 后台进程限制:标准限值
+    <br>- 内存优化: 中/低/禁用
+    <br>- 打开MIUI优化: 禁用（如能正常使用的话也可不关闭该项。译者使用MIUI9 Andorid 7无需关闭）</p>
+    <p>如果找不到手环或在同步Mi Fit应用时遇到麻烦,请安装BToolkit, nRF Connect 或类似的蓝牙管理应用并移除所有已绑定的设备.</p>
+    <p>如果有问题(发现手环,没有通知信号),请尝试:
+    <br>1. 如果你安装了绿色守护Greenify (或其他休眠类应用)，关掉它.
+    <br>2. 安装Mi Bandage应用.
+    <br>3. 重启手机.
+    <br>4. 关闭蓝牙.
+    <br>5. 打开Mi Fit,等到同步完成后关闭它.
+    <br>6. 打开Mi Bandage,点击发现按钮.</p>]]></string>
 
     <!-- Diagnostic -->
-    <string name="diagnostic_title">Diagnostic</string>
+    <string name="diagnostic_title">诊断</string>
 
-    <string name="diagnostic_permissions_title">Permissions</string>
+    <string name="diagnostic_permissions_title">权限</string>
 
-    <string name="diagnostic_access_title">Access</string>
-    <string name="diagnostic_access_do_not_disturb">Do not Disturb access</string>
-    <string name="diagnostic_access_notification">Notification access</string>
+    <string name="diagnostic_access_title">访问</string>
+    <string name="diagnostic_access_do_not_disturb">勿扰访问</string>
+    <string name="diagnostic_access_notification">通知访问</string>
 
-    <string name="diagnostic_protection_title">Protection against closing</string>
-    <string name="diagnostic_protection_battery">Battery optimisation off</string>
-    <string name="diagnostic_protection_service">Hiện trạng thái trong vùng thông báo</string>
-    <string name="diagnostic_protection_lock">Lock on the recent apps screen</string>
+    <string name="diagnostic_protection_title">防止关闭</string>
+    <string name="diagnostic_protection_battery">电池优化关闭</string>
+    <string name="diagnostic_protection_service">在通知栏显示状态</string>
+    <string name="diagnostic_protection_lock">锁定最近的应用程序屏幕</string>
 
     <!-- Notification  -->
-    <string name="notification_tab_custom">Tùy chỉnh thông báo </string>
-    <string name="notification_tab_settings">Cài đặt</string>
+    <string name="notification_tab_custom">自定义通知</string>
+    <string name="notification_tab_settings">设置</string>
 
     <!-- Notification Dialog -->
-    <string name="notification_group_name">Tên</string>
-    <string name="notification_group_monitoring">Giám sát thông báo</string>
-    <string name="notification_group_monitoring_disabled">Vô hiệu hóa các thông báo (không hiển thị các thông báo ứng dụng)</string>
-    <string name="notification_group_text">Text display</string>
-    <string name="notification_group_alert_title">Tín hiệu Band</string>
-    <string name="notification_group_text_title">Tiêu đề</string>
-    <string name="notification_group_text_content">Nội dung</string>
-    <string name="notification_group_vibration_title">Custom vibration</string>
-    <string name="notification_group_pre_signal_title">Dự báo thông báo mặc định</string>
-    <string name="notification_group_pre_vibration_title">Pre vibration</string>
-    <string name="notification_group_pre_alert_title">Biểu tượng báo trước</string>
-    <string name="notification_group_prefix">Tiền tố văn bản</string>
-    <string name="notification_group_pre_only_premium">Chỉ có ở bản nâng cấp</string>
-    <string name="notification_group_immediate">Phát tín hiệu ngay lập tức khi nhận được thông báo</string>
-    <string name="notification_group_connecting">Khi kết nối với thiết bị</string>
-    <string name="notification_group_reminder">Tín hiệu nhắc nhở</string>
-    <string name="notification_group_screen_off">Tín hiệu chỉ khi màn hình tắt</string>
-    <string name="notification_group_counter_title">Signals cardinality</string>
-    <string name="notification_group_wakelock">Đánh thức màn hình thiết bị</string>
-    <string name="notification_group_filter">Lọc thông báo</string>
-    <string name="notification_group_filter_title">Title filter</string>
-    <string name="notification_group_filter_content">Content filter</string>
-    <string name="notification_group_filter_hint">Chỉ báo hiệu khi thông báo </string>
-    <string name="notification_group_filter_contains">Chứa bất kỳ cụm từ nào</string>
-    <string name="notification_group_filter_not_contains">Không chứa cụm từ nào</string>
+    <string name="notification_group_name">名称</string>
+    <string name="notification_group_monitoring">监控通知</string>
+    <string name="notification_group_monitoring_disabled">禁用通知(不显示应用通知)</string>
+    <string name="notification_group_alert_title">手环通知</string>
+    <string name="notification_group_text">文字显示</string>
+    <string name="notification_group_text_title">标题</string>
+    <string name="notification_group_text_content">内容</string>
+    <string name="notification_group_vibration_title">自定义震动</string>
+    <string name="notification_group_pre_signal_title">默认通知预报</string>
+    <string name="notification_group_pre_vibration_title">预震动</string>
+    <string name="notification_group_pre_alert_title">预图标</string>
+    <string name="notification_group_prefix">文字前缀</string>
+    <string name="notification_group_pre_only_premium">仅限高级模式</string>
+    <string name="notification_group_immediate">收到通知时立即</string>
+    <string name="notification_group_connecting">连接到电话时</string>
+    <string name="notification_group_reminder">提醒信号</string>
+    <string name="notification_group_screen_off">仅在熄屏时通知</string>
+    <string name="notification_group_counter_title">通知数量</string>
+    <string name="notification_group_wakelock">唤醒手机屏幕</string>
+    <string name="notification_group_filter">通知过滤</string>
+    <string name="notification_group_filter_title">标题过滤器</string>
+    <string name="notification_group_filter_content">内容过滤器</string>
+    <string name="notification_group_filter_hint">仅通知标题或内容(分隔符:回车, 不区分大小写)</string>
+    <string name="notification_group_filter_contains">包含任何短语</string>
+    <string name="notification_group_filter_not_contains">包含这些短语</string>
 
-    <string name="notification_group_sample_sms">SMS text display</string>
-    <string name="notification_group_sample_facebook">Messenger text display</string>
-    <string name="notification_group_sample_whatsapp">WhatsApp text display</string>
+    <string name="notification_group_sample_sms">SMS文本显示</string>
+    <string name="notification_group_sample_facebook">Messenger文本显示</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp文本显示</string>
 
     <string name="notification_edit_play_text_title">Notification title</string>
     <string name="notification_edit_play_text_content">Notification content:
-    Hà Nội là thủ đô của nước Cộng hòa xã hội chủ nghĩa Việt Nam và cũng là kinh đô của hầu hết các vương triều phong kiến Việt trước đây. Do đó, lịch sử Hà Nội gắn liền với sự thăng trầm của lịch sử Việt Nam qua các thời kỳ.
-        \nHà Nội là thành phố lớn thứ 2 cả nước, sau Thành phố Hồ Chí Minh, đồng thời cũng là địa phương đứng thứ nhì về dân số với 7.742.200 người (năm 2017), sau Thành phố Hồ Chí Minh.
-        \nTuy nhiên, nếu tính những người cư trú không đăng ký thì dân số thực tế của thành phố này năm 2017 là hơn 8 triệu người. Hiện nay, thủ đô Hà Nội và Thành phố Hồ Chí Minh là đô thị loại đặc biệt của Việt Nam.
+    北京市，简称“京”，是中華人民共和國首都、直辖市、中国国家中心城市和京津冀城市群的重要组成部分，是中國的政治、文化、科技创新和国际交往中心，具有重要的国际影响力.
     </string>
-    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.]]></string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> 图标：选择此图标来显示通知标题/内容.]]></string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Predefined app and Band icon signals:
@@ -395,540 +393,542 @@
         <br><img src="ALERT_DINGTALK">  DingTalk
         <br><img src="ALERT_APP">  others
 
-        <p>Predefined app and Band icon signals will only show the icon not the message.</p>
-        <p>You have to disable app alert in the Mi Fit app.</p>
-        <p>The notifications group created by you has higher priority than the predefined.</p>
-        <mi_band_2><p><img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.</p></mi_band_2>
-        <mi_band_hrx><p><img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.</p></mi_band_hrx>
-        <p>If you use the predefined apps, but want to disable some notifications, then create new notification group with <i>disable notifications</i> setting and add the apps.</p>
+        <p>预设的应用和手环图标仅显示图标而不是信息.</p>
+        <p>你必须在Mi Fit中停用应用提醒.</p>
+        <p>你创建的通知组的优先级高于预设的优先级.</p>
+        <mi_band_2><p><img src="ALERT_MESSAGE_TEXT"> 图标：选择此图标来显示通知标题/内容.</p></mi_band_2>
+        <mi_band_hrx><p><img src="ALERT_MESSAGE_TEXT"> 图标：选择此图标来显示通知标题/内容.</p></mi_band_hrx>
+        <p>如果您使用预定义的应用程序，但希望禁用某些通知, 请使用 <i>禁用通知</i>并添加应用来创建新的通知组.</p>
         ]]>
     </string>
-        <!--<p>Predefined signals can be disabled: <i>Connection and notification settings/Have notification</i>.</p>-->
+    <!--<p>Predefined signals can be disabled: <i>Connection and notification settings/Have notification</i>.</p>-->
 
     <!-- MiBandageApp chooser dialog -->
-    <string name="action_search">Tìm kiếm</string>
-    <string name="action_filter_notification">Notification filter</string>
+    <string name="action_search">搜索</string>
+    <string name="action_filter_notification">通知过滤器</string>
 
     <!-- Touch monitoring -->
-    <string name="touch_tab_control">Control</string>
-    <string name="touch_tab_testing">Đang thử</string>
-    <string name="touch_tab_settings">Cài đặt</string>
+    <string name="touch_tab_control">控制</string>
+    <string name="touch_tab_testing">测试</string>
+    <string name="touch_tab_settings">设置</string>
 
-    <string name="touch_headline_call_title">Điều khiển cuộc gọi</string>
-    <string name="touch_headline_music_title">Điều khiển phát nhạc</string>
-    <string name="touch_headline_time_title">Điều khiển hẹn giờ, đồng hồ bấm giờ</string>
-    <string name="touch_headline_other_title">Các điều khiển khác</string>
+    <string name="touch_headline_call_title">呼叫控制</string>
+    <string name="touch_headline_music_title">音乐控制</string>
+    <string name="touch_headline_time_title">定时器/秒表控制</string>
+    <string name="touch_headline_other_title">其他控制</string>
 
-    <string name="touch_device_location_title">Tìm thiết bị của tôi</string>
+    <string name="touch_device_location_title">找到我的手机</string>
 
-    <string name="touch_call_answer_title">Trả lời cuộc gọi</string>
-    <string name="touch_call_answer_speakerphone_title">Loa ngoài</string>
+    <string name="touch_call_answer_title">呼叫应答</string>
+    <string name="touch_call_answer_speakerphone_title">免提</string>
 
-    <string name="touch_call_end_title">Từ chối cuộc gọi, kết thúc</string>
+    <string name="touch_call_end_title">呼叫拒绝，结束</string>
 
-    <string name="touch_call_mute_title">Tắt tiếng cuộc gọi</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">Only if you have an incoming call</string>
-    <string name="touch_call_mute_recognition_title">On incoming call</string>
+    <string name="touch_call_mute_title">呼叫静音切换</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">只当你有来电时</string>
+    <string name="touch_call_mute_recognition_title">来电</string>
+
+    <string name="touch_device_location_not_muted_only_title">只有在未静音或出于DnD模式时才发声</string>
 
     <string name="touch_call_out_title">Call out</string>
     <string name="touch_call_out_no_contact">Select an contact</string>
     <string name="touch_call_out_summary">Double press to answer the call</string>
     <string name="touch_call_out_summary_support_call_display_button">Press the button to answer the call</string>
-    <string name="touch_call_out_speakerphone_title">Loa ngoài</string>
+    <string name="touch_call_out_speakerphone_title">免提</string>
     <string name="touch_call_out_call_text">Call out: %1$s</string>
 
-    <string name="touch_device_location_not_muted_only_title">Chỉ phát tiếng nếu không im lặng</string>
+    <string name="touch_repeat_notif_title">重复通知</string>
+    <string name="touch_repeat_notif_clear_all">清除所有重复通知</string>
 
-    <string name="touch_repeat_notif_title">Lặp lại thông báo</string>
-    <string name="touch_repeat_notif_clear_all">Clear all notifications after repetition</string>
+    <string name="touch_clear_notif_title">清除通知</string>
 
-    <string name="touch_clear_notif_title">Clear notifications</string>
+    <string name="touch_music_play_pause_title">Music start, play, pause</string>
+    <string name="touch_music_skip_previous_title">Music start,上一首</string>
+    <string name="touch_music_skip_next_title">Music start,下一首</string>
+    <string name="touch_music_headset_only_title">只有耳机连接时</string>
+    <string name="touch_music_launch">启动音乐</string>
+    <string name="touch_music_volume_up_title">音乐音量</string>
+    <string name="touch_music_volume_down_title">音乐音量降低</string>
+    <string name="touch_music_track_info_title">显示音乐信息.</string>
 
-    <string name="touch_music_play_pause_title">Bắt đầu phát nhạc, chơi, dừng</string>
-    <string name="touch_music_skip_previous_title">Music start, previous song</string>
-    <string name="touch_music_skip_next_title">Bắt đầu phát nhạc, bài hát tiếp theo</string>
-    <string name="touch_music_headset_only_title">Chỉ khi tai nghe được kết nối</string>
-    <string name="touch_music_launch">Bắt đầu phát nhạc</string>
-    <string name="touch_music_volume_up_title">Tăng âm lượng nhạc</string>
-    <string name="touch_music_volume_down_title">Giảm âm lượng nhạc</string>
-    <string name="touch_music_track_info_title">Hiển thị thông tin bài hát.</string>
-
-    <string name="touch_time_launch_title">Start time monitoring</string>
-    <string name="touch_time_launch_type_timer_title">Hẹn giờ</string>
-    <string name="touch_time_launch_type_stopper_title">Đồng hố bấm giờ</string>
-    <string name="touch_time_launch_type_interval_title">Khoảng</string>
-    <string name="touch_time_launch_restart">Restart if it is in progress</string>
-    <string name="touch_time_reminder_title">Hiển thị thời gian còn lại / trôi qua</string>
+    <string name="touch_time_launch_title">开始时间监控</string>
+    <string name="touch_time_launch_type_timer_title">定制</string>
+    <string name="touch_time_launch_type_stopper_title">秒表</string>
+    <string name="touch_time_launch_type_interval_title">区间</string>
+    <string name="touch_time_launch_restart">重新启动</string>
+    <string name="touch_time_reminder_title">显示剩余时间</string>
 
     <string name="touch_camera_title">Take a photo</string>
     <string name="touch_camera_front_title">Front</string>
     <string name="touch_camera_rear_title">Rear</string>
     <string name="touch_camera_install_title">Install</string>
 
-    <string name="touch_app_launcher1_title">Trình khởi chạy ứng dụng</string>
-    <string name="touch_app_launcher_package_no_title">Chọn một ứng dụng</string>
-    <string name="touch_app_launcher1_not_wakelock_only_title">Chỉ khi màn hình không bị khóa</string>
+    <string name="touch_app_launcher1_title">应用启动器</string>
+    <string name="touch_app_launcher_package_no_title">选择应用</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">只有当屏幕未锁定时</string>
 
-    <string name="touch_tasker_launcher1_title">1. Tasker task launcher</string>
-    <string name="touch_tasker_launcher2_title">2. Tasker task launcher</string>
-    <string name="touch_tasker_launcher_no_permission_title">First you have to install Tasker, then Mi Bandage</string>
-    <string name="touch_tasker_launcher_no_access_title">Allow external access</string>
-    <string name="touch_tasker_launcher_no_task_title">Select an task</string>
-   
-    <string name="touch_testing_title">Giám sát chạm</string>
-    <string name="touch_testing_second">giây.</string>
+    <string name="touch_tasker_launcher1_title">1. Tasker任务启动器</string>
+    <string name="touch_tasker_launcher2_title">2. Tasker任务启动器</string>
+    <string name="touch_tasker_launcher_no_permission_title">你需要先安装Tasker,之后设置Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">允许外部访问</string>
+    <string name="touch_tasker_launcher_no_task_title">选择任务</string>
 
-    <string name="touch_setting_recognition_start_title">Start touch recognition</string>
-    <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
-    <string name="touch_setting_recognition_time_title">Recognition time</string>
+    <string name="touch_testing_title">触摸监控</string>
+    <string name="touch_testing_second">sec.</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">Tín hiệu Band</string>
-    <string name="touch_setting_recognition_succeeded_title">Recognisable touch pattern</string>
-    <string name="touch_setting_recognition_failed_title">Tín hiệu không nhận ra cử chỉ</string>
+    <string name="touch_setting_recognition_start_title">开始触摸识别</string>
+    <string name="touch_setting_recognition_start_trigger_title">触发器</string>
+    <string name="touch_setting_recognition_time_title">识别时间</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">手环信号</string>
+    <string name="touch_setting_recognition_succeeded_title">可识别的触摸模式</string>
+    <string name="touch_setting_recognition_failed_title">不可识别的触摸模式</string>
 
     <!-- Touch monitoring info dialog -->
-    <string name="info_dialog_touch"><![CDATA[The touch is valid when the display of Band changes (so it is advisable to rotate your wrist before touching).
-        <p>It monitors elapsed time between touches, not the elapsed time to first touch.</p>
-        <p>Green icons on the cards indicates which another function can be similar to current pattern.</p>
-        <p>When you have an incoming call the device does not recognise the following functions in order to ease touch input: location of the device, repeat notifications, music control.</p>
-        <p>In test mode does not execute the function of recognised pattern.</p>
-        <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the device (call answering, rejecting only if there is an incoming call…).</p>
-        <p>Band vibrates once, when recognise a pattern.</p>
-        <p>Band vibrates twice, when not recognise any pattern after the longest pattern (if <i>Not recognisable touch pattern signal</i> is set).</p>
-        <p>Valid touching examples:
-        <br>- touch
-        <br>- touch and 1sec waiting, touch
-        <br>- touch and 1sec waiting, touch and 1sec waiting, touch
-        <br>- touch and 2sec waiting, touch
-        <br>- touch and 2sec waiting, touch and 1sec waiting, touch
-        <br>- touch and 2sec waiting, touch and 2sec waiting, touch
+    <string name="info_dialog_touch"><![CDATA[当手环改变时有效(建议在触摸前旋转手腕).
+        <p>它监视触摸之间的运行时间，而不是第一次接触的时间.</p>
+        <p>卡片上的绿色图标表示另一个函数模式与当前模式类似.</p>
+        <p>当你有来电时，手机无法识别以下功能来触摸输入:手机的位置，重复的通知，音乐控制.</p>
+        <p>测试模式下将不会执行识别模式的功能.</p>
+        <p>只有在考虑到手机当前状态的情况下，会有振动反馈(呼叫应答，当在来电时才会拒绝…).</p>
+        <p>识别模式时，手环震动一次.</p>
+        <p>如果在最长匹配时间后仍未识别模式则震动两次(如果被设置了<i>无法识别的触摸模式</i>的话).</p>
+        <p>有效的触摸示例:
+        <br>- 触摸
+        <br>- 触摸并等待1秒,触摸
+        <br>- 触摸并等待1秒,触摸并等待1秒,触摸
+        <br>- 触摸并等待2秒,触摸
+        <br>- 触摸并等待2秒,触摸并等待1秒,触摸
+        <br>- 触摸并等待2秒,触摸并等待2秒,触摸
+        <br>- 快不认识触摸这两个字了
         </p>
     ]]></string>
 
     <!-- Step monitoring -->
-    <string name="action_tracker_step">Các bước</string>
-    <string name="action_tracker_distance">Khoảng cách</string>
-    <string name="action_tracker_calorie">Calories</string>
-    <string name="action_chart_filter_activity_no">No filter</string>
-    <string name="action_chart_filter_activity_active">Movement filter</string>
+    <string name="action_tracker_step">步数</string>
+    <string name="action_tracker_distance">距离</string>
+    <string name="action_tracker_calorie">卡路里</string>
+    <string name="action_chart_filter_activity_no">无过滤器</string>
+    <string name="action_chart_filter_activity_active">移动过滤器</string>
 
-    <string name="step_tab_day">Biểu đồ hàng ngày</string>
-    <string name="step_tab_week">Biểu đồ theo tuần</string>
-    <string name="step_tab_month">Monthly charts</string>
-    <string name="step_tab_goal">Mục tiêu hoạt động</string>
-    <string name="step_tab_settings">Cài đặt</string>
+    <string name="step_tab_day">每日图表</string>
+    <string name="step_tab_week">每周图表</string>
+    <string name="step_tab_month">每夜图表</string>
+    <string name="step_tab_goal">活动目标</string>
+    <string name="step_tab_settings">设置</string>
 
-    <string name="activity_progress_title_prepare">Preparing for synchronization…</string>
-    <string name="activity_progress_title_sync">Data synchronization %1$,d%%</string>
-    <string name="activity_progress_title_save">Data saving %1$,d%%</string>
+    <string name="activity_progress_title_prepare">准备同步…</string>
+    <string name="activity_progress_title_sync">数据同步 %1$,d%%</string>
+    <string name="activity_progress_title_save">数据保存 %1$,d%%</string>
 
-    <string name="step_title_timing">Thời điểm</string>
-    <string name="step_interval_title">khoảng thời gian lặp lại giám sát bước chân</string>
-    <string name="step_time_set_next">Thời điểm giám sát tiếp theo</string>
+    <string name="step_title_timing">计时</string>
+    <string name="step_interval_title">重复监测步骤的时间间隔</string>
+    <string name="step_time_set_next">下一次监测的时间</string>
 
-    <string name="step_goal_default_title">Default goal</string>
-    <string name="step_goal_type_title">Giám sát giá trị</string>
-    <string name="step_details">Chi tiết bước chân</string>
+    <string name="step_goal_default_title">默认目标</string>
+    <string name="step_goal_type_title">其他目标</string>
+    <string name="step_details">活动详情</string>
 
     <string name="info_dialog_step"><![CDATA[
-        <img src="ic_activity_active"> daily step/distance/calories total
-        <br><br><img src="ic_timelapse"> activity time
-        <br><br><img src="ic_activity_get_up"> getting out from the bed time
-        <br><br><img src="ic_activity_awake"> wakefulness time
-        <br><br><img src="ic_activity_rest_sofa"> resting/sitting time during wakefulness
-        <br><br><img src="ic_activity_go_to_bed"> bedtime
-        <br><br><img src="ic_battery_charging_full"> battery charging
-        <br><br><img src="ic_activity_block"> not wearing
+        <img src="ic_activity_active"> 每日步数/距离/卡路里
+        <br><br><img src="ic_timelapse"> 活跃时间
+        <br><br><img src="ic_activity_get_up"> 除去睡眠时间
+        <br><br><img src="ic_activity_awake"> 醒来时间
+        <br><br><img src="ic_activity_rest_sofa"> 休息/清醒坐着的时间
+        <br><br><img src="ic_activity_go_to_bed"> 就寝时间
+        <br><br><img src="ic_battery_charging_full"> 充电
+        <br><br><img src="ic_activity_block"> 清醒
         ]]>
     </string>
 
     <!-- Sleep monitoring -->
-    <string name="sleep_tab_day">Biểu đồ hàng ngày</string>
-    <string name="sleep_tab_week">Biểu đồ theo tuần</string>
-    <string name="sleep_tab_month">Monthly charts</string>
-    <string name="sleep_tab_settings">Cài đặt</string>
+    <string name="sleep_tab_day">每日图表</string>
+    <string name="sleep_tab_week">每周图表</string>
+    <string name="sleep_tab_month">每月图表</string>
+    <string name="sleep_tab_settings">设置</string>
 
-    <string name="action_chart_sleep_type_phase">Phase</string>
-    <string name="action_chart_sleep_type_time">Time</string>
+    <string name="action_chart_sleep_type_phase">阶段</string>
+    <string name="action_chart_sleep_type_time">时间</string>
 
-    <string name="sleep_details">Sleep details</string>
-    <string name="sleep_assistant">Trợ lý nhịp tim giấc ngủ</string>
-    <string name="sleep_assistant_summary">Giúp nhận được dữ liệu giấc ngủ chính xác hơn (giảm tuổi thọ pin)</string>
-    <string name="sleep_assistant_show_pulse">Show the measured pulse values on the daily pulse graph</string>
+    <string name="sleep_details">睡眠详情</string>
+    <string name="sleep_assistant">睡眠心率助手</string>
+    <string name="sleep_assistant_summary">有助于获得更精确的睡眠数据(降低电池使用时间)</string>
+    <string name="sleep_assistant_show_pulse">在日常心率图显示测量的数值</string>
 
     <string name="info_dialog_sleep"><![CDATA[
-        <img src="ic_timelapse"> sleeping time
-        <br><br><img src="ic_activity_sleep_deep"> deep sleeping time
-        <br><br><img src="ic_activity_go_to_bed"> bedtime/awake time
-        <br><br><img src="ic_activity_sleep_start"> sleep start time/light sleeping time
-        <br><br><img src="ic_activity_sleep_time"> total time
-        <br><br><img src="ic_activity_sleep_end"> sleep end time
-        <br><br><img src="ic_activity_get_up"> getting out from the bed time
-        <br><br><img src="ic_activity_active"> active time
-        <br><br><img src="ic_activity_block"> not wearing
+        <img src="ic_timelapse"> 睡眠时间
+        <br><br><img src="ic_activity_sleep_deep"> 深睡时间
+        <br><br><img src="ic_activity_go_to_bed"> 就寝时间/清醒时间
+        <br><br><img src="ic_activity_sleep_start"> 睡眠开始时间/睡眠时间
+        <br><br><img src="ic_activity_sleep_time"> 总时间
+        <br><br><img src="ic_activity_sleep_end"> 睡眠结束时间
+        <br><br><img src="ic_activity_get_up"> 除去睡眠时间
+        <br><br><img src="ic_activity_active"> 活跃时间
+        <br><br><img src="ic_activity_block"> 清醒
         ]]>
     </string>
 
     <!-- Pulse  monitoring -->
-    <string name="action_pulse_current">Nhịp tim hiện tại</string>
+    <string name="action_pulse_current">当前心率</string>
 
-    <string name="pulse_tab_day">Biểu đồ hàng ngày</string>
-    <string name="pulse_tab_week">Biểu đồ theo tuần</string>
-    <string name="pulse_tab_month">Monthly charts</string>
-    <string name="pulse_tab_settings_online">Online setting</string>
-    <string name="pulse_tab_settings_offline">Offline setting</string>
+    <string name="pulse_tab_day">每日图表</string>
+    <string name="pulse_tab_week">每周图表</string>
+    <string name="pulse_tab_month">每月图表</string>
+    <string name="pulse_tab_settings_online">在线设置</string>
+    <string name="pulse_tab_settings_offline">离线设置</string>
 
-    <string name="pulse_online_title">Online pulse measurement</string>
-    <string name="pulse_offline_title">Offline pulse measurement</string>
+    <string name="pulse_online_title">在线测量心率</string>
+    <string name="pulse_offline_title">离线测量心率</string>
 
-    <string name="action_chart_pulse_type_pulse">Pulse</string>
-    <string name="action_chart_pulse_type_pulse_and_step">Pulse and activity</string>
+    <string name="action_chart_pulse_type_pulse">心跳</string>
+    <string name="action_chart_pulse_type_pulse_and_step">心率和活动</string>
 
-    <string name="pulse_title_signals">Các tín hiệu</string>
-    <string name="pulse_signal_start_title">Tín hiệu bắt đầu giám sát</string>
-    <string name="pulse_signal_show_title">Hiện nhịp tim</string>
-    <string name="pulse_signal_end_low_title">Nhịp tim thấp</string>
-    <string name="pulse_signal_end_title">High pulse signal</string>
+    <string name="pulse_notification_shade">Chart on the notification shade</string>
+    <string name="pulse_title_signals">信号</string>
+    <string name="pulse_signal_start_title">监控开始信号</string>
+    <string name="pulse_signal_show_title">显示心率</string>
+    <string name="pulse_signal_end_low_title">低心率信号</string>
+    <string name="pulse_signal_end_title">高心率信号</string>
 
-    <string name="pulse_title_timing_validity">Thời gian và hiệu lực</string>
-    <string name="pulse_interval_title">Khoảng thời gian lặp lại giám sát nhịp tim</string>
-    <string name="pulse_time_set_next">Thời điểm giám sát tiếp theo</string>
-    <string name="pulse_value_min">Thấp hơn giá trị hợp lệ</string>
-    <string name="pulse_value_max">Cao hơn giá trị hợp lệ</string>
-    <string name="pulse_value_invalid">Giá trị không hợp lệ</string>
+    <string name="pulse_title_timing_validity">时间和有效性</string>
+    <string name="pulse_interval_title">心率监测的重复间隔</string>
+    <string name="pulse_time_set_next">下次监测的时间</string>
+    <string name="pulse_value_min">低有效值</string>
+    <string name="pulse_value_max">高有效值</string>
+    <string name="pulse_value_invalid">无效值</string>
 
-    <string name="pulse_offline_timed_title">Timed measurement</string>
-    <string name="pulse_all_day">All-day</string>
+    <string name="pulse_offline_timed_title">定制监测</string>
+    <string name="pulse_all_day">全天</string>
 
-    <string name="pulse_details">Chi tiết nhịp tim</string>
+    <string name="pulse_details">心率细节</string>
 
-    <string name="message_pulse_premium_mode_only">Online and offline pulse measurement can only be used in premium mode at the same time</string>
+    <string name="message_pulse_premium_mode_only">在线和离线测量只能在高级模式下使用</string>
 
-    <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Online pulse measurement</u></b>
-        <p>Bluetooth connection is required for monitoring the pulse.</p>
-        <p>Pulse monitor is repeated serveral times if the resulting value is invalid.<p>
-        <img src="ic_pulse_offline"> <b><u>Offline pulse measurement</u></b>
-        <p>No Bluetooth connection required for pulse measurement.</p>
-        <p>Bluetooth connection is required for timed start and stop.
-        <p>Manually launched measurements (Band, Mi Fit app) are logged too when pulse monitoring is started.<p/>
+    <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>在线心率监测</u></b>
+        <p>监测心率需要蓝牙连接.</p>
+        <p>如果监测结果无效则会重复监测.<p>
+        <img src="ic_pulse_offline"> <b><u>离线心率监测</u></b>
+        <p>监测不需要蓝牙连接.</p>
+        <p>定时启动和停止需要蓝牙连接.</p>
+        <p>测量会与(Band, Mi Fit应用)进行同步.<p>
         ]]>
     </string>
 
-    <!-- Lost  monitoring -->
-    <string name="alarm_mi_band_title">Tín hiệu Band</string>
-    <string name="alarm_mi_band_dnd">Chế độ không làm phiền</string>
-    <string name="alarm_mi_band_interval_title">Cài đặt khoảng thời gian báo thức lặp lại</string>
-    <string name="alarm_mi_band_time_set_next">Cài đặt thời điểm của tiếp theo</string>
-    <string name="alarm_mi_band_time">Thời điểm của báo thức tiếp theo</string>
+    <!-- Lost monitoring -->
+    <string name="alarm_mi_band_title">手环信号</string>
+    <string name="alarm_mi_band_dnd">勿扰模式</string>
+    <string name="alarm_mi_band_interval_title">重复间隔设置</string>
+    <string name="alarm_mi_band_time_set_next">下次设置的时间</string>
+    <string name="alarm_mi_band_time">下个闹钟的时间</string>
 
-    <string name="alarm_mi_band_on_bluetooth_disabled_text">Lost monitoring Band signal is enabled.</string>
-    <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm time: %1$s</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">启用信号丢失监测.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_info">闹钟时间: %1$s</string>
 
-    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Tín hiệu Band</u></b>
-        <p>When specified period of time expires, Band send signals if not connected to the device.</p>
-        <p>App uses alarm function of Mi Fit to alert (overwrite 10. setting).</p>
-        <p>The alarm will be repeated several times if the Band do not detect any movement (because it uses the factory alarm).</p>
-        <p>Before switching off Bluetooth or uninstalling the app you need to deactivate Tín hiệu Band.</p>
-        <p>If you remove the application when the alarm is on, then you can disable it with turning on and off again Mi Fit 10. alarm setting.</p>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>手环信号</u></b>
+        <p>当指定的时间段结束时，如果没有连接到手机，则会发送信号.</p>
+        <p>应用使用Mi Fit的闹铃功能来进行提醒(覆盖10.设置).</p>
+        <p>如果手环未监测到任何动作闹钟会重复多次(因为它使用手环的闹钟).</p>
+        <p>在关闭蓝牙或卸载应用之前，你需要禁用手环信号.</p>
+        <p>如果在闹钟开启时移除了应用,可以再次打开或关闭Mi Fit 10.闹钟设置.</p>
 
-        <img src="ic_phone_android"> <b><u>Device signals</u></b>
-        <p>When specified period of time expires, device send signals repeatedly if not connected to the bracelet.<p>
-        <p>This makes it easier to find the device. If someone else finds the device and it is locked he does not know who to notify, so you can display a message.</p>
-        <p>When bracelet is connected, alarm stops.</p>
-        <p>Must be enabled to display notification on the lock screen.</p>]]>
+        <img src="ic_phone_android"> <b><u>电话信号</u></b>
+        <p>如果到达指定之间,手机会持续发送信号（如果未连接手环）.<p>
+        <p>这会更容易找到手机. 如果他人发现了电话并被锁定不知道该联系谁，因此你可以显示一条信息.</p>
+        <p>手环连接时闹钟停止.</p>
+        <p>必须启用在锁定屏幕上显示通知.</p>]]>
     </string>
 
     <!-- Time  monitoring -->
-    <string name="time_tab_alarm">Báo thức</string>
-    <string name="time_tab_timer">Hẹn giờ</string>
-    <string name="time_tab_stopper">Đồng hố bấm giờ</string>
-    <string name="time_tab_lap">Vòng thời gian</string>
-    <string name="time_tab_interval">Khoảng</string>
+    <string name="time_tab_alarm">闹钟</string>
+    <string name="time_tab_timer">定时</string>
+    <string name="time_tab_stopper">秒表</string>
+    <string name="time_tab_lap">一次时间</string>
+    <string name="time_tab_interval">区间</string>
 
-    <string name="action_alarm_device">Báo thức mặc định</string>
-    <string name="time_alarm_mi_band_signal">Signal when phone alarm sounds</string>
-    <string name="time_alarm_mi_band_signal_alarm_off">Alarm off at second touch</string>
-    <string name="time_alarm_title">Tiêu đề</string>
-    <string name="time_alarm_pre_alarm">Tín hiệu nhắc nhở, thời gian còn lại</string>
-    <string name="time_alarm_pre_alarm_interval_title">Trước thời gian</string>
-    <string name="time_alarm_pre_alarm_type_vibrate_title">Rung</string>
-    <string name="time_alarm_pre_alarm_type_remaining_title">Thời gian còn lại</string>
+    <string name="action_alarm_device">电话闹铃</string>
+    <string name="time_alarm_mi_band_signal">手机闹铃响起时</string>
+    <string name="time_alarm_mi_band_signal_alarm_off">第二次触摸时关闭闹钟</string>
+    <string name="time_alarm_title">标题</string>
+    <string name="time_alarm_pre_alarm">提醒,剩余时间</string>
+    <string name="time_alarm_pre_alarm_interval_title">之前</string>
+    <string name="time_alarm_pre_alarm_type_vibrate_title">震动</string>
+    <string name="time_alarm_pre_alarm_type_remaining_title">剩余时间</string>
 
-    <string name="time_timer_time_alert">Thời gian báo</string>
-    <string name="time_timer_time_remaining">Thời gian còn lại</string>
+    <string name="time_timer_time_alert">闹钟时间</string>
+    <string name="time_timer_time_remaining">剩余时间</string>
 
-    <string name="time_timer_reminder">Tín hiệu nhắc nhở, thời gian còn lại</string>
-    <string name="time_timer_reminder_interval_before_title">Trước thời gian</string>
-    <string name="time_timer_reminder_interval_repeat_title">Khoảng thời gian lặp lại nhắc nhở</string>
+    <string name="time_timer_reminder">提醒,剩余时间</string>
+    <string name="time_timer_reminder_interval_before_title">之前</string>
+    <string name="time_timer_reminder_interval_repeat_title">提醒重复间隔</string>
 
-    <string name="time_stopper_time_alert">Thời gian báo</string>
-    <string name="time_stopper_time_elapsed">Thời gian trôi qua</string>
+    <string name="time_stopper_time_alert">闹钟时间</string>
+    <string name="time_stopper_time_elapsed">已用时间</string>
 
-    <string name="time_stopper_reminder">Tín hiệu nhắc nhở, thời gian trôi qua</string>
-    <string name="time_stopper_reminder_interval_before_title">Trước thời gian</string>
-    <string name="time_stopper_reminder_interval_repeat_title">Khoảng thời gian lặp lại nhắc nhở</string>
+    <string name="time_stopper_reminder">提醒,经过时间</string>
+    <string name="time_stopper_reminder_interval_before_title">之前</string>
+    <string name="time_stopper_reminder_interval_repeat_title">提醒重复间隔</string>
 
-    <string name="time_stopper_touch">Giám sát vòng thời gian, chạm</string>
-    <string name="time_stopper_touch_record">Lap time recording by one touch</string>
-    <string name="time_stopper_touch_show">Hiện vòng thời gian bằng 1 chạm</string>
-    <string name="time_stopper_touch_time_format">Định dạng thời gian</string>
-    <string name="time_stopper_touch_time_format_minute">giờ \u2032 phút \u2033</string>
-    <string name="time_stopper_touch_time_format_second">phút \u2032 thứ hai \u2033</string>
+    <string name="time_stopper_touch">单次时间,触摸监测</string>
+    <string name="time_stopper_touch_record">触摸记录单次时间</string>
+    <string name="time_stopper_touch_show">触摸记录单次时间</string>
+    <string name="time_stopper_touch_time_format">时间格式</string>
+    <string name="time_stopper_touch_time_format_minute">小时 \u2032 fen  \u2033</string>
+    <string name="time_stopper_touch_time_format_second">分 \u2032 秒 \u2033</string>
 
-    <string name="time_lap_details">Chi tiết vòng thời gian</string>
+    <string name="time_lap_details">单次时间详情</string>
 
-    <string name="time_mode_timer_title">Thời điểm</string>
-    <string name="time_mode_time_title">Thời gian</string>
+    <string name="time_mode_timer_title">计时</string>
+    <string name="time_mode_time_title">时间</string>
 
-    <string name="time_alert">Kiểu báo thức</string>
-    <string name="time_alert_bell_title">Chuông</string>
-    <string name="time_alert_alarm_title">Báo thức</string>
+    <string name="time_alert">闹钟类型</string>
+    <string name="time_alert_bell_title">铃</string>
+    <string name="time_alert_alarm_title">闹钟</string>
 
-    <string name="time_interval_time_total">Tổng thời gian</string>
-    <string name="time_interval_counter">Số lần lặp lại</string>
-    <string name="time_interval_time_alert">Thời gian kết thúc</string>
-    <string name="time_interval_time_current">Khoảng thời gian trôi qua, lặp lại</string>
-    <string name="time_interval_title">Tiêu đề</string>
-    <string name="time_interval_time">Khoảng thời gian</string>
+    <string name="time_interval_time_total">总时间</string>
+    <string name="time_interval_counter">重复次数</string>
+    <string name="time_interval_time_alert">结束时间</string>
+    <string name="time_interval_time_current">重复,间隔经过时间</string>
+    <string name="time_interval_title">标题</string>
+    <string name="time_interval_time">间隔时间</string>
 
-    <string name="time_text">Hiển thị tin nhắn khi báo thức</string>
-    <string name="time_text_message">Văn bản</string>
+    <string name="time_text">闹铃显示消息</string>
+    <string name="time_text_message">文字</string>
 
-    <string name="time_enable_bluetooth">Bật Bluetooth</string>
+    <string name="time_enable_bluetooth">打开蓝牙</string>
 
     <string name="info_dialog_time"><![CDATA[
-        <p><b>Turn off the alarm, timer and stopwatch before removing the application.</b></p>
-        <img src="ic_device_alarm"> <b><u>Signal when phone alarm sounds</u></b>
-        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from a Google Play.</p>
+        <p><b>在移除应用前关闭闹钟，计时器和秒表.</b></p>
+        <img src="ic_device_alarm"> <b><u>手机闹铃响起时</u></b>
+        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from the Google Play.</p>
         <img src="ic_miband_bell"> <b><u>Bell</u></b>
-        <p>Bluetooth connection is required for alarm, it alarms just only once for 10 seconds.</p>
+        <p>闹铃需要蓝牙连接，10秒发送一次.</p>
         <img src="ic_alarm"> <b><u>Alarm</u></b>
-        <p>Bluetooth connection is not required for alarm, app uses alarm function of Mi Fit to alert (overwrite 4. - 9. setting).
-        <br>The alarm will be repeated several times if the Band do not detect any movement (because it uses the Band\'s alarm).
-        <br>Độ chính xác theo phút, Miband 2 không chính xác từng giây trong thời gian báo thức.</p>
-        <p>Reminder signal requires Bluetooth connection.</p>
+        <p>闹铃不需要蓝牙连接，使用Mi Fit功能来提醒(覆盖 4. - 9. 设置).
+        <br>如果未监测到移动（使用手机提醒）则会重复提醒.
+        <br>分钟精度,手环无法处理提醒秒数.</p>
+        <p>提醒和显示信息需要进行蓝牙连接.</p>
     ]]></string>
 
     <!-- Watch face -->
-    <string name="watch_face_default_title">Watch face change</string>
+    <string name="watch_face_default_title">更换表盘</string>
 
-    <string name="watch_face_init_title">Initialization</string>
-    <string name="watch_face_init_content"><![CDATA[In the Mi Fit Application set one of the factory watch face.
-        <br>You have to select the same watch face when uploading.
-        <br><i>(initialization is only required once)</i>
+    <string name="watch_face_init_title">初始化</string>
+    <string name="watch_face_init_content"><![CDATA[在Mi Fit应用程序中设置表盘.
+        <br>上传时需要选择相同的表盘.
+        <br><i>(初始化只需一次)</i>
     ]]></string>
 
-    <string name="watch_face_download_title">Download</string>
-    <string name="watch_face_download_path">Save the downloaded watch face file here:</string>
-    <string name="watch_face_download_name">File name</string>
-    <string name="watch_face_download_move">Move the downloaded watch face files from the %1$s directory</string>
+    <string name="watch_face_download_title">下载</string>
+    <string name="watch_face_download_path">保存下载的表盘至:</string>
+    <string name="watch_face_download_name">文件名</string>
+    <string name="watch_face_download_move">从 %1$s 目录中移动下载的表盘</string>
 
-    <string name="watch_face_upload_title">Upload</string>
-    <string name="watch_face_upload_empty_title"><![CDATA[Watch face not found
+    <string name="watch_face_upload_title">上传</string>
+    <string name="watch_face_upload_empty_title"><![CDATA[未找到表盘
         <br><i>(%1$s)</i>
     ]]></string>
-    <string name="message_watch_face_upload_error">Initialization is required</string>
+    <string name="message_watch_face_upload_error">需要初始化</string>
 
-    <string name="info_dialog_watch_face"><![CDATA[<b><u>Watch face change procedure:</u></b>
-        <br><br><img src="ic_mi_fit_init"> <b>1. Initialization</b>
-        <p>Resets the watch face\'s states to the original in the Mi Fit application, upload the first factory watch face.
+    <string name="info_dialog_watch_face"><![CDATA[<b><u>更换表盘:</u></b>
+        <br><br><img src="ic_mi_fit_init"> <b>1. 初始化</b>
+        <p>在Mi Fit中还原表盘初始状态,上传第一个表盘.
 
-        <br><br><b>2. Download</b>
-        <p>Download watch faces from the web sites.
+        <br><br><b>2. 下载</b>
+        <p>从网络下载表盘.
 
-        <br><br><img src="ic_content_duplicate"> <b>3. Move the files</b>
-        <p>If necessary, move the downloaded watch face files from the Download directory to the MiBandage directory.
+        <br><br><img src="ic_content_duplicate"> <b>3. 移动文件</b>
+        <p>如需要,将下载的表盘文件从下载目录移动到 MiBandage 目录.
 
-        <br><br><img src="ic_mi_fit_upload"> <b>4. Upload</b>
-        <p>Upload the selected watch face in the Mi Fit. It replaces the last uploaded factory watch face.
+        <br><br><img src="ic_mi_fit_upload"> <b>4. 上传</b>
+        <p>在Mi Fit中上传选定的表盘，它取代上次上传的表盘.
 
-        <br><br><br><b><u>Upload multiple watch face</u></b>
-        <p><img src="ic_action_launch_mi_fit"> Launching Mi Fit without watch face replacing, upload the second factory watch face.
-        <p><img src="ic_mi_fit_upload">  Upload the selected watch face in the Mi Fit.
-        <p>Repeat these steps.
+        <br><br><br><b><u>上传多个表盘</u></b>
+        <p><img src="ic_action_launch_mi_fit">在未更换手表的情况下启动Mi Fit,上传第二个表盘.
+        <p><img src="ic_mi_fit_upload"> 在Mi Fit中上传选定的表盘.
+        <p>重复以上步骤.
 
-        <br><br>In the Mi Fit the watch face\'s picture will not change.
+        <br><br>在Mi Fit中表盘的图片不会改变.
         ]]>
     </string>
 
     <!-- Agent -->
-    <string name="agent_title">Trình giám sát thiết bị</string>
-    <string name="agent_tab_events">Nhật ký giám sát</string>
-    <string name="agent_tab_settings">Cài đặt</string>
+    <string name="agent_title">设备监控代理</string>
+    <string name="agent_tab_events">代理日志</string>
+    <string name="agent_tab_settings">设置</string>
 
-    <string name="pref_disconnected_agent_summary_on">Nếu một người nào đó can thiệp vào thiết bị trong khi bạn đang đi vắng, bạn sẽ biết</string>
-    <string name="pref_disconnected_agent_text">Có người can thiệp vào thiết bị, trong khi bạn đi vắng</string>
-    <string name="pref_disconnected_agent_user_present_title">Sáng màn hình thiết bị giám sát</string>
-    <string name="pref_disconnected_agent_screen_on_and_motion_title">Giám sát bật nguồn và chuyển động</string>
+    <string name="pref_disconnected_agent_summary_on">如有人在你离开时动了电话，你会知道</string>
+    <string name="pref_disconnected_agent_text">有人动了电话时而你正好离开</string>
+    <string name="pref_disconnected_agent_user_present_title">唤醒手机屏幕监控</string>
+    <string name="pref_disconnected_agent_screen_on_and_motion_title">电源和运动监控</string>
 
     <!-- Agent log info dialog -->
-    <string name="info_dialog_disconnected_agent"><![CDATA[Events detected by the device management agent:
-        <br>- power on
-        <br>- unlocking the screen
-        <br>- motion detected
+    <string name="info_dialog_disconnected_agent"><![CDATA[代理时发现的事件:
+        <br>- 开机
+        <br>- 解锁屏幕
+        <br>- 监测运动
 
-        <p>If someone operates with the device while you are away, then events above are logged.</p>
-        <p>When you reconnect you will receive a notification in case of an event occurred.</p>]]>
+        <p>如果有人在你离开后使用手机将会被记录.</p>
+        <p>重新连接后如果发生事件你会收到通知.</p>]]>
     </string>
 
     <!-- Theme -->
-    <string name="theme_tab_theme">Theme</string>
-    <string name="theme_tab_widget">Widgets</string>
-    <string name="theme_tab_notification">Select a theme</string>
+    <string name="theme_tab_theme">主题</string>
+    <string name="theme_tab_widget">小工具</string>
+    <string name="theme_tab_notification">通知阴影</string>
 
-    <string name="theme_title">Select a theme</string>
-    <string name="theme_background_color_title">Background color</string>
+    <string name="theme_title">选择主题</string>
+    <string name="theme_background_color_title">背景颜色</string>
 
-    <string name="theme_widget_foreground_title">Foreground</string>
-    <string name="theme_widget_foreground_color_title">Icon and text color</string>
-    <string name="theme_widget_background_title">Background</string>
-    <string name="theme_widget_background_color_title">Color</string>
-    <string name="theme_widget_background_shape_title">Shape</string>
-    <string name="theme_widget_background_transparency_title">Transparency</string>
+    <string name="theme_widget_foreground_title">前景</string>
+    <string name="theme_widget_foreground_color_title">图标和文字颜色</string>
+    <string name="theme_widget_background_title">背景</string>
+    <string name="theme_widget_background_color_title">颜色</string>
+    <string name="theme_widget_background_shape_title">形状</string>
+    <string name="theme_widget_background_transparency_title">透明度</string>
 
-    <string name="theme_widget_touch_event_title">Touch event</string>
+    <string name="theme_widget_touch_event_title">触摸事件</string>
 
-    <string name="theme_notification_title">Hiện trạng thái trong vùng thông báo</string>
-    <string name="theme_notification_summary">Hệ thống Android cưỡng bức dừng một dịch vụ chỉ khi bộ nhớ thấp. Nếu sau một thời gian không xuất hiện các thông báo trên Band 2, bạn có thể ngăn chặn điều này.</string>
-    <string name="theme_notification_color_title">Màu biểu tượng</string>
-    <string name="theme_notification_text_color_title">Text color</string>
+    <string name="theme_notification_title">再通知栏显示状态</string>
+    <string name="theme_notification_summary">只有当内存不足时，Android系统才会停止服务。如果很长时间未在手环上收到通知则可以阻止系统此操作.</string>
+    <string name="theme_notification_color_title">图标颜色</string>
+    <string name="theme_notification_text_color_title">文字颜色</string>
 
     <!-- Backup and restore -->
-    <string name="backup_tab_backup">Backup</string>
-    <string name="backup_tab_restore">Restore</string>
+    <string name="backup_tab_backup">备份</string>
+    <string name="backup_tab_restore">恢复</string>
 
-    <string name="backup_time">Backup time</string>
-    <string name="backup_path">Backup location</string>
-    <string name="backup_auto">Automatic backup</string>
-    <string name="backup_auto_time">Time</string>
+    <string name="backup_time">备份时间</string>
+    <string name="backup_path">备份位置</string>
+    <string name="backup_auto">自动备份</string>
+    <string name="backup_auto_time">时间</string>
 
-    <string name="backup_process">Preparation…</string>
-    <string name="backup_process_activity">Activity and sleep %1$,d%%</string>
-    <string name="backup_process_pulse">Pulse %1$,d%%</string>
-    <string name="backup_process_notification">Notification %1$,d%%</string>
-    <string name="backup_process_touch">Touch %1$,d%%</string>
-    <string name="backup_process_time">Time %1$,d%%</string>
-    <string name="backup_process_alarm">Lost %1$,d%%</string>
-    <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
-    <string name="backup_process_settings">Settings %1$,d%%</string>
+    <string name="backup_process">准备…</string>
+    <string name="backup_process_activity">活动和睡眠 %1$,d%%</string>
+    <string name="backup_process_pulse">心率 %1$,d%%</string>
+    <string name="backup_process_notification">通知 %1$,d%%</string>
+    <string name="backup_process_touch">触摸 %1$,d%%</string>
+    <string name="backup_process_time">时间 %1$,d%%</string>
+    <string name="backup_process_alarm">丢失 %1$,d%%</string>
+    <string name="backup_process_disconnected_agent">代理 %1$,d%%</string>
+    <string name="backup_process_settings">设置 %1$,d%%</string>
 
-    <string name="backup_restore_activity">Activity and sleep</string>
-    <string name="backup_restore_pulse">Pulse</string>
-    <string name="backup_restore_notification">Notification</string>
-    <string name="backup_restore_touch">Touch</string>
-    <string name="backup_restore_time">Time</string>
-    <string name="backup_restore_alarm">Lost</string>
-    <string name="backup_restore_disconnected_agent">Agent</string>
-    <string name="backup_restore_settings">Settings</string>
+    <string name="backup_restore_activity">活动和睡眠</string>
+    <string name="backup_restore_pulse">心率</string>
+    <string name="backup_restore_notification">通知</string>
+    <string name="backup_restore_touch">触摸</string>
+    <string name="backup_restore_time">时间</string>
+    <string name="backup_restore_alarm">丢失</string>
+    <string name="backup_restore_disconnected_agent">代理</string>
+    <string name="backup_restore_settings">设置</string>
 
-    <string name="backup_restore_reset">After restoring, Bluetooth will be turning off and on and the application will restart.</string>
+    <string name="backup_restore_reset">恢复后,蓝牙将关闭且应用会重新启动.</string>
 
     <!-- Rewarded mode -->
-    <string name="rewarded_policy_title">Các điều khoản và điều kiện của Chế độ thưởng</string>
+    <string name="rewarded_policy_title">奖励模式的条款和条件</string>
     <string name="rewarded_policy"><![CDATA[
-        <p>- Bắt đầu có hiệu lực từ: thời gian hiện tại
-        <br>- Kết thúc hiệu lực: từ lúc bắt đầu có hiệu lực + ít nhất %1$,d days (Tùy thuộc vào quảng cáo nó có thể lâu hơn)
-        <br>- Thao tác can thiệp thời gian có thể gây ra chấm dứt hiệu lực</p>
-        <i>Sau khi xem video bạn cần phải khởi động lại ứng dụng.</i>
+        <p>- 有效期开始: 当前时间
+        <br>- 有效期结束: 有效期开始 + 至少 %1$,d 天 (取决于广告多少)
+        <br>- 修改时间可能会导致有效性丢失</p>
+        <i>播放视频后你需要重启应用.</i>
     ]]></string>
 
-    <string name="rewarded_advantage_banner_title">Chặn quảng cáo biểu ngữ</string>
-    <string name="rewarded_advantage_interstitial_title">Chặn quảng cáo xen kẽ</string>
+    <string name="rewarded_advantage_banner_title">阻止横幅广告</string>
+    <string name="rewarded_advantage_interstitial_title">阻止内嵌广告</string>
 
-    <string name="rewarded_advantage_time_range">Tính hợp lệ</string>
-    <string name="rewarded_advantage_button_play">Xem video</string>
+    <string name="rewarded_advantage_time_range">有效性</string>
+    <string name="rewarded_advantage_button_play">播放视频</string>
 
-    <string name="message_rewarded_error">Không tải được video</string>
+    <string name="message_rewarded_error">无法加载视频</string>
 
     <!-- Premium mode -->
-    <string name="purchase_advantage_title">Premium mode advantages</string>
+    <string name="purchase_advantage_title">高级模式特权</string>
     <string name="purchase_advantage"><![CDATA[
-         - ad-free
-        <br>- do not disturb mode
-        <br>- unlimited notification monitoring
-        <br>- unlimited touch monitoring
-        <br>- text prefix, pre icon and filtering text can be used in notification monitoring
-        <br>- repeat interval can be set freely in step monitoring function
-        <br>- repeat interval can be set freely and show pulse can be used in pulse monitoring function
-        <br>- repeat interval can be set freely and dnd mode can be used in lost monitoring function
-        <br>- repeated reminders, show message and turn on bluetooth can be set freely in time monitoring
-        <br>- …
+        - 无广告
+        <br>- 勿扰模式
+        <br>- 无限通知监控
+        <br>- 无限触摸监控
+        <br>- 文本前缀,图标和过滤文本可用于通知监控
+        <br>- 可在步数监控中自由设定重复间隔
+        <br>- 可在心率监测中自由设定重复间隔
+        <br>- 可自由设定重复间隔，DnD模式可用于丢失监测功能
+        <br>- 重复提醒,可在时间监测中自由设置显示信息和打开蓝牙
+        <br>- …译者表示看来好用的功能都要解锁，所以你还在犹豫什么，赶快拿起电话…
     ]]></string>
-    <string name="purchase_policy_title">Terms and conditions of Premium mode</string>
+    <string name="purchase_policy_title">高级模式的条款和条件</string>
     <string name="purchase_policy"><![CDATA[
-        <p>- I have tested the app and it is working properly.
-        <br>- I am aware of that I can not require compensation or refund due to bugs, software errors caused by changes in the software, hardware environment or using other applications.
-        <br>- All sales are final and can not be refund (except Google refund policy).
-        <br>- There is no warranty included.</p>
-        <p><i>After purchasing you need to restart the app.</i></p>
+        <p>- 我测试应用能正常工作.
+        <br>- 由于软件硬件或其他应用等使用环境引起的变化可能会导致的错误和问题，我不会要求退款或赔偿.
+        <br>- 购买后无法退款(google退款政策除外).
+        <br>- 不包括保修.</p>
+        <p><i>购买后你可能需要重启应用.</i></p>
     ]]></string>
 
-    <!--<string name="purchase_price">Giá bán:</string>-->
-    <string name="purchase_agree">Tôi đồng ý với các Điều khoản và Điều kiện.</string>
-    <string name="purchase_order_id">ID đơn hàng</string>
-    <string name="purchase_order_id_help">Sao chép từ:
+    <!--<string name="purchase_price">价钱:</string>-->
+    <string name="purchase_agree">我同意条款和条件.</string>
+    <string name="purchase_order_id">订单ID</string>
+    <string name="purchase_order_id_help">复制自:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
-    <string name="purchase_button_purchase">Mua</string>
+    <string name="purchase_button_purchase">购买</string>
 
     <!-- Feedback -->
-    <string name="action_log_notification">Notification log</string>
+    <string name="action_log_notification">通知日志</string>
 
-    <string name="feedback_google_play_title">Đánh giá ứng dụng này</string>
-    <string name="feedback_request_feature_title">Yêu cầu tính năng</string>
-    <string name="feedback_request_feature_summary">Xử lý e-mail tự động, bạn sẽ không nhận được phản hồi</string>
+    <string name="feedback_google_play_title">为此应用评分</string>
+    <string name="feedback_request_feature_title">功能请求及错误报告</string>
+    <string name="feedback_request_feature_summary">邮件会自动处理因此你可能不会收到回信</string>
 
     <!-- Vibration dialog -->
-    <string name="vibration_title">Cài đặt rung</string>
-    <string name="vibration_intensity">Cường độ</string>
-    <string name="vibration_pause">Dừng</string>
-    <string name="vibration_times">Thời gian</string>
+    <string name="vibration_title">震动设置</string>
+    <string name="vibration_intensity">持续时间</string>
+    <string name="vibration_pause">暂停</string>
+    <string name="vibration_times">Times</string>
 
     <!-- Hack -->
-    <string name="info_dialog_hack"><![CDATA[Hack tool detected on device.
-        <p>While the hack tool is installed the premium mode is not available.</p>
-        <p>I spent a lot of time in the development of application, please do not use hack tools.</p>]]>
+    <string name="info_dialog_hack"><![CDATA[监测到破解软件.
+        <p>当安装有破解软件时高级模式不可用.</p>
+        <p>我花了很多时间来开发这个应用,请不要使用破解软件.</p>]]>
     </string>
 
     <!-- Others -->
-    <string name="on">Bật</string>
-    <string name="off">Tắt</string>
-    <string name="none">Không</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="none">None</string>
     <string name="bpm">BPM</string>
-    <string name="time_start">Thời gian bắt đầu</string>
-    <string name="time_end">Thời gian kết thúc</string>
-    <string name="ringer_mode_mute">Mute</string>
-    <string name="ringer_mode_silent">Do not disturb</string>
+    <string name="time_start">开始时间</string>
+    <string name="time_end">关闭时间</string>
+    <string name="ringer_mode_mute">静音</string>
+    <string name="ringer_mode_silent">勿扰</string>
 
-    <string name="action_dismiss">Bỏ qua</string>
-    <string name="action_setting">Cài đặt</string>
-    <string name="action_delete">Xóa</string>
-    <string name="action_export">Xuất</string>
-    <string name="action_filter_no">No filter</string>
-    <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_dismiss">关闭</string>
+    <string name="action_setting">设置</string>
+    <string name="action_delete">删除</string>
+    <string name="action_export">导出</string>
+    <string name="action_filter_no">无过滤器</string>
+    <string name="action_bluetooth">蓝牙</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_save">Save</string>
-    <string name="action_test">Test</string>
+    <string name="action_save">保存</string>
+    <string name="action_test">测试</string>
 
-    <string name="action_chart">Biểu đồ</string>
-    <string name="action_chart_normalize_minute">Measured values</string>
-    <string name="action_chart_normalize_quarter_hourly">Quarter-hourly values</string>
-    <string name="action_chart_normalize_half_hourly">Half-hourly values</string>
-    <string name="action_chart_normalize_hourly">Hourly average</string>
-    <string name="action_chart_sort_time_asc">Time ascending</string>
-    <string name="action_chart_sort_time_desc">Time descending</string>
-    <string name="action_chart_sort_step_asc">Step ascending</string>
-    <string name="action_chart_sort_step_desc">Step descending</string>
-    <string name="action_chart_sort_pulse_asc">Pulse ascending</string>
-    <string name="action_chart_sort_pulse_desc">Pulse descending</string>
-    <string name="action_chart_sort_lap_asc">Lap ascending</string>
-    <string name="action_chart_sort_lap_desc">Lap descending</string>
+    <string name="action_chart">图表</string>
+    <string name="action_chart_normalize_minute">测量值</string>
+    <string name="action_chart_normalize_quarter_hourly">1/4小时值</string>
+    <string name="action_chart_normalize_half_hourly">半小时值</string>
+    <string name="action_chart_normalize_hourly">小时值</string>
+    <string name="action_chart_sort_time_asc">时间升序</string>
+    <string name="action_chart_sort_time_desc">时间降序</string>
+    <string name="action_chart_sort_step_asc">逐步升序</string>
+    <string name="action_chart_sort_step_desc">降序</string>
+    <string name="action_chart_sort_pulse_asc">心率升序</string>
+    <string name="action_chart_sort_pulse_desc">心率降序</string>
+    <string name="action_chart_sort_lap_asc">单次升序</string>
+    <string name="action_chart_sort_lap_desc">单次降序</string>
 
-    <string name="power_on">Bật nguồn</string>
-    <string name="screen_unlock">Mở khóa màn hình</string>
-    <string name="motion">Phát hiện chuyển động</string>
+    <string name="power_on">开机</string>
+    <string name="screen_unlock">屏幕解锁</string>
+    <string name="motion">移动监测</string>
 
-    <string name="required_value">Bắt buộc</string>
+    <string name="required_value">必填</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_hour">h</string>
@@ -942,39 +942,39 @@
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="zero">%d hour</item>
-        <item quantity="one">%d hour</item>
-        <item quantity="two">%d hours</item>
-        <item quantity="few">%d hours</item>
-        <item quantity="many">%d hours</item>
-        <item quantity="other">%d hours</item>
+        <item quantity="zero">%d 小时</item>
+        <item quantity="one">%d 小时</item>
+        <item quantity="two">%d 小时</item>
+        <item quantity="few">%d 小时</item>
+        <item quantity="many">%d 小时</item>
+        <item quantity="other">%d 小时</item>
     </plurals>
 
     <plurals name="plural_time_minute">
-        <item quantity="zero">%d phút</item>
-        <item quantity="one">%d phút</item>
-        <item quantity="two">%d phút</item>
-        <item quantity="few">%d phút</item>
-        <item quantity="many">%d phút</item>
-        <item quantity="other">%d phút</item>
+        <item quantity="zero">%d 分钟</item>
+        <item quantity="one">%d 分钟</item>
+        <item quantity="two">%d 分钟</item>
+        <item quantity="few">%d 分钟</item>
+        <item quantity="many">%d 分钟</item>
+        <item quantity="other">%d 分钟</item>
     </plurals>
 
     <plurals name="plural_time_second">
-        <item quantity="zero">%d giây</item>
-        <item quantity="one">%d giây</item>
-        <item quantity="two">%d giây</item>
-        <item quantity="few">%d giây</item>
-        <item quantity="many">%d giây</item>
-        <item quantity="other">%d giây</item>
+        <item quantity="zero">%d 秒</item>
+        <item quantity="one">%d 秒</item>
+        <item quantity="two">%d 秒</item>
+        <item quantity="few">%d 秒</item>
+        <item quantity="many">%d 秒</item>
+        <item quantity="other">%d 秒</item>
     </plurals>
 
     <plurals name="plural_file_moved">
-        <item quantity="zero">%d file moved</item>
-        <item quantity="one">%d file moved</item>
-        <item quantity="two">%d files moved</item>
-        <item quantity="few">%d files moved</item>
-        <item quantity="many">%d files moved</item>
-        <item quantity="other">%d files moved</item>
+        <item quantity="zero">%d 个文件移动</item>
+        <item quantity="one">%d 个文件移动</item>
+        <item quantity="two">%d 个文件移动</item>
+        <item quantity="few">%d 个文件移动</item>
+        <item quantity="many">%d 个文件移动</item>
+        <item quantity="other">%d 个文件移动</item>
     </plurals>
 
 </resources>
