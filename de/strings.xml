@@ -290,20 +290,21 @@
     <p>Mi Bandage benötigt die offizielle Mi Fit-App auf demselben Gerät. Vor der Verwendung der Mi Bandage-App muss das Band mit der Mi Fit-App verbunden sein.</p>
     <p>Falls mehrere Apps das Band kontollieren, können Interferenzen auftreten. Bitte deaktivieren Sie diese temporär.</p>
     <p>Sie können die MAC-Adresse manuell einstellen, falls das Band nicht erkannt wird (die MAC-Adresse kann in Mi Fit/Profil/Band gefunden werden.).</p>
-    <p><b>Falls das Band nicht erkannt wird oder Komplikationen beim Synchronisieren der Mi Fit-App auftreten, installieren Sie BToolkit, nRF Connect oder ähnliche Bluetooth-Manager und löschen Sie jedes gekoppelte Gerät.</b></p>
-    <p>Falls Sie Probleme mit der Erkennung des Mi Bands 2 und kein Benachrichtigungssignal erhalten, bitte versuchen Sie folgende Schritte:
-    <p><b>MIUI:</b>
+    <p><b>Falls Sie Probleme mit der Erkennung des Mi Bands 2 und kein Benachrichtigungssignal erhalten, bitte versuchen Sie folgende Schritte:</b>
     <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
-    <br>- Security app screen: battery/app battery saver set Mi Bandage app to no restriction.</p>
+    <br>- Phone/battery optimization: set Mi Bandage app to not optimized.
+    <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
+    <br>Settings/Developer options:
+    <br>- Don\'t keep activities: disable
+    <br>- Background process limit: standard limit
+    <br>- Memory optimization: middle/low/disable</p>
+    <p>Falls das Band nicht erkannt wird oder Komplikationen beim Synchronisieren der Mi Fit-App auftreten, installieren Sie BToolkit, nRF Connect oder ähnliche Bluetooth-Manager und löschen Sie jedes gekoppelte Gerät.</p>
     <br>1. Falls Sie Greenify oder eine andere sich im Ruhezustand befindende App installiert haben, deaktivieren Sie diese.
     <br>2. Installieren Sie die Mi Bandage-App.
     <br>3. Führen Sie einen Neustart ihres Telefons durch.
     <br>4. Deaktivieren Sie Bluetooth und aktivieren Sie es anschließend wieder.
     <br>5. Öffnen Sie die Mi Fit-App, warten Sie bis die Synchronisation abgeschlossen ist, und schließen Sie die App wieder.
     <br>6. Öffnen Sie die Mi Bandage-App und berühren Sie den "Entdecken"-Button.</p>]]></string>
-
-
-
 
 
 
@@ -583,6 +584,7 @@
     <string name="action_chart_pulse_type_pulse">Puls</string>
     <string name="action_chart_pulse_type_pulse_and_step">Puls und Aktivität</string>
 
+    <string name="pulse_notification_shade">Chart on the notification shade</string>
     <string name="pulse_title_signals">Signale</string>
     <string name="pulse_signal_start_title">Startsignal der Beobachtung</string>
     <string name="pulse_signal_show_title">Zeige Herzfrequenz an</string>
@@ -698,7 +700,7 @@
     <string name="info_dialog_time"><![CDATA[
         <p><b>Deaktivieren Sie sowohl den Alarm, Timer als auch die Stoppuhr bevor Sie die App deinstallieren.</b></p>
         <img src="ic_device_alarm"> <b><u>Signal when phone alarm sounds</u></b>
-        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from a Google Play.</p>
+        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from the Google Play.</p>
         <img src="ic_miband_bell"> <b><u>Glocke</u></b>
         <p>Für den Alarm wird eine Bluetooth-Verbindung benötigt, er wird nur einmal für 10 Sek. aktiv sein.</p>
         <img src="ic_alarm"> <b><u>Alarm</u></b>
