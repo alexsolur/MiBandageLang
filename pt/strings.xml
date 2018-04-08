@@ -290,14 +290,14 @@
     <p>A Mi Bandage precisa da Mi Fit instalada para funcionar. Primeiro tem de emparelhar a Band na aplicação Mi Fit e só depois poderá usar a Mi Bandage.</p>
     <p>Se você usa mais aplicações para controlar a Band, elas vão interferir umas com as outras por isso desative-as.</p>
     <p>Se a Band não for encontrada, você pode configurar o endereço MAC manualmente nos detalhes do menu (O endereço MAC encontra-se em: Mi Fit/Profil/Band).</p>
-    <p><b>If you have a connection problem:</b>
-    <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
-    <br>- Phone/battery optimization: set Mi Bandage app to not optimized.
-    <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
-    <br>Settings/Developer options:
-    <br>- Don\'t keep activities: disable
-    <br>- Background process limit: standard limit
-    <br>- Memory optimization: middle/low/disable</p>
+    <p><b>Se tiver um problema de conexão:</b>
+    <br>- Ecrã de aplicações recentes: bloquear a Mi Bandage (Deslizar a aplicaçãao para baixo e clicar no aloquete).
+    <br>- Dispositivo/Otimização de bateria: configurar a Mi Bandage para: "não otimizar".
+    <br>- Dispositivo/Aplicações: Limpar dasdos de "Bluetooth Share" e de outras aplicações \'Bluetooth\'.
+    <br>Definições/Opções de programador:
+    <br>- Não manter atividades: desativado
+    <br>- Limitar processos em segundo plano: Limite padrão
+    <br>- Otimização de memória: Médio/Baixo/Desativado</p>
     <p>Se a Band não for encontrada ou se está a ter problemas em sincronizar na aplicação Mi Fit, instale BToolkit, nRF Conect ou uma aplicação semelhante de monitoramento bluetooth e remova os dispositivos emparelhados.</p>
     <p>Se tem problemas (descobrir a Band/sinal de notificação), tente isto por favor:
     <br>1. Se tem o Greenify instalado (ou outra aplicação para hibernar) desative a opção \'hibernar mi bandage\'.
@@ -583,7 +583,7 @@
     <string name="action_chart_pulse_type_pulse">Pulsação</string>
     <string name="action_chart_pulse_type_pulse_and_step">Pulsação e Atividade</string>
 
-    <string name="pulse_notification_shade">Chart on the notification shade</string>
+    <string name="pulse_notification_shade">Gráfico na barra de notificações</string>
     <string name="pulse_title_signals">Avisos</string>
     <string name="pulse_signal_start_title">Aviso de começo</string>
     <string name="pulse_signal_show_title">Mostrar pulsação</string>
