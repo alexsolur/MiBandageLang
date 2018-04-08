@@ -159,8 +159,8 @@
     <string name="pref_cat_text_conversion">Alerte Band</string>
     <string name="pref_text_conversion_title">Conversion des caractères</string>
     <string name="pref_text_conversion_summary_on">Conversion des caractères non reconnus, turn off if the Band supports your language or you have installed custom font firmware</string>
-    <string name="pref_text_emoticon_title">Emoji conversion</string>
-    <string name="pref_text_emoticon_summary_on">Convert emoji to emoticon</string>
+    <string name="pref_text_emoticon_title">Conversion d\'emoji</string>
+    <string name="pref_text_emoticon_summary_on">Convertir l\'emoji en émoticone</string>
     <string name="pref_text_length">La longueur du texte dépend de la police de caractères utilisée (exemple Chinois ou Cyrillic)</string>
     <string name="pref_text_length_summary_on">%1$,d caractères</string>
 
@@ -184,23 +184,23 @@
     <string name="pref_mi_band_lift_wrist_dnd_title">Mode ne pas déranger</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Activé (aucune information ne sera affichée dans l\'intervalle spécifié, la connexion Bluetooth doit être établie pour effectuer ce réglage)</string>
 
-    <string name="pref_battery_phone">Phone battery</string>
-    <string name="pref_battery_phone_summary">Low and full battery level notifications</string>
-    <string name="pref_cat_battery_phone_low">Low battery level</string>
-    <string name="pref_battery_phone_low_title">Notification sur niveau de batterie faible</string>
-    <string name="pref_battery_phone_low_level_title">Seuil du niveau de batterie</string>
+    <string name="pref_battery_phone">Batterie du portable</string>
+    <string name="pref_battery_phone_summary">Notifications de niveau faible et plein de la batterie</string>
+    <string name="pref_cat_battery_phone_low">Niveau de batterie faible</string>
+    <string name="pref_battery_phone_low_title">Notification de batterie faible</string>
+    <string name="pref_battery_phone_low_level_title">Battery level threshold</string>
     <string name="pref_battery_phone_low_repeat_interval_title">Intervalle de répétition</string>
-    <string name="pref_cat_battery_phone_full">Full battery level</string>
-    <string name="pref_battery_phone_full_title">Full battery notification</string>
-    <string name="pref_battery_phone_full_plugged_ac">AC charger power source</string>
-    <string name="pref_battery_phone_full_plugged_usb">USB port power source</string>
-    <string name="pref_battery_phone_full_plugged_wireless">Wireless power source</string>
-    <string name="pref_battery_phone_full_repeat_interval_title">Repeat interval</string>
+    <string name="pref_cat_battery_phone_full">Niveau de batterie plein</string>
+    <string name="pref_battery_phone_full_title">Notification de batterie pleine</string>
+    <string name="pref_battery_phone_full_plugged_ac">Charger via le secteur</string>
+    <string name="pref_battery_phone_full_plugged_usb"> Charger via l\'USB </string>
+    <string name="pref_battery_phone_full_plugged_wireless"> Charger en sans fil</string>
+    <string name="pref_battery_phone_full_repeat_interval_title"> Intervalle de répétition</string>
 
     <!-- Mi Band 2 max. 18 chars with 100% -->
-    <string name="pref_battery_phone_mi_band_message">Phone batt.: %1$,d%%</string>
+    <string name="pref_battery_phone_mi_band_message">Batterie: %1$,d%%</string>
     <!-- Other Bands-->
-    <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
+    <string name="pref_battery_phone_message">Batterie du portable:\n %1$,d%%</string>
 
     <string name="pref_language">Langue</string>
     <string name="pref_cat_language">Langue</string>
@@ -216,7 +216,7 @@
     <string name="pref_dnd_title">Mode ne pas déranger</string>
     <string name="pref_dnd_summary">Définir les pilotes en mode ne pas déranger</string>
     <string name="pref_dnd_auto_title">Mode ne pas déranger automatique</string>
-    <string name="pref_dnd_auto_summary">Piloté par le mode ne pas dérangé du téléphone, il a une priorité plus grande que s'il était géré par le mode ne pas déranger de l'appli</string>
+    <string name="pref_dnd_auto_summary">Piloté par le mode ne pas dérangé du téléphone, il a une priorité plus grande que s\'il était géré par le mode ne pas déranger de l\'appli</string>
     <string name="pref_dnd_auto_vibrate">Vibration (silencieux)</string>
     <string name="pref_dnd_auto_silent">Ne pas Déranger</string>
     <string name="pref_dnd_scheduled_title">Programmer le mode ne pas déranger</string>
@@ -290,10 +290,15 @@
     <p>Mi Bandage nécessite l\'installation de l\'appli officielle Mi Fit sur le même téléphone. Pour commencer vous devez appairer votre Band dans l\'appli Mi Fit, ensuite pour pourrez utiliser Mi Bandage.</p>
     <p>Si vous utilisez plus d\'applications pour contrôler votre Band, elles vont interférer entre elles et se désactiver.</p>
     <p>Si votre Band n\'est pas détecté, vous pouvez saisir son adresse MAC manuellement dans les détails de la fenêtre principale (l\'adresse MAC se trouve dans: Mi Fit/Profil/Band).</p>
-    <p><b>Si votre Band n\'est pas détecté ou si vous avez un problème de synchronisation avec l\'appli Mi Fit, veuillez installer BToolkit, nRF Connect ou toute autre appli pour gérer le Bluetooth et retirez tous les appareils appairés.</b></p>
-    <p><b>MIUI:</b>
-    <br>- Écran des applis récentes: verrouiller Mi Bandage (déroulez l\'application et cliquez sur l\'icône de verrouillage).
-    <br>- Écran d\'appli de sécurité: définir Mi Bandage dans votre appli d\'économie de batterie sur aucune restriction.</p>
+    <p><b>If you have a connection problem:</b>
+    <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
+    <br>- Phone/battery settings/battery optimization: set Mi Bandage app to not optimized.
+    <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
+    <br>Settings/Developer options:
+    <br>- Don\'t keep activities: disable
+    <br>- Background process limit: standard limit
+    <br>- Memory optimization: middle/low/disable</p>
+    <p>Si votre Band n\'est pas détecté ou si vous avez un problème de synchronisation avec l\'appli Mi Fit, veuillez installer BToolkit, nRF Connect ou toute autre appli pour gérer le Bluetooth et retirez tous les appareils appairés.</p>
     <p>Si vous avez un souci (détection du Band, aucune alerte de notification), essayez ceci:
     <br>1. Si vous avez installé Greenify (ou tout autre appli de mise en veille) désactivez là.
     <br>2. Installer Mi Bandage.
@@ -301,11 +306,6 @@
     <br>4. Désactiver, activer le Bluetooth.
     <br>5. Ouvrir l\'appli Mi Fit, attendre la fin de la synchronisation, fermez la.
     <br>6. Ouvrir Mi Bandage, cliquer sur le bouton de découverte vert.</p>]]></string>
-
-
-
-
-
 
     <!-- Diagnostic -->
     <string name="diagnostic_title">Diagnostiques</string>
@@ -356,8 +356,8 @@
     <string name="notification_group_sample_facebook">Afficher le texte de Messenger</string>
     <string name="notification_group_sample_whatsapp">Afficher le texte de WhatsApp</string>
 
-    <string name="notification_edit_play_text_title">Notification title</string>
-    <string name="notification_edit_play_text_content">Notification content:
+    <string name="notification_edit_play_text_title">Titre de la notification </string>
+    <string name="notification_edit_play_text_content">Contenu de la notification:
     Le faux-texte (également appelé lorem ipsum, lipsum, ou bolo bolo1) est, en imprimerie, un texte sans signification, dont le seul objectif est de calibrer le contenu d\'une page par du texte, fût-il non éditorial, pour travailler sur la seule mise en forme de la page.
         \n Le texte définitif (qui a une signification) prendra la place du faux-texte, une fois que la mise en forme sera jugée acceptable.
     </string>
@@ -429,12 +429,12 @@
     <string name="touch_call_mute_only_call_state_ringing_title">Uniquement si vous avez un appel entrant</string>
     <string name="touch_call_mute_recognition_title">Sur appel entrant</string>
 
-    <string name="touch_call_out_title">Call out</string>
-    <string name="touch_call_out_no_contact">Select an contact</string>
-    <string name="touch_call_out_summary">Double press to answer the call</string>
-    <string name="touch_call_out_summary_support_call_display_button">Press the button to answer the call</string>
+    <string name="touch_call_out_title">Appeler </string>
+    <string name="touch_call_out_no_contact">Sélectionner un contact</string>
+    <string name="touch_call_out_summary">Appui double pour répondre à l\'appel</string>
+    <string name="touch_call_out_summary_support_call_display_button">Appuyer sur la touche pour répondre à l\'appel</string>
     <string name="touch_call_out_speakerphone_title">Haut parleur</string>
-    <string name="touch_call_out_call_text">Call out: %1$s</string>
+    <string name="touch_call_out_call_text">Appeler: %1$s</string>
 
     <string name="touch_device_location_not_muted_only_title">Émettre un son s\'il n\'est pas en muet ou en mode DnD</string>
 
@@ -459,10 +459,10 @@
     <string name="touch_time_launch_restart">Redémarrer s\'il est en cours d\'exécution</string>
     <string name="touch_time_reminder_title">Afficher le temps restant/passé</string>
 
-    <string name="touch_camera_title">Take a photo</string>
-    <string name="touch_camera_front_title">Front</string>
-    <string name="touch_camera_rear_title">Rear</string>
-    <string name="touch_camera_install_title">Install</string>
+    <string name="touch_camera_title">Prendre une photo</string>
+    <string name="touch_camera_front_title">De face</string>
+    <string name="touch_camera_rear_title">Derrière</string>
+    <string name="touch_camera_install_title">Installer</string>
 
     <string name="touch_app_launcher1_title">Lanceur d\'appli</string>
     <string name="touch_app_launcher_package_no_title">Sélectionner une application</string>
@@ -583,6 +583,7 @@
     <string name="action_chart_pulse_type_pulse">Rythme</string>
     <string name="action_chart_pulse_type_pulse_and_step">Rythme et activité</string>
 
+    <string name="pulse_notification_shade">Chart on the notification shade</string>
     <string name="pulse_title_signals">Alertes</string>
     <string name="pulse_signal_start_title">Alerte sur lancement de la supervision</string>
     <string name="pulse_signal_show_title">Afficher le rythme</string>
@@ -696,7 +697,7 @@
     <string name="info_dialog_time"><![CDATA[
         <p><b>Désactivez l\'alarme, le minuteur et le chronomètre avant de désinstaller l\'application.</b></p>
         <img src="ic_device_alarm"> <b><u>Alerte lorsque l\'alarme du mobile sonne</u></b>
-        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from a Google Play.</p>
+        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from the Google Play.</p>
         <img src="ic_miband_bell"> <b><u>Sonnerie</u></b>
         <p>La connexion Bluetooth est nécessaire pour l\'alarme, cela alerte seulement une fois pendant 10 secondes.</p>
         <img src="ic_alarm"> <b><u>Alarme</u></b>
