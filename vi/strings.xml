@@ -290,10 +290,15 @@
     <p>Mi Bandage requires the installation of the official Mi Fit app on the same device. At first you have to pair Band in Mi Fit app, then you can use Mi Bandage.</p>
     <p>If you use more applications to control Band, they interfere with each other so temporarily turn off those.</p>
     <p>If Band is not found, then you can set the MAC address manually in the details menu (MAC address is found: Mi Fit/Profil/Band).</p>
-    <p><b>If Band is not found or if you are having trouble syncing Mi Fit app, then install the BToolkit, nRF Connect or similar Bluetooth manager app and remove any pairing, bonded device.</b></p>
-    <p><b>MIUI:</b>
+    <p><b>If you have a connection problem:</b>
     <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
-    <br>- Security app screen: battery/app battery saver set Mi Bandage app to no restriction.</p>
+    <br>- Phone/battery optimization: set Mi Bandage app to not optimized.
+    <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
+    <br>Settings/Developer options:
+    <br>- Don\'t keep activities: disable
+    <br>- Background process limit: standard limit
+    <br>- Memory optimization: middle/low/disable</p>
+    <p>If Band is not found or if you are having trouble syncing Mi Fit app, then install the BToolkit, nRF Connect or similar Bluetooth manager app and remove any pairing, bonded device.</p>
     <p>If you have problem (discover Band, not have notification signal), please try it:
     <br>1. If you installed the Greenify (or other hibernating app) turn it off.
     <br>2. Install Mi Bandage app.
@@ -301,11 +306,6 @@
     <br>4. Turn off, on Bluetooth.
     <br>5. Open Mi Fit app, wait until the synchronization done, close it.
     <br>6. Open Mi Bandage app, click green discover button.</p>]]></string>
-
-
-
-
-
 
     <!-- Diagnostic -->
     <string name="diagnostic_title">Diagnostic</string>
@@ -584,6 +584,7 @@
     <string name="action_chart_pulse_type_pulse">Pulse</string>
     <string name="action_chart_pulse_type_pulse_and_step">Pulse and activity</string>
 
+    <string name="pulse_notification_shade">Chart on the notification shade</string>
     <string name="pulse_title_signals">Các tín hiệu</string>
     <string name="pulse_signal_start_title">Tín hiệu bắt đầu giám sát</string>
     <string name="pulse_signal_show_title">Hiện nhịp tim</string>
@@ -699,7 +700,7 @@
     <string name="info_dialog_time"><![CDATA[
         <p><b>Turn off the alarm, timer and stopwatch before removing the application.</b></p>
         <img src="ic_device_alarm"> <b><u>Signal when phone alarm sounds</u></b>
-        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from a Google Play.</p>
+        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from the Google Play.</p>
         <img src="ic_miband_bell"> <b><u>Bell</u></b>
         <p>Bluetooth connection is required for alarm, it alarms just only once for 10 seconds.</p>
         <img src="ic_alarm"> <b><u>Alarm</u></b>
