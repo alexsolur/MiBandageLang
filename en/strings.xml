@@ -292,13 +292,13 @@
     <p>If Band is not found, then you can set the MAC address manually when you discover (MAC address is found: Mi Fit/Profil/Band).</p>
     <p><b>If you have a connection problem:</b>
     <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
-    <br>- Phone battery settings/battery optimization: set Mi Bandage app to not optimized.
-    <br>- Settings/Developer options:
-    <br> - Don\'t keep activities: disable
-    <br> - Background process limit: standard limit
-    <br> - Memory optimization: middle/low/disable
-    <br> - Turn on  MIUI optimization: disable</p>
-    <p><b>If Band is not found or if you are having trouble syncing Mi Fit app, then install the BToolkit, nRF Connect or similar Bluetooth manager app and remove any pairing, bonded device.</b></p>
+    <br>- Phone/battery optimization: set Mi Bandage app to not optimized.
+    <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
+    <br>Settings/Developer options:
+    <br>- Don\'t keep activities: disable
+    <br>- Background process limit: standard limit
+    <br>- Memory optimization: middle/low/disable</p>
+    <p>If Band is not found or if you are having trouble syncing Mi Fit app, then install the BToolkit, nRF Connect or similar Bluetooth manager app and remove any pairing, bonded device.</p>
     <p>If you have problem (discover Band, not have notification signal), please try it:
     <br>1. If you installed the Greenify (or other hibernating app) turn it off.
     <br>2. Install Mi Bandage app.
@@ -441,7 +441,7 @@
     <string name="touch_repeat_notif_title">Repeat notifications</string>
     <string name="touch_repeat_notif_clear_all">Clear all notifications after repetition</string>
 
-    <string name="touch_clear_notif_title">Clear notifications</string>
+    <string name="touch_clear_notif_title">Clear notifications from phone</string>
 
     <string name="touch_music_play_pause_title">Music start, play, pause</string>
     <string name="touch_music_skip_previous_title">Music start, previous song</string>
@@ -583,6 +583,7 @@
     <string name="action_chart_pulse_type_pulse">Pulse</string>
     <string name="action_chart_pulse_type_pulse_and_step">Pulse and activity</string>
 
+    <string name="pulse_notification_shade">Chart on the notification shade</string>
     <string name="pulse_title_signals">Signals</string>
     <string name="pulse_signal_start_title">Monitoring starting signal</string>
     <string name="pulse_signal_show_title">Show pulse</string>
@@ -698,7 +699,7 @@
     <string name="info_dialog_time"><![CDATA[
         <p><b>Turn off the alarm, timer and stopwatch before removing the application.</b></p>
         <img src="ic_device_alarm"> <b><u>Signal when phone alarm sounds</u></b>
-        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from a Google Play.</p>
+        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from the Google Play.</p>
         <img src="ic_miband_bell"> <b><u>Bell</u></b>
         <p>Bluetooth connection is required for alarm, it alarms just only once for 10 seconds.</p>
         <img src="ic_alarm"> <b><u>Alarm</u></b>
