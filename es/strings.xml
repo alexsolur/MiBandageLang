@@ -28,7 +28,7 @@
 
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Hora de conexión: %1$s</string>
-    <string name="foreground_service_disconnected_text">Band no está conectada</string>
+    <string name="foreground_service_disconnected_text">Band no conectada</string>
     <!--<string name="foreground_service_disconnected">Hora de desconexión: %1$s</string>-->
 
     <!-- Strings related to Settings -->
@@ -43,9 +43,9 @@
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Nivel de Batería, Ultima hora de carga, Tiempo estimado pendiente </string>
     <string name="mi_band_state_connected_disconnected_last_time">RSSI, Ultima hora de conexión y desconexión </string>
-    <string name="mi_band_touch">Control Táctil </string>
-    <string name="mi_band_alarm">Siguiente Alarma </string>
-    <string name="mi_band_bonded_device_name">Nivel de batería baja</string>
+    <string name="mi_band_touch">Control Táctil</string>
+    <string name="mi_band_alarm">Siguiente Alarma</string>
+    <string name="mi_band_bonded_device_name">Nivel de batería bajo</string>
     <string name="mi_band_mac_address">Direccion MAC</string>
     <string name="mi_band_firmware">Firmware</string>
     <string name="mi_band_hardware">Hardware</string>
@@ -158,11 +158,11 @@
     <string name="pref_text_conversion_summary">Configuraciones de iconos de texto en Band</string>
     <string name="pref_cat_text_conversion">Señal en Band</string>
     <string name="pref_text_conversion_title">Conversión de caracteres</string>
-    <string name="pref_text_conversion_summary_on">Conversión de caracteres no reconocibles, turn off if the Band supports your language or you have installed custom font firmware</string>
+    <string name="pref_text_conversion_summary_on">Conversión de caracteres no reconocibles, desactivalo si la band tiene tu idioma o tienes fuentes personalizadas.</string>
     <string name="pref_text_emoticon_title">Emoji conversion</string>
-    <string name="pref_text_emoticon_summary_on">Convert emoji to emoticon</string>
-    <string name="pref_text_length">Text length, depends on the font used (for example Chinese or Cyrillic characters)</string>
-    <string name="pref_text_length_summary_on">%1$,d characters</string>
+    <string name="pref_text_emoticon_summary_on">Convertir emoji a emoticon</string>
+    <string name="pref_text_length">Longitud de texto, depende de la fuente que se use (por ejemplo Chino o Cirilico)</string>
+    <string name="pref_text_length_summary_on">%1$,d caracteres</string>
 
     <string name="pref_text_conversion_description_title">Descripción</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -184,23 +184,23 @@
     <string name="pref_mi_band_lift_wrist_dnd_title">Modo no molestar</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Encendido (en el periodo especificado no mostrará la informacion.Se requiere Bluetooth para la configuración)</string>
 
-    <string name="pref_battery_phone">Phone battery</string>
-    <string name="pref_battery_phone_summary">Low and full battery level notifications</string>
-    <string name="pref_cat_battery_phone_low">Low battery level</string>
+    <string name="pref_battery_phone">Bateria del telefono</string>
+    <string name="pref_battery_phone_summary">Notificacion de bateria baja y llena</string>
+    <string name="pref_cat_battery_phone_low">Nivel de bateria bajo</string>
     <string name="pref_battery_phone_low_title">Notificación Nivel de Batería Bajo</string>
-    <string name="pref_battery_phone_low_level_title">Nivel Batería Bajo</string>
-    <string name="pref_battery_phone_low_repeat_interval_title">Repetir Intervalo</string>
-    <string name="pref_cat_battery_phone_full">Full battery level</string>
-    <string name="pref_battery_phone_full_title">Full battery notification</string>
-    <string name="pref_battery_phone_full_plugged_ac">AC charger power source</string>
-    <string name="pref_battery_phone_full_plugged_usb">USB port power source</string>
-    <string name="pref_battery_phone_full_plugged_wireless">Wireless power source</string>
-    <string name="pref_battery_phone_full_repeat_interval_title">Repetir Intervalo</string>
+    <string name="pref_battery_phone_low_level_title">Nivel de Batería Bajo</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Intervalo de repeticion</string>
+    <string name="pref_cat_battery_phone_full">Nivel de bateria llena</string>
+    <string name="pref_battery_phone_full_title">Notificar bateria llena</string>
+    <string name="pref_battery_phone_full_plugged_ac">Notificar carga por AC completa</string>
+    <string name="pref_battery_phone_full_plugged_usb">Notificar carga por USB completa</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Notificar carga Inhalambrica completa</string>
+    <string name="pref_battery_phone_full_repeat_interval_title">Intervalo de repeticion</string>
 
     <!-- Mi Band 2 max. 18 chars with 100% -->
-    <string name="pref_battery_phone_mi_band_message">Phone batt.: %1$,d%%</string>
+    <string name="pref_battery_phone_mi_band_message">Bateria tel.: %1$,d%%</string>
     <!-- Other Bands-->
-    <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
+    <string name="pref_battery_phone_message">Bateria telefono:\n %1$,d%%</string>
 
     <string name="pref_language">Idioma</string>
     <string name="pref_cat_language">Idioma</string>
@@ -216,21 +216,21 @@
     <string name="pref_dnd_title">Modo no molestar</string>
     <string name="pref_dnd_summary">Estado de los controles no molestar</string>
     <string name="pref_dnd_auto_title">Modo automático no molestar</string>
-    <string name="pref_dnd_auto_summary">Controlado por el teléfono modo no molestar, it has a higher priority than the scheduled do not disturb mode</string>
+    <string name="pref_dnd_auto_summary">Controlado por el teléfono modo no molestar, tiene una prioridad más alta que el modo programado de no molestar</string>
     <string name="pref_dnd_auto_vibrate">Vibration (silent)</string>
-    <string name="pref_dnd_auto_silent">Do not disturb</string>
-    <string name="pref_dnd_scheduled_title">Programación modo no molestar</string>
+    <string name="pref_dnd_auto_silent">No molestar</string>
+    <string name="pref_dnd_scheduled_title">Programar modo no molestar</string>
     <string name="pref_dnd_scheduled_new_title">Título</string>
     <string name="pref_dnd_remember_state_summary">Al final del modo no molestar, active todas las herramientas o restaure los estados a como estaban en el momento del inicio</string>
     <string name="pref_dnd_remember_state_on_title">Al final, restaura el estado de las herramientas</string>
     <string name="pref_dnd_remember_state_off_title">Al final, active todas las herramientas</string>
-    <string name="pref_dnd_mi_fit_scheduled">Activate Band DnD mode (disable messages and lift wrist to view info)</string>
+    <string name="pref_dnd_mi_fit_scheduled">Activa el modo no molestar (desactiva los mensajes y girar la muñeca para ver info)</string>
     <string name="pref_dnd_enable_bluetooth">Al inicio del modo No Molestar desactivar el Bluetooth, al finalizar activar el Bluetooth</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Por favor, active el Bluetooth y acerque la Band al dispositivo</string>
     <string name="message_discover_mi_band">Si la conexión con la Mi Band no se establece, haga una búsqueda</string>
-    <string name="message_discovering_mi_band">Encontrando Band (le puede costar 1 minuto) &#8230;</string>
+    <string name="message_discovering_mi_band">Buscando Band (puede tardar 1 minuto) &#8230;</string>
     <string name="message_discovered_mi_band">%1$s encontrada</string>
     <string name="message_discovered_no_mi_band">Band no encontrada</string>
     <string name="message_discovered_not_found_mi_band">Si la Band no se puede encontrar, encienda: Mi Fit/Play/Discoverable o empareje en las configuraciones de Bluetooth del dispositivo</string>
@@ -251,7 +251,7 @@
 
     <string name="message_touch_no_patterns">Presione uno de los botones de grabación del patrón rojo</string>
     <string name="message_touch_record">Grabe el patrón usando el boton táctil de la Band</string>
-    <string name="message_touch_pattern_error">El patrón especificado es similar a una muestra de otra función, registre otro</string>
+    <string name="message_touch_pattern_error">El patrón especificado es similar a otro, registre otro</string>
     <string name="message_touch_free_patterns">Se pueden utilizar hasta %1$,d funciones en modo normal</string>
     <string name="message_touch_music_player_not_found">Reproductor de música no encontrado</string>
     <string name="message_touch_app_launcher1_not_set">La aplicación no está configurada</string>
@@ -277,7 +277,7 @@
     <string name="message_in_progress">En progreso…</string>
     <string name="message_no_data">Información no disponible</string>
 
-    <string name="message_new_message">Un nuevo mensaje ha sido recibido, ver en teléfono.</string>
+    <string name="message_new_message">Nuevo mensaje recibido, ver en teléfono.</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Bienvenido!</string>
@@ -290,10 +290,15 @@
     <p>Mi Bandage requiere la instalación de la aplicación oficial Mi Fit en el mismo dispositivo. Al principio, tienes que emparejar la Band con la Mi Fit, entonces podras usar Mi Bandage.</p>
     <p>Si utiliza mas aplicaciones para controlar la Band, puede que interfieran entre si, desactivelas temporalmente.</p>
     <p>Si no se puede enontrar la Band, puedes establecer la dirección MAC, manualment, en el menú de detalles(La dirección MAC se puede encontrar en: Mi Fit/Perfil/Band).</p>
-    <p><b>Si no se encuentra la Band o si está teniendo poblemas para sincronizar la aplicacion Mi Fit, entonces instale BToolkit, nRF Connect o alguna aplicación de gestión de Bluetooth similar y elimine cualquier emparejamiento.</b></p>
-    <p><b>MIUI:</b>
-    <br>- Aplicaciones Recientes en Pantalla: cierra Mi Band (estire la app hacia bajo y pulse cerrar).
-    <br>- Aplicación de Seguridad en Pantalla: El ahorro de Energía de la App No muestra restricciones.</p>
+    <p><b>If you have a connection problem:</b>
+    <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
+    <br>- Phone/battery settings/battery optimization: set Mi Bandage app to not optimized.
+    <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
+    <br>Settings/Developer options:
+    <br>- Don\'t keep activities: disable
+    <br>- Background process limit: standard limit
+    <br>- Memory optimization: middle/low/disable</p>
+    <p>Si no se encuentra la Band o si está teniendo poblemas para sincronizar la aplicacion Mi Fit, entonces instale BToolkit, nRF Connect o alguna aplicación de gestión de Bluetooth similar y elimine cualquier emparejamiento.</p>
     <p>Si tiene problemas(como encontrar Band, no tiene señales de notificiaciones), por favor intente:
     <br>1. Si tiene instalado Greenfy (u otra aplicacion de hibernación) desactívela, por favor
     <br>2. Instalar Mi Bandage.
@@ -302,24 +307,19 @@
     <br>5. Abra la aplicación Mi Fit, espere que la sincronizacion termine, cierrela.
     <br>6. Abra la aplicación Mi Bandage, presione el boton de descubrir.</p>]]></string>
 
-
-
-
-
-
     <!-- Diagnostic -->
     <string name="diagnostic_title">Diagnostico</string>
 
     <string name="diagnostic_permissions_title">Permisos</string>
 
-    <string name="diagnostic_access_title">Accesos</string>
-    <string name="diagnostic_access_do_not_disturb">Acceso a modo no molestar</string>
-    <string name="diagnostic_access_notification">Acceso de dotificaciones</string>
+    <string name="diagnostic_access_title">Acceso</string>
+    <string name="diagnostic_access_do_not_disturb">Acceso modo no molestar</string>
+    <string name="diagnostic_access_notification">Acceso notificaciones</string>
 
     <string name="diagnostic_protection_title">Protección contra cierres</string>
     <string name="diagnostic_protection_battery">Optimización de batería apagado</string>
     <string name="diagnostic_protection_service">Mostrar estado en la pantalla de notificación</string>
-    <string name="diagnostic_protection_lock">Cierre de diagnostico de protección</string>
+    <string name="diagnostic_protection_lock">Bloquear en la pantalla de aplicaciones recientes</string>
 
     <!-- Notification  -->
     <string name="notification_tab_custom">Notificaciones personalizadas</string>
@@ -329,35 +329,35 @@
     <string name="notification_group_name">Nombre</string>
     <string name="notification_group_monitoring">Notificaciones de monitoreo</string>
     <string name="notification_group_monitoring_disabled">Deshabilitar notificaciones (no mostrar las notificaciones de la aplicación)</string>
-    <string name="notification_group_text">Text display</string>
+    <string name="notification_group_text">Mostrar texto</string>
     <string name="notification_group_alert_title">Señal de Band</string>
     <string name="notification_group_text_title">Título</string>
     <string name="notification_group_text_content">Contenido</string>
-    <string name="notification_group_vibration_title">Personalización vibración</string>
+    <string name="notification_group_vibration_title">Personalización de vibración</string>
     <string name="notification_group_pre_signal_title">Predicción de notificacion predeterminada</string>
     <string name="notification_group_pre_vibration_title">Pre vibración</string>
     <string name="notification_group_pre_alert_title">Icono previo</string>
     <string name="notification_group_prefix">Prefijo de texto</string>
-    <string name="notification_group_pre_only_premium">Sólo en modo premium</string>
-    <string name="notification_group_immediate">Señal inmediata cuando se recibe una notificación</string>
+    <string name="notification_group_pre_only_premium">Sólo en modo Premium</string>
+    <string name="notification_group_immediate">Avisar inmediatamente cuando se recive una notificacion</string>
     <string name="notification_group_connecting">Al conectar al dispositivo</string>
     <string name="notification_group_reminder">Señal de recordatorio</string>
     <string name="notification_group_screen_off">Señal, solo cuando la pantalla está apagada</string>
     <string name="notification_group_counter_title">Numero de señales</string>
     <string name="notification_group_wakelock">Encender la pantalla del dispositivo</string>
     <string name="notification_group_filter">Filtrar notificaciones</string>
-    <string name="notification_group_filter_title">Filtar titulo</string>
-    <string name="notification_group_filter_content">Filtar contenido</string>
-    <string name="notification_group_filter_hint">Señal solo cuando la notificación (delimitador: enter, ignorar mayusculas)</string>
-    <string name="notification_group_filter_contains">Contiene frases</string>
-    <string name="notification_group_filter_not_contains">No contiene frases</string>
+    <string name="notification_group_filter_title">Filtrar titulo</string>
+    <string name="notification_group_filter_content">Filtrar contenido</string>
+    <string name="notification_group_filter_hint">Avisar cuando la notificacion (delimitador: enter, ignorar mayusculas)</string>
+    <string name="notification_group_filter_contains">Contiene la palabra/frase</string>
+    <string name="notification_group_filter_not_contains">No contiene la palabra/frase</string>
 
     <string name="notification_group_sample_sms">Texto de SMS mostrado</string>
     <string name="notification_group_sample_facebook">Texto de Messenger mostrado</string>
     <string name="notification_group_sample_whatsapp">Texto de WhatsApp mostrado</string>
 
-    <string name="notification_edit_play_text_title">Notification title</string>
-    <string name="notification_edit_play_text_content">Notification content:
+    <string name="notification_edit_play_text_title">Titulo de la notificacion</string>
+    <string name="notification_edit_play_text_content">Contenido de la notificacion:
     Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final.
     \n Aunque no posee actualmente fuentes para justificar sus hipótesis, el profesor de filología clásica Richard McClintock asegura que su uso se remonta a los impresores de comienzos del siglo XVI.1​ Su uso en algunos editores de texto muy conocidos en la actualidad ha dado al texto lorem ipsum nueva popularidad.
     </string>
@@ -406,7 +406,7 @@
 
     <!-- MiBandageApp chooser dialog -->
     <string name="action_search">Buscar</string>
-    <string name="action_filter_notification">Notification filter</string>
+    <string name="action_filter_notification">Filtrar notificacion</string>
 
     <!-- Touch monitoring -->
     <string name="touch_tab_control">Control</string>
@@ -423,20 +423,20 @@
     <string name="touch_call_answer_title">Contestar llamada</string>
     <string name="touch_call_answer_speakerphone_title">Altavoz</string>
 
-    <string name="touch_call_end_title">Rechazar llamada, terminar</string>
+    <string name="touch_call_end_title">Rechazar llamada, colgar</string>
 
     <string name="touch_call_mute_title">Silenciar llamada</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">solo si tu  tienes una llamada entrante</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Solo si tienes una llamada entrante</string>
     <string name="touch_call_mute_recognition_title">En llamada entrante </string>
 
-    <string name="touch_call_out_title">Call out</string>
-    <string name="touch_call_out_no_contact">Select an contact</string>
-    <string name="touch_call_out_summary">Double press to answer the call</string>
-    <string name="touch_call_out_summary_support_call_display_button">Press the button to answer the call</string>
+    <string name="touch_call_out_title">Llamada</string>
+    <string name="touch_call_out_no_contact">Seleccionar contacto</string>
+    <string name="touch_call_out_summary">Doble toque para responder la llamada</string>
+    <string name="touch_call_out_summary_support_call_display_button">Presiona el boton para responder la llamada</string>
     <string name="touch_call_out_speakerphone_title">Altavoz</string>
     <string name="touch_call_out_call_text">Call out: %1$s</string>
 
-    <string name="touch_device_location_not_muted_only_title">Sonido,sólo si no está silenciado</string>
+    <string name="touch_device_location_not_muted_only_title">Sonido,sólo si no está en silencio o en modo no molestar</string>
 
     <string name="touch_repeat_notif_title">Repetir notificaciones</string>
     <string name="touch_repeat_notif_clear_all">Limpiar notificaciones tras repetir</string>
@@ -456,13 +456,13 @@
     <string name="touch_time_launch_type_timer_title">Temporizador</string>
     <string name="touch_time_launch_type_stopper_title">Cronómetro</string>
     <string name="touch_time_launch_type_interval_title">Intervalo</string>
-    <string name="touch_time_launch_restart">Restart if it is in progress</string>
+    <string name="touch_time_launch_restart">Reiniciar si esta en progreso</string>
     <string name="touch_time_reminder_title">Mostrar el tiempo restante/transcurrido</string>
 
-    <string name="touch_camera_title">Take a photo</string>
-    <string name="touch_camera_front_title">Front</string>
-    <string name="touch_camera_rear_title">Rear</string>
-    <string name="touch_camera_install_title">Install</string>
+    <string name="touch_camera_title">Tomar una Foto</string>
+    <string name="touch_camera_front_title">Frontal</string>
+    <string name="touch_camera_rear_title">Trasera</string>
+    <string name="touch_camera_install_title">Instalar</string>
 
     <string name="touch_app_launcher1_title">Lanzador de aplicaciones</string>
     <string name="touch_app_launcher_package_no_title">Seleccione una aplicación</string>
@@ -477,9 +477,9 @@
     <string name="touch_testing_title">Monitoreo táctil</string>
     <string name="touch_testing_second">seg.</string>
 
-    <string name="touch_setting_recognition_start_title">Start touch recognition</string>
-    <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
-    <string name="touch_setting_recognition_time_title">Recognition time</string>
+    <string name="touch_setting_recognition_start_title">Comenzar reconocimiento tactil</string>
+    <string name="touch_setting_recognition_start_trigger_title">Desencadenante</string>
+    <string name="touch_setting_recognition_time_title">Tiempo de reconocimiento</string>
 
     <string name="touch_setting_recognition_mi_band_signal_title">Señal en Band</string>
     <string name="touch_setting_recognition_succeeded_title">Señal de patrón táctil reconocible</string>
@@ -508,12 +508,12 @@
     <string name="action_tracker_step">Pasos</string>
     <string name="action_tracker_distance">Distancia</string>
     <string name="action_tracker_calorie">Calorias</string>
-    <string name="action_chart_filter_activity_no">No filter</string>
-    <string name="action_chart_filter_activity_active">Movement filter</string>
+    <string name="action_chart_filter_activity_no">No filtrar</string>
+    <string name="action_chart_filter_activity_active">Filtro de movimiento</string>
 
-    <string name="step_tab_day">Gráficos diarios</string>
-    <string name="step_tab_week">Gráficos semanales</string>
-    <string name="step_tab_month">Monthly charts</string>
+    <string name="step_tab_day">Gráfica diaria</string>
+    <string name="step_tab_week">Gráfica semanal</string>
+    <string name="step_tab_month">Grafica Mensual</string>
     <string name="step_tab_goal">Metas de actividades</string>
     <string name="step_tab_settings">Configuración</string>
 
@@ -542,9 +542,9 @@
     </string>
 
     <!-- Sleep monitoring -->
-    <string name="sleep_tab_day">Gráficos diarios</string>
-    <string name="sleep_tab_week">Gráficos semanales</string>
-    <string name="sleep_tab_month">Monthly charts</string>
+    <string name="sleep_tab_day">Gráfico diario</string>
+    <string name="sleep_tab_week">Gráfico semanal</string>
+    <string name="sleep_tab_month">Grafico Mensual</string>
     <string name="sleep_tab_settings">Configuración</string>
 
     <string name="action_chart_sleep_type_phase">Fase</string>
@@ -553,7 +553,7 @@
     <string name="sleep_details">Detalles del sueño</string>
     <string name="sleep_assistant">Asistente de sueño de ritmo cardíaco</string>
     <string name="sleep_assistant_summary">Ayuda a obtener datos del sueño más precisos (reduce la duración de la batería)</string>
-    <string name="sleep_assistant_show_pulse">Show the measured pulse values on the daily pulse graph</string>
+    <string name="sleep_assistant_show_pulse">Muestra los valores de pulso medidos en el gráfico de pulso diario</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> tiempo de sueño
@@ -570,20 +570,21 @@
 
 
     <!-- Pulse  monitoring -->
-    <string name="action_pulse_current">MPulso actual</string>
+    <string name="action_pulse_current">Pulso actual</string>
 
-    <string name="pulse_tab_day">Gráficos diarios</string>
-    <string name="pulse_tab_week">Gráficos semanales</string>
-    <string name="pulse_tab_month">Gráficos mensuales</string>
-    <string name="pulse_tab_settings_online">En línea ajustes</string>
-    <string name="pulse_tab_settings_offline">Fuera de línea ajustes</string>
+    <string name="pulse_tab_day">Gráfica diaria</string>
+    <string name="pulse_tab_week">Gráfica semanal</string>
+    <string name="pulse_tab_month">Gráfica mensual</string>
+    <string name="pulse_tab_settings_online">Ajustes conectado</string>
+    <string name="pulse_tab_settings_offline">Ajustes desconectado</string>
 
-    <string name="pulse_online_title">Medidas de pulso online</string>
-    <string name="pulse_offline_title">Medidas de pulso offline</string>
+    <string name="pulse_online_title">Medidas de pulso conectado</string>
+    <string name="pulse_offline_title">Medidas de pulso desconectado</string>
 
     <string name="action_chart_pulse_type_pulse">Pulso</string>
     <string name="action_chart_pulse_type_pulse_and_step">Pulso y actividad</string>
 
+    <string name="pulse_notification_shade">Chart on the notification shade</string>
     <string name="pulse_title_signals">Señales</string>
     <string name="pulse_signal_start_title">Señal de inicio de monitoreo</string>
     <string name="pulse_signal_show_title">Mostrar pulso</string>
@@ -602,7 +603,7 @@
 
     <string name="pulse_details">Detalles del pulso</string>
 
-    <string name="message_pulse_premium_mode_only">Mediciones en línea y no en línea puede solo ser usado a la vez por el modo premium</string>
+    <string name="message_pulse_premium_mode_only">Mediciones conectado y desconectado solo en modo Premium</string>
 
     <string name="info_dialog_pulse"><![CDATA[ <b><u>Medición de pulso en línea</u></b>
         <p>Se requiere conexión Bluetooth para monitorizar el pulso.</p>
@@ -645,11 +646,11 @@
     <string name="time_tab_lap">Tiempo de vuelta</string>
     <string name="time_tab_interval">Intervalo</string>
 
-    <string name="action_alarm_device">Alarma de fábrica</string>
-    <string name="time_alarm_mi_band_signal">Señal cuando suena la alarma el teléfono</string>
-    <string name="time_alarm_mi_band_signal_alarm_off">Alarma desactivada con el segundo toque</string>
+    <string name="action_alarm_device">Alarmas del telefono</string>
+    <string name="time_alarm_mi_band_signal">Señal con alarma del teléfono</string>
+    <string name="time_alarm_mi_band_signal_alarm_off">Apagar alarma con el segundo toque</string>
     <string name="time_alarm_title">Título</string>
-    <string name="time_alarm_pre_alarm">Señal de recordatorio, tiempo restante</string>
+    <string name="time_alarm_pre_alarm">Recordatorio, tiempo restante</string>
     <string name="time_alarm_pre_alarm_interval_title">Antes de tiempo</string>
     <string name="time_alarm_pre_alarm_type_vibrate_title">Vibración</string>
     <string name="time_alarm_pre_alarm_type_remaining_title">Tiempo restante</string>
@@ -657,16 +658,16 @@
     <string name="time_timer_time_alert">Hora de alarma</string>
     <string name="time_timer_time_remaining">Tiempo restante</string>
 
-    <string name="time_timer_reminder">Señal de recordatorio, tiempo restante</string>
+    <string name="time_timer_reminder">Recordatorio, tiempo restante</string>
     <string name="time_timer_reminder_interval_before_title">Tiempo anterior</string>
-    <string name="time_timer_reminder_interval_repeat_title">Intervalo de repetición del recordatorio</string>
+    <string name="time_timer_reminder_interval_repeat_title">Intervalo de repetición</string>
 
     <string name="time_stopper_time_alert">Hora de alarma</string>
     <string name="time_stopper_time_elapsed">Tiempo transcurrido</string>
 
-    <string name="time_stopper_reminder">Señal de recordatorio, tiempo transcurrido</string>
+    <string name="time_stopper_reminder">Recordatorio, tiempo transcurrido</string>
     <string name="time_stopper_reminder_interval_before_title">Tiempo anterior</string>
-    <string name="time_stopper_reminder_interval_repeat_title">Intervalo de repetición del recordatorio</string>
+    <string name="time_stopper_reminder_interval_repeat_title">Intervalo de repetición</string>
 
     <string name="time_stopper_touch">Tiempo de vuelta, monitoreo táctil</string>
     <string name="time_stopper_touch_record">Grabar tiempo de vuelta con un toque</string>
@@ -686,7 +687,7 @@
 
     <string name="time_interval_time_total">Tiempo total</string>
     <string name="time_interval_counter">Número de repeticiones</string>
-    <string name="time_interval_time_alert">Hora de final</string>
+    <string name="time_interval_time_alert">Tiempo final</string>
     <string name="time_interval_time_current">Repeticiones, intervalo de tiempo transcurrido</string>
     <string name="time_interval_title">Título</string>
     <string name="time_interval_time">Tiempo de intervalo</string>
@@ -699,7 +700,7 @@
     <string name="info_dialog_time"><![CDATA[
         <p><b>Apague la alarma, el temporizador y el cronómetro antes de retirar la aplicación.</b></p>
         <img src="ic_device_alarm"> <b><u>Señal cuando suena la alarma el teléfono</u></b>
-        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from a Google Play.</p>
+        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from the Google Play.</p>
         <img src="ic_miband_bell"> <b><u>Timbre</u></b>
         <p>La conexión Bluetooth es necesaria para la alarma, las alarmas sólo una vez durante 10 segundos.</p>
         <img src="ic_alarm"> <b><u>Alarma</u></b>
@@ -710,9 +711,9 @@
     ]]></string>
 
     <!-- Watch face -->
-    <string name="watch_face_default_title">Cambio de Watchface</string>
+    <string name="watch_face_default_title">Cambiar Watchface</string>
 
-    <string name="watch_face_init_title">Inicialización</string>
+    <string name="watch_face_init_title">Inicializacion</string>
     <string name="watch_face_init_content"><![CDATA[En la aplicación Mi Fit selecciona el watchface de fabrica.
         <br><i>Tú tienes que seleccionar el watchface que cargas.
         <i>(la inicialización es requería solo una vez)</i>
@@ -723,7 +724,7 @@
     <string name="watch_face_download_name">Nombre del archivo</string>
     <string name="watch_face_download_move">Mueve el archivo watchface descargado desde el %1$s archivo</string>
 
-    <string name="watch_face_upload_title">Carga</string>
+    <string name="watch_face_upload_title">Carga Watchface</string>
     <string name="watch_face_upload_empty_title"><![CDATA[Watchface no encontrado
         <br><i>(%1$s)</i>
     ]]></string>
@@ -756,7 +757,7 @@
     <string name="agent_tab_events">Registro de herramienta</string>
     <string name="agent_tab_settings">Configuración</string>
 
-    <string name="pref_disconnected_agent_summary_on">Si alguien uso el dispositivo mientras no estaba, usted lo sabrá</string>
+    <string name="pref_disconnected_agent_summary_on">Si alguien usa el dispositivo mientras no esta, usted lo sabrá</string>
     <string name="pref_disconnected_agent_text">Alguien usó el dispositivo, mientras te habías ido</string>
     <string name="pref_disconnected_agent_user_present_title">Encender la pantalla del dispositivo</string>
     <string name="pref_disconnected_agent_screen_on_and_motion_title">Encendido y monitoreo de movimiento</string>
@@ -789,7 +790,7 @@
     <string name="theme_widget_touch_event_title">Situación al pulsar</string>
 
     <string name="theme_notification_title">Mostrar estado en la pantalla de notificación</string>
-    <string name="theme_notification_summary">El sistema Android fuerza la detención de un servicio, si la memoria es escasa. Si después de un tiempo, no aparecen las notificaciones en la Band, puede evitar esto.</string>
+    <string name="theme_notification_summary">El sistema Android fuerza la detención de un servicio si la memoria es escasa. Si después de un tiempo no aparecen las notificaciones en la Band puede ser por este motivo.</string>
     <string name="theme_notification_color_title">Color del icono</string>
    <string name="theme_notification_text_color_title">Color del texto</string>
 
@@ -797,9 +798,9 @@
     <string name="backup_tab_backup">Copia</string>
     <string name="backup_tab_restore">Restaurar</string>
 
-    <string name="backup_time">Copia tiempo</string>
-    <string name="backup_path">Copia localización</string>
-    <string name="backup_auto">Automático backup</string>
+    <string name="backup_time">Hora de la copia</string>
+    <string name="backup_path">Ubicacion de la copia</string>
+    <string name="backup_auto">Copia Automatica</string>
     <string name="backup_auto_time">Tiempo</string>
 
     <string name="backup_process">Preparación...</string>
@@ -833,7 +834,7 @@
     ]]></string>
 
     <string name="rewarded_advantage_banner_title">Bloqueo de banner de publicidad</string>
-    <string name="rewarded_advantage_interstitial_title">Bloque de publicidad dentro de la aplicación</string>
+    <string name="rewarded_advantage_interstitial_title">Bloqueo de publicidad dentro de la aplicación</string>
 
     <string name="rewarded_advantage_time_range">Vigencia</string>
     <string name="rewarded_advantage_button_play">Reproducir video</string>
@@ -872,11 +873,11 @@
     <string name="purchase_button_purchase">Comprar</string>
 
     <!-- Feedback -->
-    <string name="action_log_notification">Notification log</string>
+    <string name="action_log_notification">Log de Notificaciones</string>
 
-    <string name="feedback_google_play_title">Solicitud de función, informe de error</string>
+    <string name="feedback_google_play_title">Solicitar función, informar de errores</string>
     <string name="feedback_request_feature_title">Solicitar funcion</string>
-    <string name="feedback_request_feature_summary">Procesamiento automático del email, no obtendrás respuesta</string>
+    <string name="feedback_request_feature_summary">Proceso automático del email, no obtendrás respuesta</string>
 
     <!-- Vibration dialog -->
     <string name="vibration_title">Configuración de vibración</string>
@@ -892,12 +893,12 @@
 
     <!-- Others -->
     <string name="on">Encender</string>
-    <string name="off">Apagado</string>
+    <string name="off">Apagar</string>
     <string name="none">Ninguno</string>
     <string name="bpm">PPM</string>
     <string name="time_start">Hora de inicio</string>
     <string name="time_end">Hora de fin</string>
-    <string name="ringer_mode_mute">Silencioso</string>
+    <string name="ringer_mode_mute">Silencio</string>
     <string name="ringer_mode_silent">No molestar</string>
 
     <string name="action_dismiss">Descartar</string>
@@ -907,8 +908,8 @@
     <string name="action_filter_no">Sin filtros</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_save">Guarda</string>
-    <string name="action_test">Prueba</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_test">Probar</string>
 
     <string name="action_chart">Gráfico</string>
     <string name="action_chart_normalize_minute">Valores medidos</string>
