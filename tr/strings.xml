@@ -160,7 +160,7 @@
     <string name="pref_text_conversion_title">Karakterleri dönüştür</string>
     <string name="pref_text_conversion_summary_on">Tanımlanamayan karakterleri döünüştürür, turn off if the Band supports your language or you have installed custom font firmware</string>
     <string name="pref_text_emoticon_title">Emoji dönüştürme</string>
-    <string name="pref_text_emoticon_summary_on">emoji yi emoticon a dönüştür</string>
+    <string name="pref_text_emoticon_summary_on">Emoji yi emoticon a dönüştür</string>
     <string name="pref_text_length">Metin uzunluğu, kullanılan yazı tipine bağlıdır (örneğin, Çince veya Kril karatkterleri)</string>
     <string name="pref_text_length_summary_on">%1$,d karakter</string>
 
@@ -193,7 +193,7 @@
     <string name="pref_cat_battery_phone_full">Tam dolu seviyesi</string>
     <string name="pref_battery_phone_full_title">Tam dolu pil bildirimleri</string>
     <string name="pref_battery_phone_full_plugged_ac">Adaptörden doluyor</string>
-    <string name="pref_battery_phone_full_plugged_usb">USB 'den doluyor</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB \'den doluyor</string>
     <string name="pref_battery_phone_full_plugged_wireless">Kablosuz doluyor</string>
     <string name="pref_battery_phone_full_repeat_interval_title">Tekrarlama aralığı</string>
 
@@ -290,10 +290,15 @@
     <p>Mi Bandaj, resmi Mi Fit uygulamasının aynı cihaza kurulmasını gerektirir. İlk önce Band\'yi Mi Fit uygulamasında eşleştirmeniz gerekir, o zaman Mi Bandaj\'ı kullanabilirsiniz.</p>
     <p>Band\'yi kontrol etmek için daha fazla uygulama kullanıyorsanız, birbirlerine müdahale ederek geçici olarak bunları kapatın.</p>
     <p>Band bulunamazsa, ayrıntılar menüsünde MAC adresini manuel olarak ayarlayabilirsiniz (MAC adresi bulundu: Mi Fit/Profil/Band).</p>
-    <p><b> Band bulunamazsa veya Mi Fit uygulamasını senkronize ederken sorun yaşıyorsanız, BToolkit, nRF Connect veya benzeri bir Bluetooth yöneticisi uygulamasını yükleyin ve eşleşen, bağlanan herhangi bir cihazı kaldırın.</b></p>
-    <p><b>MIUI:</b>
+    <p><b>If you have a connection problem:</b>
     <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
-    <br>- Security app screen: battery/app battery saver set Mi Bandage app to no restriction.</p>
+    <br>- Phone/battery optimization: set Mi Bandage app to not optimized.
+    <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
+    <br>Settings/Developer options:
+    <br>- Don\'t keep activities: disable
+    <br>- Background process limit: standard limit
+    <br>- Memory optimization: middle/low/disable</p>
+    <p>Band bulunamazsa veya Mi Fit uygulamasını senkronize ederken sorun yaşıyorsanız, BToolkit, nRF Connect veya benzeri bir Bluetooth yöneticisi uygulamasını yükleyin ve eşleşen, bağlanan herhangi bir cihazı kaldırın.</p>
     <p>Sorun yaşıyorsanız (Band\'yi keşfedin, bildirim sinyaliniz yok), lütfen bunu deneyin:
     <br>1. Greenify\'ı (veya diğer hazırda bekletme uygulamasını) yüklediyseniz, kapatın.
     <br>2. Mi Bandage uygulamasını kurun.
@@ -301,11 +306,6 @@
     <br>4. Bluetooth\'u kapatın.
     <br>5. Mi Fit uygulamasını açın, eşitleme tamamlanana kadar bekleyin, kapatın.
     <br>6. Mi Bandage uygulamasını açın, keşfet düğmesini tıklayın.</p>]]></string>
-
-
-
-
-
 
     <!-- Diagnostic -->
     <string name="diagnostic_title">Arıza tespit</string>
@@ -583,6 +583,7 @@
     <string name="action_chart_pulse_type_pulse">Nabız</string>
     <string name="action_chart_pulse_type_pulse_and_step">Nabız ve faaliyet</string>
 
+    <string name="pulse_notification_shade">Chart on the notification shade</string>
     <string name="pulse_title_signals">Bileklik bildirimleri</string>
     <string name="pulse_signal_start_title">İzleme başlangıç bildirimi</string>
     <string name="pulse_signal_show_title">Nabzı göster</string>
@@ -697,7 +698,7 @@
     <string name="info_dialog_time"><![CDATA[
         <p><b>Uygulamayı kaldırmadan önce tüm bildirimleri kaldırmalısınız.</b></p>
         <img src="ic_device_alarm"> <b><u>Telefon alarmı çalınca bileklikte de uyar</u></b>
-        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from a Google Play.</p>
+        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from the Google Play.</p>
         <img src="ic_miband_bell"> <b><u>Zil</u></b>
         <p>Bildirim için Bluetooth bağlantısı gereklidir, 10 saniye boyunca sadece bir kez alarm verir.</p>
         <img src="ic_alarm"> <b><u>Alarm</u></b>
