@@ -290,10 +290,15 @@
     <p>A Mi Bandage precisa da Mi Fit instalada para funcionar. Primeiro tem de emparelhar a Band na aplicação Mi Fit e só depois poderá usar a Mi Bandage.</p>
     <p>Se você usa mais aplicações para controlar a Band, elas vão interferir umas com as outras por isso desative-as.</p>
     <p>Se a Band não for encontrada, você pode configurar o endereço MAC manualmente nos detalhes do menu (O endereço MAC encontra-se em: Mi Fit/Profil/Band).</p>
-    <p><b>Se a Band não for encontrada ou se está a ter problemas em sincronizar na aplicação Mi Fit, instale BToolkit, nRF Conect ou uma aplicação semelhante de monitoramento bluetooth e remova os dispositivos emparelhados.</b></p>
-    <p><b>MIUI:</b>
-    <br>- Aplicações recentes: Bloquear a Mi Bandage (Deslize a aplicação para baixo e clique no ícone \'aloquete\').
-    <br>- Menu \'Segurança\': Vá para \'Bateria/Poupar bateria\'; configure a aplicação Mi Bandage para não ser restringida.</p>
+    <p><b>If you have a connection problem:</b>
+    <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
+    <br>- Phone/battery optimization: set Mi Bandage app to not optimized.
+    <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
+    <br>Settings/Developer options:
+    <br>- Don\'t keep activities: disable
+    <br>- Background process limit: standard limit
+    <br>- Memory optimization: middle/low/disable</p>
+    <p>Se a Band não for encontrada ou se está a ter problemas em sincronizar na aplicação Mi Fit, instale BToolkit, nRF Conect ou uma aplicação semelhante de monitoramento bluetooth e remova os dispositivos emparelhados.</p>
     <p>Se tem problemas (descobrir a Band/sinal de notificação), tente isto por favor:
     <br>1. Se tem o Greenify instalado (ou outra aplicação para hibernar) desative a opção \'hibernar mi bandage\'.
     <br>2. reinstale a aplicação Mi Bandage.
@@ -301,11 +306,6 @@
     <br>4. Desligue e volte a ligar o Bluetooth.
     <br>5. Abra a aplicação Mi Fit, espere até a sincronização ser feita e feche-a.
     <br>6. Abra a aplicação Mi Bandage e clique no botão para descobrir a Band.</p>]]></string>
-
-
-
-
-
 
     <!-- Diagnostic -->
     <string name="diagnostic_title">Diagnóstico</string>
@@ -583,6 +583,7 @@
     <string name="action_chart_pulse_type_pulse">Pulsação</string>
     <string name="action_chart_pulse_type_pulse_and_step">Pulsação e Atividade</string>
 
+    <string name="pulse_notification_shade">Chart on the notification shade</string>
     <string name="pulse_title_signals">Avisos</string>
     <string name="pulse_signal_start_title">Aviso de começo</string>
     <string name="pulse_signal_show_title">Mostrar pulsação</string>
@@ -697,7 +698,7 @@
     <string name="info_dialog_time"><![CDATA[
         <p><b>Desligue o alarme, o temporizador e o cronómetro antes de remover a aplicação.</b></p>
         <img src="ic_device_alarm"> <b><u>Emitir sinal quando o alarme do dispositivo tocar</u></b>
-        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from a Google Play.</p>
+        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from the Google Play.</p>
         <p>A mensagem que aparece no menu \'DESPERTADOR\' é o título do respetivo despertador</p>
         <img src="ic_miband_bell"> <b><u>Sino</u></b>
         <p>Conexão Bluetooth necessária para o alarme (1 vez em 10 segundos).</p>
