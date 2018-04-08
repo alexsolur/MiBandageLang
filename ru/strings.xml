@@ -290,10 +290,15 @@
     <p>Mi Bandage требуется приложение Mi Fit на устройстве. Сначала, подключите Band к Mi Fit, потом пользуйтесь Mi Bandage.</p>
     <p>Если вы используете несколько приложений для управления Band, они могут мешать друг другу, поэтому временно отключите их.</p>
     <p>Если Band не обнаружен, вы можете установить MAC вручную в настройках (MAC можно найти в: Mi Fit/Профиль/Band).</p>
-    <p><b>Если Band не обнаружен или имеются проблемы синхронизации в Mi Fit, установите BToolkit, nRF Connect или другое приложение управления Bluetooth и удалите связанные устройства.</b></p>
-    <p><b>MIUI:</b>
-    <br>- Окно недавних приложений: закрепите Mi Bandage (протяните приложение вниз и нажмите иконку замка).
-    <br>- Окно безопасности приложений: снимите запреты, связанные с экономией энергии для Mi Bandage.</p>
+    <p><b>If you have a connection problem:</b>
+    <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
+    <br>- Phone/battery optimization: set Mi Bandage app to not optimized.
+    <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
+    <br>Settings/Developer options:
+    <br>- Don\'t keep activities: disable
+    <br>- Background process limit: standard limit
+    <br>- Memory optimization: middle/low/disable</p>
+    <p>Если Band не обнаружен или имеются проблемы синхронизации в Mi Fit, установите BToolkit, nRF Connect или другое приложение управления Bluetooth и удалите связанные устройства.</p>
     <p>При неполадках (обнаружение Band, отсутствие уведомлений), попробуйте:
     <br>1. Если у вас установлено приложение Greenify (или другое приложение для гибернации) настоятельно рекомендуется отключить его.
     <br>2. (Пере-)Установить Mi Bandage.
@@ -301,11 +306,6 @@
     <br>4. Выключить и включить Bluetooth.
     <br>5. Открыть Mi Fit, подождать окончания синхронизации.
     <br>6. Открыть Mi Bandage, нажать кнопку обнаружения.</p>]]></string>
-
-
-
-
-
 
     <!-- Diagnostic -->
     <string name="diagnostic_title">Диагностика</string>
@@ -583,6 +583,7 @@
     <string name="action_chart_pulse_type_pulse">Пульс</string>
     <string name="action_chart_pulse_type_pulse_and_step">Пульс и активность</string>
 
+    <string name="pulse_notification_shade">Chart on the notification shade</string>
     <string name="pulse_title_signals">Сигналы</string>
     <string name="pulse_signal_start_title">Сигнал начала измерений</string>
     <string name="pulse_signal_show_title">Показывать пульс</string>
@@ -609,8 +610,7 @@
         <img src="ic_pulse_offline"> <b><u>Пассивное измерение пульса</u></b>
         <p>Для измерения не требуется Bluetooth-соединение.</p>
         <p>Для начала и окончания измерения по времени необходимо Bluetooth-соединение.</p>
-        <p>Измерения, сделанные вручную (Band, Mi Fit) записываются, когда измерение начинается.<p>
-        ]]>
+        <p>Измерения, сделанные вручную (Band, Mi Fit) записываются, когда измерение начинается.<p/>]]>
     </string>
 
     <!-- Lost  monitoring -->
