@@ -1,0 +1,980 @@
+<resources>
+    <string name="app_name">Mi Bandage</string>
+
+    <string name="navigation_drawer_open">Åpne navigasjon</string>
+    <string name="navigation_drawer_close">Lukk navigasjons tegner</string>
+
+    <string name="drawer_nav_home">Bandasjer</string>
+    <string name="drawer_nav_notification">Notifikasjon</string>
+    <string name="drawer_nav_touch">Trykk</string>
+    <string name="drawer_nav_step">Aktivitet</string>
+    <string name="drawer_nav_sleep">Søvn</string>
+    <string name="drawer_nav_pulse">Puls</string>
+    <string name="drawer_nav_time">Tid</string>
+    <string name="drawer_nav_watch_face">Watch face</string>
+    <string name="drawer_nav_alarm">Mistet</string>
+    <string name="drawer_nav_disconnected_agent">Agent</string>
+    <string name="drawer_nav_theme">Stil</string>
+    <string name="drawer_nav_backup">Sikkerhetskopiere</string>
+    <string name="drawer_nav_rewarded_mode">Belønnet modus</string>
+    <string name="drawer_nav_premium_mode">Premium modus</string>
+    <string name="drawer_nav_feedback">Tilbakemelding</string>
+    <item name="drawer_nav_settings" type="string">@string/settings_name</item>
+
+    <string name="shortcut_touch">Trykke</string>
+    <string name="shortcut_step">Aktivitet</string>
+    <string name="shortcut_pulse">Puls</string>
+    <string name="shortcut_time_alarm">Alarm</string>
+
+    <!-- Forrgrunn service, pågående notifikasjon -->
+    <string name="foreground_service_connected">Tilkoblet tid: %1$s</string>
+    <string name="foreground_service_disconnected_text">Bandet er ikke tilkoblet</string>
+    <!--<string name="forrgrunn_service_frakoblet">Frakobling tid: %1$s</string>-->
+
+    <!-- Strings related to Settings -->
+    <string name="settings_name">Instillinger</string>
+    <string name="app_chooser">App-velger</string>
+    <string name="info_name">Informasjon</string>
+
+    <!-- Bandasje skjerm -->
+    <string name="mi_band_tracker_title">Skritt, distanse, kalorier, mål, puls</string>
+    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- ingen -->
+    <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo kalori -->
+    <string name="mi_band_battery">Batteri-level, siste lade tid, beregnet gjenværende tid</string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI, siste tilkoblings og frakoblings-tid</string>
+    <string name="mi_band_touch">Trykke-monitorering</string>
+    <string name="mi_band_alarm">Neste alarm</string>
+    <string name="mi_band_bonded_device_name">Band parret enhets navn</string>
+    <string name="mi_band_mac_address">MAC address</string>
+    <string name="mi_band_firmware">Firmware</string>
+    <string name="mi_band_hardware">Hardware</string>
+
+    <string name="mi_band_mac_address_invalid">MAC-addressen er ubrukelig</string>
+
+    <string name="mi_band_state_title">Band-instillinger</string>
+    <string name="mi_band_state_connected">Tilkoblet</string>
+    <string name="mi_band_state_disconnected">Frakoblet</string>
+    <string name="mi_band_state_bonded">Parret enhet</string>
+    <string name="mi_band_state_not_bonded">Ikke parret enhet</string>
+
+    <string name="mi_band_battery_settings">Batteri-instilling</string>
+    <string name="mi_band_battery_remaining">Estimert gjenværende batteri tid</string>
+    <string name="mi_band_battery_notification">Lavt batteri-level notifikasjon</string>
+    <string name="mi_band_battery_notification_level">Igjenværende atteri-level</string>
+    <string name="mi_band_battery_notification_repeat_interval">Repetere interval</string>
+    <string name="mi_band_battery_notification_shade">Notifiser på telefonen</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Vedværende (pågående) notifikasjon</string>
+    <string name="mi_band_battery_notification_shade_message">Batteri-level er lavere enn %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Notifiser på armklokka</string>
+    <string name="mi_band_battery_notification_mi_band_message">Batteri: %1$,d%%</string>
+
+    <!-- Skjerm-instilling -->
+    <string name="pref_connected">Tilkobling</string>
+    <string name="pref_connected_summary">Band og telefon tilkoblings-signaler og instillinger</string>
+
+    <string name="pref_connected_signals">Tilkoblings-signaler</string>
+    <string name="pref_connected_signals_summary">Band-tilkobling og ikke få notifikasjon</string>
+    <string name="pref_cat_connected_signals_mi_band">Band-signal</string>
+    <string name="pref_connected_mi_band_title">Vibrasjon</string>
+    <string name="pref_cat_connected_signals">Telefon-signaler</string>
+    <string name="pref_connected_wakelock_title">Vekk telefonens skjerm</string>
+
+    <string name="pref_connected_settings">Tilkoblings-instillinger</string>
+    <string name="pref_connected_settings_summary">Band og telefon-tilkoblings instillinger</string>
+    <string name="pref_cat_connected_settings">Telefon-instillinger</string>
+    <string name="pref_connected_volume_title">Endre volum</string>
+    <string name="pref_connected_volume_ring_title">Anrops-volum</string>
+
+    <string name="pref_cat_connected_have_notif">Forhåndsdefinert app og Band-signal</string>
+    <string name="pref_cat_connected_have_notif_default">Forrhåndsdefinert og egendefinert instilling</string>
+    <string name="pref_connected_have_notif_immediate_title">øyeblikkelig signal når notifikasjon er mottatt</string>
+    <string name="pref_connected_have_notif_title">Signaliser når det er tilkobling til telefon</string>
+    <string name="pref_connected_have_notif_reminder_title">Påminnelses-signal</string>
+    <string name="pref_connected_have_notif_screen_off_title">Signaliser bare når skjermen er av</string>
+    <string name="pref_connected_have_notif_interval_title">Påminnelse gjentakelses-interval</string>
+    <string name="pref_connected_have_notif_counter_title">Nummer på signaler</string>
+    <string name="pref_connected_have_notif_wakelock_title">Vekk opp telefonens skjerm</string>
+    <string name="pref_connected_have_notif_ongoing_title">Kjørende signal (ennå pågående) notifikasjoner</string>
+    <string name="pref_connected_have_notif_default_app_title">Signal ikke gjenkjent i app</string>
+    <string name="pref_connected_have_notif_default_app_summary_on">\'app\' icon (hvis det ikke er noen app i forrhåndsinstilt og heller ikke tilpasset notifikasjons-gruppe)</string>
+    <string name="pref_connected_have_notif_pre_signal_title">For- notifikasjon</string>
+    <string name="pref_connected_have_notif_pre_signal_summary_on">Signal (trykk på ikonet for å forandre det) før den aktuelle notifikasjon for å ha mer tid å se på displayet</string>
+
+    <string name="pref_disconnected">Frakobling</string>
+    <string name="pref_disconnected_summary">Band og telefon frakoblings-signaler og instillinger</string>
+
+    <string name="pref_disconnected_signals">Frakobling signaler</string>
+    <string name="pref_disconnected_signals_summary">Band og telefon frakoblings-signaler, det signaliseres ikke når bluetooth er skrudd av manuelt</string>
+    <string name="pref_cat_disconnected_signals_mi_band">Band-signal</string>
+    <string name="pref_disconnected_mi_band_title">Ikon-visning og vibrasjon</string>
+    <string name="pref_cat_disconnected_signals">Telefon-signaler</string>
+    <string name="pref_disconnected_ringtone_title">Ringetone</string>
+    <string name="pref_disconnected_vibration_title">Vibrasjon</string>
+    <string name="pref_disconnected_wakelock_title">Vekk opp telefon-skjermen</string>
+
+    <string name="pref_disconnected_settings">Frakoblings-instillinger</string>
+    <string name="pref_disconnected_settings_summary">Band og telefon frakobling instillinger</string>
+    <string name="pref_cat_disconnected_settings">Telefon-instillinger</string>
+    <string name="pref_disconnected_volume_title">Justere volumet</string>
+    <string name="pref_disconnected_volume_ring_title">Ringe-volum</string>
+    <string name="pref_disconnected_volume_adapter_title">Når Bluetooth er skrudd av</string>
+    <string name="pref_disconnected_volume_adapter_summary_on">Justere volum</string>
+    <string name="pref_disconnected_volume_adapter_summary_off">Ikke justere volum</string>
+
+    <string name="pref_cat_abandoned">Telefon-signal</string>
+    <string name="pref_abandoned_notif_interval_title">Signal gjentagelses-interval</string>
+    <string name="pref_abandoned_notif_text_summary">Notifikasjon på telefon-skjermen</string>
+    <string name="pref_abandoned_notif_text_text">Telefonen er mistet, venligst ring det følgende nummeret:</string>
+    <string name="pref_abandoned_ringtone_title">Ringetone</string>
+    <string name="pref_abandoned_vibration_title">Vibrasjon</string>
+    <string name="pref_abandoned_wakelock_title">Vekk opp skjermen</string>
+    <string name="pref_abandoned_notif_title">Telefonen er mistet</string>
+
+    <string name="pref_call">Anrop</string>
+    <string name="pref_call_summary">Band signal-instillinger</string>
+    <string name="pref_cat_call">Inkommende anrop</string>
+    <string name="pref_call_title">Inkommende anrops-signal</string>
+    <string name="pref_call_summary_on">På (Ikke glem å skru av inkommende anrops-varsler på Mi Fit appen)</string>
+    <string name="pref_call_text_title">Vis alle anrops-IDer</string>
+    <string name="pref_call_text_summary_on"><![CDATA[På (mer informasjon: <i>Instillinger/Text-ikoner instillinger)</i>]]></string>
+
+    <string name="pref_call_net_text_title">Inkommende internett-anrop signal, display anrops-ID</string>
+    <string name="pref_call_net_text_summary_on">WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
+
+    <string name="pref_cat_call_missed">Tapt anrop</string>
+    <string name="pref_call_missed_title">Tapt anrop signal</string>
+
+    <string name="pref_call_missed_net_title">Tapt internett-anrop signal, vis anrops ID</string>
+    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
+
+    <string name="pref_call_missed_alert_title">Band signal</string>
+
+    <string name="pref_call_missed_text_prefix_title">Text prefix: %1$s</string>
+    <string name="pref_call_missed_text_prefix_summary">Hvis mer enn en app også bruker ikonet vil de differensiere notifikasjoner fra hverandre</string>
+    <string name="pref_call_missed_text_prefix_dialog_title">Text prefix</string>
+
+    <string name="pref_text_conversion">Text utseende</string>
+    <string name="pref_text_conversion_summary">Konverter text meldings karakterer</string>
+    <string name="pref_cat_text_conversion">Band signal</string>
+    <string name="pref_text_conversion_title">Transliterasjon</string>
+    <string name="pref_text_conversion_summary_on">Ikke gjenkjennelige karakter konvertering er skrudd av hvis Bandet støtter ditt språk eller du har installert egendefinert skriftstil firmware</string>
+    <string name="pref_text_emoticon_title">Emoji Konvertering</string>
+    <string name="pref_text_emoticon_summary_on">Konvertere emoji til emoticon</string>
+    <string name="pref_text_length">Text lengde, avhenger av skriftstilen som brukes (for eksempel Kinesiske eller Cyrilliske karakterer)</string>
+    <string name="pref_text_length_summary_on">%1$,d karakterer</string>
+
+    <string name="pref_text_conversion_description_title">Forklaring</string>
+    <string name="pref_text_conversion_description_summary"><![CDATA[
+        <p>Hvis Bandet viser den inkommende anrops navn foreløpig, da trenger du ikke gjøre følgende steg, bare skru av <i>Inkommende anrops-varsel</i> på Mi Fit.</p>
+        <p>Hvis du ikke bruker <i>Inkommende anrops-varsler</i> og om telefonens språk ikke er Engelsk:
+        <br/>1. Sett ditt telefon språk til Engelsk.
+        <br/>2. Åpne Mi Fit app, vent til firmware oppdateringen er gjort. Hvis firmware oppdateringen får bandage til ikke å restarte, prøv å restarte telefonen.
+        <br/>3. Åpne <i>Profil/Mi Band/Inkommende anrop</i> meny.
+        <br/>4. Skru på: <i>Skru på inkommende anrops-varsler</i>.
+        <br/>5. Skru på: <i>Vis kontakt-informasjon</i>.
+        <br/>6. Sjekk om du kan se at Bandet viser anroperens navn når det ringer på telefonen din.
+        <br/>7. Turn off : <i>Skru på inkommende anrops-varsler</i> (<i>Vis kontakt informasjon</i> står på).
+        <br/>8. Sett telefonens språk tilbake til ditt språk.</p>]]>
+    </string>
+
+    <string name="pref_mi_band">Band</string>
+    <string name="pref_cat_mi_band_lift_wrist">Løfte hånda for å vise info</string>
+    <string name="pref_mi_band_lift_wrist_title">Løft hånda for å vise info</string>
+    <string name="pref_mi_band_lift_wrist_dnd_title">Ikke forstyrr-modus</string>
+    <string name="pref_mi_band_lift_wrist_dnd_summary_on">På (i den spesifiserte perioden vil den ikke vise informasjon, Bluetooth-tilkobling er påkrevd i instillinger)</string>
+
+    <string name="pref_battery_phone">Telefon batteri</string>
+    <string name="pref_battery_phone_summary">Lavt og fullt batteri level-notifikasjon</string>
+    <string name="pref_cat_battery_phone_low">Lavt batteri-level</string>
+    <string name="pref_battery_phone_low_title">Lavt batteri-notifikasjon</string>
+    <string name="pref_battery_phone_low_level_title">Batteri level avstand</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Gjentagelses-intervall</string>
+    <string name="pref_cat_battery_phone_full">Fullt batteryi level</string>
+    <string name="pref_battery_phone_full_title">Fullt batteri-notifikasjon</string>
+    <string name="pref_battery_phone_full_plugged_ac">AC lader strøm adapter</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB strøm uttak</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Trådløs strøm mottak</string>
+    <string name="pref_battery_phone_full_repeat_interval_title">Gjenta interval</string>
+
+    <!-- Mi Band 2 max. 18 kart med 100% -->
+    <string name="pref_battery_phone_mi_band_message">Telefon batt.: %1$,d%%</string>
+    <!-- Andre Band-->
+    <string name="pref_battery_phone_message">Telefon batteri:\n %1$,d%%</string>
+
+    <string name="pref_language">Språk</string>
+    <string name="pref_cat_language">Språk</string>
+    <string name="pref_language_title">Språk</string>
+
+    <!-- Rask bytting -->
+    <string name="details">Detailer</string>
+    <string name="bandages">Bandasjer</string>
+    <string name="connected">Tilkobling og notifikasjon signal</string>
+    <string name="disconnected">Frakobling og agent signal</string>
+    <string name="touch">Trykke monitorering</string>
+
+    <string name="pref_dnd_title">Ikke forstyrr modus</string>
+    <string name="pref_dnd_summary">Status på kontroll på ikke forstyrr modus</string>
+    <string name="pref_dnd_auto_title">Automatisk ikke forstyrr modus</string>
+    <string name="pref_dnd_auto_summary">Kontrollern av telefonen\'s ikke forstyrr modus, er en høyere  prioritet enn den planlagte ikke forstyrr modusen</string>
+    <string name="pref_dnd_auto_vibrate">Vibrasjon (silent)</string>
+    <string name="pref_dnd_auto_silent"> Ikke forstyrr</string>
+    <string name="pref_dnd_scheduled_title">Planlagt ikke forstyrr modus</string>
+    <string name="pref_dnd_scheduled_new_title">Tittel</string>
+    <string name="pref_dnd_remember_state_summary">I slutten av ikke forstyrr modus, skru av alle bandasjer eller gjenopprette statuser som dem som ved tid på start</string>
+    <string name="pref_dnd_remember_state_on_title">Til slutt gjenopprette bandasjer\' status</string>
+    <string name="pref_dnd_remember_state_off_title">Til slutt skru på alle bandasjene</string>
+    <string name="pref_dnd_mi_fit_scheduled">Aktiver Band DnD mode (deaktiver ring, meldinger og løfte hånden for å vise info)</string>
+    <string name="pref_dnd_enable_bluetooth">I starten av DnD modus skru Bluetooth av, helt til slutt skru Bluetooth på</string>
+
+    <!-- Snackbar Meldinger -->
+    <string name="message_enable_bluetooth">Venligst aktivere Bluetooth og hold Bandet nærmere telefonen</string>
+    <string name="message_discover_mi_band">Band er ikke funnet, søk etter det</string>
+    <string name="message_discovering_mi_band">Oppdager Band (det kan kanskje ta 1 minutt) &#8230;</string>
+    <string name="message_discovered_mi_band">%1$s tilkobling suksess</string>
+    <string name="message_discovered_no_mi_band">Band tilkobling feilet</string>
+    <string name="message_discovered_not_found_mi_band">Hvis Banded ikke er funnet, skru på: Mi Fit/Play/Oppdag tilgjengelighet eller parre på telefonens Bluetooth instilling</string>
+    <string name="message_enable_notification_listener_access">Aktivere notifikasjon rilgang: Instillinger/Notifikasjoner/Notifikasjon tilgang</string>
+    <string name="message_enable_notification_listener_access_4_4">Aktiver notifikasjon tilgang: Instillinger/Sikkerhet/Notifikasjon tilgang</string>
+    <string name="message_enable_notification_policy_access">aktiver Ikke Forstyrr tilgang</string>
+    <string name="message_open_settings">Instillinger</string>
+
+    <string name="message_deleted">Slettet</string>
+    <string name="message_undo">Angre</string>
+
+    <string name="message_app_chooser_no_selected">Velg en applikasjon</string>
+
+    <string name="message_notification_free_groups">Opp til %1$,d grupper kan bli brukt i normal modus</string>
+
+    <string name="message_step_goal_free_values">Opp til 3 valuer kan bli satt i normal modus</string>
+    <string name="message_step_goal_max_values">Maximum 10 valuer kan bli satt</string>
+
+    <string name="message_touch_no_patterns">Trykk en av de røde knappene for å ta opp mønster</string>
+    <string name="message_touch_record">Ta opp mønsteret ved bruk av Bandets trykke knapp</string>
+    <string name="message_touch_pattern_error">Det spesifiserte mønsteret ligner for eksempel mønsteret til en annen funksjon, ta opp en annen</string>
+    <string name="message_touch_free_patterns">Du kan ikke bruke mer enn %1$,d funksjoner i normal modus</string>
+    <string name="message_touch_music_player_not_found">Musikk spiller ikke funnet</string>
+    <string name="message_touch_app_launcher1_not_set">App er ikke satt</string>
+    <string name="message_touch_app_launcher1_not_found">App er ikke funnet: %1$s</string>
+    <string name="message_touch_tasker_launcher_not_set">Tasker task er ikke satt opp</string>
+
+    <string name="message_notification_group_has_no_entry">Velg applikasjonen med den nedre høyre \'+\' knapp på kortet</string>
+
+    <string name="message_time_alarm_free_counter">Opp til 2 alarmer kan bli brukt i normal modus</string>
+    <string name="message_time_alarm_max_counter">Maximum 5 alarmer kan bli brukt</string>
+    <string name="message_time_alarm_enabled">Alarm aktivert</string>
+    <string name="message_time_alarm_disabled">Alarm deaktivert</string>
+    <string name="message_time_alarm_mi_band_off">Alarm av</string>
+
+    <string name="message_alarm_free_interval">Mindre gjentakelses intervall kan bare bli satt i premium modus</string>
+    <string name="message_alarm_mi_band_set_failed">Instilling av alarmen feilet</string>
+    <string name="message_alarm_mi_band_clear_failed">Rens av alarm feilet</string>
+
+    <string name="message_premium_mode_only">Denne egenskapen er bare tilgjengelig i premium modusen</string>
+    <string name="message_general_error">Itilkobling feilet (tilkobling mistet), prøv igjen</string>
+    <string name="message_internet_error">IInternett feil</string>
+
+    <string name="message_in_progress">Under prosess…</string>
+    <string name="message_no_data">Ingen data tilgjengelig</string>
+
+    <string name="message_new_message">En ny melding er motatt, se den på telefonen.</string>
+
+    <!-- Dialog -->
+    <string name="dialog_welcome_title">Velkommen!</string>
+    <string name="dialog_welcome_message"><![CDATA[Supportede enheter:
+    <br>- <b>Xiaomi Mi Band 2</b>
+    <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Cor (MiDong)</b>
+    <br>- <b>Huami Amazfit Arc (A1603)</b>
+    <p>Mi Bandage behøver installasjon av den offisielle Mi Fit appen på den samme telefonen. først må du parre Bandet i Mi Fit appen, så kan du bruke Mi Bandage.</p>
+    <p>Hvis du bruker flere applikasjoner for å kontrolere Bandet, så blandes det med hverandre så du må midlertidig skru dem av.</p>
+    <p>hvis Bandetvikke er funnet, da kan du sette MAC addressen manuelt når du utforsker (MAC addresse er funnet: Mi Fit/Profil/Band).</p>
+    <p><b>hvis du har et tilkoblings problem:</b>
+    <br>- Seneste app-skjerm: lås Mi Bandage (skyv ned appen og trykk på lås ikonet).
+    <br>- Telefon/batteri optimalisering: sett Mi Bandage app til å ikke bli optimalisert.
+    <br>- Telefon/apper: rens Bluetooth Deling og andre \'Bluetooth\' app data.
+    <br>Egenskaper/Utvikler alternativer:
+    <br>- Ikke beholde aktiviteter: deaktiver
+    <br>- Bakgrunns prosess grense: standard grense
+    <br>- Minne optimalisering: middels/lav/deaktiver</p>
+    <p>hvis Bandet ikke er funnet eller om du har problemer med å synkronisere Mi Fit app, så installere BToolkit, nRF Connected eller lignende Bluetooth manager app og fjerne en hver paret, tilknyttet enhet.</p>
+    <p>hvis du har problem (oppdagekse av Band, ikke har notifikasjons signal), venligst prøv dette:
+    <br>1. Hvis du har installert Greenify (eller andre dominerende apper) skru den av.
+    <br>2. Installer Mi Bandage app.
+    <br>3. Restarte telefonen.
+    <br>4. Skru av, på Bluetooth.
+    <br>5. Åpne Mi Fit app,vent til synkroniseringen er ferdig, lukk den.
+    <br>6. Åpne Mi Bandage app, trykk utforsk-knappen.</p>]]></string>
+
+    <!-- Diagnositisering -->
+    <string name="diagnostic_title">Diagnositisering</string>
+
+    <string name="diagnostic_permissions_title">Tilatelser</string>
+
+    <string name="diagnostic_access_title">Tilgang</string>
+    <string name="diagnostic_access_do_not_disturb">Ikke Forstyrr-tilgang</string>
+    <string name="diagnostic_access_notification">Notifikasjons-tilgang</string>
+
+    <string name="diagnostic_protection_title">Beskyttelse mot lukking</string>
+    <string name="diagnostic_protection_battery">Batteri optimalisering av</string>
+    <string name="diagnostic_protection_service">Vis status på notifikasjons-hyllen</string>
+    <string name="diagnostic_protection_lock">Lås på \"siste apper\"-skjermen</string>
+
+    <!-- Notifikasjon  -->
+    <string name="notification_tab_custom">Egendefinerte notifikasjoner</string>
+    <string name="notification_tab_settings">Instillinger</string>
+
+    <!-- Notifikasjon Dialog -->
+    <string name="notification_group_name">Navn</string>
+    <string name="notification_group_monitoring">Monitorering notifikasjoner</string>
+    <string name="notification_group_monitoring_disabled">Deaktivert notifikasjoner (ikke vis applikasjon notifikasjoner)</string>
+    <string name="notification_group_alert_title">Band signal</string>
+    <string name="notification_group_text">Vis Text</string>
+    <string name="notification_group_text_title">Tittel</string>
+    <string name="notification_group_text_content">Kontent</string>
+    <string name="notification_group_vibration_title">Egendefinert vibrasjon</string>
+    <string name="notification_group_pre_signal_title">Standard notifikasjons-forutsigelse</string>
+    <string name="notification_group_pre_vibration_title">Forhånds-vibrasjon</string>
+    <string name="notification_group_pre_alert_title">Pre icon</string>
+    <string name="notification_group_prefix">Text prefix</string>
+    <string name="notification_group_pre_only_premium">Bare i premium modus</string>
+    <string name="notification_group_immediate">Umiddelbart signal når notifikasjon er mottatt</string>
+    <string name="notification_group_connecting">Tilkobles til telefon</string>
+    <string name="notification_group_reminder">Påminnelse av signal</string>
+    <string name="notification_group_screen_off">Signaler bare når skjermen er av</string>
+    <string name="notification_group_counter_title">Nummer på signaler</string>
+    <string name="notification_group_wakelock">Vekke opp telefonens skjerm</string>
+    <string name="notification_group_filter">Filter notifikasjon</string>
+    <string name="notification_group_filter_title">Tittel filter</string>
+    <string name="notification_group_filter_content">Kontent filter</string>
+    <string name="notification_group_filter_hint">Signaler bare når notifikasjon tittelen eller kontenten (delimiter: enter, ikke bokstav sensitiv)</string>
+    <string name="notification_group_filter_contains">Hver inneholder fraser</string>
+    <string name="notification_group_filter_not_contains">Inneholder ingen frase</string>
+
+    <string name="notification_group_sample_sms">Vis SMS text</string>
+    <string name="notification_group_sample_facebook">Vis Messenger text</string>
+    <string name="notification_group_sample_whatsapp">Vis WhatsApp text</string>
+
+    <string name="notification_edit_play_text_title">Notifikasjon tittel</string>
+    <string name="notification_edit_play_text_content">Notifikasjon kontent:
+    Ved publisering og grafisk design, lorem ipsum er en fyllende text eller greeking som vanligvis pleide å demonstrere de textuelle elementer av et grafisk dokument eller visuell presentasjon.
+        \n Erstatter meningsfull kontent med stedsholder-text muliggjør designere å designe formen av kontentet før kontentet selv har vært produsert.
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: velg dette ikonet for å vise notifikasjonene tittel/kontent.]]></string>
+
+    <!-- Notifikasjon info dialog -->
+    <string name="info_dialog_notification"><![CDATA[Forhåndsdefinete app og Band icon-signaler:
+        <br><img src="ALERT_MESSAGE_TEXT">  missed call
+        <br><img src="ALERT_MESSAGE">  SMS
+        <br><img src="ALERT_EMAIL">  Email, Gmail
+        <br><img src="ALERT_CALENDAR">  Google Calendar
+        <br><img src="ALERT_HANGOUTS">  Hangouts
+        <br><img src="ALERT_MESSENGER">  Messenger
+        <br><img src="ALERT_SKYPE">  Skype
+        <br><img src="ALERT_VIBER">  Viber
+        <br><img src="ALERT_WHATSAPP">  WhatsApp
+        <br><img src="ALERT_LINE">  Line
+        <br><img src="ALERT_WECHAT">  WeChat
+        <br><img src="ALERT_TELEGRAM">  Telegram
+        <br><img src="ALERT_KAKAOTALK">  KakaoTalk
+        <br><img src="ALERT_VK">  VK
+        <br><img src="ALERT_YOUTUBE">  Youtube
+        <br><img src="ALERT_FACEBOOK">  Facebook
+        <br><img src="ALERT_TWITTER">  Twitter
+        <br><img src="ALERT_SNAPCHAT">  Snapchat
+        <br><img src="ALERT_INSTAGRAM">  Instagram
+        <br><img src="ALERT_POKEMONGO">  Pokémon GO
+        <br><img src="ALERT_MOMO">  Momo
+        <br><img src="ALERT_QIANNIU">  Qianniu
+        <br><img src="ALERT_QQ">  QQ
+        <br><img src="ALERT_WEIBO">  Weibo
+        <br><img src="ALERT_ALIPAY">  AliPay
+        <br><img src="ALERT_QZONE">  QZone
+        <br><img src="ALERT_DINGTALK">  DingTalk
+        <br><img src="ALERT_APP">  other
+
+        <p>Forhåndsdefinert app og Band ikon signaler vil bare vise ikon og ikke meldingen.</p>
+        <p>Du må deaktivere app varsler i Mi Fit appen.</p>
+        <p> notifikasjons-grupper laget av deg, har høyere prioritet en de forrhåndsdefinerte gruppene.</p>
+        <mi_band_2><p><img src="ALERT_MESSAGE_TEXT"> icon: velg dette ikonet for å vise notifikasjonens tittel/kontent.</p></mi_band_2>
+        <mi_band_hrx><p><img src="ALERT_MESSAGE_TEXT"> icon: velg dette ikonet for å vise notifikasjonens tittel/content.</p></mi_band_hrx>
+        <p>Hvis du bruker den forrhåndsdefinerte appene, men vil deaktivere noen notifikasjoner, så å lage ny notifikasjon gruppe med <i>slå av notifikasjoner</i> instilling og legge til appene.</p>
+        ]]>
+    </string>
+    <!--<p>Forrhåndsdefinerte signaler kan bli deaktivert: <i>Tilkobling og notifikasjon instilling/notifikasjon</i>.</p>-->
+
+    <!-- MiBandage App-velger dialog -->
+    <string name="action_search">Søk</string>
+    <string name="action_filter_notification">Notifikasjon filter</string>
+
+    <!-- Trykk monitorering -->
+    <string name="touch_tab_control">Kontroll</string>
+    <string name="touch_tab_testing">Testing</string>
+    <string name="touch_tab_settings">Instilling</string>
+
+    <string name="touch_headline_call_title">Ringe kontroll</string>
+    <string name="touch_headline_music_title">Musikk kontroll</string>
+    <string name="touch_headline_time_title">Timer/stoppeklokke kontroll</string>
+    <string name="touch_headline_other_title">Andre kontroller</string>
+
+    <string name="touch_device_location_title">Finn min telefon</string>
+
+    <string name="touch_call_answer_title">Svar på anrop</string>
+    <string name="touch_call_answer_speakerphone_title">Høyttaler</string>
+
+    <string name="touch_call_end_title">Avvis anrop, ending</string>
+
+    <string name="touch_call_mute_title">Call mute toggle</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Bare hvis du har et inkommende anrop</string>
+    <string name="touch_call_mute_recognition_title">Ved innkommende anrop</string>
+
+    <string name="touch_call_out_title">Ring ut</string>
+    <string name="touch_call_out_no_contact">Velg en kontakt</string>
+    <string name="touch_call_out_summary">Dobbel trykk for å svare på anropet</string>
+    <string name="touch_call_out_summary_support_call_display_button">Trykk på knappen for å svare på anropet</string>
+    <string name="touch_call_out_speakerphone_title">Høyttaler</string>
+    <string name="touch_call_out_call_text">Ringe ut: %1$s</string>
+
+    <string name="touch_device_location_not_muted_only_title">Lag lyd bare hvis den ikke er på lydsøs eller i DnD mode</string>
+
+    <string name="touch_repeat_notif_title">Repetere notifikasjoner</string>
+    <string name="touch_repeat_notif_clear_all">Rens alle notifikasjoner etter repetisjon</string>
+
+    <string name="touch_clear_notif_title">Rens notifikasjoner fra telefonen</string>
+
+    <string name="touch_music_play_pause_title">Musikk start, spill, pause</string>
+    <string name="touch_music_skip_previous_title">Musikk start, forrige sang</string>
+    <string name="touch_music_skip_next_title">Musikk start, neste sang</string>
+    <string name="touch_music_headset_only_title">Bare hvis hodesett et tilkoblet</string>
+    <string name="touch_music_launch">Start musikk</string>
+    <string name="touch_music_volume_up_title">Musikk volum opp</string>
+    <string name="touch_music_volume_down_title">Musikk volum ned</string>
+    <string name="touch_music_track_info_title">Vis musikk-spor info.</string>
+
+    <string name="touch_time_launch_title">Start tids-monitorering</string>
+    <string name="touch_time_launch_type_timer_title">Timer</string>
+    <string name="touch_time_launch_type_stopper_title">Stoppeklokke</string>
+    <string name="touch_time_launch_type_interval_title">Interval</string>
+    <string name="touch_time_launch_restart">Restarte hvis den er i prosess</string>
+    <string name="touch_time_reminder_title">Vis gjennværende/utgått tid</string>
+
+    <string name="touch_camera_title">Ta et bilde</string>
+    <string name="touch_camera_front_title">Front</string>
+    <string name="touch_camera_rear_title">Bak</string>
+    <string name="touch_camera_install_title">Installer</string>
+
+    <string name="touch_app_launcher1_title">App kjører</string>
+    <string name="touch_app_launcher_package_no_title">Velg en applikasjon</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Bare hvis skjermen ikke er låst</string>
+
+    <string name="touch_tasker_launcher1_title">1. Tasker task kjører</string>
+    <string name="touch_tasker_launcher2_title">2. Tasker task kjører</string>
+    <string name="touch_tasker_launcher_no_permission_title">Du må installere Tasker først, Mi Bandage må installeres etter tasker er installert</string>
+    <string name="touch_tasker_launcher_no_access_title">Tildel extern tilgjengelighet</string>
+    <string name="touch_tasker_launcher_no_task_title">Velg et emne</string>
+
+    <string name="touch_testing_title">Trykke-monitorering</string>
+    <string name="touch_testing_second">sec.</string>
+
+    <string name="touch_setting_recognition_start_title">Start trykke-gjennkjenning</string>
+    <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
+    <string name="touch_setting_recognition_time_title">Gjennkjennelses-tid</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">Band signal</string>
+    <string name="touch_setting_recognition_succeeded_title">Gjenntjenning av trykke-mønster</string>
+    <string name="touch_setting_recognition_failed_title">Ikke gjennkjennbart trykke-mønster</string>
+
+    <!-- Trykke-monitorering info dialog -->
+    <string name="info_dialog_touch"><![CDATA[Trykket er gyldig når  displayet på Bandet endres (så rådet er å rotere den før trykking).
+        <p>Det monitorerer lengden tid mellom trykk, ikke lengden tid på første trykk.</p>
+        <p>Grønt ikon på kortene indikerer at en annen funksjon kan være lignende på gjeldende mønster.</p>
+        <p>Når du får et innkommende anrop, kjenner ikke telefonen de følgende funksjonene for å enkelt gi trykk input: lokalisasjonen av telefonen, repetere notifikasjoner, musikk kontroll.</p>
+        <p>I test-modus utløser ikke funksjonen av allerede lagrede gjennkjente mønster.</p>
+        <p>Bandet gir vibrasjon feedback, men bare hvis det er et mønster som tar in bruken på den gjeldende status på telefonen (anrops-svaring, legger på bare hvis det er et inkommende anrop…).</p>
+        <p>Bandet vibrerer en gang, når det gjenkjenner et mønster.</p>
+        <p>Bandet vibrerer to ganger, når det ikke gjenkjenner noen mønstre etter det lengste mønstret (hvis <i>Ikke er gjenkjennelige trykke mønster signal</i> er satt).</p>
+        <p>Gyldige trykke eksempler:
+        <br>- trykk
+        <br>- trykk og 1sekund vent, trykk
+        <br>- trykk og 1sekund vent, trykk og 1sekund vent, trykk
+        <br>- trykk og 2sekunder vent, trykk
+        <br>- trykk og 2sekunder vent, trykk og 1sekund vent, trykk
+        <br>- trykk og 2sekunder vent, trykk og 2sekunder vent, trykk
+        </p>
+    ]]></string>
+
+    <!-- Skritt-monitorering -->
+    <string name="action_tracker_step">Skritt</string>
+    <string name="action_tracker_distance">Distanse</string>
+    <string name="action_tracker_calorie">Kalorier</string>
+    <string name="action_chart_filter_activity_no">ingen filter</string>
+    <string name="action_chart_filter_activity_active">Aktivitets kart-filter</string>
+
+    <string name="step_tab_day">Daglige skritt</string>
+    <string name="step_tab_week">Ukentlige skritt</string>
+    <string name="step_tab_month">Månedlige skritt</string>
+    <string name="step_tab_goal">Skritt-mål</string>
+    <string name="step_tab_settings">Skritt-instilling</string>
+
+    <string name="activity_progress_title_prepare">Forbereder for synkronisering av aktivitet…</string>
+    <string name="activity_progress_title_sync">Aktivitet-prosess synkronisering %1$,d%%</string>
+    <string name="activity_progress_title_save">Lagring av aktivitets-prosess %1$,d%%</string>
+
+    <string name="step_title_timing">Timing på skritt</string>
+    <string name="step_interval_title"> Interval på skritt-monitorering</string>
+    <string name="step_time_set_next">Timing av neste skritt-monitorering</string>
+
+    <string name="step_goal_default_title">generelle skritt-mål</string>
+    <string name="step_goal_type_title">Mine skritt-mål</string>
+    <string name="step_details">Skritt detailer</string>
+
+    <string name="info_dialog_step"><![CDATA[
+        <img src="ic_activity_active"> daglige skritt/distanse/kalorier totalt
+        <br><br><img src="ic_timelapse"> aktiv tid
+        <br><br><img src="ic_activity_get_up"> kommet ut av senga tid
+        <br><br><img src="ic_activity_awake"> våkenhets tid
+        <br><br><img src="ic_activity_rest_sofa"> hvile/sitte tid under våkenhet
+        <br><br><img src="ic_activity_go_to_bed"> sengetid
+        <br><br><img src="ic_battery_charging_full"> batteri lader
+        <br><br><img src="ic_activity_block"> bæres ikke
+        ]]>
+    </string>
+
+    <!-- Søvn monitorering -->
+    <string name="sleep_tab_day">Daglige kart</string>
+    <string name="sleep_tab_week">Ukentlig kart</string>
+    <string name="sleep_tab_month">Månedlig kart</string>
+    <string name="sleep_tab_settings">Instilling</string>
+
+    <string name="action_chart_sleep_type_phase">Fase</string>
+    <string name="action_chart_sleep_type_time">Tid</string>
+
+    <string name="sleep_details">Søvn detaljer</string>
+    <string name="sleep_assistant">Hjerterytme søvn assistanse</string>
+    <string name="sleep_assistant_summary">Hjelper til å få mer presist søvn data (reduserer batteri varigheten)</string>
+    <string name="sleep_assistant_show_pulse">Vis den measurerte puls valuen på den daglige puls grafen</string>
+
+    <string name="info_dialog_sleep"><![CDATA[
+        <img src="ic_timelapse"> sove tid
+        <br><br><img src="ic_activity_sleep_deep"> dyp søvn tid
+        <br><br><img src="ic_activity_go_to_bed"> sengetid/våken tid
+        <br><br><img src="ic_activity_sleep_start"> søvn start tid/lett søvn tid
+        <br><br><img src="ic_activity_sleep_time"> total tid
+        <br><br><img src="ic_activity_sleep_end"> søvn tid slutt
+        <br><br><img src="ic_activity_get_up"> tid på å komme opp av senga
+        <br><br><img src="ic_activity_active"> tid aktiv
+        <br><br><img src="ic_activity_block"> bæres ikke
+        ]]>
+    </string>
+
+    <!-- Puls  monitorering -->
+    <string name="action_pulse_current">Gjeldende puls</string>
+
+    <string name="pulse_tab_day">Daglige kart</string>
+    <string name="pulse_tab_week">Ukentlig kart</string>
+    <string name="pulse_tab_month">Månedlig kart</string>
+    <string name="pulse_tab_settings_online">Online instilling</string>
+    <string name="pulse_tab_settings_offline">Offline instilling</string>
+
+    <string name="pulse_online_title">Online puls measurementering</string>
+    <string name="pulse_offline_title">Offline puls measurementering</string>
+
+    <string name="action_chart_pulse_type_pulse">Puls</string>
+    <string name="action_chart_pulse_type_pulse_and_step">Puls og skritt</string>
+
+    <string name="pulse_notification_shade">Chart on the notification shade</string>
+    <string name="pulse_title_signals">Signaler</string>
+    <string name="pulse_signal_start_title">Monitorering start signal</string>
+    <string name="pulse_signal_show_title">Sakte puls</string>
+    <string name="pulse_signal_end_low_title">Lav puls signal</string>
+    <string name="pulse_signal_end_title">Høy puls signal</string>
+
+    <string name="pulse_title_timing_validity">Timing og validitet</string>
+    <string name="pulse_interval_title">Gjenta interval av puls monitorering</string>
+    <string name="pulse_time_set_next">Timing av neste monitorering</string>
+    <string name="pulse_value_min">Gyldig lavere value</string>
+    <string name="pulse_value_max">gyldig høyere value</string>
+    <string name="pulse_value_invalid">Ugyldig value</string>
+
+    <string name="pulse_offline_timed_title">Timet measurementering</string>
+    <string name="pulse_all_day">Alle-dager</string>
+
+    <string name="pulse_details">Puls detaljer</string>
+
+    <string name="message_pulse_premium_mode_only">Online og offline puls measurementering kan bare bli brukt i premium modus på samme tid</string>
+
+    <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Online puls measurementering</u></b>
+        <p>Bluetooth tilkobling er påkrevd for monitorering av pulsen.</p>
+        <p>Puls monitorering repeteres flere ganger hvis resulterende av valuet er galt.<p>
+        <img src="ic_pulse_offline"> <b><u>Offline puls measurementering</u></b>
+        <p>Ingen Bluetooth tilkobling påkrevd for puls measurering.</p>
+        <p>Bluetooth tilkobling er påkrevs for timing på start og stopp.</p>
+        <p>Manuelt starte measurering (Band, Mi Fit app) er også synkronisert.<p>
+        ]]>
+    </string>
+
+    <!-- Mistet monitorering -->
+    <string name="alarm_mi_band_title">Band signal</string>
+    <string name="alarm_mi_band_dnd">Ikke forstyrr modus</string>
+    <string name="alarm_mi_band_interval_title">Gjenta intervall på alarm instilling</string>
+    <string name="alarm_mi_band_time_set_next">Timing av neste instilling</string>
+    <string name="alarm_mi_band_time">Timing av neste alarm</string>
+
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Mistet monitorering Band signal er aktivert.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm-tid: %1$s</string>
+
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>Band signal</u></b>
+        <p>Når spesifisert periode av tiden utløper, Sender bandet signaler hvis det ikke er tilkoblet til telefonen.</p>
+        <p>Appen bruker alarm funksjon på Mi Fit for å varsle (overskrive 10. egenskap).</p>
+        <p>Alarmen vil repetere flere ganger hvis Bandet ikke detekterer noe bevegelser (fordi det bruker Bandets alarm).</p>
+        <p>Før du skruer av Bluetooth eller avinstallerer appen må du deaktivere Bandets signal.</p>
+        <p>Hvis du fjerner applikasjonen når alarmen er på, da kan du deaktivere den ved å skru på og av igjen Mi Fit 10. alarm instilling.</p>
+
+        <img src="ic_phone_android"> <b><u>Telefon signaler</u></b>
+        <p>Når spesifisert periode av tiden utløper, vil telefonen sende signaler gjentakende hvis ikke den er koblet til smartklokka.<p>
+        <p>Dette gjør det lettere å finne telefonen. Hvis noen andre finner telefonen og den er låst og ikke vet hvordan å notifisere, så kan du sende en melding.</p>
+        <p>Når smartklokka er tilkoblet, stopper alarmen.</p>
+        <p>Må være aktivert for å vise notifikasjon på låse-skjermen.</p>]]>
+    </string>
+
+    <!-- Tids  monitorering -->
+    <string name="time_tab_alarm">Alarm</string>
+    <string name="time_tab_timer">Timer</string>
+    <string name="time_tab_stopper">Stoppeklokke</string>
+    <string name="time_tab_lap">Lap tid</string>
+    <string name="time_tab_interval">Interval</string>
+
+    <string name="action_alarm_device">Telefonens alarm</string>
+    <string name="time_alarm_mi_band_signal">Signal når telefonens alarm lager lyder</string>
+    <string name="time_alarm_mi_band_signal_alarm_off">Alarm slås av på det andre trykket</string>
+    <string name="time_alarm_title">Tittel</string>
+    <string name="time_alarm_pre_alarm">Påminnelse signal, gjenværende tid</string>
+    <string name="time_alarm_pre_alarm_interval_title">For tid</string>
+    <string name="time_alarm_pre_alarm_type_vibrate_title">Vibrasjon</string>
+    <string name="time_alarm_pre_alarm_type_remaining_title">Igjenværende tid</string>
+
+    <string name="time_timer_time_alert">Alarm-tid</string>
+    <string name="time_timer_time_remaining">Gjenværende tid</string>
+
+    <string name="time_timer_reminder">Påminner signal, gjenværende tid</string>
+    <string name="time_timer_reminder_interval_before_title">For-tid</string>
+    <string name="time_timer_reminder_interval_repeat_title">Påminnelse gjentagelse av interval</string>
+
+    <string name="time_stopper_time_alert">Alarm-tid</string>
+    <string name="time_stopper_time_elapsed">Forløpt tid</string>
+
+    <string name="time_stopper_reminder">Påminnelse signal, forløpt tid</string>
+    <string name="time_stopper_reminder_interval_before_title">For tid</string>
+    <string name="time_stopper_reminder_interval_repeat_title">Påminnelse repetasjon interval</string>
+
+    <string name="time_stopper_touch">Lap tid, trykke monitorering</string>
+    <string name="time_stopper_touch_record">Lap tid opptak ned et trykk</string>
+    <string name="time_stopper_touch_show">Lap tid vises med et trykk</string>
+    <string name="time_stopper_touch_time_format">Tids format</string>
+    <string name="time_stopper_touch_time_format_minute">time \u2032 min \u2033</string>
+    <string name="time_stopper_touch_time_format_second">min \u2032 sekund \u2033</string>
+
+    <string name="time_lap_details">Lap tid detaljer</string>
+
+    <string name="time_mode_timer_title">Timing</string>
+    <string name="time_mode_time_title">Tid</string>
+
+    <string name="time_alert">Alarm type</string>
+    <string name="time_alert_bell_title">Ringe</string>
+    <string name="time_alert_alarm_title">Alarm</string>
+
+    <string name="time_interval_time_total">Total tid</string>
+    <string name="time_interval_counter">Nummer på repetisjoner</string>
+    <string name="time_interval_time_alert">Slutt tid</string>
+    <string name="time_interval_time_current">Repetisjon interval på forløpt tid</string>
+    <string name="time_interval_title">Tittel</string>
+    <string name="time_interval_time">Tids intervall</string>
+
+    <string name="time_text">Vis melding i alarm</string>
+    <string name="time_text_message">Text</string>
+
+    <string name="time_enable_bluetooth">Skru på Bluetooth</string>
+
+    <string name="info_dialog_time"><![CDATA[
+        <p><b>Skru av alarm, timer og stoppeklokke før du fjerner applikasjonen.</b></p>
+        <img src="ic_device_alarm"> <b><u>Signal når telefonens alarm lager lyd</u></b>
+        <p>Ikke alle telefoner er støttet. Hvis telefonen\'s built-in alarm klokke ikke virker, last ned Google Clock fra Google Play.</p>
+        <img src="ic_miband_bell"> <b><u>Bell</u></b>
+        <p>Bluetooth tilkobling er nødvendig for alarm, det alamerer bare en gang i 10 sekunder.</p>
+        <img src="ic_alarm"> <b><u>Alarm</u></b>
+        <p>Bluetooth tilkoblingen er ikke påkrevd for alarm, app bruker alarm funkjon til Mi Fit til å varsle (overskrive 4. - 9. settingen).
+        <br>Alarmen vil repeteres flere ganger hvis Bandet ikke detekterer noe bevegelse (fordi det bruker Bandet\'s alarm).
+        <br>Minutt akkurathet, Bandet takler ikke sekunder i alarm.</p>
+        <p>Påminnelse signal og vising av meldinger krever Bluetooth tilkobling.</p>
+    ]]></string>
+
+    <!-- Watch face -->
+    <string name="watch_face_default_title">Endre atch face</string>
+
+    <string name="watch_face_init_title">Initialisering</string>
+    <string name="watch_face_init_content"><![CDATA[I Mi Fit Applikasjonen sett en av fabrikk watch facene.
+        <br>Du må merke den samme watch face når du laster opp.
+        <br><i>(initialisering er påkrevd bare en gang)</i>
+    ]]></string>
+
+    <string name="watch_face_download_title">Nedlastning</string>
+    <string name="watch_face_download_path">Lagre den nedlastede watch face filen her:</string>
+    <string name="watch_face_download_name">Fil navn</string>
+    <string name="watch_face_download_move">Flytt de nedlastede watch face filene fra den %1$s destinasjonen</string>
+
+    <string name="watch_face_upload_title">Laste opp</string>
+    <string name="watch_face_upload_empty_title"><![CDATA[Watch face ikke funnet
+        <br><i>(%1$s)</i>
+    ]]></string>
+    <string name="message_watch_face_upload_error">Initialisering er påkrevd</string>
+
+    <string name="info_dialog_watch_face"><![CDATA[<b><u>Watch face endre prosedyre:</u></b>
+        <br><br><img src="ic_mi_fit_init"> <b>1. Initialization</b>
+        <p>Tilbakestille watch face\'ne\'s status til originalt i Mi Fit applikasjonen, opplaste den første fabrikkinstillte watch face.
+
+        <br><br><b>2. Last ned</b>
+        <p>Last ned watch face fra web sider.
+
+        <br><br><img src="ic_content_duplicate"> <b>3. Move the files</b>
+        <p>Hvis nødvendig, flytt de nedlastede watch face filene fra det Nedlastede stedet til MiBandage stedet.
+
+        <br><br><img src="ic_mi_fit_upload"> <b>4. Upload</b>
+        <p>Laste opp den valgte watch face i Mi Fit. det replasserer den siste opplastede fabrikkinstillte watch face.
+
+        <br><br><br><b><u>Laste opp samtidige watch face</u></b>
+        <p><img src="ic_action_launch_mi_fit"> Kjøre Mi Fit uten watch face stedfortreder, laste opp den andre fabrikkinstillte watch face.
+        <p><img src="ic_mi_fit_upload opp">  Laste opp valgte watch face i Mi Fit.
+        <p>Gjenta disse trinnene.
+
+        <br><br>I Mi Fit vil ikke la watch face\'s bildene bli endret.
+        ]]>
+    </string>
+
+    <!-- Agent -->
+    <string name="agent_title">Enhets monitorerings agent</string>
+    <string name="agent_tab_events">Agent logg</string>
+    <string name="agent_tab_settings">Instilling</string>
+
+    <string name="pref_disconnected_agent_summary_on">Hvis noen bruker telefonen mens du er borte, vil du få vite det</string>
+    <string name="pref_disconnected_agent_text">Noen brukte telefonen, mens du var borte</string>
+    <string name="pref_disconnected_agent_user_present_title">Vekk opp telefonens skjerm monitorering</string>
+    <string name="pref_disconnected_agent_screen_on_and_motion_title">Skru på bevegelse monitorering</string>
+
+    <!-- Agent log info dialog -->
+    <string name="info_dialog_disconnected_agent"><![CDATA[Eventer detektert av telefonens manager agent:
+        <br>- skru på
+        <br>- låser opp skjermen
+        <br>- bevegelse oppdaget
+
+        <p>Hvis noen holder på med telefonen når du er borte, blir eventene logget.</p>
+        <p>Når du tilkobler på nytt vil du motta en notifikasjon i tilfelle en event forekommer.</p>]]>
+    </string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Stil</string>
+    <string name="theme_tab_widget">Widgeter</string>
+    <string name="theme_tab_notification">Notifikasjons-hylle</string>
+
+    <string name="theme_title">Velg en stil</string>
+    <string name="theme_background_color_title">Bakgrunn farge</string>
+
+    <string name="theme_widget_foreground_title">Forrgrunn</string>
+    <string name="theme_widget_foreground_color_title">Ikon og text farge</string>
+    <string name="theme_widget_background_title">Bakgrunn</string>
+    <string name="theme_widget_background_color_title">Farge</string>
+    <string name="theme_widget_background_shape_title">Form</string>
+    <string name="theme_widget_background_transparency_title">Transparent</string>
+
+    <string name="theme_widget_touch_event_title">Trykke event</string>
+
+    <string name="theme_notification_title">Vise status på notifikasjons-hylla</string>
+    <string name="theme_notification_summary"> Android systemet tvangs-stopper en service bare når telefon minnet er lite. Hvis ikke notifikasjonen kommer opp på Mi Band 2 etter en liten stund, kan du forhindre dette.</string>
+    <string name="theme_notification_color_title">Ikon farge</string>
+    <string name="theme_notification_text_color_title">Text farge</string>
+
+    <!-- Sikkerhetskopier og gjenopprett -->
+    <string name="backup_tab_backup">Sikkerhetskopier</string>
+    <string name="backup_tab_restore">Gjenopprett</string>
+
+    <string name="backup_time">Sikkerhetskopierings tid</string>
+    <string name="backup_path">Sikkerhetskopierings område</string>
+    <string name="backup_auto">Automatisk sikkerhetdkopi</string>
+    <string name="backup_auto_time">Tid</string>
+
+    <string name="backup_process">Forberedelse…</string>
+    <string name="backup_process_activity">Aktivitet og søvn %1$,d%%</string>
+    <string name="backup_process_pulse">Puls %1$,d%%</string>
+    <string name="backup_process_notification">Notifikasjon %1$,d%%</string>
+    <string name="backup_process_touch">Trykk %1$,d%%</string>
+    <string name="backup_process_time">Tid %1$,d%%</string>
+    <string name="backup_process_alarm">Mistet %1$,d%%</string>
+    <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
+    <string name="backup_process_settings">Egenskaper %1$,d%%</string>
+
+    <string name="backup_restore_activity">Aktivitet og søvn</string>
+    <string name="backup_restore_pulse">Puls</string>
+    <string name="backup_restore_notification">Notifikasjon</string>
+    <string name="backup_restore_touch">Trykk</string>
+    <string name="backup_restore_time">Tid</string>
+    <string name="backup_restore_alarm">Mistet</string>
+    <string name="backup_restore_disconnected_agent">Agent</string>
+    <string name="backup_restore_settings">Egenskaper</string>
+
+    <string name="backup_restore_reset">Etter resetting, Bluetooth vil skru seg av og på og applikasjonen vil omstarte.</string>
+
+    <!-- Rewarded mode -->
+    <string name="rewarded_policy_title">Vilkår og Betingelser på Belønning modus</string>
+    <string name="rewarded_policy"><![CDATA[
+        <p>- start på validering: gjeldende tid
+        <br>- slutt på belønning: start validering + minst %1$,d dager (avhengig av reklame det kan bli mer)
+        <br>- tids manipulering kan forårsake avslutning av belønningen</p>
+        <i>Etter å ha spilt av videoen må du omstarte appen.</i>
+    ]]></string>
+
+    <string name="rewarded_advantage_banner_title">Blokker banner reklamer</string>
+    <string name="rewarded_advantage_interstitial_title">Blokker interessebaserte reklamer</string>
+
+    <string name="rewarded_advantage_time_range">Valibility</string>
+    <string name="rewarded_advantage_button_play">Spill video</string>
+
+    <string name="message_rewarded_error">Feilet å spille video</string>
+
+    <!-- Premium modus -->
+    <string name="purchase_advantage_title">Premium modus egenskaper</string>
+    <string name="purchase_advantage"><![CDATA[
+        - reklame-fri
+        <br>- ikke forstyrr modus
+        <br>- ubegrenset notifikasjons monitorering
+        <br>- ubegrenset trykke monitorering
+        <br>- text prefix, pre ikon og å filtere text kan bli brukt i notifikasjons monitorering
+        <br>- gjentagelses interval kan bli satt fritt i skritt monitorerings funksjon
+        <br>- gjentakelses interval kan bli satt fritt og visning av puls kan bli brukt i puls monitorering funksjonen
+        <br>- gjentatte interval kan bli satt fritt og DnD modus kan bli brukt i tapte monitorerings funksjon
+        <br>- gjentagende påminnelser, vise beskjed om å skru på bluetooth kan bli satt fritt i tids monitorering
+        <br>- …
+    ]]></string>
+    <string name="purchase_policy_title">vilkår og betingelser of Premium modus</string>
+    <string name="purchase_policy"><![CDATA[
+        <p>- Jeg har testet appen og den virker skikkelig.
+        <br>- Jeg er oppmerksom på at Jeg ikke kan forvente kompensasjon eller tilbakebetaling grunnet bugs, software feil på grunn av endringer i softwaren, hardwaren området rundt eller å bruke andre applikasjoner.
+        <br>- Alle salg er endelige og kan ikke bli gitt tilbake penger for(untatt Google penger tilbake policy).
+        <br>- Det er ingen garanti inkludert.</p>
+        <p><i>Etter å ha kjøpt må du omstarte appen.</i></p>
+    ]]></string>
+
+    <!--<string name="kjøp_pris">Pris:</string>-->
+    <string name="purchase_agree">Jeg godtar alle vilkår og betingelser.</string>
+    <string name="purchase_order_id">Kjøps ID</string>
+    <string name="purchase_order_id_help">Kopiere fra:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_button_purchase">Kjøp</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">Notifikasjon logg</string>
+
+    <string name="feedback_google_play_title">Bedøm denne appen</string>
+    <string name="feedback_request_feature_title">Egenskaps forespørsel, bug rapport</string>
+    <string name="feedback_request_feature_summary">Automatisk e-mail prossesjon, du får kanskje ikke respons</string>
+
+    <!-- Vibration dialog -->
+    <string name="vibration_title">Vibration setting</string>
+    <string name="vibration_intensity">Varighet</string>
+    <string name="vibration_pause">Pause</string>
+    <string name="vibration_times">Tid</string>
+
+    <!-- Hack -->
+    <string name="info_dialog_hack"><![CDATA[Hack tool oppdaget på telefonen.
+        <p>Når hack tool er installert er premium mode ikke tilgjengelig.</p>
+        <p>jeg brukte mye tid med utviklingen av denne applikasjoben, venligst ikke bruk hack tools.</p>]]>
+    </string>
+
+    <!-- Others -->
+    <string name="on">På</string>
+    <string name="off">Av</string>
+    <string name="none">Ingen</string>
+    <string name="bpm">BPM</string>
+    <string name="time_start">Start tid</string>
+    <string name="time_end">Slutt tid</string>
+    <string name="ringer_mode_mute">Lydløs</string>
+    <string name="ringer_mode_silent">Ikke Forstyrr</string>
+
+    <string name="action_dismiss">Avvis</string>
+    <string name="action_setting">Indtilling</string>
+    <string name="action_delete">Slett</string>
+    <string name="action_export">Exportere</string>
+    <string name="action_filter_no">Ingen filter</string>
+    <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_save">Lagre</string>
+    <string name="action_test">Test</string>
+
+    <string name="action_chart">Kart</string>
+    <string name="action_chart_normalize_minute">målte valuer</string>
+    <string name="action_chart_normalize_quarter_hourly">Kvartal-timelige valuer</string>
+    <string name="action_chart_normalize_half_hourly">Halv-timelige valuer</string>
+    <string name="action_chart_normalize_hourly">Time valuer</string>
+    <string name="action_chart_sort_time_asc">Tid økende</string>
+    <string name="action_chart_sort_time_desc">Tid synkende</string>
+    <string name="action_chart_sort_step_asc">Skritt økende</string>
+    <string name="action_chart_sort_step_desc">Skritt mindre</string>
+    <string name="action_chart_sort_pulse_asc">Puls stigende</string>
+    <string name="action_chart_sort_pulse_desc">Puls synkende</string>
+    <string name="action_chart_sort_lap_asc">Lap stigende</string>
+    <string name="action_chart_sort_lap_desc">Lap synkende</string>
+
+    <string name="power_on">Skru på</string>
+    <string name="screen_unlock">Låser opp skjermen</string>
+    <string name="motion">Bevegelse oppdaget</string>
+
+    <string name="required_value">Påkrevd</string>
+
+    <!-- Constante -->
+    <string name="const_time_abbreviation_hour">h</string>
+    <string name="const_time_abbreviation_minute">m</string>
+    <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
+
+    <string name="const_number">%1$,d</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_kcal">kcal</string>
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="zero">%d hour</item>
+        <item quantity="one">%d time</item>
+        <item quantity="two">%d timer</item>
+        <item quantity="few">%d timer</item>
+        <item quantity="many">%d timer</item>
+        <item quantity="other">%d timer</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">%d min</item>
+        <item quantity="one">%d minutt</item>
+        <item quantity="two">%d minutter</item>
+        <item quantity="few">%d minutter</item>
+        <item quantity="many">%d minutter</item>
+        <item quantity="other">%d minutter</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d sekund</item>
+        <item quantity="one">%d sekund</item>
+        <item quantity="two">%d sekunder</item>
+        <item quantity="few">%d sekunder</item>
+        <item quantity="many">%d sekunder</item>
+        <item quantity="other">%d sekunder</item>
+    </plurals>
+
+    <plurals name="plural_file_moved">
+        <item quantity="zero">%d fil flyttet</item>
+        <item quantity="one">%d fil flyttet</item>
+        <item quantity="two">%d fil flyttet</item>
+        <item quantity="few">%d fil flyttet</item>
+        <item quantity="many">%d filer flyttet</item>
+        <item quantity="other">%d filer flyttet</item>
+    </plurals>
+
+</resources>
