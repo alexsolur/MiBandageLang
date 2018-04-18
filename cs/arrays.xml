@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_connected_have_notif_counter">
+        <item>Jednou za ikonu náramku</item>
+        <item>Počet oznámení</item>
+        <item>1 \'app\' ikona</item>
+        <item>2 \'app\' ikona</item>
+        <item>3 \'app\' ikona</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_counter_values">
+        <item>-2</item>
+        <item>-1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_interval">
+        <item>3 minuty</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>20 minut</item>
+        <item>30 minut</item>
+        <item>1 hodina</item>
+        <item>2 hodiny</item>
+        <item>3 hodiny</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_interval_values">
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </string-array>
+
+    <string-array name="pref_abandoned_interval">
+        <item>1 minuta</item>
+        <item>2 minuty</item>
+        <item>3 minuty</item>
+        <item>4 minuty</item>
+        <item>5 minut</item>
+        <item>6 minut</item>
+        <item>7 minut</item>
+        <item>8 minut</item>
+        <item>9 minut</item>
+        <item>10 minut</item>
+    </string-array>
+
+    <integer-array name="pref_abandoned_interval_values">
+        <item>60000</item>
+        <item>120000</item>
+        <item>180000</item>
+        <item>240000</item>
+        <item>300000</item>
+        <item>360000</item>
+        <item>420000</item>
+        <item>480000</item>
+        <item>540000</item>
+        <item>600000</item>
+    </integer-array>
+
+    <string-array name="pref_abandoned_notif_interval">
+        <item>10 minut</item>
+        <item>20 minut</item>
+        <item>30 minut</item>
+        <item>1 hodina</item>
+        <item>2 hodiny</item>
+        <item>3 hodiny</item>
+    </string-array>
+
+    <integer-array name="pref_abandoned_notif_interval_values">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </integer-array>
+
+    <string-array name="notification_group_counter">
+        <item>Jedno znamení</item>
+        <item>Jednou za aplikaci</item>
+        <item>Počet oznámení (všechny)</item>
+    </string-array>
+
+    <string-array name="touch_call_mute_ringer_mode">
+        <item>Vibrace</item>
+        <item>Nerušit (pouze budíky)</item>
+    </string-array>
+
+    <string-array name="touch_music_player">
+        <item>Výchozí hudební přehrávač</item>
+        <item>Hudba Google Play</item>
+        <item>Hudba Spotify</item>
+    </string-array>
+
+    <string-array name="touch_music_player_values">
+        <item></item>
+        <item>com.google.android.music</item>
+        <item>com.spotify.music</item>
+    </string-array>
+
+    <string-array name="touch_music_info">
+        <item>Žádné oznámení</item>
+        <item>Autor#Název</item>
+        <item>Autor, Název</item>
+        <item>Název</item>
+    </string-array>
+
+    <string-array name="touch_music_info_values">
+        <item>NONE</item>
+        <item>ARTIST#TITLE</item>
+        <item>ARTIST_TITLE</item>
+        <item>TITLE</item>
+    </string-array>
+
+    <string-array name="touch_camera_app">
+        <item>Výchozí (je vyžadován root)</item>
+        <item>Open Camera</item>
+    </string-array>
+
+    <string-array name="touch_camera_app_values">
+        <item></item>
+        <item>net.sourceforge.opencamera</item>
+    </string-array>
+
+    <string-array name="pref_timer_time_interval_repeat">
+        <item>VYPNUTO</item>
+        <item>1 minuta</item>
+        <item>2 minuty</item>
+        <item>3 minuty</item>
+        <item>4 minuty</item>
+        <item>5 minut</item>
+        <item>6 minut</item>
+        <item>7 minut</item>
+        <item>8 minut</item>
+        <item>9 minut</item>
+        <item>10 minut</item>
+        <item>11 minut</item>
+        <item>12 minut</item>
+        <item>13 minut</item>
+        <item>14 minut</item>
+        <item>15 minut</item>
+        <item>20 minut</item>
+        <item>30 minut</item>
+        <item>40 minut</item>
+        <item>50 minut</item>
+        <item>1 hodina</item>
+        <item>2 hodiny</item>
+        <item>3 hodiny</item>
+        <item>4 hodiny</item>
+        <item>5 hodin</item>
+    </string-array>
+
+    <integer-array name="pref_timer_time_interval_repeat_values">
+        <item>0</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>180000</item>
+        <item>240000</item>
+        <item>300000</item>
+        <item>360000</item>
+        <item>420000</item>
+        <item>480000</item>
+        <item>540000</item>
+        <item>600000</item>
+        <item>660000</item>
+        <item>720000</item>
+        <item>780000</item>
+        <item>840000</item>
+        <item>900000</item>
+        <item>1200000</item>
+        <item>1800000</item>
+        <item>2400000</item>
+        <item>3000000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+        <item>10800000</item>
+        <item>14400000</item>
+        <item>18000000</item>
+    </integer-array>
+
+    <string-array name="notification_group_text_content_slice">
+        <item>1 obrazovka (1-%1$,d znaků)</item>
+        <item>2 obrazovky (1-%1$,d znaků)</item>
+        <item>3 obrazovky (1-%1$,d znaků)</item>
+        <item>4 obrazovky (1-%1$,d znaků)</item>
+        <item>5 obrazovek (1-%1$,d znaků)</item>
+        <item>6 obrazovek (1-%1$,d znaků)</item>
+        <item>7 obrazovek (1-%1$,d znaků)</item>
+        <item>8 obrazovek (1-%1$,d znaků)</item>
+        <item>9 obrazovek (1-%1$,d znaků)</item>
+        <item>10 obrazovek (1-%1$,d znaků)</item>
+    </string-array>
+
+    <integer-array name="notification_group_text_content_slice_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+
+    <string-array name="touch_recognition_press">
+        <item>Žádný</item>
+        <item>Stisk</item>
+        <item>Dvojitý stisk</item>
+        <item>Dlouhý stisk</item>
+    </string-array>
+
+    <string-array name="touch_recognition_press_values">
+        <item>NONE</item>
+        <item>TOUCH</item>
+        <item>DOUBLE_TOUCH</item>
+        <item>LONG_TOUCH</item>
+    </string-array>
+
+    <string-array name="touch_recognition_start_trigger">
+        <item>Žádný</item>
+        <item>Vzor</item>
+        <item>Dlouhý stisk tlačítka</item>
+    </string-array>
+
+    <string-array name="touch_recognition_start_trigger_values">
+        <item>NONE</item>
+        <item>PATTERN</item>
+        <item>LONG_PRESS</item>
+    </string-array>
+
+    <string-array name="widget_event">
+        <item>Menu stavu</item>
+        <item>Menu aktivity</item>
+        <item>Menu tepu</item>
+        <item>Měření tepu</item>
+        <item>Menu budíků</item>
+    </string-array>
+
+    <string-array name="widget_event_values">
+        <item>LAUNCH_BANDAGES</item>
+        <item>LAUNCH_ACTIVITY</item>
+        <item>LAUNCH_PULSE</item>
+        <item>ACTION_PULSE</item>
+        <item>LAUNCH_TIME_ALARM</item>
+    </string-array>
+
+    <string-array name="pref_language">
+        <item>Výchozí nastavení</item>
+        <item>čeština</item>
+        <item>angličtina</item>
+        <item>maďarština</item>
+        <item>ruština</item>
+        <item>portugalština</item>
+        <item>turečtina</item>
+        <item>řečtina</item>
+        <item>vietnamština</item>
+        <item>italština</item>
+        <item>španělština</item>
+        <item>indonéština</item>
+        <item>němčina</item>
+        <item>francouština</item>
+        <item>norština</item>
+        <item>中文</item>
+    </string-array>
+
+    <string-array name="pref_language_values">
+        <item>DEFAULT</item>
+        <item>cs</item>
+        <item>en</item>
+        <item>hu</item>
+        <item>ru</item>
+        <item>pt</item>
+        <item>tr</item>
+        <item>el</item>
+        <item>vi</item>
+        <item>it</item>
+        <item>es</item>
+        <item>in</item>
+        <item>de</item>
+        <item>fr</item>
+        <item>no</item>
+        <item>zh</item>
+    </string-array>
+</resources>

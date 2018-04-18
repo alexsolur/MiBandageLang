@@ -1,0 +1,985 @@
+<resources>
+    <string name="app_name">Mi Bandage</string>
+
+    <string name="navigation_drawer_open">Otevřít navigační panel</string>
+    <string name="navigation_drawer_close">Zavřít navigační panel</string>
+
+    <string name="drawer_nav_home">Stav</string>
+    <string name="drawer_nav_notification">Oznámení</string>
+    <string name="drawer_nav_touch">Dotek</string>
+    <string name="drawer_nav_step">Aktivita</string>
+    <string name="drawer_nav_sleep">Spánek</string>
+    <string name="drawer_nav_pulse">Tep</string>
+    <string name="drawer_nav_time">Čas</string>
+    <string name="drawer_nav_watch_face">Styl ciferníku</string>
+    <string name="drawer_nav_alarm">Najdi náramek</string>
+    <string name="drawer_nav_disconnected_agent">Agent</string>
+    <string name="drawer_nav_theme">Styly</string>
+    <string name="drawer_nav_backup">Zálohování</string>
+    <string name="drawer_nav_rewarded_mode">Režim odměn</string>
+    <string name="drawer_nav_premium_mode">Prémiový režim</string>
+    <string name="drawer_nav_feedback">Zpětná vazba</string>
+    <item name="drawer_nav_settings" type="string">@string/settings_name</item>
+
+    <string name="shortcut_touch">Dotek</string>
+    <string name="shortcut_step">Aktivita</string>
+    <string name="shortcut_pulse">Tep</string>
+    <string name="shortcut_time_alarm">Alarm</string>
+
+    <!-- Foreground service, ongoing notification -->
+    <string name="foreground_service_connected">Doba připojení: %1$s</string>
+    <string name="foreground_service_disconnected_text">Náramek není připojen</string>
+    <!--<string name="foreground_service_disconnected">Doba odpojení: %1$s</string>-->
+
+    <!-- Strings related to Settings -->
+    <string name="settings_name">Nastavení</string>
+    <string name="app_chooser">Výběr aplikace</string>
+    <string name="info_name">Informace</string>
+
+    <!-- Bandages screen -->
+    <string name="mi_band_tracker_title">Kroky, vzdálenost, kalorie, cíl, tep</string>
+    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
+    <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
+    <string name="mi_band_battery">Úroveň baterie, čas nabíjení, odhadovaný zbývající čas</string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI, poslední čas připojení a odpojení</string>
+    <string name="mi_band_touch">Dotyk</string>
+    <string name="mi_band_alarm">Další alarm</string>
+    <string name="mi_band_bonded_device_name">Název spárovaného zařízení s náramkem</string>
+    <string name="mi_band_mac_address">MAC adresa</string>
+    <string name="mi_band_firmware">Firmware</string>
+    <string name="mi_band_hardware">Hardware</string>
+
+    <string name="mi_band_mac_address_invalid">MAC adresa je neplatná</string>
+
+    <string name="mi_band_state_title">Nastavení zařízení</string>
+    <string name="mi_band_state_connected">Připojeno</string>
+    <string name="mi_band_state_disconnected">Odpojeno</string>
+    <string name="mi_band_state_bonded">Spárované zařízení</string>
+    <string name="mi_band_state_not_bonded">Není spárováno zařízení</string>
+
+    <string name="mi_band_battery_settings">Nastavení baterie</string>
+    <string name="mi_band_battery_remaining">Odhadovaný zbývající čas baterie, když náramek bude mít</string>
+    <string name="mi_band_battery_notification">Oznámení nízké úrovně baterie</string>
+    <string name="mi_band_battery_notification_level">Nastavení hodnoty nízké úrovně baterie</string>
+    <string name="mi_band_battery_notification_repeat_interval">Interval opakování</string>
+    <string name="mi_band_battery_notification_shade">Upozornění na zařízení</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Trvalé (probihající) upozornění</string>
+    <string name="mi_band_battery_notification_shade_message">Úroveň baterie je nižší než %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Upozornění na náramku</string>
+    <string name="mi_band_battery_notification_mi_band_message">Baterie: %1$,d%%</string>
+
+    <!-- PreferenceScreen -->
+    <string name="pref_connected">Připojení</string>
+    <string name="pref_connected_summary">Nastavení připojení mezi náramkem a zařízením</string>
+
+    <string name="pref_connected_signals">Oznámení při připojení</string>
+    <string name="pref_connected_signals_summary">Náramek se připojuje</string>
+    <string name="pref_cat_connected_signals_mi_band">Oznámení na náramku</string>
+    <string name="pref_connected_mi_band_title">Vibrace</string>
+    <string name="pref_cat_connected_signals">Oznámení na zařízení</string>
+    <string name="pref_connected_wakelock_title">Probuzení obrazovky zařízení</string>
+
+    <string name="pref_connected_settings">Nastavení připojeného náramku</string>
+    <string name="pref_connected_settings_summary">Nastavení při připojení zařízení s náramkem</string>
+    <string name="pref_cat_connected_settings">Nastavení zařízení</string>
+    <string name="pref_connected_volume_title">Změna hlasitosti</string>
+    <string name="pref_connected_volume_ring_title">Hlasitost vyzvánění</string>
+
+    <string name="pref_cat_connected_have_notif">Předdefinované aplikace a znamení náramku</string>
+    <string name="pref_cat_connected_have_notif_default">Předdefinované a vlastní nastavení</string>
+    <string name="pref_connected_have_notif_immediate_title">Okamžité oznámení při přijetí notifikace</string>
+    <string name="pref_connected_have_notif_title">Oznámení při připojení k zařízení</string>
+    <string name="pref_connected_have_notif_reminder_title">Znamení připomenutí</string>
+    <string name="pref_connected_have_notif_screen_off_title">Oznámení pouze tehdy, když je obrazovka vypnutá</string>
+    <string name="pref_connected_have_notif_interval_title">Interval opakování připomenutí</string>
+    <string name="pref_connected_have_notif_counter_title">Počet oznámení</string>
+    <string name="pref_connected_have_notif_wakelock_title">Probuzení obrazovky zařízení</string>
+    <string name="pref_connected_have_notif_ongoing_title">Probíhající (trvalé) oznámení notifikací</string>
+    <string name="pref_connected_have_notif_default_app_title">Znamení nerozpoznalo aplikaci</string>
+    <string name="pref_connected_have_notif_default_app_summary_on">\'aplikace\' ikona (pokud aplikace neexistuje v předdefinované, a ani vlastní skupině oznámení)</string>
+    <string name="pref_connected_have_notif_pre_signal_title">Předpověď oznámení</string>
+    <string name="pref_connected_have_notif_pre_signal_summary_on">Oznámení (klikněte na ikonu pro změnu) před vlastním upozorněním, abyste měli více času na pohled na displej</string>
+
+    <string name="pref_disconnected">Odpojení</string>
+    <string name="pref_disconnected_summary">Nastavení oznámení při odpojení náramku od zařízení</string>
+
+    <string name="pref_disconnected_signals">Oznámení odpojení</string>
+    <string name="pref_disconnected_signals_summary">Oznámení na náramku a na odpojeném zařízení (oznámení se nezobrazuje, pokud je bluetooth vypnut ručně)</string>
+    <string name="pref_cat_disconnected_signals_mi_band">Oznámení na náramku</string>
+    <string name="pref_disconnected_mi_band_title">Zobrazování ikony a vibrace</string>
+    <string name="pref_cat_disconnected_signals">Oznámení na zařízení</string>
+    <string name="pref_disconnected_ringtone_title">Vyzvánění</string>
+    <string name="pref_disconnected_vibration_title">Vibrace</string>
+    <string name="pref_disconnected_wakelock_title">Probudit obrazovku zařízení</string>
+
+    <string name="pref_disconnected_settings">Nastavení odpojení</string>
+    <string name="pref_disconnected_settings_summary">Nastavení při odpojení náramku od zařízení</string>
+    <string name="pref_cat_disconnected_settings">Nastavení zařízení</string>
+    <string name="pref_disconnected_volume_title">Změna hlasitosti</string>
+    <string name="pref_disconnected_volume_ring_title">Hlasitost vyzvánění</string>
+    <string name="pref_disconnected_volume_adapter_title">Pokud je Bluetooth vypnuto</string>
+    <string name="pref_disconnected_volume_adapter_summary_on">Nastaví hlasitost</string>
+    <string name="pref_disconnected_volume_adapter_summary_off">Nenastaví hlasitost</string>
+
+    <string name="pref_cat_abandoned">Oznámení na zařízení</string>
+    <string name="pref_abandoned_notif_interval_title">Interval opakování oznámení</string>
+    <string name="pref_abandoned_notif_text_summary">Upozornění na obrazovce zařízení</string>
+    <string name="pref_abandoned_notif_text_text">Zařízení je ztraceno, prosím zavolejte na následující čísla:</string>
+    <string name="pref_abandoned_ringtone_title">Vyzvánění</string>
+    <string name="pref_abandoned_vibration_title">Vibrace</string>
+    <string name="pref_abandoned_wakelock_title">Probudit obrazovku</string>
+    <string name="pref_abandoned_notif_title">Zařízení je ztraceno</string>
+
+    <string name="pref_call">Hovor</string>
+    <string name="pref_call_summary">Nastavení oznámení na náramku</string>
+    <string name="pref_cat_call">Příchozí hovor</string>
+    <string name="pref_call_title">Oznámení příchozího hovoru</string>
+    <string name="pref_call_summary_on">Zapnuto (nezapomeňte vypnout upozornění na příchozí volání v aplikaci Mi Fit)</string>
+    <string name="pref_call_text_title">Zobrazte ID volajícího</string>
+    <string name="pref_call_text_summary_on"><![CDATA[Zapnuto (více informací: <i>Nastavení/Nastavení textových ikon)</i>]]></string>
+
+    <string name="pref_call_net_text_title">Oznámení příchozího internetového volání zobrazuje ID volajícího</string>
+    <string name="pref_call_net_text_summary_on">WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
+
+    <string name="pref_cat_call_missed">Zmeškaný hovor</string>
+    <string name="pref_call_missed_title">Oznámení zmeškaného hovoru</string>
+
+    <string name="pref_call_missed_net_title">Zmeškané oznámení internetového volání zobrazuje ID volajícího</string>
+    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
+
+    <string name="pref_call_missed_alert_title">Oznámení na náramku</string>
+
+    <string name="pref_call_missed_text_prefix_title">Předpona textu: %1$s</string>
+    <string name="pref_call_missed_text_prefix_summary">Pokud více než jedna aplikace také používá ikonu (pro odlišení oznámení od sebe navzájem)</string>
+    <string name="pref_call_missed_text_prefix_dialog_title">Předpona textu</string>
+
+    <string name="pref_text_conversion">Textové ikony</string>
+    <string name="pref_text_conversion_summary">Nastavení textové ikony na náramku</string>
+    <string name="pref_cat_text_conversion">Oznámení na náramku</string>
+    <string name="pref_text_conversion_title">Převod znaků</string>
+    <string name="pref_text_conversion_summary_on">Převod neznámých znaků (Vypněte, pokud Váš náramek podporuje Váš jazyk nebo pokud máte nainstalovanáno vlastní písmo.)</string>
+    <string name="pref_text_emoticon_title">Převod smajlíků</string>
+    <string name="pref_text_emoticon_summary_on">Převod znaků na emotikony</string>
+    <string name="pref_text_length">Délka textu (Záleží na typu písma (např. čínština nebo cyrilice)</string>
+    <string name="pref_text_length_summary_on">%1$,d znaků</string>
+
+    <string name="pref_text_conversion_description_title">Nápověda</string>
+    <string name="pref_text_conversion_description_summary"><![CDATA[
+        <p> Pokud Váš náramek momentálně zobrazuje jméno příchozího volání správně, nemusíte provádět následující kroky, stačí pouze vypnout <i> Upozornění na příchozí volání </i> na Mi Fit.</p>
+        <p>Pokud nepoužíváte <i> Upozornění na příchozí hovory </i> a jazyk telefonu není angličtina:
+        <br/>1. Nastavte jazyk telefonu na angličtinu.
+        <br/>2. Otevřete aplikaci Mi Fit, počkejte, dokud nebude dokončena aktualizace firmwaru písma. Pokud aktualizace firmwaru nezačne, zkuste restartovat telefon.
+        <br/>3. Otevřete nabídku <i> Profil/Mi Band/Příchozí volání </i>.
+        <br/>4. Zapnout: <i> Zapnout upozornění na příchozí volání </i>.
+        <br/>5. Zapnout: <i>Zobrazit kontaktní informace </i>.
+        <br/>6. Zkontrolujte zda náramek může zobrazit jméno volajícího.
+        <br/>7. Vypnout : <i>Zapněte upozornění na příchozí hovory</i> (<i>Zobrazit kontaktní informace</i> zůstane zapnuté).
+        <br/>8. Nastavte jazyk telefonu zpět do vašeho jazyka.</p>]]>
+    </string>
+
+    <string name="pref_mi_band">Chytrý náramek</string>
+    <string name="pref_cat_mi_band_lift_wrist">Zvedutí zápěstí pro zobrazení informací</string>
+    <string name="pref_mi_band_lift_wrist_title">Zvednutí zápěstí pro zobrazení informací</string>
+    <string name="pref_mi_band_lift_wrist_dnd_title">Režim nerušit</string>
+    <string name="pref_mi_band_lift_wrist_dnd_summary_on">Zapnuto (ve specifikovaném období se informace nezobrazí, pro nastavení je zapotřebí připojení Bluetooth)</string>
+
+    <string name="pref_battery_phone">Baterie zařízení</string>
+    <string name="pref_battery_phone_summary">Oznámení nabité a vybité baterie</string>
+    <string name="pref_cat_battery_phone_low">Nízká úroveň baterie</string>
+    <string name="pref_battery_phone_low_title">Oznámení při nízké úrovni baterie</string>
+    <string name="pref_battery_phone_low_level_title">Úroveň vybité baterie</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Interval opakování oznámení</string>
+    <string name="pref_cat_battery_phone_full">Nabitá baterie</string>
+    <string name="pref_battery_phone_full_title">Oznámení plně nabité baterie</string>
+    <string name="pref_battery_phone_full_plugged_ac">Nabíječka</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB port</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Bezdrátový zdroj napětí</string>
+    <string name="pref_battery_phone_full_repeat_interval_title">Interval opakování oznámení</string>
+
+    <!-- Mi Band 2 max. 18 chars with 100% -->
+    <string name="pref_battery_phone_mi_band_message">Baterie zař.: %1$,d%%</string>
+    <!-- Other Bands-->
+    <string name="pref_battery_phone_message">Baterie zařízení:\n %1$,d%%</string>
+
+    <string name="pref_language">Jazyk</string>
+    <string name="pref_cat_language">Jazyk</string>
+    <string name="pref_language_title">Jazyk</string>
+
+    <!-- Quick switch -->
+    <string name="details">Podrobnosti</string>
+    <string name="bandages">Stav</string>
+    <string name="connected">Známení o připojení a oznámení</string>
+    <string name="disconnected">Oznámení odpojení a agenta</string>
+    <string name="touch">Monitorování doteku</string>
+
+    <string name="pref_dnd_title">Režim nerušit</string>
+    <string name="pref_dnd_summary">Nastavení v režimu nerušit</string>
+    <string name="pref_dnd_auto_title">Režim nerušit automaticky</string>
+    <string name="pref_dnd_auto_summary">Nastavení režimu nerušit v zařízení má větší prioritu, než naplánovaný režim nerušit.</string>
+    <string name="pref_dnd_auto_vibrate">Vibrace (tiché)</string>
+    <string name="pref_dnd_auto_silent">Nerušit</string>
+    <string name="pref_dnd_scheduled_title">Plánovaný režim nerušit</string>
+    <string name="pref_dnd_scheduled_new_title">Název</string>
+    <string name="pref_dnd_remember_state_summary">Na konci režimu nerušit se obnoví všechny stavy, které byly v době startu zapnuty</string>
+    <string name="pref_dnd_remember_state_on_title">Na konci obnovit stavy</string>
+    <string name="pref_dnd_remember_state_off_title">Na konci zapnout všechny stavy</string>
+    <string name="pref_dnd_mi_fit_scheduled">Aktivujte režim DnD Band (deaktivujte hovory, zprávy a zvednutí zápěstí pro zobrazení informací)</string>
+    <string name="pref_dnd_enable_bluetooth">Na začátku režimu DnD vypněte Bluetooth, na konci Bluetooth zapněte</string>
+
+    <!-- Snackbar Messages -->
+    <string name="message_enable_bluetooth">Prosím aktivujte Bluetooth a dejte náramek blíž k telefonu</string>
+    <string name="message_discover_mi_band">Náramek není nastaven, prosím vyhledejte ho</string>
+    <string name="message_discovering_mi_band">Hledání náramku (může trvat pár minut) &#8230;</string>
+    <string name="message_discovered_mi_band">%1$s připojen</string>
+    <string name="message_discovered_no_mi_band">Připojení náramku selhalo</string>
+    <string name="message_discovered_not_found_mi_band">Pokud nebyl náramek nalezen, zapněte: Mi Fit/Play/Objevte nebo spárujte náramek s Bluetooth Vašeho zařízení</string>
+    <string name="message_enable_notification_listener_access">Povolte přístup k oznámení: Nastavení/oznámení/přístup k oznámení</string>
+    <string name="message_enable_notification_listener_access_4_4">Povolte přístup k oznámení: Nastavení/zabezpečení/přístup k oznámení</string>
+    <string name="message_enable_notification_policy_access">Povolit přístup k režimu Nerušit</string>
+    <string name="message_open_settings">Nastavení</string>
+
+    <string name="message_deleted">Vymazat</string>
+    <string name="message_undo">Vrátit</string>
+
+    <string name="message_app_chooser_no_selected">Vyberte aplikaci</string>
+
+    <string name="message_notification_free_groups">V normálním režimu lze použít až %1$,d skupin</string>
+
+    <string name="message_step_goal_free_values">V normálním režimu lze nastavit až 3 hodnoty</string>
+    <string name="message_step_goal_max_values">Maximálně lze nastavit 10 hodnot</string>
+
+    <string name="message_touch_no_patterns">Stiskněte jedno z červených záznamových tlačítek</string>
+    <string name="message_touch_record">Zaznamenejte vzorer pomocí dotykového tlačítka náramku</string>
+    <string name="message_touch_pattern_error">Zadaný vzorec je podobný vzorci jiné funkce, zaznamenejte jinou</string>
+    <string name="message_touch_free_patterns">V normálním režimu lze použít až %1$,d funkce</string>
+    <string name="message_touch_music_player_not_found">Hudební přehrávač nebyl nalezen</string>
+    <string name="message_touch_app_launcher1_not_set">Aplikace není nastavena</string>
+    <string name="message_touch_app_launcher1_not_found">Aplikace nebyla nalezena: %1$s</string>
+    <string name="message_touch_tasker_launcher_not_set">Tasker úkol není nastaven</string>
+
+    <string name="message_notification_group_has_no_entry">Vyberte aplikace pomocí dolního, pravého tlačítka \'+ \' na kartě</string>
+
+    <string name="message_time_alarm_free_counter">V normálním režimu lze použít až 2 budíky</string>
+    <string name="message_time_alarm_max_counter">Maximálně může být použito 5 budíků</string>
+    <string name="message_time_alarm_enabled">Budík povolen</string>
+    <string name="message_time_alarm_disabled">Budík zakázán</string>
+    <string name="message_time_alarm_mi_band_off">Budík vypnut</string>
+
+    <string name="message_alarm_free_interval">Menší opakovací interval lze nastavit pouze v prémiovém režimu</string>
+    <string name="message_alarm_mi_band_set_failed">Nastavení budíku selhalo</string>
+    <string name="message_alarm_mi_band_clear_failed">Odstranění budíku selhalo</string>
+
+    <string name="message_premium_mode_only">Tato funkce je k dispozici pouze v prémiovém režimu</string>
+    <string name="message_general_error">Nastavení se nezdařilo (spojení bylo ztraceno), zkuste to znovu</string>
+    <string name="message_internet_error">Nemáte připojení k internetu</string>
+
+    <string name="message_in_progress">Probíhá…</string>
+    <string name="message_no_data">Žádné údaje nejsou k dispozici</string>
+
+    <string name="message_new_message">Přišla nová zpráva, zobrazte ji na telefonu.</string>
+
+    <!-- Dialog -->
+    <string name="dialog_welcome_title">Vítejte!</string>
+    <string name="dialog_welcome_message"><![CDATA[Podporovaná zařízení:
+    <br>- <b>Xiaomi Mi Band 2</b>
+    <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Cor (MiDong)</b>
+    <br>- <b>Huami Amazfit Arc (A1603)</b>
+    <p>Mi Bandage vyžaduje instalaci oficiální aplikace Mi Fit na stejném zařízení. Nejprve musíte spárovat chytrý náramek v aplikaci Mi Fit, poté můžete použít aplikaci Mi Bandage.</p>
+    <p>Používáte-li více aplikací pro ovládání chytrého náramku/hodinek, mohou se navzájem rušit. Z tohoto důvodu je prosím dočasně vypněte.</p>
+    <p> Pokud není nalezen chytrý náramek, můžete nastavit MAC adresu ručně v nabídce podrobností (MAC adresu naleznete: Mi Fit/Profil/Band).</p>
+    <p><b>Pokud máte problém s připojením, postupujte dle instrukcí uvedených níže:</b>
+    <br>- Obrazovka přehledu aplikací (recent apps screen): Uzavřete aplikaci Mi Bandage (přetáhněte směrem pryč z obrazovky, nebo klikněte na ikonu křížku).
+    <br>- Nastavení/baterie/optimalizace výdrže baterie: zvolte aplikaci Mi Bandage a vyberte neoptimalizovat.
+    <br>- Nastavení/aplikace: vymažte data aplikace "Sdílení Bluetooth" a ostatních "Bluetooth" aplikací.
+    <br>Nastavení/Možnosti vývojáře:
+    <br>- Neukládat aktivity: vypnuto
+    <br>- Omezení procesů na pozadí: Standartní limit
+    <br>- Optimalizace paměti: střední/nízká/vypnuto</p>
+    <p>Pokud se nepodaří najít chytrý náramek nebo máte potíže s synchronizací aplikace Mi Fit, nainstalujte aplikaci BToolkit, nRF Connect nebo podobnou aplikaci správce Bluetooth a odstraňte jakékolib propojené zařízení.</p>
+    <p>Pokud máte problém (objevit chytrý náramek, nemáte oznamovací signál), zkuste prosím následující:
+    <br>1. Pokud jste nainstalovali zařízení Greenify (nebo jinou hibernační aplikaci), vypněte ji.
+    <br>2. Nainstalujte aplikaci Mi Bandage.
+    <br>3. Restartujte telefon.
+    <br>4. Vypněte, zapněte Bluetooth.
+    <br>5. Otevřete aplikaci Mi Fit, počkejte dokud nebude synchronizace ukončena, zavřete ji.
+    <br>6. Otevřete aplikaci Mi Bandage, klikněte na zelené tlačítko pro objevování.</p>]]></string>
+
+    <!-- Diagnostic -->
+    <string name="diagnostic_title">Diagnostika</string>
+
+    <string name="diagnostic_permissions_title">Oprávnění</string>
+
+    <string name="diagnostic_access_title">Přístup</string>
+    <string name="diagnostic_access_do_not_disturb">Přístup k režimu nerušit</string>
+    <string name="diagnostic_access_notification">Povolit přístup k notifikacím</string>
+
+    <string name="diagnostic_protection_title">Ochrana před odpojením</string>
+    <string name="diagnostic_protection_battery">Optimalizace baterie je vypnutá</string>
+    <string name="diagnostic_protection_service">Zobrazit stav v notifikačním odstínu</string>
+    <string name="diagnostic_protection_lock">Vymažte obrazovku nedávných aplikací</string>
+
+    <!-- Notification  -->
+    <string name="notification_tab_custom">Vlastní oznámení</string>
+    <string name="notification_tab_settings">Nastavení</string>
+
+    <!-- Notification Dialog -->
+    <string name="notification_group_name">Jméno</string>
+    <string name="notification_group_monitoring">Zobrazování oznámení</string>
+    <string name="notification_group_monitoring_disabled">Zakázat oznámení (nezobrazovat oznámení aplikací)</string>
+    <string name="notification_group_alert_title">Oznámení na náramku</string>
+    <string name="notification_group_text">Text obrazovky</string>
+    <string name="notification_group_text_title">Název</string>
+    <string name="notification_group_text_content">Obsah</string>
+    <string name="notification_group_vibration_title">Vlastní vibrace</string>
+    <string name="notification_group_pre_signal_title">Výchozí předpověď oznámení</string>
+    <string name="notification_group_pre_vibration_title">Před vibrace</string>
+    <string name="notification_group_pre_alert_title">Před ikona</string>
+    <string name="notification_group_prefix">Předpona textu</string>
+    <string name="notification_group_pre_only_premium">Pouze v prémiovém režimu</string>
+    <string name="notification_group_immediate">Okamžité oznámení při přijetí notifikace</string>
+    <string name="notification_group_connecting">Při připojení k zařízení</string>
+    <string name="notification_group_reminder">Připomenutí oznámení</string>
+    <string name="notification_group_screen_off">Oznámení pouze tehdy, když je obrazovka vypnutá</string>
+    <string name="notification_group_counter_title">Počet oznámení</string>
+    <string name="notification_group_wakelock">Probudit obrazovku zařízení</string>
+    <string name="notification_group_filter">Filtrování oznámení</string>
+    <string name="notification_group_filter_title">Název filtru</string>
+    <string name="notification_group_filter_content">Obsah filtru</string>
+    <string name="notification_group_filter_hint">Oznámení pouze v případě, že název nebo obsah oznámení(oddělovač: enter, malá a velká písmena)</string>
+    <string name="notification_group_filter_contains">Obsahuje fráze</string>
+    <string name="notification_group_filter_not_contains">Neobsahuje fráze</string>
+
+    <string name="notification_group_sample_sms">Zobrazení SMS textu</string>
+    <string name="notification_group_sample_facebook">Zobrazení textu Messengru</string>
+    <string name="notification_group_sample_whatsapp">Zobrazení WhatsApp textu</string>
+
+    <string name="notification_edit_play_text_title">Název oznámení</string>
+    <string name="notification_edit_play_text_content">Obsah oznámení:
+    Lorem ipsum (zkráceně lipsum) je označení pro standardní pseudolatinský text užívaný v grafickém designu a navrhování jako demonstrativní výplňový text při vytváření pracovních ukázek grafických návrhů (např. fontů nebo rozvržení časopisů či HTML stránek).
+        \nLipsum tak pracovně znázorňuje text v ukázkových maketách (tzv. mock-up) předtím, než bude do hotového návrhu vložen smysluplný obsah.
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> ikona: Tuto ikonu vyberte, abyste zobrazili název oznámení/obsah.]]></string>
+
+    <!-- Notification info dialog -->
+    <string name="info_dialog_notification"><![CDATA[Předdefinované aplikace a ikony oznámení na náramku:
+        <br><img src="ALERT_MESSAGE_TEXT">  Zmeškaný hovor
+        <br><img src="ALERT_MESSAGE">  SMS
+        <br><img src="ALERT_EMAIL">  Email, Gmail
+        <br><img src="ALERT_CALENDAR">  Google Kalendář
+        <br><img src="ALERT_HANGOUTS">  Hangouts
+        <br><img src="ALERT_MESSENGER">  Messenger
+        <br><img src="ALERT_SKYPE">  Skype
+        <br><img src="ALERT_VIBER">  Viber
+        <br><img src="ALERT_WHATSAPP">  WhatsApp
+        <br><img src="ALERT_LINE">  Line
+        <br><img src="ALERT_WECHAT">  WeChat
+        <br><img src="ALERT_TELEGRAM">  Telegram
+        <br><img src="ALERT_KAKAOTALK">  KakaoTalk
+        <br><img src="ALERT_VK">  VK
+        <br><img src="ALERT_YOUTUBE">  Youtube
+        <br><img src="ALERT_FACEBOOK">  Facebook
+        <br><img src="ALERT_TWITTER">  Twitter
+        <br><img src="ALERT_SNAPCHAT">  Snapchat
+        <br><img src="ALERT_INSTAGRAM">  Instagram
+        <br><img src="ALERT_POKEMONGO">  Pokémon GO
+        <br><img src="ALERT_MOMO">  Momo
+        <br><img src="ALERT_QIANNIU">  Qianniu
+        <br><img src="ALERT_QQ">  QQ
+        <br><img src="ALERT_WEIBO">  Weibo
+        <br><img src="ALERT_ALIPAY">  AliPay
+        <br><img src="ALERT_QZONE">  QZone
+        <br><img src="ALERT_DINGTALK">  DingTalk
+        <br><img src="ALERT_APP">  ostatní
+
+        <p>Předdefinové aplikace budou zobrazovat pouze ikony, nikoliv zprávu.</p>
+        <p>V aplikaci Mi Fit musíte zakázat oznámení aplikací</p>
+        <p>Skupina oznámení vytvářená uživatelem má vyšší prioritu než předdefinovaná.</p>
+        <mi_band_2><p><img src="ALERT_MESSAGE_TEXT"> ikona: Tuto ikonu vyberte, abyste zobrazili název oznámení/obsah.</p></mi_band_2>
+        <mi_band_hrx><p><img src="ALERT_MESSAGE_TEXT"> ikona: Tuto ikonu vyberte, abyste zobrazili název oznámení/obsah.</p></mi_band_hrx>
+        <p>Pokud používáte předdefinované aplikace, ale chcete některé oznámení zakázat, vytvořte novou skupinu oznámení s nastavením <i> deaktivovat oznámení </i> a přidejte aplikace.</p>
+        ]]>
+    </string>
+        <!--<p>Předdefinované oznámení může být vypnuto: <i>Nastavení připojení a oznámení / oznámení</i>.</p>-->
+
+    <!-- MiBandageApp chooser dialog -->
+    <string name="action_search">Vyhledávání</string>
+    <string name="action_filter_notification">Filtr oznámení</string>
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_control">Ovládání</string>
+    <string name="touch_tab_testing">Testování</string>
+    <string name="touch_tab_settings">Nastavení</string>
+
+    <string name="touch_headline_call_title">Ovládání hovorů</string>
+    <string name="touch_headline_music_title">Ovládání hudby</string>
+    <string name="touch_headline_time_title">Ovládání časovače/stopek</string>
+    <string name="touch_headline_other_title">Další ovládací prvky</string>
+
+    <string name="touch_device_location_title">Najit zařízení</string>
+
+    <string name="touch_call_answer_title">Zpětné volání</string>
+    <string name="touch_call_answer_speakerphone_title">Hlasité volání</string>
+
+    <string name="touch_call_end_title">Odmítnutí hovoru, ukončení</string>
+
+    <string name="touch_call_mute_title">Přepínač ztlumení hovoru</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Pouze pokud máte příchozí hovor</string>
+    <string name="touch_call_mute_recognition_title">Při příchozím hovoru</string>
+
+    <string name="touch_call_out_title">Zavolat</string>
+    <string name="touch_call_out_no_contact">Zvolit kontakt</string>
+    <string name="touch_call_out_summary">Dvojklik pro přijmutí hovoru</string>
+    <string name="touch_call_out_summary_support_call_display_button">Zmáčknout tlačítko pro přijmutí hovoru</string>
+    <string name="touch_call_out_speakerphone_title">Hlasité volání</string>
+    <string name="touch_call_out_call_text">Zavolat: %1$s</string>
+
+    <string name="touch_device_location_not_muted_only_title">Zvuk pouze v případě, pokud není ztlumený nebo v režimu DnD</string>
+
+    <string name="touch_repeat_notif_title">Opakovat oznámení</string>
+    <string name="touch_repeat_notif_clear_all">Vymazat všechny notifikace po opakování</string>
+
+    <string name="touch_clear_notif_title">Vymazat notofikace z telefonu</string>
+
+    <string name="touch_music_play_pause_title">Zapnutí hudby, přehrát, pauza</string>
+    <string name="touch_music_skip_previous_title">Zapnutí hudby, předchozí skladba</string>
+    <string name="touch_music_skip_next_title">Zapnutí hudby, další skladba</string>
+    <string name="touch_music_headset_only_title">Pouze pokud sluchátka jsou připojené</string>
+    <string name="touch_music_launch">Zapnutí hudby</string>
+    <string name="touch_music_volume_up_title">Zvýšit hlasitost hudby</string>
+    <string name="touch_music_volume_down_title">Snížit hlasitost hudby</string>
+    <string name="touch_music_track_info_title">Zobrazit informace o hudební skladbě.</string>
+
+    <string name="touch_time_launch_title">Monitorování počátečního času</string>
+    <string name="touch_time_launch_type_timer_title">Časovač</string>
+    <string name="touch_time_launch_type_stopper_title">Stopky</string>
+    <string name="touch_time_launch_type_interval_title">Interval</string>
+    <string name="touch_time_launch_restart">Restartovat (pokud běží)</string>
+    <string name="touch_time_reminder_title">Zobrazit zbývající/uplynulý čas</string>
+
+    <string name="touch_camera_title">Udělat foto</string>
+    <string name="touch_camera_front_title">Přední</string>
+    <string name="touch_camera_rear_title">Zadní</string>
+    <string name="touch_camera_install_title">Instalovat</string>
+
+    <string name="touch_app_launcher1_title">Spouštěč aplikací</string>
+    <string name="touch_app_launcher_package_no_title">Vyberte aplikaci</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Pouze pokud obrazovka není uzamčena</string>
+
+    <string name="touch_tasker_launcher1_title">1. Spouštěč úkolů Tasker</string>
+    <string name="touch_tasker_launcher2_title">2. Spouštěč úkolů Tasker</string>
+    <string name="touch_tasker_launcher_no_permission_title">Nejprve musíte nainstalovat Tasker, poté Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">Povolit externí přístup</string>
+    <string name="touch_tasker_launcher_no_task_title">Zvolit úkol</string>
+
+    <string name="touch_testing_title">Záznam dotyku</string>
+    <string name="touch_testing_second">sek.</string>
+
+    <string name="touch_setting_recognition_start_title">Spusťte rozpoznání dotyku</string>
+    <string name="touch_setting_recognition_start_trigger_title">Spoušť</string>
+    <string name="touch_setting_recognition_time_title">Doba rozpoznávání</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">Oznámení na náramku</string>
+    <string name="touch_setting_recognition_succeeded_title">Rozpoznatelný dotyk</string>
+    <string name="touch_setting_recognition_failed_title">Nerozpoznatelný dotyk</string>
+
+    <!-- Touch monitoring info dialog -->
+    <string name="info_dialog_touch"><![CDATA[Dotyk je platný, když se změní displej náramku (doporučujeme proto otočit zápěstí před dotykem).
+        <p>Monitoruje uplynulý čas mezi dotyky, nikoliv uplynulý čas za první dotyk.</p>
+        <p>Zelené ikony na kartách označují, která další funkce může být podobná aktuálnímu vzoru.</p>
+        <p>Pokud máte příchozí hovor, zařízení nerozpoznává následující funkce, které usnadňují dotykový vstup: umístění zařízení, opakování upozornění, ovládání hudby.</p>
+        <p>V testovacím režimu neobsahuje funkci rozpoznaného vzoru.</p>
+        <p>Náramek podá zpětné vibrační hlášení pouze v případě, že existuje vzorec s přihlédnutím k aktuálnímu stavu zařízení (odpověď na volání, odmítnutí pouze v případě příchozího hovoru …).</p>
+        <p>Náramek vibruje jednou, když rozpozná vzor.</p>
+        <p>Náramek vibruje dvakrát, když nerozpozná nějaký vzor po nejdelším vzoru (pokud <i> nerozpozná známení dotyku vzoru</i> je nastaven).</p>
+        <p>Platné příklady dotyku:
+        <br>- dotek
+        <br>- dotek a 1sek čekání, dotek
+        <br>- dotek a 1sek čekání, dotek and 1sek čekání, dotek
+        <br>- dotek a 2sek čekání, dotek
+        <br>- dotek a 2sek čekání, dotek and 1sek čekání, dotek
+        <br>- dotek a 2sek čekání, dotek and 2sek čekání, dotek
+        </p>
+    ]]></string>
+
+    <!-- Step monitoring -->
+    <string name="action_tracker_step">Kroky</string>
+    <string name="action_tracker_distance">Vzdálenost</string>
+    <string name="action_tracker_calorie">Kalorie</string>
+    <string name="action_chart_filter_activity_no">Žádný filtr</string>
+    <string name="action_chart_filter_activity_active">Filtr pohybu</string>
+
+    <string name="step_tab_day">Denní grafy</string>
+    <string name="step_tab_week">Týdenní grafy</string>
+    <string name="step_tab_month">Měsíční grafy</string>
+    <string name="step_tab_goal">Cíle aktivity</string>
+    <string name="step_tab_settings">Nastavení</string>
+
+    <string name="activity_progress_title_prepare">Příprava na synchronizaci…</string>
+    <string name="activity_progress_title_sync">Synchronizace dat %1$,d%%</string>
+    <string name="activity_progress_title_save">Ukládání dat %1$,d%%</string>
+
+    <string name="step_title_timing">Měření času</string>
+    <string name="step_interval_title">Opakujte interval monitorování kroků</string>
+    <string name="step_time_set_next">Načasování dalšího monitorování</string>
+
+    <string name="step_goal_default_title">Výchozí cíl</string>
+    <string name="step_goal_type_title">Další cíle</string>
+    <string name="step_details">Podrobnosti aktivit</string>
+
+    <string name="info_dialog_step"><![CDATA[
+        <img src="ic_activity_active"> kroky během dne/vzdálenost/kalorie celkem
+        <br><br><img src="ic_timelapse"> aktivní čas
+        <br><br><img src="ic_activity_get_up"> vstávání z postele
+        <br><br><img src="ic_activity_awake"> čas bdělosti
+        <br><br><img src="ic_activity_rest_sofa"> odpočinek/sedění během bdění
+        <br><br><img src="ic_activity_go_to_bed"> čas spaní
+        <br><br><img src="ic_battery_charging_full"> Baterie se nabíjí
+        <br><br><img src="ic_activity_block"> bez nošení
+        ]]>
+    </string>
+
+    <!-- Sleep monitoring -->
+    <string name="sleep_tab_day">Denní grafy</string>
+    <string name="sleep_tab_week">Týdenní grafy</string>
+    <string name="sleep_tab_month">Měsíční grafy</string>
+    <string name="sleep_tab_settings">Nastavení</string>
+
+    <string name="action_chart_sleep_type_phase">Fáze</string>
+    <string name="action_chart_sleep_type_time">Čas</string>
+
+    <string name="sleep_details">Podrobnosti o spánku</string>
+    <string name="sleep_assistant">Asistent srdečního tepu ve spánku</string>
+    <string name="sleep_assistant_summary">Pomáhá získávat přesnější údaje o spánku (snižuje životnost baterie)</string>
+    <string name="sleep_assistant_show_pulse">Zobrazte naměřené hodnoty tepu na grafu denního tepu</string>
+
+    <string name="info_dialog_sleep"><![CDATA[
+        <img src="ic_timelapse"> spánek
+        <br><br><img src="ic_activity_sleep_deep"> hluboký spánek
+        <br><br><img src="ic_activity_go_to_bed"> čas spánku / čas probuzení
+        <br><br><img src="ic_activity_sleep_start"> začátek spánku / lehký spánek
+        <br><br><img src="ic_activity_sleep_time"> celkový čas
+        <br><br><img src="ic_activity_sleep_end"> čas ukončení spánku
+        <br><br><img src="ic_activity_get_up"> vstávání z postele
+        <br><br><img src="ic_activity_active"> aktivní čas
+        <br><br><img src="ic_activity_block"> bez nošení
+        ]]>
+    </string>
+
+    <!-- Pulse  monitoring -->
+    <string name="action_pulse_current">Aktuální tep</string>
+
+    <string name="pulse_tab_day">Denní grafy</string>
+    <string name="pulse_tab_week">Týdenní grafy</string>
+    <string name="pulse_tab_month">Měsíční grafy</string>
+    <string name="pulse_tab_settings_online">Nastavení online</string>
+    <string name="pulse_tab_settings_offline">Nastavení offline</string>
+    <string name="pulse_tab_settings_continuous">Nastavení nepřetržitého měření</string>
+
+    <string name="pulse_online_title">Online měření tepu</string>
+    <string name="pulse_offline_title">Offline měření tepu</string>
+    <string name="pulse_continuous_title">Nepřetržité měření tepu</string>
+
+    <string name="action_chart_pulse_type_pulse">Tep</string>
+    <string name="action_chart_pulse_type_pulse_and_step">Tep a aktivita</string>
+
+    <string name="pulse_notification_shade">Graf na notifikační liště</string>
+    <string name="pulse_title_signals">Oznámení tepu</string>
+    <string name="pulse_signal_start_title">Znamení spouštění monitorování</string>
+    <string name="pulse_signal_show_title">Zobrazit tep</string>
+    <string name="pulse_signal_end_low_title">Znamení nízkého tepu</string>
+    <string name="pulse_signal_end_title">Znamení vysokého tepu</string>
+
+    <string name="pulse_title_timing_validity">Časování a platnost</string>
+    <string name="pulse_interval_title">Opakování intervalu monitorování tepu</string>
+    <string name="pulse_time_set_next">Načasování dalšího monitorování</string>
+    <string name="pulse_value_min">Platná nižší hodnota</string>
+    <string name="pulse_value_max">Platná vyšší hodnota</string>
+    <string name="pulse_value_invalid">Neplatná hodnota</string>
+
+    <string name="pulse_offline_timed_title">Časované měření</string>
+
+    <string name="pulse_continuous_autostart">Automatické zapnutí při spuštění Mi Fit aktivity</string>
+
+    <string name="pulse_all_day">Celý den</string>
+
+    <string name="message_pulse_premium_mode_only">Online a offline měření tepu lze použít pouze v prémiovém režimu</string>
+
+    <string name="pulse_details">Podrobnosti tepu</string>
+
+    <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Online měření tepu</u></b>
+        <p>Bluetooth připojení je zapotřebí pro sledování tepu.</p>
+        <p>Měření tepu se opakuje několikrát, pokud je výsledná hodnota neplatná.<p>
+        <img src="ic_pulse_offline"> <b><u>Offline měření tepu</u></b>
+        <p>Pro měření tepů není zapotřebí žádné připojení Bluetooth.</p>
+        <p>Pro časované spuštění a zastavení je zapotřebí spojení Bluetooth.</p>
+        <p>Ručně spuštěné měření (Náramek, Mi Fit aplikace) jsou také synchronizovány.<p/>
+        ]]>
+    </string>
+
+    <!-- Lost monitoring -->
+    <string name="alarm_mi_band_title">Oznámení na náramku</string>
+    <string name="alarm_mi_band_dnd">Režim nerušit</string>
+    <string name="alarm_mi_band_interval_title">Opakovat interval nastavení budíku</string>
+    <string name="alarm_mi_band_time_set_next">Načasování dalšího nastavení</string>
+    <string name="alarm_mi_band_time">Načasování dalšího budíku</string>
+
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Monitorování ztráty náramku je povoleno.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_info">Čas budíku: %1$s</string>
+
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>Oznámení na náramku</u></b>
+        <p>Po uplynutí stanovené doby náramek odešle oznámení, jestli není připojený k zařízení</p>
+        <p>Aplikace používá alarmovou funkci aplikace Mi Fit k výstraze (přepsání 10. nastavení)</p>
+        <p>Budík se opakuje několikrát, pokud náramek nezaznamená žádný pohyb (protože používá budík náramku)</p>
+        <p>Před vypnutím Bluetooth nebo odstraněním aplikace musíte deaktivovat oznámení náramku</p>
+        <p>Pokud odstraníte aplikaci, když je budík zapnutý, můžete ho vypnout opětovným zapnutím a vypnutím Mi Fit 10. nastavení budiku.</p>
+
+        <img src="ic_phone_android"> <b><u>Oznámení na zařízení</u></b>
+        <p>Po uplynutí stanovené doby, zařízení odesílá opakovaně oznámení, pokud není připojeno k náramku.<p>
+        <p>To usnadňuje hledání zařízení. Pokud někdo jiný najde zařízení a je zablokováno a neví komu to má oznámit. Můžete si zobrazit zprávu.</p>
+        <p>Když se náramek připojí, alarm se zastaví</p>
+        <p>Musí být povoleno zobrazení upozornění na uzamčené obrazovce.</p>]]>
+    </string>
+
+    <!-- Time  monitoring -->
+    <string name="time_tab_alarm">Budík</string>
+    <string name="time_tab_timer">Časovač</string>
+    <string name="time_tab_stopper">Stopky</string>
+    <string name="time_tab_lap">Čas kola</string>
+    <string name="time_tab_interval">Interval</string>
+
+    <string name="action_alarm_device">Budík telefonu</string>
+    <string name="time_alarm_mi_band_signal">Oznámení při zaznění budíku v telefonu</string>
+    <string name="time_alarm_mi_band_signal_alarm_off">Vypnutí budíku druhým stisknutím</string>
+    <string name="time_alarm_title">Název</string>
+    <string name="time_alarm_pre_alarm">Připomenutí, zbývající čas</string>
+    <string name="time_alarm_pre_alarm_interval_title">Před časem</string>
+    <string name="time_alarm_pre_alarm_type_vibrate_title">Vibrace</string>
+    <string name="time_alarm_pre_alarm_type_remaining_title">Zbývající čas</string>
+
+    <string name="time_timer_time_alert">Čas budíku</string>
+    <string name="time_timer_time_remaining">Zbývající čas</string>
+
+    <string name="time_timer_reminder">Připomenutí, zbývající čas</string>
+    <string name="time_timer_reminder_interval_before_title">Před časem</string>
+    <string name="time_timer_reminder_interval_repeat_title">Interval opakování připomenutí</string>
+
+    <string name="time_stopper_time_alert">Čas budíku</string>
+    <string name="time_stopper_time_elapsed">Uplynulý čas</string>
+
+    <string name="time_stopper_reminder">Připomenutí, uplynulý čas</string>
+    <string name="time_stopper_reminder_interval_before_title">Před časem</string>
+    <string name="time_stopper_reminder_interval_repeat_title">Interval opakování připomenutí</string>
+
+    <string name="time_stopper_touch">Čas kola, monitorování dotekem</string>
+    <string name="time_stopper_touch_record">Zaznamenávání času kola stisknutím tlačítka</string>
+    <string name="time_stopper_touch_show">Zobrazení času kola stisknutím tlačítka</string>
+    <string name="time_stopper_touch_time_format">Formát času</string>
+    <string name="time_stopper_touch_time_format_minute">hodin \u2032 min \u2033</string>
+    <string name="time_stopper_touch_time_format_second">min \u2032 sekund \u2033</string>
+
+    <string name="time_lap_details">Podrobnosti času kola</string>
+
+    <string name="time_mode_timer_title">Načasování</string>
+    <string name="time_mode_time_title">Čas</string>
+
+    <string name="time_alert">Typ alarmu</string>
+    <string name="time_alert_bell_title">Zvonek</string>
+    <string name="time_alert_alarm_title">Alarm</string>
+
+    <string name="time_interval_time_total">Celkový čas</string>
+    <string name="time_interval_counter">Počet opakování</string>
+    <string name="time_interval_time_alert">Čas ukončení</string>
+    <string name="time_interval_time_current">Opakování, interval uplynulého času</string>
+    <string name="time_interval_title">Název</string>
+    <string name="time_interval_time">Časový interval</string>
+
+    <string name="time_text">Zobrazit zprávu budíku</string>
+    <string name="time_text_message">Text</string>
+
+    <string name="time_enable_bluetooth">Zapnout Bluetooth</string>
+
+    <string name="info_dialog_time"><![CDATA[
+        <p><b>Před odstraněním aplikace vypněte budík, časovač a stopky</b></p>
+        <img src="ic_device_alarm"> <b><u>Oznámení při zaznění budíku v telefonu</u></b>
+        <p>Nejsou podporovány všechny telefony. Pokud Váš vestavěný budík v telefonu nefunguje, stáhněte Google Clock z Google Play.</p>
+        <img src="ic_miband_bell"> <b><u>Zvonění</u></b>
+        <p>Pro alarm je vyžadováno připojení Bluetooth, upozorňuje jen jednou za 10 sekund.</p>
+        <img src="ic_alarm"> <b><u>Budík</u></b>
+        <p>Připojení Bluetooth se nevyžaduje pro budík. Aplikace používá k upozornění funkci budíku Mi Fit (přepíše nastavení 4. - 9.).
+        <br>Budík se opakuje několikrát, dokud náramek nezaznamená pohyb (protože používá budík náramku).
+        <br>Minutová přesnost, náramek nezpracovává sekundy pro budík.</p>
+        <p>Připomenutí a zobrazení zprávy vyžadují připojení Bluetooth.</p>
+    ]]></string>
+
+    <!-- Watch face -->
+    <string name="watch_face_default_title">Změna ciferníku</string>
+
+    <string name="watch_face_init_title">Inicializace</string>
+    <string name="watch_face_init_content"><![CDATA[V aplikaci Mi Fit nastavte jeden ze stylu ciferníku.
+    <br> Při nahrávání musíte vybrat stejný ciferník.
+    <br><i>(inicializace je požadována pouze jednou)</i>
+    ]]></string>
+
+    <string name="watch_face_download_title">Stáhnout</string>
+    <string name="watch_face_download_path">Uložený soubor ciferníku zde:</string>
+    <string name="watch_face_download_name">Název souboru</string>
+    <string name="watch_face_download_move">Přesunout stáhnutý styl ciferníku přímo z %1$s </string>
+
+    <string name="watch_face_upload_title">Nahrát</string>
+    <string name="watch_face_upload_empty_title"><![CDATA[Styl ciferníku nebyl nalezen
+        <br><i>(%1$s)</i>
+    ]]></string>
+    <string name="message_watch_face_upload_error">Je zapotřebí inicializace</string>
+
+    <string name="info_dialog_watch_face"><![CDATA[<b><u>Proces změny stylu ciferníku:</u></b>
+        <br><br><img src="ic_mi_fit_init"> <b>1. Inicializace</b>
+        <p>Resetujte styl ciferníku na originální ciferník v aplikaci Mi Fit, nahrejte původní ciferník.
+
+        <br><br><b>2. Stáhnutí</b>
+        <p>Stáhněte styly ciferníku z webových stránek.
+
+        <br><br><img src="ic_content_duplicate"> <b>3. Přesunutí souborů</b>
+        <p>Je-li to nutné, přesuňte stažené soubory do adresáře Mi Bandage.
+
+        <br><br><img src="ic_mi_fit_upload"> <b>4. Nahrání</b>
+        <p>Nahrejte zvolený styl ciferníku do aplikace Mi Fit. Soubory nahradí poslední nahraný styl ciferníku.
+
+        <br><br><br><b><u>Náhrání více stylů ciferníků</u></b>
+        <p><img src="ic_action_launch_mi_fit"> Zapnutí aplikace Mi Fit - bez nahrazení stylu ciferníku. Nahrejte druhý původní styl ciferníku.
+        <p><img src="ic_mi_fit_upload">  Nahrejte zvolený styl ciferníku do aplikace Mi Fit.
+        <p>Opakujte tyto kroky.
+
+        <br><br>V aplikaci Mi Fit se styly ciferníku nezmění.
+        ]]>
+    </string>
+
+    <!-- Agent -->
+    <string name="agent_title">Agent pro sledování zařízení</string>
+    <string name="agent_tab_events">Záznam agenta</string>
+    <string name="agent_tab_settings">Nastavení</string>
+
+    <string name="pref_disconnected_agent_summary_on">Pokud někdo manipulujoval se zařízením, když jste byl pryč, dozvíte se to</string>
+    <string name="pref_disconnected_agent_text">Někdo s tímto zařízením manipuloval, zatímco jste byl pryč</string>
+    <string name="pref_disconnected_agent_user_present_title">Probuzení obrazovky zařízení</string>
+    <string name="pref_disconnected_agent_screen_on_and_motion_title">Zapnutí a sledování pohybu</string>
+
+    <!-- Agent log info dialog -->
+    <string name="info_dialog_disconnected_agent"><![CDATA[Události detekované agentem správy zařízení:
+        <br>- zapnutí
+        <br>- odemknutí obrazovky
+        <br>- detekce pohybu
+
+        <p>Pokud někdo pracuje se zařízením, když jste pryč, zanamenají se výše uvedené aktivity.</p>
+        <p>Po opětovném připojení obdržíte upozornění, že došlo k manipulaci se zařízením.</p>]]>
+    </string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Styly</string>
+    <string name="theme_tab_widget">Widgety</string>
+    <string name="theme_tab_notification">Notifikační lišta</string>
+
+    <string name="theme_title">Vyberte styl</string>
+    <string name="theme_background_color_title">Barva pozadí</string>
+
+    <string name="theme_widget_foreground_title">Popředí</string>
+    <string name="theme_widget_foreground_color_title">Ikona a barva textu</string>
+    <string name="theme_widget_background_title">Pozadí</string>
+    <string name="theme_widget_background_color_title">Barva</string>
+    <string name="theme_widget_background_shape_title">Tvar</string>
+    <string name="theme_widget_background_transparency_title">Průhlednost</string>
+
+    <string name="theme_widget_touch_event_title">Akce při doteku</string>
+
+    <string name="theme_notification_title">Zobrazit stav v notifikační liště</string>
+    <string name="theme_notification_summary">Systém android zastavuje službu pouze v případě nízké paměti. Pokud se po uplynutí určité doby nezobrazí oznámení na náramku, můžete tomu předejít.</string>
+    <string name="theme_notification_color_title">Barva ikony</string>
+    <string name="theme_notification_text_color_title">Barva textu</string>
+
+    <!-- Backup and restore -->
+    <string name="backup_tab_backup">Zálohování dat</string>
+    <string name="backup_tab_restore">Obnovení dat</string>
+
+    <string name="backup_time">Čas zálohy</string>
+    <string name="backup_path">Umístění zálohy</string>
+    <string name="backup_auto">Automatické zálohování</string>
+    <string name="backup_auto_time">Čas</string>
+
+    <string name="backup_process">Příprava…</string>
+    <string name="backup_process_activity">Aktivita a spánek %1$,d%%</string>
+    <string name="backup_process_pulse">Tep %1$,d%%</string>
+    <string name="backup_process_notification">Oznámení %1$,d%%</string>
+    <string name="backup_process_touch">Dotek %1$,d%%</string>
+    <string name="backup_process_time">Čas %1$,d%%</string>
+    <string name="backup_process_alarm">Najdi náramek %1$,d%%</string>
+    <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
+    <string name="backup_process_settings">Nastavení %1$,d%%</string>
+
+    <string name="backup_restore_activity">Aktivita a spánek</string>
+    <string name="backup_restore_pulse">Tep</string>
+    <string name="backup_restore_notification">Oznámení</string>
+    <string name="backup_restore_touch">Dotek</string>
+    <string name="backup_restore_time">Čas</string>
+    <string name="backup_restore_alarm">Najdi náramek</string>
+    <string name="backup_restore_disconnected_agent">Agent</string>
+    <string name="backup_restore_settings">Nastavení</string>
+
+    <string name="backup_restore_reset">Po obnovení se vypne a zapne Bluetooth, a aplikace se restartuje.</string>
+
+    <!-- Rewarded mode -->
+    <string name="rewarded_policy_title">Pravidla a podmínky režimu odměn</string>
+    <string name="rewarded_policy"><![CDATA[
+        <p>- začátek platnosti: aktuální čas
+        <br>- konec platnosti: začátek platnosti + alespoň %1$,d dny (v závislosti na reklamě)
+        <br>- manipulace s časem může způsobit ukončení platnosti</p>
+        <i>Po přehrání videa musíte aplikaci restartovat.</i>
+    ]]></string>
+
+    <string name="rewarded_advantage_banner_title">Blokování bannerových reklam</string>
+    <string name="rewarded_advantage_interstitial_title">Blokovat intersticiální reklamy</string>
+
+    <string name="rewarded_advantage_time_range">Platnost</string>
+    <string name="rewarded_advantage_button_play">Přehrát video</string>
+
+    <string name="message_rewarded_error">Nezdařilo se načtení videa</string>
+
+    <!-- Premium mode -->
+    <string name="purchase_advantage_title">Výhody prémiového režimu</string>
+    <string name="purchase_advantage"><![CDATA[
+        - bez reklam
+        <br>- režim nerušit
+        <br>- neomezené monitorování oznámení
+        <br>- neomezené monitorování doteků
+        <br>- předpona textu, ikony a filtrování textu může být použito v zobrazení notifikací
+        <br>- interval opakování může být volně nastaven ve funkci monitorování kroku
+        <br>- interval opakování může být volně nastaven ve funkci monitorování tepu
+        <br>- interval opakování může být volně nastaven a režim DnD lze použít ve funkci ztraceného monitorování náramku
+        <br>- opakované připomenutí, zobrazení zprávy a zapnutí bluetooth lze nastavit volně
+        <br>- …
+    ]]></string>
+    <string name="purchase_policy_title">Smluvní podmínky prémiového režimu</string>
+    <string name="purchase_policy"><![CDATA[
+        <p>- Zkoušel jsem aplikaci a pracuje správně.
+        <br>- Jsem si vědom, že nemohu požadovat náhradu nebo vrácení peněz kvůli chybám, softwarovým chybám způsobeným změnami softwaru, hardwarovým prostředím nebo použitím jiných aplikací.
+        <br>- Všechny tržby jsou konečné a nelze je vrátit (s výjimkou zásad pro vrácení peněz Google).
+        <br>- Neexistuje žádná záruka.</p>
+        <p><i>Po zakoupení musíte restartovat aplikaci.</i></p>
+    ]]></string>
+
+    <!--<string name="purchase_price">Cena:</string>-->
+    <string name="purchase_agree">Souhlasím s podmínkami.</string>
+    <string name="purchase_order_id">číslo objednávky</string>
+    <string name="purchase_order_id_help">Kopírovat z:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_button_purchase">Koupit</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">Log</string>
+
+    <string name="feedback_google_play_title">Ohodnoťte tuto aplikaci</string>
+    <string name="feedback_request_feature_title">Požadavek na funkci, hlášení o chybě</string>
+    <string name="feedback_request_feature_summary">Automatické zpracování e-mailu, nemusíte dostat odpověď</string>
+
+    <!-- Vibration dialog -->
+    <string name="vibration_title">Nastavení vibraci</string>
+    <string name="vibration_intensity">Doba trvání</string>
+    <string name="vibration_pause">Pauza</string>
+    <string name="vibration_times">Doba</string>
+
+    <!-- Hack -->
+    <string name="info_dialog_hack"><![CDATA[Hacknutí detekováno.
+        <p>Při instalaci hacknuté aplikace není prémiový režim dostupný.</p>
+        <p>Strávil jsem spoustu času při vývoji aplikace, nepoužívejte prosím hacknuté aplikace.</p>]]>
+    </string>
+
+    <!-- Others -->
+    <string name="on">Zapnuto</string>
+    <string name="off">Vypnuto</string>
+    <string name="none">Žádný</string>
+    <string name="bpm">BPM</string>
+    <string name="time_start">Čas zahájení</string>
+    <string name="time_end">Čas ukončení</string>
+    <string name="ringer_mode_mute">Ztlumit</string>
+    <string name="ringer_mode_silent">Nerušit</string>
+
+    <string name="action_dismiss">Odmítnout</string>
+    <string name="action_setting">Nastavení</string>
+    <string name="action_delete">Vymazat</string>
+    <string name="action_export">Export</string>
+    <string name="action_filter_no">Žádný filtr</string>
+    <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_save">Uložit</string>
+    <string name="action_test">Test</string>
+
+    <string name="action_chart">Graf</string>
+    <string name="action_chart_normalize_minute">Naměřené hodnoty</string>
+    <string name="action_chart_normalize_quarter_hourly">Čtvrthodinové hodnoty</string>
+    <string name="action_chart_normalize_half_hourly">Půlhodinové hodnoty</string>
+    <string name="action_chart_normalize_hourly">Hodinové hodnoty</string>
+    <string name="action_chart_sort_time_asc">Čas stoupající</string>
+    <string name="action_chart_sort_time_desc">Čas klesající</string>
+    <string name="action_chart_sort_step_asc">Krok stoupající</string>
+    <string name="action_chart_sort_step_desc">Krok klesající</string>
+    <string name="action_chart_sort_pulse_asc">Tlak stoupající</string>
+    <string name="action_chart_sort_pulse_desc">Tlak klesající</string>
+    <string name="action_chart_sort_lap_asc">Kolo stoupající</string>
+    <string name="action_chart_sort_lap_desc">Kolo klesající</string>
+
+    <string name="power_on">Zapnutí</string>
+    <string name="screen_unlock">Odemknutí obrazovky</string>
+    <string name="motion">Detekce pohybu</string>
+
+    <string name="required_value">Požadováno</string>
+
+    <!-- Constante -->
+    <string name="const_time_abbreviation_hour">h</string>
+    <string name="const_time_abbreviation_minute">m</string>
+    <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
+
+    <string name="const_number">%1$,d</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_kcal">kcal</string>
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="zero">%d hodin</item>
+        <item quantity="one">%d hodina</item>
+        <item quantity="two">%d hodiny</item>
+        <item quantity="few">%d hodin</item>
+        <item quantity="many">%d hodin</item>
+        <item quantity="other">%d hodina</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">%d minut</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="two">%d minuty</item>
+        <item quantity="few">%d minut</item>
+        <item quantity="many">%d minut</item>
+        <item quantity="other">%d minut</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d sekund</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="two">%d sekundy</item>
+        <item quantity="few">%d sekund</item>
+        <item quantity="many">%d sekund</item>
+        <item quantity="other">%d sekund</item>
+    </plurals>
+
+    <plurals name="plural_file_moved">
+        <item quantity="zero">%d přesunutých souborů</item>
+        <item quantity="one">%d přesunutý soubor</item>
+        <item quantity="two">%d přesunuté soubory</item>
+        <item quantity="few">%d přesunutých souborů</item>
+        <item quantity="many">%d přesunutých souborů</item>
+        <item quantity="other">%d přesunutých souborů</item>
+    </plurals>
+
+</resources>
