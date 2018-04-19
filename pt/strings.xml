@@ -292,8 +292,8 @@
     <p>Se a Band não for encontrada, você pode configurar o endereço MAC manualmente nos detalhes do menu (O endereço MAC encontra-se em: Mi Fit/Profil/Band).</p>
     <p><b>Se tiver um problema de conexão:</b>
     <br>- Ecrã de aplicações recentes: bloquear a Mi Bandage (Deslizar a aplicaçãao para baixo e clicar no aloquete).
-    <br>- Dispositivo/Otimização de bateria: configurar a Mi Bandage para: "não otimizar".
-    <br>- Dispositivo/Aplicações: Limpar dasdos de "Bluetooth Share" e de outras aplicações \'Bluetooth\'.
+    <br>- Dispositivo/Otimização de bateria: configurar a Mi Bandage para: \"não otimizar\".
+    <br>- Dispositivo/Aplicações: Limpar dasdos de \"Bluetooth Share\" e de outras aplicações \'Bluetooth\'.
     <br>Definições/Opções de programador:
     <br>- Não manter atividades: desativado
     <br>- Limitar processos em segundo plano: Limite padrão
@@ -576,9 +576,11 @@
     <string name="pulse_tab_month">Gráficos mensais</string>
     <string name="pulse_tab_settings_online">Definições online</string>
     <string name="pulse_tab_settings_offline">Definições offline</string>
+    <string name="pulse_tab_settings_continuous">Continuous setting</string>
 
     <string name="pulse_online_title">Monitorização da pulsação_Online</string>
     <string name="pulse_offline_title">Monitorização da pulsação_Offline</string>
+    <string name="pulse_continuous_title">Continuous pulse measurement</string>
 
     <string name="action_chart_pulse_type_pulse">Pulsação</string>
     <string name="action_chart_pulse_type_pulse_and_step">Pulsação e Atividade</string>
@@ -598,6 +600,9 @@
     <string name="pulse_value_invalid">Valor inválido</string>
 
     <string name="pulse_offline_timed_title">Monitorização temporizada</string>
+
+    <string name="pulse_continuous_autostart">Autostart when starting Mi Fit activity</string>
+
     <string name="pulse_all_day">Todo o dia</string>
 
     <string name="pulse_details">Detalhes da pulsação</string>
@@ -871,7 +876,7 @@
     <string name="purchase_button_purchase">Comprar</string>
 
     <!-- Feedback -->
-    <string name="action_log_notification">Notification log</string>
+    <string name="action_log_notification">Log</string>
 
     <string name="feedback_google_play_title">Avalia esta aplicação</string>
     <string name="feedback_request_feature_title">Recurso de solicitação/relatório de Bugs</string>
