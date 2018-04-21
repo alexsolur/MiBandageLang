@@ -45,7 +45,7 @@
     <string name="mi_band_state_connected_disconnected_last_time">RSSI, poslední čas připojení a odpojení</string>
     <string name="mi_band_touch">Dotyk</string>
     <string name="mi_band_alarm">Další alarm</string>
-    <string name="mi_band_bonded_device_name">Název spárovaného zařízení s náramkem</string>
+    <string name="mi_band_bonded_device_name">Název spárovaného náramku</string>
     <string name="mi_band_mac_address">MAC adresa</string>
     <string name="mi_band_firmware">Firmware</string>
     <string name="mi_band_hardware">Hardware</string>
@@ -59,7 +59,7 @@
     <string name="mi_band_state_not_bonded">Není spárováno zařízení</string>
 
     <string name="mi_band_battery_settings">Nastavení baterie</string>
-    <string name="mi_band_battery_remaining">Odhadovaný zbývající čas baterie, když náramek bude mít</string>
+    <string name="mi_band_battery_remaining">Odhadovaný zbývající čas baterie náramku</string>
     <string name="mi_band_battery_notification">Oznámení nízké úrovně baterie</string>
     <string name="mi_band_battery_notification_level">Nastavení hodnoty nízké úrovně baterie</string>
     <string name="mi_band_battery_notification_repeat_interval">Interval opakování</string>
@@ -71,7 +71,7 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Připojení</string>
-    <string name="pref_connected_summary">Nastavení připojení mezi náramkem a zařízením</string>
+    <string name="pref_connected_summary">Nastavení oznámení při připojení náramku k zařízení</string>
 
     <string name="pref_connected_signals">Oznámení při připojení</string>
     <string name="pref_connected_signals_summary">Náramek se připojuje</string>
@@ -209,21 +209,21 @@
     <!-- Quick switch -->
     <string name="details">Podrobnosti</string>
     <string name="bandages">Stav</string>
-    <string name="connected">Známení o připojení a oznámení</string>
-    <string name="disconnected">Oznámení odpojení a agenta</string>
+    <string name="connected">Známení při připojení / oznámení</string>
+    <string name="disconnected">Známení při odpojení / agent</string>
     <string name="touch">Monitorování doteku</string>
 
-    <string name="pref_dnd_title">Režim nerušit</string>
+    <string name="pref_dnd_title">Režim nerušit (DnD)</string>
     <string name="pref_dnd_summary">Nastavení v režimu nerušit</string>
-    <string name="pref_dnd_auto_title">Režim nerušit automaticky</string>
+    <string name="pref_dnd_auto_title">Zapnout automaticky</string>
     <string name="pref_dnd_auto_summary">Nastavení režimu nerušit v zařízení má větší prioritu, než naplánovaný režim nerušit.</string>
     <string name="pref_dnd_auto_vibrate">Vibrace (tiché)</string>
     <string name="pref_dnd_auto_silent">Nerušit</string>
     <string name="pref_dnd_scheduled_title">Plánovaný režim nerušit</string>
     <string name="pref_dnd_scheduled_new_title">Název</string>
     <string name="pref_dnd_remember_state_summary">Na konci režimu nerušit se obnoví všechny stavy, které byly v době startu zapnuty</string>
-    <string name="pref_dnd_remember_state_on_title">Na konci obnovit stavy</string>
-    <string name="pref_dnd_remember_state_off_title">Na konci zapnout všechny stavy</string>
+    <string name="pref_dnd_remember_state_on_title">Po skončení obnovit stavy</string>
+    <string name="pref_dnd_remember_state_off_title">Po skončení zapnout všechny stavy</string>
     <string name="pref_dnd_mi_fit_scheduled">Aktivujte režim DnD Band (deaktivujte hovory, zprávy a zvednutí zápěstí pro zobrazení informací)</string>
     <string name="pref_dnd_enable_bluetooth">Na začátku režimu DnD vypněte Bluetooth, na konci Bluetooth zapněte</string>
 
@@ -602,7 +602,7 @@
 
     <string name="pulse_offline_timed_title">Časované měření</string>
 
-    <string name="pulse_chart_expandable_title">Notification is expandable</string>
+    <string name="pulse_chart_expandable_title">Notifikace jsou rozšiřitelné</string>
     <string name="pulse_interval_title">Opakování intervalu monitorování tepu</string>
     <string name="pulse_all_day">Celý den</string>
     <string name="pulse_time_set_next">Načasování dalšího monitorování</string>
