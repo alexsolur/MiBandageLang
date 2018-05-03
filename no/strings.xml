@@ -58,6 +58,9 @@
     <string name="mi_band_state_bonded">Parret enhet</string>
     <string name="mi_band_state_not_bonded">Ikke parret enhet</string>
 
+    <!-- Battery -->
+    <string name="battery_details">Battery details</string>
+
     <string name="mi_band_battery_settings">Batteri-instilling</string>
     <string name="mi_band_battery_remaining">Estimert gjenværende batteri tid</string>
     <string name="mi_band_battery_notification">Lavt batteri-level notifikasjon</string>
@@ -519,7 +522,7 @@
 
     <string name="activity_progress_title_prepare">Forbereder for synkronisering av aktivitet…</string>
     <string name="activity_progress_title_sync">Aktivitet-prosess synkronisering %1$,d%%</string>
-    <string name="activity_progress_title_save">Lagring av aktivitets-prosess %1$,d%%</string>
+    <string name="activity_progress_title_save">Lagring av aktivitets-prosess (%2$s) %1$,d%%</string>
 
     <string name="step_title_timing">Timing på skritt</string>
     <string name="step_interval_title"> Interval på skritt-monitorering</string>
@@ -576,17 +579,17 @@
     <string name="pulse_tab_month">Månedlig kart</string>
     <string name="pulse_tab_settings_online">Online instilling</string>
     <string name="pulse_tab_settings_offline">Offline instilling</string>
-    <string name="pulse_tab_settings_continuous">Continuous setting</string>
+    <string name="pulse_tab_settings_continuous">Sammenhengende puls Instillinger</string>
 
     <string name="pulse_online_title">Online puls measurementering</string>
     <string name="pulse_offline_title">Offline puls measurementering</string>
-    <string name="pulse_continuous_title">Continuous pulse measurement</string>
+    <string name="pulse_continuous_title">Sammenhengende puls measurementering</string>
 
     <string name="action_chart_pulse_type_pulse">Puls</string>
     <string name="action_chart_pulse_type_pulse_and_step">Puls og skritt</string>
 
     <string name="pulse_continuous_chart_title">Kart</string>
-    <string name="pulse_continuous_autostart">Autostart when starting Mi Fit activity</string>
+    <string name="pulse_continuous_autostart">Autostart når Mi Fit starter aktivitet</string>
 
     <string name="pulse_notification_shade">Chart on the notification shade</string>
     <string name="pulse_title_signals">Signaler</string>
@@ -602,7 +605,7 @@
 
     <string name="pulse_offline_timed_title">Timet measurementering</string>
 
-    <string name="pulse_chart_expandable_title">Notification is expandable</string>
+    <string name="pulse_chart_expandable_title">Notifikasjon er utvidet</string>
     <string name="pulse_interval_title">Gjenta interval av puls monitorering</string>
     <string name="pulse_all_day">Alle-dager</string>
     <string name="pulse_time_set_next">Timing av neste monitorering</string>
@@ -938,6 +941,7 @@
     <string name="required_value">Påkrevd</string>
 
     <!-- Constante -->
+    <string name="const_time_abbreviation_day">d</string>
     <string name="const_time_abbreviation_hour">h</string>
     <string name="const_time_abbreviation_minute">m</string>
     <string name="const_time_abbreviation_sec">s</string>
