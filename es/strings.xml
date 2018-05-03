@@ -58,6 +58,9 @@
     <string name="mi_band_state_bonded">Dispositivo Emparejado</string>
     <string name="mi_band_state_not_bonded">Dispositivo No emparejado</string>
 
+    <!-- Battery -->
+    <string name="battery_details">Battery details</string>
+
     <string name="mi_band_battery_remaining">Tiempo estimado en agotar la batería</string>
     <string name="mi_band_battery_settings">Configuraciones de bateria</string>
     <string name="mi_band_battery_notification">Notificación Nivel de Batería Bajo</string>
@@ -519,7 +522,7 @@
 
     <string name="activity_progress_title_prepare">Preparando para la sincronización…</string>
     <string name="activity_progress_title_sync">Sincronización de datos %1$,d%%</string>
-    <string name="activity_progress_title_save">Almacenamiento de datos %1$,d%%</string>
+    <string name="activity_progress_title_save">Almacenamiento de datos (%2$s) %1$,d%%</string>
 
     <string name="step_title_timing">Temporizador</string>
     <string name="step_interval_title">Repetir el intervalo de monitorización de pasos</string>
@@ -939,6 +942,7 @@
     <string name="required_value">Requerido</string>
 
     <!-- Constante -->
+    <string name="const_time_abbreviation_day">d</string>
     <string name="const_time_abbreviation_hour">h</string>
     <string name="const_time_abbreviation_minute">m</string>
     <string name="const_time_abbreviation_sec">s</string>
