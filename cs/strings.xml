@@ -58,6 +58,9 @@
     <string name="mi_band_state_bonded">Spárované zařízení</string>
     <string name="mi_band_state_not_bonded">Není spárováno zařízení</string>
 
+    <!-- Battery -->
+    <string name="battery_details">Battery details</string>
+
     <string name="mi_band_battery_settings">Nastavení baterie</string>
     <string name="mi_band_battery_remaining">Odhadovaný zbývající čas baterie náramku</string>
     <string name="mi_band_battery_notification">Oznámení nízké úrovně baterie</string>
@@ -209,8 +212,8 @@
     <!-- Quick switch -->
     <string name="details">Podrobnosti</string>
     <string name="bandages">Stav</string>
-    <string name="connected">Známení při připojení / oznámení</string>
-    <string name="disconnected">Známení při odpojení / agent</string>
+    <string name="connected">Známení při připojení/oznámení</string>
+    <string name="disconnected">Známení při odpojení/agent</string>
     <string name="touch">Monitorování doteku</string>
 
     <string name="pref_dnd_title">Režim nerušit (DnD)</string>
@@ -519,7 +522,7 @@
 
     <string name="activity_progress_title_prepare">Příprava na synchronizaci…</string>
     <string name="activity_progress_title_sync">Synchronizace dat %1$,d%%</string>
-    <string name="activity_progress_title_save">Ukládání dat %1$,d%%</string>
+    <string name="activity_progress_title_save">Ukládání dat (%2$s) %1$,d%%</string>
 
     <string name="step_title_timing">Měření času</string>
     <string name="step_interval_title">Opakujte interval monitorování kroků</string>
@@ -938,6 +941,7 @@
     <string name="required_value">Požadováno</string>
 
     <!-- Constante -->
+    <string name="const_time_abbreviation_day">d</string>
     <string name="const_time_abbreviation_hour">h</string>
     <string name="const_time_abbreviation_minute">m</string>
     <string name="const_time_abbreviation_sec">s</string>
