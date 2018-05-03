@@ -58,6 +58,9 @@
     <string name="mi_band_state_bonded">配对设备</string>
     <string name="mi_band_state_not_bonded">未配对设备</string>
 
+    <!-- Battery -->
+    <string name="battery_details">Battery details</string>
+
     <string name="mi_band_battery_settings">电池设置</string>
     <string name="mi_band_battery_remaining">电池预计剩余时间</string>
     <string name="mi_band_battery_notification">电量不足通知</string>
@@ -519,7 +522,7 @@
 
     <string name="activity_progress_title_prepare">准备同步…</string>
     <string name="activity_progress_title_sync">数据同步 %1$,d%%</string>
-    <string name="activity_progress_title_save">数据保存 %1$,d%%</string>
+    <string name="activity_progress_title_save">数据保存 (%2$s) %1$,d%%</string>
 
     <string name="step_title_timing">计时</string>
     <string name="step_interval_title">重复监测步骤的时间间隔</string>
@@ -938,6 +941,7 @@
     <string name="required_value">必填</string>
 
     <!-- Constante -->
+    <string name="const_time_abbreviation_day">d</string>
     <string name="const_time_abbreviation_hour">h</string>
     <string name="const_time_abbreviation_minute">m</string>
     <string name="const_time_abbreviation_sec">s</string>
