@@ -58,6 +58,9 @@
     <string name="mi_band_state_bonded">Mobile appairé</string>
     <string name="mi_band_state_not_bonded">Mobile non appairé</string>
 
+    <!-- Battery -->
+    <string name="battery_details">Battery details</string>
+
     <string name="mi_band_battery_settings">Réglages de la batterie</string>
     <string name="mi_band_battery_remaining">Estimation du temps restant de batterie</string>
     <string name="mi_band_battery_notification">Notification sur niveau de batterie faible</string>
@@ -519,7 +522,7 @@
 
     <string name="activity_progress_title_prepare">Préparation à la synchronisation…</string>
     <string name="activity_progress_title_sync">Synchronisation des données %1$,d%%</string>
-    <string name="activity_progress_title_save">Sauvegarde des données %1$,d%%</string>
+    <string name="activity_progress_title_save">Sauvegarde des données (%2$s) %1$,d%%</string>
 
     <string name="step_title_timing">Planification</string>
     <string name="step_interval_title">Intervalle de répétition de la supervision des pas</string>
@@ -576,17 +579,17 @@
     <string name="pulse_tab_month">Graphs mensuel</string>
     <string name="pulse_tab_settings_online">Réglages online</string>
     <string name="pulse_tab_settings_offline">Réglages offline</string>
-    <string name="pulse_tab_settings_continuous">Continuous setting</string>
+    <string name="pulse_tab_settings_continuous">Réglage en continu</string>
 
     <string name="pulse_online_title">Mesure online du rythme</string>
     <string name="pulse_offline_title">Mesure offline du rythme</string>
-    <string name="pulse_continuous_title">Continuous pulse measurement</string>
+    <string name="pulse_continuous_title">Mesure du pouls en continue</string>
 
     <string name="action_chart_pulse_type_pulse">Rythme</string>
     <string name="action_chart_pulse_type_pulse_and_step">Rythme et activité</string>
 
     <string name="pulse_continuous_chart_title">Graph</string>
-    <string name="pulse_continuous_autostart">Autostart when starting Mi Fit activity</string>
+    <string name="pulse_continuous_autostart">Lancement automatique lors du démarrage de l\'activité Mi Fit</string>
 
     <string name="pulse_notification_shade">Chart on the notification shade</string>
     <string name="pulse_title_signals">Alertes</string>
@@ -602,7 +605,7 @@
 
     <string name="pulse_offline_timed_title">Durée de la mesure</string>
 
-    <string name="pulse_chart_expandable_title">Notification is expandable</string>
+    <string name="pulse_chart_expandable_title">Extension de la notification</string>
     <string name="pulse_interval_title">Intervalle de supervision du rythme</string>
     <string name="pulse_all_day">Toute la journée</string>
     <string name="pulse_time_set_next">Heure du prochain relevé</string>
@@ -936,6 +939,7 @@
     <string name="required_value">Requis</string>
 
     <!-- Constante -->
+    <string name="const_time_abbreviation_day">d</string>
     <string name="const_time_abbreviation_hour">h</string>
     <string name="const_time_abbreviation_minute">m</string>
     <string name="const_time_abbreviation_sec">s</string>
