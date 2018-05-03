@@ -58,6 +58,9 @@
     <string name="mi_band_state_bonded">Eşleştirilmiş cihaz</string>
     <string name="mi_band_state_not_bonded">Eşleştirilmemiş cihaz</string>
 
+    <!-- Battery -->
+    <string name="battery_details">Battery details</string>
+
     <string name="mi_band_battery_settings">Şarj seviyesi uyarı ayarları</string>
     <string name="mi_band_battery_remaining">Tahmini kalan süre</string><!-- bu ne işe yarıyor -->
     <string name="mi_band_battery_notification">Düşük batarya seviyesi bildirimi</string>
@@ -519,7 +522,7 @@
 
     <string name="activity_progress_title_prepare">Veri aktarımı hazırlanıyor...</string>
     <string name="activity_progress_title_sync">Veri aktarılıyor %1$,d%%</string>
-    <string name="activity_progress_title_save">Veri kaydediliyor %1$,d%%</string>
+    <string name="activity_progress_title_save">Veri kaydediliyor (%2$s) %1$,d%%</string>
 
     <string name="step_title_timing">Zamanlama</string>
     <string name="step_interval_title">Adım izlemenin tekrar aralığı</string>
@@ -937,6 +940,7 @@
     <string name="required_value">Gerekli</string>
 
     <!-- Constante -->
+    <string name="const_time_abbreviation_day">d</string>
     <string name="const_time_abbreviation_hour">h</string>
     <string name="const_time_abbreviation_minute">m</string>
     <string name="const_time_abbreviation_sec">s</string>
