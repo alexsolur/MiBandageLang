@@ -58,6 +58,9 @@
     <string name="mi_band_state_bonded">Paired device</string>
     <string name="mi_band_state_not_bonded">Not paired device</string>
 
+    <!-- Battery -->
+    <string name="battery_details">Battery details</string>
+
     <string name="mi_band_battery_settings">Battery settings</string>
     <string name="mi_band_battery_remaining">Vorrausichtliche Akkulaufzeit</string>
     <string name="mi_band_battery_notification">Low battery level notification</string>
@@ -520,7 +523,7 @@
 
     <string name="activity_progress_title_prepare">Synchronisation wird vorbereitet…</string>
     <string name="activity_progress_title_sync">Datensynchronisation %1$,d%%</string>
-    <string name="activity_progress_title_save">Daten werden gespeichert %1$,d%%</string>
+    <string name="activity_progress_title_save">Daten werden gespeichert (%2$s) %1$,d%%</string>
 
     <string name="step_title_timing">Timing</string>
     <string name="step_interval_title">Wiederholungsintervall der Schrittebeobachtung</string>
@@ -939,6 +942,7 @@
     <string name="required_value">Zwingend erforderlich</string>
 
     <!-- Constante -->
+    <string name="const_time_abbreviation_day">d</string>
     <string name="const_time_abbreviation_hour">h</string>
     <string name="const_time_abbreviation_minute">m</string>
     <string name="const_time_abbreviation_sec">s</string>
