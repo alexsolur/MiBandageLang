@@ -59,7 +59,7 @@
     <string name="mi_band_state_not_bonded">Eşleştirilmemiş cihaz</string>
 
     <!-- Battery -->
-    <string name="battery_details">Battery details</string>
+    <string name="battery_details">Şarj detayları</string>
 
     <string name="mi_band_battery_settings">Şarj seviyesi uyarı ayarları</string>
     <string name="mi_band_battery_remaining">Tahmini kalan süre</string><!-- bu ne işe yarıyor -->
@@ -293,17 +293,17 @@
     <p>Mi Bandaj, resmi Mi Fit uygulamasının aynı cihaza kurulmasını gerektirir. İlk önce Band\'yi Mi Fit uygulamasında eşleştirmeniz gerekir, o zaman Mi Bandaj\'ı kullanabilirsiniz.</p>
     <p>Band\'yi kontrol etmek için daha fazla uygulama kullanıyorsanız, birbirlerine müdahale ederek geçici olarak bunları kapatın.</p>
     <p>Band bulunamazsa, ayrıntılar menüsünde MAC adresini manuel olarak ayarlayabilirsiniz (MAC adresi bulundu: Mi Fit/Profil/Band).</p>
-    <p><b>If you have a connection problem:</b>
-    <br>- Check the <i>Settings/Diagnostics</i> settings
-    <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
-    <br>- Phone/battery optimization: set Mi Bandage app to not optimized.
-    <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
-    <br>Settings/Developer options:
-    <br>- Don\'t keep activities: disable
-    <br>- Background process limit: standard limit
-    <br>- Memory optimization: middle/low/disable</p>
-    <p>Band bulunamazsa veya Mi Fit uygulamasını senkronize ederken sorun yaşıyorsanız, BToolkit, nRF Connect veya benzeri bir Bluetooth yöneticisi uygulamasını yükleyin ve eşleşen, bağlanan herhangi bir cihazı kaldırın.</p>
-    <p>Sorun yaşıyorsanız (Band\'yi keşfedin, bildirim sinyaliniz yok), lütfen bunu deneyin:
+    <p><b>Eğer bağlantı sorunu varsa:</b>
+    <br>- <i>Ayarlar/Teşhis</i> ayarlarını kontrol edin
+    <br>- Son uygulamalarda Mi Bandage uygulamasını kilitleyin.
+    <br>- Mi Bandage uygulamasını pil optimizasyonlarından koruyun.
+    <br>- Bluetooth uygulaması verileri ve ön belleği temizleyin.
+    <brAyarlar/Geliştirici seçenekleri açıksa:
+    <br>- Etkinlikler tutmayın: pasif yapın
+    <br>- Arkaplan işlem limiti: standart limit yapın
+    <br>- Bellek optimizasyonu: orta / düşük / devre dışı , olarak ayarlayın</p>
+    <p>Bileklik bulunamazsa veya Mi Fit uygulamasını senkronize ederken sorun yaşıyorsanız, BToolkit, nRF Connect veya benzeri bir Bluetooth yöneticisi uygulamasını yükleyin ve eşleşen, bağlanan herhangi bir cihazı kaldırın.</p>
+    <p>Sorun yaşıyorsanız (bilekliği tekrar aratıp, bildirim sinyaliniz hala yoksa), lütfen bunu deneyin:
     <br>1. Greenify\'ı (veya diğer hazırda bekletme uygulamasını) yüklediyseniz, kapatın.
     <br>2. Mi Bandage uygulamasını kurun.
     <br>3. Telefonu yeniden başlatın.
