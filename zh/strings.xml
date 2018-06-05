@@ -78,7 +78,7 @@
 
     <string name="pref_connected_signals">连接信号 </string>
     <string name="pref_connected_signals_summary">手环连接但未通知</string>
-    <string name="pref_cat_connected_signals_mi_band">手环信号</string>
+    <string name="pref_cat_connected_signals_mi_band">%1$s 信号</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">震动</string>
     <string name="pref_cat_connected_signals">手机信号</string>
     <string name="pref_connected_wakelock_title">唤醒手机屏幕</string>
@@ -109,7 +109,7 @@
 
     <string name="pref_disconnected_signals">断开连接</string>
     <string name="pref_disconnected_signals_summary">当手动关闭蓝牙时手环将断开连接</string>
-    <string name="pref_cat_disconnected_signals_mi_band">手环连接</string>
+    <string name="pref_cat_disconnected_signals_mi_band">%1$s 信号</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">图标显示和震动</string>
     <string name="pref_cat_disconnected_signals">手机信号</string>
     <string name="pref_disconnected_ringtone_title">铃声</string>
@@ -151,7 +151,7 @@
     <string name="pref_call_missed_net_title">错过网络电话通知, 来电显示</string>
     <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
-    <string name="pref_call_missed_alert_title">手环连接</string>
+    <string name="pref_call_missed_alert_title">%1$s 信号</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_call_missed_text_prefix_title">前缀: %1$s</string>
     <string name="pref_call_missed_text_prefix_summary">如果多个应用也使用该图标来区分彼此的通知</string>
@@ -164,6 +164,8 @@
     <string name="pref_text_conversion_summary_on">不可识别的字符转换, turn off if the Band supports your language or you have installed custom font firmware</string>
     <string name="pref_text_emoticon_title">Emoji conversion</string>
     <string name="pref_text_emoticon_summary_on">Convert emoji to emoticon</string>
+    <string name="pref_text_uppercase_title">Uppercase conversion</string>
+    <string name="pref_text_uppercase_summary_on">Convert lowercase to uppercase</string>
     <string name="pref_text_length">Text length, depends on the font used (for example Chinese or Cyrillic characters)</string>
     <string name="pref_text_length_summary_on">%1$,d characters</string>
 
@@ -181,7 +183,7 @@
         <br/>8. 将手机语言设置回你的语言.</p>]]>
     </string>
 
-    <string name="pref_mi_band">手环</string>
+    <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_mi_band_lift_wrist">抬起手腕查看</string>
     <string name="pref_mi_band_lift_wrist_title">举起手腕查看</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">勿扰模式</string>
@@ -206,8 +208,10 @@
     <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
 
     <string name="pref_language">语言</string>
-    <string name="pref_cat_language">语言</string>
+    <string name="pref_cat_language">应用</string>
     <string name="pref_language_title">语言</string>
+    <string name="pref_cat_language_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_language_mi_band_title">语言</string>
 
     <!-- Quick switch -->
     <string name="details">详情</string>
