@@ -78,7 +78,7 @@
 
     <string name="pref_connected_signals">Oznámení při připojení</string>
     <string name="pref_connected_signals_summary">Náramek se připojuje</string>
-    <string name="pref_cat_connected_signals_mi_band">Oznámení na náramku</string>
+    <string name="pref_cat_connected_signals_mi_band">Oznámení na %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Vibrace</string>
     <string name="pref_cat_connected_signals">Oznámení na zařízení</string>
     <string name="pref_connected_wakelock_title">Probuzení obrazovky zařízení</string>
@@ -109,7 +109,7 @@
 
     <string name="pref_disconnected_signals">Oznámení odpojení</string>
     <string name="pref_disconnected_signals_summary">Oznámení na náramku a na odpojeném zařízení (oznámení se nezobrazuje, pokud je bluetooth vypnut ručně)</string>
-    <string name="pref_cat_disconnected_signals_mi_band">Oznámení na náramku</string>
+    <string name="pref_cat_disconnected_signals_mi_band">Oznámení na %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Zobrazování ikony a vibrace</string>
     <string name="pref_cat_disconnected_signals">Oznámení na zařízení</string>
     <string name="pref_disconnected_ringtone_title">Vyzvánění</string>
@@ -151,7 +151,7 @@
     <string name="pref_call_missed_net_title">Zmeškané oznámení internetového volání zobrazuje ID volajícího</string>
     <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
-    <string name="pref_call_missed_alert_title">Oznámení na náramku</string>
+    <string name="pref_call_missed_alert_title">Oznámení na %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_call_missed_text_prefix_title">Předpona textu: %1$s</string>
     <string name="pref_call_missed_text_prefix_summary">Pokud více než jedna aplikace také používá ikonu (pro odlišení oznámení od sebe navzájem)</string>
@@ -164,6 +164,8 @@
     <string name="pref_text_conversion_summary_on">Převod neznámých znaků (Vypněte, pokud Váš náramek podporuje Váš jazyk nebo pokud máte nainstalovanáno vlastní písmo.)</string>
     <string name="pref_text_emoticon_title">Převod smajlíků</string>
     <string name="pref_text_emoticon_summary_on">Převod znaků na emotikony</string>
+    <string name="pref_text_uppercase_title">Uppercase conversion</string>
+    <string name="pref_text_uppercase_summary_on">Convert lowercase to uppercase</string>
     <string name="pref_text_length">Délka textu (Záleží na typu písma (např. čínština nebo cyrilice)</string>
     <string name="pref_text_length_summary_on">%1$,d znaků</string>
 
@@ -181,7 +183,7 @@
         <br/>8. Nastavte jazyk telefonu zpět do vašeho jazyka.</p>]]>
     </string>
 
-    <string name="pref_mi_band">Chytrý náramek</string>
+    <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_mi_band_lift_wrist">Zvedutí zápěstí pro zobrazení informací</string>
     <string name="pref_mi_band_lift_wrist_title">Zvednutí zápěstí pro zobrazení informací</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Režim nerušit</string>
@@ -206,8 +208,10 @@
     <string name="pref_battery_phone_message">Baterie zařízení:\n %1$,d%%</string>
 
     <string name="pref_language">Jazyk</string>
-    <string name="pref_cat_language">Jazyk</string>
+    <string name="pref_cat_language">Aplikace</string>
     <string name="pref_language_title">Jazyk</string>
+    <string name="pref_cat_language_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_language_mi_band_title">Jazyk</string>
 
     <!-- Quick switch -->
     <string name="details">Podrobnosti</string>
