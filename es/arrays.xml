@@ -95,6 +95,7 @@
 
     <string-array name="touch_music_player">
         <item>Reproductor de música predeterminado</item>
+        <item>Currently running player</item>
         <item>Google Play Music</item>
         <item>Spotify Music</item>
     </string-array>
@@ -102,7 +103,6 @@
     <string-array name="touch_music_player_values">
         <item></item>
         <item>ACTIVE</item>
-        <item>Currently running</item>
         <item>com.google.android.music</item>
         <item>com.spotify.music</item>
     </string-array>
@@ -291,5 +291,37 @@
         <item>fr</item>
         <item>no</item>
         <item>zh</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_bip">
+        <item>Not set (set by Mi Fit)</item>
+        <item>Predeterminado</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>繁體中文</item>
+        <item>简体中文</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_bip_values">
+        <item></item>
+        <item>DEFAULT</item>
+        <item>en_US</item>
+        <item>es_ES</item>
+        <item>zh_TW</item>
+        <item>zh_CN</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_cor">
+        <item>Not set (set by Mi Fit)</item>
+        <item>Predeterminado</item>
+        <item>English</item>
+        <item>简体中文</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_cor_values">
+        <item></item>
+        <item>DEFAULT</item>
+        <item>en_US</item>
+        <item>zh_CN</item>
     </string-array>
 </resources>
