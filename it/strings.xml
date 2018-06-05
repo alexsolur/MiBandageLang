@@ -78,7 +78,7 @@
 
     <string name="pref_connected_signals">Notifica connessione</string>
     <string name="pref_connected_signals_summary">Abilitare o no notifica connessione Band</string>
-    <string name="pref_cat_connected_signals_mi_band">Notifiche Band</string>
+    <string name="pref_cat_connected_signals_mi_band">Notifiche %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Vibrazione</string>
     <string name="pref_cat_connected_signals">Notifica dispositivo</string>
     <string name="pref_connected_wakelock_title">Accendi schermo dispositivo</string>
@@ -109,7 +109,7 @@
 
     <string name="pref_disconnected_signals">Notifica disconnessione</string>
     <string name="pref_disconnected_signals_summary">Notifica disconnessione tra Band e dispositivo, nessuna notifica quando viene spento manualmente il bluetooth</string>
-    <string name="pref_cat_disconnected_signals_mi_band">Segnale Band</string>
+    <string name="pref_cat_disconnected_signals_mi_band">Notifiche %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Mostra icona</string>
     <string name="pref_cat_disconnected_signals">Notifiche dispositivo</string>
     <string name="pref_disconnected_ringtone_title">Suoneria</string>
@@ -151,7 +151,7 @@
     <string name="pref_call_missed_net_title">Chiamate voip perse </string>
     <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
-    <string name="pref_call_missed_alert_title">Notifica Band</string>
+    <string name="pref_call_missed_alert_title">Notifica %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_call_missed_text_prefix_title">Testo identificativo: %1$s</string>
     <string name="pref_call_missed_text_prefix_summary">Se più app usano la stessa icona usa questo testo per differenziarle</string>
@@ -164,6 +164,8 @@
     <string name="pref_text_conversion_summary_on">Converti caratteri non riconosciuti, disattivalo se la tua Band supporta la tua lingua o hai installato firmware con caratteri personalizzati</string>
     <string name="pref_text_emoticon_title">Converti emoji</string>
     <string name="pref_text_emoticon_summary_on">Converti emoji in emoticon</string>
+    <string name="pref_text_uppercase_title">Uppercase conversion</string>
+    <string name="pref_text_uppercase_summary_on">Convert lowercase to uppercase</string>
     <string name="pref_text_length">Lunghezza testo, dipende dal carattere usato (per esempio caratteri cinesi o cirillico)</string>
     <string name="pref_text_length_summary_on">%1$,d caratteri</string>
 
@@ -181,7 +183,7 @@
         <br/>8. Imposta nuovamente la lingua del telefono su Italiano.</p>]]>
     </string>
 
-    <string name="pref_mi_band">Band</string>
+    <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_mi_band_lift_wrist">Solleva il polso per visualizzare le info</string>
     <string name="pref_mi_band_lift_wrist_title">Solleva il polso per visualizzare le info</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Modalità non disturbare</string>
@@ -206,8 +208,10 @@
     <string name="pref_battery_phone_message">Batteria smartphone:\n %1$,d%%</string>
 
     <string name="pref_language">Lingua</string>
-    <string name="pref_cat_language">Lingua</string>
+    <string name="pref_cat_language">App</string>
     <string name="pref_language_title">Lingua</string>
+    <string name="pref_cat_language_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_language_mi_band_title">Lingua</string>
 
     <!-- Quick switch -->
     <string name="details">Dettagli</string>
