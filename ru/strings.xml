@@ -78,7 +78,7 @@
 
     <string name="pref_connected_signals">Уведомления при соединении</string>
     <string name="pref_connected_signals_summary">Присоединение Band в отсутствие новых уведомлений</string>
-    <string name="pref_cat_connected_signals_mi_band">Уведомление Band</string>
+    <string name="pref_cat_connected_signals_mi_band">Уведомление %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Вибрация</string>
     <string name="pref_cat_connected_signals">Уведомление устройства</string>
     <string name="pref_connected_wakelock_title">Активировать экран устройства</string>
@@ -109,7 +109,7 @@
 
     <string name="pref_disconnected_signals">Уведомления разъединения</string>
     <string name="pref_disconnected_signals_summary">Уведомления отсоединения Band, не уведомляет при вручную отключённом Bluetooth</string>
-    <string name="pref_cat_disconnected_signals_mi_band">Уведомление Band</string>
+    <string name="pref_cat_disconnected_signals_mi_band">Уведомление %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Отображение иконки</string>
     <string name="pref_cat_disconnected_signals">Сигналы при отсоединении</string>
     <string name="pref_disconnected_ringtone_title">Рингтон</string>
@@ -151,7 +151,7 @@
     <string name="pref_call_missed_net_title">Пропущенный интернет-вызов, отображение ID звонящего</string>
     <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
-    <string name="pref_call_missed_alert_title">Уведомление Band</string>
+    <string name="pref_call_missed_alert_title">Уведомление %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_call_missed_text_prefix_title">Префикс текста: %1$s</string>
     <string name="pref_call_missed_text_prefix_summary">Если несколько приложений используют иконку (чтобы отличить сообщения)</string>
@@ -164,6 +164,8 @@
     <string name="pref_text_conversion_summary_on">Преобразование нераспознанных символов, отключите, если браслет поддерживает ваш язык или вы установили необходимые шрифты.</string>
     <string name="pref_text_emoticon_title">Преобразование Emoji</string>
     <string name="pref_text_emoticon_summary_on">Преобразование emoji to emoticon</string>
+    <string name="pref_text_uppercase_title">Uppercase conversion</string>
+    <string name="pref_text_uppercase_summary_on">Convert lowercase to uppercase</string>
     <string name="pref_text_length">Длина текста, в зависимости от шрифта</string>
     <string name="pref_text_length_summary_on">%1$,d символов</string>
 
@@ -181,7 +183,7 @@
         <br/>8. Верните язык устройства.</p>]]>
     </string>
 
-    <string name="pref_mi_band">Настройки Band</string>
+    <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_mi_band_lift_wrist">Поворот запястья</string>
     <string name="pref_mi_band_lift_wrist_title">Поворот запястья</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Режим \"Не беспокоить\"</string>
@@ -206,8 +208,10 @@
     <string name="pref_battery_phone_message">Батарея телефона:\n %1$,d%%</string>
 
     <string name="pref_language">Язык</string>
-    <string name="pref_cat_language">Язык</string>
+    <string name="pref_cat_language">Приложение</string>
     <string name="pref_language_title">Язык</string>
+    <string name="pref_cat_language_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_language_mi_band_title">Язык</string>
 
     <!-- Quick switch -->
     <string name="details">Подробнее</string>
