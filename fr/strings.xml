@@ -68,7 +68,7 @@
     <string name="mi_band_battery_notification_repeat_interval">Intervalle de répétition</string>
     <string name="mi_band_battery_notification_shade">Notifier sur le mobile</string>
     <string name="mi_band_battery_notification_shade_ongoing">Notification (en cours) permanente</string>
-    <string name="mi_band_battery_notification_shade_message">Le niveau de la batterie est faible alors %1$,d%%</string>
+    <string name="mi_band_battery_notification_shade_message">Le niveau de la batterie est faible: %1$,d%%</string>
     <string name="mi_band_battery_notification_mi_band">Notifier sur le bracelet</string>
     <string name="mi_band_battery_notification_mi_band_message">Batterie: %1$,d%%</string>
 
@@ -78,7 +78,7 @@
 
     <string name="pref_connected_signals">Alertes de connexion</string>
     <string name="pref_connected_signals_summary">Le Band se connecte sans notification</string>
-    <string name="pref_cat_connected_signals_mi_band">Alertes du Band</string>
+    <string name="pref_cat_connected_signals_mi_band">Alertes du %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Vibration</string>
     <string name="pref_cat_connected_signals">Alertes du mobile</string>
     <string name="pref_connected_wakelock_title">Allumer l\'écran du mobile</string>
@@ -109,7 +109,7 @@
 
     <string name="pref_disconnected_signals">Alertes de déconnexion</string>
     <string name="pref_disconnected_signals_summary">Alertes de déconnexion du Band et du mobile, aucune alerte ne sera transmise si le bluetooth est désactivé manuellement</string>
-    <string name="pref_cat_disconnected_signals_mi_band">Alerte du Band</string>
+    <string name="pref_cat_disconnected_signals_mi_band">Alertes du %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Affichage de l\'icône et vibration</string>
     <string name="pref_cat_disconnected_signals">Alertes du mobile</string>
     <string name="pref_disconnected_ringtone_title">Type de sonnerie</string>
@@ -151,7 +151,7 @@
     <string name="pref_call_missed_net_title">Alerte sur appels internet manqués, afficher l\'identité de l\'appelant</string>
     <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
-    <string name="pref_call_missed_alert_title">Alerte Band</string>
+    <string name="pref_call_missed_alert_title">Alertes du %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_call_missed_text_prefix_title">Préfix texte: %1$s</string>
     <string name="pref_call_missed_text_prefix_summary">Si plusieurs applications utilisent également l\'icône pour différencier les notifications les unes des autres</string>
@@ -164,6 +164,8 @@
     <string name="pref_text_conversion_summary_on">Conversion des caractères non reconnus, turn off if the Band supports your language or you have installed custom font firmware</string>
     <string name="pref_text_emoticon_title">Conversion d\'emoji</string>
     <string name="pref_text_emoticon_summary_on">Convertir l\'emoji en émoticone</string>
+    <string name="pref_text_uppercase_title">Uppercase conversion</string>
+    <string name="pref_text_uppercase_summary_on">Convert lowercase to uppercase</string>
     <string name="pref_text_length">La longueur du texte dépend de la police de caractères utilisée (exemple Chinois ou Cyrillic)</string>
     <string name="pref_text_length_summary_on">%1$,d caractères</string>
 
@@ -181,7 +183,7 @@
         <br/>8. Remettez votre téléphone en Français.</p>]]>
     </string>
 
-    <string name="pref_mi_band">Band</string>
+    <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_mi_band_lift_wrist">Soulevez le poignet pour afficher les informations</string>
     <string name="pref_mi_band_lift_wrist_title">Soulevez le poignet pour afficher les informations</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Mode ne pas déranger</string>
@@ -206,8 +208,10 @@
     <string name="pref_battery_phone_message">Batterie du portable:\n %1$,d%%</string>
 
     <string name="pref_language">Langue</string>
-    <string name="pref_cat_language">Langue</string>
+    <string name="pref_cat_language">App</string>
     <string name="pref_language_title">Langue</string>
+    <string name="pref_cat_language_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_language_mi_band_title">Langue</string>
 
     <!-- Quick switch -->
     <string name="details">Détails</string>
