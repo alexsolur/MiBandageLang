@@ -45,7 +45,7 @@
     <string name="mi_band_state_connected_disconnected_last_time">RSSI, last connection and disconnection time</string>
     <string name="mi_band_touch">Touch monitoring</string>
     <string name="mi_band_alarm">Next alarm</string>
-    <string name="mi_band_bonded_device_name">Tên thiết bị kết nối Band</string>
+    <string name="mi_band_bonded_device_name">Tên thiết bị kết nối</string>
     <string name="mi_band_mac_address">Địa chỉ MAC</string>
     <string name="mi_band_firmware">Firmware</string>
     <string name="mi_band_hardware">Phần cứng</string>
@@ -68,7 +68,7 @@
     <string name="mi_band_battery_notification_repeat_interval">Repeat interval</string>
     <string name="mi_band_battery_notification_shade">Notify on the phone</string>
     <string name="mi_band_battery_notification_shade_ongoing">Persistent (ongoing) notification</string>
-    <string name="mi_band_battery_notification_shade_message">Battery level is lower then %1$,d%%</string>
+    <string name="mi_band_battery_notification_shade_message">Battery level is low: %1$,d%%</string>
     <string name="mi_band_battery_notification_mi_band">Notify on the bracelet</string>
     <string name="mi_band_battery_notification_mi_band_message">Battery: %1$,d%%</string>
 
@@ -78,7 +78,7 @@
 
     <string name="pref_connected_signals">Connection signals</string>
     <string name="pref_connected_signals_summary">Band đang kết nối và không có thông báo</string>
-    <string name="pref_cat_connected_signals_mi_band">Band signal</string>
+    <string name="pref_cat_connected_signals_mi_band">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Tín hiệu Band</string>
     <string name="pref_cat_connected_signals">Device signals</string>
     <string name="pref_connected_wakelock_title">Sáng màn hình thiết bị</string>
@@ -86,7 +86,7 @@
     <string name="pref_connected_settings">Connection settings</string>
     <string name="pref_connected_settings_summary">Band and device connection settings</string>
     <string name="pref_cat_connected_settings">Device settings</string>
-    <string name="pref_connected_volume_title">Change volume</string>
+    <string name="pref_connected_volume_title">Adjust the volume</string>
     <string name="pref_connected_volume_ring_title">Ring volume</string>
 
     <string name="pref_cat_connected_have_notif">Tín hiệu cho ứng dụng được xác định trước và Band</string>
@@ -109,7 +109,7 @@
 
     <string name="pref_disconnected_signals">Disconnection signals</string>
     <string name="pref_disconnected_signals_summary">Band and device disconnection signals, it does not signal when the bluetooth is turned off manually</string>
-    <string name="pref_cat_disconnected_signals_mi_band">Tín hiệu Band</string>
+    <string name="pref_cat_disconnected_signals_mi_band">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Hiển thị biểu tượng</string>
     <string name="pref_cat_disconnected_signals">Tín hiệu thiết bị</string>
     <string name="pref_disconnected_ringtone_title">Nhạc chuông</string>
@@ -119,7 +119,7 @@
     <string name="pref_disconnected_settings">Disconnection settings</string>
     <string name="pref_disconnected_settings_summary">Band and device disconnection settings</string>
     <string name="pref_cat_disconnected_settings">Device settings</string>
-    <string name="pref_disconnected_volume_title">Change volume</string>
+    <string name="pref_disconnected_volume_title">Adjust the volume</string>
     <string name="pref_disconnected_volume_ring_title">Ring volume</string>
     <string name="pref_disconnected_volume_adapter_title">When Bluetooth is turned off</string>
     <string name="pref_disconnected_volume_adapter_summary_on">Adjust the volume</string>
@@ -151,7 +151,7 @@
     <string name="pref_call_missed_net_title">Tín hiệu lỡ cuộc gọi internet, hiện tên/ số người gọi</string>
     <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
-    <string name="pref_call_missed_alert_title">Tín hiệu Band</string>
+    <string name="pref_call_missed_alert_title">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_call_missed_text_prefix_title">Tiền tố văn bản: %1$s</string>
     <string name="pref_call_missed_text_prefix_summary">Nếu có nhiều hơn một ứng dụng cũng sử dụng các biểu tượng để phân biệt thông báo từ với nhau</string>
@@ -164,6 +164,8 @@
     <string name="pref_text_conversion_summary_on">Chuyển đổi ký tự không nhận diện, turn off if the Band supports your language or you have installed custom font firmware</string>
     <string name="pref_text_emoticon_title">Emoji conversion</string>
     <string name="pref_text_emoticon_summary_on">Convert emoji to emoticon</string>
+    <string name="pref_text_uppercase_title">Uppercase conversion</string>
+    <string name="pref_text_uppercase_summary_on">Convert lowercase to uppercase</string>
     <string name="pref_text_length">Text length, depends on the font used (for example Chinese or Cyrillic characters)</string>
     <string name="pref_text_length_summary_on">%1$,d characters</string>
 
@@ -181,7 +183,7 @@
         <br/>8. Set phone language back to your language.</p>]]>
     </string>
 
-    <string name="pref_mi_band">Các cài đặt Band</string>
+    <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_mi_band_lift_wrist">Nâng cổ tay để xem thông tin</string>
     <string name="pref_mi_band_lift_wrist_title">Nâng cổ tay để xem thông tin</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Chế độ không làm phiền</string>
@@ -206,8 +208,10 @@
     <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
 
     <string name="pref_language">Cài đặt ngôn ngữ</string>
-    <string name="pref_cat_language">Ngôn ngữ</string>
+    <string name="pref_cat_language">Ứng dụng</string>
     <string name="pref_language_title">Ngôn ngữ</string>
+    <string name="pref_cat_language_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_language_mi_band_title">Ngôn ngữ</string>
 
     <!-- Quick switch -->
     <string name="details">Chi tiết</string>
