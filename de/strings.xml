@@ -45,7 +45,7 @@
     <string name="mi_band_state_connected_disconnected_last_time">RSSI, last connection and disconnection time</string>
     <string name="mi_band_touch">Touch monitoring</string>
     <string name="mi_band_alarm">Wecker</string>
-    <string name="mi_band_bonded_device_name">Band gekoppelter Name</string>
+    <string name="mi_band_bonded_device_name">Gekoppelter Name</string>
     <string name="mi_band_mac_address">MAC-Adresse</string>
     <string name="mi_band_firmware">Firmware</string>
     <string name="mi_band_hardware">Hardware</string>
@@ -78,7 +78,7 @@
 
     <string name="pref_connected_signals">Verbindungssignale</string>
     <string name="pref_connected_signals_summary">Band verbunden, keine Benachrichtigungen</string>
-    <string name="pref_cat_connected_signals_mi_band">Band Signal</string>
+    <string name="pref_cat_connected_signals_mi_band">%1$s Signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Vibration</string>
     <string name="pref_cat_connected_signals">Gerätesignal</string>
     <string name="pref_connected_wakelock_title">Gerätebildschirm aufwecken</string>
@@ -109,7 +109,7 @@
 
     <string name="pref_disconnected_signals">Signale bei Verbindungstrennung</string>
     <string name="pref_disconnected_signals_summary">Signale bei Verbindungstrennung zwischen Band und Telefon, werden nicht ausgesendet, wenn Bluetooth manuell deaktiviert wird</string>
-    <string name="pref_cat_disconnected_signals_mi_band">Band Signal</string>
+    <string name="pref_cat_disconnected_signals_mi_band">%1$s Signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Anzeige des Emblems</string>
     <string name="pref_cat_disconnected_signals">Gerätesignal</string>
     <string name="pref_disconnected_ringtone_title">Klingelton</string>
@@ -151,7 +151,7 @@
     <string name="pref_call_missed_net_title">Verpasstes Signal eines Internetanrufs, zeige Telefonnummer des Anrufers an</string>
     <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
-    <string name="pref_call_missed_alert_title">Band Signal</string>
+    <string name="pref_call_missed_alert_title">%1$s Signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_call_missed_text_prefix_title">Text Präfix: %1$s</string>
     <string name="pref_call_missed_text_prefix_summary">Falls mehr als eine App dasselbe Emblem benutzt, um Benachrichtigungen voneinander unterscheiden zu können</string>
@@ -164,6 +164,8 @@
     <string name="pref_text_conversion_summary_on">Nicht erkennbare Buchstabenumwandlung, turn off if the Band supports your language or you have installed custom font firmware</string>
     <string name="pref_text_emoticon_title">Emoji conversion</string>
     <string name="pref_text_emoticon_summary_on">Convert emoji to emoticon</string>
+    <string name="pref_text_uppercase_title">Uppercase conversion</string>
+    <string name="pref_text_uppercase_summary_on">Convert lowercase to uppercase</string>
     <string name="pref_text_length">Text length, depends on the font used (for example Chinese or Cyrillic characters)</string>
     <string name="pref_text_length_summary_on">%1$,d characters</string>
 
@@ -181,7 +183,7 @@
         <br/>8. Ändern Sie ihre Spracheinstellungen auf Ihre Sprache.</p>]]>
     </string>
 
-    <string name="pref_mi_band">Band</string>
+    <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_mi_band_lift_wrist">Für Informationen Handgelenk anheben</string>
     <string name="pref_mi_band_lift_wrist_title">Für Informationen Handgelenk anheben</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Nicht Stören-Modus</string>
@@ -206,8 +208,10 @@
     <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
 
     <string name="pref_language">Sprache</string>
-    <string name="pref_cat_language">Sprache</string>
+    <string name="pref_cat_language">App</string>
     <string name="pref_language_title">Sprache</string>
+    <string name="pref_cat_language_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_language_mi_band_title">Sprache</string>
 
     <!-- Quick switch -->
     <string name="details">Details</string>
