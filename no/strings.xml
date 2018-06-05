@@ -45,7 +45,7 @@
     <string name="mi_band_state_connected_disconnected_last_time">RSSI, siste tilkoblings og frakoblings-tid</string>
     <string name="mi_band_touch">Trykke-monitorering</string>
     <string name="mi_band_alarm">Neste alarm</string>
-    <string name="mi_band_bonded_device_name">Band parret enhets navn</string>
+    <string name="mi_band_bonded_device_name">Parret enhet navn</string>
     <string name="mi_band_mac_address">MAC address</string>
     <string name="mi_band_firmware">Firmware</string>
     <string name="mi_band_hardware">Hardware</string>
@@ -78,7 +78,7 @@
 
     <string name="pref_connected_signals">Tilkoblings-signaler</string>
     <string name="pref_connected_signals_summary">Band-tilkobling og ikke få notifikasjon</string>
-    <string name="pref_cat_connected_signals_mi_band">Band-signal</string>
+    <string name="pref_cat_connected_signals_mi_band">%1$s-signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Vibrasjon</string>
     <string name="pref_cat_connected_signals">Telefon-signaler</string>
     <string name="pref_connected_wakelock_title">Vekk telefonens skjerm</string>
@@ -109,7 +109,7 @@
 
     <string name="pref_disconnected_signals">Frakobling signaler</string>
     <string name="pref_disconnected_signals_summary">Band og telefon frakoblings-signaler, det signaliseres ikke når bluetooth er skrudd av manuelt</string>
-    <string name="pref_cat_disconnected_signals_mi_band">Band-signal</string>
+    <string name="pref_cat_disconnected_signals_mi_band">%1$s-signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Ikon-visning og vibrasjon</string>
     <string name="pref_cat_disconnected_signals">Telefon-signaler</string>
     <string name="pref_disconnected_ringtone_title">Ringetone</string>
@@ -151,7 +151,7 @@
     <string name="pref_call_missed_net_title">Tapt internett-anrop signal, vis anrops ID</string>
     <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
-    <string name="pref_call_missed_alert_title">Band signal</string>
+    <string name="pref_call_missed_alert_title">%1$s-signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_call_missed_text_prefix_title">Text prefix: %1$s</string>
     <string name="pref_call_missed_text_prefix_summary">Hvis mer enn en app også bruker ikonet vil de differensiere notifikasjoner fra hverandre</string>
@@ -164,6 +164,8 @@
     <string name="pref_text_conversion_summary_on">Ikke gjenkjennelige karakter konvertering er skrudd av hvis Bandet støtter ditt språk eller du har installert egendefinert skriftstil firmware</string>
     <string name="pref_text_emoticon_title">Emoji Konvertering</string>
     <string name="pref_text_emoticon_summary_on">Konvertere emoji til emoticon</string>
+    <string name="pref_text_uppercase_title">Uppercase conversion</string>
+    <string name="pref_text_uppercase_summary_on">Convert lowercase to uppercase</string>
     <string name="pref_text_length">Text lengde, avhenger av skriftstilen som brukes (for eksempel Kinesiske eller Cyrilliske karakterer)</string>
     <string name="pref_text_length_summary_on">%1$,d karakterer</string>
 
@@ -181,7 +183,7 @@
         <br/>8. Sett telefonens språk tilbake til ditt språk.</p>]]>
     </string>
 
-    <string name="pref_mi_band">Band</string>
+    <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_mi_band_lift_wrist">Løfte hånda for å vise info</string>
     <string name="pref_mi_band_lift_wrist_title">Løft hånda for å vise info</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Ikke forstyrr-modus</string>
@@ -206,8 +208,10 @@
     <string name="pref_battery_phone_message">Telefon batteri:\n %1$,d%%</string>
 
     <string name="pref_language">Språk</string>
-    <string name="pref_cat_language">Språk</string>
+    <string name="pref_cat_language">App</string>
     <string name="pref_language_title">Språk</string>
+    <string name="pref_cat_language_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_language_mi_band_title">Språk</string>
 
     <!-- Rask bytting -->
     <string name="details">Detailer</string>
