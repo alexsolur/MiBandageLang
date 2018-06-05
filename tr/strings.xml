@@ -78,7 +78,7 @@
 
     <string name="pref_connected_signals">Bildirimler</string>
     <string name="pref_connected_signals_summary">Bağlanınca yapılacak bildirimler</string>
-    <string name="pref_cat_connected_signals_mi_band">Bileklik</string>
+    <string name="pref_cat_connected_signals_mi_band">%1$s sinyali</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Titreşim</string>
     <string name="pref_cat_connected_signals">Telefon</string>
     <string name="pref_connected_wakelock_title">Ekranı aç</string>
@@ -109,7 +109,7 @@
 
     <string name="pref_disconnected_signals">Bildirimler</string>
     <string name="pref_disconnected_signals_summary">Bağlantı kopunca yapılacak bildirimler (bluetooth kapalıyken bildirim yapılamaz)</string>
-    <string name="pref_cat_disconnected_signals_mi_band">Bileklik</string>
+    <string name="pref_cat_disconnected_signals_mi_band">%1$s sinyali</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Titreşim ve uyarı simgesi</string>
     <string name="pref_cat_disconnected_signals">Telefon</string>
     <string name="pref_disconnected_ringtone_title">Zil sesi ile uyarı</string>
@@ -151,7 +151,7 @@
     <string name="pref_call_missed_net_title">Cevapsız internet aramaları bildirimi ve arayan bilgisi</string>
     <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
-    <string name="pref_call_missed_alert_title">Bileklik bildirim simgesi</string>
+    <string name="pref_call_missed_alert_title">%1$s sinyali</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_call_missed_text_prefix_title">Bildirim metni öneki: %1$s</string>
     <string name="pref_call_missed_text_prefix_summary">Birden fazla uygulama aynı anda bildirim gönderirse ayırt etmek için kullanılır</string>
@@ -164,6 +164,8 @@
     <string name="pref_text_conversion_summary_on">Tanımlanamayan karakterleri döünüştürür, turn off if the Band supports your language or you have installed custom font firmware</string>
     <string name="pref_text_emoticon_title">Emoji dönüştürme</string>
     <string name="pref_text_emoticon_summary_on">Emoji yi emoticon a dönüştür</string>
+    <string name="pref_text_uppercase_title">Uppercase conversion</string>
+    <string name="pref_text_uppercase_summary_on">Convert lowercase to uppercase</string>
     <string name="pref_text_length">Metin uzunluğu, kullanılan yazı tipine bağlıdır (örneğin, Çince veya Kril karatkterleri)</string>
     <string name="pref_text_length_summary_on">%1$,d karakter</string>
 
@@ -181,7 +183,7 @@
         <br/>8. Telefon dilini kendi diliniz aypın.</p>]]>
     </string>
 
-    <string name="pref_mi_band">Bileklik bilgi görüntüleme</string>
+    <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_mi_band_lift_wrist">Bilgiliyi görüntülemek için bileğinizi kaldırın</string>
     <string name="pref_mi_band_lift_wrist_title">Bilgiliyi görüntülemek için bileğinizi kaldırın</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">Rahatsız etme modu</string>
@@ -206,8 +208,10 @@
     <string name="pref_battery_phone_message">Pil:\n %1$,d%%</string>
 
     <string name="pref_language">Dil</string>
-    <string name="pref_cat_language">Uygulama dili</string>
+    <string name="pref_cat_language">Uygulama</string>
     <string name="pref_language_title">Aktif dil</string>
+    <string name="pref_cat_language_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_language_mi_band_title">Aktif dil</string>
 
     <!-- Quick switch -->
     <string name="details">Ayrıntılar</string><!-- yerini bulamadım -->
