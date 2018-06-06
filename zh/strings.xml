@@ -74,17 +74,17 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">连接</string>
-    <string name="pref_connected_summary">手环和电话连接信号及设置</string>
+    <string name="pref_connected_summary">%1$s 和电话连接信号及设置</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_connected_signals">连接信号 </string>
-    <string name="pref_connected_signals_summary">手环连接但未通知</string>
-    <string name="pref_cat_connected_signals_mi_band">%1$s 信号</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_signals_summary">%1$s 连接但未通知</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_connected_signals_mi_band">%1$s 信号</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">震动</string>
     <string name="pref_cat_connected_signals">手机信号</string>
     <string name="pref_connected_wakelock_title">唤醒手机屏幕</string>
 
     <string name="pref_connected_settings">连接设置</string>
-    <string name="pref_connected_settings_summary">手环和手机连接设置</string>
+    <string name="pref_connected_settings_summary">%1$s 和手机连接设置</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_settings">手机设置</string>
     <string name="pref_connected_volume_title">更改音量</string>
     <string name="pref_connected_volume_ring_title">振铃音量</string>
@@ -105,11 +105,11 @@
     <string name="pref_connected_have_notif_pre_signal_summary_on">信号(点击图标进行更改)在实际通知之前以便于有更多时间查看</string>
 
     <string name="pref_disconnected">断开连接</string>
-    <string name="pref_disconnected_summary">手环断开连接和设置</string>
+    <string name="pref_disconnected_summary">%1$s 手环断开连接和设置</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_disconnected_signals">断开连接</string>
-    <string name="pref_disconnected_signals_summary">当手动关闭蓝牙时手环将断开连接</string>
-    <string name="pref_cat_disconnected_signals_mi_band">%1$s 信号</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_signals_summary">%1$s 当手动关闭蓝牙时手环将断开连接</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_signals_mi_band">%1$s 信号</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">图标显示和震动</string>
     <string name="pref_cat_disconnected_signals">手机信号</string>
     <string name="pref_disconnected_ringtone_title">铃声</string>
@@ -117,7 +117,7 @@
     <string name="pref_disconnected_wakelock_title">唤醒手机屏幕</string>
 
     <string name="pref_disconnected_settings">断开连接设置</string>
-    <string name="pref_disconnected_settings_summary">手环断开设置</string>
+    <string name="pref_disconnected_settings_summary">%1$s 断开设置</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_disconnected_settings">手机设置</string>
     <string name="pref_disconnected_volume_title">调整音量</string>
     <string name="pref_disconnected_volume_ring_title">振铃音量</string>
@@ -135,7 +135,7 @@
     <string name="pref_abandoned_notif_title">手机丢失</string>
 
     <string name="pref_call">呼叫</string>
-    <string name="pref_call_summary">手环连接设置</string>
+    <string name="pref_call_summary">%1$s 手环连接设置</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">来电</string>
     <string name="pref_call_title">来电设置</string>
     <string name="pref_call_summary_on">开 (不要忘记关闭Mi Fit应用里的提醒)</string>
