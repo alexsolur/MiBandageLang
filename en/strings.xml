@@ -74,17 +74,17 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Connection</string>
-    <string name="pref_connected_summary">Band and phone connection signals and settings</string>
+    <string name="pref_connected_summary">%1$s and phone connection signals and settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_connected_signals">Connection signals</string>
-    <string name="pref_connected_signals_summary">Band connecting and not have notification</string>
-    <string name="pref_cat_connected_signals_mi_band">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_signals_summary">%1$s connecting and not have notification</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_connected_signals_mi_band">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Vibration</string>
     <string name="pref_cat_connected_signals">Phone signals</string>
     <string name="pref_connected_wakelock_title">Wake up the phone screen</string>
 
     <string name="pref_connected_settings">Connection settings</string>
-    <string name="pref_connected_settings_summary">Band and phone connection settings</string>
+    <string name="pref_connected_settings_summary">%1$s and phone connection settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_settings">Phone settings</string>
     <string name="pref_connected_volume_title">Adjust the volume</string>
     <string name="pref_connected_volume_ring_title">Ring volume</string>
@@ -105,11 +105,11 @@
     <string name="pref_connected_have_notif_pre_signal_summary_on">Signal (click on the icon to change it) before the actual notification in order to have more time to look at the display</string>
 
     <string name="pref_disconnected">Disconnection</string>
-    <string name="pref_disconnected_summary">Band and phone disconnection signals and settings</string>
+    <string name="pref_disconnected_summary">%1$s and phone disconnection signals and settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_disconnected_signals">Disconnection signals</string>
-    <string name="pref_disconnected_signals_summary">Band and phone disconnection signals, it does not signal when the bluetooth is turned off manually</string>
-    <string name="pref_cat_disconnected_signals_mi_band">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_signals_summary">%1$s and phone disconnection signals, it does not signal when the bluetooth is turned off manually</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_signals_mi_band">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Icon displaying and vibration</string>
     <string name="pref_cat_disconnected_signals">Phone signals</string>
     <string name="pref_disconnected_ringtone_title">Ringtone</string>
@@ -117,7 +117,7 @@
     <string name="pref_disconnected_wakelock_title">Wake up the phone screen</string>
 
     <string name="pref_disconnected_settings">Disconnection settings</string>
-    <string name="pref_disconnected_settings_summary">Band and phone disconnection settings</string>
+    <string name="pref_disconnected_settings_summary">%1$s and phone disconnection settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_disconnected_settings">Phone settings</string>
     <string name="pref_disconnected_volume_title">Adjust the volume</string>
     <string name="pref_disconnected_volume_ring_title">Ring volume</string>
@@ -135,7 +135,7 @@
     <string name="pref_abandoned_notif_title">The phone is lost</string>
 
     <string name="pref_call">Call</string>
-    <string name="pref_call_summary">Band signal settings</string>
+    <string name="pref_call_summary">%1$s signal settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Incoming call</string>
     <string name="pref_call_title">Incoming call signal</string>
     <string name="pref_call_summary_on">On (do not forget to turn off incoming call alerts on Mi Fit app)</string>
