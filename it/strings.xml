@@ -74,17 +74,17 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Connessione</string>
-    <string name="pref_connected_summary">Imposta comportamento alla connessione dispositivo e Band</string>
+    <string name="pref_connected_summary">Imposta comportamento alla connessione dispositivo e %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_connected_signals">Notifica connessione</string>
-    <string name="pref_connected_signals_summary">Abilitare o no notifica connessione Band</string>
-    <string name="pref_cat_connected_signals_mi_band">Notifiche %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_signals_summary">Abilitare o no notifica connessione %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_connected_signals_mi_band">Notifiche %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Vibrazione</string>
     <string name="pref_cat_connected_signals">Notifica dispositivo</string>
     <string name="pref_connected_wakelock_title">Accendi schermo dispositivo</string>
 
     <string name="pref_connected_settings">Imposta connessione</string>
-    <string name="pref_connected_settings_summary">Impostazioni connessione Band e dispositivo</string>
+    <string name="pref_connected_settings_summary">Impostazioni connessione %1$s e dispositivo</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_settings">Impostazioni dispositivo</string>
     <string name="pref_connected_volume_title">Cambia volume</string>
     <string name="pref_connected_volume_ring_title">Volume suoneria</string>
@@ -105,11 +105,11 @@
     <string name="pref_connected_have_notif_pre_signal_summary_on">Notifica (clicca sull\'icona per cambiarla) prima di far vedere la notifica ricevuta per avere il tempo di guardare lo schermo</string>
 
     <string name="pref_disconnected">Disconnessione</string>
-    <string name="pref_disconnected_summary">Imposta comportamento in caso di disconnessione tra dispositivo e Band</string>
+    <string name="pref_disconnected_summary">Imposta comportamento in caso di disconnessione tra dispositivo e %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_disconnected_signals">Notifica disconnessione</string>
-    <string name="pref_disconnected_signals_summary">Notifica disconnessione tra Band e dispositivo, nessuna notifica quando viene spento manualmente il bluetooth</string>
-    <string name="pref_cat_disconnected_signals_mi_band">Notifiche %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_signals_summary">Notifica disconnessione tra %1$s e dispositivo, nessuna notifica quando viene spento manualmente il bluetooth</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_signals_mi_band">Notifiche %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Mostra icona</string>
     <string name="pref_cat_disconnected_signals">Notifiche dispositivo</string>
     <string name="pref_disconnected_ringtone_title">Suoneria</string>
@@ -117,7 +117,7 @@
     <string name="pref_disconnected_wakelock_title">Attiva display dispositivo</string>
 
     <string name="pref_disconnected_settings">Imposta disconnessione</string>
-    <string name="pref_disconnected_settings_summary">Imposta disconnesione tra Band e dispositivo</string>
+    <string name="pref_disconnected_settings_summary">Imposta disconnesione tra %1$s e dispositivo</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_disconnected_settings">Imposta dispositivo</string>
     <string name="pref_disconnected_volume_title">Cambia volume</string>
     <string name="pref_disconnected_volume_ring_title">Volume suoneria</string>
@@ -135,7 +135,7 @@
     <string name="pref_abandoned_notif_title">Dispositivo smarrito</string>
 
     <string name="pref_call">Chiamata</string>
-    <string name="pref_call_summary">Imposta notifiche su Band</string>
+    <string name="pref_call_summary">Imposta notifiche su %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Ricezione chiamate</string>
     <string name="pref_call_title">Notifica chiamata in arrivo</string>
     <string name="pref_call_summary_on">On (ricorda di disattivare la notifica per le chiamate ricevute dall\'app Mi Fit)</string>
