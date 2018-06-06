@@ -74,17 +74,17 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Conexão</string>
-    <string name="pref_connected_summary">Sinal da Band e do dispositivo</string>
+    <string name="pref_connected_summary">Sinal da %1$s e do dispositivo</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_connected_signals">Sinais de conexão</string>
-    <string name="pref_connected_signals_summary">Aviso ao se conectar com a Band</string>
-    <string name="pref_cat_connected_signals_mi_band">Aviso da %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_signals_summary">Aviso ao se conectar com a %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_connected_signals_mi_band">Aviso da %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Vibração</string>
     <string name="pref_cat_connected_signals">Aviso do dispositivo</string>
     <string name="pref_connected_wakelock_title">Acordar o ecrã do dispositivo</string>
 
     <string name="pref_connected_settings">Definições de conexão</string>
-    <string name="pref_connected_settings_summary">Definições de conexão da Band e do dispositivo</string>
+    <string name="pref_connected_settings_summary">Definições de conexão da %1$s e do dispositivo</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_settings">Definições do dispositivo</string>
     <string name="pref_connected_volume_title">Alterar volume</string>
     <string name="pref_connected_volume_ring_title">Volme do toque</string>
@@ -105,11 +105,11 @@
     <string name="pref_connected_have_notif_pre_signal_summary_on">Avisar antes da notificação real, a fim de ter mais tempo para olhar para o ecrã. (clique no ícone para o modificar)</string>
 
     <string name="pref_disconnected">Desconexão</string>
-    <string name="pref_disconnected_summary">Sinal da Band e do dispositivo</string>
+    <string name="pref_disconnected_summary">Sinal da %1$s e do dispositivo</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_disconnected_signals">Sinais de desconexão</string>
-    <string name="pref_disconnected_signals_summary">Aviso ao se desconectar da Band</string>
-    <string name="pref_cat_disconnected_signals_mi_band">Aviso da %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_signals_summary">Aviso ao se desconectar da %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_signals_mi_band">Aviso da %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Mostrar ícone</string>
     <string name="pref_cat_disconnected_signals">Dispositivo</string>
     <string name="pref_disconnected_ringtone_title">Toque</string>
@@ -117,7 +117,7 @@
     <string name="pref_disconnected_wakelock_title">Acordar o dispositivo</string>
 
     <string name="pref_disconnected_settings">Deiniçções de desconexão</string>
-    <string name="pref_disconnected_settings_summary">Definições da Band e o dispositivo</string>
+    <string name="pref_disconnected_settings_summary">Definições da %1$s e o dispositivo</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_disconnected_settings">Deefinições do dispositivo</string>
     <string name="pref_disconnected_volume_title">Alterar volume</string>
     <string name="pref_disconnected_volume_ring_title">Volume do toque</string>
@@ -135,7 +135,7 @@
     <string name="pref_abandoned_notif_title">O dispositivo está perdido</string>
 
     <string name="pref_call">Chamadas</string>
-    <string name="pref_call_summary">Sinal da Band</string>
+    <string name="pref_call_summary">Sinal da %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Chamada recebida</string>
     <string name="pref_call_title">Aviso de chamada recebida</string>
     <string name="pref_call_summary_on">Ligado (não te esqueças de desligar incoming call alerts na aplicação \'Mi Fit\')</string>
