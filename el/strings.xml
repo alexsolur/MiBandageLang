@@ -74,17 +74,17 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Ρυθμίσεις σύνδεσης</string>
-    <string name="pref_connected_summary">Band και ρυθμίσεις σήματος σύνδεση της συσκευής</string>
+    <string name="pref_connected_summary">%1$s και ρυθμίσεις σήματος σύνδεση της συσκευής</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_connected_signals">Σήματα σύνδεσης</string>
-    <string name="pref_connected_signals_summary">Band συνδέεται και δεν έχει ειδοποιήσεις</string>
-    <string name="pref_cat_connected_signals_mi_band">Σήμα %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_signals_summary">%1$s συνδέεται και δεν έχει ειδοποιήσεις</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_connected_signals_mi_band">Σήμα %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Δόνηση</string>
     <string name="pref_cat_connected_signals">Σημάτα συσκευής</string>
     <string name="pref_connected_wakelock_title">Αφύπνιση οθόνης της συσκευής</string>
 
     <string name="pref_connected_settings">Ρυθμίσεις σύνδεσης</string>
-    <string name="pref_connected_settings_summary">Band και ρυθμίσεις σήματος σύνδεσης συσκευής</string>
+    <string name="pref_connected_settings_summary">%1$s και ρυθμίσεις σήματος σύνδεσης συσκευής</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_settings">Ρυθμίσεις συσκευής</string>
     <string name="pref_connected_volume_title">Αλλαγή έντασης ήχου</string>
     <string name="pref_connected_volume_ring_title">Ένταση ήχου κλήσης</string>
@@ -105,11 +105,11 @@
     <string name="pref_connected_have_notif_pre_signal_summary_on">Σήμα (τροποποιήσιμο) πριν από την πραγματική ειδοποίηση, ώστε να έχουμε περισσότερο χρόνο για να δούμε την  οθόνη</string>
 
     <string name="pref_disconnected">Ρυθμίσεις αποσύνδεσης</string>
-    <string name="pref_disconnected_summary">Band και ρυθμίσεις σήματος αποσύνδεσης της συσκευή</string>
+    <string name="pref_disconnected_summary">%1$s και ρυθμίσεις σήματος αποσύνδεσης της συσκευή</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_disconnected_signals">Σήματα αποσύνδεσης</string>
-    <string name="pref_disconnected_signals_summary">Το Band και τα σήματα αποσύνδεσης της συσκευής, δεν σηματοδοτούνται όταν το Bluetooth απενεργοποιείται χειροκίνητα</string>
-    <string name="pref_cat_disconnected_signals_mi_band">Σήμα %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_signals_summary">Το %1$s και τα σήματα αποσύνδεσης της συσκευής, δεν σηματοδοτούνται όταν το Bluetooth απενεργοποιείται χειροκίνητα</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_signals_mi_band">Σήμα %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Εμφάνιση εικονιδίου</string>
     <string name="pref_cat_disconnected_signals">Σήμα συσκευής</string>
     <string name="pref_disconnected_ringtone_title">Ήχος κλήσης</string>
@@ -117,7 +117,7 @@
     <string name="pref_disconnected_wakelock_title">Αφύπνιση οθόνης της συσκευής</string>
 
     <string name="pref_disconnected_settings">Ρυθμίσεις αποσύνδεσης</string>
-    <string name="pref_disconnected_settings_summary">Το Band και τα σήματα αποσύνδεσης της συσκευής</string>
+    <string name="pref_disconnected_settings_summary">Το %1$s και τα σήματα αποσύνδεσης της συσκευής</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_disconnected_settings">Ρυθμίσεις συσκευής</string>
     <string name="pref_disconnected_volume_title">Αλλαγή έντασης ήχου</string>
     <string name="pref_disconnected_volume_ring_title">Ένταση ήχου κλήσης</string>
@@ -135,7 +135,7 @@
     <string name="pref_abandoned_notif_title">Η συσκευή έχει χαθεί</string>
 
     <string name="pref_call">Ρυθμίσεις κλήσης</string>
-    <string name="pref_call_summary">Ρυθμίσεις σήματος Band</string>
+    <string name="pref_call_summary">Ρυθμίσεις σήματος %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Εισερχόμενη κλήση</string>
     <string name="pref_call_title">Σήμα εισερχόμενης κλήσης</string>
     <string name="pref_call_summary_on">Ενεργό (μην ξεχάσετε να απενεργοποιήσετε ειδοποιήσεις εισερχόμενων κλήσεων (incoming call alerts) στήν εφαρμογή Mi Fit)</string>
