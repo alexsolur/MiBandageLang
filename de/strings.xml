@@ -74,17 +74,17 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Verbindung</string>
-    <string name="pref_connected_summary">Einstellungen zur Verbindung zwischen Band und Gerät</string>
+    <string name="pref_connected_summary">Einstellungen zur Verbindung zwischen %1$s und Gerät</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_connected_signals">Verbindungssignale</string>
-    <string name="pref_connected_signals_summary">Band verbunden, keine Benachrichtigungen</string>
-    <string name="pref_cat_connected_signals_mi_band">%1$s Signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_signals_summary">%1$s verbunden, keine Benachrichtigungen</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_connected_signals_mi_band">%1$s Signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Vibration</string>
     <string name="pref_cat_connected_signals">Gerätesignal</string>
     <string name="pref_connected_wakelock_title">Gerätebildschirm aufwecken</string>
 
     <string name="pref_connected_settings">Verbindungseinstellungen</string>
-    <string name="pref_connected_settings_summary">Verbindungseinstellungen zu Band und Telefon</string>
+    <string name="pref_connected_settings_summary">Verbindungseinstellungen zu %1$s und Telefon</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_settings">Gerätesignal</string>
     <string name="pref_connected_volume_title">Lautstärke ändern</string>
     <string name="pref_connected_volume_ring_title">Klingellautstärke</string>
@@ -105,11 +105,11 @@
     <string name="pref_connected_have_notif_pre_signal_summary_on">Signal (tippen Sie auf das Emblem, um es zu ändern) vor der Anzeige des Emblems, um mehr Zeit für das Erkennen des Emblems zu haben.</string>
 
     <string name="pref_disconnected">Verbindungstrennung</string>
-    <string name="pref_disconnected_summary">Einstellungen des Signals, falls die Verbindung zwischen dem Band und dem Telefon getrennt wird</string>
+    <string name="pref_disconnected_summary">Einstellungen des Signals, falls die Verbindung zwischen dem %1$s und dem Telefon getrennt wird</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_disconnected_signals">Signale bei Verbindungstrennung</string>
-    <string name="pref_disconnected_signals_summary">Signale bei Verbindungstrennung zwischen Band und Telefon, werden nicht ausgesendet, wenn Bluetooth manuell deaktiviert wird</string>
-    <string name="pref_cat_disconnected_signals_mi_band">%1$s Signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_signals_summary">Signale bei Verbindungstrennung zwischen %1$s und Telefon, werden nicht ausgesendet, wenn Bluetooth manuell deaktiviert wird</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_signals_mi_band">%1$s Signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Anzeige des Emblems</string>
     <string name="pref_cat_disconnected_signals">Gerätesignal</string>
     <string name="pref_disconnected_ringtone_title">Klingelton</string>
@@ -117,7 +117,7 @@
     <string name="pref_disconnected_wakelock_title">Gerätebildschirm aufwecken</string>
 
     <string name="pref_disconnected_settings">Einstellungen zur Verbindungstrennung</string>
-    <string name="pref_disconnected_settings_summary">Einstellungen bei Verbindungstrennung zwischen Band und Telefon</string>
+    <string name="pref_disconnected_settings_summary">Einstellungen bei Verbindungstrennung zwischen %1$s und Telefon</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_disconnected_settings">Telefoneinstellungen</string>
     <string name="pref_disconnected_volume_title">Lautstärke ändern</string>
     <string name="pref_disconnected_volume_ring_title">Lautstärke des Klingeltons</string>
@@ -135,7 +135,7 @@
     <string name="pref_abandoned_notif_title">Gerät verloren</string>
 
     <string name="pref_call">Anruf</string>
-    <string name="pref_call_summary">Einstellungen zu dem Signal des Mi Bands 2</string>
+    <string name="pref_call_summary">Einstellungen zu dem Signal des %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Eingehender Anruf</string>
     <string name="pref_call_title">Signal eines eingehenden Anrufs</string>
     <string name="pref_call_summary_on">Aktiviert (Vergessen Sie nicht, den Alarm für eingehende Anrufe in der Mi Fit-App zu deaktivieren.)</string>
