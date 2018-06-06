@@ -74,17 +74,17 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Připojení</string>
-    <string name="pref_connected_summary">Nastavení oznámení při připojení náramku k zařízení</string>
+    <string name="pref_connected_summary">Nastavení oznámení při připojení %1$s k zařízení</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_connected_signals">Oznámení při připojení</string>
-    <string name="pref_connected_signals_summary">Náramek se připojuje</string>
-    <string name="pref_cat_connected_signals_mi_band">Oznámení na %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_signals_summary">%1$s se připojuje</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_connected_signals_mi_band">Oznámení na %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Vibrace</string>
     <string name="pref_cat_connected_signals">Oznámení na zařízení</string>
     <string name="pref_connected_wakelock_title">Probuzení obrazovky zařízení</string>
 
     <string name="pref_connected_settings">Nastavení připojeného náramku</string>
-    <string name="pref_connected_settings_summary">Nastavení při připojení zařízení s náramkem</string>
+    <string name="pref_connected_settings_summary">Nastavení při připojení zařízení s %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_settings">Nastavení zařízení</string>
     <string name="pref_connected_volume_title">Změna hlasitosti</string>
     <string name="pref_connected_volume_ring_title">Hlasitost vyzvánění</string>
@@ -105,11 +105,11 @@
     <string name="pref_connected_have_notif_pre_signal_summary_on">Oznámení (klikněte na ikonu pro změnu) před vlastním upozorněním, abyste měli více času na pohled na displej</string>
 
     <string name="pref_disconnected">Odpojení</string>
-    <string name="pref_disconnected_summary">Nastavení oznámení při odpojení náramku od zařízení</string>
+    <string name="pref_disconnected_summary">Nastavení oznámení při odpojení %1$s od zařízení</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_disconnected_signals">Oznámení odpojení</string>
-    <string name="pref_disconnected_signals_summary">Oznámení na náramku a na odpojeném zařízení (oznámení se nezobrazuje, pokud je bluetooth vypnut ručně)</string>
-    <string name="pref_cat_disconnected_signals_mi_band">Oznámení na %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_signals_summary">Oznámení na %1$s a na odpojeném zařízení (oznámení se nezobrazuje, pokud je bluetooth vypnut ručně)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_signals_mi_band">Oznámení na %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Zobrazování ikony a vibrace</string>
     <string name="pref_cat_disconnected_signals">Oznámení na zařízení</string>
     <string name="pref_disconnected_ringtone_title">Vyzvánění</string>
@@ -117,7 +117,7 @@
     <string name="pref_disconnected_wakelock_title">Probudit obrazovku zařízení</string>
 
     <string name="pref_disconnected_settings">Nastavení odpojení</string>
-    <string name="pref_disconnected_settings_summary">Nastavení při odpojení náramku od zařízení</string>
+    <string name="pref_disconnected_settings_summary">Nastavení při odpojení %1$s od zařízení</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_disconnected_settings">Nastavení zařízení</string>
     <string name="pref_disconnected_volume_title">Změna hlasitosti</string>
     <string name="pref_disconnected_volume_ring_title">Hlasitost vyzvánění</string>
@@ -135,7 +135,7 @@
     <string name="pref_abandoned_notif_title">Zařízení je ztraceno</string>
 
     <string name="pref_call">Hovor</string>
-    <string name="pref_call_summary">Nastavení oznámení na náramku</string>
+    <string name="pref_call_summary">Nastavení oznámení na %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Příchozí hovor</string>
     <string name="pref_call_title">Oznámení příchozího hovoru</string>
     <string name="pref_call_summary_on">Zapnuto (nezapomeňte vypnout upozornění na příchozí volání v aplikaci Mi Fit)</string>
