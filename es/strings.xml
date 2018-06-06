@@ -74,17 +74,17 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Conexión</string>
-    <string name="pref_connected_summary">Band y señales de conexión del dispositivo y ajustes</string>
+    <string name="pref_connected_summary">%1$s y señales de conexión del dispositivo y ajustes</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_connected_signals">Señales de conexión</string>
-    <string name="pref_connected_signals_summary">Band conectando y no tiene notificación</string>
-    <string name="pref_cat_connected_signals_mi_band">Señal de %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_signals_summary">%1$s conectando y no tiene notificación</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_connected_signals_mi_band">Señal de %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Vibración</string>
     <string name="pref_cat_connected_signals">Señales del dispositivo</string>
     <string name="pref_connected_wakelock_title">Encender pantalla del dispositivo</string>
 
     <string name="pref_connected_settings">Configuración de la conexión</string>
-    <string name="pref_connected_settings_summary">Band y configuración de conexión del dispositivo</string>
+    <string name="pref_connected_settings_summary">%1$s y configuración de conexión del dispositivo</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_settings">Configuración de dispositivo</string>
     <string name="pref_connected_volume_title">Cambiar volumen</string>
     <string name="pref_connected_volume_ring_title">Volumen del timbre</string>
@@ -105,11 +105,11 @@
     <string name="pref_connected_have_notif_pre_signal_summary_on">Alerta (pulse el icono para cambiarlo)para dar más tiempo a ver el mensaje en la pantalla</string>
 
     <string name="pref_disconnected">Desconexión</string>
-    <string name="pref_disconnected_summary">Band y señales de desconexión del dispositivo y ajustes</string>
+    <string name="pref_disconnected_summary">%1$s y señales de desconexión del dispositivo y ajustes</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_disconnected_signals">Señales de desconexión</string>
-    <string name="pref_disconnected_signals_summary">Band y las señales de desconexión del dispositivo, no se muestran cuando el bluetooth se apaga manualmente</string>
-    <string name="pref_cat_disconnected_signals_mi_band">Señal de %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_signals_summary">%1$s y las señales de desconexión del dispositivo, no se muestran cuando el bluetooth se apaga manualmente</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_signals_mi_band">Señal de %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Icono de visualización y vibración</string>
     <string name="pref_cat_disconnected_signals">Señales del dispositivo</string>
     <string name="pref_disconnected_ringtone_title">Melodía</string>
@@ -117,7 +117,7 @@
     <string name="pref_disconnected_wakelock_title">Encender pantalla del dispositivo</string>
 
     <string name="pref_disconnected_settings">Configuraciones de desconexión</string>
-    <string name="pref_disconnected_settings_summary">Band y la configuración de desconexión del dispositivo</string>
+    <string name="pref_disconnected_settings_summary">%1$s y la configuración de desconexión del dispositivo</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_disconnected_settings">Configuración de dispositivo</string>
     <string name="pref_disconnected_volume_title">Cambiar volumen</string>
     <string name="pref_disconnected_volume_ring_title">Volumen del timbre</string>
@@ -135,7 +135,7 @@
     <string name="pref_abandoned_notif_title">El dispositivo está extraviado</string>
 
     <string name="pref_call">Llamada</string>
-    <string name="pref_call_summary">Configuraciones de señal de Band</string>
+    <string name="pref_call_summary">Configuraciones de señal de %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Llamada entrante</string>
     <string name="pref_call_title">Señal de llamada entrante</string>
     <string name="pref_call_summary_on">Encender (no olvide desactivar las alertas de llamadas entrantes en la aplicacion Mi Fit)</string>
