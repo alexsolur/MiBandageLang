@@ -74,17 +74,17 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Настройки соединения</string>
-    <string name="pref_connected_summary">Настройки соединения Band и устройства</string>
+    <string name="pref_connected_summary">Настройки соединения %1$s и устройства</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_connected_signals">Уведомления при соединении</string>
-    <string name="pref_connected_signals_summary">Присоединение Band в отсутствие новых уведомлений</string>
-    <string name="pref_cat_connected_signals_mi_band">Уведомление %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_signals_summary">Присоединение %1$s в отсутствие новых уведомлений</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_connected_signals_mi_band">Уведомление %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Вибрация</string>
     <string name="pref_cat_connected_signals">Уведомление устройства</string>
     <string name="pref_connected_wakelock_title">Активировать экран устройства</string>
 
     <string name="pref_connected_settings">Настройки соединения</string>
-    <string name="pref_connected_settings_summary">Настройки соединения Band и устройства</string>
+    <string name="pref_connected_settings_summary">Настройки соединения %1$s и устройства</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_settings">Настройки устройства</string>
     <string name="pref_connected_volume_title">Изменить громкость</string>
     <string name="pref_connected_volume_ring_title">Громкость звонка</string>
@@ -105,11 +105,11 @@
     <string name="pref_connected_have_notif_pre_signal_summary_on">Уведомление (настраиваемое) перед настоящим уведомлением, чтобы успеть увидеть его на Band</string>
 
     <string name="pref_disconnected">Настройки разъединения</string>
-    <string name="pref_disconnected_summary">Настройки отсоединения Band</string>
+    <string name="pref_disconnected_summary">Настройки отсоединения %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_disconnected_signals">Уведомления разъединения</string>
-    <string name="pref_disconnected_signals_summary">Уведомления отсоединения Band, не уведомляет при вручную отключённом Bluetooth</string>
-    <string name="pref_cat_disconnected_signals_mi_band">Уведомление %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_signals_summary">Уведомления отсоединения %1$s, не уведомляет при вручную отключённом Bluetooth</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_signals_mi_band">Уведомление %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Отображение иконки</string>
     <string name="pref_cat_disconnected_signals">Сигналы при отсоединении</string>
     <string name="pref_disconnected_ringtone_title">Рингтон</string>
@@ -117,7 +117,7 @@
     <string name="pref_disconnected_wakelock_title">Активировать экран устройства</string>
 
     <string name="pref_disconnected_settings">Настройки разъединения</string>
-    <string name="pref_disconnected_settings_summary">Настройки отсоединения Band</string>
+    <string name="pref_disconnected_settings_summary">Настройки отсоединения %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_disconnected_settings">Настройки устройства</string>
     <string name="pref_disconnected_volume_title">Изменить громкость</string>
     <string name="pref_disconnected_volume_ring_title">Громкость звонка</string>
@@ -135,7 +135,7 @@
     <string name="pref_abandoned_notif_title">Устройство утеряно</string>
 
     <string name="pref_call">Настройки звонков</string>
-    <string name="pref_call_summary">Настройки уведомлений Band</string>
+    <string name="pref_call_summary">Настройки уведомлений %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Входящий звонок</string>
     <string name="pref_call_title">Уведомление о входящем звонке</string>
     <string name="pref_call_summary_on">Включено (не забудьте отключить эти уведомления в Mi Fit)</string>
