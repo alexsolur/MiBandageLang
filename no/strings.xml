@@ -74,17 +74,17 @@
 
     <!-- Skjerm-instilling -->
     <string name="pref_connected">Tilkobling</string>
-    <string name="pref_connected_summary">Band og telefon tilkoblings-signaler og instillinger</string>
+    <string name="pref_connected_summary">%1$s og telefon tilkoblings-signaler og instillinger</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_connected_signals">Tilkoblings-signaler</string>
-    <string name="pref_connected_signals_summary">Band-tilkobling og ikke få notifikasjon</string>
-    <string name="pref_cat_connected_signals_mi_band">%1$s-signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_signals_summary">%1$s-tilkobling og ikke få notifikasjon</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_connected_signals_mi_band">%1$s-signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Vibrasjon</string>
     <string name="pref_cat_connected_signals">Telefon-signaler</string>
     <string name="pref_connected_wakelock_title">Vekk telefonens skjerm</string>
 
     <string name="pref_connected_settings">Tilkoblings-instillinger</string>
-    <string name="pref_connected_settings_summary">Band og telefon-tilkoblings instillinger</string>
+    <string name="pref_connected_settings_summary">%1$s og telefon-tilkoblings instillinger</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_settings">Telefon-instillinger</string>
     <string name="pref_connected_volume_title">Endre volum</string>
     <string name="pref_connected_volume_ring_title">Anrops-volum</string>
@@ -105,11 +105,11 @@
     <string name="pref_connected_have_notif_pre_signal_summary_on">Signal (trykk på ikonet for å forandre det) før den aktuelle notifikasjon for å ha mer tid å se på displayet</string>
 
     <string name="pref_disconnected">Frakobling</string>
-    <string name="pref_disconnected_summary">Band og telefon frakoblings-signaler og instillinger</string>
+    <string name="pref_disconnected_summary">%1$s og telefon frakoblings-signaler og instillinger</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_disconnected_signals">Frakobling signaler</string>
-    <string name="pref_disconnected_signals_summary">Band og telefon frakoblings-signaler, det signaliseres ikke når bluetooth er skrudd av manuelt</string>
-    <string name="pref_cat_disconnected_signals_mi_band">%1$s-signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_signals_summary">%1$s og telefon frakoblings-signaler, det signaliseres ikke når bluetooth er skrudd av manuelt</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_signals_mi_band">%1$s-signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Ikon-visning og vibrasjon</string>
     <string name="pref_cat_disconnected_signals">Telefon-signaler</string>
     <string name="pref_disconnected_ringtone_title">Ringetone</string>
@@ -117,7 +117,7 @@
     <string name="pref_disconnected_wakelock_title">Vekk opp telefon-skjermen</string>
 
     <string name="pref_disconnected_settings">Frakoblings-instillinger</string>
-    <string name="pref_disconnected_settings_summary">Band og telefon frakobling instillinger</string>
+    <string name="pref_disconnected_settings_summary">%1$s og telefon frakobling instillinger</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_disconnected_settings">Telefon-instillinger</string>
     <string name="pref_disconnected_volume_title">Justere volumet</string>
     <string name="pref_disconnected_volume_ring_title">Ringe-volum</string>
@@ -135,7 +135,7 @@
     <string name="pref_abandoned_notif_title">Telefonen er mistet</string>
 
     <string name="pref_call">Anrop</string>
-    <string name="pref_call_summary">Band signal-instillinger</string>
+    <string name="pref_call_summary">%1$s signal-instillinger</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Inkommende anrop</string>
     <string name="pref_call_title">Inkommende anrops-signal</string>
     <string name="pref_call_summary_on">På (Ikke glem å skru av inkommende anrops-varsler på Mi Fit appen)</string>
