@@ -74,17 +74,17 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Koneksi</string>
-    <string name="pref_connected_summary">Pengaturan sinyal Band dan koneksi perangkat</string>
+    <string name="pref_connected_summary">Pengaturan sinyal %1$s dan koneksi perangkat</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_connected_signals">Sinyal/Tanda koneksi</string>
-    <string name="pref_connected_signals_summary">Band sedang menghubungkan dan tidak ada notifikasi</string>
-    <string name="pref_cat_connected_signals_mi_band">Tanda %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_signals_summary">%1$s sedang menghubungkan dan tidak ada notifikasi</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_connected_signals_mi_band">Tanda %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Bergetar</string>
     <string name="pref_cat_connected_signals">Tanda pada perangkat</string>
     <string name="pref_connected_wakelock_title">Nyalakan layar perangkat</string>
 
     <string name="pref_connected_settings">Pengaturan koneksi</string>
-    <string name="pref_connected_settings_summary">Band dan pengaturan koneksi perangkat</string>
+    <string name="pref_connected_settings_summary">%1$s dan pengaturan koneksi perangkat</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_settings">Pengaturan perangkat</string>
     <string name="pref_connected_volume_title">Atur volume</string>
     <string name="pref_connected_volume_ring_title">Volume dering</string>
@@ -105,11 +105,11 @@
     <string name="pref_connected_have_notif_pre_signal_summary_on">Sinyal (klik pada icon untuk mengubahnya) sebelum notifikasi yang sebenarnya agar lebih banyak waktu untuk melihat tampilan</string>
 
     <string name="pref_disconnected">Pemutusan</string>
-    <string name="pref_disconnected_summary">Pengaturan Band dan pemutusan sinyal perangkat</string>
+    <string name="pref_disconnected_summary">Pengaturan %1$s dan pemutusan sinyal perangkat</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_disconnected_signals">Tanda/sinyal perangkat terputus</string>
-    <string name="pref_disconnected_signals_summary">Band dan pengaturan pemutusan perangkat, tidak ada tanda/sinyal apabila Bluetooth dimatikan secara manual</string>
-    <string name="pref_cat_disconnected_signals_mi_band">Tanda %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_signals_summary">%1$s dan pengaturan pemutusan perangkat, tidak ada tanda/sinyal apabila Bluetooth dimatikan secara manual</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_signals_mi_band">Tanda %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Penampilan ikon</string>
     <string name="pref_cat_disconnected_signals">Sinyal/tanda perangkat</string>
     <string name="pref_disconnected_ringtone_title">Nada dering</string>
@@ -117,7 +117,7 @@
     <string name="pref_disconnected_wakelock_title">Hidupkan layar perangkat</string>
 
     <string name="pref_disconnected_settings">Pengaturan pemutusan sambungan</string>
-    <string name="pref_disconnected_settings_summary">Band dan pengaturan pemutusan perangkat</string>
+    <string name="pref_disconnected_settings_summary">%1$s dan pengaturan pemutusan perangkat</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_disconnected_settings">Pengaturan perangkat</string>
     <string name="pref_disconnected_volume_title">Atur volume</string>
     <string name="pref_disconnected_volume_ring_title">Volume dering</string>
@@ -135,7 +135,7 @@
     <string name="pref_abandoned_notif_title">Perangkat hilang</string>
 
     <string name="pref_call">Panggilan</string>
-    <string name="pref_call_summary">pengaturan tanda Band</string>
+    <string name="pref_call_summary">pengaturan tanda %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Panggilan masuk</string>
     <string name="pref_call_title">Tanda panggilan masuk</string>
     <string name="pref_call_summary_on">Aktif (jangan lupa mematikan tanda panggilan masuk pada apl Mi Fit)</string>
