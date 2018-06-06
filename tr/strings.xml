@@ -74,17 +74,17 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Bağlanınca</string>
-    <string name="pref_connected_summary">Bağlanınca yapılacak bildirim ve ayarları</string>
+    <string name="pref_connected_summary">%1$s bağlanınca yapılacak bildirim ve ayarları</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_connected_signals">Bildirimler</string>
-    <string name="pref_connected_signals_summary">Bağlanınca yapılacak bildirimler</string>
-    <string name="pref_cat_connected_signals_mi_band">%1$s sinyali</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_signals_summary">%1$s bağlanınca yapılacak bildirimler</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_connected_signals_mi_band">%1$s sinyali</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Titreşim</string>
     <string name="pref_cat_connected_signals">Telefon</string>
     <string name="pref_connected_wakelock_title">Ekranı aç</string>
 
     <string name="pref_connected_settings">Ayarlar</string>
-    <string name="pref_connected_settings_summary">Bağlanınca yapılacak ayarlar</string>
+    <string name="pref_connected_settings_summary">%1$s bağlanınca yapılacak ayarlar</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_settings">Telefon</string>
     <string name="pref_connected_volume_title">Ses yüksekliğini ayarla</string>
     <string name="pref_connected_volume_ring_title">Zil sesi seviyesi</string>
@@ -105,11 +105,11 @@
     <string name="pref_connected_have_notif_pre_signal_summary_on">Bileklikteki bildiriyi kaçırmamak için bildiriden önce simge gösterilir (simgeyi tıklayarak değiştirebilirsiniz)</string>
 
     <string name="pref_disconnected">Bağlantı kopunca</string>
-    <string name="pref_disconnected_summary">Bağlantı kopunca yapılacak bildirim ve ayarları</string>
+    <string name="pref_disconnected_summary">%1$s bağlantı kopunca yapılacak bildirim ve ayarları</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_disconnected_signals">Bildirimler</string>
-    <string name="pref_disconnected_signals_summary">Bağlantı kopunca yapılacak bildirimler (bluetooth kapalıyken bildirim yapılamaz)</string>
-    <string name="pref_cat_disconnected_signals_mi_band">%1$s sinyali</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_signals_summary">%1$s Bağlantı kopunca yapılacak bildirimler (bluetooth kapalıyken bildirim yapılamaz)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_signals_mi_band">%1$s sinyali</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Titreşim ve uyarı simgesi</string>
     <string name="pref_cat_disconnected_signals">Telefon</string>
     <string name="pref_disconnected_ringtone_title">Zil sesi ile uyarı</string>
@@ -117,7 +117,7 @@
     <string name="pref_disconnected_wakelock_title">Telefon ekranını aç</string>
 
     <string name="pref_disconnected_settings">Ayarlar</string>
-    <string name="pref_disconnected_settings_summary">Bağlantı kopunca yapılacak ayarlar</string>
+    <string name="pref_disconnected_settings_summary">%1$s Bağlantı kopunca yapılacak ayarlar</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_disconnected_settings">Telefon</string>
     <string name="pref_disconnected_volume_title">Ses yüksekliğini ayarla</string>
     <string name="pref_disconnected_volume_ring_title">Zil sesi seviyesi</string>
@@ -135,7 +135,7 @@
     <string name="pref_abandoned_notif_title">Bu telefon kaybedilmiştir</string>
 
     <string name="pref_call">Arama</string>
-    <string name="pref_call_summary">Çağrı anında bileklik bildirim ayarları</string>
+    <string name="pref_call_summary">Çağrı anında %1$s bildirim ayarları</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Gelen arama</string>
     <string name="pref_call_title">Gelen arama bildirimi</string>
     <string name="pref_call_summary_on">Açık (Mi Fit uygulamasında gelen çağrı uyarılarını kapatmayı unutmayın, yoksa çift bildirim gelir.)</string>
