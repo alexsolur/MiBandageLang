@@ -74,17 +74,17 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Connexion</string>
-    <string name="pref_connected_summary">Réglages des alertes de connexion du Band et du mobile</string>
+    <string name="pref_connected_summary">Réglages des alertes de connexion du %1$s et du mobile</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_connected_signals">Alertes de connexion</string>
-    <string name="pref_connected_signals_summary">Le Band se connecte sans notification</string>
-    <string name="pref_cat_connected_signals_mi_band">Alertes du %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_signals_summary">Le %1$s se connecte sans notification</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_connected_signals_mi_band">Alertes du %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Vibration</string>
     <string name="pref_cat_connected_signals">Alertes du mobile</string>
     <string name="pref_connected_wakelock_title">Allumer l\'écran du mobile</string>
 
     <string name="pref_connected_settings">Réglages de la connexion</string>
-    <string name="pref_connected_settings_summary">Réglages de la connexion du Band et du mobile</string>
+    <string name="pref_connected_settings_summary">Réglages de la connexion du %1$s et du mobile</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_settings">Réglages du mobile</string>
     <string name="pref_connected_volume_title">Changer le volume</string>
     <string name="pref_connected_volume_ring_title">Niveau de la sonnerie</string>
@@ -105,11 +105,11 @@
     <string name="pref_connected_have_notif_pre_signal_summary_on">Alerter (cliquez sur l\'icône pour modifier) avant la notification afin d\'avoir plus de temps pour consulter sur l\'écran</string>
 
     <string name="pref_disconnected">Déconnexion</string>
-    <string name="pref_disconnected_summary">Réglages des alertes de déconnexion du Band et du mobile</string>
+    <string name="pref_disconnected_summary">Réglages des alertes de déconnexion du %1$s et du mobile</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_disconnected_signals">Alertes de déconnexion</string>
-    <string name="pref_disconnected_signals_summary">Alertes de déconnexion du Band et du mobile, aucune alerte ne sera transmise si le bluetooth est désactivé manuellement</string>
-    <string name="pref_cat_disconnected_signals_mi_band">Alertes du %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_signals_summary">Alertes de déconnexion du %1$s et du mobile, aucune alerte ne sera transmise si le bluetooth est désactivé manuellement</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_signals_mi_band">Alertes du %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Affichage de l\'icône et vibration</string>
     <string name="pref_cat_disconnected_signals">Alertes du mobile</string>
     <string name="pref_disconnected_ringtone_title">Type de sonnerie</string>
@@ -117,7 +117,7 @@
     <string name="pref_disconnected_wakelock_title">Allumer l\'écran du mobile</string>
 
     <string name="pref_disconnected_settings">Réglages de déconnexion</string>
-    <string name="pref_disconnected_settings_summary">Réglages de déconnexion du Band et du mobile</string>
+    <string name="pref_disconnected_settings_summary">Réglages de déconnexion du %1$s et du mobile</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_disconnected_settings">Réglages du mobile</string>
     <string name="pref_disconnected_volume_title">Régler le volume</string>
     <string name="pref_disconnected_volume_ring_title">Volume de la sonnerie</string>
@@ -135,7 +135,7 @@
     <string name="pref_abandoned_notif_title">Le mobile est égaré</string>
 
     <string name="pref_call">Appels</string>
-    <string name="pref_call_summary">Réglages d\'alerte du Band</string>
+    <string name="pref_call_summary">Réglages d\'alerte du %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Appels entrant</string>
     <string name="pref_call_title">Alerte sur appel entrant</string>
     <string name="pref_call_summary_on">Activé (ne pas oublier de couper les alertes sur appels entrant sur l\'appli Mi Fit)</string>
