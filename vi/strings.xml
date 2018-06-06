@@ -74,17 +74,16 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Cài đặt kết nối</string>
-    <string name="pref_connected_summary">Cài đặt tín hiệu kết nối trên Band và thiết bị </string>
-
+    <string name="pref_connected_summary">Cài đặt tín hiệu kết nối trên %1$s và thiết bị </string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_signals">Connection signals</string>
-    <string name="pref_connected_signals_summary">Band đang kết nối và không có thông báo</string>
-    <string name="pref_cat_connected_signals_mi_band">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_signals_summary">%1$s đang kết nối và không có thông báo</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_connected_signals_mi_band">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Tín hiệu Band</string>
     <string name="pref_cat_connected_signals">Device signals</string>
     <string name="pref_connected_wakelock_title">Sáng màn hình thiết bị</string>
 
     <string name="pref_connected_settings">Connection settings</string>
-    <string name="pref_connected_settings_summary">Band and device connection settings</string>
+    <string name="pref_connected_settings_summary">%1$s and device connection settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_settings">Device settings</string>
     <string name="pref_connected_volume_title">Adjust the volume</string>
     <string name="pref_connected_volume_ring_title">Ring volume</string>
@@ -105,11 +104,11 @@
     <string name="pref_connected_have_notif_pre_signal_summary_on">Tín hiệu (sửa đổi) trước khi thông báo thực tế để có thêm thời gian để nhìn vào màn hình Band</string>
 
     <string name="pref_disconnected">Cài đặt ngắt kết nối</string>
-    <string name="pref_disconnected_summary">Tín hiệu Band và thiết bị  khi bị ngắt kết nối </string>
+    <string name="pref_disconnected_summary">Tín hiệu %1$s và thiết bị  khi bị ngắt kết nối </string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_disconnected_signals">Disconnection signals</string>
-    <string name="pref_disconnected_signals_summary">Band and device disconnection signals, it does not signal when the bluetooth is turned off manually</string>
-    <string name="pref_cat_disconnected_signals_mi_band">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_signals_summary">%1$s and device disconnection signals, it does not signal when the bluetooth is turned off manually</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_signals_mi_band">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Hiển thị biểu tượng</string>
     <string name="pref_cat_disconnected_signals">Tín hiệu thiết bị</string>
     <string name="pref_disconnected_ringtone_title">Nhạc chuông</string>
@@ -117,7 +116,7 @@
     <string name="pref_disconnected_wakelock_title">Đánh thức màn hình thiết bị</string>
 
     <string name="pref_disconnected_settings">Disconnection settings</string>
-    <string name="pref_disconnected_settings_summary">Band and device disconnection settings</string>
+    <string name="pref_disconnected_settings_summary">%1$s and device disconnection settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_disconnected_settings">Device settings</string>
     <string name="pref_disconnected_volume_title">Adjust the volume</string>
     <string name="pref_disconnected_volume_ring_title">Ring volume</string>
@@ -135,7 +134,7 @@
     <string name="pref_abandoned_notif_title">Thiết bị này bị mất</string>
 
     <string name="pref_call">Cài đặt cuộc gọi</string>
-    <string name="pref_call_summary">Tín hiệu Band settings</string>
+    <string name="pref_call_summary">Tín hiệu %1$s settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Cuộc gọi đến</string>
     <string name="pref_call_title">Tín hiệu cuộc gọi đến</string>
     <string name="pref_call_summary_on">Bật (nhớ tắt thông báo cuộc gọi đến trong ứng dụng Mi Fit)</string>
