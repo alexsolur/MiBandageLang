@@ -28,7 +28,7 @@
 
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Время присоединения: %1$s</string>
-    <string name="foreground_service_disconnected_text">Band не подключен</string>
+    <string name="foreground_service_disconnected_text">%1$s не подключен</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <!--<string name="foreground_service_disconnected">Время разъединения: %1$s</string>-->
 
     <!-- Strings related to Settings -->
@@ -52,7 +52,7 @@
 
     <string name="mi_band_mac_address_invalid">Неверный MAC адрес</string>
 
-    <string name="mi_band_state_title">Настройки браслета</string>
+    <string name="mi_band_state_title">Настройки %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="mi_band_state_connected">Подключен</string>
     <string name="mi_band_state_disconnected">Отключен</string>
     <string name="mi_band_state_bonded">Соединённое устройство</string>
@@ -159,7 +159,7 @@
 
     <string name="pref_text_conversion">Настройки текста</string>
     <string name="pref_text_conversion_summary">Настройки текстовых иконок Band</string>
-    <string name="pref_cat_text_conversion">Символы Band</string>
+    <string name="pref_cat_text_conversion">Символы %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Преобразование символов</string>
     <string name="pref_text_conversion_summary_on">Преобразование нераспознанных символов, отключите, если браслет поддерживает ваш язык или вы установили необходимые шрифты.</string>
     <string name="pref_text_emoticon_title">Преобразование Emoji</string>
@@ -231,7 +231,7 @@
     <string name="pref_dnd_remember_state_summary">При отключении режима \"Не беспокоить\", включить или восстановить состояние всех \"заплаток\" к моменту активации режима</string>
     <string name="pref_dnd_remember_state_on_title">Восстановить</string>
     <string name="pref_dnd_remember_state_off_title">Включить все</string>
-    <string name="pref_dnd_mi_fit_scheduled">Включить режим \"Не беспокоить\" браслета (отключение уведомлений и поворота запястья)</string>
+    <string name="pref_dnd_mi_fit_scheduled">Включить режим \"Не беспокоить\" %1$s (отключение уведомлений и поворота запястья)</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_dnd_enable_bluetooth">При включении режима \"Не беспокоить\" выключить Bluetooth, при отключении - включить</string>
 
     <!-- Snackbar Messages -->
@@ -257,7 +257,7 @@
     <string name="message_step_goal_max_values">Максимум 10 значений может быть уставлено</string>
 
     <string name="message_touch_no_patterns">Нажмите на требуемую красную кнопку записи последовательности</string>
-    <string name="message_touch_record">Запишите образец использования кнопки Band</string>
+    <string name="message_touch_record">Запишите образец использования кнопки %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="message_touch_pattern_error">Заданная последовательность похожа на последовательность другой функции, запишите другую</string>
     <string name="message_touch_free_patterns">Максимум %1$,d функции</string>
     <string name="message_touch_music_player_not_found">Плеер не найден</string>
@@ -338,7 +338,7 @@
     <string name="notification_group_monitoring">Управлять уведомлениями</string>
     <string name="notification_group_monitoring_disabled">Исключить уведомления (не отображать уведомления приложений)</string>
     <string name="notification_group_text">Отображение текста</string>
-    <string name="notification_group_alert_title">Иконка на Band</string>
+    <string name="notification_group_alert_title">Уведомления %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="notification_group_text_title">Заголовок</string>
     <string name="notification_group_text_content">Содержимое</string>
     <string name="notification_group_vibration_title">Особая вибрация</string>
@@ -489,7 +489,7 @@
     <string name="touch_setting_recognition_start_trigger_title">Триггер</string>
     <string name="touch_setting_recognition_time_title">Время распознавания</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">Уведомления Band</string>
+    <string name="touch_setting_recognition_mi_band_signal_title">Уведомления %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="touch_setting_recognition_succeeded_title">Последовательность распознана</string>
     <string name="touch_setting_recognition_failed_title">Последовательность не распознана</string>
 
@@ -629,13 +629,13 @@
     </string>
 
     <!-- Lost  monitoring -->
-    <string name="alarm_mi_band_title">Уведомление Band</string>
+    <string name="alarm_mi_band_title">Уведомление %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_dnd">Режим \"Не беспокоить\"</string>
     <string name="alarm_mi_band_interval_title">Период повтора предупреждения об отсоединении</string>
     <string name="alarm_mi_band_time_set_next">Время следующей установки</string>
     <string name="alarm_mi_band_time">Время следующего предупреждения</string>
 
-    <string name="alarm_mi_band_on_bluetooth_disabled_text">Уведомление о выкл. Bluetooth</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Уведомление о %1$s выкл. Bluetooth</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Промежуток уведомления: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Уведомление Band</u></b>
