@@ -28,7 +28,7 @@
 
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Connection time: %1$s</string>
-    <string name="foreground_service_disconnected_text">Band is not connected</string>
+    <string name="foreground_service_disconnected_text">%1$s is not connected</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <!--<string name="foreground_service_disconnected">Disconnection time: %1$s</string>-->
 
     <!-- Strings related to Settings -->
@@ -52,7 +52,7 @@
 
     <string name="mi_band_mac_address_invalid">MAC address is invalid</string>
 
-    <string name="mi_band_state_title">Band settings</string>
+    <string name="mi_band_state_title">%1$s settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="mi_band_state_connected">Connected</string>
     <string name="mi_band_state_disconnected">Disconnected</string>
     <string name="mi_band_state_bonded">Paired device</string>
@@ -89,7 +89,7 @@
     <string name="pref_connected_volume_title">Adjust the volume</string>
     <string name="pref_connected_volume_ring_title">Ring volume</string>
 
-    <string name="pref_cat_connected_have_notif">Predefined app and Band signal</string>
+    <string name="pref_cat_connected_have_notif">Predefined app signals</string>
     <string name="pref_cat_connected_have_notif_default">Predefined and custom settings</string>
     <string name="pref_connected_have_notif_immediate_title">Immediate signal when notification is received</string>
     <string name="pref_connected_have_notif_title">Signal when connecting to phone</string>
@@ -159,7 +159,7 @@
 
     <string name="pref_text_conversion">Text display</string>
     <string name="pref_text_conversion_summary">Convert text message characters</string>
-    <string name="pref_cat_text_conversion">Band signal</string>
+    <string name="pref_cat_text_conversion">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Transliteration</string>
     <string name="pref_text_conversion_summary_on">Not recognisable characters conversion, turn off if the Band supports your language or you have installed custom font firmware</string>
     <string name="pref_text_emoticon_title">Emoji conversion</string>
@@ -231,7 +231,7 @@
     <string name="pref_dnd_remember_state_summary">At the end of the do not disturb mode, turn on all bandages or restore states as those were at the time of start</string>
     <string name="pref_dnd_remember_state_on_title">At the end restore bandages\' state</string>
     <string name="pref_dnd_remember_state_off_title">At the end turn on all bandages</string>
-    <string name="pref_dnd_mi_fit_scheduled">Activate Band DnD mode (disable calls, messages and lift wrist to view info)</string>
+    <string name="pref_dnd_mi_fit_scheduled">Activate %1$s DnD mode (disable calls, messages and lift wrist to view info)</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_dnd_enable_bluetooth">At the start of the DnD mode turn Bluetooth off, at the end turn Bluetooth on</string>
 
     <!-- Snackbar Messages -->
@@ -257,7 +257,7 @@
     <string name="message_step_goal_max_values">Maximum 10 values can be set</string>
 
     <string name="message_touch_no_patterns">Press one of the red buttons to record pattern</string>
-    <string name="message_touch_record">Record the pattern using the Band touch button</string>
+    <string name="message_touch_record">Record the pattern using the %1$s touch button</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="message_touch_pattern_error">The specified pattern is similar to a sample of another function, record another</string>
     <string name="message_touch_free_patterns">You can not use more than %1$,d functions in normal mode</string>
     <string name="message_touch_music_player_not_found">Music player not found</string>
@@ -337,7 +337,7 @@
     <string name="notification_group_name">Name</string>
     <string name="notification_group_monitoring">Monitoring notifications</string>
     <string name="notification_group_monitoring_disabled">Disable notifications (do not show the application notifications)</string>
-    <string name="notification_group_alert_title">Band signal</string>
+    <string name="notification_group_alert_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="notification_group_text">Text display</string>
     <string name="notification_group_text_title">Title</string>
     <string name="notification_group_text_content">Content</string>
@@ -372,7 +372,7 @@
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.]]></string>
 
     <!-- Notification info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Predefined app and Band icon signals:
+    <string name="info_dialog_notification"><![CDATA[Predefined app signals:
         <br><img src="ALERT_MESSAGE_TEXT">  missed call
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  Email, Gmail, Inbox
@@ -402,7 +402,7 @@
         <br><img src="ALERT_DINGTALK">  DingTalk
         <br><img src="ALERT_APP">  others
 
-        <p>Predefined app and Band icon signals will only show the icon not the message.</p>
+        <p>Predefined app signals will only show the icon not the message.</p>
         <p>You have to disable app alert in the Mi Fit app.</p>
         <p>The notifications group created by you has higher priority than the predefined.</p>
         <mi_band_2><p><img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.</p></mi_band_2>
@@ -489,7 +489,7 @@
     <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
     <string name="touch_setting_recognition_time_title">Recognition time</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">Band signal</string>
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="touch_setting_recognition_succeeded_title">Recognisable touch pattern</string>
     <string name="touch_setting_recognition_failed_title">Not recognisable touch pattern</string>
 
@@ -630,13 +630,13 @@
     </string>
 
     <!-- Lost monitoring -->
-    <string name="alarm_mi_band_title">Band signal</string>
+    <string name="alarm_mi_band_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_dnd">Do not disturb mode</string>
     <string name="alarm_mi_band_interval_title">Repeat interval of alarm setting</string>
     <string name="alarm_mi_band_time_set_next">Timing of next setting</string>
     <string name="alarm_mi_band_time">Timing of next alarm</string>
 
-    <string name="alarm_mi_band_on_bluetooth_disabled_text">Lost monitoring Band signal is enabled.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Lost monitoring %1$s signal is enabled</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm time: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>Band signal</u></b>
