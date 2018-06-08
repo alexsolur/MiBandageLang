@@ -28,7 +28,7 @@
 
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Χρόνος σε σύνδεση: %1$s</string>
-    <string name="foreground_service_disconnected_text">Το Band δεν είναι συνδεδεμένο</string>
+    <string name="foreground_service_disconnected_text">Το %1$s δεν είναι συνδεδεμένο</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <!--<string name="foreground_service_disconnected">Χρόνος Αποσύνδεσης: %1$s</string>-->
 
     <!-- Strings related to Settings -->
@@ -52,7 +52,7 @@
 
     <string name="mi_band_mac_address_invalid">Η MAC διεύθυνση δεν είναι έγκυρη</string>
 
-    <string name="mi_band_state_title">Band ρυθμίσεις</string>
+    <string name="mi_band_state_title">%1$s ρυθμίσεις</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="mi_band_state_connected">Συνδεδεμένο</string>
     <string name="mi_band_state_disconnected">Ξεσυνδεδεμένο</string>
     <string name="mi_band_state_bonded">Συνδεδεμένη συσκευή</string>
@@ -159,7 +159,7 @@
 
     <string name="pref_text_conversion">Ρυθμίσεις εικονιδίων κειμένου</string>
     <string name="pref_text_conversion_summary">Ρυθμίσεις εικονιδίων κειμένου Band</string>
-    <string name="pref_cat_text_conversion">Σήμα Band</string>
+    <string name="pref_cat_text_conversion">Σήμα %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Μετατροπή χαρακτήρων</string>
     <string name="pref_text_conversion_summary_on">Μή αναγνωρίσιμη μετατροπή χαρακτήρων, απενεργοποιήστε εάν το Band υποστηρίζει τη γλώσσα σας ή έχετε εγκαταστήσει γραμματοσειρά από προσαρμοσμένο υλικολογισμικό</string>
     <string name="pref_text_emoticon_title">Μετατροπή Emoji</string>
@@ -231,7 +231,7 @@
     <string name="pref_dnd_remember_state_summary">Στο τέλος της λειτουργίας μην ενοχλείτε, ενεργοποιήστε όλους τους επίδεσμους ή επαναφέρετε τις καταστάσεις όπως ήταν τη στιγμή της έναρξης</string>
     <string name="pref_dnd_remember_state_on_title">Στο τέλος επαναφέρετε την κατάσταση στους επίδεσμους</string>
     <string name="pref_dnd_remember_state_off_title">Στο τέλος ενεργοποιήστε όλους τους επίδεσμους</string>
-    <string name="pref_dnd_mi_fit_scheduled">Ενεργοποίηση λειτουργίας Dnd ζώνης (απενεργοποίηση μηνυμάτων και ανύψωση καρπού για προβολή πληροφοριών)</string>
+    <string name="pref_dnd_mi_fit_scheduled">Ενεργοποίηση λειτουργίας %1$s Dnd ζώνης (απενεργοποίηση μηνυμάτων και ανύψωση καρπού για προβολή πληροφοριών)</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_dnd_enable_bluetooth">Στην αρχή της λειτουργίας Dnd απενεργοποιήσε το Bluetooth, στο τέλος ενεργοποιήσε το Bluetooth</string>
 
     <!-- Snackbar Messages -->
@@ -257,7 +257,7 @@
     <string name="message_step_goal_max_values">Οι μέγιστες τιμές μπορούν να ρυθμιστούν</string>
 
     <string name="message_touch_no_patterns">Πατήστε ένα από τα κόκκινα κουμπιά εγγραφής μοτίβου</string>
-    <string name="message_touch_record">Καταγράψτε το μοτίβο χρησιμοποιώντας το κουμπί αφής του Band</string>
+    <string name="message_touch_record">Καταγράψτε το μοτίβο χρησιμοποιώντας το κουμπί αφής του %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="message_touch_pattern_error">Το καθορισμένο μοτίβο είναι παρόμοιο με ένα δείγμα κάποιας άλλης λειτουργίας, καταγράψτε άλλο</string>
     <string name="message_touch_free_patterns">Μπορούν να χρησιμοποιηθούν μέχρι %1$,d λειτουργίες</string>
     <string name="message_touch_music_player_not_found">Η αναπαραγωγής μουσικής δεν βρέθηκε</string>
@@ -338,7 +338,7 @@
     <string name="notification_group_monitoring">Παρακολούθηση ειδοποιήσεων</string>
     <string name="notification_group_monitoring_disabled">Εξαιρέσεις ειδοποιήσεων (μην εμφανίζεις τις ειδοποιήσεις της εφαρμογής)</string>
     <string name="notification_group_text">Εμφάνιση κειμένου</string>
-    <string name="notification_group_alert_title">Σήμα Band</string>
+    <string name="notification_group_alert_title">Σήμα %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="notification_group_text_title">Τίτλος</string>
     <string name="notification_group_text_content">Περεχόμενο</string>
     <string name="notification_group_vibration_title">Προσαρμοσμένη δόνηση</string>
@@ -489,7 +489,7 @@
     <string name="touch_setting_recognition_start_trigger_title">Έναυσμα</string>
     <string name="touch_setting_recognition_time_title">Χρόνος αναγνώρισης</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">Σήμα Band</string>
+    <string name="touch_setting_recognition_mi_band_signal_title">Σήμα %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="touch_setting_recognition_succeeded_title">Αναγνωρίσιμο μοτίβο αφής</string>
     <string name="touch_setting_recognition_failed_title">Μη αναγνωρίσιμο μοτίβο αφής</string>
 
@@ -630,13 +630,13 @@
     </string>
 
     <!-- Lost  monitoring -->
-    <string name="alarm_mi_band_title">Σήμα Band</string>
+    <string name="alarm_mi_band_title">Σήμα %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_dnd">Λειτουργία μην ενοχλείτε</string>
     <string name="alarm_mi_band_interval_title">Διάστημα επανάληψης ρύθμισης υπενθύμισης</string>
     <string name="alarm_mi_band_time_set_next">Το χρονοδιάγραμμα της επόμενης ρύθμισης</string>
     <string name="alarm_mi_band_time">Το χρονοδιάγραμμα της επόμενης υπενθύμισης</string>
 
-    <string name="alarm_mi_band_on_bluetooth_disabled_text">Το σήμα της εποπτείας συσκευής Band είναι ενεργό.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Το σήμα της εποπτείας συσκευής %1$s είναι ενεργό</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Χρόνος ειδοποίησης: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Σήμα Band</u></b>
