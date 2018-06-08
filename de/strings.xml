@@ -28,7 +28,7 @@
 
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Uhrzeit der Verbindung: %1$s</string>
-    <string name="foreground_service_disconnected_text">Band ist nicht verbunden</string>
+    <string name="foreground_service_disconnected_text">%1$s ist nicht verbunden</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <!--<string name="foreground_service_disconnected">Uhrzeit der Verbindungsunterbrechung: %1$s</string>-->
 
     <!-- Strings related to Settings -->
@@ -52,7 +52,7 @@
 
     <string name="mi_band_mac_address_invalid">Ungültige MAC-Adresse</string>
 
-    <string name="mi_band_state_title">Band settings</string>
+    <string name="mi_band_state_title">%1$s settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="mi_band_state_connected">Connected</string>
     <string name="mi_band_state_disconnected">Disconnected</string>
     <string name="mi_band_state_bonded">Paired device</string>
@@ -159,7 +159,7 @@
 
     <string name="pref_text_conversion">Textembleme</string>
     <string name="pref_text_conversion_summary">Einstellungen zu den Textemblemen des Mi Bands 2</string>
-    <string name="pref_cat_text_conversion">Band Signal</string>
+    <string name="pref_cat_text_conversion">%1$s Signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Buchstabenumwandlung</string>
     <string name="pref_text_conversion_summary_on">Nicht erkennbare Buchstabenumwandlung, turn off if the Band supports your language or you have installed custom font firmware</string>
     <string name="pref_text_emoticon_title">Emoji conversion</string>
@@ -231,7 +231,7 @@
     <string name="pref_dnd_remember_state_summary">Wenn der Nicht Stören-Modus beendet ist, aktivieren Sie alle Bandages oder stellen Sie die vorherigen Einstellungen, wie Sie vor dem Start des Nicht Stören-Modus eingestellt waren, wieder her.</string>
     <string name="pref_dnd_remember_state_on_title">Nach Beendigung alle Bandages wiederherstellen\' state</string>
     <string name="pref_dnd_remember_state_off_title">Nach Beendigung alle Bandages aktivieren</string>
-    <string name="pref_dnd_mi_fit_scheduled">Activate Band DnD mode (disable messages and lift wrist to view info)</string>
+    <string name="pref_dnd_mi_fit_scheduled">Activate %1$s DnD mode (disable messages and lift wrist to view info)</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_dnd_enable_bluetooth">Deaktivieren Sie beim Start des Nicht Stören-Modus das Bluetooth, am Ende aktivieren.</string>
 
     <!-- Snackbar Messages -->
@@ -257,7 +257,7 @@
     <string name="message_step_goal_max_values">Maximal können 10 Werte gespeichert werden.</string>
 
     <string name="message_touch_no_patterns">Drücken Sie einen der roten Aufnahme-Buttons</string>
-    <string name="message_touch_record">Zeichnen Sie das Muster mithilfe des Berührungssensors des Mi Bands 2 auf.</string>
+    <string name="message_touch_record">Zeichnen Sie das Muster mithilfe des Berührungssensors des %1$s auf.</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="message_touch_pattern_error">Dieses Muster ähnelt zu sehr einem einer anderen Funktion, bitte zeichnen Sie ein anderes auf.</string>
     <string name="message_touch_free_patterns">Bis zu %1$,d Funktionen können im normalen Modus verwndet werden.</string>
     <string name="message_touch_music_player_not_found">Musikplayer nicht gefunden</string>
@@ -339,7 +339,7 @@
     <string name="notification_group_monitoring">Beobachtung von Benachrichtigungen</string>
     <string name="notification_group_monitoring_disabled">Deaktivieren Sie Benachrichtigungen (App-Benachrichtigungen nicht anzeigen)</string>
     <string name="notification_group_text">Text display</string>
-    <string name="notification_group_alert_title">Band Signal</string>
+    <string name="notification_group_alert_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="notification_group_text_title">Titel</string>
     <string name="notification_group_text_content">Inhalt</string>
     <string name="notification_group_vibration_title">Custom vibration</string>
@@ -490,7 +490,7 @@
     <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
     <string name="touch_setting_recognition_time_title">Recognition time</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">Band Signal</string>
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="touch_setting_recognition_succeeded_title">Erkennbares Touch-Muster-Signal</string>
     <string name="touch_setting_recognition_failed_title">Kein erkennbares Touch-Muster-Signal</string>
 
@@ -631,13 +631,13 @@
     </string>
 
     <!-- Lost monitoring -->
-    <string name="alarm_mi_band_title">Band Signal</string>
+    <string name="alarm_mi_band_title">%1$s Signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_dnd">Nicht Stören-Modus</string>
     <string name="alarm_mi_band_interval_title">Wiederholungsintervall des Alarms</string>
     <string name="alarm_mi_band_time_set_next">Zeitpunkt der nächsten Einstellung</string>
     <string name="alarm_mi_band_time">Zeitpunkt des nächsten Alarms</string>
 
-    <string name="alarm_mi_band_on_bluetooth_disabled_text">Verlustmonitoring des Band Signals ist aktiviert.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Verlustmonitoring des %1$s Signals ist aktiviert</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Zeitpunkt des Alarms: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>Band Signal</u></b>
