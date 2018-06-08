@@ -28,7 +28,7 @@
 
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Doba připojení: %1$s</string>
-    <string name="foreground_service_disconnected_text">Náramek není připojen</string>
+    <string name="foreground_service_disconnected_text">%1$s není připojen</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <!--<string name="foreground_service_disconnected">Doba odpojení: %1$s</string>-->
 
     <!-- Strings related to Settings -->
@@ -52,7 +52,7 @@
 
     <string name="mi_band_mac_address_invalid">MAC adresa je neplatná</string>
 
-    <string name="mi_band_state_title">Nastavení zařízení</string>
+    <string name="mi_band_state_title">Nastavení %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="mi_band_state_connected">Připojeno</string>
     <string name="mi_band_state_disconnected">Odpojeno</string>
     <string name="mi_band_state_bonded">Spárované zařízení</string>
@@ -159,7 +159,7 @@
 
     <string name="pref_text_conversion">Textové ikony</string>
     <string name="pref_text_conversion_summary">Nastavení textové ikony na náramku</string>
-    <string name="pref_cat_text_conversion">Oznámení na náramku</string>
+    <string name="pref_cat_text_conversion">Oznámení na %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Převod znaků</string>
     <string name="pref_text_conversion_summary_on">Převod neznámých znaků (Vypněte, pokud Váš náramek podporuje Váš jazyk nebo pokud máte nainstalovanáno vlastní písmo.)</string>
     <string name="pref_text_emoticon_title">Převod smajlíků</string>
@@ -231,7 +231,7 @@
     <string name="pref_dnd_remember_state_summary">Na konci režimu nerušit se obnoví všechny stavy, které byly v době startu zapnuty</string>
     <string name="pref_dnd_remember_state_on_title">Po skončení obnovit stavy</string>
     <string name="pref_dnd_remember_state_off_title">Po skončení zapnout všechny stavy</string>
-    <string name="pref_dnd_mi_fit_scheduled">Aktivujte režim DnD Band (deaktivujte hovory, zprávy a zvednutí zápěstí pro zobrazení informací)</string>
+    <string name="pref_dnd_mi_fit_scheduled">Aktivujte režim DnD %1$s (deaktivujte hovory, zprávy a zvednutí zápěstí pro zobrazení informací)</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_dnd_enable_bluetooth">Na začátku režimu DnD vypněte Bluetooth, na konci Bluetooth zapněte</string>
 
     <!-- Snackbar Messages -->
@@ -257,7 +257,7 @@
     <string name="message_step_goal_max_values">Maximálně lze nastavit 10 hodnot</string>
 
     <string name="message_touch_no_patterns">Stiskněte jedno z červených záznamových tlačítek</string>
-    <string name="message_touch_record">Zaznamenejte vzorer pomocí dotykového tlačítka náramku</string>
+    <string name="message_touch_record">Zaznamenejte vzorer pomocí dotykového tlačítka %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="message_touch_pattern_error">Zadaný vzorec je podobný vzorci jiné funkce, zaznamenejte jinou</string>
     <string name="message_touch_free_patterns">V normálním režimu lze použít až %1$,d funkce</string>
     <string name="message_touch_music_player_not_found">Hudební přehrávač nebyl nalezen</string>
@@ -337,7 +337,7 @@
     <string name="notification_group_name">Jméno</string>
     <string name="notification_group_monitoring">Zobrazování oznámení</string>
     <string name="notification_group_monitoring_disabled">Zakázat oznámení (nezobrazovat oznámení aplikací)</string>
-    <string name="notification_group_alert_title">Oznámení na náramku</string>
+    <string name="notification_group_alert_title">Oznámení na %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="notification_group_text">Text obrazovky</string>
     <string name="notification_group_text_title">Název</string>
     <string name="notification_group_text_content">Obsah</string>
@@ -489,7 +489,7 @@
     <string name="touch_setting_recognition_start_trigger_title">Spoušť</string>
     <string name="touch_setting_recognition_time_title">Doba rozpoznávání</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">Oznámení na náramku</string>
+    <string name="touch_setting_recognition_mi_band_signal_title">Oznámení na %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="touch_setting_recognition_succeeded_title">Rozpoznatelný dotyk</string>
     <string name="touch_setting_recognition_failed_title">Nerozpoznatelný dotyk</string>
 
@@ -630,13 +630,13 @@
     </string>
 
     <!-- Lost monitoring -->
-    <string name="alarm_mi_band_title">Oznámení na náramku</string>
+    <string name="alarm_mi_band_title">Oznámení na %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_dnd">Režim nerušit</string>
     <string name="alarm_mi_band_interval_title">Opakovat interval nastavení budíku</string>
     <string name="alarm_mi_band_time_set_next">Načasování dalšího nastavení</string>
     <string name="alarm_mi_band_time">Načasování dalšího budíku</string>
 
-    <string name="alarm_mi_band_on_bluetooth_disabled_text">Monitorování ztráty náramku je povoleno.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Monitorování ztráty %1$s je povoleno</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Čas budíku: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>Oznámení na náramku</u></b>
