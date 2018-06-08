@@ -28,7 +28,7 @@
 
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">连接时间: %1$s</string>
-    <string name="foreground_service_disconnected_text">设备未连接</string>
+    <string name="foreground_service_disconnected_text">%1$s 未连接</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <!--<string name="foreground_service_disconnected">断开连接时间: %1$s</string>-->
 
     <!-- Strings related to Settings -->
@@ -52,7 +52,7 @@
 
     <string name="mi_band_mac_address_invalid">MAC 地址无效</string>
 
-    <string name="mi_band_state_title">手环设置</string>
+    <string name="mi_band_state_title">%1$s 设置</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="mi_band_state_connected">已连接</string>
     <string name="mi_band_state_disconnected">断开连接</string>
     <string name="mi_band_state_bonded">配对设备</string>
@@ -159,7 +159,7 @@
 
     <string name="pref_text_conversion">文字图标</string>
     <string name="pref_text_conversion_summary">手环文字图标设置</string>
-    <string name="pref_cat_text_conversion">手环连接</string>
+    <string name="pref_cat_text_conversion">%1$s 信号</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">字符转换</string>
     <string name="pref_text_conversion_summary_on">不可识别的字符转换, turn off if the Band supports your language or you have installed custom font firmware</string>
     <string name="pref_text_emoticon_title">Emoji conversion</string>
@@ -231,7 +231,7 @@
     <string name="pref_dnd_remember_state_summary">勿扰模式结束时恢复手环状态</string>
     <string name="pref_dnd_remember_state_on_title">还原手环最后的状态</string>
     <string name="pref_dnd_remember_state_off_title">打开最后所有手环</string>
-    <string name="pref_dnd_mi_fit_scheduled">激活手环DND模式 (禁用呼叫，消息和抬腕查看)</string>
+    <string name="pref_dnd_mi_fit_scheduled">激活 %1$s DnD 模式 (禁用呼叫，消息和抬腕查看)</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_dnd_enable_bluetooth">在DnD模式开始时关闭蓝牙,最后再打开蓝牙</string>
 
     <!-- Snackbar Messages -->
@@ -257,7 +257,7 @@
     <string name="message_step_goal_max_values">最多可以设置10个</string>
 
     <string name="message_touch_no_patterns">按下红色按钮来进行记录</string>
-    <string name="message_touch_record">使用手环触摸按钮</string>
+    <string name="message_touch_record">使用 %1$s 触摸按钮</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="message_touch_pattern_error">制定模式类似另一个函数样本,记录另一个</string>
     <string name="message_touch_free_patterns">在正常模式下不能使用多余 %1$,d 的函数</string>
     <string name="message_touch_music_player_not_found">找不到播放器</string>
@@ -337,7 +337,7 @@
     <string name="notification_group_name">名称</string>
     <string name="notification_group_monitoring">监控通知</string>
     <string name="notification_group_monitoring_disabled">禁用通知(不显示应用通知)</string>
-    <string name="notification_group_alert_title">手环通知</string>
+    <string name="notification_group_alert_title">%1$s 信号</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="notification_group_text">文字显示</string>
     <string name="notification_group_text_title">标题</string>
     <string name="notification_group_text_content">内容</string>
@@ -488,7 +488,7 @@
     <string name="touch_setting_recognition_start_trigger_title">触发器</string>
     <string name="touch_setting_recognition_time_title">识别时间</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">手环信号</string>
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s 通知</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="touch_setting_recognition_succeeded_title">可识别的触摸模式</string>
     <string name="touch_setting_recognition_failed_title">不可识别的触摸模式</string>
 
@@ -630,13 +630,13 @@
     </string>
 
     <!-- Lost monitoring -->
-    <string name="alarm_mi_band_title">手环信号</string>
+    <string name="alarm_mi_band_title">%1$s 信号</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_dnd">勿扰模式</string>
     <string name="alarm_mi_band_interval_title">重复间隔设置</string>
     <string name="alarm_mi_band_time_set_next">下次设置的时间</string>
     <string name="alarm_mi_band_time">下个闹钟的时间</string>
 
-    <string name="alarm_mi_band_on_bluetooth_disabled_text">启用信号丢失监测.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">%1$s 启用信号丢失监测</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">闹钟时间: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>手环信号</u></b>
