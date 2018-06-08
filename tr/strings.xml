@@ -28,7 +28,7 @@
     
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Bağlandı: %1$s</string>
-    <string name="foreground_service_disconnected_text">Bilekliğiniz bağlı değil</string>
+    <string name="foreground_service_disconnected_text">%1$s bağlı değil</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <!--<string name="foreground_service_disconnected">Disconnection time: %1$s</string>-->
 
     <!-- Strings related to Settings -->
@@ -52,7 +52,7 @@
 
     <string name="mi_band_mac_address_invalid">MAC adresi yanlış</string>
 
-    <string name="mi_band_state_title">Bileklik ayarları</string>
+    <string name="mi_band_state_title">%1$s ayarları</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="mi_band_state_connected">Bağlı</string>
     <string name="mi_band_state_disconnected">Bağlı değil</string>
     <string name="mi_band_state_bonded">Eşleştirilmiş cihaz</string>
@@ -159,7 +159,7 @@
 
     <string name="pref_text_conversion">Altyazılı simge</string>
     <string name="pref_text_conversion_summary">Bileklik altyazılı simge ayarları</string>
-    <string name="pref_cat_text_conversion">Ayarlar</string>
+    <string name="pref_cat_text_conversion">%1$s sinyali</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Karakterleri dönüştür</string>
     <string name="pref_text_conversion_summary_on">Tanımlanamayan karakterleri döünüştürür, turn off if the Band supports your language or you have installed custom font firmware</string>
     <string name="pref_text_emoticon_title">Emoji dönüştürme</string>
@@ -231,7 +231,7 @@
     <string name="pref_dnd_remember_state_summary">Rahatsız etmeyin modu sonunda neyapacağınızı belirleyin</string>
     <string name="pref_dnd_remember_state_on_title">Mod öncesi ayarlara dön</string>
     <string name="pref_dnd_remember_state_off_title">Tüm ayarları aktif et</string>
-    <string name="pref_dnd_mi_fit_scheduled">Rahatsız etmeyin modunda bileklik etkin (mesajları devre dışı bırak ve bilgi görüntülemek için bilekliği kaldır)</string>
+    <string name="pref_dnd_mi_fit_scheduled">Rahatsız etmeyin modunda %1$s etkin (mesajları devre dışı bırak ve bilgi görüntülemek için bilekliği kaldır)</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_dnd_enable_bluetooth">Bluetooth\'u başında kapat, sonunda aç</string>
 
     <!-- Snackbar Messages -->
@@ -257,7 +257,7 @@
     <string name="message_step_goal_max_values">Maksimum 10 değer ayarlanabilir</string>
 
     <string name="message_touch_no_patterns">Kırmızı renkli desen kayıt düğmelerinden birine basın</string>
-    <string name="message_touch_record">Bilekliğinizdeki dokunmatik düğmesini kullanarak deseni kaydedin.</string>
+    <string name="message_touch_record">%1$s dokunmatik düğmesini kullanarak deseni kaydedin</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="message_touch_pattern_error">Yaptığınız desen başka bir iş için yaptığınız desen ile nerdeyse aynı, başka bir desen belirleyin</string>
     <string name="message_touch_free_patterns">Normal modda en fazla %1$,d işlev kullanılabilir</string>
     <string name="message_touch_music_player_not_found">Müzik çalar bulunamadı</string>
@@ -338,7 +338,7 @@
     <string name="notification_group_monitoring">Telefondaki bildirimleri izle</string>
     <string name="notification_group_monitoring_disabled">Telefondaki bildirimleri izleme kapalı (Telefondaki bildirimler gösterilmez)</string>
     <string name="notification_group_text">Metin görüntüleme</string>
-    <string name="notification_group_alert_title">Bileklik bildirisi</string>
+    <string name="notification_group_alert_title">%1$s bildirimi</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="notification_group_text_title">Başlık</string>
     <string name="notification_group_text_content">İçerik</string>
     <string name="notification_group_vibration_title">Özel Titreşim</string>
@@ -489,7 +489,7 @@
     <string name="touch_setting_recognition_start_trigger_title">Tetikleme</string>
     <string name="touch_setting_recognition_time_title">Tanımlanan süre</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">Bileklik bildirimi</string>
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s bildirimi</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="touch_setting_recognition_succeeded_title">Tanınabilir dokunmatik desen</string>
     <string name="touch_setting_recognition_failed_title">Tanımlanamayan dokunma deseni</string>
 
@@ -629,13 +629,13 @@
     </string>
 
     <!-- Lost monitoring -->
-    <string name="alarm_mi_band_title">Bileklik bildirimi</string>
+    <string name="alarm_mi_band_title">%1$s bildirimi</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_dnd">Rahatsıs etmeyim modu</string>
     <string name="alarm_mi_band_interval_title">Uyarıyı tekrarla</string>
     <string name="alarm_mi_band_time_set_next">Bir sonraki kontrol</string>
     <string name="alarm_mi_band_time">Bir sonraki uyarı</string>
 
-    <string name="alarm_mi_band_on_bluetooth_disabled_text">Bilekliğim kayboldu uyarısı açık.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">%1$s kayboldu uyarısı açık</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Uyarı zamanı: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Bileklik bildirimi</u></b>
