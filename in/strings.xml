@@ -28,7 +28,7 @@
 
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Waktu koneksi: %1$s</string>
-    <string name="foreground_service_disconnected_text">Band tidak terhubung</string>
+    <string name="foreground_service_disconnected_text">%1$s tidak terhubung</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <!--<string name="foreground_service_disconnected">Waktu terputus: %1$s</string>-->
 
     <!-- Strings related to Settings -->
@@ -52,7 +52,7 @@
 
     <string name="mi_band_mac_address_invalid">Alamat MAC tidak valid</string>
 
-    <string name="mi_band_state_title">Pengaturan Band</string>
+    <string name="mi_band_state_title">Pengaturan %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="mi_band_state_connected">Tersambung</string>
     <string name="mi_band_state_disconnected">Terputus</string>
     <string name="mi_band_state_bonded">Perangkat tersambung</string>
@@ -159,7 +159,7 @@
 
     <string name="pref_text_conversion">Ikon teks</string>
     <string name="pref_text_conversion_summary">Pengaturan ikon teks Band</string>
-    <string name="pref_cat_text_conversion">Tanda Band</string>
+    <string name="pref_cat_text_conversion">Tanda %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Konversi karakter</string>
     <string name="pref_text_conversion_summary_on">Karakter konversi tidak dikenal, turn off if the Band supports your language or you have installed custom font firmware</string>
     <string name="pref_text_emoticon_title">Emoji conversion</string>
@@ -231,7 +231,7 @@
     <string name="pref_dnd_remember_state_summary">Pada akhir mode jangan ganggu, aktifkan semua balutan atau pulihkan keadaan seperti semula pada saat mulai</string>
     <string name="pref_dnd_remember_state_on_title">Keadaan pada akhir pemulihan balutan</string>
     <string name="pref_dnd_remember_state_off_title">Aktifkan semua balutan di akhir</string>
-    <string name="pref_dnd_mi_fit_scheduled">Activate Band DnD mode (disable messages and lift wrist to view info)</string>
+    <string name="pref_dnd_mi_fit_scheduled">Activate %1$s DnD mode (disable messages and lift wrist to view info)</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_dnd_enable_bluetooth">Matikan Bluetooth pada permulaan mode jangan ganggu, dan hidupkan kembali setelah mode jangan ganggu berakhir</string>
 
     <!-- Snackbar Messages -->
@@ -257,7 +257,7 @@
     <string name="message_step_goal_max_values">Hanya dapat mengatur maksimal 10 nilai</string>
 
     <string name="message_touch_no_patterns">Tekan salah satu dari tombol rekaman pola merah</string>
-    <string name="message_touch_record">Rekam pola dengan menggunakan tombol sentuh Band</string>
+    <string name="message_touch_record">Rekam pola dengan menggunakan tombol sentuh %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="message_touch_pattern_error">Pola yang ditentukan mirip dengan contoh fungsi lain, rekam yang lain</string>
     <string name="message_touch_free_patterns">Mode normal hanya bisa menggunakan hingga %1$,d fungsi</string>
     <string name="message_touch_music_player_not_found">Pemutar musik tidak tersedia</string>
@@ -338,7 +338,7 @@
     <string name="notification_group_monitoring">Pemantau pemberitahuan</string>
     <string name="notification_group_monitoring_disabled">Matikan pemberitahuan (sembunyikan pemberitahuan aplikasi)</string>
     <string name="notification_group_text">Text display</string>
-    <string name="notification_group_alert_title">Tanda Band</string>
+    <string name="notification_group_alert_title">Tanda %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="notification_group_text_title">Judul</string>
     <string name="notification_group_text_content">Isi</string>
     <string name="notification_group_vibration_title">Custom vibration</string>
@@ -489,7 +489,7 @@
     <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
     <string name="touch_setting_recognition_time_title">Recognition time</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">Tanda Band</string>
+    <string name="touch_setting_recognition_mi_band_signal_title">Tanda %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="touch_setting_recognition_succeeded_title">Sinyal pola sentuh dikenali</string>
     <string name="touch_setting_recognition_failed_title">Sinyal pola sentuh tidak dikenali</string>
 
@@ -629,13 +629,13 @@
     </string>
 
     <!-- Lost monitoring -->
-    <string name="alarm_mi_band_title">Sinyal Band</string>
+    <string name="alarm_mi_band_title">Sinyal %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_dnd">Mode jangan ganggu</string>
     <string name="alarm_mi_band_interval_title">Pengaturan interval alarm berulang</string>
     <string name="alarm_mi_band_time_set_next">Pilih waktu untuk pengaturan selanjutnya</string>
     <string name="alarm_mi_band_time">Pilih waktu untuk alarm selanjutnya</string>
 
-    <string name="alarm_mi_band_on_bluetooth_disabled_text">Tanda pemantau kehilangan Band diaktifkan.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Tanda pemantau kehilangan %1$s diaktifkan</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Waktu alarm: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>Tanda Band</u></b>
