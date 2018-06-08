@@ -28,7 +28,7 @@
 
     <!-- Forrgrunn service, pågående notifikasjon -->
     <string name="foreground_service_connected">Tilkoblet tid: %1$s</string>
-    <string name="foreground_service_disconnected_text">Bandet er ikke tilkoblet</string>
+    <string name="foreground_service_disconnected_text">%1$s er ikke tilkoblet</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <!--<string name="forrgrunn_service_frakoblet">Frakobling tid: %1$s</string>-->
 
     <!-- Strings related to Settings -->
@@ -52,7 +52,7 @@
 
     <string name="mi_band_mac_address_invalid">MAC-addressen er ubrukelig</string>
 
-    <string name="mi_band_state_title">Band-instillinger</string>
+    <string name="mi_band_state_title">%1$s-instillinger</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="mi_band_state_connected">Tilkoblet</string>
     <string name="mi_band_state_disconnected">Frakoblet</string>
     <string name="mi_band_state_bonded">Parret enhet</string>
@@ -89,7 +89,7 @@
     <string name="pref_connected_volume_title">Endre volum</string>
     <string name="pref_connected_volume_ring_title">Anrops-volum</string>
 
-    <string name="pref_cat_connected_have_notif">Forhåndsdefinert app og Band-signal</string>
+    <string name="pref_cat_connected_have_notif">Forhåndsdefinert app og %1$s-signal</string>
     <string name="pref_cat_connected_have_notif_default">Forrhåndsdefinert og egendefinert instilling</string>
     <string name="pref_connected_have_notif_immediate_title">øyeblikkelig signal når notifikasjon er mottatt</string>
     <string name="pref_connected_have_notif_title">Signaliser når det er tilkobling til telefon</string>
@@ -159,7 +159,7 @@
 
     <string name="pref_text_conversion">Text utseende</string>
     <string name="pref_text_conversion_summary">Konverter text meldings karakterer</string>
-    <string name="pref_cat_text_conversion">Band signal</string>
+    <string name="pref_cat_text_conversion">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Transliterasjon</string>
     <string name="pref_text_conversion_summary_on">Ikke gjenkjennelige karakter konvertering er skrudd av hvis Bandet støtter ditt språk eller du har installert egendefinert skriftstil firmware</string>
     <string name="pref_text_emoticon_title">Emoji Konvertering</string>
@@ -231,7 +231,7 @@
     <string name="pref_dnd_remember_state_summary">I slutten av ikke forstyrr modus, skru av alle bandasjer eller gjenopprette statuser som dem som ved tid på start</string>
     <string name="pref_dnd_remember_state_on_title">Til slutt gjenopprette bandasjer\' status</string>
     <string name="pref_dnd_remember_state_off_title">Til slutt skru på alle bandasjene</string>
-    <string name="pref_dnd_mi_fit_scheduled">Aktiver Band DnD mode (deaktiver ring, meldinger og løfte hånden for å vise info)</string>
+    <string name="pref_dnd_mi_fit_scheduled">Aktiver %1$s DnD mode (deaktiver ring, meldinger og løfte hånden for å vise info)</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_dnd_enable_bluetooth">I starten av DnD modus skru Bluetooth av, helt til slutt skru Bluetooth på</string>
 
     <!-- Snackbar Meldinger -->
@@ -257,7 +257,7 @@
     <string name="message_step_goal_max_values">Maximum 10 valuer kan bli satt</string>
 
     <string name="message_touch_no_patterns">Trykk en av de røde knappene for å ta opp mønster</string>
-    <string name="message_touch_record">Ta opp mønsteret ved bruk av Bandets trykke knapp</string>
+    <string name="message_touch_record">Ta opp mønsteret ved bruk av %1$s trykke knapp</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="message_touch_pattern_error">Det spesifiserte mønsteret ligner for eksempel mønsteret til en annen funksjon, ta opp en annen</string>
     <string name="message_touch_free_patterns">Du kan ikke bruke mer enn %1$,d funksjoner i normal modus</string>
     <string name="message_touch_music_player_not_found">Musikk spiller ikke funnet</string>
@@ -337,7 +337,7 @@
     <string name="notification_group_name">Navn</string>
     <string name="notification_group_monitoring">Monitorering notifikasjoner</string>
     <string name="notification_group_monitoring_disabled">Deaktivert notifikasjoner (ikke vis applikasjon notifikasjoner)</string>
-    <string name="notification_group_alert_title">Band signal</string>
+    <string name="notification_group_alert_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="notification_group_text">Vis Text</string>
     <string name="notification_group_text_title">Tittel</string>
     <string name="notification_group_text_content">Kontent</string>
@@ -489,7 +489,7 @@
     <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
     <string name="touch_setting_recognition_time_title">Gjennkjennelses-tid</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">Band signal</string>
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="touch_setting_recognition_succeeded_title">Gjenntjenning av trykke-mønster</string>
     <string name="touch_setting_recognition_failed_title">Ikke gjennkjennbart trykke-mønster</string>
 
@@ -630,13 +630,13 @@
     </string>
 
     <!-- Mistet monitorering -->
-    <string name="alarm_mi_band_title">Band signal</string>
+    <string name="alarm_mi_band_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_dnd">Ikke forstyrr modus</string>
     <string name="alarm_mi_band_interval_title">Gjenta intervall på alarm instilling</string>
     <string name="alarm_mi_band_time_set_next">Timing av neste instilling</string>
     <string name="alarm_mi_band_time">Timing av neste alarm</string>
 
-    <string name="alarm_mi_band_on_bluetooth_disabled_text">Mistet monitorering Band signal er aktivert.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Mistet monitorering %1$s signal er aktivert</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm-tid: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>Band signal</u></b>
