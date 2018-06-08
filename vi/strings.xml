@@ -28,7 +28,7 @@
 
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Thời gian kết nối: %1$s</string>
-    <string name="foreground_service_disconnected_text">Band chưa được kết nối</string>
+    <string name="foreground_service_disconnected_text">%1$s chưa được kết nối</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <!--<string name="foreground_service_disconnected">Thời gian ngắt kết nối: %1$s</string>-->
 
     <!-- Strings related to Settings -->
@@ -52,7 +52,7 @@
 
     <string name="mi_band_mac_address_invalid">Địa chỉ MAC không hợp lý</string>
 
-    <string name="mi_band_state_title">Band settings</string>
+    <string name="mi_band_state_title">%1$s settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="mi_band_state_connected">Connected</string>
     <string name="mi_band_state_disconnected">Disconnected</string>
     <string name="mi_band_state_bonded">Paired device</string>
@@ -158,7 +158,7 @@
 
     <string name="pref_text_conversion">Cài đặt biểu tượng văn bản</string>
     <string name="pref_text_conversion_summary">Cài đặt biểu tượng văn bản Band</string>
-    <string name="pref_cat_text_conversion">Tín hiệu Band</string>
+    <string name="pref_cat_text_conversion">Tín hiệu %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Chuyển đổi ký tự có dấu</string>
     <string name="pref_text_conversion_summary_on">Chuyển đổi ký tự không nhận diện, turn off if the Band supports your language or you have installed custom font firmware</string>
     <string name="pref_text_emoticon_title">Emoji conversion</string>
@@ -230,7 +230,7 @@
     <string name="pref_dnd_remember_state_summary">Vào lúc kết thúc chế độ không làm phiền, bật tất cả mọi thứ hoặc khôi phục trạng thái mặc định như lúc đầu</string>
     <string name="pref_dnd_remember_state_on_title">Khôi phục tất cả vào lúc kết thúc</string>
     <string name="pref_dnd_remember_state_off_title">Bật tất cả vào lúc kết thúc</string>
-    <string name="pref_dnd_mi_fit_scheduled">Activate Band DnD mode (disable messages and lift wrist to view info)</string>
+    <string name="pref_dnd_mi_fit_scheduled">Activate %1$s DnD mode (disable messages and lift wrist to view info)</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_dnd_enable_bluetooth">At the start of the Dnd mode turn Bluetooth off, at the end turn Bluetooth on</string>
 
     <!-- Snackbar Messages -->
@@ -256,7 +256,7 @@
     <string name="message_step_goal_max_values">Có thể đặt nhiều nhất 10 giá trị</string>
 
     <string name="message_touch_no_patterns">Press one of the red buttons to record pattern</string>
-    <string name="message_touch_record">Ghi lại các cử chỉ sử dụng  nút cảm ứng Band </string>
+    <string name="message_touch_record">Ghi lại các cử chỉ sử dụng  nút cảm ứng %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="message_touch_pattern_error">Các mẫu cụ thể là tương tự mẫu của một chức năng khác, ghi lại cách khác</string>
     <string name="message_touch_free_patterns">Lên đến %1$,d chức năng có thể được sử dụng</string>
     <string name="message_touch_music_player_not_found">Trình phát nhạc không được tìm thấy</string>
@@ -337,7 +337,7 @@
     <string name="notification_group_monitoring">Giám sát thông báo</string>
     <string name="notification_group_monitoring_disabled">Vô hiệu hóa các thông báo (không hiển thị các thông báo ứng dụng)</string>
     <string name="notification_group_text">Text display</string>
-    <string name="notification_group_alert_title">Tín hiệu Band</string>
+    <string name="notification_group_alert_title">Tín hiệu %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="notification_group_text_title">Tiêu đề</string>
     <string name="notification_group_text_content">Nội dung</string>
     <string name="notification_group_vibration_title">Custom vibration</string>
@@ -489,7 +489,7 @@
     <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
     <string name="touch_setting_recognition_time_title">Recognition time</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">Tín hiệu Band</string>
+    <string name="touch_setting_recognition_mi_band_signal_title">Tín hiệu %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="touch_setting_recognition_succeeded_title">Recognisable touch pattern</string>
     <string name="touch_setting_recognition_failed_title">Tín hiệu không nhận ra cử chỉ</string>
 
@@ -630,13 +630,13 @@
     </string>
 
     <!-- Lost  monitoring -->
-    <string name="alarm_mi_band_title">Tín hiệu Band</string>
+    <string name="alarm_mi_band_title">Tín hiệu %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_dnd">Chế độ không làm phiền</string>
     <string name="alarm_mi_band_interval_title">Cài đặt khoảng thời gian báo thức lặp lại</string>
     <string name="alarm_mi_band_time_set_next">Cài đặt thời điểm của tiếp theo</string>
     <string name="alarm_mi_band_time">Thời điểm của báo thức tiếp theo</string>
 
-    <string name="alarm_mi_band_on_bluetooth_disabled_text">Lost monitoring Band signal is enabled.</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Lost monitoring %1$s signal is enabled</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm time: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Tín hiệu Band</u></b>
