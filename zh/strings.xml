@@ -334,6 +334,9 @@
     <string name="notification_tab_settings">设置</string>
 
     <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">设置</string>
+    <string name="notification_group_nav_filter">通知过滤</string>
+
     <string name="notification_group_name">名称</string>
     <string name="notification_group_monitoring">监控通知</string>
     <string name="notification_group_monitoring_disabled">禁用通知(不显示应用通知)</string>
@@ -353,10 +356,9 @@
     <string name="notification_group_screen_off">仅在熄屏时通知</string>
     <string name="notification_group_counter_title">通知数量</string>
     <string name="notification_group_wakelock">唤醒手机屏幕</string>
-    <string name="notification_group_filter">通知过滤</string>
     <string name="notification_group_filter_title">标题过滤器</string>
     <string name="notification_group_filter_content">内容过滤器</string>
-    <string name="notification_group_filter_hint">仅通知标题或内容(分隔符:回车, 不区分大小写)</string>
+    <string name="notification_group_filter_hint">仅通知标题或内容(不区分大小写)</string>
     <string name="notification_group_filter_contains">包含任何短语</string>
     <string name="notification_group_filter_not_contains">包含这些短语</string>
 
@@ -912,8 +914,11 @@
     <string name="bpm">BPM</string>
     <string name="time_start">开始时间</string>
     <string name="time_end">关闭时间</string>
-    <string name="ringer_mode_mute">静音</string>
-    <string name="ringer_mode_silent">勿扰</string>
+    <string name="ringer_mode_vibrate">震动</string>
+    <string name="ringer_mode_silent">静音</string>
+    <string name="ringer_mode_dnd_priority_only">Do not disturb (priority only)</string>
+    <string name="ringer_mode_dnd_alarms_only">Do not disturb (alarms only)</string>
+    <string name="ringer_mode_dnd_total_silence">Do not disturb (total silence)</string>
 
     <string name="action_dismiss">关闭</string>
     <string name="action_setting">设置</string>
