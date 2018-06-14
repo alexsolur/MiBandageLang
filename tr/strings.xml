@@ -334,6 +334,9 @@
     <string name="notification_tab_settings">Ayarlar</string>
 
     <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">Ayarlar</string>
+    <string name="notification_group_nav_filter">Bildirimleri filtrele</string>
+
     <string name="notification_group_name">Grup İsmi</string>
     <string name="notification_group_monitoring">Telefondaki bildirimleri izle</string>
     <string name="notification_group_monitoring_disabled">Telefondaki bildirimleri izleme kapalı (Telefondaki bildirimler gösterilmez)</string>
@@ -353,10 +356,9 @@
     <string name="notification_group_screen_off">Bildirimi sadece telefon ekranı kapalıysa göster</string>
     <string name="notification_group_counter_title">Bileklikteti bildirim gösterme sayısı</string>
     <string name="notification_group_wakelock">Telefon ekranını aç</string>
-    <string name="notification_group_filter">Bildirimleri filtrele</string>
     <string name="notification_group_filter_title">Başlık filtresi</string>
     <string name="notification_group_filter_content">İçerik filtresi</string>
-    <string name="notification_group_filter_hint">sadece filtreye uyan bildirimler gösterilir (iki filtre arası: enter, küçük/büyük harf duyarlı)</string>
+    <string name="notification_group_filter_hint">sadece filtreye uyan bildirimler gösterilir (küçük/büyük harf duyarlı)</string>
     <string name="notification_group_filter_contains">İçinde geçenler</string>
     <string name="notification_group_filter_not_contains">İçinde geçmeyenler</string>
 
@@ -911,8 +913,11 @@
     <string name="bpm">BPM</string>
     <string name="time_start">Başlangıç</string>
     <string name="time_end">Bitiş</string>
-    <string name="ringer_mode_mute">Sessiz</string>
-    <string name="ringer_mode_silent">Rahatsız etmeyin</string>
+    <string name="ringer_mode_vibrate">Titreşim</string>
+    <string name="ringer_mode_silent">Sessiz</string>
+    <string name="ringer_mode_dnd_priority_only">Rahatsısz etme (yalnızca öncelik)</string>
+    <string name="ringer_mode_dnd_alarms_only">Rahatsısz etme (yalnızca alarmlar)</string>
+    <string name="ringer_mode_dnd_total_silence">Rahatsısz etme (tamamen sessiz)</string>
 
     <string name="action_dismiss">Vazgeç</string>
     <string name="action_setting">Ayarlar</string>
