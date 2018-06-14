@@ -334,6 +334,9 @@
     <string name="notification_tab_settings">Réglages</string>
 
     <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">Réglages</string>
+    <string name="notification_group_nav_filter">Filtre de notifications</string>
+
     <string name="notification_group_name">Nom</string>
     <string name="notification_group_monitoring">Supervision des notifications</string>
     <string name="notification_group_monitoring_disabled">Désactiver les notifications (ne pas afficher les notifications d\'application)</string>
@@ -353,10 +356,9 @@
     <string name="notification_group_screen_off">Alerte uniquement lorsque l\'écran est éteint</string>
     <string name="notification_group_counter_title">Le nombre d\'alertes</string>
     <string name="notification_group_wakelock">Allumer l\'écran du mobile</string>
-    <string name="notification_group_filter">Filtre de notifications</string>
     <string name="notification_group_filter_title">Titre du filtre</string>
     <string name="notification_group_filter_content">Contenu du filtre</string>
-    <string name="notification_group_filter_hint">Alerte uniquement lors de la détection du titre ou contenu de la notification (delimiteur: entrer, case insensitive)</string>
+    <string name="notification_group_filter_hint">Alerte uniquement lors de la détection du titre ou contenu de la notification (case insensitive)</string>
     <string name="notification_group_filter_contains">Contient ces expressions</string>
     <string name="notification_group_filter_not_contains">Contient aucune expression</string>
 
@@ -910,8 +912,11 @@
     <string name="bpm">BPM</string>
     <string name="time_start">Heure de début</string>
     <string name="time_end">Heure de fin</string>
-    <string name="ringer_mode_mute">Muet</string>
-    <string name="ringer_mode_silent">Ne pas déranger</string>
+    <string name="ringer_mode_vibrate">Vibration</string>
+    <string name="ringer_mode_silent">Muet</string>
+    <string name="ringer_mode_dnd_priority_only">Ne pas déranger (priorité uniquement)</string>
+    <string name="ringer_mode_dnd_alarms_only">Ne pas déranger (alarmes uniquement)</string>
+    <string name="ringer_mode_dnd_total_silence">Ne pas déranger (aucune interruption)</string>
 
     <string name="action_dismiss">Rejeter</string>
     <string name="action_setting">réglage</string>
