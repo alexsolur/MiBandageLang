@@ -334,6 +334,9 @@
     <string name="notification_tab_settings">Настройки</string>
 
     <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">Настройки</string>
+    <string name="notification_group_nav_filter">Фильтр</string>
+
     <string name="notification_group_name">Название группы</string>
     <string name="notification_group_monitoring">Управлять уведомлениями</string>
     <string name="notification_group_monitoring_disabled">Исключить уведомления (не отображать уведомления приложений)</string>
@@ -353,10 +356,9 @@
     <string name="notification_group_screen_off">Уведомлять только при выключенном экране</string>
     <string name="notification_group_counter_title">Количество сигналов</string>
     <string name="notification_group_wakelock">Активировать экран устройства</string>
-    <string name="notification_group_filter">Фильтр</string>
     <string name="notification_group_filter_title">Фильтровать заголовок</string>
     <string name="notification_group_filter_content">Фильтровать содержимое</string>
-    <string name="notification_group_filter_hint">Уведомлять, если в уведомлении (разделитель: enter, без учёта регистра)</string>
+    <string name="notification_group_filter_hint">Уведомлять, если в уведомлении (без учёта регистра)</string>
     <string name="notification_group_filter_contains">Есть любая фраза</string>
     <string name="notification_group_filter_not_contains">Нет ни одной фразы</string>
 
@@ -911,8 +913,11 @@
     <string name="bpm">у/м</string>
     <string name="time_start">Время начала</string>
     <string name="time_end">Время окончания</string>
-    <string name="ringer_mode_mute">Без звука</string>
-    <string name="ringer_mode_silent">Не беспокоить</string>
+    <string name="ringer_mode_vibrate">Вибрация</string>
+    <string name="ringer_mode_silent">Без звука</string>
+    <string name="ringer_mode_dnd_priority_only">Не беспокоить (только приоритет)</string>
+    <string name="ringer_mode_dnd_alarms_only">Не беспокоить (только будильник)</string>
+    <string name="ringer_mode_dnd_total_silence">Не беспокоить (полная тишина)</string>
 
     <string name="action_dismiss">Отклонить</string>
     <string name="action_setting">Настройки</string>
