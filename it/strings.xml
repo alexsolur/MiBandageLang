@@ -334,6 +334,9 @@
     <string name="notification_tab_settings">Impostazioni</string>
 
     <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">Impostazioni</string>
+    <string name="notification_group_nav_filter">Filtra notifiche</string>
+
     <string name="notification_group_name">Nome</string>
     <string name="notification_group_monitoring">Abilita notifiche</string>
     <string name="notification_group_monitoring_disabled">Disabilita notifiche (non mostrare le notifiche dell\'applicazioni)</string>
@@ -353,10 +356,9 @@
     <string name="notification_group_screen_off">Notifica solo a schermo spento</string>
     <string name="notification_group_counter_title">Numero di notifiche</string>
     <string name="notification_group_wakelock">Attiva schermo dispositivo</string>
-    <string name="notification_group_filter">Filtra notifiche</string>
     <string name="notification_group_filter_title">Filtra titolo</string>
     <string name="notification_group_filter_content">Filtra contenuto</string>
-    <string name="notification_group_filter_hint">Segnala solo quando il titolo o il contenuto della notifica (vai a capo per mettere più frasi; nessuna distione tra maiuscole e minuscole)</string>
+    <string name="notification_group_filter_hint">Segnala solo quando il titolo o il contenuto della notifica (nessuna distione tra maiuscole e minuscole)</string>
     <string name="notification_group_filter_contains">Solo se contiene:</string>
     <string name="notification_group_filter_not_contains">Tutte tranne:</string>
 
@@ -911,8 +913,11 @@
     <string name="bpm">BPM</string>
     <string name="time_start">Ora inizio</string>
     <string name="time_end">Ora fine</string>
-    <string name="ringer_mode_mute">Muto</string>
-    <string name="ringer_mode_silent">Non disturbare</string>
+    <string name="ringer_mode_vibrate">Vibrazione</string>
+    <string name="ringer_mode_silent">Muto</string>
+    <string name="ringer_mode_dnd_priority_only">Non disturbare (solo con priorità)</string>
+    <string name="ringer_mode_dnd_alarms_only">Non disturbare (solo sveglie)</string>
+    <string name="ringer_mode_dnd_total_silence">Non disturbare (silenzio totale)</string>
 
     <string name="action_dismiss">Dimentica</string>
     <string name="action_setting">Impostazioni</string>
