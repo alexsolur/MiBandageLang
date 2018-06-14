@@ -333,6 +333,9 @@
     <string name="notification_tab_settings">Cài đặt</string>
 
     <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">Cài đặt</string>
+    <string name="notification_group_nav_filter">Lọc thông báo</string>
+
     <string name="notification_group_name">Tên</string>
     <string name="notification_group_monitoring">Giám sát thông báo</string>
     <string name="notification_group_monitoring_disabled">Vô hiệu hóa các thông báo (không hiển thị các thông báo ứng dụng)</string>
@@ -352,7 +355,6 @@
     <string name="notification_group_screen_off">Tín hiệu chỉ khi màn hình tắt</string>
     <string name="notification_group_counter_title">Signals cardinality</string>
     <string name="notification_group_wakelock">Đánh thức màn hình thiết bị</string>
-    <string name="notification_group_filter">Lọc thông báo</string>
     <string name="notification_group_filter_title">Title filter</string>
     <string name="notification_group_filter_content">Content filter</string>
     <string name="notification_group_filter_hint">Chỉ báo hiệu khi thông báo </string>
@@ -912,8 +914,11 @@
     <string name="bpm">BPM</string>
     <string name="time_start">Thời gian bắt đầu</string>
     <string name="time_end">Thời gian kết thúc</string>
-    <string name="ringer_mode_mute">Mute</string>
-    <string name="ringer_mode_silent">Do not disturb</string>
+    <string name="ringer_mode_vibrate">Vibrate</string>
+    <string name="ringer_mode_silent">Mute</string>
+    <string name="ringer_mode_dnd_priority_only">Do not disturb (priority only)</string>
+    <string name="ringer_mode_dnd_alarms_only">Do not disturb (alarms only)</string>
+    <string name="ringer_mode_dnd_total_silence">Do not disturb (total silence)</string>
 
     <string name="action_dismiss">Bỏ qua</string>
     <string name="action_setting">Cài đặt</string>
