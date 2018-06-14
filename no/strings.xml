@@ -334,6 +334,9 @@
     <string name="notification_tab_settings">Instillinger</string>
 
     <!-- Notifikasjon Dialog -->
+    <string name="notification_group_nav_setting">Instillinger</string>
+    <string name="notification_group_nav_filter">Filter notifikasjon</string>
+
     <string name="notification_group_name">Navn</string>
     <string name="notification_group_monitoring">Monitorering notifikasjoner</string>
     <string name="notification_group_monitoring_disabled">Deaktivert notifikasjoner (ikke vis applikasjon notifikasjoner)</string>
@@ -353,10 +356,9 @@
     <string name="notification_group_screen_off">Signaler bare når skjermen er av</string>
     <string name="notification_group_counter_title">Nummer på signaler</string>
     <string name="notification_group_wakelock">Vekke opp telefonens skjerm</string>
-    <string name="notification_group_filter">Filter notifikasjon</string>
     <string name="notification_group_filter_title">Tittel filter</string>
     <string name="notification_group_filter_content">Kontent filter</string>
-    <string name="notification_group_filter_hint">Signaler bare når notifikasjon tittelen eller kontenten (delimiter: enter, ikke bokstav sensitiv)</string>
+    <string name="notification_group_filter_hint">Signaler bare når notifikasjon tittelen eller kontenten (ikke bokstav sensitiv)</string>
     <string name="notification_group_filter_contains">Hver inneholder fraser</string>
     <string name="notification_group_filter_not_contains">Inneholder ingen frase</string>
 
@@ -912,8 +914,11 @@
     <string name="bpm">BPM</string>
     <string name="time_start">Start tid</string>
     <string name="time_end">Slutt tid</string>
-    <string name="ringer_mode_mute">Lydløs</string>
-    <string name="ringer_mode_silent">Ikke Forstyrr</string>
+    <string name="ringer_mode_vibrate">Vibrering</string>
+    <string name="ringer_mode_silent">Lydløs</string>
+    <string name="ringer_mode_dnd_priority_only">Ikke forstyrr (bare prioritet)</string>
+    <string name="ringer_mode_dnd_alarms_only">Ikke forstyrr (bare alarmer)</string>
+    <string name="ringer_mode_dnd_total_silence">Ikke forstyrr (total stillhet)</string>
 
     <string name="action_dismiss">Avvis</string>
     <string name="action_setting">Indtilling</string>
