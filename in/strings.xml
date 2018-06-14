@@ -334,6 +334,9 @@
     <string name="notification_tab_settings">Atur</string>
 
     <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">Atur</string>
+    <string name="notification_group_nav_filter">Menyaring pemberitahuan</string>
+
     <string name="notification_group_name">Nama</string>
     <string name="notification_group_monitoring">Pemantau pemberitahuan</string>
     <string name="notification_group_monitoring_disabled">Matikan pemberitahuan (sembunyikan pemberitahuan aplikasi)</string>
@@ -353,10 +356,9 @@
     <string name="notification_group_screen_off">Tanda saja ketika layar mati</string>
     <string name="notification_group_counter_title">Jumlah tanda</string>
     <string name="notification_group_wakelock">Hidupkan layar perangkat</string>
-    <string name="notification_group_filter">Menyaring pemberitahuan</string>
     <string name="notification_group_filter_title">Title filtering</string>
     <string name="notification_group_filter_content">Content filtering</string>
-    <string name="notification_group_filter_hint">Tanda saja ketika ada pemberitahuan (batas: enter, case insensitive)</string>
+    <string name="notification_group_filter_hint">Tanda saja ketika ada pemberitahuan (case insensitive)</string>
     <string name="notification_group_filter_contains">Berisi frase apapun</string>
     <string name="notification_group_filter_not_contains">Tidak mengandung frase</string>
 
@@ -911,8 +913,11 @@
     <string name="bpm">BPM</string>
     <string name="time_start">Waktu mulai</string>
     <string name="time_end">Waktu berakhir</string>
-    <string name="ringer_mode_mute">Diam</string>
-    <string name="ringer_mode_silent">Jangan ganggu</string>
+    <string name="ringer_mode_vibrate">Getar</string>
+    <string name="ringer_mode_silent">Diam</string>
+    <string name="ringer_mode_dnd_priority_only">Jangan ganggu (hanya prioritas)</string>
+    <string name="ringer_mode_dnd_alarms_only">Jangan ganggu (hanya alarm)</string>
+    <string name="ringer_mode_dnd_total_silence">Jangan ganggu (senyap total)</string>
 
     <string name="action_dismiss">Tutup</string>
     <string name="action_setting">Atur</string>
