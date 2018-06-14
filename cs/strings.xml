@@ -334,6 +334,9 @@
     <string name="notification_tab_settings">Nastavení</string>
 
     <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">Nastavení</string>
+    <string name="notification_group_nav_filter">Filtrování oznámení</string>
+
     <string name="notification_group_name">Jméno</string>
     <string name="notification_group_monitoring">Zobrazování oznámení</string>
     <string name="notification_group_monitoring_disabled">Zakázat oznámení (nezobrazovat oznámení aplikací)</string>
@@ -353,10 +356,9 @@
     <string name="notification_group_screen_off">Oznámení pouze tehdy, když je obrazovka vypnutá</string>
     <string name="notification_group_counter_title">Počet oznámení</string>
     <string name="notification_group_wakelock">Probudit obrazovku zařízení</string>
-    <string name="notification_group_filter">Filtrování oznámení</string>
     <string name="notification_group_filter_title">Název filtru</string>
     <string name="notification_group_filter_content">Obsah filtru</string>
-    <string name="notification_group_filter_hint">Oznámení pouze v případě, že název nebo obsah oznámení(oddělovač: enter, malá a velká písmena)</string>
+    <string name="notification_group_filter_hint">Oznámení pouze v případě, že název nebo obsah oznámení(malá a velká písmena)</string>
     <string name="notification_group_filter_contains">Obsahuje fráze</string>
     <string name="notification_group_filter_not_contains">Neobsahuje fráze</string>
 
@@ -912,8 +914,11 @@
     <string name="bpm">BPM</string>
     <string name="time_start">Čas zahájení</string>
     <string name="time_end">Čas ukončení</string>
-    <string name="ringer_mode_mute">Ztlumit</string>
-    <string name="ringer_mode_silent">Nerušit</string>
+    <string name="ringer_mode_vibrate">Vibrace</string>
+    <string name="ringer_mode_silent">Ztlumit</string>
+    <string name="ringer_mode_dnd_priority_only">Nerušit (pouze budíky)</string>
+    <string name="ringer_mode_dnd_alarms_only">Nerušit (pouze prioritní)</string>
+    <string name="ringer_mode_dnd_total_silence">Nerušit (úplné ticho)</string>
 
     <string name="action_dismiss">Odmítnout</string>
     <string name="action_setting">Nastavení</string>
