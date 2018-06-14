@@ -334,6 +334,9 @@
     <string name="notification_tab_settings">Ρυθμίσεις</string>
 
     <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">Ρυθμίσεις</string>
+    <string name="notification_group_nav_filter">Φιλτράρισμα ειδοποιήσεων</string>
+
     <string name="notification_group_name">Όνομα</string>
     <string name="notification_group_monitoring">Παρακολούθηση ειδοποιήσεων</string>
     <string name="notification_group_monitoring_disabled">Εξαιρέσεις ειδοποιήσεων (μην εμφανίζεις τις ειδοποιήσεις της εφαρμογής)</string>
@@ -353,10 +356,9 @@
     <string name="notification_group_screen_off">Σήμα μόνο όταν η οθόνη είναι απενεργοποιημένη</string>
     <string name="notification_group_counter_title">Πλήθος αριθμού σημάτων</string>
     <string name="notification_group_wakelock">Αφύπνιση οθόνης της συσκευής</string>
-    <string name="notification_group_filter">Φιλτράρισμα ειδοποιήσεων</string>
     <string name="notification_group_filter_title">Φίλτρο τίτλου</string>
     <string name="notification_group_filter_content">Φίλτρο περιεχομένου</string>
-    <string name="notification_group_filter_hint">Σήμα μόνο όταν η ειδοποίηση (διαχωριστικό: εισάγετε, πεζά ή κεφαλαία)</string>
+    <string name="notification_group_filter_hint">Σήμα μόνο όταν η ειδοποίηση (πεζά ή κεφαλαία)</string>
     <string name="notification_group_filter_contains">Περιέχει φράσεις</string>
     <string name="notification_group_filter_not_contains">Δεν περιέχει φράσεις</string>
 
@@ -912,8 +914,11 @@
     <string name="bpm">BPM</string>
     <string name="time_start">Ώρα έναρξης</string>
     <string name="time_end">Ώρα λήξης</string>
-    <string name="ringer_mode_mute">Αθόρυβο</string>
-    <string name="ringer_mode_silent">Μην ενοχλείτε</string>
+    <string name="ringer_mode_vibrate">Δόνηση</string>
+    <string name="ringer_mode_silent">Αθόρυβο</string>
+    <string name="ringer_mode_dnd_priority_only">Μην ενοχλείτε (priority only)</string>
+    <string name="ringer_mode_dnd_alarms_only">Μην ενοχλείτε (μόνο ξυπνητήρια)</string>
+    <string name="ringer_mode_dnd_total_silence">Μην ενοχλείτε (total silence)</string>
 
     <string name="action_dismiss">Απόρριψη</string>
     <string name="action_setting">Ρυθμίσεις</string>
