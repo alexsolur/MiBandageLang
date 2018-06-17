@@ -335,7 +335,8 @@
 
     <!-- Notification Dialog -->
     <string name="notification_group_nav_setting">Setting</string>
-    <string name="notification_group_nav_filter">Filter notifications</string>
+    <string name="notification_group_nav_filter">Filter</string>
+    <string name="notification_group_nav_correction">Correction</string>
 
     <string name="notification_group_name">Name</string>
     <string name="notification_group_monitoring">Monitoring notifications</string>
@@ -356,15 +357,25 @@
     <string name="notification_group_screen_off">Signal only when the screen is off</string>
     <string name="notification_group_counter_title">The number of signals</string>
     <string name="notification_group_wakelock">Wake up the phone screen</string>
+
+    <string name="notification_group_filter">Filter notification</string>
     <string name="notification_group_filter_title">Title filter</string>
     <string name="notification_group_filter_content">Content filter</string>
-    <string name="notification_group_filter_hint">Signal only when the notification title or content (case insensitive)</string>
+    <string name="notification_group_filter_hint">Signal only when the title or content of the notification (case insensitive)</string>
     <string name="notification_group_filter_contains">Contains any phrases</string>
     <string name="notification_group_filter_not_contains">Contains none phrases</string>
 
     <string name="notification_group_sample_sms">SMS text display</string>
     <string name="notification_group_sample_facebook">Messenger text display</string>
     <string name="notification_group_sample_whatsapp">WhatsApp text display</string>
+
+    <string name="notification_group_correction">Text correction</string>
+    <string name="notification_group_correction_title">Title correction</string>
+    <string name="notification_group_correction_content">Content correction</string>
+    <string name="notification_group_correction_hint">Case insensitive</string>
+    <string name="notification_group_correction_items">Texts to be corrected</string>
+    <string name="notification_group_correction_find">Find</string>
+    <string name="notification_group_correction_replace">Replace with</string>
 
     <string name="notification_edit_play_text_title">Notification title</string>
     <string name="notification_edit_play_text_content">Notification content:
