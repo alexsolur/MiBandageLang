@@ -336,6 +336,7 @@
     <!-- Notification Dialog -->
     <string name="notification_group_nav_setting">Impostazioni</string>
     <string name="notification_group_nav_filter">Filtra notifiche</string>
+    <string name="notification_group_nav_correction">Correction</string>
 
     <string name="notification_group_name">Nome</string>
     <string name="notification_group_monitoring">Abilita notifiche</string>
@@ -356,6 +357,8 @@
     <string name="notification_group_screen_off">Notifica solo a schermo spento</string>
     <string name="notification_group_counter_title">Numero di notifiche</string>
     <string name="notification_group_wakelock">Attiva schermo dispositivo</string>
+
+    <string name="notification_group_filter">Filtra notifiche</string>
     <string name="notification_group_filter_title">Filtra titolo</string>
     <string name="notification_group_filter_content">Filtra contenuto</string>
     <string name="notification_group_filter_hint">Segnala solo quando il titolo o il contenuto della notifica (nessuna distione tra maiuscole e minuscole)</string>
@@ -365,6 +368,14 @@
     <string name="notification_group_sample_sms">Visualizza testo SMS</string>
     <string name="notification_group_sample_facebook">Visualizza testo Messenger</string>
     <string name="notification_group_sample_whatsapp">Visualizza testo WhatsApp</string>
+
+    <string name="notification_group_correction">Text correction</string>
+    <string name="notification_group_correction_title">Title correction</string>
+    <string name="notification_group_correction_content">Content correction</string>
+    <string name="notification_group_correction_hint">Case insensitive</string>
+    <string name="notification_group_correction_items">Texts to be corrected</string>
+    <string name="notification_group_correction_find">Find</string>
+    <string name="notification_group_correction_replace">Replace with</string>
 
    <string name="notification_edit_play_text_title">Titolo notifica</string>
    <string name="notification_edit_play_text_content">Contenuto notifica:
