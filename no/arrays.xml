@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_connected_have_notif_counter">
-        <item>En per Band ikon</item>
-        <item>Nummer på notifikasjoner</item>
-        <item>1 \'app\' ikon</item>
-        <item>2 \'app\' ikon</item>
-        <item>3 \'app\' ikon</item>
+        <item>Uma vez por ícone da Band</item>
+        <item>Número de notificações</item>
+        <item>1 \'app\' icon</item>
+        <item>2 \'app\' icon</item>
+        <item>3 \'app\' icon</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_counter_values">
@@ -17,14 +17,14 @@
     </string-array>
 
     <string-array name="pref_connected_have_notif_interval">
-        <item>3 minutter</item>
-        <item>5 minutter</item>
-        <item>10 minutter</item>
-        <item>20 minutter</item>
-        <item>30 minutter</item>
-        <item>1 time</item>
-        <item>2 timer</item>
-        <item>3 timer</item>
+        <item>3 minutos</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>20 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+        <item>2 horas</item>
+        <item>3 horas</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_interval_values">
@@ -39,16 +39,16 @@
     </string-array>
 
     <string-array name="pref_abandoned_interval">
-        <item>1 minutt</item>
-        <item>2 minutter</item>
-        <item>3 minutter</item>
-        <item>4 minutter</item>
-        <item>5 minutter</item>
-        <item>6 minutter</item>
-        <item>7 minutter</item>
-        <item>8 minutter</item>
-        <item>9 minutter</item>
-        <item>10 minutter</item>
+        <item>1 minuto</item>
+        <item>2 minutos</item>
+        <item>3 minutos</item>
+        <item>4 minutos</item>
+        <item>5 minutos</item>
+        <item>6 minutos</item>
+        <item>7 minutos</item>
+        <item>8 minutos</item>
+        <item>9 minutos</item>
+        <item>10 minutos</item>
     </string-array>
 
     <integer-array name="pref_abandoned_interval_values">
@@ -65,12 +65,12 @@
     </integer-array>
 
     <string-array name="pref_abandoned_notif_interval">
-        <item>10 minutter</item>
-        <item>20 minutter</item>
-        <item>30 minutter</item>
-        <item>1 time</item>
-        <item>2 timer</item>
-        <item>3 timer</item>
+        <item>10 minutos</item>
+        <item>20 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+        <item>2 horas</item>
+        <item>3 horas</item>
     </string-array>
 
     <integer-array name="pref_abandoned_notif_interval_values">
@@ -83,22 +83,22 @@
     </integer-array>
 
     <string-array name="notification_group_counter">
-        <item>Et signal</item>
-        <item>Et per applikasjon</item>
-        <item>Nummer på notifikasjoner (all)</item>
+        <item>Um sinal</item>
+        <item>Uma vez por aplicação</item>
+        <item>Número de notificações</item>
     </string-array>
 
     <string-array name="touch_call_mute_ringer_mode">
-        <item>Vibrering</item>
-        <item>Lydløs</item>
-        <item>Ikke forstyrr (bare prioritet)</item>
-        <item>Ikke forstyrr (bare alarmer)</item>
-        <item>Ikke forstyrr (total stillhet)</item>
+        <item>Vibrar</item>
+        <item>Silêncio</item>
+        <item>Não perturbar (apenas prioridade)</item>
+        <item>Não perturbar (apenas alarmes)</item>
+        <item>Não perturbar (silêncio total)</item>
     </string-array>
 
     <string-array name="touch_music_player">
-        <item>Standard musikk spiller</item>
-        <item>Pågående kjørende spiller</item>
+        <item>Reprodutor de música padrão</item>
+        <item>Reprodutor que estiver aberto</item>
         <item>Google Play Music</item>
         <item>Spotify Music</item>
     </string-array>
@@ -111,10 +111,10 @@
     </string-array>
 
     <string-array name="touch_music_info">
-        <item>Ingen notifikasjon</item>
-        <item>Artist#Tittel</item>
-        <item>Artist, Tittel</item>
-        <item>Tittel</item>
+        <item>Sem notificação</item>
+        <item>Artista#Título</item>
+        <item>Artista, Título</item>
+        <item>Título</item>
     </string-array>
 
     <string-array name="touch_music_info_values">
@@ -125,7 +125,7 @@
     </string-array>
 
     <string-array name="touch_camera_app">
-        <item>Standard (krever root)</item>
+        <item>Padrão (É necessário ROOT)</item>
         <item>Open Camera</item>
     </string-array>
 
@@ -135,31 +135,31 @@
     </string-array>
 
     <string-array name="pref_timer_time_interval_repeat">
-        <item>Av</item>
-        <item>1 minutt</item>
-        <item>2 minutter</item>
-        <item>3 minutter</item>
-        <item>4 minutter</item>
-        <item>5 minutter</item>
-        <item>6 minutter</item>
-        <item>7 minutter</item>
-        <item>8 minutter</item>
-        <item>9 minutter</item>
-        <item>10 minutter</item>
-        <item>11 minutter</item>
-        <item>12 minutter</item>
-        <item>13 minutter</item>
-        <item>14 minutter</item>
-        <item>15 minutter</item>
-        <item>20 minutter</item>
-        <item>30 minutter</item>
-        <item>40 minutter</item>
-        <item>50 minutter</item>
-        <item>1 time</item>
-        <item>2 timer</item>
-        <item>3 timer</item>
-        <item>4 timer</item>
-        <item>5 timer</item>
+        <item>Desligado</item>
+        <item>1 minuto</item>
+        <item>2 minutos</item>
+        <item>3 minutos</item>
+        <item>4 minutos</item>
+        <item>5 minutos</item>
+        <item>6 minutos</item>
+        <item>7 minutos</item>
+        <item>8 minutos</item>
+        <item>9 minutos</item>
+        <item>10 minutos</item>
+        <item>11 minutos</item>
+        <item>12 minutos</item>
+        <item>13 minutos</item>
+        <item>14 minutos</item>
+        <item>15 minutos</item>
+        <item>20 minutos</item>
+        <item>30 minutos</item>
+        <item>40 minutos</item>
+        <item>50 minutos</item>
+        <item>1 hora</item>
+        <item>2 horas</item>
+        <item>3 horas</item>
+        <item>4 horas</item>
+        <item>5 horas</item>
     </string-array>
 
     <integer-array name="pref_timer_time_interval_repeat_values">
@@ -191,16 +191,16 @@
     </integer-array>
 
     <string-array name="notification_group_text_content_slice">
-        <item>1 del (1-%1$,d chars)</item>
-        <item>2 deler (1-%1$,d chars)</item>
-        <item>3 deler (1-%1$,d chars)</item>
-        <item>4 deler (1-%1$,d chars)</item>
-        <item>5 deler (1-%1$,d chars)</item>
-        <item>6 deler (1-%1$,d chars)</item>
-        <item>7 deler (1-%1$,d chars)</item>
-        <item>8 deler (1-%1$,d chars)</item>
-        <item>9 deler (1-%1$,d chars)</item>
-        <item>10 deler (1-%1$,d chars)</item>
+        <item>1 parte (1-%1$,d caracteres)</item>
+        <item>2 partes (1-%1$,d caracteres)</item>
+        <item>3 partes (1-%1$,d caracteres)</item>
+        <item>4 partes (1-%1$,d caracteres)</item>
+        <item>5 partes (1-%1$,d caracteres)</item>
+        <item>6 partes (1-%1$,d caracteres)</item>
+        <item>7 partes (1-%1$,d caracteress)</item>
+        <item>8 partes (1-%1$,d caracteres)</item>
+        <item>9 partes (1-%1$,d caracteres)</item>
+        <item>10 partes (1-%1$,d caracteres)</item>
     </string-array>
 
     <integer-array name="notification_group_text_content_slice_values">
@@ -217,10 +217,10 @@
     </integer-array>
 
     <string-array name="touch_recognition_press">
-        <item>Ingen</item>
-        <item>Trykk</item>
-        <item>Dobbelt trykk</item>
-        <item>Langt trykk</item>
+        <item>Nenhum</item>
+        <item>1 toque</item>
+        <item>2 toques</item>
+        <item>Toque longo</item>
     </string-array>
 
     <string-array name="touch_recognition_press_values">
@@ -231,9 +231,9 @@
     </string-array>
 
     <string-array name="touch_recognition_start_trigger">
-        <item>Ingen</item>
-        <item>Mønster</item>
-        <item>Langt trykk på knappen</item>
+        <item>Nenhum</item>
+        <item>Padrão</item>
+        <item>Manter o botão pressionado</item>
     </string-array>
 
     <string-array name="touch_recognition_start_trigger_values">
@@ -243,11 +243,11 @@
     </string-array>
 
     <string-array name="widget_event">
-        <item>Bandasje-skjerm</item>
-        <item>Aktivitets-skjerm</item>
-        <item>Puls-skjerm</item>
-        <item>Puls-monitorering</item>
-        <item>Alarm-skjerm</item>
+        <item>Bandagem</item>
+        <item>Passos</item>
+        <item>Pulsação</item>
+        <item>Monitorar pulsação</item>
+        <item>Despertador</item>
     </string-array>
 
     <string-array name="widget_event_values">
@@ -259,12 +259,11 @@
     </string-array>
 
     <string-array name="pref_language">
-        <item>Default</item>
-        <item>Norsk</item>
+        <item>Padrão</item>
+        <item>Português</item>
         <item>English</item>
         <item>Magyar</item>
         <item>Русский</item>
-        <item>Português</item>
         <item>Türk</item>
         <item>Ελληνικά</item>
         <item>Tiếng Việt</item>
@@ -274,15 +273,16 @@
         <item>Deutsche</item>
         <item>Čeština</item>
         <item>Français</item>
+        <item>Norsk</item>
         <item>中文</item>
     </string-array>
 
     <string-array name="pref_language_values">
         <item>DEFAULT</item>
-        <item>no</item>
-        <item>en</item>
-        <item>ru</item>
         <item>pt</item>
+        <item>en</item>
+        <item>hu</item>
+        <item>ru</item>
         <item>tr</item>
         <item>el</item>
         <item>vi</item>
@@ -292,12 +292,13 @@
         <item>de</item>
         <item>cs</item>
         <item>fr</item>
+        <item>no</item>
         <item>zh</item>
     </string-array>
 
     <string-array name="pref_language_amazfit_bip">
-        <item>Not set (set by Mi Fit)</item>
-        <item>Default</item>
+        <item>Indefinido (configurado pela Mi Fit)</item>
+        <item>Padrão</item>
         <item>English</item>
         <item>Español</item>
         <item>繁體中文</item>
@@ -314,8 +315,8 @@
     </string-array>
 
     <string-array name="pref_language_amazfit_cor">
-        <item>Not set (set by Mi Fit)</item>
-        <item>Default</item>
+        <item>Indefinido (configurado pela Mi Fit)</item>
+        <item>Padrão</item>
         <item>English</item>
         <item>简体中文</item>
     </string-array>
