@@ -336,6 +336,7 @@
     <!-- Notification Dialog -->
     <string name="notification_group_nav_setting">Réglages</string>
     <string name="notification_group_nav_filter">Filtre de notifications</string>
+    <string name="notification_group_nav_correction">Correction</string>
 
     <string name="notification_group_name">Nom</string>
     <string name="notification_group_monitoring">Supervision des notifications</string>
@@ -356,6 +357,8 @@
     <string name="notification_group_screen_off">Alerte uniquement lorsque l\'écran est éteint</string>
     <string name="notification_group_counter_title">Le nombre d\'alertes</string>
     <string name="notification_group_wakelock">Allumer l\'écran du mobile</string>
+
+    <string name="notification_group_filter">Filtre de notifications</string>
     <string name="notification_group_filter_title">Titre du filtre</string>
     <string name="notification_group_filter_content">Contenu du filtre</string>
     <string name="notification_group_filter_hint">Alerte uniquement lors de la détection du titre ou contenu de la notification (case insensitive)</string>
@@ -365,6 +368,14 @@
     <string name="notification_group_sample_sms">Afficher le texte du SMS</string>
     <string name="notification_group_sample_facebook">Afficher le texte de Messenger</string>
     <string name="notification_group_sample_whatsapp">Afficher le texte de WhatsApp</string>
+
+    <string name="notification_group_correction">Text correction</string>
+    <string name="notification_group_correction_title">Title correction</string>
+    <string name="notification_group_correction_content">Content correction</string>
+    <string name="notification_group_correction_hint">Case insensitive</string>
+    <string name="notification_group_correction_items">Texts to be corrected</string>
+    <string name="notification_group_correction_find">Find</string>
+    <string name="notification_group_correction_replace">Replace with</string>
 
     <string name="notification_edit_play_text_title">Titre de la notification </string>
     <string name="notification_edit_play_text_content">Contenu de la notification:
