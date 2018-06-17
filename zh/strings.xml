@@ -336,6 +336,7 @@
     <!-- Notification Dialog -->
     <string name="notification_group_nav_setting">设置</string>
     <string name="notification_group_nav_filter">通知过滤</string>
+    <string name="notification_group_nav_correction">Correction</string>
 
     <string name="notification_group_name">名称</string>
     <string name="notification_group_monitoring">监控通知</string>
@@ -356,6 +357,8 @@
     <string name="notification_group_screen_off">仅在熄屏时通知</string>
     <string name="notification_group_counter_title">通知数量</string>
     <string name="notification_group_wakelock">唤醒手机屏幕</string>
+
+    <string name="notification_group_filter">通知过滤</string>
     <string name="notification_group_filter_title">标题过滤器</string>
     <string name="notification_group_filter_content">内容过滤器</string>
     <string name="notification_group_filter_hint">仅通知标题或内容(不区分大小写)</string>
@@ -365,6 +368,14 @@
     <string name="notification_group_sample_sms">SMS文本显示</string>
     <string name="notification_group_sample_facebook">Messenger文本显示</string>
     <string name="notification_group_sample_whatsapp">WhatsApp文本显示</string>
+
+    <string name="notification_group_correction">Text correction</string>
+    <string name="notification_group_correction_title">Title correction</string>
+    <string name="notification_group_correction_content">Content correction</string>
+    <string name="notification_group_correction_hint">Case insensitive</string>
+    <string name="notification_group_correction_items">Texts to be corrected</string>
+    <string name="notification_group_correction_find">Find</string>
+    <string name="notification_group_correction_replace">Replace with</string>
 
     <string name="notification_edit_play_text_title">Notification title</string>
     <string name="notification_edit_play_text_content">Notification content:
