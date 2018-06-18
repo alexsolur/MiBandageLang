@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_connected_have_notif_counter">
+        <item>Raz na ikonę Opaski</item>
+        <item>Liczba powiadomień</item>
+        <item>1 ikona \'apki\'</item>
+        <item>2 ikony \'apki\'</item>
+        <item>3 ikony \'apki\'</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_counter_values">
+        <item>-2</item>
+        <item>-1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_interval">
+        <item>3 minuty</item>
+        <item>5 minuty</item>
+        <item>10 minut</item>
+        <item>20 minut</item>
+        <item>30 minut</item>
+        <item>1 godzina</item>
+        <item>2 godziny</item>
+        <item>3 godziny</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_interval_values">
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </string-array>
+
+    <string-array name="pref_abandoned_interval">
+        <item>1 minuta</item>
+        <item>2 minuty</item>
+        <item>3 minuty</item>
+        <item>4 minuty</item>
+        <item>5 minut</item>
+        <item>6 minut</item>
+        <item>7 minut</item>
+        <item>8 minut</item>
+        <item>9 minut</item>
+        <item>10 minut</item>
+    </string-array>
+
+    <integer-array name="pref_abandoned_interval_values">
+        <item>60000</item>
+        <item>120000</item>
+        <item>180000</item>
+        <item>240000</item>
+        <item>300000</item>
+        <item>360000</item>
+        <item>420000</item>
+        <item>480000</item>
+        <item>540000</item>
+        <item>600000</item>
+    </integer-array>
+
+    <string-array name="pref_abandoned_notif_interval">
+        <item>10 minut</item>
+        <item>20 minut</item>
+        <item>30 minut</item>
+        <item>1 godzina</item>
+        <item>2 godziny</item>
+        <item>3 godziny</item>
+    </string-array>
+
+    <integer-array name="pref_abandoned_notif_interval_values">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </integer-array>
+
+    <string-array name="notification_group_counter">
+        <item>Jeden sygnał</item>
+        <item>Raz na aplikację</item>
+        <item>Liczba powiadomień (wszystkie)</item>
+    </string-array>
+
+    <string-array name="touch_call_mute_ringer_mode">
+        <item>Wibracja</item>
+        <item>Wyciszenie</item>
+        <item>Nie przeszkadzać (tylko priorytety)</item>
+        <item>Nie przeszkadzać (tylko alarmy)</item>
+        <item>Nie przeszkadzać (całkowita cisza)</item>
+    </string-array>
+
+    <string-array name="touch_music_player">
+        <item>Domyślny odtwarzacz muzyczny</item>
+        <item>Obecnie włączony odtwarzacz</item>
+        <item>Muzyka Google Play</item>
+        <item>Odtwarzacz Spotify</item>
+    </string-array>
+
+    <string-array name="touch_music_player_values">
+        <item></item>
+        <item>ACTIVE</item>
+        <item>com.google.android.music</item>
+        <item>com.spotify.music</item>
+    </string-array>
+
+    <string-array name="touch_music_info">
+        <item>Bez powiadomień</item>
+        <item>Wykonawca#Tytuł</item>
+        <item>Wykonawca, Tytuł</item>
+        <item>Tytuł</item>
+    </string-array>
+
+    <string-array name="touch_music_info_values">
+        <item>NONE</item>
+        <item>ARTIST#TITLE</item>
+        <item>ARTIST_TITLE</item>
+        <item>TITLE</item>
+    </string-array>
+
+    <string-array name="touch_camera_app">
+        <item>Domyślna (wymagany root)</item>
+        <item>Otwórz Aparat</item>
+    </string-array>
+
+    <string-array name="touch_camera_app_values">
+        <item></item>
+        <item>net.sourceforge.opencamera</item>
+    </string-array>
+
+    <string-array name="pref_timer_time_interval_repeat">
+        <item>Wyłączony</item>
+        <item>1 minuta</item>
+        <item>2 minuty</item>
+        <item>3 minuty</item>
+        <item>4 minuty</item>
+        <item>5 minut</item>
+        <item>6 minut</item>
+        <item>7 minut</item>
+        <item>8 minut</item>
+        <item>9 minut</item>
+        <item>10 minut</item>
+        <item>11 minut</item>
+        <item>12 minut</item>
+        <item>13 minut</item>
+        <item>14 minut</item>
+        <item>15 minut</item>
+        <item>20 minut</item>
+        <item>30 minut</item>
+        <item>40 minut</item>
+        <item>50 minut</item>
+        <item>1 godzina</item>
+        <item>2 godziny</item>
+        <item>3 godziny</item>
+        <item>4 godziny</item>
+        <item>5 godzin</item>
+    </string-array>
+
+    <integer-array name="pref_timer_time_interval_repeat_values">
+        <item>0</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>180000</item>
+        <item>240000</item>
+        <item>300000</item>
+        <item>360000</item>
+        <item>420000</item>
+        <item>480000</item>
+        <item>540000</item>
+        <item>600000</item>
+        <item>660000</item>
+        <item>720000</item>
+        <item>780000</item>
+        <item>840000</item>
+        <item>900000</item>
+        <item>1200000</item>
+        <item>1800000</item>
+        <item>2400000</item>
+        <item>3000000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+        <item>10800000</item>
+        <item>14400000</item>
+        <item>18000000</item>
+    </integer-array>
+
+    <string-array name="notification_group_text_content_slice">
+        <item>1 rząd (1-%1$,d znaków)</item>
+        <item>2 rzędy (1-%1$,d znaków)</item>
+        <item>3 rzędy (1-%1$,d znaków)</item>
+        <item>4 rzędy (1-%1$,d znaków)</item>
+        <item>5 rzędów (1-%1$,d znaków)</item>
+        <item>6 rzędów (1-%1$,d znaków)</item>
+        <item>7 rzędów (1-%1$,d znaków)</item>
+        <item>8 rzędów (1-%1$,d znaków)</item>
+        <item>9 rzędów (1-%1$,d znaków)</item>
+        <item>10 rzędów (1-%1$,d znaków)</item>
+    </string-array>
+
+    <integer-array name="notification_group_text_content_slice_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+
+    <string-array name="touch_recognition_press">
+        <item>Brak</item>
+        <item>Dotknięcie</item>
+        <item>Podwójne dotknięcie</item>
+        <item>Długie dotknięcie</item>
+    </string-array>
+
+    <string-array name="touch_recognition_press_values">
+        <item>NONE</item>
+        <item>TOUCH</item>
+        <item>DOUBLE_TOUCH</item>
+        <item>LONG_TOUCH</item>
+    </string-array>
+
+    <string-array name="touch_recognition_start_trigger">
+        <item>Brak</item>
+        <item>Wzór</item>
+        <item>Długie wciśnięcie przycisku</item>
+    </string-array>
+
+    <string-array name="touch_recognition_start_trigger_values">
+        <item>NONE</item>
+        <item>PATTERN</item>
+        <item>LONG_PRESS</item>
+    </string-array>
+
+    <string-array name="widget_event">
+        <item>Ekran udogodnień</item>
+        <item>Ekran aktywności</item>
+        <item>Ekran pulsu</item>
+        <item>Pomiar pulsu</item>
+        <item>Ekran alarmu</item>
+    </string-array>
+
+    <string-array name="widget_event_values">
+        <item>LAUNCH_BANDAGES</item>
+        <item>LAUNCH_ACTIVITY</item>
+        <item>LAUNCH_PULSE</item>
+        <item>ACTION_PULSE</item>
+        <item>LAUNCH_TIME_ALARM</item>
+    </string-array>
+
+    <string-array name="pref_language">
+        <item>Domyślny</item>
+        <item>Polski</item>
+        <item>English</item>
+        <item>Magyar</item>
+        <item>Русский</item>
+        <item>Português</item>
+        <item>Español</item>
+        <item>Italiano</item>
+        <item>Türk</item>
+        <item>Tiếng Việt</item>
+        <item>Deutsche</item>
+        <item>Čeština</item>
+        <item>Français</item>
+        <item>Norsk</item>
+        <item>Ελληνικά</item>
+        <item>Indonesia</item>
+        <item>中文</item>
+    </string-array>
+
+    <string-array name="pref_language_values">
+        <item>DEFAULT</item>
+        <item>pl</item>
+        <item>en</item>
+        <item>hu</item>
+        <item>ru</item>
+        <item>pt</item>
+        <item>es</item>
+        <item>it</item>
+        <item>tr</item>
+        <item>vi</item>
+        <item>de</item>
+        <item>cs</item>
+        <item>fr</item>
+        <item>no</item>
+        <item>el</item>
+        <item>in</item>
+        <item>zh</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_bip">
+        <item>Nieustawiony (ustawiony przez Mi Fit)</item>
+        <item>Domyślny</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>繁體中文</item>
+        <item>简体中文</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_bip_values">
+        <item></item>
+        <item>DEFAULT</item>
+        <item>en_US</item>
+        <item>es_ES</item>
+        <item>zh_TW</item>
+        <item>zh_CN</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_cor">
+        <item>Nieustawiony (ustawiony przez Mi Fit)</item>
+        <item>Domyślny</item>
+        <item>English</item>
+        <item>简体中文</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_cor_values">
+        <item></item>
+        <item>DEFAULT</item>
+        <item>en_US</item>
+        <item>zh_CN</item>
+    </string-array>
+</resources>
