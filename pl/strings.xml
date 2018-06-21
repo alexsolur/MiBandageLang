@@ -237,7 +237,7 @@
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Włącz Bluetooth i zbliż Opaskę do telefonu</string>
     <string name="message_discover_mi_band">Opaska nie jest ustawiona, proszę włączyć tryb widoczności</string>
-    <string name="message_discovering_mi_band">Wyszukiwanie Opaski (może to zająć 1 minutę) &#8230;</string>
+    <string name="message_discovering_mi_band">Wyszukiwanie Opaski (może to zająć minutę) &#8230;</string>
     <string name="message_discovered_mi_band">%1$s połączony pomyślnie</string>
     <string name="message_discovered_no_mi_band">Połączenie Opaski nie powiodło się</string>
     <string name="message_discovered_not_found_mi_band">Jeśli Opaska nie została znaleziona, włącz: Mi Fit/Profil/Mi Band 2/Widoczność, lub sparuj w ustawieniach Bluetooth telefonu</string>
@@ -294,9 +294,9 @@
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
-    <p>Mi Bandage wymaga instalacji oficjalnej aplikacji Mi Fit na tym samym telefonie. Najpierw musisz sparować Opaskę w aplikacji Mi Fit, potem możesz użyć Mi Bandage</p>
-    <p>Jeśli używasz więcej aplikacji do sterowania Opaską, przeszkadzają sobie nawzajem, więc tymczasowo je wyłącz</p>
-    <p>Jeśli Opaska nie zostanie znaleziona, możesz ustawić adres MAC ręcznie po wykryciu (adres MAC znajdziesz tu: Mi Fit/Profil/Opaska)</p>
+    <p>Mi Bandage wymaga instalacji oficjalnej aplikacji Mi Fit na tym samym telefonie. Najpierw musisz sparować Opaskę w aplikacji Mi Fit, potem możesz użyć Mi Bandage.</p>
+    <p>Jeśli używasz więcej aplikacji do sterowania Opaską, przeszkadzają sobie nawzajem, więc tymczasowo je wyłącz.</p>
+    <p>Jeśli Opaska nie zostanie znaleziona, możesz ustawić adres MAC ręcznie po wykryciu (adres MAC znajdziesz tu: Mi Fit/Profil/Opaska).</p>
     <p><b>Jeśli masz problem z połączeniem:</b>
     <br>- Sprawdź <i>Ustawienia/Diagnostyka</i>
     <br>- Ekran ostatnich aplikacji: zablokuj Mi Bandage (przesuń aplikację w dół i kliknij ikonę blokady)
@@ -306,7 +306,7 @@
     <br>- Wył. aplikacje w tle: wyłączone
     <br>- Ogranicz procesy w tle: Standardowy limit
     <br>- Optymalizacja pamięci: średnia/niska/wyłącz</p>
-    <p>Jeśli nie znaleziono Opaski lub jeśli masz problemy z synchronizacją aplikacji Mi Fit, zainstaluj aplikację BToolkit, nRF Connect lub podobną aplikację do zarządzania Bluetooth i usuń wszystkie powiązane urządzenia</p>
+    <p>Jeśli nie znaleziono Opaski lub jeśli masz problemy z synchronizacją aplikacji Mi Fit, zainstaluj aplikację BToolkit, nRF Connect lub podobną aplikację do zarządzania Bluetooth i usuń wszystkie powiązane urządzenia.</p>
     <p>Jeśli masz problem (znajdowanie Opaski, nie masz sygnału powiadomienia), spróbuj:
     <br>1. Jeśli zainstalowałeś aplikację Greenify (lub inną aplikację do hibernacji), wyłącz ją
     <br>2. Zainstaluj aplikację Mi Bandage
@@ -438,7 +438,7 @@
 
     <string name="touch_headline_call_title">Kontrola połączeń</string>
     <string name="touch_headline_music_title">Kontrola muzyki</string>
-    <string name="touch_headline_time_title">Kontrola Timera/stopera</string>
+    <string name="touch_headline_time_title">Kontrola timera/stopera</string>
     <string name="touch_headline_other_title">Inne kontrole</string>
 
     <string name="touch_device_location_title">Znajdź mój telefon</string>
@@ -505,8 +505,8 @@
     <string name="touch_setting_recognition_time_title">Czas rozpoznania</string>
 
     <string name="touch_setting_recognition_mi_band_signal_title">Sygnał na %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="touch_setting_recognition_succeeded_title">Rozpoznawany wzór dotyku</string>
-    <string name="touch_setting_recognition_failed_title">Nieczytelny wzór dotykowy</string>
+    <string name="touch_setting_recognition_succeeded_title">Rozpoznany wzór dotknięć</string>
+    <string name="touch_setting_recognition_failed_title">Nierozopoznany wzór dotknięć</string>
 
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[Dotknięcie jest ważne, gdy zmienia się wyświetlanie na Opasce (dlatego wskazane jest obrócenie nadgarstka przed dotknięciem).
@@ -514,9 +514,9 @@
         <p>Zielone ikony na kartach wskazują, która inna funkcja może być podobna do bieżącego wzoru.</p>
         <p>Po otrzymaniu połączenia telefon nie rozpoznaje następujących funkcji, aby ułatwić wprowadzanie dotykowe: lokalizacja telefonu, powtarzanie powiadomień, sterowanie muzyką.</p>
         <p>W trybie testowym nie wykonuje funkcji rozpoznanego wzorca.</p>
-        <p>Dotyczy tylko wibracji Opaski, jeśli istnieje wzorzec uwzględniający aktualny stan telefonu (odpowiedź na telefon, odrzucenie tylko w przypadku połączenia przychodzącego…).</p>
+        <p>Dotyczy tylko wibracji Opaski, jeśli istnieje wzorzec uwzględniający aktualny stan telefonu (odpowiedź na telefon, odrzucenie tylko w przypadku połączenia przychodzącego...).</p>
         <p>Opaska wibruje raz, gdy rozpozna wzór.</p>
-        <p>Opaska wibruje dwa razy, jeśli nie rozpoznaje żadnego wzorca po najdłuższym wzorze (jeśli ustawiono <i>Nieczytelny sygnał wzoru dotykowego</i>).</p>
+        <p>Opaska wibruje dwa razy, jeśli nie rozpoznaje żadnego wzorca po najdłuższym wzorze (jeśli ustawiono <i>Nierozpoznany wzór dotknięć</i>).</p>
         <p>Prawidłowe przykłady dotykania:
         <br>- dotknięcie
         <br>- dotknięcie, 1 sek. czekania, dotknięcie
@@ -541,8 +541,8 @@
     <string name="step_tab_settings">Ustawienia</string>
 
     <string name="activity_progress_title_prepare">Przygotowanie do synchronizacji...</string>
-    <string name="activity_progress_title_sync">Data synchronizacji %1$,d%%</string>
-    <string name="activity_progress_title_save">Data zapisania (%2$s) %1$,d%%</string>
+    <string name="activity_progress_title_sync">Synchronizacja danych %1$,d%%</string>
+    <string name="activity_progress_title_save">Zapisywanie danych (%2$s) %1$,d%%</string>
 
     <string name="step_title_timing">Czasy</string>
     <string name="step_interval_title">Powtarzanie interwału monitorowania kroku</string>
@@ -656,7 +656,7 @@
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>Sygnał Opaski</u></b>
         <p>Po upływie określonego czasu Opaska wysyła sygnały, jeśli nie jest podłączona do telefonu.</p>
-        <p>Aplikacja wykorzystuje funkcję alarmu Mi Fit do ostrzeżenia (nadpisanie ustawionego numer 10).</p>
+        <p>Aplikacja wykorzystuje funkcję alarmu Mi Fit do ostrzeżenia (nadpisanie ustawionego alarmu numer 10).</p>
         <p>Alarm zostanie powtórzony kilka razy, jeśli Opaska nie wykryje żadnego ruchu (ponieważ używa alarmu Opaski).</p>
         <p>Przed wyłączeniem Bluetooth lub odinstalowaniem aplikacji musisz dezaktywować sygnał Opaski.</p>
         <p>Jeśli usuniesz aplikację, gdy alarm jest włączony, możesz wyłączyć tę funkcję, włączając i wyłączając ponownie ustawienie alarmu numer 10 w aplikacji Mi Fit.</p>
@@ -733,7 +733,7 @@
         <img src="ic_miband_bell"> <b><u>Dzwonek</u></b>
         <p>Połączenie Bluetooth jest wymagane do alarmu, alarmuje tylko jeden raz przez 10 sekund.</p>
         <img src="ic_alarm"> <b><u>Alarm</u></b>
-        <p>Połączenie Bluetooth nie jest wymagane dla alarmu, aplikacja wykorzystuje funkcję alarmu Mi Fit do ostrzeżenia (nadpisanie ustawień numer 4 - 9).
+        <p>Połączenie Bluetooth nie jest wymagane dla alarmu, aplikacja wykorzystuje funkcję alarmu Mi Fit do ostrzeżenia (nadpisanie ustawionych alarmów numer 4 - 9).
         <br>Alarm zostanie powtórzony kilka razy, jeśli Opaska nie wykryje żadnego ruchu (ponieważ wykorzystuje alarm Opaski).
         <br>Dokładność co do minuty, Opaska nie obsługuje sekund w przypadku alarmu.</p>
         <p>Sygnał przypomnienia i pokazywanie komunikatu wymagają połączenia Bluetooth.</p>
@@ -856,9 +856,9 @@
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Warunki korzystania z trybu nagrody</string>
     <string name="rewarded_policy"><![CDATA[
-        <p>- początek ważności: aktualny czas
-        <br>- koniec ważności: początek ważności + co najmniej %1$,d dni (w zależności od reklamy może być więcej)
-        <br>- manipulacja czasem może spowodować zakończenie ważności</p>
+        <p>- Początek ważności: aktualny czas
+        <br>- Koniec ważności: początek ważności + co najmniej %1$,d dni (w zależności od reklamy może być więcej)
+        <br>- Manipulacja czasem może spowodować zakończenie ważności</p>
         <i>Po odtworzeniu wideo musisz ponownie uruchomić aplikację.</i>
     ]]></string>
 
@@ -873,15 +873,15 @@
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Zalety trybu Premium</string>
     <string name="purchase_advantage"><![CDATA[
-        - bez reklam
-        <br>- tryb Nie przeszkadzać
-        <br>- nieograniczone monitorowanie powiadomień
-        <br>- nieograniczony monitoring dotknięć
-        <br>- prefiks tekstowy, wstępna ikona i filtrowanie tekstu mogą być używane w monitorowaniu powiadomień
-        <br>- interwał powtarzania można ustawić dowolnie w funkcji monitorowania kroku
-        <br>- interwał powtarzania można ustawić dowolnie, a pokazywanie tętna może być używane w funkcji monitorowania tętna
-        <br>- interwał powtarzania można ustawić dowolnie, a tryb Nie przeszkadzać można zastosować w przypadku utraty funkcji monitorowania
-        <br>- powtarzające się przypomnienia, pokazywanie wiadomości i włączanie bluetooth można dowolnie ustawić w czasie monitorowania
+        - Bez reklam
+        <br>- Tryb Nie przeszkadzać
+        <br>- Nieograniczone monitorowanie powiadomień
+        <br>- Nieograniczony monitoring dotknięć
+        <br>- Prefiks tekstowy, wstępna ikona i filtrowanie tekstu mogą być używane w monitorowaniu powiadomień
+        <br>- Interwał powtarzania można ustawić dowolnie w funkcji monitorowania kroku
+        <br>- Interwał powtarzania można ustawić dowolnie, a pokazywanie tętna może być używane w funkcji monitorowania tętna
+        <br>- Interwał powtarzania można ustawić dowolnie, a tryb Nie przeszkadzać można zastosować w przypadku utraty funkcji monitorowania
+        <br>- Powtarzające się przypomnienia, pokazywanie wiadomości i włączanie bluetooth można dowolnie ustawić w czasie monitorowania
         <br>- …
     ]]></string>
     <string name="purchase_policy_title">Warunki korzystania z trybu Premium</string>
@@ -911,8 +911,8 @@
     <!-- Vibration dialog -->
     <string name="vibration_title">Ustawienia wibracji</string>
     <string name="vibration_intensity">Trwanie</string>
-    <string name="vibration_pause">Pauza</string>
-    <string name="vibration_times">Czasy</string>
+    <string name="vibration_pause">Przerwa</string>
+    <string name="vibration_times">Powtórzenia</string>
 
     <!-- Hack -->
     <string name="info_dialog_hack"><![CDATA[Wykryto narzędzie hakerskie na telefonie.
