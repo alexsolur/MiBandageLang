@@ -125,15 +125,6 @@
     <string name="pref_disconnected_volume_adapter_summary_on">Ajustar volumen</string>
     <string name="pref_disconnected_volume_adapter_summary_off">No ajustar volumen</string>
 
-    <string name="pref_cat_abandoned">Señal del dispositivo</string>
-    <string name="pref_abandoned_notif_interval_title">Intervalo de repetición de la señal</string>
-    <string name="pref_abandoned_notif_text_summary">Notificación en la pantalla del dispositivo</string>
-    <string name="pref_abandoned_notif_text_text">El dispositivo está extraviado, por favor, llame a los siguientes numeros:</string>
-    <string name="pref_abandoned_ringtone_title">Melodía</string>
-    <string name="pref_abandoned_vibration_title">Vibración</string>
-    <string name="pref_abandoned_wakelock_title">Encender pantalla del dispositivo</string>
-    <string name="pref_abandoned_notif_title">El dispositivo está extraviado</string>
-
     <string name="pref_call">Llamada</string>
     <string name="pref_call_summary">Configuraciones de señal de %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Llamada entrante</string>
@@ -289,6 +280,7 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Bienvenido!</string>
     <string name="dialog_welcome_message"><![CDATA[Dispositivos soportados:
+    <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
@@ -343,6 +335,8 @@
     <string name="notification_group_monitoring_disabled">Deshabilitar notificaciones (no mostrar las notificaciones de la aplicación)</string>
     <string name="notification_group_text">Mostrar texto</string>
     <string name="notification_group_alert_title">Señal de %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_text_app_name">App name</string>
+    <string name="notification_group_text_name">Nombre</string>
     <string name="notification_group_text_title">Título</string>
     <string name="notification_group_text_content">Contenido</string>
     <string name="notification_group_vibration_title">Personalización de vibración</string>
@@ -350,7 +344,6 @@
     <string name="notification_group_pre_vibration_title">Pre vibración</string>
     <string name="notification_group_pre_alert_title">Icono previo</string>
     <string name="notification_group_prefix">Prefijo de texto</string>
-    <string name="notification_group_pre_only_premium">Sólo en modo Premium</string>
     <string name="notification_group_immediate">Avisar inmediatamente cuando se recive una notificacion</string>
     <string name="notification_group_connecting">Al conectar al dispositivo</string>
     <string name="notification_group_reminder">Señal de recordatorio</string>
@@ -652,15 +645,27 @@
     <string name="alarm_mi_band_time_set_next">Hora de la siguiente configuracion</string>
     <string name="alarm_mi_band_time">Hora de la siguiente alarma</string>
 
+    <string name="alarm_mi_band_disconnected_message">Desconectado</string> <!-- Max. 16 characters length -->
+
+    <string name="pref_cat_abandoned">Señal del dispositivo</string>
+    <string name="pref_abandoned_notif_interval_title">Intervalo de repetición de la señal</string>
+    <string name="pref_abandoned_notif_text_summary">Notificación en la pantalla del dispositivo</string>
+    <string name="pref_abandoned_notif_text_text">El dispositivo está extraviado, por favor, llame a los siguientes numeros:</string>
+    <string name="pref_abandoned_ringtone_title">Melodía</string>
+    <string name="pref_abandoned_vibration_title">Vibración</string>
+    <string name="pref_abandoned_wakelock_title">Encender pantalla del dispositivo</string>
+    <string name="pref_abandoned_notif_title">El dispositivo está extraviado</string>
+
     <string name="alarm_mi_band_on_bluetooth_disabled_text">Señal de monitoreo de extravío en %1$s está activada</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Hora de alarma: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>Señal de Band</u></b>
         <p>Cuando expira un periodo de tiempo especificado, Band envia señales si no esta conectado al dispositivo.</p>
-        <p>La aplicación utiliza la funcion de alarma de Mi Fit para alertar (sobreescribir la configuracion).</p>
-        <p>La alarma se repetira varias veces si la Band no detecta ningun movimiento (porque utiliza la alarma de fábrica).</p>
+        <not_support_icon_text><p>La aplicación utiliza la funcion de alarma de Mi Fit para alertar (sobreescribir la configuracion).</p></not_support_icon_text>
+        <not_support_icon_text><p>La alarma se repetira varias veces si la Band no detecta ningun movimiento (porque utiliza la alarma de fábrica).</p></not_support_icon_text>
+        <support_icon_text><p>La aplicación utiliza la funcion de alarma de Mi Fit para alertar.</p></support_icon_text>
         <p>Antes de apagar Bluetooth o desinstalar la aplicación, debe desactivar la señal de Band.</p>
-        <p>Si elimina la aplicacion cuando la alarma está activada, puede desactivarla con la activación y desactivación de la configuración de alarma en Mi Fit.</p>
+        <not_support_icon_text><p>Si elimina la aplicacion cuando la alarma está activada, puede desactivarla con la activación y desactivación de la configuración de alarma en Mi Fit.</p></not_support_icon_text>
 
         <img src="ic_phone_android"> <b><u>Señales del dispositivo</u></b>
         <p>Cuando expira el periodo de tiempo especificado, el dispositivo envía señales repetidamente, si no está conectado a la pulsera.<p>
@@ -901,6 +906,8 @@
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
     <string name="purchase_button_purchase">Comprar</string>
+
+    <string name="text_premium_mode_only">Sólo en modo Premium</string>
 
     <!-- Feedback -->
     <string name="action_log_notification">Log de Notificaciones</string>
