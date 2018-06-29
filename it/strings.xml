@@ -125,15 +125,6 @@
     <string name="pref_disconnected_volume_adapter_summary_on">Modifica il volume</string>
     <string name="pref_disconnected_volume_adapter_summary_off">Non modificare il volume</string>
 
-    <string name="pref_cat_abandoned">Notifica su dispositivo</string>
-    <string name="pref_abandoned_notif_interval_title">Intervallo di notifica</string>
-    <string name="pref_abandoned_notif_text_summary">Messaggio di notifica sul dispositivo</string>
-    <string name="pref_abandoned_notif_text_text">Dispositivo smarrito, per favore contatta il numero:</string>
-    <string name="pref_abandoned_ringtone_title">Suoneria</string>
-    <string name="pref_abandoned_vibration_title">Vibrazione</string>
-    <string name="pref_abandoned_wakelock_title">Attiva il display</string>
-    <string name="pref_abandoned_notif_title">Dispositivo smarrito</string>
-
     <string name="pref_call">Chiamata</string>
     <string name="pref_call_summary">Imposta notifiche su %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Ricezione chiamate</string>
@@ -289,6 +280,7 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Benvenuto!</string>
     <string name="dialog_welcome_message"><![CDATA[Dispositivi supportati:
+    <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
@@ -343,6 +335,8 @@
     <string name="notification_group_monitoring_disabled">Disabilita notifiche (non mostrare le notifiche dell\'applicazioni)</string>
     <string name="notification_group_text">Text display</string>
     <string name="notification_group_alert_title">Notifica %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_text_app_name">App name</string>
+    <string name="notification_group_text_name">Nome</string>
     <string name="notification_group_text_title">Titolo</string>
     <string name="notification_group_text_content">Contenuto</string>
     <string name="notification_group_vibration_title">Personalizza vibrazione</string>
@@ -350,7 +344,6 @@
     <string name="notification_group_pre_vibration_title">Vibra prima</string>
     <string name="notification_group_pre_alert_title">Icona prima</string>
     <string name="notification_group_prefix">Testo identificativo</string>
-    <string name="notification_group_pre_only_premium">Solo in versione premium</string>
     <string name="notification_group_immediate">Segnala immediatamente alla ricezione della notifica</string>
     <string name="notification_group_connecting">Quando connesso al dispositivo</string>
     <string name="notification_group_reminder">Promemoria notifica</string>
@@ -650,15 +643,27 @@
     <string name="alarm_mi_band_time_set_next">Tempo mancante alle prossime impostazioni</string>
     <string name="alarm_mi_band_time">Tempo mancante al prossimo allarme</string>
 
+    <string name="alarm_mi_band_disconnected_message">Disconnessa</string> <!-- Max. 16 characters length -->
+
+    <string name="pref_cat_abandoned">Notifica su dispositivo</string>
+    <string name="pref_abandoned_notif_interval_title">Intervallo di notifica</string>
+    <string name="pref_abandoned_notif_text_summary">Messaggio di notifica sul dispositivo</string>
+    <string name="pref_abandoned_notif_text_text">Dispositivo smarrito, per favore contatta il numero:</string>
+    <string name="pref_abandoned_ringtone_title">Suoneria</string>
+    <string name="pref_abandoned_vibration_title">Vibrazione</string>
+    <string name="pref_abandoned_wakelock_title">Attiva il display</string>
+    <string name="pref_abandoned_notif_title">Dispositivo smarrito</string>
+
     <string name="alarm_mi_band_on_bluetooth_disabled_text">Notifica smarrimento su %1$s attivata</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Tempo allarme: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Notifica Band</u></b>
         <p>Quando finisce il tempo specificato, la Band invia una notifica se non è connessa al dispositivo.</p>
-        <p>L\'app usa la funzione allarme dell\'app Mi Fit per avvisarti.</p>
-        <p>L\'allarme verrà ripetuto più volte se la Band non rileva alcun movimento (perchè usa la funzione allarme di fabbrica).</p>
+        <not_support_icon_text><p>L\'app usa la funzione allarme dell\'app Mi Fit per avvisarti.</p></not_support_icon_text_2>
+        <not_support_icon_text><p>L\'allarme verrà ripetuto più volte se la Band non rileva alcun movimento (perchè usa la funzione allarme di fabbrica).</p></not_support_icon_text>
+        <support_icon_text><p>L\'app usa la funzione allarme dell\'app Mi Fit per avvisarti.</p></support_icon_text_3>
         <p>Prima di disattivare il Bluetooth o disinstallare l\'app, devi disattivare la notifica della Band.</p>
-        <p>Se disinstalli l\'app con l\'allarme è attivo, puoi disabilitarlo attivando e disattivando la funzione allarme nell\'app Mi Fit.</p>
+        <not_support_icon_text><p>Se disinstalli l\'app con l\'allarme è attivo, puoi disabilitarlo attivando e disattivando la funzione allarme nell\'app Mi Fit.</p></not_support_icon_text>
 
         <img src="ic_phone_android"> <b><u>Notifiche dispositivo</u></b>
         <p>Quando finisce il tempo specificato, il dispositivo manda continuamente notifiche se non connesso alla Band.<p>
@@ -899,6 +904,8 @@
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
     <string name="purchase_button_purchase">Acquista</string>
+
+    <string name="text_premium_mode_only">Solo in versione premium</string>
 
     <!-- Feedback -->
     <string name="action_log_notification">Log</string>
