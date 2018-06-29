@@ -125,15 +125,6 @@
     <string name="pref_disconnected_volume_adapter_summary_on">Ρυθμίστε την ένταση</string>
     <string name="pref_disconnected_volume_adapter_summary_off">Μη ρυθμίζετε την ένταση</string>
 
-    <string name="pref_cat_abandoned">Σήμα συσκευής</string>
-    <string name="pref_abandoned_notif_interval_title">Διάστημα επανάληψης σήματος</string>
-    <string name="pref_abandoned_notif_text_summary">Ειδοποίηση στην οθόνη της συσκευής</string>
-    <string name="pref_abandoned_notif_text_text">Η συσκευή αυτή έχει χαθεί, παρακαλώ καλέστε στους παρακάτω αριθμούς:</string>
-    <string name="pref_abandoned_ringtone_title">Ήχος κλήσης</string>
-    <string name="pref_abandoned_vibration_title">Δόνηση</string>
-    <string name="pref_abandoned_wakelock_title">Αφύπνιση οθόνης της συσκευής</string>
-    <string name="pref_abandoned_notif_title">Η συσκευή έχει χαθεί</string>
-
     <string name="pref_call">Ρυθμίσεις κλήσης</string>
     <string name="pref_call_summary">Ρυθμίσεις σήματος %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Εισερχόμενη κλήση</string>
@@ -289,6 +280,7 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Καλώς ορίσατε!</string>
     <string name="dialog_welcome_message"><![CDATA[Υποστηριζόμενες συσκευές:
+    <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
@@ -343,6 +335,8 @@
     <string name="notification_group_monitoring_disabled">Εξαιρέσεις ειδοποιήσεων (μην εμφανίζεις τις ειδοποιήσεις της εφαρμογής)</string>
     <string name="notification_group_text">Εμφάνιση κειμένου</string>
     <string name="notification_group_alert_title">Σήμα %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_text_app_name">App name</string>
+    <string name="notification_group_text_name">Όνομα</string>
     <string name="notification_group_text_title">Τίτλος</string>
     <string name="notification_group_text_content">Περεχόμενο</string>
     <string name="notification_group_vibration_title">Προσαρμοσμένη δόνηση</string>
@@ -350,7 +344,6 @@
     <string name="notification_group_pre_vibration_title">Προ δόνηση</string>
     <string name="notification_group_pre_alert_title">Προ εικονίδιο</string>
     <string name="notification_group_prefix">Πρόθεμα κειμένου</string>
-    <string name="notification_group_pre_only_premium">Μόνο στη λειτουργία premium</string>
     <string name="notification_group_immediate">Άμεσο σήμα με την παραλαβή της ειδοποίησης</string>
     <string name="notification_group_connecting">Κατά τη σύνδεση με τη συσκευή</string>
     <string name="notification_group_reminder">Σήμα υπενθύμισης</string>
@@ -651,15 +644,27 @@
     <string name="alarm_mi_band_time_set_next">Το χρονοδιάγραμμα της επόμενης ρύθμισης</string>
     <string name="alarm_mi_band_time">Το χρονοδιάγραμμα της επόμενης υπενθύμισης</string>
 
+    <string name="alarm_mi_band_disconnected_message">Ξεσυνδεδεμένο</string> <!-- Max. 16 characters length -->
+
+    <string name="pref_cat_abandoned">Σήμα συσκευής</string>
+    <string name="pref_abandoned_notif_interval_title">Διάστημα επανάληψης σήματος</string>
+    <string name="pref_abandoned_notif_text_summary">Ειδοποίηση στην οθόνη της συσκευής</string>
+    <string name="pref_abandoned_notif_text_text">Η συσκευή αυτή έχει χαθεί, παρακαλώ καλέστε στους παρακάτω αριθμούς:</string>
+    <string name="pref_abandoned_ringtone_title">Ήχος κλήσης</string>
+    <string name="pref_abandoned_vibration_title">Δόνηση</string>
+    <string name="pref_abandoned_wakelock_title">Αφύπνιση οθόνης της συσκευής</string>
+    <string name="pref_abandoned_notif_title">Η συσκευή έχει χαθεί</string>
+
     <string name="alarm_mi_band_on_bluetooth_disabled_text">Το σήμα της εποπτείας συσκευής %1$s είναι ενεργό</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Χρόνος ειδοποίησης: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Σήμα Band</u></b>
         <p> Όταν λήξει καθορισμένο χρονικό διάστημα η συσκευή αν δεν είναι συνδεδεμένη, το Band στέλνει ένα σήμα.</p>
-        <p>Η εφαρμογή χρησιμοποιεί τη λειτουργία συναγερμού του Mi Fit να ειδοποιεί (αντικαταστήσετε 10. ρύθμιση).</p>
-        <p>Η ειδοποίηση θα επαναληφθεί αρκετές φορές αν το Band δεν ανιχνεύσει οποιαδήποτε κίνηση (επειδή χρησιμοποιεί την εργοστασιακή ειδοποίηση).</p>
+        <not_support_icon_text><p>Η εφαρμογή χρησιμοποιεί τη λειτουργία συναγερμού του Mi Fit να ειδοποιεί (αντικαταστήσετε 10. ρύθμιση).</p></not_support_icon_text>
+        <not_support_icon_text><p>Η ειδοποίηση θα επαναληφθεί αρκετές φορές αν το Band δεν ανιχνεύσει οποιαδήποτε κίνηση (επειδή χρησιμοποιεί την εργοστασιακή ειδοποίηση).</p></not_support_icon_text>
+        <support_icon_text><p>Η εφαρμογή χρησιμοποιεί τη λειτουργία συναγερμού του Mi Fit να ειδοποιεί.</p></support_icon_text>
         <p>Πριν την απενεργοποίηση του Bluetooth ή την απεγκατάσταση της εφαρμογής θα πρέπει να απενεργοποιήσετε το σήμα του Band.</p>
-        <p>Αν αφαιρέσετε την εφαρμογή, όταν η ειδοποίηση είναι ενεργοποιημένη, τότε μπορείτε να την απενεργοποιήσετε, ενεργοποιώντας και απενεργοποιώντας πάλι Mi Fit 10. ρύθμιση της ειδοποίησης.</p>
+        <not_support_icon_text><p>Αν αφαιρέσετε την εφαρμογή, όταν η ειδοποίηση είναι ενεργοποιημένη, τότε μπορείτε να την απενεργοποιήσετε, ενεργοποιώντας και απενεργοποιώντας πάλι Mi Fit 10. ρύθμιση της ειδοποίησης.</p></not_support_icon_text>
 
         <img src="ic_phone_android"> <b><u>Σήματα της συσκευής</u></b>
         <p>Όταν λήξει καθορισμένο χρονικό διάστημα, η συσκευή αν δεν είναι συνδεδεμένη με το βραχιόλι, στέλνει σήματα επανειλημμένα.<p>
@@ -900,6 +905,8 @@
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
     <string name="purchase_button_purchase">Αγορά</string>
+
+    <string name="text_premium_mode_only">Μόνο στη λειτουργία premium</string>
 
     <!-- Feedback -->
     <string name="action_log_notification">Log</string>
