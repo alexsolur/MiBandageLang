@@ -125,15 +125,6 @@
     <string name="pref_disconnected_volume_adapter_summary_on">Justere volum</string>
     <string name="pref_disconnected_volume_adapter_summary_off">Ikke justere volum</string>
 
-    <string name="pref_cat_abandoned">Telefon-signal</string>
-    <string name="pref_abandoned_notif_interval_title">Signal gjentagelses-interval</string>
-    <string name="pref_abandoned_notif_text_summary">Notifikasjon på telefon-skjermen</string>
-    <string name="pref_abandoned_notif_text_text">Telefonen er mistet, venligst ring det følgende nummeret:</string>
-    <string name="pref_abandoned_ringtone_title">Ringetone</string>
-    <string name="pref_abandoned_vibration_title">Vibrasjon</string>
-    <string name="pref_abandoned_wakelock_title">Vekk opp skjermen</string>
-    <string name="pref_abandoned_notif_title">Telefonen er mistet</string>
-
     <string name="pref_call">Anrop</string>
     <string name="pref_call_summary">%1$s signal-instillinger</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Inkommende anrop</string>
@@ -289,6 +280,7 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Velkommen!</string>
     <string name="dialog_welcome_message"><![CDATA[Supportede enheter:
+    <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
@@ -343,6 +335,8 @@
     <string name="notification_group_monitoring_disabled">Deaktivert notifikasjoner (ikke vis applikasjon notifikasjoner)</string>
     <string name="notification_group_alert_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="notification_group_text">Vis Text</string>
+    <string name="notification_group_text_app_name">App name</string>
+    <string name="notification_group_text_name">Navn</string>
     <string name="notification_group_text_title">Tittel</string>
     <string name="notification_group_text_content">Kontent</string>
     <string name="notification_group_vibration_title">Egendefinert vibrasjon</string>
@@ -350,7 +344,6 @@
     <string name="notification_group_pre_vibration_title">Forhånds-vibrasjon</string>
     <string name="notification_group_pre_alert_title">Pre icon</string>
     <string name="notification_group_prefix">Text prefix</string>
-    <string name="notification_group_pre_only_premium">Bare i premium modus</string>
     <string name="notification_group_immediate">Umiddelbart signal når notifikasjon er mottatt</string>
     <string name="notification_group_connecting">Tilkobles til telefon</string>
     <string name="notification_group_reminder">Påminnelse av signal</string>
@@ -651,15 +644,27 @@
     <string name="alarm_mi_band_time_set_next">Timing av neste instilling</string>
     <string name="alarm_mi_band_time">Timing av neste alarm</string>
 
+    <string name="alarm_mi_band_disconnected_message">Frakoblet</string> <!-- Max. 16 characters length -->
+
+    <string name="pref_cat_abandoned">Telefon-signal</string>
+    <string name="pref_abandoned_notif_interval_title">Signal gjentagelses-interval</string>
+    <string name="pref_abandoned_notif_text_summary">Notifikasjon på telefon-skjermen</string>
+    <string name="pref_abandoned_notif_text_text">Telefonen er mistet, venligst ring det følgende nummeret:</string>
+    <string name="pref_abandoned_ringtone_title">Ringetone</string>
+    <string name="pref_abandoned_vibration_title">Vibrasjon</string>
+    <string name="pref_abandoned_wakelock_title">Vekk opp skjermen</string>
+    <string name="pref_abandoned_notif_title">Telefonen er mistet</string>
+
     <string name="alarm_mi_band_on_bluetooth_disabled_text">Mistet monitorering %1$s signal er aktivert</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm-tid: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>Band signal</u></b>
         <p>Når spesifisert periode av tiden utløper, Sender bandet signaler hvis det ikke er tilkoblet til telefonen.</p>
-        <p>Appen bruker alarm funksjon på Mi Fit for å varsle (overskrive 10. egenskap).</p>
-        <p>Alarmen vil repetere flere ganger hvis Bandet ikke detekterer noe bevegelser (fordi det bruker Bandets alarm).</p>
+        <not_support_icon_text><p>Appen bruker alarm funksjon på Mi Fit for å varsle (overskrive 10. egenskap).</p></not_support_icon_text_2>
+        <not_support_icon_text><p>Alarmen vil repetere flere ganger hvis Bandet ikke detekterer noe bevegelser (fordi det bruker Bandets alarm).</p></not_support_icon_text>
+        <support_icon_text><p>Appen bruker alarm funksjon på Mi Fit for å varsle.</p></support_icon_text>
         <p>Før du skruer av Bluetooth eller avinstallerer appen må du deaktivere Bandets signal.</p>
-        <p>Hvis du fjerner applikasjonen når alarmen er på, da kan du deaktivere den ved å skru på og av igjen Mi Fit 10. alarm instilling.</p>
+        <not_support_icon_text><p>Hvis du fjerner applikasjonen når alarmen er på, da kan du deaktivere den ved å skru på og av igjen Mi Fit 10. alarm instilling.</p></not_support_icon_text>
 
         <img src="ic_phone_android"> <b><u>Telefon signaler</u></b>
         <p>Når spesifisert periode av tiden utløper, vil telefonen sende signaler gjentakende hvis ikke den er koblet til smartklokka.<p>
@@ -900,6 +905,8 @@
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
     <string name="purchase_button_purchase">Kjøp</string>
+
+    <string name="text_premium_mode_only">Bare i premium modus</string>
 
     <!-- Feedback -->
     <string name="action_log_notification">Notifikasjon logg</string>
