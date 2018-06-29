@@ -124,15 +124,6 @@
     <string name="pref_disconnected_volume_adapter_summary_on">Adjust the volume</string>
     <string name="pref_disconnected_volume_adapter_summary_off">Do not adjust the volume</string>
 
-    <string name="pref_cat_abandoned">Tín hiệu thiết bị</string>
-    <string name="pref_abandoned_notif_interval_title">Khoảng thời gian lặp lại tín hiệu</string>
-    <string name="pref_abandoned_notif_text_summary">Thông báo trên màn hình thiết bị</string>
-    <string name="pref_abandoned_notif_text_text">Thiết bị này được mất, xin gọi số điện thoại sau:</string>
-    <string name="pref_abandoned_ringtone_title">Nhạc chuông</string>
-    <string name="pref_abandoned_vibration_title">Rung</string>
-    <string name="pref_abandoned_wakelock_title">Đánh thức màn hình</string>
-    <string name="pref_abandoned_notif_title">Thiết bị này bị mất</string>
-
     <string name="pref_call">Cài đặt cuộc gọi</string>
     <string name="pref_call_summary">Tín hiệu %1$s settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Cuộc gọi đến</string>
@@ -288,6 +279,7 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Chào mừng!</string>
     <string name="dialog_welcome_message"><![CDATA[Supported devices:
+    <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
@@ -343,13 +335,14 @@
     <string name="notification_group_text">Text display</string>
     <string name="notification_group_alert_title">Tín hiệu %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="notification_group_text_title">Tiêu đề</string>
+    <string name="notification_group_text_app_name">App name</string>
+    <string name="notification_group_text_name">Tên</string>
     <string name="notification_group_text_content">Nội dung</string>
     <string name="notification_group_vibration_title">Custom vibration</string>
     <string name="notification_group_pre_signal_title">Dự báo thông báo mặc định</string>
     <string name="notification_group_pre_vibration_title">Pre vibration</string>
     <string name="notification_group_pre_alert_title">Biểu tượng báo trước</string>
     <string name="notification_group_prefix">Tiền tố văn bản</string>
-    <string name="notification_group_pre_only_premium">Chỉ có ở bản nâng cấp</string>
     <string name="notification_group_immediate">Phát tín hiệu ngay lập tức khi nhận được thông báo</string>
     <string name="notification_group_connecting">Khi kết nối với thiết bị</string>
     <string name="notification_group_reminder">Tín hiệu nhắc nhở</string>
@@ -651,15 +644,27 @@
     <string name="alarm_mi_band_time_set_next">Cài đặt thời điểm của tiếp theo</string>
     <string name="alarm_mi_band_time">Thời điểm của báo thức tiếp theo</string>
 
+    <string name="alarm_mi_band_disconnected_message">Disconnected</string> <!-- Max. 16 characters length -->
+
+    <string name="pref_cat_abandoned">Tín hiệu thiết bị</string>
+    <string name="pref_abandoned_notif_interval_title">Khoảng thời gian lặp lại tín hiệu</string>
+    <string name="pref_abandoned_notif_text_summary">Thông báo trên màn hình thiết bị</string>
+    <string name="pref_abandoned_notif_text_text">Thiết bị này được mất, xin gọi số điện thoại sau:</string>
+    <string name="pref_abandoned_ringtone_title">Nhạc chuông</string>
+    <string name="pref_abandoned_vibration_title">Rung</string>
+    <string name="pref_abandoned_wakelock_title">Đánh thức màn hình</string>
+    <string name="pref_abandoned_notif_title">Thiết bị này bị mất</string>
+
     <string name="alarm_mi_band_on_bluetooth_disabled_text">Lost monitoring %1$s signal is enabled</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm time: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Tín hiệu Band</u></b>
-        <p>When specified period of time expires, Band send signals if not connected to the device.</p>
-        <p>App uses alarm function of Mi Fit to alert (overwrite 10. setting).</p>
-        <p>The alarm will be repeated several times if the Band do not detect any movement (because it uses the factory alarm).</p>
+        <p>When specified period of time expires, Band send signals if not connected to the phone.</p>
+        <not_support_icon_text><p>App uses alarm function of Mi Fit to alert (overwrite 10. setting).</p></not_support_icon_text>
+        <not_support_icon_text><p>The alarm will be repeated several times if the Band do not detect any movement (because it uses the Band alarm).</p></p></not_support_icon_text>
+        <support_icon_text><p>App uses reminder function of Mi Fit to alert.</p></support_icon_text>
         <p>Before switching off Bluetooth or uninstalling the app you need to deactivate Tín hiệu Band.</p>
-        <p>If you remove the application when the alarm is on, then you can disable it with turning on and off again Mi Fit 10. alarm setting.</p>
+        <not_support_icon_text><p>If you remove the application when the alarm is on, then you can disable it with turning on and off again Mi Fit 10. alarm setting.</p></not_support_icon_text>
 
         <img src="ic_phone_android"> <b><u>Device signals</u></b>
         <p>When specified period of time expires, device send signals repeatedly if not connected to the bracelet.<p>
@@ -900,6 +905,8 @@
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
     <string name="purchase_button_purchase">Mua</string>
+
+    <string name="text_premium_mode_only">Chỉ có ở bản nâng cấp</string>
 
     <!-- Feedback -->
     <string name="action_log_notification">Log</string>
