@@ -125,15 +125,6 @@
     <string name="pref_disconnected_volume_adapter_summary_on">Adjust the volume</string>
     <string name="pref_disconnected_volume_adapter_summary_off">Do not adjust the volume</string>
 
-    <string name="pref_cat_abandoned">Phone signal</string>
-    <string name="pref_abandoned_notif_interval_title">Signal repeat interval</string>
-    <string name="pref_abandoned_notif_text_summary">Notification on the phone screen</string>
-    <string name="pref_abandoned_notif_text_text">The phone is lost, please call the following numbers:</string>
-    <string name="pref_abandoned_ringtone_title">Ringtone</string>
-    <string name="pref_abandoned_vibration_title">Vibration</string>
-    <string name="pref_abandoned_wakelock_title">Wake up the screen</string>
-    <string name="pref_abandoned_notif_title">The phone is lost</string>
-
     <string name="pref_call">Call</string>
     <string name="pref_call_summary">%1$s signal settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Incoming call</string>
@@ -289,6 +280,7 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Welcome!</string>
     <string name="dialog_welcome_message"><![CDATA[Supported devices:
+    <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
@@ -343,6 +335,8 @@
     <string name="notification_group_monitoring_disabled">Disable notifications (do not show the application notifications)</string>
     <string name="notification_group_alert_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="notification_group_text">Text display</string>
+    <string name="notification_group_text_app_name">App name</string>
+    <string name="notification_group_text_name">Name</string>
     <string name="notification_group_text_title">Title</string>
     <string name="notification_group_text_content">Content</string>
     <string name="notification_group_vibration_title">Custom vibration</string>
@@ -350,7 +344,6 @@
     <string name="notification_group_pre_vibration_title">Pre vibration</string>
     <string name="notification_group_pre_alert_title">Pre icon</string>
     <string name="notification_group_prefix">Text prefix</string>
-    <string name="notification_group_pre_only_premium">Only in premium mode</string>
     <string name="notification_group_immediate">Immediate signal when notification is received</string>
     <string name="notification_group_connecting">When connecting to phone</string>
     <string name="notification_group_reminder">Reminder signal</string>
@@ -651,15 +644,27 @@
     <string name="alarm_mi_band_time_set_next">Timing of next setting</string>
     <string name="alarm_mi_band_time">Timing of next alarm</string>
 
+    <string name="alarm_mi_band_disconnected_message">Disconnected</string> <!-- Max. 16 characters length -->
+
+    <string name="pref_cat_abandoned">Phone signal</string>
+    <string name="pref_abandoned_notif_interval_title">Signal repeat interval</string>
+    <string name="pref_abandoned_notif_text_summary">Notification on the phone screen</string>
+    <string name="pref_abandoned_notif_text_text">The phone is lost, please call the following numbers:</string>
+    <string name="pref_abandoned_ringtone_title">Ringtone</string>
+    <string name="pref_abandoned_vibration_title">Vibration</string>
+    <string name="pref_abandoned_wakelock_title">Wake up the screen</string>
+    <string name="pref_abandoned_notif_title">The phone is lost</string>
+
     <string name="alarm_mi_band_on_bluetooth_disabled_text">Lost monitoring %1$s signal is enabled</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm time: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>Band signal</u></b>
         <p>When specified period of time expires, Band send signals if not connected to the phone.</p>
-        <p>App uses alarm function of Mi Fit to alert (overwrite 10. setting).</p>
-        <p>The alarm will be repeated several times if the Band do not detect any movement (because it uses the Band alarm).</p>
+        <not_support_icon_text><p>App uses alarm function of Mi Fit to alert (overwrite 10. setting).</p></not_support_icon_text>
+        <not_support_icon_text><p>The alarm will be repeated several times if the Band do not detect any movement (because it uses the Band alarm).</p></p></not_support_icon_text>
+        <support_icon_text><p>App uses reminder function of Mi Fit to alert.</p></support_icon_text>
         <p>Before switching off Bluetooth or uninstalling the app you need to deactivate Band signal.</p>
-        <p>If you remove the application when the alarm is on, then you can disable it with turning on and off again Mi Fit 10. alarm setting.</p>
+        <not_support_icon_text><p>If you remove the application when the alarm is on, then you can disable it with turning on and off again Mi Fit 10. alarm setting.</p></not_support_icon_text>
 
         <img src="ic_phone_android"> <b><u>Phone signals</u></b>
         <p>When specified period of time expires, phone send signals repeatedly if not connected to the bracelet.<p>
@@ -900,6 +905,8 @@
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
     <string name="purchase_button_purchase">Purchase</string>
+
+    <string name="text_premium_mode_only">Only in premium mode</string>
 
     <!-- Feedback -->
     <string name="action_log_notification">Log</string>
