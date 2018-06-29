@@ -125,15 +125,6 @@
     <string name="pref_disconnected_volume_adapter_summary_on">Nastaví hlasitost</string>
     <string name="pref_disconnected_volume_adapter_summary_off">Nenastaví hlasitost</string>
 
-    <string name="pref_cat_abandoned">Oznámení na zařízení</string>
-    <string name="pref_abandoned_notif_interval_title">Interval opakování oznámení</string>
-    <string name="pref_abandoned_notif_text_summary">Upozornění na obrazovce zařízení</string>
-    <string name="pref_abandoned_notif_text_text">Zařízení je ztraceno, prosím zavolejte na následující čísla:</string>
-    <string name="pref_abandoned_ringtone_title">Vyzvánění</string>
-    <string name="pref_abandoned_vibration_title">Vibrace</string>
-    <string name="pref_abandoned_wakelock_title">Probudit obrazovku</string>
-    <string name="pref_abandoned_notif_title">Zařízení je ztraceno</string>
-
     <string name="pref_call">Hovor</string>
     <string name="pref_call_summary">Nastavení oznámení na %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Příchozí hovor</string>
@@ -289,6 +280,7 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Vítejte!</string>
     <string name="dialog_welcome_message"><![CDATA[Podporovaná zařízení:
+    <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
@@ -343,6 +335,8 @@
     <string name="notification_group_monitoring_disabled">Zakázat oznámení (nezobrazovat oznámení aplikací)</string>
     <string name="notification_group_alert_title">Oznámení na %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="notification_group_text">Text obrazovky</string>
+    <string name="notification_group_text_app_name">App name</string>
+    <string name="notification_group_text_name">Jméno</string>
     <string name="notification_group_text_title">Název</string>
     <string name="notification_group_text_content">Obsah</string>
     <string name="notification_group_vibration_title">Vlastní vibrace</string>
@@ -350,7 +344,6 @@
     <string name="notification_group_pre_vibration_title">Před vibrace</string>
     <string name="notification_group_pre_alert_title">Před ikona</string>
     <string name="notification_group_prefix">Předpona textu</string>
-    <string name="notification_group_pre_only_premium">Pouze v prémiovém režimu</string>
     <string name="notification_group_immediate">Okamžité oznámení při přijetí notifikace</string>
     <string name="notification_group_connecting">Při připojení k zařízení</string>
     <string name="notification_group_reminder">Připomenutí oznámení</string>
@@ -369,13 +362,13 @@
     <string name="notification_group_sample_facebook">Zobrazení textu Messengru</string>
     <string name="notification_group_sample_whatsapp">Zobrazení WhatsApp textu</string>
 
-    <string name="notification_group_correction">Korekce textu</string>
-    <string name="notification_group_correction_title">Název korekce</string>
-    <string name="notification_group_correction_content">Obsah korekce</string>
-    <string name="notification_group_correction_hint">Nerozlišuje velikost písmen</string>
-    <string name="notification_group_correction_items">Texty, které mají být opraveny</string>
-    <string name="notification_group_correction_find">Najít</string>
-    <string name="notification_group_correction_replace">Nahradit</string>
+    <string name="notification_group_correction">Text correction</string>
+    <string name="notification_group_correction_title">Title correction</string>
+    <string name="notification_group_correction_content">Content correction</string>
+    <string name="notification_group_correction_hint">Case insensitive</string>
+    <string name="notification_group_correction_items">Texts to be corrected</string>
+    <string name="notification_group_correction_find">Find</string>
+    <string name="notification_group_correction_replace">Replace with</string>
 
     <string name="notification_confirm_close">Opravdu chcete změny vyřadit?</string>
 
@@ -651,15 +644,27 @@
     <string name="alarm_mi_band_time_set_next">Načasování dalšího nastavení</string>
     <string name="alarm_mi_band_time">Načasování dalšího budíku</string>
 
+    <string name="alarm_mi_band_disconnected_message">Odpojeno</string> <!-- Max. 16 characters length -->
+
+    <string name="pref_cat_abandoned">Oznámení na zařízení</string>
+    <string name="pref_abandoned_notif_interval_title">Interval opakování oznámení</string>
+    <string name="pref_abandoned_notif_text_summary">Upozornění na obrazovce zařízení</string>
+    <string name="pref_abandoned_notif_text_text">Zařízení je ztraceno, prosím zavolejte na následující čísla:</string>
+    <string name="pref_abandoned_ringtone_title">Vyzvánění</string>
+    <string name="pref_abandoned_vibration_title">Vibrace</string>
+    <string name="pref_abandoned_wakelock_title">Probudit obrazovku</string>
+    <string name="pref_abandoned_notif_title">Zařízení je ztraceno</string>
+
     <string name="alarm_mi_band_on_bluetooth_disabled_text">Monitorování ztráty %1$s je povoleno</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Čas budíku: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>Oznámení na náramku</u></b>
         <p>Po uplynutí stanovené doby náramek odešle oznámení, jestli není připojený k zařízení</p>
-        <p>Aplikace používá alarmovou funkci aplikace Mi Fit k výstraze (přepsání 10. nastavení)</p>
-        <p>Budík se opakuje několikrát, pokud náramek nezaznamená žádný pohyb (protože používá budík náramku)</p>
+        <not_support_icon_text><p>Aplikace používá alarmovou funkci aplikace Mi Fit k výstraze (přepsání 10. nastavení)</p></not_support_icon_text>
+        <not_support_icon_text><p>Budík se opakuje několikrát, pokud náramek nezaznamená žádný pohyb (protože používá budík náramku)</p></not_support_icon_text>
+        <support_icon_text><p>Aplikace používá alarmovou funkci aplikace Mi Fit k výstraze.</p></support_icon_text>
         <p>Před vypnutím Bluetooth nebo odstraněním aplikace musíte deaktivovat oznámení náramku</p>
-        <p>Pokud odstraníte aplikaci, když je budík zapnutý, můžete ho vypnout opětovným zapnutím a vypnutím Mi Fit 10. nastavení budiku.</p>
+        <not_support_icon_text><p>Pokud odstraníte aplikaci, když je budík zapnutý, můžete ho vypnout opětovným zapnutím a vypnutím Mi Fit 10. nastavení budiku.</p></not_support_icon_text>
 
         <img src="ic_phone_android"> <b><u>Oznámení na zařízení</u></b>
         <p>Po uplynutí stanovené doby, zařízení odesílá opakovaně oznámení, pokud není připojeno k náramku.<p>
@@ -900,6 +905,8 @@
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
     <string name="purchase_button_purchase">Koupit</string>
+
+    <string name="text_premium_mode_only">Pouze v prémiovém režimu</string>
 
     <!-- Feedback -->
     <string name="action_log_notification">Log</string>
