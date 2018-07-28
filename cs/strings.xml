@@ -11,6 +11,7 @@
     <string name="drawer_nav_sleep">Spánek</string>
     <string name="drawer_nav_pulse">Tep</string>
     <string name="drawer_nav_time">Čas</string>
+    <string name="drawer_nav_weather">Počasí</string>
     <string name="drawer_nav_watch_face">Styl ciferníku</string>
     <string name="drawer_nav_alarm">Najdi náramek</string>
     <string name="drawer_nav_disconnected_agent">Agent</string>
@@ -19,6 +20,7 @@
     <string name="drawer_nav_rewarded_mode">Režim odměn</string>
     <string name="drawer_nav_premium_mode">Prémiový režim</string>
     <string name="drawer_nav_feedback">Zpětná vazba</string>
+    <string name="drawer_nav_privacy_policy">Zásady ochrany soukromí</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
     <string name="shortcut_touch">Dotek</string>
@@ -259,7 +261,7 @@
     <string name="message_notification_group_has_no_entry">Vyberte aplikace pomocí dolního, pravého tlačítka \'+ \' na kartě</string>
 
     <string name="message_time_alarm_free_counter">V normálním režimu lze použít až 2 budíky</string>
-    <string name="message_time_alarm_max_counter">Maximálně může být použito 5 budíků</string>
+    <string name="message_time_alarm_max_counter">Maximálně může být použito 7 budíků</string>
     <string name="message_time_alarm_enabled">Budík povolen</string>
     <string name="message_time_alarm_disabled">Budík zakázán</string>
     <string name="message_time_alarm_mi_band_off">Budík vypnut</string>
@@ -335,7 +337,7 @@
     <string name="notification_group_monitoring_disabled">Zakázat oznámení (nezobrazovat oznámení aplikací)</string>
     <string name="notification_group_alert_title">Oznámení na %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="notification_group_text">Text obrazovky</string>
-    <string name="notification_group_text_app_name">App name</string>
+    <string name="notification_group_text_app_name">Název aplikace</string>
     <string name="notification_group_text_name">Jméno</string>
     <string name="notification_group_text_title">Název</string>
     <string name="notification_group_text_content">Obsah</string>
@@ -354,6 +356,7 @@
     <string name="notification_group_filter">Filtrování oznámení</string>
     <string name="notification_group_filter_title">Název filtru</string>
     <string name="notification_group_filter_content">Obsah filtru</string>
+    <string name="notification_group_filter_regex">Regex</string>
     <string name="notification_group_filter_hint">Oznámení pouze v případě, že název nebo obsah oznámení(malá a velká písmena)</string>
     <string name="notification_group_filter_contains">Obsahuje fráze</string>
     <string name="notification_group_filter_not_contains">Neobsahuje fráze</string>
@@ -365,10 +368,13 @@
     <string name="notification_group_correction">Text correction</string>
     <string name="notification_group_correction_title">Title correction</string>
     <string name="notification_group_correction_content">Content correction</string>
+    <string name="notification_group_correction_regex">Regex</string>
     <string name="notification_group_correction_hint">Case insensitive</string>
     <string name="notification_group_correction_items">Texts to be corrected</string>
     <string name="notification_group_correction_find">Find</string>
     <string name="notification_group_correction_replace">Replace with</string>
+
+    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it.</string>
 
     <string name="notification_confirm_close">Opravdu chcete změny vyřadit?</string>
 
@@ -744,6 +750,22 @@
         <p>Připomenutí a zobrazení zprávy vyžadují připojení Bluetooth.</p>
     ]]></string>
 
+    <!-- Weather  -->
+    <string name="weather_tab_weather_forecast">Počasí</string>
+    <string name="weather_tab_settings">Nastavení</string>
+
+    <string name="weather_title">Předpověď počasí</string>
+    <string name="weather_location_title">Umístění</string>
+    <string name="weather_city_title">Město</string>
+    <string name="weather_unit_title">Jednotka</string>
+
+    <string name="weather_current_title">Current weather</string>
+    <string name="weather_current_temperature">Current temperature</string>
+
+    <string name="weather_forecast_title">Weather forecast</string>
+
+    <string name="weather_display">Display</string>
+
     <!-- Watch face -->
     <string name="watch_face_default_title">Změna ciferníku</string>
 
@@ -843,6 +865,7 @@
     <string name="backup_process_notification">Oznámení %1$,d%%</string>
     <string name="backup_process_touch">Dotek %1$,d%%</string>
     <string name="backup_process_time">Čas %1$,d%%</string>
+    <string name="backup_process_weather">Počasí %1$,d%%</string>
     <string name="backup_process_alarm">Najdi náramek %1$,d%%</string>
     <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
     <string name="backup_process_settings">Nastavení %1$,d%%</string>
@@ -852,6 +875,7 @@
     <string name="backup_restore_notification">Oznámení</string>
     <string name="backup_restore_touch">Dotek</string>
     <string name="backup_restore_time">Čas</string>
+    <string name="backup_restore_weather">Počasí</string>
     <string name="backup_restore_alarm">Najdi náramek</string>
     <string name="backup_restore_disconnected_agent">Agent</string>
     <string name="backup_restore_settings">Nastavení</string>
@@ -914,6 +938,32 @@
     <string name="feedback_google_play_title">Ohodnoťte tuto aplikaci</string>
     <string name="feedback_request_feature_title">Požadavek na funkci, hlášení o chybě</string>
     <string name="feedback_request_feature_summary">Automatické zpracování e-mailu, nemusíte dostat odpověď</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Zásady ochrany soukromí</string>
+    <string name="privacy_policy_tab_eu_consent">EU user consent</string>
+
+    <string name="privacy_policy_collect_title">Information we collect</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>- We only collect anonymous information.</p>
+        <p>- We collect information at the application level about the services that you use and how you use them (Google Firebase Platform).</p>
+        <p>- We collect information at the application level like bugs, errors and crashes to provide improvements (Google Firebase Platform).</p>
+        <p>- Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.</p>
+        - We do not share any data with other companies and organizations.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Information we do not collect</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>- We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
+        - We do not collect personal health data, contacts and phone notification text.
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Status</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Unknown</string>
+
+    <string name="privacy_policy_eu_consent_setting">Nastavení</string>
 
     <!-- Vibration dialog -->
     <string name="vibration_title">Nastavení vibraci</string>
