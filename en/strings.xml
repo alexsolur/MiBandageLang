@@ -11,6 +11,7 @@
     <string name="drawer_nav_sleep">Sleep</string>
     <string name="drawer_nav_pulse">Pulse</string>
     <string name="drawer_nav_time">Time</string>
+    <string name="drawer_nav_weather">Weather</string>
     <string name="drawer_nav_watch_face">Watch face</string>
     <string name="drawer_nav_alarm">Lost</string>
     <string name="drawer_nav_disconnected_agent">Agent</string>
@@ -19,6 +20,7 @@
     <string name="drawer_nav_rewarded_mode">Rewarded mode</string>
     <string name="drawer_nav_premium_mode">Premium mode</string>
     <string name="drawer_nav_feedback">Feedback</string>
+    <string name="drawer_nav_privacy_policy">Privacy policy</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
     <string name="shortcut_touch">Touch</string>
@@ -66,10 +68,10 @@
     <string name="mi_band_battery_notification">Low battery level notification</string>
     <string name="mi_band_battery_notification_level">Battery level threshold</string>
     <string name="mi_band_battery_notification_repeat_interval">Repeat interval</string>
-    <string name="mi_band_battery_notification_shade">Notify on the phone</string>
+    <string name="mi_band_battery_notification_shade">Notify me on the phone</string>
     <string name="mi_band_battery_notification_shade_ongoing">Persistent (ongoing) notification</string>
     <string name="mi_band_battery_notification_shade_message">Battery level is low: %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">Notify on the bracelet</string>
+    <string name="mi_band_battery_notification_mi_band">Notify me on the bracelet</string>
     <string name="mi_band_battery_notification_mi_band_message">Battery: %1$,d%%</string>
 
     <!-- PreferenceScreen -->
@@ -259,7 +261,7 @@
     <string name="message_notification_group_has_no_entry">Select applications with the lower right \'+\' button on the card</string>
 
     <string name="message_time_alarm_free_counter">Up to 2 alarm can be used in normal mode</string>
-    <string name="message_time_alarm_max_counter">Maximum 5 alarms can be used</string>
+    <string name="message_time_alarm_max_counter">Maximum 7 alarms can be used</string>
     <string name="message_time_alarm_enabled">Alarm enabled</string>
     <string name="message_time_alarm_disabled">Alarm disabled</string>
     <string name="message_time_alarm_mi_band_off">Alarm off</string>
@@ -354,6 +356,7 @@
     <string name="notification_group_filter">Filter notification</string>
     <string name="notification_group_filter_title">Title filter</string>
     <string name="notification_group_filter_content">Content filter</string>
+    <string name="notification_group_filter_regex">Regex</string>
     <string name="notification_group_filter_hint">Signal only when the title or content of the notification (case insensitive)</string>
     <string name="notification_group_filter_contains">Contains any phrases</string>
     <string name="notification_group_filter_not_contains">Contains none phrases</string>
@@ -365,10 +368,13 @@
     <string name="notification_group_correction">Text correction</string>
     <string name="notification_group_correction_title">Title correction</string>
     <string name="notification_group_correction_content">Content correction</string>
+    <string name="notification_group_correction_regex">Regex</string>
     <string name="notification_group_correction_hint">Case insensitive</string>
     <string name="notification_group_correction_items">Texts to be corrected</string>
     <string name="notification_group_correction_find">Find</string>
     <string name="notification_group_correction_replace">Replace with</string>
+
+    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it.</string>
 
     <string name="notification_confirm_close">Are you sure you want to discard the changes?</string>
 
@@ -744,6 +750,22 @@
         <p>Reminder signal and showing message require Bluetooth connection.</p>
     ]]></string>
 
+    <!-- Weather  -->
+    <string name="weather_tab_weather_forecast">Weather</string>
+    <string name="weather_tab_settings">Setting</string>
+
+    <string name="weather_title">Weather forecast</string>
+    <string name="weather_location_title">Location</string>
+    <string name="weather_city_title">City</string>
+    <string name="weather_unit_title">Unit</string>
+
+    <string name="weather_current_title">Current weather</string>
+    <string name="weather_current_temperature">Current temperature</string>
+
+    <string name="weather_forecast_title">Weather forecast</string>
+
+    <string name="weather_display">Display</string>
+
     <!-- Watch face -->
     <string name="watch_face_default_title">Watch face change</string>
 
@@ -843,6 +865,7 @@
     <string name="backup_process_notification">Notification %1$,d%%</string>
     <string name="backup_process_touch">Touch %1$,d%%</string>
     <string name="backup_process_time">Time %1$,d%%</string>
+    <string name="backup_process_weather">Weather %1$,d%%</string>
     <string name="backup_process_alarm">Lost %1$,d%%</string>
     <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
     <string name="backup_process_settings">Settings %1$,d%%</string>
@@ -852,6 +875,7 @@
     <string name="backup_restore_notification">Notification</string>
     <string name="backup_restore_touch">Touch</string>
     <string name="backup_restore_time">Time</string>
+    <string name="backup_restore_weather">Weather</string>
     <string name="backup_restore_alarm">Lost</string>
     <string name="backup_restore_disconnected_agent">Agent</string>
     <string name="backup_restore_settings">Settings</string>
@@ -914,6 +938,32 @@
     <string name="feedback_google_play_title">Rate this app</string>
     <string name="feedback_request_feature_title">Feature request, bug report</string>
     <string name="feedback_request_feature_summary">Automatic e-mail processing, you may not get an response</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Privacy policy</string>
+    <string name="privacy_policy_tab_eu_consent">EU user consent</string>
+
+    <string name="privacy_policy_collect_title">Information we collect</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>- We only collect anonymous information.</p>
+        <p>- We collect information at the application level about the services that you use and how you use them (Google Firebase Platform).</p>
+        <p>- We collect information at the application level like bugs, errors and crashes to provide improvements (Google Firebase Platform).</p>
+        <p>- Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.</p>
+        - We do not share any data with other companies and organizations.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Information we do not collect</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>- We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
+        - We do not collect personal health data, contacts and phone notification text.
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Status</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Unknown</string>
+
+    <string name="privacy_policy_eu_consent_setting">Setting</string>
 
     <!-- Vibration dialog -->
     <string name="vibration_title">Vibration setting</string>
