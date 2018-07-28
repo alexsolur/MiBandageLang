@@ -11,14 +11,16 @@
     <string name="drawer_nav_sleep">Sleep</string>
     <string name="drawer_nav_pulse">Herzfrequenz</string>
     <string name="drawer_nav_time">Wecker &amp; Uhr</string>
+    <string name="drawer_nav_weather">Wetter</string>
     <string name="drawer_nav_watch_face">Watch face</string>
     <string name="drawer_nav_alarm">Bei Verlust</string>
     <string name="drawer_nav_disconnected_agent">Agent</string>
-    <string name="drawer_nav_theme">Theme</string>
+    <string name="drawer_nav_theme">Thema</string>
     <string name="drawer_nav_backup">Backup</string>
     <string name="drawer_nav_rewarded_mode">Belohnungsmodus</string>
     <string name="drawer_nav_premium_mode">Premiummodus</string>
     <string name="drawer_nav_feedback">Feedback</string>
+    <string name="drawer_nav_privacy_policy">Datenschutz-Bestimmungen</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
     <string name="shortcut_touch">Berühren</string>
@@ -37,11 +39,11 @@
     <string name="info_name">Informationen</string>
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Steps, distance, calories, goal, puls</string>
+    <string name="mi_band_tracker_title">Schritte, distanz, kalorien, ziel, puls</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Battery level, last charging time, estimated remaining time</string>
+    <string name="mi_band_battery">Batteriestand, letzte Ladezeit, geschätzte Restzeit</string>
     <string name="mi_band_state_connected_disconnected_last_time">RSSI, last connection and disconnection time</string>
     <string name="mi_band_touch">Touch monitoring</string>
     <string name="mi_band_alarm">Wecker</string>
@@ -52,25 +54,25 @@
 
     <string name="mi_band_mac_address_invalid">Ungültige MAC-Adresse</string>
 
-    <string name="mi_band_state_title">%1$s settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="mi_band_state_title">%1$s einstellungen</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="mi_band_state_connected">Connected</string>
     <string name="mi_band_state_disconnected">Disconnected</string>
     <string name="mi_band_state_bonded">Paired device</string>
     <string name="mi_band_state_not_bonded">Not paired device</string>
 
     <!-- Battery -->
-    <string name="battery_details">Battery usage</string>
+    <string name="battery_details">Batterieverbrauch</string>
 
-    <string name="mi_band_battery_settings">Battery settings</string>
-    <string name="mi_band_battery_remaining">Vorrausichtliche Akkulaufzeit</string>
-    <string name="mi_band_battery_notification">Low battery level notification</string>
-    <string name="mi_band_battery_notification_level">Low battery level</string>
-    <string name="mi_band_battery_notification_repeat_interval">Repeat interval</string>
-    <string name="mi_band_battery_notification_shade">Notify on the phone</string>
-    <string name="mi_band_battery_notification_shade_ongoing">Persistent (ongoing) notification</string>
+    <string name="mi_band_battery_settings">Batterieeinstellungen</string>
+    <string name="mi_band_battery_remaining">Voraussichtliche Akkulaufzeit</string>
+    <string name="mi_band_battery_notification">Benachrichtigung bei schwacher Batterie</string>
+    <string name="mi_band_battery_notification_level">Batteriestand Schwelle</string>
+    <string name="mi_band_battery_notification_repeat_interval">Wiederholungsintervall</string>
+    <string name="mi_band_battery_notification_shade">Benachrichtigen Sie mich am Telefon</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Persistente (laufende) Benachrichtigung</string>
     <string name="mi_band_battery_notification_shade_message">Niedriger Batteriestand %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">Notify on the bracelet</string>
-    <string name="mi_band_battery_notification_mi_band_message">Battery: %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Benachrichtigen Sie mich am Armband</string>
+    <string name="mi_band_battery_notification_mi_band_message">Batterie: %1$,d%%</string>
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Verbindung</string>
@@ -155,8 +157,8 @@
     <string name="pref_text_conversion_summary_on">Nicht erkennbare Buchstabenumwandlung, turn off if the Band supports your language or you have installed custom font firmware</string>
     <string name="pref_text_emoticon_title">Emoji conversion</string>
     <string name="pref_text_emoticon_summary_on">Convert emoji to emoticon</string>
-    <string name="pref_text_uppercase_title">Uppercase conversion</string>
-    <string name="pref_text_uppercase_summary_on">Convert lowercase to uppercase</string>
+    <string name="pref_text_uppercase_title">Konvertierung in Großbuchstaben</string>
+    <string name="pref_text_uppercase_summary_on">Konvertieren Sie Kleinbuchstaben in Großbuchstaben</string>
     <string name="pref_text_length">Text length, depends on the font used (for example Chinese or Cyrillic characters)</string>
     <string name="pref_text_length_summary_on">%1$,d characters</string>
 
@@ -180,23 +182,23 @@
     <string name="pref_mi_band_lift_wrist_dnd_title">Nicht Stören-Modus</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Aktiviert (in dem festgelegten Zeitraum werden keine Informationen angezeigt, für die korrekte Funktionsweise wird die Bluetooth-Verbindung zum Gerät benötigt.)</string>
 
-    <string name="pref_battery_phone">Phone battery</string>
+    <string name="pref_battery_phone">Telefonbatterie</string>
     <string name="pref_battery_phone_summary">Low and full battery level notifications</string>
-    <string name="pref_cat_battery_phone_low">Low battery level</string>
-    <string name="pref_battery_phone_low_title">Low battery notification</string>
-    <string name="pref_battery_phone_low_level_title">Battery level threshold</string>
-    <string name="pref_battery_phone_low_repeat_interval_title">Repeat interval</string>
-    <string name="pref_cat_battery_phone_full">Full battery level</string>
-    <string name="pref_battery_phone_full_title">Full battery notification</string>
+    <string name="pref_cat_battery_phone_low">Niedriger Batteriestand</string>
+    <string name="pref_battery_phone_low_title">Benachrichtigung bei schwacher Batteri</string>
+    <string name="pref_battery_phone_low_level_title">Batteriestand Schwelle</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Wiederholungsintervall</string>
+    <string name="pref_cat_battery_phone_full">Voller Batteriestand</string>
+    <string name="pref_battery_phone_full_title">Volle Batterie Benachrichtigung</string>
     <string name="pref_battery_phone_full_plugged_ac">AC charger power source</string>
     <string name="pref_battery_phone_full_plugged_usb">USB port power source</string>
     <string name="pref_battery_phone_full_plugged_wireless">Wireless power source</string>
-    <string name="pref_battery_phone_full_repeat_interval_title">Repeat interval</string>
+    <string name="pref_battery_phone_full_repeat_interval_title">Wiederholungsintervall</string>
 
     <!-- Mi Band 2 max. 18 chars with 100% -->
-    <string name="pref_battery_phone_mi_band_message">Phone batt.: %1$,d%%</string>
+    <string name="pref_battery_phone_mi_band_message">Telefonbatt.: %1$,d%%</string>
     <!-- Other Bands-->
-    <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
+    <string name="pref_battery_phone_message">Telefonbatterie:\n %1$,d%%</string>
 
     <string name="pref_language">Sprache</string>
     <string name="pref_cat_language">App</string>
@@ -205,7 +207,7 @@
     <string name="pref_language_mi_band_title">Sprache</string>
 
     <!-- Quick switch -->
-    <string name="details">Details</string>
+    <string name="details">Einzelheiten</string>
     <string name="bandages">Bandages</string>
     <string name="connected">Verbindungs- and Benachrichtigungssignal</string>
     <string name="disconnected">Verbindungstrennungs- und Agentsignal</string>
@@ -216,7 +218,7 @@
     <string name="pref_dnd_auto_title">Automatic do not disturb mode</string>
     <string name="pref_dnd_auto_summary">Controlled by the phone\'s do not disturb mode, it has a higher priority than the scheduled do not disturb mode</string>
     <string name="pref_dnd_auto_vibrate">Vibration (silent)</string>
-    <string name="pref_dnd_auto_silent">Do not disturb</string>
+    <string name="pref_dnd_auto_silent">Bitte nicht stören</string>
     <string name="pref_dnd_scheduled_title">Scheduled do not disturb mode</string>
     <string name="pref_dnd_scheduled_new_title">Titel</string>
     <string name="pref_dnd_remember_state_summary">Wenn der Nicht Stören-Modus beendet ist, aktivieren Sie alle Bandages oder stellen Sie die vorherigen Einstellungen, wie Sie vor dem Start des Nicht Stören-Modus eingestellt waren, wieder her.</string>
@@ -259,7 +261,7 @@
     <string name="message_notification_group_has_no_entry">Select applications with the lower right green \'+\' button on the card</string>
 
     <string name="message_time_alarm_free_counter">Bis zu 2 Wecker können im normalen Modus aktiviert werden.</string>
-    <string name="message_time_alarm_max_counter">Es können maximal 5 Wecker verwndet werden.</string>
+    <string name="message_time_alarm_max_counter">Es können maximal 7 Wecker verwndet werden.</string>
     <string name="message_time_alarm_enabled">Alarm aktiviert</string>
     <string name="message_time_alarm_disabled">Alarm deaktiviert</string>
     <string name="message_time_alarm_mi_band_off">Alarm off</string>
@@ -336,7 +338,7 @@
     <string name="notification_group_monitoring_disabled">Deaktivieren Sie Benachrichtigungen (App-Benachrichtigungen nicht anzeigen)</string>
     <string name="notification_group_text">Text display</string>
     <string name="notification_group_alert_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="notification_group_text_app_name">App name</string>
+    <string name="notification_group_text_app_name">Anwendungsname</string>
     <string name="notification_group_text_name">Name</string>
     <string name="notification_group_text_title">Titel</string>
     <string name="notification_group_text_content">Inhalt</string>
@@ -353,8 +355,9 @@
     <string name="notification_group_wakelock">Gerätebildschirm aufwecken</string>
 
     <string name="notification_group_filter">Benachrichtigungsfilter</string>
-    <string name="notification_group_filter_title">Title filter</string>
-    <string name="notification_group_filter_content">Content filter</string>
+    <string name="notification_group_filter_title">Titelfilter</string>
+    <string name="notification_group_filter_content">Inhaltsfilter</string>
+    <string name="notification_group_filter_regex">Regex</string>
     <string name="notification_group_filter_hint">Signal erfolgt nur dann, wenn (ignoriert Groß- und Kleinschreibung)</string>
     <string name="notification_group_filter_contains">Phrasen enthalten sind</string>
     <string name="notification_group_filter_not_contains">keine Phrasen enthalten sind</string>
@@ -363,13 +366,16 @@
     <string name="notification_group_sample_facebook">Messenger text display</string>
     <string name="notification_group_sample_whatsapp">WhatsApp text display</string>
 
-    <string name="notification_group_correction">Text correction</string>
-    <string name="notification_group_correction_title">Title correction</string>
-    <string name="notification_group_correction_content">Content correction</string>
-    <string name="notification_group_correction_hint">Case insensitive</string>
+    <string name="notification_group_correction">Textkorrektur</string>
+    <string name="notification_group_correction_title">Titelkorrektur</string>
+    <string name="notification_group_correction_content">Inhaltskorrektur</string>
+    <string name="notification_group_correction_regex">Regex</string>
+    <string name="notification_group_correction_hint">Ignoriert Groß- und Kleinschreibung</string>
     <string name="notification_group_correction_items">Texts to be corrected</string>
-    <string name="notification_group_correction_find">Find</string>
-    <string name="notification_group_correction_replace">Replace with</string>
+    <string name="notification_group_correction_find">Finden</string>
+    <string name="notification_group_correction_replace">Ersetzen mit</string>
+
+    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it.</string>
 
     <string name="notification_confirm_close">Möchten Sie die Änderungen wirklich verwerfen?</string>
 
@@ -565,7 +571,7 @@
     <string name="sleep_tab_settings">Einstellung</string>
 
     <string name="action_chart_sleep_type_phase">Phase</string>
-    <string name="action_chart_sleep_type_time">Time</string>
+    <string name="action_chart_sleep_type_time">Zeit</string>
 
     <string name="sleep_details">Sleep details</string>
     <string name="sleep_assistant">Herzfrequenz Schlafassistent</string>
@@ -745,6 +751,22 @@
         <p>Das Erinnerungssignal und das Anzeigen der Nachricht benötigen eine Bluetooth-Verbindung.</p>
     ]]></string>
 
+    <!-- Weather  -->
+    <string name="weather_tab_weather_forecast">Wetter</string>
+    <string name="weather_tab_settings">Einstellung</string>
+
+    <string name="weather_title">Wettervorhersage</string>
+    <string name="weather_location_title">Ort</string>
+    <string name="weather_city_title">Stadt</string>
+    <string name="weather_unit_title">Einheit</string>
+
+    <string name="weather_current_title">Current weather</string>
+    <string name="weather_current_temperature">Current temperature</string>
+
+    <string name="weather_forecast_title">Weather forecast</string>
+
+    <string name="weather_display">Display</string>
+
     <!-- Watch face -->
     <string name="watch_face_default_title">Watch face change</string>
 
@@ -808,54 +830,56 @@
     </string>
 
     <!-- Theme -->
-    <string name="theme_tab_theme">Theme</string>
+    <string name="theme_tab_theme">Thema</string>
     <string name="theme_tab_widget">Widgets</string>
     <string name="theme_tab_notification">Notification shade</string>
 
     <string name="theme_title">Wählen Sie ein Theme aus</string>
-    <string name="theme_background_color_title">Background color</string>
+    <string name="theme_background_color_title">Hintergrundfarbe</string>
 
-    <string name="theme_widget_foreground_title">Foreground</string>
-    <string name="theme_widget_foreground_color_title">Icon and text color</string>
-    <string name="theme_widget_background_title">Background</string>
-    <string name="theme_widget_background_color_title">Color</string>
-    <string name="theme_widget_background_shape_title">Shape</string>
-    <string name="theme_widget_background_transparency_title">Transparency</string>
+    <string name="theme_widget_foreground_title">Vordergrund</string>
+    <string name="theme_widget_foreground_color_title">Symbol- und Textfarbe</string>
+    <string name="theme_widget_background_title">Hintergrund</string>
+    <string name="theme_widget_background_color_title">Farbe</string>
+    <string name="theme_widget_background_shape_title">Gestalten</string>
+    <string name="theme_widget_background_transparency_title">Transparenz</string>
 
     <string name="theme_widget_touch_event_title">Touch event</string>
 
     <string name="theme_notification_title">Zeige Status in Benachrichtigungsleiste an</string>
     <string name="theme_notification_summary">Android erzwingt eine Beendung eines Dienstes nur bei unzureichendem Arbeitsspeicher. Falls nach gewisser Zeit keine Benachrichtigungen auf dem Band erscheinen, kann man dies verhindern.</string>
     <string name="theme_notification_color_title">Farbe des Emblems</string>
-    <string name="theme_notification_text_color_title">Text color</string>
+    <string name="theme_notification_text_color_title">Textfarbe</string>
 
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Backup</string>
-    <string name="backup_tab_restore">Restore</string>
+    <string name="backup_tab_restore">Wiederherstellen</string>
 
     <string name="backup_time">Backup time</string>
     <string name="backup_path">Backup location</string>
-    <string name="backup_auto">Automatic backup</string>
-    <string name="backup_auto_time">Time</string>
+    <string name="backup_auto">Automatische Sicherung</string>
+    <string name="backup_auto_time">Zeit</string>
 
     <string name="backup_process">Preparation…</string>
-    <string name="backup_process_activity">Activity and sleep %1$,d%%</string>
-    <string name="backup_process_pulse">Pulse %1$,d%%</string>
-    <string name="backup_process_notification">Notification %1$,d%%</string>
-    <string name="backup_process_touch">Touch %1$,d%%</string>
-    <string name="backup_process_time">Time %1$,d%%</string>
-    <string name="backup_process_alarm">Lost %1$,d%%</string>
+    <string name="backup_process_activity">Aktivität und Schlaf %1$,d%%</string>
+    <string name="backup_process_pulse">Puls %1$,d%%</string>
+    <string name="backup_process_notification">Benachrichtigungsanzeige %1$,d%%</string>
+    <string name="backup_process_touch">Taste %1$,d%%</string>
+    <string name="backup_process_time">Wecker &amp; Uhr %1$,d%%</string>
+    <string name="backup_process_weather">Wetter %1$,d%%</string>
+    <string name="backup_process_alarm">Bei Verlust %1$,d%%</string>
     <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
-    <string name="backup_process_settings">Settings %1$,d%%</string>
+    <string name="backup_process_settings">Einstellungen %1$,d%%</string>
 
-    <string name="backup_restore_activity">Activity and sleep</string>
+    <string name="backup_restore_activity">Aktivität und Schlaf</string>
     <string name="backup_restore_pulse">Puls</string>
-    <string name="backup_restore_notification">Notification</string>
-    <string name="backup_restore_touch">Touch</string>
-    <string name="backup_restore_time">Time</string>
-    <string name="backup_restore_alarm">Lost</string>
+    <string name="backup_restore_notification">Benachrichtigungsanzeige</string>
+    <string name="backup_restore_touch">Taste</string>
+    <string name="backup_restore_time">Wecker &amp; Uhr</string>
+    <string name="backup_restore_weather">Wetter</string>
+    <string name="backup_restore_alarm">Bei Verlust</string>
     <string name="backup_restore_disconnected_agent">Agent</string>
-    <string name="backup_restore_settings">Settings</string>
+    <string name="backup_restore_settings">Einstellungen</string>
 
     <string name="backup_restore_reset">After restoring, Bluetooth will be turning off and on and the application will restart.</string>
 
@@ -916,6 +940,32 @@
     <string name="feedback_request_feature_title">Forderungen stellen, Bugs melden</string>
     <string name="feedback_request_feature_summary">Aufgrund der automatischen Verarbeitung der E-Mails erhalten Sie keine Antwort.</string>
 
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Datenschutz-Bestimmungen</string>
+    <string name="privacy_policy_tab_eu_consent">EU user consent</string>
+
+    <string name="privacy_policy_collect_title">Information we collect</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>- We only collect anonymous information.</p>
+        <p>- We collect information at the application level about the services that you use and how you use them (Google Firebase Platform).</p>
+        <p>- We collect information at the application level like bugs, errors and crashes to provide improvements (Google Firebase Platform).</p>
+        <p>- Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.</p>
+        - We do not share any data with other companies and organizations.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Information we do not collect</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>- We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
+        - We do not collect personal health data, contacts and phone notification text.
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Status</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Unknown</string>
+
+    <string name="privacy_policy_eu_consent_setting">Einstellung</string>
+
     <!-- Vibration dialog -->
     <string name="vibration_title">Vibrationseinstellungen</string>
     <string name="vibration_intensity">Dauer</string>
@@ -948,7 +998,7 @@
     <string name="action_filter_no">No filter</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_save">Save</string>
+    <string name="action_save">Sparen</string>
     <string name="action_test">Test</string>
     <string name="action_discard">Verwerfen</string>
     <string name="action_keep_editing">Weiter bearbeiten</string>
@@ -986,12 +1036,12 @@
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="zero">%d hour</item>
-        <item quantity="one">%d hour</item>
-        <item quantity="two">%d hours</item>
-        <item quantity="few">%d hours</item>
-        <item quantity="many">%d hours</item>
-        <item quantity="other">%d hours</item>
+        <item quantity="zero">%d Stunden</item>
+        <item quantity="one">%d Stunde</item>
+        <item quantity="two">%d Stunden</item>
+        <item quantity="few">%d Stunden</item>
+        <item quantity="many">%d Stunden</item>
+        <item quantity="other">%d Stunden</item>
     </plurals>
 
     <plurals name="plural_time_minute">
