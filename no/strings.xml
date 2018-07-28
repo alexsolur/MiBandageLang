@@ -11,6 +11,7 @@
     <string name="drawer_nav_sleep">Søvn</string>
     <string name="drawer_nav_pulse">Puls</string>
     <string name="drawer_nav_time">Tid</string>
+    <string name="drawer_nav_weather">Vær</string>
     <string name="drawer_nav_watch_face">Watch face</string>
     <string name="drawer_nav_alarm">Mistet</string>
     <string name="drawer_nav_disconnected_agent">Agent</string>
@@ -19,6 +20,7 @@
     <string name="drawer_nav_rewarded_mode">Belønnet modus</string>
     <string name="drawer_nav_premium_mode">Premium modus</string>
     <string name="drawer_nav_feedback">Tilbakemelding</string>
+    <string name="drawer_nav_privacy_policy">Personvernregler</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
     <string name="shortcut_touch">Trykke</string>
@@ -259,7 +261,7 @@
     <string name="message_notification_group_has_no_entry">Velg applikasjonen med den nedre høyre \'+\' knapp på kortet</string>
 
     <string name="message_time_alarm_free_counter">Opp til 2 alarmer kan bli brukt i normal modus</string>
-    <string name="message_time_alarm_max_counter">Maximum 5 alarmer kan bli brukt</string>
+    <string name="message_time_alarm_max_counter">Maximum 7 alarmer kan bli brukt</string>
     <string name="message_time_alarm_enabled">Alarm aktivert</string>
     <string name="message_time_alarm_disabled">Alarm deaktivert</string>
     <string name="message_time_alarm_mi_band_off">Alarm av</string>
@@ -335,7 +337,7 @@
     <string name="notification_group_monitoring_disabled">Deaktivert notifikasjoner (ikke vis applikasjon notifikasjoner)</string>
     <string name="notification_group_alert_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="notification_group_text">Vis Text</string>
-    <string name="notification_group_text_app_name">App name</string>
+    <string name="notification_group_text_app_name">Programnavn</string>
     <string name="notification_group_text_name">Navn</string>
     <string name="notification_group_text_title">Tittel</string>
     <string name="notification_group_text_content">Kontent</string>
@@ -354,6 +356,7 @@
     <string name="notification_group_filter">Filter notifikasjon</string>
     <string name="notification_group_filter_title">Tittel filter</string>
     <string name="notification_group_filter_content">Kontent filter</string>
+    <string name="notification_group_filter_regex">Regex</string>
     <string name="notification_group_filter_hint">Signaler bare når notifikasjon tittelen eller kontenten (ikke bokstav sensitiv)</string>
     <string name="notification_group_filter_contains">Hver inneholder fraser</string>
     <string name="notification_group_filter_not_contains">Inneholder ingen frase</string>
@@ -365,10 +368,13 @@
     <string name="notification_group_correction">Tekst korreksjon</string>
     <string name="notification_group_correction_title">Tittel på korreksjon</string>
     <string name="notification_group_correction_content">innhold korreksjon</string>
+    <string name="notification_group_correction_regex">Regex</string>
     <string name="notification_group_correction_hint">ikke bokstav sensitiv</string>
     <string name="notification_group_correction_items">Tekst til å rette på</string>
     <string name="notification_group_correction_find">Finn</string>
     <string name="notification_group_correction_replace">Bytte med</string>
+
+    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it.</string>
 
     <string name="notification_confirm_close">Er du sikker på at du vil kaste bort endringene?</string>
 
@@ -744,6 +750,22 @@
         <p>Påminnelse signal og vising av meldinger krever Bluetooth tilkobling.</p>
     ]]></string>
 
+    <!-- Weather -->
+    <string name="weather_tab_weather_forecast">Vær</string>
+    <string name="weather_tab_settings">Indtilling</string>
+
+    <string name="weather_title">Værmelding</string>
+    <string name="weather_location_title">Plassering</string>
+    <string name="weather_city_title">By</string>
+    <string name="weather_unit_title">Enhet</string>
+
+    <string name="weather_current_title">Current weather</string>
+    <string name="weather_current_temperature">Current temperature</string>
+
+    <string name="weather_forecast_title">Weather forecast</string>
+
+    <string name="weather_display">Display</string>
+
     <!-- Watch face -->
     <string name="watch_face_default_title">Endre atch face</string>
 
@@ -843,6 +865,7 @@
     <string name="backup_process_notification">Notifikasjon %1$,d%%</string>
     <string name="backup_process_touch">Trykk %1$,d%%</string>
     <string name="backup_process_time">Tid %1$,d%%</string>
+    <string name="backup_process_weather">Vær %1$,d%%</string>
     <string name="backup_process_alarm">Mistet %1$,d%%</string>
     <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
     <string name="backup_process_settings">Egenskaper %1$,d%%</string>
@@ -852,6 +875,7 @@
     <string name="backup_restore_notification">Notifikasjon</string>
     <string name="backup_restore_touch">Trykk</string>
     <string name="backup_restore_time">Tid</string>
+    <string name="backup_restore_weather">Vær</string>
     <string name="backup_restore_alarm">Mistet</string>
     <string name="backup_restore_disconnected_agent">Agent</string>
     <string name="backup_restore_settings">Egenskaper</string>
@@ -914,6 +938,32 @@
     <string name="feedback_google_play_title">Bedøm denne appen</string>
     <string name="feedback_request_feature_title">Egenskaps forespørsel, bug rapport</string>
     <string name="feedback_request_feature_summary">Automatisk e-mail prossesjon, du får kanskje ikke respons</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Personvernregler</string>
+    <string name="privacy_policy_tab_eu_consent">EU user consent</string>
+
+    <string name="privacy_policy_collect_title">Information we collect</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>- We only collect anonymous information.</p>
+        <p>- We collect information at the application level about the services that you use and how you use them (Google Firebase Platform).</p>
+        <p>- We collect information at the application level like bugs, errors and crashes to provide improvements (Google Firebase Platform).</p>
+        <p>- Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.</p>
+        - We do not share any data with other companies and organizations.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Information we do not collect</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>- We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
+        - We do not collect personal health data, contacts and phone notification text.
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Status</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Unknown</string>
+
+    <string name="privacy_policy_eu_consent_setting">Indtilling</string>
 
     <!-- Vibration dialog -->
     <string name="vibration_title">Vibration setting</string>
