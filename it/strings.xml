@@ -11,6 +11,7 @@
     <string name="drawer_nav_sleep">Sonno</string>
     <string name="drawer_nav_pulse">Battiti</string>
     <string name="drawer_nav_time">Timer</string>
+    <string name="drawer_nav_weather">Tempo metereologico</string>
     <string name="drawer_nav_watch_face">Watch face</string>
     <string name="drawer_nav_alarm">Smarrimento</string>
     <string name="drawer_nav_disconnected_agent">Eventi</string>
@@ -19,6 +20,7 @@
     <string name="drawer_nav_rewarded_mode">Modalità Ricompensa</string>
     <string name="drawer_nav_premium_mode">Modalità Premium</string>
     <string name="drawer_nav_feedback">Feedback</string>
+    <string name="drawer_nav_privacy_policy">Norme sulla privacy</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
     <string name="shortcut_touch">Tocco</string>
@@ -259,7 +261,7 @@
     <string name="message_notification_group_has_no_entry">Seleziona applicazioni usando il tasto \'+\' in basso a destra della scheda</string>
 
     <string name="message_time_alarm_free_counter">In modalità free possono essere usate massimo 2 sveglie</string>
-    <string name="message_time_alarm_max_counter">Possono essere usate massimo 5 sveglie</string>
+    <string name="message_time_alarm_max_counter">Possono essere usate massimo 7 sveglie</string>
     <string name="message_time_alarm_enabled">Sveglia attivata</string>
     <string name="message_time_alarm_disabled">Sveglia disattivata</string>
     <string name="message_time_alarm_mi_band_off">Disattiva sveglia</string>
@@ -335,7 +337,7 @@
     <string name="notification_group_monitoring_disabled">Disabilita notifiche (non mostrare le notifiche dell\'applicazioni)</string>
     <string name="notification_group_text">Text display</string>
     <string name="notification_group_alert_title">Notifica %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="notification_group_text_app_name">App name</string>
+    <string name="notification_group_text_app_name">Nome dell\'applicazione</string>
     <string name="notification_group_text_name">Nome</string>
     <string name="notification_group_text_title">Titolo</string>
     <string name="notification_group_text_content">Contenuto</string>
@@ -354,6 +356,7 @@
     <string name="notification_group_filter">Filtra notifiche</string>
     <string name="notification_group_filter_title">Filtra titolo</string>
     <string name="notification_group_filter_content">Filtra contenuto</string>
+    <string name="notification_group_filter_regex">Regex</string>
     <string name="notification_group_filter_hint">Segnala solo quando il titolo o il contenuto della notifica (nessuna distione tra maiuscole e minuscole)</string>
     <string name="notification_group_filter_contains">Solo se contiene:</string>
     <string name="notification_group_filter_not_contains">Tutte tranne:</string>
@@ -365,10 +368,13 @@
     <string name="notification_group_correction">Correzione testo</string>
     <string name="notification_group_correction_title">Correzione titolo</string>
     <string name="notification_group_correction_content">Correzione contenuto</string>
+    <string name="notification_group_correction_regex">Regex</string>
     <string name="notification_group_correction_hint">Nessuna distinzione tra maiuscole e minuscole</string>
     <string name="notification_group_correction_items">Testo da correggere</string>
     <string name="notification_group_correction_find">Cerca</string>
     <string name="notification_group_correction_replace">Sostituisci con</string>
+
+    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it.</string>
 
     <string name="notification_confirm_close">Sei sicuro di voler annullare le modifiche?</string>
 
@@ -743,6 +749,22 @@
         <p>La funzione "ripeti notifica" richiede una connessione Bluetooth.</p>
     ]]></string>
 
+    <!-- Weather -->
+    <string name="weather_tab_weather_forecast">Tempo metereologico</string>
+    <string name="weather_tab_settings">Impostazioni</string>
+
+    <string name="weather_title">Previsioni del tempo</string>
+    <string name="weather_location_title">Posizione</string>
+    <string name="weather_city_title">Città</string>
+    <string name="weather_unit_title">Unità</string>
+
+    <string name="weather_current_title">Current weather</string>
+    <string name="weather_current_temperature">Current temperature</string>
+
+    <string name="weather_forecast_title">Weather forecast</string>
+
+    <string name="weather_display">Display</string>
+
     <!-- Watch face -->
     <string name="watch_face_default_title">Cambia watch face</string>
 
@@ -842,6 +864,7 @@
     <string name="backup_process_notification">Notifiche%1$,d%%</string>
     <string name="backup_process_touch">Tocco %1$,d%%</string>
     <string name="backup_process_time">Timer %1$,d%%</string>
+    <string name="backup_process_weather">Tempo metereologico %1$,d%%</string>
     <string name="backup_process_alarm">Smarrimento %1$,d%%</string>
     <string name="backup_process_disconnected_agent">Eventi %1$,d%%</string>
     <string name="backup_process_settings">Impostazioni %1$,d%%</string>
@@ -851,6 +874,7 @@
     <string name="backup_restore_notification">Notifiche</string>
     <string name="backup_restore_touch">Tocco</string>
     <string name="backup_restore_time">Timer</string>
+    <string name="backup_restore_weather">Tempo metereologico</string>
     <string name="backup_restore_alarm">Smarrimento</string>
     <string name="backup_restore_disconnected_agent">Eventi</string>
     <string name="backup_restore_settings">Impostazioni</string>
@@ -913,6 +937,32 @@
     <string name="feedback_google_play_title">Valuta l\'app</string>
     <string name="feedback_request_feature_title">Richiedi una funzione, segnala malfunzionamenti</string>
     <string name="feedback_request_feature_summary">Processo con email automatico, non riceverai risposta</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Norme sulla privacy</string>
+    <string name="privacy_policy_tab_eu_consent">EU user consent</string>
+
+    <string name="privacy_policy_collect_title">Information we collect</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>- We only collect anonymous information.</p>
+        <p>- We collect information at the application level about the services that you use and how you use them (Google Firebase Platform).</p>
+        <p>- We collect information at the application level like bugs, errors and crashes to provide improvements (Google Firebase Platform).</p>
+        <p>- Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.</p>
+        - We do not share any data with other companies and organizations.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Information we do not collect</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>- We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
+        - We do not collect personal health data, contacts and phone notification text.
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Status</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Unknown</string>
+
+    <string name="privacy_policy_eu_consent_setting">Impostazioni</string>
 
     <!-- Vibration dialog -->
     <string name="vibration_title">Impostazioni vibrazione</string>
