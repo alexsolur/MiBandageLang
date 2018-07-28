@@ -8,9 +8,10 @@
     <string name="drawer_nav_notification">Giám sát thông báo</string>
     <string name="drawer_nav_touch">Giám sát chạm</string>
     <string name="drawer_nav_step">Giám sát bước chân</string>
-    <string name="drawer_nav_sleep">Sleep</string>
+    <string name="drawer_nav_sleep">Ngủ</string>
     <string name="drawer_nav_pulse">Giám sát nhịp tim</string>
     <string name="drawer_nav_time">Giám sát thời gian</string>
+    <string name="drawer_nav_weather">Thời tiết</string>
     <string name="drawer_nav_watch_face">Watch face</string>
     <string name="drawer_nav_alarm">Giám sát thất lạc</string>
     <string name="drawer_nav_disconnected_agent">Nhật ký</string>
@@ -19,6 +20,7 @@
     <string name="drawer_nav_rewarded_mode">Chế độ thưởng</string>
     <string name="drawer_nav_premium_mode">Phiên bản nâng cấp</string>
     <string name="drawer_nav_feedback">Phản hồi</string>
+    <string name="drawer_nav_privacy_policy">Chính sách bảo mật</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
     <string name="shortcut_touch">Chạm</string>
@@ -66,10 +68,10 @@
     <string name="mi_band_battery_notification">Low battery level notification</string>
     <string name="mi_band_battery_notification_level">Low battery level</string>
     <string name="mi_band_battery_notification_repeat_interval">Repeat interval</string>
-    <string name="mi_band_battery_notification_shade">Notify on the phone</string>
+    <string name="mi_band_battery_notification_shade">Notify me on the phone</string>
     <string name="mi_band_battery_notification_shade_ongoing">Persistent (ongoing) notification</string>
     <string name="mi_band_battery_notification_shade_message">Battery level is low: %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">Notify on the bracelet</string>
+    <string name="mi_band_battery_notification_mi_band">Notify me on the bracelet</string>
     <string name="mi_band_battery_notification_mi_band_message">Battery: %1$,d%%</string>
 
     <!-- PreferenceScreen -->
@@ -258,7 +260,7 @@
     <string name="message_notification_group_has_no_entry">Select applications with the lower right green \'+\' button on the card</string>
 
     <string name="message_time_alarm_free_counter">Có thể sử dụng tới 2 báo thức ở chế độ bình thường</string>
-    <string name="message_time_alarm_max_counter">Tối đa 5 báo thức có thể sử dụng</string>
+    <string name="message_time_alarm_max_counter">Tối đa 7 báo thức có thể sử dụng</string>
     <string name="message_time_alarm_enabled">Báo thức đang bật</string>
     <string name="message_time_alarm_disabled">Báo thức đang tắt</string>
     <string name="message_time_alarm_mi_band_off">Alarm off</string>
@@ -335,7 +337,7 @@
     <string name="notification_group_text">Text display</string>
     <string name="notification_group_alert_title">Tín hiệu %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="notification_group_text_title">Tiêu đề</string>
-    <string name="notification_group_text_app_name">App name</string>
+    <string name="notification_group_text_app_name">Tên ứng dụng</string>
     <string name="notification_group_text_name">Tên</string>
     <string name="notification_group_text_content">Nội dung</string>
     <string name="notification_group_vibration_title">Custom vibration</string>
@@ -353,6 +355,7 @@
     <string name="notification_group_filter">Lọc thông báo</string>
     <string name="notification_group_filter_title">Title filter</string>
     <string name="notification_group_filter_content">Content filter</string>
+    <string name="notification_group_filter_regex">Regex</string>
     <string name="notification_group_filter_hint">Chỉ báo hiệu khi thông báo </string>
     <string name="notification_group_filter_contains">Chứa bất kỳ cụm từ nào</string>
     <string name="notification_group_filter_not_contains">Không chứa cụm từ nào</string>
@@ -364,10 +367,13 @@
     <string name="notification_group_correction">Text correction</string>
     <string name="notification_group_correction_title">Title correction</string>
     <string name="notification_group_correction_content">Content correction</string>
+    <string name="notification_group_correction_regex">Regex</string>
     <string name="notification_group_correction_hint">Case insensitive</string>
     <string name="notification_group_correction_items">Texts to be corrected</string>
     <string name="notification_group_correction_find">Find</string>
     <string name="notification_group_correction_replace">Replace with</string>
+
+    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it.</string>
 
     <string name="notification_confirm_close">Bạn có chắc chắn muốn hủy thay đổi không?</string>
 
@@ -744,6 +750,22 @@
         <p>Reminder signal requires Bluetooth connection.</p>
     ]]></string>
 
+    <!-- Weather  -->
+    <string name="weather_tab_weather_forecast">Thời tiết</string>
+    <string name="weather_tab_settings">Cài đặt</string>
+
+    <string name="weather_title">Dự báo thời tiết</string>
+    <string name="weather_location_title">Vị trí</string>
+    <string name="weather_city_title">Thành phố</string>
+    <string name="weather_unit_title">Đơn vị</string>
+
+    <string name="weather_current_title">Current weather</string>
+    <string name="weather_current_temperature">Current temperature</string>
+
+    <string name="weather_forecast_title">Weather forecast</string>
+
+    <string name="weather_display">Display</string>
+
     <!-- Watch face -->
     <string name="watch_face_default_title">Watch face change</string>
 
@@ -843,18 +865,20 @@
     <string name="backup_process_notification">Notification %1$,d%%</string>
     <string name="backup_process_touch">Touch %1$,d%%</string>
     <string name="backup_process_time">Time %1$,d%%</string>
+    <string name="backup_process_weather">Thời tiết %1$,d%%</string>
     <string name="backup_process_alarm">Lost %1$,d%%</string>
     <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
-    <string name="backup_process_settings">Settings %1$,d%%</string>
+    <string name="backup_process_settings">Cài đặt %1$,d%%</string>
 
     <string name="backup_restore_activity">Activity and sleep</string>
     <string name="backup_restore_pulse">Pulse</string>
     <string name="backup_restore_notification">Notification</string>
     <string name="backup_restore_touch">Touch</string>
     <string name="backup_restore_time">Time</string>
+    <string name="backup_restore_weather">Thời tiết</string>
     <string name="backup_restore_alarm">Lost</string>
     <string name="backup_restore_disconnected_agent">Agent</string>
-    <string name="backup_restore_settings">Settings</string>
+    <string name="backup_restore_settings">Cài đặt</string>
 
     <string name="backup_restore_reset">After restoring, Bluetooth will be turning off and on and the application will restart.</string>
 
@@ -914,6 +938,32 @@
     <string name="feedback_google_play_title">Đánh giá ứng dụng này</string>
     <string name="feedback_request_feature_title">Yêu cầu tính năng</string>
     <string name="feedback_request_feature_summary">Xử lý e-mail tự động, bạn sẽ không nhận được phản hồi</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Chính sách bảo mật</string>
+    <string name="privacy_policy_tab_eu_consent">EU user consent</string>
+
+    <string name="privacy_policy_collect_title">Information we collect</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>- We only collect anonymous information.</p>
+        <p>- We collect information at the application level about the services that you use and how you use them (Google Firebase Platform).</p>
+        <p>- We collect information at the application level like bugs, errors and crashes to provide improvements (Google Firebase Platform).</p>
+        <p>- Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.</p>
+        - We do not share any data with other companies and organizations.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Information we do not collect</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>- We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
+        - We do not collect personal health data, contacts and phone notification text.
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Status</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Unknown</string>
+
+    <string name="privacy_policy_eu_consent_setting">Cài đặt</string>
 
     <!-- Vibration dialog -->
     <string name="vibration_title">Cài đặt rung</string>
