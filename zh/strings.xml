@@ -11,6 +11,7 @@
     <string name="drawer_nav_sleep">睡眠</string>
     <string name="drawer_nav_pulse">心率</string>
     <string name="drawer_nav_time">时间</string>
+    <string name="drawer_nav_weather">天气</string>
     <string name="drawer_nav_watch_face">表盘</string>
     <string name="drawer_nav_alarm">丢失</string>
     <string name="drawer_nav_disconnected_agent">代理</string>
@@ -19,6 +20,7 @@
     <string name="drawer_nav_rewarded_mode">奖励模式</string>
     <string name="drawer_nav_premium_mode">高级模式</string>
     <string name="drawer_nav_feedback">反馈</string>
+    <string name="drawer_nav_privacy_policy">隐私权政策</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
     <string name="shortcut_touch">触摸</string>
@@ -259,7 +261,7 @@
     <string name="message_notification_group_has_no_entry">按右下角 \'+\' 号来选择应用</string>
 
     <string name="message_time_alarm_free_counter">正常模式下最多可使用2个闹钟</string>
-    <string name="message_time_alarm_max_counter">最多可使用5个闹钟</string>
+    <string name="message_time_alarm_max_counter">最多可使用7个闹钟</string>
     <string name="message_time_alarm_enabled">开启闹钟</string>
     <string name="message_time_alarm_disabled">关闭闹钟</string>
     <string name="message_time_alarm_mi_band_off">关闭闹钟</string>
@@ -335,7 +337,7 @@
     <string name="notification_group_monitoring_disabled">禁用通知(不显示应用通知)</string>
     <string name="notification_group_alert_title">%1$s 信号</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="notification_group_text">文字显示</string>
-    <string name="notification_group_text_app_name">App name</string>
+    <string name="notification_group_text_app_name">应用名称</string>
     <string name="notification_group_text_name">名称</string>
     <string name="notification_group_text_title">标题</string>
     <string name="notification_group_text_content">内容</string>
@@ -354,6 +356,7 @@
     <string name="notification_group_filter">通知过滤</string>
     <string name="notification_group_filter_title">标题过滤器</string>
     <string name="notification_group_filter_content">内容过滤器</string>
+    <string name="notification_group_filter_regex">Regex</string>
     <string name="notification_group_filter_hint">仅通知标题或内容(不区分大小写)</string>
     <string name="notification_group_filter_contains">包含任何短语</string>
     <string name="notification_group_filter_not_contains">包含这些短语</string>
@@ -365,10 +368,13 @@
     <string name="notification_group_correction">Text correction</string>
     <string name="notification_group_correction_title">Title correction</string>
     <string name="notification_group_correction_content">Content correction</string>
+    <string name="notification_group_correction_regex">Regex</string>
     <string name="notification_group_correction_hint">Case insensitive</string>
     <string name="notification_group_correction_items">Texts to be corrected</string>
     <string name="notification_group_correction_find">Find</string>
     <string name="notification_group_correction_replace">Replace with</string>
+
+    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it.</string>
 
     <string name="notification_confirm_close">你确定要放弃更改吗?</string>
 
@@ -744,6 +750,22 @@
         <p>提醒和显示信息需要进行蓝牙连接.</p>
     ]]></string>
 
+    <!-- Weather  -->
+    <string name="weather_tab_weather_forecast">天气</string>
+    <string name="weather_tab_settings">设置</string>
+
+    <string name="weather_title">天气预报</string>
+    <string name="weather_location_title">位置</string>
+    <string name="weather_city_title">市</string>
+    <string name="weather_search_title">搜索</string>
+
+    <string name="weather_current_title">Current weather</string>
+    <string name="weather_current_temperature">Current temperature</string>
+
+    <string name="weather_forecast_title">Weather forecast</string>
+
+    <string name="weather_display">Display</string>
+
     <!-- Watch face -->
     <string name="watch_face_default_title">更换表盘</string>
 
@@ -843,6 +865,7 @@
     <string name="backup_process_notification">通知 %1$,d%%</string>
     <string name="backup_process_touch">触摸 %1$,d%%</string>
     <string name="backup_process_time">时间 %1$,d%%</string>
+    <string name="backup_process_weather">天气 %1$,d%%</string>
     <string name="backup_process_alarm">丢失 %1$,d%%</string>
     <string name="backup_process_disconnected_agent">代理 %1$,d%%</string>
     <string name="backup_process_settings">设置 %1$,d%%</string>
@@ -852,6 +875,7 @@
     <string name="backup_restore_notification">通知</string>
     <string name="backup_restore_touch">触摸</string>
     <string name="backup_restore_time">时间</string>
+    <string name="backup_restore_weather">天气</string>
     <string name="backup_restore_alarm">丢失</string>
     <string name="backup_restore_disconnected_agent">代理</string>
     <string name="backup_restore_settings">设置</string>
@@ -914,6 +938,32 @@
     <string name="feedback_google_play_title">为此应用评分</string>
     <string name="feedback_request_feature_title">功能请求及错误报告</string>
     <string name="feedback_request_feature_summary">邮件会自动处理因此你可能不会收到回信</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">隐私权政策</string>
+    <string name="privacy_policy_tab_eu_consent">EU user consent</string>
+
+    <string name="privacy_policy_collect_title">Information we collect</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>- We only collect anonymous information.</p>
+        <p>- We collect information at the application level about the services that you use and how you use them (Google Firebase Platform).</p>
+        <p>- We collect information at the application level like bugs, errors and crashes to provide improvements (Google Firebase Platform).</p>
+        <p>- Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.</p>
+        - We do not share any data with other companies and organizations.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Information we do not collect</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>- We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
+        - We do not collect personal health data, contacts and phone notification text.
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Status</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Unknown</string>
+
+    <string name="privacy_policy_eu_consent_setting">设置</string>
 
     <!-- Vibration dialog -->
     <string name="vibration_title">震动设置</string>
