@@ -242,6 +242,38 @@
         <item>LONG_PRESS</item>
     </string-array>
 
+    <string-array name="pref_weather_unit">
+        <item>Μετρικός</item>
+        <item>Imperial</item>
+    </string-array>
+
+    <string-array name="pref_weather_unit_values">
+        <item>METRIC</item>
+        <item>IMPERIAL</item>
+    </string-array>
+
+    <string-array name="pref_weather_current_display">
+        <item>Current</item>
+        <item>Average</item>
+        <item>Am, Pm</item>
+    </string-array>
+
+    <string-array name="pref_weather_current_display_values">
+        <item>CURRENT</item>
+        <item>AVERAGE</item>
+        <item>AM_PM</item>
+    </string-array>
+
+    <string-array name="pref_weather_forecast_display">
+        <item>Average</item>
+        <item>Am, Pm</item>
+    </string-array>
+
+    <string-array name="pref_weather_forecast_display_values">
+        <item>AVERAGE</item>
+        <item>AM_PM</item>
+    </string-array>
+
     <string-array name="widget_event">
         <item>Οθόνη επιδέσμων</item>
         <item>Οθόνη δραστηριότητας</item>
@@ -298,7 +330,7 @@
         <item>zh</item>
     </string-array>
 
-    <string-array name="pref_language_amazfit_bip">
+    <string-array name="pref_language_mi_band_3">
         <item>Not set (set by Mi Fit)</item>
         <item>Default</item>
         <item>English</item>
@@ -307,11 +339,31 @@
         <item>简体中文</item>
     </string-array>
 
-    <string-array name="pref_language_amazfit_bip_values">
+    <string-array name="pref_language_mi_band_3_values">
         <item></item>
         <item>DEFAULT</item>
         <item>en_US</item>
         <item>es_ES</item>
+        <item>zh_TW</item>
+        <item>zh_CN</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_bip_watch">
+        <item>Not set (set by Mi Fit)</item>
+        <item>Default</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Русский</item>
+        <item>繁體中文</item>
+        <item>简体中文</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_bip_watch_values">
+        <item></item>
+        <item>DEFAULT</item>
+        <item>en_US</item>
+        <item>es_ES</item>
+        <item>ru_RU</item>
         <item>zh_TW</item>
         <item>zh_CN</item>
     </string-array>
