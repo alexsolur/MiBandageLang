@@ -11,7 +11,7 @@
     <string name="drawer_nav_sleep">Сон</string>
     <string name="drawer_nav_pulse">Пульс</string>
     <string name="drawer_nav_time">Время</string>
-    <string name="drawer_nav_weather">Weather</string>
+    <string name="drawer_nav_weather">Погода</string>
     <string name="drawer_nav_watch_face">Циферблат</string>
     <string name="drawer_nav_alarm">Отсоединён</string>
     <string name="drawer_nav_disconnected_agent">Лог действий</string>
@@ -20,7 +20,7 @@
     <string name="drawer_nav_premium_mode">Премиум</string>
     <string name="drawer_nav_rewarded_mode">Бонус</string>
     <string name="drawer_nav_feedback">Обратная связь</string>
-    <string name="drawer_nav_privacy_policy">политика конфиденциальности</string>
+    <string name="drawer_nav_privacy_policy">Политика конфиденциальности</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
     <string name="shortcut_touch">Касания</string>
@@ -356,7 +356,7 @@
     <string name="notification_group_filter">Фильтр</string>
     <string name="notification_group_filter_title">Фильтровать заголовок</string>
     <string name="notification_group_filter_content">Фильтровать содержимое</string>
-    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_regex">Регулярные выражения</string>
     <string name="notification_group_filter_hint">Уведомлять, если в уведомлении (без учёта регистра)</string>
     <string name="notification_group_filter_contains">Есть любая фраза</string>
     <string name="notification_group_filter_not_contains">Нет ни одной фразы</string>
@@ -368,13 +368,13 @@
     <string name="notification_group_correction">Преобразование текста</string>
     <string name="notification_group_correction_title">Изменение заголовка</string>
     <string name="notification_group_correction_content">Изменение содержимого</string>
-    <string name="notification_group_correction_regex">Regex</string>
+    <string name="notification_group_correction_regex">Регулярные выражения</string>
     <string name="notification_group_correction_hint">Без учёта регистра</string>
     <string name="notification_group_correction_items">Текст, требующий изменений</string>
     <string name="notification_group_correction_find">Найти</string>
     <string name="notification_group_correction_replace">Заменить</string>
 
-    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it.</string>
+    <string name="notification_regex_hint">Не буквенно-цифровые символы будут иметь специальное значение, если вы не знаете, что это, не включайте.</string>
 
     <string name="notification_confirm_close">Вы действительно хотите отменить изменения?</string>
 
@@ -750,20 +750,20 @@
     ]]></string>
 
     <!-- Weather  -->
-    <string name="weather_tab_weather_forecast">Weather</string>
-    <string name="weather_tab_settings">Setting</string>
+    <string name="weather_tab_weather_forecast">Погода</string>
+    <string name="weather_tab_settings">Настройки</string>
 
-    <string name="weather_title">Weather forecast</string>
-    <string name="weather_location_title">Location</string>
-    <string name="weather_city_title">City</string>
-    <string name="weather_unit_title">Unit</string>
+    <string name="weather_title">Прогноз погоды</string>
+    <string name="weather_location_title">Местоположение</string>
+    <string name="weather_city_title">Город</string>
+    <string name="weather_unit_title">Система</string>
 
-    <string name="weather_current_title">Current weather</string>
-    <string name="weather_current_temperature">Current temperature</string>
+    <string name="weather_current_title">Текущая погода</string>
+    <string name="weather_current_temperature">Текущая температура</string>
 
-    <string name="weather_forecast_title">Weather forecast</string>
+    <string name="weather_forecast_title">Прогноз погоды</string>
 
-    <string name="weather_display">Display</string>
+    <string name="weather_display">Отображение</string>
 
     <!-- Watch face -->
     <string name="watch_face_default_title">Изменение циферблата</string>
@@ -864,7 +864,7 @@
     <string name="backup_process_notification">Уведомления %1$,d%%</string>
     <string name="backup_process_touch">Касания %1$,d%%</string>
     <string name="backup_process_time">Время %1$,d%%</string>
-    <string name="backup_process_weather">Weather %1$,d%%</string>
+    <string name="backup_process_weather">Погода %1$,d%%</string>
     <string name="backup_process_alarm">Отсоединён %1$,d%%</string>
     <string name="backup_process_disconnected_agent">Лог действий %1$,d%%</string>
     <string name="backup_process_settings">Настройки %1$,d%%</string>
@@ -940,21 +940,21 @@
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">политика конфиденциальности</string>
-    <string name="privacy_policy_tab_eu_consent">EU user consent</string>
+    <string name="privacy_policy_tab_eu_consent">Соглашение европейского пользователя</string>
 
-    <string name="privacy_policy_collect_title">Information we collect</string>
+    <string name="privacy_policy_collect_title">Информация, собираемая нами</string>
     <string name="privacy_policy_collect"><![CDATA[
-        <p>- We only collect anonymous information.</p>
-        <p>- We collect information at the application level about the services that you use and how you use them (Google Firebase Platform).</p>
-        <p>- We collect information at the application level like bugs, errors and crashes to provide improvements (Google Firebase Platform).</p>
-        <p>- Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.</p>
-        - We do not share any data with other companies and organizations.
+        <p>- Мы собираем только анонимную информацию.</p>
+        <p>- Мы собираем информацию на уровне приложения о сервисах используемых вами и способе их использования (платформа Google Firebase).</p>
+        <p>- Мы собираем информацию на уровне приложения о багах, ошибках и падениях для предоставления улучшений (платформа Google Firebase).</p>
+        <p>- Платформа Google Firebase собирает информацию анонимно. Она предоставляет информацию о трендах без идентификации отдельных пользователей.</p>
+        - Мы не делимся информацией с другими компаниями и организациями.
     ]]></string>
 
-    <string name="privacy_policy_not_collect_title">Information we do not collect</string>
+    <string name="privacy_policy_not_collect_title">Информация, не собираемая нами</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>- We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
-        - We do not collect personal health data, contacts and phone notification text.
+        <p>- Мы не собираем информацию, способную вас идентифицировать. Другими словами мы не собираем такую информацию, как ваше имя, адрес, номер телефона, адрес электронной почты, IP или MAC адреса.</p>
+        - Мы не собираем информацию о вашем здоровье, контактах и тексте уведомлений.
     ]]></string>
 
     <!-- Vibration dialog -->
@@ -963,10 +963,10 @@
     <string name="vibration_pause">Пауза</string>
     <string name="vibration_times">Повторы</string>
 
-    <string name="privacy_policy_eu_consent_title">Status</string>
-    <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
-    <string name="privacy_policy_eu_consent_title_unknown">Unknown</string>
+    <string name="privacy_policy_eu_consent_title">Статус</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Персонализированная реклама</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Не персонализированная реклама менее точна</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Неизвестно</string>
 
     <string name="privacy_policy_eu_consent_setting">Настройки</string>
 
