@@ -11,7 +11,7 @@
     <string name="drawer_nav_sleep">Sonno</string>
     <string name="drawer_nav_pulse">Battiti</string>
     <string name="drawer_nav_time">Timer</string>
-    <string name="drawer_nav_weather">Tempo metereologico</string>
+    <string name="drawer_nav_weather">Meteo</string>
     <string name="drawer_nav_watch_face">Watch face</string>
     <string name="drawer_nav_alarm">Smarrimento</string>
     <string name="drawer_nav_disconnected_agent">Eventi</string>
@@ -374,7 +374,7 @@
     <string name="notification_group_correction_find">Cerca</string>
     <string name="notification_group_correction_replace">Sostituisci con</string>
 
-    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it.</string>
+    <string name="notification_regex_hint">Caratteri non-alfanumerici hanno un significato speciale, se non conosci il Regex, non toccarlo.</string>
 
     <string name="notification_confirm_close">Sei sicuro di voler annullare le modifiche?</string>
 
@@ -750,7 +750,7 @@
     ]]></string>
 
     <!-- Weather -->
-    <string name="weather_tab_weather_forecast">Tempo metereologico</string>
+    <string name="weather_tab_weather_forecast">Meteo</string>
     <string name="weather_tab_settings">Impostazioni</string>
 
     <string name="weather_title">Previsioni del tempo</string>
@@ -758,12 +758,12 @@
     <string name="weather_city_title">Città</string>
     <string name="weather_unit_title">Unità</string>
 
-    <string name="weather_current_title">Current weather</string>
-    <string name="weather_current_temperature">Current temperature</string>
+    <string name="weather_current_title">Meteo attuale</string>
+    <string name="weather_current_temperature">Temperatura attuale</string>
 
-    <string name="weather_forecast_title">Weather forecast</string>
+    <string name="weather_forecast_title">Previsioni del tempo</string>
 
-    <string name="weather_display">Display</string>
+    <string name="weather_display">Mostra</string>
 
     <!-- Watch face -->
     <string name="watch_face_default_title">Cambia watch face</string>
@@ -864,7 +864,7 @@
     <string name="backup_process_notification">Notifiche%1$,d%%</string>
     <string name="backup_process_touch">Tocco %1$,d%%</string>
     <string name="backup_process_time">Timer %1$,d%%</string>
-    <string name="backup_process_weather">Tempo metereologico %1$,d%%</string>
+    <string name="backup_process_weather">Meteo %1$,d%%</string>
     <string name="backup_process_alarm">Smarrimento %1$,d%%</string>
     <string name="backup_process_disconnected_agent">Eventi %1$,d%%</string>
     <string name="backup_process_settings">Impostazioni %1$,d%%</string>
@@ -874,7 +874,7 @@
     <string name="backup_restore_notification">Notifiche</string>
     <string name="backup_restore_touch">Tocco</string>
     <string name="backup_restore_time">Timer</string>
-    <string name="backup_restore_weather">Tempo metereologico</string>
+    <string name="backup_restore_weather">Meteo</string>
     <string name="backup_restore_alarm">Smarrimento</string>
     <string name="backup_restore_disconnected_agent">Eventi</string>
     <string name="backup_restore_settings">Impostazioni</string>
@@ -940,27 +940,27 @@
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Norme sulla privacy</string>
-    <string name="privacy_policy_tab_eu_consent">EU user consent</string>
+    <string name="privacy_policy_tab_eu_consent">Consenso utenti EU</string>
 
-    <string name="privacy_policy_collect_title">Information we collect</string>
+    <string name="privacy_policy_collect_title">Informazioni che raccogliamo</string>
     <string name="privacy_policy_collect"><![CDATA[
-        <p>- We only collect anonymous information.</p>
-        <p>- We collect information at the application level about the services that you use and how you use them (Google Firebase Platform).</p>
-        <p>- We collect information at the application level like bugs, errors and crashes to provide improvements (Google Firebase Platform).</p>
-        <p>- Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.</p>
-        - We do not share any data with other companies and organizations.
+        <p>- Raccogliamo solo informazioni anonime.</p>
+        <p>- Raccogliamo informazioni a livello applicazione riguardo i servizi che usi e il come (Piattaforma Google Firebase).</p>
+        <p>- Raccogliamo informazioni a livello applicazione come bug, errori e crash per fornire miglioramenti ( Piattaforma Google Firebase).</p>
+        <p>- Piattaforma Google Firebase raccoglie informazioni anonime. Crea report senza identificare gli utenti.</p>
+        - Non condividiamo nessun dato con altre compagnie e organizzazioni.
     ]]></string>
 
-    <string name="privacy_policy_not_collect_title">Information we do not collect</string>
+    <string name="privacy_policy_not_collect_title">Informazioni che non raccogliamo</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>- We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
-        - We do not collect personal health data, contacts and phone notification text.
+        <p>- Non raccogliamo dati identificativi personali. In altre parole, non raccogliamo informazioni come il tuo nome, indirizzo, numero di telefono, email, indirizzo IP, o indirizzo MAC.</p>
+        - Non raccogliamo dati sulla salute, contatti e testi delle notifiche.
     ]]></string>
 
-    <string name="privacy_policy_eu_consent_title">Status</string>
-    <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
-    <string name="privacy_policy_eu_consent_title_unknown">Unknown</string>
+    <string name="privacy_policy_eu_consent_title">Stato</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Personalizza, pubblicità rilevanti</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Pubblicità non personalizzate sono le meno rilevanti</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Sconosciuto</string>
 
     <string name="privacy_policy_eu_consent_setting">Impostazioni</string>
 
