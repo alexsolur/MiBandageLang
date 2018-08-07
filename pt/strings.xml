@@ -102,7 +102,7 @@
     <string name="pref_connected_have_notif_wakelock_title">Acordar o dispositivo</string>
     <string name="pref_connected_have_notif_ongoing_title">A notificação permanece visível</string>
     <string name="pref_connected_have_notif_default_app_title">Aplicação não reconhecida</string>
-    <string name="pref_connected_have_notif_default_app_summary_on">ícone \'App\' (se a aplicação não existe num grupo de notificações prédefinido e costumizado)</string>
+    <string name="pref_connected_have_notif_default_app_summary_on">ícone \'App\' (se a aplicação não existe num grupo de notificações prédefinido ou costumizado)</string>
     <string name="pref_connected_have_notif_pre_signal_title">Prever notificações</string>
     <string name="pref_connected_have_notif_pre_signal_summary_on">Mostrar um aviso antes da notificação real, a fim de ter mais tempo para olhar para o ecrã. (clique no ícone para o modificar)</string>
 
@@ -336,7 +336,7 @@
     <string name="notification_group_monitoring">Notificar</string>
     <string name="notification_group_monitoring_disabled">Excluir (não será notificado pelas aplicações deste grupo)</string>
     <string name="notification_group_text">Texto a mostrar</string>
-    <string name="notification_group_alert_title">ícone usado por %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_alert_title">ícone usado pela %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="notification_group_text_app_name">Nome da Aplicação</string>
     <string name="notification_group_text_name">Nome deste grupo</string>
     <string name="notification_group_text_title">Título</string>
@@ -788,7 +788,7 @@
 
     <string name="info_dialog_watch_face"><![CDATA[<b><u>Como alterar a Watch Face:</u></b>
         <br><br><img src="ic_mi_fit_init"> <b>1. Inicialização</b>
-        <p>Faça o upload da primeira Wacth Face da lista na aplicação Mi Fit
+        <p>Faça o upload da primeira Watch Face da lista na aplicação Mi Fit
 
         <br><br><b>2. Download</b>
         <p>Faça o download das Watch Faces a partir dos sites dados.
