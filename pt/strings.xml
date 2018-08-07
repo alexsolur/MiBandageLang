@@ -76,27 +76,27 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Conexão</string>
-    <string name="pref_connected_summary">Sinal da %1$s e do dispositivo</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_summary">Aviso da %1$s e do dispositivo</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_connected_signals">Sinais de conexão</string>
-    <string name="pref_connected_signals_summary">Aviso ao se conectar com a %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_signals_summary">Notificar ao se conectar com a %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_signals_mi_band">Aviso da %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Vibração</string>
     <string name="pref_cat_connected_signals">Aviso do dispositivo</string>
     <string name="pref_connected_wakelock_title">Acordar o ecrã do dispositivo</string>
 
     <string name="pref_connected_settings">Definições de conexão</string>
-    <string name="pref_connected_settings_summary">Definições de conexão da %1$s e do dispositivo</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_settings_summary">Definições alteradas no dispositivo ao estabelecer a conexão</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_settings">Definições do dispositivo</string>
     <string name="pref_connected_volume_title">Alterar volume</string>
-    <string name="pref_connected_volume_ring_title">Volme do toque</string>
+    <string name="pref_connected_volume_ring_title">Volume do Tom de toque</string>
 
-    <string name="pref_cat_connected_have_notif">Aplicações padrão</string>
+    <string name="pref_cat_connected_have_notif">Aplicações pré-definidas</string>
     <string name="pref_cat_connected_have_notif_default">Aplicações pré-definidas e padrão</string>
-    <string name="pref_connected_have_notif_immediate_title">Avisar quando receber a notificação</string>
-    <string name="pref_connected_have_notif_title">Avisar quando conectar ao dispositivo</string>
+    <string name="pref_connected_have_notif_immediate_title">Notificar quando receber a notificação</string>
+    <string name="pref_connected_have_notif_title">Notificar quando conectar ao dispositivo</string>
     <string name="pref_connected_have_notif_reminder_title">Lembrete</string>
-    <string name="pref_connected_have_notif_screen_off_title">Avisar quando o ecrã está desligado</string>
+    <string name="pref_connected_have_notif_screen_off_title">Notificar quando o ecrã está desligado</string>
     <string name="pref_connected_have_notif_interval_title">Tempo para o próximo lembrete</string>
     <string name="pref_connected_have_notif_counter_title">Cardinalidade dos sinais</string>
     <string name="pref_connected_have_notif_wakelock_title">Acordar o dispositivo</string>
@@ -104,55 +104,55 @@
     <string name="pref_connected_have_notif_default_app_title">Aplicação não reconhecida</string>
     <string name="pref_connected_have_notif_default_app_summary_on">ícone \'App\' (se a aplicação não existe num grupo de notificações prédefinido e costumizado)</string>
     <string name="pref_connected_have_notif_pre_signal_title">Prever notificações</string>
-    <string name="pref_connected_have_notif_pre_signal_summary_on">Avisar antes da notificação real, a fim de ter mais tempo para olhar para o ecrã. (clique no ícone para o modificar)</string>
+    <string name="pref_connected_have_notif_pre_signal_summary_on">Mostrar um aviso antes da notificação real, a fim de ter mais tempo para olhar para o ecrã. (clique no ícone para o modificar)</string>
 
     <string name="pref_disconnected">Desconexão</string>
-    <string name="pref_disconnected_summary">Sinal da %1$s e do dispositivo</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_summary">Aviso da %1$s e do dispositivo</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_disconnected_signals">Sinais de desconexão</string>
-    <string name="pref_disconnected_signals_summary">Aviso ao se desconectar da %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_signals_summary">Notificar ao se desconectar da %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_disconnected_signals_mi_band">Aviso da %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Mostrar ícone</string>
-    <string name="pref_cat_disconnected_signals">Dispositivo</string>
-    <string name="pref_disconnected_ringtone_title">Toque</string>
+    <string name="pref_cat_disconnected_signals">Aviso do dispositivo</string>
+    <string name="pref_disconnected_ringtone_title">Tom do toque</string>
     <string name="pref_disconnected_vibration_title">Vibração</string>
     <string name="pref_disconnected_wakelock_title">Acordar o dispositivo</string>
 
-    <string name="pref_disconnected_settings">Deiniçções de desconexão</string>
-    <string name="pref_disconnected_settings_summary">Definições da %1$s e o dispositivo</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_cat_disconnected_settings">Deefinições do dispositivo</string>
+    <string name="pref_disconnected_settings">Definições de desconexão</string>
+    <string name="pref_disconnected_settings_summary">Definições alteradas no dispositivo ao perder a conexão</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_settings">Definições do dispositivo</string>
     <string name="pref_disconnected_volume_title">Alterar volume</string>
-    <string name="pref_disconnected_volume_ring_title">Volume do toque</string>
+    <string name="pref_disconnected_volume_ring_title">Volume do Tom do toque</string>
     <string name="pref_disconnected_volume_adapter_title">Quando o Bluetooth é desligado</string>
     <string name="pref_disconnected_volume_adapter_summary_on">Ajustar o volume</string>
     <string name="pref_disconnected_volume_adapter_summary_off">Não ajustar o volume</string>
 
     <string name="pref_call">Chamadas</string>
-    <string name="pref_call_summary">Sinal da %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_call_summary">Aviso da %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Chamada recebida</string>
-    <string name="pref_call_title">Aviso de chamada recebida</string>
+    <string name="pref_call_title">Notificar chamada recebida</string>
     <string name="pref_call_summary_on">Ligado (não te esqueças de desligar incoming call alerts na aplicação \'Mi Fit\')</string>
     <string name="pref_call_text_title">Mostrar o ID do chamador</string>
-    <string name="pref_call_text_summary_on"><![CDATA[Ligado (mais informação: <i>Definições/Ícone de texto)</i>]]></string>
+    <string name="pref_call_text_summary_on"><![CDATA[Ligado (mais informação em: <i>Definições/Ícone de texto)</i>]]></string>
 
-    <string name="pref_call_net_text_title">Aviso de chamada online recebida; mostrar o ID do chamador</string>
+    <string name="pref_call_net_text_title">Notificar chamada online recebida; mostrar o ID do chamador</string>
     <string name="pref_call_net_text_summary_on">WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
     <string name="pref_cat_call_missed">Chamada perdida</string>
-    <string name="pref_call_missed_title">Aviso de chamada perdida</string>
+    <string name="pref_call_missed_title">Notificar chamada perdida</string>
 
-    <string name="pref_call_missed_net_title">Aviso de chamada online perdida; mostrar o ID do chamador</string>
+    <string name="pref_call_missed_net_title">Notificar chamada online perdida; mostrar o ID do chamador</string>
     <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
-    <string name="pref_call_missed_alert_title">Aviso da %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_call_missed_alert_title">Ícone usado pela %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_call_missed_text_prefix_title">Prefixo do texto: %1$s</string>
-    <string name="pref_call_missed_text_prefix_summary">Se mais do que uma aplicação usar o ícone para diferenciar as notificações uma da outra, isto ajudar-te-à</string>
+    <string name="pref_call_missed_text_prefix_summary">Se mais do que uma aplicação usar o mesmo ícone para diferenciar as notificações uma da outra, isto vai te ajudar</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Prefixo do texto</string>
 
     <string name="pref_text_conversion">Ícone de texto</string>
     <string name="pref_text_conversion_summary">Definições do ícone de texto da Band</string>
-    <string name="pref_cat_text_conversion">Sinal da %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_text_conversion">Configuração do aviso da %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Conversão de caracteres</string>
     <string name="pref_text_conversion_summary_on">Converter caracteres não reconhecidos (Desligue se a Band suportar a sua linguagem ou se tem um firmware de fontes customizado)</string>
     <string name="pref_text_emoticon_title">Conversão de Emojis</string>
@@ -173,7 +173,7 @@
         <br/>5. Ative: <i>Show contact information</i>.
         <br/>6. Verifique se a Band pode mostrar o nome do chamador ligando para o seu dispositivo.
         <br/>7. Desative: <i>Turn on incoming call alerts</i> (<i>Show contact information</i> permanece ligado).
-        <br/>8. Define a linguagem do dispositivo para a que tinha.</p>]]>
+        <br/>8. Altere a linguagem do dispositivo para a que tinha antes.</p>]]>
     </string>
 
     <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
@@ -190,9 +190,9 @@
     <string name="pref_battery_phone_low_repeat_interval_title">Repetir notificação a cada</string>
     <string name="pref_cat_battery_phone_full">Bateria cheia</string>
     <string name="pref_battery_phone_full_title">Notificação de Bateria cheia</string>
-    <string name="pref_battery_phone_full_plugged_ac">Ligado ao carregador AC</string>
-    <string name="pref_battery_phone_full_plugged_usb">Ligado à porta USB</string>
-    <string name="pref_battery_phone_full_plugged_wireless">Ligado ao carregador Wireless</string>
+    <string name="pref_battery_phone_full_plugged_ac">Conectado ao carregador AC</string>
+    <string name="pref_battery_phone_full_plugged_usb">Conectado à porta USB</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Conectado ao carregador Wireless</string>
     <string name="pref_battery_phone_full_repeat_interval_title">Repetir notificação a cada</string>
 
     <!-- Mi Band 2 max. 18 chars with 100% -->
@@ -228,7 +228,7 @@
     <string name="pref_dnd_enable_bluetooth">Desligar Bluetooth ao iniciar o modo DND e voltar a ligar quando terminar</string>
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Por favor, ligue o Bluetooth e mantanha a Band perto do dispositivo</string>
+    <string name="message_enable_bluetooth">Por favor, ligue o Bluetooth e mantenha a Band perto do dispositivo</string>
     <string name="message_discover_mi_band">A Band não está configurada. Encontre-a por favor</string>
     <string name="message_discovering_mi_band">Procurando a Band &#8230;</string>
     <string name="message_discovered_mi_band">A %1$s foi encontrada</string>
@@ -292,7 +292,7 @@
     <p>Se você usa mais aplicações para controlar a Band, elas vão interferir umas com as outras por isso desative-as.</p>
     <p>Se a Band não for encontrada, você pode configurar o endereço MAC manualmente nos detalhes do menu (O endereço MAC encontra-se em: Mi Fit/Profil/Band).</p>
     <p><b>Se tiver um problema de conexão:</b>
-    <br>- Verifique se existe algum problema em <i>Definições/Diagnóstico</i>
+    <br>- Verifique se existe algum problema em <i>Definições\Diagnóstico</i>
     <br>- Ecrã de aplicações recentes: bloquear a Mi Bandage (Deslizar a aplicaçãao para baixo e clicar no aloquete).
     <br>- Dispositivo/Otimização de bateria: configurar a Mi Bandage para: \"não otimizar\".
     <br>- Dispositivo/Aplicações: Limpar dasdos de \"Bluetooth Share\" e de outras aplicações \'Bluetooth\'.
@@ -336,9 +336,9 @@
     <string name="notification_group_monitoring">Notificar</string>
     <string name="notification_group_monitoring_disabled">Excluir (não será notificado pelas aplicações deste grupo)</string>
     <string name="notification_group_text">Texto a mostrar</string>
-    <string name="notification_group_alert_title">Sinal da %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_alert_title">ícone usado por %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="notification_group_text_app_name">Nome da Aplicação</string>
-    <string name="notification_group_text_name">Nome</string>
+    <string name="notification_group_text_name">Nome deste grupo</string>
     <string name="notification_group_text_title">Título</string>
     <string name="notification_group_text_content">Conteúdo</string>
     <string name="notification_group_vibration_title">Vibração personalizada</string>
@@ -346,10 +346,10 @@
     <string name="notification_group_pre_vibration_title">Pré-vibração</string>
     <string name="notification_group_pre_alert_title">Pré-ícone</string>
     <string name="notification_group_prefix">Prefixo do texto</string>
-    <string name="notification_group_immediate">Avisar quando receber a notificação</string>
-    <string name="notification_group_connecting">Avisar quando conectar ao dispositivo</string>
+    <string name="notification_group_immediate">Notificar quando receber a notificação</string>
+    <string name="notification_group_connecting">Notificar quando conectar ao dispositivo</string>
     <string name="notification_group_reminder">Lembrete</string>
-    <string name="notification_group_screen_off">Avisar quando o ecrã estiver desligado</string>
+    <string name="notification_group_screen_off">Notificar quando o ecrã estiver desligado</string>
     <string name="notification_group_counter_title">Cardinalidade dos sinais</string>
     <string name="notification_group_wakelock">Acordar o ecrã do dispositivo</string>
 
@@ -372,7 +372,7 @@
     <string name="notification_group_correction_hint">Insensível a MAIÚSCULAS</string>
     <string name="notification_group_correction_items">Texto a ser corrigido:</string>
     <string name="notification_group_correction_find">Encontra:</string>
-    <string name="notification_group_correction_replace">Recoloca com:</string>
+    <string name="notification_group_correction_replace">Reescreve com:</string>
 
     <string name="notification_regex_hint">Caracteres Não-Alfanuméricos têm um significado especial. Se você não souber o Regex, não o selecione.</string>
 
@@ -386,7 +386,7 @@
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> escolha este ícone para mostrar notificações com título/conteúdo]]></string>
 
     <!-- Notification info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Ícones da Mi Band 2 e aplicação correspondente:
+    <string name="info_dialog_notification"><![CDATA[Ícones da Band e aplicação correspondente:
         <br><img src="ALERT_MESSAGE_TEXT">  Chamada perdida
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  Email, Gmail, Inbox
@@ -416,12 +416,12 @@
         <br><img src="ALERT_DINGTALK">  DingTalk
         <br><img src="ALERT_APP">  Outros
 
-        <p>As aplicações Pré-definidas e os avisos por ícone da Band apenas apresentam o ícone. A mensagem não é apresentada.</p>
-        <p>Desative os avisos na aplicação Mi Fit.</p>
+        <p>As \'aplicações Pré-definidas\' e os \'avisos por ícone da Band\' apenas apresentam o ícone. A mensagem não é apresentada.</p>
+        <p>Desative as notificações na aplicação Mi Fit.</p>
         <p>O grupo de notificações criado por si tem prioridade superior às notificações pré-definidas.</p>
         <mi_band_2><p><img src="ALERT_MESSAGE_TEXT">  escolha este ícone para mostrar notificações com título/conteúdo</p></mi_band_2>
         <mi_band_hrx><p><img src="ALERT_MESSAGE_TEXT">  escolha este ícone para mostrar notificações com título/conteúdo</p></mi_band_hrx>
-        <p>Se você usa aplicações pré-definidas mas quer excluir algumas aplicações, então crie um novo grupo de notificações, adicione algumas aplicações e desative-o a seguir.</p>
+        <p>Se você usa aplicações pré-definidas e quer excluir algumas aplicações,  crie um novo grupo de notificações, adicione as aplicações que não deseja e desative o grupo a seguir.</p>
         ]]>
     </string>
         <!--<p>Os sinais predefinidos podem ser desativados: <i>Monitorar notifições/Definições</i>.</p>-->
@@ -461,7 +461,7 @@
     <string name="touch_device_location_not_muted_only_title">Emitir som se não estiver num modo \'sem som\'</string>
 
     <string name="touch_repeat_notif_title">Repetir as notificações</string>
-    <string name="touch_repeat_notif_clear_all">Limpar as notificações depois de repeti-las</string>
+    <string name="touch_repeat_notif_clear_all">Limpar as notificações depois de repetir a sua visualização</string>
 
     <string name="touch_clear_notif_title">Limpar as notificações</string>
 
@@ -515,7 +515,7 @@
         <p>No modo teste não é executada a função \'padrão reconhecido\'.</p>
         <p>Feedback por meio de vibração da Band se houver um padrão não reconhecido, levando em consideração o status atual do dispositivo (atender chamadas, rejeitar/terminar somente se houver uma chamada recebida, …).</p>
         <p>A Band vibra 1 vez, quando reconhece o padrão.</p>
-        <p>A Band vibra 2 vezes, quando não reconhece o padrão após o padrão mais longo (se o <i>padrão não é reconhecido</ i>).</p>
+        <p>A Band vibra 2 vezes, quando não reconhece o padrão, após o padrão mais longo ser verificado (se o <i>padrão não é reconhecido</ i>).</p>
         <p><b>Exemplos</b> de padrões válidos:
         <br>- toque
         <br>- toque e espere 1 seg, toque
@@ -612,10 +612,10 @@
 
     <string name="pulse_notification_shade">Gráfico na barra de notificações</string>
     <string name="pulse_title_signals">Avisos</string>
-    <string name="pulse_signal_start_title">Aviso de começo</string>
+    <string name="pulse_signal_start_title">Notificar quando começa a monitorar</string>
     <string name="pulse_signal_show_title">Mostrar pulsação</string>
-    <string name="pulse_signal_end_low_title">Aviso de pulsação baixa</string>
-    <string name="pulse_signal_end_title">Aviso de pulsação alta</string>
+    <string name="pulse_signal_end_low_title">Notificar pulsação baixa</string>
+    <string name="pulse_signal_end_title">Notificar pulsação alta</string>
 
     <string name="pulse_title_timing_validity">Temporizador e validez</string>
     <string name="pulse_value_min">Valor minímo válido</string>
@@ -633,10 +633,10 @@
 
     <string name="message_pulse_premium_mode_only">Só pode usar a monitorização da pulsação Online e Offline ao mesmo tempo no modo premium</string>
 
-    <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Monitorização da pulsação_Online</u></b>
+    <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Monitorização online da pulsação</u></b>
         <p>Conexão bluetooth necessária para monitorar a pulsação.</p>
         <p>A leitura da pulsação é repetida várias vezes se o valor medido for inválido.<p>
-        <img src="ic_pulse_offline"> <b><u>Monitorização da pulsação_Offline</u></b>
+        <img src="ic_pulse_offline"> <b><u>Monitorização offline da pulsação</u></b>
         <p>Não é necessário estar conectado por Bluetooth para monitorar a pulsação.</p>
         <p>É necessário estar conectado por Bluetooth para a \'Monitorização temporizada\' funcionar.</p>
         <p>As medições iniciadas manualmente (na Band ou  na aplicação Mi Fit) também são registadas quando a monitoração da pulsação é iniciada.</p>]]>
@@ -655,7 +655,7 @@
     <string name="pref_abandoned_notif_interval_title">Tempo para repetir o alarme</string>
     <string name="pref_abandoned_notif_text_summary">Notificação no ecrã</string>
     <string name="pref_abandoned_notif_text_text">O dispositivo está perdido. Por favor, ligue para o(s) número(s) a seguir:</string>
-    <string name="pref_abandoned_ringtone_title">Toque</string>
+    <string name="pref_abandoned_ringtone_title">Tom de toque</string>
     <string name="pref_abandoned_vibration_title">Vibrar</string>
     <string name="pref_abandoned_wakelock_title">Acordar o ecrã</string>
     <string name="pref_abandoned_notif_title">O dispositivo está perdido</string>
@@ -770,15 +770,15 @@
     <string name="watch_face_default_title">Alterar Watch Face</string>
 
     <string name="watch_face_init_title">Inicialização</string>
-    <string name="watch_face_init_content"><![CDATA[Configure uma das Watch Faces de fábrica na aplicação Mi Fit.
+    <string name="watch_face_init_content"><![CDATA[Faça o upload de uma das Watch Faces extras na aplicação Mi Fit.
         <br>Você tem de selecionar a mesma Watch Face quando fizer o upload.
         <br><i>(Só precisa de fazer a Inicialização uma vez)</i>
     ]]></string>
 
     <string name="watch_face_download_title">Download</string>
-    <string name="watch_face_download_path">Guarde o ficheiro da Watch Face descarregada aqui:</string>
+    <string name="watch_face_download_path">Guarde o ficheiro da Watch Face transferida aqui:</string>
     <string name="watch_face_download_name">Nome do ficeiro</string>
-    <string name="watch_face_download_move">Mover as Watch Faces descarregadas na pasta %1$s para a pasta da Mi Bandage</string>
+    <string name="watch_face_download_move">Mover as Watch Faces transferidas da pasta %1$s para a pasta da Mi Bandage</string>
 
     <string name="watch_face_upload_title">Upload</string>
     <string name="watch_face_upload_empty_title"><![CDATA[Watch face não encontrada
@@ -788,16 +788,16 @@
 
     <string name="info_dialog_watch_face"><![CDATA[<b><u>Como alterar a Watch Face:</u></b>
         <br><br><img src="ic_mi_fit_init"> <b>1. Inicialização</b>
-        <p>Faça o upload da primeira Wacth Face da lista na Mi Fit (colocar a original de fábrica)
+        <p>Faça o upload da primeira Wacth Face da lista na aplicação Mi Fit
 
         <br><br><b>2. Download</b>
         <p>Faça o download das Watch Faces a partir dos sites dados.
 
         <br><br><img src="ic_content_duplicate"> <b>3. Mover os ficheiros</b>
-        <p>Se necessário, mova as Watch Faces da pasta onde colocou as Watch Faces para a pasta da Mi Bandage.
+        <p>Se necessário, mova as Watch Faces da pasta onde as colocou para a pasta da Mi Bandage.
 
         <br><br><img src="ic_mi_fit_upload"> <b>4. Upload</b>
-        <p>Faça o upload da Watch Face pretendida na Mi Fit. Isso vai substituir a última Watch Face de fábrica adicionada.
+        <p>Faça o upload da Watch Face pretendida clicando no ícone que se encontra ao lado, selecionando de seguida a Watch Face usada na inicialização. Isso irá substituir a última Watch Face de fábrica adicionada.
 
         <br><br><br><b><u>Upload de várias watch faces</u></b>
         <p><img src="ic_action_launch_mi_fit">1- Inicie a Mi Fit sem substituir a Watch Face e faça o upload da segunda Watch Face de fábrica.
@@ -914,8 +914,8 @@
     ]]></string>
     <string name="purchase_policy_title">Termos e condições do Modo Premium</string>
     <string name="purchase_policy"><![CDATA[
-        <p>- Eu testei a aplicação e ela está a funcionar corretamente.
-        <br>- Eu estou ciente de que não posso exigir compensação ou reembolso devido a bugs, erros de software causados ​​por alterações, ambiente do hardware ou outras aplicações usadas.
+        <p>- Nós testá-mos a aplicação e ela está a funcionar corretamente.
+        <br>- Nós estamos cientes de que não podemos exigir compensação ou reembolso devido a bugs, erros de software causados ​​por alterações, ambiente do hardware ou outras aplicações usadas.
         <br>- Todas as vendas são finais e não podem ser reembolsadas (exceto pela política de reembolso do Google).
         <br>- Não há garantia incluída.</p>
         <p><i>Depois da compra, você precisa de reiniciar a aplicação.</i></p>
@@ -940,20 +940,20 @@
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Política de privacidade</string>
-    <string name="privacy_policy_tab_eu_consent">EU user consent</string>
+    <string name="privacy_policy_tab_eu_consent">EU  consentimento do usuário</string>
 
     <string name="privacy_policy_collect_title">Informação que coletamos</string>
     <string name="privacy_policy_collect"><![CDATA[
         <p>- Nós só coletamos informações anónimas.</p>
         <p>- Nós coletamos da aplicação informação acerca dos serviços que você usa e como os usa (Google Firebase Platform).</p>
-        <p>- Nós coletamos da aplicação informação sobre bugs, erros, crashes para proporcionar melhorias (Google Firebase Platform).</p>
+        <p>- Nós coletamos da aplicação informação sobre bugs, erros e crashes para proporcionar melhorias (Google Firebase Platform).</p>
         <p>- A plataforma Google Firebase Platform coleta informação anonimamente. A plataforma relata as tendências sem identificar os usuários individuais.</p>
         - Nós não partilhamos informação com outras companhias ou organizações.
     ]]></string>
 
     <string name="privacy_policy_not_collect_title">Informação que não coletamos</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>- Nós não coletamos informações pessoais identificáveis sobre você. Em outras palavras, nós não coletamos informação sobre o seu nome, morada, número do telemóvel, endereço de email, endreço IP, endereço MAC.</p>
+        <p>- Nós não coletamos informações pessoais identificáveis sobre você. Em outras palavras, nós não coletamos informação sobre o seu nome, morada, número do telemóvel, endereço de email, endreço IP e endereço MAC.</p>
         - Nós não coletamos informação da sua saúde pessoal, contactos e texto das notificações do seu dispositivo.
     ]]></string>
 
