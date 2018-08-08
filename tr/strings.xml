@@ -273,6 +273,7 @@
     <string name="message_premium_mode_only">Bu özellik yanlız premium mod ile kullanılabilir</string>
     <string name="message_general_error">İşlem başarısız oldu (bağlantı tutarsız), lütfen tekrar deneyin</string>
     <string name="message_internet_error">İnternet bağlantınız yok</string>
+    <string name="message_gps_enable">Enable the GPS</string>
 
     <string name="message_in_progress">İşleniyor…</string>
     <string name="message_no_data">No data available</string>
@@ -386,7 +387,9 @@
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> simge: bildirimlerin başlığını/içeriğini göstermek için bu simgeyi seçin.]]></string>
 
     <!-- Notification info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Ön tanımlı uygulamalar ve bilkelik bildirimleri:
+    <string name="info_dialog_notification"><![CDATA[Ön tanımlı uygulamalar ve bilkelik bildirimleri:<br>
+        <not_support_icon_text><img src="ALERT_MESSAGE_TEXT">  Cevapsız çağrı</not_support_icon_text>
+        <support_icon_text><img src="ALERT_CALL_MESSAGE">  Cevapsız çağrı</support_icon_text>
         <br><img src="ALERT_MESSAGE_TEXT">  Cevapsız çağrı
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  Email, Gmail, Inbox
@@ -846,6 +849,7 @@
 
     <string name="theme_notification_title">Bildirim çubuğunda durum gösterilsin</string>
     <string name="theme_notification_summary">!!!Burası önemli!!!,Android sistemi, bir hizmeti sadece bellek düşük olduğunda durdurur. Bir süre sonra bileklikteki bildirimler görünmezse, bu özelliği açarak bunu önleyebilirsiniz.</string>
+    <string name="theme_notification_summary_foreground_serice">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the icon is hidden, turn it off here for optimal performance.</string>
     <string name="theme_notification_color_title">Simge rengi</string>
     <string name="theme_notification_text_color_title">Yazı rengi</string>
 
@@ -901,24 +905,24 @@
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Premium avantajları</string>
     <string name="purchase_advantage"><![CDATA[
-        - Reklamsız
-        <br>- Rahatsız etmeyin modu
-        <br>- Sınırsız bildirim izleme
-        <br>- Sınırsız dokunma izleme
-        <br>- Bildirim izlemede metin ön eki, ön simge ve filtreleme metni kullanılabilme
-        <br>- Adım izleme fonksiyonunda tekrar aralığını serbestçe ayarlanabilme
-        <br>- Nabız izleme fonksiyonunda tekrar aralığını serbestçe ayarlanabilme
-        <br>- Rahatsız etme ve kayıp izleme fonksiyonlarında tekrar aralığını serbestçe ayarlanabilme
-        <br>- Tekrarlanan anımsatıcılar, mesaj gösterme ve bluetooth\'u açma sürelerinin serbestçe ayarlanabilme
-        <br>- …
+        <p>- Reklamsız</p>
+        <p>- Rahatsız etmeyin modu</p>
+        <p>- Sınırsız bildirim izleme</p>
+        <p>- Sınırsız dokunma izleme</p>
+        <p>- Bildirim izlemede metin ön eki, ön simge ve filtreleme metni kullanılabilme</p>
+        <p>- Adım izleme fonksiyonunda tekrar aralığını serbestçe ayarlanabilme</p>
+        <p>- Nabız izleme fonksiyonunda tekrar aralığını serbestçe ayarlanabilme</p>
+        <p>- Rahatsız etme ve kayıp izleme fonksiyonlarında tekrar aralığını serbestçe ayarlanabilme</p>
+        <p>- Tekrarlanan anımsatıcılar, mesaj gösterme ve bluetooth\'u açma sürelerinin serbestçe ayarlanabilme</p>
+        - …
     ]]></string>
     <string name="purchase_policy_title">Premium şartları ve koşulları</string>
     <string name="purchase_policy"><![CDATA[
-        <p>- Uygulamayı test ettim ve düzgün çalışıyor.
-        <br>- Hatalar, yazılımdaki değişikliklerden kaynaklanan yazılım hataları, donanım ortamı veya diğer uygulamaları kullanarak tazminat veya geri ödeme talep edemediğimin farkındayım.
-        <br>- Tüm satışlar kesindir ve geri ödeme yapılamaz (Google geri ödeme politikası hariç).
-        <br>- Herhangi bir garanti içermez.</p>
-        <p><i>Satınalma işlemi sonunda uygulamayı tekrar başlatmalısınız.</i></p>
+        <p>- Uygulamayı test ettim ve düzgün çalışıyor.</p>
+        <p>- Hatalar, yazılımdaki değişikliklerden kaynaklanan yazılım hataları, donanım ortamı veya diğer uygulamaları kullanarak tazminat veya geri ödeme talep edemediğimin farkındayım.</p>
+        <p>- Tüm satışlar kesindir ve geri ödeme yapılamaz (Google geri ödeme politikası hariç).</p>
+        <p>- Herhangi bir garanti içermez.</p>
+        <br><p><i>Satınalma işlemi sonunda uygulamayı tekrar başlatmalısınız.</i></p>
     ]]></string>
 
     <!--<string name="purchase_price">Fiyat:</string>-->
@@ -988,6 +992,7 @@
     <string name="ringer_mode_dnd_priority_only">Rahatsısz etme (yalnızca öncelik)</string>
     <string name="ringer_mode_dnd_alarms_only">Rahatsısz etme (yalnızca alarmlar)</string>
     <string name="ringer_mode_dnd_total_silence">Rahatsısz etme (tamamen sessiz)</string>
+    <string name="unknown">Bilinmeyen</string>
 
     <string name="action_dismiss">Vazgeç</string>
     <string name="action_setting">Ayarlar</string>
