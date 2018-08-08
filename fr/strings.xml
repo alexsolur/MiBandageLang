@@ -273,6 +273,7 @@
     <string name="message_premium_mode_only">Cette fonction est uniquement disponible en mode premium</string>
     <string name="message_general_error">Échec du réglage (connexion perdue), veuillez réessayer</string>
     <string name="message_internet_error">Connexion internet indisponible</string>
+    <string name="message_gps_enable">Enable the GPS</string>
 
     <string name="message_in_progress">En cours…</string>
     <string name="message_no_data">No data available</string>
@@ -386,8 +387,9 @@
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icône: choisir cet icône pour afficher les notifications titre/contenu.]]></string>
 
     <!-- Notification info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Alertes par défaut pour l\'appli et l\'icône du Band:
-        <br><img src="ALERT_MESSAGE_TEXT">  Appels manqués
+    <string name="info_dialog_notification"><![CDATA[Alertes par défaut pour l\'appli et l\'icône du Band:<br>
+        <not_support_icon_text><img src="ALERT_MESSAGE_TEXT">  Appels manqués</not_support_icon_text>
+        <support_icon_text><img src="ALERT_CALL_MESSAGE">  Appels manqués</support_icon_text>
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  Email, Gmail, Inbox
         <br><img src="ALERT_CALENDAR">  Google Calendar
@@ -845,6 +847,7 @@
 
     <string name="theme_notification_title">Afficher l\'état dans la barre de notification</string>
     <string name="theme_notification_summary">Android coupe un service uniquement si la mémoire est faible. Si après un certain temps les notifications n\'apparaissent pas sur le band, vous pouvez empêcher cela.</string>
+    <string name="theme_notification_summary_foreground_serice">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the icon is hidden, turn it off here for optimal performance.</string>
     <string name="theme_notification_color_title">Couleur de l\'icône</string>
     <string name="theme_notification_text_color_title">Couleur du texte</string>
 
@@ -900,24 +903,24 @@
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Avantages du mode Premium</string>
     <string name="purchase_advantage"><![CDATA[
-        - pas de pubs
-        <br>- mode ne pas déranger
-        <br>- supervision illimitée des notifications
-        <br>- supervision illimitée du touché
-        <br>- prefix texte, pré icône and filtrage du texte peuvent être utilisé dans la supervision des notifications
-        <br>- l\'intervalle de répétition peut être défini librement dans la supervision des pas
-        <br>- l\'intervalle de répétition peut être défini librement et l\'affichage du rythme peut etre utilisé dans la supervision du rythme
-        <br>- l\'intervalle de répétition peut être défini librement et le mode ne pas déranger, DnD, peut etre utilisé dans la supervision de la connexion
-        <br>- l\'affichage de message et l\'activation du bluetooth peuvent être définis librement dans la supervision des horaires
-        <br>- …
+        <p>- pas de pubs</p>
+        <p>- mode ne pas déranger</p>
+        <p>- supervision illimitée des notifications</p>
+        <p>- supervision illimitée du touché</p>
+        <p>- prefix texte, pré icône and filtrage du texte peuvent être utilisé dans la supervision des notifications</p>
+        <p>- l\'intervalle de répétition peut être défini librement dans la supervision des pas</p>
+        <p>- l\'intervalle de répétition peut être défini librement et l\'affichage du rythme peut etre utilisé dans la supervision du rythme</p>
+        <p>- l\'intervalle de répétition peut être défini librement et le mode ne pas déranger, DnD, peut etre utilisé dans la supervision de la connexion</p>
+        <p>- l\'affichage de message et l\'activation du bluetooth peuvent être définis librement dans la supervision des horaires</p>
+        - …
     ]]></string>
     <string name="purchase_policy_title">Termes et conditions d\'utilisation</string>
     <string name="purchase_policy"><![CDATA[
-        <p>- J\'ai testé cette appli et elle fonctionne parfaitement.
-        <br>- J\'accepte et je suis d\'accord sur le fait de ne pas pouvoir demander de remboursement à cause de bugs, les erreurs de programme causées par des modifications du programme, de l\'environnement matériel ou par l\'utilisation d\'autres applications.
-        <br>- Toute vente est définitive et ne peut espérer un remboursement (sauf via la politique d\'indemnisation de Google).
-        <br>- Il n\'y a aucune garantie fournie.</p>
-        <p><i>Après l\'achat vous devez redémarrer l\'appli.</i></p>
+        <p>- J\'ai testé cette appli et elle fonctionne parfaitement.</p>
+        <p>- J\'accepte et je suis d\'accord sur le fait de ne pas pouvoir demander de remboursement à cause de bugs, les erreurs de programme causées par des modifications du programme, de l\'environnement matériel ou par l\'utilisation d\'autres applications.</p>
+        <p>- Toute vente est définitive et ne peut espérer un remboursement (sauf via la politique d\'indemnisation de Google).</p>
+        <p>- Il n\'y a aucune garantie fournie.</p>
+        <br><p><i>Après l\'achat vous devez redémarrer l\'appli.</i></p>
     ]]></string>
 
     <!--<string name="purchase_price">Prix:</string>-->
@@ -959,7 +962,7 @@
     <string name="privacy_policy_eu_consent_title">Status</string>
     <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
     <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
-    <string name="privacy_policy_eu_consent_title_unknown">Unknown</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Inconnu</string>
 
     <string name="privacy_policy_eu_consent_setting">Réglage</string>
 
@@ -987,6 +990,7 @@
     <string name="ringer_mode_dnd_priority_only">Ne pas déranger (priorité uniquement)</string>
     <string name="ringer_mode_dnd_alarms_only">Ne pas déranger (alarmes uniquement)</string>
     <string name="ringer_mode_dnd_total_silence">Ne pas déranger (aucune interruption)</string>
+    <string name="unknown">Inconnu</string>
 
     <string name="action_dismiss">Rejeter</string>
     <string name="action_setting">Réglage</string>
