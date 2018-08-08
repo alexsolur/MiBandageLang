@@ -273,6 +273,7 @@
     <string name="message_premium_mode_only">Questa funzione è disponibile solo in verione premium</string>
     <string name="message_general_error">Impostazione fallita (connessione persa), riprova</string>
     <string name="message_internet_error">Manca connessione internet</string>
+    <string name="message_gps_enable">Enable the GPS</string>
 
     <string name="message_in_progress">In corso…</string>
     <string name="message_no_data">Nessun dato disponibile</string>
@@ -386,8 +387,9 @@
    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icona: scegli questa icona per mostrare il titolo delle notifiche/contentuto.]]></string>
 
     <!-- Notification info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Icone predefinite in Band:
-        <br><img src="ALERT_MESSAGE_TEXT">  Messaggio di testo
+    <string name="info_dialog_notification"><![CDATA[Icone predefinite in Band:<br>
+        <not_support_icon_text><img src="ALERT_MESSAGE_TEXT">  Messaggio di testo</not_support_icon_text>
+        <support_icon_text><img src="ALERT_CALL_MESSAGE">  Messaggio di testo</support_icon_text>
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  Email, Gmail, Inbox
         <br><img src="ALERT_CALENDAR">  Calendario Google
@@ -846,6 +848,7 @@
 
     <string name="theme_notification_title">Mostra stato app come notifica persistente</string>
     <string name="theme_notification_summary">Android tende a chiudere i servizi aperti in secondo piano solo quando c\'è poca memoria. Se vedi che non ti arrivano più le notifiche attiva questa funzione per evitare che venga chiusa l\'app.</string>
+    <string name="theme_notification_summary_foreground_serice">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the icon is hidden, turn it off here for optimal performance.</string>
     <string name="theme_notification_color_title">Colore icona</string>
     <string name="theme_notification_text_color_title">Colore testo</string>
 
@@ -901,24 +904,24 @@
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Vantaggi modalità premium</string>
     <string name="purchase_advantage"><![CDATA[
-        - Senza pubblicità
-        <br>- Modalità non disturbare
-        <br>- Monitoraggio notifiche illimitato
-        <br>- Monitoraggio tocco illimitato
-        <br>- Il testo identificativo può essere usato nel monitoraggio notifiche
-        <br>- GLi intervalli di ripetizione possono essere impostati liberamente nella sezione di monitoraggio passi
-        <br>- Gli intervalli di ripetizione delle notifiche possono essere personalizzati e "mostra battiti" può essere usato nelle funzioni di monitoraggio battiti
-        <br>- Gli intervalli di ripetizione delle notifiche possono essere personalizzati e "non disturbare" può essere usato nelle funzioni di smarrimento
-        <br>- Gli intervalli di ripetizione possono essere personalizzati nelle funzioni di monitoraggio tempo
-        <br>- …
+        <p>- Senza pubblicità</p>
+        <p>- Modalità non disturbare</p>
+        <p>- Monitoraggio notifiche illimitato</p>
+        <p>- Monitoraggio tocco illimitato</p>
+        <p>- Il testo identificativo può essere usato nel monitoraggio notifiche</p>
+        <p>- GLi intervalli di ripetizione possono essere impostati liberamente nella sezione di monitoraggio passi</p>
+        <p>- Gli intervalli di ripetizione delle notifiche possono essere personalizzati e "mostra battiti" può essere usato nelle funzioni di monitoraggio battiti</p>
+        <p>- Gli intervalli di ripetizione delle notifiche possono essere personalizzati e "non disturbare" può essere usato nelle funzioni di smarrimento</p>
+        <p>- Gli intervalli di ripetizione possono essere personalizzati nelle funzioni di monitoraggio tempo</p>
+        - …
     ]]></string>
     <string name="purchase_policy_title">Termini e condizioni della modalità premium</string>
     <string name="purchase_policy"><![CDATA[
-        <p>- Io ho testato l\'app e funziona correttamente.
-        <br>- Sono consapevole che non posso richiedere un rimborso a causa di bug, errori software causati da modifiche al software, condizioni hardware o l\'uso di altra applicazioni.
-        <br>- Tutti i prezzi sono definitivi e non possono essere rimborsati (ad eccezzione delle politiche sul rimborso di Google).
-        <br>- Non c\'è nessuna garanzia inclusa.</p>
-        <p><i>Dopo l\'acquisto bisogna riavviare l\'app.</i></p>
+        <p>- Io ho testato l\'app e funziona correttamente.</p>
+        <p>- Sono consapevole che non posso richiedere un rimborso a causa di bug, errori software causati da modifiche al software, condizioni hardware o l\'uso di altra applicazioni.</p>
+        <p>- Tutti i prezzi sono definitivi e non possono essere rimborsati (ad eccezzione delle politiche sul rimborso di Google).</p>
+        <p>- Non c\'è nessuna garanzia inclusa.</p>
+        <br><p><i>Dopo l\'acquisto bisogna riavviare l\'app.</i></p>
     ]]></string>
 
     <!--<string name="purchase_price">Prezzo:</string>-->
@@ -988,6 +991,7 @@
     <string name="ringer_mode_dnd_priority_only">Non disturbare (solo con priorità)</string>
     <string name="ringer_mode_dnd_alarms_only">Non disturbare (solo sveglie)</string>
     <string name="ringer_mode_dnd_total_silence">Non disturbare (silenzio totale)</string>
+    <string name="unknown">Sconosciuto</string>
 
     <string name="action_dismiss">Dimentica</string>
     <string name="action_setting">Impostazioni</string>
