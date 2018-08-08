@@ -273,6 +273,7 @@
     <string name="message_premium_mode_only">This feature is only available in premium mode</string>
     <string name="message_general_error">Setting failed (connection lost), try again</string>
     <string name="message_internet_error">No have internet connection</string>
+    <string name="message_gps_enable">Enable the GPS</string>
 
     <string name="message_in_progress">In progress…</string>
     <string name="message_no_data">No data available</string>
@@ -386,8 +387,9 @@
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.]]></string>
 
     <!-- Notification info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Predefined app signals:
-        <br><img src="ALERT_MESSAGE_TEXT">  missed call
+    <string name="info_dialog_notification"><![CDATA[Predefined app signals:<br>
+        <not_support_icon_text><img src="ALERT_MESSAGE_TEXT">  missed call</not_support_icon_text>
+        <support_icon_text><img src="ALERT_CALL_MESSAGE">  missed call</support_icon_text>
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  Email, Gmail, Inbox
         <br><img src="ALERT_CALENDAR">  Google Calendar
@@ -847,6 +849,7 @@
 
     <string name="theme_notification_title">Show status in notification shade</string>
     <string name="theme_notification_summary">The Android system force-stops a service only when memory is low. If after a while does not appear the notifications on the Band 2, you can prevent this.</string>
+    <string name="theme_notification_summary_foreground_serice">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the icon is hidden, turn it off here for optimal performance.</string>
     <string name="theme_notification_color_title">Icon color</string>
     <string name="theme_notification_text_color_title">Text color</string>
 
@@ -902,24 +905,24 @@
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Premium mode advantages</string>
     <string name="purchase_advantage"><![CDATA[
-        - ad-free
-        <br>- do not disturb mode
-        <br>- unlimited notification monitoring
-        <br>- unlimited touch monitoring
-        <br>- text prefix, pre icon and filtering text can be used in notification monitoring
-        <br>- repeat interval can be set freely in step monitoring function
-        <br>- repeat interval can be set freely and show pulse can be used in pulse monitoring function
-        <br>- repeat interval can be set freely and DnD mode can be used in lost monitoring function
-        <br>- repeated reminders, show message and turn on bluetooth can be set freely in time monitoring
-        <br>- …
+        <p>- ad-free</p>
+        <p>- do not disturb mode</p>
+        <p>- unlimited notification monitoring</p>
+        <p>- unlimited touch monitoring</p>
+        <p>- text prefix, pre icon and filtering text can be used in notification monitoring</p>
+        <p>- repeat interval can be set freely in step monitoring function</p>
+        <p>- repeat interval can be set freely and show pulse can be used in pulse monitoring function</p>
+        <p>- repeat interval can be set freely and DnD mode can be used in lost monitoring function</p>
+        <p>- repeated reminders, show message and turn on bluetooth can be set freely in time monitoring</p>
+        - …
     ]]></string>
     <string name="purchase_policy_title">Terms and conditions of Premium mode</string>
     <string name="purchase_policy"><![CDATA[
-        <p>- I have tested the app and it is working properly.
-        <br>- I am aware of that I can not require compensation or refund due to bugs, software errors caused by changes in the software, hardware environment or using other applications.
-        <br>- All sales are final and can not be refund (except Google refund policy).
-        <br>- There is no warranty included.</p>
-        <p><i>After purchasing you need to restart the app.</i></p>
+        <p>- I have tested the app and it is working properly.</p>
+        <p>- I am aware of that I can not require compensation or refund due to bugs, software errors caused by changes in the software, hardware environment or using other applications.</p>
+        <p>- All sales are final and can not be refund (except Google refund policy).</p>
+        <p>- There is no warranty included.</p>
+        <br><p><i>After purchasing you need to restart the app.</i></p>
     ]]></string>
 
     <!--<string name="purchase_price">Price:</string>-->
@@ -989,6 +992,7 @@
     <string name="ringer_mode_dnd_priority_only">Do not disturb (priority only)</string>
     <string name="ringer_mode_dnd_alarms_only">Do not disturb (alarms only)</string>
     <string name="ringer_mode_dnd_total_silence">Do not disturb (total silence)</string>
+    <string name="unknown">Unknown</string>
 
     <string name="action_dismiss">Dismiss</string>
     <string name="action_setting">Setting</string>
