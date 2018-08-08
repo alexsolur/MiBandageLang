@@ -273,6 +273,7 @@
     <string name="message_premium_mode_only">此功能仅在高级模式</string>
     <string name="message_general_error">设置失败(连接丢失),请重试</string>
     <string name="message_internet_error">没有网络连接</string>
+    <string name="message_gps_enable">Enable the GPS</string>
 
     <string name="message_in_progress">进行中…</string>
     <string name="message_no_data">没有可用的数据</string>
@@ -385,8 +386,9 @@
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> 图标：选择此图标来显示通知标题/内容.]]></string>
 
     <!-- Notification info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Predefined app and Band icon signals:
-        <br><img src="ALERT_MESSAGE_TEXT">  missed call
+    <string name="info_dialog_notification"><![CDATA[Predefined app and Band icon signals:<br>
+        <not_support_icon_text><img src="ALERT_MESSAGE_TEXT">  missed call</not_support_icon_text>
+        <support_icon_text><img src="ALERT_CALL_MESSAGE">  missed call</support_icon_text>
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  Email, Gmail, Inbox
         <br><img src="ALERT_CALENDAR">  Google Calendar
@@ -757,7 +759,7 @@
     <string name="weather_title">天气预报</string>
     <string name="weather_location_title">位置</string>
     <string name="weather_city_title">市</string>
-    <string name="weather_search_title">搜索</string>
+    <string name="weather_unit_title">搜索</string>
 
     <string name="weather_current_title">Current weather</string>
     <string name="weather_current_temperature">Current temperature</string>
@@ -847,6 +849,7 @@
 
     <string name="theme_notification_title">再通知栏显示状态</string>
     <string name="theme_notification_summary">只有当内存不足时，Android系统才会停止服务。如果很长时间未在手环上收到通知则可以阻止系统此操作.</string>
+    <string name="theme_notification_summary_foreground_serice">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the icon is hidden, turn it off here for optimal performance.</string>
     <string name="theme_notification_color_title">图标颜色</string>
     <string name="theme_notification_text_color_title">文字颜色</string>
 
@@ -902,24 +905,24 @@
     <!-- Premium mode -->
     <string name="purchase_advantage_title">高级模式特权</string>
     <string name="purchase_advantage"><![CDATA[
-        - 无广告
-        <br>- 勿扰模式
-        <br>- 无限通知监控
-        <br>- 无限触摸监控
-        <br>- 文本前缀,图标和过滤文本可用于通知监控
-        <br>- 可在步数监控中自由设定重复间隔
-        <br>- 可在心率监测中自由设定重复间隔
-        <br>- 可自由设定重复间隔，DnD模式可用于丢失监测功能
-        <br>- 重复提醒,可在时间监测中自由设置显示信息和打开蓝牙
-        <br>- …译者表示看来好用的功能都要解锁，所以你还在犹豫什么，赶快拿起电话…
+        <p>- 无广告</p>
+        <p>- 勿扰模式</p>
+        <p>- 无限通知监控</p>
+        <p>- 无限触摸监控</p>
+        <p>- 文本前缀,图标和过滤文本可用于通知监控</p>
+        <p>- 可在步数监控中自由设定重复间隔</p>
+        <p>- 可在心率监测中自由设定重复间隔</p>
+        <p>- 可自由设定重复间隔，DnD模式可用于丢失监测功能</p>
+        <p>- 重复提醒,可在时间监测中自由设置显示信息和打开蓝牙</p>
+        - …译者表示看来好用的功能都要解锁，所以你还在犹豫什么，赶快拿起电话…
     ]]></string>
     <string name="purchase_policy_title">高级模式的条款和条件</string>
     <string name="purchase_policy"><![CDATA[
-        <p>- 我测试应用能正常工作.
-        <br>- 由于软件硬件或其他应用等使用环境引起的变化可能会导致的错误和问题，我不会要求退款或赔偿.
-        <br>- 购买后无法退款(google退款政策除外).
-        <br>- 不包括保修.</p>
-        <p><i>购买后你可能需要重启应用.</i></p>
+        <p>- 我测试应用能正常工作.</p>
+        <p>- 由于软件硬件或其他应用等使用环境引起的变化可能会导致的错误和问题，我不会要求退款或赔偿.</p>
+        <p>- 购买后无法退款(google退款政策除外).</p>
+        <p>- 不包括保修.</p>
+        <br><p><i>购买后你可能需要重启应用.</i></p>
     ]]></string>
 
     <!--<string name="purchase_price">价钱:</string>-->
@@ -961,7 +964,7 @@
     <string name="privacy_policy_eu_consent_title">Status</string>
     <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
     <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
-    <string name="privacy_policy_eu_consent_title_unknown">Unknown</string>
+    <string name="privacy_policy_eu_consent_title_unknown">未知</string>
 
     <string name="privacy_policy_eu_consent_setting">设置</string>
 
@@ -989,6 +992,7 @@
     <string name="ringer_mode_dnd_priority_only">Do not disturb (priority only)</string>
     <string name="ringer_mode_dnd_alarms_only">Do not disturb (alarms only)</string>
     <string name="ringer_mode_dnd_total_silence">Do not disturb (total silence)</string>
+    <string name="unknown">未知</string>
 
     <string name="action_dismiss">关闭</string>
     <string name="action_setting">设置</string>
