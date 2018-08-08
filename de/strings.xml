@@ -273,6 +273,7 @@
     <string name="message_premium_mode_only">Dieses Feature ist nur im Premium-Modus verfügbar.</string>
     <string name="message_general_error">Einstellen fehlgeschlagen (Verbindung unterbrochen), versuchen Sie es erneut.</string>
     <string name="message_internet_error">Sie haben keine Internetverbindung</string>
+    <string name="message_gps_enable">Enable the GPS</string>
 
     <string name="message_in_progress">In progress…</string>
     <string name="message_no_data">No data available</string>
@@ -387,8 +388,9 @@
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> Emblem: Wählen Sie dieses Emblem um den Inhalt/Titel der Benachrichtigung anzuzeigen.]]></string>
 
     <!-- Notification info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Signale der vordefinierten App und der Band-Embleme
-        <br><img src="ALERT_MESSAGE_TEXT">  Verpasster Anruf
+    <string name="info_dialog_notification"><![CDATA[Signale der vordefinierten App und der Band-Embleme<br>
+        <not_support_icon_text><img src="ALERT_MESSAGE_TEXT">  Verpasster Anruf</not_support_icon_text>
+        <support_icon_text><img src="ALERT_CALL_MESSAGE">  Verpasster Anruf</support_icon_text>
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  E-Mail, Gmail, Inbox
         <br><img src="ALERT_CALENDAR">  Google Kalender
@@ -848,6 +850,7 @@
 
     <string name="theme_notification_title">Zeige Status in Benachrichtigungsleiste an</string>
     <string name="theme_notification_summary">Android erzwingt eine Beendung eines Dienstes nur bei unzureichendem Arbeitsspeicher. Falls nach gewisser Zeit keine Benachrichtigungen auf dem Band erscheinen, kann man dies verhindern.</string>
+    <string name="theme_notification_summary_foreground_serice">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the icon is hidden, turn it off here for optimal performance.</string>
     <string name="theme_notification_color_title">Farbe des Emblems</string>
     <string name="theme_notification_text_color_title">Textfarbe</string>
 
@@ -903,24 +906,24 @@
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Vorteile des Premium-Modus</string>
     <string name="purchase_advantage"><![CDATA[
-        - keine Werbungen
-        <br>- Nicht Stören-Modus
-        <br>- unbegrenzte Benachrichtigungsanzeigen
-        <br>- unlimitierte Beobachtung des Berührungsssensors
-        <br>- Textpräfix, Prä-Emblem und der Textfilter können in den Einstellungen der Benachrichtigungsanzeigen verändert werden.
-        <br>- Wiederholungsintervall kann unlimitiert in den Einstellungen des Schrittzählers verändert werden.
-        <br>- Wiederholungsintervall kann unlimitiert eingestellt werden und die Anzeige der Herzfrequenz kann der \'Herzfrequenz\'-Funktion verwendet werden.
-        <br>- Wiederholungsintervall kann unlimitiert eingestellt werden und Nicht Stören-Modus kann in der \'Bei Verlust\'-Funktion verwendet werden.
-        <br>- wiederholte Erinnerungen, die Anzeige von Nachrichten und die Aktivierung von Bluetooth kann im Zeitmonitoring unlimitiert eingestellt werden.
-        <br>- …
+        <p>- keine Werbungen</p>
+        <p>- Nicht Stören-Modus</p>
+        <p>- unbegrenzte Benachrichtigungsanzeigen</p>
+        <p>- unlimitierte Beobachtung des Berührungsssensors</p>
+        <p>- Textpräfix, Prä-Emblem und der Textfilter können in den Einstellungen der Benachrichtigungsanzeigen verändert werden.</p>
+        <p>- Wiederholungsintervall kann unlimitiert in den Einstellungen des Schrittzählers verändert werden.</p>
+        <p>- Wiederholungsintervall kann unlimitiert eingestellt werden und die Anzeige der Herzfrequenz kann der \'Herzfrequenz\'-Funktion verwendet werden.</p>
+        <p>- Wiederholungsintervall kann unlimitiert eingestellt werden und Nicht Stören-Modus kann in der \'Bei Verlust\'-Funktion verwendet werden.</p>
+        <p>- wiederholte Erinnerungen, die Anzeige von Nachrichten und die Aktivierung von Bluetooth kann im Zeitmonitoring unlimitiert eingestellt werden.</p>
+        - …
     ]]></string>
     <string name="purchase_policy_title">Geschäftsbedingungen des Premiummodus</string>
     <string name="purchase_policy"><![CDATA[
-        <p>- Die App wurde ausführlich getestet und auf eine komplikationsfreie Funktionsweise geprüft.
-        <br>- Ich bin mir bewusst, dass ich im Falle von Bugs, Softwarefehlern, die wegen Veränderungen in der Software, der Hardware oder wegen anderen Apps entstehen keine Rückerstattung bieten kann.
-        <br>- Alle Verkäufe sind final und können nicht zurückgegeben werden (außer nach den Bedingungen des Rückgaberechts von Google).
-        <br>- Es gibt keine Garantie.</p>
-        <p><i>Bitte starten Sie die App nach dem Kauf neu.</i></p>
+        <p>- Die App wurde ausführlich getestet und auf eine komplikationsfreie Funktionsweise geprüft.</p>
+        <p>- Ich bin mir bewusst, dass ich im Falle von Bugs, Softwarefehlern, die wegen Veränderungen in der Software, der Hardware oder wegen anderen Apps entstehen keine Rückerstattung bieten kann.</p>
+        <p>- Alle Verkäufe sind final und können nicht zurückgegeben werden (außer nach den Bedingungen des Rückgaberechts von Google).</p>
+        <p>- Es gibt keine Garantie.</p>
+        <br><p><i>Bitte starten Sie die App nach dem Kauf neu.</i></p>
     ]]></string>
 
     <!--<string name="purchase_price">Preis:</string>-->
@@ -962,7 +965,7 @@
     <string name="privacy_policy_eu_consent_title">Status</string>
     <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
     <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
-    <string name="privacy_policy_eu_consent_title_unknown">Unknown</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Unbekannte</string>
 
     <string name="privacy_policy_eu_consent_setting">Einstellung</string>
 
@@ -990,6 +993,7 @@
     <string name="ringer_mode_dnd_priority_only">Nicht stören (nur wichtige)</string>
     <string name="ringer_mode_dnd_alarms_only">Nicht stören (nur Wecker)</string>
     <string name="ringer_mode_dnd_total_silence">Nicht stören (lautlos)</string>
+    <string name="unknown">Unbekannte</string>
 
     <string name="action_dismiss">Verwerfen</string>
     <string name="action_setting">Einstellung</string>
