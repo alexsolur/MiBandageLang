@@ -273,6 +273,7 @@
     <string name="message_premium_mode_only">Esta definição só está disponível no modo premium</string>
     <string name="message_general_error">A configuração falhou (conexão perdida), tente de novo</string>
     <string name="message_internet_error">Não tem ligação à internet</string>
+    <string name="message_gps_enable">Ligue o GPS</string>
 
     <string name="message_in_progress">A processar…</string>
     <string name="message_no_data">Não existe informação disponível</string>
@@ -292,7 +293,7 @@
     <p>Se você usa mais aplicações para controlar a Band, elas vão interferir umas com as outras por isso desative-as.</p>
     <p>Se a Band não for encontrada, você pode configurar o endereço MAC manualmente nos detalhes do menu (O endereço MAC encontra-se em: Mi Fit/Profil/Band).</p>
     <p><b>Se tiver um problema de conexão:</b>
-    <br>- Verifique se existe algum problema em <i>Definições\Diagnóstico</i>
+    <br>- Verifique se existe algum problema em <i>Definições/Diagnóstico</i>
     <br>- Ecrã de aplicações recentes: bloquear a Mi Bandage (Deslizar a aplicaçãao para baixo e clicar no aloquete).
     <br>- Dispositivo/Otimização de bateria: configurar a Mi Bandage para: \"não otimizar\".
     <br>- Dispositivo/Aplicações: Limpar dasdos de \"Bluetooth Share\" e de outras aplicações \'Bluetooth\'.
@@ -386,8 +387,9 @@
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> escolha este ícone para mostrar notificações com título/conteúdo]]></string>
 
     <!-- Notification info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Ícones da Band e aplicação correspondente:
-        <br><img src="ALERT_MESSAGE_TEXT">  Chamada perdida
+    <string name="info_dialog_notification"><![CDATA[Ícones da Band e aplicação correspondente:<br>
+        <not_support_icon_text><img src="ALERT_MESSAGE_TEXT">  Chamada perdida</not_support_icon_text>
+        <support_icon_text><img src="ALERT_CALL_MESSAGE">  Chamada perdida</support_icon_text>
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  Email, Gmail, Inbox
         <br><img src="ALERT_CALENDAR">  Google Calendar
@@ -421,7 +423,7 @@
         <p>O grupo de notificações criado por si tem prioridade superior às notificações pré-definidas.</p>
         <mi_band_2><p><img src="ALERT_MESSAGE_TEXT">  escolha este ícone para mostrar notificações com título/conteúdo</p></mi_band_2>
         <mi_band_hrx><p><img src="ALERT_MESSAGE_TEXT">  escolha este ícone para mostrar notificações com título/conteúdo</p></mi_band_hrx>
-        <p>Se você usa aplicações pré-definidas e quer excluir algumas aplicações,  crie um novo grupo de notificações, adicione as aplicações que não deseja e desative o grupo a seguir.</p>
+        <p>Se você usa aplicações pré-definidas e quer excluir algumas aplicações, crie um novo grupo de notificações, adicione as aplicações que não deseja e desative o grupo a seguir.</p>
         ]]>
     </string>
         <!--<p>Os sinais predefinidos podem ser desativados: <i>Monitorar notifições/Definições</i>.</p>-->
@@ -847,6 +849,7 @@
 
     <string name="theme_notification_title">Mostrar o status na barra de notificação</string>
     <string name="theme_notification_summary">O sistema android força a paragem do serviço quando a memória está baixa. Se depois de algum tempo a Band não mostrar as notificações, você pode prevenir isso.</string>
+    <string name="theme_notification_summary_foreground_serice">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the icon is hidden, turn it off here for optimal performance.</string>
     <string name="theme_notification_color_title">Cor dos ícones na barra de notificação</string>
     <string name="theme_notification_text_color_title">Cor do texto</string>
 
@@ -902,23 +905,23 @@
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Vantagens do Modo Premium</string>
     <string name="purchase_advantage"><![CDATA[
-        - Não tem anúncios
-        <br>- Modo DND desbloqueado
-        <br>- Notificações ilimitadas
-        <br>- Controlos touch ilimitados
-        <br>- O prefixo de texto, o pré-ícone e a filtragem de texto podem ser usados no menu Notificações
-        <br>- O tempo para repetir pode ser ajustado livremente
-        <br>- Mostrar pulsação pode ser usado no menu Pulsação
-        <br>- Lembretes repetidos, mostrar mensagem e ligar o Bluetooth podem ser definidos livremente no menu Tempo
-        <br>- …
+        <p>- Não tem anúncios</p>
+        <p>- Modo DND desbloqueado</p>
+        <p>- Notificações ilimitadas</p>
+        <p>- Controlos touch ilimitados</p>
+        <p>- O prefixo de texto, o pré-ícone e a filtragem de texto podem ser usados no menu Notificações</p>
+        <p>- O tempo para repetir pode ser ajustado livremente</p>
+        <p>- Mostrar pulsação pode ser usado no menu Pulsação</p>
+        <p>- Lembretes repetidos, mostrar mensagem e ligar o Bluetooth podem ser definidos livremente no menu Tempo</p>
+        - …
     ]]></string>
     <string name="purchase_policy_title">Termos e condições do Modo Premium</string>
     <string name="purchase_policy"><![CDATA[
-        <p>- Nós testá-mos a aplicação e ela está a funcionar corretamente.
-        <br>- Nós estamos cientes de que não podemos exigir compensação ou reembolso devido a bugs, erros de software causados ​​por alterações, ambiente do hardware ou outras aplicações usadas.
-        <br>- Todas as vendas são finais e não podem ser reembolsadas (exceto pela política de reembolso do Google).
-        <br>- Não há garantia incluída.</p>
-        <p><i>Depois da compra, você precisa de reiniciar a aplicação.</i></p>
+        <p>- Nós testá-mos a aplicação e ela está a funcionar corretamente.</p>
+        <p>- Nós estamos cientes de que não podemos exigir compensação ou reembolso devido a bugs, erros de software causados ​​por alterações, ambiente do hardware ou outras aplicações usadas.</p>
+        <p>- Todas as vendas são finais e não podem ser reembolsadas (exceto pela política de reembolso do Google).</p>
+        <p>- Não há garantia incluída.</p>
+        <br><p><i>Depois da compra, você precisa de reiniciar a aplicação.</i></p>
     ]]></string>
 
     <!--<string name="purchase_price">Preço:</string>-->
@@ -988,6 +991,7 @@
     <string name="ringer_mode_dnd_priority_only">Não perturbar (apenas prioridade)</string>
     <string name="ringer_mode_dnd_alarms_only">Não perturbar (apenas alarmes)</string>
     <string name="ringer_mode_dnd_total_silence">Não perturbar (silêncio total)</string>
+    <string name="unknown">Desconhecido</string>
 
     <string name="action_dismiss">Recusar</string>
     <string name="action_setting">Definições</string>
