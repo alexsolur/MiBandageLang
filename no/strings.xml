@@ -20,7 +20,7 @@
     <string name="drawer_nav_rewarded_mode">Belønnet modus</string>
     <string name="drawer_nav_premium_mode">Premium modus</string>
     <string name="drawer_nav_feedback">Tilbakemelding</string>
-    <string name="drawer_nav_privacy_policy">Personvernregler</string>
+    <string name="drawer_nav_privacy_policy">Personvern policy</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
     <string name="shortcut_touch">Trykke</string>
@@ -273,6 +273,7 @@
     <string name="message_premium_mode_only">Denne egenskapen er bare tilgjengelig i premium modusen</string>
     <string name="message_general_error">Itilkobling feilet (tilkobling mistet), prøv igjen</string>
     <string name="message_internet_error">IInternett feil</string>
+    <string name="message_gps_enable">Enable the GPS</string>
 
     <string name="message_in_progress">Under prosess…</string>
     <string name="message_no_data">Ingen data tilgjengelig</string>
@@ -374,7 +375,7 @@
     <string name="notification_group_correction_find">Finn</string>
     <string name="notification_group_correction_replace">Bytte med</string>
 
-    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it.</string>
+    <string name="notification_regex_hint">Ikke-alphanumretiske karakterer har en spesiell betydning, hvis du ikke vet Regexen, ikke marker det.</string>
 
     <string name="notification_confirm_close">Er du sikker på at du vil kaste bort endringene?</string>
 
@@ -386,8 +387,9 @@
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: velg dette ikonet for å vise notifikasjonene tittel/kontent.]]></string>
 
     <!-- Notifikasjon info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Forhåndsdefinete app og Band icon-signaler:
-        <br><img src="ALERT_MESSAGE_TEXT">  missed call
+    <string name="info_dialog_notification"><![CDATA[Forhåndsdefinete app og Band icon-signaler:<br>
+        <not_support_icon_text><img src="ALERT_MESSAGE_TEXT">  missed call</not_support_icon_text>
+        <support_icon_text><img src="ALERT_CALL_MESSAGE">  missed call/support_icon_text>
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  Email, Gmail, Inbox
         <br><img src="ALERT_CALENDAR">  Google Calendar
@@ -752,19 +754,19 @@
 
     <!-- Weather -->
     <string name="weather_tab_weather_forecast">Vær</string>
-    <string name="weather_tab_settings">Indtilling</string>
+    <string name="weather_tab_settings">Instillinger</string>
 
-    <string name="weather_title">Værmelding</string>
+    <string name="weather_title">Været fremover</string>
     <string name="weather_location_title">Plassering</string>
     <string name="weather_city_title">By</string>
     <string name="weather_unit_title">Enhet</string>
 
-    <string name="weather_current_title">Current weather</string>
-    <string name="weather_current_temperature">Current temperature</string>
+    <string name="weather_current_title">Nåværende vær</string>
+    <string name="weather_current_temperature">Nåværende temperatur</string>
 
-    <string name="weather_forecast_title">Weather forecast</string>
+    <string name="weather_forecast_title">Vær prognose</string>
 
-    <string name="weather_display">Display</string>
+    <string name="weather_display">Fremover</string>
 
     <!-- Watch face -->
     <string name="watch_face_default_title">Endre atch face</string>
@@ -847,6 +849,7 @@
 
     <string name="theme_notification_title">Vise status på notifikasjons-hylla</string>
     <string name="theme_notification_summary"> Android systemet tvangs-stopper en service bare når telefon minnet er lite. Hvis ikke notifikasjonen kommer opp på Mi Band 2 etter en liten stund, kan du forhindre dette.</string>
+    <string name="theme_notification_summary_foreground_serice">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the icon is hidden, turn it off here for optimal performance.</string>
     <string name="theme_notification_color_title">Ikon farge</string>
     <string name="theme_notification_text_color_title">Text farge</string>
 
@@ -902,24 +905,24 @@
     <!-- Premium modus -->
     <string name="purchase_advantage_title">Premium modus egenskaper</string>
     <string name="purchase_advantage"><![CDATA[
-        - reklame-fri
-        <br>- ikke forstyrr modus
-        <br>- ubegrenset notifikasjons monitorering
-        <br>- ubegrenset trykke monitorering
-        <br>- text prefix, pre ikon og å filtere text kan bli brukt i notifikasjons monitorering
-        <br>- gjentagelses interval kan bli satt fritt i skritt monitorerings funksjon
-        <br>- gjentakelses interval kan bli satt fritt og visning av puls kan bli brukt i puls monitorering funksjonen
-        <br>- gjentatte interval kan bli satt fritt og DnD modus kan bli brukt i tapte monitorerings funksjon
-        <br>- gjentagende påminnelser, vise beskjed om å skru på bluetooth kan bli satt fritt i tids monitorering
-        <br>- …
+        <p>- reklame-fri</p>
+        <p>- ikke forstyrr modus</p>
+        <p>- ubegrenset notifikasjons monitorering</p>
+        <p>- ubegrenset trykke monitorering</p>
+        <p>- text prefix, pre ikon og å filtere text kan bli brukt i notifikasjons monitorering</p>
+        <p>- gjentagelses interval kan bli satt fritt i skritt monitorerings funksjon</p>
+        <p>- gjentakelses interval kan bli satt fritt og visning av puls kan bli brukt i puls monitorering funksjonen</p>
+        <p>- gjentatte interval kan bli satt fritt og DnD modus kan bli brukt i tapte monitorerings funksjon</p>
+        <p>- gjentagende påminnelser, vise beskjed om å skru på bluetooth kan bli satt fritt i tids monitorering</p>
+        - …
     ]]></string>
     <string name="purchase_policy_title">vilkår og betingelser of Premium modus</string>
     <string name="purchase_policy"><![CDATA[
-        <p>- Jeg har testet appen og den virker skikkelig.
-        <br>- Jeg er oppmerksom på at Jeg ikke kan forvente kompensasjon eller tilbakebetaling grunnet bugs, software feil på grunn av endringer i softwaren, hardwaren området rundt eller å bruke andre applikasjoner.
-        <br>- Alle salg er endelige og kan ikke bli gitt tilbake penger for(untatt Google penger tilbake policy).
-        <br>- Det er ingen garanti inkludert.</p>
-        <p><i>Etter å ha kjøpt må du omstarte appen.</i></p>
+        <p>- Jeg har testet appen og den virker skikkelig.</p>
+        <p>- Jeg er oppmerksom på at Jeg ikke kan forvente kompensasjon eller tilbakebetaling grunnet bugs, software feil på grunn av endringer i softwaren, hardwaren området rundt eller å bruke andre applikasjoner.</p>
+        <p>- Alle salg er endelige og kan ikke bli gitt tilbake penger for(untatt Google penger tilbake policy).</p>
+        <p>- Det er ingen garanti inkludert.</p>
+        <br><p><i>Etter å ha kjøpt må du omstarte appen.</i></p>
     ]]></string>
 
     <!--<string name="kjøp_pris">Pris:</string>-->
@@ -940,30 +943,30 @@
     <string name="feedback_request_feature_summary">Automatisk e-mail prossesjon, du får kanskje ikke respons</string>
 
     <!-- Privacy policy -->
-    <string name="privacy_policy_tab_privacy_policy">Personvernregler</string>
-    <string name="privacy_policy_tab_eu_consent">EU user consent</string>
+    <string name="privacy_policy_tab_privacy_policy">Personvern policy</string>
+    <string name="privacy_policy_tab_eu_consent">EU bruker vilkår</string>
 
-    <string name="privacy_policy_collect_title">Information we collect</string>
+    <string name="privacy_policy_collect_title">Informasjon vi samler inn</string>
     <string name="privacy_policy_collect"><![CDATA[
-        <p>- We only collect anonymous information.</p>
-        <p>- We collect information at the application level about the services that you use and how you use them (Google Firebase Platform).</p>
-        <p>- We collect information at the application level like bugs, errors and crashes to provide improvements (Google Firebase Platform).</p>
-        <p>- Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.</p>
-        - We do not share any data with other companies and organizations.
+        <p>- Vi samler bare inn anonym informasjon.</p>
+        <p>- Vi samler informasjon på appens level om servicen som du bruker og hvordan du bruker dem (Google Firebase Platform).</p>
+        <p>- Vi samler informasjon i applikasjonens level som bugs, feil og krasj for å gjøre forbedrelser. (Google Firebase Platform).</p>
+        <p>- Google Firebase Platform samler informasjon anonymt. det rapporterer trender uten å identifisere individuelle brukere.</p>
+        - Vi deler ikke noe data med andre bedrifter eller organisasjoner.
     ]]></string>
 
-    <string name="privacy_policy_not_collect_title">Information we do not collect</string>
+    <string name="privacy_policy_not_collect_title">Informasjon vi ikke samler inn</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>- We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
-        - We do not collect personal health data, contacts and phone notification text.
+        <p>- Vi samler ikke inn personlig identifiserbar informasjon om deg. For å si det med andre ord, Vi samler ikke inn informasjon som foreksempel navnet ditt, addresse, telefon nummer, email addresse, IP addresse eller MAC addresse.</p>
+        - Vi samler ikke inn personlig helse data, kontakter eller telefon notifikasjons text.
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Status</string>
-    <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
-    <string name="privacy_policy_eu_consent_title_unknown">Unknown</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Personaliserte, relevante reklamer</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Ikke-personaliserte reklamer som er Mindre relevant</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Ukjent</string>
 
-    <string name="privacy_policy_eu_consent_setting">Indtilling</string>
+    <string name="privacy_policy_eu_consent_setting">Innstillinger</string>
 
     <!-- Vibration dialog -->
     <string name="vibration_title">Vibration setting</string>
@@ -989,6 +992,7 @@
     <string name="ringer_mode_dnd_priority_only">Ikke forstyrr (bare prioritet)</string>
     <string name="ringer_mode_dnd_alarms_only">Ikke forstyrr (bare alarmer)</string>
     <string name="ringer_mode_dnd_total_silence">Ikke forstyrr (total stillhet)</string>
+    <string name="unknown">Ukjent</string>
 
     <string name="action_dismiss">Avvis</string>
     <string name="action_setting">Indtilling</string>
