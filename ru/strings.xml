@@ -273,6 +273,7 @@
     <string name="message_premium_mode_only">Эта функция доступна только в премиуме</string>
     <string name="message_general_error">Ошибка (соединение потеряно), попробуйте снова</string>
     <string name="message_internet_error">Нет подключения к Интернету</string>
+    <string name="message_gps_enable">Enable the GPS</string>
 
     <string name="message_in_progress">В процессе…</string>
     <string name="message_no_data">Нет данных</string>
@@ -386,8 +387,9 @@
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT">: выберите эту иконку, для отображения заголовка/текста уведомлений.]]></string>
 
     <!-- Notification info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Предустановленные иконки уведомлений браслета и приложений:
-        <br><img src="ALERT_MESSAGE_TEXT">  пропущенный звонок
+    <string name="info_dialog_notification"><![CDATA[Предустановленные иконки уведомлений браслета и приложений:<br>
+        <not_support_icon_text><img src="ALERT_MESSAGE_TEXT"> пропущенный звонок</not_support_icon_text>
+        <support_icon_text><img src="ALERT_CALL_MESSAGE">  пропущенный звонок</support_icon_text>
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  Email, Gmail, Inbox
         <br><img src="ALERT_CALENDAR">  Google Calendar
@@ -846,6 +848,7 @@
 
     <string name="theme_notification_title">Отображение статуса подключения в уведомлении</string>
     <string name="theme_notification_summary">Система Android принудительно останавливает приложение только при недостатке памяти. Если через некоторое время перестают приходить уведомления на браслет, вы можете предотвратить это.</string>
+    <string name="theme_notification_summary_foreground_serice">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the icon is hidden, turn it off here for optimal performance.</string>
     <string name="theme_notification_color_title">Цвет иконки</string>
     <string name="theme_notification_text_color_title">Цвет текста</string>
 
@@ -901,24 +904,24 @@
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Преимущества премиума</string>
     <string name="purchase_advantage"><![CDATA[
-        - нет рекламы
-        <br>- Режим \"Не беспокоить\"
-        <br>- нет ограничения на количество групп уведомлений
-        <br>- нет ограничения на функции касаний
-        <br>- префикс текстовых уведомлений, пре-иконки, фильтры текста уведомлений
-        <br>- <i>Шагомер</i>: установка промежутка сбора данных по желанию
-        <br>- <i>Измерение пульса</i>: установка промежутка измерений по желанию, настройка отображения пульса
-        <br>- <i>Долго отсоединён</i>: установка промежутка уведомлений по желанию, активация режима \'Не беспокоить\'
-        <br>- <i>Время</i>: установка промежутка уведомлений по желанию, отображение текста и включение Bluetooth
-        <br>- …
+        <p>- нет рекламы</p>
+        <p>- Режим \"Не беспокоить\"</p>
+        <p>- нет ограничения на количество групп уведомлений</p>
+        <p>- нет ограничения на функции касаний</p>
+        <p>- префикс текстовых уведомлений, пре-иконки, фильтры текста уведомлений</p>
+        <p>- <i>Шагомер</i>: установка промежутка сбора данных по желанию</p>
+        <p>- <i>Измерение пульса</i>: установка промежутка измерений по желанию, настройка отображения пульса</p>
+        <p>- <i>Долго отсоединён</i>: установка промежутка уведомлений по желанию, активация режима \'Не беспокоить\'</p>
+        <p>- <i>Время</i>: установка промежутка уведомлений по желанию, отображение текста и включение Bluetooth</p>
+        - …
     ]]></string>
     <string name="purchase_policy_title">Правила и условия премиума</string>
     <string name="purchase_policy"><![CDATA[
-        <p>- Вы протестировали приложение, оно работает правильно.
-        <br>- Вы предупреждены, что не можете требовать возмещения средств из-за багов, ошибок приложения, вызванных изменениями в приложении, вашими устройствами или другими приложениями.
-        <br>- Все покупки окончательны и возврату не подлежат (кроме возврата от Google Play).
-        <br>- Гарантия не предоставляется.</p>
-        <p><i>После покупки перезагрузите приложение.</i></p>
+        <p>- Вы протестировали приложение, оно работает правильно.</p>
+        <p>- Вы предупреждены, что не можете требовать возмещения средств из-за багов, ошибок приложения, вызванных изменениями в приложении, вашими устройствами или другими приложениями.</p>
+        <p>- Все покупки окончательны и возврату не подлежат (кроме возврата от Google Play).</p>
+        <p>- Гарантия не предоставляется.</p>
+        <br><p><i>После покупки перезагрузите приложение.</i></p>
     ]]></string>
 
     <!--<string name="purchase_price">Цена:</string>-->
@@ -988,6 +991,7 @@
     <string name="ringer_mode_dnd_priority_only">Не беспокоить (только приоритет)</string>
     <string name="ringer_mode_dnd_alarms_only">Не беспокоить (только будильник)</string>
     <string name="ringer_mode_dnd_total_silence">Не беспокоить (полная тишина)</string>
+    <string name="unknown">Настройки</string>
 
     <string name="action_dismiss">Отклонить</string>
     <string name="action_setting">Настройки</string>
