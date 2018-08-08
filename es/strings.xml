@@ -273,6 +273,7 @@
     <string name="message_premium_mode_only">Esta función sólo está disponible en modo premium</string>
     <string name="message_general_error">Se ha producido un error en la configuración (perdida de conexion), reintente de nuevo</string>
     <string name="message_internet_error">No tiene conexión a internet</string>
+    <string name="message_gps_enable">Enable the GPS</string>
 
     <string name="message_in_progress">En progreso…</string>
     <string name="message_no_data">Información no disponible</string>
@@ -386,8 +387,9 @@
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icono: seleccione éste icono para mostrar el título/contenido de las notificaciones.]]></string>
 
     <!-- Notification info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Aplicación predefinida y señales de icono de Band:
-        <br><img src="ALERT_MESSAGE_TEXT">  llamada perdida
+    <string name="info_dialog_notification"><![CDATA[Aplicación predefinida y señales de icono de Band:<br>
+        <not_support_icon_text><img src="ALERT_MESSAGE_TEXT">  llamada perdida</not_support_icon_text>
+        <support_icon_text><img src="ALERT_CALL_MESSAGE">  llamada perdida</support_icon_text>
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  Email, Gmail, Inbox
         <br><img src="ALERT_CALENDAR">  Google Calendar
@@ -848,8 +850,9 @@
 
     <string name="theme_notification_title">Mostrar estado en la pantalla de notificación</string>
     <string name="theme_notification_summary">El sistema Android fuerza la detención de un servicio si la memoria es escasa. Si después de un tiempo no aparecen las notificaciones en la Band puede ser por este motivo.</string>
+    <string name="theme_notification_summary_foreground_serice">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the icon is hidden, turn it off here for optimal performance.</string>
     <string name="theme_notification_color_title">Color del icono</string>
-   <string name="theme_notification_text_color_title">Color del texto</string>
+    <string name="theme_notification_text_color_title">Color del texto</string>
 
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Copia</string>
@@ -903,24 +906,24 @@
     <!-- Premium mode -->
     <string name="purchase_advantage_title">Ventajas del modo premium</string>
     <string name="purchase_advantage"><![CDATA[
-        - libre de publicidad
-        <br>- modo no molestar
-        <br>- monitoreo ilimitado de notificaciones
-        <br>- monitoreo ilimitado táctil
-        <br>- prefijo de texto, el icono previo y el filtro de texto puede ser usado en el monitoreo de notificaciones
-        <br>- el intervalo de repetición se puede establecer libremente en la función de monitoreo de pasos
-        <br>- el intervalo de la repetición se puede fijar libremente y la opción mostrar el pulso se puede utilizar en la función de monitoreo del pulso
-        <br>- el intervalo de la repetición se puede fijar libremente y el modo no molestar se puede utilizar en la función de monitoreo de extravio
-        <br>- repetir recordatorios, mostrar mensaje y encender el Bluetooth, se puede establecer libremente en el monitoreo de tiempo
-        <br>- …
+        <p>- libre de publicidad</p>
+        <p>- modo no molestar</p>
+        <p>- monitoreo ilimitado de notificaciones</p>
+        <p>- monitoreo ilimitado táctil</p>
+        <p>- prefijo de texto, el icono previo y el filtro de texto puede ser usado en el monitoreo de notificaciones</p>
+        <p>- el intervalo de repetición se puede establecer libremente en la función de monitoreo de pasos</p>
+        <p>- el intervalo de la repetición se puede fijar libremente y la opción mostrar el pulso se puede utilizar en la función de monitoreo del pulso</p>
+        <p>- el intervalo de la repetición se puede fijar libremente y el modo no molestar se puede utilizar en la función de monitoreo de extravio</p>
+        <p>- repetir recordatorios, mostrar mensaje y encender el Bluetooth, se puede establecer libremente en el monitoreo de tiempo</p>
+        - …
     ]]></string>
     <string name="purchase_policy_title">Términos y condiciones del modo premium</string>
     <string name="purchase_policy"><![CDATA[
-        <p>- He probado la aplicacion y está funcionando correctamente.
-        <br>- Soy consciente de que no puedo exigir compensación o reembolso debido a errores, errores de software causados ​​por cambios en el software, el entorno de hardware o el uso de otras aplicaciones.
-        <br>- Todas las ventas son finales y no se pueden reembolsar (excepto la política de reembolso de Google).
-        <br>- No hay garantía incluida.</p>
-        <p><i>Después de comprar, necesitas reiniciar la aplicación.</i></p>
+        <p>- He probado la aplicacion y está funcionando correctamente.</p>
+        <p>- Soy consciente de que no puedo exigir compensación o reembolso debido a errores, errores de software causados ​​por cambios en el software, el entorno de hardware o el uso de otras aplicaciones.</p>
+        <p>- Todas las ventas son finales y no se pueden reembolsar (excepto la política de reembolso de Google).</p>
+        <p>- No hay garantía incluida.</p>
+        <br><p><i>Después de comprar, necesitas reiniciar la aplicación.</i></p>
     ]]></string>
 
     <!--<string name="purchase_price">Precio:</string>-->
@@ -962,7 +965,7 @@
     <string name="privacy_policy_eu_consent_title">Status</string>
     <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
     <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
-    <string name="privacy_policy_eu_consent_title_unknown">Unknown</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Desconocido</string>
 
     <string name="privacy_policy_eu_consent_setting">Configuraciones</string>
 
@@ -990,6 +993,7 @@
     <string name="ringer_mode_dnd_priority_only">No molestar (solo con prioridad)</string>
     <string name="ringer_mode_dnd_alarms_only">No molestar (solo alarmas)</string>
     <string name="ringer_mode_dnd_total_silence">No molestar (silencio total)</string>
+    <string name="unknown">Desconocido</string>
 
     <string name="action_dismiss">Descartar</string>
     <string name="action_setting">Configuraciones</string>
