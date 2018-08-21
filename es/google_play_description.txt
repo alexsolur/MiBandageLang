@@ -1,67 +1,74 @@
-﻿La aplicacion solo soporta la Xiaomi Mi Band 2.
+Dispositivos soportados:<b>
+- Xiaomi Mi Band 3
+- Xiaomi Mi Band 2
+- Xiaomi Mi Band HRX
+- Huami Amazfit Bip (Pace Lite Youth)
+- Huami Amazfit Cor (MiDong)
+- Huami Amazfit Arc (A1603)
 
-Mi Bandage requiere la instalacion de la aplicacion oficial Mi Fit en el mismo dispositivo. Primero se debe emparejar la Xiaomi Mi Band 2 en la aplicacion Mi Fit, entonces podra usar Mi Bandage.
+Mi Bandage requiere la instalación de la aplicación oficial Mi Fit en el mismo dispositivo. Primero se debe emparejar en la aplicación Mi Fit y después podrá usar Mi Bandage.
 
-<b>Usuarios de MIUI: Si no se encuentra la Mi Band 2 o si esta teniendo poblemas para sincronizar la aplicacion Mi Fit, entonces instale BToolkit, nRF Connect o alguna aplicacion de gestion de Bluetooth similar y elimine cualquier emparejamiento.</b>
+<b>Usuarios de MIUI: Si no se encuentra el dispositivo o está teniendo problemas para sincronizar con Mi Fit, instale BToolkit, nRF Connect o alguna aplicación de gestión de Bluetooth similar y elimine cualquier emparejamiento.</b>
 
 Funciones:
-- Emparejamiento con la Mi Band 2 (si tiene un problema con la funcion de desbloqueo de pantalla de Mi Fit)
-- muestra el estado de la bateria
-- muestra la hora de la ultima conexion
-- muestra la hora de la ultima de desconexion 
-- <b>notificacion de llamada entrante con nombre de la persona que llama y conversion automatica de caracteres en Mi Band 2</b>
-- <b>notificacion de llamada perdida con nombre de la persona que llamo en la Mi Band 2</b>
-- <b>muestra las notificaciones de texto de las aplicaciones en la Mi Band 2</b>
-- <b>Funciones de conexión de Mi Band 2:</b>
-&rarr; cuando no tiene notificaciones
- &#8226; vibraciones de la Mi Band 2
- &#8226; encendido de la pantalla del dispositivo
-&rarr; cuando tiene notificaciones
- &#8226; la Mi Band 2 vibra y muetra iconos hasta 1,2 o 3 veces, iconos basados en el numero de notificaciones, uno por cada icono de la Mi Band 2
- &#8226; notificacion inmediata cuando una notificacion es recibida
- &#8226; cuando se conecta al dispositivo
- &#8226; notificacion recordatoria e intervalos de repeticion
- &#8226; notificaciones solo cuando la pantalla esta apagada
- &#8226; notificaciones en curso estan activadas o desactivadas
- &#8226; encendido de la pantalla del dispositivo
-- <b>Funciones de desconexion de Mi Band 2:</b>
- &#8226; reproduciendo ringtone en el dispositivo, vibracion, encendido de la pantalla
- &#8226; agente de monitoreo del dispositivo: si alguien intenta usar el dispositivo cuando esta lejos, usted lo sabra (encendido de la pantalla, encendido, movimiento): notificaciones en el dispositivo e icono de un ojo en la Mi Band 2
-- <b>monitoreo de notificaciones:</b>
- &#8226; configuracion de señales unicas para notificaciones de aplicaciones
- &#8226; mostrar el texto de las notificaciones de las aplicaciones en la Mi Band 2
-- <b>monitoreo tactil (usa el boton tactil de la Mi Band 2):</b>
- &#8226; contestar llamadas, altavoz (cierre la aplicación de lanzamiento de música cuando el auricular este conectado, de otra forma la musica comienza) (no soporta todos los dispositivos)
- &#8226; rechazar llamadas, colgar (no soporta todos los dispositivos)
- &#8226; silenciar llamada
- &#8226; encontrar mi dispositivo
- &#8226; repetir notificaciones
- &#8226; controles de reproductor de música (reproducir, pausa, siguiente, subir/bajar volumen)
- &#8226; inicar temporizador/cronometro, mostrar tiempo restante/transcurrido
- &#8226; lanzador de aplicaciones
- &#8226; soporte para la aplicacion Tasker
-- <b>monitoreo de pasos:</b>
-  &#8226; grafico diario: muestra los valores medidos
-- <b>monitoreo de pulso:</b>
- &#8226; puede establecer: monitorear señal de comienzo, mostrar pulso, señal de pulso baja y alta, hora de inicio, hora de fin, repetir intervalo, menor valor valido, mayor valor valido
- &#8226; mostrar pulso actual
- &#8226; grafico diario: muestra los valores medidos
-- <b>monitoreo de tiempo:</b>
- &#8226; temporizador: tipo de alarma, recordatorio, mostrar tiempo restante en la Mi Band 2
- &#8226; cronómetro: tipo de alarma, recordatorio, tiempo transcurrido, grabar tiempo de vuelta, mostrar tiempo de vuelta en la Mi Band 2
-- <b>monitoreo de extravio:</b>
- &#8226; notificacion en la Mi Band 2: cuando un período especifico de tiempo expira la Mi Band 2 lo alertara
- &#8226; notificaciones del dispositivo: cuando un período específico de tiempo expira, el dispositivo envia notificaciones repetidamente si no está conectados a la pulsera. Esto hace más fácil encontrar el dispositivo. Si alguien más encuntra el dispositivo y está bloqueado él no sabra a quien notificarle, entonces usted podrá mostrar un mensaje.
-- <b>registro espia:</b> 
- &#8226; vea eventos detectados por el espia de monitoreo del dispositivo
+- Emparejamiento con los dispositivos soportados (Si tiene problemas con la función de desbloqueo de pantalla de Mi Fit)
+- Muestra el estado de la batería
+- Muestra la hora de la última conexión
+- Muestra la hora de la última de desconexión 
+- <b>Notificación de llamada entrante con nombre de la persona que llama y conversión automática de caracteres</b>
+- <b>Notificación de llamada perdida con nombre de la persona que llamó</b>
+- <b>Muestra las notificaciones de texto de las aplicaciones configuradas</b>
+- <b>Funciones de conexión:</b>
+&rarr; Cuando no tiene notificaciones:
+ &#8226; Vibraciones
+ &#8226; Encendido de la pantalla del dispositivo
+&rarr; Cuando tiene notificaciones:
+ &#8226; El dispositivo vibra y muestra iconos de notificación hasta 3 veces
+ &#8226; Notificación inmediata cuando una notificación es recibida
+&rarr; Cuando se conecta al dispositivo:
+ &#8226; Notificación recordatoria e intervalos de repetición
+ &#8226; Notificaciones sólo cuando la pantalla está apagada
+ &#8226; Notificaciones en curso están activadas o desactivadas
+ &#8226; Encendido de la pantalla del dispositivo
+- <b>Funciones de desconexión:</b>
+ &#8226; Reproducir sonido en el dispositivo, vibración y/o encendido de la pantalla
+ &#8226; Agente de monitoreo del dispositivo: Si alguien intenta usar el dispositivo cuando está lejos, usted lo sabrá (Encendido de la pantalla, encendido, movimiento): notificaciones en el dispositivo e icono de un ojo.
+- <b>Monitoreo de notificaciones:</b>
+ &#8226; Configuración de señales únicas para notificaciones de aplicaciones
+ &#8226; Mostrar el texto de las notificaciones de las aplicaciones
+- <b>Monitoreo táctil:</b>
+ &#8226; Contestar llamadas, altavoz (Cierre la aplicación de lanzamiento de música cuando el auricular esté conectado, de otra forma la música comienza - No soportada por todos los dispositivos)
+ &#8226; Rechazar llamadas, colgar (No soportada por todos los dispositivos)
+ &#8226; Silenciar llamada
+ &#8226; Encontrar mi dispositivo
+ &#8226; Repetir notificaciones
+ &#8226; Controles de reproductor de música (reproducir, pausa, siguiente, subir/bajar volumen)
+ &#8226; Iniciar temporizador/cronómetro, mostrar tiempo restante/transcurrido
+ &#8226; Lanzador de aplicaciones
+ &#8226; Soporte para la aplicación Tasker
+- <b>Monitoreo de pasos:</b>
+  &#8226; Gráfico diario: Muestra los valores medidos
+- <b>Monitoreo de pulso:</b>
+ &#8226; Puede establecer: Monitorizar señal de comienzo, mostrar pulso, señal de pulso baja y/o alta, hora de inicio, hora de fin, repetir intervalo, menor valor válido, mayor valor válido
+ &#8226; Mostrar pulso actual
+ &#8226; Gráfico diario: Muestra los valores medidos
+- <b>Monitoreo de tiempo:</b>
+ &#8226; Temporizador: tipo de alarma, recordatorio, mostrar tiempo restante del dispositivo
+ &#8226; Cronómetro: tipo de alarma, recordatorio, tiempo transcurrido, grabar tiempo de vuelta, mostrar tiempo de vuelta en el dispositivo 
+- <b>Monitorizar extravío:</b>
+ &#8226; Notificaciones del dispositivo: Cuando expira un período específico de tiempo, el dispositivo envía notificaciones repetidamente si no está conectado al dispositivo. Esto hace más fácil encontrar el dispositivo. Si alguien más encuentra el dispositivo y está bloqueado él no sabrá a quien notificarle, entonces usted podrá mostrar un mensaje.
+- <b>Registro espía:</b> 
+ &#8226; Vea eventos detectados por el espía de monitoreo del dispositivo
 
 
-Lenguajes (si quieres ayudar a traducir a otro lenguaje, por favor enviame un email):
-Hungaro
+Lenguajes (Si quiere contribuir a traducir a otro idioma, por favor envíe un email): tibor.borsos.developments@gmail.com
+
+Español (Traducido por Nezu R - Cristian Muñoz)
+Griego (Traducido por Alexandros Apostolidis)
+Húngaro
 Inglés
-Ruso (traducido por Александр Солоцкий - http://4pda.ru/forum/index.php?showtopic=783175)
-Portugués (traducido por Bruno Lopes)
-Turko (traducido por Fatih GÜL)
-Griego (traducido por Alexandros Apostolidis)
-Vietnamita (traducido por Anh Việt -  https://fb.com/groups/miband2vn )
-Italiano (traducido por Francesco Caronte)
+Italiano (Traducido por Francesco Caronte)
+Portugués (Traducido por Bruno Lopes)
+Ruso (Traducido por Александр Солоцкий - http://4pda.ru/forum/index.php?showtopic=783175)
+Turco (Traducido por Fatih GÜL)
+Vietnamita (Traducido por Anh Việt -  https://fb.com/groups/miband2vn)
