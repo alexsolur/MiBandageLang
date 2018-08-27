@@ -848,7 +848,7 @@
 
     <string name="theme_notification_title">Tampilkan status dipanel pemberitahuan</string>
     <string name="theme_notification_summary">Sistem Android menghentikan paksa layanan ketika memori rendah saja. Jika setelah beberapa saat tidak muncul notifikasi pada Band, Anda bisa mencegahnya.</string>
-    <string name="theme_notification_summary_foreground_serice">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the icon is hidden, turn it off here for optimal performance.</string>
+    <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon. If the notification is hidden, switch off this setting for optimal performance.</string>
     <string name="theme_notification_color_title">Warna ikon</string>
     <string name="theme_notification_text_color_title">Warna Teks</string>
 
@@ -907,7 +907,8 @@
         <p>- tanpa iklan</p>
         <p>- mode jangan ganggu</p>
         <p>- pemantauan pemberitahuan tak terbatas</p>
-        <p>- pemantauan sentuhan tak terbatas</p>
+        <mi_band_2><p>- pemantauan sentuhan tak terbatas</p></mi_band_2>
+        <amazfit_bip_watch><p>- pemantauan sentuhan tak terbatas</p></amazfit_bip_watch>
         <p>- awalan teks, ikon pembuka dan teks penyaringan dapat digunakan dalam pemantau pemberitahuan</p>
         <p>- interval berulang dapat diatur secara bebas dalam fungsi pemantau langkah</p>
         <p>- interval berulang dapat diatur secara bebas dan menampilkan detak yang bisa digunakan dalam fungsi pemantau detak jantung</p>
