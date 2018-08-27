@@ -849,7 +849,7 @@
 
     <string name="theme_notification_title">Zobrazit stav v notifikační liště</string>
     <string name="theme_notification_summary">Systém android zastavuje službu pouze v případě nízké paměti. Pokud se po uplynutí určité doby nezobrazí oznámení na náramku, můžete tomu předejít.</string>
-    <string name="theme_notification_summary_foreground_serice">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the icon is hidden, turn it off here for optimal performance.</string>
+    <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the notification is hidden, switch off this setting for optimal performance.</string>
     <string name="theme_notification_color_title">Barva ikony</string>
     <string name="theme_notification_text_color_title">Barva textu</string>
 
@@ -908,7 +908,8 @@
         <p>- bez reklam</p>
         <p>- režim nerušit</p>
         <p>- neomezené monitorování oznámení</p>
-        <p>- neomezené monitorování doteků</p>
+        <mi_band_2><p>- neomezené monitorování doteků</p></mi_band_2>
+        <amazfit_bip_watch><p>- neomezené monitorování doteků</amazfit_bip_watch>
         <p>- předpona textu, ikony a filtrování textu může být použito v zobrazení notifikací</p>
         <p>- interval opakování může být volně nastaven ve funkci monitorování kroku</p>
         <p>- interval opakování může být volně nastaven ve funkci monitorování tepu</p>
