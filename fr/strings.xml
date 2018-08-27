@@ -847,7 +847,7 @@
 
     <string name="theme_notification_title">Afficher l\'état dans la barre de notification</string>
     <string name="theme_notification_summary">Android coupe un service uniquement si la mémoire est faible. Si après un certain temps les notifications n\'apparaissent pas sur le band, vous pouvez empêcher cela.</string>
-    <string name="theme_notification_summary_foreground_serice">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the icon is hidden, turn it off here for optimal performance.</string>
+    <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon. If the notification is hidden, switch off this setting for optimal performance.</string>
     <string name="theme_notification_color_title">Couleur de l\'icône</string>
     <string name="theme_notification_text_color_title">Couleur du texte</string>
 
@@ -906,7 +906,8 @@
         <p>- pas de pubs</p>
         <p>- mode ne pas déranger</p>
         <p>- supervision illimitée des notifications</p>
-        <p>- supervision illimitée du touché</p>
+        <mi_band_2><p>- supervision illimitée du touché</p></mi_band_2>
+        <amazfit_bip_watch><p>- supervision illimitée du touché</p></amazfit_bip_watch>
         <p>- prefix texte, pré icône and filtrage du texte peuvent être utilisé dans la supervision des notifications</p>
         <p>- l\'intervalle de répétition peut être défini librement dans la supervision des pas</p>
         <p>- l\'intervalle de répétition peut être défini librement et l\'affichage du rythme peut etre utilisé dans la supervision du rythme</p>
