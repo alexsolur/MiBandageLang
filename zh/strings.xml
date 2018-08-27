@@ -849,7 +849,7 @@
 
     <string name="theme_notification_title">再通知栏显示状态</string>
     <string name="theme_notification_summary">只有当内存不足时，Android系统才会停止服务。如果很长时间未在手环上收到通知则可以阻止系统此操作.</string>
-    <string name="theme_notification_summary_foreground_serice">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the icon is hidden, turn it off here for optimal performance.</string>
+    <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon. If the notification is hidden, switch off this setting for optimal performance.</string>
     <string name="theme_notification_color_title">图标颜色</string>
     <string name="theme_notification_text_color_title">文字颜色</string>
 
@@ -908,7 +908,8 @@
         <p>- 无广告</p>
         <p>- 勿扰模式</p>
         <p>- 无限通知监控</p>
-        <p>- 无限触摸监控</p>
+        <mi_band_2><p>- 无限触摸监控</p></mi_band_2>
+        <amazfit_bip_watch><p>- 无限触摸监控</p></amazfit_bip_watch>
         <p>- 文本前缀,图标和过滤文本可用于通知监控</p>
         <p>- 可在步数监控中自由设定重复间隔</p>
         <p>- 可在心率监测中自由设定重复间隔</p>
