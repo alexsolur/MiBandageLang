@@ -850,7 +850,7 @@
 
     <string name="theme_notification_title">Mostrar estado en la pantalla de notificación</string>
     <string name="theme_notification_summary">El sistema Android fuerza la detención de un servicio si la memoria es escasa. Si después de un tiempo no aparecen las notificaciones en la Band puede ser por este motivo.</string>
-    <string name="theme_notification_summary_foreground_serice">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the icon is hidden, turn it off here for optimal performance.</string>
+    <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon. If the icon is hidden, turn it off here for optimal performance.</string>
     <string name="theme_notification_color_title">Color del icono</string>
     <string name="theme_notification_text_color_title">Color del texto</string>
 
@@ -909,7 +909,8 @@
         <p>- Libre de publicidad</p>
         <p>- Modo no molestar</p>
         <p>- Monitoreo ilimitado de notificaciones</p>
-        <p>- Monitoreo ilimitado táctil</p>
+        <mi_band_2><p>- Monitoreo ilimitado táctil</p></mi_band_2>
+        <amazfit_bip_watch><p>- Monitoreo ilimitado táctil</p></amazfit_bip_watch>
         <p>- Prefijo de texto, icono previo y filtro de texto pueden ser usados en el monitoreo de notificaciones</p>
         <p>- El intervalo de repetición se puede establecer libremente en la función de monitoreo de pasos</p>
         <p>- El intervalo de la repetición se puede fijar libremente y la opción mostrar el pulso se puede utilizar en la función de monitoreo del pulso</p>
@@ -950,15 +951,15 @@
     <string name="privacy_policy_collect_title">Información que recopilamos</string>
     <string name="privacy_policy_collect"><![CDATA[
         <p>- Solo recopilamos información anónima. </ P>
-         <p>- Recopilamos información a nivel de aplicación sobre los servicios que usa y cómo los usa (Plataforma de Google Firebase). </ p>
-         <p>- Recopilamos información en el nivel de la aplicación, como bugs, errores y bloqueos para proporcionar mejoras (Plataforma de Google Firebase). </ p>
-         <p>- La plataforma de Google Firebase recopila información de forma anónima. Informa tendencias sin identificar usuarios individuales. </ P>
+         <p>- Recopilamos información a nivel de aplicación sobre los servicios que usa y cómo los usa (Plataforma de Google Firebase).</p>
+         <p>- Recopilamos información en el nivel de la aplicación, como bugs, errores y bloqueos para proporcionar mejoras (Plataforma de Google Firebase).</p>
+         <p>- La plataforma de Google Firebase recopila información de forma anónima. Informa tendencias sin identificar usuarios individuales.</p>
          - No compartimos ninguna información con otras compañías y organizaciones.
     ]]></string>
 
     <string name="privacy_policy_not_collect_title">Información que no recopilamos</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>- No recopilamos información de identificación personal sobre usted. En otras palabras, no recopilamos información como su nombre, dirección, número de teléfono, dirección de correo electrónico, dirección IP o dirección MAC. </ P>
+        <p>- No recopilamos información de identificación personal sobre usted. En otras palabras, no recopilamos información como su nombre, dirección, número de teléfono, dirección de correo electrónico, dirección IP o dirección MAC.</p>
          - No recopilamos datos sobre su salud, contactos y/o mensajes de texto de las notificaciones.
     ]]></string>
 
