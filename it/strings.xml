@@ -848,7 +848,7 @@
 
     <string name="theme_notification_title">Mostra stato app come notifica persistente</string>
     <string name="theme_notification_summary">Android tende a chiudere i servizi aperti in secondo piano solo quando c\'è poca memoria. Se vedi che non ti arrivano più le notifiche attiva questa funzione per evitare che venga chiusa l\'app.</string>
-    <string name="theme_notification_summary_foreground_serice">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the icon is hidden, turn it off here for optimal performance.</string>
+    <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon. If the notification is hidden, switch off this setting for optimal performance.</string>
     <string name="theme_notification_color_title">Colore icona</string>
     <string name="theme_notification_text_color_title">Colore testo</string>
 
@@ -907,7 +907,8 @@
         <p>- Senza pubblicità</p>
         <p>- Modalità non disturbare</p>
         <p>- Monitoraggio notifiche illimitato</p>
-        <p>- Monitoraggio tocco illimitato</p>
+        <mi_band_2><p>- Monitoraggio tocco illimitato</p></mi_band_2>
+        <amazfit_bip_watch><p>- Monitoraggio tocco illimitato</p></amazfit_bip_watch>
         <p>- Il testo identificativo può essere usato nel monitoraggio notifiche</p>
         <p>- GLi intervalli di ripetizione possono essere impostati liberamente nella sezione di monitoraggio passi</p>
         <p>- Gli intervalli di ripetizione delle notifiche possono essere personalizzati e "mostra battiti" può essere usato nelle funzioni di monitoraggio battiti</p>
