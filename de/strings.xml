@@ -273,10 +273,10 @@
     <string name="message_premium_mode_only">Dieses Feature ist nur im Premium-Modus verfügbar.</string>
     <string name="message_general_error">Einstellen fehlgeschlagen (Verbindung unterbrochen), versuchen Sie es erneut.</string>
     <string name="message_internet_error">Sie haben keine Internetverbindung</string>
-    <string name="message_gps_enable">Enable the GPS</string>
+    <string name="message_gps_enable">Aktiviere das GPS</string>
 
     <string name="message_in_progress">In progress…</string>
-    <string name="message_no_data">No data available</string>
+    <string name="message_no_data">Keine Daten verfügbar</string>
 
     <string name="message_new_message">A new message is received, view it on the phone.</string>
 
@@ -454,7 +454,7 @@
     <string name="touch_call_mute_only_call_state_ringing_title">Only if you have an incoming call</string>
     <string name="touch_call_mute_recognition_title">On incoming call</string>
 
-    <string name="touch_call_out_title">Call out</string>
+    <string name="touch_call_out_title">Anruf</string>
     <string name="touch_call_out_no_contact">Select an contact</string>
     <string name="touch_call_out_summary">Double press to answer the call</string>
     <string name="touch_call_out_summary_support_call_display_button">Press the button to answer the call</string>
@@ -466,7 +466,7 @@
     <string name="touch_repeat_notif_title">Wiederhole Benachrichtigungen</string>
     <string name="touch_repeat_notif_clear_all">Clear all notifications after repetition</string>
 
-    <string name="touch_clear_notif_title">Clear notifications</string>
+    <string name="touch_clear_notif_title">Benachrichtigungen löschen</string>
 
     <string name="touch_music_play_pause_title">Start, Wiedergabe und Pausieren der Musik</string>
     <string name="touch_music_skip_previous_title">Start der Musik oder vorheriger Song</string>
@@ -484,7 +484,7 @@
     <string name="touch_time_launch_restart">Restart if it is in progress</string>
     <string name="touch_time_reminder_title">Zeige verbleibende/wiedergegebene Zeit an</string>
 
-    <string name="touch_camera_title">Take a photo</string>
+    <string name="touch_camera_title">Mach ein Foto</string>
     <string name="touch_camera_front_title">Front</string>
     <string name="touch_camera_rear_title">Rear</string>
     <string name="touch_camera_install_title">Install</string>
@@ -533,7 +533,7 @@
     <string name="action_tracker_step">Schritte</string>
     <string name="action_tracker_distance">Distanz</string>
     <string name="action_tracker_calorie">Kalorien</string>
-    <string name="action_chart_filter_activity_no">No filter</string>
+    <string name="action_chart_filter_activity_no">Kein Filter</string>
     <string name="action_chart_filter_activity_active">Movement filter</string>
 
     <string name="step_tab_day">Tägliche Statistiken</string>
@@ -601,11 +601,11 @@
     <string name="pulse_tab_month">Monatliche Statistiken</string>
     <string name="pulse_tab_settings_online">Online-Einstellung</string>
     <string name="pulse_tab_settings_offline">Offline-Einstellung</string>
-    <string name="pulse_tab_settings_continuous">Continuous setting</string>
+    <string name="pulse_tab_settings_continuous">Kontinuierliche-Einstellung</string>
 
     <string name="pulse_online_title">Online-Herzfrequenzmessung</string>
     <string name="pulse_offline_title">Offline-Herzfrequenzmessung</string>
-    <string name="pulse_continuous_title">Continuous pulse measurement</string>
+    <string name="pulse_continuous_title">Kontinuierliche-Herzfrequenzmessung</string>
 
     <string name="action_chart_pulse_type_pulse">Puls</string>
     <string name="action_chart_pulse_type_pulse_and_step">Puls und Aktivität</string>
@@ -762,12 +762,12 @@
     <string name="weather_city_title">Stadt</string>
     <string name="weather_unit_title">Einheit</string>
 
-    <string name="weather_current_title">Current weather</string>
-    <string name="weather_current_temperature">Current temperature</string>
+    <string name="weather_current_title">Aktuelle Wetterlage</string>
+    <string name="weather_current_temperature">Aktuelle Temperatur</string>
 
-    <string name="weather_forecast_title">Weather forecast</string>
+    <string name="weather_forecast_title">Wettervorhersage</string>
 
-    <string name="weather_display">Display</string>
+    <string name="weather_display">Anzeige</string>
 
     <!-- Watch face -->
     <string name="watch_face_default_title">Watch face change</string>
@@ -850,7 +850,7 @@
 
     <string name="theme_notification_title">Zeige Status in Benachrichtigungsleiste an</string>
     <string name="theme_notification_summary">Android erzwingt eine Beendung eines Dienstes nur bei unzureichendem Arbeitsspeicher. Falls nach gewisser Zeit keine Benachrichtigungen auf dem Band erscheinen, kann man dies verhindern.</string>
-    <string name="theme_notification_summary_foreground_serice">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the icon is hidden, turn it off here for optimal performance.</string>
+    <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon. If the notification is hidden, switch off this setting for optimal performance.</string>
     <string name="theme_notification_color_title">Farbe des Emblems</string>
     <string name="theme_notification_text_color_title">Textfarbe</string>
 
@@ -863,7 +863,7 @@
     <string name="backup_auto">Automatische Sicherung</string>
     <string name="backup_auto_time">Zeit</string>
 
-    <string name="backup_process">Preparation…</string>
+    <string name="backup_process">Vorbereitung…</string>
     <string name="backup_process_activity">Aktivität und Schlaf %1$,d%%</string>
     <string name="backup_process_pulse">Puls %1$,d%%</string>
     <string name="backup_process_notification">Benachrichtigungsanzeige %1$,d%%</string>
@@ -909,7 +909,8 @@
         <p>- keine Werbungen</p>
         <p>- Nicht Stören-Modus</p>
         <p>- unbegrenzte Benachrichtigungsanzeigen</p>
-        <p>- unlimitierte Beobachtung des Berührungsssensors</p>
+        <mi_band_2><p>- unlimitierte Beobachtung des Berührungsssensors</p></mi_band_2>
+        <amazfit_bip_watch><p>- unlimitierte Beobachtung des Berührungsssensors</p></amazfit_bip_watch>
         <p>- Textpräfix, Prä-Emblem und der Textfilter können in den Einstellungen der Benachrichtigungsanzeigen verändert werden.</p>
         <p>- Wiederholungsintervall kann unlimitiert in den Einstellungen des Schrittzählers verändert werden.</p>
         <p>- Wiederholungsintervall kann unlimitiert eingestellt werden und die Anzeige der Herzfrequenz kann der \'Herzfrequenz\'-Funktion verwendet werden.</p>
@@ -999,7 +1000,7 @@
     <string name="action_setting">Einstellung</string>
     <string name="action_delete">Löschen</string>
     <string name="action_export">Exportieren</string>
-    <string name="action_filter_no">No filter</string>
+    <string name="action_filter_no">Kein Filter</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
     <string name="action_save">Sparen</string>
