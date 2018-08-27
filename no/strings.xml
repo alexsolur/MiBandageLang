@@ -849,7 +849,7 @@
 
     <string name="theme_notification_title">Vise status på notifikasjons-hylla</string>
     <string name="theme_notification_summary"> Android systemet tvangs-stopper en service bare når telefon minnet er lite. Hvis ikke notifikasjonen kommer opp på Mi Band 2 etter en liten stund, kan du forhindre dette.</string>
-    <string name="theme_notification_summary_foreground_serice">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the icon is hidden, turn it off here for optimal performance.</string>
+    <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon. If the notification is hidden, switch off this setting for optimal performance.</string>
     <string name="theme_notification_color_title">Ikon farge</string>
     <string name="theme_notification_text_color_title">Text farge</string>
 
@@ -908,7 +908,8 @@
         <p>- reklame-fri</p>
         <p>- ikke forstyrr modus</p>
         <p>- ubegrenset notifikasjons monitorering</p>
-        <p>- ubegrenset trykke monitorering</p>
+        <mi_band_2><p>- ubegrenset trykke monitorering</p></mi_band_2>
+        <amazfit_bip_watch><p>- ubegrenset trykke monitorering</p></amazfit_bip_watch>
         <p>- text prefix, pre ikon og å filtere text kan bli brukt i notifikasjons monitorering</p>
         <p>- gjentagelses interval kan bli satt fritt i skritt monitorerings funksjon</p>
         <p>- gjentakelses interval kan bli satt fritt og visning av puls kan bli brukt i puls monitorering funksjonen</p>
