@@ -849,7 +849,7 @@
 
     <string name="theme_notification_title">Mostrar o status na barra de notificação</string>
     <string name="theme_notification_summary">O sistema android força a paragem do serviço quando a memória está baixa. Se depois de algum tempo a Band não mostrar as notificações, você pode prevenir isso.</string>
-    <string name="theme_notification_summary_foreground_serice">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the icon is hidden, turn it off here for optimal performance.</string>
+    <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon. If the notification is hidden, switch off this setting for optimal performance.</string>
     <string name="theme_notification_color_title">Cor dos ícones na barra de notificação</string>
     <string name="theme_notification_text_color_title">Cor do texto</string>
 
@@ -908,7 +908,8 @@
         <p>- Não tem anúncios</p>
         <p>- Modo DND desbloqueado</p>
         <p>- Notificações ilimitadas</p>
-        <p>- Controlos touch ilimitados</p>
+        <mi_band_2><p>- Controlos touch ilimitados</p></mi_band_2>
+        <amazfit_bip_watch><p>- Controlos touch ilimitados</p></amazfit_bip_watch>
         <p>- O prefixo de texto, o pré-ícone e a filtragem de texto podem ser usados no menu Notificações</p>
         <p>- O tempo para repetir pode ser ajustado livremente</p>
         <p>- Mostrar pulsação pode ser usado no menu Pulsação</p>
