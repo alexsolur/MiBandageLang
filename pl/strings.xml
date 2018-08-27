@@ -375,7 +375,7 @@
     <string name="notification_group_correction_find">Znajdź</string>
     <string name="notification_group_correction_replace">Zastąp</string>
 
-    <string name="notification_regex_hint">Znaki niealfanumeryczne mają specjalne znaczenie, jeśli nie znasz Regex'a, nie zaznaczaj tego.</string>
+    <string name="notification_regex_hint">Znaki niealfanumeryczne mają specjalne znaczenie, jeśli nie znasz Regex\'a, nie zaznaczaj tego.</string>
 
     <string name="notification_confirm_close">Czy na pewno chcesz odrzucić zmiany?</string>
 
@@ -849,7 +849,7 @@
 
     <string name="theme_notification_title">Pokaż status w obszarze powiadomień</string>
     <string name="theme_notification_summary">System Android wymusza zatrzymanie usługi tylko wtedy, gdy pamięć jest niska. Jeśli po pewnym czasie nie pojawi się powiadomienie w Opasce, możesz temu zapobiec.</string>
-    <string name="theme_notification_summary_foreground_serice">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the icon is hidden, turn it off here for optimal performance.</string>
+    <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon. If the notification is hidden, switch off this setting for optimal performance.</string>
     <string name="theme_notification_color_title">Kolor ikon</string>
     <string name="theme_notification_text_color_title">Kolor tekstu</string>
 
@@ -908,7 +908,8 @@
         <p>- Bez reklam</p>
         <p>- Tryb Nie przeszkadzać</p>
         <p>- Nieograniczone monitorowanie powiadomień</p>
-        <p>- Nieograniczony monitoring dotknięć</p>
+        <mi_band_2><p>- Nieograniczony monitoring dotknięć</p></mi_band_2>
+        <amazfit_bip_watch><p>- Nieograniczony monitoring dotknięć</p></amazfit_bip_watch>
         <p>- Prefiks tekstowy, wstępna ikona i filtrowanie tekstu mogą być używane w monitorowaniu powiadomień</p>
         <p>- Interwał powtarzania można ustawić dowolnie w funkcji monitorowania kroku</p>
         <p>- Interwał powtarzania można ustawić dowolnie, a pokazywanie tętna może być używane w funkcji monitorowania tętna</p>
