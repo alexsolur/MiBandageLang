@@ -849,7 +849,7 @@
 
     <string name="theme_notification_title">Εμφάνιση κατάστασης στο πίνακα ειδοποιήσεων</string>
     <string name="theme_notification_summary">Το σύστημα Android κάνει αναγκαστική διακοπή υπηρεσίας μόνο όταν η μνήμη είναι χαμηλή. Εάν μετά από λίγο δεν εμφανίζεται στις ειδοποιήσεις στο Band 2, μπορείτε να το αποτρέψετε.</string>
-    <string name="theme_notification_summary_foreground_serice">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the icon is hidden, turn it off here for optimal performance.</string>
+    <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon. If the notification is hidden, switch off this setting for optimal performance.</string>
     <string name="theme_notification_color_title">Χρώμα εικονιδίου</string>
     <string name="theme_notification_text_color_title">Χρώμα κειμένου</string>
 
@@ -908,7 +908,8 @@
         <p>- χωρίς διαφημίσεις</p>
         <p>- λειτουργία μην ενοχλείτε</p>
         <p>- απεριόριστη παρακολούθηση ειδοποιήσεων</p>
-        <p>- απεριόριστη παρακολούθηση αφής</p>
+        <mi_band_2><p>- απεριόριστη παρακολούθηση αφής</p></mi_band_2>
+        <amazfit_bip_watch><p>- απεριόριστη παρακολούθηση αφής</p></amazfit_bip_watch>
         <p>- πρόθεμα κειμένου μπορεί να χρησιμοποιηθεί στην παρακολούθηση ειδοποιήσεων</p>
         <p>- το διάστημα επανάληψης μπορεί να ρυθμιστεί ελεύθερα στην λειτουργία παρακολούθησης βημάτων</p>
         <p>- στην λειτουργία παλμού τα διαστήματα επανάληψης παλμού μπορούν να ρυθμιστούν ελεύθερα</p>
