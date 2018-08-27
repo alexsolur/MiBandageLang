@@ -849,7 +849,7 @@
 
     <string name="theme_notification_title">Bildirim çubuğunda durum gösterilsin</string>
     <string name="theme_notification_summary">!!!Burası önemli!!!,Android sistemi, bir hizmeti sadece bellek düşük olduğunda durdurur. Bir süre sonra bileklikteki bildirimler görünmezse, bu özelliği açarak bunu önleyebilirsiniz.</string>
-    <string name="theme_notification_summary_foreground_serice">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the icon is hidden, turn it off here for optimal performance.</string>
+    <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon. If the notification is hidden, switch off this setting for optimal performance.</string>
     <string name="theme_notification_color_title">Simge rengi</string>
     <string name="theme_notification_text_color_title">Yazı rengi</string>
 
@@ -908,7 +908,8 @@
         <p>- Reklamsız</p>
         <p>- Rahatsız etmeyin modu</p>
         <p>- Sınırsız bildirim izleme</p>
-        <p>- Sınırsız dokunma izleme</p>
+        <mi_band_2><p>- Sınırsız dokunma izleme</p></mi_band_2>
+        <amazfit_bip_watch><p>- Sınırsız dokunma izleme</p></amazfit_bip_watch>
         <p>- Bildirim izlemede metin ön eki, ön simge ve filtreleme metni kullanılabilme</p>
         <p>- Adım izleme fonksiyonunda tekrar aralığını serbestçe ayarlanabilme</p>
         <p>- Nabız izleme fonksiyonunda tekrar aralığını serbestçe ayarlanabilme</p>
