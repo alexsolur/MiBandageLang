@@ -849,7 +849,7 @@
 
     <string name="theme_notification_title">Show status in notification shade</string>
     <string name="theme_notification_summary">The Android system force-stops a service only when memory is low. If after a while does not appear the notifications on the Band 2, you can prevent this.</string>
-    <string name="theme_notification_summary_foreground_serice">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the icon is hidden, turn it off here for optimal performance.</string>
+    <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon. If the notification is hidden, switch off this setting for optimal performance.</string>
     <string name="theme_notification_color_title">Icon color</string>
     <string name="theme_notification_text_color_title">Text color</string>
 
@@ -908,7 +908,8 @@
         <p>- ad-free</p>
         <p>- do not disturb mode</p>
         <p>- unlimited notification monitoring</p>
-        <p>- unlimited touch monitoring</p>
+        <mi_band_2><p>- unlimited touch monitoring</p></mi_band_2>
+        <amazfit_bip_watch><p>- unlimited touch monitoring</p></amazfit_bip_watch>
         <p>- text prefix, pre icon and filtering text can be used in notification monitoring</p>
         <p>- repeat interval can be set freely in step monitoring function</p>
         <p>- repeat interval can be set freely and show pulse can be used in pulse monitoring function</p>
