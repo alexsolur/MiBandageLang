@@ -850,7 +850,7 @@
 
     <string name="theme_notification_title">Hiện trạng thái trong vùng thông báo</string>
     <string name="theme_notification_summary">Hệ thống Android cưỡng bức dừng một dịch vụ chỉ khi bộ nhớ thấp. Nếu sau một thời gian không xuất hiện các thông báo trên Band 2, bạn có thể ngăn chặn điều này.</string>
-    <string name="theme_notification_summary_foreground_serice">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the icon is hidden, turn it off here for optimal performance.</string>
+    <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon. If the notification is hidden, switch off this setting for optimal performance.</string>
     <string name="theme_notification_color_title">Màu biểu tượng</string>
     <string name="theme_notification_text_color_title">Text color</string>
 
@@ -909,7 +909,8 @@
         <p> - ad-free</p>
         <p>- do not disturb mode</p>
         <p>- unlimited notification monitoring</p>
-        <p>- unlimited touch monitoring</p>
+        <mi_band_2><p>- unlimited touch monitoring</p></mi_band_2>
+        <amazfit_bip_watch><p>- unlimited touch monitoring</p></amazfit_bip_watch>
         <p>- text prefix, pre icon and filtering text can be used in notification monitoring</p>
         <p>- repeat interval can be set freely in step monitoring function</p>
         <p>- repeat interval can be set freely and show pulse can be used in pulse monitoring function</p>
