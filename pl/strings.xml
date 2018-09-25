@@ -11,6 +11,7 @@
     <string name="drawer_nav_sleep">Sen</string>
     <string name="drawer_nav_pulse">Tętno</string>
     <string name="drawer_nav_time">Czasy</string>
+    <string name="drawer_nav_reminder">Przypomnienie o wydarzeniach</string>
     <string name="drawer_nav_weather">Pogoda</string>
     <string name="drawer_nav_watch_face">Tło zegarka</string>
     <string name="drawer_nav_alarm">Zgubiony</string>
@@ -136,7 +137,7 @@
     <string name="pref_call_text_summary_on"><![CDATA[Włączone (więcej informacji: <i>Ustawienia/Wyświetlanie tekstu)</i>]]></string>
 
     <string name="pref_call_net_text_title">Przychodzący sygnał połączenia internetowego, wyświetlaj identyfikator dzwoniącego</string>
-    <string name="pref_call_net_text_summary_on">WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
     <string name="pref_cat_call_missed">Nieodebrane połączenie</string>
     <string name="pref_call_missed_title">Sygnał nieodebranego połączenia</string>
@@ -350,6 +351,7 @@
     <string name="notification_group_immediate">Natychmiastowy sygnał po otrzymaniu powiadomienia</string>
     <string name="notification_group_connecting">Po połączeniu się z telefonem</string>
     <string name="notification_group_reminder">Sygnał przypomnienia</string>
+    <string name="notification_group_ongoing">Trwałe (bieżące) powiadomienia o sygnale</string>
     <string name="notification_group_screen_off">Sygnalizuj tylko wtedy, gdy ekran jest wyłączony</string>
     <string name="notification_group_counter_title">Liczba sygnałów</string>
     <string name="notification_group_wakelock">Wybudź ekran telefonu</string>
@@ -752,6 +754,17 @@
         <p>Sygnał przypomnienia i pokazywanie komunikatu wymagają połączenia Bluetooth.</p>
     ]]></string>
 
+    <!-- Reminder -->
+    <string name="reminder_tab_once">Jeden raz</string>
+    <string name="reminder_tab_weekly">Co tydzień</string>
+
+    <string name="reminder_repeat">Hourly repetition</string>
+    <string name="reminder_notification_shade">Powiadamiaj na telefonie</string>
+
+    <string name="message_reminder_enabled">Przypomnienie jest włączone</string>
+    <string name="message_reminder_disabled">Przypomnienie wyłączone</string>
+    <string name="message_reminder_no_more">Can not record more reminders</string>
+
     <!-- Weather -->
     <string name="weather_tab_weather_forecast">Pogoda</string>
     <string name="weather_tab_settings">Ustawienia</string>
@@ -868,6 +881,7 @@
     <string name="backup_process_notification">Powiadomienia %1$,d%%</string>
     <string name="backup_process_touch">Dotknięcia %1$,d%%</string>
     <string name="backup_process_time">Czasy %1$,d%%</string>
+    <string name="backup_process_reminder">Przypomnienie o wydarzeniach %1$,d%%</string>
     <string name="backup_process_weather">Pogoda %1$,d%%</string>
     <string name="backup_process_alarm">Zagubienia %1$,d%%</string>
     <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
@@ -878,6 +892,7 @@
     <string name="backup_restore_notification">Powiadomienia</string>
     <string name="backup_restore_touch">Dotknięcia</string>
     <string name="backup_restore_time">Czasy</string>
+    <string name="backup_restore_reminder">Przypomnienie o wydarzeniach</string>
     <string name="backup_restore_weather">Pogoda</string>
     <string name="backup_restore_alarm">Zagubienia</string>
     <string name="backup_restore_disconnected_agent">Agent</string>
@@ -986,6 +1001,8 @@
     <string name="off">Wyłącz</string>
     <string name="none">Brak</string>
     <string name="bpm">BPM</string>
+    <string name="date">Data</string>
+    <string name="time">Czas</string>
     <string name="time_start">Czas rozpoczęcia</string>
     <string name="time_end">Czas zakończenia</string>
     <string name="ringer_mode_vibrate">Wibruj</string>
@@ -999,6 +1016,7 @@
     <string name="action_setting">Ustawienia</string>
     <string name="action_delete">Usuń</string>
     <string name="action_export">Eksportuj</string>
+    <string name="action_synchronization">Synchronization</string>
     <string name="action_filter_no">Brak filtrowania</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
@@ -1026,6 +1044,9 @@
     <string name="motion">Wykryto ruch</string>
 
     <string name="required_value">Wymagany</string>
+
+    <string name="invalid_date">Nieprawidłowa data</string>
+    <string name="invalid_time">Nieprawidłowy czas</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_day">d</string>
