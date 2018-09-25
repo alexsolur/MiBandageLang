@@ -11,6 +11,7 @@
     <string name="drawer_nav_sleep">Spánek</string>
     <string name="drawer_nav_pulse">Tep</string>
     <string name="drawer_nav_time">Čas</string>
+    <string name="drawer_nav_reminder">Připomenout událost</string>
     <string name="drawer_nav_weather">Počasí</string>
     <string name="drawer_nav_watch_face">Styl ciferníku</string>
     <string name="drawer_nav_alarm">Najdi náramek</string>
@@ -136,7 +137,7 @@
     <string name="pref_call_text_summary_on"><![CDATA[Zapnuto (více informací: <i>Nastavení/Nastavení textových ikon)</i>]]></string>
 
     <string name="pref_call_net_text_title">Oznámení příchozího internetového volání zobrazuje ID volajícího</string>
-    <string name="pref_call_net_text_summary_on">WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
 
     <string name="pref_cat_call_missed">Zmeškaný hovor</string>
     <string name="pref_call_missed_title">Oznámení zmeškaného hovoru</string>
@@ -350,6 +351,7 @@
     <string name="notification_group_immediate">Okamžité oznámení při přijetí notifikace</string>
     <string name="notification_group_connecting">Při připojení k zařízení</string>
     <string name="notification_group_reminder">Připomenutí oznámení</string>
+    <string name="notification_group_ongoing">Probíhající (trvalé) oznámení notifikací</string>
     <string name="notification_group_screen_off">Oznámení pouze tehdy, když je obrazovka vypnutá</string>
     <string name="notification_group_counter_title">Počet oznámení</string>
     <string name="notification_group_wakelock">Probudit obrazovku zařízení</string>
@@ -752,6 +754,17 @@
         <p>Připomenutí a zobrazení zprávy vyžadují připojení Bluetooth.</p>
     ]]></string>
 
+    <!-- Reminder -->
+    <string name="reminder_tab_once">Jednou</string>
+    <string name="reminder_tab_weekly">Týdně</string>
+
+    <string name="reminder_repeat">Hourly repetition</string>
+    <string name="reminder_notification_shade">Upozornění na zařízení</string>
+
+    <string name="message_reminder_enabled">Připomenutí povolen</string>
+    <string name="message_reminder_disabled">Připomenutí zakázáno</string>
+    <string name="message_reminder_no_more">Can not record more reminders</string>
+
     <!-- Weather  -->
     <string name="weather_tab_weather_forecast">Počasí</string>
     <string name="weather_tab_settings">Nastavení</string>
@@ -868,6 +881,7 @@
     <string name="backup_process_notification">Oznámení %1$,d%%</string>
     <string name="backup_process_touch">Dotek %1$,d%%</string>
     <string name="backup_process_time">Čas %1$,d%%</string>
+    <string name="backup_process_reminder">Připomenout událost %1$,d%%</string>
     <string name="backup_process_weather">Počasí %1$,d%%</string>
     <string name="backup_process_alarm">Najdi náramek %1$,d%%</string>
     <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
@@ -878,6 +892,7 @@
     <string name="backup_restore_notification">Oznámení</string>
     <string name="backup_restore_touch">Dotek</string>
     <string name="backup_restore_time">Čas</string>
+    <string name="backup_restore_reminder">Připomenout událost</string>
     <string name="backup_restore_weather">Počasí</string>
     <string name="backup_restore_alarm">Najdi náramek</string>
     <string name="backup_restore_disconnected_agent">Agent</string>
@@ -986,6 +1001,8 @@
     <string name="off">Vypnuto</string>
     <string name="none">Žádný</string>
     <string name="bpm">BPM</string>
+    <string name="date">Datum</string>
+    <string name="time">Čas</string>
     <string name="time_start">Čas zahájení</string>
     <string name="time_end">Čas ukončení</string>
     <string name="ringer_mode_vibrate">Vibrace</string>
@@ -999,6 +1016,7 @@
     <string name="action_setting">Nastavení</string>
     <string name="action_delete">Vymazat</string>
     <string name="action_export">Export</string>
+    <string name="action_synchronization">Synchronization</string>
     <string name="action_filter_no">Žádný filtr</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
@@ -1026,6 +1044,9 @@
     <string name="motion">Detekce pohybu</string>
 
     <string name="required_value">Požadováno</string>
+
+    <string name="invalid_date">Neplatné datum</string>
+    <string name="invalid_time">Neplatný čas</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_day">d</string>
