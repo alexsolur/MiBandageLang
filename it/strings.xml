@@ -504,6 +504,8 @@
     <string name="touch_testing_title">Controllo tocchi</string>
     <string name="touch_testing_second">sec.</string>
 
+    <string name="touch_setting_detection_method_title">Touch detection method</string>
+
     <string name="touch_setting_recognition_start_title">Avvia riconoscimento tocchi</string>
     <string name="touch_setting_recognition_start_trigger_title">Metodo attivazione</string>
     <string name="touch_setting_recognition_time_title">Durata riconoscimento</string>
@@ -529,6 +531,29 @@
         <br>- tocco e aspetta 2sec, tocco e aspetta 1sec, tocco
         <br>- tocco e aspetta 2sec, tocco e aspetta 2sec, tocco
         </p>
+    ]]></string>
+
+    <!-- Touch monitoring info dialog Mi Band 3/Amazfit Cor-->
+    <string name="info_dialog_touch_not_supported"><![CDATA[
+        <b><u>Power saving mode</u></b>
+        <p>It does not increase battery consumption.</p>
+        <img src="ic_touch_pulse"> Pulse measurement
+        <mi_band_3><p>On the bracelet, in the pulse measurement function, start the measurement (long touch) and then interrupt the measurement (one touch) after 1 second.</p></mi_band_3>
+        <amazfit_cor><p>On the bracelet, start the pulse measurement function (Status) and then interrupt the measurement (swipe right) after 1 second.</p></amazfit_cor>
+        <p>It must be turn off during continuous, online pulse measurement and exercise.<p>
+        <b><u>Performance mode</u></b>
+        <p>Increases battery consumption. On the home screen turn on the touch only when you need it.</p>
+        <img src="ic_touch_app"> Touch
+        <mi_band_3><p>Touch is valid when the <mi_band_type> screen is off.</p></mi_band_3>
+        <amazfit_cor><p>The button below the <mi_band_type> screen.</p></amazfit_cor>
+        <img src="ic_touch_wrist"> Wrist lift
+        <p>Wrist lift is valid when the <mi_band_type> screen turns on.</p>
+        <img src="ic_call"> <b><u>Call control</b></u>
+        <p>It always works, even if the touch monitor is switched off.</p>
+        <br><p>In test mode does not execute the function of recognised pattern.</p>
+        <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
+        <p>Band vibrates once, when recognise a pattern.</p>
+        <p>Band vibrates twice, when not recognise any pattern after the longest pattern (if <i>Not recognisable touch pattern signal</i> is set).</p>
     ]]></string>
 
     <!-- Step monitoring -->
