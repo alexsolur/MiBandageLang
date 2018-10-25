@@ -220,6 +220,7 @@
         <item>无</item>
         <item>触摸</item>
         <item>双触</item>
+        <item>三重触摸</item>
         <item>长按</item>
     </string-array>
 
@@ -227,7 +228,18 @@
         <item>NONE</item>
         <item>TOUCH</item>
         <item>DOUBLE_TOUCH</item>
+        <item>TRIPLE_TOUCH</item>
         <item>LONG_TOUCH</item>
+    </string-array>
+
+    <string-array name="pref_touch_detection_method">
+        <item>Power saving (pulse)</item>
+        <item>Performance</item>
+    </string-array>
+
+    <string-array name="pref_touch_detection_method_values">
+        <item>PULSE</item>
+        <item>PERFORMANCE</item>
     </string-array>
 
     <string-array name="touch_recognition_start_trigger">
