@@ -504,7 +504,7 @@
     <string name="touch_testing_title">Касания</string>
     <string name="touch_testing_second">с</string>
 
-    <string name="touch_setting_detection_method_title">Touch detection method</string>
+    <string name="touch_setting_detection_method_title">Способ определения касаний</string>
 
     <string name="touch_setting_recognition_start_title">Начало распознавания касаний</string>
     <string name="touch_setting_recognition_start_trigger_title">Триггер</string>
@@ -520,7 +520,7 @@
         <p>Зелёная иконка указывает, что другая функция похожа на текущую комбинацию.</p>
         <p>Во время входящего звонка не обрабатываются следующие функции: Положение устройства, Повтор уведомлений и Воспроизведение во избежание нежелательных срабатываний.</p>
         <p>Распознанная функция не выполняется в тестовом режиме.</p>
-        <p>Вибрация браслета срабатывает, если есть действительная комбинация с учётом текущего состояния устройства (ответ на звонок, отмена звонка только во время входящего звока и т. д.…).</p>
+        <p>Вибрация браслета срабатывает, если есть действительная комбинация с учётом текущего состояния устройства (ответ на звонок, отмена звонка только во время входящего звонка и т. д.…).</p>
         <p>Браслет вибрирует один раз, когда распознаёт комбинацию.</p>
         <p>Браслет вибрирует дважды, когда не распознаёт ни одну комбинацию после самой длинной (если <i>Не распознанные нажатия</i> включены).</p>
         <p>Например, верный набор:
@@ -535,25 +535,25 @@
 
     <!-- Touch monitoring info dialog Mi Band 3/Amazfit Cor-->
     <string name="info_dialog_touch_not_supported"><![CDATA[
-        <b><u>Power saving mode</u></b>
-        <p>It does not increase battery consumption.</p>
-        <img src="ic_touch_pulse"> Pulse measurement
-        <mi_band_3><p>On the bracelet, in the pulse measurement function, start the measurement (long touch) and then interrupt the measurement (one touch) after 1 second.</p></mi_band_3>
-        <amazfit_cor><p>On the bracelet, start the pulse measurement function (Status) and then interrupt the measurement (swipe right) after 1 second.</p></amazfit_cor>
-        <p>It must be turn off during continuous, online pulse measurement and exercise.<p>
-        <b><u>Performance mode</u></b>
-        <p>Increases battery consumption. On the home screen turn on the touch only when you need it.</p>
-        <img src="ic_touch_app"> Touch
-        <mi_band_3><p>Touch is valid when the <mi_band_type> screen is off.</p></mi_band_3>
-        <amazfit_cor><p>The button below the <mi_band_type> screen.</p></amazfit_cor>
-        <img src="ic_touch_wrist"> Wrist lift
-        <p>Wrist lift is valid when the <mi_band_type> screen turns on.</p>
-        <img src="ic_call"> <b><u>Call control</b></u>
-        <p>It always works, even if the touch monitor is switched off.</p>
-        <br><p>In test mode does not execute the function of recognised pattern.</p>
-        <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
-        <p>Band vibrates once, when recognise a pattern.</p>
-        <p>Band vibrates twice, when not recognise any pattern after the longest pattern (if <i>Not recognisable touch pattern signal</i> is set).</p>
+        <b><u>Режим энергосбережения</u></b>
+        <p>Не увеличивает энергопотребление.</p>
+        <img src="ic_touch_pulse"> Измерение пульса
+        <mi_band_3><p>На браслете начните измерение пульса (долгое касание) и прервите его (одно касание) через секунду.</p></mi_band_3>
+        <amazfit_cor><p>На браслете начните измерение пульса (Status) и прервите его (проведите вправо) через секунду.</p></amazfit_cor>
+        <p>Этот режим должен быть выключен во время постоянных, активных измерениях пульса и при упражнениях.<p>
+        <b><u>Режим производительности</u></b>
+        <p>Увеличивает энергопотребление. Включайте касания на основном экране только когда они нужны.</p>
+        <img src="ic_touch_app"> Касания
+        <mi_band_3><p>Касание засчитывается, когда экран <mi_band_type> выключен.</p></mi_band_3>
+        <amazfit_cor><p>Кнопка <mi_band_type> под экраном.</p></amazfit_cor>
+        <img src="ic_touch_wrist"> Поворот запястья
+        <p>Поворот запястья засчитывается, когда экран <mi_band_type> включается.</p>
+        <img src="ic_call"> <b><u>Управление звонками</b></u>
+        <p>Работает всегда, даже если касания отключены.</p>
+        <p>Распознанная функция не выполняется в тестовом режиме.</p>
+        <p>Вибрация браслета срабатывает, если есть действительная комбинация с учётом текущего состояния устройства (ответ на звонок, отмена звонка только во время входящего звонка и т. д.…).</p>
+        <p>Браслет вибрирует один раз, когда распознаёт комбинацию.</p>
+        <p>Браслет вибрирует дважды, когда не распознаёт ни одну комбинацию после самой длинной (если <i>Не распознанные нажатия</i> включены).</p>
     ]]></string>
 
     <!-- Step monitoring -->
