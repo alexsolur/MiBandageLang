@@ -1,0 +1,1132 @@
+﻿<resources>
+    <string name="app_name">Mi Bandage</string>
+
+    <string name="navigation_drawer_open">Open navigatie menu</string>
+    <string name="navigation_drawer_close">Sluit navigatie menu</string>
+
+    <string name="drawer_nav_home">Bandages</string>
+    <string name="drawer_nav_notification">Melding</string>
+    <string name="drawer_nav_touch">Aanraken</string>
+    <string name="drawer_nav_step">Activiteit</string>
+    <string name="drawer_nav_sleep">Slapen</string>
+    <string name="drawer_nav_pulse">Hartslag</string>
+    <string name="drawer_nav_time">Tijd</string>
+    <string name="drawer_nav_reminder">Herinnering evenement</string>
+    <string name="drawer_nav_weather">Weer</string>
+    <string name="drawer_nav_watch_face">Klokscherm</string>
+    <string name="drawer_nav_alarm">Ontkoppeling</string>
+    <string name="drawer_nav_disconnected_agent">Beveiliging</string>
+    <string name="drawer_nav_theme">Thema</string>
+    <string name="drawer_nav_backup">Backup</string>
+    <string name="drawer_nav_rewarded_mode">Rewarded mode</string>
+    <string name="drawer_nav_premium_mode">Premium mode</string>
+    <string name="drawer_nav_feedback">Terugkoppeling</string>
+    <string name="drawer_nav_privacy_policy">Privacybeleid</string>
+    <item name="drawer_nav_settings" type="string">@string/settings_name</item>
+
+    <string name="shortcut_touch">Aanraken</string>
+    <string name="shortcut_step">Activiteit</string>
+    <string name="shortcut_pulse">Hartslag</string>
+    <string name="shortcut_time_alarm">Alarm</string>
+    <string name="shortcut_reminder">Herinnering</string>
+
+    <!-- Foreground service, ongoing notification -->
+    <string name="foreground_service_connected">Verbonden tijd: %1$s</string>
+    <string name="foreground_service_disconnected_text">%1$s is niet verbonden</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <!--<string name="foreground_service_disconnected">Niet verbonden tijd: %1$s</string>-->
+
+    <!-- Strings related to Settings -->
+    <string name="settings_name">Instellingen</string>
+    <string name="app_chooser">App Kiezer</string>
+    <string name="info_name">Informatie</string>
+
+    <!-- Bandages screen -->
+    <string name="mi_band_tracker_title">Stappen, afstand, calorieën, doel, hartslag</string>
+    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
+    <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
+    <string name="mi_band_battery">Batterij niveau, vorige laadtijd, geschatte resterende tijd</string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI, vorige verbonden  en niet verbonden tijd</string>
+    <string name="mi_band_touch">Aanraak beheer</string>
+    <string name="mi_band_alarm">Volgend alarm</string>
+    <string name="mi_band_bonded_device_name">Gekoppelde apparaatnaam</string>
+    <string name="mi_band_mac_address">MAC adres</string>
+    <string name="mi_band_firmware">Firmware</string>
+    <string name="mi_band_hardware">Hardware</string>
+
+    <string name="mi_band_mac_address_invalid">MAC adres is onjuist</string>
+
+    <string name="mi_band_state_title">%1$s settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="mi_band_state_connected">Verbonden</string>
+    <string name="mi_band_state_disconnected">Niet verbonden</string>
+    <string name="mi_band_state_bonded">Gekoppeld Apparaat</string>
+    <string name="mi_band_state_not_bonded">Niet gekoppeld Apparaat</string>
+
+    <!-- Battery -->
+    <string name="battery_details">Energie verbruik</string>
+
+    <string name="mi_band_battery_settings">Batterij instellingen</string>
+    <string name="mi_band_battery_remaining">Geschatte resterende batterijtijd</string>
+    <string name="mi_band_battery_notification">Melding laag batterijniveau</string>
+    <string name="mi_band_battery_notification_level">Batterijniveau drempel</string>
+    <string name="mi_band_battery_notification_repeat_interval">Herhaal interval</string>
+    <string name="mi_band_battery_notification_shade">Meldingen op telefoon</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Aanhoudende meldingen</string>
+    <string name="mi_band_battery_notification_shade_message">Laag Batterijniveau: %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Berichten op armband</string>
+    <string name="mi_band_battery_notification_mi_band_message">Batterij: %1$,d%%</string>
+
+    <!-- PreferenceScreen -->
+    <string name="pref_connected">Verbinding</string>
+    <string name="pref_connected_summary">%1$s en telefoon verbinding signaal en instellingen</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+
+    <string name="pref_connected_signals">Verbinding signalen</string>
+    <string name="pref_connected_signals_summary">%1$s verbinding en geen melding</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_connected_signals_mi_band">%1$s signaal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_mi_band_title">Trillen</string>
+    <string name="pref_cat_connected_signals">Telefoon signalen</string>
+    <string name="pref_connected_wakelock_title">Laat telefoonscherm zien</string>
+
+    <string name="pref_connected_settings">Verbindings instellingen</string>
+    <string name="pref_connected_settings_summary">%1$s en telefoon verbindings instellingen</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_connected_settings">Telefoon instellingen</string>
+    <string name="pref_connected_volume_title">Volumeregeling</string>
+    <string name="pref_connected_volume_ring_title">Oproep volume</string>
+
+    <string name="pref_cat_connected_have_notif">Vooringestelde app signalen</string>
+    <string name="pref_cat_connected_have_notif_default">Standaard en eigen instellingen</string>
+    <string name="pref_connected_have_notif_immediate_title">Direct signaal als bericht is ontvangen</string>
+    <string name="pref_connected_have_notif_title">Signaal bij verbinden met telefoon</string>
+    <string name="pref_connected_have_notif_reminder_title">Herinnerings signaal</string>
+    <string name="pref_connected_have_notif_screen_off_title">Signaal indien scherm uit is</string>
+    <string name="pref_connected_have_notif_interval_title">Herinnering interval herhaling</string>
+    <string name="pref_connected_have_notif_counter_title">Aantal signalen</string>
+    <string name="pref_connected_have_notif_wakelock_title">Activeer telefoonscherm</string>
+    <string name="pref_connected_have_notif_ongoing_title">Signaal aanhoudende meldingen</string>
+    <string name="pref_connected_have_notif_default_app_title">Signaal onbekende app</string>
+    <string name="pref_connected_have_notif_default_app_summary_on">\'app\' icon (if app there is no in predefined and neither custom notification group)</string>
+    <string name="pref_connected_have_notif_pre_signal_title">Melding voorspelling</string>
+    <string name="pref_connected_have_notif_pre_signal_summary_on">Signaal (klik op het icon om het te wijzigen) voor de eigenlijke melding om meer tijd te hebben om naar scherm te kijken</string>
+
+    <string name="pref_disconnected">Ontkoppeling</string>
+    <string name="pref_disconnected_summary">%1$s en signalen voor de verbroken koppeling van de telefoon en instellingen</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+
+    <string name="pref_disconnected_signals">Ontkoppelingssignalen</string>
+    <string name="pref_disconnected_signals_summary">%1$s en signaal voor de verbroken koppeling met de telefoon, het geeft geen signaal wanneer de Bluetooth handmatig wordt uitgeschakeld</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_signals_mi_band">%1$s signaal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_mi_band_title">Pictogramweergave en trilling</string>
+    <string name="pref_cat_disconnected_signals">Telefoon signaal</string>
+    <string name="pref_disconnected_ringtone_title">Oproep melodie</string>
+    <string name="pref_disconnected_vibration_title">Trilling</string>
+    <string name="pref_disconnected_wakelock_title">Activeer telefoonscherm</string>
+
+    <string name="pref_disconnected_settings">Ontkoppelings instellingen</string>
+    <string name="pref_disconnected_settings_summary">%1$s en telefoon Ontkoppelings instellingen</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_settings">Telefoon Instellingen</string>
+    <string name="pref_disconnected_volume_title">Volumeregeling</string>
+    <string name="pref_disconnected_volume_ring_title">Bel volume</string>
+    <string name="pref_disconnected_volume_adapter_title">Als Bluetooth is uitgeschakeld</string>
+    <string name="pref_disconnected_volume_adapter_summary_on">Volume instellen</string>
+    <string name="pref_disconnected_volume_adapter_summary_off">Volume niet instellen</string>
+
+    <string name="pref_call">Bellen</string>
+    <string name="pref_call_summary">%1$s signaal instellingen</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_call">Binnenkomend gesprek</string>
+    <string name="pref_call_title">Binnenkomend gesprek signaal</string>
+    <string name="pref_call_summary_on">Aan (vergeet niet om waarschuwingen voor inkomende oproepen uit te schakelen op de Mi Fit app)</string>
+    <string name="pref_call_text_title">Toon beller ID</string>
+    <string name="pref_call_text_summary_on"><![CDATA[Aan (meer informatie: <i>Settings/Text icons settings)</i>]]></string>
+
+    <string name="pref_call_net_text_title">Inkomend internet oproep signaal, toon beller ID</string>
+    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
+
+    <string name="pref_cat_call_missed">Gemiste oproep</string>
+    <string name="pref_call_missed_title">Gemiste oproep signaal</string>
+
+    <string name="pref_call_missed_net_title">Gemist internetoproep signaal, toon beller ID</string>
+    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
+
+    <string name="pref_call_missed_alert_title">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
+
+    <string name="pref_call_missed_text_prefix_title">Text prefix: %1$s</string>
+    <string name="pref_call_missed_text_prefix_summary">Als meer dan één app ook het meldinggspictogram gebruikt om meldingen van elkaar te onderscheiden</string>
+    <string name="pref_call_missed_text_prefix_dialog_title">Tekst voorvoegsel</string>
+
+    <string name="pref_text_conversion">Tekst scherm</string>
+    <string name="pref_text_conversion_summary">Converteer tekstberichttekens</string>
+    <string name="pref_cat_text_conversion">%1$s signaal</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_text_conversion_title">Conversiedoel</string>
+    <string name="pref_text_conversion_summary_on">Niet herkende tekensconversie, schakel uit indien de Band uw taal ondersteunt of dat u een aangepaste lettertype firmware hebt geïnstalleerd</string>
+    <string name="pref_text_emoticon_title">Emoji conversie</string>
+    <string name="pref_text_emoticon_summary_on">Converteer emoji naar emoticon</string>
+    <string name="pref_text_uppercase_title">Hoofdletter conversie</string>
+    <string name="pref_text_uppercase_summary_on">Converteer kleine letters naar Hoofdletters</string>
+    <string name="pref_text_length">De tekstlengte is afhankelijk van het gebruikte lettertype (bijvoorbeeld Chinees of Cyrillische karakters)</string>
+    <string name="pref_text_length_summary_on">%1$,d karakters</string>
+
+    <string name="pref_text_conversion_description_title">Omschrijving</string>
+    <string name="pref_text_conversion_description_summary"><![CDATA[
+        <p>Als uw Band momenteel de naam van de inkomende beller weergeeft, dan hoeft u niet de volgende stappen te doen maar schakel <i>Inkomende oproepwaarschuwingen</i> uit op Mi Fit.</p>
+        <p>Als u <i>Meldingen Binnenkomende oproepen</i> niet gebruikt en de telefoontaal geen Engels is:
+        <br/>1. Stel uw telefoontaal in op Engels.
+        <br/>2. Open de Mi Fit-app en wacht tot de fontfirmware-update is voltooid. Als de firmware update niet start, probeer dan je telefoon opnieuw op te starten.
+        <br/>3. Open het <i>Profiel/Mi Band/Inkomende oproep</i> menu.
+        <br/>4. Inschakelen: <i>Meldingen voor inkomende oproepen inschakelen</i>.
+        <br/>5. Inschakelen: <i>Contactgegevens weergeven</i>.
+        <br/>6. Controleer of de Band de naam kan weergeven door uw telefoon te bellen.
+        <br/>7. Uitschakelen: <i>Inkomende oproepmeldingen inschakelen</i> (<i>Contactinformatie weergeven</i> blijft ingeschakeld on).
+        <br/>8. Stel de telefoontaal weer in op uw taal.</p>]]>
+    </string>
+
+    <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_mi_band_lift_wrist">Beweeg de pols omhoog om info te bekijken</string>
+    <string name="pref_mi_band_lift_wrist_title">Beweeg de pols omhoog om info te bekijken</string>
+    <string name="pref_mi_band_lift_wrist_dnd_title">Niet Storen mode</string>
+    <string name="pref_mi_band_lift_wrist_dnd_summary_on">Aan (in de opgegeven periode wordt de informatie niet weergegeven, Bluetooth verbinding is vereist voor het instellen)</string>
+
+    <string name="pref_battery_phone">Telefoonbatterij</string>
+    <string name="pref_battery_phone_summary">Meldingen leeg en vol van het batterijniveau</string>
+    <string name="pref_cat_battery_phone_low">Laag batterijniveau</string>
+    <string name="pref_battery_phone_low_title">Laag batterijniveau melding</string>
+    <string name="pref_battery_phone_low_level_title">Batterijniveau drempel</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Interval herhaling</string>
+    <string name="pref_cat_battery_phone_full">Vol batterijniveau</string>
+    <string name="pref_battery_phone_full_title">Vol batterijniveau melding</string>
+    <string name="pref_battery_phone_full_plugged_ac">AC Voedingsbron</string>
+    <string name="pref_battery_phone_full_plugged_usb">Voedingsbron USB poort</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Draadloze voedingsbron</string>
+    <string name="pref_battery_phone_full_repeat_interval_title">Interval herhaling</string>
+
+    <!-- Mi Band 2 max. 18 chars with 100% -->
+    <string name="pref_battery_phone_mi_band_message">Phone batt.: %1$,d%%</string>
+    <!-- Other Bands-->
+    <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
+
+    <string name="pref_language">Taal</string>
+    <string name="pref_cat_language">App</string>
+    <string name="pref_language_title">Taal</string>
+    <string name="pref_cat_language_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_language_mi_band_title">Taal</string>
+
+    <!-- Quick switch -->
+    <string name="details">Details</string>
+    <string name="bandages">Bandages</string>
+    <string name="connected">Verbindings- en meldingssignaal</string>
+    <string name="disconnected">Ontkoppelings- en waarschuwingssignaal</string>
+    <string name="touch">Aanraakcontrole</string>
+
+    <string name="pref_dnd_title">Niet Storen mode</string>
+    <string name="pref_dnd_summary">Controle instellingen tijdens Niet Storen modus</string>
+    <string name="pref_dnd_auto_title">Automatisch Niet Storen mode</string>
+    <string name="pref_dnd_auto_summary">Door de telefoon gecontroleerde Niet Storen modus, deze heeft een hogere prioriteit dan de geplande Niet storen modus</string>
+    <string name="pref_dnd_auto_vibrate">Trillen (stilte stand)</string>
+    <string name="pref_dnd_auto_silent">Niet Storen</string>
+    <string name="pref_dnd_scheduled_title">Schema Niet Storen mode</string>
+    <string name="pref_dnd_scheduled_new_title">Titel</string>
+    <string name="pref_dnd_remember_state_summary">Aan het einde van de Niet Storen modus, alle armbanden aan zetten en toestand herstelen zoals die waren op het moment van starten</string>
+    <string name="pref_dnd_remember_state_on_title">Aan het einde herstel toestand armbanden</string>
+    <string name="pref_dnd_remember_state_off_title">Aan het einde alle koppelingen weer inschakelen</string>
+    <string name="pref_dnd_mi_fit_scheduled">Activate %1$s NS-modus (uitschakelen van oproepen, berichten en bewegen pols om info te bekijken)</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_dnd_enable_bluetooth">Aan het begin van de NS modus Bluetooth uitschakelen, bij einde Bluetooth inschakelen</string>
+
+    <!-- Snackbar Messages -->
+    <string name="message_enable_bluetooth">Schakel Bluetooth in en zorg dat het Band apparaat en telefoon dicht bij elkaar zijn</string>
+    <string name="message_discover_mi_band">Band is niet ingesteld, zoek apparaat</string>
+    <string name="message_discovering_mi_band">Band zoeken (kan 1 minuut duren) &#8230;</string>
+    <string name="message_discovered_mi_band">%1$s verbinden met is gelukt</string>
+    <string name="message_discovered_no_mi_band">Band verbinden mislukt</string>
+    <string name="message_discovered_not_found_mi_band">Als Band niet is gevonden, schakel dan in: Mi Fit/Play/Zoeken of koppel met de Bluetooth instellingen op de telefoon</string>
+    <string name="message_enable_notification_listener_access">Meldingstoegang inschakelen: Instellingen/Meldingen/Toegang tot meldingen</string>
+    <string name="message_enable_notification_listener_access_4_4">Meldingstoegang inschakelen: Instellingen/Beveiliging/Toegang tot meldingen</string>
+    <string name="message_enable_notification_policy_access">Schakel de optie Niet Storen in</string>
+    <string name="message_open_settings">Instellingen</string>
+
+    <string name="message_deleted">Verwijderd</string>
+    <string name="message_undo">Ongedaan maken</string>
+
+    <string name="message_app_chooser_no_selected">Selecteer een applicatie</string>
+
+    <string name="message_notification_free_groups">Up to %1$,d groepen kunnen worden gebruikt in Normale modus</string>
+
+    <string name="message_step_goal_free_values">Tot maximaal 3 waarden kunnen worden ingesteld in de Normale modus</string>
+    <string name="message_step_goal_max_values">Maximaal 10 waarden kunnen worden ingesteld</string>
+
+    <string name="message_touch_no_patterns">Druk op een van de rode opnameknoppen</string>
+    <string name="message_touch_record">Neem het patroon op met behulp van de aanraaksensor %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_touch_pattern_error">Het opgegeven patroon is vergelijkbaar met een opname van een andere functie, neem een andere op</string>
+    <string name="message_touch_free_patterns">Je kan niet meer dan %1$,d functies in Normale modus gebruiken</string>
+    <string name="message_touch_music_player_not_found">Muziekspeler niet gevonden</string>
+    <string name="message_touch_app_launcher1_not_set">App is niet ingesteld</string>
+    <string name="message_touch_app_launcher1_not_found">App is niet gevonden: %1$s</string>
+    <string name="message_touch_tasker_launcher_not_set">Taken taak is niet ingesteld</string>
+
+    <string name="message_notification_group_has_no_entry">Selecteer applicaties met de knop \'+\' rechtsonder op de kaart</string>
+
+    <string name="message_time_alarm_free_counter">In normale modus kan max. 2 alarmen worden ingesteld</string>
+    <string name="message_time_alarm_max_counter">Er kunnen maximaal 7 alarmen worden ingesteld</string>
+    <string name="message_time_alarm_enabled">Alarm ingeschakeld</string>
+    <string name="message_time_alarm_disabled">Alarm uitgeschakeld</string>
+    <string name="message_time_alarm_mi_band_off">Alarm uit</string>
+
+    <string name="message_alarm_free_interval">Een korter herhalingsinterval kan alleen in premium modus worden ingesteld</string>
+    <string name="message_alarm_mi_band_set_failed">Instellen alarm mislukt</string>
+    <string name="message_alarm_mi_band_clear_failed">Wissen alarm mislukt</string>
+
+    <string name="message_premium_mode_only">Deze functie is alleen beschikbaar in premium modus</string>
+    <string name="message_general_error">Instelling mislukt (verbinding verbroken), probeer het opnieuw</string>
+    <string name="message_internet_error">Geen internetverbinding</string>
+    <string name="message_gps_enable">GPS inschakelen</string>
+
+    <string name="message_in_progress">Bezig….</string>
+    <string name="message_no_data">Geen gegevens beschikbaar</string>
+
+    <string name="message_new_message">Nieuw bericht ontvangen, bekijk het op de telefoon.</string>
+
+    <!-- Dialog -->
+    <string name="dialog_welcome_title">Welkom!</string>
+    <string name="dialog_welcome_message"><![CDATA[Ondersteunde apparaten:
+    <br>- <b>Xiaomi Mi Band 3</b>
+    <br>- <b>Xiaomi Mi Band 2</b>
+    <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Cor (MiDong)</b>
+    <br>- <b>Huami Amazfit Arc (A1603)</b>
+    <p>Mi Bandage vereist de installatie van de officiële Mi Fit-app op dezelfde telefoon. Koppel de Band eerst in de Mi Fit-app, hierna kun je Mi Bandage gebruiken.</p>
+    <p>Indien je meerdere apps gebruikt voor je Band, schakel ze tijdelijk uit om storingen te voorkomen.</p>
+    <p>Als Band niet wordt gevonden kunt u het MAC-adres handmatig instellen, kijk hier (MAC adres in: Mi Fit/Profiel/Band).</p>
+    <p><b>Bij verbindingsproblemen:</b>
+    <br>- Controleer <i>Instellingen/Diagnostiek</i> settings
+    <br>- Vorige app scherm: vergrendel de Mi Bandage (klik op de app en klik op het vergrendelpictogram).
+    <br>- Telefoon/batterij optimalisatie: stel Mi Bandage app in op niet geoptimaliseerd.
+    <br>- Telefoon/apps: \"Bluetooth delen\" en \"Bluetooth\app gegevens\" wissen.
+    <br>Instellingen/Ontwikkelaar opties:
+    <br>- Activiteiten niet bijhouden: uitschakelen
+    <br>- Achtergrondproceslimiet: standaardlimiet
+    <br>- Geheugenoptimalisatie: middel/laag/uit</p>
+    <p>Als Band niet wordt gevonden of als u problemen ondervindt bij het synchroniseren van de Mi Fit app, installeert u de BToolkit, nRF Connect of een soortgelijke Bluetoothmanager app en verwijdert u elk gekoppeld of verbonden apparaat.</p>
+    <p>Als je een probleem hebt (Band vinden, geen meldingssignaal), probeer dan dit:
+    <br>1. Als je de Greenify hebt geïnstalleerd (of een andere app in de slaapstand heeft), schakel deze uit.
+    <br>2. Installeer Mi Bandage app.
+    <br>3. herstart de telefoon.
+    <br>4. Schakel \"Bluetooth aan\" uit.
+    <br>5. Open Mi Fit app, wacht tot de synchronisatie is voltooid en sluit deze.
+    <br>6. Open Mi Bandage app, Klik op zoeken.</p>]]></string>
+
+    <!-- Diagnostic -->
+    <string name="diagnostic_title">Diagnostisch</string>
+
+    <string name="diagnostic_permissions_title">Machtigingen</string>
+
+    <string name="diagnostic_access_title">Toegang</string>
+    <string name="diagnostic_access_do_not_disturb">Toegang niet onderbreken</string>
+    <string name="diagnostic_access_notification">Toegangs melding</string>
+
+    <string name="diagnostic_protection_title">Sluiten verhinderen</string>
+    <string name="diagnostic_protection_battery">Batterij optimalisatie uit</string>
+    <string name="diagnostic_protection_service">Toon status in berichtenbalk</string>
+    <string name="diagnostic_protection_lock">Vergrendel het recente appscherm</string>
+
+    <!-- Notification  -->
+    <string name="notification_tab_custom">Meldingen aanpassen</string>
+    <string name="notification_tab_settings">Instellingen</string>
+
+    <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">Instellingen</string>
+    <string name="notification_group_nav_filter">Filter</string>
+    <string name="notification_group_nav_correction">Wijzigen</string>
+
+    <string name="notification_group_name">Naam</string>
+    <string name="notification_group_monitoring">Meldingen volgen</string>
+    <string name="notification_group_monitoring_disabled">Meldingen uitschakelen (laat de app meldingen niet zien)</string>
+    <string name="notification_group_alert_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_text">Tekst scherm</string>
+    <string name="notification_group_text_app_name">App naam</string>
+    <string name="notification_group_text_name">Naam</string>
+    <string name="notification_group_text_title">Titel</string>
+    <string name="notification_group_text_content">Content</string>
+    <string name="notification_group_vibration_title">Aangepast trillen</string>
+    <string name="notification_group_pre_signal_title">Standaard pre-melding</string>
+    <string name="notification_group_pre_vibration_title">Vooraf trillen</string>
+    <string name="notification_group_pre_alert_title">Pre icon</string>
+    <string name="notification_group_prefix">Tekst voorvoeging</string>
+    <string name="notification_group_immediate">Als melding is ontvangen, direct signaal</string>
+    <string name="notification_group_connecting">bij het verbinden met de telefoon</string>
+    <string name="notification_group_reminder">Herinnering signaal</string>
+    <string name="notification_group_ongoing">Aanhoudend signaal bij continue meldingen</string>
+    <string name="notification_group_screen_off">Alleen signaal als het scherm uit staat</string>
+    <string name="notification_group_counter_title">Het aantal signalen</string>
+    <string name="notification_group_wakelock">Tonen telefoonscherm</string>
+
+    <string name="notification_group_filter">Meldings Filter</string>
+    <string name="notification_group_filter_title">Titel filter</string>
+    <string name="notification_group_filter_content">Inhoud filter</string>
+    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_hint">Alleen signaal bij titel of inhoud van melding (niet hoofdletter gevoelig)</string>
+    <string name="notification_group_filter_contains">Bevat uitdrukkingen</string>
+    <string name="notification_group_filter_not_contains">Bevat geen uitdrukkingen</string>
+
+    <string name="notification_group_sample_sms">SMS tekstscherm</string>
+    <string name="notification_group_sample_facebook">Messenger tekstscherm</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp tekstscherm</string>
+
+    <string name="notification_group_correction">Tekst correctie</string>
+    <string name="notification_group_correction_title">Titel correctie</string>
+    <string name="notification_group_correction_content">Inhoud correctie</string>
+    <string name="notification_group_correction_regex">Regex</string>
+    <string name="notification_group_correction_hint">Hoofdletter gevoelig</string>
+    <string name="notification_group_correction_items">Teksten die gecorrigeerd moeten worden</string>
+    <string name="notification_group_correction_find">Zoeken</string>
+    <string name="notification_group_correction_replace">Vervangen met</string>
+
+    <string name="notification_regex_hint">Niet alfanumerieke tekens hebben een speciale betekenis, als u de Regex niet kent, niet aanvinken.</string>
+
+    <string name="notification_confirm_close">Weet je zeker dat je de wijzigingen wilt verwijderen?</string>
+
+    <string name="notification_edit_play_text_title">Meldingstitel</string>
+    <string name="notification_edit_play_text_content">Meldings inhoud:
+    Bij publicatie en grafisch ontwerpen is lorem ipsum een opvultekst van griekse tekst die vaak wordt gebruikt om de tekstuele elementen van een grafisch document of visuele presentatie te demonstreren.
+        \nDoor het tekstelement hiervan te voorzien kan de ontwerper vooraf het element alvast vormgeven voordat het daadwerklijke gebruikt word.
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: Om de titel/inhoud van de melding te tonen activeer dit pictogram.]]></string>
+
+    <!-- Notification info dialog -->
+    <string name="info_dialog_notification"><![CDATA[Voorkeuze app geluiden:<br>
+        <not_support_icon_text><img src="ALERT_MESSAGE_TEXT">  gemist gesprek</not_support_icon_text>
+        <support_icon_text><img src="ALERT_CALL_MESSAGE">  gemist gesprek</support_icon_text>
+        <br><img src="ALERT_MESSAGE">  SMS
+        <br><img src="ALERT_EMAIL">  Email, Gmail, Inbox
+        <br><img src="ALERT_CALENDAR">  Google Calendar
+        <br><img src="ALERT_HANGOUTS">  Hangouts
+        <br><img src="ALERT_MESSENGER">  Messenger
+        <br><img src="ALERT_SKYPE">  Skype
+        <br><img src="ALERT_VIBER">  Viber
+        <br><img src="ALERT_WHATSAPP">  WhatsApp
+        <br><img src="ALERT_LINE">  Line
+        <br><img src="ALERT_WECHAT">  WeChat
+        <br><img src="ALERT_TELEGRAM">  Telegram
+        <br><img src="ALERT_KAKAOTALK">  KakaoTalk
+        <br><img src="ALERT_VK">  VK
+        <br><img src="ALERT_YOUTUBE">  Youtube
+        <br><img src="ALERT_FACEBOOK">  Facebook
+        <br><img src="ALERT_TWITTER">  Twitter
+        <br><img src="ALERT_SNAPCHAT">  Snapchat
+        <br><img src="ALERT_INSTAGRAM">  Instagram
+        <br><img src="ALERT_POKEMONGO">  Pokémon GO
+        <br><img src="ALERT_MOMO">  Momo
+        <br><img src="ALERT_QIANNIU">  Qianniu
+        <br><img src="ALERT_QQ">  QQ
+        <br><img src="ALERT_WEIBO">  Weibo
+        <br><img src="ALERT_ALIPAY">  AliPay
+        <br><img src="ALERT_QZONE">  QZone
+        <br><img src="ALERT_DINGTALK">  DingTalk
+        <br><img src="ALERT_APP">  anders
+
+        <p>Vooringestelde app signalen tonen alleen het pictogram en niet het bericht.</p>
+        <p>Je moet app melding uitschakelen in de Mi Fit app.</p>
+        <p>Zelf gemaakte meldingsgroepen hebben een hogere prioriteit dan de vooraf ingestelde.</p>
+        <mi_band_2><p><img src="ALERT_MESSAGE_TEXT"> icon: kies dit pictogram om titel/inhoud van de melding te tonen.</p></mi_band_2>
+        <mi_band_hrx><p><img src="ALERT_MESSAGE_TEXT"> icon: kies dit pictogram om titel/inhoud van de melding te tonen.</p></mi_band_hrx>
+        <p>Als je binnen de vooraf ingestelde apps die je gebruikt een aantal meldingen wilt uitschakelen, maakt je een nieuwe meldingsgroep met de instelling <i>uitschakelen meldingen</i> en voegt je de apps toe</p>
+        ]]>
+    </string>
+    <!--<p>Vooraf ingestelde signalen kunnen worden uitgeschakeld: <i>verbinding en meldings instellingen/met melding</i>.</p>-->
+
+    <!-- MiBandageApp chooser dialog -->
+    <string name="action_search">Zoeken</string>
+    <string name="action_filter_notification">Meldings filter</string>
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_control">Beheren</string>
+    <string name="touch_tab_testing">Testen</string>
+    <string name="touch_tab_settings">Instelling</string>
+
+    <string name="touch_headline_call_title">Bellen beheren</string>
+    <string name="touch_headline_music_title">Muziek beheren</string>
+    <string name="touch_headline_time_title">Timer/stopwatch beheren</string>
+    <string name="touch_headline_other_title">Anders beheer</string>
+
+    <string name="touch_device_location_title">vind mijn telefoon</string>
+
+    <string name="touch_call_answer_title">Oproep beantwoorden</string>
+    <string name="touch_call_answer_speakerphone_title">Telefoon luidspreker</string>
+
+    <string name="touch_call_end_title">Oproep weigeren, beëindigen</string>
+
+    <string name="touch_call_mute_title">Oproep dempenregeling</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Alleen als je een inkomende oproep hebt</string>
+    <string name="touch_call_mute_recognition_title">Bij inkomende oproep</string>
+
+    <string name="touch_call_out_title">Oproepen</string>
+    <string name="touch_call_out_no_contact">Een contact kiezen</string>
+    <string name="touch_call_out_summary">Druk tweemaal om de oproep te beantwoorden</string>
+    <string name="touch_call_out_summary_support_call_display_button">Druk knop om de oproep te beantwoorden</string>
+    <string name="touch_call_out_speakerphone_title">Telefoon luidspreker</string>
+    <string name="touch_call_out_call_text">Oproepen: %1$s</string>
+
+    <string name="touch_device_location_not_muted_only_title">Alleen geluid als het niet is gedempt of in NS mode</string>
+
+    <string name="touch_repeat_notif_title">Herhalings meldingen</string>
+    <string name="touch_repeat_notif_clear_all">Wis alle meldingen na herhaling</string>
+
+    <string name="touch_clear_notif_title">Meldingen van telefoon wissen</string>
+
+    <string name="touch_music_play_pause_title">Muziek start, afspelen, pauze</string>
+    <string name="touch_music_skip_previous_title">Muziek start, vorig nummer</string>
+    <string name="touch_music_skip_next_title">Muziek start, volgend nummer</string>
+    <string name="touch_music_headset_only_title">Alleen als de hoofdtelefoon is aangesloten</string>
+    <string name="touch_music_launch">Start muziek</string>
+    <string name="touch_music_volume_up_title">Muziek volume ophoog</string>
+    <string name="touch_music_volume_down_title">Muziek volume omlaag</string>
+    <string name="touch_music_track_info_title">Toon muziek nummer info.</string>
+
+    <string name="touch_time_launch_title">Start tijd controle</string>
+    <string name="touch_time_launch_type_timer_title">Timer</string>
+    <string name="touch_time_launch_type_stopper_title">Stopwatch</string>
+    <string name="touch_time_launch_type_interval_title">Interval</string>
+    <string name="touch_time_launch_restart">Herstart indien in gebruik</string>
+    <string name="touch_time_reminder_title">Resterende/verstreken tijd weergeven</string>
+
+    <string name="touch_camera_title">Maak foto</string>
+    <string name="touch_camera_front_title">Voorzijde</string>
+    <string name="touch_camera_rear_title">Achterzijde</string>
+    <string name="touch_camera_install_title">Installeren</string>
+
+    <string name="touch_app_launcher1_title">App starter</string>
+    <string name="touch_app_launcher_package_no_title">Selecteer een app</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Alleen als het scherm niet is vergrendeld</string>
+
+    <string name="touch_tasker_launcher1_title">1. Taken taak starter</string>
+    <string name="touch_tasker_launcher2_title">2. Taken taak starter</string>
+    <string name="touch_tasker_launcher_no_permission_title">Taken direct instellen na Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">Externe toegang toestaan</string>
+    <string name="touch_tasker_launcher_no_task_title">Selecteer een taak</string>
+
+    <string name="touch_testing_title">Aanraak beheer</string>
+    <string name="touch_testing_second">sec.</string>
+
+    <string name="touch_setting_detection_method_title">Aanraak detectie methode</string>
+
+    <string name="touch_setting_recognition_start_title">Start de aanraakherkenning</string>
+    <string name="touch_setting_recognition_start_trigger_title">Oorzaak</string>
+    <string name="touch_setting_recognition_time_title">herkenningstijd</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s signaal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_succeeded_title">Herkenbaar aanraakpatroon</string>
+    <string name="touch_setting_recognition_failed_title">Niet Herkent aanraakpatroon</string>
+
+    <!-- Touch monitoring info dialog -->
+    <string name="info_dialog_touch"><![CDATA[De aanraakherkenning is geldig indien het scherm van Band verandert (het is raadzaam om je pols te draaien voordat je aanraakt).
+        <p>Het controleerd de tussentijd van de aanrakingen, niet de verstreken tijd vanaf de eerste keer aanraking.</p>
+        <p>Groene pictogrammen op de kaarten geven aan welke andere functie vergelijkbaar kan zijn met het huidige patroon.</p>
+        <p>Bij een inkomende oproep, herkent de telefoon de volgende functies voor gemakkelijke aanraakinvoer: locatie van de telefoon, herhaalmeldingen, muziekbesturing.</p>
+        <p>In de testmodus wordt de functie van herkend patroon niet uitgevoerd.</p>
+        <p>Alleen trillingsfeedback als er een patroon is dat rekening houdt met de huidige status van de telefoon (beantwoorden van oproepen, weigeren alleen als er een inkomende oproep is ...).</p>
+        <p>Band trilt eenmaal, wanneer een patroon herkend wordt.</p>
+        <p>Band trilt tweemaal, als het patroon na het grootste patroon niet word herkent (als <i>niet herkenbaar aanraakpatroonsignaal</i> is ingesteld!).</p>
+        <p>Geldige aanrakingsvoorbeelden:
+        <br>- Aanraking
+        <br>- anraken en 1 sec pauze, aanraken
+        <br>- anraken en 1 sec pauze, aanraken en 1 sec pauze, aanraken
+        <br>- anraken en 2 sec pauze, aanraken
+        <br>- anraken en 2 sec pauze, aanraken en 1 sec pauze, aanraken
+        <br>- anraken en 2 sec pauze, aanraken en 2 sec pauze, aanraken
+        </p>
+    ]]></string>
+
+    <!-- Touch monitoring info dialog Mi Band 3/Amazfit Cor-->
+    <string name="info_dialog_touch_not_supported"><![CDATA[
+        <b><u>Energiebesparende modus</u></b>
+        <p>Het verhoogt niet het batterijverbruik.</p>
+        <img src="ic_touch_pulse"> Hartslag meeting
+        <mi_band_3><p>Op de armband, in de hartslag meetingsfunctie, start de meting (lange aanraking)en onderbreek na 1 seconde de meting (één aanraking).</p></mi_band_3>
+        <amazfit_cor><p>Op de armband, start de hartslag meetingsfunctie (status) en onderbreekt na 1 seconde deze meting (veeg naar rechts).</p></amazfit_cor>
+        <p>Het moet worden uitgeschakeld tijdens continue, online hartslagmeting en oefening.<p>
+        <b><u>Prestatie modus</u></b>
+        <p>Verhoogt het batterijverbruik. Alleen op startscherm aan zetten indien nodig.</p>
+        <img src="ic_touch_app"> Aanraking
+        <mi_band_3><p>Touch is valid when the <mi_band_type> scherm is uit.</p></mi_band_3>
+        <amazfit_cor><p>De knop onder het <mi_band_type> scherm.</p></amazfit_cor>
+        <img src="ic_touch_wrist"> Polsbeweging
+        <p>De polsbeweging is herkend als de <mi_band_type> scherm aan gaat.</p>
+        <img src="ic_call"> <b><u>Oproep controle</b></u>
+        <p>Het is altijd actief, zelfs als aanraakbeheer is uitgeschakeld.</p>
+        <br><p>In testmodus wordt de functie van een herkend patroon niet uitgevoerd.</p>
+        <p>Alleen trillingsfeedback wanneer er een patroon is waarbij rekening wordt gehouden met de huidige status van de telefoon (beantwoorden van oproepen, weigering alleen als er een inkomende oproep is ...).</p>
+        <p>Band trild éénmaal, als het patroon is herkent.</p>
+        <p>Band trild tweemaal, wanneer er geen patroon herkent is na het langste patroon (als <i> Niet herkenbaar aanraakpatroon signaal</i> is ingesteld).</p>
+    ]]></string>
+
+    <!-- Step monitoring -->
+    <string name="action_tracker_step">Stappen</string>
+    <string name="action_tracker_distance">Afstand</string>
+    <string name="action_tracker_calorie">Calorieën</string>
+    <string name="action_chart_filter_activity_no">Geen filter</string>
+    <string name="action_chart_filter_activity_active">Bewegingsfilter</string>
+
+    <string name="step_tab_day">Dag tabel</string>
+    <string name="step_tab_week">Week tabel</string>
+    <string name="step_tab_month">Maand tabel</string>
+    <string name="step_tab_goal">Activiteiten doelen</string>
+    <string name="step_tab_settings">Instellingen</string>
+
+    <string name="activity_progress_title_prepare">Voorbereiden op synchronisatie...</string>
+    <string name="activity_progress_title_sync">Data synchronisatie %1$,d%%</string>
+    <string name="activity_progress_title_save">Data opslaan (%2$s) %1$,d%%</string>
+
+    <string name="step_title_timing">Timer</string>
+    <string name="step_interval_title">Herhaal interval van stappenbeheer</string>
+    <string name="step_time_set_next">Timing van de volgende controle</string>
+
+    <string name="step_goal_default_title">Standaard doel</string>
+    <string name="step_goal_type_title">Extra doelen</string>
+    <string name="step_details">Details Activiteiten</string>
+
+    <string name="info_dialog_step"><![CDATA[
+        <img src="ic_activity_active"> dagelijkse stappen/afstand/calorieën totaal
+        <br><br><img src="ic_timelapse"> actieve tijd
+        <br><br><img src="ic_activity_get_up"> tijdstip opstaan
+        <br><br><img src="ic_activity_awake"> tijdstip wakker worden
+        <br><br><img src="ic_activity_rest_sofa"> rust/zitten tijd na ontwaken 
+        <br><br><img src="ic_activity_go_to_bed"> tijdstip naar bed
+        <br><br><img src="ic_battery_charging_full"> batterij opladen
+        <br><br><img src="ic_activity_block"> armband niet om
+        ]]>
+    </string>
+
+    <!-- Sleep monitoring -->
+    <string name="sleep_tab_day">Dag tabel</string>
+    <string name="sleep_tab_week">Week tabel</string>
+    <string name="sleep_tab_month">Maand tabel</string>
+    <string name="sleep_tab_settings">Instellingen</string>
+
+    <string name="action_chart_sleep_type_phase">Stadium</string>
+    <string name="action_chart_sleep_type_time">Tijd</string>
+
+    <string name="sleep_details">Slaap details</string>
+    <string name="sleep_assistant">Hartslag slaap assistent</string>
+    <string name="sleep_assistant_summary">Het verkrijgen van meer gedetaileerde slaapgegevens (verlaagd het energieniveau van de batterij)</string>
+    <string name="sleep_assistant_show_pulse">Toon de gemeten hartslagwaarden in de dagelijkse tabel</string>
+
+    <string name="info_dialog_sleep"><![CDATA[
+        <img src="ic_timelapse"> slaap tijd
+        <br><br><img src="ic_activity_sleep_deep"> diepe slaap tijd
+        <br><br><img src="ic_activity_go_to_bed"> naar bed/wakker tijd
+        <br><br><img src="ic_activity_sleep_start"> tijdstip slapen/lichte slaaptijd
+        <br><br><img src="ic_activity_sleep_time"> totale tijd
+        <br><br><img src="ic_activity_sleep_end"> einde slaaptijd
+        <br><br><img src="ic_activity_get_up"> tijdstip van opstaan
+        <br><br><img src="ic_activity_active"> actieve tijd
+        <br><br><img src="ic_activity_block"> armband niet om
+        ]]>
+    </string>
+
+    <!-- Pulse  monitoring -->
+    <string name="action_pulse_current">Huidige hartslag</string>
+
+    <string name="pulse_tab_day">Dag tabel</string>
+    <string name="pulse_tab_week">Week tabel</string>
+    <string name="pulse_tab_month">Maand tabel</string>
+    <string name="pulse_tab_settings_online">Online instellingen</string>
+    <string name="pulse_tab_settings_offline">Offline instellingen</string>
+    <string name="pulse_tab_settings_continuous">Continue instellingen</string>
+
+    <string name="pulse_online_title">Online hartslagmeeting</string>
+    <string name="pulse_offline_title">Offline hartslagmeeting</string>
+    <string name="pulse_continuous_title">Continue hartslagmeeting</string>
+
+    <string name="action_chart_pulse_type_pulse">Hartslag</string>
+    <string name="action_chart_pulse_type_pulse_and_step">Hartslag bij activiteit</string>
+
+    <string name="pulse_continuous_chart_title">Tabel</string>
+    <string name="pulse_continuous_autostart">Automatisch starten bij beginnen van een Mi Fit activiteit</string>
+
+    <string name="pulse_notification_shade">Tabel op de meldingsstrook</string>
+    <string name="pulse_title_signals">Signalen</string>
+    <string name="pulse_signal_start_title">Beheer start signaal</string>
+    <string name="pulse_signal_show_title">Hartslag tonen</string>
+    <string name="pulse_signal_end_low_title">Lage hartslag signaal</string>
+    <string name="pulse_signal_end_title">Hoge hartslag signaal</string>
+
+    <string name="pulse_title_timing_validity">Timing en geldigheid</string>
+    <string name="pulse_value_min">Geldige lagere waarde</string>
+    <string name="pulse_value_max">Geldige hogere waarde</string>
+    <string name="pulse_value_invalid">Ongeldige waarde</string>
+
+    <string name="pulse_offline_timed_title">Getimede meeting</string>
+
+    <string name="pulse_chart_expandable_title">Melding is uitbreidbaar</string>
+    <string name="pulse_interval_title">Herhaal interval van hartslagmetingen</string>
+    <string name="pulse_all_day">Hele-dag</string>
+    <string name="pulse_time_set_next">Timing de volgende meeting</string>
+
+    <string name="pulse_details">Hartslag details</string>
+
+    <string name="message_pulse_premium_mode_only">Online en offline hartslagmeting kan alleen in de premium modus tegelijkertijd worden gebruikt</string>
+
+    <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Online hartslagmeting</u></b>
+        <p>Bluetooth verbinding is vereist voor het meten van de hartslag.</p>
+        <p>Hartslag meeting wordt meerdere keren herhaald als het resultaat ongeldig is.<p>
+        <img src="ic_pulse_offline"> <b><u>Offline hartslagmeting</u></b>
+        <p>Bluetooth verbinding is niet vereist voor de hartslag meeting.</p>
+        <p>Bluetooth verbinding is vereist voor getimede start en stop.</p>
+        <p>Handmatig gestarte metingen (Band, Mi Fit app) worden ook gesynchroniseerd.<p>
+        ]]>
+    </string>
+
+    <!-- Lost monitoring -->
+    <string name="alarm_mi_band_title">%1$s signaal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="alarm_mi_band_dnd">Niet Storen mode</string>
+    <string name="alarm_mi_band_interval_title">Herhaal interval van alarminstelling</string>
+    <string name="alarm_mi_band_time_set_next">Timing volgende instelling</string>
+    <string name="alarm_mi_band_time">Timing volgend alarm</string>
+
+    <string name="alarm_mi_band_disconnected_message">Geen Verbinding</string> <!-- Max. 16 characters length -->
+
+    <string name="pref_cat_abandoned">Telefoon signaal</string>
+    <string name="pref_abandoned_notif_interval_title">Signaal interval herhaling</string>
+    <string name="pref_abandoned_notif_text_summary">Bericht op telefoonscherm</string>
+    <string name="pref_abandoned_notif_text_text">Telefoon is verloren, bel de volgende nummers:</string>
+    <string name="pref_abandoned_ringtone_title">Beltone</string>
+    <string name="pref_abandoned_vibration_title">Trillen</string>
+    <string name="pref_abandoned_wakelock_title">Ontwaakscherm</string>
+    <string name="pref_abandoned_notif_title">Telefoon is verloren</string>
+
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Controle kwijt %1$s signaal is ingeschakeld</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm tijd: %1$s</string>
+
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>Band signaal</u></b>
+        <p>Wanneer opgegeven periode verstreken is, verzendt Band signalen als deze niet met de telefoon is gekoppeld.</p>
+        <not_support_icon_text><p>App maakt gebruik van alarmfunctie van Mi Fit om te waarschuwen (overschrijven instelling 10).</p></not_support_icon_text>
+        <not_support_icon_text><p>Het alarm zal verschillende keren worden herhaald als de Band geen beweging detecteert (omdat deze het Bandalarm gebruikt).</p></p></not_support_icon_text>
+        <support_icon_text><p>App maakt gebruik van herinneringsfunctie van Mi Fit om te waarschuwen.</p></support_icon_text>
+        <p>Voordat je Bluetooth uitschakelt of de app verwijdert, moet u het Bandsignaal deactiveren.</p>
+        <not_support_icon_text><p>Als je de toepassing verwijdert terwijl het alarm is ingeschakeld, kan je dit uitschakelen door Mi Fit instelling 10. opnieuw in en uit te schakelen.</p></not_support_icon_text>
+
+        <img src="ic_phone_android"> <b><u>Telefoon signalen</u></b>
+        <p>Wanneer de opgegeven periode is verstreken, alarmeert de telefoon herhaaldelijk via signalen dat de armband niet meer is gekoppeld.<p>
+        <p>Dit maakt het gemakkelijker om de telefoon terug te vinden. Als iemand anders de telefoon vindt en deze is vergrendeld, weet hij niet wie hij moet waarschuwen, kan jij een bericht weergeven.</p>
+        <p>Wanneer de armband is aangesloten, stopt het alarm.</p>
+        <p>Moet ingeschakeld zijn om meldingen op het vergrendelscherm weer te geven.</p>]]>
+    </string>
+
+    <!-- Time  monitoring -->
+    <string name="time_tab_alarm">Alarm</string>
+    <string name="time_tab_timer">Timer</string>
+    <string name="time_tab_stopper">Stopwatch</string>
+    <string name="time_tab_lap">Rondetijd</string>
+    <string name="time_tab_interval">Interval</string>
+
+    <string name="action_alarm_device">Telefoon alarm</string>
+    <string name="time_alarm_mi_band_signal">Signaal wanneer het telefoonalarm klinkt</string>
+    <string name="time_alarm_mi_band_signal_alarm_off">Alarm uit na tweede aanraking</string>
+    <string name="time_alarm_title">Titel</string>
+    <string name="time_alarm_pre_alarm">Herinneringssignaal, resterende tijd</string>
+    <string name="time_alarm_pre_alarm_interval_title">Voor de tijd</string>
+    <string name="time_alarm_pre_alarm_type_vibrate_title">Trillen</string>
+    <string name="time_alarm_pre_alarm_type_remaining_title">Resterende tijd</string>
+
+    <string name="time_timer_time_alert">Alarm tijd</string>
+    <string name="time_timer_time_remaining">Resterende tijd</string>
+
+    <string name="time_timer_reminder">Herinneringssignaal, resterende tijd</string>
+    <string name="time_timer_reminder_interval_before_title">Voor de tijd</string>
+    <string name="time_timer_reminder_interval_repeat_title">Herinnering herhaal interval</string>
+
+    <string name="time_stopper_time_alert">Alarm tijd</string>
+    <string name="time_stopper_time_elapsed">Verstreken tijd</string>
+
+    <string name="time_stopper_reminder">Herinneringssignaal, verstreken tijd</string>
+    <string name="time_stopper_reminder_interval_before_title">Voor de tijd</string>
+    <string name="time_stopper_reminder_interval_repeat_title">Herinnering herhaal interval</string>
+
+    <string name="time_stopper_touch">Rondetijd, Aanraak controle</string>
+    <string name="time_stopper_touch_record">Rondetijd opnamestart na enkele aanraking</string>
+    <string name="time_stopper_touch_show">Rondetijd weergave na enkele aanraking</string>
+    <string name="time_stopper_touch_time_format">Tijd opmaak</string>
+    <string name="time_stopper_touch_time_format_minute">uur \u2032 min \u2033</string>
+    <string name="time_stopper_touch_time_format_second">min \u2032 seconde \u2033</string>
+
+    <string name="time_lap_details">Rondetijd details</string>
+
+    <string name="time_mode_timer_title">Timing</string>
+    <string name="time_mode_time_title">Tijd</string>
+
+    <string name="time_alert">Alarm type</string>
+    <string name="time_alert_bell_title">Klok</string>
+    <string name="time_alert_alarm_title">Alarm</string>
+
+    <string name="time_interval_time_total">Totaal tijd</string>
+    <string name="time_interval_counter">Aantal herhalingen</string>
+    <string name="time_interval_time_alert">Eind tijd</string>
+    <string name="time_interval_time_current">Herhaling, verstreken intervaltijd</string>
+    <string name="time_interval_title">Titel</string>
+    <string name="time_interval_time">Intervaltijd</string>
+
+    <string name="time_text">Bij alarm toon bericht</string>
+    <string name="time_text_message">Tekst</string>
+
+    <string name="time_enable_bluetooth">Bluetooth inschakelen</string>
+
+    <string name="info_dialog_time"><![CDATA[
+        <p><b>Schakel het alarm, de timer en de stopwatch uit voordat u de toepassing verwijdert.</b></p>
+        <img src="ic_device_alarm"> <b><u>Als telefoonalarm klinkt signaal geven</u></b>
+        <p>Niet alle telefoons worden ondersteund. Als de ingebouwde wekker van uw telefoon niet werkt, downloadt u Google Clock van Google Play.</p>
+        <img src="ic_miband_bell"> <b><u>Klok</u></b>
+        <p>Bluetooth verbinding is vereist voor het alarm, het gaat slechts één keer gedurende 10 seconden af.</p>
+        <img src="ic_alarm"> <b><u>Alarm</u></b>
+        <p>Bluetooth verbinding is niet vereist voor het alarm, app gebruikt alarmfunctie van Mi Fit om te waarschuwen (overschrijf instelling 4.- 9.).
+        <br>Het alarm zal verschillende keren worden herhaald als de Band geen beweging detecteert (omdat het alarm van de Band wordt gebruikt).
+        <br>Minuut nauwkeurigheid, Band herkent geen seconden bij alarmsetting.</p>
+        <p>Herinneringssignaal en meldingsbericht vereisen een Bluetooth verbinding.</p>
+    ]]></string>
+
+    <!-- Reminder -->
+    <string name="reminder_tab_once">Eenmaal</string>
+    <string name="reminder_tab_weekly">Weeklijks</string>
+
+    <string name="reminder_repeat">Herhaling per uur</string>
+    <string name="reminder_notification_shade">Melding op de telefoon</string>
+
+    <string name="message_reminder_enabled">Herinnering ingeschakeld</string>
+    <string name="message_reminder_disabled">Herinnering uitgeschakeld</string>
+    <string name="message_reminder_no_more">Kan niet meer herinneringen opnemen</string>
+
+    <string name="info_dialog_reminder"><![CDATA[
+        <not_support_icon_text>Bluetooth verbinding is vereist om de herinnering weer te geven.</not_support_icon_text>
+        <support_icon_text>App maakt gebruik van herinneringsfunctie van Mi Fit, dus in Mi Fit moet je de herinneringen wissen.</support_icon_text>
+        ]]>
+    </string>
+
+    <!-- Weather  -->
+    <string name="weather_tab_weather_forecast">Weer</string>
+    <string name="weather_tab_settings">Instellingen</string>
+
+    <string name="weather_title">Weersverwachting</string>
+    <string name="weather_location_title">Locatie</string>
+    <string name="weather_city_title">Plaats</string>
+    <string name="weather_unit_title">Eenheid</string>
+
+    <string name="weather_current_title">Huidig weer</string>
+    <string name="weather_current_temperature">Huidige temperatuur</string>
+
+    <string name="weather_forecast_title">Weersverwachting</string>
+
+    <string name="weather_display">Scherm</string>
+
+    <!-- Watch face -->
+    <string name="watch_face_default_title">Klokthema\'s</string>
+
+    <string name="watch_face_init_title">Initialisatie</string>
+    <string name="watch_face_init_content"><![CDATA[In de Mi Fit app stel je een van de fabrieks klokthema\'s in.
+        <br>Je moet tijdens het uploaden hetzelfde klokthema selecteren.
+        <br><i>(initialisatie is eenmalig nodig)</i>
+    ]]></string>
+
+    <string name="watch_face_download_title">Download</string>
+    <string name="watch_face_download_path">Bewaar de gedownloade klokthema bestanden hier:</string>
+    <string name="watch_face_download_name">Bestandsnaam</string>
+    <string name="watch_face_download_move">Verplaats de gedownloade klokthema bestanden uit de %1$s map</string>
+
+    <string name="watch_face_upload_title">Upload</string>
+    <string name="watch_face_upload_empty_title"><![CDATA[Klokthema niet gevonden
+        <br><i>(%1$s)</i>
+    ]]></string>
+    <string name="message_watch_face_upload_error">Initialisatie is nodig</string>
+
+    <string name="info_dialog_watch_face"><![CDATA[<b><u>Klokthema wissel procedure:</u></b>
+        <br><br><img src="ic_mi_fit_init"> <b>1. Initialisatie</b>
+        <p>Zet de status van de klokthema terug op het origineel in de Mi Fit app en upload de eerste fabrieks klokthema.
+
+        <br><br><b>2. Download</b>
+        <p>Download klokthema\'s van de websites.
+
+        <br><br><img src="ic_content_duplicate"> <b>3. Bestanden verplaatsen</b>
+        <p>Indien nodig, verplaats de gedownloade klokthema bestanden vanuit de downloadmap naar de Mi Bandage map.
+
+        <br><br><img src="ic_mi_fit_upload"> <b>4. Upload</b>
+        <p>Upload het geselecteerde klokthema in Mi Fit. Het vervangt de vorige geüploade fabrieks klokthema.
+
+        <br><br><br><b><u>Upload meerdere klokthema\'s</u></b>
+        <p><img src="ic_action_launch_mi_fit"> Mi Fit starten zonder het klokthema te veranderen, upload de tweede fabrieks klokthema.
+        <p><img src="ic_mi_fit_upload">  Upload het geselecteerde klokthema in de Mi Fit.
+        <p>Deze stappen herhalen.
+
+        <br><br>In de Mi Fit verandert de klokthema afbeelding niet.
+        ]]>
+    </string>
+
+    <!-- Agent -->
+    <string name="agent_title">Apparaat controle management</string>
+    <string name="agent_tab_events">Controle log</string>
+    <string name="agent_tab_settings">Instellingen</string>
+
+    <string name="pref_disconnected_agent_summary_on">Als iemand met de telefoon heeft geknoeid terwijl u weg bent, krijgt je een seintje</string>
+    <string name="pref_disconnected_agent_text">Iemand heeft met de telefoon geknoeid toen je weg was</string>
+    <string name="pref_disconnected_agent_user_present_title">Toon telefoon beheerscherm</string>
+    <string name="pref_disconnected_agent_screen_on_and_motion_title">Inschakelen en bewegings beheer</string>
+
+    <!-- Agent log info dialog -->
+    <string name="info_dialog_disconnected_agent"><![CDATA[Gebeurtenissen gedetecteerde door telefoon controle management:
+        <br>- Inschakelen
+        <br>- Scherm deblokkeren
+        <br>- ‫Beweging gedetecteerd
+
+        <p>Als iemand je telefoon heeft gebruikt tijdens je afwezigheid dan word hiervan een logbestand gemaakt.</p>
+        <p>Als je zelf weer contact maakt krijg je een melding dat zo\'n voorval zich heeft voorgedaan.</p>]]>
+    </string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Thema</string>
+    <string name="theme_tab_widget">Widgets</string>
+    <string name="theme_tab_notification">Meldings strook</string>
+
+    <string name="theme_title">Selecteer een thema</string>
+    <string name="theme_background_color_title">Achtergrond kleur</string>
+
+    <string name="theme_widget_foreground_title">Voorgrond</string>
+    <string name="theme_widget_foreground_color_title">Icon en tekst kleur</string>
+    <string name="theme_widget_background_title">Achtergrond</string>
+    <string name="theme_widget_background_color_title">Kleur</string>
+    <string name="theme_widget_background_shape_title">Vorm</string>
+    <string name="theme_widget_background_transparency_title">Transparantie</string>
+
+    <string name="theme_widget_touch_event_title">Aanraak moment</string>
+
+    <string name="theme_notification_title">Toon status in meldings balk</string>
+    <string name="theme_notification_summary">Het Android systeem forceert een service stop indien het geheugen bijna vol is. Als na een tijdje nog geen meldingen verschijnen op de Band 2, kan je dit voorkomen.</string>
+    <string name="theme_notification_summary_foreground_service">Android 8 en hoger zijn vereist om het pictogram in de meldingsbalk weer te geven. Veeg naar links of rechts op de meldingsbalk om het pictogram te verbergen. Als de melding verborgen is, schakelt u deze instelling voor optimaal gebruik uit.</string>
+    <string name="theme_notification_color_title">Pictogram kleur</string>
+    <string name="theme_notification_text_color_title">Tekst kleur</string>
+
+    <!-- Backup and restore -->
+    <string name="backup_tab_backup">Backup</string>
+    <string name="backup_tab_restore">Herstellen</string>
+
+    <string name="backup_time">Backup tijd</string>
+    <string name="backup_path">Backup lokatie</string>
+    <string name="backup_auto">Automatische backup</string>
+    <string name="backup_auto_time">Tijd</string>
+
+    <string name="backup_process">Voorbereiding…</string>
+    <string name="backup_process_activity">Activiteiten en slapen %1$,d%%</string>
+    <string name="backup_process_pulse">Hartslag %1$,d%%</string>
+    <string name="backup_process_notification">Meldingen %1$,d%%</string>
+    <string name="backup_process_touch">Aanraking %1$,d%%</string>
+    <string name="backup_process_time">Tijd %1$,d%%</string>
+    <string name="backup_process_reminder">Herinnering gebeurtenis %1$,d%%</string>
+    <string name="backup_process_weather">Weer %1$,d%%</string>
+    <string name="backup_process_alarm">Verloren %1$,d%%</string>
+    <string name="backup_process_disconnected_agent">Beheer %1$,d%%</string>
+    <string name="backup_process_settings">Instellingen %1$,d%%</string>
+
+    <string name="backup_restore_activity">Activiteiten en slapen</string>
+    <string name="backup_restore_pulse">Hartslag</string>
+    <string name="backup_restore_notification">Meldingen</string>
+    <string name="backup_restore_touch">Aanraking</string>
+    <string name="backup_restore_time">Tijd</string>
+    <string name="backup_restore_reminder">Herinnering gebeurtenis</string>
+    <string name="backup_restore_weather">Weer</string>
+    <string name="backup_restore_alarm">Verloren</string>
+    <string name="backup_restore_disconnected_agent">Beheer</string>
+    <string name="backup_restore_settings">Instellingen</string>
+
+    <string name="backup_restore_reset">Na herstel word Bluetooth uitgeschakeld en weer in en zal de applicatie opnieuw starten.</string>
+
+    <!-- Rewarded mode -->
+    <string name="rewarded_policy_title">Algemene voorwaarden van de Rewarded modus</string>
+    <string name="rewarded_policy"><![CDATA[
+        <p>- start of validity: huidige tijd
+        <br>- end of validity: start van validatie + tenminste %1$,d dagen (afhankelijk van toevoegingen kan het meer zijn)
+        <br>- tijd manipulatie kan leiden tot beëindiging van de validatie</p>
+        <i>Na het afspelen van de video moet je de app opnieuw opstarten.</i>
+    ]]></string>
+
+    <string name="rewarded_advantage_banner_title">Blokkeer de banneradvertenties</string>
+    <string name="rewarded_advantage_interstitial_title">Blokkeer de interstitiële advertenties</string>
+
+    <string name="rewarded_advantage_time_range">Validitie</string>
+    <string name="rewarded_advantage_button_play">Video afspelen</string>
+
+    <string name="message_rewarded_error">Het starten van de video is mislukt</string>
+
+    <!-- Premium mode -->
+    <string name="purchase_advantage_title">Voordelen Premium modus</string>
+    <string name="purchase_advantage"><![CDATA[
+        <p>- geen reclame</p>
+        <p>- Niet Storen modus</p>
+        <p>- onbeperkte meldingen beheer</p>
+        <mi_band_2><p>- onbeperkte aanrakingsbeheer</p></mi_band_2>
+        <amazfit_bip_watch><p>- onbeperkte aanrakingsbeheer</p></amazfit_bip_watch>
+        <p>- tekst voorloop, vooraf pictogram en filtertekst kan in meldingen beheer gebruikt worden</p>
+        <p>- herhaalinterval kan vrij worden ingesteld in de stappen beheerfunctie</p>
+        <p>- herhaalinterval kan vrij worden ingesteld en hartslag tonen ook in de hartslag beheerfunctie</p>
+        <p>- herhaalinterval kan vrij worden ingesteld en NS modus kan ook gebruikt worden bij verbroken verbindingsbeheerfunctie</p>
+        <p>- herhaalde herinneringen, berichten tonen en inschakelen bluetooth kan vrij worden ingesteld in tijdbeheer</p>
+        - …
+    ]]></string>
+    <string name="purchase_policy_title">Algemene voorwaarden van de Premium modus</string>
+    <string name="purchase_policy"><![CDATA[
+        <p>- Ik heb de app getest en deze werkt naar behoren.</p>
+        <p>- Ik ben me ervan bewust dat ik geen compensatie of terugbetaling kan eisen vanwege bugs, softwarefouten veroorzaakt door wijzigingen in de software, hardware omgeving of met behulp van andere applicaties.</p>
+        <p>- Alle aankopen zijn definitief en kunnen niet worden terugbetaald (met uitzondering van het restitutiebeleid van Google).</p>
+        <p>- Er is geen garantie inbegrepen.</p>
+        <br><p><i>Na aankoop moet je de app opnieuw opstarten.</i></p>
+    ]]></string>
+
+    <!--<string name="purchase_price">Prijs:</string>-->
+    <string name="purchase_agree">Ik ga akkoord met de algemene voorwaarden.</string>
+    <string name="purchase_order_id">Order ID</string>
+    <string name="purchase_order_id_help">Copie van:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_button_purchase">Kopen</string>
+
+    <string name="text_premium_mode_only">Alleen in Premium modus</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">Log</string>
+
+    <string name="feedback_google_play_title">Beoordeel dezes app</string>
+    <string name="feedback_request_feature_title">Functie aanvulling, bugrapport</string>
+    <string name="feedback_request_feature_summary">Automatische e-mailverwerking, u krijgt mogelijk geen reactie</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Privacybeleid</string>
+    <string name="privacy_policy_tab_eu_consent">EU toestemming van de gebruiker</string>
+
+    <string name="privacy_policy_collect_title">Informatie die we verzamelen</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>- We verzamelen alleen anonieme informatie.</p>
+        <p>- We verzamelen informatie op applicatieniveau over de services die u gebruikt en hoe u ze gebruikt (Google Firebase Platform).</p>
+        <p>- We verzamelen informatie op applicatieniveau zoals bugs, fouten en crashes om verbeteringen aan te brengen (Google Firebase Platform).</p>
+        <p>- Google Firebase Platform verzamelt informatie anoniem. Het rapporteert trends zonder individuele gebruikers te identificeren.</p>
+        - We delen geen gegevens met andere bedrijven en organisaties.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Informatie die we niet verzamelen</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>- We verzamelen geen persoonlijk identificeerbare informatie over u. Met andere woorden, wij verzamelen geen informatie zoals uw naam, adres, telefoonnummer, e-mailadres, IP-adres of MAC-adres.</p>
+        - We verzamelen geen persoonlijke gezondheidsgegevens, contacten en telefonische meldingsteksten.
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Status</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Gepersonaliseerde relevante toevoegingen</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Niet gepersonaliseerde toevoegingen die minder belangrijk zijn</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Onbekend</string>
+
+    <string name="privacy_policy_eu_consent_setting">Instellingen</string>
+
+    <!-- Vibration dialog -->
+    <string name="vibration_title">Trilling instelling</string>
+    <string name="vibration_intensity">Intensiteit</string>
+    <string name="vibration_pause">Pauze</string>
+    <string name="vibration_times">Tijden</string>
+
+    <!-- Hack -->
+    <string name="info_dialog_hack"><![CDATA[Hack gereedschap gedetecteerd op telefoon.
+        <p>Zolang het Hack gereedschap geïnstalleerd blijft, is de premium modus niet beschikbaar.</p>
+        <p>Ik heb veel tijd besteed aan de ontwikkeling van deze applicatie, dus gebruik alsjeblieft geen hackgereedschap.</p>]]>
+    </string>
+
+    <!-- Others -->
+    <string name="on">Aan</string>
+    <string name="off">Uit</string>
+    <string name="none">Geen</string>
+    <string name="bpm">BPM</string>
+    <string name="date">Datum</string>
+    <string name="time">Tijd</string>
+    <string name="time_start">Start tijd</string>
+    <string name="time_end">Eind tijd</string>
+    <string name="ringer_mode_vibrate">Trillen</string>
+    <string name="ringer_mode_silent">Dempen</string>
+    <string name="ringer_mode_dnd_priority_only">Niet Storen (alleen prioriteit)</string>
+    <string name="ringer_mode_dnd_alarms_only">Niet Storen (alleen meldingen)</string>
+    <string name="ringer_mode_dnd_total_silence">Niet Storen (totale stilte)</string>
+    <string name="unknown">Onbekend</string>
+
+    <string name="action_dismiss">Afwijzen</string>
+    <string name="action_setting">Instellingen</string>
+    <string name="action_delete">Verwijder</string>
+    <string name="action_export">Export</string>
+    <string name="action_synchronization">Synchronisatie</string>
+    <string name="action_filter_no">Geen filter</string>
+    <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_save">Bewaar</string>
+    <string name="action_test">Test</string>
+    <string name="action_discard">Afwijzen</string>
+    <string name="action_keep_editing">Bewerking bewaren</string>
+
+    <string name="action_chart">Tabel</string>
+    <string name="action_chart_normalize_minute">Gemeten waarden</string>
+    <string name="action_chart_normalize_quarter_hourly">Kwartier waarden</string>
+    <string name="action_chart_normalize_half_hourly">Halfuur waarden</string>
+    <string name="action_chart_normalize_hourly">Uur waarden</string>
+    <string name="action_chart_sort_time_asc">Tijd oplopend</string>
+    <string name="action_chart_sort_time_desc">Tijd aflopend</string>
+    <string name="action_chart_sort_step_asc">Stappen oplopend</string>
+    <string name="action_chart_sort_step_desc">Stappen aflopend</string>
+    <string name="action_chart_sort_pulse_asc">Hartslag oplopend</string>
+    <string name="action_chart_sort_pulse_desc">Hartslag aflopend</string>
+    <string name="action_chart_sort_lap_asc">Ronde oplopend</string>
+    <string name="action_chart_sort_lap_desc">Ronde aflopend</string>
+
+    <string name="power_on">Power on</string>
+    <string name="screen_unlock">Unlocking the screen</string>
+    <string name="motion">Beweging gedetecteerd</string>
+
+    <string name="required_value">Benodigd</string>
+
+    <string name="invalid_date">Ongeldige datum</string>
+    <string name="invalid_time">Ongeldige tijd</string>
+
+    <!-- Constante -->
+    <string name="const_time_abbreviation_day">d</string>
+    <string name="const_time_abbreviation_hour">u</string>
+    <string name="const_time_abbreviation_minute">m</string>
+    <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
+
+    <string name="const_number">%1$,d</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_kcal">kcal</string>
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="zero">%d uur</item>
+        <item quantity="one">%d uur</item>
+        <item quantity="two">%d uren</item>
+        <item quantity="few">%d uur</item>
+        <item quantity="many">%d uren</item>
+        <item quantity="other">%d uren</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">%d minuten</item>
+        <item quantity="one">%d minuut</item>
+        <item quantity="two">%d minuten</item>
+        <item quantity="few">%d minuten</item>
+        <item quantity="many">%d minuten</item>
+        <item quantity="other">%d minuten</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d seconden</item>
+        <item quantity="one">%d seconde</item>
+        <item quantity="two">%d seconden</item>
+        <item quantity="few">%d seconden</item>
+        <item quantity="many">%d seconden</item>
+        <item quantity="other">%d seconden</item>
+    </plurals>
+
+    <plurals name="plural_file_moved">
+        <item quantity="zero">%d bestanden verplaatst</item>
+        <item quantity="one">%d bestand verplaatst</item>
+        <item quantity="two">%d bestanden verplaatst</item>
+        <item quantity="few">%d bestanden verplaatst</item>
+        <item quantity="many">%d bestanden verplaatst</item>
+        <item quantity="other">%d bestanden verplaatst</item>
+    </plurals>
+
+
+</resources>

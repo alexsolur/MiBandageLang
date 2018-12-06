@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_connected_have_notif_counter">
+        <item>Enkel per Band icon</item>
+        <item>Aantal meldingen</item>
+        <item>1 \'app\' icon</item>
+        <item>2 \'app\' icon</item>
+        <item>3 \'app\' icon</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_counter_values">
+        <item>-2</item>
+        <item>-1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_interval">
+        <item>3 minuten</item>
+        <item>5 minuten</item>
+        <item>10 minuten</item>
+        <item>20 minuten</item>
+        <item>30 minuten</item>
+        <item>1 uur</item>
+        <item>2 uren</item>
+        <item>3 uren</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_interval_values">
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </string-array>
+
+    <string-array name="pref_abandoned_interval">
+        <item>1 minuut</item>
+        <item>2 minuten</item>
+        <item>3 minuten</item>
+        <item>4 minuten</item>
+        <item>5 minuten</item>
+        <item>6 minuten</item>
+        <item>7 minuten</item>
+        <item>8 minuten</item>
+        <item>9 minuten</item>
+        <item>10 minuten</item>
+    </string-array>
+
+    <integer-array name="pref_abandoned_interval_values">
+        <item>60000</item>
+        <item>120000</item>
+        <item>180000</item>
+        <item>240000</item>
+        <item>300000</item>
+        <item>360000</item>
+        <item>420000</item>
+        <item>480000</item>
+        <item>540000</item>
+        <item>600000</item>
+    </integer-array>
+
+    <string-array name="pref_abandoned_notif_interval">
+        <item>10 minuten</item>
+        <item>20 minuten</item>
+        <item>30 minuten</item>
+        <item>1 uur</item>
+        <item>2 uren</item>
+        <item>3 uren</item>
+    </string-array>
+
+    <integer-array name="pref_abandoned_notif_interval_values">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </integer-array>
+
+    <string-array name="notification_group_counter">
+        <item>Enkel signaal</item>
+        <item>Eenmaal per applicatie</item>
+        <item>Aantal meldingen (all)</item>
+    </string-array>
+
+    <string-array name="touch_call_mute_ringer_mode">
+        <item>Trillen</item>
+        <item>Dempen</item>
+        <item>Niet storen (alleen prioriteit)</item>
+        <item>Niet storen (alleen alarm)</item>
+        <item>Niet storen (volledige stilte)</item>
+    </string-array>
+
+    <string-array name="touch_music_player">
+        <item>Standaard muziekspeler</item>
+        <item>Huidige muziekspeler</item>
+        <item>Google Play Music</item>
+        <item>Spotify Music</item>
+    </string-array>
+
+    <string-array name="touch_music_player_values">
+        <item></item>
+        <item>ACTIVE</item>
+        <item>com.google.android.music</item>
+        <item>com.spotify.music</item>
+    </string-array>
+
+    <string-array name="touch_music_info">
+        <item>Geen melding</item>
+        <item>Artist#Title</item>
+        <item>Artist, Title</item>
+        <item>Title</item>
+    </string-array>
+
+    <string-array name="touch_music_info_values">
+        <item>NONE</item>
+        <item>ARTIST#TITLE</item>
+        <item>ARTIST_TITLE</item>
+        <item>TITLE</item>
+    </string-array>
+
+    <string-array name="touch_camera_app">
+        <item>Standaard (root is nodig)</item>
+        <item>Start Camera</item>
+    </string-array>
+
+    <string-array name="touch_camera_app_values">
+        <item></item>
+        <item>net.sourceforge.opencamera</item>
+    </string-array>
+
+    <string-array name="pref_timer_time_interval_repeat">
+        <item>uit</item>
+        <item>1 minuut</item>
+        <item>2 minuten</item>
+        <item>3 minuten</item>
+        <item>4 minuten</item>
+        <item>5 minuten</item>
+        <item>6 minuten</item>
+        <item>7 minuten</item>
+        <item>8 minuten</item>
+        <item>9 minuten</item>
+        <item>10 minuten</item>
+        <item>11 minuten</item>
+        <item>12 minuten</item>
+        <item>13 minuten</item>
+        <item>14 minuten</item>
+        <item>15 minuten</item>
+        <item>20 minuten</item>
+        <item>30 minuten</item>
+        <item>40 minuten</item>
+        <item>50 minuten</item>
+        <item>1 uur</item>
+        <item>2 uren</item>
+        <item>3 uren</item>
+        <item>4 uren</item>
+        <item>5 uren</item>
+    </string-array>
+
+    <integer-array name="pref_timer_time_interval_repeat_values">
+        <item>0</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>180000</item>
+        <item>240000</item>
+        <item>300000</item>
+        <item>360000</item>
+        <item>420000</item>
+        <item>480000</item>
+        <item>540000</item>
+        <item>600000</item>
+        <item>660000</item>
+        <item>720000</item>
+        <item>780000</item>
+        <item>840000</item>
+        <item>900000</item>
+        <item>1200000</item>
+        <item>1800000</item>
+        <item>2400000</item>
+        <item>3000000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+        <item>10800000</item>
+        <item>14400000</item>
+        <item>18000000</item>
+    </integer-array>
+
+    <string-array name="notification_group_text_content_slice">
+        <item>1 blok (1-%1$,d chars)</item>
+        <item>2 blokken (1-%1$,d chars)</item>
+        <item>3 blokken (1-%1$,d chars)</item>
+        <item>4 blokken (1-%1$,d chars)</item>
+        <item>5 blokken (1-%1$,d chars)</item>
+        <item>6 blokken (1-%1$,d chars)</item>
+        <item>7 blokken (1-%1$,d chars)</item>
+        <item>8 blokken (1-%1$,d chars)</item>
+        <item>9 blokken (1-%1$,d chars)</item>
+        <item>10 blokken (1-%1$,d chars)</item>
+    </string-array>
+
+    <integer-array name="notification_group_text_content_slice_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+
+    <string-array name="touch_recognition_press">
+        <item>Geen</item>
+        <item>1x drukken</item>
+        <item>2x drukken</item>
+        <item>3x drukken</item>
+        <item>Lang drukken</item>
+    </string-array>
+
+    <string-array name="touch_recognition_press_values">
+        <item>NONE</item>
+        <item>TOUCH</item>
+        <item>DOUBLE_TOUCH</item>
+        <item>TRIPLE_TOUCH</item>
+        <item>LONG_TOUCH</item>
+    </string-array>
+
+    <string-array name="pref_touch_detection_method">
+        <item>Energiebesparing (pulse)</item>
+        <item>Prestaties</item>
+    </string-array>
+
+    <string-array name="pref_touch_detection_method_values">
+        <item>PULSE</item>
+        <item>PERFORMANCE</item>
+    </string-array>
+
+    <string-array name="touch_recognition_start_trigger">
+        <item>Geen</item>
+        <item>Patroon</item>
+        <item>Knop lang drukken</item>
+    </string-array>
+
+    <string-array name="touch_recognition_start_trigger_values">
+        <item>NONE</item>
+        <item>PATTERN</item>
+        <item>LONG_PRESS</item>
+    </string-array>
+
+    <string-array name="pref_weather_provider_values">
+        <item>OPEN_WEATHER_MAP</item>
+        <item>DARK_SKY</item>
+        <!--<item>ACCU_WEATHER</item>-->
+    </string-array>
+
+    <string-array name="pref_weather_unit">
+        <item>Metrisch</item>
+        <item>Imperiaal</item>
+    </string-array>
+
+    <string-array name="pref_weather_unit_values">
+        <item>METRIC</item>
+        <item>IMPERIAL</item>
+    </string-array>
+
+    <string-array name="pref_weather_current_display">
+        <item>Huidig</item>
+        <item>Gemiddeld</item>
+        <item>Am, Pm</item>
+    </string-array>
+
+    <string-array name="pref_weather_current_display_values">
+        <item>CURRENT</item>
+        <item>AVERAGE</item>
+        <item>AM_PM</item>
+    </string-array>
+
+    <string-array name="pref_weather_forecast_display">
+        <item>Gemiddeld</item>
+        <item>Am, Pm</item>
+    </string-array>
+
+    <string-array name="pref_weather_forecast_display_values">
+        <item>AVERAGE</item>
+        <item>AM_PM</item>
+    </string-array>
+
+    <string-array name="widget_event">
+        <item>Bandage scherm</item>
+        <item>Activiteiten scherm</item>
+        <item>Hartslag scherm</item>
+        <item>Hartslag meeting</item>
+        <item>Alarm scherm</item>
+        <item>Herrineringen scherm</item>
+    </string-array>
+
+    <string-array name="widget_event_values">
+        <item>LAUNCH_BANDAGES</item>
+        <item>LAUNCH_ACTIVITY</item>
+        <item>LAUNCH_PULSE</item>
+        <item>ACTION_PULSE</item>
+        <item>LAUNCH_TIME_ALARM</item>
+        <item>LAUNCH_REMINDER</item>
+    </string-array>
+
+    <string-array name="pref_language">
+        <item>Default</item>
+        <item>Nederlands</item>
+        <item>English</item>
+        <item>Magyar</item>
+        <item>Русский</item>
+        <item>Português</item>
+        <item>Español</item>
+        <item>Italiano</item>
+        <item>Türk</item>
+        <item>Polish</item>
+        <item>Tiếng Việt</item>
+        <item>Deutsche</item>
+        <item>Čeština</item>
+        <item>Français</item>
+        <item>Norsk</item>
+        <item>Ελληνικά</item>
+        <item>Indonesia</item>
+        <item>中文</item>
+    </string-array>
+
+    <string-array name="pref_language_values">
+        <item>DEFAULT</item>
+        <item>nl</item>
+        <item>en</item>
+        <item>hu</item>
+        <item>ru</item>
+        <item>pt</item>
+        <item>es</item>
+        <item>it</item>
+        <item>tr</item>
+        <item>pl</item>
+        <item>vi</item>
+        <item>de</item>
+        <item>cs</item>
+        <item>fr</item>
+        <item>no</item>
+        <item>el</item>
+        <item>in</item>
+        <item>zh</item>
+    </string-array>
+
+    <string-array name="pref_language_mi_band_3">
+        <item>Not set (set by Mi Fit)</item>
+        <item>Default (by phone)</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Português</item>
+        <item>Русский</item>
+        <item>Deutsche</item>
+        <item>Italiano</item>
+        <item>Français</item>
+        <item>Polski</item>
+        <item>한국어</item>
+        <item>Tiếng Việt</item>
+        <item>ไทย</item>
+        <item>简体中文</item>
+        <item>繁體中文</item>
+        <item>日本語</item>
+        <item>عربى</item>
+    </string-array>
+
+    <string-array name="pref_language_mi_band_3_values">
+        <item></item>
+        <item>DEFAULT</item>
+        <item>en_US</item>
+        <item>es_ES</item>
+        <item>pt_PT</item>
+        <item>ru_RU</item>
+        <item>de_DE</item>
+        <item>it_IT</item>
+        <item>fr_FR</item>
+        <item>pl_PL</item>
+        <item>ko_KO</item>
+        <item>vi_VN</item>
+        <item>th_TH</item>
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+        <item>ja_JP</item>
+        <item>ar_SA</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_bip_watch">
+        <item>Not set (set by Mi Fit)</item>
+        <item>Default (by phone)</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Русский</item>
+        <item>繁體中文</item>
+        <item>简体中文</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_bip_watch_values">
+        <item></item>
+        <item>DEFAULT</item>
+        <item>en_US</item>
+        <item>es_ES</item>
+        <item>ru_RU</item>
+        <item>zh_TW</item>
+        <item>zh_CN</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_cor">
+        <item>Not set (set by Mi Fit)</item>
+        <item>Default (by phone)</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Русский</item>
+        <item>繁體中文</item>
+        <item>简体中文</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_cor_values">
+        <item></item>
+        <item>DEFAULT</item>
+        <item>en_US</item>
+        <item>es_ES</item>
+        <item>ru_RU</item>
+        <item>zh_TW</item>
+        <item>zh_CN</item>
+    </string-array>
+</resources>
