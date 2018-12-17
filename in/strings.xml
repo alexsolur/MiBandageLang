@@ -535,9 +535,9 @@
 
     <!-- Touch monitoring info dialog Mi Band 3/Amazfit Cor-->
     <string name="info_dialog_touch_not_supported"><![CDATA[
-        <b><u>Power saving mode</u></b>
-        <p>It does not increase battery consumption.</p>
-        <img src="ic_touch_pulse"> Pulse measurement
+        <b><u>Mode hemat daya</u></b>
+        <p>Tidak meningkatkan penggunaan daya baterai.</p>
+        <img src="ic_touch_pulse"> Pengukuran detak
         <mi_band_3><p>On the bracelet, in the pulse measurement function, start the measurement (long touch) and then interrupt the measurement (one touch) after 1 second.</p></mi_band_3>
         <amazfit_cor><p>On the bracelet, start the pulse measurement function (Status) and then interrupt the measurement (swipe right) after 1 second.</p></amazfit_cor>
         <p>It must be turn off during continuous, online pulse measurement and exercise.<p>
@@ -600,7 +600,7 @@
     <string name="sleep_tab_settings">Atur</string>
 
     <string name="action_chart_sleep_type_phase">Fase</string>
-    <string name="action_chart_sleep_type_time">Time</string>
+    <string name="action_chart_sleep_type_time">Waktu</string>
 
     <string name="sleep_details">Rincian Tidur</string>
     <string name="sleep_assistant">Asisten detak jantung saat tidur</string>
@@ -626,21 +626,21 @@
     <string name="pulse_tab_day">Bagan harian</string>
     <string name="pulse_tab_week">Bagan mingguan</string>
     <string name="pulse_tab_month">Bagan bulanan</string>
-    <string name="pulse_tab_settings_online">Online setting</string>
-    <string name="pulse_tab_settings_offline">Offline setting</string>
-    <string name="pulse_tab_settings_continuous">Continuous setting</string>
+    <string name="pulse_tab_settings_online">Pengaturan online</string>
+    <string name="pulse_tab_settings_offline">Pengaturan offline</string>
+    <string name="pulse_tab_settings_continuous">Pengaturan berkala</string>
 
-    <string name="pulse_online_title">Online pulse measurement</string>
-    <string name="pulse_offline_title">Offline pulse measurement</string>
-    <string name="pulse_continuous_title">Continuous pulse measurement</string>
+    <string name="pulse_online_title">Pengukuran detak secara online</string>
+    <string name="pulse_offline_title">Pengukuran detak secara offline</string>
+    <string name="pulse_continuous_title">Pengukuran detak secara berkala</string>
 
     <string name="action_chart_pulse_type_pulse">Detakan</string>
     <string name="action_chart_pulse_type_pulse_and_step">Detakan dan aktifitas</string>
 
     <string name="pulse_continuous_chart_title">Grafik</string>
-    <string name="pulse_continuous_autostart">Autostart when starting Mi Fit activity</string>
+    <string name="pulse_continuous_autostart">Otomatis nyala ketika memulai aktifitas pada aplikasi Mi Fit</string>
 
-    <string name="pulse_notification_shade">Chart on the notification shade</string>
+    <string name="pulse_notification_shade">Grafik pada jendela notifikasi</string>
     <string name="pulse_title_signals">Tanda</string>
     <string name="pulse_signal_start_title">Tanda pemantauan dimulai</string>
     <string name="pulse_signal_show_title">Tampilkan detak</string>
@@ -652,11 +652,11 @@
     <string name="pulse_value_max">Valid nilai tertinggi</string>
     <string name="pulse_value_invalid">Nilai salah</string>
 
-    <string name="pulse_offline_timed_title">Timed measurement</string>
+    <string name="pulse_offline_timed_title">Pengukuran Waktu</string>
 
-    <string name="pulse_chart_expandable_title">Notification is expandable</string>
+    <string name="pulse_chart_expandable_title">Notifikasi dapat diperbesar</string>
     <string name="pulse_interval_title">Interval pemantauan detak jantung berulang</string>
-    <string name="pulse_all_day">All-day</string>
+    <string name="pulse_all_day">Sepanjang hari</string>
     <string name="pulse_time_set_next">Pilih waktu untuk pemantauan selanjutnya</string>
 
     <string name="pulse_details">Rincian detak jantung</string>
@@ -783,16 +783,16 @@
     <string name="reminder_tab_once">Satu kali</string>
     <string name="reminder_tab_weekly">Mingguan</string>
 
-    <string name="reminder_repeat">Hourly repetition</string>
-    <string name="reminder_notification_shade">Notify me on the phone</string>
+    <string name="reminder_repeat">Pengulangan tiap jam</string>
+    <string name="reminder_notification_shade">Beri saya notifikasi pada ponsel</string>
 
     <string name="message_reminder_enabled">Pengingat diaktifkan</string>
     <string name="message_reminder_disabled">Pengingat dimatikan</string>
-    <string name="message_reminder_no_more">Can not record more reminders</string>
+    <string name="message_reminder_no_more">Tidak dapat merekam pengingat lagi</string>
 
     <string name="info_dialog_reminder"><![CDATA[
-        <not_support_icon_text>Bluetooth connection is required to display the reminder.</not_support_icon_text>
-        <support_icon_text>App uses reminder function of Mi Fit, so in Mi Fit you have to clear the reminders.</support_icon_text>
+        <not_support_icon_text>Koneksi Bluetooth sangat diperlukan untuk menampilkan pengingat.</not_support_icon_text>
+        <support_icon_text>Aplikasi ini menggunakan fungsi pengingat pada aplikasi Mi Fit, jadi anda harus menghapus pengingat yang ada di aplikasi tersebut.</support_icon_text>
         ]]>
     </string>
 
@@ -805,32 +805,32 @@
     <string name="weather_city_title">Kota</string>
     <string name="weather_unit_title">Satuan</string>
 
-    <string name="weather_current_title">Current weather</string>
-    <string name="weather_current_temperature">Current temperature</string>
+    <string name="weather_current_title">Cuaca saat ini</string>
+    <string name="weather_current_temperature">Temperatur saat ini</string>
 
-    <string name="weather_forecast_title">Weather forecast</string>
+    <string name="weather_forecast_title">Penyedia layanan cuaca</string>
 
-    <string name="weather_display">Display</string>
+    <string name="weather_display">Tampilan</string>
 
     <!-- Watch face -->
-    <string name="watch_face_default_title">Watch face change</string>
+    <string name="watch_face_default_title">Ubah tampian jam</string>
 
-    <string name="watch_face_init_title">Initialization</string>
-    <string name="watch_face_init_content"><![CDATA[In the Mi Fit Application set one of the factory watch face.
-        <br>You have to select the same watch face when uploading.
-        <br><i>(initialization is only required once)</i>
+    <string name="watch_face_init_title">Inisialisasi</string>
+    <string name="watch_face_init_content"><![CDATA[Pilih salah satu tampilan bawaan jam pada aplikasi Mi Fit.
+        <br>Anda harus memilih tampilan jam yang sama ketika proses mengunggah berjalan.
+        <br><i>(dibutuhkan inisialisasi sekali saja</i>
     ]]></string>
 
-    <string name="watch_face_download_title">Download</string>
-    <string name="watch_face_download_path">Save the downloaded watch face file here:</string>
-    <string name="watch_face_download_name">File name</string>
-    <string name="watch_face_download_move">Move the downloaded watch face files from the %1$s directory</string>
+    <string name="watch_face_download_title">Unduhan</string>
+    <string name="watch_face_download_path">Simpan unduhan tampilan jam disini:</string>
+    <string name="watch_face_download_name">Nama berkas</string>
+    <string name="watch_face_download_move">Pindahkan unduhan tampilan jam dari direktori %1$s</string>
 
-    <string name="watch_face_upload_title">Upload</string>
-    <string name="watch_face_upload_empty_title"><![CDATA[Watch face not found
+    <string name="watch_face_upload_title">Unggah</string>
+    <string name="watch_face_upload_empty_title"><![CDATA[Tampilan jam tidak ditemukan
         <br><i>(%1$s)</i>
     ]]></string>
-    <string name="message_watch_face_upload_error">Initialization is required</string>
+    <string name="message_watch_face_upload_error">Inisialisasi dibutuhkan</string>
 
     <string name="info_dialog_watch_face"><![CDATA[<b><u>Watch face change procedure:</u></b>
         <br><br><img src="ic_mi_fit_init"> <b>1. Initialization</b>
@@ -893,7 +893,7 @@
 
     <string name="theme_notification_title">Tampilkan status dipanel pemberitahuan</string>
     <string name="theme_notification_summary">Sistem Android menghentikan paksa layanan ketika memori rendah saja. Jika setelah beberapa saat tidak muncul notifikasi pada Band, Anda bisa mencegahnya.</string>
-    <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon. If the notification is hidden, switch off this setting for optimal performance.</string>
+    <string name="theme_notification_summary_foreground_service">Android 8 keatas membutuhkan perizinan untuk menampilkan ikon pada bar notifikasi. Geser ke kanan atau ke kiri pada notifikasi untuk menyembunyikan ikon. Jika notifikasi disembunyikan, matikan pengaturan untuk meningkatkan performa.</string>
     <string name="theme_notification_color_title">Warna ikon</string>
     <string name="theme_notification_text_color_title">Warna Teks</string>
 
@@ -903,8 +903,8 @@
 
     <string name="backup_time">Waktu pencadangan</string>
     <string name="backup_path">Lokasi pencadangan</string>
-    <string name="backup_auto">Automatic backup</string>
-    <string name="backup_auto_time">Time</string>
+    <string name="backup_auto">Cadangkan otomatis</string>
+    <string name="backup_auto_time">Waktu</string>
 
     <string name="backup_process">Persiapan…</string>
     <string name="backup_process_activity">Aktifitas dan tidur %1$,d%%</string>
@@ -991,26 +991,26 @@
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Kebijakan Privasi</string>
-    <string name="privacy_policy_tab_eu_consent">EU user consent</string>
+    <string name="privacy_policy_tab_eu_consent">Persetujuan pengguna</string>
 
-    <string name="privacy_policy_collect_title">Information we collect</string>
+    <string name="privacy_policy_collect_title">Informasi yang kami kumpulkan</string>
     <string name="privacy_policy_collect"><![CDATA[
-        <p>- We only collect anonymous information.</p>
-        <p>- We collect information at the application level about the services that you use and how you use them (Google Firebase Platform).</p>
-        <p>- We collect information at the application level like bugs, errors and crashes to provide improvements (Google Firebase Platform).</p>
-        <p>- Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.</p>
+        <p>- Kami hanya mengumpulkan informasi secara rahasia.</p>
+        <p>- Kami mengumpulkan informasi pada tingkat aplikasi tentang layanan yang anda gunakan dan bagaimana anda menggunakannya (Platform Google Firebase).</p>
+        <p>- Kami mengumpulkan informasi pada tingkat aplikasi seperti bug, error dan kegagalan kegagalan lainnya untuk perbaikan (Platform Google Firebase).</p>
+        <p>- Platform Google Firebasemengumpulkan informasi secara rahasia. Guna melaporkan kecacatan tanpa mengidentifikasi pengguna individu.</p>
         - We do not share any data with other companies and organizations.
     ]]></string>
 
-    <string name="privacy_policy_not_collect_title">Information we do not collect</string>
+    <string name="privacy_policy_not_collect_title">Informasi yang tidak kami kumpulkan</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>- We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
-        - We do not collect personal health data, contacts and phone notification text.
+        <p>- Kami tidak mengumpulkan informasi tentang identitas pribadi anda. Dengan kata lain, kami tidak mengumpulkan informasi seperti nama, alamat, nomor telepon, alamat email, alamat IP, alamat MAC.</p>
+        - Kami tidak mengumpulkan informasi kesehatan pribadi anda, kontak, dan teks notifikasi pada perangkat.
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Status</string>
-    <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Iklan yang dipersonalisasi dan relevan</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Iklan yang tidak dipersonalisasi dan kurang relevan</string>
     <string name="privacy_policy_eu_consent_title_unknown">Tidak dikenal</string>
 
     <string name="privacy_policy_eu_consent_setting">Atur</string>
@@ -1047,19 +1047,19 @@
     <string name="action_setting">Atur</string>
     <string name="action_delete">Hapus</string>
     <string name="action_export">Ekspor</string>
-    <string name="action_synchronization">Synchronization</string>
+    <string name="action_synchronization">Sinkronisasi</string>
     <string name="action_filter_no">Tidak ada filter</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
     <string name="action_save">Simpen</string>
     <string name="action_test">Test</string>
     <string name="action_discard">Hapus</string>
-    <string name="action_keep_editing">Simpan pengeditan</string>
+    <string name="action_keep_editing">Simpan perubahan</string>
 
     <string name="action_chart">Grafik</string>
     <string name="action_chart_normalize_minute">Nilai terukur</string>
-    <string name="action_chart_normalize_quarter_hourly">Quarter-hourly values</string>
-    <string name="action_chart_normalize_half_hourly">Half-hourly values</string>
+    <string name="action_chart_normalize_quarter_hourly">Nilai Seperempat Jam</string>
+    <string name="action_chart_normalize_half_hourly">Nilai Setengah Jam</string>
     <string name="action_chart_normalize_hourly">Rata-rata per jam</string>
     <string name="action_chart_sort_time_asc">Waktu naik</string>
     <string name="action_chart_sort_time_desc">Waktu turun</string>
@@ -1071,7 +1071,7 @@
     <string name="action_chart_sort_lap_desc">Perputaran turun</string>
 
     <string name="power_on">Nyalakan</string>
-    <string name="screen_unlock">Membukan layar kunci</string>
+    <string name="screen_unlock">Membuka layar kunci</string>
     <string name="motion">Gerakan terdeteksi</string>
 
     <string name="required_value">Dibutuhkan</string>
@@ -1092,12 +1092,12 @@
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="zero">%d hour</item>
-        <item quantity="one">%d hour</item>
-        <item quantity="two">%d hours</item>
-        <item quantity="few">%d hours</item>
-        <item quantity="many">%d hours</item>
-        <item quantity="other">%d hours</item>
+        <item quantity="zero">%d jam</item>
+        <item quantity="one">%d jam</item>
+        <item quantity="two">%d jam</item>
+        <item quantity="few">%d jam</item>
+        <item quantity="many">%d jam</item>
+        <item quantity="other">%d jam</item>
     </plurals>
 
     <plurals name="plural_time_minute">
@@ -1119,12 +1119,12 @@
     </plurals>
 
     <plurals name="plural_file_moved">
-        <item quantity="zero">%d file moved</item>
-        <item quantity="one">%d file moved</item>
-        <item quantity="two">%d files moved</item>
-        <item quantity="few">%d files moved</item>
-        <item quantity="many">%d files moved</item>
-        <item quantity="other">%d files moved</item>
+        <item quantity="zero">%d berkas dipindahkan</item>
+        <item quantity="one">%d berkas dipindahkan</item>
+        <item quantity="two">%d berkas dipindahkan</item>
+        <item quantity="few">%d berkas dipindahkan</item>
+        <item quantity="many">%d berkas dipindahkan</item>
+        <item quantity="other">%d berkas dipindahkan</item>
     </plurals>
 
 </resources>
