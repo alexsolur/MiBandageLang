@@ -216,6 +216,35 @@
         <item>10</item>
     </integer-array>
 
+    <string-array name="notification_group_display_time">
+        <item>Auto (3 – 5 seconds)</item>
+        <item>3 seconds</item>
+        <item>4 seconds</item>
+        <item>5 seconds</item>
+        <item>6 seconds</item>
+        <item>7 seconds</item>
+    </string-array>
+
+    <integer-array name="notification_group_display_time_values">
+        <item>0</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </integer-array>
+
+    <integer-array name="notification_group_display_time_millis">
+        <item>0</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3200</item>
+        <item>4400</item>
+        <item>5600</item>
+        <item>6700</item>
+        <item>7800</item>
+    </integer-array>
+
     <string-array name="touch_recognition_press">
         <item>None</item>
         <item>Touch</item>
