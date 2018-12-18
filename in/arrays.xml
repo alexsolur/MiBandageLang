@@ -8,14 +8,6 @@
         <item>3 \'app\' icon</item>
     </string-array>
 
-    <string-array name="pref_connected_have_notif_counter_values">
-        <item>-2</item>
-        <item>-1</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-
     <string-array name="pref_connected_have_notif_interval">
         <item>3 menit</item>
         <item>5 menit</item>
@@ -215,6 +207,15 @@
         <item>9</item>
         <item>10</item>
     </integer-array>
+
+    <string-array name="notification_group_display_time">
+        <item>Otomatis (3 – 5 detik)</item>
+        <item>3 detik</item>
+        <item>4 detik</item>
+        <item>5 detik</item>
+        <item>6 detik</item>
+        <item>7 detik</item>
+    </string-array>
 
     <string-array name="touch_recognition_press">
         <item>None</item>
