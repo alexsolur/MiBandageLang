@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_connected_have_notif_counter">
-        <item>Bileklik başına bir kere</item>
         <item>Bildirim sayısı kadar</item>
+        <item>Bileklik başına bir kere</item>
         <item>1 \'app\' icon</item>
         <item>2 \'app\' icon</item>
         <item>3 \'app\' icon</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_counter_values">
-        <item>-2</item>
         <item>-1</item>
+        <item>-2</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -83,9 +83,17 @@
     </integer-array>
 
     <string-array name="notification_group_counter">
-        <item>Bir kere bildir</item>
-        <item>Her uygulama için bir kere bildir</item>
         <item>Tümü için bildirim sayısı</item>
+        <item>Her uygulama için bir kere bildir</item>
+        <item>Bir kere bildir</item>
+    </string-array>
+
+    <string-array name="notification_group_repeat">
+        <item>Her zaman</item>
+        <item>Asla</item>
+        <item>bir Zamanlar</item>
+        <item>İki defa</item>
+        <item>Üç kere</item>
     </string-array>
 
     <string-array name="touch_call_mute_ringer_mode">
