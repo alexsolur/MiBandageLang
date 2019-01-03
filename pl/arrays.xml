@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_connected_have_notif_counter">
-        <item>Raz na ikonę Opaski</item>
         <item>Liczba powiadomień</item>
+        <item>Raz na ikonę Opaski</item>
         <item>1 ikona \'apki\'</item>
         <item>2 ikony \'apki\'</item>
         <item>3 ikony \'apki\'</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_counter_values">
-        <item>-2</item>
         <item>-1</item>
+        <item>-2</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -83,9 +83,17 @@
     </integer-array>
 
     <string-array name="notification_group_counter">
-        <item>Jeden sygnał</item>
-        <item>Raz na aplikację</item>
         <item>Liczba powiadomień (wszystkie)</item>
+        <item>Raz na aplikację</item>
+        <item>Jeden sygnał</item>
+    </string-array>
+
+    <string-array name="notification_group_repeat">
+        <item>Zawsze</item>
+        <item>Nigdy</item>
+        <item>Pewnego razu</item>
+        <item>Dwa razy</item>
+        <item>Trzy razy</item>
     </string-array>
 
     <string-array name="touch_call_mute_ringer_mode">
