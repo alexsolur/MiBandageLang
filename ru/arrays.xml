@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_connected_have_notif_counter">
-        <item>По одному на иконку Band</item>
         <item>Периодические уведомления</item>
+        <item>По одному на иконку Band</item>
         <item>1 иконка \'app\'</item>
         <item>2 иконка \'app\'</item>
         <item>3 иконка \'app\'</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_counter_values">
-        <item>-2</item>
         <item>-1</item>
+        <item>-2</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -83,9 +83,17 @@
     </integer-array>
 
     <string-array name="notification_group_counter">
-        <item>Одно уведомление</item>
-        <item>По одному на приложение</item>
         <item>Количество уведомлений</item>
+        <item>По одному на приложение</item>
+        <item>Одно уведомление</item>
+    </string-array>
+
+    <string-array name="notification_group_repeat">
+        <item>Всегда</item>
+        <item>Никогда</item>
+        <item>Однажды</item>
+        <item>Дважды</item>
+        <item>Три раза</item>
     </string-array>
 
     <string-array name="touch_call_mute_ringer_mode">
