@@ -344,8 +344,8 @@
     <string name="notification_group_text_name">Nome</string>
     <string name="notification_group_text_title">Titolo</string>
     <string name="notification_group_text_content">Contenuto</string>
+    <string name="notification_group_text_content_slice_title">Lunghezza testo</string>
     <string name="notification_group_display_time_title">Tempo di visualizzazione</string>
-    <string name="notification_group_text_length_title">Lunghezza testo</string>
     <string name="notification_group_vibration_title">Personalizza vibrazione</string>
     <string name="notification_group_pre_signal_title">Predizione predefinita di notifica</string>
     <string name="notification_group_pre_vibration_title">Vibra prima</string>
@@ -357,6 +357,7 @@
     <string name="notification_group_ongoing">Segnala notifiche continue (permanenti)</string>
     <string name="notification_group_screen_off">Notifica solo a schermo spento</string>
     <string name="notification_group_counter_title">Numero di notifiche</string>
+    <string name="notification_group_repeat_title">Ripeti i segnali</string>
     <string name="notification_group_wakelock">Attiva schermo dispositivo</string>
 
     <string name="notification_group_filter">Filtra notifiche</string>
@@ -884,12 +885,13 @@
     <string name="theme_title">Scegli un tema</string>
     <string name="theme_background_color_title">Colore sfondo</string>
 
-   <string name="theme_widget_foreground_title">Primo piano</string>
-   <string name="theme_widget_foreground_color_title">Colore scritta e icona</string>
-   <string name="theme_widget_background_title">Sfondo</string>
-   <string name="theme_widget_background_color_title">Colore</string>
-   <string name="theme_widget_background_shape_title">Forma</string>
-   <string name="theme_widget_background_transparency_title">Trasparenza</string>
+    <string name="theme_widget_foreground_title">Primo piano</string>
+    <string name="theme_widget_foreground_color_title">Colore scritta e icona</string>
+    <string name="theme_widget_background_title">Sfondo</string>
+    <string name="theme_widget_background_color_title">Colore</string>
+    <string name="theme_widget_background_shape_title">Forma</string>
+    <string name="theme_widget_background_transparency_title">Trasparenza</string>
+    <string name="theme_widget_background_logo_visibility">Mostra il logo Mi Bandage</string>
 
     <string name="theme_widget_touch_event_title">Azione al tocco</string>
 
@@ -1044,6 +1046,7 @@
     <string name="ringer_mode_dnd_alarms_only">Non disturbare (solo sveglie)</string>
     <string name="ringer_mode_dnd_total_silence">Non disturbare (silenzio totale)</string>
     <string name="unknown">Sconosciuto</string>
+    <string name="maximum">Massimo</string>
 
     <string name="action_dismiss">Dimentica</string>
     <string name="action_setting">Impostazioni</string>
