@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_connected_have_notif_counter">
-        <item>Sekali per ikon Band</item>
         <item>Angka pemberitahuan</item>
+        <item>Sekali per ikon Band</item>
         <item>1 \'app\' icon</item>
         <item>2 \'app\' icon</item>
         <item>3 \'app\' icon</item>
@@ -75,9 +75,9 @@
     </integer-array>
 
     <string-array name="notification_group_counter">
-        <item>Sekali tanda</item>
-        <item>Sekali per aplikasi</item>
         <item>Angka pemberitahuan</item>
+        <item>Sekali per aplikasi</item>
+        <item>Sekali tanda</item>
     </string-array>
 
     <string-array name="touch_call_mute_ringer_mode">
@@ -86,6 +86,14 @@
         <item>Jangan ganggu (hanya prioritas)</item>
         <item>Jangan ganggu (hanya alarm)</item>
         <item>Jangan ganggu (senyap total)</item>
+    </string-array>
+
+    <string-array name="notification_group_repeat">
+        <item>Selalu</item>
+        <item>Tak pernah</item>
+        <item>Sekali</item>
+        <item>Dua kali</item>
+        <item>Tiga kali</item>
     </string-array>
 
     <string-array name="touch_music_player">
