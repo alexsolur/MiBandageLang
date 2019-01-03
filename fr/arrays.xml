@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_connected_have_notif_counter">
-        <item>Une fois par icone Band</item>
         <item>Nombre de notifications</item>
+        <item>Une fois par icone Band</item>
         <item>1 \'app\' icone</item>
         <item>2 \'app\' icone</item>
         <item>3 \'app\' icone</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_counter_values">
-        <item>-2</item>
         <item>-1</item>
+        <item>-2</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -83,9 +83,9 @@
     </integer-array>
 
     <string-array name="notification_group_counter">
-        <item>Une alerte</item>
-        <item>Une fois par application</item>
         <item>Nombre de notifications (toutes)</item>
+        <item>Une fois par application</item>
+        <item>Une alerte</item>
     </string-array>
 
     <string-array name="touch_call_mute_ringer_mode">
@@ -94,6 +94,14 @@
         <item>Ne pas déranger (priorité uniquement)</item>
         <item>Ne pas déranger (alarmes uniquement)</item>
         <item>Ne pas déranger (aucune interruption)</item>
+    </string-array>
+
+    <string-array name="notification_group_repeat">
+        <item>Toujours</item>
+        <item>Jamais</item>
+        <item>Une fois que</item>
+        <item>Deux fois</item>
+        <item>Trois fois</item>
     </string-array>
 
     <string-array name="touch_music_player">
