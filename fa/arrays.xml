@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_connected_have_notif_counter">
-        <item>یکبار به ازای آیکون باند</item>
         <item>تعداد اعلان‌ها</item>
+        <item>یکبار به ازای آیکون باند</item>
         <item>1 \'app\' icon</item>
         <item>2 \'app\' icon</item>
         <item>3 \'app\' icon</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_counter_values">
-        <item>-2</item>
         <item>-1</item>
+        <item>-2</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -83,9 +83,17 @@
     </integer-array>
 
     <string-array name="notification_group_counter">
-        <item>یک اعلان</item>
-        <item>یک بار در هر برنامه</item>
         <item>تعداد اعلان‌ها (همه)</item>
+        <item>یک بار در هر برنامه</item>
+        <item>یک اعلان</item>
+    </string-array>
+
+    <string-array name="notification_group_repeat">
+        <item>همیشه</item>
+        <item>هرگز</item>
+        <item>یک بار</item>
+        <item>دو برابر</item>
+        <item>سه بار</item>
     </string-array>
 
     <string-array name="touch_call_mute_ringer_mode">
@@ -191,16 +199,16 @@
     </integer-array>
 
     <string-array name="notification_group_text_content_slice">
-        <item>1 قطعه (1-%1$,d chars)</item>
-        <item>2 قطعه (1-%1$,d chars)</item>
-        <item>3 قطعه (1-%1$,d chars)</item>
-        <item>4 قطعه (1-%1$,d chars)</item>
-        <item>5 قطعه (1-%1$,d chars)</item>
-        <item>6 قطعه (1-%1$,d chars)</item>
-        <item>7 قطعه (1-%1$,d chars)</item>
-        <item>8 قطعه (1-%1$,d chars)</item>
-        <item>9 قطعه (1-%1$,d chars)</item>
-        <item>10 قطعه (1-%1$,d chars)</item>
+        <item>1 قطعه (chars %1$,d-1)</item>
+        <item>2 قطعه (chars %1$,d-1)</item>
+        <item>3 قطعه (chars %1$,d-1)</item>
+        <item>4 قطعه (chars %1$,d-1)</item>
+        <item>5 قطعه (chars %1$,d-1)</item>
+        <item>6 قطعه (chars %1$,d-1)</item>
+        <item>7 قطعه (chars %1$,d-1)</item>
+        <item>8 قطعه (chars %1$,d-1)</item>
+        <item>9 قطعه (chars %1$,d-1)</item>
+        <item>10 قطعه (chars %1$,d-1)</item>
     </string-array>
 
     <integer-array name="notification_group_text_content_slice_values">
