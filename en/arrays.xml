@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_connected_have_notif_counter">
+        <item>All notifications</item>
         <item>Once per Band icon</item>
-        <item>Number of notifications</item>
         <item>1 \'app\' icon</item>
         <item>2 \'app\' icon</item>
         <item>3 \'app\' icon</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_counter_values">
-        <item>-2</item>
         <item>-1</item>
+        <item>-2</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -83,9 +83,17 @@
     </integer-array>
 
     <string-array name="notification_group_counter">
-        <item>One signal</item>
+        <item>All notifications</item>
         <item>Once per application</item>
-        <item>Number of notifications (all)</item>
+        <item>One signal</item>
+    </string-array>
+
+    <string-array name="notification_group_repeat">
+        <item>Mindig</item>
+        <item>Soha</item>
+        <item>1 alkalommal</item>
+        <item>2 alkalommal</item>
+        <item>3 alkalommal</item>
     </string-array>
 
     <string-array name="touch_call_mute_ringer_mode">
