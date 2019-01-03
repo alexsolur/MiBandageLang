@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_connected_have_notif_counter">
-        <item>Jednou za ikonu náramku</item>
         <item>Počet oznámení</item>
+        <item>Jednou za ikonu náramku</item>
         <item>1 \'app\' ikona</item>
         <item>2 \'app\' ikona</item>
         <item>3 \'app\' ikona</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_counter_values">
-        <item>-2</item>
         <item>-1</item>
+        <item>-2</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -83,9 +83,17 @@
     </integer-array>
 
     <string-array name="notification_group_counter">
-        <item>Jedno znamení</item>
-        <item>Jednou za aplikaci</item>
         <item>Počet oznámení (všechny)</item>
+        <item>Jednou za aplikaci</item>
+        <item>Jedno znamení</item>
+    </string-array>
+
+    <string-array name="notification_group_repeat">
+        <item>Always</item>
+        <item>Never</item>
+        <item>Once</item>
+        <item>Twice</item>
+        <item>Three times</item>
     </string-array>
 
     <string-array name="touch_call_mute_ringer_mode">
