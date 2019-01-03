@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_connected_have_notif_counter">
-        <item>Μία φορά ανά εικονίδιο του Band</item>
         <item>Αριθμός ειδοποιήσεων</item>
+        <item>Μία φορά ανά εικονίδιο του Band</item>
         <item>1 \'app\' icon</item>
         <item>2 \'app\' icon</item>
         <item>3 \'app\' icon</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_counter_values">
-        <item>-2</item>
         <item>-1</item>
+        <item>-2</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -83,9 +83,17 @@
     </integer-array>
 
     <string-array name="notification_group_counter">
-        <item>Ένα σήμα</item>
-        <item>Μιά ανα εφαρμογή</item>
         <item>Αριθμός ειδοποιήσεων</item>
+        <item>Μιά ανα εφαρμογή</item>
+        <item>Ένα σήμα</item>
+    </string-array>
+
+    <string-array name="notification_group_repeat">
+        <item>Πάντα</item>
+        <item>Ποτέ</item>
+        <item>Μια φορά</item>
+        <item>Εις διπλούν</item>
+        <item>Τρεις φορές</item>
     </string-array>
 
     <string-array name="touch_call_mute_ringer_mode">
