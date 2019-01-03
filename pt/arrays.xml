@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_connected_have_notif_counter">
-        <item>Uma vez por ícone da Band</item>
         <item>Número de notificações</item>
+        <item>Uma vez por ícone da Band</item>
         <item>1 ícone \'app\'</item>
         <item>2 ícones \'app\'</item>
         <item>3 ícones \'app\'</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_counter_values">
-        <item>-2</item>
         <item>-1</item>
+        <item>-2</item>
         <item>1</item>
         <item>2</item>getMultiPartText
         <item>3</item>
@@ -83,9 +83,17 @@
     </integer-array>
 
     <string-array name="notification_group_counter">
-        <item>Um sinal</item>
-        <item>Uma vez por aplicação</item>
         <item>Número de notificações</item>
+        <item>Uma vez por aplicação</item>
+        <item>Um sinal</item>
+    </string-array>
+
+    <string-array name="notification_group_repeat">
+        <item>Sempre</item>
+        <item>Nunca</item>
+        <item>Uma vez</item>
+        <item>Duas vezes</item>
+        <item>Três vezes</item>
     </string-array>
 
     <string-array name="touch_call_mute_ringer_mode">
