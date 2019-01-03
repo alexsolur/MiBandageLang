@@ -345,8 +345,8 @@
     <string name="notification_group_text_name">Name</string>
     <string name="notification_group_text_title">Titel</string>
     <string name="notification_group_text_content">Inhalt</string>
+    <string name="notification_group_text_content_slice_title">Textlänge</string>
     <string name="notification_group_display_time_title">Anzeigezeit</string>
-    <string name="notification_group_text_length_title">Textlänge</string>
     <string name="notification_group_vibration_title">Custom vibration</string>
     <string name="notification_group_pre_alert_title">Prä-Ikon</string>
     <string name="notification_group_pre_signal_title">Standard-Benachrichtigungsvorhersage</string>
@@ -358,7 +358,8 @@
     <string name="notification_group_ongoing">Signal fortlaufender (permanenter) Benachrichtigungen</string>
     <string name="notification_group_screen_off">Signal erfolgt nur, wenn der Bildschirm ausgeschalten ist.</string>
     <string name="notification_group_counter_title">Anzahl der Signale</string>
-    <string name="notification_group_wakelock">Gerätebildschirm aufwecken</string>
+    <string name="notification_group_repeat_title">Repeat signals</string>
+    <string name="notification_group_wakelock">Signale wiederholen</string>
 
     <string name="notification_group_filter">Benachrichtigungsfilter</string>
     <string name="notification_group_filter_title">Titelfilter</string>
@@ -892,6 +893,7 @@
     <string name="theme_widget_background_color_title">Farbe</string>
     <string name="theme_widget_background_shape_title">Gestalten</string>
     <string name="theme_widget_background_transparency_title">Transparenz</string>
+    <string name="theme_widget_background_logo_visibility">Mi Bandage-Logo anzeigen</string>
 
     <string name="theme_widget_touch_event_title">Touch event</string>
 
@@ -1046,6 +1048,7 @@
     <string name="ringer_mode_dnd_alarms_only">Nicht stören (nur Wecker)</string>
     <string name="ringer_mode_dnd_total_silence">Nicht stören (lautlos)</string>
     <string name="unknown">Unbekannte</string>
+    <string name="maximum">Maximal</string>
 
     <string name="action_dismiss">Verwerfen</string>
     <string name="action_setting">Einstellung</string>

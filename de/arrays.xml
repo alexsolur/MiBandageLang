@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_connected_have_notif_counter">
-        <item>Einmal pro Mi-Band-Emblem</item>
         <item>Benachrichtigungsanzahl</item>
+        <item>Einmal pro Mi-Band-Emblem</item>
         <item>1 \'app\' icon</item>
         <item>2 \'app\' icon</item>
         <item>3 \'app\' icon</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_counter_values">
-        <item>-2</item>
         <item>-1</item>
+        <item>-2</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -83,9 +83,17 @@
     </integer-array>
 
     <string-array name="notification_group_counter">
-        <item>Ein Signal</item>
-        <item>Einmal pro Applikation</item>
         <item>Benachrichtigungsanzahl</item>
+        <item>Einmal pro Applikation</item>
+        <item>Ein Signal</item>
+    </string-array>
+
+    <string-array name="notification_group_repeat">
+        <item>Immer</item>
+        <item>Noch nie</item>
+        <item>Einmal</item>
+        <item>Zweimal</item>
+        <item>Drei Mal</item>
     </string-array>
 
     <string-array name="touch_call_mute_ringer_mode">
