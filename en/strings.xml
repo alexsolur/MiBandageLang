@@ -138,13 +138,13 @@
     <string name="pref_call_text_summary_on"><![CDATA[On (more information: <i>Settings/Text icons settings)</i>]]></string>
 
     <string name="pref_call_net_text_title">Incoming internet call signal, display caller ID</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
 
     <string name="pref_cat_call_missed">Missed call</string>
     <string name="pref_call_missed_title">Missed call signal</string>
 
     <string name="pref_call_missed_net_title">Missed internet call signal, display caller ID</string>
-    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
 
     <string name="pref_call_missed_alert_title">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
@@ -884,6 +884,8 @@
     <string name="theme_tab_notification">Notification shade</string>
 
     <string name="theme_title">Select a theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
     <string name="theme_background_color_title">Background color</string>
 
     <string name="theme_widget_foreground_title">Foreground</string>
@@ -1132,5 +1134,6 @@
         <item quantity="many">%d files moved</item>
         <item quantity="other">%d files moved</item>
     </plurals>
+
 
 </resources>
