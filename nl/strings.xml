@@ -6,7 +6,7 @@
 
     <string name="drawer_nav_home">Bandages</string>
     <string name="drawer_nav_notification">Melding</string>
-    <string name="drawer_nav_touch">Aanraken</string>
+    <string name="drawer_nav_touch">Beheer instellingen</string>
     <string name="drawer_nav_step">Activiteit</string>
     <string name="drawer_nav_sleep">Slapen</string>
     <string name="drawer_nav_pulse">Hartslag</string>
@@ -138,13 +138,13 @@
     <string name="pref_call_text_summary_on"><![CDATA[Aan (meer informatie: <i>Settings/Text icons settings)</i>]]></string>
 
     <string name="pref_call_net_text_title">Inkomend internet oproep signaal, toon beller ID</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
 
     <string name="pref_cat_call_missed">Gemiste oproep</string>
     <string name="pref_call_missed_title">Gemiste oproep signaal</string>
 
     <string name="pref_call_missed_net_title">Gemist internetoproep signaal, toon beller ID</string>
-    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
 
     <string name="pref_call_missed_alert_title">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
@@ -884,6 +884,8 @@
     <string name="theme_tab_notification">Meldings strook</string>
 
     <string name="theme_title">Selecteer een thema</string>
+    <string name="theme_light">Helder</string>
+    <string name="theme_dark">Donker</string>
     <string name="theme_background_color_title">Achtergrond kleur</string>
 
     <string name="theme_widget_foreground_title">Voorgrond</string>
@@ -892,7 +894,7 @@
     <string name="theme_widget_background_color_title">Kleur</string>
     <string name="theme_widget_background_shape_title">Vorm</string>
     <string name="theme_widget_background_transparency_title">Transparantie</string>
-    <string name="theme_widget_background_logo_visibility">Show Mi Bandage-logo</string>
+    <string name="theme_widget_background_logo_visibility">Toon Mi Bandage-logo</string>
 
     <string name="theme_widget_touch_event_title">Aanraak moment</string>
 
@@ -939,8 +941,8 @@
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Algemene voorwaarden van de Rewarded modus</string>
     <string name="rewarded_policy"><![CDATA[
-        <p>- start of validity: huidige tijd
-        <br>- end of validity: start van validatie + tenminste %1$,d dagen (afhankelijk van toevoegingen kan het meer zijn)
+        <p>- start van validatie: huidige tijd
+        <br>- einde validatie: start van validatie + tenminste %1$,d dagen (afhankelijk van toevoegingen kan het meer zijn)
         <br>- tijd manipulatie kan leiden tot beëindiging van de validatie</p>
         <i>Na het afspelen van de video moet je de app opnieuw opstarten.</i>
     ]]></string>
@@ -948,7 +950,7 @@
     <string name="rewarded_advantage_banner_title">Blokkeer de banneradvertenties</string>
     <string name="rewarded_advantage_interstitial_title">Blokkeer de interstitiële advertenties</string>
 
-    <string name="rewarded_advantage_time_range">Validitie</string>
+    <string name="rewarded_advantage_time_range">Validatie</string>
     <string name="rewarded_advantage_button_play">Video afspelen</string>
 
     <string name="message_rewarded_error">Het starten van de video is mislukt</string>
