@@ -672,7 +672,8 @@
         <img src="ic_pulse_offline"> <b><u>Пассивное измерение пульса</u></b>
         <p>Для измерения не требуется Bluetooth-соединение.</p>
         <p>Для начала и окончания измерения по времени необходимо Bluetooth-соединение.</p>
-        <p>Измерения, сделанные вручную (браслет, Mi Fit) записываются, когда измерение начинается.<p/>]]>
+        <p>Измерения, сделанные вручную (браслет, Mi Fit) записываются, когда измерение начинается.<p/>
+        ]]>
     </string>
 
     <!-- Lost  monitoring -->
@@ -883,7 +884,7 @@
     <string name="theme_tab_notification">Уведомление</string>
 
     <string name="theme_title">Выберите тему</string>
-    <string name="theme_light">Яркая</string>
+    <string name="theme_light">Светлая</string>
     <string name="theme_dark">Темная</string>
     <string name="theme_background_color_title">Цвет фона</string>
 
@@ -898,7 +899,7 @@
     <string name="theme_widget_touch_event_title">По нажатию</string>
 
     <string name="theme_notification_title">Отображение статуса подключения в уведомлении</string>
-    <string name="theme_notification_summary">Система Android принудительно останавливает приложение только при недостатке памяти. Если через некоторое время перестают приходить уведомления на браслет, вы можете предотвратить это.</string>
+    <string name="theme_notification_summary">Система Android принудительно останавливает приложение только при недостатке памяти. Если через некоторое время перестают приходить уведомления на браслет, вы можете включить уведомление, чтобы предотвратить это.</string>
     <string name="theme_notification_summary_foreground_service">Android 8 и выше необходимы для отображения иконки панели уведомлений. Смахните вправо или влево по панели уведомлений чтобы скрыть иконку. Если иконка скрыта, выключите это для оптимизации производительности.</string>
     <string name="theme_notification_color_title">Цвет иконки</string>
     <string name="theme_notification_text_color_title">Цвет текста</string>
@@ -930,7 +931,7 @@
     <string name="backup_restore_touch">Касания</string>
     <string name="backup_restore_time">Время</string>
     <string name="backup_restore_reminder">Напоминания</string>
-    <string name="backup_restore_weather">Weather</string>
+    <string name="backup_restore_weather">Погода</string>
     <string name="backup_restore_alarm">Отсоединён</string>
     <string name="backup_restore_disconnected_agent">Лог действий</string>
     <string name="backup_restore_settings">Настройки</string>
@@ -981,7 +982,7 @@
     <!--<string name="purchase_price">Цена:</string>-->
     <string name="purchase_agree">Я согласен с правилами и условиями.</string>
     <string name="purchase_order_id">ID заказа</string>
-    <string name="purchase_order_id_help">Скопируйте с:
+    <string name="purchase_order_id_help">Скопируйте из:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
     <string name="purchase_button_purchase">Приобрести</string>
@@ -1084,7 +1085,7 @@
     <string name="required_value">Необходимо указать</string>
 
     <string name="invalid_date">Неверная дата</string>
-    <string name="invalid_time">Неверная время</string>
+    <string name="invalid_time">Неверное время</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_day">д</string>
