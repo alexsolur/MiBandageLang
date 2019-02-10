@@ -49,7 +49,7 @@
     <string name="mi_band_state_connected_disconnected_last_time">RSSI, 上次连接和断开时间</string>
     <string name="mi_band_touch">触摸检查</string>
     <string name="mi_band_alarm">下一个闹钟</string>
-    <string name="mi_band_bonded_device_name">配对设备‘你的名字O.O’</string>
+    <string name="mi_band_bonded_device_name">已配对设备</string>
     <string name="mi_band_mac_address">MAC 地址</string>
     <string name="mi_band_firmware">固件版本</string>
     <string name="mi_band_hardware">硬件版本</string>
@@ -63,14 +63,14 @@
     <string name="mi_band_state_not_bonded">未配对设备</string>
 
     <!-- Battery -->
-    <string name="battery_details">Battery usage</string>
+    <string name="battery_details">电池使用情况</string>
 
     <string name="mi_band_battery_settings">电池设置</string>
     <string name="mi_band_battery_remaining">电池预计剩余时间</string>
     <string name="mi_band_battery_notification">电量不足通知</string>
     <string name="mi_band_battery_notification_level">电量阈值</string>
     <string name="mi_band_battery_notification_repeat_interval">重复间隔</string>
-    <string name="mi_band_battery_notification_shade">通过电话通知</string>
+    <string name="mi_band_battery_notification_shade">在手机上通知</string>
     <string name="mi_band_battery_notification_shade_ongoing">持续(不断的)通知</string>
     <string name="mi_band_battery_notification_shade_message">电池电量低于 %1$,d%%</string>
     <string name="mi_band_battery_notification_mi_band">通知手环</string>
@@ -133,7 +133,7 @@
     <string name="pref_call_summary">%1$s 手环连接设置</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">来电</string>
     <string name="pref_call_title">来电设置</string>
-    <string name="pref_call_summary_on">开 (不要忘记关闭Mi Fit应用里的提醒)</string>
+    <string name="pref_call_summary_on">开 (不要忘记关闭Mi Fit里的提醒)</string>
     <string name="pref_call_text_title">来电显示</string>
     <string name="pref_call_text_summary_on"><![CDATA[On (more information: <i>Settings/Text icons settings)</i>]]></string>
 
@@ -157,16 +157,16 @@
     <string name="pref_cat_text_conversion">%1$s 信号</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">字符转换</string>
     <string name="pref_text_conversion_summary_on">不可识别的字符转换, turn off if the Band supports your language or you have installed custom font firmware</string>
-    <string name="pref_text_emoticon_title">Emoji conversion</string>
-    <string name="pref_text_emoticon_summary_on">Convert emoji to emoticon</string>
-    <string name="pref_text_uppercase_title">Uppercase conversion</string>
-    <string name="pref_text_uppercase_summary_on">Convert lowercase to uppercase</string>
-    <string name="pref_text_length">Text length, depends on the font used (for example Chinese or Cyrillic characters)</string>
-    <string name="pref_text_length_summary_on">%1$,d characters</string>
+    <string name="pref_text_emoticon_title">Emoji 转换</string>
+    <string name="pref_text_emoticon_summary_on">将 Emoji 转化为文字</string>
+    <string name="pref_text_uppercase_title">大写字母转换</string>
+    <string name="pref_text_uppercase_summary_on">将小写字母转化为大写字母</string>
+    <string name="pref_text_length">文本长度，与字体有关 (比如中文和西里尔字母)</string>
+    <string name="pref_text_length_summary_on">%1$,d 字</string>
 
     <string name="pref_text_conversion_description_title">说明</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
-        <p>如果你的手环目前显示来电名称正常, 则无需进行以下步骤 <i>只需关闭来电提示</i> 在Mi Fit上.</p>
+        <p>如果你的手环目前显示来电名称正常, 则无需进行以下步骤 <i>只需在 Mi Fit 中关闭来电提示</i>.</p>
         <p>如果你不使用 <i>来电提示</i> 且手机语言不是英文:
         <br/>1. 设置你的手机语言为英文.
         <br/>2. 打开Mi Fit应用,等待字体固件更新完成.如果无法更新,尝试重启手机.
@@ -174,33 +174,33 @@
         <br/>4. 开启: <i>Turn on incoming call alerts</i>.
         <br/>5. 开启: <i>Show contact information</i>.
         <br/>6. 检查手环是否可以正常显示来电显示.
-        <br/>7. 关闭: <i>Turn on incoming call alerts</i> (<i>Show contact information</i> 保持).
+        <br/>7. 关闭: <i>Turn on incoming call alerts</i> (<i>Show contact information</i> 保持开启).
         <br/>8. 将手机语言设置回你的语言.</p>]]>
     </string>
 
     <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_cat_mi_band_lift_wrist">抬起手腕查看</string>
-    <string name="pref_mi_band_lift_wrist_title">举起手腕查看</string>
+    <string name="pref_cat_mi_band_lift_wrist">抬腕亮屏</string>
+    <string name="pref_mi_band_lift_wrist_title">举起手腕时点亮屏幕</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">勿扰模式</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">开 (在指定时间内不显示信息，需连接蓝牙设置)</string>
 
     <string name="pref_battery_phone">Phone battery</string>
-    <string name="pref_battery_phone_summary">Low and full battery level notifications</string>
-    <string name="pref_cat_battery_phone_low">Low battery level</string>
+    <string name="pref_battery_phone_summary">低电量或充满电时提示</string>
+    <string name="pref_cat_battery_phone_low">低电量</string>
     <string name="pref_battery_phone_low_title">电量不足通知</string>
     <string name="pref_battery_phone_low_level_title">电量阈值</string>
     <string name="pref_battery_phone_low_repeat_interval_title">重复间隔</string>
-    <string name="pref_cat_battery_phone_full">Full battery level</string>
-    <string name="pref_battery_phone_full_title">Full battery indicator</string>
-    <string name="pref_battery_phone_full_plugged_ac">AC charger power source</string>
-    <string name="pref_battery_phone_full_plugged_usb">USB port power source</string>
-    <string name="pref_battery_phone_full_plugged_wireless">Wireless power source</string>
+    <string name="pref_cat_battery_phone_full">充满电</string>
+    <string name="pref_battery_phone_full_title">电池已满提示</string>
+    <string name="pref_battery_phone_full_plugged_ac">交流电源</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB 充电</string>
+    <string name="pref_battery_phone_full_plugged_wireless">无线充电</string>
     <string name="pref_battery_phone_full_repeat_interval_title">重复间隔</string>
 
     <!-- Mi Band 2 max. 18 chars with 100% -->
-    <string name="pref_battery_phone_mi_band_message">Phone batt.: %1$,d%%</string>
+    <string name="pref_battery_phone_mi_band_message">手机电量: %1$,d%%</string>
     <!-- Other Bands-->
-    <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
+    <string name="pref_battery_phone_message">手机电量:\n %1$,d%%</string>
 
     <string name="pref_language">语言</string>
     <string name="pref_cat_language">应用</string>
@@ -218,9 +218,9 @@
     <string name="pref_dnd_title">勿扰模式</string>
     <string name="pref_dnd_summary">勿扰模式状态</string>
     <string name="pref_dnd_auto_title">自动打开勿扰模式</string>
-    <string name="pref_dnd_auto_summary">遵循手机的勿扰模式控制, it has a higher priority than the scheduled do not disturb mode</string>
-    <string name="pref_dnd_auto_vibrate">Vibration (silent)</string>
-    <string name="pref_dnd_auto_silent">Do not disturb</string>
+    <string name="pref_dnd_auto_summary">遵循手机的勿扰模式控制（优先级高于日程表的设置）</string>
+    <string name="pref_dnd_auto_vibrate">震动（静音）</string>
+    <string name="pref_dnd_auto_silent">勿扰模式</string>
     <string name="pref_dnd_scheduled_title">定时勿扰模式</string>
     <string name="pref_dnd_scheduled_new_title">标题</string>
     <string name="pref_dnd_remember_state_summary">勿扰模式结束时恢复手环状态</string>
@@ -246,15 +246,15 @@
 
     <string name="message_app_chooser_no_selected">选择应用</string>
 
-    <string name="message_notification_free_groups">组多 %1$,d 组可以在正常模式下使用</string>
+    <string name="message_notification_free_groups">最多 %1$,d 组可以在正常模式下使用</string>
 
-    <string name="message_step_goal_free_values">正常模式下最多可以设置3个</string>
+    <string name="message_step_goal_free_values">普通模式下最多可以设置3个</string>
     <string name="message_step_goal_max_values">最多可以设置10个</string>
 
     <string name="message_touch_no_patterns">按下红色按钮来进行记录</string>
     <string name="message_touch_record">使用 %1$s 触摸按钮</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="message_touch_pattern_error">制定模式类似另一个函数样本,记录另一个</string>
-    <string name="message_touch_free_patterns">在正常模式下不能使用多余 %1$,d 的函数</string>
+    <string name="message_touch_free_patterns">在普通模式下不能使用多于 %1$,d 的函数</string>
     <string name="message_touch_music_player_not_found">找不到播放器</string>
     <string name="message_touch_app_launcher1_not_set">应用未设置</string>
     <string name="message_touch_app_launcher1_not_found">未找到应用: %1$s</string>
@@ -262,20 +262,20 @@
 
     <string name="message_notification_group_has_no_entry">按右下角 \'+\' 号来选择应用</string>
 
-    <string name="message_time_alarm_free_counter">正常模式下最多可使用2个闹钟</string>
+    <string name="message_time_alarm_free_counter">普通模式下最多可使用2个闹钟</string>
     <string name="message_time_alarm_max_counter">最多可使用7个闹钟</string>
     <string name="message_time_alarm_enabled">开启闹钟</string>
-    <string name="message_time_alarm_disabled">关闭闹钟</string>
+    <string name="message_time_alarm_disabled">禁用闹钟</string>
     <string name="message_time_alarm_mi_band_off">关闭闹钟</string>
 
     <string name="message_alarm_free_interval">仅在高级模式下可设置更小的重复间隔</string>
     <string name="message_alarm_mi_band_set_failed">设置失败</string>
     <string name="message_alarm_mi_band_clear_failed">清除失败</string>
 
-    <string name="message_premium_mode_only">此功能仅在高级模式</string>
+    <string name="message_premium_mode_only">此功能仅在高级模式可以</string>
     <string name="message_general_error">设置失败(连接丢失),请重试</string>
     <string name="message_internet_error">没有网络连接</string>
-    <string name="message_gps_enable">Enable the GPS</string>
+    <string name="message_gps_enable">启用 GPS</string>
 
     <string name="message_in_progress">进行中…</string>
     <string name="message_no_data">没有可用的数据</string>
@@ -292,25 +292,25 @@
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>Mi Bandage需要在同一个手机上安装小米运动（Mi Fit）应用. 首先你需要在Mi Fit里连接手环,然后才能使用Mi Bandage.</p>
-    <p>如果使用更多的手环应用,它们会互相干扰，请关闭这些应用.</p>
-    <p>如果未找到手环,你可以手动设置MAC 地址(MAC address: Mi Fit/我/手环).</p>
+    <p>如果使用多个手环应用,它们会互相干扰，请关闭其他应用.</p>
+    <p>如果未找到手环,你可以手动设置 MAC 地址(MAC 地址可在 Mi Fit/我/手环 中查看).</p>
     <p><b>如果你有连接问题:</b>
     <br>- Check the <i>Settings/Diagnostics</i> settings
-    <br>- 最近的应用程序界面:锁定Mi Bandage(下拉该应用并点击锁的图标).
-    <br>- 手机电池设置/电池优化: 设置Mi Bandage应用为未优化.
+    <br>- 最近的应用程序界面:锁定 Mi Bandage(下拉该应用并点击锁的图标).
+    <br>- 手机电池设置/电池优化: 设置 Mi Bandage应用为未优化.
     <br>设置/开发者选项:
     <br>- 不保持活动:禁用
     <br>- 后台进程限制:标准限值
     <br>- 内存优化: 中/低/禁用
-    <br>- 打开MIUI优化: 禁用（如能正常使用的话也可不关闭该项。译者使用MIUI9 Andorid 7无需关闭）</p>
-    <p>如果找不到手环或在同步Mi Fit应用时遇到麻烦,请安装BToolkit, nRF Connect 或类似的蓝牙管理应用并移除所有已绑定的设备.</p>
+    <br>- 打开 MIUI 优化: 禁用（如能正常使用的话也可不关闭该项。译者使用 MIUI9 Andorid 7 无需关闭）</p>
+    <p>如果找不到手环或在同步 Mi Fit 应用时遇到麻烦,请安装 BToolkit, nRF Connect 或类似的蓝牙管理应用并移除所有已绑定的设备.</p>
     <p>如果有问题(发现手环,没有通知信号),请尝试:
-    <br>1. 如果你安装了绿色守护Greenify (或其他休眠类应用)，关掉它.
-    <br>2. 安装Mi Bandage应用.
+    <br>1. 如果你安装了绿色守护 Greenify (或其他休眠类应用)，关掉它.
+    <br>2. 安装 Mi Bandage 应用.
     <br>3. 重启手机.
     <br>4. 关闭蓝牙.
-    <br>5. 打开Mi Fit,等到同步完成后关闭它.
-    <br>6. 打开Mi Bandage,点击发现按钮.</p>]]></string>
+    <br>5. 打开 Mi Fit,等到同步完成后关闭它.
+    <br>6. 打开 Mi Bandage,点击发现按钮.</p>]]></string>
 
     <!-- Diagnostic -->
     <string name="diagnostic_title">诊断</string>
@@ -333,7 +333,7 @@
     <!-- Notification Dialog -->
     <string name="notification_group_nav_setting">设置</string>
     <string name="notification_group_nav_filter">通知过滤</string>
-    <string name="notification_group_nav_correction">Correction</string>
+    <string name="notification_group_nav_correction">通知修改</string>
 
     <string name="notification_group_name">名称</string>
     <string name="notification_group_monitoring">监控通知</string>
@@ -363,7 +363,7 @@
     <string name="notification_group_filter">通知过滤</string>
     <string name="notification_group_filter_title">标题过滤器</string>
     <string name="notification_group_filter_content">内容过滤器</string>
-    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_regex">正则表达式</string>
     <string name="notification_group_filter_hint">仅通知标题或内容(不区分大小写)</string>
     <string name="notification_group_filter_contains">包含任何短语</string>
     <string name="notification_group_filter_not_contains">包含这些短语</string>
@@ -372,29 +372,29 @@
     <string name="notification_group_sample_facebook">Messenger文本显示</string>
     <string name="notification_group_sample_whatsapp">WhatsApp文本显示</string>
 
-    <string name="notification_group_correction">Text correction</string>
-    <string name="notification_group_correction_title">Title correction</string>
-    <string name="notification_group_correction_content">Content correction</string>
-    <string name="notification_group_correction_regex">Regex</string>
-    <string name="notification_group_correction_hint">Case insensitive</string>
-    <string name="notification_group_correction_items">Texts to be corrected</string>
-    <string name="notification_group_correction_find">Find</string>
-    <string name="notification_group_correction_replace">Replace with</string>
+    <string name="notification_group_correction">文本修改</string>
+    <string name="notification_group_correction_title">标题修改</string>
+    <string name="notification_group_correction_content">内容修改</string>
+    <string name="notification_group_correction_regex">正则表达式</string>
+    <string name="notification_group_correction_hint">事件延迟</string>
+    <string name="notification_group_correction_items">需要修改的文本</string>
+    <string name="notification_group_correction_find">查找</string>
+    <string name="notification_group_correction_replace">替换</string>
 
-    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it.</string>
+    <string name="notification_regex_hint">如果你不懂正则表达式请不要勾选</string>
 
     <string name="notification_confirm_close">你确定要放弃更改吗?</string>
 
-    <string name="notification_edit_play_text_title">Notification title</string>
-    <string name="notification_edit_play_text_content">Notification content:
+    <string name="notification_edit_play_text_title">通知标题</string>
+    <string name="notification_edit_play_text_content">通知正文:
     北京市，简称“京”，是中華人民共和國首都、直辖市、中国国家中心城市和京津冀城市群的重要组成部分，是中國的政治、文化、科技创新和国际交往中心，具有重要的国际影响力.
     </string>
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> 图标：选择此图标来显示通知标题/内容.]]></string>
 
     <!-- Notification info dialog -->
     <string name="info_dialog_notification"><![CDATA[Predefined app and Band icon signals:<br>
-        <not_support_icon_text><img src="ALERT_MESSAGE_TEXT">  missed call</not_support_icon_text>
-        <support_icon_text><img src="ALERT_CALL_MESSAGE">  missed call</support_icon_text>
+        <not_support_icon_text><img src="ALERT_MESSAGE_TEXT"> 未接电话</not_support_icon_text>
+        <support_icon_text><img src="ALERT_CALL_MESSAGE"> 未接电话</support_icon_text>
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  Email, Gmail, Inbox
         <br><img src="ALERT_CALENDAR">  Google Calendar
@@ -447,59 +447,59 @@
     <string name="touch_headline_time_title">定时器/秒表控制</string>
     <string name="touch_headline_other_title">其他控制</string>
 
-    <string name="touch_device_location_title">找到我的手机</string>
+    <string name="touch_device_location_title">查找我的手机</string>
 
     <string name="touch_call_answer_title">呼叫应答</string>
     <string name="touch_call_answer_speakerphone_title">免提</string>
 
-    <string name="touch_call_end_title">呼叫拒绝，结束</string>
+    <string name="touch_call_end_title">接听，结束</string>
 
-    <string name="touch_call_mute_title">呼叫静音切换</string>
+    <string name="touch_call_mute_title">切换到静音模式</string>
     <string name="touch_call_mute_only_call_state_ringing_title">只当你有来电时</string>
     <string name="touch_call_mute_recognition_title">来电</string>
 
     <string name="touch_device_location_not_muted_only_title">只有在未静音或出于DnD模式时才发声</string>
 
-    <string name="touch_call_out_title">Call out</string>
-    <string name="touch_call_out_no_contact">Select an contact</string>
-    <string name="touch_call_out_summary">Double press to answer the call</string>
-    <string name="touch_call_out_summary_support_call_display_button">Press the button to answer the call</string>
+    <string name="touch_call_out_title">呼出</string>
+    <string name="touch_call_out_no_contact">选择一个联系人</string>
+    <string name="touch_call_out_summary">双击按钮接听电话</string>
+    <string name="touch_call_out_summary_support_call_display_button">单击按钮接听电话</string>
     <string name="touch_call_out_speakerphone_title">免提</string>
-    <string name="touch_call_out_call_text">Call out: %1$s</string>
+    <string name="touch_call_out_call_text">呼叫: %1$s</string>
 
     <string name="touch_repeat_notif_title">重复通知</string>
     <string name="touch_repeat_notif_clear_all">清除所有重复通知</string>
 
     <string name="touch_clear_notif_title">清除通知</string>
 
-    <string name="touch_music_play_pause_title">Music start, play, pause</string>
-    <string name="touch_music_skip_previous_title">Music start,上一首</string>
-    <string name="touch_music_skip_next_title">Music start,下一首</string>
-    <string name="touch_music_headset_only_title">只有耳机连接时</string>
+    <string name="touch_music_play_pause_title">音乐开启后，播放/暂停</string>
+    <string name="touch_music_skip_previous_title">音乐开启后,上一首</string>
+    <string name="touch_music_skip_next_title">音乐开启后,下一首</string>
+    <string name="touch_music_headset_only_title">仅当连接耳机时启用</string>
     <string name="touch_music_launch">启动音乐</string>
     <string name="touch_music_volume_up_title">音乐音量</string>
     <string name="touch_music_volume_down_title">音乐音量降低</string>
     <string name="touch_music_track_info_title">显示音乐信息.</string>
 
     <string name="touch_time_launch_title">开始时间监控</string>
-    <string name="touch_time_launch_type_timer_title">定制</string>
+    <string name="touch_time_launch_type_timer_title">定时器</string>
     <string name="touch_time_launch_type_stopper_title">秒表</string>
     <string name="touch_time_launch_type_interval_title">区间</string>
     <string name="touch_time_launch_restart">重新启动</string>
     <string name="touch_time_reminder_title">显示剩余时间</string>
 
-    <string name="touch_camera_title">Take a photo</string>
-    <string name="touch_camera_front_title">Front</string>
-    <string name="touch_camera_rear_title">Rear</string>
+    <string name="touch_camera_title">拍照</string>
+    <string name="touch_camera_front_title">前置摄像头</string>
+    <string name="touch_camera_rear_title">后置摄像头</string>
     <string name="touch_camera_install_title">Install</string>
 
     <string name="touch_app_launcher1_title">应用启动器</string>
     <string name="touch_app_launcher_package_no_title">选择应用</string>
     <string name="touch_app_launcher1_not_wakelock_only_title">只有当屏幕未锁定时</string>
 
-    <string name="touch_tasker_launcher1_title">1. Tasker任务启动器</string>
-    <string name="touch_tasker_launcher2_title">2. Tasker任务启动器</string>
-    <string name="touch_tasker_launcher_no_permission_title">你需要先安装Tasker,之后设置Mi Bandage</string>
+    <string name="touch_tasker_launcher1_title">1. Tasker 任务启动器</string>
+    <string name="touch_tasker_launcher2_title">2. Tasker 任务启动器</string>
+    <string name="touch_tasker_launcher_no_permission_title">你需要先安装 Tasker,之后设置 Mi Bandage</string>
     <string name="touch_tasker_launcher_no_access_title">允许外部访问</string>
     <string name="touch_tasker_launcher_no_task_title">选择任务</string>
 
@@ -538,8 +538,8 @@
 
     <!-- Touch monitoring info dialog Mi Band 3/Amazfit Cor-->
     <string name="info_dialog_touch_not_supported"><![CDATA[
-        <b><u>Power saving mode</u></b>
-        <p>It does not increase battery consumption.</p>
+        <b><u>省电模式</u></b>
+        <p>不影响电池续航</p>
         <img src="ic_touch_pulse"> Pulse measurement
         <mi_band_3><p>On the bracelet, in the pulse measurement function, start the measurement (long touch) and then interrupt the measurement (one touch) after 1 second.</p></mi_band_3>
         <amazfit_cor><p>On the bracelet, start the pulse measurement function (Status) and then interrupt the measurement (swipe right) after 1 second.</p></amazfit_cor>
@@ -631,17 +631,17 @@
     <string name="pulse_tab_month">每月图表</string>
     <string name="pulse_tab_settings_online">在线设置</string>
     <string name="pulse_tab_settings_offline">离线设置</string>
-    <string name="pulse_tab_settings_continuous">Continuous setting</string>
+    <string name="pulse_tab_settings_continuous">持续测量设置</string>
 
     <string name="pulse_online_title">在线测量心率</string>
     <string name="pulse_offline_title">离线测量心率</string>
-    <string name="pulse_continuous_title">Continuous pulse measurement</string>
+    <string name="pulse_continuous_title">持续测量心率</string>
 
     <string name="action_chart_pulse_type_pulse">心跳</string>
     <string name="action_chart_pulse_type_pulse_and_step">心率和活动</string>
 
     <string name="pulse_continuous_chart_title">图表</string>
-    <string name="pulse_continuous_autostart">Autostart when starting Mi Fit activity</string>
+    <string name="pulse_continuous_autostart">当 Mi Fit 活跃时自动启动</string>
 
     <string name="pulse_notification_shade">Chart on the notification shade</string>
     <string name="pulse_title_signals">信号</string>
@@ -699,11 +699,11 @@
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>手环信号</u></b>
         <p>当指定的时间段结束时，如果没有连接到手机，则会发送信号.</p>
-        <not_support_icon_text><p>应用使用Mi Fit的闹铃功能来进行提醒(覆盖10.设置).</p></not_support_icon_text>
+        <not_support_icon_text><p>应用使用 Mi Fit 的闹铃功能来进行提醒(覆盖10.设置).</p></not_support_icon_text>
         <not_support_icon_text><p>如果手环未监测到任何动作闹钟会重复多次(因为它使用手环的闹钟).</p></not_support_icon_text>
-        <support_icon_text><p>应用使用Mi Fit的闹铃功能来进行提醒.</p></support_icon_text>
+        <support_icon_text><p>应用使用 Mi Fit 的闹铃功能来进行提醒.</p></support_icon_text>
         <p>在关闭蓝牙或卸载应用之前，你需要禁用手环信号.</p>
-        <not_support_icon_text><p>如果在闹钟开启时移除了应用,可以再次打开或关闭Mi Fit 10.闹钟设置.</p></not_support_icon_text>
+        <not_support_icon_text><p>如果在闹钟开启时移除了应用,可以再次打开或关闭 Mi Fit 10.闹钟设置.</p></not_support_icon_text>
 
         <img src="ic_phone_android"> <b><u>电话信号</u></b>
         <p>如果到达指定之间,手机会持续发送信号（如果未连接手环）.<p>
@@ -773,10 +773,10 @@
     <string name="info_dialog_time"><![CDATA[
         <p><b>在移除应用前关闭闹钟，计时器和秒表.</b></p>
         <img src="ic_device_alarm"> <b><u>手机闹铃响起时</u></b>
-        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from the Google Play.</p>
-        <img src="ic_miband_bell"> <b><u>Bell</u></b>
+        <p>不是所有手机都支持. 如果你手机的内置闹钟不支持,就去 Google Play 上下载 Google 闹钟.</p>
+        <img src="ic_miband_bell"> <b><u>铃声</u></b>
         <p>闹铃需要蓝牙连接，10秒发送一次.</p>
-        <img src="ic_alarm"> <b><u>Alarm</u></b>
+        <img src="ic_alarm"> <b><u>闹钟</u></b>
         <p>闹铃不需要蓝牙连接，使用Mi Fit功能来提醒(覆盖 4. - 9. 设置).
         <br>如果未监测到移动（使用手机提醒）则会重复提醒.
         <br>分钟精度,手环无法处理提醒秒数.</p>
@@ -784,19 +784,19 @@
     ]]></string>
 
     <!-- Reminder -->
-    <string name="reminder_tab_once">一旦</string>
+    <string name="reminder_tab_once">一次</string>
     <string name="reminder_tab_weekly">每周</string>
 
     <string name="reminder_repeat">Hourly repetition</string>
-    <string name="reminder_notification_shade">通过电话通知</string>
+    <string name="reminder_notification_shade">在手机上通知</string>
 
     <string name="message_reminder_enabled">提醒已启用</string>
     <string name="message_reminder_disabled">提醒已禁用</string>
-    <string name="message_reminder_no_more">Can not record more reminders</string>
+    <string name="message_reminder_no_more">无法添加更多提醒</string>
 
     <string name="info_dialog_reminder"><![CDATA[
-        <not_support_icon_text>Bluetooth connection is required to display the reminder.</not_support_icon_text>
-        <support_icon_text>App uses reminder function of Mi Fit, so in Mi Fit you have to clear the reminders.</support_icon_text>
+        <not_support_icon_text>显示提醒需要蓝牙连接</not_support_icon_text>
+        <support_icon_text>这个应用使用 Mi Fit 的接口,所以 Mi Fit 中的提醒必须清空.</support_icon_text>
         ]]>
     </string>
 
@@ -809,18 +809,18 @@
     <string name="weather_city_title">市</string>
     <string name="weather_unit_title">搜索</string>
 
-    <string name="weather_current_title">Current weather</string>
-    <string name="weather_current_temperature">Current temperature</string>
+    <string name="weather_current_title">当前天气</string>
+    <string name="weather_current_temperature">当前温度</string>
 
-    <string name="weather_forecast_title">Weather forecast</string>
+    <string name="weather_forecast_title">天气预报</string>
 
-    <string name="weather_display">Display</string>
+    <string name="weather_display">显示</string>
 
     <!-- Watch face -->
     <string name="watch_face_default_title">更换表盘</string>
 
     <string name="watch_face_init_title">初始化</string>
-    <string name="watch_face_init_content"><![CDATA[在Mi Fit应用程序中设置表盘.
+    <string name="watch_face_init_content"><![CDATA[在 Mi Fit 应用程序中设置表盘.
         <br>上传时需要选择相同的表盘.
         <br><i>(初始化只需一次)</i>
     ]]></string>
@@ -838,7 +838,7 @@
 
     <string name="info_dialog_watch_face"><![CDATA[<b><u>更换表盘:</u></b>
         <br><br><img src="ic_mi_fit_init"> <b>1. 初始化</b>
-        <p>在Mi Fit中还原表盘初始状态,上传第一个表盘.
+        <p>在 Mi Fit 中还原表盘初始状态,上传第一个表盘.
 
         <br><br><b>2. 下载</b>
         <p>从网络下载表盘.
@@ -847,14 +847,14 @@
         <p>如需要,将下载的表盘文件从下载目录移动到 MiBandage 目录.
 
         <br><br><img src="ic_mi_fit_upload"> <b>4. 上传</b>
-        <p>在Mi Fit中上传选定的表盘，它取代上次上传的表盘.
+        <p>在 Mi Fit 中上传选定的表盘，它取代上次上传的表盘.
 
         <br><br><br><b><u>上传多个表盘</u></b>
-        <p><img src="ic_action_launch_mi_fit">在未更换手表的情况下启动Mi Fit,上传第二个表盘.
-        <p><img src="ic_mi_fit_upload"> 在Mi Fit中上传选定的表盘.
+        <p><img src="ic_action_launch_mi_fit">在未更换手表的情况下启动 Mi Fit,上传第二个表盘.
+        <p><img src="ic_mi_fit_upload"> 在 Mi Fit 中上传选定的表盘.
         <p>重复以上步骤.
 
-        <br><br>在Mi Fit中表盘的图片不会改变.
+        <br><br>在 Mi Fit 中表盘的图片不会改变.
         ]]>
     </string>
 
@@ -863,7 +863,7 @@
     <string name="agent_tab_events">代理日志</string>
     <string name="agent_tab_settings">设置</string>
 
-    <string name="pref_disconnected_agent_summary_on">如有人在你离开时动了电话，你会知道</string>
+    <string name="pref_disconnected_agent_summary_on">如有人在你离开时动了电话，你会得到知道</string>
     <string name="pref_disconnected_agent_text">有人动了电话时而你正好离开</string>
     <string name="pref_disconnected_agent_user_present_title">唤醒手机屏幕监控</string>
     <string name="pref_disconnected_agent_screen_on_and_motion_title">电源和运动监控</string>
@@ -875,7 +875,7 @@
         <br>- 监测运动
 
         <p>如果有人在你离开后使用手机将会被记录.</p>
-        <p>重新连接后如果发生事件你会收到通知.</p>]]>
+        <p>重新连接后会通知你发生过的事件.</p>]]>
     </string>
 
     <!-- Theme -->
@@ -899,7 +899,7 @@
     <string name="theme_widget_touch_event_title">触摸事件</string>
 
     <string name="theme_notification_title">再通知栏显示状态</string>
-    <string name="theme_notification_summary">只有当内存不足时，Android系统才会停止服务。如果很长时间未在手环上收到通知则可以阻止系统此操作.</string>
+    <string name="theme_notification_summary">只有当内存不足时，Android 系统才会停止服务。如果很长时间未在手环上收到通知则可以阻止系统此操作.</string>
     <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon. If the notification is hidden, switch off this setting for optimal performance.</string>
     <string name="theme_notification_color_title">图标颜色</string>
     <string name="theme_notification_text_color_title">文字颜色</string>
@@ -943,14 +943,14 @@
     <string name="rewarded_policy"><![CDATA[
         <p>- 有效期开始: 当前时间
         <br>- 有效期结束: 有效期开始 + 至少 %1$,d 天 (取决于广告多少)
-        <br>- 修改时间可能会导致有效性丢失</p>
+        <br>- 修改时间可能会导致有效期丢失</p>
         <i>播放视频后你需要重启应用.</i>
     ]]></string>
 
     <string name="rewarded_advantage_banner_title">阻止横幅广告</string>
     <string name="rewarded_advantage_interstitial_title">阻止内嵌广告</string>
 
-    <string name="rewarded_advantage_time_range">有效性</string>
+    <string name="rewarded_advantage_time_range">有效期</string>
     <string name="rewarded_advantage_button_play">播放视频</string>
 
     <string name="message_rewarded_error">无法加载视频</string>
@@ -966,7 +966,7 @@
         <p>- 文本前缀,图标和过滤文本可用于通知监控</p>
         <p>- 可在步数监控中自由设定重复间隔</p>
         <p>- 可在心率监测中自由设定重复间隔</p>
-        <p>- 可自由设定重复间隔，DnD模式可用于丢失监测功能</p>
+        <p>- 可自由设定重复间隔，DnD 模式可用于丢失监测功能</p>
         <p>- 重复提醒,可在时间监测中自由设置显示信息和打开蓝牙</p>
         - …译者表示看来好用的功能都要解锁，所以你还在犹豫什么，赶快拿起电话…
     ]]></string>
@@ -998,26 +998,26 @@
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">隐私权政策</string>
-    <string name="privacy_policy_tab_eu_consent">EU user consent</string>
+    <string name="privacy_policy_tab_eu_consent">欧盟用户许可</string>
 
-    <string name="privacy_policy_collect_title">Information we collect</string>
+    <string name="privacy_policy_collect_title">我们收集以下信息</string>
     <string name="privacy_policy_collect"><![CDATA[
-        <p>- We only collect anonymous information.</p>
-        <p>- We collect information at the application level about the services that you use and how you use them (Google Firebase Platform).</p>
-        <p>- We collect information at the application level like bugs, errors and crashes to provide improvements (Google Firebase Platform).</p>
-        <p>- Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.</p>
-        - We do not share any data with other companies and organizations.
+        <p>- 我们只匿名收集信息.</p>
+        <p>- 我们收集使用了那些功能以及如何使用它们 (通过 Google Firebase Platform).</p>
+        <p>- 我们收集应用的 bug,错误和崩溃信息，以改进应用体验 (通过 Google Firebase Platform).</p>
+        <p>- Google Firebase Platform 将会收集匿名信息.这些信息不包括可以可以识别用户的数据.</p>
+        - 我们不会和其他公司或组织共享这些信息.
     ]]></string>
 
-    <string name="privacy_policy_not_collect_title">Information we do not collect</string>
+    <string name="privacy_policy_not_collect_title">我们不收集以下信息</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>- We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
-        - We do not collect personal health data, contacts and phone notification text.
+        <p>- 我们不会收集你的个人信息.换句话说,我们不会收集你的名字,住址,手机号,邮箱地址,IP 地址和 MAC 地址.</p>
+        - 我们不会收集你的个人健康数据,短信和手机通知内容.
     ]]></string>
 
-    <string name="privacy_policy_eu_consent_title">Status</string>
-    <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
+    <string name="privacy_policy_eu_consent_title">状态</string>
+    <string name="privacy_policy_eu_consent_title_personalized">关联个人的广告</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">不关联个人的广告</string>
     <string name="privacy_policy_eu_consent_title_unknown">未知</string>
 
     <string name="privacy_policy_eu_consent_setting">设置</string>
@@ -1035,9 +1035,9 @@
     </string>
 
     <!-- Others -->
-    <string name="on">On</string>
-    <string name="off">Off</string>
-    <string name="none">None</string>
+    <string name="on">开启</string>
+    <string name="off">关闭</string>
+    <string name="none">无</string>
     <string name="bpm">BPM</string>
     <string name="date">日期</string>
     <string name="time">时间</string>
@@ -1045,9 +1045,9 @@
     <string name="time_end">关闭时间</string>
     <string name="ringer_mode_vibrate">震动</string>
     <string name="ringer_mode_silent">静音</string>
-    <string name="ringer_mode_dnd_priority_only">Do not disturb (priority only)</string>
-    <string name="ringer_mode_dnd_alarms_only">Do not disturb (alarms only)</string>
-    <string name="ringer_mode_dnd_total_silence">Do not disturb (total silence)</string>
+    <string name="ringer_mode_dnd_priority_only">请勿打扰（仅限特殊应用）</string>
+    <string name="ringer_mode_dnd_alarms_only">请勿打扰（仅限闹钟）</string>
+    <string name="ringer_mode_dnd_total_silence">请勿打扰（完全静音）</string>
     <string name="unknown">未知</string>
     <string name="maximum">最大值</string>
 
@@ -1055,14 +1055,14 @@
     <string name="action_setting">设置</string>
     <string name="action_delete">删除</string>
     <string name="action_export">导出</string>
-    <string name="action_synchronization">Synchronization</string>
+    <string name="action_synchronization">同步</string>
     <string name="action_filter_no">无过滤器</string>
     <string name="action_bluetooth">蓝牙</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
     <string name="action_save">保存</string>
     <string name="action_test">测试</string>
-    <string name="action_discard">捨棄</string>
-    <string name="action_keep_editing">繼續編輯</string>
+    <string name="action_discard">放弃</string>
+    <string name="action_keep_editing">继续编辑</string>
 
     <string name="action_chart">图表</string>
     <string name="action_chart_normalize_minute">测量值</string>
