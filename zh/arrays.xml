@@ -99,14 +99,14 @@
     <string-array name="touch_call_mute_ringer_mode">
         <item>震动</item>
         <item>静音</item>
-        <item>Do not disturb (priority only)</item>
-        <item>Do not disturb (alarms only)</item>
-        <item>Do not disturb (total silence)</item>
+        <item>请勿打扰（仅限特殊应用）</item>
+        <item>请勿打扰（仅限闹钟）</item>
+        <item>请勿打扰（完全静音）</item>
     </string-array>
 
     <string-array name="touch_music_player">
         <item>默认音乐播放器</item>
-        <item>Currently running player</item>
+        <item>正在运行的音乐播放器</item>
         <item>Google Play 音乐</item>
         <item>Spotify 音乐</item>
     </string-array>
@@ -122,7 +122,7 @@
         <item>没有通知</item>
         <item>艺术家#标题</item>
         <item>艺术家, 标题</item>
-        <item></item>
+        <item>标题</item>
     </string-array>
 
     <string-array name="touch_music_info_values">
@@ -133,8 +133,8 @@
     </string-array>
 
     <string-array name="touch_camera_app">
-        <item>Default (root is needed)</item>
-        <item>Open Camera</item>
+        <item>默认（需要 root）</item>
+        <item>打开相机</item>
     </string-array>
 
     <string-array name="touch_camera_app_values">
@@ -237,7 +237,7 @@
         <item>无</item>
         <item>触摸</item>
         <item>双触</item>
-        <item>三重触摸</item>
+        <item>三次触摸</item>
         <item>长按</item>
     </string-array>
 
@@ -250,8 +250,8 @@
     </string-array>
 
     <string-array name="pref_touch_detection_method">
-        <item>Power saving (pulse)</item>
-        <item>Performance</item>
+        <item>省电模式</item>
+        <item>性能模式</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method_values">
@@ -278,8 +278,8 @@
     </string-array>
 
     <string-array name="pref_weather_unit">
-        <item>Metric</item>
-        <item>Imperial</item>
+        <item>公制</item>
+        <item>英制</item>
     </string-array>
 
     <string-array name="pref_weather_unit_values">
@@ -288,9 +288,9 @@
     </string-array>
 
     <string-array name="pref_weather_current_display">
-        <item>Current</item>
-        <item>Average</item>
-        <item>Am, Pm</item>
+        <item>当前</item>
+        <item>平均</item>
+        <item>上午，下午</item>
     </string-array>
 
     <string-array name="pref_weather_current_display_values">
@@ -300,8 +300,8 @@
     </string-array>
 
     <string-array name="pref_weather_forecast_display">
-        <item>Average</item>
-        <item>Am, Pm</item>
+        <item>平均</item>
+        <item>上午，下午</item>
     </string-array>
 
     <string-array name="pref_weather_forecast_display_values">
@@ -370,8 +370,8 @@
     </string-array>
 
     <string-array name="pref_language_mi_band_3">
-        <item>Not set (set by Mi Fit)</item>
-        <item>默认 (用电话)</item>
+        <item>不设置（使用小米运动设置）</item>
+        <item>默认 (使用手机设置)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -410,8 +410,8 @@
     </string-array>
 
     <string-array name="pref_language_amazfit_bip_watch">
-        <item>Not set (set by Mi Fit)</item>
-        <item>默认 (用电话)</item>
+        <item>不设置（使用小米运动设置）</item>
+        <item>默认 (使用手机设置)</item>
         <item>English</item>
         <item>Español</item>
         <item>Русский</item>
@@ -430,8 +430,8 @@
     </string-array>
 
     <string-array name="pref_language_amazfit_cor">
-        <item>Not set (set by Mi Fit)</item>
-        <item>默认 (用电话)</item>
+        <item>不设置（使用小米运动设置）</item>
+        <item>默认 (使用手机设置)</item>
         <item>English</item>
         <item>Español</item>
         <item>Русский</item>
