@@ -905,6 +905,7 @@
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Sauvegarder</string>
     <string name="backup_tab_restore">Restaurer</string>
+    <string name="backup_tab_cloud">Cloud</string>
 
     <string name="backup_time">Heure de la sauvegarde</string>
     <string name="backup_path">Destination de la sauvegarde</string>
@@ -922,6 +923,7 @@
     <string name="backup_process_alarm">Échec %1$,d%%</string>
     <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
     <string name="backup_process_settings">Réglages %1$,d%%</string>
+    <string name="backup_process_cloud">Cloud %1$,d%%</string>
 
     <string name="backup_restore_activity">Activité et sommeil</string>
     <string name="backup_restore_pulse">Rythme</string>
@@ -935,6 +937,11 @@
     <string name="backup_restore_settings">Réglages</string>
 
     <string name="backup_restore_reset">Après la restauration, le Bluetooth sera éteint puis réactivé et l\'application va redémarrer.</string>
+
+    <string name="backup_cloud_drive_login">Google Drive sign in</string>
+    <string name="backup_cloud_drive_logout">Google Drive sign out</string>
+    <string name="backup_cloud_sync_time">Heure de téléchargement</string>
+    <string name="backup_cloud_only_wifi">Over wi-fi only</string>
 
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Termes et conditions d\'utilisation</string>
