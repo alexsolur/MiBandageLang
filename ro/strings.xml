@@ -172,17 +172,17 @@
         <br/>1. Setează limba telefonului engleză.
         <br/>2. Deschide aplicația Mi Fit, așteaptă până când actualizarea firmware-ului pentru fonturi este terminată. Dacă actualizarea firmware-ului nu pornește, încearcă să repornești telefonul.
         <br/>3. Deschide meniul <i>Profil/ Mi Band/ Apel primit </i>.
-        <br/>4. Activează: <i>Activați alertele pentru apel primit </i>.
+        <br/>4. Activează: <i>Activează alertele pentru apel primit </i>.
         <br/>5. Activează: <i>Afișare informațiile de contact </i>.
         <br/>6. Verifică dacă brățara poate afișa numele sunând telefonul tău.
-        <br/>7. Dezactivare: <i>Activați alertele pentru apel primit</i> (<i>Afișare informațiile de contact</i> rămâne activat).
+        <br/>7. Dezactivare: <i>Activează alertele pentru apel primit</i> (<i>Afișare informațiile de contact</i> rămâne activat).
         <br/>8. Setează telefonul înapoi în limba ta.</p>]]>
     </string>
 
     <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_mi_band_lift_wrist">Ridică încheietura mâinii pentru a vedea informații</string>
-    <string name="pref_mi_band_lift_wrist_title">Ridicați încheietura mâinii pentru a vedea informații</string>
-    <string name="pref_mi_band_lift_wrist_dnd_title">Modul Nu deranjați</string>
+    <string name="pref_mi_band_lift_wrist_title">Ridică încheietura mâinii pentru a vedea informații</string>
+    <string name="pref_mi_band_lift_wrist_dnd_title">Modul Nu deranja</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">Pornit (în perioada specificată nu va afișa informații, este necesară conexiunea Bluetooth pentru setare)</string>
 
     <string name="pref_battery_phone">Bateria telefonului</string>
@@ -225,10 +225,10 @@
     <string name="pref_dnd_scheduled_title">Mod Nu deranja programat</string>
     <string name="pref_dnd_scheduled_new_title">Titlu</string>
     <string name="pref_dnd_remember_state_summary">La sfârșitul modului de a nu deranja, activează toate bandajele sau restabilește stările așa cum au fost la momentul inițierii</string>
-    <string name="pref_dnd_remember_state_on_title">La sfârșit, restabiliți starea bandajelor</string>
-    <string name="pref_dnd_remember_state_off_title">La sfârșit porniți toate bandajele</string>
+    <string name="pref_dnd_remember_state_on_title">La sfârșit, restabilește starea bandajelor</string>
+    <string name="pref_dnd_remember_state_off_title">La sfârșit pornște toate bandajele</string>
     <string name="pref_dnd_mi_fit_scheduled">Activează modul DnD al %1$s (dezactivează apelurile, mesajele și ridicarea mâinii pentru a vedea informații)</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_dnd_enable_bluetooth">La începutul modului DnD opriți Bluetooth, la final porniți Bluetooth</string>
+    <string name="pref_dnd_enable_bluetooth">La începutul modului DnD oprește Bluetooth, la final pornește Bluetooth</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Activează Bluetooth și adu brățara mai aproape de telefon</string>
@@ -297,11 +297,11 @@
     <p>Dacă brățara nu este găsită, poți seta manual adresa MAC atunci când o detectezi(adresa MAC se alfă în: Mi Fit / Profil / Band).</p>
     <p><b>Dacă ai probleme de conectare:</b>
     <br>- Verifică <i> Setări/ Diagnostice</i> 
-    <br>- Ecranul aplicațiilor recente: blocați Mi Bandage (trage în jos aplicația și apasă pe pictograma blocare).
+    <br>- Ecranul aplicațiilor recente: blochează Mi Bandage (trage în jos aplicația și apasă pe pictograma blocare).
     <br>- Optimizarea telefonului/ bateriei: setează aplicația Mi Bandage pentru a nu fi optimizată.
     <br>- Telefon/ aplicații: șterge datele aplicației Bluetooth Share și a altor aplicații \'Bluetooth\'.
     <br>Setări/ Opțiuni pentru dezvoltatori:
-    <br>- Nu țineți activitățile: dezactivați
+    <br>- Nu păstra activitățile: dezactivează
     <br>- Limită proces de fundal: limită standard
     <br>- Optimizarea memoriei: mediu/ scăzut/ dezactivat</p>
     <p>Dacă brățara nu este găsită sau dacă sunt probleme cu sincronizarea aplicației Mi Fit, instalează aplicația BToolkit, nRF Connect sau similar, și șterge orice dispozitiv împerecheat.</p>
@@ -822,8 +822,8 @@
     <string name="watch_face_default_title">Schimbare față de ceas</string>
 
     <string name="watch_face_init_title">Inițializare</string>
-    <string name="watch_face_init_content"><![CDATA[În aplicația Mi Fit setați una dintre fețele de ceas din fabrică.
-        <br>Trebuie să selectați aceeași față de ceas la upload.
+    <string name="watch_face_init_content"><![CDATA[În aplicația Mi Fit setează una dintre fețele de ceas din fabrică.
+        <br>Trebuie să selectezi aceeași față de ceas la upload.
         <br><i>(inițializarea este necesară doar o singură dată)</i>
     ]]></string>
 
@@ -1003,7 +1003,7 @@
 
     <string name="feedback_google_play_title">Evaluează această aplicație</string>
     <string name="feedback_request_feature_title">Solicitare de funcții, raport de erori</string>
-    <string name="feedback_request_feature_summary">Prelucrare automată a poștei electronice, este posibil să nu primiți un răspuns</string>
+    <string name="feedback_request_feature_summary">Prelucrare automată a poștei electronice, este posibil să nu primești un răspuns</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Politica de confidentialitate</string>
@@ -1055,7 +1055,7 @@
     <string name="ringer_mode_vibrate">Vibrații</string>
     <string name="ringer_mode_silent">Mut</string>
     <string name="ringer_mode_dnd_priority_only">Nu deranja (numai pentru prioritate)</string>
-    <string name="ringer_mode_dnd_alarms_only">Nu deranjați (numai alarmele)</string>
+    <string name="ringer_mode_dnd_alarms_only">Nu deranja (numai alarmele)</string>
     <string name="ringer_mode_dnd_total_silence">Nu deranja (liniște totală)</string>
     <string name="unknown">Necunoscut</string>
     <string name="maximum">Maxim</string>
