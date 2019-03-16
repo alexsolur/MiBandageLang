@@ -73,7 +73,7 @@
     <string name="mi_band_battery_notification_shade">在手机上通知</string>
     <string name="mi_band_battery_notification_shade_ongoing">持续(不断的)通知</string>
     <string name="mi_band_battery_notification_shade_message">电池电量低于 %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">通知手环</string>
+    <string name="mi_band_battery_notification_mi_band">在手环上通知</string>
     <string name="mi_band_battery_notification_mi_band_message">电量: %1$,d%%</string>
 
     <!-- PreferenceScreen -->
@@ -133,7 +133,7 @@
     <string name="pref_call_summary">%1$s 手环连接设置</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">来电</string>
     <string name="pref_call_title">来电设置</string>
-    <string name="pref_call_summary_on">开 (不要忘记关闭Mi Fit里的提醒)</string>
+    <string name="pref_call_summary_on">开 (不要忘记关闭 Mi Fit 里的提醒)</string>
     <string name="pref_call_text_title">来电显示</string>
     <string name="pref_call_text_summary_on"><![CDATA[On (more information: <i>Settings/Text icons settings)</i>]]></string>
 
@@ -156,7 +156,7 @@
     <string name="pref_text_conversion_summary">手环文字图标设置</string>
     <string name="pref_cat_text_conversion">%1$s 信号</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">字符转换</string>
-    <string name="pref_text_conversion_summary_on">不可识别的字符转换, turn off if the Band supports your language or you have installed custom font firmware</string>
+    <string name="pref_text_conversion_summary_on">不可识别的字符转换,如果手环支持你使用的语言或刷入了自定义字体固件，请关掉这个开关</string>
     <string name="pref_text_emoticon_title">Emoji 转换</string>
     <string name="pref_text_emoticon_summary_on">将 Emoji 转化为文字</string>
     <string name="pref_text_uppercase_title">大写字母转换</string>
@@ -184,7 +184,7 @@
     <string name="pref_mi_band_lift_wrist_dnd_title">勿扰模式</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">开 (在指定时间内不显示信息，需连接蓝牙设置)</string>
 
-    <string name="pref_battery_phone">Phone battery</string>
+    <string name="pref_battery_phone">手机电量</string>
     <string name="pref_battery_phone_summary">低电量或充满电时提示</string>
     <string name="pref_cat_battery_phone_low">低电量</string>
     <string name="pref_battery_phone_low_title">电量不足通知</string>
@@ -225,14 +225,14 @@
     <string name="pref_dnd_scheduled_new_title">标题</string>
     <string name="pref_dnd_remember_state_summary">勿扰模式结束时恢复手环状态</string>
     <string name="pref_dnd_remember_state_on_title">还原手环最后的状态</string>
-    <string name="pref_dnd_remember_state_off_title">打开最后所有手环</string>
+    <string name="pref_dnd_remember_state_off_title">启动手环全部功能</string>
     <string name="pref_dnd_mi_fit_scheduled">激活 %1$s DnD 模式 (禁用呼叫，消息和抬腕查看)</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_dnd_enable_bluetooth">在DnD模式开始时关闭蓝牙,最后再打开蓝牙</string>
+    <string name="pref_dnd_enable_bluetooth">在 DnD 模式开始时关闭蓝牙,最后再打开蓝牙</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">请打开蓝牙并将手环靠近手机</string>
     <string name="message_discover_mi_band">没有设置手环，请寻找</string>
-    <string name="message_discovering_mi_band">发现手环(可能需要1分钟) &#8230;</string>
+    <string name="message_discovering_mi_band">正在查找手环(可能需要1分钟) &#8230;</string>
     <string name="message_discovered_mi_band">%1$s 连接成功</string>
     <string name="message_discovered_no_mi_band">连接失败</string>
     <string name="message_discovered_not_found_mi_band">如果找不到手环请打开: Mi Fit/Play/Discoverable 或在手机蓝牙里设置</string>
@@ -253,12 +253,12 @@
 
     <string name="message_touch_no_patterns">按下红色按钮来进行记录</string>
     <string name="message_touch_record">使用 %1$s 触摸按钮</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="message_touch_pattern_error">制定模式类似另一个函数样本,记录另一个</string>
+    <string name="message_touch_pattern_error">新动作与另一个动作相似，请重新录制</string>
     <string name="message_touch_free_patterns">在普通模式下不能使用多于 %1$,d 的函数</string>
     <string name="message_touch_music_player_not_found">找不到播放器</string>
     <string name="message_touch_app_launcher1_not_set">应用未设置</string>
     <string name="message_touch_app_launcher1_not_found">未找到应用: %1$s</string>
-    <string name="message_touch_tasker_launcher_not_set">Tasker未设置</string>
+    <string name="message_touch_tasker_launcher_not_set">Tasker 未设置</string>
 
     <string name="message_notification_group_has_no_entry">按右下角 \'+\' 号来选择应用</string>
 
@@ -368,9 +368,9 @@
     <string name="notification_group_filter_contains">包含任何短语</string>
     <string name="notification_group_filter_not_contains">包含这些短语</string>
 
-    <string name="notification_group_sample_sms">SMS文本显示</string>
-    <string name="notification_group_sample_facebook">Messenger文本显示</string>
-    <string name="notification_group_sample_whatsapp">WhatsApp文本显示</string>
+    <string name="notification_group_sample_sms">SMS 文本显示</string>
+    <string name="notification_group_sample_facebook">Messenger 文本显示</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp 文本显示</string>
 
     <string name="notification_group_correction">文本修改</string>
     <string name="notification_group_correction_title">标题修改</string>
@@ -458,7 +458,7 @@
     <string name="touch_call_mute_only_call_state_ringing_title">只当你有来电时</string>
     <string name="touch_call_mute_recognition_title">来电</string>
 
-    <string name="touch_device_location_not_muted_only_title">只有在未静音或出于DnD模式时才发声</string>
+    <string name="touch_device_location_not_muted_only_title">只有在未静音或未处于 DnD 模式时才发声</string>
 
     <string name="touch_call_out_title">呼出</string>
     <string name="touch_call_out_no_contact">选择一个联系人</string>
@@ -506,7 +506,7 @@
     <string name="touch_testing_title">触摸监控</string>
     <string name="touch_testing_second">sec.</string>
 
-    <string name="touch_setting_detection_method_title">Touch detection method</string>
+    <string name="touch_setting_detection_method_title">触摸截取方式</string>
 
     <string name="touch_setting_recognition_start_title">开始触摸识别</string>
     <string name="touch_setting_recognition_start_trigger_title">触发器</string>
@@ -540,11 +540,11 @@
     <string name="info_dialog_touch_not_supported"><![CDATA[
         <b><u>省电模式</u></b>
         <p>不影响电池续航</p>
-        <img src="ic_touch_pulse"> Pulse measurement
-        <mi_band_3><p>On the bracelet, in the pulse measurement function, start the measurement (long touch) and then interrupt the measurement (one touch) after 1 second.</p></mi_band_3>
-        <amazfit_cor><p>On the bracelet, start the pulse measurement function (Status) and then interrupt the measurement (swipe right) after 1 second.</p></amazfit_cor>
-        <p>It must be turn off during continuous, online pulse measurement and exercise.<p>
-        <b><u>Performance mode</u></b>
+        <img src="ic_touch_pulse"> 心率测量
+        <mi_band_3><p>在手环上启动心率测量（长按）并在一秒后中断测量（点击一次）</p></mi_band_3>
+        <amazfit_cor><p>在手环上启动心率测量并在一秒后中断测量（右滑）</p></amazfit_cor>
+        <p>使用连续心率测量、在线心率测量及运动的时候，必须关闭这选项<p>
+        <b><u>性能模式</u></b>
         <p>Increases battery consumption. On the home screen turn on the touch only when you need it.</p>
         <img src="ic_touch_app"> Touch
         <mi_band_3><p>Touch is valid when the <mi_band_type> screen is off.</p></mi_band_3>
@@ -643,7 +643,7 @@
     <string name="pulse_continuous_chart_title">图表</string>
     <string name="pulse_continuous_autostart">当 Mi Fit 活跃时自动启动</string>
 
-    <string name="pulse_notification_shade">Chart on the notification shade</string>
+    <string name="pulse_notification_shade">在通知栏显示图表</string>
     <string name="pulse_title_signals">信号</string>
     <string name="pulse_signal_start_title">监控开始信号</string>
     <string name="pulse_signal_show_title">显示心率</string>
@@ -657,7 +657,7 @@
 
     <string name="pulse_offline_timed_title">定制监测</string>
 
-    <string name="pulse_chart_expandable_title">Notification is expandable</string>
+    <string name="pulse_chart_expandable_title">通知可展开</string>
     <string name="pulse_interval_title">心率监测的重复间隔</string>
     <string name="pulse_all_day">全天</string>
     <string name="pulse_time_set_next">下次监测的时间</string>
@@ -864,7 +864,7 @@
     <string name="agent_tab_events">代理日志</string>
     <string name="agent_tab_settings">设置</string>
 
-    <string name="pref_disconnected_agent_summary_on">如有人在你离开时动了电话，你会得到知道</string>
+    <string name="pref_disconnected_agent_summary_on">如有人在你离开时动了电话，你会得到通知</string>
     <string name="pref_disconnected_agent_text">有人动了电话时而你正好离开</string>
     <string name="pref_disconnected_agent_user_present_title">唤醒手机屏幕监控</string>
     <string name="pref_disconnected_agent_screen_on_and_motion_title">电源和运动监控</string>
@@ -882,7 +882,7 @@
     <!-- Theme -->
     <string name="theme_tab_theme">主题</string>
     <string name="theme_tab_widget">小工具</string>
-    <string name="theme_tab_notification">通知阴影</string>
+    <string name="theme_tab_notification">通知</string>
 
     <string name="theme_title">选择主题</string>
     <string name="theme_light">光明</string>
@@ -895,11 +895,11 @@
     <string name="theme_widget_background_color_title">颜色</string>
     <string name="theme_widget_background_shape_title">形状</string>
     <string name="theme_widget_background_transparency_title">透明度</string>
-    <string name="theme_widget_background_logo_visibility">显示Mi Bandage徽标</string>
+    <string name="theme_widget_background_logo_visibility">显示 Mi Bandage 徽标</string>
 
     <string name="theme_widget_touch_event_title">触摸事件</string>
 
-    <string name="theme_notification_title">再通知栏显示状态</string>
+    <string name="theme_notification_title">在通知栏显示状态</string>
     <string name="theme_notification_summary">只有当内存不足时，Android 系统才会停止服务。如果很长时间未在手环上收到通知则可以阻止系统此操作.</string>
     <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon. If the notification is hidden, switch off this setting for optimal performance.</string>
     <string name="theme_notification_color_title">图标颜色</string>
@@ -908,7 +908,7 @@
     <!-- Backup and restore -->
     <string name="backup_tab_backup">备份</string>
     <string name="backup_tab_restore">恢复</string>
-    <string name="backup_tab_cloud">Cloud</string>
+    <string name="backup_tab_cloud">云端</string>
 
     <string name="backup_time">备份时间</string>
     <string name="backup_path">备份位置</string>
@@ -926,7 +926,7 @@
     <string name="backup_process_alarm">丢失 %1$,d%%</string>
     <string name="backup_process_disconnected_agent">代理 %1$,d%%</string>
     <string name="backup_process_settings">设置 %1$,d%%</string>
-    <string name="backup_process_cloud">Cloud %1$,d%%</string>
+    <string name="backup_process_cloud">上传 %1$,d%%</string>
 
     <string name="backup_restore_activity">活动和睡眠</string>
     <string name="backup_restore_pulse">心率</string>
@@ -941,10 +941,10 @@
 
     <string name="backup_restore_reset">恢复后,蓝牙将关闭且应用会重新启动.</string>
 
-    <string name="backup_cloud_drive_login">Google Drive sign in</string>
-    <string name="backup_cloud_drive_logout">Google Drive sign out</string>
+    <string name="backup_cloud_drive_login">登录 Google Drive</string>
+    <string name="backup_cloud_drive_logout">登出 Google Drive</string>
     <string name="backup_cloud_sync_time">上传时间</string>
-    <string name="backup_cloud_only_wifi">Over wi-fi only</string>
+    <string name="backup_cloud_only_wifi">仅在 WiFi 环境下上传</string>
 
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">奖励模式的条款和条件</string>
