@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_connected_have_notif_counter">
-        <item>Number of notifications</item>
-        <item>Once per Band icon</item>
-        <item>1 \'app\' 图标</item>
-        <item>2 \'app\' 图标</item>
-        <item>3 \'app\' 图标</item>
+        <item>Toate notificările</item>
+        <item>O dată pentru fiecare pictogramă</item>
+        <item>1 \'app\' pictogramă</item>
+        <item>2 \'app\' pictogramă</item>
+        <item>3 \'app\' pictogramă</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_counter_values">
@@ -17,14 +17,14 @@
     </string-array>
 
     <string-array name="pref_connected_have_notif_interval">
-        <item>3 分</item>
-        <item>5 分</item>
-        <item>10 分</item>
-        <item>20 分</item>
-        <item>30 分</item>
-        <item>1 小时</item>
-        <item>2 小时</item>
-        <item>3 小时</item>
+        <item>3 minute</item>
+        <item>5 minute</item>
+        <item>10 minute</item>
+        <item>20 minute</item>
+        <item>30 minute</item>
+        <item>1 oră</item>
+        <item>2 ore</item>
+        <item>3 ore</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_interval_values">
@@ -39,16 +39,16 @@
     </string-array>
 
     <string-array name="pref_abandoned_interval">
-        <item>1 分</item>
-        <item>2 分</item>
-        <item>3 分</item>
-        <item>4 分</item>
-        <item>5 分</item>
-        <item>6 分</item>
-        <item>7 分</item>
-        <item>8 分</item>
-        <item>9 分</item>
-        <item>10 分</item>
+        <item>1 minute</item>
+        <item>2 minute</item>
+        <item>3 minute</item>
+        <item>4 minute</item>
+        <item>5 minute</item>
+        <item>6 minute</item>
+        <item>7 minute</item>
+        <item>8 minute</item>
+        <item>9 minute</item>
+        <item>10 minute</item>
     </string-array>
 
     <integer-array name="pref_abandoned_interval_values">
@@ -65,12 +65,12 @@
     </integer-array>
 
     <string-array name="pref_abandoned_notif_interval">
-        <item>10 分</item>
-        <item>20 分</item>
-        <item>30 分</item>
-        <item>1 小时</item>
-        <item>2 小时</item>
-        <item>3 小时</item>
+        <item>10 minute</item>
+        <item>20 minute</item>
+        <item>30 minute</item>
+        <item>1 oră</item>
+        <item>2 ore</item>
+        <item>3 ore</item>
     </string-array>
 
     <integer-array name="pref_abandoned_notif_interval_values">
@@ -83,32 +83,32 @@
     </integer-array>
 
     <string-array name="notification_group_counter">
-        <item>通知数量 (全部)</item>
-        <item>每个应用</item>
-        <item>一个信号</item>
+        <item>Toate notificările</item>
+        <item>O dată pe aplicație</item>
+        <item>Un semnal</item>
     </string-array>
 
     <string-array name="notification_group_repeat">
-        <item>总是</item>
-        <item>决不</item>
-        <item>一旦</item>
-        <item>两次</item>
-        <item>三次</item>
+        <item>Întotdeauna</item>
+        <item>Niciodată</item>
+        <item>O dată</item>
+        <item>De două ori</item>
+        <item>De trei ori</item>
     </string-array>
 
     <string-array name="touch_call_mute_ringer_mode">
-        <item>震动</item>
-        <item>静音</item>
-        <item>请勿打扰（仅限特殊应用）</item>
-        <item>请勿打扰（仅限闹钟）</item>
-        <item>请勿打扰（完全静音）</item>
+        <item>Vibrație</item>
+        <item>Mut</item>
+        <item>Nu deranja (doar prioritare)</item>
+        <item>Nu deranja (doar alarme)</item>
+        <item>Nu deranja (liniște totală)</item>
     </string-array>
 
     <string-array name="touch_music_player">
-        <item>默认音乐播放器</item>
-        <item>正在运行的音乐播放器</item>
-        <item>Google Play 音乐</item>
-        <item>Spotify 音乐</item>
+        <item>Player muzical implicit</item>
+        <item>Player care ruleaza acum</item>
+        <item>Muzică Google Play</item>
+        <item>Muzică Spotify</item>
     </string-array>
 
     <string-array name="touch_music_player_values">
@@ -119,10 +119,10 @@
     </string-array>
 
     <string-array name="touch_music_info">
-        <item>没有通知</item>
-        <item>艺术家#标题</item>
-        <item>艺术家, 标题</item>
-        <item>标题</item>
+        <item>Nicio notificare</item>
+        <item>Artist#Titlu</item>
+        <item>Artist, Titlu</item>
+        <item>Titlu</item>
     </string-array>
 
     <string-array name="touch_music_info_values">
@@ -133,8 +133,8 @@
     </string-array>
 
     <string-array name="touch_camera_app">
-        <item>默认（需要 root）</item>
-        <item>打开相机</item>
+        <item>Implicit (este nevoie de root)</item>
+        <item>Deschide Camera</item>
     </string-array>
 
     <string-array name="touch_camera_app_values">
@@ -143,31 +143,31 @@
     </string-array>
 
     <string-array name="pref_timer_time_interval_repeat">
-        <item>Off</item>
-        <item>1 分</item>
-        <item>2 分</item>
-        <item>3 分</item>
-        <item>4 分</item>
-        <item>5 分</item>
-        <item>6 分</item>
-        <item>7 分</item>
-        <item>8 分</item>
-        <item>9 分</item>
-        <item>10 分</item>
-        <item>11 分</item>
-        <item>12 分</item>
-        <item>13 分</item>
-        <item>14 分</item>
-        <item>15 分</item>
-        <item>20 分</item>
-        <item>30 分</item>
-        <item>40 分</item>
-        <item>50 分</item>
-        <item>1 小时</item>
-        <item>2 小时</item>
-        <item>3 小时</item>
-        <item>4 小时</item>
-        <item>5 小时</item>
+        <item>Oprit</item>
+        <item>1 minut</item>
+        <item>2 minute</item>
+        <item>3 minute</item>
+        <item>4 minute</item>
+        <item>5 minute</item>
+        <item>6 minute</item>
+        <item>7 minute</item>
+        <item>8 minute</item>
+        <item>9 minute</item>
+        <item>10 minute</item>
+        <item>11 minute</item>
+        <item>12 minute</item>
+        <item>13 minute</item>
+        <item>14 minute</item>
+        <item>15 minute</item>
+        <item>20 minute</item>
+        <item>30 minute</item>
+        <item>40 minute</item>
+        <item>50 minute</item>
+        <item>1 oră</item>
+        <item>2 ore</item>
+        <item>3 ore</item>
+        <item>4 ore</item>
+        <item>5 ore</item>
     </string-array>
 
     <integer-array name="pref_timer_time_interval_repeat_values">
@@ -199,16 +199,16 @@
     </integer-array>
 
     <string-array name="notification_group_text_content_slice">
-        <item>1 段 (1-%1$,d 字符)</item>
-        <item>2 段 (1-%1$,d 字符)</item>
-        <item>3 段 (1-%1$,d 字符)</item>
-        <item>4 段 (1-%1$,d 字符)</item>
-        <item>5 段 (1-%1$,d 字符)</item>
-        <item>6 段 (1-%1$,d 字符)</item>
-        <item>7 段 (1-%1$,d 字符)</item>
-        <item>8 段 (1-%1$,d 字符)</item>
-        <item>9 段 (1-%1$,d 字符)</item>
-        <item>10 段 (1-%1$,d 字符)</item>
+        <item>1 tranșă (1-%1$,d caractere)</item>
+        <item>2 tranșe (1-%1$,d caractere)</item>
+        <item>3 tranșe (1-%1$,d caractere)</item>
+        <item>4 tranșe (1-%1$,d caractere)</item>
+        <item>5 tranșe (1-%1$,d caractere)</item>
+        <item>6 tranșe (1-%1$,d caractere)</item>
+        <item>7 tranșe (1-%1$,d caractere)</item>
+        <item>8 tranșe (1-%1$,d caractere)</item>
+        <item>9 tranșe (1-%1$,d caractere)</item>
+        <item>10 tranșe (1-%1$,d caractere)</item>
     </string-array>
 
     <integer-array name="notification_group_text_content_slice_values">
@@ -225,20 +225,40 @@
     </integer-array>
 
     <string-array name="notification_group_display_time">
-        <item>自动 (3 – 5 秒)</item>
-        <item>3 秒</item>
-        <item>4 秒</item>
-        <item>5 秒</item>
-        <item>6 秒</item>
-        <item>7 秒</item>
+        <item>Auto (3 – 5 secunde)</item>
+        <item>3 secunde</item>
+        <item>4 secunde</item>
+        <item>5 secunde</item>
+        <item>6 secunde</item>
+        <item>7 secunde</item>
     </string-array>
 
+    <integer-array name="notification_group_display_time_values">
+        <item>0</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </integer-array>
+
+    <integer-array name="notification_group_display_time_millis">
+        <item>0</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3200</item>
+        <item>4400</item>
+        <item>5600</item>
+        <item>6700</item>
+        <item>7800</item>
+    </integer-array>
+
     <string-array name="touch_recognition_press">
-        <item>无</item>
-        <item>触摸</item>
-        <item>双触</item>
-        <item>三次触摸</item>
-        <item>长按</item>
+        <item>Nimic</item>
+        <item>Atingere</item>
+        <item>Atingere dublă</item>
+        <item>Atingere triplă</item>
+        <item>Atingere lungă</item>
     </string-array>
 
     <string-array name="touch_recognition_press_values">
@@ -250,8 +270,8 @@
     </string-array>
 
     <string-array name="pref_touch_detection_method">
-        <item>省电模式</item>
-        <item>性能模式</item>
+        <item>Economisire de energie (puls)</item>
+        <item>Performanță</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method_values">
@@ -260,9 +280,9 @@
     </string-array>
 
     <string-array name="touch_recognition_start_trigger">
-        <item>无</item>
-        <item>模式</item>
-        <item>长按按钮</item>
+        <item>Nimic</item>
+        <item>Model</item>
+        <item>Apăsare lungă pe buton</item>
     </string-array>
 
     <string-array name="touch_recognition_start_trigger_values">
@@ -278,8 +298,8 @@
     </string-array>
 
     <string-array name="pref_weather_unit">
-        <item>公制</item>
-        <item>英制</item>
+        <item>Metric</item>
+        <item>Imperial</item>
     </string-array>
 
     <string-array name="pref_weather_unit_values">
@@ -288,9 +308,9 @@
     </string-array>
 
     <string-array name="pref_weather_current_display">
-        <item>当前</item>
-        <item>平均</item>
-        <item>上午，下午</item>
+        <item>Curent</item>
+        <item>Mediu</item>
+        <item>Am, Pm</item>
     </string-array>
 
     <string-array name="pref_weather_current_display_values">
@@ -300,8 +320,8 @@
     </string-array>
 
     <string-array name="pref_weather_forecast_display">
-        <item>平均</item>
-        <item>上午，下午</item>
+        <item>Mediu</item>
+        <item>Am, Pm</item>
     </string-array>
 
     <string-array name="pref_weather_forecast_display_values">
@@ -310,12 +330,12 @@
     </string-array>
 
     <string-array name="widget_event">
-        <item>显示手环</item>
-        <item>显示活动</item>
-        <item>显示心率</item>
-        <item>测量心率</item>
-        <item>显示闹钟</item>
-        <item>显示提醒</item>
+        <item>Ecranul Bandaje</item>
+        <item>Ecranul Activități</item>
+        <item>Ecranul Puls</item>
+        <item>Măsurare puls</item>
+        <item>Ecranul Alarme</item>
+        <item>Ecranul Reamintiri</item>
     </string-array>
 
     <string-array name="widget_event_values">
@@ -328,8 +348,8 @@
     </string-array>
 
     <string-array name="pref_language">
-        <item>默认</item>
-        <item>中文</item>
+        <item>Implicit</item>
+        <item>Română</item>
         <item>English</item>
         <item>Magyar</item>
         <item>Русский</item>
@@ -346,11 +366,12 @@
         <item>Norsk</item>
         <item>Ελληνικά</item>
         <item>Indonesia</item>
+        <item>中文</item>
     </string-array>
 
     <string-array name="pref_language_values">
         <item>DEFAULT</item>
-        <item>zh</item>
+        <item>ro</item>
         <item>en</item>
         <item>hu</item>
         <item>ru</item>
@@ -367,11 +388,12 @@
         <item>no</item>
         <item>el</item>
         <item>in</item>
+        <item>zh</item>
     </string-array>
 
     <string-array name="pref_language_mi_band_3">
-        <item>不设置（使用小米运动设置）</item>
-        <item>默认 (使用手机设置)</item>
+        <item>Nesetat (setat de Mi Fit)</item>
+        <item>Implicit (a telefonului)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -410,8 +432,8 @@
     </string-array>
 
     <string-array name="pref_language_amazfit_bip_watch">
-        <item>不设置（使用小米运动设置）</item>
-        <item>默认 (使用手机设置)</item>
+        <item>Nesetat (setat de Mi Fit)</item>
+        <item>Implicit (a telefonului)</item>
         <item>English</item>
         <item>Español</item>
         <item>Русский</item>
@@ -430,8 +452,8 @@
     </string-array>
 
     <string-array name="pref_language_amazfit_cor">
-        <item>不设置（使用小米运动设置）</item>
-        <item>默认 (使用手机设置)</item>
+        <item>Not set (setat de Mi Fit)</item>
+        <item>Implicit (a telefonului)</item>
         <item>English</item>
         <item>Español</item>
         <item>Русский</item>

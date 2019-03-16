@@ -802,6 +802,7 @@
 
     <!-- Weather -->
     <string name="weather_tab_weather_forecast">Pogoda</string>
+    <string name="weather_tab_location">Lokalizacja</string>
     <string name="weather_tab_settings">Ustawienia</string>
 
     <string name="weather_title">Prognoza pogody</string>
@@ -907,6 +908,7 @@
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Kopia zapasowa</string>
     <string name="backup_tab_restore">Przywróć z kopii</string>
+    <string name="backup_tab_cloud">Chmura</string>
 
     <string name="backup_time">Czas kopii</string>
     <string name="backup_path">Lokalizacja kopii</string>
@@ -924,6 +926,7 @@
     <string name="backup_process_alarm">Zagubienia %1$,d%%</string>
     <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
     <string name="backup_process_settings">Ustawienia %1$,d%%</string>
+    <string name="backup_process_cloud">Chmura %1$,d%%</string>
 
     <string name="backup_restore_activity">Aktywność i sen</string>
     <string name="backup_restore_pulse">Tętno</string>
@@ -937,6 +940,11 @@
     <string name="backup_restore_settings">Ustawienia</string>
 
     <string name="backup_restore_reset">Po przywróceniu Bluetooth zostanie wyłączony i włączony, a aplikacja uruchomi się ponownie.</string>
+
+    <string name="backup_cloud_drive_login">Google Drive sign in</string>
+    <string name="backup_cloud_drive_logout">Google Drive sign out</string>
+    <string name="backup_cloud_sync_time">Czas przesyłania</string>
+    <string name="backup_cloud_only_wifi">Over wi-fi only</string>
 
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Warunki korzystania z trybu nagrody</string>

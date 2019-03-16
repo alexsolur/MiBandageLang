@@ -802,6 +802,7 @@
 
     <!-- Weather  -->
     <string name="weather_tab_weather_forecast">Погода</string>
+    <string name="weather_tab_location">Местоположение</string>
     <string name="weather_tab_settings">Настройки</string>
 
     <string name="weather_title">Прогноз погоды</string>
@@ -907,6 +908,7 @@
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Резервная копия</string>
     <string name="backup_tab_restore">Восстановление</string>
+    <string name="backup_tab_cloud">Облако</string>
 
     <string name="backup_time">Время копии</string>
     <string name="backup_path">Расположение копии</string>
@@ -924,6 +926,7 @@
     <string name="backup_process_alarm">Отсоединён %1$,d%%</string>
     <string name="backup_process_disconnected_agent">Лог действий %1$,d%%</string>
     <string name="backup_process_settings">Настройки %1$,d%%</string>
+    <string name="backup_process_cloud">Облако %1$,d%%</string>
 
     <string name="backup_restore_activity">Активность и сон</string>
     <string name="backup_restore_pulse">Пульс</string>
@@ -937,6 +940,11 @@
     <string name="backup_restore_settings">Настройки</string>
 
     <string name="backup_restore_reset">Необходимо включение и выключение Bluetooth и перезапуск приложения.</string>
+
+    <string name="backup_cloud_drive_login">Войти в Google Drive</string>
+    <string name="backup_cloud_drive_logout">Выйти из Google Drive</string>
+    <string name="backup_cloud_sync_time">Время загрузки</string>
+    <string name="backup_cloud_only_wifi">Только через Wi-Fi</string>
 
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Условия бонусного режима</string>

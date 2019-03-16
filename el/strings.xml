@@ -802,6 +802,7 @@
 
     <!-- Weather  -->
     <string name="weather_tab_weather_forecast">Καιρός</string>
+    <string name="weather_tab_location">Τοποθεσία</string>
     <string name="weather_tab_settings">Ρυθμίσεις</string>
 
     <string name="weather_title">Δελτίο καιρού</string>
@@ -907,6 +908,7 @@
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Αντίγραφα ασφαλείας</string>
     <string name="backup_tab_restore">Επαναφορά αντιγράφων ασφαλείας</string>
+    <string name="backup_tab_cloud">Cloud</string>
 
     <string name="backup_time">Χρόνος δημιουργίας αντιγράφων ασφαλείας</string>
     <string name="backup_path">Τοποθεσία αντιγράφων ασφαλείας</string>
@@ -924,6 +926,7 @@
     <string name="backup_process_alarm">Εποπτεία συσκευής %1$,d%%</string>
     <string name="backup_process_disconnected_agent">Συμβάν %1$,d%%</string>
     <string name="backup_process_settings">Ρυθμίσεις %1$,d%%</string>
+    <string name="backup_process_cloud">Cloud-Dienst %1$,d%%</string>
 
     <string name="backup_restore_activity">Δραστηριότητα και ύπνος</string>
     <string name="backup_restore_pulse">Σφυγμός</string>
@@ -937,6 +940,11 @@
     <string name="backup_restore_settings">Ρυθμίσεις</string>
 
     <string name="backup_restore_reset">Απαιτείται ενεργοποίηση και απενεργοποίηση του Bluetooth και επανεκκίνηση της εφαρμογής.</string>
+
+    <string name="backup_cloud_drive_login">Google Drive sign in</string>
+    <string name="backup_cloud_drive_logout">Google Drive sign out</string>
+    <string name="backup_cloud_sync_time">Χρόνος αποστολής</string>
+    <string name="backup_cloud_only_wifi">Over wi-fi only</string>
 
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Όροι και προϋποθέσεις της Ανταμειβόμενης λειτουργίας</string>

@@ -802,6 +802,7 @@
 
     <!-- Weather -->
     <string name="weather_tab_weather_forecast">Vær</string>
+    <string name="weather_tab_location">Plassering</string>
     <string name="weather_tab_settings">Instillinger</string>
 
     <string name="weather_title">Været fremover</string>
@@ -851,7 +852,7 @@
 
         <br><br><br><b><u>Laste opp samtidige watch face</u></b>
         <p><img src="ic_action_launch_mi_fit"> Kjøre Mi Fit uten watch face stedfortreder, laste opp den andre fabrikkinstillte watch face.
-        <p><img src="ic_mi_fit_upload opp">  Laste opp valgte watch face i Mi Fit.
+        <p><img src="ic_mi_fit_upload">  Laste opp valgte watch face i Mi Fit.
         <p>Gjenta disse trinnene.
 
         <br><br>I Mi Fit vil ikke la watch face\'s bildene bli endret.
@@ -907,6 +908,7 @@
     <!-- Sikkerhetskopier og gjenopprett -->
     <string name="backup_tab_backup">Sikkerhetskopier</string>
     <string name="backup_tab_restore">Gjenopprett</string>
+    <string name="backup_tab_cloud">Sky</string>
 
     <string name="backup_time">Sikkerhetskopierings tid</string>
     <string name="backup_path">Sikkerhetskopierings område</string>
@@ -924,6 +926,7 @@
     <string name="backup_process_alarm">Mistet %1$,d%%</string>
     <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
     <string name="backup_process_settings">Egenskaper %1$,d%%</string>
+    <string name="backup_process_cloud">Sky %1$,d%%</string>
 
     <string name="backup_restore_activity">Aktivitet og søvn</string>
     <string name="backup_restore_pulse">Puls</string>
@@ -937,6 +940,11 @@
     <string name="backup_restore_settings">Egenskaper</string>
 
     <string name="backup_restore_reset">Etter resetting, Bluetooth vil skru seg av og på og applikasjonen vil omstarte.</string>
+
+    <string name="backup_cloud_drive_login">Google Drive sign in</string>
+    <string name="backup_cloud_drive_logout">Google Drive sign out</string>
+    <string name="backup_cloud_sync_time">Last opp tid</string>
+    <string name="backup_cloud_only_wifi">Over wi-fi only</string>
 
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Vilkår og Betingelser på Belønning modus</string>

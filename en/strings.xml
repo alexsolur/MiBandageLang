@@ -802,6 +802,7 @@
 
     <!-- Weather  -->
     <string name="weather_tab_weather_forecast">Weather</string>
+    <string name="weather_tab_location">Location</string>
     <string name="weather_tab_settings">Setting</string>
 
     <string name="weather_title">Weather forecast</string>
@@ -907,6 +908,7 @@
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Backup</string>
     <string name="backup_tab_restore">Restore</string>
+    <string name="backup_tab_cloud">Cloud</string>
 
     <string name="backup_time">Backup time</string>
     <string name="backup_path">Backup location</string>
@@ -924,6 +926,7 @@
     <string name="backup_process_alarm">Lost %1$,d%%</string>
     <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
     <string name="backup_process_settings">Settings %1$,d%%</string>
+    <string name="backup_process_cloud">Cloud %1$,d%%</string>
 
     <string name="backup_restore_activity">Activity and sleep</string>
     <string name="backup_restore_pulse">Pulse</string>
@@ -937,6 +940,11 @@
     <string name="backup_restore_settings">Settings</string>
 
     <string name="backup_restore_reset">After restoring, Bluetooth will be turning off and on and the application will restart.</string>
+
+    <string name="backup_cloud_drive_login">Google Drive sign in</string>
+    <string name="backup_cloud_drive_logout">Google Drive sign out</string>
+    <string name="backup_cloud_sync_time">Upload time</string>
+    <string name="backup_cloud_only_wifi">Over wi-fi only</string>
 
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Terms and conditions of Rewarded mode</string>
@@ -1134,6 +1142,5 @@
         <item quantity="many">%d files moved</item>
         <item quantity="other">%d files moved</item>
     </plurals>
-
 
 </resources>

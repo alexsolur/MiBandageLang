@@ -802,6 +802,7 @@
 
     <!-- Weather  -->
     <string name="weather_tab_weather_forecast">天气</string>
+    <string name="weather_tab_location">位置</string>
     <string name="weather_tab_settings">设置</string>
 
     <string name="weather_title">天气预报</string>
@@ -907,6 +908,7 @@
     <!-- Backup and restore -->
     <string name="backup_tab_backup">备份</string>
     <string name="backup_tab_restore">恢复</string>
+    <string name="backup_tab_cloud">Cloud</string>
 
     <string name="backup_time">备份时间</string>
     <string name="backup_path">备份位置</string>
@@ -924,6 +926,7 @@
     <string name="backup_process_alarm">丢失 %1$,d%%</string>
     <string name="backup_process_disconnected_agent">代理 %1$,d%%</string>
     <string name="backup_process_settings">设置 %1$,d%%</string>
+    <string name="backup_process_cloud">Cloud %1$,d%%</string>
 
     <string name="backup_restore_activity">活动和睡眠</string>
     <string name="backup_restore_pulse">心率</string>
@@ -937,6 +940,11 @@
     <string name="backup_restore_settings">设置</string>
 
     <string name="backup_restore_reset">恢复后,蓝牙将关闭且应用会重新启动.</string>
+
+    <string name="backup_cloud_drive_login">Google Drive sign in</string>
+    <string name="backup_cloud_drive_logout">Google Drive sign out</string>
+    <string name="backup_cloud_sync_time">上传时间</string>
+    <string name="backup_cloud_only_wifi">Over wi-fi only</string>
 
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">奖励模式的条款和条件</string>

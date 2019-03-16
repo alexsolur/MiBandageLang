@@ -802,6 +802,7 @@
 
     <!-- Weather  -->
     <string name="weather_tab_weather_forecast">Hava Durumu Tahmini</string>
+    <string name="weather_tab_location">Yer</string>
     <string name="weather_tab_settings">Ayarlar</string>
 
     <string name="weather_title">Hava</string>
@@ -907,6 +908,7 @@
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Yedekle</string>
     <string name="backup_tab_restore">Geri Yükle</string>
+    <string name="backup_tab_cloud">Bulut</string>
 
     <string name="backup_time">Yedekleme zamanı</string>
     <string name="backup_path">Yedekleme yeri</string>
@@ -924,6 +926,7 @@
     <string name="backup_process_alarm">Kayıp %1$,d%%</string>
     <string name="backup_process_disconnected_agent">İzleme %1$,d%%</string>
     <string name="backup_process_settings">Ayarlar %1$,d%%</string>
+    <string name="backup_process_cloud">Cloud %1$,d%%</string>
 
     <string name="backup_restore_activity">Aktivite ve uyku</string>
     <string name="backup_restore_pulse">Nabız</string>
@@ -937,6 +940,11 @@
     <string name="backup_restore_settings">Ayarlar</string>
 
     <string name="backup_restore_reset">Bluetooth\'u kapatıp açmak ve uygulamayı yeniden başlatmak gerekiyor.</string>
+
+    <string name="backup_cloud_drive_login">Google Drive sign in</string>
+    <string name="backup_cloud_drive_logout">Google Drive sign out</string>
+    <string name="backup_cloud_sync_time">Yükleme süresi</string>
+    <string name="backup_cloud_only_wifi">Over wi-fi only</string>
 
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Ödüllerin şartları ve koşulları</string>

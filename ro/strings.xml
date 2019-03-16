@@ -1,0 +1,1147 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Mi Bandage</string>
+
+    <string name="navigation_drawer_open">Deschide sertarul de navigare</string>
+    <string name="navigation_drawer_close">Închide sertarul de navigare</string>
+
+    <string name="drawer_nav_home">Bandaje</string>
+    <string name="drawer_nav_notification">Notificări</string>
+    <string name="drawer_nav_touch">Atingere</string>
+    <string name="drawer_nav_step">Activități</string>
+    <string name="drawer_nav_sleep">Somn</string>
+    <string name="drawer_nav_pulse">Puls</string>
+    <string name="drawer_nav_time">Timp</string>
+    <string name="drawer_nav_reminder">Reamintire evenimente</string>
+    <string name="drawer_nav_weather">Vremea</string>
+    <string name="drawer_nav_watch_face">Față de ceas</string>
+    <string name="drawer_nav_alarm">Pierdut</string>
+    <string name="drawer_nav_disconnected_agent">Agent</string>
+    <string name="drawer_nav_theme">Temă</string>
+    <string name="drawer_nav_backup">Copie de siguranță</string>
+    <string name="drawer_nav_rewarded_mode">Mod recompensat</string>
+    <string name="drawer_nav_premium_mode">Mod premium</string>
+    <string name="drawer_nav_feedback">Feedback</string>
+    <string name="drawer_nav_privacy_policy">Politica de confidentialitate</string>
+    <item name="drawer_nav_settings" type="string">@string/settings_name</item>
+
+    <string name="shortcut_touch">Atingere</string>
+    <string name="shortcut_step">Activități</string>
+    <string name="shortcut_pulse">Puls</string>
+    <string name="shortcut_time_alarm">Alarme</string>
+    <string name="shortcut_reminder">Reamintire</string>
+
+    <!-- Foreground service, ongoing notification -->
+    <string name="foreground_service_connected">Timp conectare: %1$s</string>
+    <string name="foreground_service_disconnected_text">%1$s nu este conectat</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <!--<string name="foreground_service_disconnected">Disconnection time: %1$s</string>-->
+
+    <!-- Strings related to Settings -->
+    <string name="settings_name">Setări</string>
+    <string name="app_chooser">Selector de aplicații</string>
+    <string name="info_name">Informații</string>
+
+    <!-- Bandages screen -->
+    <string name="mi_band_tracker_title">Pași, distanță, calorii, țintă, puls</string>
+    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
+    <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
+    <string name="mi_band_battery">Nivelul bateriei, data ultimei încărcări, estimarea timpului rămas</string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI, data ultimei conectări și deconectări</string>
+    <string name="mi_band_touch">Monitorizare atingere</string>
+    <string name="mi_band_alarm">Alarma următoare</string>
+    <string name="mi_band_bonded_device_name">Numele dispozitivului împerecheat</string>
+    <string name="mi_band_mac_address">Adresa MAC</string>
+    <string name="mi_band_firmware">Firmware</string>
+    <string name="mi_band_hardware">Hardware</string>
+
+    <string name="mi_band_mac_address_invalid">Adresa MAC este invalidă</string>
+
+    <string name="mi_band_state_title">Setări %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="mi_band_state_connected">Conectat</string>
+    <string name="mi_band_state_disconnected">Deconectat</string>
+    <string name="mi_band_state_bonded">Dispozitiv împerecheat</string>
+    <string name="mi_band_state_not_bonded">Dispozitiv neîmperecheat</string>
+
+    <!-- Battery -->
+    <string name="battery_details">Utilizarea bateriei</string>
+
+    <string name="mi_band_battery_settings">Setări baterie</string>
+    <string name="mi_band_battery_remaining">Estimarea timpului de baterie rămas</string>
+    <string name="mi_band_battery_notification">Notificare nivel scăzut baterie</string>
+    <string name="mi_band_battery_notification_level">Prag nivel baterie</string>
+    <string name="mi_band_battery_notification_repeat_interval">Interval repetare</string>
+    <string name="mi_band_battery_notification_shade">Anunță-mă pe telefon</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Notificare persistentă (continuă)</string>
+    <string name="mi_band_battery_notification_shade_message">Nivelul bateriei este scăzut: %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Anunță-mă pe brățară</string>
+    <string name="mi_band_battery_notification_mi_band_message">Baterie: %1$,d%%</string>
+
+    <!-- PreferenceScreen -->
+    <string name="pref_connected">Conexiune</string>
+    <string name="pref_connected_summary">Setări și semnal conectare %1$s cu telefonul</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+
+    <string name="pref_connected_signals">Semnale conectare</string>
+    <string name="pref_connected_signals_summary">%1$s se conectează și nu are notificări</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_connected_signals_mi_band">Semnal %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_mi_band_title">Vibrații</string>
+    <string name="pref_cat_connected_signals">Semnale telefon</string>
+    <string name="pref_connected_wakelock_title">Aprinderea ecranului telefonului</string>
+
+    <string name="pref_connected_settings">Setări conexiune</string>
+    <string name="pref_connected_settings_summary">Setări conexiune %1$s cu telefonul</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_connected_settings">Setări telefon</string>
+    <string name="pref_connected_volume_title">Reglare volum</string>
+    <string name="pref_connected_volume_ring_title">Volumn sonerie</string>
+
+    <string name="pref_cat_connected_have_notif">Semnale de aplicație predefinite</string>
+    <string name="pref_cat_connected_have_notif_default">Setări predefinite și personalizate</string>
+    <string name="pref_connected_have_notif_immediate_title">Semnal de îndată ce este primită notificarea</string>
+    <string name="pref_connected_have_notif_title">Semnal când se conectează la telefon</string>
+    <string name="pref_connected_have_notif_reminder_title">Semnal reamintire</string>
+    <string name="pref_connected_have_notif_screen_off_title">Semnal numai când ecranul este oprit</string>
+    <string name="pref_connected_have_notif_interval_title">Interval repetare reamintiri</string>
+    <string name="pref_connected_have_notif_counter_title">Număr de semnale</string>
+    <string name="pref_connected_have_notif_wakelock_title">Aprinde ecranul telefonului</string>
+    <string name="pref_connected_have_notif_ongoing_title">Semnal de notificări persistente (continuu)</string>
+    <string name="pref_connected_have_notif_default_app_title">Semnal aplicație nerecunoscută</string>
+    <string name="pref_connected_have_notif_default_app_summary_on">Pictogramă \'app\' (dacă aplicația nu este în cele predefinite și nici nu este în grup de notificări personalizat)</string>
+    <string name="pref_connected_have_notif_pre_signal_title">Predicție notificare</string>
+    <string name="pref_connected_have_notif_pre_signal_summary_on">Semnal (apasă pe pictogramă pentru a o schimba) înainte de notificarea efectivă, pentru a avea mai mult timp să vezi afișajul</string>
+
+    <string name="pref_disconnected">Deconectare</string>
+    <string name="pref_disconnected_summary">Setări și semnale deconectare %1$s cu telefonul</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+
+    <string name="pref_disconnected_signals">Semnale deconectare</string>
+    <string name="pref_disconnected_signals_summary">Semnale deconectare %1$s cu telefonul, nu semnalează când bluetooth-ul este oprit manual</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_signals_mi_band">Semnal %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_mi_band_title">Afișarea pictogramelor și vibrații</string>
+    <string name="pref_cat_disconnected_signals">Semnale telefon</string>
+    <string name="pref_disconnected_ringtone_title">Ton de apel</string>
+    <string name="pref_disconnected_vibration_title">Vibrații</string>
+    <string name="pref_disconnected_wakelock_title">Aprinde ecranul telefonului</string>
+
+    <string name="pref_disconnected_settings">Setări deconectare</string>
+    <string name="pref_disconnected_settings_summary">Setări deconectare %1$s cu telefonul</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_settings">Setări telefon</string>
+    <string name="pref_disconnected_volume_title">Reglare volum</string>
+    <string name="pref_disconnected_volume_ring_title">Volum sonerie</string>
+    <string name="pref_disconnected_volume_adapter_title">Când Bluetooth este oprit</string>
+    <string name="pref_disconnected_volume_adapter_summary_on">Reglare volum</string>
+    <string name="pref_disconnected_volume_adapter_summary_off">Nu regla volumul</string>
+
+    <string name="pref_call">Apel</string>
+    <string name="pref_call_summary">Setări semnal %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_call">Apel primit</string>
+    <string name="pref_call_title">Semnal apel primit</string>
+    <string name="pref_call_summary_on">Pornit (nu uita să dezactivezi alertele de apel primit în aplicația Mi Fit)</string>
+    <string name="pref_call_text_title">Afișează identitatea apelantului</string>
+    <string name="pref_call_text_summary_on"><![CDATA[Pornit (mai multe informații: <i>Setări/Setări pentru pictogramele text)</i>]]></string>
+
+    <string name="pref_call_net_text_title">Semnalul de apel primit pe Internet, afișarea identității apelantului</string>
+    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+
+    <string name="pref_cat_call_missed">Apel pierdut</string>
+    <string name="pref_call_missed_title">Semnal apel pierdut</string>
+
+    <string name="pref_call_missed_net_title">Semnal de apel pe internet pierdut, afișarea identității apelantului</string>
+    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+
+    <string name="pref_call_missed_alert_title">Semnal %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+
+    <string name="pref_call_missed_text_prefix_title">Prefix text: %1$s</string>
+    <string name="pref_call_missed_text_prefix_summary">Dacă mai multe aplicații utilizează pictograma pentru a diferenția notificările între ele</string>
+    <string name="pref_call_missed_text_prefix_dialog_title">Prefix text</string>
+
+    <string name="pref_text_conversion">Afișare text</string>
+    <string name="pref_text_conversion_summary">Convertește caracterele mesajelor text</string>
+    <string name="pref_cat_text_conversion">Semnal %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_text_conversion_title">Transliterare</string>
+    <string name="pref_text_conversion_summary_on">Conversia de caractere nu poate fi recunoscută, dezactivează dacă brățara acceptă limba ta sau dacă ai instalat firmware-ul fonturilor personalizate</string>
+    <string name="pref_text_conversion_excluded_title">Excluded characters</string>
+    <string name="pref_text_emoticon_title">Conversie emoji</string>
+    <string name="pref_text_emoticon_summary_on">Convertește emoji în emoticon</string>
+    <string name="pref_text_uppercase_title">Conversie majuscule</string>
+    <string name="pref_text_uppercase_summary_on">Convertește litere mici în litere mari</string>
+    <string name="pref_text_length">Lungimea textului, depinde de fontul folosit (de exemplu caractere chinezești sau chirilice)</string>
+    <string name="pref_text_length_summary_on">Caractere %1$,d</string>
+
+    <string name="pref_text_conversion_description_title">Descriere</string>
+    <string name="pref_text_conversion_description_summary"><![CDATA[
+        <p>Dacă brățara ta afișează în prezent numele apelantului primit, atunci nu este necesar să faci următorii pași, doar să dezactivezi <i>Alerte apeluri primite</i> pe Mi Fit.</p>
+        <p>Dacă nu utilizezi <i>Alerte apeluri primite</i> iar limba telefonului nu este engleza:
+        <br/>1. Setează limba telefonului engleză.
+        <br/>2. Deschide aplicația Mi Fit, așteaptă până când actualizarea firmware-ului pentru fonturi este terminată. Dacă actualizarea firmware-ului nu pornește, încearcă să repornești telefonul.
+        <br/>3. Deschide meniul <i>Profil/ Mi Band/ Apel primit </i>.
+        <br/>4. Activează: <i>Activează alertele pentru apel primit </i>.
+        <br/>5. Activează: <i>Afișare informațiile de contact </i>.
+        <br/>6. Verifică dacă brățara poate afișa numele sunând telefonul tău.
+        <br/>7. Dezactivare: <i>Activează alertele pentru apel primit</i> (<i>Afișare informațiile de contact</i> rămâne activat).
+        <br/>8. Setează telefonul înapoi în limba ta.</p>]]>
+    </string>
+
+    <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_mi_band_lift_wrist">Ridică încheietura mâinii pentru a vedea informații</string>
+    <string name="pref_mi_band_lift_wrist_title">Ridică încheietura mâinii pentru a vedea informații</string>
+    <string name="pref_mi_band_lift_wrist_dnd_title">Modul Nu deranja</string>
+    <string name="pref_mi_band_lift_wrist_dnd_summary_on">Pornit (în perioada specificată nu va afișa informații, este necesară conexiunea Bluetooth pentru setare)</string>
+
+    <string name="pref_battery_phone">Bateria telefonului</string>
+    <string name="pref_battery_phone_summary">Notificări nivel baterie scăzut și complet </string>
+    <string name="pref_cat_battery_phone_low">Nivel scăzut al bateriei</string>
+    <string name="pref_battery_phone_low_title">Notificare nivel scăzut al bateriei</string>
+    <string name="pref_battery_phone_low_level_title">Prag pentru nivelul bateriei</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Interval repetare</string>
+    <string name="pref_cat_battery_phone_full">Nivel complet al bateriei</string>
+    <string name="pref_battery_phone_full_title">Notificare nivel complet al bateriei</string>
+    <string name="pref_battery_phone_full_plugged_ac">Sursă de alimentare AC</string>
+    <string name="pref_battery_phone_full_plugged_usb">Sursă de alimentare port USB</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Sursă de alimentare fără fir</string>
+    <string name="pref_battery_phone_full_repeat_interval_title">Interval repetare</string>
+
+    <!-- Mi Band 2 max. 18 chars with 100% -->
+    <string name="pref_battery_phone_mi_band_message">Baterie tel.: %1$,d%%</string>
+    <!-- Other Bands-->
+    <string name="pref_battery_phone_message">Baterie telefon:\n %1$,d%%</string>
+
+    <string name="pref_language">Limbă</string>
+    <string name="pref_cat_language">Aplicație</string>
+    <string name="pref_language_title">Limbă</string>
+    <string name="pref_cat_language_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_language_mi_band_title">Limbă</string>
+
+    <!-- Quick switch -->
+    <string name="details">Detalii</string>
+    <string name="bandages">Bandaje</string>
+    <string name="connected">Semnal de conectare și de notificare</string>
+    <string name="disconnected">Semnal deconectare și agent</string>
+    <string name="touch">Monitorizare atingere</string>
+
+    <string name="pref_dnd_title">Modul Nu deranja</string>
+    <string name="pref_dnd_summary">Starea controlerelor în modul nu deranja</string>
+    <string name="pref_dnd_auto_title">Mod Nu deranja Automatic</string>
+    <string name="pref_dnd_auto_summary">Controlat de modul nu deranja al telefonului, are o prioritate mai mare decât modul nu deranja programat</string>
+    <string name="pref_dnd_auto_vibrate">Vibrații (silențios)</string>
+    <string name="pref_dnd_auto_silent">Nu deranja</string>
+    <string name="pref_dnd_scheduled_title">Mod Nu deranja programat</string>
+    <string name="pref_dnd_scheduled_new_title">Titlu</string>
+    <string name="pref_dnd_remember_state_summary">La sfârșitul modului de a nu deranja, activează toate bandajele sau restabilește stările așa cum au fost la momentul inițierii</string>
+    <string name="pref_dnd_remember_state_on_title">La sfârșit, restabilește starea bandajelor</string>
+    <string name="pref_dnd_remember_state_off_title">La sfârșit pornște toate bandajele</string>
+    <string name="pref_dnd_mi_fit_scheduled">Activează modul DnD al %1$s (dezactivează apelurile, mesajele și ridicarea mâinii pentru a vedea informații)</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_dnd_enable_bluetooth">La începutul modului DnD oprește Bluetooth, la final pornește Bluetooth</string>
+
+    <!-- Snackbar Messages -->
+    <string name="message_enable_bluetooth">Activează Bluetooth și adu brățara mai aproape de telefon</string>
+    <string name="message_discover_mi_band">Banda nu este setată, te rog fă-o detectabilă</string>
+    <string name="message_discovering_mi_band">Detectează brățara (poate dura un minut) &#8230;</string>
+    <string name="message_discovered_mi_band">Conectarea cu %1$s a reușit</string>
+    <string name="message_discovered_no_mi_band">Conectarea a eșuat</string>
+    <string name="message_discovered_not_found_mi_band">Dacă brățara nu a fost găsită, activează: Mi Fit/ Play /Detectabil sau împerechează în setările Bluetooth ale telefonului</string>
+    <string name="message_enable_notification_listener_access">Activează accesul la notificări: Setări/ Notificări/ Acces notificare</string>
+    <string name="message_enable_notification_listener_access_4_4">Activează accesul la notificări: Setări/ Securitate/ Acces notificare</string>
+    <string name="message_enable_notification_policy_access">Activează accesul la modul Nu deranja </string>
+    <string name="message_open_settings">Setări</string>
+
+    <string name="message_deleted">Șters</string>
+    <string name="message_undo">Anulare modificări</string>
+
+    <string name="message_app_chooser_no_selected">Selectează o aplicație</string>
+
+    <string name="message_notification_free_groups">Se pot folosi până la %1$,d groupuri în modul normal</string>
+
+    <string name="message_step_goal_free_values">Se pot seta până la 3 valori în modul normal</string>
+    <string name="message_step_goal_max_values">Se pot seta maxim 10 valori</string>
+
+    <string name="message_touch_no_patterns">Apasă unul dintre butoanele roșii pentru a înregistra modelul</string>
+    <string name="message_touch_record">Înregistrează modelul utilizând butonul tactil al %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_touch_pattern_error">Modelul specificat este similar cu o bucată a altei funcții, înregistrează altul</string>
+    <string name="message_touch_free_patterns">Nu poți folosi mai mult de %1$,d funcții în modul normal</string>
+    <string name="message_touch_music_player_not_found">Nu a fost găsit playerul muzical</string>
+    <string name="message_touch_app_launcher1_not_set">Aplicația nu este setată</string>
+    <string name="message_touch_app_launcher1_not_found">Aplicația nu este găsită: %1$s</string>
+    <string name="message_touch_tasker_launcher_not_set">Sarcina Tasker nu este setată</string>
+
+    <string name="message_notification_group_has_no_entry">Selectează aplicațiile cu butonul \'+\' din partea dreaptă jos de pe card</string>
+
+    <string name="message_time_alarm_free_counter">Pot fi utilizate până la 2 alarme în modul normal</string>
+    <string name="message_time_alarm_max_counter">Se pot folosi maxim 7 alarme</string>
+    <string name="message_time_alarm_enabled">Alarmă activată</string>
+    <string name="message_time_alarm_disabled">Alarmă dezactivată</string>
+    <string name="message_time_alarm_mi_band_off">Alarmă oprită</string>
+
+    <string name="message_alarm_free_interval">Interval de repetare mai mic poate fi setat numai în modul premium</string>
+    <string name="message_alarm_mi_band_set_failed">Setarea alarmei a eșuat</string>
+    <string name="message_alarm_mi_band_clear_failed">Eliminarea alarmei a eșuat</string>
+
+    <string name="message_premium_mode_only">Această funcție este disponibilă numai în modul premium</string>
+    <string name="message_general_error">Setarea a eșuat (conexiunea s-a pierdut), încearcă din nou</string>
+    <string name="message_internet_error">Lipsă conexiune la internet</string>
+    <string name="message_gps_enable">Activează GPS</string>
+
+    <string name="message_in_progress">În curs…</string>
+    <string name="message_no_data">Nu sunt date disponibile</string>
+
+    <string name="message_new_message">Se primește un mesaj nou, vezi pe telefon.</string>
+
+    <!-- Dialog -->
+    <string name="dialog_welcome_title">Bun venit!</string>
+    <string name="dialog_welcome_message"><![CDATA[Dispozitive acceptate:
+    <br>- <b>Xiaomi Mi Band 3</b>
+    <br>- <b>Xiaomi Mi Band 2</b>
+    <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Cor (MiDong)</b>
+    <br>- <b>Huami Amazfit Arc (A1603)</b>
+    <p>Mi Bandage necesită instalarea aplicației oficiale Mi Fit pe același telefon. La început trebuie să împerechezi brățara în aplicația Mi Fit, apoi poți folosi Mi Bandage.</p>
+    <p>Dacă folosești mai multe aplicații pentru a controla brățara, ele interferează una cu cealaltă, așa că oprește-le pentru moment.</p>
+    <p>Dacă brățara nu este găsită, poți seta manual adresa MAC atunci când o detectezi(adresa MAC se alfă în: Mi Fit / Profil / Band).</p>
+    <p><b>Dacă ai probleme de conectare:</b>
+    <br>- Verifică <i> Setări/ Diagnostice</i> 
+    <br>- Ecranul aplicațiilor recente: blochează Mi Bandage (trage în jos aplicația și apasă pe pictograma blocare).
+    <br>- Optimizarea telefonului/ bateriei: setează aplicația Mi Bandage pentru a nu fi optimizată.
+    <br>- Telefon/ aplicații: șterge datele aplicației Bluetooth Share și a altor aplicații \'Bluetooth\'.
+    <br>Setări/ Opțiuni pentru dezvoltatori:
+    <br>- Nu păstra activitățile: dezactivează
+    <br>- Limită proces de fundal: limită standard
+    <br>- Optimizarea memoriei: mediu/ scăzut/ dezactivat</p>
+    <p>Dacă brățara nu este găsită sau dacă sunt probleme cu sincronizarea aplicației Mi Fit, instalează aplicația BToolkit, nRF Connect sau similar, și șterge orice dispozitiv împerecheat.</p>
+    <p>Dacă ai probleme (detectare brățară, lipsă semnal de notificare), încearcă:
+    <br>1. Dacă ai instalat aplicația Greenify (sau altă aplicație de hibernare), dezactiveaz-o.
+    <br>2. Instalează aplicația Mi Bandage.
+    <br>3. Restartează telefonul.
+    <br>4. Oprește și pornește Bluetooth.
+    <br>5. Deschide aplicația Mi Fit, așteaptă până se termină sincronizarea, apoi închide-o.
+    <br>6. Deschide aplicația Mi Bandage, apasă butonul detecteazăză.</p>]]></string>
+
+    <!-- Diagnostic -->
+    <string name="diagnostic_title">Diagnostic</string>
+
+    <string name="diagnostic_permissions_title">Permisiuni</string>
+
+    <string name="diagnostic_access_title">Acces</string>
+    <string name="diagnostic_access_do_not_disturb">Acces mod Nu deranja</string>
+    <string name="diagnostic_access_notification">Acces notificări</string>
+
+    <string name="diagnostic_protection_title">Protecția împotriva închiderii</string>
+    <string name="diagnostic_protection_battery">Optimizarea bateriei dezactivată</string>
+    <string name="diagnostic_protection_service">Afișarea statusului în perdeaua de notificare</string>
+    <string name="diagnostic_protection_lock">Blocarea în ecranul Aplicații recente</string>
+
+    <!-- Notification  -->
+    <string name="notification_tab_custom">Notificări personalizate</string>
+    <string name="notification_tab_settings">Setări</string>
+
+    <!-- Notification Dialog -->
+    <string name="notification_group_nav_setting">Setări</string>
+    <string name="notification_group_nav_filter">Filtru</string>
+    <string name="notification_group_nav_correction">Corecție</string>
+
+    <string name="notification_group_name">Nume</string>
+    <string name="notification_group_monitoring">Monitorizare notificări</string>
+    <string name="notification_group_monitoring_disabled">Dezactivează notificările (nu se afișează notificările aplicației)</string>
+    <string name="notification_group_alert_title">Semnal %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_text">Afișare text</string>
+    <string name="notification_group_text_app_name">Nume aplicație</string>
+    <string name="notification_group_text_name">Nume</string>
+    <string name="notification_group_text_title">Titlu</string>
+    <string name="notification_group_text_content">Conținut</string>
+    <string name="notification_group_text_content_slice_title">Lungime text</string>
+    <string name="notification_group_display_time_title">Timp de afișare</string>
+    <string name="notification_group_vibration_title">Vibrații personalizate</string>
+    <string name="notification_group_pre_signal_title">Predicția de notificare implicită</string>
+    <string name="notification_group_pre_vibration_title">Pre-vibrație</string>
+    <string name="notification_group_pre_alert_title">Pre-pictogramă</string>
+    <string name="notification_group_prefix">Prefix text</string>
+    <string name="notification_group_immediate">Semnal imediat când este primită notificarea</string>
+    <string name="notification_group_connecting">Când se conectează la telefon</string>
+    <string name="notification_group_reminder">Semnal reamintire</string>
+    <string name="notification_group_ongoing">Semnal persistent de notificare (continuu)</string>
+    <string name="notification_group_screen_off">Semnal numai când ecranul este oprit</string>
+    <string name="notification_group_counter_title">Numărul de semnale</string>
+    <string name="notification_group_repeat_title">Repeată semnale</string>
+    <string name="notification_group_wakelock">Aprinde ecranul telefonului</string>
+
+    <string name="notification_group_filter">Filtrează notificări</string>
+    <string name="notification_group_filter_title">Titlul filtrului</string>
+    <string name="notification_group_filter_content">Conținutul filtrului</string>
+    <string name="notification_group_filter_regex">Regex</string>
+    <string name="notification_group_filter_hint">Semnal numai atunci când titlul sau conținutul notificării (case insensitive)</string>
+    <string name="notification_group_filter_contains">Conține oricare din expresiile</string>
+    <string name="notification_group_filter_not_contains">Nu conține niciuna din expresiile</string>
+
+    <string name="notification_group_sample_sms">Afișează textul SMS</string>
+    <string name="notification_group_sample_facebook">Afișează textul Messenger</string>
+    <string name="notification_group_sample_whatsapp">Afișează textul WhatsApp</string>
+
+    <string name="notification_group_correction">Corectare text</string>
+    <string name="notification_group_correction_title">Corectare titlu </string>
+    <string name="notification_group_correction_content">Corectare conținut</string>
+    <string name="notification_group_correction_regex">Regex</string>
+    <string name="notification_group_correction_hint">Case insensitive</string>
+    <string name="notification_group_correction_items">Textul de corectat</string>
+    <string name="notification_group_correction_find">Caută</string>
+    <string name="notification_group_correction_replace">Înlocuiește cu</string>
+
+    <string name="notification_regex_hint">Caracterele non-alfanumerice au un înțeles special, dacă nu cunoști Regex-ul, nu îl bifa.</string>
+
+    <string name="notification_confirm_close">Sigur dorești să renunți la modificări?</string>
+
+    <string name="notification_edit_play_text_title">Titlu notificări</string>
+    <string name="notification_edit_play_text_content">Conținutul notificării:
+    În publicarea și designul grafic, lorem ipsum este un text de umplutură sau un text folosit în mod obișnuit pentru a demonstra elementele textuale ale unui document grafic sau unei prezentări vizuale.
+         \ nÎnlocuirea conținutului semnificativ cu textul înlocuitor permite designerilor să proiecteze forma conținutului înainte ca conținutul în sine să fi fost produs.
+    </string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> pictogramă: alege această pictogramă pentru a afișa titlul/conținutul notificării.]]></string>
+
+    <!-- Notification info dialog -->
+    <string name="info_dialog_notification"><![CDATA[Semnale predefinite ale aplicației:<br>
+        <not_support_icon_text><img src="ALERT_MESSAGE_TEXT">  mesaj pierdut</not_support_icon_text>
+        <support_icon_text><img src="ALERT_CALL_MESSAGE">  apel pierdut</support_icon_text>
+        <br><img src="ALERT_MESSAGE">  SMS
+        <br><img src="ALERT_EMAIL">  Email, Gmail, Inbox
+        <br><img src="ALERT_CALENDAR">  Calendar Google
+        <br><img src="ALERT_HANGOUTS">  Hangouts
+        <br><img src="ALERT_MESSENGER">  Messenger
+        <br><img src="ALERT_SKYPE">  Skype
+        <br><img src="ALERT_VIBER">  Viber
+        <br><img src="ALERT_WHATSAPP">  WhatsApp
+        <br><img src="ALERT_LINE">  Line
+        <br><img src="ALERT_WECHAT">  WeChat
+        <br><img src="ALERT_TELEGRAM">  Telegram
+        <br><img src="ALERT_KAKAOTALK">  KakaoTalk
+        <br><img src="ALERT_VK">  VK
+        <br><img src="ALERT_YOUTUBE">  Youtube
+        <br><img src="ALERT_FACEBOOK">  Facebook
+        <br><img src="ALERT_TWITTER">  Twitter
+        <br><img src="ALERT_SNAPCHAT">  Snapchat
+        <br><img src="ALERT_INSTAGRAM">  Instagram
+        <br><img src="ALERT_POKEMONGO">  Pokémon GO
+        <br><img src="ALERT_MOMO">  Momo
+        <br><img src="ALERT_QIANNIU">  Qianniu
+        <br><img src="ALERT_QQ">  QQ
+        <br><img src="ALERT_WEIBO">  Weibo
+        <br><img src="ALERT_ALIPAY">  AliPay
+        <br><img src="ALERT_QZONE">  QZone
+        <br><img src="ALERT_DINGTALK">  DingTalk
+        <br><img src="ALERT_APP">  Altele
+
+        <p>Semnalele predefinite ale aplicației vor afișa doar pictograma, nu și mesajul.</p>
+        <p>Trebuie să dezactivezi alertele aplicațiilor în Mi Fit.</p>
+        <p>Grupul de notificări creat de tine are prioritate mai mare decât cel predefinit.</p>
+        <mi_band_2><p><img src="ALERT_MESSAGE_TEXT"> pictogramă: alege această pictogramă pentru a afișa titlul/ conținutul notificărilor.</p></mi_band_2>
+        <mi_band_hrx><p><img src="ALERT_MESSAGE_TEXT"> pictogramă: alege această pictogramă pentru a afișa titlul/ conținutul notificărilor.</p></mi_band_hrx>
+        <p>Dacă utilizezi aplicațiile predefinite, dar dorești să dezactivezi anumite notificări, crează un nou grup de notificări cu setarea <i>dezactivarea notificărilor</i> și adăugă aplicațiile.</p>
+        ]]>
+    </string>
+    <!--<p>Predefined signals can be disabled: <i>Connection and notification settings/Have notification</i>.</p>-->
+
+    <!-- MiBandageApp chooser dialog -->
+    <string name="action_search">Căutare</string>
+    <string name="action_filter_notification">Filtru notificare</string>
+
+    <!-- Touch monitoring -->
+    <string name="touch_tab_control">Control</string>
+    <string name="touch_tab_testing">Testare</string>
+    <string name="touch_tab_settings">Setare</string>
+
+    <string name="touch_headline_call_title">Control apel</string>
+    <string name="touch_headline_music_title">Control muzică</string>
+    <string name="touch_headline_time_title">Control temporizator/ cronometru</string>
+    <string name="touch_headline_other_title">Alte controale</string>
+
+    <string name="touch_device_location_title">Găsește-mi telefonul</string>
+
+    <string name="touch_call_answer_title">Răspuns la apel</string>
+    <string name="touch_call_answer_speakerphone_title">Difuzor</string>
+
+    <string name="touch_call_end_title">Respingere, oprire apel</string>
+
+    <string name="touch_call_mute_title">Comutator apel silențios</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Doar dacă primești un apel</string>
+    <string name="touch_call_mute_recognition_title">În timpul unui apel primit</string>
+
+    <string name="touch_call_out_title">Call out</string>
+    <string name="touch_call_out_no_contact">Selectează un contact</string>
+    <string name="touch_call_out_summary">Apasă de două ori pentru a răspunde unui apel</string>
+    <string name="touch_call_out_summary_support_call_display_button">Apasă butonul pentru a răspunde unui apel</string>
+    <string name="touch_call_out_speakerphone_title">Difuzor</string>
+    <string name="touch_call_out_call_text">Call out: %1$s</string>
+
+    <string name="touch_device_location_not_muted_only_title">Sunet numai dacă nu este pe mut sau în modul DnD</string>
+
+    <string name="touch_repeat_notif_title">Repetare notificări</string>
+    <string name="touch_repeat_notif_clear_all">Șterge toate notificările după repetare</string>
+
+    <string name="touch_clear_notif_title">Șterge toate notificările de pe telefon</string>
+
+    <string name="touch_music_play_pause_title">Muzică start, play, pauză</string>
+    <string name="touch_music_skip_previous_title">Muzică start, cântecul anterior</string>
+    <string name="touch_music_skip_next_title">Muzică start, cântecul următor</string>
+    <string name="touch_music_headset_only_title">Numai dacă sunt conectate căștile</string>
+    <string name="touch_music_launch">Start muzică</string>
+    <string name="touch_music_volume_up_title">Muzică mărește volumul</string>
+    <string name="touch_music_volume_down_title">Muzică scade volumul</string>
+    <string name="touch_music_track_info_title">Afișează informații despre piesele muzicale.</string>
+
+    <string name="touch_time_launch_title">Start monitorizare timp</string>
+    <string name="touch_time_launch_type_timer_title">Temporizator</string>
+    <string name="touch_time_launch_type_stopper_title">Cronometru</string>
+    <string name="touch_time_launch_type_interval_title">Interval</string>
+    <string name="touch_time_launch_restart">Restartează dacă este în curs de desfășurare</string>
+    <string name="touch_time_reminder_title">Afișează timpul rămas/ scurs</string>
+
+    <string name="touch_camera_title">Fă o poză</string>
+    <string name="touch_camera_front_title">Față</string>
+    <string name="touch_camera_rear_title">Spate</string>
+    <string name="touch_camera_install_title">Instalează</string>
+
+    <string name="touch_app_launcher1_title">Lansator de aplicații</string>
+    <string name="touch_app_launcher_package_no_title">Selectează o aplicație</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Numai dacă ecranul nu este blocat</string>
+
+    <string name="touch_tasker_launcher1_title">1. Lansator sarcină Tasker</string>
+    <string name="touch_tasker_launcher2_title">2. Lansator sarcină Tasker</string>
+    <string name="touch_tasker_launcher_no_permission_title">Trebuie întâi să instalezi Tasker, după Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">Permite accesul extern</string>
+    <string name="touch_tasker_launcher_no_task_title">Selectează o sarcină</string>
+
+    <string name="touch_testing_title">Monitorizare atingere</string>
+    <string name="touch_testing_second">sec.</string>
+
+    <string name="touch_setting_detection_method_title">Metoda de detectare a atingerii</string>
+
+    <string name="touch_setting_recognition_start_title">Începe recunoașterea atingerii</string>
+    <string name="touch_setting_recognition_start_trigger_title">Declanșator</string>
+    <string name="touch_setting_recognition_time_title">Timp de recunoaștere</string>
+
+    <string name="touch_setting_recognition_mi_band_signal_title">Semnal %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_succeeded_title">Model de atingere recunoscut</string>
+    <string name="touch_setting_recognition_failed_title">Model de atingere nerecunoscut</string>
+
+    <!-- Touch monitoring info dialog -->
+    <string name="info_dialog_touch"><![CDATA[Atingerea este validă atunci când afișajul brățării se schimbă (deci este recomandabil să rotești încheietura mâinii înainte de a atinge).
+        <p>Monitorizează timpul scurs între atingeri, nu timpul scurs până la prima atingere.</p>
+        <p>Pictogramele verzi de pe carduri indică ce altă funcție poate fi similară cu modelul curent.</p>
+        <p>Când se primește un apel, telefonul nu recunoaște următoarele funcții pentru a ușura folosirea atingerii: locația telefonului, repetarea notificărilor, controlul muzicii.</p>
+        <p>În modul de testare nu se execută funcția modelului recunoscut.</p>
+        <p>Doar vibrații de feedback, dacă există un model care ține cont de starea curentă a telefonului (răspunsul la apel, respingerea numai dacă există un apel primit ...).</p>
+        <p>Banda vibrează o dată, când recunoaște un model.</p>
+        <p>Brățara vibrează de două ori atunci când nu recunoaște niciun model după modelul cel mai lung (dacă nu este setat <i>Semnal tactil nerecunoscut</i>).</p>
+        <p>Exemple valide de atingere:
+        <br>- atingere
+        <br>- atingere și 1sec pauză, atingere
+        <br>- atingere și 1sec pauză, atingere și 1sec pauză, atingere
+        <br>- atingere și 2sec pauză, atingere
+        <br>- atingere și 2sec pauză, atingere și 1sec pauză, atingere
+        <br>- atingere și 2sec pauză, atingere și 2sec pauză, atingere
+        </p>
+    ]]></string>
+
+    <!-- Touch monitoring info dialog Mi Band 3/Amazfit Cor-->
+    <string name="info_dialog_touch_not_supported"><![CDATA[
+        <b><u>Mod economisire a energiei</u></b>
+        <p>Nu crește consumul bateriei.</p>
+        <img src="ic_touch_pulse"> Măsurarea pulsului
+        <mi_band_3><p>Pe brățară, în funcția de măsurare a pulsului, pornește măsurarea (atingere lungă) și apoi întrerupe măsurarea (o atingere) după 1 secundă.</p></mi_band_3>
+        <amazfit_cor><p>Pe brățară, pornește funcția de măsurare a pulsului (Stare) și apoi întrerupe măsurarea (glisează spre dreapta) după o secundă.</p></amazfit_cor>
+        <p>Trebuie să fie oprită în timpul măsurării continue și online a pulsului.<p>
+        <b><u>Mod performanță</u></b>
+        <p>Crește consumul bateriei. În ecranul de întâmpinare, activează atingerea numai atunci când ai nevoie de ea.</p>
+        <img src="ic_touch_app"> Atingere
+        <mi_band_3><p>Atingerea este validă atunci când ecranul <mi_band_type> este stins.</p></mi_band_3>
+        <amazfit_cor><p>Butonul de sub ecranul <mi_band_type>.</p></amazfit_cor>
+        <img src="ic_touch_wrist"> Ridicare încheietură
+        <p>Ridicarea încheieturii este validă atunci când ecranul <mi_band_type> se aprinde.</p>
+        <img src="ic_call"> <b><u>Control apel</b></u>
+        <p>Funcționează întotdeauna, chiar dacă monitorizarea tactilă este oprită.</p>
+        <br><p>În modul de testare nu se execută funcția modelului recunoscut.</p>
+        <p>Doar vibratie de feedback, dacă există un model care ține cont de starea curentă a telefonului (răspuns la apel, respingere numai dacă există un apel primit ...).</p>
+        <p>Brățara vibrează o dată, când recunoaște un model.</p>
+        <p>Brățara vibrează de două ori, atunci când nu se recunoaște niciun model după cel mai lung model (dacă este setat <i> Semnal model atingere nerecunoscut</i>).</p>
+    ]]></string>
+
+    <!-- Step monitoring -->
+    <string name="action_tracker_step">Pași</string>
+    <string name="action_tracker_distance">Distanță</string>
+    <string name="action_tracker_calorie">Calorii</string>
+    <string name="action_chart_filter_activity_no">Fără filtre</string>
+    <string name="action_chart_filter_activity_active">Filtru mișcări</string>
+
+    <string name="step_tab_day">Grafice zilnice</string>
+    <string name="step_tab_week">Grafice săptămânale</string>
+    <string name="step_tab_month">Grafice lunare</string>
+    <string name="step_tab_goal">Obiectivele activității</string>
+    <string name="step_tab_settings">Setări</string>
+
+    <string name="activity_progress_title_prepare">Se pregătește pentru sincronizare ...</string>
+    <string name="activity_progress_title_sync">Sincronizarea datelor %1$,d%%</string>
+    <string name="activity_progress_title_save">Salvarea datelor (%2$s) %1$,d%%</string>
+
+    <string name="step_title_timing">Temporizare</string>
+    <string name="step_interval_title">Repetarea intervalului de monitorizare a pașilor</string>
+    <string name="step_time_set_next">Temporizarea următoarei monitorizări</string>
+
+    <string name="step_goal_default_title">Obiectiv implicit</string>
+    <string name="step_goal_type_title">Obiective adiționale</string>
+    <string name="step_details">Detaliile activității</string>
+
+    <string name="info_dialog_step"><![CDATA[
+        <img src="ic_activity_active"> Total zilnic pași/ distanță/ calorii
+        <br><br><img src="ic_timelapse"> timp activ
+        <br><br><img src="ic_activity_get_up"> timpul ridicării din pat
+        <br><br><img src="ic_activity_awake"> timp stare de veghe
+        <br><br><img src="ic_activity_rest_sofa"> odihnă/ ședere în timpul stării de veghe
+        <br><br><img src="ic_activity_go_to_bed"> ora de culcare
+        <br><br><img src="ic_battery_charging_full"> bateria se încarcă
+        <br><br><img src="ic_activity_block"> nu este purtată
+        ]]>
+    </string>
+
+    <!-- Sleep monitoring -->
+    <string name="sleep_tab_day">Grafice zilnice</string>
+    <string name="sleep_tab_week">Grafice săptămânale</string>
+    <string name="sleep_tab_month">Grafice lunare</string>
+    <string name="sleep_tab_settings">Setări</string>
+
+    <string name="action_chart_sleep_type_phase">Faze</string>
+    <string name="action_chart_sleep_type_time">Timp</string>
+
+    <string name="sleep_details">Detalii somn</string>
+    <string name="sleep_assistant">Asistență puls</string>
+    <string name="sleep_assistant_summary">Ajută la obținerea unor date mai precise despre somn (reduce durata de viață a bateriei)</string>
+    <string name="sleep_assistant_show_pulse">Afișează valorile măsurate ale pulsului pe graficul pulsului zilnic</string>
+
+    <string name="info_dialog_sleep"><![CDATA[
+        <img src="ic_timelapse"> timp somn
+        <br><br><img src="ic_activity_sleep_deep"> timp somn adânc
+        <br><br><img src="ic_activity_go_to_bed"> oră de culcare/trezire 
+        <br><br><img src="ic_activity_sleep_start"> oră început somn/ timp somn ușor
+        <br><br><img src="ic_activity_sleep_time"> timp total
+        <br><br><img src="ic_activity_sleep_end"> oră sfârșit somn
+        <br><br><img src="ic_activity_get_up"> timpul ridicării din pat
+        <br><br><img src="ic_activity_active"> timp activ
+        <br><br><img src="ic_activity_block"> nu este purtată
+        ]]>
+    </string>
+
+    <!-- Pulse  monitoring -->
+    <string name="action_pulse_current">Pulsul curent</string>
+
+    <string name="pulse_tab_day">Grafice zilnice</string>
+    <string name="pulse_tab_week">Grafice săptămânale</string>
+    <string name="pulse_tab_month">Grafice lunare</string>
+    <string name="pulse_tab_settings_online">Setări online</string>
+    <string name="pulse_tab_settings_offline">Setări offline</string>
+    <string name="pulse_tab_settings_continuous">Setare continuă</string>
+
+    <string name="pulse_online_title">Măsurarea pulsului online</string>
+    <string name="pulse_offline_title">Măsurarea pulsului offline</string>
+    <string name="pulse_continuous_title">Măsurare continuă a pulsului</string>
+
+    <string name="action_chart_pulse_type_pulse">Puls</string>
+    <string name="action_chart_pulse_type_pulse_and_step">Puls și activități</string>
+
+    <string name="pulse_continuous_chart_title">Grafic</string>
+    <string name="pulse_continuous_autostart">Autostart la pornirea activității pe Mi Fit</string>
+
+    <string name="pulse_notification_shade">Grafic pe perdeaua de notificare</string>
+    <string name="pulse_title_signals">Semnale</string>
+    <string name="pulse_signal_start_title">Monitorizarea semnalului de pornire</string>
+    <string name="pulse_signal_show_title">Afișează puls</string>
+    <string name="pulse_signal_end_low_title">Semnal puls scăzut</string>
+    <string name="pulse_signal_end_title">Semnal puls ridicat</string>
+
+    <string name="pulse_title_timing_validity">Timp și valabilitate</string>
+    <string name="pulse_value_min">Valoare validă mai scăzută</string>
+    <string name="pulse_value_max">Valoare validă mai ridicată</string>
+    <string name="pulse_value_invalid">Valoare invalidă</string>
+
+    <string name="pulse_offline_timed_title">Măsurătoare temporizată</string>
+
+    <string name="pulse_chart_expandable_title">Notificarea este extensibilă</string>
+    <string name="pulse_interval_title">Repetaea intervalului de monitorizare a pulsului</string>
+    <string name="pulse_all_day">Toată ziua</string>
+    <string name="pulse_time_set_next">Timpul următoarei monitorizări</string>
+
+    <string name="pulse_details">Detalii puls</string>
+
+    <string name="message_pulse_premium_mode_only">Măsurarea pulsului online și offline poate fi utilizată numai în modul premium</string>
+
+    <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Măsurarea pulsului online</u></b>
+        <p>Este necesară conexiunea Bluetooth pentru monitorizarea pulsului.</p>
+        <p>Monitorizarea pulsului se repetă de mai multe ori dacă valoarea rezultată este invalidă.<p>
+        <img src="ic_pulse_offline"> <b><u>Măsurarea pulsului offline</u></b>
+        <p>Nu este necesară conexiunea Bluetooth pentru monitorizarea pulsului.</p>
+        <p>Conexiunea Bluetooth este necesară pentru pornirea și oprirea programată.</p>
+        <p>Măsurătorile lansate manual (Band, Mi Fit app) sunt deasemenea sincronizate.<p>
+        ]]>
+    </string>
+
+    <!-- Lost monitoring -->
+    <string name="alarm_mi_band_title">Semnal %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="alarm_mi_band_dnd">Mod Nu deranja</string>
+    <string name="alarm_mi_band_interval_title">Setări pentru repetarea alarmei</string>
+    <string name="alarm_mi_band_time_set_next">Momentul setării următoare</string>
+    <string name="alarm_mi_band_time">Momentul alarmei următoare</string>
+
+    <string name="alarm_mi_band_disconnected_message">Deconectat</string> <!-- Max. 16 characters length -->
+
+    <string name="pref_cat_abandoned">Semnal telefon</string>
+    <string name="pref_abandoned_notif_interval_title">Interval repetare semnal</string>
+    <string name="pref_abandoned_notif_text_summary">Notificare pe ecranul telefonului</string>
+    <string name="pref_abandoned_notif_text_text">Telefonul este pierdut, sună la următoarele numere:</string>
+    <string name="pref_abandoned_ringtone_title">Sonerie apel</string>
+    <string name="pref_abandoned_vibration_title">Vibrații</string>
+    <string name="pref_abandoned_wakelock_title">Aprinde ecranul</string>
+    <string name="pref_abandoned_notif_title">Telefonul este pierdut</string>
+
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Monitorizarea semnal %1$s pierdut este activată</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="alarm_mi_band_on_bluetooth_disabled_info">Oră alarmă: %1$s</string>
+
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Semnal brățară</u></b>
+        <p>Când expiră perioada de timp specificată, brățara trimite semnal dacă nu este conectată la telefon.</p>
+        <not_support_icon_text><p>Aplicația utilizează funcția de alarmă a Mi Fit pentru a avertiza (suprascrie setarea 10).</p></not_support_icon_text>
+        <not_support_icon_text><p>Alarma va fi repetată de mai multe ori dacă brățara nu detectează nici o mișcare (deoarece folosește alarma brățării).</p></p></not_support_icon_text>
+        <support_icon_text><p>Aplicația utilizează funcția reamintire a Mi Fit pentru a alerta.</p></support_icon_text>
+        <p>Înainte de a dezactiva Bluetooth sau de a dezinstala aplicația, trebuie să dezactivezi semnalul brățării.</p>
+        <not_support_icon_text><p>Dacă dezinstalezi aplicația când alarma este pornită, poți să o dezactivezi pornind și oprind din nou setarea alarmei Mi Fit 10.</p></not_support_icon_text>
+
+        <img src="ic_phone_android"> <b><u>Semnale telefon</u></b>
+        <p>Când expiră perioada de timp specificată, telefonul trimite semnale în mod repetat, dacă nu este conectat la brățară.<p>
+        <p>Acest lucru facilitează găsirea telefonului. Dacă cineva găsește telefonul și este blocat, nu știe pe cine să notifice, așa că poți afișa un mesaj.</p>
+        <p>Când brățara este conectată, alarma se oprește.</p>
+        <p>Trebuie să fie activată afișarea notificării pe ecranul de blocare.</p>]]>
+    </string>
+
+    <!-- Time  monitoring -->
+    <string name="time_tab_alarm">Alarmă</string>
+    <string name="time_tab_timer">Temporizator</string>
+    <string name="time_tab_stopper">Cronometru</string>
+    <string name="time_tab_lap">Timp tură</string>
+    <string name="time_tab_interval">Interval</string>
+
+    <string name="action_alarm_device">Alarmă telefon</string>
+    <string name="time_alarm_mi_band_signal">Semnal când sună alarma telefonului</string>
+    <string name="time_alarm_mi_band_signal_alarm_off">Oprire alarmă la a doua atingere</string>
+    <string name="time_alarm_title">Titlu</string>
+    <string name="time_alarm_pre_alarm">Semnal de reamintire, timp rămas</string>
+    <string name="time_alarm_pre_alarm_interval_title">Timp înainte</string>
+    <string name="time_alarm_pre_alarm_type_vibrate_title">Vibrații</string>
+    <string name="time_alarm_pre_alarm_type_remaining_title">Timp rămas</string>
+
+    <string name="time_timer_time_alert">Timp alarmă</string>
+    <string name="time_timer_time_remaining">Timp rămas</string>
+
+    <string name="time_timer_reminder">Semnal de reamintire, timp rămas</string>
+    <string name="time_timer_reminder_interval_before_title">Timp înainte</string>
+    <string name="time_timer_reminder_interval_repeat_title">Interval repetare reamintire</string>
+
+    <string name="time_stopper_time_alert">Timp alarmă</string>
+    <string name="time_stopper_time_elapsed">Timp trecut</string>
+
+    <string name="time_stopper_reminder">Semnal de reamintire, timp trecut</string>
+    <string name="time_stopper_reminder_interval_before_title">Timp înainte</string>
+    <string name="time_stopper_reminder_interval_repeat_title">Interval repetare reamintire</string>
+
+    <string name="time_stopper_touch">Timp tură, monitorizare atingere</string>
+    <string name="time_stopper_touch_record">Înregistrare timp tură cu o atingere</string>
+    <string name="time_stopper_touch_show">Afișare timp tură cu o atingere</string>
+    <string name="time_stopper_touch_time_format">Format timp</string>
+    <string name="time_stopper_touch_time_format_minute">Ore \u2032 min \u2033</string>
+    <string name="time_stopper_touch_time_format_second">min \u2032 secunde \u2033</string>
+
+    <string name="time_lap_details">Detalii timp tură</string>
+
+    <string name="time_mode_timer_title">Temporizare</string>
+    <string name="time_mode_time_title">Timp</string>
+
+    <string name="time_alert">Tip alarmă</string>
+    <string name="time_alert_bell_title">Clopoțel</string>
+    <string name="time_alert_alarm_title">Alarmă</string>
+
+    <string name="time_interval_time_total">Timp total</string>
+    <string name="time_interval_counter">Număr de repetiții</string>
+    <string name="time_interval_time_alert">Timp sfârșit</string>
+    <string name="time_interval_time_current">Repetiție, timp trecut din interval</string>
+    <string name="time_interval_title">Titlu</string>
+    <string name="time_interval_time">Timp interval</string>
+
+    <string name="time_text">Afișează mesaj în alarmă</string>
+    <string name="time_text_message">Text</string>
+
+    <string name="time_enable_bluetooth">Pornește Bluetooth</string>
+
+    <string name="info_dialog_time"><![CDATA[
+        <p><b>Oprește alarma, temporizatorul și cronometrul înainte de a dezinstala aplicația.</b></p>
+        <img src="ic_device_alarm"> <b><u>Semnal sună alarma telefonului</u></b>
+        <p>Nu toate telefoanele sunt suportate. Dacă nu funcționează ceasul cu alarmă al telefonului tău, desccarcă Ceas Google din Google Play.</p>
+        <img src="ic_miband_bell"> <b><u>Clopoțel</u></b>
+        <p>Este necesară conexiunea Bluetooth  pentru alarmă, avertizează o singură dată timp de 10 secunde.</p>
+        <img src="ic_alarm"> <b><u>Alarmă</u></b>
+        <p>Nu este necesară conexiunea Bluetooth pentru alarmă, aplicația folosește funcția de alarmă a Mi Fit pentru a avertiza (suprascrie setările de la 4 la 9).
+        <br>Alarma va fi repetată de mai multe ori dacă brățara nu detectează nici o mișcare (deoarece folosește alarma brățării).
+        <br>Precizie de minut, brățara nu procesează secunde la alarmă.</p>
+        <p>Semnalul de avertizare și afișarea mesajului necesită conexiune Bluetooth.</p>
+    ]]></string>
+
+    <!-- Reminder -->
+    <string name="reminder_tab_once">O dată</string>
+    <string name="reminder_tab_weekly">Săptămânal</string>
+
+    <string name="reminder_repeat">La fiecare oră</string>
+    <string name="reminder_notification_shade">Notifică pe telefon</string>
+
+    <string name="message_reminder_enabled">Reamintire activată</string>
+    <string name="message_reminder_disabled">Reamintire dezactivată</string>
+    <string name="message_reminder_no_more">Nu se pot înregistra mai multe reamintiri</string>
+
+    <string name="info_dialog_reminder"><![CDATA[
+        <not_support_icon_text>Pentru a afișa reamintirii este necesară conexiunea Bluetooth.</not_support_icon_text>
+        <support_icon_text>Aplicația utilizează funcția de reamintire a Mi Fit, așa că în Mi Fit trebuie să debifezi reamintirile.</support_icon_text>
+        ]]>
+    </string>
+
+    <!-- Weather  -->
+    <string name="weather_tab_weather_forecast">Vremea</string>
+    <string name="weather_tab_location">Localitate</string>
+    <string name="weather_tab_settings">Setări</string>
+
+    <string name="weather_title">Prognoza meteo</string>
+    <string name="weather_location_title">Localitate</string>
+    <string name="weather_city_title">Oraș</string>
+    <string name="weather_unit_title">Unități de măsură</string>
+
+    <string name="weather_current_title">Starea vremii</string>
+    <string name="weather_current_temperature">Temperatura actuală</string>
+
+    <string name="weather_forecast_title">Prognoza meteo</string>
+
+    <string name="weather_display">Afișează</string>
+
+    <!-- Watch face -->
+    <string name="watch_face_default_title">Schimbare față de ceas</string>
+
+    <string name="watch_face_init_title">Inițializare</string>
+    <string name="watch_face_init_content"><![CDATA[În aplicația Mi Fit setează una dintre fețele de ceas din fabrică.
+        <br>Trebuie să selectezi aceeași față de ceas la upload.
+        <br><i>(inițializarea este necesară doar o singură dată)</i>
+    ]]></string>
+
+    <string name="watch_face_download_title">Descărcare</string>
+    <string name="watch_face_download_path">Salvează aici fișierul față de ceas descărcat:</string>
+    <string name="watch_face_download_name">Nume fișier</string>
+    <string name="watch_face_download_move">Mută fișierele față de ceas descărcate din directorul %1$s</string>
+
+    <string name="watch_face_upload_title">Încarcă</string>
+    <string name="watch_face_upload_empty_title"><![CDATA[Nu s-a găsit fața de ceas
+        <br><i>(%1$s)</i>
+    ]]></string>
+    <string name="message_watch_face_upload_error">Este necesară inițializarea</string>
+
+    <string name="info_dialog_watch_face"><![CDATA[<b><u>Procedura de schimbare a feței de ceas:</u></b>
+        <br><br><img src="ic_mi_fit_init"> <b>1. Inițializare</b>
+        <p>Resetează la original feța de ceas în aplicația Mi Fit, încarcă prima față de ceas din fabrică.
+
+        <br><br><b>2. Descarcă</b>
+        <p>Descarcă fețe de ceas de pe site-urile web.
+
+        <br><br><img src="ic_content_duplicate"> <b>3. Mută fișierele</b>
+        <p>Dacă este necesar, mută fișierele descărcate din directorul Download în directorul MiBandage.
+
+        <br><br><img src="ic_mi_fit_upload"> <b>4. Încarcă</b>
+        <p>Încarcă fața de ceas selectată în Mi Fit. Acesta înlocuiește ultima față de ceas din fabrică.
+
+        <br><br><br><b><u>Încarcă mai multe fețe de ceas</u></b>
+        <p><img src="ic_action_launch_mi_fit"> Lansează Mi Fit fără înlocuirea feței de ceas, încarcă cea de-a doua față a ceasului din fabrică.
+        <p><img src="ic_mi_fit_upload"> Încarcă în Mi Fit fața de ceas selectată.
+        <p>Repetă psșii aceștia.
+
+        <br><br>În Mi Fit nu se va schimba imaginea feței de ceas.
+        ]]>
+    </string>
+
+    <!-- Agent -->
+    <string name="agent_title">Agent monitorizare dispozitive</string>
+    <string name="agent_tab_events">Jurnal agent</string>
+    <string name="agent_tab_settings">Setări</string>
+
+    <string name="pref_disconnected_agent_summary_on">Dacă cineva a manipulat telefonul în timp ce erai departe, vei ști</string>
+    <string name="pref_disconnected_agent_text">Cineva a manipulat telefonul, în timp ce tu ai fost plecat</string>
+    <string name="pref_disconnected_agent_user_present_title">Pornește monitorizarea ecranului telefonului</string>
+    <string name="pref_disconnected_agent_screen_on_and_motion_title">Monitorizarea alimentării și a mișcării</string>
+
+    <!-- Agent log info dialog -->
+    <string name="info_dialog_disconnected_agent"><![CDATA[Au fost detectate evenimente de către agentul de monitorizare a telefonului:
+        <br>- alimentare
+        <br>- deblocarea ecranului
+        <br>- detectare mișcare
+
+        <p>Dacă cineva operează telefonul în timp ce ești departe, atunci evenimentele de mai sus sunt înregistrate.</p>
+        <p>Când te reconectezi, vei primi o notificare în cazul în care a avut loc un eveniment.</p>]]>
+    </string>
+
+    <!-- Theme -->
+    <string name="theme_tab_theme">Teme</string>
+    <string name="theme_tab_widget">Widget-uri</string>
+    <string name="theme_tab_notification">Perdea notificări</string>
+
+    <string name="theme_title">Selectează o temă</string>
+    <string name="theme_light">Luminos</string>
+    <string name="theme_dark">Întunecat</string>
+    <string name="theme_background_color_title">Culoare de fundal</string>
+
+    <string name="theme_widget_foreground_title">Prim-plan</string>
+    <string name="theme_widget_foreground_color_title">Culoare pictograme și text</string>
+    <string name="theme_widget_background_title">Fundal</string>
+    <string name="theme_widget_background_color_title">Culoare</string>
+    <string name="theme_widget_background_shape_title">Formă</string>
+    <string name="theme_widget_background_transparency_title">Transparență</string>
+    <string name="theme_widget_background_logo_visibility">Afișează logo-ul Mi Bandage</string>
+
+    <string name="theme_widget_touch_event_title">Eveniment atingere</string>
+
+    <string name="theme_notification_title">Afișează statusul în perdeaua de notificări</string>
+    <string name="theme_notification_summary">Sistemul Android oprește forțat un serviciu numai atunci când memoria este scăzută. Dacă după un timp nu apar notificările din Mi Band 2, poți preveni acest lucru.</string>
+    <string name="theme_notification_summary_foreground_service">Pentru a afișa pictograma în bara de notificare este necesar Android 8 sau ulterior. Glisează spre stânga sau spre dreapta pe bara de notificare pentru a ascunde pictograma. Dacă notificarea este ascunsă, oprește această setare pentru o performanță optimă.</string>
+    <string name="theme_notification_color_title">Culoare pictogramă</string>
+    <string name="theme_notification_text_color_title">Culoare text</string>
+
+    <!-- Backup and restore -->
+    <string name="backup_tab_backup">Copie de rezervă</string>
+    <string name="backup_tab_restore">Restaurare</string>
+    <string name="backup_tab_cloud">Cloud</string>
+
+    <string name="backup_time">Timp pentru copia de rezervă</string>
+    <string name="backup_path">Locație copie de rezervă</string>
+    <string name="backup_auto">Copie de rezervă automată</string>
+    <string name="backup_auto_time">Timp</string>
+
+    <string name="backup_process">Pregătire…</string>
+    <string name="backup_process_activity">Activități și somn %1$,d%%</string>
+    <string name="backup_process_pulse">Puls %1$,d%%</string>
+    <string name="backup_process_notification">Notificări %1$,d%%</string>
+    <string name="backup_process_touch">Atingere %1$,d%%</string>
+    <string name="backup_process_time">Timp %1$,d%%</string>
+    <string name="backup_process_reminder">Reamintire evenimente %1$,d%%</string>
+    <string name="backup_process_weather">Vremea %1$,d%%</string>
+    <string name="backup_process_alarm">Pierdut %1$,d%%</string>
+    <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
+    <string name="backup_process_settings">Setări %1$,d%%</string>
+    <string name="backup_process_cloud">Cloud %1$,d%%</string>
+
+    <string name="backup_restore_activity">Activități și somn</string>
+    <string name="backup_restore_pulse">Puls</string>
+    <string name="backup_restore_notification">Notificări</string>
+    <string name="backup_restore_touch">Atingere</string>
+    <string name="backup_restore_time">Timp</string>
+    <string name="backup_restore_reminder">Reamintire evenimente</string>
+    <string name="backup_restore_weather">Vremea</string>
+    <string name="backup_restore_alarm">Pierdut</string>
+    <string name="backup_restore_disconnected_agent">Agent</string>
+    <string name="backup_restore_settings">Setări</string>
+
+    <string name="backup_restore_reset">După restaurare, Bluetooth se va opri și va porni și aplicația va reporni.</string>
+
+    <string name="backup_cloud_drive_login">Conectare la Google Drive</string>
+    <string name="backup_cloud_drive_logout">Deonectare de la Google Drive</string>
+    <string name="backup_cloud_sync_time">Timp încărcare</string>
+    <string name="backup_cloud_only_wifi">Numai prin Wi-Fi</string>
+
+    <!-- Rewarded mode -->
+    <string name="rewarded_policy_title">Termenii și condițiile Modului recompensat</string>
+    <string name="rewarded_policy"><![CDATA[
+        <p>- început valabilitate: timpul curent
+        <br>- sfârșit valabilitate: început valabilitate + cel puțin %1$,d zile (în funcție de reclamă poate fi mai mult)
+        <br>- manipularea timpului poate provoca încetarea valabilității</p>
+        <i>După ce ai redat videoclipul, trebuie să repornești aplicația.</i>
+    ]]></string>
+
+    <string name="rewarded_advantage_banner_title">Blochează reclamele banner</string>
+    <string name="rewarded_advantage_interstitial_title">Blochează reclamele intercalate</string>
+
+    <string name="rewarded_advantage_time_range">Valabilitate</string>
+    <string name="rewarded_advantage_button_play">Redă video</string>
+
+    <string name="message_rewarded_error">Încărcarea clipului a eșuat</string>
+
+    <!-- Premium mode -->
+    <string name="purchase_advantage_title">Avantajele modului Premium</string>
+    <string name="purchase_advantage"><![CDATA[
+        <p>- fără reclame</p>
+        <p>- mod Nu deranja</p>
+        <p>- umonitorizare nelimitată a notificărilor</p>
+        <mi_band_2><p>- monitorizare nelimitată a atingerilor</p></mi_band_2>
+        <amazfit_bip_watch><p>- monitorizare nelimitată a atingerilor</p></amazfit_bip_watch>
+        <p>- prefixarea textului, pre-pictograma și textul de filtrare pot fi utilizate în monitorizarea notificărilor</p>
+        <p>- intervalul de repetare poate fi setat liber în funcția de monitorizare pași</p>
+        <p>- intervalul de repetare poate fi setat liber și afișarea pulsului poatet fi utilizată în funcția de monitorizare a pulsului</p>
+        <p>- intervalul de repetare poate fi setat liber și modul DnD poate fi folosit în funcția de monitorizare pierdută</p>
+        <p>- reamintirile repetate, afișarea mesajului și activarea Bluetooth pot fi setate liber în monitorizarea timpului</p>
+        - …
+    ]]></string>
+    <string name="purchase_policy_title">Termeni și condiții pentru modul Premium</string>
+    <string name="purchase_policy"><![CDATA[
+        <p>- Am testat aplicația și funcționează corect.</p>
+        <p>- Sunt conștient de faptul că nu pot solicita despăgubiri sau restituiri datorate bug-urilor, erorilor cauzate de modificările software-ului, mediului hardware sau folosind alte aplicații.</p>
+        <p>- Toate vânzările sunt finale și nu pot fi restituite (cu excepția politicii de rambursare Google).</p>
+        <p>- Nu este inclusă nici o garanție.</p>
+        <br><p><i>După cumpărare, trebuie să repornești aplicația.</i></p>
+    ]]></string>
+
+    <!--<string name="purchase_price">Price:</string>-->
+    <string name="purchase_agree">Sunt de acord cu Termenii și condițiile.</string>
+    <string name="purchase_order_id">ID comandă</string>
+    <string name="purchase_order_id_help">Copiază din:
+        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
+        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
+    <string name="purchase_button_purchase">Cumpărare</string>
+
+    <string name="text_premium_mode_only">Numai în modul premium</string>
+
+    <!-- Feedback -->
+    <string name="action_log_notification">Jurnal</string>
+
+    <string name="feedback_google_play_title">Evaluează această aplicație</string>
+    <string name="feedback_request_feature_title">Solicitare de funcții, raport de erori</string>
+    <string name="feedback_request_feature_summary">Prelucrare automată a poștei electronice, este posibil să nu primești un răspuns</string>
+
+    <!-- Privacy policy -->
+    <string name="privacy_policy_tab_privacy_policy">Politica de confidentialitate</string>
+    <string name="privacy_policy_tab_eu_consent">Consimțământul utilizatorilor UE</string>
+
+    <string name="privacy_policy_collect_title">Informațiile pe care le colectăm</string>
+    <string name="privacy_policy_collect"><![CDATA[
+        <p>- Colectăm doar informații anonime.</p>
+        <p>- Colectăm informații la nivelul aplicației cu privire la serviciile pe care le utilizezi și la modul în care le folosești (Platforma Google Firebase).</p>
+        <p>- Colectăm informații la nivel de aplicație cum ar fi bug-uri, erori și blocaje pentru a oferi îmbunătățiri (Platforma Google Firebase).</p>
+        <p>- Platforma Google Firebase colectează informații anonim. Aceasta raportează tendințele fără a identifica utilizatorii individuali.</p>
+        - Nu distribuim niciun fel de date altor companii și organizații.
+    ]]></string>
+
+    <string name="privacy_policy_not_collect_title">Informațiile pe care nu le colectăm</string>
+    <string name="privacy_policy_not_collect"><![CDATA[
+        <p>- Nu colectăm informații personale identificabile despre tine. Cu alte cuvinte, nu colectăm informații cum ar fi numele, adresa, numărul de telefon, adresa de e-mail, adresa IP sau adresa MAC.</p>
+        - Nu colectăm date despre sănătatea personală, contacte și textele de notificare de pe telefon.
+    ]]></string>
+
+    <string name="privacy_policy_eu_consent_title">Status</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Anunțuri personalizate și relevante</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Anunțuri nepersonalizate și care sunt mai puțin relevante</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Necunoscut</string>
+
+    <string name="privacy_policy_eu_consent_setting">Setări</string>
+
+    <!-- Vibration dialog -->
+    <string name="vibration_title">Setări vibrații</string>
+    <string name="vibration_intensity">Durată</string>
+    <string name="vibration_pause">Pauză</string>
+    <string name="vibration_times">De câte ori</string>
+
+    <!-- Hack -->
+    <string name="info_dialog_hack"><![CDATA[Aplicație de hack detectată pe telefon.
+        <p>În timp ce aplicația de hack este instalată, modul premium nu este disponibil.</p>
+        <p>Am petrecut o mulțime de timp dezvoltând aplicația, te rog nu utiliza aplicații de hack.</p>]]>
+    </string>
+
+    <!-- Others -->
+    <string name="on">Pornit</string>
+    <string name="off">Oprit</string>
+    <string name="none">Niciuna</string>
+    <string name="bpm">BPM</string>
+    <string name="date">Dată</string>
+    <string name="time">Timp</string>
+    <string name="time_start">Timp pornire</string>
+    <string name="time_end">Timp oprire</string>
+    <string name="ringer_mode_vibrate">Vibrații</string>
+    <string name="ringer_mode_silent">Mut</string>
+    <string name="ringer_mode_dnd_priority_only">Nu deranja (numai pentru prioritate)</string>
+    <string name="ringer_mode_dnd_alarms_only">Nu deranja (numai alarmele)</string>
+    <string name="ringer_mode_dnd_total_silence">Nu deranja (liniște totală)</string>
+    <string name="unknown">Necunoscut</string>
+    <string name="maximum">Maxim</string>
+
+    <string name="action_dismiss">Înlătură</string>
+    <string name="action_setting">Setări</string>
+    <string name="action_delete">Șterge</string>
+    <string name="action_export">Exportă</string>
+    <string name="action_synchronization">Sincronizează</string>
+    <string name="action_filter_no">Niciun filtru</string>
+    <string name="action_bluetooth">Bluetooth</string>
+    <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_save">Salvează</string>
+    <string name="action_test">Test</string>
+    <string name="action_discard">Renunță</string>
+    <string name="action_keep_editing">Editează în continuare</string>
+
+    <string name="action_chart">Grafic</string>
+    <string name="action_chart_normalize_minute">Valori măsurate</string>
+    <string name="action_chart_normalize_quarter_hourly">Valori la sfert de oră</string>
+    <string name="action_chart_normalize_half_hourly">Valori la jumătate de oră</string>
+    <string name="action_chart_normalize_hourly">Valori la fiecare oră</string>
+    <string name="action_chart_sort_time_asc">Timp ascendent</string>
+    <string name="action_chart_sort_time_desc">Timp descendent</string>
+    <string name="action_chart_sort_step_asc">Pași ascendent</string>
+    <string name="action_chart_sort_step_desc">Pași descendent</string>
+    <string name="action_chart_sort_pulse_asc">Puls ascendent</string>
+    <string name="action_chart_sort_pulse_desc">Puls descendent</string>
+    <string name="action_chart_sort_lap_asc">Tură ascendent</string>
+    <string name="action_chart_sort_lap_desc">Tură descendent</string>
+
+    <string name="power_on">Pornire alimentare</string>
+    <string name="screen_unlock">Deblocarea ecranului</string>
+    <string name="motion">Mișcare detectată</string>
+
+    <string name="required_value">Obligatoriu</string>
+
+    <string name="invalid_date">Dată invalidă</string>
+    <string name="invalid_time">Oră invalidă</string>
+
+    <!-- Constante -->
+    <string name="const_time_abbreviation_day">z</string>
+    <string name="const_time_abbreviation_hour">h</string>
+    <string name="const_time_abbreviation_minute">m</string>
+    <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_milli_sec">ms</string>
+
+    <string name="const_number">%1$,d</string>
+    <string name="const_unit_meter">m</string>
+    <string name="const_unit_kcal">kcal</string>
+    <string name="const_unit_dbm">dBm</string>
+
+    <plurals name="plural_time_hour">
+        <item quantity="zero">%d ore</item>
+        <item quantity="one">%d oră</item>
+        <item quantity="two">%d ore</item>
+        <item quantity="few">%d ore</item>
+        <item quantity="many">%d ore</item>
+        <item quantity="other">%d ore</item>
+    </plurals>
+
+    <plurals name="plural_time_minute">
+        <item quantity="zero">%d min</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="two">%d minute</item>
+        <item quantity="few">%d minute</item>
+        <item quantity="many">%d minute</item>
+        <item quantity="other">%d minute</item>
+    </plurals>
+
+    <plurals name="plural_time_second">
+        <item quantity="zero">%d seconde</item>
+        <item quantity="one">%d secondă</item>
+        <item quantity="two">%d seconde</item>
+        <item quantity="few">%d seconde</item>
+        <item quantity="many">%d seconde</item>
+        <item quantity="other">%d seconde</item>
+    </plurals>
+
+    <plurals name="plural_file_moved">
+        <item quantity="zero">%d fișiere mutate</item>
+        <item quantity="one">%d fișier mutat</item>
+        <item quantity="two">%d fișiere mutate</item>
+        <item quantity="few">%d fișiere mutate</item>
+        <item quantity="many">%d fișiere mutate</item>
+        <item quantity="other">%d fișiere mutate</item>
+    </plurals>
+
+</resources>
