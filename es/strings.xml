@@ -43,7 +43,8 @@
     <!-- Bandages screen -->
     <string name="mi_band_tracker_title">Pasos, Distancia, Calorías, Objetivo, Pulso</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
-    <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%.,2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Nivel de Batería, Ultima hora de carga, Tiempo estimado pendiente </string>
     <string name="mi_band_state_connected_disconnected_last_time">RSSI, Ultima hora de conexión y desconexión </string>
@@ -61,6 +62,61 @@
     <string name="mi_band_state_disconnected">Desconectado</string>
     <string name="mi_band_state_bonded">Dispositivo Emparejado</string>
     <string name="mi_band_state_not_bonded">Dispositivo No emparejado</string>
+
+    <!-- Mi Band setting -->
+    <string name="mi_band_setting_title">Menú de la %1$s</string>
+
+    <string name="mi_band_setting_menu_profile">Perfil</string>
+    <string name="mi_band_setting_menu_setting">Configuración</string>
+    <string name="mi_band_setting_menu_text">Texto</string>
+
+    <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage requiere la instalación de la aplicación oficial Mi Fit en el mismo dispositivo. Al principio, tiene que emparejar la Band con Mi Fit, entonces podrá usar Mi Bandage</string>
+    <string name="mi_band_setting_auth_standalone">Standalone</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+
+    <string name="mi_band_setting_nickname">Apodo</string>
+    <string name="mi_band_setting_gender">Sexo</string>
+    <string name="mi_band_setting_birthday">Fecha de nacimiento</string>
+    <string name="mi_band_setting_height">Altura</string>
+    <string name="mi_band_setting_weight">Peso</string>
+    <string name="mi_band_setting_wear_location">Ubicación de la pulsera</string>
+
+    <string name="mi_band_setting_distance_unit">Establecer unidades de distancia</string>
+
+    <string name="mi_band_setting_standalone_setting">Standalone settings</string>
+    <string name="mi_band_setting_idle_alert">Alertas de inactividad</string>
+    <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
+    <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
+    <string name="mi_band_setting_discoverable">Discoverable</string>
+
+    <string name="pref_text_conversion_summary">Configuraciones de iconos de texto en Band</string>
+    <string name="pref_cat_text_conversion">Señal en %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_text_conversion_title">Conversión de caracteres</string>
+    <string name="pref_text_conversion_summary_on">Conversión de caracteres no reconocibles, desactivalo si la band tiene tu idioma o tienes fuentes personalizadas.</string>
+    <string name="pref_text_conversion_excluded_title">Personajes excluidos</string>
+    <string name="pref_text_emoticon_title">Emoji conversión</string>
+    <string name="pref_text_emoticon_summary_on">Convertir emoji a emoticon</string>
+    <string name="pref_text_uppercase_title">Conversión mayúscula</string>
+    <string name="pref_text_uppercase_summary_on">Convertir minúsculas en mayúsculas</string>
+    <string name="pref_text_length">Longitud de texto, depende de la fuente que se use (Por ejemplo Chino o Cirilico)</string>
+    <string name="pref_text_length_summary_on">%1$,d caracteres</string>
+
+    <string name="pref_text_conversion_description_title">Descripción</string>
+    <string name="pref_text_conversion_description_summary"><![CDATA[
+        <p>Si su Band muestra el nombre del llamante entrante actualmente, entonces no necesita hacer los siguientes pasos simplemente apague <i>Alerta de llamadas entrantes</i> en Mi Fit.</p>
+        <p>Si no usa <i>Alerta de llamadas entrantes</i> y el idioma del teléfono no es Inglés:
+        <br/>1. Establezca el idioma del telefono en Inglés.
+        <br/>2. Abra la aplicacion Mi Fit, espere hasta que se realice la actualización del firmware. Si la actualización del firmware no se inicia, intente reiniciar el teléfono.
+        <br/>3. Abra el menú <i>Reproducir/Llamada entrante</i>.
+        <br/>4. Active: <i>Activar alertas de llamadas entrantes</i>.
+        <br/>5. Active: <i>Mostrar información de contacto</i>.
+        <br/>6. Compruebe si la Band muestra el nombre de la persona que llama, llamando a su propio teléfono.
+        <br/>7. Desactive : <i>Activar alertas de llamadas entrantes</i> (<i>Mostrar información de contacto</i> permanece activada).
+        <br/>8. Establece el idioma del telefono en su idioma.</p>]]>
+    </string>
 
     <!-- Battery -->
     <string name="battery_details">Uso de batería</string>
@@ -151,32 +207,6 @@
     <string name="pref_call_missed_text_prefix_title">Prefijo de texto: %1$s</string>
     <string name="pref_call_missed_text_prefix_summary">Si más de una aplicación utilizan el mismo icono para diferenciar notificaciones, una de las otras</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Prefijo de texto</string>
-
-    <string name="pref_text_conversion">Iconos de texto</string>
-    <string name="pref_text_conversion_summary">Configuraciones de iconos de texto en Band</string>
-    <string name="pref_cat_text_conversion">Señal en %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_text_conversion_title">Conversión de caracteres</string>
-    <string name="pref_text_conversion_summary_on">Conversión de caracteres no reconocibles, desactivalo si la band tiene tu idioma o tienes fuentes personalizadas.</string>
-    <string name="pref_text_emoticon_title">Emoji conversión</string>
-    <string name="pref_text_emoticon_summary_on">Convertir emoji a emoticon</string>
-    <string name="pref_text_uppercase_title">Conversión mayúscula</string>
-    <string name="pref_text_uppercase_summary_on">Convertir minúsculas en mayúsculas</string>
-    <string name="pref_text_length">Longitud de texto, depende de la fuente que se use (Por ejemplo Chino o Cirilico)</string>
-    <string name="pref_text_length_summary_on">%1$,d caracteres</string>
-
-    <string name="pref_text_conversion_description_title">Descripción</string>
-    <string name="pref_text_conversion_description_summary"><![CDATA[
-        <p>Si su Band muestra el nombre del llamante entrante actualmente, entonces no necesita hacer los siguientes pasos simplemente apague <i>Alerta de llamadas entrantes</i> en Mi Fit.</p>
-        <p>Si no usa <i>Alerta de llamadas entrantes</i> y el idioma del teléfono no es Inglés:
-        <br/>1. Establezca el idioma del telefono en Inglés.
-        <br/>2. Abra la aplicacion Mi Fit, espere hasta que se realice la actualización del firmware. Si la actualización del firmware no se inicia, intente reiniciar el teléfono.
-        <br/>3. Abra el menú <i>Reproducir/Llamada entrante</i>.
-        <br/>4. Active: <i>Activar alertas de llamadas entrantes</i>.
-        <br/>5. Active: <i>Mostrar información de contacto</i>.
-        <br/>6. Compruebe si la Band muestra el nombre de la persona que llama, llamando a su propio teléfono.
-        <br/>7. Desactive : <i>Activar alertas de llamadas entrantes</i> (<i>Mostrar información de contacto</i> permanece activada).
-        <br/>8. Establece el idioma del telefono en su idioma.</p>]]>
-    </string>
 
     <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_mi_band_lift_wrist">Levantar la muñeca para ver la información</string>
@@ -291,7 +321,6 @@
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
-    <p>Mi Bandage requiere la instalación de la aplicación oficial Mi Fit en el mismo dispositivo. Al principio, tiene que emparejar la Band con Mi Fit, entonces podrá usar Mi Bandage.</p>
     <p>Si utiliza más aplicaciones para controlar la Band, puede que interfieran entre sí, desactivelas temporalmente.</p>
     <p>Si no puede encontrar la Band, puede establecer la dirección MAC, manualmente, en el menú de detalles (La dirección MAC se puede encontrar en: Mi Fit/Perfil/Band).</p>
     <p><b>Si tiene un problema de conexión:</b>
@@ -660,7 +689,6 @@
 
     <string name="pulse_chart_expandable_title">Notification is expandable</string>
     <string name="pulse_interval_title">Repetir el intervalo de monitorización de pulso</string>
-    <string name="pulse_all_day">Todo el día</string>
     <string name="pulse_time_set_next">Temporizador del próximo monitoreo</string>
 
     <string name="pulse_details">Detalles del pulso</string>
@@ -698,7 +726,7 @@
     <string name="alarm_mi_band_on_bluetooth_disabled_text">Señal de monitoreo de extravío en %1$s está activada</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Hora de alarma: %1$s</string>
 
-    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>Señal de Band</u></b>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Señal de Band</u></b>
         <p>Cuando expira un periodo de tiempo especificado, Band envia señales si no esta conectado al dispositivo.</p>
         <not_support_icon_text><p>La aplicación utiliza la funcion de alarma de Mi Fit para alertar (sobreescribir la configuracion).</p></not_support_icon_text>
         <not_support_icon_text><p>La alarma se repetira varias veces si la Band no detecta ningún movimiento (Utiliza la alarma de fábrica).</p></not_support_icon_text>
@@ -1059,6 +1087,7 @@
     <string name="ringer_mode_dnd_total_silence">No molestar (silencio total)</string>
     <string name="unknown">Desconocido</string>
     <string name="maximum">Máximo</string>
+    <string name="all_day">Todo el día</string>
 
     <string name="action_dismiss">Descartar</string>
     <string name="action_setting">Configuraciones</string>
@@ -1105,6 +1134,9 @@
 
     <string name="const_number">%1$,d</string>
     <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
     <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
 

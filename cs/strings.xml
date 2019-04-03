@@ -43,7 +43,8 @@
     <!-- Bandages screen -->
     <string name="mi_band_tracker_title">Kroky, vzdálenost, kalorie, cíl, tep</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
-    <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%1$,d mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Úroveň baterie, čas nabíjení, odhadovaný zbývající čas</string>
     <string name="mi_band_state_connected_disconnected_last_time">RSSI, poslední čas připojení a odpojení</string>
@@ -61,6 +62,62 @@
     <string name="mi_band_state_disconnected">Odpojeno</string>
     <string name="mi_band_state_bonded">Spárované zařízení</string>
     <string name="mi_band_state_not_bonded">Není spárováno zařízení</string>
+
+    <!-- Mi Band setting -->
+    <string name="mi_band_setting_title">Nastavení %1$s</string>
+
+    <string name="mi_band_setting_menu_profile">Profil</string>
+    <string name="mi_band_setting_menu_setting">Nastavení</string>
+    <string name="mi_band_setting_menu_text">Text</string>
+
+    <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage vyžaduje instalaci oficiální aplikace Mi Fit na stejném zařízení. Nejprve musíte spárovat chytrý náramek v aplikaci Mi Fit, poté můžete použít aplikaci Mi Bandage</string>
+    <string name="mi_band_setting_auth_standalone">Standalone</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+
+    <string name="mi_band_setting_nickname">Přezdívka</string>
+    <string name="mi_band_setting_gender">Pohlaví</string>
+    <string name="mi_band_setting_birthday">Datum narození</string>
+    <string name="mi_band_setting_height">Výška</string>
+    <string name="mi_band_setting_weight">Váha</string>
+    <string name="mi_band_setting_wear_location">Umístění náramku</string>
+
+    <string name="mi_band_setting_distance_unit">Nastavit jednotky vzdálenosti</string>
+
+    <string name="mi_band_setting_standalone_setting">Standalone settings</string>
+    <string name="mi_band_setting_idle_alert">Oznámení o nečinnosti</string>
+    <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
+    <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
+
+    <string name="mi_band_setting_discoverable">Discoverable</string>
+
+    <string name="pref_text_conversion_summary">Nastavení textové ikony na náramku</string>
+    <string name="pref_cat_text_conversion">Oznámení na %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_text_conversion_title">Převod znaků</string>
+    <string name="pref_text_conversion_summary_on">Převod neznámých znaků (Vypněte, pokud Váš náramek podporuje Váš jazyk nebo pokud máte nainstalovanáno vlastní písmo.)</string>
+    <string name="pref_text_conversion_excluded_title">Vyloučené znaky</string>
+    <string name="pref_text_emoticon_title">Převod smajlíků</string>
+    <string name="pref_text_emoticon_summary_on">Převod znaků na emotikony</string>
+    <string name="pref_text_uppercase_title">Konverze velkých písmen</string>
+    <string name="pref_text_uppercase_summary_on">Převod malých písmen na velká písmena</string>
+    <string name="pref_text_length">Délka textu (Záleží na typu písma (např. čínština nebo cyrilice)</string>
+    <string name="pref_text_length_summary_on">%1$,d znaků</string>
+
+    <string name="pref_text_conversion_description_title">Nápověda</string>
+    <string name="pref_text_conversion_description_summary"><![CDATA[
+        <p> Pokud Váš náramek momentálně zobrazuje jméno příchozího volání správně, nemusíte provádět následující kroky, stačí pouze vypnout <i> Upozornění na příchozí volání </i> na Mi Fit.</p>
+        <p>Pokud nepoužíváte <i> Upozornění na příchozí hovory </i> a jazyk telefonu není angličtina:
+        <br/>1. Nastavte jazyk telefonu na angličtinu.
+        <br/>2. Otevřete aplikaci Mi Fit, počkejte, dokud nebude dokončena aktualizace firmwaru písma. Pokud aktualizace firmwaru nezačne, zkuste restartovat telefon.
+        <br/>3. Otevřete nabídku <i> Profil/Mi Band/Příchozí volání </i>.
+        <br/>4. Zapnout: <i> Zapnout upozornění na příchozí volání </i>.
+        <br/>5. Zapnout: <i>Zobrazit kontaktní informace </i>.
+        <br/>6. Zkontrolujte zda náramek může zobrazit jméno volajícího.
+        <br/>7. Vypnout : <i>Zapněte upozornění na příchozí hovory</i> (<i>Zobrazit kontaktní informace</i> zůstane zapnuté).
+        <br/>8. Nastavte jazyk telefonu zpět do vašeho jazyka.</p>]]>
+    </string>
 
     <!-- Battery -->
     <string name="battery_details">Detaily baterie</string>
@@ -151,32 +208,6 @@
     <string name="pref_call_missed_text_prefix_title">Předpona textu: %1$s</string>
     <string name="pref_call_missed_text_prefix_summary">Pokud více než jedna aplikace také používá ikonu (pro odlišení oznámení od sebe navzájem)</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Předpona textu</string>
-
-    <string name="pref_text_conversion">Textové ikony</string>
-    <string name="pref_text_conversion_summary">Nastavení textové ikony na náramku</string>
-    <string name="pref_cat_text_conversion">Oznámení na %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_text_conversion_title">Převod znaků</string>
-    <string name="pref_text_conversion_summary_on">Převod neznámých znaků (Vypněte, pokud Váš náramek podporuje Váš jazyk nebo pokud máte nainstalovanáno vlastní písmo.)</string>
-    <string name="pref_text_emoticon_title">Převod smajlíků</string>
-    <string name="pref_text_emoticon_summary_on">Převod znaků na emotikony</string>
-    <string name="pref_text_uppercase_title">Konverze velkých písmen</string>
-    <string name="pref_text_uppercase_summary_on">Převod malých písmen na velká písmena</string>
-    <string name="pref_text_length">Délka textu (Záleží na typu písma (např. čínština nebo cyrilice)</string>
-    <string name="pref_text_length_summary_on">%1$,d znaků</string>
-
-    <string name="pref_text_conversion_description_title">Nápověda</string>
-    <string name="pref_text_conversion_description_summary"><![CDATA[
-        <p> Pokud Váš náramek momentálně zobrazuje jméno příchozího volání správně, nemusíte provádět následující kroky, stačí pouze vypnout <i> Upozornění na příchozí volání </i> na Mi Fit.</p>
-        <p>Pokud nepoužíváte <i> Upozornění na příchozí hovory </i> a jazyk telefonu není angličtina:
-        <br/>1. Nastavte jazyk telefonu na angličtinu.
-        <br/>2. Otevřete aplikaci Mi Fit, počkejte, dokud nebude dokončena aktualizace firmwaru písma. Pokud aktualizace firmwaru nezačne, zkuste restartovat telefon.
-        <br/>3. Otevřete nabídku <i> Profil/Mi Band/Příchozí volání </i>.
-        <br/>4. Zapnout: <i> Zapnout upozornění na příchozí volání </i>.
-        <br/>5. Zapnout: <i>Zobrazit kontaktní informace </i>.
-        <br/>6. Zkontrolujte zda náramek může zobrazit jméno volajícího.
-        <br/>7. Vypnout : <i>Zapněte upozornění na příchozí hovory</i> (<i>Zobrazit kontaktní informace</i> zůstane zapnuté).
-        <br/>8. Nastavte jazyk telefonu zpět do vašeho jazyka.</p>]]>
-    </string>
 
     <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_mi_band_lift_wrist">Zvedutí zápěstí pro zobrazení informací</string>
@@ -291,7 +322,6 @@
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
-    <p>Mi Bandage vyžaduje instalaci oficiální aplikace Mi Fit na stejném zařízení. Nejprve musíte spárovat chytrý náramek v aplikaci Mi Fit, poté můžete použít aplikaci Mi Bandage.</p>
     <p>Používáte-li více aplikací pro ovládání chytrého náramku/hodinek, mohou se navzájem rušit. Z tohoto důvodu je prosím dočasně vypněte.</p>
     <p> Pokud není nalezen chytrý náramek, můžete nastavit MAC adresu ručně v nabídce podrobností (MAC adresu naleznete: Mi Fit/Profil/Band).</p>
     <p><b>Pokud máte problém s připojením, postupujte dle instrukcí uvedených níže:</b>
@@ -659,7 +689,6 @@
 
     <string name="pulse_chart_expandable_title">Notifikace jsou rozšiřitelné</string>
     <string name="pulse_interval_title">Opakování intervalu monitorování tepu</string>
-    <string name="pulse_all_day">Celý den</string>
     <string name="pulse_time_set_next">Načasování dalšího monitorování</string>
 
     <string name="message_pulse_premium_mode_only">Online a offline měření tepu lze použít pouze v prémiovém režimu</string>
@@ -697,7 +726,7 @@
     <string name="alarm_mi_band_on_bluetooth_disabled_text">Monitorování ztráty %1$s je povoleno</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Čas budíku: %1$s</string>
 
-    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>Oznámení na náramku</u></b>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Oznámení na náramku</u></b>
         <p>Po uplynutí stanovené doby náramek odešle oznámení, jestli není připojený k zařízení</p>
         <not_support_icon_text><p>Aplikace používá alarmovou funkci aplikace Mi Fit k výstraze (přepsání 10. nastavení)</p></not_support_icon_text>
         <not_support_icon_text><p>Budík se opakuje několikrát, pokud náramek nezaznamená žádný pohyb (protože používá budík náramku)</p></not_support_icon_text>
@@ -1058,6 +1087,7 @@
     <string name="ringer_mode_dnd_total_silence">Nerušit (úplné ticho)</string>
     <string name="unknown">Neznámý</string>
     <string name="maximum">Maximum</string>
+    <string name="all_day">Celý den</string>
 
     <string name="action_dismiss">Odmítnout</string>
     <string name="action_setting">Nastavení</string>
@@ -1104,6 +1134,9 @@
 
     <string name="const_number">%1$,d</string>
     <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
     <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
 

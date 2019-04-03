@@ -43,7 +43,8 @@
     <!-- Bandasje skjerm -->
     <string name="mi_band_tracker_title">Skritt, distanse, kalorier, mål, puls</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- ingen -->
-    <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo kalori -->
     <string name="mi_band_battery">Batteri-level, siste lade tid, beregnet gjenværende tid</string>
     <string name="mi_band_state_connected_disconnected_last_time">RSSI, siste tilkoblings og frakoblings-tid</string>
@@ -61,6 +62,61 @@
     <string name="mi_band_state_disconnected">Frakoblet</string>
     <string name="mi_band_state_bonded">Parret enhet</string>
     <string name="mi_band_state_not_bonded">Ikke parret enhet</string>
+
+    <!-- Mi Band setting -->
+    <string name="mi_band_setting_title">%1$s-instillinger</string>
+
+    <string name="mi_band_setting_menu_profile">Profil</string>
+    <string name="mi_band_setting_menu_setting">Instilling</string>
+    <string name="mi_band_setting_menu_text">Text</string>
+
+    <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage behøver installasjon av den offisielle Mi Fit appen på den samme telefonen. først må du parre Bandet i Mi Fit appen, så kan du bruke Mi Bandage</string>
+    <string name="mi_band_setting_auth_standalone">Standalone</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+
+    <string name="mi_band_setting_nickname">Kallenavn</string>
+    <string name="mi_band_setting_gender">Kjønn</string>
+    <string name="mi_band_setting_birthday">Fødselsdato</string>
+    <string name="mi_band_setting_height">Høyde</string>
+    <string name="mi_band_setting_weight">Vekt</string>
+    <string name="mi_band_setting_wear_location">Slitasje sted</string>
+
+    <string name="mi_band_setting_distance_unit">Avstandsenhet</string>
+
+    <string name="mi_band_setting_standalone_setting">Standalone settings</string>
+    <string name="mi_band_setting_idle_alert">Idle alert</string>
+    <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
+    <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
+    <string name="mi_band_setting_discoverable">Discoverable</string>
+
+    <string name="pref_text_conversion_summary">Konverter text meldings karakterer</string>
+    <string name="pref_cat_text_conversion">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_text_conversion_title">Transliterasjon</string>
+    <string name="pref_text_conversion_summary_on">Ikke gjenkjennelige karakter konvertering er skrudd av hvis Bandet støtter ditt språk eller du har installert egendefinert skriftstil firmware</string>
+    <string name="pref_text_conversion_excluded_title">Utelukket tegn</string>
+    <string name="pref_text_emoticon_title">Emoji Konvertering</string>
+    <string name="pref_text_emoticon_summary_on">Konvertere emoji til emoticon</string>
+    <string name="pref_text_uppercase_title">Blokkbokstav Konverteringer</string>
+    <string name="pref_text_uppercase_summary_on">Konvertere småbokstaver til blokkbokstaver</string>
+    <string name="pref_text_length">Text lengde, avhenger av skriftstilen som brukes (for eksempel Kinesiske eller Cyrilliske karakterer)</string>
+    <string name="pref_text_length_summary_on">%1$,d karakterer</string>
+
+    <string name="pref_text_conversion_description_title">Forklaring</string>
+    <string name="pref_text_conversion_description_summary"><![CDATA[
+        <p>Hvis Bandet viser den inkommende anrops navn foreløpig, da trenger du ikke gjøre følgende steg, bare skru av <i>Inkommende anrops-varsel</i> på Mi Fit.</p>
+        <p>Hvis du ikke bruker <i>Inkommende anrops-varsler</i> og om telefonens språk ikke er Engelsk:
+        <br/>1. Sett ditt telefon språk til Engelsk.
+        <br/>2. Åpne Mi Fit app, vent til firmware oppdateringen er gjort. Hvis firmware oppdateringen får bandage til ikke å restarte, prøv å restarte telefonen.
+        <br/>3. Åpne <i>Profil/Mi Band/Inkommende anrop</i> meny.
+        <br/>4. Skru på: <i>Skru på inkommende anrops-varsler</i>.
+        <br/>5. Skru på: <i>Vis kontakt-informasjon</i>.
+        <br/>6. Sjekk om du kan se at Bandet viser anroperens navn når det ringer på telefonen din.
+        <br/>7. Turn off : <i>Skru på inkommende anrops-varsler</i> (<i>Vis kontakt informasjon</i> står på).
+        <br/>8. Sett telefonens språk tilbake til ditt språk.</p>]]>
+    </string>
 
     <!-- Battery -->
     <string name="battery_details">Batteri detaljer</string>
@@ -151,32 +207,6 @@
     <string name="pref_call_missed_text_prefix_title">Text prefix: %1$s</string>
     <string name="pref_call_missed_text_prefix_summary">Hvis mer enn en app også bruker ikonet vil de differensiere notifikasjoner fra hverandre</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Text prefix</string>
-
-    <string name="pref_text_conversion">Text utseende</string>
-    <string name="pref_text_conversion_summary">Konverter text meldings karakterer</string>
-    <string name="pref_cat_text_conversion">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_text_conversion_title">Transliterasjon</string>
-    <string name="pref_text_conversion_summary_on">Ikke gjenkjennelige karakter konvertering er skrudd av hvis Bandet støtter ditt språk eller du har installert egendefinert skriftstil firmware</string>
-    <string name="pref_text_emoticon_title">Emoji Konvertering</string>
-    <string name="pref_text_emoticon_summary_on">Konvertere emoji til emoticon</string>
-    <string name="pref_text_uppercase_title">Blokkbokstav Konverteringer</string>
-    <string name="pref_text_uppercase_summary_on">Konvertere småbokstaver til blokkbokstaver</string>
-    <string name="pref_text_length">Text lengde, avhenger av skriftstilen som brukes (for eksempel Kinesiske eller Cyrilliske karakterer)</string>
-    <string name="pref_text_length_summary_on">%1$,d karakterer</string>
-
-    <string name="pref_text_conversion_description_title">Forklaring</string>
-    <string name="pref_text_conversion_description_summary"><![CDATA[
-        <p>Hvis Bandet viser den inkommende anrops navn foreløpig, da trenger du ikke gjøre følgende steg, bare skru av <i>Inkommende anrops-varsel</i> på Mi Fit.</p>
-        <p>Hvis du ikke bruker <i>Inkommende anrops-varsler</i> og om telefonens språk ikke er Engelsk:
-        <br/>1. Sett ditt telefon språk til Engelsk.
-        <br/>2. Åpne Mi Fit app, vent til firmware oppdateringen er gjort. Hvis firmware oppdateringen får bandage til ikke å restarte, prøv å restarte telefonen.
-        <br/>3. Åpne <i>Profil/Mi Band/Inkommende anrop</i> meny.
-        <br/>4. Skru på: <i>Skru på inkommende anrops-varsler</i>.
-        <br/>5. Skru på: <i>Vis kontakt-informasjon</i>.
-        <br/>6. Sjekk om du kan se at Bandet viser anroperens navn når det ringer på telefonen din.
-        <br/>7. Turn off : <i>Skru på inkommende anrops-varsler</i> (<i>Vis kontakt informasjon</i> står på).
-        <br/>8. Sett telefonens språk tilbake til ditt språk.</p>]]>
-    </string>
 
     <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_mi_band_lift_wrist">Løfte hånda for å vise info</string>
@@ -291,7 +321,6 @@
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
-    <p>Mi Bandage behøver installasjon av den offisielle Mi Fit appen på den samme telefonen. først må du parre Bandet i Mi Fit appen, så kan du bruke Mi Bandage.</p>
     <p>Hvis du bruker flere applikasjoner for å kontrolere Bandet, så blandes det med hverandre så du må midlertidig skru dem av.</p>
     <p>hvis Bandetvikke er funnet, da kan du sette MAC addressen manuelt når du utforsker (MAC addresse er funnet: Mi Fit/Profil/Band).</p>
     <p><b>hvis du har et tilkoblings problem:</b>
@@ -659,7 +688,6 @@
 
     <string name="pulse_chart_expandable_title">Notifikasjon er utvidet</string>
     <string name="pulse_interval_title">Gjenta interval av puls monitorering</string>
-    <string name="pulse_all_day">Alle-dager</string>
     <string name="pulse_time_set_next">Timing av neste monitorering</string>
 
     <string name="pulse_details">Puls detaljer</string>
@@ -697,7 +725,7 @@
     <string name="alarm_mi_band_on_bluetooth_disabled_text">Mistet monitorering %1$s signal er aktivert</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm-tid: %1$s</string>
 
-    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>Band signal</u></b>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Band signal</u></b>
         <p>Når spesifisert periode av tiden utløper, Sender bandet signaler hvis det ikke er tilkoblet til telefonen.</p>
         <not_support_icon_text><p>Appen bruker alarm funksjon på Mi Fit for å varsle (overskrive 10. egenskap).</p></not_support_icon_text_2>
         <not_support_icon_text><p>Alarmen vil repetere flere ganger hvis Bandet ikke detekterer noe bevegelser (fordi det bruker Bandets alarm).</p></not_support_icon_text>
@@ -1058,6 +1086,7 @@
     <string name="ringer_mode_dnd_total_silence">Ikke forstyrr (total stillhet)</string>
     <string name="unknown">Ukjent</string>
     <string name="maximum">Maksimum</string>
+    <string name="all_day">Alle-dager</string>
 
     <string name="action_dismiss">Avvis</string>
     <string name="action_setting">Indtilling</string>
@@ -1104,6 +1133,9 @@
 
     <string name="const_number">%1$,d</string>
     <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
     <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
 

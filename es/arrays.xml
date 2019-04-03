@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="pref_gender">
+        <item>Hombre</item>
+        <item>Mujer</item>
+    </string-array>
+
+    <string-array name="pref_gender_values">
+        <item>MALE</item>
+        <item>FEMALE</item>
+    </string-array>
+
+    <string-array name="pref_wear_location">
+        <item>Muñeca izquierda</item>
+        <item>Muñeca derecha</item>
+    </string-array>
+
+    <string-array name="pref_wear_location_values">
+        <item>LEFT_WRIST</item>
+        <item>RIGHT_WRIST</item>
+    </string-array>
+
+    <string-array name="pref_distance_unit">
+        <item>Métrico (metro)</item>
+        <item>Imperial (milla)</item>
+    </string-array>
+
+    <string-array name="pref_distance_unit_values">
+        <item>METRIC</item>
+        <item>IMPERIAL</item>
+    </string-array>
+
+
     <string-array name="pref_connected_have_notif_counter">
         <item>Número de notificaciones</item>
         <item>Una por cada icono de Band</item>
@@ -278,8 +309,8 @@
     </string-array>
 
     <string-array name="pref_weather_unit">
-        <item>Métrico</item>
-        <item>Imperial</item>
+        <item>Métrico (Celsius ℃)</item>
+        <item>Imperial (Fahrenheit ℉)</item>
     </string-array>
 
     <string-array name="pref_weather_unit_values">
@@ -345,6 +376,7 @@
         <item>Norsk</item>
         <item>Ελληνικά</item>
         <item>Indonesia</item>
+        <item>Română</item>
         <item>中文</item>
     </string-array>
 
@@ -366,6 +398,7 @@
         <item>no</item>
         <item>el</item>
         <item>in</item>
+        <item>ro</item>
         <item>zh</item>
     </string-array>
 

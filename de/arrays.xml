@@ -1,5 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="pref_gender">
+        <item>Männlich</item>
+        <item>Weiblich</item>
+    </string-array>
+
+    <string-array name="pref_gender_values">
+        <item>MALE</item>
+        <item>FEMALE</item>
+    </string-array>
+
+    <string-array name="pref_wear_location">
+        <item>Linkes Handgelenk</item>
+        <item>Rechtes Handgelenk</item>
+    </string-array>
+
+    <string-array name="pref_wear_location_values">
+        <item>LEFT_WRIST</item>
+        <item>RIGHT_WRIST</item>
+    </string-array>
+
+    <string-array name="pref_distance_unit">
+        <item>Metrisch (meter)</item>
+        <item>Imperiale (meile)</item>
+    </string-array>
+
+    <string-array name="pref_distance_unit_values">
+        <item>METRIC</item>
+        <item>IMPERIAL</item>
+    </string-array>
+
+
     <string-array name="pref_connected_have_notif_counter">
         <item>Benachrichtigungsanzahl</item>
         <item>Einmal pro Mi-Band-Emblem</item>
@@ -279,8 +310,8 @@
     </string-array>
 
     <string-array name="pref_weather_unit">
-        <item>Metrisch</item>
-        <item>Imperiale</item>
+        <item>Metrisch (Celsius ℃)</item>
+        <item>Imperiale (Fahrenheit ℉)</item>
     </string-array>
 
     <string-array name="pref_weather_unit_values">
@@ -346,6 +377,7 @@
         <item>Norsk</item>
         <item>Ελληνικά</item>
         <item>Indonesia</item>
+        <item>Română</item>
         <item>中文</item>
     </string-array>
 
@@ -367,6 +399,7 @@
         <item>no</item>
         <item>el</item>
         <item>in</item>
+        <item>ro</item>
         <item>zh</item>
     </string-array>
 

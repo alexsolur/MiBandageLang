@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="pref_gender">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <string-array name="pref_gender_values">
+        <item>MALE</item>
+        <item>FEMALE</item>
+    </string-array>
+
+    <string-array name="pref_wear_location">
+        <item>左手</item>
+        <item>右手</item>
+    </string-array>
+
+    <string-array name="pref_wear_location_values">
+        <item>LEFT_WRIST</item>
+        <item>RIGHT_WRIST</item>
+    </string-array>
+
+    <string-array name="pref_distance_unit">
+        <item>公制 (meter)</item>
+        <item>英制 (mile)</item>
+    </string-array>
+
+    <string-array name="pref_distance_unit_values">
+        <item>METRIC</item>
+        <item>IMPERIAL</item>
+    </string-array>
+
     <string-array name="pref_connected_have_notif_counter">
         <item>所有通知</item>
         <item>Once per Band icon</item>
@@ -278,8 +308,8 @@
     </string-array>
 
     <string-array name="pref_weather_unit">
-        <item>公制</item>
-        <item>英制</item>
+        <item>公制 (摄氏度℃)</item>
+        <item>英制 (华氏度℉)</item>
     </string-array>
 
     <string-array name="pref_weather_unit_values">
@@ -346,6 +376,7 @@
         <item>Norsk</item>
         <item>Ελληνικά</item>
         <item>Indonesia</item>
+        <item>Română</item>
     </string-array>
 
     <string-array name="pref_language_values">
@@ -366,6 +397,7 @@
         <item>fr</item>
         <item>no</item>
         <item>el</item>
+        <item>ro</item>
         <item>in</item>
     </string-array>
 

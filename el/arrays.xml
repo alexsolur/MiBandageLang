@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="pref_gender">
+        <item>Ψευδώνυμο</item>
+        <item>Γυναίκα</item>
+    </string-array>
+
+    <string-array name="pref_gender_values">
+        <item>MALE</item>
+        <item>FEMALE</item>
+    </string-array>
+
+    <string-array name="pref_wear_location">
+        <item>Αριστερός καρπός</item>
+        <item>Δεξής καρπός</item>
+    </string-array>
+
+    <string-array name="pref_wear_location_values">
+        <item>LEFT_WRIST</item>
+        <item>RIGHT_WRIST</item>
+    </string-array>
+
+    <string-array name="pref_distance_unit">
+        <item>Μετρικός (μετρητής)</item>
+        <item>Imperial (μίλι)</item>
+    </string-array>
+
+    <string-array name="pref_distance_unit_values">
+        <item>METRIC</item>
+        <item>IMPERIAL</item>
+    </string-array>
+
+
     <string-array name="pref_connected_have_notif_counter">
         <item>Αριθμός ειδοποιήσεων</item>
         <item>Μία φορά ανά εικονίδιο του Band</item>
@@ -278,8 +309,8 @@
     </string-array>
 
     <string-array name="pref_weather_unit">
-        <item>Μετρικός</item>
-        <item>Imperial</item>
+        <item>Μετρικός (Κελσίου ℃)</item>
+        <item>Imperial (Φαρενάιτ ℉)</item>
     </string-array>
 
     <string-array name="pref_weather_unit_values">
@@ -345,6 +376,7 @@
         <item>Français</item>
         <item>Norsk</item>
         <item>Indonesia</item>
+        <item>Română</item>
         <item>中文</item>
     </string-array>
 
@@ -366,6 +398,7 @@
         <item>fr</item>
         <item>no</item>
         <item>in</item>
+        <item>ro</item>
         <item>zh</item>
     </string-array>
 

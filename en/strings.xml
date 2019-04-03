@@ -43,7 +43,8 @@
     <!-- Bandages screen -->
     <string name="mi_band_tracker_title">Steps, distance, calories, goal, pulse</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
-    <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Battery level, last charging time, estimated remaining time</string>
     <string name="mi_band_state_connected_disconnected_last_time">RSSI, last connection and disconnection time</string>
@@ -62,6 +63,61 @@
     <string name="mi_band_state_bonded">Paired device</string>
     <string name="mi_band_state_not_bonded">Not paired device</string>
 
+    <!-- Mi Band setting -->
+    <string name="mi_band_setting_title">%1$s settings</string>
+
+    <string name="mi_band_setting_menu_profile">Profile</string>
+    <string name="mi_band_setting_menu_setting">Setting</string>
+    <string name="mi_band_setting_menu_text">Text</string>
+
+    <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage requires the installation of the Mi Fit app on the same phone. At first you have to pair Band in Mi Fit app, then you can use Mi Bandage</string>
+    <string name="mi_band_setting_auth_standalone">Standalone</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+
+    <string name="mi_band_setting_nickname">Nickname</string>
+    <string name="mi_band_setting_gender">Gender</string>
+    <string name="mi_band_setting_birthday">Date of birth</string>
+    <string name="mi_band_setting_height">Height</string>
+    <string name="mi_band_setting_weight">Weight</string>
+    <string name="mi_band_setting_wear_location">Band location</string>
+
+    <string name="mi_band_setting_distance_unit">Distance unit</string>
+
+    <string name="mi_band_setting_standalone_setting">Standalone settings</string>
+    <string name="mi_band_setting_idle_alert">Idle alert</string>
+    <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
+    <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
+
+    <string name="mi_band_setting_discoverable">Discoverable</string>
+
+    <string name="pref_text_conversion_summary">Convert text message characters</string>
+    <string name="pref_cat_text_conversion">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_text_conversion_title">Transliteration</string>
+    <string name="pref_text_conversion_summary_on">Not recognisable characters conversion, turn off if the Band supports your language or you have installed custom font firmware</string>
+    <string name="pref_text_conversion_excluded_title">Excluded characters</string>
+    <string name="pref_text_emoticon_title">Emoji conversion</string>
+    <string name="pref_text_emoticon_summary_on">Convert emoji to emoticon</string>
+    <string name="pref_text_uppercase_title">Uppercase conversion</string>
+    <string name="pref_text_uppercase_summary_on">Convert lowercase to uppercase</string>
+    <string name="pref_text_length">Text length, depends on the font used (for example Chinese or Cyrillic characters)</string>
+    <string name="pref_text_length_summary_on">%1$,d characters</string>
+
+    <string name="pref_text_conversion_description_title">Description</string>
+    <string name="pref_text_conversion_description_summary"><![CDATA[
+        <p>If your Band shows the incoming caller name currently, then you do not need to do the following steps just turn off <i>Incoming call alerts</i> on Mi Fit.</p>
+        <p>If you do not use <i>Incoming call alerts</i> and the phone language is not English:
+        <br/>1. Set your phone language to English.
+        <br/>2. Open Mi Fit app, wait until the font firmware update done. If firmware update doesn\'t start, try reboot your phone.
+        <br/>3. Open the <i>Profile/Mi Band/Incoming call</i> menu.
+        <br/>4. Turn on: <i>Turn on incoming call alerts</i>.
+        <br/>5. Turn on: <i>Show contact information</i>.
+        <br/>6. Check if you can Band shows caller name by calling your phone.
+        <br/>7. Turn off : <i>Turn on incoming call alerts</i> (<i>Show contact information</i> stays on).
+        <br/>8. Set phone language back to your language.</p>]]>
+    </string>
     <!-- Battery -->
     <string name="battery_details">Battery usage</string>
 
@@ -151,32 +207,6 @@
     <string name="pref_call_missed_text_prefix_title">Text prefix: %1$s</string>
     <string name="pref_call_missed_text_prefix_summary">If more than one app also uses the icon to differentiate notifications from each other</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Text prefix</string>
-
-    <string name="pref_text_conversion">Text display</string>
-    <string name="pref_text_conversion_summary">Convert text message characters</string>
-    <string name="pref_cat_text_conversion">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_text_conversion_title">Transliteration</string>
-    <string name="pref_text_conversion_summary_on">Not recognisable characters conversion, turn off if the Band supports your language or you have installed custom font firmware</string>
-    <string name="pref_text_emoticon_title">Emoji conversion</string>
-    <string name="pref_text_emoticon_summary_on">Convert emoji to emoticon</string>
-    <string name="pref_text_uppercase_title">Uppercase conversion</string>
-    <string name="pref_text_uppercase_summary_on">Convert lowercase to uppercase</string>
-    <string name="pref_text_length">Text length, depends on the font used (for example Chinese or Cyrillic characters)</string>
-    <string name="pref_text_length_summary_on">%1$,d characters</string>
-
-    <string name="pref_text_conversion_description_title">Description</string>
-    <string name="pref_text_conversion_description_summary"><![CDATA[
-        <p>If your Band shows the incoming caller name currently, then you do not need to do the following steps just turn off <i>Incoming call alerts</i> on Mi Fit.</p>
-        <p>If you do not use <i>Incoming call alerts</i> and the phone language is not English:
-        <br/>1. Set your phone language to English.
-        <br/>2. Open Mi Fit app, wait until the font firmware update done. If firmware update doesn\'t start, try reboot your phone.
-        <br/>3. Open the <i>Profile/Mi Band/Incoming call</i> menu.
-        <br/>4. Turn on: <i>Turn on incoming call alerts</i>.
-        <br/>5. Turn on: <i>Show contact information</i>.
-        <br/>6. Check if you can Band shows caller name by calling your phone.
-        <br/>7. Turn off : <i>Turn on incoming call alerts</i> (<i>Show contact information</i> stays on).
-        <br/>8. Set phone language back to your language.</p>]]>
-    </string>
 
     <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_mi_band_lift_wrist">Lift wrist to view info</string>
@@ -291,8 +321,7 @@
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
-    <p>Mi Bandage requires the installation of the official Mi Fit app on the same phone. At first you have to pair Band in Mi Fit app, then you can use Mi Bandage.</p>
-    <p>If you use more applications to control Band, they interfere with each other so temporarily turn off those.</p>
+    <p>If you use more applications sto control Band, they interfere with each other so temporarily turn off those.</p>
     <p>If Band is not found, then you can set the MAC address manually when you discover (MAC address is found: Mi Fit/Profil/Band).</p>
     <p><b>If you have a connection problem:</b>
     <br>- Check the <i>Settings/Diagnostics</i> settings
@@ -659,7 +688,6 @@
 
     <string name="pulse_chart_expandable_title">Notification is expandable</string>
     <string name="pulse_interval_title">Repeat interval of pulse monitoring</string>
-    <string name="pulse_all_day">All-day</string>
     <string name="pulse_time_set_next">Timing of next monitoring</string>
 
     <string name="pulse_details">Pulse details</string>
@@ -697,7 +725,7 @@
     <string name="alarm_mi_band_on_bluetooth_disabled_text">Lost monitoring %1$s signal is enabled</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm time: %1$s</string>
 
-    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>Band signal</u></b>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Band signal</u></b>
         <p>When specified period of time expires, Band send signals if not connected to the phone.</p>
         <not_support_icon_text><p>App uses alarm function of Mi Fit to alert (overwrite 10. setting).</p></not_support_icon_text>
         <not_support_icon_text><p>The alarm will be repeated several times if the Band do not detect any movement (because it uses the Band alarm).</p></p></not_support_icon_text>
@@ -1058,6 +1086,7 @@
     <string name="ringer_mode_dnd_total_silence">Do not disturb (total silence)</string>
     <string name="unknown">Unknown</string>
     <string name="maximum">Maximum</string>
+    <string name="all_day">All-day</string>
 
     <string name="action_dismiss">Dismiss</string>
     <string name="action_setting">Setting</string>
@@ -1104,6 +1133,9 @@
 
     <string name="const_number">%1$,d</string>
     <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
     <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
 
@@ -1142,5 +1174,13 @@
         <item quantity="many">%d files moved</item>
         <item quantity="other">%d files moved</item>
     </plurals>
+
+    <!-- Admob-->
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-6357233635516043/7418277414</string>
+
+    <string name="problem.lvl" translatable="false">problem.lvl</string>
+    <string name="s_837" translatable="false">8</string>
+    <string name="s_482" translatable="false">8</string>
+    <string name="s_1333" translatable="false">6</string>
 
 </resources>

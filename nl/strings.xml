@@ -43,7 +43,8 @@
     <!-- Bandages screen -->
     <string name="mi_band_tracker_title">Stappen, afstand, calorieën, doel, hartslag</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
-    <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Batterij niveau, vorige laadtijd, geschatte resterende tijd</string>
     <string name="mi_band_state_connected_disconnected_last_time">RSSI, vorige verbonden  en niet verbonden tijd</string>
@@ -61,6 +62,61 @@
     <string name="mi_band_state_disconnected">Niet verbonden</string>
     <string name="mi_band_state_bonded">Gekoppeld Apparaat</string>
     <string name="mi_band_state_not_bonded">Niet gekoppeld Apparaat</string>
+
+    <!-- Mi Band setting -->
+    <string name="mi_band_setting_title">%1$s settings</string>
+
+    <string name="mi_band_setting_menu_profile">Profiel</string>
+    <string name="mi_band_setting_menu_setting">Instellingen</string>
+    <string name="mi_band_setting_menu_text">Tekst</string>
+
+    <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage vereist de installatie van de officiële Mi Fit-app op dezelfde telefoon. Koppel de Band eerst in de Mi Fit-app, hierna kun je Mi Bandage gebruiken</string>
+    <string name="mi_band_setting_auth_standalone">Standalone</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+
+    <string name="mi_band_setting_nickname">Bijnaam</string>
+    <string name="mi_band_setting_gender">Geslacht</string>
+    <string name="mi_band_setting_birthday">Geboortedatum</string>
+    <string name="mi_band_setting_height">Lengte</string>
+    <string name="mi_band_setting_weight">Gewicht</string>
+    <string name="mi_band_setting_wear_location">Band locatie</string>
+
+    <string name="mi_band_setting_distance_unit">Stel afstandseenheden in</string>
+
+    <string name="mi_band_setting_standalone_setting">Standalone settings</string>
+    <string name="mi_band_setting_idle_alert">Inactiviteitsmeldingen</string>
+    <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
+    <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
+    <string name="mi_band_setting_discoverable">Discoverable</string>
+
+    <string name="pref_text_conversion_summary">Converteer tekstberichttekens</string>
+    <string name="pref_cat_text_conversion">%1$s signaal</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_text_conversion_title">Conversiedoel</string>
+    <string name="pref_text_conversion_summary_on">Niet herkende tekensconversie, schakel uit indien de Band uw taal ondersteunt of dat u een aangepaste lettertype firmware hebt geïnstalleerd</string>
+    <string name="pref_text_conversion_excluded_title">Personaggi esclusi</string>
+    <string name="pref_text_emoticon_title">Emoji conversie</string>
+    <string name="pref_text_emoticon_summary_on">Converteer emoji naar emoticon</string>
+    <string name="pref_text_uppercase_title">Hoofdletter conversie</string>
+    <string name="pref_text_uppercase_summary_on">Converteer kleine letters naar Hoofdletters</string>
+    <string name="pref_text_length">De tekstlengte is afhankelijk van het gebruikte lettertype (bijvoorbeeld Chinees of Cyrillische karakters)</string>
+    <string name="pref_text_length_summary_on">%1$,d karakters</string>
+
+    <string name="pref_text_conversion_description_title">Omschrijving</string>
+    <string name="pref_text_conversion_description_summary"><![CDATA[
+        <p>Als uw Band momenteel de naam van de inkomende beller weergeeft, dan hoeft u niet de volgende stappen te doen maar schakel <i>Inkomende oproepwaarschuwingen</i> uit op Mi Fit.</p>
+        <p>Als u <i>Meldingen Binnenkomende oproepen</i> niet gebruikt en de telefoontaal geen Engels is:
+        <br/>1. Stel uw telefoontaal in op Engels.
+        <br/>2. Open de Mi Fit-app en wacht tot de fontfirmware-update is voltooid. Als de firmware update niet start, probeer dan je telefoon opnieuw op te starten.
+        <br/>3. Open het <i>Profiel/Mi Band/Inkomende oproep</i> menu.
+        <br/>4. Inschakelen: <i>Meldingen voor inkomende oproepen inschakelen</i>.
+        <br/>5. Inschakelen: <i>Contactgegevens weergeven</i>.
+        <br/>6. Controleer of de Band de naam kan weergeven door uw telefoon te bellen.
+        <br/>7. Uitschakelen: <i>Inkomende oproepmeldingen inschakelen</i> (<i>Contactinformatie weergeven</i> blijft ingeschakeld on).
+        <br/>8. Stel de telefoontaal weer in op uw taal.</p>]]>
+    </string>
 
     <!-- Battery -->
     <string name="battery_details">Energie verbruik</string>
@@ -151,32 +207,6 @@
     <string name="pref_call_missed_text_prefix_title">Text prefix: %1$s</string>
     <string name="pref_call_missed_text_prefix_summary">Als meer dan één app ook het meldinggspictogram gebruikt om meldingen van elkaar te onderscheiden</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Tekst voorvoegsel</string>
-
-    <string name="pref_text_conversion">Tekst scherm</string>
-    <string name="pref_text_conversion_summary">Converteer tekstberichttekens</string>
-    <string name="pref_cat_text_conversion">%1$s signaal</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_text_conversion_title">Conversiedoel</string>
-    <string name="pref_text_conversion_summary_on">Niet herkende tekensconversie, schakel uit indien de Band uw taal ondersteunt of dat u een aangepaste lettertype firmware hebt geïnstalleerd</string>
-    <string name="pref_text_emoticon_title">Emoji conversie</string>
-    <string name="pref_text_emoticon_summary_on">Converteer emoji naar emoticon</string>
-    <string name="pref_text_uppercase_title">Hoofdletter conversie</string>
-    <string name="pref_text_uppercase_summary_on">Converteer kleine letters naar Hoofdletters</string>
-    <string name="pref_text_length">De tekstlengte is afhankelijk van het gebruikte lettertype (bijvoorbeeld Chinees of Cyrillische karakters)</string>
-    <string name="pref_text_length_summary_on">%1$,d karakters</string>
-
-    <string name="pref_text_conversion_description_title">Omschrijving</string>
-    <string name="pref_text_conversion_description_summary"><![CDATA[
-        <p>Als uw Band momenteel de naam van de inkomende beller weergeeft, dan hoeft u niet de volgende stappen te doen maar schakel <i>Inkomende oproepwaarschuwingen</i> uit op Mi Fit.</p>
-        <p>Als u <i>Meldingen Binnenkomende oproepen</i> niet gebruikt en de telefoontaal geen Engels is:
-        <br/>1. Stel uw telefoontaal in op Engels.
-        <br/>2. Open de Mi Fit-app en wacht tot de fontfirmware-update is voltooid. Als de firmware update niet start, probeer dan je telefoon opnieuw op te starten.
-        <br/>3. Open het <i>Profiel/Mi Band/Inkomende oproep</i> menu.
-        <br/>4. Inschakelen: <i>Meldingen voor inkomende oproepen inschakelen</i>.
-        <br/>5. Inschakelen: <i>Contactgegevens weergeven</i>.
-        <br/>6. Controleer of de Band de naam kan weergeven door uw telefoon te bellen.
-        <br/>7. Uitschakelen: <i>Inkomende oproepmeldingen inschakelen</i> (<i>Contactinformatie weergeven</i> blijft ingeschakeld on).
-        <br/>8. Stel de telefoontaal weer in op uw taal.</p>]]>
-    </string>
 
     <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_mi_band_lift_wrist">Beweeg de pols omhoog om info te bekijken</string>
@@ -291,7 +321,6 @@
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
-    <p>Mi Bandage vereist de installatie van de officiële Mi Fit-app op dezelfde telefoon. Koppel de Band eerst in de Mi Fit-app, hierna kun je Mi Bandage gebruiken.</p>
     <p>Indien je meerdere apps gebruikt voor je Band, schakel ze tijdelijk uit om storingen te voorkomen.</p>
     <p>Als Band niet wordt gevonden kunt u het MAC-adres handmatig instellen, kijk hier (MAC adres in: Mi Fit/Profiel/Band).</p>
     <p><b>Bij verbindingsproblemen:</b>
@@ -659,7 +688,6 @@
 
     <string name="pulse_chart_expandable_title">Melding is uitbreidbaar</string>
     <string name="pulse_interval_title">Herhaal interval van hartslagmetingen</string>
-    <string name="pulse_all_day">Hele-dag</string>
     <string name="pulse_time_set_next">Timing de volgende meeting</string>
 
     <string name="pulse_details">Hartslag details</string>
@@ -697,7 +725,7 @@
     <string name="alarm_mi_band_on_bluetooth_disabled_text">Controle kwijt %1$s signaal is ingeschakeld</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm tijd: %1$s</string>
 
-    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>Band signaal</u></b>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Band signaal</u></b>
         <p>Wanneer opgegeven periode verstreken is, verzendt Band signalen als deze niet met de telefoon is gekoppeld.</p>
         <not_support_icon_text><p>App maakt gebruik van alarmfunctie van Mi Fit om te waarschuwen (overschrijven instelling 10).</p></not_support_icon_text>
         <not_support_icon_text><p>Het alarm zal verschillende keren worden herhaald als de Band geen beweging detecteert (omdat deze het Bandalarm gebruikt).</p></p></not_support_icon_text>
@@ -1058,6 +1086,7 @@
     <string name="ringer_mode_dnd_total_silence">Niet Storen (totale stilte)</string>
     <string name="unknown">Onbekend</string>
     <string name="maximum">Maximaal</string>
+    <string name="all_day">Hele-dag</string>
 
     <string name="action_dismiss">Afwijzen</string>
     <string name="action_setting">Instellingen</string>
@@ -1104,6 +1133,9 @@
 
     <string name="const_number">%1$,d</string>
     <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
     <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
 

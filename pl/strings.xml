@@ -43,7 +43,8 @@
     <!-- Bandages screen -->
     <string name="mi_band_tracker_title">Kroki, dystans, kalorie, cel, tętno</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
-    <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Poziom baterii, czas ostatniego ładowania, szacowany pozostały czas</string>
     <string name="mi_band_state_connected_disconnected_last_time">RSSI, czas ostatniego podłączenia i rozłączenia</string>
@@ -61,6 +62,61 @@
     <string name="mi_band_state_disconnected">Rozłączony</string>
     <string name="mi_band_state_bonded">Urządzenie sparowane</string>
     <string name="mi_band_state_not_bonded">Urządzenie niesparowane</string>
+
+    <!-- Mi Band setting -->
+    <string name="mi_band_setting_title">%1$s settings</string>
+
+    <string name="mi_band_setting_menu_profile">Profil</string>
+    <string name="mi_band_setting_menu_setting">Ustawienia</string>
+    <string name="mi_band_setting_menu_text">Tekst</string>
+
+    <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage wymaga instalacji oficjalnej aplikacji Mi Fit na tym samym telefonie. Najpierw musisz sparować Opaskę w aplikacji Mi Fit, potem możesz użyć Mi Bandage</string>
+    <string name="mi_band_setting_auth_standalone">Standalone</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+
+    <string name="mi_band_setting_nickname">Pseudonim</string>
+    <string name="mi_band_setting_gender">Płeć</string>
+    <string name="mi_band_setting_birthday">Data urodzenia</string>
+    <string name="mi_band_setting_height">Wzrost</string>
+    <string name="mi_band_setting_weight">Waga</string>
+    <string name="mi_band_setting_wear_location">Lokalizacja opaski</string>
+
+    <string name="mi_band_setting_distance_unit">Ustaw jednostki odległości</string>
+
+    <string name="mi_band_setting_standalone_setting">Standalone settings</string>
+    <string name="mi_band_setting_idle_alert">Alerty bezczynności</string>
+    <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
+    <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
+    <string name="mi_band_setting_discoverable">Discoverable</string>
+
+    <string name="pref_text_conversion_summary">Konwertowanie znaków wiadomości tekstowych</string>
+    <string name="pref_cat_text_conversion">Sygnał na %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_text_conversion_title">Transliteracja</string>
+    <string name="pref_text_conversion_summary_on">Nierozpoznawalna konwersja znaków, wyłącz, jeśli Opaska obsługuje Twój język lub zainstalowałeś własne oprogramowanie Firmware</string>
+    <string name="pref_text_conversion_excluded_title">Wykluczone postacie</string>
+    <string name="pref_text_emoticon_title">Konwersja Emoji</string>
+    <string name="pref_text_emoticon_summary_on">Konwertuj Emoji do emotikony</string>
+    <string name="pref_text_uppercase_title">Konwersja do dużych liter</string>
+    <string name="pref_text_uppercase_summary_on">Konwertuj małe litery do dużych</string>
+    <string name="pref_text_length">Długość tekstu, zależy od użytej czcionki (na przykład znaki chińskie lub cyrylica)</string>
+    <string name="pref_text_length_summary_on">%1$,d znaków</string>
+
+    <string name="pref_text_conversion_description_title">Opis</string>
+    <string name="pref_text_conversion_description_summary"><![CDATA[
+        <p>Jeśli Twoja Opaska pokazuje obecnie nazwę dzwoniącego, nie musisz wykonywać następujących czynności, po prostu wyłącz<i>Powiadomienia o połączeniach przychodzących</i> w Mi Fit.</p>
+        <p>Jeśli nie używasz <i>Powiadomień o połączeniach przychodzących</i> i językiem telefonu nie jest angielski:
+        <br/>1. Ustaw język telefonu na angielski.
+        <br/>2. Otwórz aplikację Mi Fit, poczekaj na zakończenie aktualizacji oprogramowania czcionek. Jeśli aktualizacja oprogramowania się nie rozpocznie, spróbuj ponownie uruchomić telefon.
+        <br/>3. Otwórz menu<i>Profile/Mi Band/Incoming call</i>.
+        <br/>4. Włącz: <i>Turn on incoming call alerts</i>.
+        <br/>5. Włącz: <i>Show contact information</i>.
+        <br/>6. Sprawdź czy możesz wyświetlać nazwę na Opasce, dzwoniąc na telefon.
+        <br/>7. Wyłacz: <i>Turn on incoming call alerts</i> (<i>Show contact information</i> pozostaje włączone).
+        <br/>8. Ustaw język telefonu z powrotem na swój język.</p>]]>
+    </string>
 
     <!-- Battery -->
     <string name="battery_details">Użycie baterii</string>
@@ -151,32 +207,6 @@
     <string name="pref_call_missed_text_prefix_title">Prefiks tekstu: %1$s</string>
     <string name="pref_call_missed_text_prefix_summary">Jeśli więcej niż jedna aplikacja używa tej ikony, aby odróżnić od siebie powiadomienia</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Prefix tekstu</string>
-
-    <string name="pref_text_conversion">Wyświetlanie tekstu</string>
-    <string name="pref_text_conversion_summary">Konwertowanie znaków wiadomości tekstowych</string>
-    <string name="pref_cat_text_conversion">Sygnał na %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_text_conversion_title">Transliteracja</string>
-    <string name="pref_text_conversion_summary_on">Nierozpoznawalna konwersja znaków, wyłącz, jeśli Opaska obsługuje Twój język lub zainstalowałeś własne oprogramowanie Firmware</string>
-    <string name="pref_text_emoticon_title">Konwersja Emoji</string>
-    <string name="pref_text_emoticon_summary_on">Konwertuj Emoji do emotikony</string>
-    <string name="pref_text_uppercase_title">Konwersja do dużych liter</string>
-    <string name="pref_text_uppercase_summary_on">Konwertuj małe litery do dużych</string>
-    <string name="pref_text_length">Długość tekstu, zależy od użytej czcionki (na przykład znaki chińskie lub cyrylica)</string>
-    <string name="pref_text_length_summary_on">%1$,d znaków</string>
-
-    <string name="pref_text_conversion_description_title">Opis</string>
-    <string name="pref_text_conversion_description_summary"><![CDATA[
-        <p>Jeśli Twoja Opaska pokazuje obecnie nazwę dzwoniącego, nie musisz wykonywać następujących czynności, po prostu wyłącz<i>Powiadomienia o połączeniach przychodzących</i> w Mi Fit.</p>
-        <p>Jeśli nie używasz <i>Powiadomień o połączeniach przychodzących</i> i językiem telefonu nie jest angielski:
-        <br/>1. Ustaw język telefonu na angielski.
-        <br/>2. Otwórz aplikację Mi Fit, poczekaj na zakończenie aktualizacji oprogramowania czcionek. Jeśli aktualizacja oprogramowania się nie rozpocznie, spróbuj ponownie uruchomić telefon.
-        <br/>3. Otwórz menu<i>Profile/Mi Band/Incoming call</i>.
-        <br/>4. Włącz: <i>Turn on incoming call alerts</i>.
-        <br/>5. Włącz: <i>Show contact information</i>.
-        <br/>6. Sprawdź czy możesz wyświetlać nazwę na Opasce, dzwoniąc na telefon.
-        <br/>7. Wyłacz: <i>Turn on incoming call alerts</i> (<i>Show contact information</i> pozostaje włączone).
-        <br/>8. Ustaw język telefonu z powrotem na swój język.</p>]]>
-    </string>
 
     <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_mi_band_lift_wrist">Podnieś nadgarstek, aby wyświetlić informacje</string>
@@ -291,7 +321,6 @@
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
-    <p>Mi Bandage wymaga instalacji oficjalnej aplikacji Mi Fit na tym samym telefonie. Najpierw musisz sparować Opaskę w aplikacji Mi Fit, potem możesz użyć Mi Bandage.</p>
     <p>Jeśli używasz więcej aplikacji do sterowania Opaską, przeszkadzają sobie nawzajem, więc tymczasowo je wyłącz.</p>
     <p>Jeśli Opaska nie zostanie znaleziona, możesz ustawić adres MAC ręcznie po wykryciu (adres MAC znajdziesz tu: Mi Fit/Profil/Opaska).</p>
     <p><b>Jeśli masz problem z połączeniem:</b>
@@ -659,7 +688,6 @@
 
     <string name="pulse_chart_expandable_title">Powiadomienie można rozszerzyć</string>
     <string name="pulse_interval_title">Powtórz interwał monitorowania tętna</string>
-    <string name="pulse_all_day">Cały dzień</string>
     <string name="pulse_time_set_next">Czas następnego monitorowania</string>
 
     <string name="pulse_details">Szczegóły tętna</string>
@@ -697,7 +725,7 @@
     <string name="alarm_mi_band_on_bluetooth_disabled_text">Sygnał zgubienia %1$s został włączony</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Czas alarmu: %1$s</string>
 
-    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>Sygnał Opaski</u></b>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Sygnał Opaski</u></b>
         <p>Po upływie określonego czasu Opaska wysyła sygnały, jeśli nie jest podłączona do telefonu.</p>
         <not_support_icon_text><p>Aplikacja wykorzystuje funkcję alarmu Mi Fit do ostrzeżenia (nadpisanie ustawionego alarmu numer 10).</p></not_support_icon_text>
         <not_support_icon_text><p>Alarm zostanie powtórzony kilka razy, jeśli Opaska nie wykryje żadnego ruchu (ponieważ używa alarmu Opaski).</p></not_support_icon_text>
@@ -1058,6 +1086,7 @@
     <string name="ringer_mode_dnd_total_silence">Nie przeszkadzać (całkowita cisza)</string>
     <string name="unknown">Nieznany</string>
     <string name="maximum">Maksymalny</string>
+    <string name="all_day">Cały dzień</string>
 
     <string name="action_dismiss">Odwołaj</string>
     <string name="action_setting">Ustawienia</string>
@@ -1104,6 +1133,9 @@
 
     <string name="const_number">%1$,d</string>
     <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
     <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
 

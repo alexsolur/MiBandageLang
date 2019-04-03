@@ -43,7 +43,8 @@
     <!-- Bandages screen -->
     <string name="mi_band_tracker_title">Pași, distanță, calorii, țintă, puls</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
-    <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Nivelul bateriei, data ultimei încărcări, estimarea timpului rămas</string>
     <string name="mi_band_state_connected_disconnected_last_time">RSSI, data ultimei conectări și deconectări</string>
@@ -61,6 +62,61 @@
     <string name="mi_band_state_disconnected">Deconectat</string>
     <string name="mi_band_state_bonded">Dispozitiv împerecheat</string>
     <string name="mi_band_state_not_bonded">Dispozitiv neîmperecheat</string>
+
+    <!-- Mi Band setting -->
+    <string name="mi_band_setting_title">Setări %1$s</string>
+
+    <string name="mi_band_setting_menu_profile">Profil</string>
+    <string name="mi_band_setting_menu_setting">Setări</string>
+    <string name="mi_band_setting_menu_text">Text</string>
+
+    <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage necesită instalarea aplicației oficiale Mi Fit pe același telefon. La început trebuie să împerechezi brățara în aplicația Mi Fit, apoi poți folosi Mi Bandage</string>
+    <string name="mi_band_setting_auth_standalone">Standalone</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+
+    <string name="mi_band_setting_nickname">Poreclă</string>
+    <string name="mi_band_setting_gender">Sex</string>
+    <string name="mi_band_setting_birthday">Data naşterii</string>
+    <string name="mi_band_setting_height">Înălţime</string>
+    <string name="mi_band_setting_weight">Greutate</string>
+    <string name="mi_band_setting_wear_location">Locaţia benzii</string>
+
+    <string name="mi_band_setting_distance_unit">Setați unitățile pentru distanță</string>
+
+    <string name="mi_band_setting_standalone_setting">Standalone settings</string>
+    <string name="mi_band_setting_idle_alert">Alerte de inactivitate</string>
+    <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
+    <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
+    <string name="mi_band_setting_discoverable">Discoverable</string>
+
+    <string name="pref_text_conversion_summary">Convertește caracterele mesajelor text</string>
+    <string name="pref_cat_text_conversion">Semnal %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_text_conversion_title">Transliterare</string>
+    <string name="pref_text_conversion_summary_on">Conversia de caractere nu poate fi recunoscută, dezactivează dacă brățara acceptă limba ta sau dacă ai instalat firmware-ul fonturilor personalizate</string>
+    <string name="pref_text_conversion_excluded_title">Excluded characters</string>
+    <string name="pref_text_emoticon_title">Conversie emoji</string>
+    <string name="pref_text_emoticon_summary_on">Convertește emoji în emoticon</string>
+    <string name="pref_text_uppercase_title">Conversie majuscule</string>
+    <string name="pref_text_uppercase_summary_on">Convertește litere mici în litere mari</string>
+    <string name="pref_text_length">Lungimea textului, depinde de fontul folosit (de exemplu caractere chinezești sau chirilice)</string>
+    <string name="pref_text_length_summary_on">Caractere %1$,d</string>
+
+    <string name="pref_text_conversion_description_title">Descriere</string>
+    <string name="pref_text_conversion_description_summary"><![CDATA[
+        <p>Dacă brățara ta afișează în prezent numele apelantului primit, atunci nu este necesar să faci următorii pași, doar să dezactivezi <i>Alerte apeluri primite</i> pe Mi Fit.</p>
+        <p>Dacă nu utilizezi <i>Alerte apeluri primite</i> iar limba telefonului nu este engleza:
+        <br/>1. Setează limba telefonului engleză.
+        <br/>2. Deschide aplicația Mi Fit, așteaptă până când actualizarea firmware-ului pentru fonturi este terminată. Dacă actualizarea firmware-ului nu pornește, încearcă să repornești telefonul.
+        <br/>3. Deschide meniul <i>Profil/ Mi Band/ Apel primit </i>.
+        <br/>4. Activează: <i>Activează alertele pentru apel primit </i>.
+        <br/>5. Activează: <i>Afișare informațiile de contact </i>.
+        <br/>6. Verifică dacă brățara poate afișa numele sunând telefonul tău.
+        <br/>7. Dezactivare: <i>Activează alertele pentru apel primit</i> (<i>Afișare informațiile de contact</i> rămâne activat).
+        <br/>8. Setează telefonul înapoi în limba ta.</p>]]>
+    </string>
 
     <!-- Battery -->
     <string name="battery_details">Utilizarea bateriei</string>
@@ -151,33 +207,6 @@
     <string name="pref_call_missed_text_prefix_title">Prefix text: %1$s</string>
     <string name="pref_call_missed_text_prefix_summary">Dacă mai multe aplicații utilizează pictograma pentru a diferenția notificările între ele</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Prefix text</string>
-
-    <string name="pref_text_conversion">Afișare text</string>
-    <string name="pref_text_conversion_summary">Convertește caracterele mesajelor text</string>
-    <string name="pref_cat_text_conversion">Semnal %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_text_conversion_title">Transliterare</string>
-    <string name="pref_text_conversion_summary_on">Conversia de caractere nu poate fi recunoscută, dezactivează dacă brățara acceptă limba ta sau dacă ai instalat firmware-ul fonturilor personalizate</string>
-    <string name="pref_text_conversion_excluded_title">Excluded characters</string>
-    <string name="pref_text_emoticon_title">Conversie emoji</string>
-    <string name="pref_text_emoticon_summary_on">Convertește emoji în emoticon</string>
-    <string name="pref_text_uppercase_title">Conversie majuscule</string>
-    <string name="pref_text_uppercase_summary_on">Convertește litere mici în litere mari</string>
-    <string name="pref_text_length">Lungimea textului, depinde de fontul folosit (de exemplu caractere chinezești sau chirilice)</string>
-    <string name="pref_text_length_summary_on">Caractere %1$,d</string>
-
-    <string name="pref_text_conversion_description_title">Descriere</string>
-    <string name="pref_text_conversion_description_summary"><![CDATA[
-        <p>Dacă brățara ta afișează în prezent numele apelantului primit, atunci nu este necesar să faci următorii pași, doar să dezactivezi <i>Alerte apeluri primite</i> pe Mi Fit.</p>
-        <p>Dacă nu utilizezi <i>Alerte apeluri primite</i> iar limba telefonului nu este engleza:
-        <br/>1. Setează limba telefonului engleză.
-        <br/>2. Deschide aplicația Mi Fit, așteaptă până când actualizarea firmware-ului pentru fonturi este terminată. Dacă actualizarea firmware-ului nu pornește, încearcă să repornești telefonul.
-        <br/>3. Deschide meniul <i>Profil/ Mi Band/ Apel primit </i>.
-        <br/>4. Activează: <i>Activează alertele pentru apel primit </i>.
-        <br/>5. Activează: <i>Afișare informațiile de contact </i>.
-        <br/>6. Verifică dacă brățara poate afișa numele sunând telefonul tău.
-        <br/>7. Dezactivare: <i>Activează alertele pentru apel primit</i> (<i>Afișare informațiile de contact</i> rămâne activat).
-        <br/>8. Setează telefonul înapoi în limba ta.</p>]]>
-    </string>
 
     <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_mi_band_lift_wrist">Ridică încheietura mâinii pentru a vedea informații</string>
@@ -292,7 +321,6 @@
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
-    <p>Mi Bandage necesită instalarea aplicației oficiale Mi Fit pe același telefon. La început trebuie să împerechezi brățara în aplicația Mi Fit, apoi poți folosi Mi Bandage.</p>
     <p>Dacă folosești mai multe aplicații pentru a controla brățara, ele interferează una cu cealaltă, așa că oprește-le pentru moment.</p>
     <p>Dacă brățara nu este găsită, poți seta manual adresa MAC atunci când o detectezi(adresa MAC se alfă în: Mi Fit / Profil / Band).</p>
     <p><b>Dacă ai probleme de conectare:</b>
@@ -660,7 +688,6 @@
 
     <string name="pulse_chart_expandable_title">Notificarea este extensibilă</string>
     <string name="pulse_interval_title">Repetaea intervalului de monitorizare a pulsului</string>
-    <string name="pulse_all_day">Toată ziua</string>
     <string name="pulse_time_set_next">Timpul următoarei monitorizări</string>
 
     <string name="pulse_details">Detalii puls</string>
@@ -1003,7 +1030,7 @@
 
     <string name="feedback_google_play_title">Evaluează această aplicație</string>
     <string name="feedback_request_feature_title">Solicitare de funcții, raport de erori</string>
-    <string name="feedback_request_feature_summary">Prelucrare automată a poștei electronice, este posibil să nu primești un răspuns</string>
+    <string name="feedback_request_feature_summary">Prelucrare automată a poștei electronice, este posibil să nu primiți un răspuns</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Politica de confidentialitate</string>
@@ -1055,10 +1082,11 @@
     <string name="ringer_mode_vibrate">Vibrații</string>
     <string name="ringer_mode_silent">Mut</string>
     <string name="ringer_mode_dnd_priority_only">Nu deranja (numai pentru prioritate)</string>
-    <string name="ringer_mode_dnd_alarms_only">Nu deranja (numai alarmele)</string>
+    <string name="ringer_mode_dnd_alarms_only">Nu deranjați (numai alarmele)</string>
     <string name="ringer_mode_dnd_total_silence">Nu deranja (liniște totală)</string>
     <string name="unknown">Necunoscut</string>
     <string name="maximum">Maxim</string>
+    <string name="all_day">Toată ziua</string>
 
     <string name="action_dismiss">Înlătură</string>
     <string name="action_setting">Setări</string>
@@ -1105,6 +1133,9 @@
 
     <string name="const_number">%1$,d</string>
     <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
     <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
 

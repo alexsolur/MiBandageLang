@@ -43,7 +43,8 @@
     <!-- Bandages screen -->
     <string name="mi_band_tracker_title">步数, 距离, 卡路里, 目标, 心率</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
-    <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">电池电量, 最后充电时间, 预计剩余时间</string>
     <string name="mi_band_state_connected_disconnected_last_time">RSSI, 上次连接和断开时间</string>
@@ -61,6 +62,61 @@
     <string name="mi_band_state_disconnected">断开连接</string>
     <string name="mi_band_state_bonded">配对设备</string>
     <string name="mi_band_state_not_bonded">未配对设备</string>
+
+    <!-- Mi Band setting -->
+    <string name="mi_band_setting_title">%1$s 设置</string>
+
+    <string name="mi_band_setting_menu_profile">个人信息</string>
+    <string name="mi_band_setting_menu_setting">设置</string>
+    <string name="mi_band_setting_menu_text">文字</string>
+
+    <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage需要在同一个手机上安装小米运动（Mi Fit）应用. 首先你需要在Mi Fit里连接手环,然后才能使用Mi Bandage</string>
+    <string name="mi_band_setting_auth_standalone">Standalone</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+
+    <string name="mi_band_setting_nickname">昵称</string>
+    <string name="mi_band_setting_gender">性别</string>
+    <string name="mi_band_setting_birthday">出生年月</string>
+    <string name="mi_band_setting_height">身高</string>
+    <string name="mi_band_setting_weight">体重</string>
+    <string name="mi_band_setting_wear_location">佩戴方式</string>
+
+    <string name="mi_band_setting_distance_unit">设置长度单位</string>
+
+    <string name="mi_band_setting_standalone_setting">Standalone settings</string>
+    <string name="mi_band_setting_idle_alert">开启久坐提醒</string>
+    <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
+    <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
+    <string name="mi_band_setting_discoverable">Discoverable</string>
+
+    <string name="pref_text_conversion_summary">手环文字图标设置</string>
+    <string name="pref_cat_text_conversion">%1$s 信号</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_text_conversion_title">字符转换</string>
+    <string name="pref_text_conversion_summary_on">不可识别的字符转换,如果手环支持你使用的语言或刷入了自定义字体固件，请关掉这个开关</string>
+    <string name="pref_text_conversion_excluded_title">排除的字符</string>
+    <string name="pref_text_emoticon_title">Emoji 转换</string>
+    <string name="pref_text_emoticon_summary_on">将 Emoji 转化为文字</string>
+    <string name="pref_text_uppercase_title">大写字母转换</string>
+    <string name="pref_text_uppercase_summary_on">将小写字母转化为大写字母</string>
+    <string name="pref_text_length">文本长度，与字体有关 (比如中文和西里尔字母)</string>
+    <string name="pref_text_length_summary_on">%1$,d 字</string>
+
+    <string name="pref_text_conversion_description_title">说明</string>
+    <string name="pref_text_conversion_description_summary"><![CDATA[
+        <p>如果你的手环目前显示来电名称正常, 则无需进行以下步骤 <i>只需在 Mi Fit 中关闭来电提示</i>.</p>
+        <p>如果你不使用 <i>来电提示</i> 且手机语言不是英文:
+        <br/>1. 设置你的手机语言为英文.
+        <br/>2. 打开Mi Fit应用,等待字体固件更新完成.如果无法更新,尝试重启手机.
+        <br/>3. 打开 <i>Profile/Mi Band/Incoming call</i> 菜单.
+        <br/>4. 开启: <i>Turn on incoming call alerts</i>.
+        <br/>5. 开启: <i>Show contact information</i>.
+        <br/>6. 检查手环是否可以正常显示来电显示.
+        <br/>7. 关闭: <i>Turn on incoming call alerts</i> (<i>Show contact information</i> 保持开启).
+        <br/>8. 将手机语言设置回你的语言.</p>]]>
+    </string>
 
     <!-- Battery -->
     <string name="battery_details">电池使用情况</string>
@@ -152,39 +208,13 @@
     <string name="pref_call_missed_text_prefix_summary">如果多个应用也使用该图标来区分彼此的通知</string>
     <string name="pref_call_missed_text_prefix_dialog_title">文字前缀</string>
 
-    <string name="pref_text_conversion">文字图标</string>
-    <string name="pref_text_conversion_summary">手环文字图标设置</string>
-    <string name="pref_cat_text_conversion">%1$s 信号</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_text_conversion_title">字符转换</string>
-    <string name="pref_text_conversion_summary_on">不可识别的字符转换,如果手环支持你使用的语言或刷入了自定义字体固件，请关掉这个开关</string>
-    <string name="pref_text_emoticon_title">Emoji 转换</string>
-    <string name="pref_text_emoticon_summary_on">将 Emoji 转化为文字</string>
-    <string name="pref_text_uppercase_title">大写字母转换</string>
-    <string name="pref_text_uppercase_summary_on">将小写字母转化为大写字母</string>
-    <string name="pref_text_length">文本长度，与字体有关 (比如中文和西里尔字母)</string>
-    <string name="pref_text_length_summary_on">%1$,d 字</string>
-
-    <string name="pref_text_conversion_description_title">说明</string>
-    <string name="pref_text_conversion_description_summary"><![CDATA[
-        <p>如果你的手环目前显示来电名称正常, 则无需进行以下步骤 <i>只需在 Mi Fit 中关闭来电提示</i>.</p>
-        <p>如果你不使用 <i>来电提示</i> 且手机语言不是英文:
-        <br/>1. 设置你的手机语言为英文.
-        <br/>2. 打开Mi Fit应用,等待字体固件更新完成.如果无法更新,尝试重启手机.
-        <br/>3. 打开 <i>Profile/Mi Band/Incoming call</i> 菜单.
-        <br/>4. 开启: <i>Turn on incoming call alerts</i>.
-        <br/>5. 开启: <i>Show contact information</i>.
-        <br/>6. 检查手环是否可以正常显示来电显示.
-        <br/>7. 关闭: <i>Turn on incoming call alerts</i> (<i>Show contact information</i> 保持开启).
-        <br/>8. 将手机语言设置回你的语言.</p>]]>
-    </string>
-
     <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_mi_band_lift_wrist">抬腕亮屏</string>
     <string name="pref_mi_band_lift_wrist_title">举起手腕时点亮屏幕</string>
     <string name="pref_mi_band_lift_wrist_dnd_title">勿扰模式</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">开 (在指定时间内不显示信息，需连接蓝牙设置)</string>
 
-    <string name="pref_battery_phone">手机电量</string>
+    <string name="pref_battery_phone">Phone battery</string>
     <string name="pref_battery_phone_summary">低电量或充满电时提示</string>
     <string name="pref_cat_battery_phone_low">低电量</string>
     <string name="pref_battery_phone_low_title">电量不足通知</string>
@@ -291,7 +321,6 @@
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
-    <p>Mi Bandage需要在同一个手机上安装小米运动（Mi Fit）应用. 首先你需要在Mi Fit里连接手环,然后才能使用Mi Bandage.</p>
     <p>如果使用多个手环应用,它们会互相干扰，请关闭其他应用.</p>
     <p>如果未找到手环,你可以手动设置 MAC 地址(MAC 地址可在 Mi Fit/我/手环 中查看).</p>
     <p><b>如果你有连接问题:</b>
@@ -659,7 +688,6 @@
 
     <string name="pulse_chart_expandable_title">通知可展开</string>
     <string name="pulse_interval_title">心率监测的重复间隔</string>
-    <string name="pulse_all_day">全天</string>
     <string name="pulse_time_set_next">下次监测的时间</string>
 
     <string name="pulse_details">心率细节</string>
@@ -697,7 +725,7 @@
     <string name="alarm_mi_band_on_bluetooth_disabled_text">%1$s 启用信号丢失监测</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">闹钟时间: %1$s</string>
 
-    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm> <b><u>手环信号</u></b>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>手环信号</u></b>
         <p>当指定的时间段结束时，如果没有连接到手机，则会发送信号.</p>
         <not_support_icon_text><p>应用使用 Mi Fit 的闹铃功能来进行提醒(覆盖10.设置).</p></not_support_icon_text>
         <not_support_icon_text><p>如果手环未监测到任何动作闹钟会重复多次(因为它使用手环的闹钟).</p></not_support_icon_text>
@@ -1058,6 +1086,7 @@
     <string name="ringer_mode_dnd_total_silence">请勿打扰（完全静音）</string>
     <string name="unknown">未知</string>
     <string name="maximum">最大值</string>
+    <string name="all_day">全天</string>
 
     <string name="action_dismiss">关闭</string>
     <string name="action_setting">设置</string>
@@ -1104,6 +1133,9 @@
 
     <string name="const_number">%1$,d</string>
     <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
     <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
 

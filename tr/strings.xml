@@ -43,7 +43,8 @@
     <!-- Bandages screen -->
     <string name="mi_band_tracker_title">Adım, mesafe, kalori, hedef, nabız</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
-    <string name="mi_band_tracker_distance_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Şarj , şarj zamanı, tahmini kalan</string>
     <string name="mi_band_state_connected_disconnected_last_time">Sinyal gücü, son bağlanma ve kopma anları</string>
@@ -61,6 +62,61 @@
     <string name="mi_band_state_disconnected">Bağlı değil</string>
     <string name="mi_band_state_bonded">Eşleştirilmiş cihaz</string>
     <string name="mi_band_state_not_bonded">Eşleştirilmemiş cihaz</string>
+
+    <!-- Mi Band setting -->
+    <string name="mi_band_setting_title">%1$s ayarları</string>
+
+    <string name="mi_band_setting_menu_profile">Profil</string>
+    <string name="mi_band_setting_menu_setting">Ayarlar</string>
+    <string name="mi_band_setting_menu_text">Metin</string>
+
+    <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandaj, resmi Mi Fit uygulamasının aynı cihaza kurulmasını gerektirir. İlk önce Band\'yi Mi Fit uygulamasında eşleştirmeniz gerekir, o zaman Mi Bandaj\'ı kullanabilirsiniz</string>
+    <string name="mi_band_setting_auth_standalone">Standalone</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work</string>
+
+    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+
+    <string name="mi_band_setting_nickname">Kullanıcı adı</string>
+    <string name="mi_band_setting_gender">Cinsiyet</string>
+    <string name="mi_band_setting_birthday">Doğum tarihi</string>
+    <string name="mi_band_setting_height">Boy</string>
+    <string name="mi_band_setting_weight">Kilo</string>
+    <string name="mi_band_setting_wear_location">Bileklik konumu</string>
+
+    <string name="mi_band_setting_distance_unit">Mesafe birimlerini ayarlayın</string>
+
+    <string name="mi_band_setting_standalone_setting">Standalone settings</string>
+    <string name="mi_band_setting_idle_alert">Oturma uyarıları</string>
+    <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
+    <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
+    <string name="mi_band_setting_discoverable">Discoverable</string>
+
+    <string name="pref_text_conversion_summary">Bileklik altyazılı simge ayarları</string>
+    <string name="pref_cat_text_conversion">%1$s sinyali</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_text_conversion_title">Karakterleri dönüştür</string>
+    <string name="pref_text_conversion_summary_on">Tanımlanamayan karakterleri döünüştürür, turn off if the Band supports your language or you have installed custom font firmware</string>
+    <string name="pref_text_conversion_excluded_title">Caracteres excluídos</string>
+    <string name="pref_text_emoticon_title">Emoji dönüştürme</string>
+    <string name="pref_text_emoticon_summary_on">Emoji yi emoticon a dönüştür</string>
+    <string name="pref_text_uppercase_title">Büyük harfe dönüştürme</string>
+    <string name="pref_text_uppercase_summary_on">Küçük harfleri büyük harfe dönüştür</string>
+    <string name="pref_text_length">Metin uzunluğu, kullanılan yazı tipine bağlıdır (örneğin, Çince veya Kril karatkterleri)</string>
+    <string name="pref_text_length_summary_on">%1$,d karakter</string>
+
+    <string name="pref_text_conversion_description_title">Açıklama</string>
+    <string name="pref_text_conversion_description_summary"><![CDATA[
+        <p>Eğer arayan bilgisi bilekliğinizde doğru görüntüleniyorsa aşağıdaki adımları yapmanıza gerek yoktur.</p>
+        <p>Ancak bizim bu özelliğimizi kullanmayıp Mi Fit uygulaması ile arayan kimliğini görmek isterseniz ve telefon diliniz ingilizce değilse:
+        <br/>1. Telefon dilini İngilizce yapın.
+        <br/>2. Mi Fit uygulamasını açın, firmware güncellemesi yapıncaya kadar bekleyin. Eğer firmware güncelleme yapmaz ise telefonu kapatıp açın.
+        <br/>3. <i>Gelen arama</i> ayarlarını açın.
+        <br/>4. <i>Gelen arama uyarılarını aç</i>. açık hale getirin.
+        <br/>5. <i>Arayan bilgisini göster</i>. açık hale getirin.
+        <br/>6. Bir kere deneme yapın arayan bilgisini bileklikte görün.
+        <br/>7. <i>Gelen arama uyarılarını aç</i> kapalı hale getirin (<i>Arayan bilgisini göster</i> açık kalır).
+        <br/>8. Telefon dilini kendi diliniz aypın.</p>]]>
+    </string>
 
     <!-- Battery -->
     <string name="battery_details">Şarj detayları</string>
@@ -151,32 +207,6 @@
     <string name="pref_call_missed_text_prefix_title">Bildirim metni öneki: %1$s</string>
     <string name="pref_call_missed_text_prefix_summary">Birden fazla uygulama aynı anda bildirim gönderirse ayırt etmek için kullanılır</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Bildirim metni öneki</string>
-
-    <string name="pref_text_conversion">Altyazılı simge</string>
-    <string name="pref_text_conversion_summary">Bileklik altyazılı simge ayarları</string>
-    <string name="pref_cat_text_conversion">%1$s sinyali</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_text_conversion_title">Karakterleri dönüştür</string>
-    <string name="pref_text_conversion_summary_on">Tanımlanamayan karakterleri döünüştürür, turn off if the Band supports your language or you have installed custom font firmware</string>
-    <string name="pref_text_emoticon_title">Emoji dönüştürme</string>
-    <string name="pref_text_emoticon_summary_on">Emoji yi emoticon a dönüştür</string>
-    <string name="pref_text_uppercase_title">Büyük harfe dönüştürme</string>
-    <string name="pref_text_uppercase_summary_on">Küçük harfleri büyük harfe dönüştür</string>
-    <string name="pref_text_length">Metin uzunluğu, kullanılan yazı tipine bağlıdır (örneğin, Çince veya Kril karatkterleri)</string>
-    <string name="pref_text_length_summary_on">%1$,d karakter</string>
-
-    <string name="pref_text_conversion_description_title">Açıklama</string>
-    <string name="pref_text_conversion_description_summary"><![CDATA[
-        <p>Eğer arayan bilgisi bilekliğinizde doğru görüntüleniyorsa aşağıdaki adımları yapmanıza gerek yoktur.</p>
-        <p>Ancak bizim bu özelliğimizi kullanmayıp Mi Fit uygulaması ile arayan kimliğini görmek isterseniz ve telefon diliniz ingilizce değilse:
-        <br/>1. Telefon dilini İngilizce yapın.
-        <br/>2. Mi Fit uygulamasını açın, firmware güncellemesi yapıncaya kadar bekleyin. Eğer firmware güncelleme yapmaz ise telefonu kapatıp açın.
-        <br/>3. <i>Gelen arama</i> ayarlarını açın.
-        <br/>4. <i>Gelen arama uyarılarını aç</i>. açık hale getirin.
-        <br/>5. <i>Arayan bilgisini göster</i>. açık hale getirin.
-        <br/>6. Bir kere deneme yapın arayan bilgisini bileklikte görün.
-        <br/>7. <i>Gelen arama uyarılarını aç</i> kapalı hale getirin (<i>Arayan bilgisini göster</i> açık kalır).
-        <br/>8. Telefon dilini kendi diliniz aypın.</p>]]>
-    </string>
 
     <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_mi_band_lift_wrist">Bilgiliyi görüntülemek için bileğinizi kaldırın</string>
@@ -291,7 +321,6 @@
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
-    <p>Mi Bandaj, resmi Mi Fit uygulamasının aynı cihaza kurulmasını gerektirir. İlk önce Band\'yi Mi Fit uygulamasında eşleştirmeniz gerekir, o zaman Mi Bandaj\'ı kullanabilirsiniz.</p>
     <p>Band\'yi kontrol etmek için daha fazla uygulama kullanıyorsanız, birbirlerine müdahale ederek geçici olarak bunları kapatın.</p>
     <p>Band bulunamazsa, ayrıntılar menüsünde MAC adresini manuel olarak ayarlayabilirsiniz (MAC adresi bulundu: Mi Fit/Profil/Band).</p>
     <p><b>Eğer bağlantı sorunu varsa:</b>
@@ -660,7 +689,6 @@
 
     <string name="pulse_chart_expandable_title">Genişletilebilir bildirim</string>
     <string name="pulse_interval_title">Belirlenen zaman aralığında ve özelliklerle nabız ölçümü otomnatik tekrarlanır</string>
-    <string name="pulse_all_day">Tüm gün</string>
     <string name="pulse_time_set_next">Bir sonraki nabız izleme</string>
 
     <string name="pulse_details">Nabız detayları</string>
@@ -1058,6 +1086,7 @@
     <string name="ringer_mode_dnd_total_silence">Rahatsısz etme (tamamen sessiz)</string>
     <string name="unknown">Bilinmeyen</string>
     <string name="maximum">Maksimum</string>
+    <string name="all_day">Tüm gün</string>
 
     <string name="action_dismiss">Vazgeç</string>
     <string name="action_setting">Ayarlar</string>
@@ -1104,6 +1133,9 @@
 
     <string name="const_number">%1$,d</string>
     <string name="const_unit_meter">m</string>
+    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_mile">mi</string>
+    <string name="const_unit_kilogram">kg</string>
     <string name="const_unit_kcal">kcal</string>
     <string name="const_unit_dbm">dBm</string>
 
