@@ -70,12 +70,12 @@
     <string name="mi_band_setting_menu_setting">设置</string>
     <string name="mi_band_setting_menu_text">文字</string>
 
-    <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage需要在同一个手机上安装小米运动（Mi Fit）应用. 首先你需要在Mi Fit里连接手环,然后才能使用Mi Bandage</string>
-    <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work</string>
+    <string name="mi_band_setting_auth_mi_fit">与 Mi Fit 协作</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage 需要在同一个手机上安装小米运动（Mi Fit）应用. 首先你需要在Mi Fit里连接手环,然后才能使用 Mi Bandage</string>
+    <string name="mi_band_setting_auth_standalone">独立模式</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Bandage 工作不再需要 Mi Fit</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_press_band_button">按下%1$s进行配对</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
 
     <string name="mi_band_setting_nickname">昵称</string>
     <string name="mi_band_setting_gender">性别</string>
@@ -86,11 +86,11 @@
 
     <string name="mi_band_setting_distance_unit">设置长度单位</string>
 
-    <string name="mi_band_setting_standalone_setting">Standalone settings</string>
+    <string name="mi_band_setting_standalone_setting">独立模式设定</string>
     <string name="mi_band_setting_idle_alert">开启久坐提醒</string>
-    <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
-    <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
-    <string name="mi_band_setting_discoverable">Discoverable</string>
+    <string name="mi_band_setting_idle_alert_time">空闲时间</string>
+    <string name="mi_band_setting_idle_alert_dnd">在我休息时不要提醒我</string>
+    <string name="mi_band_setting_discoverable">可被发现的</string>
 
     <string name="pref_text_conversion_summary">手环文字图标设置</string>
     <string name="pref_cat_text_conversion">%1$s 信号</string> <!-- Mi Band 2, Amazfit Bip ... -->
@@ -214,7 +214,7 @@
     <string name="pref_mi_band_lift_wrist_dnd_title">勿扰模式</string>
     <string name="pref_mi_band_lift_wrist_dnd_summary_on">开 (在指定时间内不显示信息，需连接蓝牙设置)</string>
 
-    <string name="pref_battery_phone">Phone battery</string>
+    <string name="pref_battery_phone">手机电量</string>
     <string name="pref_battery_phone_summary">低电量或充满电时提示</string>
     <string name="pref_cat_battery_phone_low">低电量</string>
     <string name="pref_battery_phone_low_title">电量不足通知</string>
