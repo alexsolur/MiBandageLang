@@ -70,12 +70,12 @@
     <string name="mi_band_setting_menu_setting">Настройки</string>
     <string name="mi_band_setting_menu_text">Текст</string>
 
-    <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
+    <string name="mi_band_setting_auth_mi_fit">Взаимодействие с Mi Fit</string>
     <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage требуется приложение Mi Fit на устройстве. Сначала подключите браслет к Mi Fit, потом пользуйтесь Mi Bandage</string>
-    <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work</string>
+    <string name="mi_band_setting_auth_standalone">Автономно</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit не нужен для работы Mi Bandage</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_press_band_button">Нажмите кнопку %1$s для соединения</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
 
     <string name="mi_band_setting_nickname">Имя</string>
     <string name="mi_band_setting_gender">Пол</string>
@@ -84,23 +84,23 @@
     <string name="mi_band_setting_weight">Вес</string>
     <string name="mi_band_setting_wear_location">Расположение браслета</string>
 
-    <string name="mi_band_setting_distance_unit">Distance unit</string>
+    <string name="mi_band_setting_distance_unit">Мера измерения расстояния</string>
 
-    <string name="mi_band_setting_standalone_setting">Standalone settings</string>
+    <string name="mi_band_setting_standalone_setting">Автономные настройки</string>
     <string name="mi_band_setting_idle_alert">Оповещение о бездействии</string>
-    <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
-    <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
-    <string name="mi_band_setting_discoverable">Discoverable</string>
+    <string name="mi_band_setting_idle_alert_time">Время бездействия</string>
+    <string name="mi_band_setting_idle_alert_dnd">Не уведомлять во время отдыха</string>
+    <string name="mi_band_setting_discoverable">Обнаружение</string>
 
     <string name="pref_text_conversion_summary">Настройки текстовых иконок браслета</string>
     <string name="pref_cat_text_conversion">Символы %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Преобразование символов</string>
     <string name="pref_text_conversion_summary_on">Преобразование нераспознанных символов, отключите, если браслет поддерживает ваш язык или вы установили необходимые шрифты.</string>
-    <string name="pref_text_conversion_excluded_title">Excluded characters</string>
+    <string name="pref_text_conversion_excluded_title">Исключаемые символы</string>
     <string name="pref_text_emoticon_title">Преобразование Emoji</string>
-    <string name="pref_text_emoticon_summary_on">Преобразование emoji to emoticon</string>
+    <string name="pref_text_emoticon_summary_on">Преобразование emoji в emoticon</string>
     <string name="pref_text_uppercase_title">Преобразование в прописные</string>
-    <string name="pref_text_uppercase_summary_on">Преобразование верхнего регистра в нижний</string>
+    <string name="pref_text_uppercase_summary_on">Преобразование нижнего регистра в верхний</string>
     <string name="pref_text_length">Длина текста, в зависимости от шрифта</string>
     <string name="pref_text_length_summary_on">%1$,d символов</string>
 
@@ -1135,7 +1135,7 @@
     <string name="const_unit_meter">м</string>
     <string name="const_unit_centimeter">см</string>
     <string name="const_unit_mile">mi</string>
-    <string name="const_unit_kilogram">kg</string>
+    <string name="const_unit_kilogram">кг</string>
     <string name="const_unit_kcal">ккал</string>
     <string name="const_unit_dbm">дБм</string>
 
