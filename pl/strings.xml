@@ -68,7 +68,7 @@
 
     <string name="mi_band_setting_menu_profile">Profil</string>
     <string name="mi_band_setting_menu_setting">Ustawienia</string>
-    <string name="mi_band_setting_menu_text">Tekst</string>
+    <string name="mi_band_setting_menu_text">Tekst/Dzwonienie</string>
 
     <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
     <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage wymaga instalacji oficjalnej aplikacji Mi Fit na tym samym telefonie. Najpierw musisz sparować Opaskę w aplikacji Mi Fit, potem możesz użyć Mi Bandage</string>
@@ -87,11 +87,14 @@
     <string name="mi_band_setting_distance_unit">Ustaw jednostki odległości</string>
 
     <string name="mi_band_setting_standalone_setting">Standalone settings</string>
+    <string name="mi_band_setting_time_24h">24-godzinny format czasu</string>
+    <string name="mi_band_setting_date">Wyświetl datę na ekranie</string>
     <string name="mi_band_setting_idle_alert">Alerty bezczynności</string>
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
     <string name="mi_band_setting_discoverable">Discoverable</string>
 
+    <string name="pref_text_title">Wyświetlanie tekstu</string>
     <string name="pref_text_conversion_summary">Konwertowanie znaków wiadomości tekstowych</string>
     <string name="pref_cat_text_conversion">Sygnał na %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Transliteracja</string>
@@ -189,7 +192,7 @@
     <string name="pref_call_summary">Ustawienia sygnału na %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Połączenie przychodzące</string>
     <string name="pref_call_title">Sygnał połączenia przychodzącego</string>
-    <string name="pref_call_summary_on">Właczone (nie zapomnij wyłączyć alertów połączeń przychodzących w aplikacji Mi Fit)</string>
+    <string name="pref_call_summary_on">Nie zapomnij wyłączyć alertów połączeń przychodzących w aplikacji Mi Fit</string>
     <string name="pref_call_text_title">Wyświetlaj Identyfikator dzwoniącego</string>
     <string name="pref_call_text_summary_on"><![CDATA[Włączone (więcej informacji: <i>Ustawienia/Wyświetlanie tekstu)</i>]]></string>
 
@@ -204,7 +207,7 @@
 
     <string name="pref_call_missed_alert_title">Sygnał na %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
-    <string name="pref_call_missed_text_prefix_title">Prefiks tekstu: %1$s</string>
+    <string name="pref_call_missed_text_prefix_title">Prefiks tekstu</string>
     <string name="pref_call_missed_text_prefix_summary">Jeśli więcej niż jedna aplikacja używa tej ikony, aby odróżnić od siebie powiadomienia</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Prefix tekstu</string>
 
@@ -319,6 +322,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>Jeśli używasz więcej aplikacji do sterowania Opaską, przeszkadzają sobie nawzajem, więc tymczasowo je wyłącz.</p>

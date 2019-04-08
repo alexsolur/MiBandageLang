@@ -68,7 +68,7 @@
 
     <string name="mi_band_setting_menu_profile">Hồ sơ</string>
     <string name="mi_band_setting_menu_setting">Cài đặt</string>
-    <string name="mi_band_setting_menu_text">Văn bản</string>
+    <string name="mi_band_setting_menu_text">Văn bản/Gọi điện</string>
 
     <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
     <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage requires the installation of the Mi Fit app on the same phone. At first you have to pair Band in Mi Fit app, then you can use Mi Bandage</string>
@@ -87,11 +87,14 @@
     <string name="mi_band_setting_distance_unit">Thiết lập đơn vị khoảng cáchst</string>
 
     <string name="mi_band_setting_standalone_setting">Standalone settings</string>
+    <string name="mi_band_setting_time_24h">Định dạng thời gian 24 giờ</string>
+    <string name="mi_band_setting_date">Ngày hiển thị trên màn hình</string>
     <string name="mi_band_setting_idle_alert">Cảnh bao ngồi lâu</string>
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
     <string name="mi_band_setting_discoverable">Discoverable</string>
 
+    <string name="pref_text_title">Cài đặt biểu tượng văn bản</string>
     <string name="pref_text_conversion_summary">Cài đặt biểu tượng văn bản Band</string>
     <string name="pref_cat_text_conversion">Tín hiệu %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Chuyển đổi ký tự có dấu</string>
@@ -188,7 +191,7 @@
     <string name="pref_call_summary">Tín hiệu %1$s settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Cuộc gọi đến</string>
     <string name="pref_call_title">Tín hiệu cuộc gọi đến</string>
-    <string name="pref_call_summary_on">Bật (nhớ tắt thông báo cuộc gọi đến trong ứng dụng Mi Fit)</string>
+    <string name="pref_call_summary_on">Nhớ tắt thông báo cuộc gọi đến trong ứng dụng Mi Fit</string>
     <string name="pref_call_text_title">Hiện tên/ số người gọi</string>
     <string name="pref_call_text_summary_on"><![CDATA[On (more information: <i>Settings/Text icons settings)</i>]]></string>
 
@@ -203,7 +206,7 @@
 
     <string name="pref_call_missed_alert_title">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
-    <string name="pref_call_missed_text_prefix_title">Tiền tố văn bản: %1$s</string>
+    <string name="pref_call_missed_text_prefix_title">Tiền tố văn bản</string>
     <string name="pref_call_missed_text_prefix_summary">Nếu có nhiều hơn một ứng dụng cũng sử dụng các biểu tượng để phân biệt thông báo từ với nhau</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Tiền tố văn bản</string>
 
@@ -318,6 +321,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>If you use more applications to control Band, they interfere with each other so temporarily turn off those.</p>

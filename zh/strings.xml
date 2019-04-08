@@ -68,7 +68,7 @@
 
     <string name="mi_band_setting_menu_profile">个人信息</string>
     <string name="mi_band_setting_menu_setting">设置</string>
-    <string name="mi_band_setting_menu_text">文字</string>
+    <string name="mi_band_setting_menu_text">文字/呼叫</string>
 
     <string name="mi_band_setting_auth_mi_fit">与 Mi Fit 协作</string>
     <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage 需要在同一个手机上安装小米运动（Mi Fit）应用. 首先你需要在Mi Fit里连接手环,然后才能使用 Mi Bandage</string>
@@ -87,11 +87,14 @@
     <string name="mi_band_setting_distance_unit">设置长度单位</string>
 
     <string name="mi_band_setting_standalone_setting">独立模式设定</string>
+    <string name="mi_band_setting_time_24h">24小时时间格式</string>
+    <string name="mi_band_setting_date">在屏幕上显示日期</string>
     <string name="mi_band_setting_idle_alert">开启久坐提醒</string>
     <string name="mi_band_setting_idle_alert_time">空闲时间</string>
     <string name="mi_band_setting_idle_alert_dnd">在我休息时不要提醒我</string>
     <string name="mi_band_setting_discoverable">可被发现的</string>
 
+    <string name="pref_text_title">文字图标</string>
     <string name="pref_text_conversion_summary">手环文字图标设置</string>
     <string name="pref_cat_text_conversion">%1$s 信号</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">字符转换</string>
@@ -204,7 +207,7 @@
 
     <string name="pref_call_missed_alert_title">%1$s 信号</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
-    <string name="pref_call_missed_text_prefix_title">前缀: %1$s</string>
+    <string name="pref_call_missed_text_prefix_title">前缀</string>
     <string name="pref_call_missed_text_prefix_summary">如果多个应用也使用该图标来区分彼此的通知</string>
     <string name="pref_call_missed_text_prefix_dialog_title">文字前缀</string>
 
@@ -319,6 +322,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>如果使用多个手环应用,它们会互相干扰，请关闭其他应用.</p>

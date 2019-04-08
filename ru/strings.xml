@@ -68,7 +68,7 @@
 
     <string name="mi_band_setting_menu_profile">Профиль</string>
     <string name="mi_band_setting_menu_setting">Настройки</string>
-    <string name="mi_band_setting_menu_text">Текст</string>
+    <string name="mi_band_setting_menu_text">Текст/Вызов</string>
 
     <string name="mi_band_setting_auth_mi_fit">Взаимодействие с Mi Fit</string>
     <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage требуется приложение Mi Fit на устройстве. Сначала подключите браслет к Mi Fit, потом пользуйтесь Mi Bandage</string>
@@ -87,11 +87,14 @@
     <string name="mi_band_setting_distance_unit">Мера измерения расстояния</string>
 
     <string name="mi_band_setting_standalone_setting">Автономные настройки</string>
+    <string name="mi_band_setting_time_24h">24-hour time format</string>
+    <string name="mi_band_setting_date">Display date on screen</string>
     <string name="mi_band_setting_idle_alert">Оповещение о бездействии</string>
     <string name="mi_band_setting_idle_alert_time">Время бездействия</string>
     <string name="mi_band_setting_idle_alert_dnd">Не уведомлять во время отдыха</string>
     <string name="mi_band_setting_discoverable">Обнаружение</string>
 
+    <string name="pref_text_title">Настройки текста</string>
     <string name="pref_text_conversion_summary">Настройки текстовых иконок браслета</string>
     <string name="pref_cat_text_conversion">Символы %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Преобразование символов</string>
@@ -204,7 +207,7 @@
 
     <string name="pref_call_missed_alert_title">Уведомление %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
-    <string name="pref_call_missed_text_prefix_title">Префикс текста: %1$s</string>
+    <string name="pref_call_missed_text_prefix_title">Префикс текста</string>
     <string name="pref_call_missed_text_prefix_summary">Если несколько приложений используют иконку (чтобы отличить сообщения)</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Префикс текста</string>
 
@@ -319,6 +322,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>Если вы используете несколько приложений для управления браслетом, они могут мешать друг другу, поэтому временно отключите их.</p>

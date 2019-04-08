@@ -68,7 +68,7 @@
 
     <string name="mi_band_setting_menu_profile">Profile</string>
     <string name="mi_band_setting_menu_setting">Setting</string>
-    <string name="mi_band_setting_menu_text">Text</string>
+    <string name="mi_band_setting_menu_text">Text/Call</string>
 
     <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
     <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage requires the installation of the Mi Fit app on the same phone. At first you have to pair Band in Mi Fit app, then you can use Mi Bandage</string>
@@ -87,12 +87,15 @@
     <string name="mi_band_setting_distance_unit">Distance unit</string>
 
     <string name="mi_band_setting_standalone_setting">Standalone settings</string>
+    <string name="mi_band_setting_time_24h">24-hour time format</string>
+    <string name="mi_band_setting_date">Display date on screen</string>
     <string name="mi_band_setting_idle_alert">Idle alert</string>
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
 
     <string name="mi_band_setting_discoverable">Discoverable</string>
 
+    <string name="pref_text_title">Text display</string>
     <string name="pref_text_conversion_summary">Convert text message characters</string>
     <string name="pref_cat_text_conversion">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Transliteration</string>
@@ -189,7 +192,7 @@
     <string name="pref_call_summary">%1$s signal settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Incoming call</string>
     <string name="pref_call_title">Incoming call signal</string>
-    <string name="pref_call_summary_on">On (do not forget to turn off incoming call alerts on Mi Fit app)</string>
+    <string name="pref_call_summary_on">Do not forget to turn off incoming call alerts on Mi Fit app</string>
     <string name="pref_call_text_title">Display caller ID</string>
     <string name="pref_call_text_summary_on"><![CDATA[On (more information: <i>Settings/Text icons settings)</i>]]></string>
 
@@ -204,7 +207,7 @@
 
     <string name="pref_call_missed_alert_title">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
-    <string name="pref_call_missed_text_prefix_title">Text prefix: %1$s</string>
+    <string name="pref_call_missed_text_prefix_title">Text prefix</string>
     <string name="pref_call_missed_text_prefix_summary">If more than one app also uses the icon to differentiate notifications from each other</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Text prefix</string>
 
@@ -319,6 +322,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>If you use more applications sto control Band, they interfere with each other so temporarily turn off those.</p>
@@ -1174,13 +1178,5 @@
         <item quantity="many">%d files moved</item>
         <item quantity="other">%d files moved</item>
     </plurals>
-
-    <!-- Admob-->
-    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-6357233635516043/7418277414</string>
-
-    <string name="problem.lvl" translatable="false">problem.lvl</string>
-    <string name="s_837" translatable="false">8</string>
-    <string name="s_482" translatable="false">8</string>
-    <string name="s_1333" translatable="false">6</string>
 
 </resources>

@@ -68,7 +68,7 @@
 
     <string name="mi_band_setting_menu_profile">Profil</string>
     <string name="mi_band_setting_menu_setting">Nastavení</string>
-    <string name="mi_band_setting_menu_text">Text</string>
+    <string name="mi_band_setting_menu_text">Text/Hovor</string>
 
     <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
     <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage vyžaduje instalaci oficiální aplikace Mi Fit na stejném zařízení. Nejprve musíte spárovat chytrý náramek v aplikaci Mi Fit, poté můžete použít aplikaci Mi Bandage</string>
@@ -87,12 +87,15 @@
     <string name="mi_band_setting_distance_unit">Nastavit jednotky vzdálenosti</string>
 
     <string name="mi_band_setting_standalone_setting">Standalone settings</string>
+    <string name="mi_band_setting_time_24h">24hodinový formát času</string>
+    <string name="mi_band_setting_date">Zobrazení data na obrazovce</string>
     <string name="mi_band_setting_idle_alert">Oznámení o nečinnosti</string>
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
 
     <string name="mi_band_setting_discoverable">Discoverable</string>
 
+    <string name="pref_text_title">Textové ikony</string>
     <string name="pref_text_conversion_summary">Nastavení textové ikony na náramku</string>
     <string name="pref_cat_text_conversion">Oznámení na %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Převod znaků</string>
@@ -190,7 +193,7 @@
     <string name="pref_call_summary">Nastavení oznámení na %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Příchozí hovor</string>
     <string name="pref_call_title">Oznámení příchozího hovoru</string>
-    <string name="pref_call_summary_on">Zapnuto (nezapomeňte vypnout upozornění na příchozí volání v aplikaci Mi Fit)</string>
+    <string name="pref_call_summary_on">Nezapomeňte vypnout upozornění na příchozí volání v aplikaci Mi Fit</string>
     <string name="pref_call_text_title">Zobrazte ID volajícího</string>
     <string name="pref_call_text_summary_on"><![CDATA[Zapnuto (více informací: <i>Nastavení/Nastavení textových ikon)</i>]]></string>
 
@@ -205,7 +208,7 @@
 
     <string name="pref_call_missed_alert_title">Oznámení na %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
-    <string name="pref_call_missed_text_prefix_title">Předpona textu: %1$s</string>
+    <string name="pref_call_missed_text_prefix_title">Předpona textu</string>
     <string name="pref_call_missed_text_prefix_summary">Pokud více než jedna aplikace také používá ikonu (pro odlišení oznámení od sebe navzájem)</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Předpona textu</string>
 
@@ -320,6 +323,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>Používáte-li více aplikací pro ovládání chytrého náramku/hodinek, mohou se navzájem rušit. Z tohoto důvodu je prosím dočasně vypněte.</p>

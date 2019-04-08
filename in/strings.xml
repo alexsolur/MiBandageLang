@@ -68,7 +68,7 @@
 
     <string name="mi_band_setting_menu_profile">Profil</string>
     <string name="mi_band_setting_menu_setting">Atur</string>
-    <string name="mi_band_setting_menu_text">Teks</string>
+    <string name="mi_band_setting_menu_text">Teks/Panggilan</string>
 
     <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
     <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage membutuhkan aplikasi Mi Fit (asli) yang telah terpasang di perangkat yang sama. Pertama tama, mungkin anda perlu untuk menghubungkan Band ke Aplikasi Mi Fit, lalu anda baru bisa memakai Mi Bandage</string>
@@ -87,11 +87,14 @@
     <string name="mi_band_setting_distance_unit">Setel satuan untuk jarak</string>
 
     <string name="mi_band_setting_standalone_setting">Standalone settings</string>
+    <string name="mi_band_setting_time_24h">Format waktu 24 jam</string>
+    <string name="mi_band_setting_date">Tampilkan tanggal di layar</string>
     <string name="mi_band_setting_idle_alert">Peringatan diam</string>
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
     <string name="mi_band_setting_discoverable">Discoverable</string>
 
+    <string name="pref_text_title">Text display</string>
     <string name="pref_text_conversion_summary">Pengaturan ikon teks Band</string>
     <string name="pref_cat_text_conversion">Tanda %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Konversi karakter</string>
@@ -189,7 +192,7 @@
     <string name="pref_call_summary">pengaturan tanda %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Panggilan masuk</string>
     <string name="pref_call_title">Tanda panggilan masuk</string>
-    <string name="pref_call_summary_on">Aktif (jangan lupa mematikan tanda panggilan masuk pada apl Mi Fit)</string>
+    <string name="pref_call_summary_on">Jangan lupa mematikan tanda panggilan masuk pada apl Mi Fit</string>
     <string name="pref_call_text_title">Tampilkan identitas pemanggil</string>
     <string name="pref_call_text_summary_on"><![CDATA[On (informasi lebih lanjut: <i>Pengaturan/Pengaturan ikon teks)</i>]]></string>
 
@@ -204,7 +207,7 @@
 
     <string name="pref_call_missed_alert_title">Tanda %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
-    <string name="pref_call_missed_text_prefix_title">Awalan teks: %1$s</string>
+    <string name="pref_call_missed_text_prefix_title">Awalan teks</string>
     <string name="pref_call_missed_text_prefix_summary">Jika lebih dari satu aplikasi juga menggunakan ikon untuk membedakan pemberitahuan satu sama lain</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Awalan teks</string>
 
@@ -319,6 +322,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>Jika anda menggunakan aplikasi lebih untuk mengontrol Band, mungkin aplikasi-aplikasi tersebut akan saling ganggu, jadi untuk sementara harap mematikan apl-apl tersebut.</p>

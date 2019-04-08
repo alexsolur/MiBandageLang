@@ -68,7 +68,7 @@
 
     <string name="mi_band_setting_menu_profile">Perfil</string>
     <string name="mi_band_setting_menu_setting">Definições</string>
-    <string name="mi_band_setting_menu_text">Texto</string>
+    <string name="mi_band_setting_menu_text">Texto/Chamadas</string>
 
     <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
     <string name="mi_band_setting_auth_mi_fit_hint">A Mi Bandage precisa da Mi Fit instalada para funcionar. Primeiro tem de emparelhar a Band na aplicação Mi Fit e só depois poderá usar a Mi Bandage</string>
@@ -87,11 +87,14 @@
     <string name="mi_band_setting_distance_unit">Definir unidades de distância</string>
 
     <string name="mi_band_setting_standalone_setting">Standalone settings</string>
+    <string name="mi_band_setting_time_24h">Formato de hora de 24 horas</string>
+    <string name="mi_band_setting_date">Mostrar data na tela</string>
     <string name="mi_band_setting_idle_alert">Alertas de inatividade</string>
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
     <string name="mi_band_setting_discoverable">Discoverable</string>
 
+    <string name="pref_text_title">Ícone de texto</string>
     <string name="pref_text_conversion_summary">Definições do ícone de texto da Band</string>
     <string name="pref_cat_text_conversion">Configuração do aviso da %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Conversão de caracteres</string>
@@ -189,7 +192,7 @@
     <string name="pref_call_summary">Aviso da %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Chamada recebida</string>
     <string name="pref_call_title">Notificar chamada recebida</string>
-    <string name="pref_call_summary_on">Ligado (não te esqueças de desligar incoming call alerts na aplicação \'Mi Fit\')</string>
+    <string name="pref_call_summary_on">Não te esqueças de desligar incoming call alerts na aplicação \'Mi Fit\'</string>
     <string name="pref_call_text_title">Mostrar o ID do chamador</string>
     <string name="pref_call_text_summary_on"><![CDATA[Ligado (mais informação em: <i>Definições/Ícone de texto)</i>]]></string>
 
@@ -204,7 +207,7 @@
 
     <string name="pref_call_missed_alert_title">Ícone usado pela %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
-    <string name="pref_call_missed_text_prefix_title">Prefixo do texto: %1$s</string>
+    <string name="pref_call_missed_text_prefix_title">Prefixo do texto</string>
     <string name="pref_call_missed_text_prefix_summary">Se mais do que uma aplicação usar o mesmo ícone para diferenciar as notificações uma da outra, isto vai te ajudar</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Prefixo do texto</string>
 
@@ -319,6 +322,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>Se você usa mais aplicações para controlar a Band, elas vão interferir umas com as outras por isso desative-as.</p>

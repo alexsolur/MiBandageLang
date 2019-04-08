@@ -68,7 +68,7 @@
 
     <string name="mi_band_setting_menu_profile">Profil</string>
     <string name="mi_band_setting_menu_setting">Ayarlar</string>
-    <string name="mi_band_setting_menu_text">Metin</string>
+    <string name="mi_band_setting_menu_text">Metin/Arama</string>
 
     <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
     <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandaj, resmi Mi Fit uygulamasının aynı cihaza kurulmasını gerektirir. İlk önce Band\'yi Mi Fit uygulamasında eşleştirmeniz gerekir, o zaman Mi Bandaj\'ı kullanabilirsiniz</string>
@@ -87,11 +87,14 @@
     <string name="mi_band_setting_distance_unit">Mesafe birimlerini ayarlayın</string>
 
     <string name="mi_band_setting_standalone_setting">Standalone settings</string>
+    <string name="mi_band_setting_time_24h">24 saatlik zaman biçimi</string>
+    <string name="mi_band_setting_date">Tarihi ekranda göster</string>
     <string name="mi_band_setting_idle_alert">Oturma uyarıları</string>
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
     <string name="mi_band_setting_discoverable">Discoverable</string>
 
+    <string name="pref_text_title">Altyazılı simge</string>
     <string name="pref_text_conversion_summary">Bileklik altyazılı simge ayarları</string>
     <string name="pref_cat_text_conversion">%1$s sinyali</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Karakterleri dönüştür</string>
@@ -189,7 +192,7 @@
     <string name="pref_call_summary">Çağrı anında %1$s bildirim ayarları</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Gelen arama</string>
     <string name="pref_call_title">Gelen arama bildirimi</string>
-    <string name="pref_call_summary_on">Açık (Mi Fit uygulamasında gelen çağrı uyarılarını kapatmayı unutmayın, yoksa çift bildirim gelir.)</string>
+    <string name="pref_call_summary_on">Mi Fit uygulamasında gelen çağrı uyarılarını kapatmayı unutmayın, yoksa çift bildirim gelir</string>
     <string name="pref_call_text_title">Arayan bilgisini göster</string>
     <string name="pref_call_text_summary_on"><![CDATA[Açık (Daha fazla bilgi için: <i>Ayarlar/Altyazılı simge ayarlarına bakınız)</i>]]></string>
 
@@ -204,7 +207,7 @@
 
     <string name="pref_call_missed_alert_title">%1$s sinyali</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
-    <string name="pref_call_missed_text_prefix_title">Bildirim metni öneki: %1$s</string>
+    <string name="pref_call_missed_text_prefix_title">Bildirim metni öneki</string>
     <string name="pref_call_missed_text_prefix_summary">Birden fazla uygulama aynı anda bildirim gönderirse ayırt etmek için kullanılır</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Bildirim metni öneki</string>
 
@@ -319,6 +322,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>Band\'yi kontrol etmek için daha fazla uygulama kullanıyorsanız, birbirlerine müdahale ederek geçici olarak bunları kapatın.</p>

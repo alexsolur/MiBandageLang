@@ -68,7 +68,7 @@
 
     <string name="mi_band_setting_menu_profile">Profiel</string>
     <string name="mi_band_setting_menu_setting">Instellingen</string>
-    <string name="mi_band_setting_menu_text">Tekst</string>
+    <string name="mi_band_setting_menu_text">Tekst/Bellen</string>
 
     <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
     <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage vereist de installatie van de officiële Mi Fit-app op dezelfde telefoon. Koppel de Band eerst in de Mi Fit-app, hierna kun je Mi Bandage gebruiken</string>
@@ -87,11 +87,14 @@
     <string name="mi_band_setting_distance_unit">Stel afstandseenheden in</string>
 
     <string name="mi_band_setting_standalone_setting">Standalone settings</string>
+    <string name="mi_band_setting_time_24h">24-uurs tijdnotatie</string>
+    <string name="mi_band_setting_date">Datum weergeven op het scherm</string>
     <string name="mi_band_setting_idle_alert">Inactiviteitsmeldingen</string>
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
     <string name="mi_band_setting_discoverable">Discoverable</string>
 
+    <string name="pref_text_title">Tekst scherm</string>
     <string name="pref_text_conversion_summary">Converteer tekstberichttekens</string>
     <string name="pref_cat_text_conversion">%1$s signaal</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Conversiedoel</string>
@@ -189,7 +192,7 @@
     <string name="pref_call_summary">%1$s signaal instellingen</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Binnenkomend gesprek</string>
     <string name="pref_call_title">Binnenkomend gesprek signaal</string>
-    <string name="pref_call_summary_on">Aan (vergeet niet om waarschuwingen voor inkomende oproepen uit te schakelen op de Mi Fit app)</string>
+    <string name="pref_call_summary_on">Vergeet niet om waarschuwingen voor inkomende oproepen uit te schakelen op de Mi Fit app</string>
     <string name="pref_call_text_title">Toon beller ID</string>
     <string name="pref_call_text_summary_on"><![CDATA[Aan (meer informatie: <i>Settings/Text icons settings)</i>]]></string>
 
@@ -204,7 +207,7 @@
 
     <string name="pref_call_missed_alert_title">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
-    <string name="pref_call_missed_text_prefix_title">Text prefix: %1$s</string>
+    <string name="pref_call_missed_text_prefix_title">Text prefix</string>
     <string name="pref_call_missed_text_prefix_summary">Als meer dan één app ook het meldinggspictogram gebruikt om meldingen van elkaar te onderscheiden</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Tekst voorvoegsel</string>
 
@@ -319,6 +322,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>Indien je meerdere apps gebruikt voor je Band, schakel ze tijdelijk uit om storingen te voorkomen.</p>

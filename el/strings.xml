@@ -68,7 +68,7 @@
 
     <string name="mi_band_setting_menu_profile">Προφίλ</string>
     <string name="mi_band_setting_menu_setting">Ρυθμίσεις</string>
-    <string name="mi_band_setting_menu_text">Μήνυμα</string>
+    <string name="mi_band_setting_menu_text">Μήνυμα/Κλήση</string>
 
     <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
     <string name="mi_band_setting_auth_mi_fit_hint">Το Mi Bandage  απαιτεί την εγκατάσταση της επίσημης εφαρμογής Mi Fit στην ίδια συσκευή. Στην αρχή θα πρέπει να αντιστοιχίσετε Band με την εφαρμογή Mi Fit, μετά θα μπορείτε να χρησιμοποιήσετε το Mi Bandage</string>
@@ -87,11 +87,14 @@
     <string name="mi_band_setting_distance_unit">Ορισμός μονάδων για απόσταση</string>
 
     <string name="mi_band_setting_standalone_setting">Standalone settings</string>
+    <string name="mi_band_setting_time_24h">Μορφή ώρας 24 ωρών</string>
+    <string name="mi_band_setting_date">Εμφάνιση ημερομηνίας στην οθόνη</string>
     <string name="mi_band_setting_idle_alert">Ειδοποιήσεις αδράνειας</string>
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
     <string name="mi_band_setting_discoverable">Discoverable</string>
 
+    <string name="pref_text_title">Ρυθμίσεις εικονιδίων κειμένου</string>
     <string name="pref_text_conversion_summary">Ρυθμίσεις εικονιδίων κειμένου Band</string>
     <string name="pref_cat_text_conversion">Σήμα %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Μετατροπή χαρακτήρων</string>
@@ -188,7 +191,7 @@
     <string name="pref_call_summary">Ρυθμίσεις σήματος %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Εισερχόμενη κλήση</string>
     <string name="pref_call_title">Σήμα εισερχόμενης κλήσης</string>
-    <string name="pref_call_summary_on">Ενεργό (μην ξεχάσετε να απενεργοποιήσετε ειδοποιήσεις εισερχόμενων κλήσεων (incoming call alerts) στήν εφαρμογή Mi Fit)</string>
+    <string name="pref_call_summary_on">Μην ξεχάσετε να απενεργοποιήσετε ειδοποιήσεις εισερχόμενων κλήσεων (incoming call alerts) στήν εφαρμογή Mi Fit</string>
     <string name="pref_call_text_title">Εμφάνιση ταυτότητας καλούντος</string>
     <string name="pref_call_text_summary_on"><![CDATA[Ενεργό (περισσότερες πληροφορίες: <i>Ρυθμίσεις/Ρυθμίσεις εικονιδίων κειμένου)</i>]]></string>
 
@@ -203,7 +206,7 @@
 
     <string name="pref_call_missed_alert_title">Σήμα %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
-    <string name="pref_call_missed_text_prefix_title">Πρόθεμα κειμένου: %1$s</string>
+    <string name="pref_call_missed_text_prefix_title">Πρόθεμα κειμένου</string>
     <string name="pref_call_missed_text_prefix_summary">Αν περισσότερες από μία εφαρμογή χρησιμοποιεί το ίδιο εικονίδιο για να διαφοροποιήσει τις ειδοποιήσεις μεταξύ τους</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Πρόθεμα κειμένου</string>
 
@@ -318,6 +321,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>εάν χρησιμοποιείτε περισσότερες εφαρμογές για τον έλεγχο Band, αλληλεπιδρούν μεταξύ τους και θα πρέπει να τις απενεργοποιήστε προσωρινά</p>

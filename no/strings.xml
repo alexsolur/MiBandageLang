@@ -68,7 +68,7 @@
 
     <string name="mi_band_setting_menu_profile">Profil</string>
     <string name="mi_band_setting_menu_setting">Instilling</string>
-    <string name="mi_band_setting_menu_text">Text</string>
+    <string name="mi_band_setting_menu_text">Text/Anrop</string>
 
     <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
     <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage behøver installasjon av den offisielle Mi Fit appen på den samme telefonen. først må du parre Bandet i Mi Fit appen, så kan du bruke Mi Bandage</string>
@@ -87,11 +87,14 @@
     <string name="mi_band_setting_distance_unit">Avstandsenhet</string>
 
     <string name="mi_band_setting_standalone_setting">Standalone settings</string>
+    <string name="mi_band_setting_time_24h">24-timers tidsformat</string>
+    <string name="mi_band_setting_date">Vis dato på skjermen</string>
     <string name="mi_band_setting_idle_alert">Idle alert</string>
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
     <string name="mi_band_setting_discoverable">Discoverable</string>
 
+    <string name="pref_text_title">Text utseende</string>
     <string name="pref_text_conversion_summary">Konverter text meldings karakterer</string>
     <string name="pref_cat_text_conversion">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Transliterasjon</string>
@@ -189,7 +192,7 @@
     <string name="pref_call_summary">%1$s signal-instillinger</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Inkommende anrop</string>
     <string name="pref_call_title">Inkommende anrops-signal</string>
-    <string name="pref_call_summary_on">På (Ikke glem å skru av inkommende anrops-varsler på Mi Fit appen)</string>
+    <string name="pref_call_summary_on">Ikke glem å skru av inkommende anrops-varsler på Mi Fit appen</string>
     <string name="pref_call_text_title">Vis alle anrops-IDer</string>
     <string name="pref_call_text_summary_on"><![CDATA[På (mer informasjon: <i>Instillinger/Text-ikoner instillinger)</i>]]></string>
 
@@ -319,6 +322,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>Hvis du bruker flere applikasjoner for å kontrolere Bandet, så blandes det med hverandre så du må midlertidig skru dem av.</p>

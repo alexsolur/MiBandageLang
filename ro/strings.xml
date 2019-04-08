@@ -68,7 +68,7 @@
 
     <string name="mi_band_setting_menu_profile">Profil</string>
     <string name="mi_band_setting_menu_setting">Setări</string>
-    <string name="mi_band_setting_menu_text">Text</string>
+    <string name="mi_band_setting_menu_text">Text/Apel</string>
 
     <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
     <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage necesită instalarea aplicației oficiale Mi Fit pe același telefon. La început trebuie să împerechezi brățara în aplicația Mi Fit, apoi poți folosi Mi Bandage</string>
@@ -87,11 +87,14 @@
     <string name="mi_band_setting_distance_unit">Setați unitățile pentru distanță</string>
 
     <string name="mi_band_setting_standalone_setting">Standalone settings</string>
+    <string name="mi_band_setting_time_24h">Formatul de 24 de ore</string>
+    <string name="mi_band_setting_date">Afișați data pe ecran</string>
     <string name="mi_band_setting_idle_alert">Alerte de inactivitate</string>
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
     <string name="mi_band_setting_discoverable">Discoverable</string>
 
+    <string name="pref_text_title">Afișare text</string>
     <string name="pref_text_conversion_summary">Convertește caracterele mesajelor text</string>
     <string name="pref_cat_text_conversion">Semnal %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Transliterare</string>
@@ -189,7 +192,7 @@
     <string name="pref_call_summary">Setări semnal %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Apel primit</string>
     <string name="pref_call_title">Semnal apel primit</string>
-    <string name="pref_call_summary_on">Pornit (nu uita să dezactivezi alertele de apel primit în aplicația Mi Fit)</string>
+    <string name="pref_call_summary_on">Nu uita să dezactivezi alertele de apel primit în aplicația Mi Fit</string>
     <string name="pref_call_text_title">Afișează identitatea apelantului</string>
     <string name="pref_call_text_summary_on"><![CDATA[Pornit (mai multe informații: <i>Setări/Setări pentru pictogramele text)</i>]]></string>
 
@@ -204,7 +207,7 @@
 
     <string name="pref_call_missed_alert_title">Semnal %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
-    <string name="pref_call_missed_text_prefix_title">Prefix text: %1$s</string>
+    <string name="pref_call_missed_text_prefix_title">Prefix text</string>
     <string name="pref_call_missed_text_prefix_summary">Dacă mai multe aplicații utilizează pictograma pentru a diferenția notificările între ele</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Prefix text</string>
 
@@ -319,6 +322,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>Dacă folosești mai multe aplicații pentru a controla brățara, ele interferează una cu cealaltă, așa că oprește-le pentru moment.</p>
