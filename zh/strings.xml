@@ -89,9 +89,12 @@
     <string name="mi_band_setting_standalone_setting">独立模式设定</string>
     <string name="mi_band_setting_time_24h">24小时时间格式</string>
     <string name="mi_band_setting_date">在屏幕上显示日期</string>
+    <string name="mi_band_setting_lift_wrist">举起手腕时点亮屏幕</string>
     <string name="mi_band_setting_idle_alert">开启久坐提醒</string>
     <string name="mi_band_setting_idle_alert_time">空闲时间</string>
     <string name="mi_band_setting_idle_alert_dnd">在我休息时不要提醒我</string>
+    <string name="mi_band_setting_night_mode">夜间模式</string>
+
     <string name="mi_band_setting_discoverable">可被发现的</string>
 
     <string name="pref_text_title">文字图标</string>
@@ -210,12 +213,6 @@
     <string name="pref_call_missed_text_prefix_title">前缀</string>
     <string name="pref_call_missed_text_prefix_summary">如果多个应用也使用该图标来区分彼此的通知</string>
     <string name="pref_call_missed_text_prefix_dialog_title">文字前缀</string>
-
-    <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_cat_mi_band_lift_wrist">抬腕亮屏</string>
-    <string name="pref_mi_band_lift_wrist_title">举起手腕时点亮屏幕</string>
-    <string name="pref_mi_band_lift_wrist_dnd_title">勿扰模式</string>
-    <string name="pref_mi_band_lift_wrist_dnd_summary_on">开 (在指定时间内不显示信息，需连接蓝牙设置)</string>
 
     <string name="pref_battery_phone">手机电量</string>
     <string name="pref_battery_phone_summary">低电量或充满电时提示</string>

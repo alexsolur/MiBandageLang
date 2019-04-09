@@ -89,9 +89,12 @@
     <string name="mi_band_setting_standalone_setting">Standalone settings</string>
     <string name="mi_band_setting_time_24h">Format waktu 24 jam</string>
     <string name="mi_band_setting_date">Tampilkan tanggal di layar</string>
+    <string name="mi_band_setting_lift_wrist">Angkat lengan untuk melihat info</string>
     <string name="mi_band_setting_idle_alert">Peringatan diam</string>
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
+    <string name="mi_band_setting_night_mode">Mode malam</string>
+
     <string name="mi_band_setting_discoverable">Discoverable</string>
 
     <string name="pref_text_title">Text display</string>
@@ -210,12 +213,6 @@
     <string name="pref_call_missed_text_prefix_title">Awalan teks</string>
     <string name="pref_call_missed_text_prefix_summary">Jika lebih dari satu aplikasi juga menggunakan ikon untuk membedakan pemberitahuan satu sama lain</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Awalan teks</string>
-
-    <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_cat_mi_band_lift_wrist">Angkat lengan untuk melihat info</string>
-    <string name="pref_mi_band_lift_wrist_title">Angkat lengan untuk melihat info</string>
-    <string name="pref_mi_band_lift_wrist_dnd_title">Mode jangan ganggu</string>
-    <string name="pref_mi_band_lift_wrist_dnd_summary_on">Aktif (informasi tidak ditampilkan untuk beberapa saat, pengaturan membutuhkan koneksi Bluetooth,)</string>
 
     <string name="pref_battery_phone">Phone battery</string>
     <string name="pref_battery_phone_summary">Low and full battery level notifications</string>

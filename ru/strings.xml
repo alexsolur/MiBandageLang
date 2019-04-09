@@ -89,9 +89,12 @@
     <string name="mi_band_setting_standalone_setting">Автономные настройки</string>
     <string name="mi_band_setting_time_24h">24-hour time format</string>
     <string name="mi_band_setting_date">Display date on screen</string>
+    <string name="mi_band_setting_lift_wrist">Поворот запястья</string>
     <string name="mi_band_setting_idle_alert">Оповещение о бездействии</string>
     <string name="mi_band_setting_idle_alert_time">Время бездействия</string>
     <string name="mi_band_setting_idle_alert_dnd">Не уведомлять во время отдыха</string>
+    <string name="mi_band_setting_night_mode">Ночной режим</string>
+
     <string name="mi_band_setting_discoverable">Обнаружение</string>
 
     <string name="pref_text_title">Настройки текста</string>
@@ -210,12 +213,6 @@
     <string name="pref_call_missed_text_prefix_title">Префикс текста</string>
     <string name="pref_call_missed_text_prefix_summary">Если несколько приложений используют иконку (чтобы отличить сообщения)</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Префикс текста</string>
-
-    <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_cat_mi_band_lift_wrist">Поворот запястья</string>
-    <string name="pref_mi_band_lift_wrist_title">Поворот запястья</string>
-    <string name="pref_mi_band_lift_wrist_dnd_title">Режим \"Не беспокоить\"</string>
-    <string name="pref_mi_band_lift_wrist_dnd_summary_on">Включено (в заданный промежуток времени отображение отключено, необходимо Bluetooth-соединение)</string>
 
     <string name="pref_battery_phone">Аккумулятор устройства</string>
     <string name="pref_battery_phone_summary">Уведомления низкого и полного заряда</string>

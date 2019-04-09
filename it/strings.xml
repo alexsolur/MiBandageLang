@@ -89,9 +89,12 @@
     <string name="mi_band_setting_standalone_setting">Standalone settings</string>
     <string name="mi_band_setting_time_24h">Formato orario di 24 ore</string>
     <string name="mi_band_setting_date">Mostra la data sullo schermo</string>
+    <string name="mi_band_setting_lift_wrist">Solleva il polso per visualizzare le info</string>
     <string name="mi_band_setting_idle_alert">Avviso di sedentarietà</string>
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
+    <string name="mi_band_setting_night_mode">Modalità notte</string>
+
     <string name="mi_band_setting_discoverable">Discoverable</string>
 
     <string name="pref_text_title">Icona con testi</string>
@@ -210,12 +213,6 @@
     <string name="pref_call_missed_text_prefix_title">Testo identificativo</string>
     <string name="pref_call_missed_text_prefix_summary">Se più app usano la stessa icona usa questo testo per differenziarle</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Testo identificativo</string>
-
-    <string name="pref_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_cat_mi_band_lift_wrist">Solleva il polso per visualizzare le info</string>
-    <string name="pref_mi_band_lift_wrist_title">Solleva il polso per visualizzare le info</string>
-    <string name="pref_mi_band_lift_wrist_dnd_title">Modalità non disturbare</string>
-    <string name="pref_mi_band_lift_wrist_dnd_summary_on">On (nel periodo specificato non mostra le info, richiesta connessione Bluetooth)</string>
 
     <string name="pref_battery_phone">Batteria smartphone</string>
     <string name="pref_battery_phone_summary">Notifiche per batteria scarica e carica</string>
