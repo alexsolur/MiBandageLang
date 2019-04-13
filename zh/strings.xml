@@ -71,11 +71,11 @@
     <string name="mi_band_setting_menu_text">文字/呼叫</string>
 
     <string name="mi_band_setting_auth_mi_fit">与 Mi Fit 协作</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage 需要在同一个手机上安装小米运动（Mi Fit）应用. 首先你需要在Mi Fit里连接手环,然后才能使用 Mi Bandage</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage 需要在同一个手机上安装小米运动（Mi Fit）应用. 首先你需要在 Mi Fit 里连接手环,然后才能使用 Mi Bandage</string>
     <string name="mi_band_setting_auth_standalone">独立模式</string>
     <string name="mi_band_setting_auth_standalone_hint">Mi Bandage 工作不再需要 Mi Fit</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">按下%1$s进行配对</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_press_band_button">按下 %1$s 进行配对</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
 
     <string name="mi_band_setting_nickname">昵称</string>
     <string name="mi_band_setting_gender">性别</string>
@@ -107,7 +107,7 @@
     <string name="pref_text_emoticon_summary_on">将 Emoji 转化为文字</string>
     <string name="pref_text_uppercase_title">大写字母转换</string>
     <string name="pref_text_uppercase_summary_on">将小写字母转化为大写字母</string>
-    <string name="pref_text_length">文本长度，与字体有关 (比如中文和西里尔字母)</string>
+    <string name="pref_text_length">文本长度 （与字体有关，比如中文和西里尔字母)</string>
     <string name="pref_text_length_summary_on">%1$,d 字</string>
 
     <string name="pref_text_conversion_description_title">说明</string>
@@ -115,12 +115,12 @@
         <p>如果你的手环目前显示来电名称正常, 则无需进行以下步骤 <i>只需在 Mi Fit 中关闭来电提示</i>.</p>
         <p>如果你不使用 <i>来电提示</i> 且手机语言不是英文:
         <br/>1. 设置你的手机语言为英文.
-        <br/>2. 打开Mi Fit应用,等待字体固件更新完成.如果无法更新,尝试重启手机.
-        <br/>3. 打开 <i>Profile/Mi Band/Incoming call</i> 菜单.
-        <br/>4. 开启: <i>Turn on incoming call alerts</i>.
-        <br/>5. 开启: <i>Show contact information</i>.
+        <br/>2. 打开 Mi Fit 应用,等待字体固件更新完成.如果无法更新,尝试重启手机.
+        <br/>3. 打开 <i>小米运动/我的/小米手环/来电提醒</i> 菜单.
+        <br/>4. 开启: <i>开启来电提醒</i>.
+        <br/>5. 开启: <i>显示联系人信息</i>.
         <br/>6. 检查手环是否可以正常显示来电显示.
-        <br/>7. 关闭: <i>Turn on incoming call alerts</i> (<i>Show contact information</i> 保持开启).
+        <br/>7. 关闭: <i>开启来电提醒</i> (<i>显示联系人信息</i> 保持开启).
         <br/>8. 将手机语言设置回你的语言.</p>]]>
     </string>
 
@@ -257,7 +257,7 @@
     <string name="pref_dnd_remember_state_on_title">还原手环最后的状态</string>
     <string name="pref_dnd_remember_state_off_title">启动手环全部功能</string>
     <string name="pref_dnd_mi_fit_scheduled">激活 %1$s DnD 模式 (禁用呼叫，消息和抬腕查看)</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_dnd_enable_bluetooth">在 DnD 模式开始时关闭蓝牙,最后再打开蓝牙</string>
+    <string name="pref_dnd_enable_bluetooth">在 DnD 模式开始时关闭蓝牙,结束后再打开蓝牙</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">请打开蓝牙并将手环靠近手机</string>
@@ -265,7 +265,7 @@
     <string name="message_discovering_mi_band">正在查找手环(可能需要1分钟) &#8230;</string>
     <string name="message_discovered_mi_band">%1$s 连接成功</string>
     <string name="message_discovered_no_mi_band">连接失败</string>
-    <string name="message_discovered_not_found_mi_band">如果找不到手环请打开: Mi Fit/Play/Discoverable 或在手机蓝牙里设置</string>
+    <string name="message_discovered_not_found_mi_band">如果找不到手环请打开: 小米运动/我的/小米手环/蓝牙广播 或在手机蓝牙里设置</string>
     <string name="message_enable_notification_listener_access">启用通知访问: 设置/通知/通知访问</string>
     <string name="message_enable_notification_listener_access_4_4">启用通知访问: 设置/通知/通知访问</string>
     <string name="message_enable_notification_policy_access">启用勿扰访问</string>
@@ -276,14 +276,14 @@
 
     <string name="message_app_chooser_no_selected">选择应用</string>
 
-    <string name="message_notification_free_groups">最多 %1$,d 组可以在正常模式下使用</string>
+    <string name="message_notification_free_groups">最多 %1$,d 组可以在普通模式下使用</string>
 
-    <string name="message_step_goal_free_values">普通模式下最多可以设置3个</string>
-    <string name="message_step_goal_max_values">最多可以设置10个</string>
+    <string name="message_step_goal_free_values">普通模式下最多可以设置 3 个</string>
+    <string name="message_step_goal_max_values">最多可以设置 10 个</string>
 
     <string name="message_touch_no_patterns">按下红色按钮来进行记录</string>
     <string name="message_touch_record">使用 %1$s 触摸按钮</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="message_touch_pattern_error">新动作与另一个动作相似，请重新录制</string>
+    <string name="message_touch_pattern_error">新动作与已有动作相似，请重新录制</string>
     <string name="message_touch_free_patterns">在普通模式下不能使用多于 %1$,d 的函数</string>
     <string name="message_touch_music_player_not_found">找不到播放器</string>
     <string name="message_touch_app_launcher1_not_set">应用未设置</string>
@@ -323,16 +323,16 @@
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
     <p>如果使用多个手环应用,它们会互相干扰，请关闭其他应用.</p>
-    <p>如果未找到手环,你可以手动设置 MAC 地址(MAC 地址可在 Mi Fit/我/手环 中查看).</p>
+    <p>如果未找到手环,你可以手动设置 MAC 地址(MAC 地址可在 小米运动/我的/手环 中查看).</p>
     <p><b>如果你有连接问题:</b>
-    <br>- Check the <i>Settings/Diagnostics</i> settings
+    <br>- 查看运用内 <i>设置/诊断</i> 选型
     <br>- 最近的应用程序界面:锁定 Mi Bandage(下拉该应用并点击锁的图标).
-    <br>- 手机电池设置/电池优化: 设置 Mi Bandage应用为未优化.
+    <br>- 手机电池设置/电池优化: 设置 Mi Bandage 应用为未优化.
     <br>设置/开发者选项:
     <br>- 不保持活动:禁用
     <br>- 后台进程限制:标准限值
     <br>- 内存优化: 中/低/禁用
-    <br>- 打开 MIUI 优化: 禁用（如能正常使用的话也可不关闭该项。译者使用 MIUI9 Andorid 7 无需关闭）</p>
+    <br>- 打开 MIUI 优化: 禁用（如能正常使用的话也可不关闭该项。）</p>
     <p>如果找不到手环或在同步 Mi Fit 应用时遇到麻烦,请安装 BToolkit, nRF Connect 或类似的蓝牙管理应用并移除所有已绑定的设备.</p>
     <p>如果有问题(发现手环,没有通知信号),请尝试:
     <br>1. 如果你安装了绿色守护 Greenify (或其他休眠类应用)，关掉它.
@@ -422,7 +422,7 @@
     <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> 图标：选择此图标来显示通知标题/内容.]]></string>
 
     <!-- Notification info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Predefined app and Band icon signals:<br>
+    <string name="info_dialog_notification"><![CDATA[预定义的应用图标:<br>
         <not_support_icon_text><img src="ALERT_MESSAGE_TEXT"> 未接电话</not_support_icon_text>
         <support_icon_text><img src="ALERT_CALL_MESSAGE"> 未接电话</support_icon_text>
         <br><img src="ALERT_MESSAGE">  SMS
@@ -434,7 +434,7 @@
         <br><img src="ALERT_VIBER">  Viber
         <br><img src="ALERT_WHATSAPP">  WhatsApp
         <br><img src="ALERT_LINE">  Line
-        <br><img src="ALERT_WECHAT">  WeChat
+        <br><img src="ALERT_WECHAT">  微信
         <br><img src="ALERT_TELEGRAM">  Telegram
         <br><img src="ALERT_KAKAOTALK">  KakaoTalk
         <br><img src="ALERT_VK">  VK
@@ -444,17 +444,17 @@
         <br><img src="ALERT_SNAPCHAT">  Snapchat
         <br><img src="ALERT_INSTAGRAM">  Instagram
         <br><img src="ALERT_POKEMONGO">  Pokémon GO
-        <br><img src="ALERT_MOMO">  Momo
-        <br><img src="ALERT_QIANNIU">  Qianniu
+        <br><img src="ALERT_MOMO">  陌陌
+        <br><img src="ALERT_QIANNIU">  千牛
         <br><img src="ALERT_QQ">  QQ
-        <br><img src="ALERT_WEIBO">  Weibo
-        <br><img src="ALERT_ALIPAY">  AliPay
-        <br><img src="ALERT_QZONE">  QZone
+        <br><img src="ALERT_WEIBO">  微博
+        <br><img src="ALERT_ALIPAY">  支付宝
+        <br><img src="ALERT_QZONE">  QQ空间
         <br><img src="ALERT_DINGTALK">  DingTalk
         <br><img src="ALERT_APP">  others
 
         <p>预设的应用和手环图标仅显示图标而不是信息.</p>
-        <p>你必须在Mi Fit中停用应用提醒.</p>
+        <p>你必须在 Mi Fit 中停用应用提醒.</p>
         <p>你创建的通知组的优先级高于预设的优先级.</p>
         <mi_band_2><p><img src="ALERT_MESSAGE_TEXT"> 图标：选择此图标来显示通知标题/内容.</p></mi_band_2>
         <mi_band_hrx><p><img src="ALERT_MESSAGE_TEXT"> 图标：选择此图标来显示通知标题/内容.</p></mi_band_hrx>
@@ -529,7 +529,7 @@
 
     <string name="touch_tasker_launcher1_title">1. Tasker 任务启动器</string>
     <string name="touch_tasker_launcher2_title">2. Tasker 任务启动器</string>
-    <string name="touch_tasker_launcher_no_permission_title">你需要先安装 Tasker,之后设置 Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_permission_title">你需要先安装 Tasker,之后 Mi Bandage 中设置</string>
     <string name="touch_tasker_launcher_no_access_title">允许外部访问</string>
     <string name="touch_tasker_launcher_no_task_title">选择任务</string>
 
@@ -594,7 +594,7 @@
     <string name="action_tracker_distance">距离</string>
     <string name="action_tracker_calorie">卡路里</string>
     <string name="action_chart_filter_activity_no">无过滤器</string>
-    <string name="action_chart_filter_activity_active">移动过滤器</string>
+    <string name="action_chart_filter_activity_active">活动过滤器</string>
 
     <string name="step_tab_day">每日图表</string>
     <string name="step_tab_week">每周图表</string>
@@ -681,8 +681,8 @@
     <string name="pulse_signal_end_title">高心率信号</string>
 
     <string name="pulse_title_timing_validity">时间和有效性</string>
-    <string name="pulse_value_min">低有效值</string>
-    <string name="pulse_value_max">高有效值</string>
+    <string name="pulse_value_min">最低有效值</string>
+    <string name="pulse_value_max">最高有效值</string>
     <string name="pulse_value_invalid">无效值</string>
 
     <string name="pulse_offline_timed_title">定制监测</string>
@@ -775,7 +775,7 @@
     <string name="time_stopper_touch_record">触摸记录单次时间</string>
     <string name="time_stopper_touch_show">触摸记录单次时间</string>
     <string name="time_stopper_touch_time_format">时间格式</string>
-    <string name="time_stopper_touch_time_format_minute">小时 \u2032 fen  \u2033</string>
+    <string name="time_stopper_touch_time_format_minute">小时 \u2032 分  \u2033</string>
     <string name="time_stopper_touch_time_format_second">分 \u2032 秒 \u2033</string>
 
     <string name="time_lap_details">单次时间详情</string>
@@ -806,7 +806,7 @@
         <img src="ic_miband_bell"> <b><u>铃声</u></b>
         <p>闹铃需要蓝牙连接，10秒发送一次.</p>
         <img src="ic_alarm"> <b><u>闹钟</u></b>
-        <p>闹铃不需要蓝牙连接，使用Mi Fit功能来提醒(覆盖 4. - 9. 设置).
+        <p>闹铃不需要蓝牙连接，使用 Mi Fit 功能来提醒(覆盖 4. - 9. 设置).
         <br>如果未监测到移动（使用手机提醒）则会重复提醒.
         <br>分钟精度,手环无法处理提醒秒数.</p>
         <p>提醒和显示信息需要进行蓝牙连接.</p>
