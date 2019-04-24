@@ -12,7 +12,7 @@
     <string name="drawer_nav_pulse">Pulsação</string>
     <string name="drawer_nav_time">Tempo</string>
     <string name="drawer_nav_reminder">Lembrete de evento</string>
-    <string name="drawer_nav_weather">Clima</string>
+    <string name="drawer_nav_weather">Meteorologia</string>
     <string name="drawer_nav_watch_face">Watch Face</string>
     <string name="drawer_nav_alarm">Perdidos</string>
     <string name="drawer_nav_disconnected_agent">Detetive</string>
@@ -166,7 +166,7 @@
     <string name="pref_connected_have_notif_reminder_title">Lembrete</string>
     <string name="pref_connected_have_notif_screen_off_title">Notificar quando o ecrã está desligado</string>
     <string name="pref_connected_have_notif_interval_title">Tempo para o próximo lembrete</string>
-    <string name="pref_connected_have_notif_counter_title">Cardinalidade dos sinais</string>
+    <string name="pref_connected_have_notif_counter_title">Cardinalidade dos avisos</string>
     <string name="pref_connected_have_notif_wakelock_title">Acordar o dispositivo</string>
     <string name="pref_connected_have_notif_ongoing_title">A notificação permanece visível</string>
     <string name="pref_connected_have_notif_default_app_title">Aplicação não reconhecida</string>
@@ -390,8 +390,8 @@
     <string name="notification_group_reminder">Lembrete</string>
     <string name="notification_group_ongoing">A notificação permanece visível</string>
     <string name="notification_group_screen_off">Notificar quando o ecrã estiver desligado</string>
-    <string name="notification_group_counter_title">Cardinalidade dos sinais</string>
-    <string name="notification_group_repeat_title">Repetir sinais</string>
+    <string name="notification_group_counter_title">Cardinalidade dos avisos</string>
+    <string name="notification_group_repeat_title">Repetir avisos</string>
     <string name="notification_group_wakelock">Acordar o ecrã do dispositivo</string>
 
     <string name="notification_group_filter">Filtrar notificações</string>
@@ -412,10 +412,10 @@
     <string name="notification_group_correction_regex">Regex</string>
     <string name="notification_group_correction_hint">Insensível a MAIÚSCULAS</string>
     <string name="notification_group_correction_items">Texto a ser corrigido:</string>
-    <string name="notification_group_correction_find">Encontra:</string>
-    <string name="notification_group_correction_replace">Reescreve com:</string>
+    <string name="notification_group_correction_find">Procurar:</string>
+    <string name="notification_group_correction_replace">Reescrever com:</string>
 
-    <string name="notification_regex_hint">Caracteres Não-Alfanuméricos têm um significado especial. Se você não souber Regex, não selecione esta opção.</string>
+    <string name="notification_regex_hint">Caracteres Não-Alfanuméricos têm um significado especial. Se você não souber Regex, não selecione esta opção</string>
 
     <string name="notification_confirm_close">Tem certeza de que deseja descartar as alterações?</string>
 
@@ -463,7 +463,7 @@
         <p>O grupo de notificações criado por si tem prioridade superior às notificações pré-definidas.</p>
         <mi_band_2><p><img src="ALERT_MESSAGE_TEXT">  escolha este ícone para mostrar notificações com título/conteúdo</p></mi_band_2>
         <mi_band_hrx><p><img src="ALERT_MESSAGE_TEXT">  escolha este ícone para mostrar notificações com título/conteúdo</p></mi_band_hrx>
-        <p>Se você usa aplicações pré-definidas e quer excluir algumas aplicações, crie um novo grupo de notificações, adicione as aplicações que não deseja e desative o grupo a seguir.</p>
+        <p>Se você usa aplicações pré-definidas e quer excluir algumas aplicações, crie um novo grupo de notificações, adicione as aplicações a não notificar e desative o grupo de notificações criado.</p>
         ]]>
     </string>
         <!--<p>Os sinais predefinidos podem ser desativados: <i>Monitorar notifições/Definições</i>.</p>-->
@@ -547,26 +547,26 @@
     <string name="touch_setting_recognition_start_trigger_title">Gatilho</string>
     <string name="touch_setting_recognition_time_title">Tempo de reconhecimento</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">Sinal da %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_mi_band_signal_title">Aviso da %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="touch_setting_recognition_succeeded_title">Padrão touch reconhecido</string>
     <string name="touch_setting_recognition_failed_title">Padrão touch não reconhecido</string>
 
     <!-- Touch monitoring info dialog -->
-    <string name="info_dialog_touch"><![CDATA[O touch é válido quando o ecrã da Band muda (É aconselhado agitar a Band antes de gravar).
+    <string name="info_dialog_touch"><![CDATA[O touch é válido quando o ecrã da Band muda (É aconselhado agitar a Band antes de gravar o padrão).
         <p>A Mi Bandage monitora o tempo decorrido entre os toques, e não o tempo decorrido até ao primeiro toque.</p>
         <p>Os ícones verdes nos cartões indicam que função pode ter um padrão semelhante ao padrão gravado.</p>
-        <p>Quando você recebe uma chamada, a Mi Bandage não reconhece as seguintes funções para facilitar a entrada do padrão: localizar o dispositivo,repetir notificações, controlar multimédia.</p>
+        <p>Quando você recebe uma chamada, a Mi Bandage não reconhece as seguintes funções para facilitar a entrada do padrão: localizar o dispositivo, repetir notificações, controlar multimédia.</p>
         <p>No modo teste não é executada a função \'padrão reconhecido\'.</p>
         <p>Feedback por meio de vibração da Band se houver um padrão não reconhecido, levando em consideração o status atual do dispositivo (atender chamadas, rejeitar/terminar somente se houver uma chamada recebida, …).</p>
         <p>A Band vibra 1 vez, quando reconhece o padrão.</p>
         <p>A Band vibra 2 vezes, quando não reconhece o padrão, após o padrão mais longo ser verificado (se o <i>padrão não é reconhecido</ i>).</p>
         <p><b>Exemplos</b> de padrões válidos:
         <br>- toque
-        <br>- toque e espere 1 seg, toque
-        <br>- toque e espere 1 seg, toque e espere 1 seg, toque
-        <br>- toque e espere 2 seg, toque
-        <br>- toque e espere 2 seg, toque e espere 1 seg, toque
-        <br>- toque e espere 2 seg, toque e espere 2 seg, toque
+        <br>- toque e espere 1 seg., toque
+        <br>- toque e espere 1 seg., toque e espere 1 seg., toque
+        <br>- toque e espere 2 seg., toque
+        <br>- toque e espere 2 seg., toque e espere 1 seg., toque
+        <br>- toque e espere 2 seg., toque e espere 2 seg., toque
         </p>
     ]]></string>
 
@@ -803,9 +803,9 @@
     <string name="time_enable_bluetooth">Ligar o Bluetooth</string>
 
     <string name="info_dialog_time"><![CDATA[
-        <p><b>Desligue o alarme, o temporizador e o cronómetro antes de remover a aplicação.</b></p>
-        <img src="ic_device_alarm"> <b><u>Emitir sinal quando o alarme do dispositivo tocar</u></b>
-        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from the Google Play.</p>
+        <p><b>Desligue os alarmes, o temporizador e o cronómetro antes de remover a aplicação.</b></p>
+        <img src="ic_device_alarm"> <b><u>Emitir um aviso quando o alarme do dispositivo tocar</u></b>
+        <p>Nem todos os dispositivos são suportados. Se o despertador embutido no seu dispositivo não funcinar, descarregue a apllicação 'Google Clock' da 'Google Play Store'.</p>
         <p>A mensagem que aparece no menu \'DESPERTADOR\' é o título do respetivo despertador</p>
         <img src="ic_miband_bell"> <b><u>Sino</u></b>
         <p>Conexão Bluetooth necessária para o alarme (1 vez em 10 segundos).</p>
@@ -834,7 +834,7 @@
     </string>
 
     <!-- Weather -->
-    <string name="weather_tab_weather_forecast">Clima</string>
+    <string name="weather_tab_weather_forecast">Meteorologia</string>
     <string name="weather_tab_location">Localização</string>
     <string name="weather_tab_settings">Definições</string>
 
@@ -946,7 +946,7 @@
     <string name="backup_time">Último backup</string>
     <string name="backup_path">Localização do backup</string>
     <string name="backup_auto">Backup automático</string>
-    <string name="backup_auto_time">Tempo</string>
+    <string name="backup_auto_time">Hora</string>
 
     <string name="backup_process">A preparar…</string>
     <string name="backup_process_activity">Passos e Sono %1$,d%%</string>
@@ -955,7 +955,7 @@
     <string name="backup_process_touch">Botão touch %1$,d%%</string>
     <string name="backup_process_time">Tempo %1$,d%%</string>
     <string name="backup_process_reminder">Lembrete de evento %1$,d%%</string>
-    <string name="backup_process_weather">Clima %1$,d%%</string>
+    <string name="backup_process_weather">Meteorologia %1$,d%%</string>
     <string name="backup_process_alarm">Perdidos %1$,d%%</string>
     <string name="backup_process_disconnected_agent">Detetive %1$,d%%</string>
     <string name="backup_process_settings">Definições %1$,d%%</string>
@@ -967,7 +967,7 @@
     <string name="backup_restore_touch">Botão touch</string>
     <string name="backup_restore_time">Tempo</string>
     <string name="backup_restore_reminder">Lembrete de evento</string>
-    <string name="backup_restore_weather">Clima</string>
+    <string name="backup_restore_weather">Meteorologia</string>
     <string name="backup_restore_alarm">Perdidos</string>
     <string name="backup_restore_disconnected_agent">Detetive</string>
     <string name="backup_restore_settings">Definições</string>
@@ -976,8 +976,8 @@
 
     <string name="backup_cloud_drive_login">Google Drive sign in</string>
     <string name="backup_cloud_drive_logout">Google Drive sign out</string>
-    <string name="backup_cloud_sync_time">Tempo de upload</string>
-    <string name="backup_cloud_only_wifi">Over wi-fi only</string>
+    <string name="backup_cloud_sync_time">Último upload</string>
+    <string name="backup_cloud_only_wifi">Apenas através do wi-fi</string>
 
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Termos e condições das recompensas</string>
@@ -1012,7 +1012,7 @@
     ]]></string>
     <string name="purchase_policy_title">Termos e condições do Modo Premium</string>
     <string name="purchase_policy"><![CDATA[
-        <p>- Eu tenho estado a estar a aplicação e ela está a funcionar corretamente.</p>
+        <p>- Eu tenho estado a testar a aplicação e ela está a funcionar corretamente.</p>
         <p>- Eu estou ciente de que não posso exigir compensação ou reembolso devido a bugs, erros de software causados ​​por alterações, ambiente do hardware ou outras aplicações usadas.</p>
         <p>- Todas as vendas são finais e não podem ser reembolsadas (exceto pela política de reembolso do Google).</p>
         <p>- Não há garantia incluída.</p>
@@ -1038,7 +1038,7 @@
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Política de privacidade</string>
-    <string name="privacy_policy_tab_eu_consent">EU  consentimento do usuário</string>
+    <string name="privacy_policy_tab_eu_consent">EU consentimento do usuário</string>
 
     <string name="privacy_policy_collect_title">Informação que coletamos</string>
     <string name="privacy_policy_collect"><![CDATA[
