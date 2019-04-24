@@ -21,7 +21,7 @@
     </string-array>
 
     <string-array name="pref_distance_unit">
-        <item>Metric (metro)</item>
+        <item>Métrico (metro)</item>
         <item>Imperial (milha)</item>
     </string-array>
 
@@ -30,7 +30,7 @@
         <item>IMPERIAL</item>
     </string-array>
 
-    <string-array name="pref_night_mode">
+	 <string-array name="pref_night_mode">
         <item>Agendar hora de ligar</item>
         <!--<item>Ligar depois do pôr do sol</item>-->
     </string-array>
@@ -39,8 +39,8 @@
         <item>SCHEDULED</item>
         <!--<item>SUNSET</item>-->
     </string-array>
-
-    <string-array name="pref_menu_mi_band">
+	
+	<string-array name="pref_menu_mi_band">
         <item>Hora</item>
         <item>Passos</item>
         <item>Distância</item>
@@ -81,7 +81,7 @@
         <item>MUSIC</item>
         <item>ALIPAY</item>
     </string-array>
-
+	
     <string-array name="pref_connected_have_notif_counter">
         <item>Número de notificações</item>
         <item>Uma vez por ícone da Band</item>
@@ -90,6 +90,7 @@
         <item>3 ícones \'app\'</item>
     </string-array>
 
+	
     <string-array name="pref_connected_have_notif_counter_values">
         <item>-1</item>
         <item>-2</item>
@@ -188,7 +189,7 @@
 
     <string-array name="touch_music_player">
         <item>Reprodutor de música padrão</item>
-        <item>Reprodutor que estiver aberto</item>
+        <item>Reprodutor atualmente aberto</item>
         <item>Google Play Music</item>
         <item>Spotify Music</item>
     </string-array>
@@ -203,7 +204,7 @@
     <string-array name="touch_music_info">
         <item>Sem notificação</item>
         <item>Artista#Título</item>
-        <item>Artista, Título</item>
+        <item>Artista_Título</item>
         <item>Título</item>
     </string-array>
 
