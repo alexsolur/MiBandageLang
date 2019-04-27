@@ -72,7 +72,7 @@
     <string name="mi_band_setting_menu_menu">Meniu</string>
 
     <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage necesită instalarea aplicației oficiale Mi Fit pe același telefon. La început trebuie să împerechezi brățara în aplicația Mi Fit, apoi poți folosi Mi Bandage</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage necesită instalarea aplicației oficiale Mi Fit pe același telefon. La început trebuie să împerechezi brățara în aplicația Mi Fit, apoi poți folosi Mi Bandage. If you want to use Mi Fit, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Standalone</string>
     <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work</string>
 
@@ -492,6 +492,7 @@
     <string name="touch_call_mute_title">Comutator apel silențios</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Doar dacă primești un apel</string>
     <string name="touch_call_mute_recognition_title">În timpul unui apel primit</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/more/Find device</string>
 
     <string name="touch_call_out_title">Call out</string>
     <string name="touch_call_out_no_contact">Selectează un contact</string>
@@ -552,12 +553,13 @@
     <string name="touch_setting_recognition_failed_title">Model de atingere nerecunoscut</string>
 
     <!-- Touch monitoring info dialog -->
-    <string name="info_dialog_touch"><![CDATA[Atingerea este validă atunci când afișajul brățării se schimbă (deci este recomandabil să rotești încheietura mâinii înainte de a atinge).
+    <string name="info_dialog_touch"><![CDATA[
+        <mi_band_2>Atingerea este validă atunci când afișajul brățării se schimbă (deci este recomandabil să rotești încheietura mâinii înainte de a atinge).</mi_band_2>
         <p>Monitorizează timpul scurs între atingeri, nu timpul scurs până la prima atingere.</p>
         <p>Pictogramele verzi de pe carduri indică ce altă funcție poate fi similară cu modelul curent.</p>
         <p>Când se primește un apel, telefonul nu recunoaște următoarele funcții pentru a ușura folosirea atingerii: locația telefonului, repetarea notificărilor, controlul muzicii.</p>
         <p>În modul de testare nu se execută funcția modelului recunoscut.</p>
-        <p>Doar vibrații de feedback, dacă există un model care ține cont de starea curentă a telefonului (răspunsul la apel, respingerea numai dacă există un apel primit ...).</p>
+        <p>Doar vibrații de feedback, dacă există un model care ține cont de starea curentă a telefonului (răspunsul la apel, respingerea numai dacă există un apel primit …).</p>
         <p>Banda vibrează o dată, când recunoaște un model.</p>
         <p>Brățara vibrează de două ori atunci când nu recunoaște niciun model după modelul cel mai lung (dacă nu este setat <i>Semnal tactil nerecunoscut</i>).</p>
         <p>Exemple valide de atingere:
@@ -577,18 +579,28 @@
         <img src="ic_touch_pulse"> Măsurarea pulsului
         <mi_band_3><p>Pe brățară, în funcția de măsurare a pulsului, pornește măsurarea (atingere lungă) și apoi întrerupe măsurarea (o atingere) după 1 secundă.</p></mi_band_3>
         <amazfit_cor><p>Pe brățară, pornește funcția de măsurare a pulsului (Stare) și apoi întrerupe măsurarea (glisează spre dreapta) după o secundă.</p></amazfit_cor>
+        <amazfit_band_2><p>Pe brățară, pornește funcția de măsurare a pulsului (Stare) și apoi întrerupe măsurarea (glisează spre dreapta) după o secundă.</p></amazfit_band_2>
         <p>Trebuie să fie oprită în timpul măsurării continue și online a pulsului.<p>
+        <img src="ic_touch_find"> Find phone
+        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) start the measurement (long touch).</p></mi_band_3>
+        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) start the measurement.</p></amazfit_cor>
+        <amazfit_band_2>On the bracelet, in the Find phone function (Settings/Find phone) start the measurement.</p></amazfit_band_2>
+        <img src="ic_touch_find_off"> Interrupt phone finding
+        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) interrupt the finding (one touch).</p></mi_band_3>
+        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) interrupt the finding (swipe right).</p></amazfit_cor>
+        <amazfit_band_2><p>On the bracelet, in the Find phone function (Settings/Find phone) interrupt the finding (swipe right).</p></amazfit_band_2>
         <b><u>Mod performanță</u></b>
         <p>Crește consumul bateriei. În ecranul de întâmpinare, activează atingerea numai atunci când ai nevoie de ea.</p>
         <img src="ic_touch_app"> Atingere
         <mi_band_3><p>Atingerea este validă atunci când ecranul <mi_band_type> este stins.</p></mi_band_3>
         <amazfit_cor><p>Butonul de sub ecranul <mi_band_type>.</p></amazfit_cor>
+        <amazfit_band_2><p>Butonul de sub ecranul <mi_band_type>.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Ridicare încheietură
         <p>Ridicarea încheieturii este validă atunci când ecranul <mi_band_type> se aprinde.</p>
         <img src="ic_call"> <b><u>Control apel</b></u>
         <p>Funcționează întotdeauna, chiar dacă monitorizarea tactilă este oprită.</p>
         <br><p>În modul de testare nu se execută funcția modelului recunoscut.</p>
-        <p>Doar vibratie de feedback, dacă există un model care ține cont de starea curentă a telefonului (răspuns la apel, respingere numai dacă există un apel primit ...).</p>
+        <p>Doar vibratie de feedback, dacă există un model care ține cont de starea curentă a telefonului (răspuns la apel, respingere numai dacă există un apel primit …).</p>
         <p>Brățara vibrează o dată, când recunoaște un model.</p>
         <p>Brățara vibrează de două ori, atunci când nu se recunoaște niciun model după cel mai lung model (dacă este setat <i> Semnal model atingere nerecunoscut</i>).</p>
     ]]></string>
@@ -1002,8 +1014,7 @@
         <p>- fără reclame</p>
         <p>- mod Nu deranja</p>
         <p>- umonitorizare nelimitată a notificărilor</p>
-        <mi_band_2><p>- monitorizare nelimitată a atingerilor</p></mi_band_2>
-        <amazfit_bip_watch><p>- monitorizare nelimitată a atingerilor</p></amazfit_bip_watch>
+        <p>- monitorizare nelimitată a atingerilor</p>
         <p>- prefixarea textului, pre-pictograma și textul de filtrare pot fi utilizate în monitorizarea notificărilor</p>
         <p>- intervalul de repetare poate fi setat liber în funcția de monitorizare pași</p>
         <p>- intervalul de repetare poate fi setat liber și afișarea pulsului poatet fi utilizată în funcția de monitorizare a pulsului</p>

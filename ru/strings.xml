@@ -72,7 +72,7 @@
     <string name="mi_band_setting_menu_menu">меню</string>
 
     <string name="mi_band_setting_auth_mi_fit">Взаимодействие с Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage требуется приложение Mi Fit на устройстве. Сначала подключите браслет к Mi Fit, потом пользуйтесь Mi Bandage</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage требуется приложение Mi Fit на устройстве. Сначала подключите браслет к Mi Fit, потом пользуйтесь Mi Bandage. If you want to use Mi Fit, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Автономно</string>
     <string name="mi_band_setting_auth_standalone_hint">Mi Fit не нужен для работы Mi Bandage</string>
 
@@ -492,6 +492,7 @@
     <string name="touch_call_mute_title">Переключение звука звонка</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Только при входящем звонке</string>
     <string name="touch_call_mute_recognition_title">При входящем звонке</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/more/Find device</string>
 
     <string name="touch_call_out_title">Исходящий звонок</string>
     <string name="touch_call_out_no_contact">Выберите контакт</string>
@@ -552,7 +553,8 @@
     <string name="touch_setting_recognition_failed_title">Последовательность не распознана</string>
 
     <!-- Touch monitoring info dialog -->
-    <string name="info_dialog_touch"><![CDATA[Нажатие считается корректным, если происходит переход на новый пункт отображения (рекомендуется повернуть запястье перед нажатием).
+    <string name="info_dialog_touch"><![CDATA[
+        <mi_band_2>Нажатие считается корректным, если происходит переход на новый пункт отображения (рекомендуется повернуть запястье перед нажатием).</mi_band_2>
         <p>Используется время между нажатиями, а не время, прошедшее с первого нажатия.</p>
         <p>Зелёная иконка указывает, что другая функция похожа на текущую комбинацию.</p>
         <p>Во время входящего звонка не обрабатываются следующие функции: Положение устройства, Повтор уведомлений и Воспроизведение во избежание нежелательных срабатываний.</p>
@@ -577,12 +579,22 @@
         <img src="ic_touch_pulse"> Измерение пульса
         <mi_band_3><p>На браслете начните измерение пульса (долгое касание) и прервите его (одно касание) через секунду.</p></mi_band_3>
         <amazfit_cor><p>На браслете начните измерение пульса (Status) и прервите его (проведите вправо) через секунду.</p></amazfit_cor>
+        <amazfit_band_2><p>На браслете начните измерение пульса (Status) и прервите его (проведите вправо) через секунду.</p></amazfit_band_2>
         <p>Этот режим должен быть выключен во время постоянных, активных измерениях пульса и при упражнениях.<p>
+        <img src="ic_touch_find"> Find phone
+        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) start the measurement (long touch).</p></mi_band_3>
+        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) start the measurement.</p></amazfit_cor>
+        <amazfit_band_2>On the bracelet, in the Find phone function (Settings/Find phone) start the measurement.</p></amazfit_band_2>
+        <img src="ic_touch_find_off"> Interrupt phone finding
+        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) interrupt the finding (one touch).</p></mi_band_3>
+        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) interrupt the finding (swipe right).</p></amazfit_cor>
+        <amazfit_band_2><p>On the bracelet, in the Find phone function (Settings/Find phone) interrupt the finding (swipe right).</p></amazfit_band_2>
         <b><u>Режим производительности</u></b>
         <p>Увеличивает энергопотребление. Включайте касания на основном экране только когда они нужны.</p>
         <img src="ic_touch_app"> Касания
         <mi_band_3><p>Касание засчитывается, когда экран <mi_band_type> выключен.</p></mi_band_3>
         <amazfit_cor><p>Кнопка <mi_band_type> под экраном.</p></amazfit_cor>
+        <amazfit_band_2><p>Кнопка <mi_band_type> под экраном.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Поворот запястья
         <p>Поворот запястья засчитывается, когда экран <mi_band_type> включается.</p>
         <img src="ic_call"> <b><u>Управление звонками</b></u>
@@ -1002,8 +1014,7 @@
         <p>- нет рекламы</p>
         <p>- Режим \"Не беспокоить\"</p>
         <p>- нет ограничения на количество групп уведомлений</p>
-        <mi_band_2><p>- нет ограничения на функции касаний</p></mi_band_2>
-        <amazfit_bip_watch><p>- нет ограничения на функции касаний</p></amazfit_bip_watch>
+        <p>- нет ограничения на функции касаний</p>
         <p>- префикс текстовых уведомлений, пре-иконки, фильтры текста уведомлений</p>
         <p>- <i>Шагомер</i>: установка промежутка сбора данных по желанию</p>
         <p>- <i>Измерение пульса</i>: установка промежутка измерений по желанию, настройка отображения пульса</p>

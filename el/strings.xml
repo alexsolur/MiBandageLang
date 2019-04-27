@@ -72,7 +72,7 @@
     <string name="mi_band_setting_menu_menu">Μενού</string>
 
     <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Το Mi Bandage  απαιτεί την εγκατάσταση της επίσημης εφαρμογής Mi Fit στην ίδια συσκευή. Στην αρχή θα πρέπει να αντιστοιχίσετε Band με την εφαρμογή Mi Fit, μετά θα μπορείτε να χρησιμοποιήσετε το Mi Bandage</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Το Mi Bandage  απαιτεί την εγκατάσταση της επίσημης εφαρμογής Mi Fit στην ίδια συσκευή. Στην αρχή θα πρέπει να αντιστοιχίσετε Band με την εφαρμογή Mi Fit, μετά θα μπορείτε να χρησιμοποιήσετε το Mi Bandage. If you want to use Mi Fit, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Standalone</string>
     <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work</string>
 
@@ -491,6 +491,7 @@
     <string name="touch_call_mute_title">Εναλλαγή σίγασης κλήσης</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Μόνο εάν έχετε εισερχόμενη κλήση</string>
     <string name="touch_call_mute_recognition_title">Στην εισερχόμενη κλήση</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/more/Find device</string>
 
     <string name="touch_call_out_title">Εξερχόμενη κλήση</string>
     <string name="touch_call_out_no_contact">Επιλέξτε μια επαφή</string>
@@ -551,7 +552,8 @@
     <string name="touch_setting_recognition_failed_title">Μη αναγνωρίσιμο μοτίβο αφής</string>
 
     <!-- Touch monitoring info dialog -->
-    <string name="info_dialog_touch"><![CDATA[Η αφή είναι έγκυρη όταν η οθόνη της Band αλλάζει (γι \'αυτό είναι σκόπιμο να περιστρέψετε τον καρπό σας πριν αγγίξετε).
+    <string name="info_dialog_touch"><![CDATA[
+        <mi_band_2>Η αφή είναι έγκυρη όταν η οθόνη της Band αλλάζει (γι \'αυτό είναι σκόπιμο να περιστρέψετε τον καρπό σας πριν αγγίξετε).</mi_band_2>
         <p>Παρακολουθεί χρόνο που παρήλθε μεταξύ των αγγιγμάτων, όχι το χρόνο που έχει παρέλθει από το πρώτο πάτημα.</p>
         <p>Τα πράσινα εικονίδια στις κάρτες δείχνει ποια άλλη λειτουργία μπορεί να είναι παρόμοια με το τρέχον μοτίβο.</p>
         <p>Όταν έχετε μια εισερχόμενη κλήση η συσκευή δεν αναγνωρίζει τις ακόλουθες λειτουργίες, προκειμένου να διευκολυνθεί η είσοδος αφής: θέση της συσκευής, επανάληψη ειδοποιήσεων, τον έλεγχο της μουσικής.</p>
@@ -576,12 +578,22 @@
         <img src="ic_touch_pulse"> Pulse measurement
         <mi_band_3><p>On the bracelet, in the pulse measurement function, start the measurement (long touch) and then interrupt the measurement (one touch) after 1 second.</p></mi_band_3>
         <amazfit_cor><p>On the bracelet, start the pulse measurement function (Status) and then interrupt the measurement (swipe right) after 1 second.</p></amazfit_cor>
+        <amazfit_band_2><p>On the bracelet, start the pulse measurement function (Status) and then interrupt the measurement (swipe right) after 1 second.</p></amazfit_band_2>
         <p>It must be turn off during continuous, online pulse measurement and exercise.<p>
+        <img src="ic_touch_find"> Find phone
+        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) start the measurement (long touch).</p></mi_band_3>
+        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) start the measurement.</p></amazfit_cor>
+        <amazfit_band_2>On the bracelet, in the Find phone function (Settings/Find phone) start the measurement.</p></amazfit_band_2>
+        <img src="ic_touch_find_off"> Interrupt phone finding
+        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) interrupt the finding (one touch).</p></mi_band_3>
+        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) interrupt the finding (swipe right).</p></amazfit_cor>
+        <amazfit_band_2><p>On the bracelet, in the Find phone function (Settings/Find phone) interrupt the finding (swipe right).</p></amazfit_band_2>
         <b><u>Performance mode</u></b>
         <p>Increases battery consumption. On the home screen turn on the touch only when you need it.</p>
         <img src="ic_touch_app"> Touch
         <mi_band_3><p>Touch is valid when the <mi_band_type> screen is off.</p></mi_band_3>
         <amazfit_cor><p>The button below the <mi_band_type> screen.</p></amazfit_cor>
+        <amazfit_band_2><p>The button below the <mi_band_type> screen.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Wrist lift
         <p>Wrist lift is valid when the <mi_band_type> screen turns on.</p>
         <img src="ic_call"> <b><u>Call control</b></u>
@@ -1001,8 +1013,7 @@
         <p>- χωρίς διαφημίσεις</p>
         <p>- λειτουργία μην ενοχλείτε</p>
         <p>- απεριόριστη παρακολούθηση ειδοποιήσεων</p>
-        <mi_band_2><p>- απεριόριστη παρακολούθηση αφής</p></mi_band_2>
-        <amazfit_bip_watch><p>- απεριόριστη παρακολούθηση αφής</p></amazfit_bip_watch>
+        <p>- απεριόριστη παρακολούθηση αφής</p><
         <p>- πρόθεμα κειμένου μπορεί να χρησιμοποιηθεί στην παρακολούθηση ειδοποιήσεων</p>
         <p>- το διάστημα επανάληψης μπορεί να ρυθμιστεί ελεύθερα στην λειτουργία παρακολούθησης βημάτων</p>
         <p>- στην λειτουργία παλμού τα διαστήματα επανάληψης παλμού μπορούν να ρυθμιστούν ελεύθερα</p>

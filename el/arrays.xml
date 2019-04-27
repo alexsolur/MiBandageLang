@@ -5,19 +5,9 @@
         <item>Γυναίκα</item>
     </string-array>
 
-    <string-array name="pref_gender_values">
-        <item>MALE</item>
-        <item>FEMALE</item>
-    </string-array>
-
     <string-array name="pref_wear_location">
         <item>Αριστερός καρπός</item>
         <item>Δεξής καρπός</item>
-    </string-array>
-
-    <string-array name="pref_wear_location_values">
-        <item>LEFT_WRIST</item>
-        <item>RIGHT_WRIST</item>
     </string-array>
 
     <string-array name="pref_distance_unit">
@@ -25,19 +15,9 @@
         <item>Imperial (μίλι)</item>
     </string-array>
 
-    <string-array name="pref_distance_unit_values">
-        <item>METRIC</item>
-        <item>IMPERIAL</item>
-    </string-array>
-
     <string-array name="pref_night_mode">
         <item>Προγραμματισμός ώρας ενεργοποίησης</item>
         <!--<item>Ενεργοποίηση μετά το ηλιοβασίλεμα</item>-->
-    </string-array>
-
-    <string-array name="pref_night_mode_values">
-        <item>SCHEDULED</item>
-        <!--<item>SUNSET</item>-->
     </string-array>
 
     <string-array name="pref_menu_mi_band">
@@ -61,41 +41,12 @@
         <item>Alipay</item>
     </string-array>
 
-    <string-array name="pref_menu_mi_band_values">
-        <item>CLOCK</item>
-        <item>STEP</item>
-        <item>DISTANCE</item>
-        <item>CALORIE</item>
-        <item>HEART_RATE</item>
-        <item>BATTERY</item>
-        <item>STATUS</item>
-        <item>WEATHER</item>
-        <item>WORKOUT</item>
-        <item>NOTIFICATION</item>
-        <item>MORE</item>
-        <item>NFC</item>
-        <item>ALARM</item>
-        <item>TIMER</item>
-        <item>SETTINGS</item>
-        <item>COMPASS</item>
-        <item>MUSIC</item>
-        <item>ALIPAY</item>
-    </string-array>
-
     <string-array name="pref_connected_have_notif_counter">
         <item>Αριθμός ειδοποιήσεων</item>
         <item>Μία φορά ανά εικονίδιο του Band</item>
         <item>1 \'app\' icon</item>
         <item>2 \'app\' icon</item>
         <item>3 \'app\' icon</item>
-    </string-array>
-
-    <string-array name="pref_connected_have_notif_counter_values">
-        <item>-1</item>
-        <item>-2</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_interval">
@@ -107,17 +58,6 @@
         <item>1 ώρα</item>
         <item>2 ώρες</item>
         <item>3 ώρες</item>
-    </string-array>
-
-    <string-array name="pref_connected_have_notif_interval_values">
-        <item>3</item>
-        <item>5</item>
-        <item>10</item>
-        <item>20</item>
-        <item>30</item>
-        <item>60</item>
-        <item>120</item>
-        <item>180</item>
     </string-array>
 
     <string-array name="pref_abandoned_interval">
@@ -133,19 +73,6 @@
         <item>10 λεπτά</item>
     </string-array>
 
-    <integer-array name="pref_abandoned_interval_values">
-        <item>60000</item>
-        <item>120000</item>
-        <item>180000</item>
-        <item>240000</item>
-        <item>300000</item>
-        <item>360000</item>
-        <item>420000</item>
-        <item>480000</item>
-        <item>540000</item>
-        <item>600000</item>
-    </integer-array>
-
     <string-array name="pref_abandoned_notif_interval">
         <item>10 λεπτά</item>
         <item>20 λεπτά</item>
@@ -154,15 +81,6 @@
         <item>2 ώρες</item>
         <item>3 ώρες</item>
     </string-array>
-
-    <integer-array name="pref_abandoned_notif_interval_values">
-        <item>10</item>
-        <item>20</item>
-        <item>30</item>
-        <item>60</item>
-        <item>120</item>
-        <item>180</item>
-    </integer-array>
 
     <string-array name="notification_group_counter">
         <item>Αριθμός ειδοποιήσεων</item>
@@ -193,13 +111,6 @@
         <item>Spotify Music</item>
     </string-array>
 
-    <string-array name="touch_music_player_values">
-        <item></item>
-        <item>ACTIVE</item>
-        <item>com.google.android.music</item>
-        <item>com.spotify.music</item>
-    </string-array>
-
     <string-array name="touch_music_info">
         <item>Χωρίς γνωστοποίηση</item>
         <item>Καλλιτέχνης#Τίτλος</item>
@@ -207,21 +118,9 @@
         <item>Τίτλος</item>
     </string-array>
 
-    <string-array name="touch_music_info_values">
-        <item>NONE</item>
-        <item>ARTIST#TITLE</item>
-        <item>ARTIST_TITLE</item>
-        <item>TITLE</item>
-    </string-array>
-
     <string-array name="touch_camera_app">
         <item>Προεπιλογή (απαιτείται root)</item>
         <item>Άνοιξε κάμερα</item>
-    </string-array>
-
-    <string-array name="touch_camera_app_values">
-        <item></item>
-        <item>net.sourceforge.opencamera</item>
     </string-array>
 
     <string-array name="pref_timer_time_interval_repeat">
@@ -252,34 +151,6 @@
         <item>5 ώρες</item>
     </string-array>
 
-    <integer-array name="pref_timer_time_interval_repeat_values">
-        <item>0</item>
-        <item>60000</item>
-        <item>120000</item>
-        <item>180000</item>
-        <item>240000</item>
-        <item>300000</item>
-        <item>360000</item>
-        <item>420000</item>
-        <item>480000</item>
-        <item>540000</item>
-        <item>600000</item>
-        <item>660000</item>
-        <item>720000</item>
-        <item>780000</item>
-        <item>840000</item>
-        <item>900000</item>
-        <item>1200000</item>
-        <item>1800000</item>
-        <item>2400000</item>
-        <item>3000000</item>
-        <item>3600000</item>
-        <item>7200000</item>
-        <item>10800000</item>
-        <item>14400000</item>
-        <item>18000000</item>
-    </integer-array>
-
     <string-array name="notification_group_text_content_slice">
         <item>1 κομμάτι (1-%1$,d chars)</item>
         <item>2 κομμάτια (1-%1$,d chars)</item>
@@ -292,19 +163,6 @@
         <item>9 κομμάτια (1-%1$,d chars)</item>
         <item>10 κομμάτια (1-%1$,d chars)</item>
     </string-array>
-
-    <integer-array name="notification_group_text_content_slice_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-    </integer-array>
 
     <string-array name="notification_group_display_time">
         <item>Auto (3 – 5 δευτερόλεπτα)</item>
@@ -323,22 +181,19 @@
         <item>Συνεχόμενο άγγιγμα</item>
     </string-array>
 
-    <string-array name="touch_recognition_press_values">
-        <item>NONE</item>
-        <item>TOUCH</item>
-        <item>DOUBLE_TOUCH</item>
-        <item>TRIPLE_TOUCH</item>
-        <item>LONG_TOUCH</item>
+    <string-array name="touch_recognition_press_amazfit_cor">
+        <item>Χωρίς άγγιγμα</item>
+        <item>Κόκκινο κουμπί</item>
+        <item>Διπλό άγγιγμα</item>
+        <item>Τριπλό άγγιγμα</item>
+        <item>Πράσινο κουμπί</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method">
         <item>Power saving (pulse)</item>
+        <item>Power saving (find phone)</item>
+        <item>Power saving (pulse and find phone)</item>
         <item>Performance</item>
-    </string-array>
-
-    <string-array name="pref_touch_detection_method_values">
-        <item>PULSE</item>
-        <item>PERFORMANCE</item>
     </string-array>
 
     <string-array name="touch_recognition_start_trigger">
@@ -347,26 +202,9 @@
         <item>Πατήστε παρατεταμένα το κουμπί</item>
     </string-array>
 
-    <string-array name="touch_recognition_start_trigger_values">
-        <item>NONE</item>
-        <item>PATTERN</item>
-        <item>LONG_PRESS</item>
-    </string-array>
-
-    <string-array name="pref_weather_provider_values">
-        <item>OPEN_WEATHER_MAP</item>
-        <item>DARK_SKY</item>
-        <!--<item>ACCU_WEATHER</item>-->
-    </string-array>
-
     <string-array name="pref_weather_unit">
         <item>Μετρικός (Κελσίου ℃)</item>
         <item>Imperial (Φαρενάιτ ℉)</item>
-    </string-array>
-
-    <string-array name="pref_weather_unit_values">
-        <item>METRIC</item>
-        <item>IMPERIAL</item>
     </string-array>
 
     <string-array name="pref_weather_current_display">
@@ -375,20 +213,9 @@
         <item>Am, Pm</item>
     </string-array>
 
-    <string-array name="pref_weather_current_display_values">
-        <item>CURRENT</item>
-        <item>AVERAGE</item>
-        <item>AM_PM</item>
-    </string-array>
-
     <string-array name="pref_weather_forecast_display">
         <item>Average</item>
         <item>Am, Pm</item>
-    </string-array>
-
-    <string-array name="pref_weather_forecast_display_values">
-        <item>AVERAGE</item>
-        <item>AM_PM</item>
     </string-array>
 
     <string-array name="widget_event">
@@ -398,15 +225,6 @@
         <item>Μετρήσεις παλμών</item>
         <item>Οθόνη ειδοποιήσεων</item>
         <item>Reminde screen</item>
-    </string-array>
-
-    <string-array name="widget_event_values">
-        <item>LAUNCH_BANDAGES</item>
-        <item>LAUNCH_ACTIVITY</item>
-        <item>LAUNCH_PULSE</item>
-        <item>ACTION_PULSE</item>
-        <item>LAUNCH_TIME_ALARM</item>
-        <item>LAUNCH_REMINDER</item>
     </string-array>
 
     <string-array name="pref_language">

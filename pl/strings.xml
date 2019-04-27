@@ -72,7 +72,7 @@
     <string name="mi_band_setting_menu_menu">Menu</string>
 
     <string name="mi_band_setting_auth_mi_fit">Współpraca z Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage wymaga instalacji oficjalnej aplikacji Mi Fit na tym samym telefonie. Najpierw musisz sparować Opaskę w aplikacji Mi Fit, potem możesz użyć Mi Bandage</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage wymaga instalacji oficjalnej aplikacji Mi Fit na tym samym telefonie. Najpierw musisz sparować Opaskę w aplikacji Mi Fit, potem możesz użyć Mi Bandage. If you want to use Mi Fit, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Samodzielny</string>
     <string name="mi_band_setting_auth_standalone_hint">Aplikacja Mi Fit nie jest wymagana do pracy Mi Bandage</string>
 
@@ -492,6 +492,7 @@
     <string name="touch_call_mute_title">Wyciszenie połączenia</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Tylko jeśli masz połączenie przychodzące</string>
     <string name="touch_call_mute_recognition_title">Podczas połączenia przychodzącego</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/more/Find device</string>
 
     <string name="touch_call_out_title">Dzwonienie</string>
     <string name="touch_call_out_no_contact">Wybierz kontakt</string>
@@ -552,7 +553,8 @@
     <string name="touch_setting_recognition_failed_title">Nierozopoznany wzór dotknięć</string>
 
     <!-- Touch monitoring info dialog -->
-    <string name="info_dialog_touch"><![CDATA[Dotknięcie jest ważne, gdy zmienia się wyświetlanie na Opasce (dlatego wskazane jest obrócenie nadgarstka przed dotknięciem).
+    <string name="info_dialog_touch"><![CDATA[
+        <mi_band_2>Dotknięcie jest ważne, gdy zmienia się wyświetlanie na Opasce (dlatego wskazane jest obrócenie nadgarstka przed dotknięciem).</mi_band_2>
         <p>Monitoruje upływ czasu pomiędzy dotknięciami, a nie czas, jaki upłynął od pierwszego dotknięcia.</p>
         <p>Zielone ikony na kartach wskazują, która inna funkcja może być podobna do bieżącego wzoru.</p>
         <p>Po otrzymaniu połączenia telefon nie rozpoznaje następujących funkcji, aby ułatwić wprowadzanie dotykowe: lokalizacja telefonu, powtarzanie powiadomień, sterowanie muzyką.</p>
@@ -577,12 +579,22 @@
         <img src="ic_touch_pulse"> Pomiar pulsu
         <mi_band_3><p>Na bransoletce, w funkcji pomiaru tętna, rozpocznij pomiar (długi dotyk), a następnie przerwij pomiar (jednym dotknięciem) po 1 sekundzie.</p></mi_band_3>
         <amazfit_cor><p>Na bransoletce uruchom funkcję pomiaru tętna (status), a następnie przerwij pomiar (przesuń palcem w prawo) po 1 sekundzie.</p></amazfit_cor>
+        <amazfit_band_2><p>Na bransoletce uruchom funkcję pomiaru tętna (status), a następnie przerwij pomiar (przesuń palcem w prawo) po 1 sekundzie.</p></amazfit_band_2>
         <p>Musi być wyłączony podczas ciągłego pomiaru tętna online i ćwiczeń.<p>
+        <img src="ic_touch_find"> Find phone
+        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) start the measurement (long touch).</p></mi_band_3>
+        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) start the measurement.</p></amazfit_cor>
+        <amazfit_band_2>On the bracelet, in the Find phone function (Settings/Find phone) start the measurement.</p></amazfit_band_2>
+        <img src="ic_touch_find_off"> Interrupt phone finding
+        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) interrupt the finding (one touch).</p></mi_band_3>
+        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) interrupt the finding (swipe right).</p></amazfit_cor>
+        <amazfit_band_2><p>On the bracelet, in the Find phone function (Settings/Find phone) interrupt the finding (swipe right).</p></amazfit_band_2>
         <b><u>Tryb wydajności</u></b>
         <p>Zwiększa zużycie baterii. Na ekranie głównym włącz dotyk tylko wtedy, gdy go potrzebujesz.</p>
         <img src="ic_touch_app"> Dotyk
         <mi_band_3><p>Dotyk jest prawidłowy, gdy ekran <mi_band_type> jest wyłączony.</p></mi_band_3>
         <amazfit_cor><p>Przycisk pod ekranem <mi_band_type>.</p></amazfit_cor>
+        <amazfit_band_2><p>Przycisk pod ekranem <mi_band_type>.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Podnoszenie nadgarstka
         <p>Podnoszenie nadgarstka jest ważne, gdy ekran <mi_band_type> się włączy.</p>
         <img src="ic_call"> <b><u>Kontrola połączenia</b></u>
@@ -1002,8 +1014,7 @@
         <p>- Bez reklam</p>
         <p>- Tryb Nie przeszkadzać</p>
         <p>- Nieograniczone monitorowanie powiadomień</p>
-        <mi_band_2><p>- Nieograniczony monitoring dotknięć</p></mi_band_2>
-        <amazfit_bip_watch><p>- Nieograniczony monitoring dotknięć</p></amazfit_bip_watch>
+        <p>- Nieograniczony monitoring dotknięć</p>
         <p>- Prefiks tekstowy, wstępna ikona i filtrowanie tekstu mogą być używane w monitorowaniu powiadomień</p>
         <p>- Interwał powtarzania można ustawić dowolnie w funkcji monitorowania kroku</p>
         <p>- Interwał powtarzania można ustawić dowolnie, a pokazywanie tętna może być używane w funkcji monitorowania tętna</p>

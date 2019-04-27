@@ -72,7 +72,7 @@
     <string name="mi_band_setting_menu_menu">Menü</string>
 
     <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage benötigt die offizielle Mi Fit-App auf demselben Gerät. Vor der Verwendung der Mi Bandage-App muss das Band mit der Mi Fit-App verbunden sein</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage benötigt die offizielle Mi Fit-App auf demselben Gerät. Vor der Verwendung der Mi Bandage-App muss das Band mit der Mi Fit-App verbunden sein. If you want to use Mi Fit, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Standalone</string>
     <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work</string>
 
@@ -493,6 +493,7 @@
     <string name="touch_call_mute_title">Stummschaltung des Anrufs ändern</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Only if you have an incoming call</string>
     <string name="touch_call_mute_recognition_title">On incoming call</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/more/Find device</string>
 
     <string name="touch_call_out_title">Anruf</string>
     <string name="touch_call_out_no_contact">Select an contact</string>
@@ -553,7 +554,8 @@
     <string name="touch_setting_recognition_failed_title">Kein erkennbares Touch-Muster-Signal</string>
 
     <!-- Touch monitoring info dialog -->
-    <string name="info_dialog_touch"><![CDATA[Die Berührung wird erkannt, wenn sich der Bildschirminhalt der Mi Bands 2 sich verändert. (Sie sollten also vor der Berührung ihr Handgelenk anheben).
+    <string name="info_dialog_touch"><![CDATA[
+        <mi_band_2>Die Berührung wird erkannt, wenn sich der Bildschirminhalt der Mi Bands 2 sich verändert. (Sie sollten also vor der Berührung ihr Handgelenk anheben).</mi_band_2>
         <p>Es zeigt die vergangene Zeit zwischen den Berührungen an, nicht die der ersten Berührung.</p>
         <p>Grüne Embleme auf den Karten zeigen an, welche Funktionen ähnlich zu dem aktuellen Muster sein könnten.</p>
         <p>Falls Sie angerufen werden, wird das Gerät zur Erleichterung der Touch-Eingabe die folgenden Funktionene ignorieren: Standort des Geräts, Benachrichtigungen wiederholen und Musiksteuerung.</p>
@@ -578,12 +580,22 @@
         <img src="ic_touch_pulse"> Pulse measurement
         <mi_band_3><p>On the bracelet, in the pulse measurement function, start the measurement (long touch) and then interrupt the measurement (one touch) after 1 second.</p></mi_band_3>
         <amazfit_cor><p>On the bracelet, start the pulse measurement function (Status) and then interrupt the measurement (swipe right) after 1 second.</p></amazfit_cor>
+        <amazfit_band_2><p>On the bracelet, start the pulse measurement function (Status) and then interrupt the measurement (swipe right) after 1 second.</p></amazfit_band_2>
         <p>It must be turn off during continuous, online pulse measurement and exercise.<p>
+        <img src="ic_touch_find"> Find phone
+        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) start the measurement (long touch).</p></mi_band_3>
+        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) start the measurement.</p></amazfit_cor>
+        <amazfit_band_2>On the bracelet, in the Find phone function (Settings/Find phone) start the measurement.</p></amazfit_band_2>
+        <img src="ic_touch_find_off"> Interrupt phone finding
+        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) interrupt the finding (one touch).</p></mi_band_3>
+        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) interrupt the finding (swipe right).</p></amazfit_cor>
+        <amazfit_band_2><p>On the bracelet, in the Find phone function (Settings/Find phone) interrupt the finding (swipe right).</p></amazfit_band_2>
         <b><u>Performance mode</u></b>
         <p>Increases battery consumption. On the home screen turn on the touch only when you need it.</p>
         <img src="ic_touch_app"> Touch
         <mi_band_3><p>Touch is valid when the <mi_band_type> screen is off.</p></mi_band_3>
         <amazfit_cor><p>The button below the <mi_band_type> screen.</p></amazfit_cor>
+        <amazfit_band_2><p>The button below the <mi_band_type> screen.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Wrist lift
         <p>Wrist lift is valid when the <mi_band_type> screen turns on.</p>
         <img src="ic_call"> <b><u>Call control</b></u>
@@ -1003,8 +1015,7 @@
         <p>- keine Werbungen</p>
         <p>- Nicht Stören-Modus</p>
         <p>- unbegrenzte Benachrichtigungsanzeigen</p>
-        <mi_band_2><p>- unlimitierte Beobachtung des Berührungsssensors</p></mi_band_2>
-        <amazfit_bip_watch><p>- unlimitierte Beobachtung des Berührungsssensors</p></amazfit_bip_watch>
+        <p>- unlimitierte Beobachtung des Berührungsssensors</p>
         <p>- Textpräfix, Prä-Emblem und der Textfilter können in den Einstellungen der Benachrichtigungsanzeigen verändert werden.</p>
         <p>- Wiederholungsintervall kann unlimitiert in den Einstellungen des Schrittzählers verändert werden.</p>
         <p>- Wiederholungsintervall kann unlimitiert eingestellt werden und die Anzeige der Herzfrequenz kann der \'Herzfrequenz\'-Funktion verwendet werden.</p>

@@ -343,6 +343,14 @@
         <item>Long touch</item>
     </string-array>
 
+    <string-array name="touch_recognition_press_amazfit_cor">
+        <item>None</item>
+        <item>Red button</item>
+        <item>Double touch</item>
+        <item>Triple touch</item>
+        <item>Green button</item>
+    </string-array>
+
     <string-array name="touch_recognition_press_values">
         <item>NONE</item>
         <item>TOUCH</item>
@@ -353,11 +361,15 @@
 
     <string-array name="pref_touch_detection_method">
         <item>Power saving (pulse)</item>
+        <item>Power saving (find phone)</item>
+        <item>Power saving (pulse and find phone)</item>
         <item>Performance</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method_values">
         <item>PULSE</item>
+        <item>FIND</item>
+        <item>PULSE_FIND</item>
         <item>PERFORMANCE</item>
     </string-array>
 
