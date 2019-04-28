@@ -69,10 +69,10 @@
     <string name="mi_band_setting_menu_profile">Профиль</string>
     <string name="mi_band_setting_menu_setting">Настройки</string>
     <string name="mi_band_setting_menu_text">Текст/Вызов</string>
-    <string name="mi_band_setting_menu_menu">меню</string>
+    <string name="mi_band_setting_menu_menu">Меню</string>
 
     <string name="mi_band_setting_auth_mi_fit">Взаимодействие с Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage требуется приложение Mi Fit на устройстве. Сначала подключите браслет к Mi Fit, потом пользуйтесь Mi Bandage. If you want to use Mi Fit, choose this.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage требуется приложение Mi Fit на устройстве. Сначала подключите браслет к Mi Fit, потом пользуйтесь Mi Bandage. Выберите этот пункт для использования вместе с Mi Fit.</string>
     <string name="mi_band_setting_auth_standalone">Автономно</string>
     <string name="mi_band_setting_auth_standalone_hint">Mi Fit не нужен для работы Mi Bandage</string>
 
@@ -87,9 +87,9 @@
 
     <string name="mi_band_setting_distance_unit">Мера измерения расстояния</string>
 
-    <string name="mi_band_setting_standalone_setting">Автономные настройки</string>
-    <string name="mi_band_setting_time_24h">24-hour time format</string>
-    <string name="mi_band_setting_date">Display date on screen</string>
+    <string name="mi_band_setting_standalone_setting">Настройки автономного режима</string>
+    <string name="mi_band_setting_time_24h">24-часовой формат</string>
+    <string name="mi_band_setting_date">Отображение даты</string>
     <string name="mi_band_setting_lift_wrist">Поворот запястья</string>
     <string name="mi_band_setting_idle_alert">Оповещение о бездействии</string>
     <string name="mi_band_setting_idle_alert_time">Время бездействия</string>
@@ -111,8 +111,8 @@
     <string name="pref_text_length">Длина текста, в зависимости от шрифта</string>
     <string name="pref_text_length_summary_on">%1$,d символов</string>
 
-    <string name="mi_band_setting_menu_visible">Visible menu items</string>
-    <string name="mi_band_setting_menu_hidden">Hidden menu items</string>
+    <string name="mi_band_setting_menu_visible">Отображаемые элементы меню</string>
+    <string name="mi_band_setting_menu_hidden">Скрытые элементы меню</string>
 
     <string name="pref_text_conversion_description_title">Описание</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -492,7 +492,7 @@
     <string name="touch_call_mute_title">Переключение звука звонка</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Только при входящем звонке</string>
     <string name="touch_call_mute_recognition_title">При входящем звонке</string>
-    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/more/Find device</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/ещё/Поиск устройства</string>
 
     <string name="touch_call_out_title">Исходящий звонок</string>
     <string name="touch_call_out_no_contact">Выберите контакт</string>
@@ -581,14 +581,14 @@
         <amazfit_cor><p>На браслете начните измерение пульса (Status) и прервите его (проведите вправо) через секунду.</p></amazfit_cor>
         <amazfit_band_2><p>На браслете начните измерение пульса (Status) и прервите его (проведите вправо) через секунду.</p></amazfit_band_2>
         <p>Этот режим должен быть выключен во время постоянных, активных измерениях пульса и при упражнениях.<p>
-        <img src="ic_touch_find"> Find phone
-        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) start the measurement (long touch).</p></mi_band_3>
-        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) start the measurement.</p></amazfit_cor>
-        <amazfit_band_2>On the bracelet, in the Find phone function (Settings/Find phone) start the measurement.</p></amazfit_band_2>
-        <img src="ic_touch_find_off"> Interrupt phone finding
-        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) interrupt the finding (one touch).</p></mi_band_3>
-        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) interrupt the finding (swipe right).</p></amazfit_cor>
-        <amazfit_band_2><p>On the bracelet, in the Find phone function (Settings/Find phone) interrupt the finding (swipe right).</p></amazfit_band_2>
+        <img src="ic_touch_find"> Поиск устройства
+        <mi_band_3><p>На браслете в поиске устройства (More/Find device) начните измерение (долгое касание).</p></mi_band_3>
+        <amazfit_cor><p>На браслете в поиске устройства (Settings/Find phone) начните измерение.</p></amazfit_cor>
+        <amazfit_band_2>На браслете в поиске устройства (Settings/Find phone) начните измерение.</p></amazfit_band_2>
+        <img src="ic_touch_find_off"> Прервать поиск устройства
+        <mi_band_3><p>На браслете в поиске устройства (More/Find device) прервите поиск (одно касание).</p></mi_band_3>
+        <amazfit_cor><p>На браслете в поиске устройства (Settings/Find phone) прервите поиск (проведите вправо).</p></amazfit_cor>
+        <amazfit_band_2><p>На браслете в поиске устройства (Settings/Find phone) прервите поиск (проведите вправо).</p></amazfit_band_2>
         <b><u>Режим производительности</u></b>
         <p>Увеличивает энергопотребление. Включайте касания на основном экране только когда они нужны.</p>
         <img src="ic_touch_app"> Касания
