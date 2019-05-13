@@ -492,7 +492,7 @@
     <string name="touch_call_mute_title">Wyciszenie połączenia</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Tylko jeśli masz połączenie przychodzące</string>
     <string name="touch_call_mute_recognition_title">Podczas połączenia przychodzącego</string>
-    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/more/Find device</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
 
     <string name="touch_call_out_title">Dzwonienie</string>
     <string name="touch_call_out_no_contact">Wybierz kontakt</string>
@@ -863,44 +863,56 @@
     <string name="weather_display">Wyświetlaj</string>
 
     <!-- Watch face -->
-    <string name="watch_face_default_title">Zmiana tarczy zegarka</string>
+    <string name="watch_face_tab_download">Pobierz</string>
+    <string name="watch_face_tab_upload">Prześlij</string>
+    <string name="watch_face_tab_upload_mi_fit">Upload via Mi Fit</string>
 
-    <string name="watch_face_init_title">Inicjalizacja</string>
-    <string name="watch_face_init_content"><![CDATA[W aplikacji Mi Fit ustaw jedną z fabrycznych tarczy zegarka.
+    <string name="watch_face_download_title">Download watch face</string>
+    <string name="watch_face_download_path">Zapisz pobrany plik tarczy zegarka tutaj</string>
+    <string name="watch_face_download_move">%1$s directory</string>  <!-- %1$s = Download ... -->
+    <string name="watch_face_download_move_hint">Przenieś pobrane pliki tarcz zegarka z katalogu %1$s</string>
+
+    <string name="watch_face_upload_title">Zmiana tarczy zegarka</string>
+
+    <string name="watch_face_upload_prepare">Preparing for the upload…</string>
+    <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
+
+    <string name="watch_face_upload_init_title">Inicjalizacja</string>
+    <string name="watch_face_upload_init_content"><![CDATA[W aplikacji Mi Fit ustaw jedną z fabrycznych tarczy zegarka.
         <br>Podczas przesyłania musisz wybrać tę samą tarczę zegarka.
         <br><i>(inicjalizacja jest wymagana tylko raz)</i>
     ]]></string>
 
-    <string name="watch_face_download_title">Pobierz</string>
-    <string name="watch_face_download_path">Zapisz pobrany plik tarczy zegarka tutaj:</string>
-    <string name="watch_face_download_name">Nazwa pliku</string>
-    <string name="watch_face_download_move">Przenieś pobrane pliki tarcz zegarka z katalogu %1$s</string>
-
-    <string name="watch_face_upload_title">Prześlij</string>
+    <string name="watch_face_upload_upload_title">Prześlij</string>
     <string name="watch_face_upload_empty_title"><![CDATA[Nie znaleziono tarczy zegarka
         <br><i>(%1$s)</i>
     ]]></string>
+
     <string name="message_watch_face_upload_error">Wymagana inicjalizacja</string>
+    <string name="message_watch_face_file_error">Invalid watch face file</string>
+
+    <string name="info_dialog_watch_face_download"><![CDATA[
+        <img src="ic_file_download_outline"> <b><u>Pobierz</u></b>
+        <p>Pobierz tarcze zegarków ze stron internetowych.</p>
+
+        <img src="ic_action_download"> <b><u>Przenieś pliki</u></b>
+        <p>W razie potrzeby przenieś pobrane pliki tarcz zegarka z katalogu Pobranych plików do katalogu MiBandage.</p>
+        ]]>
+    </string>
 
     <string name="info_dialog_watch_face"><![CDATA[<b><u>Procedura zmiany tarczy zegarka:</u></b>
-        <br><br><img src="ic_mi_fit_init"> <b>1. Inicjalizacja</b>
-        <p>Resetuje stany tarczy do oryginału w aplikacji Mi Fit, przesyła pierwszą fabryczną tarczę zegarka.
+        <p><img src="ic_mi_fit_init"> <b>Inicjalizacja</b></p>
+        <p>Resetuje stany tarczy do oryginału w aplikacji Mi Fit, przesyła pierwszą fabryczną tarczę zegarka.</p>
 
-        <br><br><b>2. Pobierz</b>
-        <p>Pobierz tarcze zegarków ze stron internetowych.
+        <img src="ic_mi_fit_upload"> <b>Prześlij</b>
+        <p>Prześlij wybraną tarczę zegarka w Mi Fit. Zastępuje on ostatnią przesłaną fabryczną tarczę zegarka.</p>
 
-        <br><br><img src="ic_content_duplicate"> <b>3. Przenieś pliki</b>
-        <p>W razie potrzeby przenieś pobrane pliki tarcz zegarka z katalogu Pobranych plików do katalogu MiBandage.
+        <br><p><b><u>Prześlij wiele tarcz zegarka</u></b></p>
+        <p><img src="ic_action_launch_mi_fit"> Uruchamiając Mi Fit bez wymiany tarczy zegarka, prześlij drugą fabryczną tarczę zegarka.</p>
+        <p><img src="ic_mi_fit_upload">  Prześlij wybraną tarczę zegarka w Mi Fit.</p>
+        <p>Powtórz te kroki.</p>
 
-        <br><br><img src="ic_mi_fit_upload"> <b>4. Prześlij</b>
-        <p>Prześlij wybraną tarczę zegarka w Mi Fit. Zastępuje on ostatnią przesłaną fabryczną tarczę zegarka.
-
-        <br><br><br><b><u>Prześlij wiele tarcz zegarka</u></b>
-        <p><img src="ic_action_launch_mi_fit"> Uruchamiając Mi Fit bez wymiany tarczy zegarka, prześlij drugą fabryczną tarczę zegarka.
-        <p><img src="ic_mi_fit_upload">  Prześlij wybraną tarczę zegarka w Mi Fit.
-        <p>Powtórz te kroki.
-
-        <br><br>W Mi Fit obraz tarczy zegarka nie zmieni się.
+        <br><p>W Mi Fit obraz tarczy zegarka nie zmieni się.</p>
         ]]>
     </string>
 
@@ -1103,6 +1115,7 @@
     <string name="unknown">Nieznany</string>
     <string name="maximum">Maksymalny</string>
     <string name="all_day">Cały dzień</string>
+    <string name="file_name">Nazwa pliku</string>
 
     <string name="action_dismiss">Odwołaj</string>
     <string name="action_setting">Ustawienia</string>

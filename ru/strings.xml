@@ -863,24 +863,42 @@
     <string name="weather_display">Отображение</string>
 
     <!-- Watch face -->
-    <string name="watch_face_default_title">Изменение циферблата</string>
+    <string name="watch_face_tab_download">Загрузка</string>
+    <string name="watch_face_tab_upload">Установка</string>
+    <string name="watch_face_tab_upload_mi_fit">Upload via Mi Fit</string>
 
-    <string name="watch_face_init_title">Начало работы</string>
-    <string name="watch_face_init_content"><![CDATA[В Mi Fit установите один из заводских циферблатов.
+    <string name="watch_face_download_title">Download watch face</string>
+    <string name="watch_face_download_path">Поместите загруженный циферблат сюда</string>
+    <string name="watch_face_download_move">%1$s directory</string>  <!-- %1$s = Download ... -->
+    <string name="watch_face_download_move_hint">Переместите загруженный циферблат из директории %1$s</string>
+
+    <string name="watch_face_upload_title">Изменение циферблата</string>
+
+    <string name="watch_face_upload_prepare">Preparing for the upload…</string>
+    <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
+
+    <string name="watch_face_upload_init_title">Начало работы</string>
+    <string name="watch_face_upload_init_content"><![CDATA[В Mi Fit установите один из заводских циферблатов.
         <br>При загрузке необходимо выбрать тот же циферблат.
         <br><i>(процедура необходима только один раз)</i>
     ]]></string>
 
-    <string name="watch_face_download_title">Загрузка</string>
-    <string name="watch_face_download_path">Поместите загруженный циферблат сюда:</string>
-    <string name="watch_face_download_name">Имя файла</string>
-    <string name="watch_face_download_move">Переместите загруженный циферблат из директории %1$s</string>
-
-    <string name="watch_face_upload_title">Установка</string>
+    <string name="watch_face_upload_upload_title">Установка</string>
     <string name="watch_face_upload_empty_title"><![CDATA[Циферблат не найден
         <br><i>(%1$s)</i>
     ]]></string>
+
     <string name="message_watch_face_upload_error">Необходима подготовка к работе</string>
+    <string name="message_watch_face_file_error">Invalid watch face file</string>
+
+    <string name="info_dialog_watch_face_download"><![CDATA[
+        <img src="ic_file_download_outline"> <b><u>Загрузка</u></b>
+        <p>Загрузите циферблат на устройство.</p>
+
+        <img src="ic_action_download"> <b><u>Поместите в нужную директорию</u></b>
+        <p>Поместите циферблат в директорию MiBandage.</p>
+        ]]>
+    </string>
 
     <string name="info_dialog_watch_face"><![CDATA[<b><u>Процедура смены циферблата:</u></b>
         <br><br><img src="ic_mi_fit_init"> <b>1. Начало работы</b>
@@ -1103,6 +1121,7 @@
     <string name="unknown">Неизвестно</string>
     <string name="maximum">Полностью</string>
     <string name="all_day">Весь день</string>
+    <string name="file_name">Имя файла</string>
 
     <string name="action_dismiss">Отклонить</string>
     <string name="action_setting">Настройки</string>

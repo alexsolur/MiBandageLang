@@ -74,7 +74,7 @@
     <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
     <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage behøver installasjon av den offisielle Mi Fit appen på den samme telefonen. først må du parre Bandet i Mi Fit appen, så kan du bruke Mi Bandage. If you want to use Mi Fit, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit app or un-pair your device.</string>
 
     <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
 
@@ -492,7 +492,7 @@
     <string name="touch_call_mute_title">Call mute toggle</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Bare hvis du har et inkommende anrop</string>
     <string name="touch_call_mute_recognition_title">Ved innkommende anrop</string>
-    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/more/Find device</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
 
     <string name="touch_call_out_title">Ring ut</string>
     <string name="touch_call_out_no_contact">Velg en kontakt</string>
@@ -863,44 +863,56 @@
     <string name="weather_display">Fremover</string>
 
     <!-- Watch face -->
-    <string name="watch_face_default_title">Endre atch face</string>
+    <string name="watch_face_tab_download">Nedlastning</string>
+    <string name="watch_face_tab_upload">Laste opp</string>
+    <string name="watch_face_tab_upload_mi_fit">Upload via Mi Fit</string>
 
-    <string name="watch_face_init_title">Initialisering</string>
-    <string name="watch_face_init_content"><![CDATA[I Mi Fit Applikasjonen sett en av fabrikk watch facene.
+    <string name="watch_face_download_title">Download watch face</string>
+    <string name="watch_face_download_path">Lagre den nedlastede watch face filen her</string>
+    <string name="watch_face_download_move">%1$s directory</string>  <!-- %1$s = Download ... -->
+    <string name="watch_face_download_move_hint">Flytt de nedlastede watch face filene fra den %1$s destinasjonen</string>
+
+    <string name="watch_face_upload_title">Endre atch face</string>
+
+    <string name="watch_face_upload_prepare">Preparing for the upload…</string>
+    <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
+
+    <string name="watch_face_upload_init_title">Initialisering</string>
+    <string name="watch_face_upload_init_content"><![CDATA[I Mi Fit Applikasjonen sett en av fabrikk watch facene.
         <br>Du må merke den samme watch face når du laster opp.
         <br><i>(initialisering er påkrevd bare en gang)</i>
     ]]></string>
 
-    <string name="watch_face_download_title">Nedlastning</string>
-    <string name="watch_face_download_path">Lagre den nedlastede watch face filen her:</string>
-    <string name="watch_face_download_name">Fil navn</string>
-    <string name="watch_face_download_move">Flytt de nedlastede watch face filene fra den %1$s destinasjonen</string>
-
-    <string name="watch_face_upload_title">Laste opp</string>
+    <string name="watch_face_upload_upload_title">Laste opp</string>
     <string name="watch_face_upload_empty_title"><![CDATA[Watch face ikke funnet
         <br><i>(%1$s)</i>
     ]]></string>
+
     <string name="message_watch_face_upload_error">Initialisering er påkrevd</string>
+    <string name="message_watch_face_file_error">Invalid watch face file</string>
+
+    <string name="info_dialog_watch_face_download"><![CDATA[
+        <img src="ic_file_download_outline"> <b><u>Last ned</u></b>
+        <p>Last ned watch face fra web sider.</p>
+
+        <img src="ic_action_download"> <b><u>Move the files</u></b>
+        <p>Hvis nødvendig, flytt de nedlastede watch face filene fra det Nedlastede stedet til MiBandage stedet.</p>
+        ]]>
+    </string>
 
     <string name="info_dialog_watch_face"><![CDATA[<b><u>Watch face endre prosedyre:</u></b>
-        <br><br><img src="ic_mi_fit_init"> <b>1. Initialization</b>
-        <p>Tilbakestille watch face\'ne\'s status til originalt i Mi Fit applikasjonen, opplaste den første fabrikkinstillte watch face.
+        <p><img src="ic_mi_fit_init"> <b>Initialization</b></p>
+        <p>Tilbakestille watch face\'ne\'s status til originalt i Mi Fit applikasjonen, opplaste den første fabrikkinstillte watch face.</p>
 
-        <br><br><b>2. Last ned</b>
-        <p>Last ned watch face fra web sider.
+        <img src="ic_mi_fit_upload"> <b>Upload</b>
+        <p>Laste opp den valgte watch face i Mi Fit. det replasserer den siste opplastede fabrikkinstillte watch face.</p>
 
-        <br><br><img src="ic_content_duplicate"> <b>3. Move the files</b>
-        <p>Hvis nødvendig, flytt de nedlastede watch face filene fra det Nedlastede stedet til MiBandage stedet.
+        <br><p><b><u>Laste opp samtidige watch face</u></b></p>
+        <p><img src="ic_action_launch_mi_fit"> Kjøre Mi Fit uten watch face stedfortreder, laste opp den andre fabrikkinstillte watch face.</p>
+        <p><img src="ic_mi_fit_upload">  Laste opp valgte watch face i Mi Fit.</p>
+        <p>Gjenta disse trinnene.</p>
 
-        <br><br><img src="ic_mi_fit_upload"> <b>4. Upload</b>
-        <p>Laste opp den valgte watch face i Mi Fit. det replasserer den siste opplastede fabrikkinstillte watch face.
-
-        <br><br><br><b><u>Laste opp samtidige watch face</u></b>
-        <p><img src="ic_action_launch_mi_fit"> Kjøre Mi Fit uten watch face stedfortreder, laste opp den andre fabrikkinstillte watch face.
-        <p><img src="ic_mi_fit_upload">  Laste opp valgte watch face i Mi Fit.
-        <p>Gjenta disse trinnene.
-
-        <br><br>I Mi Fit vil ikke la watch face\'s bildene bli endret.
+        <br><p>I Mi Fit vil ikke la watch face\'s bildene bli endret.</p>
         ]]>
     </string>
 
@@ -1103,6 +1115,7 @@
     <string name="unknown">Ukjent</string>
     <string name="maximum">Maksimum</string>
     <string name="all_day">Alle-dager</string>
+    <string name="file_name">Fil navn</string>
 
     <string name="action_dismiss">Avvis</string>
     <string name="action_setting">Indtilling</string>

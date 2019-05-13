@@ -1,19 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="pref_gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="pref_wear_location">
+        <item>Left wrist</item>
+        <item>Right wrist</item>
+    </string-array>
+
+    <string-array name="pref_distance_unit">
+        <item>Metric (meters)</item>
+        <item>Imperial (miles)</item>
+    </string-array>
+
+    <string-array name="pref_night_mode">
+        <item>Schedule turn on time</item>
+        <!--<item>Turn on after sunset</item>-->
+    </string-array>
+
+    <string-array name="pref_menu_mi_band">
+        <item>Time</item>
+        <item>Steps</item>
+        <item>Distance</item>
+        <item>Calories</item>
+        <item>Heart rate</item>
+        <item>Battery</item>
+        <item>Status</item>
+        <item>Weather</item>
+        <item>Workout</item>
+        <item>Notifications</item>
+        <item>More</item>
+        <item>NFC</item>
+        <item>Alarm</item>
+        <item>Timer</item>
+        <item>Settings</item>
+        <item>Compass</item>
+        <item>Music</item>
+        <item>Alipay</item>
+    </string-array>
+
     <string-array name="pref_connected_have_notif_counter">
         <item>All notifications</item>
         <item>Once per Band icon</item>
         <item>1 \'app\' icon</item>
         <item>2 \'app\' icon</item>
         <item>3 \'app\' icon</item>
-    </string-array>
-
-    <string-array name="pref_connected_have_notif_counter_values">
-        <item>-1</item>
-        <item>-2</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_interval">
@@ -25,17 +58,6 @@
         <item>1 hour</item>
         <item>2 hours</item>
         <item>3 hours</item>
-    </string-array>
-
-    <string-array name="pref_connected_have_notif_interval_values">
-        <item>3</item>
-        <item>5</item>
-        <item>10</item>
-        <item>20</item>
-        <item>30</item>
-        <item>60</item>
-        <item>120</item>
-        <item>180</item>
     </string-array>
 
     <string-array name="pref_abandoned_interval">
@@ -51,19 +73,6 @@
         <item>10 minutes</item>
     </string-array>
 
-    <integer-array name="pref_abandoned_interval_values">
-        <item>60000</item>
-        <item>120000</item>
-        <item>180000</item>
-        <item>240000</item>
-        <item>300000</item>
-        <item>360000</item>
-        <item>420000</item>
-        <item>480000</item>
-        <item>540000</item>
-        <item>600000</item>
-    </integer-array>
-
     <string-array name="pref_abandoned_notif_interval">
         <item>10 minutes</item>
         <item>20 minutes</item>
@@ -72,15 +81,6 @@
         <item>2 hours</item>
         <item>3 hours</item>
     </string-array>
-
-    <integer-array name="pref_abandoned_notif_interval_values">
-        <item>10</item>
-        <item>20</item>
-        <item>30</item>
-        <item>60</item>
-        <item>120</item>
-        <item>180</item>
-    </integer-array>
 
     <string-array name="notification_group_counter">
         <item>All notifications</item>
@@ -111,13 +111,6 @@
         <item>Spotify Music</item>
     </string-array>
 
-    <string-array name="touch_music_player_values">
-        <item></item>
-        <item>ACTIVE</item>
-        <item>com.google.android.music</item>
-        <item>com.spotify.music</item>
-    </string-array>
-
     <string-array name="touch_music_info">
         <item>No notification</item>
         <item>Artist#Title</item>
@@ -125,21 +118,9 @@
         <item>Title</item>
     </string-array>
 
-    <string-array name="touch_music_info_values">
-        <item>NONE</item>
-        <item>ARTIST#TITLE</item>
-        <item>ARTIST_TITLE</item>
-        <item>TITLE</item>
-    </string-array>
-
     <string-array name="touch_camera_app">
         <item>Default (root is needed)</item>
         <item>Open Camera</item>
-    </string-array>
-
-    <string-array name="touch_camera_app_values">
-        <item></item>
-        <item>net.sourceforge.opencamera</item>
     </string-array>
 
     <string-array name="pref_timer_time_interval_repeat">
@@ -170,34 +151,6 @@
         <item>5 hours</item>
     </string-array>
 
-    <integer-array name="pref_timer_time_interval_repeat_values">
-        <item>0</item>
-        <item>60000</item>
-        <item>120000</item>
-        <item>180000</item>
-        <item>240000</item>
-        <item>300000</item>
-        <item>360000</item>
-        <item>420000</item>
-        <item>480000</item>
-        <item>540000</item>
-        <item>600000</item>
-        <item>660000</item>
-        <item>720000</item>
-        <item>780000</item>
-        <item>840000</item>
-        <item>900000</item>
-        <item>1200000</item>
-        <item>1800000</item>
-        <item>2400000</item>
-        <item>3000000</item>
-        <item>3600000</item>
-        <item>7200000</item>
-        <item>10800000</item>
-        <item>14400000</item>
-        <item>18000000</item>
-    </integer-array>
-
     <string-array name="notification_group_text_content_slice">
         <item>1 slice (1-%1$,d chars)</item>
         <item>2 slices (1-%1$,d chars)</item>
@@ -211,19 +164,6 @@
         <item>10 slices (1-%1$,d chars)</item>
     </string-array>
 
-    <integer-array name="notification_group_text_content_slice_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-    </integer-array>
-
     <string-array name="notification_group_display_time">
         <item>Auto (3 – 5 seconds)</item>
         <item>3 seconds</item>
@@ -233,26 +173,6 @@
         <item>7 seconds</item>
     </string-array>
 
-    <integer-array name="notification_group_display_time_values">
-        <item>0</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-    </integer-array>
-
-    <integer-array name="notification_group_display_time_millis">
-        <item>0</item>
-        <item>1000</item>
-        <item>2000</item>
-        <item>3200</item>
-        <item>4400</item>
-        <item>5600</item>
-        <item>6700</item>
-        <item>7800</item>
-    </integer-array>
-
     <string-array name="touch_recognition_press">
         <item>None</item>
         <item>Touch</item>
@@ -261,22 +181,19 @@
         <item>Long touch</item>
     </string-array>
 
-    <string-array name="touch_recognition_press_values">
-        <item>NONE</item>
-        <item>TOUCH</item>
-        <item>DOUBLE_TOUCH</item>
-        <item>TRIPLE_TOUCH</item>
-        <item>LONG_TOUCH</item>
+    <string-array name="touch_recognition_press_amazfit_cor">
+        <item>None</item>
+        <item>Red button</item>
+        <item>Double touch</item>
+        <item>Triple touch</item>
+        <item>Green button</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method">
         <item>Power saving (pulse)</item>
+        <item>Power saving (find phone)</item>
+        <item>Power saving (pulse and find phone)</item>
         <item>Performance</item>
-    </string-array>
-
-    <string-array name="pref_touch_detection_method_values">
-        <item>PULSE</item>
-        <item>PERFORMANCE</item>
     </string-array>
 
     <string-array name="touch_recognition_start_trigger">
@@ -285,26 +202,9 @@
         <item>Long press the button</item>
     </string-array>
 
-    <string-array name="touch_recognition_start_trigger_values">
-        <item>NONE</item>
-        <item>PATTERN</item>
-        <item>LONG_PRESS</item>
-    </string-array>
-
-    <string-array name="pref_weather_provider_values">
-        <item>OPEN_WEATHER_MAP</item>
-        <item>DARK_SKY</item>
-        <!--<item>ACCU_WEATHER</item>-->
-    </string-array>
-
     <string-array name="pref_weather_unit">
-        <item>Metric</item>
-        <item>Imperial</item>
-    </string-array>
-
-    <string-array name="pref_weather_unit_values">
-        <item>METRIC</item>
-        <item>IMPERIAL</item>
+        <item>Metric (Celsius ℃)</item>
+        <item>Imperial (Fahrenheit ℉)</item>
     </string-array>
 
     <string-array name="pref_weather_current_display">
@@ -313,20 +213,9 @@
         <item>Am, Pm</item>
     </string-array>
 
-    <string-array name="pref_weather_current_display_values">
-        <item>CURRENT</item>
-        <item>AVERAGE</item>
-        <item>AM_PM</item>
-    </string-array>
-
     <string-array name="pref_weather_forecast_display">
         <item>Average</item>
         <item>Am, Pm</item>
-    </string-array>
-
-    <string-array name="pref_weather_forecast_display_values">
-        <item>AVERAGE</item>
-        <item>AM_PM</item>
     </string-array>
 
     <string-array name="widget_event">
@@ -349,6 +238,7 @@
 
     <string-array name="pref_language">
         <item>Default</item>
+        <item>한국어</item>
         <item>English</item>
         <item>Magyar</item>
         <item>Русский</item>
@@ -365,11 +255,13 @@
         <item>Norsk</item>
         <item>Ελληνικά</item>
         <item>Indonesia</item>
+        <item>Română</item>
         <item>中文</item>
     </string-array>
 
     <string-array name="pref_language_values">
         <item>DEFAULT</item>
+        <item>ko</item>
         <item>en</item>
         <item>hu</item>
         <item>ru</item>
@@ -386,6 +278,7 @@
         <item>no</item>
         <item>el</item>
         <item>in</item>
+        <item>ro</item>
         <item>zh</item>
     </string-array>
 

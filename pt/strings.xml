@@ -492,7 +492,7 @@
     <string name="touch_call_mute_title">Silenciar</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Só se estiver a receber uma chamada</string>
     <string name="touch_call_mute_recognition_title">Em chamada recebida</string>
-    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/more/Find device</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
 
     <string name="touch_call_out_title">Telefonar para</string>
     <string name="touch_call_out_no_contact">Selecionar um contacto</string>
@@ -863,44 +863,56 @@
     <string name="weather_display">Ecrã</string>
 
     <!-- Watch face -->
-    <string name="watch_face_default_title">Alterar Watch Face</string>
+    <string name="watch_face_tab_download">Download</string>
+    <string name="watch_face_tab_upload">Upload</string>
+    <string name="watch_face_tab_upload_mi_fit">Upload via Mi Fit</string>
 
-    <string name="watch_face_init_title">Inicialização</string>
-    <string name="watch_face_init_content"><![CDATA[Faça o upload de uma das Watch Faces extras na aplicação Mi Fit.
+    <string name="watch_face_download_title">Download watch face</string>
+    <string name="watch_face_download_path">Guarde o ficheiro da Watch Face transferida aqui</string>
+    <string name="watch_face_download_move">%1$s directory</string>  <!-- %1$s = Download ... -->
+    <string name="watch_face_download_move_hint">Mover as Watch Faces transferidas da pasta %1$s para a pasta da Mi Bandage</string>
+
+    <string name="watch_face_upload_title">Alterar Watch Face</string>
+
+    <string name="watch_face_upload_prepare">Preparing for the upload…</string>
+    <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
+
+    <string name="watch_face_upload_init_title">Inicialização</string>
+    <string name="watch_face_upload_init_content"><![CDATA[Faça o upload de uma das Watch Faces extras na aplicação Mi Fit.
         <br>Você tem de selecionar a mesma Watch Face quando fizer o upload.
         <br><i>(Só precisa de fazer a Inicialização uma vez)</i>
     ]]></string>
 
-    <string name="watch_face_download_title">Download</string>
-    <string name="watch_face_download_path">Guarde o ficheiro da Watch Face transferida aqui:</string>
-    <string name="watch_face_download_name">Nome do ficeiro</string>
-    <string name="watch_face_download_move">Mover as Watch Faces transferidas da pasta %1$s para a pasta da Mi Bandage</string>
-
-    <string name="watch_face_upload_title">Upload</string>
+    <string name="watch_face_upload_upload_title">Upload</string>
     <string name="watch_face_upload_empty_title"><![CDATA[Watch face não encontrada
         <br><i>(%1$s)</i>
     ]]></string>
+
     <string name="message_watch_face_upload_error">É necessário fazer a Inicialização</string>
+    <string name="message_watch_face_file_error">Invalid watch face file</string>
+
+    <string name="info_dialog_watch_face_download"><![CDATA[
+        <img src="ic_file_download_outline"> <b><u>Download</u></b>
+        <p>Faça o download das Watch Faces a partir dos sites dados.</p>
+
+        <img src="ic_action_download"> <b><u>Mover os ficheiros/u></b>
+        <p>Se necessário, mova as Watch Faces da pasta onde as colocou para a pasta da Mi Bandage.</p>
+        ]]>
+    </string>
 
     <string name="info_dialog_watch_face"><![CDATA[<b><u>Como alterar a Watch Face:</u></b>
-        <br><br><img src="ic_mi_fit_init"> <b>1. Inicialização</b>
-        <p>Faça o upload da primeira Watch Face da lista na aplicação Mi Fit
+        <p><img src="ic_mi_fit_init"> <b>Inicialização</b></p>
+        <p>Faça o upload da primeira Watch Face da lista na aplicação Mi Fit</p>
 
-        <br><br><b>2. Download</b>
-        <p>Faça o download das Watch Faces a partir dos sites dados.
+        <img src="ic_mi_fit_upload"> <b>Upload</b>
+        <p>Faça o upload da Watch Face pretendida clicando no ícone que se encontra ao lado, selecionando de seguida a Watch Face usada na inicialização. Isso irá substituir a última Watch Face de fábrica adicionada.</p>
 
-        <br><br><img src="ic_content_duplicate"> <b>3. Mover os ficheiros</b>
-        <p>Se necessário, mova as Watch Faces da pasta onde as colocou para a pasta da Mi Bandage.
+        <br><p><b><u>Upload de várias watch faces</u></b></p>
+        <p><img src="ic_action_launch_mi_fit"> Inicie a Mi Fit sem substituir a Watch Face e faça o upload da segunda Watch Face de fábrica.</p>
+        <p><img src="ic_mi_fit_upload"> Faça o upload da Watch Face pretendida na Mi Fit.</p>
+        <p>Repita os passos anteriores.</p>
 
-        <br><br><img src="ic_mi_fit_upload"> <b>4. Upload</b>
-        <p>Faça o upload da Watch Face pretendida clicando no ícone que se encontra ao lado, selecionando de seguida a Watch Face usada na inicialização. Isso irá substituir a última Watch Face de fábrica adicionada.
-
-        <br><br><br><b><u>Upload de várias watch faces</u></b>
-        <p><img src="ic_action_launch_mi_fit">1- Inicie a Mi Fit sem substituir a Watch Face e faça o upload da segunda Watch Face de fábrica.
-        <p><img src="ic_mi_fit_upload"> 2- Faça o upload da Watch Face pretendida na Mi Fit.
-        <p>3- Repita os passos anteriores.
-
-        <br><br>A imagem da Watch Face na Mi Fit não vai mudar.
+        <br><p>A imagem da Watch Face na Mi Fit não vai mudar.</p>
         ]]>
     </string>
 
@@ -1102,6 +1114,7 @@
     <string name="unknown">Desconhecido</string>
     <string name="maximum">Máximo</string>
     <string name="all_day">Todo o dia</string>
+    <string name="file_name">Nome do ficeiro</string>
 
     <string name="action_dismiss">Recusar</string>
     <string name="action_setting">Definições</string>

@@ -74,7 +74,7 @@
     <string name="mi_band_setting_auth_mi_fit">与 Mi Fit 协作</string>
     <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage 需要在同一个手机上安装小米运动（Mi Fit）应用. 首先你需要在 Mi Fit 里连接手环,然后才能使用 Mi Bandage. If you want to use Mi Fit, choose this.</string>
     <string name="mi_band_setting_auth_standalone">独立模式</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Bandage 工作不再需要 Mi Fit</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Bandage 工作不再需要 Mi Fit. After the pairing, uninstall the Mi Fit app or un-pair your device.</string>
 
     <string name="message_mi_band_setting_auth_press_band_button">按下 %1$s 进行配对</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
 
@@ -488,7 +488,7 @@
     <string name="touch_call_mute_title">切换到静音模式</string>
     <string name="touch_call_mute_only_call_state_ringing_title">只当你有来电时</string>
     <string name="touch_call_mute_recognition_title">来电</string>
-    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/more/Find device</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
 
     <string name="touch_device_location_not_muted_only_title">只有在未静音或未处于 DnD 模式时才发声</string>
 
@@ -860,44 +860,56 @@
     <string name="weather_display">显示</string>
 
     <!-- Watch face -->
-    <string name="watch_face_default_title">更换表盘</string>
+    <string name="watch_face_tab_download">Download</string>
+    <string name="watch_face_tab_upload">Upload</string>
+    <string name="watch_face_tab_upload_mi_fit">Upload via Mi Fit</string>
 
-    <string name="watch_face_init_title">初始化</string>
-    <string name="watch_face_init_content"><![CDATA[在 Mi Fit 应用程序中设置表盘.
+    <string name="watch_face_download_title">Download watch face</string>
+    <string name="watch_face_download_path">保存下载的表盘至</string>
+    <string name="watch_face_download_move">%1$s directory</string>  <!-- %1$s = Download ... -->
+    <string name="watch_face_download_move_hint">从 %1$s 目录中移动下载的表盘</string>
+
+    <string name="watch_face_upload_title">更换表盘</string>
+
+    <string name="watch_face_upload_prepare">Preparing for the upload…</string>
+    <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
+
+    <string name="watch_face_upload_init_title">初始化</string>
+    <string name="watch_face_upload_init_content"><![CDATA[在 Mi Fit 应用程序中设置表盘.
         <br>上传时需要选择相同的表盘.
         <br><i>(初始化只需一次)</i>
     ]]></string>
 
-    <string name="watch_face_download_title">下载</string>
-    <string name="watch_face_download_path">保存下载的表盘至:</string>
-    <string name="watch_face_download_name">文件名</string>
-    <string name="watch_face_download_move">从 %1$s 目录中移动下载的表盘</string>
-
-    <string name="watch_face_upload_title">上传</string>
+    <string name="watch_face_upload_upload_title">上传</string>
     <string name="watch_face_upload_empty_title"><![CDATA[未找到表盘
         <br><i>(%1$s)</i>
     ]]></string>
+
     <string name="message_watch_face_upload_error">需要初始化</string>
+    <string name="message_watch_face_file_error">Invalid watch face file</string>
+
+    <string name="info_dialog_watch_face_download"><![CDATA[
+        <img src="ic_file_download_outline"> <b><u>下载</u></b>
+        <p>从网络下载表盘.</p>
+
+        <img src="ic_action_download"> <b><u>移动文件</u></b>
+        <p>如需要,将下载的表盘文件从下载目录移动到 MiBandage 目录.</p>
+        ]]>
+    </string>
 
     <string name="info_dialog_watch_face"><![CDATA[<b><u>更换表盘:</u></b>
-        <br><br><img src="ic_mi_fit_init"> <b>1. 初始化</b>
-        <p>在 Mi Fit 中还原表盘初始状态,上传第一个表盘.
+        <p><img src="ic_mi_fit_init"> <b>初始化</b></p>
+        <p>在 Mi Fit 中还原表盘初始状态,上传第一个表盘.</p>
 
-        <br><br><b>2. 下载</b>
-        <p>从网络下载表盘.
+        <img src="ic_mi_fit_upload"> <b>上传</b>
+        <p>在 Mi Fit 中上传选定的表盘，它取代上次上传的表盘.</p>
 
-        <br><br><img src="ic_content_duplicate"> <b>3. 移动文件</b>
-        <p>如需要,将下载的表盘文件从下载目录移动到 MiBandage 目录.
+        <br><p><b><u>上传多个表盘</u></b></p>
+        <p><img src="ic_action_launch_mi_fit"> 在未更换手表的情况下启动 Mi Fit,上传第二个表盘.</p>
+        <p><img src="ic_mi_fit_upload"> 在 Mi Fit 中上传选定的表盘.</p>
+        <p>重复以上步骤.</p>
 
-        <br><br><img src="ic_mi_fit_upload"> <b>4. 上传</b>
-        <p>在 Mi Fit 中上传选定的表盘，它取代上次上传的表盘.
-
-        <br><br><br><b><u>上传多个表盘</u></b>
-        <p><img src="ic_action_launch_mi_fit">在未更换手表的情况下启动 Mi Fit,上传第二个表盘.
-        <p><img src="ic_mi_fit_upload"> 在 Mi Fit 中上传选定的表盘.
-        <p>重复以上步骤.
-
-        <br><br>在 Mi Fit 中表盘的图片不会改变.
+        <br><p>在 Mi Fit 中表盘的图片不会改变.</p>
         ]]>
     </string>
 
@@ -1100,6 +1112,7 @@
     <string name="unknown">未知</string>
     <string name="maximum">最大值</string>
     <string name="all_day">全天</string>
+    <string name="file_name">文件名</string>
 
     <string name="action_dismiss">关闭</string>
     <string name="action_setting">设置</string>
