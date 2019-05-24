@@ -90,6 +90,8 @@
     <string name="mi_band_setting_standalone_setting">Настройки автономного режима</string>
     <string name="mi_band_setting_time_24h">24-часовой формат</string>
     <string name="mi_band_setting_date">Отображение даты</string>
+    <string name="mi_band_setting_lock_screen">Блокировка экрана браслета</string>
+    <string name="mi_band_setting_lock_screen_summary">Проведите вверх для разблокировки, когда браслет включен</string>
     <string name="mi_band_setting_lift_wrist">Поворот запястья</string>
     <string name="mi_band_setting_idle_alert">Оповещение о бездействии</string>
     <string name="mi_band_setting_idle_alert_time">Время бездействия</string>
@@ -901,24 +903,18 @@
     </string>
 
     <string name="info_dialog_watch_face"><![CDATA[<b><u>Процедура смены циферблата:</u></b>
-        <br><br><img src="ic_mi_fit_init"> <b>1. Начало работы</b>
-        <p>Установите в Mi Fit в качестве текущего циферблата первый заводской.
+        <p><img src="ic_mi_fit_init"> <b>Начало работы</b>/p>
+        <p>Установите в Mi Fit в качестве текущего циферблата первый заводской.</p>
 
-        <br><br><b>2. Загрузка</b>
-        <p>Загрузите циферблат на устройство.
+        <img src="ic_mi_fit_upload"> <b>Установка</b>
+        <p>Загрузите выбранный циферблат в Mi Fit. Это заменит последний загруженный заводской циферблат.</p>
 
-        <br><br><img src="ic_content_duplicate"> <b>3. Поместите в нужную директорию</b>
-        <p>Поместите циферблат в директорию MiBandage.
+        <br><p><b><u>Загрузка нескольких циферблатов</u></b></p>
+        <p><img src="ic_action_launch_mi_fit"> Запустить Mi Fit без замены циферблата, загрузить второй заводской циферблат.</p>
+        <p><img src="ic_mi_fit_upload">  Загрузите следующий выбранный циферблат в Mi Fit.</p>
+        <p>Продолжайте загружать желаемые циферблаты.</p>
 
-        <br><br><img src="ic_mi_fit_upload"> <b>4. Установка</b>
-        <p>Загрузите выбранный циферблат в Mi Fit. Это заменит последний загруженный заводской циферблат.
-
-        <br><br><br><b><u>Загрузка нескольких циферблатов</u></b>
-        <p><img src="ic_action_launch_mi_fit"> Запустить Mi Fit без замены циферблата, загрузить второй заводской циферблат.
-        <p><img src="ic_mi_fit_upload">  Загрузите следующий выбранный циферблат в Mi Fit.
-        <p>Продолжайте загружать желаемые циферблаты.
-
-        <br><br>В Mi Fit циферблат не изменится.
+        <br><p>В Mi Fit циферблат не изменится.</p>
         ]]>
     </string>
 
