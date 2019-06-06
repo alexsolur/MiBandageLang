@@ -21,24 +21,45 @@
     </string-array>
 
     <string-array name="pref_menu_mi_band">
-        <item>Time</item>
-        <item>Các bước</item>
+        <item>Giờ</item>
+        <item>Bước</item>
         <item>Khoảng cách</item>
         <item>Calories</item>
         <item>Nhịp tim</item>
-        <item>Ắc quy</item>
+        <item>Pin</item>
         <item>Trạng thái</item>
         <item>Thời tiết</item>
-        <item>Đào tạo</item>
+        <item>Luyện tập</item>
         <item>Thông báo</item>
-        <item>More</item>
-        <item>Khác</item>
+        <item>Thêm</item>
+        <item>NFC</item>
         <item>Báo thức</item>
         <item>Đồng hồ</item>
         <item>Cài đặt</item>
         <item>La bàn</item>
         <item>Nhạc</item>
         <item>Alipay</item>
+    </string-array>
+
+    <string-array name="pref_menu_mi_band_values">
+        <item>CLOCK</item>
+        <item>STEP</item>
+        <item>DISTANCE</item>
+        <item>CALORIE</item>
+        <item>HEART_RATE</item>
+        <item>BATTERY</item>
+        <item>STATUS</item>
+        <item>WEATHER</item>
+        <item>WORKOUT</item>
+        <item>NOTIFICATION</item>
+        <item>MORE</item>
+        <item>NFC</item>
+        <item>ALARM</item>
+        <item>TIMER</item>
+        <item>SETTINGS</item>
+        <item>COMPASS</item>
+        <item>MUSIC</item>
+        <item>ALIPAY</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_counter">
@@ -99,14 +120,14 @@
     <string-array name="touch_call_mute_ringer_mode">
         <item>Vibrate</item>
         <item>Mute</item>
-        <item>Do not disturb (priority only)</item>
-        <item>Do not disturb (alarms only)</item>
-        <item>Do not disturb (total silence)</item>
+        <item>Không làm phiền (Chỉ ưu tiên)</item>
+        <item>Không làm phiền (Chỉ báo thức)</item>
+        <item>Không làm phiền (Hoàn toàn im lặng)</item>
     </string-array>
 
     <string-array name="touch_music_player">
         <item>Trình phát nhạc mặc định</item>
-        <item>Currently running player</item>
+        <item>Đang phát</item>
         <item>Google Play Music</item>
         <item>Spotify Music</item>
     </string-array>
@@ -175,25 +196,25 @@
 
     <string-array name="touch_recognition_press">
         <item>Không</item>
-        <item>Touch</item>
-        <item>Double touch</item>
-        <item>Triple touch</item>
-        <item>Long touch</item>
+        <item>1 chạm</item>
+        <item>Chạm đúp</item>
+        <item>Chạm 3 lần</item>
+        <item>Bấm giữ</item>
     </string-array>
 
     <string-array name="touch_recognition_press_amazfit_cor">
         <item>Không</item>
         <item>Nút màu đỏ</item>
-        <item>Double touch</item>
-        <item>Triple touch</item>
+        <item>Chạm đúp</item>
+        <item>Chạm 3 lần</item>
         <item>Nút màu xanh lá cây</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method">
-        <item>Power saving (pulse)</item>
-        <item>Power saving (find phone)</item>
-        <item>Power saving (pulse and find phone)</item>
-        <item>Performance</item>
+        <item>Tiết kiếm pin (mạch đập)</item>
+        <item>Tiết kiếm pin (tìm điện thoại)</item>
+        <item>Tiết kiếm pin (mạc đập & tìm điện thoại)</item>
+        <item>Hiệu năng cao</item>
     </string-array>
 
     <string-array name="touch_recognition_start_trigger">
@@ -208,23 +229,23 @@
     </string-array>
 
     <string-array name="pref_weather_current_display">
-        <item>Current</item>
-        <item>Average</item>
+        <item>Hiện tại</item>
+        <item>Trung bình</item>
         <item>Am, Pm</item>
     </string-array>
 
     <string-array name="pref_weather_forecast_display">
-        <item>Average</item>
+        <item>Trung bình</item>
         <item>Am, Pm</item>
     </string-array>
 
     <string-array name="widget_event">
-        <item>Bandages screen</item>
-        <item>Activity screen</item>
-        <item>Pulse screen</item>
-        <item>Pulse measurement</item>
-        <item>Alarm screen</item>
-        <item>Reminder screen</item>
+        <item>Màn hình Bandages</item>
+        <item>Màn hình Hoạt động</item>
+        <item>Màn hình nhịp tim</item>
+        <item>Đo nhịp tim</item>
+        <item>Màn hình Báo thức</item>
+        <item>Màn hình nhắc nhở</item>
     </string-array>
 
     <string-array name="pref_language">
