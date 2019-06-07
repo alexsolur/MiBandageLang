@@ -71,12 +71,12 @@
     <string name="mi_band_setting_menu_text">Text/Hovor</string>
     <string name="mi_band_setting_menu_menu">Menu</string>
 
-    <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage vyžaduje instalaci oficiální aplikace Mi Fit na stejném zařízení. Nejprve musíte spárovat chytrý náramek v aplikaci Mi Fit, poté můžete použít aplikaci Mi Bandage. If you want to use Mi Fit, choose this.</string>
-    <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit app or un-pair your device.</string>
+    <string name="mi_band_setting_auth_mi_fit">Spolupráce s Mi Fit</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage vyžaduje instalaci oficiální aplikace Mi Fit na stejném zařízení. Nejprve musíte spárovat chytrý náramek v aplikaci Mi Fit, poté můžete použít aplikaci Mi Bandage. Zvolte tuto možnost, pokud chcete použít Mi Fit.</string>
+    <string name="mi_band_setting_auth_standalone">Samostatný</string>
+    <string name="mi_band_setting_auth_standalone_hint">Aplikace Mi Fit není nutná pro práci Mi Bandage. Po párování odinstalujte aplikaci Mi Fit nebo odpojte zařízení.</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_press_band_button">Pro spárování stiskni tlačítko %1$s</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
 
     <string name="mi_band_setting_nickname">Přezdívka</string>
     <string name="mi_band_setting_gender">Pohlaví</string>
@@ -94,7 +94,7 @@
     <string name="mi_band_setting_lock_screen_summary">Pokud je náramek zapnutý, potáhněte nahoru pro odemknutí obrazovky</string>
     <string name="mi_band_setting_lift_wrist">Zvednutí zápěstí pro zobrazení informací</string>
     <string name="mi_band_setting_idle_alert">Oznámení o nečinnosti</string>
-    <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
+    <string name="mi_band_setting_idle_alert_time">Čas nečinnosti</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
     <string name="mi_band_setting_night_mode">Noční režim</string>
 
@@ -544,7 +544,7 @@
     <string name="touch_testing_title">Záznam dotyku</string>
     <string name="touch_testing_second">sek.</string>
 
-    <string name="touch_setting_detection_method_title">Touch detection method</string>
+    <string name="touch_setting_detection_method_title">Metoda detekce dotyku</string>
 
     <string name="touch_setting_recognition_start_title">Spusťte rozpoznání dotyku</string>
     <string name="touch_setting_recognition_start_trigger_title">Spoušť</string>
@@ -857,27 +857,27 @@
     <string name="weather_city_title">Město</string>
     <string name="weather_unit_title">Jednotka</string>
 
-    <string name="weather_current_title">Current weather</string>
-    <string name="weather_current_temperature">Current temperature</string>
+    <string name="weather_current_title">Současné počasí</string>
+    <string name="weather_current_temperature">Současná teplota</string>
 
-    <string name="weather_forecast_title">Weather forecast</string>
+    <string name="weather_forecast_title">Předpověď počasí</string>
 
     <string name="weather_display">Display</string>
 
     <!-- Watch face -->
     <string name="watch_face_tab_download">Stáhnout</string>
     <string name="watch_face_tab_upload">Nahrát</string>
-    <string name="watch_face_tab_upload_mi_fit">Upload via Mi Fit</string>
+    <string name="watch_face_tab_upload_mi_fit">Nahrát přes Mi Fit</string>
 
-    <string name="watch_face_download_title">Download watch face</string>
+    <string name="watch_face_download_title">Stažení ciferníku</string>
     <string name="watch_face_download_path">Uložený soubor ciferníku zde</string>
-    <string name="watch_face_download_move">%1$s directory</string>  <!-- %1$s = Download ... -->
+    <string name="watch_face_download_move">%1$s adresář</string>  <!-- %1$s = Download ... -->
     <string name="watch_face_download_move_hint">Přesunout stáhnutý styl ciferníku přímo z %1$s </string>
 
     <string name="watch_face_upload_title">Změna ciferníku</string>
 
-    <string name="watch_face_upload_prepare">Preparing for the upload…</string>
-    <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
+    <string name="watch_face_upload_prepare">Příprava na nahrání…</string>
+    <string name="watch_face_upload_progress">Nahrání %1$,d%%</string>
 
     <string name="watch_face_upload_init_title">Inicializace</string>
     <string name="watch_face_upload_init_content"><![CDATA[V aplikaci Mi Fit nastavte jeden ze stylu ciferníku.
@@ -891,7 +891,7 @@
     ]]></string>
 
     <string name="message_watch_face_upload_error">Je zapotřebí inicializace</string>
-    <string name="message_watch_face_file_error">Invalid watch face file</string>
+    <string name="message_watch_face_file_error">Neplatný soubor ciferníku</string>
 
     <string name="info_dialog_watch_face_download"><![CDATA[
         <img src="ic_file_download_outline"> <b><u>Stáhnutí</u></b>
@@ -1132,6 +1132,8 @@
     <string name="action_test">Test</string>
     <string name="action_discard">Zahodit</string>
     <string name="action_keep_editing">Dále upravovat</string>
+    <string name="action_new">New</string>
+    <string name="action_start_stop">Start/Stop</string>
 
     <string name="action_chart">Graf</string>
     <string name="action_chart_normalize_minute">Naměřené hodnoty</string>

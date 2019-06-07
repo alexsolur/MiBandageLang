@@ -3,10 +3,10 @@ Supported devices:<b>
 - Xiaomi Mi Band 2
 - Xiaomi Mi Band HRX
 - Amazfit Bip (Pace Lite Youth)
+- Amazfit Band 2 (A1713)
 - Amazfit Cor (MiDong)
 - Amazfit Arc
 </b>
-Mi Bandage requires the installation of the official Mi Fit app on the same device. At first you have to pair the Band in Mi Fit app, then you can use Mi Bandage.
 
 <b>If you have a connection problem:</b>
 - recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon)
@@ -18,6 +18,7 @@ Mi Bandage requires the installation of the official Mi Fit app on the same devi
 - write me an email
 
 <b>Key features:</b>
+- cooperation with Mi Fit or completely independent working mode
 - show battery state, estimated remaining time
 - normal and internet incoming call signal with caller display
 - missed call signal with caller display on Band/Amazfit
@@ -27,45 +28,45 @@ Mi Bandage requires the installation of the official Mi Fit app on the same devi
 - show the most common emoticons
 
 <b>Mi Band/Amazfit connection features:</b>
- - change volume
- - Band vibrates
- - device screen wake up
- - immediate signal when notification is received
- - when you reconnect show missed notifications
- - notifications reminder
- - signal only when screen is off
- - ongoing notifications are enabled or disabled
+- change volume
+- Band vibrates
+- device screen wake up
+- immediate signal when notification is received
+- when you reconnect show missed notifications
+- notifications reminder
+- signal only when screen is off
+- ongoing notifications are enabled or disabled
 
 <b>Band disconnection features:</b>
- - icon displaying and vibrate on Band
- - playing ringtone on device, vibration, screen wake up
- - change volume
- - device monitoring agent: if someone tampered with the device while you are away, you will know (wake up the screen, power on, motion): notification on the device and Weibo icon on the Band
+- icon displaying and vibrate on Band
+- playing ringtone on device, vibration, screen wake up
+- change volume
+- device monitoring agent: if someone tampered with the device while you are away, you will know (wake up the screen, power on, motion): notification on the device and Weibo icon on the Band
 
 <b>Notification monitoring:</b>
- - unique signal configuration for apps notification
- - displays the app's notification texts on Band
- - pre icon/vibration to have more time to watch the Band
+- unique signal configuration for apps notification
+- displays the app's notification texts on Band
+- pre icon/vibration to have more time to watch the Band
 
 <b>Touch monitoring:</b>
- - call answering, speakerphone (turn off the launch music app when headset is connected setting, otherwise the music starts) (not all devices are supported)
- - call rejecting, ending (not all devices are supported)
- - call out
- - toggle call mute
- - find my device
- - repeat the phone's notifications on the bracelet
- - control music player (play, pause, next, previous, volume up/down, show music track info)
- - start timer/stopwatch/interval, showing remaining/elapsed time
- - take a photo
- - app launcher
- - Tasker task launcher
+- call answering, speakerphone (turn off the launch music app when headset is connected setting, otherwise the music starts) (not all devices are supported)
+- call rejecting, ending (not all devices are supported)
+- call out
+- toggle call mute
+- find my device
+- repeat the phone's notifications on the bracelet
+- control music player (play, pause, next, previous, volume up/down, show music track info)
+- start timer/stopwatch/interval, showing remaining/elapsed time
+- take a photo
+- app launcher
+- Tasker task launcher
 
 <b>Amazfit Bip/Cor:</b>
- - watch face change
+- watch face change
  
 <b>Step monitoring:</b>
- - daily/weekly/monthly charts: displays the measured values
- - more goals can be set
+- daily/weekly/monthly charts: displays the measured values
+- more goals can be set
 
 <b>Sleep monitoring:</b>
 - daily/weekly charts: displays the measured values
@@ -83,13 +84,13 @@ Mi Bandage requires the installation of the official Mi Fit app on the same devi
 - interval: timer for interval training
 
 <b>Lost monitoring:</b>
-- Band signal: when specified period of time expires Band will alert you
-- device signals: when specified period of time expires, device send signals repeatedly if not connected to the bracelet. This makes it easier to find the device.
+- Band signal: when the specified period of time expires Band will alert you
+- device signals: when the specified period of time expires, the device sends signals repeatedly if not connected to the bracelet. This makes it easier to find the device.
 
 <b>Agent log:</b> 
 - view events detected by the device monitoring agent
 
-<b>Languages</b> (if you like to translate other language, please send me email or use https://github.com/Alexsolur/MiBandageLang):
+<b>Languages</b> (if you like to translate another language, please send me an email or use https://github.com/Alexsolur/MiBandageLang):
 Hungarian
 English
 Russian (Александр Солоцкий - https://4pda.ru/forum/index.php?showtopic=783175)

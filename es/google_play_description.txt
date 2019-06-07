@@ -3,6 +3,7 @@ Dispositivos soportados:<b>
 - Xiaomi Mi Band 2
 - Xiaomi Mi Band HRX
 - Amazfit Bip (Pace Lite Youth)
+- Amazfit Band 2 (A1713)
 - Amazfit Cor (MiDong)
 - Amazfit Arc
 </b>
@@ -10,7 +11,7 @@ Dispositivos soportados:<b>
 Mi Bandage requiere la instalación de la aplicación oficial Mi Fit en el mismo dispositivo. Primero deberá emparejar la Band en la aplicación Mi Fit, después podrá usar Mi Bandage.
 
 <b>Si tiene un problema de conexión: </b>
-- Pantalla de aplicaciones recientes: Bloquea Mi Bandage (Baje la aplicación y haga clic en el icono del candado)
+- Pantalla de aplicaciones recientes: Bloquea Mi Bandage
 - Configuración/Optimización de la batería del teléfono: Configure la aplicación Mi Bandage para que no sea optimizada
 - Habilitar configuración/tema/notificación en pantalla
 
@@ -25,53 +26,50 @@ Mi Bandage requiere la instalación de la aplicación oficial Mi Fit en el mismo
 - Rechazar, responder y silenciar una llamada entrante normal e Internet
 - Conversión automática de caracteres
 - Muestra textos de notificación de aplicaciones en Band
-- Muestra los emoticonos más comunes
 
-<b>Funciones de conexión Mi Band 2/Amazfit:</b>
- - Cambiar volumen
- - Vibración Band
- - Despertar pantalla del dispositivo
- - Señal inmediata al recibir notificaciones
- - Muestra notificaciones al cuando reconectar
- - Recordatorio de notificaciones
- - Señal solo cuando la pantalla está apagada
- - Las notificaciones en curso están habilitadas o deshabilitadas
+<b>Funciones de conexión Mi Band/Amazfit:</b>
+- Cambiar volumen
+- Vibración Band
+- Despertar pantalla del dispositivo
+- Señal inmediata al recibir notificaciones
+- Muestra notificaciones al cuando reconectar
+- Recordatorio de notificaciones
+- Señal solo cuando la pantalla está apagada
 
 <b>Funciones de desconexión de Band:</b>
- - En la Band se muestra un icono y vibra
- - Reproducir tono de llamada en el dispositivo, vibración, encender pantalla
- - Cambiar volumen
- - Agente de supervisión del dispositivo: Sabrá si alguien manipuló el dispositivo mientras está desconectado (encender la pantalla, iniciarlo, gestos). Se recibirá una notificación en el dispositivo y el icono de Weibo en la Band.
+- En la Band se muestra un icono y vibra
+- Reproducir tono de llamada en el dispositivo, vibración, encender pantalla
+- Cambiar volumen
+- Agente de supervisión del dispositivo: Sabrá si alguien manipuló el dispositivo mientras está desconectado (encender la pantalla, iniciarlo, gestos). Se recibirá una notificación en el dispositivo y el icono de Weibo en la Band.
 
 <b>Supervisión de notificaciones:</b>
- - Configuración de señal única para notificación de aplicaciones
- - Muestra textos de notificación de las aplicaciones en Band
- - Pre icono/vibración para tener más tiempo para mirar la Band
+- Configuración de señal única para notificación de aplicaciones
+- Muestra textos de notificación de las aplicaciones en Band
 
-<b>Monitorización táctil (Use el botón táctil de la Band):</b>
- - Contestar llamada, altavoz (Apague la aplicación de música de inicio cuando el auricular está conectado, de lo contrario comenzará la música - No todos los dispositivos son compatibles)
- - Rechazar llamada, finalizar (No todos los dispositivos son compatibles)
- - Sonar
- - Alternar llamada a silencio
- - Encontrar mi dispositivo
- - Repetir notificaciones del teléfono la Band
- - Controlar el reproductor de música (reproducir, pausar, siguiente, anterior, subir/bajar volumen, mostrar información de la pista)
- - Iniciar temporizador/cronómetro/intervalo, mostrando el tiempo restante/transcurrido
- - Tomar una foto
- - Lanzador de aplicaciones
- - Lanzador de tareas Tasker
+<b>Monitorización táctil:</b>
+- Contestar llamada, altavoz (Apague la aplicación de música de inicio cuando el auricular está conectado, de lo contrario comenzará la música- No todos los dispositivos son compatibles)
+- Rechazar llamada, finalizar (No todos los dispositivos son compatibles)
+- Sonar
+- Alternar llamada a silencio
+- Encontrar mi dispositivo
+- Repetir notificaciones del teléfono la Band
+- Controlar el reproductor de música (reproducir, pausar, siguiente, anterior, subir/bajar volumen, mostrar información de la pista)
+- Iniciar temporizador/cronómetro/intervalo, mostrando el tiempo restante/transcurrido
+- Tomar una foto
+- Lanzador de aplicaciones
+- Lanzador de tareas Tasker
 
 <b>Amazfit Bip/Cor:</b>
- - Cambio esfera de reloj
+- Cambio esfera de reloj
  
 <b>Monitorizar pasos:</b>
- - Gráficos diarios/semanales/mensuales: Muestra los valores medidos
- - Se pueden establecer más objetivos
+- Gráficos diarios/semanales/mensuales: Muestra los valores medidos
+- Se pueden establecer más objetivos
 
 <b>Monitorizar sueño:</b>
 - Gráficos diarios/semanales: Muestra los valores medidos
  
-<b> Monitoreo de pulsos: </ b>
+<b>Monitoreo de pulsos:</b>
 - puede configurar: señal de inicio de monitoreo, mostrar pulso, señal de pulso alto y bajo, tiempo de inicio / final, intervalo de repetición
 - mostrando el pulso actual
 - gráficos diarios / semanales / mensuales
@@ -85,26 +83,7 @@ Mi Bandage requiere la instalación de la aplicación oficial Mi Fit en el mismo
 
 <b>Pérdida de monitoreo:</b>
 - Señal en Band: Cuando expira el período de tiempo especificado, Band lo alertará
-- Señales del dispositivo: Cuando expira el período de tiempo especificado, el dispositivo envía señales repetidamente si no está conectado al brazalete. Esto hace que sea más fácil encontrar el dispositivo.
+- Señales del dispositivo: Cuando expira el período de tiempo especificado, el dispositivo envía señales repetidamente si no está conectado al brazalete.
 
-<b>Registro de agente:</b>
-- Ver eventos detectados por el agente de monitorización del dispositivo
-
-<b>Idiomas </b>
-(Si desea traducir otro idioma, envíeme un correo electrónico o utilice https://github.com/Alexsolur/MiBandageLang):
-
-Húngaro
-Inglés
-Ruso (Александр Солоцкий - https://4pda.ru/forum/index.php?showtopic=783175)
-Portugués (Bruno Lopes, Skype: bruno.lopes1000)
-Turco (Mustafa EZDEMİR (Güncel çeviri)
-Griego (Alexandros Apostolidis)
-Italiano (Francesco Caronte)
-Francés (Lyonelf-Breizh)
-Alemán
-Checo
-Español
-Noruego (Monica Pinnedyr Jansen)
-Polaco (Piotr [Łasuch])
-Indonesio
-Chinese (FishMagic)
+<b>Idiomas: </b>
+- Español (translated by Cristian Muñoz)
