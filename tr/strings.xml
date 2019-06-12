@@ -4,7 +4,7 @@
     <string name="navigation_drawer_open">Menüyü aç</string>
     <string name="navigation_drawer_close">Menüyü kapat</string>
 
-    <string name="drawer_nav_home">Bandajlar</string>
+    <string name="drawer_nav_home">Ana Sayfa</string>
     <string name="drawer_nav_notification">Bildirimler</string>
     <string name="drawer_nav_touch">Dokunma ile kontrol</string>
     <string name="drawer_nav_step">Adım sayar</string>
@@ -19,7 +19,7 @@
     <string name="drawer_nav_theme">Tema</string>
     <string name="drawer_nav_backup">Yedekleme</string>
     <string name="drawer_nav_rewarded_mode">Ödül kazan</string>
-    <string name="drawer_nav_premium_mode">Premium ol</string>
+    <string name="drawer_nav_premium_mode">Premium</string>
     <string name="drawer_nav_feedback">Önerileriniz</string>
     <string name="drawer_nav_privacy_policy">Gizlilik Politikası</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
@@ -68,10 +68,10 @@
 
     <string name="mi_band_setting_menu_profile">Profil</string>
     <string name="mi_band_setting_menu_setting">Ayarlar</string>
-    <string name="mi_band_setting_menu_text">Metin/Arama</string>
-    <string name="mi_band_setting_menu_menu">Menü</string>
+    <string name="mi_band_setting_menu_text">Gösterim</string>
+    <string name="mi_band_setting_menu_menu">Ekran</string>
 
-    <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
+    <string name="mi_band_setting_auth_mi_fit">Mi Fit ile birlikte</string>
     <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandaj, resmi Mi Fit uygulamasının aynı cihaza kurulmasını gerektirir. İlk önce Band\'yi Mi Fit uygulamasında eşleştirmeniz gerekir, o zaman Mi Bandaj\'ı kullanabilirsiniz. If you want to use Mi Fit, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Bağımsız</string>
     <string name="mi_band_setting_auth_standalone_hint">Mi Bandaj'ın çalışması için Mi Fit uygulaması gerekli değildir. Eşleştirmeden sonra Mi Fit uygulamasını kaldırın veya cihazınızı eşleştirin.</string>
@@ -105,7 +105,7 @@
     <string name="pref_cat_text_conversion">%1$s sinyali</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Karakterleri dönüştür</string>
     <string name="pref_text_conversion_summary_on">Tanımlanamayan karakterleri döünüştürür, turn off if the Band supports your language or you have installed custom font firmware</string>
-    <string name="pref_text_conversion_excluded_title">Caracteres excluídos</string>
+    <string name="pref_text_conversion_excluded_title">Hariç tutlacak karekterler</string>
     <string name="pref_text_emoticon_title">Emoji dönüştürme</string>
     <string name="pref_text_emoticon_summary_on">Emoji yi emoticon a dönüştür</string>
     <string name="pref_text_uppercase_title">Büyük harfe dönüştürme</string>
@@ -113,8 +113,8 @@
     <string name="pref_text_length">Metin uzunluğu, kullanılan yazı tipine bağlıdır (örneğin, Çince veya Kril karatkterleri)</string>
     <string name="pref_text_length_summary_on">%1$,d karakter</string>
 
-    <string name="mi_band_setting_menu_visible">Görünür menü öğeleri</string>
-    <string name="mi_band_setting_menu_hidden">Gizli menü öğeleri</string>
+    <string name="mi_band_setting_menu_visible">Görünür ekran öğeleri</string>
+    <string name="mi_band_setting_menu_hidden">Gizli ekran öğeleri</string>
 
     <string name="pref_text_conversion_description_title">Açıklama</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -150,7 +150,7 @@
 
     <string name="pref_connected_signals">Bildirimler</string>
     <string name="pref_connected_signals_summary">%1$s bağlanınca yapılacak bildirimler</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_cat_connected_signals_mi_band">%1$s sinyali</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_connected_signals_mi_band">%1$s gösterimi</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Titreşim</string>
     <string name="pref_cat_connected_signals">Telefon</string>
     <string name="pref_connected_wakelock_title">Ekranı aç</string>
