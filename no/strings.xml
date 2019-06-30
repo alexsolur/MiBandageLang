@@ -299,7 +299,7 @@
     <string name="message_notification_group_has_no_entry">Velg applikasjonen med den nedre høyre \'+\' knapp på kortet</string>
 
     <string name="message_time_alarm_free_counter">Opp til 2 alarmer kan bli brukt i normal modus</string>
-    <string name="message_time_alarm_max_counter">Maximum 7 alarmer kan bli brukt</string>
+    <string name="message_time_alarm_max_counter">Maximum 8 alarmer kan bli brukt</string>
     <string name="message_time_alarm_enabled">Alarm aktivert</string>
     <string name="message_time_alarm_disabled">Alarm deaktivert</string>
     <string name="message_time_alarm_mi_band_off">Alarm av</string>
@@ -817,6 +817,12 @@
 
     <string name="time_enable_bluetooth">Skru på Bluetooth</string>
 
+    <string name="action_time_alarm_sort_state_asc">State ascending</string>
+    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
+    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+
+    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+
     <string name="info_dialog_time"><![CDATA[
         <p><b>Skru av alarm, timer og stoppeklokke før du fjerner applikasjonen.</b></p>
         <img src="ic_device_alarm"> <b><u>Signal når telefonens alarm lager lyd</u></b>
@@ -824,7 +830,7 @@
         <img src="ic_miband_bell"> <b><u>Bell</u></b>
         <p>Bluetooth tilkobling er nødvendig for alarm, det alamerer bare en gang i 10 sekunder.</p>
         <img src="ic_alarm"> <b><u>Alarm</u></b>
-        <p>Bluetooth tilkoblingen er ikke påkrevd for alarm, app bruker alarm funkjon til Mi Fit til å varsle (overskrive 4. - 9. settingen).
+        <p>Bluetooth tilkoblingen er ikke påkrevd for alarm, app bruker alarm funkjon til Mi Fit til å varsle (overskrive 1. - 8. settingen).
         <br>Alarmen vil repeteres flere ganger hvis Bandet ikke detekterer noe bevegelse (fordi det bruker Bandet\'s alarm).
         <br>Minutt akkurathet, Bandet takler ikke sekunder i alarm.</p>
         <p>Påminnelse signal og vising av meldinger krever Bluetooth tilkobling.</p>
@@ -840,6 +846,7 @@
     <string name="message_reminder_enabled">Påminnelse aktivert</string>
     <string name="message_reminder_disabled">Påminnelse deaktivert</string>
     <string name="message_reminder_no_more">Can not record more reminders</string>
+    <string name="message_reminder_sync">Synchronize %1$s reminders (deleting and setting reminders on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text>Bluetooth connection is required to display the reminder.</not_support_icon_text>

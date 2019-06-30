@@ -299,7 +299,7 @@
     <string name="message_notification_group_has_no_entry">Selecteer applicaties met de knop \'+\' rechtsonder op de kaart</string>
 
     <string name="message_time_alarm_free_counter">In normale modus kan max. 2 alarmen worden ingesteld</string>
-    <string name="message_time_alarm_max_counter">Er kunnen maximaal 7 alarmen worden ingesteld</string>
+    <string name="message_time_alarm_max_counter">Er kunnen maximaal 8 alarmen worden ingesteld</string>
     <string name="message_time_alarm_enabled">Alarm ingeschakeld</string>
     <string name="message_time_alarm_disabled">Alarm uitgeschakeld</string>
     <string name="message_time_alarm_mi_band_off">Alarm uit</string>
@@ -817,6 +817,12 @@
 
     <string name="time_enable_bluetooth">Bluetooth inschakelen</string>
 
+    <string name="action_time_alarm_sort_state_asc">State ascending</string>
+    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
+    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+
+    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+
     <string name="info_dialog_time"><![CDATA[
         <p><b>Schakel het alarm, de timer en de stopwatch uit voordat u de toepassing verwijdert.</b></p>
         <img src="ic_device_alarm"> <b><u>Als telefoonalarm klinkt signaal geven</u></b>
@@ -824,7 +830,7 @@
         <img src="ic_miband_bell"> <b><u>Klok</u></b>
         <p>Bluetooth verbinding is vereist voor het alarm, het gaat slechts één keer gedurende 10 seconden af.</p>
         <img src="ic_alarm"> <b><u>Alarm</u></b>
-        <p>Bluetooth verbinding is niet vereist voor het alarm, app gebruikt alarmfunctie van Mi Fit om te waarschuwen (overschrijf instelling 4.- 9.).
+        <p>Bluetooth verbinding is niet vereist voor het alarm, app gebruikt alarmfunctie van Mi Fit om te waarschuwen (overschrijf instelling 1.- 8.).
         <br>Het alarm zal verschillende keren worden herhaald als de Band geen beweging detecteert (omdat het alarm van de Band wordt gebruikt).
         <br>Minuut nauwkeurigheid, Band herkent geen seconden bij alarmsetting.</p>
         <p>Herinneringssignaal en meldingsbericht vereisen een Bluetooth verbinding.</p>
@@ -840,6 +846,7 @@
     <string name="message_reminder_enabled">Herinnering ingeschakeld</string>
     <string name="message_reminder_disabled">Herinnering uitgeschakeld</string>
     <string name="message_reminder_no_more">Kan niet meer herinneringen opnemen</string>
+    <string name="message_reminder_sync">Synchronize %1$s reminders (deleting and setting reminders on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text>Bluetooth verbinding is vereist om de herinnering weer te geven.</not_support_icon_text>

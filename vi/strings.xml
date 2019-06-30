@@ -298,7 +298,7 @@
     <string name="message_notification_group_has_no_entry">Select applications with the lower right green \'+\' button on the card</string>
 
     <string name="message_time_alarm_free_counter">Có thể sử dụng tới 2 báo thức ở chế độ bình thường</string>
-    <string name="message_time_alarm_max_counter">Tối đa 7 báo thức có thể sử dụng</string>
+    <string name="message_time_alarm_max_counter">Tối đa 8 báo thức có thể sử dụng</string>
     <string name="message_time_alarm_enabled">Báo thức đang bật</string>
     <string name="message_time_alarm_disabled">Báo thức đang tắt</string>
     <string name="message_time_alarm_mi_band_off">Alarm off</string>
@@ -818,6 +818,12 @@
 
     <string name="time_enable_bluetooth">Bật Bluetooth</string>
 
+    <string name="action_time_alarm_sort_state_asc">State ascending</string>
+    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
+    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+
+    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+
     <string name="info_dialog_time"><![CDATA[
         <p><b>Turn off the alarm, timer and stopwatch before removing the application.</b></p>
         <img src="ic_device_alarm"> <b><u>Signal when phone alarm sounds</u></b>
@@ -825,7 +831,7 @@
         <img src="ic_miband_bell"> <b><u>Bell</u></b>
         <p>Bluetooth connection is required for alarm, it alarms just only once for 10 seconds.</p>
         <img src="ic_alarm"> <b><u>Alarm</u></b>
-        <p>Bluetooth connection is not required for alarm, app uses alarm function of Mi Fit to alert (overwrite 4. - 9. setting).
+        <p>Bluetooth connection is not required for alarm, app uses alarm function of Mi Fit to alert (overwrite 1. - 8. setting).
         <br>The alarm will be repeated several times if the Band do not detect any movement (because it uses the Band\'s alarm).
         <br>Độ chính xác theo phút, Miband 2 không chính xác từng giây trong thời gian báo thức.</p>
         <p>Reminder signal requires Bluetooth connection.</p>
@@ -841,6 +847,7 @@
     <string name="message_reminder_enabled">Đã bật lời nhắc</string>
     <string name="message_reminder_disabled">Đã tắt lời nhắc</string>
     <string name="message_reminder_no_more">Can not record more reminders</string>
+    <string name="message_reminder_sync">Synchronize %1$s reminders (deleting and setting reminders on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text>Bluetooth connection is required to display the reminder.</not_support_icon_text>

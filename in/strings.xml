@@ -299,7 +299,7 @@
     <string name="message_notification_group_has_no_entry">Pilih aplikasi dengan tombol di bagian kanan bawah \'+\' pada kartu</string>
 
     <string name="message_time_alarm_free_counter">Mode normal hanya bisa menggunakan sampai 2 alarm</string>
-    <string name="message_time_alarm_max_counter">Maksimal 7 alarm yang bisa digunakan</string>
+    <string name="message_time_alarm_max_counter">Maksimal 8 alarm yang bisa digunakan</string>
     <string name="message_time_alarm_enabled">Alarm diaktifkan</string>
     <string name="message_time_alarm_disabled">Alarm dimatikan</string>
     <string name="message_time_alarm_mi_band_off">Alarm mati</string>
@@ -816,6 +816,12 @@
 
     <string name="time_enable_bluetooth">Aktifkan Bluetooth</string>
 
+    <string name="action_time_alarm_sort_state_asc">State ascending</string>
+    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
+    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+
+    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+
     <string name="info_dialog_time"><![CDATA[
         <p><b>Matikan alarm, timer dan stopwatch sebelum menghapus aplikasi.</b></p>
         <img src="ic_device_alarm"> <b><u>Tanda/Sinyal ketika alarm telfon anda berbunyi</u></b>
@@ -823,7 +829,7 @@
         <img src="ic_miband_bell"> <b><u>Bel</u></b>
         <p>Koneksi bluetooth diperlukan untuk alarm, dan hanya digunakan untuk 10 detik.</p>
         <img src="ic_alarm"> <b><u>Alarm</u></b>
-        <p>Koneksi bluetooth tidak diperlukan untuk alarm, apl menggunakan fungsi alarm pada Mi Fit sebagai pengingat (overwrite 4. - 9. setting).
+        <p>Koneksi bluetooth tidak diperlukan untuk alarm, apl menggunakan fungsi alarm pada Mi Fit sebagai pengingat (overwrite 1. - 8. setting).
         <br>Alarm tidak akan diulang beberapa kali jika Band tidak mendeteksi gerakan (karena menggunakan alarm pabrik/bawaan).
         <br>Akurasi menit, Band tidak menggunakan detik pada alarm.</p>
         <p>Tanda pengingat dan penampil pesan membutuhkan koneksi Bluetooth.</p>
@@ -839,6 +845,7 @@
     <string name="message_reminder_enabled">Pengingat diaktifkan</string>
     <string name="message_reminder_disabled">Pengingat dimatikan</string>
     <string name="message_reminder_no_more">Can not record more reminders</string>
+    <string name="message_reminder_sync">Synchronize %1$s reminders (deleting and setting reminders on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text>Bluetooth connection is required to display the reminder.</not_support_icon_text>

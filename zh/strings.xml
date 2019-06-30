@@ -296,7 +296,7 @@
     <string name="message_notification_group_has_no_entry">按右下角 \'+\' 号来选择应用</string>
 
     <string name="message_time_alarm_free_counter">普通模式下最多可使用2个闹钟</string>
-    <string name="message_time_alarm_max_counter">最多可使用7个闹钟</string>
+    <string name="message_time_alarm_max_counter">最多可使用8个闹钟</string>
     <string name="message_time_alarm_enabled">开启闹钟</string>
     <string name="message_time_alarm_disabled">禁用闹钟</string>
     <string name="message_time_alarm_mi_band_off">关闭闹钟</string>
@@ -814,6 +814,12 @@
 
     <string name="time_enable_bluetooth">打开蓝牙</string>
 
+    <string name="action_time_alarm_sort_state_asc">State ascending</string>
+    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
+    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+
+    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+
     <string name="info_dialog_time"><![CDATA[
         <p><b>在移除应用前关闭闹钟，计时器和秒表.</b></p>
         <img src="ic_device_alarm"> <b><u>手机闹铃响起时</u></b>
@@ -821,7 +827,7 @@
         <img src="ic_miband_bell"> <b><u>铃声</u></b>
         <p>闹铃需要蓝牙连接，10秒发送一次.</p>
         <img src="ic_alarm"> <b><u>闹钟</u></b>
-        <p>闹铃不需要蓝牙连接，使用 Mi Fit 功能来提醒(覆盖 4. - 9. 设置).
+        <p>闹铃不需要蓝牙连接，使用 Mi Fit 功能来提醒(覆盖 1. - 8. 设置).
         <br>如果未监测到移动（使用手机提醒）则会重复提醒.
         <br>分钟精度,手环无法处理提醒秒数.</p>
         <p>提醒和显示信息需要进行蓝牙连接.</p>
@@ -837,6 +843,7 @@
     <string name="message_reminder_enabled">提醒已启用</string>
     <string name="message_reminder_disabled">提醒已禁用</string>
     <string name="message_reminder_no_more">无法添加更多提醒</string>
+    <string name="message_reminder_sync">Synchronize %1$s reminders (deleting and setting reminders on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text>显示提醒需要蓝牙连接</not_support_icon_text>

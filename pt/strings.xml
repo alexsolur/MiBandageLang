@@ -299,7 +299,7 @@
     <string name="message_notification_group_has_no_entry">Seleciona aplicações com o botão \'+\' localizado no canto inferior direito do cartão</string>
 
     <string name="message_time_alarm_free_counter">Só pode usar 2 alarmes no modo normal</string>
-    <string name="message_time_alarm_max_counter">Só pode usar 7 alarmes no máximo</string>
+    <string name="message_time_alarm_max_counter">Só pode usar 8 alarmes no máximo</string>
     <string name="message_time_alarm_enabled">Alarme ativado</string>
     <string name="message_time_alarm_disabled">Alarme desativado</string>
     <string name="message_time_alarm_mi_band_off">Alarme desligado</string>
@@ -816,6 +816,12 @@
 
     <string name="time_enable_bluetooth">Ligar o Bluetooth</string>
 
+    <string name="action_time_alarm_sort_state_asc">State ascending</string>
+    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
+    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+
+    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+
     <string name="info_dialog_time"><![CDATA[
         <p><b>Desligue os alarmes, o temporizador e o cronómetro antes de remover a aplicação.</b></p>
         <img src="ic_device_alarm"> <b><u>Emitir um aviso quando o alarme do dispositivo tocar</u></b>
@@ -840,6 +846,7 @@
     <string name="message_reminder_enabled">Lembrete ativado</string>
     <string name="message_reminder_disabled">Lembrete desativado</string>
     <string name="message_reminder_no_more">Não podes gravar mais lembretes</string>
+    <string name="message_reminder_sync">Synchronize %1$s reminders (deleting and setting reminders on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text>A conexão Bluetooth é necessária para mostrar o lembrete.</not_support_icon_text>

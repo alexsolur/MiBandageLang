@@ -299,7 +299,7 @@
     <string name="message_notification_group_has_no_entry">Wybierz aplikacje za pomocą prawego dolnego \'+\' przycisku na karcie</string>
 
     <string name="message_time_alarm_free_counter">W trybie normalnym można użyć maksymalnie 2 alarmów</string>
-    <string name="message_time_alarm_max_counter">Można użyć maksymalnie 7 alarmów</string>
+    <string name="message_time_alarm_max_counter">Można użyć maksymalnie 8 alarmów</string>
     <string name="message_time_alarm_enabled">Alarm włączony</string>
     <string name="message_time_alarm_disabled">Alarm wyłączony</string>
     <string name="message_time_alarm_mi_band_off">Alarm wyłączony</string>
@@ -817,6 +817,12 @@
 
     <string name="time_enable_bluetooth">Włącz Bluetooth</string>
 
+    <string name="action_time_alarm_sort_state_asc">State ascending</string>
+    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
+    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+
+    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+
     <string name="info_dialog_time"><![CDATA[
         <p><b>Wyłącz alarm, timer i stoper przed usunięciem aplikacji.</b></p>
         <img src="ic_device_alarm"> <b><u>Sygnał po włączeniu alarmu telefonu</u></b>
@@ -824,7 +830,7 @@
         <img src="ic_miband_bell"> <b><u>Dzwonek</u></b>
         <p>Połączenie Bluetooth jest wymagane do alarmu, alarmuje tylko jeden raz przez 10 sekund.</p>
         <img src="ic_alarm"> <b><u>Alarm</u></b>
-        <p>Połączenie Bluetooth nie jest wymagane dla alarmu, aplikacja wykorzystuje funkcję alarmu Mi Fit do ostrzeżenia (nadpisanie ustawionych alarmów numer 4 - 9).
+        <p>Połączenie Bluetooth nie jest wymagane dla alarmu, aplikacja wykorzystuje funkcję alarmu Mi Fit do ostrzeżenia (nadpisanie ustawionych alarmów numer 1 - 8).
         <br>Alarm zostanie powtórzony kilka razy, jeśli Opaska nie wykryje żadnego ruchu (ponieważ wykorzystuje alarm Opaski).
         <br>Dokładność co do minuty, Opaska nie obsługuje sekund w przypadku alarmu.</p>
         <p>Sygnał przypomnienia i pokazywanie komunikatu wymagają połączenia Bluetooth.</p>
@@ -840,6 +846,7 @@
     <string name="message_reminder_enabled">Przypomnienie jest włączone</string>
     <string name="message_reminder_disabled">Przypomnienie wyłączone</string>
     <string name="message_reminder_no_more">Nie można nagrać więcej przypomnień</string>
+    <string name="message_reminder_sync">Synchronize %1$s reminders (deleting and setting reminders on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text>Połączenie Bluetooth jest wymagane do wyświetlenia przypomnienia.</not_support_icon_text>

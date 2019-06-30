@@ -299,7 +299,7 @@
     <string name="message_notification_group_has_no_entry">Selectează aplicațiile cu butonul \'+\' din partea dreaptă jos de pe card</string>
 
     <string name="message_time_alarm_free_counter">Pot fi utilizate până la 2 alarme în modul normal</string>
-    <string name="message_time_alarm_max_counter">Se pot folosi maxim 7 alarme</string>
+    <string name="message_time_alarm_max_counter">Se pot folosi maxim 8 alarme</string>
     <string name="message_time_alarm_enabled">Alarmă activată</string>
     <string name="message_time_alarm_disabled">Alarmă dezactivată</string>
     <string name="message_time_alarm_mi_band_off">Alarmă oprită</string>
@@ -817,6 +817,12 @@
 
     <string name="time_enable_bluetooth">Pornește Bluetooth</string>
 
+    <string name="action_time_alarm_sort_state_asc">State ascending</string>
+    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
+    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+
+    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+
     <string name="info_dialog_time"><![CDATA[
         <p><b>Oprește alarma, temporizatorul și cronometrul înainte de a dezinstala aplicația.</b></p>
         <img src="ic_device_alarm"> <b><u>Semnal sună alarma telefonului</u></b>
@@ -824,7 +830,7 @@
         <img src="ic_miband_bell"> <b><u>Clopoțel</u></b>
         <p>Este necesară conexiunea Bluetooth  pentru alarmă, avertizează o singură dată timp de 10 secunde.</p>
         <img src="ic_alarm"> <b><u>Alarmă</u></b>
-        <p>Nu este necesară conexiunea Bluetooth pentru alarmă, aplicația folosește funcția de alarmă a Mi Fit pentru a avertiza (suprascrie setările de la 4 la 9).
+        <p>Nu este necesară conexiunea Bluetooth pentru alarmă, aplicația folosește funcția de alarmă a Mi Fit pentru a avertiza (suprascrie setările de la 1 la 8).
         <br>Alarma va fi repetată de mai multe ori dacă brățara nu detectează nici o mișcare (deoarece folosește alarma brățării).
         <br>Precizie de minut, brățara nu procesează secunde la alarmă.</p>
         <p>Semnalul de avertizare și afișarea mesajului necesită conexiune Bluetooth.</p>
@@ -840,6 +846,7 @@
     <string name="message_reminder_enabled">Reamintire activată</string>
     <string name="message_reminder_disabled">Reamintire dezactivată</string>
     <string name="message_reminder_no_more">Nu se pot înregistra mai multe reamintiri</string>
+    <string name="message_reminder_sync">Synchronize %1$s reminders (deleting and setting reminders on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text>Pentru a afișa reamintirii este necesară conexiunea Bluetooth.</not_support_icon_text>

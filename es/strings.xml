@@ -299,7 +299,7 @@
     <string name="message_notification_group_has_no_entry">Seleccione las aplicaciones con el botón verde inferior derecho \'+\' en la tarjeta</string>
 
     <string name="message_time_alarm_free_counter">Se pueden utilizar hasta 2 alarmas en modo normal</string>
-    <string name="message_time_alarm_max_counter">Se pueden utilizar 7 alarmas como máximo</string>
+    <string name="message_time_alarm_max_counter">Se pueden utilizar 8 alarmas como máximo</string>
     <string name="message_time_alarm_enabled">Alarma activada</string>
     <string name="message_time_alarm_disabled">Alarma desactivada</string>
     <string name="message_time_alarm_mi_band_off">Alarma apagada</string>
@@ -818,6 +818,12 @@
 
     <string name="time_enable_bluetooth">Activar Bluetooth</string>
 
+    <string name="action_time_alarm_sort_state_asc">State ascending</string>
+    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
+    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+
+    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+
     <string name="info_dialog_time"><![CDATA[
         <p><b>Apague la alarma, el temporizador y el cronómetro antes de retirar la aplicación.</b></p>
         <img src="ic_device_alarm"> <b><u>Señal cuando suena la alarma el teléfono</u></b>
@@ -841,6 +847,7 @@
     <string name="message_reminder_enabled">Recordatorio activada</string>
     <string name="message_reminder_disabled">Recordatorio desactivada</string>
     <string name="message_reminder_no_more">Can not record more reminders</string>
+    <string name="message_reminder_sync">Synchronize %1$s reminders (deleting and setting reminders on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text>Bluetooth connection is required to display the reminder.</not_support_icon_text>

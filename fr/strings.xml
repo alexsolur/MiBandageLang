@@ -299,7 +299,7 @@
     <string name="message_notification_group_has_no_entry">Sélectionner les applications avec le bouton \'+\' en bas à droite</string>
 
     <string name="message_time_alarm_free_counter">Jusqu\'à 2 alarmes peuvent être utilisées en mode normal</string>
-    <string name="message_time_alarm_max_counter">Maximum 7 alarmes peuvent être utilisées</string>
+    <string name="message_time_alarm_max_counter">Maximum 8 alarmes peuvent être utilisées</string>
     <string name="message_time_alarm_enabled">Alarme activée</string>
     <string name="message_time_alarm_disabled">Alarme désactivée</string>
     <string name="message_time_alarm_mi_band_off">Alarme off</string>
@@ -815,6 +815,12 @@
 
     <string name="time_enable_bluetooth">Activer le Bluetooth</string>
 
+    <string name="action_time_alarm_sort_state_asc">State ascending</string>
+    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
+    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+
+    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+
     <string name="info_dialog_time"><![CDATA[
         <p><b>Désactivez l\'alarme, le minuteur et le chronomètre avant de désinstaller l\'application.</b></p>
         <img src="ic_device_alarm"> <b><u>Alerte lorsque l\'alarme du mobile sonne</u></b>
@@ -822,7 +828,7 @@
         <img src="ic_miband_bell"> <b><u>Sonnerie</u></b>
         <p>La connexion Bluetooth est nécessaire pour l\'alarme, cela alerte seulement une fois pendant 10 secondes.</p>
         <img src="ic_alarm"> <b><u>Alarme</u></b>
-        <p>La connexion Bluetooth n\'est pas nécessaire pour l\'alarme, l\'appli utilise les fonctions d\'alarme de Mi Fit pour avertir (effacer les réglales 4. - 9.).
+        <p>La connexion Bluetooth n\'est pas nécessaire pour l\'alarme, l\'appli utilise les fonctions d\'alarme de Mi Fit pour avertir (effacer les réglales 1. - 8.).
         <br>L\'alarme sera répétée plusieurs fois si le Band ne détecte aucun mouvement (car il utilise l\'alarme du mobile).
         <br>A la minute près, le Band ne gère pas les alarmes à la seconde.</p>
         <p>L\'alerte de rappel l\'affichage de message nécessite une connexion Bluetooth.</p>
@@ -838,6 +844,7 @@
     <string name="message_reminder_enabled">Rappel activée</string>
     <string name="message_reminder_disabled">Rappel désactivée</string>
     <string name="message_reminder_no_more">Can not record more reminders</string>
+    <string name="message_reminder_sync">Synchronize %1$s reminders (deleting and setting reminders on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text>Bluetooth connection is required to display the reminder.</not_support_icon_text>

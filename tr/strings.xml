@@ -74,7 +74,7 @@
     <string name="mi_band_setting_auth_mi_fit">Mi Fit ile birlikte</string>
     <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandaj, resmi Mi Fit uygulamasının aynı cihaza kurulmasını gerektirir. İlk önce Band\'yi Mi Fit uygulamasında eşleştirmeniz gerekir, o zaman Mi Bandaj\'ı kullanabilirsiniz. If you want to use Mi Fit, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Bağımsız</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Bandaj'ın çalışması için Mi Fit uygulaması gerekli değildir. Eşleştirmeden sonra Mi Fit uygulamasını kaldırın veya cihazınızı eşleştirin.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Bandaj\'ın çalışması için Mi Fit uygulaması gerekli değildir. Eşleştirmeden sonra Mi Fit uygulamasını kaldırın veya cihazınızı eşleştirin.</string>
 
     <string name="message_mi_band_setting_auth_press_band_button">Eşleştirme için %1$s düğmesine basın</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
 
@@ -299,7 +299,7 @@
     <string name="message_notification_group_has_no_entry">Uygulamayı, kartın sağ altındaki \'+ \' düğmesi ile seçin</string>
 
     <string name="message_time_alarm_free_counter">Normal modda en fazla 2 alarm kullanılabilir</string>
-    <string name="message_time_alarm_max_counter">Maksimum 7 alarm kullanılabilir</string>
+    <string name="message_time_alarm_max_counter">Maksimum 8 alarm kullanılabilir</string>
     <string name="message_time_alarm_enabled">Alarm aktif</string>
     <string name="message_time_alarm_disabled">Alarm pasif</string>
     <string name="message_time_alarm_mi_band_off">Alarm kapalı</string>
@@ -311,7 +311,7 @@
     <string name="message_premium_mode_only">Bu özellik yanlız premium mod ile kullanılabilir</string>
     <string name="message_general_error">İşlem başarısız oldu (bağlantı tutarsız), lütfen tekrar deneyin</string>
     <string name="message_internet_error">İnternet bağlantınız yok</string>
-    <string name="message_gps_enable">GPS'i etkinleştir</string>
+    <string name="message_gps_enable">GPS\'i etkinleştir</string>
 
     <string name="message_in_progress">İşleniyor…</string>
     <string name="message_no_data">Veri yok</string>
@@ -817,6 +817,12 @@
 
     <string name="time_enable_bluetooth">Bluetooth aç</string>
 
+    <string name="action_time_alarm_sort_state_asc">State ascending</string>
+    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
+    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+
+    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+
     <string name="info_dialog_time"><![CDATA[
         <p><b>Uygulamayı kaldırmadan önce tüm bildirimleri kaldırmalısınız.</b></p>
         <img src="ic_device_alarm"> <b><u>Telefon alarmı çalınca bileklikte de uyar</u></b>
@@ -840,6 +846,7 @@
     <string name="message_reminder_enabled">Hatırlatma aktif</string>
     <string name="message_reminder_disabled">Hatırlatma pasif</string>
     <string name="message_reminder_no_more">Daha fazla hatırlatıcı kaydedemiyorum</string>
+    <string name="message_reminder_sync">Synchronize %1$s reminders (deleting and setting reminders on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text><p>Hatırlatıcıyı görüntülemek için Bluetooth bağlantısı gerekir.</p></<not_support_icon_text>
