@@ -289,6 +289,8 @@
 
     <string name="message_touch_no_patterns">Kırmızı renkli desen kayıt düğmelerinden birine basın</string>
     <string name="message_touch_record">%1$s dokunmatik düğmesini kullanarak deseni kaydedin</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_touch_record_music_screen">Record the pattern using the %1$s music screen</string> <!-- %1$s = Mi Band 4  -->
+    <string name="message_touch_record_pulse_screen">Record the pattern using the %1$s pulse screen</string> <!-- %1$s = Mi Band 3, Amazfit Cor ... -->
     <string name="message_touch_pattern_error">Yaptığınız desen başka bir iş için yaptığınız desen ile nerdeyse aynı, başka bir desen belirleyin</string>
     <string name="message_touch_free_patterns">Normal modda en fazla %1$,d işlev kullanılabilir</string>
     <string name="message_touch_music_player_not_found">Müzik çalar bulunamadı</string>
@@ -309,6 +311,7 @@
     <string name="message_alarm_mi_band_clear_failed">Alarm silme başarısız oldu</string>
 
     <string name="message_premium_mode_only">Bu özellik yanlız premium mod ile kullanılabilir</string>
+    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
     <string name="message_general_error">İşlem başarısız oldu (bağlantı tutarsız), lütfen tekrar deneyin</string>
     <string name="message_internet_error">İnternet bağlantınız yok</string>
     <string name="message_gps_enable">GPS\'i etkinleştir</string>
@@ -321,6 +324,7 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Hoşgeldiniz!</string>
     <string name="dialog_welcome_message"><![CDATA[Desteklenen Cihazlar:
+    <br>- <b>Xiaomi Mi Band 4</b>
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
@@ -545,6 +549,9 @@
     <string name="touch_testing_title">Dokunma izleme</string>
     <string name="touch_testing_second">sn.</string>
 
+    <string name="touch_setting_detection_time_title">Touch detection time</string>
+    <string name="touch_setting_detection_time_hint">If you have a lower value, the music screen should be closed faster</string>
+
     <string name="touch_setting_detection_method_title">Touch detection method</string>
 
     <string name="touch_setting_recognition_start_title">Dokunmatik tanımayı başlat</string>
@@ -600,6 +607,18 @@
         <amazfit_band_2><p><mi_band_type> ekranının altındaki düğme.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Bilek kaldırma
         <p>Bileklik, <mi_band_type> ekranı açıldığında geçerlidir.</p>
+        <img src="ic_call"> <b><u>Arama Kontrolü</b></u>
+        <p>Dokunmatik ekran kapalı olsa bile her zaman çalışır.</p>
+        <br><p>Test modunda, tanınan desenin işlevini gerçekleştirmez.</p>
+        <p>Titreşim geri bildirimini sadece, telefonun o andaki durumunu hesaba katan bir model varsa (yalnızca gelen bir çağrı varsa reddetme, yanıtlama).</p>
+        <p>Bir desen tanıdığında, bant bir kere titrer.</p>
+        <p>En uzun desenden sonra herhangi bir desen tanımadığında, bant iki kez titrer (<i> Tanınmayan dokunmatik desen sinyali </i> ayarlanmışsa).</p>
+    ]]></string>
+
+
+    <string name="info_dialog_touch_mi_band_4"><![CDATA[
+        <img src="ic_play_circle_outline"> <b><u>Music screen mod</u></b>
+        <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
         <img src="ic_call"> <b><u>Arama Kontrolü</b></u>
         <p>Dokunmatik ekran kapalı olsa bile her zaman çalışır.</p>
         <br><p>Test modunda, tanınan desenin işlevini gerçekleştirmez.</p>

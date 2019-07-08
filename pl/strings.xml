@@ -289,6 +289,8 @@
 
     <string name="message_touch_no_patterns">Naciśnij jeden z czerwonych przycisków, aby nagrać wzór</string>
     <string name="message_touch_record">Nagraj wzór za pomocą przycisku dotykowego %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_touch_record_music_screen">Record the pattern using the %1$s music screen</string> <!-- %1$s = Mi Band 4  -->
+    <string name="message_touch_record_pulse_screen">Record the pattern using the %1$s pulse screen</string> <!-- %1$s = Mi Band 3, Amazfit Cor ... -->
     <string name="message_touch_pattern_error">Podany wzór jest podobny do wzoru innej funkcji, nagraj inny</string>
     <string name="message_touch_free_patterns">Nie możesz użyć więcej niż %1$,d funkcji w trybie normalnym</string>
     <string name="message_touch_music_player_not_found">Nie znaleziono odtwarzacza muzycznego</string>
@@ -309,6 +311,7 @@
     <string name="message_alarm_mi_band_clear_failed">Kasowanie alarmu nie powiodło się</string>
 
     <string name="message_premium_mode_only">Ta funkcja jest dostępna tylko w trybie premium</string>
+    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
     <string name="message_general_error">Ustawienie nie powiodło się (utracono połączenie), spróbuj ponownie</string>
     <string name="message_internet_error">Nie ma połączenia z Internetem</string>
     <string name="message_gps_enable">Włącz GPS</string>
@@ -321,6 +324,7 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Witamy!</string>
     <string name="dialog_welcome_message"><![CDATA[Wspierane urządzenia:
+    <br>- <b>Xiaomi Mi Band 4</b>
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
@@ -544,6 +548,9 @@
     <string name="touch_testing_title">Monitorowanie dotknięć</string>
     <string name="touch_testing_second">sek.</string>
 
+    <string name="touch_setting_detection_time_title">Touch detection time</string>
+    <string name="touch_setting_detection_time_hint">If you have a lower value, the music screen should be closed faster</string>
+
     <string name="touch_setting_detection_method_title">Metoda wykrywania dotyku</string>
 
     <string name="touch_setting_recognition_start_title">Uruchom rozpoznawanie dotknięć</string>
@@ -584,9 +591,9 @@
         <amazfit_band_2><p>Na bransoletce uruchom funkcję pomiaru tętna (status), a następnie przerwij pomiar (przesuń palcem w prawo) po 1 sekundzie.</p></amazfit_band_2>
         <p>Musi być wyłączony podczas ciągłego pomiaru tętna online i ćwiczeń.<p>
         <img src="ic_touch_find"> Find phone
-        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) start the measurement (long touch).</p></mi_band_3>
-        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) start the measurement.</p></amazfit_cor>
-        <amazfit_band_2>On the bracelet, in the Find phone function (Settings/Find phone) start the measurement.</p></amazfit_band_2>
+        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) start the finding (long touch).</p></mi_band_3>
+        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) start the finding.</p></amazfit_cor>
+        <amazfit_band_2>On the bracelet, in the Find phone function (Settings/Find phone) start the finding.</p></amazfit_band_2>
         <img src="ic_touch_find_off"> Interrupt phone finding
         <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) interrupt the finding (one touch).</p></mi_band_3>
         <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) interrupt the finding (swipe right).</p></amazfit_cor>
@@ -599,6 +606,17 @@
         <amazfit_band_2><p>Przycisk pod ekranem <mi_band_type>.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Podnoszenie nadgarstka
         <p>Podnoszenie nadgarstka jest ważne, gdy ekran <mi_band_type> się włączy.</p>
+        <img src="ic_call"> <b><u>Kontrola połączenia</b></u>
+        <p>Zawsze działa, nawet jeśli monitor dotykowy jest wyłączony.</p>
+        <br><p>W trybie testowym nie wykonuje funkcji rozpoznanego wzoru.</p>
+        <p>Informacje zwrotne na temat wibracji Opaski tylko wtedy, gdy istnieje wzorzec uwzględniający aktualny stan telefonu (odbieranie połączeń, odrzucanie tylko w przypadku połączenia przychodzącego…).</p>
+        <p>Opaska wibruje raz, gdy rozpoznaje wzór.</p>
+        <p>Opaska wibruje dwa razy, gdy nie rozpoznaje żadnego wzoru po najdłuższym wzorze (jeśli ustawiono <i>nierozpoznawalny sygnał wzoru dotykowego</i>).</p>
+    ]]></string>
+
+    <string name="info_dialog_touch_mi_band_4"><![CDATA[
+        <img src="ic_play_circle_outline"> <b><u>Music screen mod</u></b>
+        <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
         <img src="ic_call"> <b><u>Kontrola połączenia</b></u>
         <p>Zawsze działa, nawet jeśli monitor dotykowy jest wyłączony.</p>
         <br><p>W trybie testowym nie wykonuje funkcji rozpoznanego wzoru.</p>

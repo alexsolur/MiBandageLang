@@ -289,6 +289,8 @@
 
     <string name="message_touch_no_patterns">Нажмите на требуемую красную кнопку записи последовательности</string>
     <string name="message_touch_record">Запишите образец использования кнопки %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_touch_record_music_screen">Record the pattern using the %1$s music screen</string> <!-- %1$s = Mi Band 4  -->
+    <string name="message_touch_record_pulse_screen">Record the pattern using the %1$s pulse screen</string> <!-- %1$s = Mi Band 3, Amazfit Cor ... -->
     <string name="message_touch_pattern_error">Заданная последовательность похожа на последовательность другой функции, запишите другую</string>
     <string name="message_touch_free_patterns">Максимум %1$,d функции</string>
     <string name="message_touch_music_player_not_found">Плеер не найден</string>
@@ -309,6 +311,7 @@
     <string name="message_alarm_mi_band_clear_failed">Не удалось удалить будильник</string>
 
     <string name="message_premium_mode_only">Эта функция доступна только в премиуме</string>
+    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
     <string name="message_general_error">Ошибка (соединение потеряно), попробуйте снова</string>
     <string name="message_internet_error">Нет подключения к Интернету</string>
     <string name="message_gps_enable">Включите определение местоположения</string>
@@ -321,6 +324,7 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Добро пожаловать!</string>
     <string name="dialog_welcome_message"><![CDATA[Поддерживаемые устройства:
+    <br>- <b>Xiaomi Mi Band 4</b>
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
@@ -544,6 +548,9 @@
     <string name="touch_testing_title">Касания</string>
     <string name="touch_testing_second">с</string>
 
+    <string name="touch_setting_detection_time_title">Touch detection time</string>
+    <string name="touch_setting_detection_time_hint">If you have a lower value, the music screen should be closed faster</string>
+
     <string name="touch_setting_detection_method_title">Способ определения касаний</string>
 
     <string name="touch_setting_recognition_start_title">Начало распознавания касаний</string>
@@ -599,6 +606,17 @@
         <amazfit_band_2><p>Кнопка <mi_band_type> под экраном.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Поворот запястья
         <p>Поворот запястья засчитывается, когда экран <mi_band_type> включается.</p>
+        <img src="ic_call"> <b><u>Управление звонками</b></u>
+        <p>Работает всегда, даже если касания отключены.</p>
+        <p>Распознанная функция не выполняется в тестовом режиме.</p>
+        <p>Вибрация браслета срабатывает, если есть действительная комбинация с учётом текущего состояния устройства (ответ на звонок, отмена звонка только во время входящего звонка и т. д.…).</p>
+        <p>Браслет вибрирует один раз, когда распознаёт комбинацию.</p>
+        <p>Браслет вибрирует дважды, когда не распознаёт ни одну комбинацию после самой длинной (если <i>Не распознанные нажатия</i> включены).</p>
+    ]]></string>
+
+    <string name="info_dialog_touch_mi_band_4"><![CDATA[
+        <img src="ic_play_circle_outline"> <b><u>Music screen mod</u></b>
+        <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
         <img src="ic_call"> <b><u>Управление звонками</b></u>
         <p>Работает всегда, даже если касания отключены.</p>
         <p>Распознанная функция не выполняется в тестовом режиме.</p>

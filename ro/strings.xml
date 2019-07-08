@@ -289,6 +289,8 @@
 
     <string name="message_touch_no_patterns">Apasă unul dintre butoanele roșii pentru a înregistra modelul</string>
     <string name="message_touch_record">Înregistrează modelul utilizând butonul tactil al %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_touch_record_music_screen">Record the pattern using the %1$s music screen</string> <!-- %1$s = Mi Band 4  -->
+    <string name="message_touch_record_pulse_screen">Record the pattern using the %1$s pulse screen</string> <!-- %1$s = Mi Band 3, Amazfit Cor ... -->
     <string name="message_touch_pattern_error">Modelul specificat este similar cu o bucată a altei funcții, înregistrează altul</string>
     <string name="message_touch_free_patterns">Nu poți folosi mai mult de %1$,d funcții în modul normal</string>
     <string name="message_touch_music_player_not_found">Nu a fost găsit playerul muzical</string>
@@ -309,6 +311,7 @@
     <string name="message_alarm_mi_band_clear_failed">Eliminarea alarmei a eșuat</string>
 
     <string name="message_premium_mode_only">Această funcție este disponibilă numai în modul premium</string>
+    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
     <string name="message_general_error">Setarea a eșuat (conexiunea s-a pierdut), încearcă din nou</string>
     <string name="message_internet_error">Lipsă conexiune la internet</string>
     <string name="message_gps_enable">Activează GPS</string>
@@ -321,6 +324,7 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Bun venit!</string>
     <string name="dialog_welcome_message"><![CDATA[Dispozitive acceptate:
+    <br>- <b>Xiaomi Mi Band 4</b>
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
@@ -544,6 +548,9 @@
     <string name="touch_testing_title">Monitorizare atingere</string>
     <string name="touch_testing_second">sec.</string>
 
+    <string name="touch_setting_detection_time_title">Touch detection time</string>
+    <string name="touch_setting_detection_time_hint">If you have a lower value, the music screen should be closed faster</string>
+
     <string name="touch_setting_detection_method_title">Metoda de detectare a atingerii</string>
 
     <string name="touch_setting_recognition_start_title">Începe recunoașterea atingerii</string>
@@ -584,9 +591,9 @@
         <amazfit_band_2><p>Pe brățară, pornește funcția de măsurare a pulsului (Stare) și apoi întrerupe măsurarea (glisează spre dreapta) după o secundă.</p></amazfit_band_2>
         <p>Trebuie să fie oprită în timpul măsurării continue și online a pulsului.<p>
         <img src="ic_touch_find"> Find phone
-        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) start the measurement (long touch).</p></mi_band_3>
-        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) start the measurement.</p></amazfit_cor>
-        <amazfit_band_2>On the bracelet, in the Find phone function (Settings/Find phone) start the measurement.</p></amazfit_band_2>
+        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) start the finding (long touch).</p></mi_band_3>
+        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) start the finding.</p></amazfit_cor>
+        <amazfit_band_2>On the bracelet, in the Find phone function (Settings/Find phone) start the finding.</p></amazfit_band_2>
         <img src="ic_touch_find_off"> Interrupt phone finding
         <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) interrupt the finding (one touch).</p></mi_band_3>
         <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) interrupt the finding (swipe right).</p></amazfit_cor>
@@ -599,6 +606,17 @@
         <amazfit_band_2><p>Butonul de sub ecranul <mi_band_type>.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Ridicare încheietură
         <p>Ridicarea încheieturii este validă atunci când ecranul <mi_band_type> se aprinde.</p>
+        <img src="ic_call"> <b><u>Control apel</b></u>
+        <p>Funcționează întotdeauna, chiar dacă monitorizarea tactilă este oprită.</p>
+        <br><p>În modul de testare nu se execută funcția modelului recunoscut.</p>
+        <p>Doar vibratie de feedback, dacă există un model care ține cont de starea curentă a telefonului (răspuns la apel, respingere numai dacă există un apel primit …).</p>
+        <p>Brățara vibrează o dată, când recunoaște un model.</p>
+        <p>Brățara vibrează de două ori, atunci când nu se recunoaște niciun model după cel mai lung model (dacă este setat <i> Semnal model atingere nerecunoscut</i>).</p>
+    ]]></string>
+
+    <string name="info_dialog_touch_mi_band_4"><![CDATA[
+        <img src="ic_play_circle_outline"> <b><u>Music screen mod</u></b>
+        <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
         <img src="ic_call"> <b><u>Control apel</b></u>
         <p>Funcționează întotdeauna, chiar dacă monitorizarea tactilă este oprită.</p>
         <br><p>În modul de testare nu se execută funcția modelului recunoscut.</p>

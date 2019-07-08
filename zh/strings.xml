@@ -286,6 +286,8 @@
 
     <string name="message_touch_no_patterns">按下红色按钮来进行记录</string>
     <string name="message_touch_record">使用 %1$s 触摸按钮</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_touch_record_music_screen">Record the pattern using the %1$s music screen</string> <!-- %1$s = Mi Band 4  -->
+    <string name="message_touch_record_pulse_screen">Record the pattern using the %1$s pulse screen</string> <!-- %1$s = Mi Band 3, Amazfit Cor ... -->
     <string name="message_touch_pattern_error">新动作与已有动作相似，请重新录制</string>
     <string name="message_touch_free_patterns">在普通模式下不能使用多于 %1$,d 的函数</string>
     <string name="message_touch_music_player_not_found">找不到播放器</string>
@@ -306,6 +308,7 @@
     <string name="message_alarm_mi_band_clear_failed">清除失败</string>
 
     <string name="message_premium_mode_only">此功能仅在高级模式可以</string>
+    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
     <string name="message_general_error">设置失败(连接丢失),请重试</string>
     <string name="message_internet_error">没有网络连接</string>
     <string name="message_gps_enable">启用 GPS</string>
@@ -318,6 +321,7 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">欢迎!</string>
     <string name="dialog_welcome_message"><![CDATA[Supported devices:
+    <br>- <b>Xiaomi Mi Band 4</b>
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
@@ -540,6 +544,9 @@
     <string name="touch_testing_title">触摸监控</string>
     <string name="touch_testing_second">sec.</string>
 
+    <string name="touch_setting_detection_time_title">Touch detection time</string>
+    <string name="touch_setting_detection_time_hint">If you have a lower value, then music screen should be closed faster</string>
+
     <string name="touch_setting_detection_method_title">触摸截取方式</string>
 
     <string name="touch_setting_recognition_start_title">开始触摸识别</string>
@@ -596,6 +603,17 @@
         <amazfit_band_2><p>The button below the <mi_band_type> screen.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Wrist lift
         <p>Wrist lift is valid when the <mi_band_type> screen turns on.</p>
+        <img src="ic_call"> <b><u>Call control</b></u>
+        <p>It always works, even if the touch monitor is switched off.</p>
+        <br><p>In test mode does not execute the function of recognised pattern.</p>
+        <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
+        <p>Band vibrates once, when recognise a pattern.</p>
+        <p>Band vibrates twice, when not recognise any pattern after the longest pattern (if <i>Not recognisable touch pattern signal</i> is set).</p>
+    ]]></string>
+
+    <string name="info_dialog_touch_mi_band_4"><![CDATA[
+        <img src="ic_play_circle_outline"> <b><u>Music screen mod</u></b>
+        <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
         <img src="ic_call"> <b><u>Call control</b></u>
         <p>It always works, even if the touch monitor is switched off.</p>
         <br><p>In test mode does not execute the function of recognised pattern.</p>

@@ -289,6 +289,8 @@
 
     <string name="message_touch_no_patterns">Druk op een van de rode opnameknoppen</string>
     <string name="message_touch_record">Neem het patroon op met behulp van de aanraaksensor %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_touch_record_music_screen">Record the pattern using the %1$s music screen</string> <!-- %1$s = Mi Band 4  -->
+    <string name="message_touch_record_pulse_screen">Record the pattern using the %1$s pulse screen</string> <!-- %1$s = Mi Band 3, Amazfit Cor ... -->
     <string name="message_touch_pattern_error">Het opgegeven patroon is vergelijkbaar met een opname van een andere functie, neem een andere op</string>
     <string name="message_touch_free_patterns">Je kan niet meer dan %1$,d functies in Normale modus gebruiken</string>
     <string name="message_touch_music_player_not_found">Muziekspeler niet gevonden</string>
@@ -309,6 +311,7 @@
     <string name="message_alarm_mi_band_clear_failed">Wissen alarm mislukt</string>
 
     <string name="message_premium_mode_only">Deze functie is alleen beschikbaar in premium modus</string>
+    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
     <string name="message_general_error">Instelling mislukt (verbinding verbroken), probeer het opnieuw</string>
     <string name="message_internet_error">Geen internetverbinding</string>
     <string name="message_gps_enable">GPS inschakelen</string>
@@ -321,6 +324,7 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Welkom!</string>
     <string name="dialog_welcome_message"><![CDATA[Ondersteunde apparaten:
+    <br>- <b>Xiaomi Mi Band 4</b>
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
@@ -544,6 +548,9 @@
     <string name="touch_testing_title">Aanraak beheer</string>
     <string name="touch_testing_second">sec.</string>
 
+    <string name="touch_setting_detection_time_title">Touch detection time</string>
+    <string name="touch_setting_detection_time_hint">If you have a lower value, the music screen should be closed faster</string>
+
     <string name="touch_setting_detection_method_title">Aanraak detectie methode</string>
 
     <string name="touch_setting_recognition_start_title">Start de aanraakherkenning</string>
@@ -584,9 +591,9 @@
         <amazfit_band_2><p>Op de armband, start de hartslag meetingsfunctie (status) en onderbreekt na 1 seconde deze meting (veeg naar rechts).</p></amazfit_band_2>
         <p>Het moet worden uitgeschakeld tijdens continue, online hartslagmeting en oefening.<p>
         <img src="ic_touch_find"> Find phone
-        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) start the measurement (long touch).</p></mi_band_3>
-        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) start the measurement.</p></amazfit_cor>
-        <amazfit_band_2>On the bracelet, in the Find phone function (Settings/Find phone) start the measurement.</p></amazfit_band_2>
+        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) start the finding (long touch).</p></mi_band_3>
+        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) start the finding.</p></amazfit_cor>
+        <amazfit_band_2>On the bracelet, in the Find phone function (Settings/Find phone) start the finding.</p></amazfit_band_2>
         <img src="ic_touch_find_off"> Interrupt phone finding
         <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) interrupt the finding (one touch).</p></mi_band_3>
         <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) interrupt the finding (swipe right).</p></amazfit_cor>
@@ -600,6 +607,17 @@
         <img src="ic_touch_wrist"> Polsbeweging
         <p>De polsbeweging is herkend als de <mi_band_type> scherm aan gaat.</p>
         <img src="ic_call"> <b><u>Oproep controle</b></u>
+        <p>Het is altijd actief, zelfs als aanraakbeheer is uitgeschakeld.</p>
+        <br><p>In testmodus wordt de functie van een herkend patroon niet uitgevoerd.</p>
+        <p>Alleen trillingsfeedback wanneer er een patroon is waarbij rekening wordt gehouden met de huidige status van de telefoon (beantwoorden van oproepen, weigering alleen als er een inkomende oproep is …).</p>
+        <p>Band trild éénmaal, als het patroon is herkent.</p>
+        <p>Band trild tweemaal, wanneer er geen patroon herkent is na het langste patroon (als <i> Niet herkenbaar aanraakpatroon signaal</i> is ingesteld).</p>
+    ]]></string>
+
+    <string name="info_dialog_touch_mi_band_4"><![CDATA[
+        <img src="ic_play_circle_outline"> <b><u>Music screen mod</u></b>
+        <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
+              <img src="ic_call"> <b><u>Oproep controle</b></u>
         <p>Het is altijd actief, zelfs als aanraakbeheer is uitgeschakeld.</p>
         <br><p>In testmodus wordt de functie van een herkend patroon niet uitgevoerd.</p>
         <p>Alleen trillingsfeedback wanneer er een patroon is waarbij rekening wordt gehouden met de huidige status van de telefoon (beantwoorden van oproepen, weigering alleen als er een inkomende oproep is …).</p>

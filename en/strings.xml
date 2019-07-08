@@ -288,6 +288,8 @@
 
     <string name="message_touch_no_patterns">Press one of the red buttons to record pattern</string>
     <string name="message_touch_record">Record the pattern using the %1$s touch button</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_touch_record_music_screen">Record the pattern using the %1$s music screen</string> <!-- %1$s = Mi Band 4  -->
+    <string name="message_touch_record_pulse_screen">Record the pattern using the %1$s pulse screen</string> <!-- %1$s = Mi Band 3, Amazfit Cor ... -->
     <string name="message_touch_pattern_error">The specified pattern is similar to a sample of another function, record another</string>
     <string name="message_touch_free_patterns">You can not use more than %1$,d functions in normal mode</string>
     <string name="message_touch_music_player_not_found">Music player not found</string>
@@ -308,6 +310,7 @@
     <string name="message_alarm_mi_band_clear_failed">Clearing the alarm failed</string>
 
     <string name="message_premium_mode_only">This feature is only available in premium mode</string>
+    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
     <string name="message_general_error">Setting failed (connection lost), try again</string>
     <string name="message_internet_error">No have internet connection</string>
     <string name="message_gps_enable">Enable the GPS</string>
@@ -320,6 +323,7 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Welcome!</string>
     <string name="dialog_welcome_message"><![CDATA[Supported devices:
+    <br>- <b>Xiaomi Mi Band 4</b>
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
@@ -543,6 +547,9 @@
     <string name="touch_testing_title">Touch monitoring</string>
     <string name="touch_testing_second">sec.</string>
 
+    <string name="touch_setting_detection_time_title">Touch detection time</string>
+    <string name="touch_setting_detection_time_hint">If you have a lower value, the music screen should be closed faster</string>
+
     <string name="touch_setting_detection_method_title">Touch detection method</string>
 
     <string name="touch_setting_recognition_start_title">Start touch recognition</string>
@@ -583,9 +590,9 @@
         <amazfit_band_2><p>On the bracelet, start the pulse measurement function (Status) and then interrupt the measurement (swipe right) after 1 second.</p></amazfit_band_2>
         <p>It must be turn off during continuous, online pulse measurement and exercise.<p>
         <img src="ic_touch_find"> Find phone
-        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) start the measurement (long touch).</p></mi_band_3>
-        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) start the measurement.</p></amazfit_cor>
-        <amazfit_band_2>On the bracelet, in the Find phone function (Settings/Find phone) start the measurement.</p></amazfit_band_2>
+        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) start the finding (long touch).</p></mi_band_3>
+        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) start the finding.</p></amazfit_cor>
+        <amazfit_band_2>On the bracelet, in the Find phone function (Settings/Find phone) start the finding.</p></amazfit_band_2>
         <img src="ic_touch_find_off"> Interrupt phone finding
         <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) interrupt the finding (one touch).</p></mi_band_3>
         <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) interrupt the finding (swipe right).</p></amazfit_cor>
@@ -598,6 +605,17 @@
         <amazfit_band_2><p>The button below the <mi_band_type> screen.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Wrist lift
         <p>Wrist lift is valid when the <mi_band_type> screen turns on.</p>
+        <img src="ic_call"> <b><u>Call control</b></u>
+        <p>It always works, even if the touch monitor is switched off.</p>
+        <br><p>In test mode does not execute the function of recognised pattern.</p>
+        <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
+        <p>Band vibrates once, when recognise a pattern.</p>
+        <p>Band vibrates twice, when not recognise any pattern after the longest pattern (if <i>Not recognisable touch pattern signal</i> is set).</p>
+    ]]></string>
+
+    <string name="info_dialog_touch_mi_band_4"><![CDATA[
+        <img src="ic_play_circle_outline"> <b><u>Music screen mod</u></b>
+        <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
         <img src="ic_call"> <b><u>Call control</b></u>
         <p>It always works, even if the touch monitor is switched off.</p>
         <br><p>In test mode does not execute the function of recognised pattern.</p>

@@ -288,6 +288,8 @@
 
     <string name="message_touch_no_patterns">Nhấn một trong các nút màu đỏ để ghi lại mẫu</string>
     <string name="message_touch_record">Ghi lại các cử chỉ sử dụng  nút cảm ứng %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_touch_record_music_screen">Record the pattern using the %1$s music screen</string> <!-- %1$s = Mi Band 4  -->
+    <string name="message_touch_record_pulse_screen">Record the pattern using the %1$s pulse screen</string> <!-- %1$s = Mi Band 3, Amazfit Cor ... -->
     <string name="message_touch_pattern_error">Các mẫu cụ thể là tương tự mẫu của một chức năng khác, ghi lại cách khác</string>
     <string name="message_touch_free_patterns">Lên đến %1$,d chức năng có thể được sử dụng</string>
     <string name="message_touch_music_player_not_found">Trình phát nhạc không được tìm thấy</string>
@@ -308,6 +310,7 @@
     <string name="message_alarm_mi_band_clear_failed">Xóa báo thức thất bại</string>
 
     <string name="message_premium_mode_only">Tính năng này chỉ có sẵn trong bản nâng cấp</string>
+    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
     <string name="message_general_error">cài đặt thất bại (kết nối bị mất), hãy thử lại</string>
     <string name="message_internet_error">Không có mạng</string>
     <string name="message_gps_enable">Kích hoạt GPS</string>
@@ -320,6 +323,7 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Chào mừng!</string>
     <string name="dialog_welcome_message"><![CDATA[Thiết bị hỗ trợ:
+    <br>- <b>Xiaomi Mi Band 4</b>
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
@@ -545,6 +549,9 @@
     <string name="touch_testing_title">Giám sát chạm</string>
     <string name="touch_testing_second">giây.</string>
 
+    <string name="touch_setting_detection_time_title">Touch detection time</string>
+    <string name="touch_setting_detection_time_hint">If you have a lower value, the music screen should be closed faster</string>
+
     <string name="touch_setting_detection_method_title">Phương pháp phát hiện cảm ứng</string>
 
     <string name="touch_setting_recognition_start_title">Bắt đầu nhận dạng</string>
@@ -608,6 +615,17 @@
         <p>Băng rung hai lần, khi không nhận ra bất kỳ mẫu nào sau mẫu dài nhất (nếu <i>Tín hiệu mẫu cảm ứng không thể nhận ra</i> được đặt).</p>
     ]]></string>
 
+    <string name="info_dialog_touch_mi_band_4"><![CDATA[
+        <img src="ic_play_circle_outline"> <b><u>Music screen mod</u></b>
+        <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
+        <img src="ic_call"> <b><u>Điều khiển cuộc gọi </b></u>
+        <p>Nó luôn hoạt động, ngay cả khi màn hình cảm ứng bị tắt.</p>
+        <br><p>Trong chế độ thử nghiệm không thực thi chức năng của mẫu được nhận dạng.</p>
+        <p>Chỉ phản hồi rung băng tần, nếu có một mẫu có tính đến trạng thái hiện tại của điện thoại (chỉ trả lời cuộc gọi, từ chối nếu có cuộc gọi đến).</p>
+        <p>Băng rung một lần, khi nhận ra một mẫu.</p>
+        <p>Băng rung hai lần, khi không nhận ra bất kỳ mẫu nào sau mẫu dài nhất (nếu <i>Tín hiệu mẫu cảm ứng không thể nhận ra</i> được đặt).</p>
+    ]]></string>
+
     <!-- Step monitoring -->
     <string name="action_tracker_step">Bước</string>
     <string name="action_tracker_distance">Khoảng cách</string>
@@ -660,15 +678,15 @@
     <string name="sleep_assistant_show_pulse">Show the measured pulse values on the daily pulse graph</string>
 
     <string name="info_dialog_sleep"><![CDATA[
-		<img src="ic_timelapse"> thời gian ngủ
-        <br><br><img src="ic_activity_s ngủ_deep">thời gian ngủ sâu
-        <br><br><img src="ic_activity_go_to_bed">giờ đi ngủ/thời gian thức
-        <br><br><img src="ic_activity_s ngủ_start">thời gian bắt đầu ngủ/thời gian ngủ nhẹ
-        <br><br><img src="ic_activity_s ngủ_time">tổng thời gian
-        <br><br><img src="ic_activity_s ngủ_end">thời gian kết thúc giấc ngủ
-        <br><br><img src="ic_activity_get_up">ra khỏi giờ đi ngủ
-        <br><br><img src="ic_activity_active">thời gian hoạt động
-        <br><br><img src="ic_activity_block">không đeo
+        <img src="ic_timelapse"> thời gian ngủ
+        <br><br><img src="ic_activity_sleep_deep"> thời gian ngủ sâu
+        <br><br><img src="ic_activity_go_to_bed"> iờ đi ngủ/thời gian thức
+        <br><br><img src="ic_activity_sleep_start"> thời gian bắt đầu ngủ/thời gian ngủ nhẹ
+        <br><br><img src="ic_activity_sleep_time"> tổng thời gian
+        <br><br><img src="ic_activity_sleep_end"> thời gian kết thúc giấc ngủ
+        <br><br><img src="ic_activity_get_up"> ra khỏi giờ đi ngủ
+        <br><br><img src="ic_activity_active"> thời gian hoạt động
+        <br><br><img src="ic_activity_block"> không đeo
         ]]>
     </string>
 
@@ -714,7 +732,7 @@
 
     <string name="message_pulse_premium_mode_only">Đo nhịp tim Online và Offline chỉ có thể được sử dụng ở chế độ cao cấp cùng một lúc</string>
 
-    <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"><b><u>Online pulse measurement</u></b>
+    <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Online pulse measurement</u></b>
         <p>Bluetooth connection is required for monitoring the pulse.</p>
         <p>Pulse monitor is repeated serveral times if the resulting value is invalid.<p>
         <img src="ic_pulse_offline"> <b><u>Offline pulse measurement</u></b>
@@ -752,6 +770,7 @@
         <support_icon_text><p>App uses reminder function of Mi Fit to alert.</p></support_icon_text>
         <p>Before switching off Bluetooth or uninstalling the app you need to deactivate Tín hiệu Band.</p>
         <not_support_icon_text><p>If you remove the application when the alarm is on, then you can disable it with turning on and off again Mi Fit 10. alarm setting.</p></not_support_icon_text>
+
         <img src="ic_phone_android"> <b><u>Device signals</u></b>
         <p>When specified period of time expires, device send signals repeatedly if not connected to the bracelet.<p>
         <p>This makes it easier to find the device. If someone else finds the device and it is locked he does not know who to notify, so you can display a message.</p>
@@ -824,7 +843,7 @@
     <string name="message_time_alarm_sync">Đồng bộ báo thức %1$s (xóa và cài đặt báo thức trên smartwatch của bạn)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_time"><![CDATA[
-        <p><b>Tắt the alarm, timer and stopwatch before removing the application.</b></p>
+        <p><b>Turn off the alarm, timer and stopwatch before removing the application.</b></p>
         <img src="ic_device_alarm"> <b><u>Signal when phone alarm sounds</u></b>
         <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from the Google Play.</p>
         <img src="ic_miband_bell"> <b><u>Bell</u></b>
@@ -903,6 +922,7 @@
     <string name="info_dialog_watch_face_download"><![CDATA[
         <img src="ic_file_download_outline"> <b><u>Download</u></b>
         <p>Download watch faces from the web sites.</p>
+
         <img src="ic_action_download"> <b><u>Move the files</u></b>
         <p>If necessary, move the downloaded watch face files from the Download directory to the MiBandage directory.</p>
         ]]>
@@ -911,12 +931,15 @@
     <string name="info_dialog_watch_face"><![CDATA[<b><u>Watch face change procedure:</u></b>
         <p><img src="ic_mi_fit_init"> <b>Initialization</b></p>
         <p>Resets the watch face\'s states to the original in the Mi Fit application, upload the first factory watch face.</p>
+
         <img src="ic_mi_fit_upload"> <b>Upload</b>
         <p>Upload the selected watch face in the Mi Fit. It replaces the last uploaded factory watch face.</p>
+
         <br><p><b><u>Upload multiple watch face</u></b></p>
         <p><img src="ic_action_launch_mi_fit"> Launching Mi Fit without watch face replacing, upload the second factory watch face.</p>
         <p><img src="ic_mi_fit_upload">  Upload the selected watch face in the Mi Fit.</p>
         <p>Repeat these steps.</p>
+
         <br><p>In the Mi Fit the watch face\'s picture will not change.</p>
         ]]>
     </string>
@@ -936,6 +959,7 @@
         <br>- power on
         <br>- unlocking the screen
         <br>- motion detected
+
         <p>If someone operates with the device while you are away, then events above are logged.</p>
         <p>When you reconnect you will receive a notification in case of an event occurred.</p>]]>
     </string>
@@ -1025,7 +1049,7 @@
     <string name="message_rewarded_error">Không tải được video</string>
 
     <!-- Premium mode -->
-    <string name="purchase_advantage_title">Ưu điểm chế độ Cao cấp</string>
+    <string name="purchase_advantage_title">Premium mode advantages</string>
     <string name="purchase_advantage"><![CDATA[
         <p>- Không quảng cáo</p>
         <p>- Chế độ Không làm phiền</p>
@@ -1044,7 +1068,7 @@
         <p>- Tớ biết rằng tớ không thể yêu cầu bồi thường hoặc hoàn tiền do lỗi, phần mềm lỗi do thay đổi trong phần mềm, môi trường phần cứng hoặc dùng với ứng dụng khác.</p>
         <p>- Sau khi đã hoàn tất mua ứng dụng thì không được hoàn tiền (Cái này là luật của chị Google, em cũng éo rõ).</p>
         <p>- Đương nhiên là éo có bảo hành đi kèm đâu, nhưng sau khi mua ứng dụng thì bạn được dùng trọn đời và nhận được các bản nâng cấp về sau này MIỄN PHÍ.</p>
-        <br><p><i>Sau khi mua thì bạn nên khởi động lại để ứng dụng nhận bản quyền.</i></p>
+        <p><i>Sau khi mua thì bạn nên khởi động lại để ứng dụng nhận bản quyền.</i></p>
         <br><p><i>Tớ là Hưng và tớ chỉ dịch giùm bạn Tibor thôi...</i></p>
     ]]></string>
 
@@ -1139,8 +1163,8 @@
 
     <string name="action_chart">Biểu đồ</string>
     <string name="action_chart_normalize_minute">Giá trị đo được</string>
-    <string name="action_chart_normalize_quarter_hourly">Biểu đồ theo 15'</string>
-    <string name="action_chart_normalize_half_hourly">Biểu đồ theo 30'</string>
+    <string name="action_chart_normalize_quarter_hourly">Biểu đồ theo 15\'</string>
+    <string name="action_chart_normalize_half_hourly">Biểu đồ theo 30\'</string>
     <string name="action_chart_normalize_hourly">Trung bình hàng giờ</string>
     <string name="action_chart_sort_time_asc">Thời gian tăng dần</string>
     <string name="action_chart_sort_time_desc">Thời gian giảm dần</string>

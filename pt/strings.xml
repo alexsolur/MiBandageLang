@@ -289,6 +289,8 @@
 
     <string name="message_touch_no_patterns">Clique num dos botões vermelhos para gravar um padrão</string>
     <string name="message_touch_record">Grave o padrão usando o botão touch da %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_touch_record_music_screen">Record the pattern using the %1$s music screen</string> <!-- %1$s = Mi Band 4  -->
+    <string name="message_touch_record_pulse_screen">Record the pattern using the %1$s pulse screen</string> <!-- %1$s = Mi Band 3, Amazfit Cor ... -->
     <string name="message_touch_pattern_error">O padrão gravado é semelhante ao de outra função, grave outro</string>
     <string name="message_touch_free_patterns">Só pode usar até %1$,d funções</string>
     <string name="message_touch_music_player_not_found">Reprodutor de música não encontrado</string>
@@ -309,6 +311,7 @@
     <string name="message_alarm_mi_band_clear_failed">A limpeza do alarme falhou</string>
 
     <string name="message_premium_mode_only">Esta definição só está disponível no modo premium</string>
+    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
     <string name="message_general_error">A configuração falhou (conexão perdida), tente de novo</string>
     <string name="message_internet_error">Não tem ligação à internet</string>
     <string name="message_gps_enable">Ligue o GPS</string>
@@ -321,6 +324,7 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Bem vindo!</string>
     <string name="dialog_welcome_message"><![CDATA[Dispositivos suportados:
+    <br>- <b>Xiaomi Mi Band 4</b>
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
@@ -544,6 +548,9 @@
     <string name="touch_testing_title">Monitorar touch</string>
     <string name="touch_testing_second">seg.</string>
 
+    <string name="touch_setting_detection_time_title">Touch detection time</string>
+    <string name="touch_setting_detection_time_hint">If you have a lower value, the music screen should be closed faster</string>
+
     <string name="touch_setting_detection_method_title">Método de monitoramento touch</string>
 
     <string name="touch_setting_recognition_start_title">Iniciar reconhecimento touch</string>
@@ -600,6 +607,17 @@
         <img src="ic_touch_wrist"> Levantar o pulso
         <p>Levantar o braço é válido quando o ecrã da <mi_band_type> liga.</p>
         <img src="ic_call"> <b><u>Controlo de chamada</b></u>
+        <p>Esta função funciona sempre, mesmo que a Monitorização do Touch esteja desligada.</p>
+        <br><p>No modo Teste, a função Padrão Reconhecido não é executada.</p>
+        <p>Só existe um feadback de vibração da Band se existir um padrão, tendo em conta o estado atual do Telemóvel (Atender e Rejeitar chamadas apenas se existir alguém a telefonar, …).</p>
+        <p>A Band vibra uma vez quando reconhece o padrão.</p>
+        <p>A Band vibra duas vezes quando não é reconhecido nenhum padrão após o mais longo (Se o sinal <i>Padrão touch não reconhecido</i> está configurado).</p>
+    ]]></string>
+
+    <string name="info_dialog_touch_mi_band_4"><![CDATA[
+        <img src="ic_play_circle_outline"> <b><u>Music screen mod</u></b>
+        <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
+         <img src="ic_call"> <b><u>Controlo de chamada</b></u>
         <p>Esta função funciona sempre, mesmo que a Monitorização do Touch esteja desligada.</p>
         <br><p>No modo Teste, a função Padrão Reconhecido não é executada.</p>
         <p>Só existe um feadback de vibração da Band se existir um padrão, tendo em conta o estado atual do Telemóvel (Atender e Rejeitar chamadas apenas se existir alguém a telefonar, …).</p>
