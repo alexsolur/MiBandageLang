@@ -289,8 +289,8 @@
 
     <string name="message_touch_no_patterns">Clique num dos botões vermelhos para gravar um padrão</string>
     <string name="message_touch_record">Grave o padrão usando o botão touch da %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="message_touch_record_music_screen">Record the pattern using the %1$s music screen</string> <!-- %1$s = Mi Band 4  -->
-    <string name="message_touch_record_pulse_screen">Record the pattern using the %1$s pulse screen</string> <!-- %1$s = Mi Band 3, Amazfit Cor ... -->
+    <string name="message_touch_record_music_screen">Grave o padrão usando o ecrã de música da %1$s</string> <!-- %1$s = Mi Band 4  -->
+    <string name="message_touch_record_pulse_screen">Grave o padrão usando o ecrã de pulsação %1$s</string> <!-- %1$s = Mi Band 3, Amazfit Cor ... -->
     <string name="message_touch_pattern_error">O padrão gravado é semelhante ao de outra função, grave outro</string>
     <string name="message_touch_free_patterns">Só pode usar até %1$,d funções</string>
     <string name="message_touch_music_player_not_found">Reprodutor de música não encontrado</string>
@@ -311,7 +311,7 @@
     <string name="message_alarm_mi_band_clear_failed">A limpeza do alarme falhou</string>
 
     <string name="message_premium_mode_only">Esta definição só está disponível no modo premium</string>
-    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
+    <string name="message_feature_is_not_supported">%1$s não suporta esta feature</string>
     <string name="message_general_error">A configuração falhou (conexão perdida), tente de novo</string>
     <string name="message_internet_error">Não tem ligação à internet</string>
     <string name="message_gps_enable">Ligue o GPS</string>
@@ -548,8 +548,8 @@
     <string name="touch_testing_title">Monitorar touch</string>
     <string name="touch_testing_second">seg.</string>
 
-    <string name="touch_setting_detection_time_title">Touch detection time</string>
-    <string name="touch_setting_detection_time_hint">If you have a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_title">Tempo para detetar o touch</string>
+    <string name="touch_setting_detection_time_hint">Se você colocar um valor mais baixo, o ecrã de música vai ser fechado mais rápido</string>
 
     <string name="touch_setting_detection_method_title">Método de monitoramento touch</string>
 
@@ -609,14 +609,14 @@
         <img src="ic_call"> <b><u>Controlo de chamada</b></u>
         <p>Esta função funciona sempre, mesmo que a Monitorização do Touch esteja desligada.</p>
         <br><p>No modo Teste, a função Padrão Reconhecido não é executada.</p>
-        <p>Só existe um feadback de vibração da Band se existir um padrão, tendo em conta o estado atual do Telemóvel (Atender e Rejeitar chamadas apenas se existir alguém a telefonar, …).</p>
+        <p>A band só emite um feadback de vibração se o padrão existir, tendo em conta o estado atual do Telemóvel (Atender e Rejeitar chamadas apenas se existir alguém a telefonar, …).</p>
         <p>A Band vibra uma vez quando reconhece o padrão.</p>
-        <p>A Band vibra duas vezes quando não é reconhecido nenhum padrão após o mais longo (Se o sinal <i>Padrão touch não reconhecido</i> está configurado).</p>
+        <p>A Band vibra duas vezes quando não é reconhecido nenhum padrão após o mais longo (Se a função <i>Padrão touch não reconhecido</i> está configurada).</p>
     ]]></string>
 
     <string name="info_dialog_touch_mi_band_4"><![CDATA[
-        <img src="ic_play_circle_outline"> <b><u>Music screen mod</u></b>
-        <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
+        <img src="ic_play_circle_outline"> <b><u>Modo ecrã de música</u></b>
+        <p>Na pulseira, abra o ecrã de música (deslizar para a esquerda/direita) e feche de seguida.</p>
          <img src="ic_call"> <b><u>Controlo de chamada</b></u>
         <p>Esta função funciona sempre, mesmo que a Monitorização do Touch esteja desligada.</p>
         <br><p>No modo Teste, a função Padrão Reconhecido não é executada.</p>
@@ -894,15 +894,15 @@
     <string name="watch_face_tab_upload">Upload</string>
     <string name="watch_face_tab_upload_mi_fit">Upload via Mi Fit</string>
 
-    <string name="watch_face_download_title">Download watch face</string>
-    <string name="watch_face_download_path">Guarde o ficheiro da Watch Face transferida aqui</string>
-    <string name="watch_face_download_move">%1$s directory</string>  <!-- %1$s = Download ... -->
+    <string name="watch_face_download_title">Descarregar watch faces</string>
+    <string name="watch_face_download_path">Guarde a Watch Face transferida aqui</string>
+    <string name="watch_face_download_move">Pasta de %1$s</string>  <!-- %1$s = Download ... -->
     <string name="watch_face_download_move_hint">Mover as Watch Faces transferidas da pasta %1$s para a pasta da Mi Bandage</string>
 
     <string name="watch_face_upload_title">Alterar Watch Face</string>
 
-    <string name="watch_face_upload_prepare">Preparing for the upload…</string>
-    <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
+    <string name="watch_face_upload_prepare">A preparar para realizar o upload…</string>
+    <string name="watch_face_upload_progress">A fazer o upload de %1$,d%%</string>
 
     <string name="watch_face_upload_init_title">Inicialização</string>
     <string name="watch_face_upload_init_content"><![CDATA[Faça o upload de uma das Watch Faces extras na aplicação Mi Fit.
@@ -916,7 +916,7 @@
     ]]></string>
 
     <string name="message_watch_face_upload_error">É necessário fazer a Inicialização</string>
-    <string name="message_watch_face_file_error">Invalid watch face file</string>
+    <string name="message_watch_face_file_error">O ficheiro da watch face não é válido</string>
 
     <string name="info_dialog_watch_face_download"><![CDATA[
         <img src="ic_file_download_outline"> <b><u>Download</u></b>
@@ -1141,7 +1141,7 @@
     <string name="unknown">Desconhecido</string>
     <string name="maximum">Máximo</string>
     <string name="all_day">Todo o dia</string>
-    <string name="file_name">Nome do ficeiro</string>
+    <string name="file_name">Nome do ficheiro</string>
 
     <string name="action_dismiss">Recusar</string>
     <string name="action_setting">Definições</string>
@@ -1155,8 +1155,8 @@
     <string name="action_test">Testar</string>
     <string name="action_discard">Rejeitar</string>
     <string name="action_keep_editing">Continuar a editar</string>
-    <string name="action_new">New</string>
-    <string name="action_start_stop">Start/Stop</string>
+    <string name="action_new">Novo</string>
+    <string name="action_start_stop">Iniciar/Parar</string>
 
     <string name="action_chart">Gráfico</string>
     <string name="action_chart_normalize_minute">Valores medidos</string>
