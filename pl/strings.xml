@@ -217,7 +217,7 @@
     <string name="pref_call_missed_alert_title">Sygnał na %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_call_missed_text_prefix_title">Prefiks tekstu</string>
-    <string name="pref_call_missed_text_prefix_summary">Jeśli więcej niż jedna aplikacja używa tej ikony, aby odróżnić od siebie powiadomienia</string>
+    <string name="pref_call_missed_text_prefix_summary">Aby odróżnić od siebie powiadomienia, jeśli więcej niż jedna aplikacja używa tej ikony</string>
     <string name="pref_call_missed_text_prefix_dialog_title">Prefix tekstu</string>
 
     <string name="pref_battery_phone">Bateria telefonu</string>
@@ -590,14 +590,14 @@
         <amazfit_cor><p>Na bransoletce uruchom funkcję pomiaru tętna (status), a następnie przerwij pomiar (przesuń palcem w prawo) po 1 sekundzie.</p></amazfit_cor>
         <amazfit_band_2><p>Na bransoletce uruchom funkcję pomiaru tętna (status), a następnie przerwij pomiar (przesuń palcem w prawo) po 1 sekundzie.</p></amazfit_band_2>
         <p>Musi być wyłączony podczas ciągłego pomiaru tętna online i ćwiczeń.<p>
-        <img src="ic_touch_find"> Find phone
-        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) start the finding (long touch).</p></mi_band_3>
-        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) start the finding.</p></amazfit_cor>
-        <amazfit_band_2>On the bracelet, in the Find phone function (Settings/Find phone) start the finding.</p></amazfit_band_2>
-        <img src="ic_touch_find_off"> Interrupt phone finding
-        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) interrupt the finding (one touch).</p></mi_band_3>
-        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) interrupt the finding (swipe right).</p></amazfit_cor>
-        <amazfit_band_2><p>On the bracelet, in the Find phone function (Settings/Find phone) interrupt the finding (swipe right).</p></amazfit_band_2>
+        <img src="ic_touch_find"> Znajdź telefon
+        <mi_band_3><p>Na bransoletce, w funkcji Znajdź urządzenie (Więcej/Znajdź urządzenie) rozpocznij wyszukiwanie (długi dotyk).</p></mi_band_3>
+        <amazfit_cor><p>Na bransoletce, w funkcji Znajdź telefon (Ustawienia/Znajdź telefon) rozpocznij wyszukiwanie.</p></amazfit_cor>
+        <amazfit_band_2>Na bransoletce, w funkcji Znajdź telefon (Ustawienia/Znajdź telefon) rozpocznij wyszukiwanie.</p></amazfit_band_2>
+        <img src="ic_touch_find_off"> Przerwij wyszukiwanie telefonu
+        <mi_band_3><p>Na bransoletce, w funkcji Znajdź urządzenie (Więcej/Znajdź urządzenie) przerwij wyszukiwanie (jednym dotknięciem).</p></mi_band_3>
+        <amazfit_cor><p>Na bransoletce, w funkcji Znajdź telefon (Ustawienia/Znajdź telefon) przerwij wyszukiwanie (przesuń palcem w prawo).</p></amazfit_cor>
+        <amazfit_band_2><p>Na bransoletce, w funkcji Znajdź telefon (Ustawienia/Znajdź telefon) przerwij wyszukiwanie (przesuń palcem w prawo).</p></amazfit_band_2>
         <b><u>Tryb wydajności</u></b>
         <p>Zwiększa zużycie baterii. Na ekranie głównym włącz dotyk tylko wtedy, gdy go potrzebujesz.</p>
         <img src="ic_touch_app"> Dotyk
@@ -835,11 +835,11 @@
 
     <string name="time_enable_bluetooth">Włącz Bluetooth</string>
 
-    <string name="action_time_alarm_sort_state_asc">State ascending</string>
-    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
-    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+    <string name="action_time_alarm_sort_state_asc">Stan rosnąco</string>
+    <string name="action_time_alarm_sort_watch_asc">Zegar rosnąco</string>
+    <string name="action_time_alarm_sort_name_asc">Nazwa rosnąco</string>
 
-    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_time_alarm_sync">Synchroninuj alarmy %1$s (usuwanie i ustawianie alarmów na Twoim smartwatchu)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_time"><![CDATA[
         <p><b>Wyłącz alarm, timer i stoper przed usunięciem aplikacji.</b></p>
@@ -864,7 +864,7 @@
     <string name="message_reminder_enabled">Przypomnienie jest włączone</string>
     <string name="message_reminder_disabled">Przypomnienie wyłączone</string>
     <string name="message_reminder_no_more">Nie można nagrać więcej przypomnień</string>
-    <string name="message_reminder_sync">Synchronize %1$s reminders (deleting and setting reminders on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_reminder_sync">Synchronizuj przypomnienia %1$s (usuwanie i ustawianie przypomnień na Twoim smartwatchu)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text>Połączenie Bluetooth jest wymagane do wyświetlenia przypomnienia.</not_support_icon_text>
@@ -892,17 +892,17 @@
     <!-- Watch face -->
     <string name="watch_face_tab_download">Pobierz</string>
     <string name="watch_face_tab_upload">Prześlij</string>
-    <string name="watch_face_tab_upload_mi_fit">Upload via Mi Fit</string>
+    <string name="watch_face_tab_upload_mi_fit">Prześlij przez Mi Fit</string>
 
-    <string name="watch_face_download_title">Download watch face</string>
+    <string name="watch_face_download_title">Pobierz tarczę zegarka</string>
     <string name="watch_face_download_path">Zapisz pobrany plik tarczy zegarka tutaj</string>
-    <string name="watch_face_download_move">%1$s directory</string>  <!-- %1$s = Download ... -->
+    <string name="watch_face_download_move">%1$s katalog</string>  <!-- %1$s = Pobierz... -->
     <string name="watch_face_download_move_hint">Przenieś pobrane pliki tarcz zegarka z katalogu %1$s</string>
 
     <string name="watch_face_upload_title">Zmiana tarczy zegarka</string>
 
-    <string name="watch_face_upload_prepare">Preparing for the upload…</string>
-    <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
+    <string name="watch_face_upload_prepare">Przygotowanie do przesłania…</string>
+    <string name="watch_face_upload_progress">Przesyłanie %1$,d%%</string>
 
     <string name="watch_face_upload_init_title">Inicjalizacja</string>
     <string name="watch_face_upload_init_content"><![CDATA[W aplikacji Mi Fit ustaw jedną z fabrycznych tarczy zegarka.
@@ -916,7 +916,7 @@
     ]]></string>
 
     <string name="message_watch_face_upload_error">Wymagana inicjalizacja</string>
-    <string name="message_watch_face_file_error">Invalid watch face file</string>
+    <string name="message_watch_face_file_error">Nieprawidłowy plik tarczy zegarka</string>
 
     <string name="info_dialog_watch_face_download"><![CDATA[
         <img src="ic_file_download_outline"> <b><u>Pobierz</u></b>
