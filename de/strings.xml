@@ -351,12 +351,11 @@
     <br>5. Öffnen Sie die Mi Fit-App, warten Sie bis die Synchronisation abgeschlossen ist, und schließen Sie die App wieder.
     <br>6. Öffnen Sie die Mi Bandage-App und berühren Sie den \"Entdecken\"-Button.</p>]]></string>
 
-
-
     <!-- Diagnostic -->
     <string name="diagnostic_title">Diagnostic</string>
 
     <string name="diagnostic_permissions_title">Permissions</string>
+    <string name="diagnostic_permissions_autostart">Autostart</string>
 
     <string name="diagnostic_access_title">Access</string>
     <string name="diagnostic_access_do_not_disturb">Do not Disturb access</string>
@@ -388,10 +387,12 @@
     <string name="notification_group_text_content_slice_title">Textlänge</string>
     <string name="notification_group_display_time_title">Anzeigezeit</string>
     <string name="notification_group_vibration_title">Custom vibration</string>
+    <string name="notification_group_pre_title">Benachrichtigungsvorhersage</string>
     <string name="notification_group_pre_alert_title">Prä-Ikon</string>
     <string name="notification_group_pre_signal_title">Standard-Benachrichtigungsvorhersage</string>
     <string name="notification_group_pre_vibration_title">Pre vibration</string>
     <string name="notification_group_prefix">Text-Präfixprefix</string>
+    <string name="notification_group_display_notification_title">Display notification</string>
     <string name="notification_group_immediate">Bei Benachrichtigungsempfang sofortiges Signal</string>
     <string name="notification_group_connecting">Wenn Verbindung zum Gerät aufgebaut wird</string>
     <string name="notification_group_reminder">Erinnerungssignal</string>
@@ -400,6 +401,11 @@
     <string name="notification_group_counter_title">Anzahl der Signale</string>
     <string name="notification_group_repeat_title">Repeat signals</string>
     <string name="notification_group_wakelock">Signale wiederholen</string>
+    <string name="notification_group_remove_title">Remove notification</string>
+    <string name="notification_group_remove_from_device">Remove notification from the phone notification drawer</string>
+    <string name="notification_group_remove_from_device_hint">If you use the %1$s/Notifications/Clear all function</string> <!-- %1$s = Mi Band 4  ... -->
+    <string name="notification_group_remove_from_mi_band">Remove notification from the %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_remove_from_mi_band_hint">If you remove the notification from the phone\'s notification drawer</string>
 
     <string name="notification_group_filter">Benachrichtigungsfilter</string>
     <string name="notification_group_filter_title">Titelfilter</string>
@@ -494,8 +500,6 @@
     <string name="touch_call_answer_title">Anrufbeantwortung</string>
     <string name="touch_call_answer_speakerphone_title">Handylautsprecher</string>
 
-    <string name="touch_call_end_title">Anruf ablehnen, beenden</string>
-
     <string name="touch_call_mute_title">Stummschaltung des Anrufs ändern</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Only if you have an incoming call</string>
     <string name="touch_call_mute_recognition_title">On incoming call</string>
@@ -508,6 +512,10 @@
     <string name="touch_call_out_speakerphone_title">Handylautsprecher</string>
     <string name="touch_call_out_call_text">Call out: %1$s</string>
 
+    <string name="touch_weather_title">Wettervorhersage</string>
+    <string name="touch_weather_location">Ort</string>
+
+    <string name="touch_call_end_title">Anruf ablehnen, beenden</string>
     <string name="touch_device_location_not_muted_only_title">Nur Sound, wenn nicht stummgeschalten</string>
 
     <string name="touch_repeat_notif_title">Wiederhole Benachrichtigungen</string>
@@ -1087,6 +1095,8 @@
     <string name="feedback_google_play_title">App bewerten</string>
     <string name="feedback_request_feature_title">Forderungen stellen, Bugs melden</string>
     <string name="feedback_request_feature_summary">Aufgrund der automatischen Verarbeitung der E-Mails erhalten Sie keine Antwort.</string>
+    <string name="feedback_translation_title">Mi Bandage translation</string>
+    <string name="feedback_translation_title_summary">Please help in translation</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Datenschutz-Bestimmungen</string>

@@ -356,6 +356,7 @@
     <string name="diagnostic_title">Диагностика</string>
 
     <string name="diagnostic_permissions_title">Разрешения</string>
+    <string name="diagnostic_permissions_autostart">Autostart</string>
 
     <string name="diagnostic_access_title">Доступ</string>
     <string name="diagnostic_access_do_not_disturb">\'Не беспокоить\'</string>
@@ -387,10 +388,12 @@
     <string name="notification_group_text_content_slice_title">Длина текста</string>
     <string name="notification_group_display_time_title">Время отображения</string>
     <string name="notification_group_vibration_title">Особая вибрация</string>
+    <string name="notification_group_pre_title">Предсказание уведомлений</string>
     <string name="notification_group_pre_signal_title">Предсказание уведомлений по умолчанию</string>
     <string name="notification_group_pre_vibration_title">Пре-вибрация</string>
     <string name="notification_group_pre_alert_title">Пре-иконка</string>
     <string name="notification_group_prefix">Префикс текста</string>
+    <string name="notification_group_display_notification_title">Display notification</string>
     <string name="notification_group_immediate">Мгновенное уведомление</string>
     <string name="notification_group_connecting">При подключении к устройству</string>
     <string name="notification_group_reminder">Периодические уведомления</string>
@@ -399,6 +402,11 @@
     <string name="notification_group_counter_title">Количество сигналов</string>
     <string name="notification_group_repeat_title">Повтор сигналов</string>
     <string name="notification_group_wakelock">Активировать экран устройства</string>
+    <string name="notification_group_remove_title">Remove notification</string>
+    <string name="notification_group_remove_from_device">From the phone\'s notification drawer</string>
+    <string name="notification_group_remove_from_device_hint">If you use the %1$s/Notifications/Clear all function</string> <!-- %1$s = Mi Band 4  ... -->
+    <string name="notification_group_remove_from_mi_band">From the %1$s notification menu</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_remove_from_mi_band_hint">If you remove the notification from the phone\'s notification drawer</string>
 
     <string name="notification_group_filter">Фильтр</string>
     <string name="notification_group_filter_title">Фильтровать заголовок</string>
@@ -488,8 +496,6 @@
     <string name="touch_headline_time_title">Таймер/секундомер</string>
     <string name="touch_headline_other_title">Другое</string>
 
-    <string name="touch_device_location_title">Найти устройство</string>
-
     <string name="touch_call_answer_title">Ответ на звонок</string>
     <string name="touch_call_answer_speakerphone_title">Громкая связь</string>
 
@@ -507,6 +513,10 @@
     <string name="touch_call_out_speakerphone_title">Громкая связь</string>
     <string name="touch_call_out_call_text">Исходящий: %1$s</string>
 
+    <string name="touch_weather_title">Прогноз погоды</string>
+    <string name="touch_weather_location">Местоположение</string>
+
+    <string name="touch_device_location_title">Найти устройство</string>
     <string name="touch_device_location_not_muted_only_title">Подчиняться беззвучному режиму</string>
 
     <string name="touch_repeat_notif_title">Повторить уведомления</string>
@@ -1086,6 +1096,8 @@
     <string name="feedback_google_play_title">Оцените приложение</string>
     <string name="feedback_request_feature_title">Запрос функций, отправка ошибок</string>
     <string name="feedback_request_feature_summary">Автоматическая обработка электронной почты, без ответа (Английский настоятельно рекомендуется)</string>
+    <string name="feedback_translation_title">Mi Bandage translation</string>
+    <string name="feedback_translation_title_summary">Please help in translation</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Политика конфиденциальности</string>

@@ -356,6 +356,7 @@
     <string name="diagnostic_title">Diagnosa</string>
 
     <string name="diagnostic_permissions_title">Perizinan</string>
+    <string name="diagnostic_permissions_autostart">Autostart</string>
 
     <string name="diagnostic_access_title">Akses</string>
     <string name="diagnostic_access_do_not_disturb">Akses jangan ganggu (DnD)</string>
@@ -387,10 +388,12 @@
     <string name="notification_group_text_content_slice_title">Text length</string>
     <string name="notification_group_display_time_title">Waktu tampilan</string>
     <string name="notification_group_vibration_title">Custom vibration</string>
+    <string name="notification_group_pre_title">Prediksi pemberitahuan</string>
     <string name="notification_group_pre_alert_title">Ikon awal</string>
     <string name="notification_group_pre_vibration_title">Pre vibration</string>
     <string name="notification_group_pre_signal_title">Prediksi pemberitahuan default</string>
     <string name="notification_group_prefix">Awalan teks</string>
+    <string name="notification_group_display_notification_title">Display notification</string>
     <string name="notification_group_immediate">Nyalakan tanda langsung ketika ada pemberitahuan masuk</string>
     <string name="notification_group_connecting">Saat menyambungkan perangkat</string>
     <string name="notification_group_reminder">Tanda pengingat</string>
@@ -399,6 +402,11 @@
     <string name="notification_group_counter_title">Jumlah tanda</string>
     <string name="notification_group_repeat_title">Ulangi sinyal</string>
     <string name="notification_group_wakelock">Hidupkan layar perangkat</string>
+    <string name="notification_group_remove_title">Remove notification</string>
+    <string name="notification_group_remove_from_device">From the phone\'s notification drawer</string>
+    <string name="notification_group_remove_from_device_hint">If you use the %1$s/Notifications/Clear all function</string> <!-- %1$s = Mi Band 4  ... -->
+    <string name="notification_group_remove_from_mi_band">From the %1$s notification menu</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_remove_from_mi_band_hint">If you remove the notification from the phone\'s notification drawer</string>
 
     <string name="notification_group_filter">Menyaring pemberitahuan</string>
     <string name="notification_group_filter_title">Title filtering</string>
@@ -488,8 +496,6 @@
     <string name="touch_headline_time_title">Kontrol Timer/stopwatch</string>
     <string name="touch_headline_other_title">Kontrol lain</string>
 
-    <string name="touch_device_location_title">Temukan perangkat saya</string>
-
     <string name="touch_call_answer_title">Jawab panggilan</string>
     <string name="touch_call_answer_speakerphone_title">Pengeras suara telpon</string>
 
@@ -507,6 +513,10 @@
     <string name="touch_call_out_speakerphone_title">Pengeras suara telpon</string>
     <string name="touch_call_out_call_text">Call out: %1$s</string>
 
+    <string name="touch_weather_title">Prakiraan Cuaca</string>
+    <string name="touch_weather_location">Lokasi</string>
+
+    <string name="touch_device_location_title">Temukan perangkat saya</string>
     <string name="touch_device_location_not_muted_only_title">Suara saja ketika tidak dibisukan</string>
 
     <string name="touch_repeat_notif_title">Ulangi notifikasi</string>
@@ -1084,6 +1094,8 @@
     <string name="feedback_google_play_title">Beri nilai aplikasi</string>
     <string name="feedback_request_feature_title">Permintaan fitur, dan laporan bug</string>
     <string name="feedback_request_feature_summary">Proses e-mail otomatis, Anda tidak akan mendapat respons</string>
+    <string name="feedback_translation_title">Mi Bandage translation</string>
+    <string name="feedback_translation_title_summary">Please help in translation</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Kebijakan Privasi</string>

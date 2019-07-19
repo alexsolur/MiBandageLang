@@ -355,6 +355,7 @@
     <string name="diagnostic_title">Διαγνωστικά</string>
 
     <string name="diagnostic_permissions_title">Δικαιώματα</string>
+    <string name="diagnostic_permissions_autostart">Autostart</string>
 
     <string name="diagnostic_access_title">Πρόσβαση</string>
     <string name="diagnostic_access_do_not_disturb">Πρόσβαση μην ενοχλείτε</string>
@@ -386,10 +387,12 @@
     <string name="notification_group_text_content_slice_title">Το μήκος κειμένου</string>
     <string name="notification_group_display_time_title">Εμφάνιση ώρας</string>
     <string name="notification_group_vibration_title">Προσαρμοσμένη δόνηση</string>
+    <string name="notification_group_pre_title">Σήμα από άγνωστη εφαρμογή</string>
     <string name="notification_group_pre_signal_title">Προεπιλογή πρόβλεψης ειδοποίησης</string>
     <string name="notification_group_pre_vibration_title">Προ δόνηση</string>
     <string name="notification_group_pre_alert_title">Προ εικονίδιο</string>
     <string name="notification_group_prefix">Πρόθεμα κειμένου</string>
+    <string name="notification_group_display_notification_title">Display notification</string>
     <string name="notification_group_immediate">Άμεσο σήμα με την παραλαβή της ειδοποίησης</string>
     <string name="notification_group_connecting">Κατά τη σύνδεση με τη συσκευή</string>
     <string name="notification_group_reminder">Σήμα υπενθύμισης</string>
@@ -398,6 +401,11 @@
     <string name="notification_group_counter_title">Πλήθος αριθμού σημάτων</string>
     <string name="notification_group_repeat_title">Επαναλάβετε τα σήματα</string>
     <string name="notification_group_wakelock">Αφύπνιση οθόνης της συσκευής</string>
+    <string name="notification_group_remove_title">Remove notification</string>
+    <string name="notification_group_remove_from_device">From the phone\'s notification drawer</string>
+    <string name="notification_group_remove_from_device_hint">If you use the %1$s/Notifications/Clear all function</string> <!-- %1$s = Mi Band 4  ... -->
+    <string name="notification_group_remove_from_mi_band">From the %1$s notification menu</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_remove_from_mi_band_hint">If you remove the notification from the phone\'s notification drawer</string>
 
     <string name="notification_group_filter">Φιλτράρισμα ειδοποιήσεων</string>
     <string name="notification_group_filter_title">Φίλτρο τίτλου</string>
@@ -487,8 +495,6 @@
     <string name="touch_headline_time_title">Έλεγχος αντιστροφής μέτρησης/χρονόμετρου</string>
     <string name="touch_headline_other_title">Άλλοι έλεγχοι</string>
 
-    <string name="touch_device_location_title">Εύρεση της συσκευής μου</string>
-
     <string name="touch_call_answer_title">Απάντηση κλήσης</string>
     <string name="touch_call_answer_speakerphone_title">Μεγάφωνο</string>
 
@@ -506,6 +512,10 @@
     <string name="touch_call_out_speakerphone_title">Μεγάφωνο</string>
     <string name="touch_call_out_call_text">Εξερχόμενη κλήση: %1$s</string>
 
+    <string name="touch_weather_title">Δελτίο καιρού</string>
+    <string name="touch_weather_location">Τοποθεσία</string>
+
+    <string name="touch_device_location_title">Εύρεση της συσκευής μου</string>
     <string name="touch_device_location_not_muted_only_title">Ήχος εφόσον δεν είναι σε σίγαση</string>
 
     <string name="touch_repeat_notif_title">Επανάληψη ειδοποιήσης</string>
@@ -1085,6 +1095,8 @@
     <string name="feedback_google_play_title">Βαθμολόγησε αυτήν την εφαρμογή</string>
     <string name="feedback_request_feature_title">Ζητήστε κάποιο χαρακτηριστικό, αναφορά σφαλμάτων</string>
     <string name="feedback_request_feature_summary">Αυτόματη διαδικασία αποστολής e-mail, δεν θα πάρετε καμία απάντηση</string>
+    <string name="feedback_translation_title">Mi Bandage translation</string>
+    <string name="feedback_translation_title_summary">Please help in translation</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Πολιτική απορρήτου</string>

@@ -356,6 +356,7 @@
     <string name="diagnostic_title">Diagnostiques</string>
 
     <string name="diagnostic_permissions_title">Permissions</string>
+    <string name="diagnostic_permissions_autostart">Autostart</string>
 
     <string name="diagnostic_access_title">Accès</string>
     <string name="diagnostic_access_do_not_disturb">Accès le pas déranger</string>
@@ -387,10 +388,12 @@
     <string name="notification_group_text_content_slice_title">La longueur du texte</string>
     <string name="notification_group_display_time_title">Temps d\'affichage</string>
     <string name="notification_group_vibration_title">Vibration personnalisée</string>
+    <string name="notification_group_pre_title">Notification de prédiction</string>
     <string name="notification_group_pre_signal_title">Prévision de notification par défaut</string>
     <string name="notification_group_pre_vibration_title">Pré vibration</string>
     <string name="notification_group_pre_alert_title">Pré icône</string>
     <string name="notification_group_prefix">Prefix texte</string>
+    <string name="notification_group_display_notification_title">Display notification</string>
     <string name="notification_group_immediate">Alerte immédiate lorsqu\'une notification est reçue</string>
     <string name="notification_group_connecting">Lors de la connexion au mobile</string>
     <string name="notification_group_reminder">Alerte de rappel</string>
@@ -399,6 +402,11 @@
     <string name="notification_group_counter_title">Le nombre d\'alertes</string>
     <string name="notification_group_repeat_title">Répéter les signaux</string>
     <string name="notification_group_wakelock">Allumer l\'écran du mobile</string>
+    <string name="notification_group_remove_title">Remove notification</string>
+    <string name="notification_group_remove_from_device">From the phone\'s notification drawer</string>
+    <string name="notification_group_remove_from_device_hint">If you use the %1$s/Notifications/Clear all function</string> <!-- %1$s = Mi Band 4  ... -->
+    <string name="notification_group_remove_from_mi_band">From the %1$s notification menu</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_remove_from_mi_band_hint">If you remove the notification from the phone\'s notification drawer</string>
 
     <string name="notification_group_filter">Filtre de notifications</string>
     <string name="notification_group_filter_title">Titre du filtre</string>
@@ -488,8 +496,6 @@
     <string name="touch_headline_time_title">Contrôle du chronomètre minuteur</string>
     <string name="touch_headline_other_title">Autres contrôles</string>
 
-    <string name="touch_device_location_title">Trouver mon mobile</string>
-
     <string name="touch_call_answer_title">Appels décrochés</string>
     <string name="touch_call_answer_speakerphone_title">Haut parleur</string>
 
@@ -507,6 +513,10 @@
     <string name="touch_call_out_speakerphone_title">Haut parleur</string>
     <string name="touch_call_out_call_text">Appeler: %1$s</string>
 
+    <string name="touch_weather_title">Prévisions météorologiques</string>
+    <string name="touch_weather_location">Emplacement</string>
+
+    <string name="touch_device_location_title">Trouver mon mobile</string>
     <string name="touch_device_location_not_muted_only_title">Émettre un son s\'il n\'est pas en muet ou en mode DnD</string>
 
     <string name="touch_repeat_notif_title">Notifications répétées</string>
@@ -1084,6 +1094,8 @@
     <string name="feedback_google_play_title">Évaluer cette appli</string>
     <string name="feedback_request_feature_title">Soumettre une fonctionnalité, signaler un bug</string>
     <string name="feedback_request_feature_summary">Traitement automatique des emails, vous risquez de ne pas recevoir d\'accusé de réception</string>
+    <string name="feedback_translation_title">Mi Bandage translation</string>
+    <string name="feedback_translation_title_summary">Please help in translation</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Règles de confidentialité</string>

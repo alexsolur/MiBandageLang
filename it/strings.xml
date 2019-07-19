@@ -356,6 +356,7 @@
     <string name="diagnostic_title">Diagnostica</string>
 
     <string name="diagnostic_permissions_title">Permessi</string>
+    <string name="diagnostic_permissions_autostart">Autostart</string>
 
     <string name="diagnostic_access_title">Accessi</string>
     <string name="diagnostic_access_do_not_disturb">Accesso non disturbare</string>
@@ -387,10 +388,12 @@
     <string name="notification_group_text_content_slice_title">Lunghezza testo</string>
     <string name="notification_group_display_time_title">Tempo di visualizzazione</string>
     <string name="notification_group_vibration_title">Personalizza vibrazione</string>
+    <string name="notification_group_pre_title">Prevedi notifica</string>
     <string name="notification_group_pre_signal_title">Predizione predefinita di notifica</string>
     <string name="notification_group_pre_vibration_title">Vibra prima</string>
     <string name="notification_group_pre_alert_title">Icona prima</string>
     <string name="notification_group_prefix">Testo identificativo</string>
+    <string name="notification_group_display_notification_title">Display notification</string>
     <string name="notification_group_immediate">Segnala immediatamente alla ricezione della notifica</string>
     <string name="notification_group_connecting">Quando connesso al dispositivo</string>
     <string name="notification_group_reminder">Promemoria notifica</string>
@@ -399,6 +402,11 @@
     <string name="notification_group_counter_title">Numero di notifiche</string>
     <string name="notification_group_repeat_title">Ripeti i segnali</string>
     <string name="notification_group_wakelock">Attiva schermo dispositivo</string>
+    <string name="notification_group_remove_title">Remove notification</string>
+    <string name="notification_group_remove_from_device">From the phone\'s notification drawer</string>
+    <string name="notification_group_remove_from_device_hint">If you use the %1$s/Notifications/Clear all function</string> <!-- %1$s = Mi Band 4  ... -->
+    <string name="notification_group_remove_from_mi_band">From the %1$s notification menu</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_remove_from_mi_band_hint">If you remove the notification from the phone\'s notification drawer</string>
 
     <string name="notification_group_filter">Filtra notifiche</string>
     <string name="notification_group_filter_title">Filtra titolo</string>
@@ -488,8 +496,6 @@
     <string name="touch_headline_time_title">Controlla Timer/Cronometro</string>
     <string name="touch_headline_other_title">Altri controlli</string>
 
-    <string name="touch_device_location_title">Trova il mio dispositivo</string>
-
     <string name="touch_call_answer_title">Rispondi alle chiamate</string>
     <string name="touch_call_answer_speakerphone_title">Vivavoce telefono</string>
 
@@ -507,6 +513,10 @@
     <string name="touch_call_out_speakerphone_title">Vivavoce telefono</string>
     <string name="touch_call_out_call_text">Chiamata: %1$s</string>
 
+    <string name="touch_weather_title">Previsioni del tempo</string>
+    <string name="touch_weather_location">Posizione</string>
+
+    <string name="touch_device_location_title">Trova il mio dispositivo</string>
     <string name="touch_device_location_not_muted_only_title">Suona solo se non silenziato</string>
 
     <string name="touch_repeat_notif_title">Ripeti notifiche</string>
@@ -1085,6 +1095,8 @@
     <string name="feedback_google_play_title">Valuta l\'app</string>
     <string name="feedback_request_feature_title">Richiedi una funzione, segnala malfunzionamenti</string>
     <string name="feedback_request_feature_summary">Processo con email automatico, non riceverai risposta</string>
+    <string name="feedback_translation_title">Mi Bandage translation</string>
+    <string name="feedback_translation_title_summary">Please help in translation</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Norme sulla privacy</string>

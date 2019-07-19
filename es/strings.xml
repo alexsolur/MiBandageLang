@@ -356,6 +356,7 @@
     <string name="diagnostic_title">Diagnóstico</string>
 
     <string name="diagnostic_permissions_title">Permisos</string>
+    <string name="diagnostic_permissions_autostart">Autostart</string>
 
     <string name="diagnostic_access_title">Acceso</string>
     <string name="diagnostic_access_do_not_disturb">Acceso a modo no molestar</string>
@@ -387,10 +388,12 @@
     <string name="notification_group_text_content_slice_title">Longitud de texto</string>
     <string name="notification_group_display_time_title">Tiempo de visualización</string>
     <string name="notification_group_vibration_title">Personalización de vibración</string>
+    <string name="notification_group_pre_title">Predicción de notificación</string>
     <string name="notification_group_pre_signal_title">Predicción de notificacion predeterminada</string>
     <string name="notification_group_pre_vibration_title">Pre-vibración</string>
     <string name="notification_group_pre_alert_title">Icono previo</string>
     <string name="notification_group_prefix">Prefijo de texto</string>
+    <string name="notification_group_display_notification_title">Display notification</string>
     <string name="notification_group_immediate">Avisar inmediatamente cuando se recibe una notificación</string>
     <string name="notification_group_connecting">Al conectar al dispositivo</string>
     <string name="notification_group_reminder">Señal de recordatorio</string>
@@ -399,6 +402,11 @@
     <string name="notification_group_counter_title">Número de señales</string>
     <string name="notification_group_repeat_title">Repetir señales</string>
     <string name="notification_group_wakelock">Encender la pantalla del dispositivo</string>
+    <string name="notification_group_remove_title">Remove notification</string>
+    <string name="notification_group_remove_from_device">From the phone\'s notification drawer</string>
+    <string name="notification_group_remove_from_device_hint">If you use the %1$s/Notifications/Clear all function</string> <!-- %1$s = Mi Band 4  ... -->
+    <string name="notification_group_remove_from_mi_band">From the %1$s notification menu</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_remove_from_mi_band_hint">If you remove the notification from the phone\'s notification drawer</string>
 
     <string name="notification_group_filter">Filtrar notificaciones</string>
     <string name="notification_group_filter_title">Filtrar título</string>
@@ -488,8 +496,6 @@
     <string name="touch_headline_time_title">Control de temporizador/cronómetro</string>
     <string name="touch_headline_other_title">Otros controles</string>
 
-    <string name="touch_device_location_title">Encontrar mi dispositivo</string>
-
     <string name="touch_call_answer_title">Contestar llamada</string>
     <string name="touch_call_answer_speakerphone_title">Altavoz</string>
 
@@ -507,6 +513,10 @@
     <string name="touch_call_out_speakerphone_title">Altavoz</string>
     <string name="touch_call_out_call_text">Llamar: %1$s</string>
 
+    <string name="touch_weather_title">Pronóstico del tiempo</string>
+    <string name="touch_weather_location">Ubicación</string>
+
+    <string name="touch_device_location_title">Encontrar mi dispositivo</string>
     <string name="touch_device_location_not_muted_only_title">Sonido, sólo si no está en silencio o en modo no molestar</string>
 
     <string name="touch_repeat_notif_title">Repetir notificaciones</string>
@@ -1087,6 +1097,8 @@
     <string name="feedback_google_play_title">Solicitar función / Informar de errores</string>
     <string name="feedback_request_feature_title">Solicitar función</string>
     <string name="feedback_request_feature_summary">Proceso automático del email, no obtendrá ninguna respuesta</string>
+    <string name="feedback_translation_title">Mi Bandage translation</string>
+    <string name="feedback_translation_title_summary">Please help in translation</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Política de privacidad</string>

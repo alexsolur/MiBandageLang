@@ -353,6 +353,7 @@
     <string name="diagnostic_title">诊断</string>
 
     <string name="diagnostic_permissions_title">权限</string>
+    <string name="diagnostic_permissions_autostart">Autostart</string>
 
     <string name="diagnostic_access_title">访问</string>
     <string name="diagnostic_access_do_not_disturb">勿扰访问</string>
@@ -384,10 +385,12 @@
     <string name="notification_group_text_content_slice_title">文字长度</string>
     <string name="notification_group_display_time_title">显示时间</string>
     <string name="notification_group_vibration_title">自定义震动</string>
+    <string name="notification_group_pre_title">通知预报</string>
     <string name="notification_group_pre_signal_title">默认通知预报</string>
     <string name="notification_group_pre_vibration_title">预震动</string>
     <string name="notification_group_pre_alert_title">预图标</string>
     <string name="notification_group_prefix">文字前缀</string>
+    <string name="notification_group_display_notification_title">Display notification</string>
     <string name="notification_group_immediate">收到通知时立即</string>
     <string name="notification_group_connecting">连接到电话时</string>
     <string name="notification_group_reminder">提醒信号</string>
@@ -396,6 +399,11 @@
     <string name="notification_group_counter_title">通知数量</string>
     <string name="notification_group_repeat_title">重复信号</string>
     <string name="notification_group_wakelock">唤醒手机屏幕</string>
+    <string name="notification_group_remove_title">Remove notification</string>
+    <string name="notification_group_remove_from_device">From the phone\'s notification drawer</string>
+    <string name="notification_group_remove_from_device_hint">If you use the %1$s/Notifications/Clear all function</string> <!-- %1$s = Mi Band 4  ... -->
+    <string name="notification_group_remove_from_mi_band">From the %1$s notification menu</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_remove_from_mi_band_hint">If you remove the notification from the phone\'s notification drawer</string>
 
     <string name="notification_group_filter">通知过滤</string>
     <string name="notification_group_filter_title">标题过滤器</string>
@@ -484,8 +492,6 @@
     <string name="touch_headline_time_title">定时器/秒表控制</string>
     <string name="touch_headline_other_title">其他控制</string>
 
-    <string name="touch_device_location_title">查找我的手机</string>
-
     <string name="touch_call_answer_title">呼叫应答</string>
     <string name="touch_call_answer_speakerphone_title">免提</string>
 
@@ -496,6 +502,10 @@
     <string name="touch_call_mute_recognition_title">来电</string>
     <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
 
+    <string name="touch_weather_title">天气预报</string>
+    <string name="touch_weather_location">位置</string>
+
+    <string name="touch_device_location_title">查找我的手机</string>
     <string name="touch_device_location_not_muted_only_title">只有在未静音或未处于 DnD 模式时才发声</string>
 
     <string name="touch_call_out_title">呼出</string>
@@ -1083,6 +1093,8 @@
     <string name="feedback_google_play_title">为此应用评分</string>
     <string name="feedback_request_feature_title">功能请求及错误报告</string>
     <string name="feedback_request_feature_summary">邮件会自动处理因此你可能不会收到回信</string>
+    <string name="feedback_translation_title">Mi Bandage translation</string>
+    <string name="feedback_translation_title_summary">Please help in translation</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">隐私权政策</string>

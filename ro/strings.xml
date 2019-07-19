@@ -356,6 +356,7 @@
     <string name="diagnostic_title">Diagnostic</string>
 
     <string name="diagnostic_permissions_title">Permisiuni</string>
+    <string name="diagnostic_permissions_autostart">Autostart</string>
 
     <string name="diagnostic_access_title">Acces</string>
     <string name="diagnostic_access_do_not_disturb">Acces mod Nu deranja</string>
@@ -387,10 +388,12 @@
     <string name="notification_group_text_content_slice_title">Lungime text</string>
     <string name="notification_group_display_time_title">Timp de afișare</string>
     <string name="notification_group_vibration_title">Vibrații personalizate</string>
+    <string name="notification_group_pre_title">Predicție notificare</string>
     <string name="notification_group_pre_signal_title">Predicția de notificare implicită</string>
     <string name="notification_group_pre_vibration_title">Pre-vibrație</string>
     <string name="notification_group_pre_alert_title">Pre-pictogramă</string>
     <string name="notification_group_prefix">Prefix text</string>
+    <string name="notification_group_display_notification_title">Display notification</string>
     <string name="notification_group_immediate">Semnal imediat când este primită notificarea</string>
     <string name="notification_group_connecting">Când se conectează la telefon</string>
     <string name="notification_group_reminder">Semnal reamintire</string>
@@ -399,6 +402,11 @@
     <string name="notification_group_counter_title">Numărul de semnale</string>
     <string name="notification_group_repeat_title">Repeată semnale</string>
     <string name="notification_group_wakelock">Aprinde ecranul telefonului</string>
+    <string name="notification_group_remove_title">Remove notification</string>
+    <string name="notification_group_remove_from_device">From the phone\'s notification drawer</string>
+    <string name="notification_group_remove_from_device_hint">If you use the %1$s/Notifications/Clear all function</string> <!-- %1$s = Mi Band 4  ... -->
+    <string name="notification_group_remove_from_mi_band">From the %1$s notification menu</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_remove_from_mi_band_hint">If you remove the notification from the phone\'s notification drawer</string>
 
     <string name="notification_group_filter">Filtrează notificări</string>
     <string name="notification_group_filter_title">Titlul filtrului</string>
@@ -488,8 +496,6 @@
     <string name="touch_headline_time_title">Control temporizator/ cronometru</string>
     <string name="touch_headline_other_title">Alte controale</string>
 
-    <string name="touch_device_location_title">Găsește-mi telefonul</string>
-
     <string name="touch_call_answer_title">Răspuns la apel</string>
     <string name="touch_call_answer_speakerphone_title">Difuzor</string>
 
@@ -507,6 +513,10 @@
     <string name="touch_call_out_speakerphone_title">Difuzor</string>
     <string name="touch_call_out_call_text">Call out: %1$s</string>
 
+    <string name="touch_weather_title">Prognoza meteo</string>
+    <string name="touch_weather_location">Localitate</string>
+
+    <string name="touch_device_location_title">Găsește-mi telefonul</string>
     <string name="touch_device_location_not_muted_only_title">Sunet numai dacă nu este pe mut sau în modul DnD</string>
 
     <string name="touch_repeat_notif_title">Repetare notificări</string>
@@ -1086,6 +1096,8 @@
     <string name="feedback_google_play_title">Evaluează această aplicație</string>
     <string name="feedback_request_feature_title">Solicitare de funcții, raport de erori</string>
     <string name="feedback_request_feature_summary">Prelucrare automată a poștei electronice, este posibil să nu primiți un răspuns</string>
+    <string name="feedback_translation_title">Mi Bandage translation</string>
+    <string name="feedback_translation_title_summary">Please help in translation</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Politica de confidentialitate</string>

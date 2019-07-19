@@ -356,6 +356,7 @@
     <string name="diagnostic_title">Diagnositisering</string>
 
     <string name="diagnostic_permissions_title">Tilatelser</string>
+    <string name="diagnostic_permissions_autostart">Autostart</string>
 
     <string name="diagnostic_access_title">Tilgang</string>
     <string name="diagnostic_access_do_not_disturb">Ikke Forstyrr-tilgang</string>
@@ -387,10 +388,12 @@
     <string name="notification_group_text_content_slice_title">Text lengde</string>
     <string name="notification_group_display_time_title">Visningstid</string>
     <string name="notification_group_vibration_title">Egendefinert vibrasjon</string>
+    <string name="notification_group_pre_title">For- notifikasjon</string>
     <string name="notification_group_pre_signal_title">Standard notifikasjons-forutsigelse</string>
     <string name="notification_group_pre_vibration_title">Forhånds-vibrasjon</string>
     <string name="notification_group_pre_alert_title">Pre icon</string>
     <string name="notification_group_prefix">Text prefix</string>
+    <string name="notification_group_display_notification_title">Display notification</string>
     <string name="notification_group_immediate">Umiddelbart signal når notifikasjon er mottatt</string>
     <string name="notification_group_connecting">Tilkobles til telefon</string>
     <string name="notification_group_reminder">Påminnelse av signal</string>
@@ -399,6 +402,11 @@
     <string name="notification_group_counter_title">Nummer på signaler</string>
     <string name="notification_group_repeat_title">Gjenta signaler</string>
     <string name="notification_group_wakelock">Vekke opp telefonens skjerm</string>
+    <string name="notification_group_remove_title">Remove notification</string>
+    <string name="notification_group_remove_from_device">From the phone\'s notification drawer</string>
+    <string name="notification_group_remove_from_device_hint">If you use the %1$s/Notifications/Clear all function</string> <!-- %1$s = Mi Band 4  ... -->
+    <string name="notification_group_remove_from_mi_band">From the %1$s notification menu</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_remove_from_mi_band_hint">If you remove the notification from the phone\'s notification drawer</string>
 
     <string name="notification_group_filter">Filter notifikasjon</string>
     <string name="notification_group_filter_title">Tittel filter</string>
@@ -488,8 +496,6 @@
     <string name="touch_headline_time_title">Timer/stoppeklokke kontroll</string>
     <string name="touch_headline_other_title">Andre kontroller</string>
 
-    <string name="touch_device_location_title">Finn min telefon</string>
-
     <string name="touch_call_answer_title">Svar på anrop</string>
     <string name="touch_call_answer_speakerphone_title">Høyttaler</string>
 
@@ -507,6 +513,10 @@
     <string name="touch_call_out_speakerphone_title">Høyttaler</string>
     <string name="touch_call_out_call_text">Ringe ut: %1$s</string>
 
+    <string name="touch_weather_title">Været fremover</string>
+    <string name="touch_weather_location">Plassering</string>
+
+    <string name="touch_device_location_title">Finn min telefon</string>
     <string name="touch_device_location_not_muted_only_title">Lag lyd bare hvis den ikke er på lydsøs eller i DnD mode</string>
 
     <string name="touch_repeat_notif_title">Repetere notifikasjoner</string>
@@ -1086,6 +1096,8 @@
     <string name="feedback_google_play_title">Bedøm denne appen</string>
     <string name="feedback_request_feature_title">Egenskaps forespørsel, bug rapport</string>
     <string name="feedback_request_feature_summary">Automatisk e-mail prossesjon, du får kanskje ikke respons</string>
+    <string name="feedback_translation_title">Mi Bandage translation</string>
+    <string name="feedback_translation_title_summary">Please help in translation</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Personvern policy</string>

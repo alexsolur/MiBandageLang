@@ -356,6 +356,7 @@
     <string name="diagnostic_title">Diagnostika</string>
 
     <string name="diagnostic_permissions_title">Oprávnění</string>
+    <string name="diagnostic_permissions_autostart">Autostart</string>
 
     <string name="diagnostic_access_title">Přístup</string>
     <string name="diagnostic_access_do_not_disturb">Přístup k režimu nerušit</string>
@@ -387,10 +388,12 @@
     <string name="notification_group_text_content_slice_title">Délka textu</string>
     <string name="notification_group_display_time_title">Čas zobrazení</string>
     <string name="notification_group_vibration_title">Vlastní vibrace</string>
+    <string name="notification_group_pre_title">Předpověď oznámení</string>
     <string name="notification_group_pre_signal_title">Výchozí předpověď oznámení</string>
     <string name="notification_group_pre_vibration_title">Před vibrace</string>
     <string name="notification_group_pre_alert_title">Před ikona</string>
     <string name="notification_group_prefix">Předpona textu</string>
+    <string name="notification_group_display_notification_title">Display notification</string>
     <string name="notification_group_immediate">Okamžité oznámení při přijetí notifikace</string>
     <string name="notification_group_connecting">Při připojení k zařízení</string>
     <string name="notification_group_reminder">Připomenutí oznámení</string>
@@ -399,6 +402,11 @@
     <string name="notification_group_counter_title">Počet oznámení</string>
     <string name="notification_group_repeat_title">Opakujte signály</string>
     <string name="notification_group_wakelock">Probudit obrazovku zařízení</string>
+    <string name="notification_group_remove_title">Remove notification</string>
+    <string name="notification_group_remove_from_device">From the phone\'s notification drawer</string>
+    <string name="notification_group_remove_from_device_hint">If you use the %1$s/Notifications/Clear all function</string> <!-- %1$s = Mi Band 4  ... -->
+    <string name="notification_group_remove_from_mi_band">From the %1$s notification menu</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_remove_from_mi_band_hint">If you remove the notification from the phone\'s notification drawer</string>
 
     <string name="notification_group_filter">Filtrování oznámení</string>
     <string name="notification_group_filter_title">Název filtru</string>
@@ -488,8 +496,6 @@
     <string name="touch_headline_time_title">Ovládání časovače/stopek</string>
     <string name="touch_headline_other_title">Další ovládací prvky</string>
 
-    <string name="touch_device_location_title">Najit zařízení</string>
-
     <string name="touch_call_answer_title">Zpětné volání</string>
     <string name="touch_call_answer_speakerphone_title">Hlasité volání</string>
 
@@ -507,6 +513,10 @@
     <string name="touch_call_out_speakerphone_title">Hlasité volání</string>
     <string name="touch_call_out_call_text">Zavolat: %1$s</string>
 
+    <string name="touch_weather_title">Předpověď počasí</string>
+    <string name="touch_weather_location">Umístění</string>
+
+    <string name="touch_device_location_title">Najit zařízení</string>
     <string name="touch_device_location_not_muted_only_title">Zvuk pouze v případě, pokud není ztlumený nebo v režimu DnD</string>
 
     <string name="touch_repeat_notif_title">Opakovat oznámení</string>
@@ -1087,6 +1097,8 @@
     <string name="feedback_google_play_title">Ohodnoťte tuto aplikaci</string>
     <string name="feedback_request_feature_title">Požadavek na funkci, hlášení o chybě</string>
     <string name="feedback_request_feature_summary">Automatické zpracování e-mailu, nemusíte dostat odpověď</string>
+    <string name="feedback_translation_title">Mi Bandage translation</string>
+    <string name="feedback_translation_title_summary">Please help in translation</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Zásady ochrany soukromí</string>

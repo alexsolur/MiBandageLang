@@ -355,6 +355,7 @@
     <string name="diagnostic_title">Chẩn đoán</string>
 
     <string name="diagnostic_permissions_title">Phân quyền</string>
+    <string name="diagnostic_permissions_autostart">Autostart</string>
 
     <string name="diagnostic_access_title">Truy cập</string>
     <string name="diagnostic_access_do_not_disturb">Truy cập Không làm phiền</string>
@@ -386,10 +387,12 @@
     <string name="notification_group_text_content_slice_title">Độ dài văn bản</string>
     <string name="notification_group_display_time_title">Hiển thị thời gian</string>
     <string name="notification_group_vibration_title">Custom vibration</string>
+    <string name="notification_group_pre_title">Dự báo thông báo</string>
     <string name="notification_group_pre_signal_title">Dự báo thông báo mặc định</string>
     <string name="notification_group_pre_vibration_title">Rung trước</string>
     <string name="notification_group_pre_alert_title">Biểu tượng báo trước</string>
     <string name="notification_group_prefix">Tiền tố văn bản</string>
+    <string name="notification_group_display_notification_title">Display notification</string>
     <string name="notification_group_immediate">Phát tín hiệu ngay lập tức khi nhận được thông báo</string>
     <string name="notification_group_connecting">Khi kết nối với thiết bị</string>
     <string name="notification_group_reminder">Tín hiệu nhắc nhở</string>
@@ -398,6 +401,11 @@
     <string name="notification_group_counter_title">Signals cardinality</string>
     <string name="notification_group_repeat_title">Lặp lại tín hiệu</string>
     <string name="notification_group_wakelock">Đánh thức màn hình thiết bị</string>
+    <string name="notification_group_remove_title">Remove notification</string>
+    <string name="notification_group_remove_from_device">From the phone\'s notification drawer</string>
+    <string name="notification_group_remove_from_device_hint">If you use the %1$s/Notifications/Clear all function</string> <!-- %1$s = Mi Band 4  ... -->
+    <string name="notification_group_remove_from_mi_band">From the %1$s notification menu</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_remove_from_mi_band_hint">If you remove the notification from the phone\'s notification drawer</string>
 
     <string name="notification_group_filter">Lọc thông báo</string>
     <string name="notification_group_filter_title">Lọc Tiêu đề</string>
@@ -489,8 +497,6 @@
     <string name="touch_headline_time_title">Điều khiển hẹn giờ, đồng hồ bấm giờ</string>
     <string name="touch_headline_other_title">Các điều khiển khác</string>
 
-    <string name="touch_device_location_title">Tìm thiết bị của tôi</string>
-
     <string name="touch_call_answer_title">Trả lời cuộc gọi</string>
     <string name="touch_call_answer_speakerphone_title">Loa ngoài</string>
 
@@ -508,6 +514,10 @@
     <string name="touch_call_out_speakerphone_title">Loa ngoài</string>
     <string name="touch_call_out_call_text">Gọi: %1$s</string>
 
+    <string name="touch_weather_title">Dự báo thời tiết</string>
+    <string name="touch_weather_location">Vị trí</string>
+
+    <string name="touch_device_location_title">Tìm thiết bị của tôi</string>
     <string name="touch_device_location_not_muted_only_title">Chỉ phát tiếng nếu không im lặng</string>
 
     <string name="touch_repeat_notif_title">Lặp lại thông báo</string>
@@ -1088,6 +1098,8 @@
     <string name="feedback_google_play_title">Đánh giá ứng dụng này</string>
     <string name="feedback_request_feature_title">Yêu cầu tính năng</string>
     <string name="feedback_request_feature_summary">Xử lý e-mail tự động, bạn sẽ không nhận được phản hồi</string>
+    <string name="feedback_translation_title">Mi Bandage translation</string>
+    <string name="feedback_translation_title_summary">Please help in translation</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Chính sách bảo mật</string>
