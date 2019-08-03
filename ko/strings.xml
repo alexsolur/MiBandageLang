@@ -429,7 +429,7 @@
     <string name="notification_group_correction_find">Find</string>
     <string name="notification_group_correction_replace">Replace with</string>
 
-    <string name="notification_regex_hint">알파벳이나 숫자가 아닌 문자들은 특별한 의미를 가지고 있으므로, 정규표현식을 알지 못하는 경우, 작동시키지 마세요.</string>
+    <string name="notification_regex_hint">알파벳이나 숫자가 아닌 문자들은 특별한 의미를 가지고 있으므로, 정규표현식을 알지 못하는 경우, 작동시키지 마세요</string>
 
     <string name="notification_confirm_close">Are you sure you want to discard the changes?</string>
 
@@ -515,6 +515,8 @@
 
     <string name="touch_weather_title">Weather forecast</string>
     <string name="touch_weather_location">Location</string>
+    <string name="touch_weather_precipitation">침적</string>
+    <string name="touch_weather_cloud_cover">구름 표지e</string>
 
     <string name="touch_device_location_title">내 폰 찾기</string>
     <string name="touch_device_location_not_muted_only_title">Sound only if it is not muted or in DnD mode</string>
@@ -887,17 +889,24 @@
     <string name="weather_tab_location">Location</string>
     <string name="weather_tab_settings">Setting</string>
 
-    <string name="weather_title">Weather forecast</string>
     <string name="weather_location_title">Location</string>
+    <string name="weather_automatic_update">Automatic update</string>
+
+    <string name="weather_title">Weather forecast</string>
     <string name="weather_city_title">도시</string>
     <string name="weather_unit_title">Unit</string>
 
     <string name="weather_current_title">Current weather</string>
+    <string name="weather_current_location">Current location</string>
     <string name="weather_current_temperature">Current temperature</string>
 
     <string name="weather_forecast_title">일기예보</string>
 
     <string name="weather_display">Display</string>
+
+    <string name="weather_precipitation_rain">비</string>
+    <string name="weather_precipitation_snow">눈</string>
+    <string name="weather_cloud_cover_abbreviation">cc</string>
 
     <!-- Watch face -->
     <string name="watch_face_tab_download">다운로드</string>

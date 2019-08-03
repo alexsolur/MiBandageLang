@@ -429,7 +429,7 @@
     <string name="notification_group_correction_find">Find</string>
     <string name="notification_group_correction_replace">Replace with</string>
 
-    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it.</string>
+    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it</string>
 
     <string name="notification_confirm_close">Anda yakin ingin membuang perubahan?</string>
 
@@ -515,6 +515,8 @@
 
     <string name="touch_weather_title">Prakiraan Cuaca</string>
     <string name="touch_weather_location">Lokasi</string>
+    <string name="touch_weather_precipitation">Pengendapan</string>
+    <string name="touch_weather_cloud_cover">Penutupan awan</string>
 
     <string name="touch_device_location_title">Temukan perangkat saya</string>
     <string name="touch_device_location_not_muted_only_title">Suara saja ketika tidak dibisukan</string>
@@ -886,17 +888,24 @@
     <string name="weather_tab_location">Lokasi</string>
     <string name="weather_tab_settings">Atur</string>
 
-    <string name="weather_title">Prakiraan Cuaca</string>
     <string name="weather_location_title">Lokasi</string>
+    <string name="weather_automatic_update">Automatic update</string>
+
+    <string name="weather_title">Prakiraan Cuaca</string>
     <string name="weather_city_title">Kota</string>
     <string name="weather_unit_title">Satuan</string>
 
     <string name="weather_current_title">Current weather</string>
+    <string name="weather_current_location">Current location</string>
     <string name="weather_current_temperature">Current temperature</string>
 
     <string name="weather_forecast_title">Weather forecast</string>
 
     <string name="weather_display">Display</string>
+
+    <string name="weather_precipitation_rain">hujan</string>
+    <string name="weather_precipitation_snow">salju</string>
+    <string name="weather_cloud_cover_abbreviation">cc</string>
 
     <!-- Watch face -->
     <string name="watch_face_tab_download">Download</string>

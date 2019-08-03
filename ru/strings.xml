@@ -429,7 +429,7 @@
     <string name="notification_group_correction_find">Найти</string>
     <string name="notification_group_correction_replace">Заменить</string>
 
-    <string name="notification_regex_hint">Не буквенно-цифровые символы будут иметь специальное значение, если вы не знаете, что это, не включайте.</string>
+    <string name="notification_regex_hint">Не буквенно-цифровые символы будут иметь специальное значение, если вы не знаете, что это, не включайте</string>
 
     <string name="notification_confirm_close">Вы действительно хотите отменить изменения?</string>
 
@@ -515,6 +515,8 @@
 
     <string name="touch_weather_title">Прогноз погоды</string>
     <string name="touch_weather_location">Местоположение</string>
+    <string name="touch_weather_precipitation">Precipitation</string>
+    <string name="touch_weather_cloud_cover">Cloud cover</string>
 
     <string name="touch_device_location_title">Найти устройство</string>
     <string name="touch_device_location_not_muted_only_title">Подчиняться беззвучному режиму</string>
@@ -887,17 +889,24 @@
     <string name="weather_tab_location">Местоположение</string>
     <string name="weather_tab_settings">Настройки</string>
 
-    <string name="weather_title">Прогноз погоды</string>
     <string name="weather_location_title">Местоположение</string>
+    <string name="weather_automatic_update">Automatic update</string>
+
+    <string name="weather_title">Прогноз погоды</string>
     <string name="weather_city_title">Город</string>
     <string name="weather_unit_title">Система</string>
 
     <string name="weather_current_title">Текущая погода</string>
+    <string name="weather_current_location">Current location</string>
     <string name="weather_current_temperature">Текущая температура</string>
 
     <string name="weather_forecast_title">Прогноз погоды</string>
 
     <string name="weather_display">Отображение</string>
+
+    <string name="weather_precipitation_rain">дождь</string>
+    <string name="weather_precipitation_snow">снег</string>
+    ű<string name="weather_cloud_cover_abbreviation">cc</string>
 
     <!-- Watch face -->
     <string name="watch_face_tab_download">Загрузка</string>

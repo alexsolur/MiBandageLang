@@ -502,9 +502,6 @@
     <string name="touch_call_mute_recognition_title">来电</string>
     <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
 
-    <string name="touch_weather_title">天气预报</string>
-    <string name="touch_weather_location">位置</string>
-
     <string name="touch_device_location_title">查找我的手机</string>
     <string name="touch_device_location_not_muted_only_title">只有在未静音或未处于 DnD 模式时才发声</string>
 
@@ -514,6 +511,11 @@
     <string name="touch_call_out_summary_support_call_display_button">单击按钮接听电话</string>
     <string name="touch_call_out_speakerphone_title">免提</string>
     <string name="touch_call_out_call_text">呼叫: %1$s</string>
+
+    <string name="touch_weather_title">天气预报</string>
+    <string name="touch_weather_location">位置</string>
+    <string name="touch_weather_precipitation">Precipitation</string>
+    <string name="touch_weather_cloud_cover">Cloud cover</string>
 
     <string name="touch_repeat_notif_title">重复通知</string>
     <string name="touch_repeat_notif_clear_all">清除所有重复通知</string>
@@ -884,17 +886,24 @@
     <string name="weather_tab_location">位置</string>
     <string name="weather_tab_settings">设置</string>
 
-    <string name="weather_title">天气预报</string>
     <string name="weather_location_title">位置</string>
+    <string name="weather_automatic_update">Automatic update</string>
+
+    <string name="weather_title">天气预报</string>
     <string name="weather_city_title">市</string>
     <string name="weather_unit_title">搜索</string>
 
     <string name="weather_current_title">当前天气</string>
+    <string name="weather_current_location">Current location</string>
     <string name="weather_current_temperature">当前温度</string>
 
     <string name="weather_forecast_title">天气预报</string>
 
     <string name="weather_display">显示</string>
+
+    <string name="weather_precipitation_rain">雨</string>
+    <string name="weather_precipitation_snow">雪</string>
+    <string name="weather_cloud_cover_abbreviation">cc</string>
 
     <!-- Watch face -->
     <string name="watch_face_tab_download">下载</string>

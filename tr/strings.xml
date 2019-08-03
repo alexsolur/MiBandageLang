@@ -429,7 +429,7 @@
     <string name="notification_group_correction_find">Bul</string>
     <string name="notification_group_correction_replace">ile değiştir</string>
 
-    <string name="notification_regex_hint">Alfasayısal olmayan karakterler özel bir anlama sahiptir, Regex\'i bilmiyorsanız, işaretlemeyin.</string>
+    <string name="notification_regex_hint">Alfasayısal olmayan karakterler özel bir anlama sahiptir, Regex\'i bilmiyorsanız, işaretlemeyin</string>
 
     <string name="notification_confirm_close">Değişiklikleri silmek istediğinizden emin misiniz?</string>
 
@@ -516,6 +516,8 @@
 
     <string name="touch_weather_title">Hava Durumu Tahmini</string>
     <string name="touch_weather_location">Yer</string>
+    <string name="touch_weather_precipitation">Yağış</string>
+    <string name="touch_weather_cloud_cover">Bulut örtüsü</string>
 
     <string name="touch_device_location_title">Telefonumu bul</string>
     <string name="touch_device_location_not_muted_only_title">Rahatsız etmeyin modunda ve telefon zaten sessizde değilse</string>
@@ -888,17 +890,24 @@
     <string name="weather_tab_location">Yer</string>
     <string name="weather_tab_settings">Ayarlar</string>
 
-    <string name="weather_title">Hava Durumu Tahmini</string>
     <string name="weather_location_title">Yer</string>
+    <string name="weather_automatic_update">Automatic update</string>
+
+    <string name="weather_title">Hava Durumu Tahmini</string>
     <string name="weather_city_title">Kent</string>
     <string name="weather_unit_title">Birim</string>
 
     <string name="weather_current_title">Şu anki hava durumu</string>
+    <string name="weather_current_location">Current location</string>
     <string name="weather_current_temperature">Şimdiki sıcaklık</string>
 
     <string name="weather_forecast_title">Hava tamini</string>
 
     <string name="weather_display">Görüntüle</string>
+
+    <string name="weather_precipitation_rain">yağmur</string>
+    <string name="weather_precipitation_snow">kar</string>
+    <string name="weather_cloud_cover_abbreviation">cc</string>
 
     <!-- Watch face -->
     <string name="watch_face_tab_download">Download</string>

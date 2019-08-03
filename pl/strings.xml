@@ -429,7 +429,7 @@
     <string name="notification_group_correction_find">Znajdź</string>
     <string name="notification_group_correction_replace">Zastąp</string>
 
-    <string name="notification_regex_hint">Znaki niealfanumeryczne mają specjalne znaczenie, jeśli nie znasz Regex\'a, nie zaznaczaj tego.</string>
+    <string name="notification_regex_hint">Znaki niealfanumeryczne mają specjalne znaczenie, jeśli nie znasz Regex\'a, nie zaznaczaj tego</string>
 
     <string name="notification_confirm_close">Czy na pewno chcesz odrzucić zmiany?</string>
 
@@ -514,6 +514,8 @@
 
     <string name="touch_weather_title">Prognoza pogody</string>
     <string name="touch_weather_location">Lokalizacja</string>
+    <string name="touch_weather_precipitation">Opad atmosferyczny</string>
+    <string name="touch_weather_cloud_cover">Zachmurzenie</string>
 
     <string name="touch_device_location_title">Znajdź mój telefon</string>
     <string name="touch_device_location_not_muted_only_title">Dźwięk tylko wtedy, gdy nie jest wyciszony lub w trybie Nie przeszkadzać</string>
@@ -886,17 +888,24 @@
     <string name="weather_tab_location">Lokalizacja</string>
     <string name="weather_tab_settings">Ustawienia</string>
 
-    <string name="weather_title">Prognoza pogody</string>
     <string name="weather_location_title">Lokalizacja</string>
+    <string name="weather_automatic_update">Automatic update</string>
+
+    <string name="weather_title">Prognoza pogody</string>
     <string name="weather_city_title">Miasto</string>
     <string name="weather_unit_title">Jednostka</string>
 
     <string name="weather_current_title">Aktualna pogoda</string>
+    <string name="weather_current_location">Current location</string>
     <string name="weather_current_temperature">Aktualna temperatura</string>
 
     <string name="weather_forecast_title">Prognoza pogody</string>
 
     <string name="weather_display">Wyświetlaj</string>
+
+    <string name="weather_precipitation_rain">deszcz</string>
+    <string name="weather_precipitation_snow">śnieg</string>
+    <string name="weather_cloud_cover_abbreviation">cc</string>
 
     <!-- Watch face -->
     <string name="watch_face_tab_download">Pobierz</string>

@@ -429,7 +429,7 @@
     <string name="notification_group_correction_find">Find</string>
     <string name="notification_group_correction_replace">Replace with</string>
 
-    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it.</string>
+    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it</string>
 
     <string name="notification_confirm_close">Opravdu chcete změny vyřadit?</string>
 
@@ -515,6 +515,8 @@
 
     <string name="touch_weather_title">Předpověď počasí</string>
     <string name="touch_weather_location">Umístění</string>
+    <string name="touch_weather_precipitation">Srážky</string>
+    <string name="touch_weather_cloud_cover">Oblačnost</string>
 
     <string name="touch_device_location_title">Najit zařízení</string>
     <string name="touch_device_location_not_muted_only_title">Zvuk pouze v případě, pokud není ztlumený nebo v režimu DnD</string>
@@ -887,17 +889,24 @@
     <string name="weather_tab_location">Umístění</string>
     <string name="weather_tab_settings">Nastavení</string>
 
-    <string name="weather_title">Předpověď počasí</string>
     <string name="weather_location_title">Umístění</string>
+    <string name="weather_automatic_update">Automatic update</string>
+
+    <string name="weather_title">Předpověď počasí</string>
     <string name="weather_city_title">Město</string>
     <string name="weather_unit_title">Jednotka</string>
 
     <string name="weather_current_title">Současné počasí</string>
+    <string name="weather_current_location">Current location</string>
     <string name="weather_current_temperature">Současná teplota</string>
 
     <string name="weather_forecast_title">Předpověď počasí</string>
 
     <string name="weather_display">Display</string>
+
+    <string name="weather_precipitation_rain">déšť</string>
+    <string name="weather_precipitation_snow">sníh</string>
+    <string name="weather_cloud_cover_abbreviation">cc</string>
 
     <!-- Watch face -->
     <string name="watch_face_tab_download">Stáhnout</string>

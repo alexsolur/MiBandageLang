@@ -428,7 +428,7 @@
     <string name="notification_group_correction_find">Finden</string>
     <string name="notification_group_correction_replace">Ersetzen mit</string>
 
-    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it.</string>
+    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it</string>
 
     <string name="notification_confirm_close">Möchten Sie die Änderungen wirklich verwerfen?</string>
 
@@ -514,6 +514,8 @@
 
     <string name="touch_weather_title">Wettervorhersage</string>
     <string name="touch_weather_location">Ort</string>
+    <string name="touch_weather_precipitation">Niederschlag</string>
+    <string name="touch_weather_cloud_cover">Wolkendecke</string>
 
     <string name="touch_call_end_title">Anruf ablehnen, beenden</string>
     <string name="touch_device_location_not_muted_only_title">Nur Sound, wenn nicht stummgeschalten</string>
@@ -886,17 +888,24 @@
     <string name="weather_tab_location">Ort</string>
     <string name="weather_tab_settings">Einstellung</string>
 
-    <string name="weather_title">Wettervorhersage</string>
     <string name="weather_location_title">Ort</string>
+    <string name="weather_automatic_update">Automatic update</string>
+
+    <string name="weather_title">Wettervorhersage</string>
     <string name="weather_city_title">Stadt</string>
     <string name="weather_unit_title">Einheit</string>
 
     <string name="weather_current_title">Aktuelle Wetterlage</string>
+    <string name="weather_current_location">Current location</string>
     <string name="weather_current_temperature">Aktuelle Temperatur</string>
 
     <string name="weather_forecast_title">Wettervorhersage</string>
 
     <string name="weather_display">Anzeige</string>
+
+    <string name="weather_precipitation_rain">regen</string>
+    <string name="weather_precipitation_snow">schnee</string>
+    <string name="weather_cloud_cover_abbreviation">cc</string>
 
     <!-- Watch face -->
     <string name="watch_face_tab_download">Download</string>

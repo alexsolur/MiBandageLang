@@ -216,13 +216,15 @@
     </string-array>
 
     <string-array name="pref_weather_current_display">
-        <item>Curent</item>
-        <item>Mediu</item>
+        <item>Current</item>
+        <item>Current, precipitation, cloud cover</item>
+        <item>Average</item>
         <item>Am, Pm</item>
     </string-array>
 
     <string-array name="pref_weather_forecast_display">
-        <item>Mediu</item>
+        <item>Average</item>
+        <!--<item>Average, precipitation, cloud cover</item>-->
         <item>Am, Pm</item>
     </string-array>
 

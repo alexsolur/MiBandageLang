@@ -383,7 +383,7 @@
     <string-array name="pref_weather_provider_values">
         <item>OPEN_WEATHER_MAP</item>
         <item>DARK_SKY</item>
-        <!--<item>ACCU_WEATHER</item>-->
+        <item>ACCU_WEATHER</item>
     </string-array>
 
     <string-array name="pref_weather_unit">
@@ -398,23 +398,27 @@
 
     <string-array name="pref_weather_current_display">
         <item>Current</item>
+        <item>Current, precipitation, cloud cover</item>
         <item>Average</item>
         <item>Am, Pm</item>
     </string-array>
 
     <string-array name="pref_weather_current_display_values">
         <item>CURRENT</item>
+        <item>CURRENT_PRECIP_CC</item>
         <item>AVERAGE</item>
         <item>AM_PM</item>
     </string-array>
 
     <string-array name="pref_weather_forecast_display">
         <item>Average</item>
+        <!--<item>Average, precipitation, cloud cover</item>-->
         <item>Am, Pm</item>
     </string-array>
 
     <string-array name="pref_weather_forecast_display_values">
         <item>AVERAGE</item>
+        <!--<item>AVERAGE_PRECIP_CC</item>-->
         <item>AM_PM</item>
     </string-array>
 

@@ -217,12 +217,14 @@
 
     <string-array name="pref_weather_current_display">
         <item>当前</item>
+        <item>当前, precipitation, cloud cover</item>
         <item>平均</item>
         <item>上午，下午</item>
     </string-array>
 
     <string-array name="pref_weather_forecast_display">
         <item>平均</item>
+        <!--<item>平均, precipitation, cloud cover</item>-->
         <item>上午，下午</item>
     </string-array>
 

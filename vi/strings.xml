@@ -428,7 +428,7 @@
     <string name="notification_group_correction_find">Tìm kiếm</string>
     <string name="notification_group_correction_replace">Thay thế bởi</string>
 
-    <string name="notification_regex_hint">Các ký tự không phải là chữ và số có một ý nghĩa đặc biệt, nếu bạn không biết Regex, đừng đánh dấu nó.</string>
+    <string name="notification_regex_hint">Các ký tự không phải là chữ và số có một ý nghĩa đặc biệt, nếu bạn không biết Regex, đừng đánh dấu nó</string>
 
     <string name="notification_confirm_close">Bạn có chắc chắn muốn hủy thay đổi không?</string>
 
@@ -516,6 +516,8 @@
 
     <string name="touch_weather_title">Dự báo thời tiết</string>
     <string name="touch_weather_location">Vị trí</string>
+    <string name="touch_weather_precipitation">Precipitation</string>
+    <string name="touch_weather_cloud_cover">Cloud cover</string>
 
     <string name="touch_device_location_title">Tìm thiết bị của tôi</string>
     <string name="touch_device_location_not_muted_only_title">Chỉ phát tiếng nếu không im lặng</string>
@@ -888,17 +890,24 @@
     <string name="weather_tab_location">Vị trí</string>
     <string name="weather_tab_settings">Cài đặt</string>
 
-    <string name="weather_title">Dự báo thời tiết</string>
     <string name="weather_location_title">Vị trí</string>
+    <string name="weather_automatic_update">Automatic update</string>
+
+    <string name="weather_title">Dự báo thời tiết</string>
     <string name="weather_city_title">Thành phố</string>
     <string name="weather_unit_title">Đơn vị</string>
 
     <string name="weather_current_title">Thời tiết hiện tại</string>
+    <string name="weather_current_location">Current location</string>
     <string name="weather_current_temperature">Nhiệt độ hiện tại</string>
 
     <string name="weather_forecast_title">Dự báo thời tiết</string>
 
     <string name="weather_display">Hiển thị</string>
+
+    <string name="weather_precipitation_rain">rain</string>
+    <string name="weather_precipitation_snow">snow</string>
+    <string name="weather_cloud_cover_abbreviation">cc</string>
 
     <!-- Watch face -->
     <string name="watch_face_tab_download">Download</string>

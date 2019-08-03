@@ -428,7 +428,7 @@
     <string name="notification_group_correction_find">Find</string>
     <string name="notification_group_correction_replace">Replace with</string>
 
-    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it.</string>
+    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it</string>
 
     <string name="notification_confirm_close">Are you sure you want to discard the changes?</string>
 
@@ -513,7 +513,9 @@
     <string name="touch_call_out_call_text">Call out: %1$s</string>
 
     <string name="touch_weather_title">Weather forecast</string>
-    <string name="touch_weather_location">Location</string>
+    <string name="touch_weather_location">Location update</string>
+    <string name="touch_weather_precipitation">Precipitation</string>
+    <string name="touch_weather_cloud_cover">Cloud cover</string>
 
     <string name="touch_device_location_title">Find my phone</string>
     <string name="touch_device_location_not_muted_only_title">Sound only if it is not muted or in DnD mode</string>
@@ -886,17 +888,24 @@
     <string name="weather_tab_location">Location</string>
     <string name="weather_tab_settings">Setting</string>
 
-    <string name="weather_title">Weather forecast</string>
     <string name="weather_location_title">Location</string>
+    <string name="weather_automatic_update">Automatic update</string>
+
+    <string name="weather_title">Weather forecast</string>
     <string name="weather_city_title">City</string>
     <string name="weather_unit_title">Unit</string>
 
     <string name="weather_current_title">Current weather</string>
+    <string name="weather_current_location">Current location</string>
     <string name="weather_current_temperature">Current temperature</string>
 
     <string name="weather_forecast_title">Weather forecast</string>
 
     <string name="weather_display">Display</string>
+
+    <string name="weather_precipitation_rain">rain</string>
+    <string name="weather_precipitation_snow">snow</string>
+    <string name="weather_cloud_cover_abbreviation">cc</string>
 
     <!-- Watch face -->
     <string name="watch_face_tab_download">Download</string>
