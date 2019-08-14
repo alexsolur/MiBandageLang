@@ -286,8 +286,8 @@
 
     <string name="message_touch_no_patterns">按下红色按钮来进行记录</string>
     <string name="message_touch_record">使用 %1$s 触摸按钮</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="message_touch_record_music_screen">Record the pattern using the %1$s music screen</string> <!-- %1$s = Mi Band 4  -->
-    <string name="message_touch_record_pulse_screen">Record the pattern using the %1$s pulse screen</string> <!-- %1$s = Mi Band 3, Amazfit Cor ... -->
+    <string name="message_touch_record_music_screen">使用 %1$s 音乐屏幕录制这个动作</string> <!-- %1$s = Mi Band 4  -->
+    <string name="message_touch_record_pulse_screen">使用 %1$s 心率屏幕录制这个动作</string> <!-- %1$s = Mi Band 3, Amazfit Cor ... -->
     <string name="message_touch_pattern_error">新动作与已有动作相似，请重新录制</string>
     <string name="message_touch_free_patterns">在普通模式下不能使用多于 %1$,d 的函数</string>
     <string name="message_touch_music_player_not_found">找不到播放器</string>
@@ -308,7 +308,7 @@
     <string name="message_alarm_mi_band_clear_failed">清除失败</string>
 
     <string name="message_premium_mode_only">此功能仅在高级模式可以</string>
-    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
+    <string name="message_feature_is_not_supported">%1$s 不支持这个特性</string>
     <string name="message_general_error">设置失败(连接丢失),请重试</string>
     <string name="message_internet_error">没有网络连接</string>
     <string name="message_gps_enable">启用 GPS</string>
@@ -353,7 +353,7 @@
     <string name="diagnostic_title">诊断</string>
 
     <string name="diagnostic_permissions_title">权限</string>
-    <string name="diagnostic_permissions_autostart">Autostart</string>
+    <string name="diagnostic_permissions_autostart">自动启动</string>
 
     <string name="diagnostic_access_title">访问</string>
     <string name="diagnostic_access_do_not_disturb">勿扰访问</string>
@@ -390,7 +390,7 @@
     <string name="notification_group_pre_vibration_title">预震动</string>
     <string name="notification_group_pre_alert_title">预图标</string>
     <string name="notification_group_prefix">文字前缀</string>
-    <string name="notification_group_display_notification_title">Display notification</string>
+    <string name="notification_group_display_notification_title">显示通知</string>
     <string name="notification_group_immediate">收到通知时立即</string>
     <string name="notification_group_connecting">连接到电话时</string>
     <string name="notification_group_reminder">提醒信号</string>
@@ -399,11 +399,11 @@
     <string name="notification_group_counter_title">通知数量</string>
     <string name="notification_group_repeat_title">重复信号</string>
     <string name="notification_group_wakelock">唤醒手机屏幕</string>
-    <string name="notification_group_remove_title">Remove notification</string>
-    <string name="notification_group_remove_from_device">From the phone\'s notification drawer</string>
-    <string name="notification_group_remove_from_device_hint">If you use the %1$s/Notifications/Clear all function</string> <!-- %1$s = Mi Band 4  ... -->
-    <string name="notification_group_remove_from_mi_band">From the %1$s notification menu</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="notification_group_remove_from_mi_band_hint">If you remove the notification from the phone\'s notification drawer</string>
+    <string name="notification_group_remove_title">移除通知</string>
+    <string name="notification_group_remove_from_device">从你手机的通知栏</string>
+    <string name="notification_group_remove_from_device_hint">如果你使用 %1$s/通知/清除全部 功能</string> <!-- %1$s = Mi Band 4  ... -->
+    <string name="notification_group_remove_from_mi_band">从 %1$s 的通知菜单</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_remove_from_mi_band_hint">如果你把通知从手机的通知栏移除</string>
 
     <string name="notification_group_filter">通知过滤</string>
     <string name="notification_group_filter_title">标题过滤器</string>
@@ -556,7 +556,7 @@
     <string name="touch_testing_title">触摸监控</string>
     <string name="touch_testing_second">sec.</string>
 
-    <string name="touch_setting_detection_time_title">Touch detection time</string>
+    <string name="touch_setting_detection_time_title">触摸检查时间</string>
     <string name="touch_setting_detection_time_hint">If you have a lower value, then music screen should be closed faster</string>
 
     <string name="touch_setting_detection_method_title">触摸截取方式</string>
@@ -1102,8 +1102,8 @@
     <string name="feedback_google_play_title">为此应用评分</string>
     <string name="feedback_request_feature_title">功能请求及错误报告</string>
     <string name="feedback_request_feature_summary">邮件会自动处理因此你可能不会收到回信</string>
-    <string name="feedback_translation_title">Mi Bandage translation</string>
-    <string name="feedback_translation_title_summary">Please help in translation</string>
+    <string name="feedback_translation_title">Mi Bandage 翻译</string>
+    <string name="feedback_translation_title_summary">请帮助我们翻译</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">隐私权政策</string>
