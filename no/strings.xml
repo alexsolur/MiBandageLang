@@ -72,11 +72,27 @@
     <string name="mi_band_setting_menu_menu">Meny</string>
 
     <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage behøver installasjon av den offisielle Mi Fit appen på den samme telefonen. først må du parre Bandet i Mi Fit appen, så kan du bruke Mi Bandage. If you want to use Mi Fit, choose this.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage behøver installasjon av den offisielle Mi Fit appen på den samme telefonen. først må du parre %1$s i Mi Fit appen, så kan du bruke Mi Bandage. If you want to use Mi Fit, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit app or un-pair your device.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit app or unpair your device. When restoring the Mi Fit cooperation, you will need to re-pair your %1$s in the Mi Fit application.</string>
+    <string name="mi_band_setting_auth_key_title">Set authentication key</string>
+    <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
+    <string name="mi_band_setting_auth_key_process"><![CDATA[
+        <ul>
+            <li>Unpair %1$s in the official Mi Fit app</li>
+            <li>Uninstall the official Mi Fit app</li>
+            <li>Download and install the modified Mi Fit app</li>
+            <li>Pair the %1$s in the modified Mi Fit app (do not unpair)</li>
+            <li>Uninstall the modified Mi Fit app</li>
+        </ul>
+        Authentication key can be found at: internal storage/freemyband/mac address.txt
+    ]]></string>
+    <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth">Pair</string>
 
     <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
 
     <string name="mi_band_setting_nickname">Kallenavn</string>
     <string name="mi_band_setting_gender">Kjønn</string>
@@ -93,6 +109,7 @@
     <string name="mi_band_setting_lock_screen">Band schermvergrendeling</string>
     <string name="mi_band_setting_lock_screen_summary">Swipe up to unlock the screen while the band is powered on</string>
     <string name="mi_band_setting_lift_wrist">Løft hånda for å vise info</string>
+    <string name="mi_band_setting_lift_wrist_sensitivity">Response speed</string>
     <string name="mi_band_setting_idle_alert">Idle alert</string>
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
@@ -328,7 +345,8 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Bip</b>
+    <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
@@ -684,9 +702,6 @@
     <string name="action_chart_sleep_type_time">Tid</string>
 
     <string name="sleep_details">Søvn detaljer</string>
-    <string name="sleep_assistant">Hjerterytme søvn assistanse</string>
-    <string name="sleep_assistant_summary">Hjelper til å få mer presist søvn data (reduserer batteri varigheten)</string>
-    <string name="sleep_assistant_show_pulse">Vis den measurerte puls valuen på den daglige puls grafen</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> sove tid
@@ -734,6 +749,13 @@
     <string name="pulse_value_invalid">Ugyldig value</string>
 
     <string name="pulse_offline_timed_title">Timet measurementering</string>
+    <string name="pulse_offline_sleep_assistant">Hjerterytme søvn assistanse</string>
+    <string name="pulse_offline_sleep_assistant_summary">Hjelper til å få mer presist søvn data (reduserer batteri varigheten)</string>
+    <string name="pulse_offline_detect_sport">Activity detection</string>
+    <string name="pulse_offline_detect_sport_summary">When %1$s detects that you are doing exercises, it will automatically increase the detection frequency to guarantee the accuracy of heart rate data during workouts</string>
+    <string name="pulse_offline_alert_high">Heart rate alert</string>
+    <string name="pulse_offline_alert_high_summary">When the alert value is reached, and there is no obvious activity in last 10 minutes, the %1$s will vibrate</string>
+    <string name="pulse_offline_alert_high_value_title">Alert value</string>
 
     <string name="pulse_chart_expandable_title">Notifikasjon er utvidet</string>
     <string name="pulse_interval_title">Gjenta interval av puls monitorering</string>

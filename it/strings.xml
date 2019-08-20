@@ -72,11 +72,27 @@
     <string name="mi_band_setting_menu_menu">Menu</string>
 
     <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage richiede l\'installazione dell\'app ufficiale Mi Fit sullo stesso dispositivo. Per prima cosa devi collegare la Band nell\'app Mi Fit, dopo puoi usare Mi Bandage. If you want to use Mi Fit, choose this.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage richiede l\'installazione dell\'app ufficiale Mi Fit sullo stesso dispositivo. Per prima cosa devi collegare la %1$s nell\'app Mi Fit, dopo puoi usare Mi Bandage. If you want to use Mi Fit, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit app or un-pair your device.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit app or unpair your device. When restoring the Mi Fit cooperation, you will need to re-pair your %1$s in the Mi Fit application.</string>
+    <string name="mi_band_setting_auth_key_title">Set authentication key</string>
+    <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
+    <string name="mi_band_setting_auth_key_process"><![CDATA[
+        <ul>
+            <li>Unpair %1$s in the official Mi Fit app</li>
+            <li>Uninstall the official Mi Fit app</li>
+            <li>Download and install the modified Mi Fit app</li>
+            <li>Pair the %1$s in the modified Mi Fit app (do not unpair)</li>
+            <li>Uninstall the modified Mi Fit app</li>
+        </ul>
+        Authentication key can be found at: internal storage/freemyband/mac address.txt
+    ]]></string>
+    <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth">Associa</string>
 
     <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
 
     <string name="mi_band_setting_nickname">Nickname</string>
     <string name="mi_band_setting_gender">Sesso</string>
@@ -93,6 +109,7 @@
     <string name="mi_band_setting_lock_screen">Blocco schermo bracciale</string>
     <string name="mi_band_setting_lock_screen_summary">Scorri verso l\'alto per sbloccare lo schermo quando il bracciale è acceso</string>
     <string name="mi_band_setting_lift_wrist">Solleva il polso per visualizzare le info</string>
+    <string name="mi_band_setting_lift_wrist_sensitivity">Velocità di risposta</string>
     <string name="mi_band_setting_idle_alert">Avviso di sedentarietà</string>
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
@@ -328,7 +345,8 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Bip</b>
+    <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
@@ -684,9 +702,6 @@
     <string name="action_chart_sleep_type_time">Tempo</string>
 
     <string name="sleep_details">Dettagli sonno</string>
-    <string name="sleep_assistant">Frequenza cardiaca assistente sonno</string>
-    <string name="sleep_assistant_summary">Misura la frequenza cardiaca durante il sonno per migliorare la precisione dei dati (consuma più batteria)</string>
-    <string name="sleep_assistant_show_pulse">Mostra i battiti misurati sul grafico giornaliero dei battiti</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> Durata sonno
@@ -734,6 +749,13 @@
     <string name="pulse_value_invalid">Valore invalido</string>
 
     <string name="pulse_offline_timed_title">Misurazione temporizzata</string>
+    <string name="pulse_offline_sleep_assistant">Frequenza cardiaca assistente sonno</string>
+    <string name="pulse_offline_sleep_assistant_summary">Misura la frequenza cardiaca durante il sonno per migliorare la precisione dei dati (consuma più batteria)</string>
+    <string name="pulse_offline_detect_sport">Rilevamento di attività</string>
+    <string name="pulse_offline_detect_sport_summary">Quando il %1$s rileva che stai facendo esercizio, aumenta automaticamente la frequenza di rilevamento per garantire l\'accuratezza dei dati della frequenza cardiaca durante gli allenamenti</string>
+    <string name="pulse_offline_alert_high">Allarme frequenza cardiaca</string>
+    <string name="pulse_offline_alert_high_summary">Quando viene raggiunto il valore di allarme, e non c\'è nessuna attività evidente negli ultimi 10 minuti, il %1$s vibra</string>
+    <string name="pulse_offline_alert_high_value_title">Valore di allarme</string>
 
     <string name="pulse_chart_expandable_title">La notifica è espandibile</string>
     <string name="pulse_interval_title">Intervallo di ripetizione del monitoraggio battiti</string>
@@ -910,7 +932,7 @@
     <!-- Watch face -->
     <string name="watch_face_tab_download">Scaricare</string>
     <string name="watch_face_tab_upload">Caricare</string>
-    <string name="watch_face_tab_upload_mi_fit">Upload via Mi Fittel</string>
+    <string name="watch_face_tab_upload_mi_fit">Upload via Mi Fit</string>
 
     <string name="watch_face_download_title">Download watch face</string>
     <string name="watch_face_download_path">Salva qui le watch face scaricate</string>

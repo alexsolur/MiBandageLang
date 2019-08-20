@@ -72,11 +72,27 @@
     <string name="mi_band_setting_menu_menu">Ekran</string>
 
     <string name="mi_band_setting_auth_mi_fit">Mi Fit ile birlikte</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandaj, resmi Mi Fit uygulamasının aynı cihaza kurulmasını gerektirir. İlk önce Band\'yi Mi Fit uygulamasında eşleştirmeniz gerekir, o zaman Mi Bandaj\'ı kullanabilirsiniz. If you want to use Mi Fit, choose this.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandaj, resmi Mi Fit uygulamasının aynı cihaza kurulmasını gerektirir. İlk önce %1$s\'yi Mi Fit uygulamasında eşleştirmeniz gerekir, o zaman Mi Bandaj\'ı kullanabilirsiniz. If you want to use Mi Fit, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Bağımsız</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Bandaj\'ın çalışması için Mi Fit uygulaması gerekli değildir. Eşleştirmeden sonra Mi Fit uygulamasını kaldırın veya cihazınızı eşleştirin.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Bandaj\'ın çalışması için Mi Fit uygulaması gerekli değildir. Eşleştirmeden sonra Mi Fit uygulamasını kaldırın veya cihazınızı eşleştirin. When restoring the Mi Fit cooperation, you will need to re-pair your %1$s in the Mi Fit application.</string>
+    <string name="mi_band_setting_auth_key_title">Set authentication key</string>
+    <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
+    <string name="mi_band_setting_auth_key_process"><![CDATA[
+        <ul>
+            <li>Unpair %1$s in the official Mi Fit app</li>
+            <li>Uninstall the official Mi Fit app</li>
+            <li>Download and install the modified Mi Fit app</li>
+            <li>Pair the %1$s in the modified Mi Fit app (do not unpair)</li>
+            <li>Uninstall the modified Mi Fit app</li>
+        </ul>
+        Authentication key can be found at: internal storage/freemyband/mac address.txt
+    ]]></string>
+    <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth">Eşleştir</string>
 
     <string name="message_mi_band_setting_auth_press_band_button">Eşleştirme için %1$s düğmesine basın</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
 
     <string name="mi_band_setting_nickname">Kullanıcı adı</string>
     <string name="mi_band_setting_gender">Cinsiyet</string>
@@ -93,6 +109,7 @@
     <string name="mi_band_setting_lock_screen">Bileklik ekranı kilidi</string>
     <string name="mi_band_setting_lock_screen_summary">Bileklik açıkken ekranın kilidini açmak için yukarı kaydırın</string>
     <string name="mi_band_setting_lift_wrist">Bilgiliyi görüntülemek için bileğinizi kaldırın</string>
+    <string name="mi_band_setting_lift_wrist_sensitivity">Tepki hızı</string>
     <string name="mi_band_setting_idle_alert">Oturma uyarıları</string>
     <string name="mi_band_setting_idle_alert_time">Hareketsiz süresi</string>
     <string name="mi_band_setting_idle_alert_dnd">Dinlenirken, rahatsız etmeyin</string>
@@ -328,7 +345,8 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Bip</b>
+    <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
@@ -686,9 +704,6 @@
     <string name="action_chart_sleep_type_time">Süre</string>
 
     <string name="sleep_details">Uyku detayları</string>
-    <string name="sleep_assistant">Uyurken kalp atışını izle</string>
-    <string name="sleep_assistant_summary">Daha net uyku takibi sağlar (şarjınız çabuk bitirir)</string>
-    <string name="sleep_assistant_show_pulse">Ölçülen nabız değerlerini günlük nabız grafiğinde göster</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> uyku analizi
@@ -736,6 +751,13 @@
     <string name="pulse_value_invalid">Geçrsiz değer</string>
 
     <string name="pulse_offline_timed_title">Zamanlı ölçüm</string>
+    <string name="pulse_offline_sleep_assistant">Uyurken kalp atışını izle</string>
+    <string name="pulse_offline_sleep_assistant_summary">Daha net uyku takibi sağlar (şarjınız çabuk bitirir)</string>
+    <string name="pulse_offline_detect_sport">Etkinlik algılama</string>
+    <string name="pulse_offline_detect_sport_summary">%1$s, egzersiz yaptığınızı algıladığında, egzersiz sırasında nabız verilerinin doğruluğunu garanti etmek için tespit frekansını otomatik olarak artıracaktır</string>
+    <string name="pulse_offline_alert_high">Nabız uyarısı</string>
+    <string name="pulse_offline_alert_high_summary">Uyarı değerine ulaşıldığında ve son 10 dakika içinde belirgin bir etkinlik olmadığında, %1$s titreşir</string>
+    <string name="pulse_offline_alert_high_value_title">Uyarı değeri</string>
 
     <string name="pulse_chart_expandable_title">Genişletilebilir bildirim</string>
     <string name="pulse_interval_title">Belirlenen zaman aralığında ve özelliklerle nabız ölçümü otomnatik tekrarlanır</string>

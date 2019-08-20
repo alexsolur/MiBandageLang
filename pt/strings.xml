@@ -72,11 +72,27 @@
     <string name="mi_band_setting_menu_menu">Menu</string>
 
     <string name="mi_band_setting_auth_mi_fit">Cooperar com a Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">A Mi Bandage precisa da Mi Fit instalada para funcionar. Primeiro tem de emparelhar a Band na aplicação Mi Fit e só depois poderá usar a Mi Bandage. Se você pretende usar a Mi Fit, escolha esta opção.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">A Mi Bandage precisa da Mi Fit instalada para funcionar. Primeiro tem de emparelhar a %1$s na aplicação Mi Fit e só depois poderá usar a Mi Bandage. Se você pretende usar a Mi Fit, escolha esta opção.</string>
     <string name="mi_band_setting_auth_standalone">Solitário</string>
-    <string name="mi_band_setting_auth_standalone_hint">A aplicação \'Mi Fit\' não é necessária para a Mi Bandage funcionar</string>
+    <string name="mi_band_setting_auth_standalone_hint">A aplicação \'Mi Fit\' não é necessária para a Mi Bandage funcionar. After the pairing, uninstall the Mi Fit app or unpair your device. When restoring the Mi Fit cooperation, you will need to re-pair your %1$s in the Mi Fit application.</string>
+    <string name="mi_band_setting_auth_key_title">Set authentication key</string>
+    <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
+    <string name="mi_band_setting_auth_key_process"><![CDATA[
+        <ul>
+            <li>Unpair %1$s in the official Mi Fit app</li>
+            <li>Uninstall the official Mi Fit app</li>
+            <li>Download and install the modified Mi Fit app</li>
+            <li>Pair the %1$s in the modified Mi Fit app (do not unpair)</li>
+            <li>Uninstall the modified Mi Fit app</li>
+        </ul>
+        Authentication key can be found at: internal storage/freemyband/mac address.txt
+    ]]></string>
+    <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth">Parear</string>
 
     <string name="message_mi_band_setting_auth_press_band_button">Precione o botão %1$s para emparelhar</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
 
     <string name="mi_band_setting_nickname">Alcunha</string>
     <string name="mi_band_setting_gender">Género</string>
@@ -93,6 +109,7 @@
     <string name="mi_band_setting_lock_screen">O relógio vibrará ao receber chamadas</string>
     <string name="mi_band_setting_lock_screen_summary">Deslize para cima para desbloquear o ecrã enquanto a pulseira estiver ligada</string>
     <string name="mi_band_setting_lift_wrist">Rodar o braço para ver a informação</string>
+    <string name="mi_band_setting_lift_wrist_sensitivity">Velocidade de resposta</string>
     <string name="mi_band_setting_idle_alert">Alertas de inatividade</string>
     <string name="mi_band_setting_idle_alert_time">Tempo de inatividade</string>
     <string name="mi_band_setting_idle_alert_dnd">Não perturbar enquanto estiver a descansar</string>
@@ -328,7 +345,8 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Bip</b>
+    <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
@@ -684,9 +702,6 @@
     <string name="action_chart_sleep_type_time">Tempo</string>
 
     <string name="sleep_details">Detalhes do sono</string>
-    <string name="sleep_assistant">Assistente de batimentos cardíacos no sono</string>
-    <string name="sleep_assistant_summary">Ajuda a ter dados do sono mais precisos (reduz a vida da bateria)</string>
-    <string name="sleep_assistant_show_pulse">Mostrar os valores de pulsação medidos no gráfico diário de pulsação</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> Tempo que dormiu
@@ -734,6 +749,13 @@
     <string name="pulse_value_invalid">Valor inválido</string>
 
     <string name="pulse_offline_timed_title">Monitorização temporizada</string>
+    <string name="pulse_offline_sleep_assistant">Assistente de batimentos cardíacos no sono</string>
+    <string name="pulse_offline_sleep_assistant_summary">Ajuda a ter dados do sono mais precisos (reduz a vida da bateria)</string>
+    <string name="pulse_offline_detect_sport">Deteção de atividade</string>
+    <string name="pulse_offline_detect_sport_summary">Quando a %1$s detetar que está a se exercitar, ela aumentará automaticamente a frequência de detecção para garantir a precisão dos dados de frequência cardíaca durante os exercícios</string>
+    <string name="pulse_offline_alert_high">Alerta de frequência cardíaca</string>
+    <string name="pulse_offline_alert_high_summary">Quando é alcançado o valor de alerta, e não há óbvia atividade nos últimos 10 minutos, a %1$s começará a vibrar</string>
+    <string name="pulse_offline_alert_high_value_title">Valor de alerta</string>
 
     <string name="pulse_chart_expandable_title">Notificação expansível</string>
     <string name="pulse_interval_title">Tempo para repetir a leitura de pulsação</string>

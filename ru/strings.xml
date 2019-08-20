@@ -72,11 +72,27 @@
     <string name="mi_band_setting_menu_menu">Меню</string>
 
     <string name="mi_band_setting_auth_mi_fit">Взаимодействие с Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage требуется приложение Mi Fit на устройстве. Сначала подключите браслет к Mi Fit, потом пользуйтесь Mi Bandage. Выберите этот пункт для использования вместе с Mi Fit.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage требуется приложение Mi Fit на устройстве. Сначала подключите %1$s к Mi Fit, потом пользуйтесь Mi Bandage. Выберите этот пункт для использования вместе с Mi Fit.</string>
     <string name="mi_band_setting_auth_standalone">Автономно</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Fit не нужен для работы Mi Bandage</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit не нужен для работы Mi Bandage. After the pairing, uninstall the Mi Fit app or unpair your device. When restoring the Mi Fit cooperation, you will need to re-pair your %1$s in the Mi Fit application.</string>
+    <string name="mi_band_setting_auth_key_title">Set authentication key</string>
+    <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
+    <string name="mi_band_setting_auth_key_process"><![CDATA[
+        <ul>
+            <li>Unpair %1$s in the official Mi Fit app</li>
+            <li>Uninstall the official Mi Fit app</li>
+            <li>Download and install the modified Mi Fit app</li>
+            <li>Pair the %1$s in the modified Mi Fit app (do not unpair)</li>
+            <li>Uninstall the modified Mi Fit app</li>
+        </ul>
+        Authentication key can be found at: internal storage/freemyband/mac address.txt
+    ]]></string>
+    <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth">Подключить</string>
 
     <string name="message_mi_band_setting_auth_press_band_button">Нажмите кнопку %1$s для соединения</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
 
     <string name="mi_band_setting_nickname">Имя</string>
     <string name="mi_band_setting_gender">Пол</string>
@@ -93,6 +109,7 @@
     <string name="mi_band_setting_lock_screen">Блокировка экрана браслета</string>
     <string name="mi_band_setting_lock_screen_summary">Проведите вверх для разблокировки, когда браслет включен</string>
     <string name="mi_band_setting_lift_wrist">Поворот запястья</string>
+    <string name="mi_band_setting_lift_wrist_sensitivity">Скорость отклика</string>
     <string name="mi_band_setting_idle_alert">Оповещение о бездействии</string>
     <string name="mi_band_setting_idle_alert_time">Время бездействия</string>
     <string name="mi_band_setting_idle_alert_dnd">Не уведомлять во время отдыха</string>
@@ -328,7 +345,8 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Bip</b>
+    <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
@@ -684,9 +702,6 @@
     <string name="action_chart_sleep_type_time">Время</string>
 
     <string name="sleep_details">Подробнее о сне</string>
-    <string name="sleep_assistant">Помощник отслеживания пульса во время сна</string>
-    <string name="sleep_assistant_summary">Позволяет получить более точные данные о сне (повышенный расход батареи)</string>
-    <string name="sleep_assistant_show_pulse">Отображать ночные измерения в графиках пульса</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> время сна
@@ -734,6 +749,13 @@
     <string name="pulse_value_invalid">Неверное значение</string>
 
     <string name="pulse_offline_timed_title">Измерение по времени</string>
+    <string name="pulse_offline_sleep_assistant">Помощник отслеживания пульса во время сна</string>
+    <string name="pulse_offline_sleep_assistant_summary">Позволяет получить более точные данные о сне (повышенный расход батареи)</string>
+    <string name="pulse_offline_detect_sport">Определение активности</string>
+    <string name="pulse_offline_detect_sport_summary">Когда %1$s обнаруживает, что вы делаете упражнения, он автоматически увеличивает частоту измерений, чтобы гарантировать точность измерений пульса во время тренировок</string>
+    <string name="pulse_offline_alert_high">Уведомление о пульсе</string>
+    <string name="pulse_offline_alert_high_summary">Когда будет достигнуто определенное значение, а также при отсутствии активности в течение последних 10 минут, %1$s начнет вибрировать</string>
+    <string name="pulse_offline_alert_high_value_title">Значение уведомления</string>
 
     <string name="pulse_chart_expandable_title">Расширяемое уведомление</string>
     <string name="pulse_interval_title">Промежуток повтора измерений</string>

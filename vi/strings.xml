@@ -72,11 +72,27 @@
     <string name="mi_band_setting_menu_menu">Các mục menu ẩn</string>
 
     <string name="mi_band_setting_auth_mi_fit">Đồng bộ với Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage cần cài đặt Mi Fit trên cùng điện thoại. Đầu tiên, bạn cần kết nối Band với Mi Fit, sau đó có thể sử dụng Mi Bandage. Nếu bạn muốn dùng Mi Fit, chọn mục này.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage cần cài đặt Mi Fit trên cùng điện thoại. Đầu tiên, bạn cần kết nối %1$s với Mi Fit, sau đó có thể sử dụng Mi Bandage. Nếu bạn muốn dùng Mi Fit, chọn mục này.</string>
     <string name="mi_band_setting_auth_standalone">Hoạt động độc lập</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Bandage không cần Mi Fit để hoạt động, sau khi đồng bộ, gỡ bỏ Mi Fit hoặc bỏ kết nối thiết bị của bạn.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Bandage không cần Mi Fit để hoạt động, sau khi đồng bộ, gỡ bỏ Mi Fit hoặc bỏ kết nối thiết bị của bạn. When restoring the Mi Fit cooperation, you will need to re-pair your %1$s in the Mi Fit application.</string>
+    <string name="mi_band_setting_auth_key_title">Set authentication key</string>
+    <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
+    <string name="mi_band_setting_auth_key_process"><![CDATA[
+        <ul>
+            <li>Unpair %1$s in the official Mi Fit app</li>
+            <li>Uninstall the official Mi Fit app</li>
+            <li>Download and install the modified Mi Fit app</li>
+            <li>Pair the %1$s in the modified Mi Fit app (do not unpair)</li>
+            <li>Uninstall the modified Mi Fit app</li>
+        </ul>
+        Authentication key can be found at: internal storage/freemyband/mac address.txt
+    ]]></string>
+    <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth">Ghép nối</string>
 
     <string name="message_mi_band_setting_auth_press_band_button">Bấm nút %1$s để kết nối</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
 
     <string name="mi_band_setting_nickname">Biệt danh</string>
     <string name="mi_band_setting_gender">Giới tính</string>
@@ -93,6 +109,7 @@
     <string name="mi_band_setting_lock_screen">Khóa màn hình vòng đeo tay</string>
     <string name="mi_band_setting_lock_screen_summary">Trượt lên để mở khóa màn hình khi vòng đeo tay bật</string>
     <string name="mi_band_setting_lift_wrist">Nâng cổ tay để xem thông tin</string>
+    <string name="mi_band_setting_lift_wrist_sensitivity">Tốc độ phản hồi</string>
     <string name="mi_band_setting_idle_alert">Cảnh bao ngồi lâu</string>
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
     <string name="mi_band_setting_idle_alert_dnd">Không làm phiền trong khi nghỉ</string>
@@ -327,7 +344,8 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Bip</b>
+    <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
@@ -685,9 +703,6 @@
     <string name="action_chart_sleep_type_time">Time</string>
 
     <string name="sleep_details">Sleep details</string>
-    <string name="sleep_assistant">Trợ lý nhịp tim giấc ngủ</string>
-    <string name="sleep_assistant_summary">Giúp nhận được dữ liệu giấc ngủ chính xác hơn (giảm tuổi thọ pin)</string>
-    <string name="sleep_assistant_show_pulse">Show the measured pulse values on the daily pulse graph</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> thời gian ngủ
@@ -735,6 +750,13 @@
     <string name="pulse_value_invalid">Giá trị không hợp lệ</string>
 
     <string name="pulse_offline_timed_title">Đo thời gian</string>
+    <string name="pulse_offline_sleep_assistant">Trợ lý nhịp tim giấc ngủ</string>
+    <string name="pulse_offline_sleep_assistant_summary">Giúp nhận được dữ liệu giấc ngủ chính xác hơn (giảm tuổi thọ pin)</string>
+    <string name="pulse_offline_detect_sport">Phát hiện hoạt động</string>
+    <string name="pulse_offline_detect_sport_summary">Khi %1$s phát hiện bạn đang luyện tập, thiết bị sẽ tự động tăng tần số phát hiện để đảm đảm tính chính xác dữ liệu nhịp tim</string>
+    <string name="pulse_offline_alert_high">Cảnh báo nhịp tim</string>
+    <string name="pulse_offline_alert_high_summary">Khi đạt giá trị cảnh báo và không có hoạt động rõ ràng nào trong 10 phút cuối, %1$s sẽ rung</string>
+    <string name="pulse_offline_alert_high_value_title">Giá trị cảnh báo</string>
 
     <string name="pulse_chart_expandable_title">Thông báo có thể mở rộng</string>
     <string name="pulse_interval_title">Khoảng thời gian lặp lại giám sát nhịp tim</string>

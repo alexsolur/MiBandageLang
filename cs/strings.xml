@@ -72,11 +72,27 @@
     <string name="mi_band_setting_menu_menu">Menu</string>
 
     <string name="mi_band_setting_auth_mi_fit">Spolupráce s Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage vyžaduje instalaci oficiální aplikace Mi Fit na stejném zařízení. Nejprve musíte spárovat chytrý náramek v aplikaci Mi Fit, poté můžete použít aplikaci Mi Bandage. Zvolte tuto možnost, pokud chcete použít Mi Fit.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage vyžaduje instalaci oficiální aplikace Mi Fit na stejném zařízení. Nejprve musíte spárovat %1$s v aplikaci Mi Fit, poté můžete použít aplikaci Mi Bandage. Zvolte tuto možnost, pokud chcete použít Mi Fit.</string>
     <string name="mi_band_setting_auth_standalone">Samostatný</string>
-    <string name="mi_band_setting_auth_standalone_hint">Aplikace Mi Fit není nutná pro práci Mi Bandage. Po párování odinstalujte aplikaci Mi Fit nebo odpojte zařízení.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Aplikace Mi Fit není nutná pro práci Mi Bandage. Po párování odinstalujte aplikaci Mi Fit nebo odpojte zařízení. When restoring the Mi Fit cooperation, you will need to re-pair your %1$s in the Mi Fit application.</string>
+    <string name="mi_band_setting_auth_key_title">Set authentication key</string>
+    <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
+    <string name="mi_band_setting_auth_key_process"><![CDATA[
+        <ul>
+            <li>Unpair %1$s in the official Mi Fit app</li>
+            <li>Uninstall the official Mi Fit app</li>
+            <li>Download and install the modified Mi Fit app</li>
+            <li>Pair the %1$s in the modified Mi Fit app (do not unpair)</li>
+            <li>Uninstall the modified Mi Fit app</li>
+        </ul>
+        Authentication key can be found at: internal storage/freemyband/mac address.txt
+    ]]></string>
+    <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth">Spárovat</string>
 
     <string name="message_mi_band_setting_auth_press_band_button">Pro spárování stiskni tlačítko %1$s</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
 
     <string name="mi_band_setting_nickname">Přezdívka</string>
     <string name="mi_band_setting_gender">Pohlaví</string>
@@ -93,6 +109,7 @@
     <string name="mi_band_setting_lock_screen">Zámek obrazovky náramku</string>
     <string name="mi_band_setting_lock_screen_summary">Pokud je náramek zapnutý, potáhněte nahoru pro odemknutí obrazovky</string>
     <string name="mi_band_setting_lift_wrist">Zvednutí zápěstí pro zobrazení informací</string>
+    <string name="mi_band_setting_lift_wrist_sensitivity">Rychlost odezvy</string>
     <string name="mi_band_setting_idle_alert">Oznámení o nečinnosti</string>
     <string name="mi_band_setting_idle_alert_time">Čas nečinnosti</string>
     <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
@@ -328,7 +345,8 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Bip</b>
+    <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
@@ -684,9 +702,6 @@
     <string name="action_chart_sleep_type_time">Čas</string>
 
     <string name="sleep_details">Podrobnosti o spánku</string>
-    <string name="sleep_assistant">Asistent srdečního tepu ve spánku</string>
-    <string name="sleep_assistant_summary">Pomáhá získávat přesnější údaje o spánku (snižuje životnost baterie)</string>
-    <string name="sleep_assistant_show_pulse">Zobrazte naměřené hodnoty tepu na grafu denního tepu</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> spánek
@@ -734,6 +749,13 @@
     <string name="pulse_value_invalid">Neplatná hodnota</string>
 
     <string name="pulse_offline_timed_title">Časované měření</string>
+    <string name="pulse_offline_sleep_assistant">Asistent srdečního tepu ve spánku</string>
+    <string name="pulse_offline_sleep_assistant_summary">Pomáhá získávat přesnější údaje o spánku (snižuje životnost baterie)</string>
+    <string name="pulse_offline_detect_sport">Detekce aktivity</string>
+    <string name="pulse_offline_detect_sport_summary">Pokud %1$s zjistí, že právě cvičíte, automaticky zvýší frekvenci měření srdečního tepu, pro zajištění přesnějších údajů o vašem srdečním tepu během cvičení</string>
+    <string name="pulse_offline_alert_high">Upozornění na tep</string>
+    <string name="pulse_offline_alert_high_summary">When the alert value is reached, and there is no obvious activity in last 10 minutes, the %1$s will vibrate</string>
+    <string name="pulse_offline_alert_high_value_title">Hodnota upozornění</string>
 
     <string name="pulse_chart_expandable_title">Notifikace jsou rozšiřitelné</string>
     <string name="pulse_interval_title">Opakování intervalu monitorování tepu</string>

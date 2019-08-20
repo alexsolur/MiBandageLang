@@ -58,8 +58,8 @@
     <string name="mi_band_mac_address_invalid">Ungültige MAC-Adresse</string>
 
     <string name="mi_band_state_title">%1$s einstellungen</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="mi_band_state_connected">Connected</string>
-    <string name="mi_band_state_disconnected">Disconnected</string>
+    <string name="mi_band_state_connected">Band ist verbunden</string>
+    <string name="mi_band_state_disconnected">Band ist nicht verbunden</string>
     <string name="mi_band_state_bonded">Paired device</string>
     <string name="mi_band_state_not_bonded">Not paired device</string>
 
@@ -72,11 +72,27 @@
     <string name="mi_band_setting_menu_menu">Menü</string>
 
     <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage benötigt die offizielle Mi Fit-App auf demselben Gerät. Vor der Verwendung der Mi Bandage-App muss das Band mit der Mi Fit-App verbunden sein. If you want to use Mi Fit, choose this.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage benötigt die offizielle Mi Fit-App auf demselben Gerät. Vor der Verwendung der Mi Bandage-App muss das %1$s mit der Mi Fit-App verbunden sein. If you want to use Mi Fit, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit app or un-pair your device.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit app or unpair your device. When restoring the Mi Fit cooperation, you will need to re-pair your %1$s in the Mi Fit application.</string>
+    <string name="mi_band_setting_auth_key_title">Set authentication key</string>
+    <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
+    <string name="mi_band_setting_auth_key_process"><![CDATA[
+        <ul>
+            <li>Unpair %1$s in the official Mi Fit app</li>
+            <li>Uninstall the official Mi Fit app</li>
+            <li>Download and install the modified Mi Fit app</li>
+            <li>Pair the %1$s in the modified Mi Fit app (do not unpair)</li>
+            <li>Uninstall the modified Mi Fit app</li>
+        </ul>
+        Authentication key can be found at: internal storage/freemyband/mac address.txt
+    ]]></string>
+    <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth">Koppeln</string>
 
     <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
 
     <string name="mi_band_setting_nickname">Spitzname</string>
     <string name="mi_band_setting_gender">Geschlecht</string>
@@ -93,9 +109,10 @@
     <string name="mi_band_setting_lock_screen">Band-Bildschirmsperre</string>
     <string name="mi_band_setting_lock_screen_summary">Während das Band eingeschaltet ist, nach oben wischen, um den Bildschirm zu entsperren</string>
     <string name="mi_band_setting_lift_wrist">Für Informationen Handgelenk anheben</string>
+    <string name="mi_band_setting_lift_wrist_sensitivity">Reaktionsgeschwindigkeit</string>
     <string name="mi_band_setting_idle_alert">Inaktivitätswarnungen</string>
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
-    <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
+    <string name="mi_band_setting_idle_alert_dnd">Bitte nicht stören</string>
     <string name="mi_band_setting_night_mode">Nachtmodus</string>
 
     <string name="mi_band_setting_discoverable">Discoverable</string>
@@ -328,7 +345,8 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Bip</b>
+    <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
@@ -683,9 +701,6 @@
     <string name="action_chart_sleep_type_time">Zeit</string>
 
     <string name="sleep_details">Sleep details</string>
-    <string name="sleep_assistant">Herzfrequenz Schlafassistent</string>
-    <string name="sleep_assistant_summary">Hilft genauere Schlafdaten zu erhalten (verkürzt die Lebensdauer des Akkus)</string>
-    <string name="sleep_assistant_show_pulse">Show the measured pulse values on the daily pulse graph</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> sleeping time
@@ -733,6 +748,13 @@
     <string name="pulse_value_invalid">Ungültiger Wert</string>
 
     <string name="pulse_offline_timed_title">Timed measurement</string>
+    <string name="pulse_offline_sleep_assistant">Herzfrequenz Schlafassistent</string>
+    <string name="pulse_offline_sleep_assistant_summary">Hilft genauere Schlafdaten zu erhalten (verkürzt die Lebensdauer des Akkus)</string>
+    <string name="pulse_offline_detect_sport">Aktivitätserkennung</string>
+    <string name="pulse_offline_detect_sport_summary">Wenn %1$s erkennt, dass du Übungen durchführst, erhöht es automatisch die Erkennungsfrequenz, um die Genauigkeit der Herzfrequenzdaten während des Trainings zu gewährleisten</string>
+    <string name="pulse_offline_alert_high">Puls-Warnung</string>
+    <string name="pulse_offline_alert_high_summary">Wenn der Alarmwert erreicht ist und in den letzten 10 Minuten keine offensichtliche Aktivität auftritt, vibriert das %1$s</string>
+    <string name="pulse_offline_alert_high_value_title">Warnwert</string>
 
     <string name="pulse_chart_expandable_title">Notification is expandable</string>
     <string name="pulse_interval_title">Wiederholungsintervall der Herzfrequenzbeobachtung</string>
@@ -910,7 +932,7 @@
     <!-- Watch face -->
     <string name="watch_face_tab_download">Download</string>
     <string name="watch_face_tab_upload">Upload</string>
-    <string name="watch_face_tab_upload_mi_fit">Upload via Mi Fittel</string>
+    <string name="watch_face_tab_upload_mi_fit">Upload via Mi Fit</string>
 
     <string name="watch_face_download_title">Download watch face</string>
     <string name="watch_face_download_path">Save the downloaded watch face file to here</string>

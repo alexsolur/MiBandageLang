@@ -72,11 +72,27 @@
     <string name="mi_band_setting_menu_menu">菜单</string>
 
     <string name="mi_band_setting_auth_mi_fit">与 Mi Fit 协作</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage 需要在同一个手机上安装小米运动（Mi Fit）应用. 首先你需要在 Mi Fit 里连接手环,然后才能使用 Mi Bandage. 如果你想使用小米运动应用，请选择这项.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage 需要在同一个手机上安装小米运动（Mi Fit）应用. 首先你需要在 Mi Fit 里连接 %1$s,然后才能使用 Mi Bandage. 如果你想使用小米运动应用，请选择这项.</string>
     <string name="mi_band_setting_auth_standalone">独立模式</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Bandage 工作不再需要 Mi Fit.在这里配对后卸载小米运动或在小米运动中解除配对.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Bandage 工作不再需要 Mi Fit.在这里配对后卸载小米运动或在小米运动中解除配对. When restoring the Mi Fit cooperation, you will need to re-pair your %1$s in the Mi Fit application.</string>
+    <string name="mi_band_setting_auth_key_title">Set authentication key</string>
+    <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
+    <string name="mi_band_setting_auth_key_process"><![CDATA[
+        <ul>
+            <li>Unpair %1$s in the official Mi Fit app</li>
+            <li>Uninstall the official Mi Fit app</li>
+            <li>Download and install the modified Mi Fit app</li>
+            <li>Pair the %1$s in the modified Mi Fit app (do not unpair)</li>
+            <li>Uninstall the modified Mi Fit app</li>
+        </ul>
+        Authentication key can be found at: internal storage/freemyband/mac address.txt
+    ]]></string>
+    <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth">绑定</string>
 
     <string name="message_mi_band_setting_auth_press_band_button">按下 %1$s 进行配对</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
 
     <string name="mi_band_setting_nickname">昵称</string>
     <string name="mi_band_setting_gender">性别</string>
@@ -93,6 +109,7 @@
     <string name="mi_band_setting_lock_screen">手环屏幕锁定</string>
     <string name="mi_band_setting_lock_screen_summary">开启后, 点亮屏幕上滑解锁</string>
     <string name="mi_band_setting_lift_wrist">举起手腕时点亮屏幕</string>
+    <string name="mi_band_setting_lift_wrist_sensitivity">响应速度</string>
     <string name="mi_band_setting_idle_alert">开启久坐提醒</string>
     <string name="mi_band_setting_idle_alert_time">空闲时间</string>
     <string name="mi_band_setting_idle_alert_dnd">在我休息时不要提醒我</string>
@@ -325,7 +342,8 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Bip</b>
+    <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
@@ -681,9 +699,6 @@
     <string name="action_chart_sleep_type_time">时间</string>
 
     <string name="sleep_details">睡眠详情</string>
-    <string name="sleep_assistant">睡眠心率助手</string>
-    <string name="sleep_assistant_summary">有助于获得更精确的睡眠数据(降低电池使用时间)</string>
-    <string name="sleep_assistant_show_pulse">在日常心率图显示测量的数值</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> 睡眠时间
@@ -731,6 +746,13 @@
     <string name="pulse_value_invalid">无效值</string>
 
     <string name="pulse_offline_timed_title">定制监测</string>
+    <string name="pulse_offline_sleep_assistant">睡眠心率助手</string>
+    <string name="pulse_offline_sleep_assistant_summary">有助于获得更精确的睡眠数据(降低电池使用时间)</string>
+    <string name="pulse_offline_detect_sport">活动检测</string>
+    <string name="pulse_offline_detect_sport_summary">%1$s 检测到活动状态时, 会自动提高检测频率, 以确保活动时心率数据的准确性</string>
+    <string name="pulse_offline_alert_high">心率预警</string>
+    <string name="pulse_offline_alert_high_summary">达到预警值, 且最近10分钟内没有明显活动, %1$s 将振动提醒</string>
+    <string name="pulse_offline_alert_high_value_title">预警值</string>
 
     <string name="pulse_chart_expandable_title">通知可展开</string>
     <string name="pulse_interval_title">心率监测的重复间隔</string>

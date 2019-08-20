@@ -66,24 +66,40 @@
     <!-- Mi Band setting -->
     <string name="mi_band_setting_title">%1$s settings</string>
 
-    <string name="mi_band_setting_menu_profile">Profile</string>
-    <string name="mi_band_setting_menu_setting">Setting</string>
-    <string name="mi_band_setting_menu_text">Text/Call</string>
-    <string name="mi_band_setting_menu_menu">Menu</string>
+    <string name="mi_band_setting_menu_profile">프로필</string>
+    <string name="mi_band_setting_menu_setting">설정</string>
+    <string name="mi_band_setting_menu_text">본문/수신 전화 알림</string>
+    <string name="mi_band_setting_menu_menu">메뉴</string>
 
     <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage requires the installation of the Mi Fit app on the same phone. At first you have to pair Band in Mi Fit app, then you can use Mi Bandage. If you want to use Mi Fit, choose this.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage requires the installation of the Mi Fit app on the same phone. At first you have to pair %1$s in Mi Fit app, then you can use Mi Bandage. If you want to use Mi Fit application, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit app or un-pair your device.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit app or unpair your device. When restoring the Mi Fit cooperation, you will need to re-pair your %1$s in the Mi Fit application.</string>
+    <string name="mi_band_setting_auth_key_title">Set authentication key</string>
+    <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
+    <string name="mi_band_setting_auth_key_process"><![CDATA[
+        <ul>
+            <li>Unpair %1$s in the official Mi Fit app</li>
+            <li>Uninstall the official Mi Fit app</li>
+            <li>Download and install the modified Mi Fit app</li>
+            <li>Pair the %1$s in the modified Mi Fit app (do not unpair)</li>
+            <li>Uninstall the modified Mi Fit app</li>
+        </ul>
+        Authentication key can be found at: internal storage/freemyband/mac address.txt
+    ]]></string>
+    <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth">연결</string>
 
     <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
 
-    <string name="mi_band_setting_nickname">Nickname</string>
-    <string name="mi_band_setting_gender">Gender</string>
-    <string name="mi_band_setting_birthday">Date of birth</string>
-    <string name="mi_band_setting_height">Height</string>
-    <string name="mi_band_setting_weight">Weight</string>
-    <string name="mi_band_setting_wear_location">Band location</string>
+    <string name="mi_band_setting_nickname">별명</string>
+    <string name="mi_band_setting_gender">성별</string>
+    <string name="mi_band_setting_birthday">생년월일</string>
+    <string name="mi_band_setting_height">키</string>
+    <string name="mi_band_setting_weight">체중</string>
+    <string name="mi_band_setting_wear_location">밴드 위치</string>
 
     <string name="mi_band_setting_distance_unit">Distance unit</string>
 
@@ -92,11 +108,12 @@
     <string name="mi_band_setting_date">Display date on screen</string>
     <string name="mi_band_setting_lock_screen">전화 수신 중 시계가 진동할 것입니다</string>
     <string name="mi_band_setting_lock_screen_summary">밴드 전원이 켜진 상태에서 화면을 위로 당겨 잠금 해제</string>
-    <string name="mi_band_setting_lift_wrist">Lift wrist to view info</string>
-    <string name="mi_band_setting_idle_alert">Idle alert</string>
+    <string name="mi_band_setting_lift_wrist">손목을 들어올리면 화면 밝히기</string>
+    <string name="mi_band_setting_lift_wrist_sensitivity">응답 속도</string>
+    <string name="mi_band_setting_idle_alert">오래 앉음 경고</string>
     <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
-    <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
-    <string name="mi_band_setting_night_mode">Night mode</string>
+    <string name="mi_band_setting_idle_alert_dnd">방해금지</string>
+    <string name="mi_band_setting_night_mode">야간 모드</string>
 
     <string name="mi_band_setting_discoverable">Discoverable</string>
 
@@ -328,7 +345,8 @@
     <br>- <b>샤오미 미밴드 3</b>
     <br>- <b>샤오미 미밴드 2</b>
     <br>- <b>샤오미 미밴드 HRX</b>
-    <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Bip</b>
+    <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
@@ -684,9 +702,6 @@
     <string name="action_chart_sleep_type_time">Time</string>
 
     <string name="sleep_details">Sleep details</string>
-    <string name="sleep_assistant">Heart rate sleep assistant</string>
-    <string name="sleep_assistant_summary">Helps to get more precise sleep data (reduces battery life)</string>
-    <string name="sleep_assistant_show_pulse">Show the measured pulse values on the daily pulse graph</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> sleeping time
@@ -715,7 +730,7 @@
     <string name="pulse_offline_title">Offline pulse measurement</string>
     <string name="pulse_continuous_title">Continuous pulse measurement</string>
 
-    <string name="action_chart_pulse_type_pulse">Pulse</string>
+    <string name="action_chart_pulse_type_pulse">심박수</string>
     <string name="action_chart_pulse_type_pulse_and_step">Pulse and activity</string>
 
     <string name="pulse_continuous_chart_title">차트</string>
@@ -734,6 +749,13 @@
     <string name="pulse_value_invalid">Invalid value</string>
 
     <string name="pulse_offline_timed_title">Timed measurement</string>
+    <string name="pulse_offline_sleep_assistant">수면 심박수 도우미</string>
+    <string name="pulse_offline_sleep_assistant_summary">더 정확한 데이터를 얻을 수 있도록 도움을 줍니다. (배터리 수명 감소)</string>
+    <string name="pulse_offline_detect_sport">활동 감지</string>
+    <string name="pulse_offline_detect_sport_summary">%1$s 운동 수행을 감지하면 운동 중의 정확한 심박수 감지를 위해 자동으로 감지 빈도를 늘릴 것입니다.</string>
+    <string name="pulse_offline_alert_high">심박수 경고</string>
+    <string name="pulse_offline_alert_high_summary">경고 값에 도달하거나 10분 간 활동이 없을 경우, %1$s 진동할 것입니다</string>
+    <string name="pulse_offline_alert_high_value_title">경고값</string>
 
     <string name="pulse_chart_expandable_title">Notification is expandable</string>
     <string name="pulse_interval_title">Repeat interval of pulse monitoring</string>
@@ -885,9 +907,9 @@
     </string>
 
     <!-- Weather  -->
-    <string name="weather_tab_weather_forecast">Weather</string>
-    <string name="weather_tab_location">Location</string>
-    <string name="weather_tab_settings">Setting</string>
+    <string name="weather_tab_weather_forecast">날씨</string>
+    <string name="weather_tab_location">위치</string>
+    <string name="weather_tab_settings">설정</string>
 
     <string name="weather_location_title">Location</string>
     <string name="weather_automatic_update">Automatic update</string>
@@ -911,7 +933,7 @@
     <!-- Watch face -->
     <string name="watch_face_tab_download">다운로드</string>
     <string name="watch_face_tab_upload">업로드</string>
-    <string name="watch_face_tab_upload_mi_fit">Upload via Mi Fittel</string>
+    <string name="watch_face_tab_upload_mi_fit">Upload via Mi Fit</string>
 
     <string name="watch_face_download_title">Download watch face</string>
     <string name="watch_face_download_path">Save the downloaded watch face file to here</string>
@@ -1031,13 +1053,13 @@
     <string name="backup_process_cloud">Cloud %1$,d%%</string>
 
     <string name="backup_restore_activity">Activity and sleep</string>
-    <string name="backup_restore_pulse">Pulse</string>
+    <string name="backup_restore_pulse">심박수</string>
     <string name="backup_restore_notification">Notification</string>
-    <string name="backup_restore_touch">Touch</string>
-    <string name="backup_restore_time">Time</string>
+    <string name="backup_restore_touch">터치</string>
+    <string name="backup_restore_time">시간</string>
     <string name="backup_restore_reminder">Event reminder</string>
-    <string name="backup_restore_weather">Weather</string>
-    <string name="backup_restore_alarm">Lost</string>
+    <string name="backup_restore_weather">날씨</string>
+    <string name="backup_restore_alarm">분실</string>
     <string name="backup_restore_disconnected_agent">Agent</string>
     <string name="backup_restore_settings">설정</string>
 

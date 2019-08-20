@@ -30,6 +30,16 @@
         <item>IMPERIAL</item>
     </string-array>
 
+    <string-array name="pref_lift_wrist_sensitivity">
+        <item>Normal</item>
+        <item>Sensitive</item>
+    </string-array>
+
+    <string-array name="pref_lift_wrist_sensitivity_values">
+        <item>NORMAL</item>
+        <item>SENSITIVE</item>
+    </string-array>
+
     <string-array name="pref_night_mode">
         <item>Schedule turn on time</item>
         <!--<item>Turn on after sunset</item>-->
@@ -587,13 +597,16 @@
         <item>Default (by phone)</item>
         <item>English</item>
         <item>Español</item>
+        <item>Português</item>
         <item>Русский</item>
         <item>Italiano</item>
         <item>Deutsche</item>
         <item>Français</item>
         <item>Türkçe</item>
+        <item>한국어</item>
         <item>繁體中文</item>
         <item>简体中文</item>
+        <item>日本語</item>
     </string-array>
 
     <string-array name="pref_language_amazfit_bip_watch_values">
@@ -601,13 +614,16 @@
         <item>DEFAULT</item>
         <item>en_US</item>
         <item>es_ES</item>
+        <item>pt_PT</item>
         <item>ru_RU</item>
         <item>it_IT</item>
         <item>de_DE</item>
         <item>fr_FR</item>
         <item>tr_TR</item>
+        <item>ko_KO</item>
         <item>zh_TW</item>
         <item>zh_CN</item>
+        <item>ja_JP</item>
     </string-array>
 
     <string-array name="pref_language_amazfit_cor">

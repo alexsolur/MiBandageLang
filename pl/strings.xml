@@ -72,11 +72,27 @@
     <string name="mi_band_setting_menu_menu">Menu</string>
 
     <string name="mi_band_setting_auth_mi_fit">Współpraca z Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage wymaga instalacji oficjalnej aplikacji Mi Fit na tym samym telefonie. Najpierw musisz sparować Opaskę w aplikacji Mi Fit, potem możesz użyć Mi Bandage. Wybierz, jeśli chcesz używać Mi Fit.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage wymaga instalacji oficjalnej aplikacji Mi Fit na tym samym telefonie. Najpierw musisz sparować %1$s w aplikacji Mi Fit, potem możesz użyć Mi Bandage. Wybierz, jeśli chcesz używać Mi Fit.</string>
     <string name="mi_band_setting_auth_standalone">Samodzielny</string>
-    <string name="mi_band_setting_auth_standalone_hint">Aplikacja Mi Fit nie jest wymagana do pracy Mi Bandage</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit app or unpair your device. When restoring the Mi Fit cooperation, you will need to re-pair your %1$s in the Mi Fit application.</string>
+    <string name="mi_band_setting_auth_key_title">Set authentication key</string>
+    <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
+    <string name="mi_band_setting_auth_key_process"><![CDATA[
+        <ul>
+            <li>Unpair %1$s in the official Mi Fit app</li>
+            <li>Uninstall the official Mi Fit app</li>
+            <li>Download and install the modified Mi Fit app</li>
+            <li>Pair the %1$s in the modified Mi Fit app (do not unpair)</li>
+            <li>Uninstall the modified Mi Fit app</li>
+        </ul>
+        Authentication key can be found at: internal storage/freemyband/mac address.txt
+    ]]></string>
+    <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth">Sparuj</string>
 
     <string name="message_mi_band_setting_auth_press_band_button">Wciśnij przycisk %1$s aby sparować</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
 
     <string name="mi_band_setting_nickname">Pseudonim</string>
     <string name="mi_band_setting_gender">Płeć</string>
@@ -93,6 +109,7 @@
     <string name="mi_band_setting_lock_screen">Zegarek będzie wibrować podczas połączeń przychodzących</string>
     <string name="mi_band_setting_lock_screen_summary">Przesuń w górę aby odblokować ekran, gdy opaska jest włączona</string>
     <string name="mi_band_setting_lift_wrist">Podnieś nadgarstek, aby wyświetlić informacje</string>
+    <string name="mi_band_setting_lift_wrist_sensitivity">Szybkość reakcji</string>
     <string name="mi_band_setting_idle_alert">Alerty bezczynności</string>
     <string name="mi_band_setting_idle_alert_time">Czas bezczynności</string>
     <string name="mi_band_setting_idle_alert_dnd">Nie przeszkadzaj, gdy odpoczywasz</string>
@@ -328,7 +345,8 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit Bip (Pace Lite Youth)</b>
+    <br>- <b>Huami Amazfit Bip</b>
+    <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
@@ -683,9 +701,6 @@
     <string name="action_chart_sleep_type_time">Czas</string>
 
     <string name="sleep_details">Szczegóły snu</string>
-    <string name="sleep_assistant">Asystent snu z funkcją pomiaru tętna</string>
-    <string name="sleep_assistant_summary">Pomaga uzyskać dokładniejsze dane o śnie (skraca żywotność baterii)</string>
-    <string name="sleep_assistant_show_pulse">Pokaż zmierzone wartości tętna na dziennym wykresie pulsu</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> czas snu
@@ -733,6 +748,13 @@
     <string name="pulse_value_invalid">Nieprawidłowa wartość</string>
 
     <string name="pulse_offline_timed_title">Pomiar czasowy</string>
+    <string name="pulse_offline_sleep_assistant">Asystent snu z funkcją pomiaru tętna</string>
+    <string name="pulse_offline_sleep_assistant_summary">Pomaga uzyskać dokładniejsze dane o śnie (skraca żywotność baterii)</string>
+    <string name="pulse_offline_detect_sport">Wykrywanie aktywności</string>
+    <string name="pulse_offline_detect_sport_summary">Gdy %1$s wykryje, że wykonujesz ćwiczenia, automatycznie zwiększy częstotliwość wykrywania, aby zagwarantować dokładność danych tętna podczas treningu</string>
+    <string name="pulse_offline_alert_high">Alert tętna</string>
+    <string name="pulse_offline_alert_high_summary">Po osiągnięciu wartości powiadomienia i braku widocznej aktywności w ciągu ostatnich 10 minut, %1$s będzie wibrować</string>
+    <string name="pulse_offline_alert_high_value_title">Wartość alertu</string>
 
     <string name="pulse_chart_expandable_title">Powiadomienie można rozszerzyć</string>
     <string name="pulse_interval_title">Powtórz interwał monitorowania tętna</string>
