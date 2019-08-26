@@ -505,10 +505,17 @@
     <string name="action_filter_notification">Filter pemberitahuan</string>
 
     <!-- Touch monitoring -->
+    <string name="touch_tab_function">Function</string>
     <string name="touch_tab_control">Kontrol</string>
     <string name="touch_tab_testing">Coba</string>
     <string name="touch_tab_settings">Atur</string>
 
+    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
+    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Use function as touch</string>
+
+    <string name="touch_headline_incoming_call_title">Incoming call</string>
+    <string name="touch_headline_other_function_title">Other functions</string>
     <string name="touch_headline_call_title">Kontrol panggilan</string>
     <string name="touch_headline_music_title">Kontrol musik</string>
     <string name="touch_headline_time_title">Kontrol Timer/stopwatch</string>
@@ -536,6 +543,7 @@
     <string name="touch_weather_precipitation">Pengendapan</string>
     <string name="touch_weather_cloud_cover">Penutupan awan</string>
 
+    <string name="touch_call_mute_toggle_title">Tombol bisukan panggilan</string>
     <string name="touch_device_location_title">Temukan perangkat saya</string>
     <string name="touch_device_location_not_muted_only_title">Suara saja ketika tidak dibisukan</string>
 
@@ -595,7 +603,6 @@
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>Sentuhan ini berlaku saat tampilan Band berubah (jadi sebaiknya putar pergelangan tangan sebelum menyentuh).</mi_band_2>
         <p>Fitur ini memantau waktu antar sentuhan, bukan waktu sentuhan pertama.</p>
-        <p>Ikon hijau pada kartu mengindikasikan dimana fungsi lain bisa sama dengan pola saat ini.</p>
         <p>Ketika anda menerima panggilan masuk perangkat tidak mengenali fungsi berikut untuk memudahkan masukan sentuh: lokasi perangkat, pengulangan pemberitahuan, kontrol musik.</p>
         <p>Pola tersimpan tidak berjalan pada mode uji coba.</p>
         <p>Hanya getaran umpan balik Band, jika ada pola yang memperhitungkan status perangkat saat ini (jawab panggilan, menolak hanya jika ada panggilan masuk …).</p>
@@ -636,7 +643,7 @@
         <amazfit_band_2><p>The button below the <mi_band_type> screen.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Wrist lift
         <p>Wrist lift is valid when the <mi_band_type> screen turns on.</p>
-        <img src="ic_call"> <b><u>Call control</b></u>
+        <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>It always works, even if the touch monitor is switched off.</p>
         <br><p>In test mode does not execute the function of recognised pattern.</p>
         <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
@@ -647,7 +654,9 @@
     <string name="info_dialog_touch_mi_band_4"><![CDATA[
         <img src="ic_play_circle_outline"> <b><u>Music screen mod</u></b>
         <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
-        <img src="ic_call"> <b><u>Call control</b></u>
+        <img src="ic_touch_find"> <b><u>Find phone</u></b>
+        <p>On the bracelet, in the Find device function (More/Find device) start the finding.</p>
+        <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>It always works, even if the touch monitor is switched off.</p>
         <br><p>In test mode does not execute the function of recognised pattern.</p>
         <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
@@ -776,6 +785,9 @@
 
     <!-- Lost monitoring -->
     <string name="alarm_mi_band_title">Sinyal %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="alarm_mi_band_service">Lost background service</string>
+    <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
+    <string name="alarm_mi_band_clock">Use the phone\s alarm clock, if background service is down (increases battery consumption)</string>
     <string name="alarm_mi_band_dnd">Mode jangan ganggu</string>
     <string name="alarm_mi_band_interval_title">Pengaturan interval alarm berulang</string>
     <string name="alarm_mi_band_time_set_next">Pilih waktu untuk pengaturan selanjutnya</string>
@@ -1024,7 +1036,7 @@
     <string name="theme_widget_touch_event_title">Peristiwa sentuhan</string>
 
     <string name="theme_notification_title">Tampilkan status dipanel pemberitahuan</string>
-    <string name="theme_notification_summary">Sistem Android menghentikan paksa layanan ketika memori rendah saja. Jika setelah beberapa saat tidak muncul notifikasi pada Band, Anda bisa mencegahnya.</string>
+    <string name="theme_notification_summary">Sistem Android menghentikan paksa layanan ketika memori rendah saja. Jika setelah beberapa saat tidak muncul notifikasi pada %1$s, Anda bisa mencegahnya.</string>
     <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon. If the notification is hidden, switch off this setting for optimal performance.</string>
     <string name="theme_notification_color_title">Warna ikon</string>
     <string name="theme_notification_text_color_title">Warna Teks</string>

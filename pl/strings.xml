@@ -288,7 +288,7 @@
     <string name="message_discovering_mi_band">Wyszukiwanie Opaski (może to zająć minutę) &#8230;</string>
     <string name="message_discovered_mi_band">%1$s połączony pomyślnie</string>
     <string name="message_discovered_no_mi_band">Połączenie Opaski nie powiodło się</string>
-    <string name="message_discovered_not_found_mi_band">Jeśli Opaska nie została znaleziona, włącz: Mi Fit/Profil/Mi Band 2/Widoczność, lub sparuj w ustawieniach Bluetooth telefonu</string>
+    <string name="message_discovered_not_found_mi_band">Jeśli Opaska nie została znaleziona, włącz: Mi Fit/Profil/Widoczność, lub sparuj w ustawieniach Bluetooth telefonu</string>
     <string name="message_enable_notification_listener_access">Włącz dostęp do powiadomień: Ustawienia/Powiadomienia/Dostęp do powiadomień</string>
     <string name="message_enable_notification_listener_access_4_4">Włącz dostęp do powiadomień: Ustawienia/Bezpieczeństwo/Dostęp do powiadomień</string>
     <string name="message_enable_notification_policy_access">Włącz dostęp do trybu Nie przeszkadzać</string>
@@ -505,10 +505,17 @@
     <string name="action_filter_notification">Filtr powiadomień</string>
 
     <!-- Touch monitoring -->
+    <string name="touch_tab_function">Function</string>
     <string name="touch_tab_control">Kontrola</string>
     <string name="touch_tab_testing">Testowanie</string>
     <string name="touch_tab_settings">Ustawienia</string>
 
+    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
+    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Use function as touch</string>
+
+    <string name="touch_headline_incoming_call_title">Incoming call</string>
+    <string name="touch_headline_other_function_title">Other functions</string>
     <string name="touch_headline_call_title">Kontrola połączeń</string>
     <string name="touch_headline_music_title">Kontrola muzyki</string>
     <string name="touch_headline_time_title">Kontrola timera/stopera</string>
@@ -535,6 +542,7 @@
     <string name="touch_weather_precipitation">Opad atmosferyczny</string>
     <string name="touch_weather_cloud_cover">Zachmurzenie</string>
 
+    <string name="touch_call_mute_toggle_title">Wyciszenie połączenia</string>
     <string name="touch_device_location_title">Znajdź mój telefon</string>
     <string name="touch_device_location_not_muted_only_title">Dźwięk tylko wtedy, gdy nie jest wyciszony lub w trybie Nie przeszkadzać</string>
 
@@ -594,7 +602,6 @@
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>Dotknięcie jest ważne, gdy zmienia się wyświetlanie na Opasce (dlatego wskazane jest obrócenie nadgarstka przed dotknięciem).</mi_band_2>
         <p>Monitoruje upływ czasu pomiędzy dotknięciami, a nie czas, jaki upłynął od pierwszego dotknięcia.</p>
-        <p>Zielone ikony na kartach wskazują, która inna funkcja może być podobna do bieżącego wzoru.</p>
         <p>Po otrzymaniu połączenia telefon nie rozpoznaje następujących funkcji, aby ułatwić wprowadzanie dotykowe: lokalizacja telefonu, powtarzanie powiadomień, sterowanie muzyką.</p>
         <p>W trybie testowym nie wykonuje funkcji rozpoznanego wzorca.</p>
         <p>Dotyczy tylko wibracji Opaski, jeśli istnieje wzorzec uwzględniający aktualny stan telefonu (odpowiedź na telefon, odrzucenie tylko w przypadku połączenia przychodzącego…).</p>
@@ -635,7 +642,7 @@
         <amazfit_band_2><p>Przycisk pod ekranem <mi_band_type>.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Podnoszenie nadgarstka
         <p>Podnoszenie nadgarstka jest ważne, gdy ekran <mi_band_type> się włączy.</p>
-        <img src="ic_call"> <b><u>Kontrola połączenia</b></u>
+        <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>Zawsze działa, nawet jeśli monitor dotykowy jest wyłączony.</p>
         <br><p>W trybie testowym nie wykonuje funkcji rozpoznanego wzoru.</p>
         <p>Informacje zwrotne na temat wibracji Opaski tylko wtedy, gdy istnieje wzorzec uwzględniający aktualny stan telefonu (odbieranie połączeń, odrzucanie tylko w przypadku połączenia przychodzącego…).</p>
@@ -646,7 +653,9 @@
     <string name="info_dialog_touch_mi_band_4"><![CDATA[
         <img src="ic_play_circle_outline"> <b><u>Music screen mod</u></b>
         <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
-        <img src="ic_call"> <b><u>Kontrola połączenia</b></u>
+        <img src="ic_touch_find"> <b><u>Find phone</u></b>
+        <p>On the bracelet, in the Find device function (More/Find device) start the finding.</p>
+        <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>Zawsze działa, nawet jeśli monitor dotykowy jest wyłączony.</p>
         <br><p>W trybie testowym nie wykonuje funkcji rozpoznanego wzoru.</p>
         <p>Informacje zwrotne na temat wibracji Opaski tylko wtedy, gdy istnieje wzorzec uwzględniający aktualny stan telefonu (odbieranie połączeń, odrzucanie tylko w przypadku połączenia przychodzącego…).</p>
@@ -776,6 +785,9 @@
 
     <!-- Lost monitoring -->
     <string name="alarm_mi_band_title">Sygnał na %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="alarm_mi_band_service">Lost background service</string>
+    <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
+    <string name="alarm_mi_band_clock">Use the phone\s alarm clock, if background service is down (increases battery consumption)</string>
     <string name="alarm_mi_band_dnd">Tryb Nie przeszkadzać</string>
     <string name="alarm_mi_band_interval_title">Powtórz interwał ustawienia alarmu</string>
     <string name="alarm_mi_band_time_set_next">Czas następnego ustawienia</string>
@@ -1024,7 +1036,7 @@
     <string name="theme_widget_touch_event_title">Zdarzenie dotykowe</string>
 
     <string name="theme_notification_title">Pokaż status w obszarze powiadomień</string>
-    <string name="theme_notification_summary">System Android wymusza zatrzymanie usługi tylko wtedy, gdy pamięć jest niska. Jeśli po pewnym czasie nie pojawi się powiadomienie w Opasce, możesz temu zapobiec.</string>
+    <string name="theme_notification_summary">System Android wymusza zatrzymanie usługi tylko wtedy, gdy pamięć jest niska. Jeśli po pewnym czasie nie pojawi się powiadomienie w %1$s, możesz temu zapobiec.</string>
     <string name="theme_notification_summary_foreground_service">Android 8 i wyższe są wymagane, aby wyświetlić ikonę na pasku powiadomień. Przesuń palcem w lewo lub w prawo na pasku powiadomień, aby ukryć ikonę. Jeśli powiadomienie jest ukryte, wyłącz to ustawienie, aby uzyskać optymalną wydajność.</string>
     <string name="theme_notification_color_title">Kolor ikon</string>
     <string name="theme_notification_text_color_title">Kolor tekstu</string>

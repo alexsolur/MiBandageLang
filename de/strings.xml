@@ -504,21 +504,28 @@
     <string name="action_filter_notification">Notification filter</string>
 
     <!-- Touch monitoring -->
+    <string name="touch_tab_function">Function</string>
     <string name="touch_tab_control">Steuerung</string>
     <string name="touch_tab_testing">Testen</string>
     <string name="touch_tab_settings">Einstellung</string>
 
+    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
+    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Use function as touch</string>
+
+    <string name="touch_headline_incoming_call_title">Incoming call</string>
+    <string name="touch_headline_other_function_title">Other functions</string>
     <string name="touch_headline_call_title">Anrufsteuerung</string>
     <string name="touch_headline_music_title">Musiksteuerung</string>
     <string name="touch_headline_time_title">Timer-/Stoppuhrsteuerung</string>
     <string name="touch_headline_other_title">Sonstige Steuerungen</string>
 
-    <string name="touch_device_location_title">Finde mein Gerät</string>
-
     <string name="touch_call_answer_title">Anrufbeantwortung</string>
     <string name="touch_call_answer_speakerphone_title">Handylautsprecher</string>
 
-    <string name="touch_call_mute_title">Stummschaltung des Anrufs ändern</string>
+    <string name="touch_call_end_title">Anruf ablehnen, beenden</string>
+
+    <string name="touch_call_mute_title">Stumm schalten</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Only if you have an incoming call</string>
     <string name="touch_call_mute_recognition_title">On incoming call</string>
     <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
@@ -535,7 +542,8 @@
     <string name="touch_weather_precipitation">Niederschlag</string>
     <string name="touch_weather_cloud_cover">Wolkendecke</string>
 
-    <string name="touch_call_end_title">Anruf ablehnen, beenden</string>
+    <string name="touch_call_mute_toggle_title">Stummschaltung des Anrufs ändern</string>
+    <string name="touch_device_location_title">Finde mein Gerät</string>
     <string name="touch_device_location_not_muted_only_title">Nur Sound, wenn nicht stummgeschalten</string>
 
     <string name="touch_repeat_notif_title">Wiederhole Benachrichtigungen</string>
@@ -594,7 +602,6 @@
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>Die Berührung wird erkannt, wenn sich der Bildschirminhalt der Mi Bands 2 sich verändert. (Sie sollten also vor der Berührung ihr Handgelenk anheben).</mi_band_2>
         <p>Es zeigt die vergangene Zeit zwischen den Berührungen an, nicht die der ersten Berührung.</p>
-        <p>Grüne Embleme auf den Karten zeigen an, welche Funktionen ähnlich zu dem aktuellen Muster sein könnten.</p>
         <p>Falls Sie angerufen werden, wird das Gerät zur Erleichterung der Touch-Eingabe die folgenden Funktionene ignorieren: Standort des Geräts, Benachrichtigungen wiederholen und Musiksteuerung.</p>
         <p>Im Test-Modus wird die ausgelöste Funktion nicht ausgeführt.</p>
         <p>Band Vibration Feedback erfolgt nur, wenn es ein Muster gibt, welches den aktuellen Status des Geräts berücksichtigt. (Anrufbeantwortung, Ablehnen nur bei eingehendem Anruf etc.).</p>
@@ -635,7 +642,7 @@
         <amazfit_band_2><p>The button below the <mi_band_type> screen.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Wrist lift
         <p>Wrist lift is valid when the <mi_band_type> screen turns on.</p>
-        <img src="ic_call"> <b><u>Call control</b></u>
+        <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>It always works, even if the touch monitor is switched off.</p>
         <br><p>In test mode does not execute the function of recognised pattern.</p>
         <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
@@ -646,7 +653,9 @@
     <string name="info_dialog_touch_mi_band_4"><![CDATA[
         <img src="ic_play_circle_outline"> <b><u>Music screen mod</u></b>
         <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
-        <img src="ic_call"> <b><u>Call control</b></u>
+        <img src="ic_touch_find"> <b><u>Find phone</u></b>
+        <p>On the bracelet, in the Find device function (More/Find device) start the finding.</p>
+        <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>It always works, even if the touch monitor is switched off.</p>
         <br><p>In test mode does not execute the function of recognised pattern.</p>
         <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
@@ -776,6 +785,9 @@
 
     <!-- Lost monitoring -->
     <string name="alarm_mi_band_title">%1$s Signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="alarm_mi_band_service">Lost background service</string>
+    <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
+    <string name="alarm_mi_band_clock">Use the phone\s alarm clock, if background service is down (increases battery consumption)</string>
     <string name="alarm_mi_band_dnd">Nicht Stören-Modus</string>
     <string name="alarm_mi_band_interval_title">Wiederholungsintervall des Alarms</string>
     <string name="alarm_mi_band_time_set_next">Zeitpunkt der nächsten Einstellung</string>
@@ -1024,7 +1036,7 @@
     <string name="theme_widget_touch_event_title">Touch event</string>
 
     <string name="theme_notification_title">Zeige Status in Benachrichtigungsleiste an</string>
-    <string name="theme_notification_summary">Android erzwingt eine Beendung eines Dienstes nur bei unzureichendem Arbeitsspeicher. Falls nach gewisser Zeit keine Benachrichtigungen auf dem Band erscheinen, kann man dies verhindern.</string>
+    <string name="theme_notification_summary">Android erzwingt eine Beendung eines Dienstes nur bei unzureichendem Arbeitsspeicher. Falls nach gewisser Zeit keine Benachrichtigungen auf dem %1$s erscheinen, kann man dies verhindern.</string>
     <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon. If the notification is hidden, switch off this setting for optimal performance.</string>
     <string name="theme_notification_color_title">Farbe des Emblems</string>
     <string name="theme_notification_text_color_title">Textfarbe</string>

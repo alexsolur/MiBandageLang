@@ -505,10 +505,17 @@
     <string name="action_filter_notification">Filtr oznámení</string>
 
     <!-- Touch monitoring -->
+    <string name="touch_tab_function">Function</string>
     <string name="touch_tab_control">Ovládání</string>
     <string name="touch_tab_testing">Testování</string>
     <string name="touch_tab_settings">Nastavení</string>
 
+    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
+    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Use function as touch</string>
+
+    <string name="touch_headline_incoming_call_title">Incoming call</string>
+    <string name="touch_headline_other_function_title">Other functions</string>
     <string name="touch_headline_call_title">Ovládání hovorů</string>
     <string name="touch_headline_music_title">Ovládání hudby</string>
     <string name="touch_headline_time_title">Ovládání časovače/stopek</string>
@@ -519,7 +526,7 @@
 
     <string name="touch_call_end_title">Odmítnutí hovoru, ukončení</string>
 
-    <string name="touch_call_mute_title">Přepínač ztlumení hovoru</string>
+    <string name="touch_call_mute_title">Zavoleju</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Pouze pokud máte příchozí hovor</string>
     <string name="touch_call_mute_recognition_title">Při příchozím hovoru</string>
     <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
@@ -536,6 +543,7 @@
     <string name="touch_weather_precipitation">Srážky</string>
     <string name="touch_weather_cloud_cover">Oblačnost</string>
 
+    <string name="touch_call_mute_toggle_title">Přepínač ztlumení hovoru</string>
     <string name="touch_device_location_title">Najit zařízení</string>
     <string name="touch_device_location_not_muted_only_title">Zvuk pouze v případě, pokud není ztlumený nebo v režimu DnD</string>
 
@@ -595,7 +603,6 @@
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>Dotyk je platný, když se změní displej náramku (doporučujeme proto otočit zápěstí před dotykem).</mi_band_2>
         <p>Monitoruje uplynulý čas mezi dotyky, nikoliv uplynulý čas za první dotyk.</p>
-        <p>Zelené ikony na kartách označují, která další funkce může být podobná aktuálnímu vzoru.</p>
         <p>Pokud máte příchozí hovor, zařízení nerozpoznává následující funkce, které usnadňují dotykový vstup: umístění zařízení, opakování upozornění, ovládání hudby.</p>
         <p>V testovacím režimu neobsahuje funkci rozpoznaného vzoru.</p>
         <p>Náramek podá zpětné vibrační hlášení pouze v případě, že existuje vzorec s přihlédnutím k aktuálnímu stavu zařízení (odpověď na volání, odmítnutí pouze v případě příchozího hovoru …).</p>
@@ -636,7 +643,7 @@
         <amazfit_band_2><p>The button below the <mi_band_type> screen.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Wrist lift
         <p>Wrist lift is valid when the <mi_band_type> screen turns on.</p>
-        <img src="ic_call"> <b><u>Call control</b></u>
+        <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>It always works, even if the touch monitor is switched off.</p>
         <br><p>In test mode does not execute the function of recognised pattern.</p>
         <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
@@ -647,7 +654,9 @@
     <string name="info_dialog_touch_mi_band_4"><![CDATA[
         <img src="ic_play_circle_outline"> <b><u>Music screen mod</u></b>
         <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
-        <img src="ic_call"> <b><u>Call control</b></u>
+        <img src="ic_touch_find"> <b><u>Find phone</u></b>
+        <p>On the bracelet, in the Find device function (More/Find device) start the finding.</p>
+        <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>It always works, even if the touch monitor is switched off.</p>
         <br><p>In test mode does not execute the function of recognised pattern.</p>
         <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
@@ -777,6 +786,9 @@
 
     <!-- Lost monitoring -->
     <string name="alarm_mi_band_title">Oznámení na %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="alarm_mi_band_service">Lost background service</string>
+    <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
+    <string name="alarm_mi_band_clock">Use the phone\s alarm clock, if background service is down (increases battery consumption)</string>
     <string name="alarm_mi_band_dnd">Režim nerušit</string>
     <string name="alarm_mi_band_interval_title">Opakovat interval nastavení budíku</string>
     <string name="alarm_mi_band_time_set_next">Načasování dalšího nastavení</string>
@@ -1026,7 +1038,7 @@
     <string name="theme_widget_touch_event_title">Akce při doteku</string>
 
     <string name="theme_notification_title">Zobrazit stav v notifikační liště</string>
-    <string name="theme_notification_summary">Systém android zastavuje službu pouze v případě nízké paměti. Pokud se po uplynutí určité doby nezobrazí oznámení na náramku, můžete tomu předejít.</string>
+    <string name="theme_notification_summary">Systém android zastavuje službu pouze v případě nízké paměti. Pokud se po uplynutí určité doby nezobrazí oznámení na %1$s, můžete tomu předejít.</string>
     <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon.  If the notification is hidden, switch off this setting for optimal performance.</string>
     <string name="theme_notification_color_title">Barva ikony</string>
     <string name="theme_notification_text_color_title">Barva textu</string>

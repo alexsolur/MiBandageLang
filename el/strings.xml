@@ -500,6 +500,7 @@
         <!--<p>Προκαθορισμένα σήματα μπορούν να απενεργοποιηθούν: <i> Ρυθμίσεις σύνδεσης και ειδοποιήσεων / Να έχω ειδοποιήσεις</i>.</p>-->
 
     <!-- MiBandageApp chooser dialog -->
+    <string name="touch_tab_function">Function</string>
     <string name="touch_tab_control">Έλεγχος</string>
     <string name="touch_tab_testing">Δοκιμή</string>
     <string name="touch_tab_settings">Ρυθμίσεις</string>
@@ -513,6 +514,12 @@
     <string name="touch_headline_time_title">Έλεγχος αντιστροφής μέτρησης/χρονόμετρου</string>
     <string name="touch_headline_other_title">Άλλοι έλεγχοι</string>
 
+    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
+    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Use function as touch</string>
+
+    <string name="touch_headline_incoming_call_title">Incoming call</string>
+    <string name="touch_headline_other_function_title">Other functions</string>
     <string name="touch_call_answer_title">Απάντηση κλήσης</string>
     <string name="touch_call_answer_speakerphone_title">Μεγάφωνο</string>
 
@@ -535,6 +542,7 @@
     <string name="touch_weather_precipitation">Κατακρήμνιση</string>
     <string name="touch_weather_cloud_cover">Νεφοκάλυψη</string>
 
+    <string name="touch_call_mute_toggle_title">Εναλλαγή σίγασης κλήσης</string>
     <string name="touch_device_location_title">Εύρεση της συσκευής μου</string>
     <string name="touch_device_location_not_muted_only_title">Ήχος εφόσον δεν είναι σε σίγαση</string>
 
@@ -594,7 +602,6 @@
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>Η αφή είναι έγκυρη όταν η οθόνη της Band αλλάζει (γι \'αυτό είναι σκόπιμο να περιστρέψετε τον καρπό σας πριν αγγίξετε).</mi_band_2>
         <p>Παρακολουθεί χρόνο που παρήλθε μεταξύ των αγγιγμάτων, όχι το χρόνο που έχει παρέλθει από το πρώτο πάτημα.</p>
-        <p>Τα πράσινα εικονίδια στις κάρτες δείχνει ποια άλλη λειτουργία μπορεί να είναι παρόμοια με το τρέχον μοτίβο.</p>
         <p>Όταν έχετε μια εισερχόμενη κλήση η συσκευή δεν αναγνωρίζει τις ακόλουθες λειτουργίες, προκειμένου να διευκολυνθεί η είσοδος αφής: θέση της συσκευής, επανάληψη ειδοποιήσεων, τον έλεγχο της μουσικής.</p>
         <p>Στην δοκιμαστική λειτουργία δεν εκτελεί η λειτουργία των αναγνωρισμένων μοτίβων.</p>
         <p>Το Band ανατροφοδότηση δόνηση μόνο εάν υπάρχει ένα μοτίβο, λαμβάνοντας υπόψη την τρέχουσα κατάσταση της συσκευής (απάντηση κλήσης, απορρίπτοντας μόνο εφόσον υπάρχει μια εισερχόμενη κλήση …).</p>
@@ -635,7 +642,7 @@
         <amazfit_band_2><p>The button below the <mi_band_type> screen.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Wrist lift
         <p>Wrist lift is valid when the <mi_band_type> screen turns on.</p>
-        <img src="ic_call"> <b><u>Call control</b></u>
+        <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>It always works, even if the touch monitor is switched off.</p>
         <br><p>In test mode does not execute the function of recognised pattern.</p>
         <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
@@ -646,7 +653,9 @@
     <string name="info_dialog_touch_mi_band_4"><![CDATA[
         <img src="ic_play_circle_outline"> <b><u>Music screen mod</u></b>
         <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
-        <img src="ic_call"> <b><u>Call control</b></u>
+        <img src="ic_touch_find"> <b><u>Find phone</u></b>
+        <p>On the bracelet, in the Find device function (More/Find device) start the finding.</p>
+        <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>It always works, even if the touch monitor is switched off.</p>
         <br><p>In test mode does not execute the function of recognised pattern.</p>
         <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
@@ -776,6 +785,9 @@
 
     <!-- Lost  monitoring -->
     <string name="alarm_mi_band_title">Σήμα %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="alarm_mi_band_service">Lost background service</string>
+    <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
+    <string name="alarm_mi_band_clock">Use the phone\s alarm clock, if background service is down (increases battery consumption)</string>
     <string name="alarm_mi_band_dnd">Λειτουργία μην ενοχλείτε</string>
     <string name="alarm_mi_band_interval_title">Διάστημα επανάληψης ρύθμισης υπενθύμισης</string>
     <string name="alarm_mi_band_time_set_next">Το χρονοδιάγραμμα της επόμενης ρύθμισης</string>
@@ -1024,7 +1036,7 @@
     <string name="theme_widget_touch_event_title">Συμβάν αφής</string>
 
     <string name="theme_notification_title">Εμφάνιση κατάστασης στο πίνακα ειδοποιήσεων</string>
-    <string name="theme_notification_summary">Το σύστημα Android κάνει αναγκαστική διακοπή υπηρεσίας μόνο όταν η μνήμη είναι χαμηλή. Εάν μετά από λίγο δεν εμφανίζεται στις ειδοποιήσεις στο Band 2, μπορείτε να το αποτρέψετε.</string>
+    <string name="theme_notification_summary">Το σύστημα Android κάνει αναγκαστική διακοπή υπηρεσίας μόνο όταν η μνήμη είναι χαμηλή. Εάν μετά από λίγο δεν εμφανίζεται στις ειδοποιήσεις στο %1$s, μπορείτε να το αποτρέψετε.</string>
     <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon. If the notification is hidden, switch off this setting for optimal performance.</string>
     <string name="theme_notification_color_title">Χρώμα εικονιδίου</string>
     <string name="theme_notification_text_color_title">Χρώμα κειμένου</string>

@@ -505,10 +505,17 @@
     <string name="action_filter_notification">알림 필터</string>
 
     <!-- Touch monitoring -->
+    <string name="touch_tab_function">Function</string>
     <string name="touch_tab_control">제어</string>
     <string name="touch_tab_testing">작동 확인</string>
     <string name="touch_tab_settings">설정</string>
 
+    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
+    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Use function as touch</string>
+
+    <string name="touch_headline_incoming_call_title">Incoming call</string>
+    <string name="touch_headline_other_function_title">Other functions</string>
     <string name="touch_headline_call_title">전화 제어</string>
     <string name="touch_headline_music_title">음악 제어</string>
     <string name="touch_headline_time_title">타이머/스톱워치 제어</string>
@@ -519,7 +526,7 @@
 
     <string name="touch_call_end_title">전화 거절, 종료</string>
 
-    <string name="touch_call_mute_title">Call mute toggle</string>
+    <string name="touch_call_mute_title">Call mute</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Only if you have an incoming call</string>
     <string name="touch_call_mute_recognition_title">On incoming call</string>
     <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
@@ -536,6 +543,7 @@
     <string name="touch_weather_precipitation">침적</string>
     <string name="touch_weather_cloud_cover">구름 표지e</string>
 
+    <string name="touch_call_mute_toggle_title">Phone mute toggle</string>
     <string name="touch_device_location_title">내 폰 찾기</string>
     <string name="touch_device_location_not_muted_only_title">Sound only if it is not muted or in DnD mode</string>
 
@@ -595,7 +603,6 @@
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>The touch is valid when the display of Band changes (so it is advisable to rotate your wrist before touching).</mi_band_2>
         <p>It monitors elapsed time between touches, not the elapsed time to first touch.</p>
-        <p>Green icons on the cards indicates which another function can be similar to current pattern.</p>
         <p>When you have an incoming call the phone does not recognise the following functions in order to ease touch input: location of the phone, repeat notifications, music control.</p>
         <p>In test mode does not execute the function of recognised pattern.</p>
         <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
@@ -636,7 +643,7 @@
         <amazfit_band_2><p>The button below the <mi_band_type> screen.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Wrist lift
         <p>Wrist lift is valid when the <mi_band_type> screen turns on.</p>
-        <img src="ic_call"> <b><u>Call control</b></u>
+        <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>It always works, even if the touch monitor is switched off.</p>
         <br><p>In test mode does not execute the function of recognised pattern.</p>
         <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
@@ -647,7 +654,9 @@
     <string name="info_dialog_touch_mi_band_4"><![CDATA[
         <img src="ic_play_circle_outline"> <b><u>Music screen mod</u></b>
         <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
-        <img src="ic_call"> <b><u>Call control</b></u>
+        <img src="ic_touch_find"> <b><u>Find phone</u></b>
+        <p>On the bracelet, in the Find device function (More/Find device) start the finding.</p>
+        <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>It always works, even if the touch monitor is switched off.</p>
         <br><p>In test mode does not execute the function of recognised pattern.</p>
         <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
@@ -777,6 +786,9 @@
 
     <!-- Lost monitoring -->
     <string name="alarm_mi_band_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="alarm_mi_band_service">Lost background service</string>
+    <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
+    <string name="alarm_mi_band_clock">Use the phone\s alarm clock, if background service is down (increases battery consumption)</string>
     <string name="alarm_mi_band_dnd">Do not disturb mode</string>
     <string name="alarm_mi_band_interval_title">Repeat interval of alarm setting</string>
     <string name="alarm_mi_band_time_set_next">Timing of next setting</string>
@@ -1025,7 +1037,7 @@
     <string name="theme_widget_touch_event_title">Touch event</string>
 
     <string name="theme_notification_title">Show status in notification shade</string>
-    <string name="theme_notification_summary">The Android system force-stops a service only when memory is low. If after a while does not appear the notifications on the Band 2, you can prevent this.</string>
+    <string name="theme_notification_summary">The Android system force-stops a service only when memory is low. If after a while does not appear the notifications on the %1$s, you can prevent this.</string>
     <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon. If the notification is hidden, switch off this setting for optimal performance.</string>
     <string name="theme_notification_color_title">Icon color</string>
     <string name="theme_notification_text_color_title">Text color</string>

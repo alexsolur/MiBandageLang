@@ -505,10 +505,17 @@
     <string name="action_filter_notification">Notifikasjon filter</string>
 
     <!-- Trykk monitorering -->
+    <string name="touch_tab_function">Function</string>
     <string name="touch_tab_control">Kontroll</string>
     <string name="touch_tab_testing">Testing</string>
     <string name="touch_tab_settings">Instilling</string>
 
+    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
+    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Use function as touch</string>
+
+    <string name="touch_headline_incoming_call_title">Incoming call</string>
+    <string name="touch_headline_other_function_title">Other functions</string>
     <string name="touch_headline_call_title">Ringe kontroll</string>
     <string name="touch_headline_music_title">Musikk kontroll</string>
     <string name="touch_headline_time_title">Timer/stoppeklokke kontroll</string>
@@ -519,7 +526,7 @@
 
     <string name="touch_call_end_title">Avvis anrop, ending</string>
 
-    <string name="touch_call_mute_title">Call mute toggle</string>
+    <string name="touch_call_mute_title">Call mute</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Bare hvis du har et inkommende anrop</string>
     <string name="touch_call_mute_recognition_title">Ved innkommende anrop</string>
     <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
@@ -536,6 +543,7 @@
     <string name="touch_weather_precipitation">Nedbør</string>
     <string name="touch_weather_cloud_cover">Skydekke</string>
 
+    <string name="touch_call_mute_toggle_title">Call mute toggle</string>
     <string name="touch_device_location_title">Finn min telefon</string>
     <string name="touch_device_location_not_muted_only_title">Lag lyd bare hvis den ikke er på lydsøs eller i DnD mode</string>
 
@@ -595,7 +603,6 @@
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>Trykket er gyldig når  displayet på Bandet endres (så rådet er å rotere den før trykking).</mi_band_2>
         <p>Det monitorerer lengden tid mellom trykk, ikke lengden tid på første trykk.</p>
-        <p>Grønt ikon på kortene indikerer at en annen funksjon kan være lignende på gjeldende mønster.</p>
         <p>Når du får et innkommende anrop, kjenner ikke telefonen de følgende funksjonene for å enkelt gi trykk input: lokalisasjonen av telefonen, repetere notifikasjoner, musikk kontroll.</p>
         <p>I test-modus utløser ikke funksjonen av allerede lagrede gjennkjente mønster.</p>
         <p>Bandet gir vibrasjon feedback, men bare hvis det er et mønster som tar in bruken på den gjeldende status på telefonen (anrops-svaring, legger på bare hvis det er et inkommende anrop…).</p>
@@ -636,7 +643,7 @@
         <amazfit_band_2><p>The button below the <mi_band_type> screen.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Wrist lift
         <p>Wrist lift is valid when the <mi_band_type> screen turns on.</p>
-        <img src="ic_call"> <b><u>Call control</b></u>
+        <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>It always works, even if the touch monitor is switched off.</p>
         <br><p>In test mode does not execute the function of recognised pattern.</p>
         <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
@@ -647,7 +654,9 @@
     <string name="info_dialog_touch_mi_band_4"><![CDATA[
         <img src="ic_play_circle_outline"> <b><u>Music screen mod</u></b>
         <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
-        <img src="ic_call"> <b><u>Call control</b></u>
+        <img src="ic_touch_find"> <b><u>Find phone</u></b>
+        <p>On the bracelet, in the Find device function (More/Find device) start the finding.</p>
+        <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>It always works, even if the touch monitor is switched off.</p>
         <br><p>In test mode does not execute the function of recognised pattern.</p>
         <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
@@ -777,6 +786,9 @@
 
     <!-- Mistet monitorering -->
     <string name="alarm_mi_band_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="alarm_mi_band_service">Lost background service</string>
+    <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
+    <string name="alarm_mi_band_clock">Use the phone\s alarm clock, if background service is down (increases battery consumption)</string>
     <string name="alarm_mi_band_dnd">Ikke forstyrr modus</string>
     <string name="alarm_mi_band_interval_title">Gjenta intervall på alarm instilling</string>
     <string name="alarm_mi_band_time_set_next">Timing av neste instilling</string>
@@ -1025,7 +1037,7 @@
     <string name="theme_widget_touch_event_title">Trykke event</string>
 
     <string name="theme_notification_title">Vise status på notifikasjons-hylla</string>
-    <string name="theme_notification_summary"> Android systemet tvangs-stopper en service bare når telefon minnet er lite. Hvis ikke notifikasjonen kommer opp på Mi Band 2 etter en liten stund, kan du forhindre dette.</string>
+    <string name="theme_notification_summary"> Android systemet tvangs-stopper en service bare når telefon minnet er lite. Hvis ikke notifikasjonen kommer opp på %1$s etter en liten stund, kan du forhindre dette.</string>
     <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon. If the notification is hidden, switch off this setting for optimal performance.</string>
     <string name="theme_notification_color_title">Ikon farge</string>
     <string name="theme_notification_text_color_title">Text farge</string>

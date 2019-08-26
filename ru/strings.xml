@@ -505,10 +505,17 @@
     <string name="action_filter_notification">Активные сейчас уведомления</string>
 
     <!-- Touch monitoring -->
+    <string name="touch_tab_function">Function</string>
     <string name="touch_tab_control">Касания</string>
     <string name="touch_tab_testing">Тестирование</string>
     <string name="touch_tab_settings">Настройка</string>
 
+    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
+    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Use function as touch</string>
+
+    <string name="touch_headline_incoming_call_title">Incoming call</string>
+    <string name="touch_headline_other_function_title">Other functions</string>
     <string name="touch_headline_call_title">Звонки</string>
     <string name="touch_headline_music_title">Плеер</string>
     <string name="touch_headline_time_title">Таймер/секундомер</string>
@@ -536,6 +543,7 @@
     <string name="touch_weather_precipitation">Осадки</string>
     <string name="touch_weather_cloud_cover">Облачность</string>
 
+    <string name="touch_call_mute_toggle_title">Переключение звука звонка</string>
     <string name="touch_device_location_title">Найти устройство</string>
     <string name="touch_device_location_not_muted_only_title">Подчиняться беззвучному режиму</string>
 
@@ -595,7 +603,6 @@
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>Нажатие считается корректным, если происходит переход на новый пункт отображения (рекомендуется повернуть запястье перед нажатием).</mi_band_2>
         <p>Используется время между нажатиями, а не время, прошедшее с первого нажатия.</p>
-        <p>Зелёная иконка указывает, что другая функция похожа на текущую комбинацию.</p>
         <p>Во время входящего звонка не обрабатываются следующие функции: Положение устройства, Повтор уведомлений и Воспроизведение во избежание нежелательных срабатываний.</p>
         <p>Распознанная функция не выполняется в тестовом режиме.</p>
         <p>Вибрация браслета срабатывает, если есть действительная комбинация с учётом текущего состояния устройства (ответ на звонок, отмена звонка только во время входящего звонка и т. д.…).</p>
@@ -636,7 +643,7 @@
         <amazfit_band_2><p>Кнопка <mi_band_type> под экраном.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Поворот запястья
         <p>Поворот запястья засчитывается, когда экран <mi_band_type> включается.</p>
-        <img src="ic_call"> <b><u>Управление звонками</b></u>
+        <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>Работает всегда, даже если касания отключены.</p>
         <p>Распознанная функция не выполняется в тестовом режиме.</p>
         <p>Вибрация браслета срабатывает, если есть действительная комбинация с учётом текущего состояния устройства (ответ на звонок, отмена звонка только во время входящего звонка и т. д.…).</p>
@@ -647,7 +654,9 @@
     <string name="info_dialog_touch_mi_band_4"><![CDATA[
         <img src="ic_play_circle_outline"> <b><u>Экран музыки</u></b>
         <p>На браслете, откройте экран музыки (проведите вправо или влево), потом закройте экран.</p>
-        <img src="ic_call"> <b><u>Управление звонками</b></u>
+        <img src="ic_touch_find"> <b><u>Поиск устройства</u></b>
+        <p>а браслете в поиске устройства (More/Find device) начните измерение.</p>
+        <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>Работает всегда, даже если касания отключены.</p>
         <p>Распознанная функция не выполняется в тестовом режиме.</p>
         <p>Вибрация браслета срабатывает, если есть действительная комбинация с учётом текущего состояния устройства (ответ на звонок, отмена звонка только во время входящего звонка и т. д.…).</p>
@@ -777,6 +786,9 @@
 
     <!-- Lost  monitoring -->
     <string name="alarm_mi_band_title">Уведомление %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="alarm_mi_band_service">Lost background service</string>
+    <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
+    <string name="alarm_mi_band_clock">Use the phone\s alarm clock, if background service is down (increases battery consumption)</string>
     <string name="alarm_mi_band_dnd">Режим \"Не беспокоить\"</string>
     <string name="alarm_mi_band_interval_title">Период повтора предупреждения об отсоединении</string>
     <string name="alarm_mi_band_time_set_next">Время следующей установки</string>
@@ -1025,7 +1037,7 @@
     <string name="theme_widget_touch_event_title">По нажатию</string>
 
     <string name="theme_notification_title">Отображение статуса подключения в уведомлении</string>
-    <string name="theme_notification_summary">Система Android принудительно останавливает приложение только при недостатке памяти. Если через некоторое время перестают приходить уведомления на браслет, вы можете включить уведомление, чтобы предотвратить это.</string>
+    <string name="theme_notification_summary">Система Android принудительно останавливает приложение только при недостатке памяти. Если через некоторое время перестают приходить уведомления на %1$s, вы можете включить уведомление, чтобы предотвратить это.</string>
     <string name="theme_notification_summary_foreground_service">Android 8 и выше необходимы для отображения иконки панели уведомлений. Смахните вправо или влево по панели уведомлений чтобы скрыть иконку. Если иконка скрыта, выключите это для оптимизации производительности.</string>
     <string name="theme_notification_color_title">Цвет иконки</string>
     <string name="theme_notification_text_color_title">Цвет текста</string>

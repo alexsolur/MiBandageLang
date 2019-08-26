@@ -506,10 +506,17 @@
     <string name="action_filter_notification">Lọc thông báo</string>
 
     <!-- Touch monitoring -->
+    <string name="touch_tab_function">Function</string>
     <string name="touch_tab_control">Điều khiển</string>
     <string name="touch_tab_testing">Thử nghiệm</string>
     <string name="touch_tab_settings">Cài đặt</string>
 
+    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
+    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Use function as touch</string>
+
+    <string name="touch_headline_incoming_call_title">Incoming call</string>
+    <string name="touch_headline_other_function_title">Other functions</string>
     <string name="touch_headline_call_title">Điều khiển cuộc gọi</string>
     <string name="touch_headline_music_title">Điều khiển phát nhạc</string>
     <string name="touch_headline_time_title">Điều khiển hẹn giờ, đồng hồ bấm giờ</string>
@@ -537,6 +544,7 @@
     <string name="touch_weather_precipitation">Precipitation</string>
     <string name="touch_weather_cloud_cover">Cloud cover</string>
 
+    <string name="touch_call_mute_toggle_title">Tắt tiếng cuộc gọi</string>
     <string name="touch_device_location_title">Tìm thiết bị của tôi</string>
     <string name="touch_device_location_not_muted_only_title">Chỉ phát tiếng nếu không im lặng</string>
 
@@ -596,10 +604,9 @@
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>Cảm ứng có hiệu lực khi màn hình của Band thay đổi (vì vậy nên xoay cổ tay trước khi chạm).</mi_band_2>
         <p>Nó theo dõi thời gian trôi qua giữa các lần chạm, không theo dõi thời gian trôi qua lần chạm đầu tiên.</p>
-        <p>Biểu tượng màu xanh lá cây trên thẻ cho biết chức năng nào khác có thể giống với mẫu hiện tại.</p>
         <p>Khi bạn có một cuộc gọi đến, thiết bị không nhận ra các chức năng sau để dễ dàng chạm vào: vị trí của thiết bị, lặp lại thông báo, điều khiển nhạc.</p>
         <p>Trong chế độ thử nghiệm không thực thi chức năng của mẫu đã nhận.</p>
-        <p>Chỉ phản hồi rung, nếu có mẫu có tính đến trạng thái hiện tại của thiết bị (chỉ trả lời cuộc gọi, từ chối nếu có cuộc gọi đến...).</p>
+        <p>Chỉ phản hồi rung, nếu có mẫu có tính đến trạng thái hiện tại của thiết bị (chỉ trả lời cuộc gọi, từ chối nếu có cuộc gọi đến…).</p>
         <p>Band rung 1 lần, khi ghi nhận mẫu mới.</p>
         <p>Band rung 2 lần, khi không nhận được mẫu nào sau mẫu dài nhất (nếu <i>Không nhận diện được tín hiệu chạm</i> được đặt).</p>
         <p>Các ví dụ chạm hợp lệ:
@@ -637,7 +644,7 @@
         <amazfit_band_2><p>Nút bên dưới màn hình <mi_band_type>.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Nâng cổ tay
         <p>Nâng cổ tay là hợp lệ khi màn hình <mi_band_type> bật.</p>
-        <img src="ic_call"> <b><u>Điều khiển cuộc gọi </b></u>
+        <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>Nó luôn hoạt động, ngay cả khi màn hình cảm ứng bị tắt.</p>
         <br><p>Trong chế độ thử nghiệm không thực thi chức năng của mẫu được nhận dạng.</p>
         <p>Chỉ phản hồi rung băng tần, nếu có một mẫu có tính đến trạng thái hiện tại của điện thoại (chỉ trả lời cuộc gọi, từ chối nếu có cuộc gọi đến).</p>
@@ -648,7 +655,9 @@
     <string name="info_dialog_touch_mi_band_4"><![CDATA[
         <img src="ic_play_circle_outline"> <b><u>Music screen mod</u></b>
         <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
-        <img src="ic_call"> <b><u>Điều khiển cuộc gọi </b></u>
+        <img src="ic_touch_find"> <b><u>Find phone</u></b>
+        <p>On the bracelet, in the Find device function (More/Find device) start the finding.</p>
+        <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>Nó luôn hoạt động, ngay cả khi màn hình cảm ứng bị tắt.</p>
         <br><p>Trong chế độ thử nghiệm không thực thi chức năng của mẫu được nhận dạng.</p>
         <p>Chỉ phản hồi rung băng tần, nếu có một mẫu có tính đến trạng thái hiện tại của điện thoại (chỉ trả lời cuộc gọi, từ chối nếu có cuộc gọi đến).</p>
@@ -778,6 +787,9 @@
 
     <!-- Lost  monitoring -->
     <string name="alarm_mi_band_title">Tín hiệu %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="alarm_mi_band_service">Lost background service</string>
+    <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
+    <string name="alarm_mi_band_clock">Use the phone\s alarm clock, if background service is down (increases battery consumption)</string>
     <string name="alarm_mi_band_dnd">Chế độ không làm phiền</string>
     <string name="alarm_mi_band_interval_title">Cài đặt khoảng thời gian báo thức lặp lại</string>
     <string name="alarm_mi_band_time_set_next">Cài đặt thời điểm của tiếp theo</string>
@@ -1026,7 +1038,7 @@
     <string name="theme_widget_touch_event_title">Sự kiện chạm</string>
 
     <string name="theme_notification_title">Hiện trạng thái trong vùng thông báo</string>
-    <string name="theme_notification_summary">Hệ thống Android cưỡng bức dừng một dịch vụ chỉ khi bộ nhớ thấp. Nếu sau một thời gian không xuất hiện các thông báo trên Band 2, bạn có thể ngăn chặn điều này.</string>
+    <string name="theme_notification_summary">Hệ thống Android cưỡng bức dừng một dịch vụ chỉ khi bộ nhớ thấp. Nếu sau một thời gian không xuất hiện các thông báo trên %1$s, bạn có thể ngăn chặn điều này.</string>
     <string name="theme_notification_summary_foreground_service">Cần có Android 8 trở lên để hiển thị biểu tượng trên thanh thông báo. Vuốt sang trái hoặc phải trên thanh thông báo để ẩn biểu tượng. Nếu thông báo bị ẩn, hãy tắt cài đặt này để có hiệu suất tối ưu.</string>
     <string name="theme_notification_color_title">Màu biểu tượng</string>
     <string name="theme_notification_text_color_title">Màu chữ</string>

@@ -505,10 +505,17 @@
     <string name="action_filter_notification">Meldings filter</string>
 
     <!-- Touch monitoring -->
+    <string name="touch_tab_function">Function</string>
     <string name="touch_tab_control">Beheren</string>
     <string name="touch_tab_testing">Testen</string>
     <string name="touch_tab_settings">Instelling</string>
 
+    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
+    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Use function as touch</string>
+
+    <string name="touch_headline_incoming_call_title">Incoming call</string>
+    <string name="touch_headline_other_function_title">Other functions</string>
     <string name="touch_headline_call_title">Bellen beheren</string>
     <string name="touch_headline_music_title">Muziek beheren</string>
     <string name="touch_headline_time_title">Timer/stopwatch beheren</string>
@@ -536,6 +543,7 @@
     <string name="touch_weather_precipitation">Neerslag</string>
     <string name="touch_weather_cloud_cover">Bewolking</string>
 
+    <string name="touch_call_mute_toggle_title">Oproep dempenregeling</string>
     <string name="touch_device_location_title">vind mijn telefoon</string>
     <string name="touch_device_location_not_muted_only_title">Alleen geluid als het niet is gedempt of in NS mode</string>
 
@@ -595,7 +603,6 @@
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>De aanraakherkenning is geldig indien het scherm van Band verandert (het is raadzaam om je pols te draaien voordat je aanraakt).</mi_band_2>
         <p>Het controleerd de tussentijd van de aanrakingen, niet de verstreken tijd vanaf de eerste keer aanraking.</p>
-        <p>Groene pictogrammen op de kaarten geven aan welke andere functie vergelijkbaar kan zijn met het huidige patroon.</p>
         <p>Bij een inkomende oproep, herkent de telefoon de volgende functies voor gemakkelijke aanraakinvoer: locatie van de telefoon, herhaalmeldingen, muziekbesturing.</p>
         <p>In de testmodus wordt de functie van herkend patroon niet uitgevoerd.</p>
         <p>Alleen trillingsfeedback als er een patroon is dat rekening houdt met de huidige status van de telefoon (beantwoorden van oproepen, weigeren alleen als er een inkomende oproep is …).</p>
@@ -636,7 +643,7 @@
         <amazfit_band_2><p>De knop onder het <mi_band_type> scherm.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Polsbeweging
         <p>De polsbeweging is herkend als de <mi_band_type> scherm aan gaat.</p>
-        <img src="ic_call"> <b><u>Oproep controle</b></u>
+        <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>Het is altijd actief, zelfs als aanraakbeheer is uitgeschakeld.</p>
         <br><p>In testmodus wordt de functie van een herkend patroon niet uitgevoerd.</p>
         <p>Alleen trillingsfeedback wanneer er een patroon is waarbij rekening wordt gehouden met de huidige status van de telefoon (beantwoorden van oproepen, weigering alleen als er een inkomende oproep is …).</p>
@@ -647,7 +654,9 @@
     <string name="info_dialog_touch_mi_band_4"><![CDATA[
         <img src="ic_play_circle_outline"> <b><u>Music screen mod</u></b>
         <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
-              <img src="ic_call"> <b><u>Oproep controle</b></u>
+        <img src="ic_touch_find"> <b><u>Find phone</u></b>
+        <p>On the bracelet, in the Find device function (More/Find device) start the finding.</p>
+        <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>Het is altijd actief, zelfs als aanraakbeheer is uitgeschakeld.</p>
         <br><p>In testmodus wordt de functie van een herkend patroon niet uitgevoerd.</p>
         <p>Alleen trillingsfeedback wanneer er een patroon is waarbij rekening wordt gehouden met de huidige status van de telefoon (beantwoorden van oproepen, weigering alleen als er een inkomende oproep is …).</p>
@@ -777,6 +786,9 @@
 
     <!-- Lost monitoring -->
     <string name="alarm_mi_band_title">%1$s signaal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="alarm_mi_band_service">Lost background service</string>
+    <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
+    <string name="alarm_mi_band_clock">Use the phone\s alarm clock, if background service is down (increases battery consumption)</string>
     <string name="alarm_mi_band_dnd">Niet Storen mode</string>
     <string name="alarm_mi_band_interval_title">Herhaal interval van alarminstelling</string>
     <string name="alarm_mi_band_time_set_next">Timing volgende instelling</string>
@@ -1025,7 +1037,7 @@
     <string name="theme_widget_touch_event_title">Aanraak moment</string>
 
     <string name="theme_notification_title">Toon status in meldings balk</string>
-    <string name="theme_notification_summary">Het Android systeem forceert een service stop indien het geheugen bijna vol is. Als na een tijdje nog geen meldingen verschijnen op de Band 2, kan je dit voorkomen.</string>
+    <string name="theme_notification_summary">Het Android systeem forceert een service stop indien het geheugen bijna vol is. Als na een tijdje nog geen meldingen verschijnen op de %1$s, kan je dit voorkomen.</string>
     <string name="theme_notification_summary_foreground_service">Android 8 en hoger zijn vereist om het pictogram in de meldingsbalk weer te geven. Veeg naar links of rechts op de meldingsbalk om het pictogram te verbergen. Als de melding verborgen is, schakelt u deze instelling voor optimaal gebruik uit.</string>
     <string name="theme_notification_color_title">Pictogram kleur</string>
     <string name="theme_notification_text_color_title">Tekst kleur</string>

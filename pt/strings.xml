@@ -505,10 +505,17 @@
     <string name="action_filter_notification">Filtro de notificações</string>
 
     <!-- Touch monitoring -->
+    <string name="touch_tab_function">Function</string>
     <string name="touch_tab_control">Controlos</string>
     <string name="touch_tab_testing">Testar</string>
     <string name="touch_tab_settings">Definições</string>
 
+    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
+    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Use function as touch</string>
+
+    <string name="touch_headline_incoming_call_title">Incoming call</string>
+    <string name="touch_headline_other_function_title">Other functions</string>
     <string name="touch_headline_call_title">Controlar chamadas</string>
     <string name="touch_headline_music_title">Controlar multimédia</string>
     <string name="touch_headline_time_title">Controlar \"tempo\"</string>
@@ -536,6 +543,7 @@
     <string name="touch_weather_precipitation">Precipitation</string>
     <string name="touch_weather_cloud_cover">Cloud cover</string>
 
+    <string name="touch_call_mute_toggle_title">Silenciar</string>
     <string name="touch_device_location_title">Localizar o dispositivo</string>
     <string name="touch_device_location_not_muted_only_title">Emitir som apenas se não estiver mutado ou no modo DND</string>
 
@@ -595,7 +603,6 @@
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>O touch é válido quando o ecrã da Band muda (É aconselhado agitar a Band antes de gravar o padrão).</mi_band_2>
         <p>A Mi Bandage monitora o tempo decorrido entre os toques, e não o tempo decorrido até ao primeiro toque.</p>
-        <p>Os ícones verdes nos cartões indicam que função pode ter um padrão semelhante ao padrão gravado.</p>
         <p>Quando você recebe uma chamada, a Mi Bandage não reconhece as seguintes funções para facilitar a entrada do padrão: localizar o dispositivo, repetir notificações, controlar multimédia.</p>
         <p>No modo teste não é executada a função \'padrão reconhecido\'.</p>
         <p>Feedback por meio de vibração da Band se houver um padrão não reconhecido, levando em consideração o status atual do dispositivo (atender chamadas, rejeitar/terminar somente se houver uma chamada recebida, …).</p>
@@ -636,7 +643,7 @@
         <amazfit_band_2><p>O botão por baixo do ecrã da <mi_band_type>.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Levantar o pulso
         <p>Levantar o braço é válido quando o ecrã da <mi_band_type> liga.</p>
-        <img src="ic_call"> <b><u>Controlo de chamada</b></u>
+        <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>Esta função funciona sempre, mesmo que a Monitorização do Touch esteja desligada.</p>
         <br><p>No modo Teste, a função Padrão Reconhecido não é executada.</p>
         <p>A band só emite um feadback de vibração se o padrão existir, tendo em conta o estado atual do Telemóvel (Atender e Rejeitar chamadas apenas se existir alguém a telefonar, …).</p>
@@ -647,7 +654,9 @@
     <string name="info_dialog_touch_mi_band_4"><![CDATA[
         <img src="ic_play_circle_outline"> <b><u>Modo ecrã de música</u></b>
         <p>Na pulseira, abra o ecrã de música (deslizar para a esquerda/direita) e feche de seguida.</p>
-         <img src="ic_call"> <b><u>Controlo de chamada</b></u>
+        <img src="ic_touch_find"> <b><u>Encontrar o dispositivo</u></b>
+        <p>Na pulseira, na função \'Encontrar dispositivo\' (More/Find device), inicie o monitoramento.</p>
+        <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>Esta função funciona sempre, mesmo que a Monitorização do Touch esteja desligada.</p>
         <br><p>No modo Teste, a função Padrão Reconhecido não é executada.</p>
         <p>Só existe um feadback de vibração da Band se existir um padrão, tendo em conta o estado atual do Telemóvel (Atender e Rejeitar chamadas apenas se existir alguém a telefonar, …).</p>
@@ -776,6 +785,9 @@
 
     <!-- Lost  monitoring -->
     <string name="alarm_mi_band_title">%1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="alarm_mi_band_service">Lost background service</string>
+    <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
+    <string name="alarm_mi_band_clock">Use the phone\s alarm clock, if background service is down (increases battery consumption)</string>
     <string name="alarm_mi_band_dnd">Modo DND</string>
     <string name="alarm_mi_band_interval_title">Tempo para repetir o alarme</string>
     <string name="alarm_mi_band_time_set_next">Hora da próxima configuração</string>
@@ -1025,7 +1037,7 @@
     <string name="theme_widget_touch_event_title">Ao clicar vai para:</string>
 
     <string name="theme_notification_title">Mostrar o status na barra de notificação</string>
-    <string name="theme_notification_summary">O sistema android força a paragem do serviço quando a memória está baixa. Se depois de algum tempo a Band não mostrar as notificações, você pode prevenir isso.</string>
+    <string name="theme_notification_summary">O sistema android força a paragem do serviço quando a memória está baixa. Se depois de algum tempo a %1$s não mostrar as notificações, você pode prevenir isso.</string>
     <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon. If the notification is hidden, switch off this setting for optimal performance.</string>
     <string name="theme_notification_color_title">Cor dos ícones na barra de notificação</string>
     <string name="theme_notification_text_color_title">Cor do texto</string>

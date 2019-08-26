@@ -506,10 +506,17 @@
     <string name="action_filter_notification">Bildirim Filtreleri</string>
 
     <!-- Touch monitoring -->
+    <string name="touch_tab_function">Function</string>
     <string name="touch_tab_control">Kontrol</string>
     <string name="touch_tab_testing">Test</string>
     <string name="touch_tab_settings">Ayarlar</string>
 
+    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
+    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Use function as touch</string>
+
+    <string name="touch_headline_incoming_call_title">Incoming call</string>
+    <string name="touch_headline_other_function_title">Other functions</string>
     <string name="touch_headline_call_title">Çağrı</string>
     <string name="touch_headline_music_title">Müzik</string>
     <string name="touch_headline_time_title">Alarm/Saat</string>
@@ -537,6 +544,7 @@
     <string name="touch_weather_precipitation">Yağış</string>
     <string name="touch_weather_cloud_cover">Bulut örtüsü</string>
 
+    <string name="touch_call_mute_toggle_title">Çağrıyı sessize al</string>
     <string name="touch_device_location_title">Telefonumu bul</string>
     <string name="touch_device_location_not_muted_only_title">Rahatsız etmeyin modunda ve telefon zaten sessizde değilse</string>
 
@@ -596,7 +604,6 @@
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>Dokunma, bileklikte birşeyler gösterildiklten sonra geçerli olur (bu nedenle, dokunmadan önce bilekinizde boş bir tıklama nerilir).</mi_band_2>
         <p>Dokunanlar arasındaki geçen süreyi izler, ilk dokunma için geçen süre dikkate alınmaz.</p>
-        <p>Kartlardaki yeşil simgeler başka bir işlevin mevcut desene benzeyebileceğini gösterir.</p>
         <p>Telefon çağrısı geldiğinde, cihaz dokunmatik girişi kolaylaştırmak için aşağıdaki işlevleri geçersiz kılar: telefonumu bul, tekrar eden bildirimler, müzik kontrolü.</p>
         <p>Test modunda eylem gerçekleşmez.</p>
         <p>Bileklik titreşim geribildirimi, yalnızca cihazın mevcut durumunu dikkate alan bir model varsa (çağrı cevaplama, ancak gelen bir çağrı olduğunda reddetme …).</p>
@@ -637,7 +644,7 @@
         <amazfit_band_2><p><mi_band_type> ekranının altındaki düğme.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Bilek kaldırma
         <p>Bileklik, <mi_band_type> ekranı açıldığında geçerlidir.</p>
-        <img src="ic_call"> <b><u>Arama Kontrolü</b></u>
+        <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>Dokunmatik ekran kapalı olsa bile her zaman çalışır.</p>
         <br><p>Test modunda, tanınan desenin işlevini gerçekleştirmez.</p>
         <p>Titreşim geri bildirimini sadece, telefonun o andaki durumunu hesaba katan bir model varsa (yalnızca gelen bir çağrı varsa reddetme, yanıtlama).</p>
@@ -649,7 +656,9 @@
     <string name="info_dialog_touch_mi_band_4"><![CDATA[
         <img src="ic_play_circle_outline"> <b><u>Music screen mod</u></b>
         <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
-        <img src="ic_call"> <b><u>Arama Kontrolü</b></u>
+        <img src="ic_touch_find"> <b><u>Telefonumu bul</u></b>
+        <p>Bilekliğin üzerinde, Cihaz bul fonksiyonunda (Daha fazla / Cihaz bul) ölçümü başlatır.</p>
+        <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>Dokunmatik ekran kapalı olsa bile her zaman çalışır.</p>
         <br><p>Test modunda, tanınan desenin işlevini gerçekleştirmez.</p>
         <p>Titreşim geri bildirimini sadece, telefonun o andaki durumunu hesaba katan bir model varsa (yalnızca gelen bir çağrı varsa reddetme, yanıtlama).</p>
@@ -778,6 +787,9 @@
 
     <!-- Lost monitoring -->
     <string name="alarm_mi_band_title">%1$s bildirimi</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="alarm_mi_band_service">Lost background service</string>
+    <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
+    <string name="alarm_mi_band_clock">Use the phone\s alarm clock, if background service is down (increases battery consumption)</string>
     <string name="alarm_mi_band_dnd">Rahatsıs etmeyim modu</string>
     <string name="alarm_mi_band_interval_title">Uyarıyı tekrarla</string>
     <string name="alarm_mi_band_time_set_next">Bir sonraki kontrol</string>
@@ -1026,7 +1038,7 @@
     <string name="theme_widget_touch_event_title">Dokunma olayı</string>
 
     <string name="theme_notification_title">Bildirim çubuğunda durum gösterilsin</string>
-    <string name="theme_notification_summary">!!!Burası önemli!!!,Android sistemi, bir hizmeti sadece bellek düşük olduğunda durdurur. Bir süre sonra bileklikteki bildirimler görünmezse, bu özelliği açarak bunu önleyebilirsiniz.</string>
+    <string name="theme_notification_summary">!!!Burası önemli!!!,Android sistemi, bir hizmeti sadece bellek düşük olduğunda durdurur. Bir süre sonra %1$s bildirimler görünmezse, bu özelliği açarak bunu önleyebilirsiniz.</string>
     <string name="theme_notification_summary_foreground_service">Bildirim çubuğunda simgeyi göstermek için Android 8 ve üstü gerekir. Simgeyi gizlemek için bildirim çubuğunda sola veya sağa kaydırın. Bildirim gizlenirse, optimum performans için bu ayarı kapatın.</string>
     <string name="theme_notification_color_title">Simge rengi</string>
     <string name="theme_notification_text_color_title">Yazı rengi</string>
