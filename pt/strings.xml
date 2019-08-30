@@ -505,17 +505,17 @@
     <string name="action_filter_notification">Filtro de notificações</string>
 
     <!-- Touch monitoring -->
-    <string name="touch_tab_function">Function</string>
+    <string name="touch_tab_function">Função</string>
     <string name="touch_tab_control">Controlos</string>
     <string name="touch_tab_testing">Testar</string>
     <string name="touch_tab_settings">Definições</string>
 
-    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
-    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="touch_function_as_touch">Use function as touch</string>
+    <string name="touch_function_summary">Configure estas features se você não estiver a usar o modo Standalone ou se não estiver a ser manejado corretamente pela Mi Fit</string>
+    <string name="touch_function">Função da %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Use o Touch como função</string>
 
-    <string name="touch_headline_incoming_call_title">Incoming call</string>
-    <string name="touch_headline_other_function_title">Other functions</string>
+    <string name="touch_headline_incoming_call_title">Chamadas recebidas</string>
+    <string name="touch_headline_other_function_title">Outras funções</string>
     <string name="touch_headline_call_title">Controlar chamadas</string>
     <string name="touch_headline_music_title">Controlar multimédia</string>
     <string name="touch_headline_time_title">Controlar \"tempo\"</string>
@@ -643,7 +643,7 @@
         <amazfit_band_2><p>O botão por baixo do ecrã da <mi_band_type>.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Levantar o pulso
         <p>Levantar o braço é válido quando o ecrã da <mi_band_type> liga.</p>
-        <img src="ic_call"> <b><u>Incoming call</b></u>
+        <img src="ic_call"> <b><u>Chamada recebida</b></u>
         <p>Esta função funciona sempre, mesmo que a Monitorização do Touch esteja desligada.</p>
         <br><p>No modo Teste, a função Padrão Reconhecido não é executada.</p>
         <p>A band só emite um feadback de vibração se o padrão existir, tendo em conta o estado atual do Telemóvel (Atender e Rejeitar chamadas apenas se existir alguém a telefonar, …).</p>
@@ -656,7 +656,7 @@
         <p>Na pulseira, abra o ecrã de música (deslizar para a esquerda/direita) e feche de seguida.</p>
         <img src="ic_touch_find"> <b><u>Encontrar o dispositivo</u></b>
         <p>Na pulseira, na função \'Encontrar dispositivo\' (More/Find device), inicie o monitoramento.</p>
-        <img src="ic_call"> <b><u>Incoming call</b></u>
+        <img src="ic_call"> <b><u>Chamada recebida</b></u>
         <p>Esta função funciona sempre, mesmo que a Monitorização do Touch esteja desligada.</p>
         <br><p>No modo Teste, a função Padrão Reconhecido não é executada.</p>
         <p>Só existe um feadback de vibração da Band se existir um padrão, tendo em conta o estado atual do Telemóvel (Atender e Rejeitar chamadas apenas se existir alguém a telefonar, …).</p>
@@ -785,9 +785,9 @@
 
     <!-- Lost  monitoring -->
     <string name="alarm_mi_band_title">%1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="alarm_mi_band_service">Lost background service</string>
-    <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
-    <string name="alarm_mi_band_clock">Use the phone\s alarm clock, if background service is down (increases battery consumption)</string>
+    <string name="alarm_mi_band_service">Serviço em segundo plano perdido</string>
+    <string name="alarm_mi_band_service_summary">No caso de haver falsos alarmes frequentemente, ative o serviço em segundo plano para uma operação mais estável</string>
+    <string name="alarm_mi_band_clock">Use os alarmes do dispositivo se o serviço em segundo plano estiver parado (aumenta o uso de bateria)</string>
     <string name="alarm_mi_band_dnd">Modo DND</string>
     <string name="alarm_mi_band_interval_title">Tempo para repetir o alarme</string>
     <string name="alarm_mi_band_time_set_next">Hora da próxima configuração</string>
