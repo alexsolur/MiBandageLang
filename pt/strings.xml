@@ -75,24 +75,24 @@
     <string name="mi_band_setting_auth_mi_fit_hint">A Mi Bandage precisa da Mi Fit instalada para funcionar. Primeiro tem de emparelhar a %1$s na aplicação Mi Fit e só depois poderá usar a Mi Bandage. Se você pretende usar a Mi Fit, escolha esta opção.</string>
     <string name="mi_band_setting_auth_standalone">Solitário</string>
     <string name="mi_band_setting_auth_standalone_hint">A aplicação \'Mi Fit\' não é necessária para a Mi Bandage funcionar. After the pairing, uninstall the Mi Fit app or unpair your device. When restoring the Mi Fit cooperation, you will need to re-pair your %1$s in the Mi Fit application.</string>
-    <string name="mi_band_setting_auth_key_title">Set authentication key</string>
-    <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
+    <string name="mi_band_setting_auth_key_title">Configurar a chave de autenticação</string>
+    <string name="mi_band_setting_auth_key_hint">Deve ser providenciada uma chave de autenticação para usar o modo Standalone</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
         <ul>
-            <li>Unpair %1$s in the official Mi Fit app</li>
-            <li>Uninstall the official Mi Fit app</li>
-            <li>Download and install the modified Mi Fit app</li>
-            <li>Pair the %1$s in the modified Mi Fit app (do not unpair)</li>
-            <li>Uninstall the modified Mi Fit app</li>
+            <li>Desemparelhar a %1$s na aplicação oficial da Mi Fit</li>
+            <li>Desinstalar a aplicação oficial da Mi Fit</li>
+            <li>Descarregar e instalar a aplicação modificada da Mi Fit</li>
+            <li>Emparelhar a %1$s na aplicação modificada da Mi Fit (não desemparelhe)</li>
+            <li>Desinstalar a aplicação modificada da Mi Fit</li>
         </ul>
-        Authentication key can be found at: internal storage/freemyband/mac address.txt
+        A chave de autenticação pode ser encontrada em: Armazenamento interno/freemyband/mac address.txt
     ]]></string>
-    <string name="mi_band_setting_auth_key">Authentication key</string>
-    <string name="mi_band_setting_auth">Parear</string>
+    <string name="mi_band_setting_auth_key">Chave de autenticação</string>
+    <string name="mi_band_setting_auth">Emparelhar</string>
 
     <string name="message_mi_band_setting_auth_press_band_button">Precione o botão %1$s para emparelhar</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
-    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
-    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
+    <string name="message_mi_band_setting_auth_success">%1$s emparelhada com sucesso</string>
+    <string name="message_mi_band_setting_auth_fail">O emparelhamento com a %1$s falhou</string>
 
     <string name="mi_band_setting_nickname">Alcunha</string>
     <string name="mi_band_setting_gender">Género</string>
