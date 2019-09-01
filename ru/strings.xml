@@ -505,17 +505,17 @@
     <string name="action_filter_notification">Активные сейчас уведомления</string>
 
     <!-- Touch monitoring -->
-    <string name="touch_tab_function">Function</string>
+    <string name="touch_tab_function">Функции</string>
     <string name="touch_tab_control">Касания</string>
     <string name="touch_tab_testing">Тестирование</string>
     <string name="touch_tab_settings">Настройка</string>
 
-    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
-    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="touch_function_as_touch">Use function as touch</string>
+    <string name="touch_function_summary">Настройте функции если вы используете автономный режим или не хотите настраивать их в Mi Fit</string>
+    <string name="touch_function">Функция %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Использовать функции как касания</string>
 
-    <string name="touch_headline_incoming_call_title">Incoming call</string>
-    <string name="touch_headline_other_function_title">Other functions</string>
+    <string name="touch_headline_incoming_call_title">Входящий звонок</string>
+    <string name="touch_headline_other_function_title">Другие функции</string>
     <string name="touch_headline_call_title">Звонки</string>
     <string name="touch_headline_music_title">Плеер</string>
     <string name="touch_headline_time_title">Таймер/секундомер</string>
@@ -647,7 +647,7 @@
         <amazfit_band_2><p>Кнопка <mi_band_type> под экраном.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Поворот запястья
         <p>Поворот запястья засчитывается, когда экран <mi_band_type> включается.</p>
-        <img src="ic_call"> <b><u>Incoming call</b></u>
+        <img src="ic_call"> <b><u>Входящий звонок</b></u>
         <p>Работает всегда, даже если касания отключены.</p>
         <p>Распознанная функция не выполняется в тестовом режиме.</p>
         <p>Вибрация браслета срабатывает, если есть действительная комбинация с учётом текущего состояния устройства (ответ на звонок, отмена звонка только во время входящего звонка и т. д.…).</p>
@@ -659,8 +659,8 @@
         <img src="ic_play_circle_outline"> <b><u>Экран музыки</u></b>
         <p>На браслете, откройте экран музыки (проведите вправо или влево), потом закройте экран.</p>
         <img src="ic_touch_find"> <b><u>Поиск устройства</u></b>
-        <p>а браслете в поиске устройства (More/Find device) начните измерение.</p>
-        <img src="ic_call"> <b><u>Incoming call</b></u>
+        <p>На браслете в поиске устройства (More/Find device) начните поиск.</p>
+        <img src="ic_call"> <b><u>Входящий звонок</b></u>
         <p>Работает всегда, даже если касания отключены.</p>
         <p>Распознанная функция не выполняется в тестовом режиме.</p>
         <p>Вибрация браслета срабатывает, если есть действительная комбинация с учётом текущего состояния устройства (ответ на звонок, отмена звонка только во время входящего звонка и т. д.…).</p>
@@ -790,9 +790,9 @@
 
     <!-- Lost  monitoring -->
     <string name="alarm_mi_band_title">Уведомление %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="alarm_mi_band_service">Lost background service</string>
-    <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
-    <string name="alarm_mi_band_clock">Use the phone\s alarm clock, if background service is down (increases battery consumption)</string>
+    <string name="alarm_mi_band_service">Фоновый процесс</string>
+    <string name="alarm_mi_band_service_summary">В случае частых ложных срабатываний, включите фоновый процесс для более стабильной работы</string>
+    <string name="alarm_mi_band_clock">Использует будильник телефона, если отключён фоновый процесс (повышает потребление батареи)</string>
     <string name="alarm_mi_band_dnd">Режим \"Не беспокоить\"</string>
     <string name="alarm_mi_band_interval_title">Период повтора предупреждения об отсоединении</string>
     <string name="alarm_mi_band_time_set_next">Время следующей установки</string>
