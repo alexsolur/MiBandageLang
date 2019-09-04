@@ -68,7 +68,8 @@
 
     <string name="mi_band_setting_menu_profile">Профиль</string>
     <string name="mi_band_setting_menu_setting">Настройки</string>
-    <string name="mi_band_setting_menu_text">Текст/Вызов</string>
+    <string name="mi_band_setting_menu_text">Текст</string>
+    <string name="mi_band_setting_menu_call">Вызов</string>
     <string name="mi_band_setting_menu_menu">Меню</string>
 
     <string name="mi_band_setting_auth_mi_fit">Взаимодействие с Mi Fit</string>
@@ -512,7 +513,7 @@
 
     <string name="touch_function_summary">Настройте функции если вы используете автономный режим или не хотите настраивать их в Mi Fit</string>
     <string name="touch_function">Функция %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="touch_function_as_touch">Использовать функции как касания</string>
+    <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
 
     <string name="touch_headline_incoming_call_title">Входящий звонок</string>
     <string name="touch_headline_other_function_title">Другие функции</string>
@@ -538,6 +539,8 @@
 
     <string name="touch_music_function_title">Muzică</string>
     <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
+    <string name="touch_music_function_mi_band_message_launch">Start music with the play button</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Can\'t get the song name</string>
 
     <string name="touch_call_out_title">Исходящий звонок</string>
     <string name="touch_call_out_no_contact">Выберите контакт</string>
@@ -660,6 +663,8 @@
         <p>На браслете, откройте экран музыки (проведите вправо или влево), потом закройте экран.</p>
         <img src="ic_touch_find"> <b><u>Поиск устройства</u></b>
         <p>На браслете в поиске устройства (More/Find device) начните поиск.</p>
+        <img src="ic_touch_find_off"> <b><u>Прервать поиск устройства</u></b>
+        <p>На браслете в поиске устройства (More/Find device) прервите поиск.</p>
         <img src="ic_call"> <b><u>Входящий звонок</b></u>
         <p>Работает всегда, даже если касания отключены.</p>
         <p>Распознанная функция не выполняется в тестовом режиме.</p>

@@ -69,6 +69,7 @@
     <string name="mi_band_setting_menu_profile">Profil</string>
     <string name="mi_band_setting_menu_setting">Ayarlar</string>
     <string name="mi_band_setting_menu_text">Gösterim</string>
+    <string name="mi_band_setting_menu_call">Arama</string>
     <string name="mi_band_setting_menu_menu">Ekran</string>
 
     <string name="mi_band_setting_auth_mi_fit">Mi Fit ile birlikte</string>
@@ -513,7 +514,7 @@
 
     <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
     <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="touch_function_as_touch">Use function as touch</string>
+    <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
 
     <string name="touch_headline_incoming_call_title">Incoming call</string>
     <string name="touch_headline_other_function_title">Other functions</string>
@@ -539,6 +540,8 @@
 
     <string name="touch_music_function_title">Müzik</string>
     <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
+    <string name="touch_music_function_mi_band_message_launch">Start music with the play button</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Can\'t get the song name</string>
 
     <string name="touch_call_out_title">Arama</string>
     <string name="touch_call_out_no_contact">Kişi seç</string>
@@ -662,6 +665,8 @@
         <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
         <img src="ic_touch_find"> <b><u>Telefonumu bul</u></b>
         <p>Bilekliğin üzerinde, Cihaz bul fonksiyonunda (Daha fazla / Cihaz bul) ölçümü başlatır.</p>
+        <img src="ic_touch_find_off"> <b><u>Telefon bulmayı durdur</u></b>
+        <p>Bilekliğin üzerinde, Cihaz bul fonksiyonunda (Daha fazla / Cihaz bul) bulmayı keser.</p>
         <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>Dokunmatik ekran kapalı olsa bile her zaman çalışır.</p>
         <br><p>Test modunda, tanınan desenin işlevini gerçekleştirmez.</p>

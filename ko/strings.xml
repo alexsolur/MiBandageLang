@@ -68,7 +68,8 @@
 
     <string name="mi_band_setting_menu_profile">프로필</string>
     <string name="mi_band_setting_menu_setting">설정</string>
-    <string name="mi_band_setting_menu_text">본문/수신 전화 알림</string>
+    <string name="mi_band_setting_menu_text">본문</string>
+    <string name="mi_band_setting_menu_call">수신 전화 알림</string>
     <string name="mi_band_setting_menu_menu">메뉴</string>
 
     <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
@@ -512,7 +513,7 @@
 
     <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
     <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="touch_function_as_touch">Use function as touch</string>
+    <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
 
     <string name="touch_headline_incoming_call_title">Incoming call</string>
     <string name="touch_headline_other_function_title">Other functions</string>
@@ -538,6 +539,8 @@
 
     <string name="touch_music_function_title">Musica</string>
     <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
+    <string name="touch_music_function_mi_band_message_launch">Start music with the play button</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Can\'t get the song name</string>
 
     <string name="touch_call_out_title">Call out</string>
     <string name="touch_call_out_no_contact">Select an contact</string>
@@ -648,7 +651,7 @@
         <img src="ic_touch_wrist"> Wrist lift
         <p>Wrist lift is valid when the <mi_band_type> screen turns on.</p>
         <img src="ic_call"> <b><u>Incoming call</b></u>
-        <p>It always works, even if the touch monitor is switched off.</p>
+        <p>It always works, even if the touch monitor is switched off on the main screen.</p>
         <br><p>In test mode does not execute the function of recognised pattern.</p>
         <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
         <p>Band vibrates once, when recognise a pattern.</p>
@@ -660,8 +663,10 @@
         <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
         <img src="ic_touch_find"> <b><u>Find phone</u></b>
         <p>On the bracelet, in the Find device function (More/Find device) start the finding.</p>
+        <img src="ic_touch_find_off"> <b><u>Interrupt phone finding</u></b>
+        <p>On the bracelet, in the Find device function (More/Find device) interrupt the finding.</p>
         <img src="ic_call"> <b><u>Incoming call</b></u>
-        <p>It always works, even if the touch monitor is switched off.</p>
+        <p>It always works, even if the touch monitor is switched off on the main screen.</p>
         <br><p>In test mode does not execute the function of recognised pattern.</p>
         <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
         <p>Band vibrates once, when recognise a pattern.</p>
