@@ -11,8 +11,8 @@
     </string-array>
 
     <string-array name="pref_distance_unit">
-        <item>미터법 (meters)</item>
-        <item>인치법 (miles)</item>
+        <item>미터법 (미터)</item>
+        <item>야드파운드법 (마일)</item>
     </string-array>
 
     <string-array name="pref_lift_wrist_sensitivity">
@@ -26,23 +26,23 @@
     </string-array>
 
     <string-array name="pref_menu_mi_band">
-        <item>Time</item>
-        <item>Steps</item>
-        <item>Distance</item>
-        <item>Calories</item>
-        <item>Heart rate</item>
-        <item>Battery</item>
-        <item>Status</item>
-        <item>Weather</item>
+        <item>시간</item>
+        <item>걸음</item>
+        <item>거리</item>
+        <item>칼로리</item>
+        <item>심박수</item>
+        <item>배터리</item>
+        <item>상태</item>
+        <item>날씨</item>
         <item>Workout</item>
-        <item>Notifications</item>
-        <item>More</item>
+        <item>알림</item>
+        <item>더보기</item>
         <item>NFC</item>
-        <item>Alarm</item>
-        <item>Timer</item>
-        <item>Settings</item>
+        <item>알람</item>
+        <item>타이머</item>
+        <item>설정</item>
         <item>Compass</item>
-        <item>Music</item>
+        <item>음악</item>
         <item>Alipay</item>
     </string-array>
 
@@ -55,36 +55,36 @@
     </string-array>
 
     <string-array name="pref_connected_have_notif_interval">
-        <item>3 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>20 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>3 hours</item>
+        <item>3분</item>
+        <item>5분</item>
+        <item>10분</item>
+        <item>20분</item>
+        <item>30분</item>
+        <item>1시간</item>
+        <item>2시간</item>
+        <item>3시간</item>
     </string-array>
 
     <string-array name="pref_abandoned_interval">
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>3 minutes</item>
-        <item>4 minutes</item>
-        <item>5 minutes</item>
-        <item>6 minutes</item>
-        <item>7 minutes</item>
-        <item>8 minutes</item>
-        <item>9 minutes</item>
-        <item>10 minutes</item>
+        <item>1분</item>
+        <item>2분</item>
+        <item>3분</item>
+        <item>4분</item>
+        <item>5분</item>
+        <item>6분</item>
+        <item>7분</item>
+        <item>8분</item>
+        <item>9분</item>
+        <item>10분</item>
     </string-array>
 
     <string-array name="pref_abandoned_notif_interval">
-        <item>10 minutes</item>
-        <item>20 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>3 hours</item>
+        <item>10분</item>
+        <item>20분</item>
+        <item>30분</item>
+        <item>1시간</item>
+        <item>2시간</item>
+        <item>3시간</item>
     </string-array>
 
     <string-array name="notification_group_counter">
@@ -110,8 +110,8 @@
     </string-array>
 
     <string-array name="touch_music_player">
-        <item>Default music player</item>
-        <item>Currently running player</item>
+        <item>기본 음악 플레이어</item>
+        <item>현재 실행중인 플레이어</item>
         <item>Google Play Music</item>
         <item>Spotify Music</item>
     </string-array>
@@ -130,36 +130,36 @@
     </string-array>
 
     <string-array name="touch_camera_app">
-        <item>Default (root is needed)</item>
+        <item>기본 (root is needed)</item>
         <item>Open Camera</item>
     </string-array>
 
     <string-array name="pref_timer_time_interval_repeat">
         <item>Off</item>
-        <item>1 minutes</item>
-        <item>2 minutes</item>
-        <item>3 minutes</item>
-        <item>4 minutes</item>
-        <item>5 minutes</item>
-        <item>6 minutes</item>
-        <item>7 minutes</item>
-        <item>8 minutes</item>
-        <item>9 minutes</item>
-        <item>10 minutes</item>
-        <item>11 minutes</item>
-        <item>12 minutes</item>
-        <item>13 minutes</item>
-        <item>14 minutes</item>
-        <item>15 minutes</item>
-        <item>20 minutes</item>
-        <item>30 minutes</item>
-        <item>40 minutes</item>
-        <item>50 minutes</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>3 hours</item>
-        <item>4 hours</item>
-        <item>5 hours</item>
+        <item>1분</item>
+        <item>2분</item>
+        <item>3분</item>
+        <item>4분</item>
+        <item>5분</item>
+        <item>6분</item>
+        <item>7분</item>
+        <item>8분</item>
+        <item>9분</item>
+        <item>10분</item>
+        <item>11분</item>
+        <item>12분</item>
+        <item>13분</item>
+        <item>14분</item>
+        <item>15분</item>
+        <item>20분</item>
+        <item>30분</item>
+        <item>40분</item>
+        <item>50분</item>
+        <item>1시간</item>
+        <item>2시간</item>
+        <item>3시간</item>
+        <item>4시간</item>
+        <item>5시간</item>
     </string-array>
 
     <string-array name="notification_group_text_content_slice">
@@ -176,12 +176,12 @@
     </string-array>
 
     <string-array name="notification_group_display_time">
-        <item>Auto (3 – 5 seconds)</item>
-        <item>3 seconds</item>
-        <item>4 seconds</item>
-        <item>5 seconds</item>
-        <item>6 seconds</item>
-        <item>7 seconds</item>
+        <item>자동 (3 – 5초)</item>
+        <item>3초</item>
+        <item>4초</item>
+        <item>5초</item>
+        <item>6초</item>
+        <item>7초</item>
     </string-array>
 
     <string-array name="touch_recognition_press">
@@ -228,38 +228,29 @@
     </string-array>
 
     <string-array name="pref_weather_current_display">
-        <item>Current</item>
+        <item>현재</item>
         <item>Current, precipitation, cloud cover</item>
-        <item>Average</item>
-        <item>Am, Pm</item>
+        <item>평균</item>
+        <item>오전, 오후</item>
     </string-array>
 
     <string-array name="pref_weather_forecast_display">
-        <item>Average</item>
+        <item>평균</item>
         <!--<item>Average, precipitation, cloud cover</item>-->
-        <item>Am, Pm</item>
+        <item>오전, 오후</item>
     </string-array>
 
     <string-array name="widget_event">
-        <item>Bandages screen</item>
-        <item>Activity screen</item>
-        <item>Pulse screen</item>
-        <item>Pulse measurement</item>
-        <item>Alarm screen</item>
-        <item>Reminder screen</item>
-    </string-array>
-
-    <string-array name="widget_event_values">
-        <item>LAUNCH_BANDAGES</item>
-        <item>LAUNCH_ACTIVITY</item>
-        <item>LAUNCH_PULSE</item>
-        <item>ACTION_PULSE</item>
-        <item>LAUNCH_TIME_ALARM</item>
-        <item>LAUNCH_REMINDER</item>
+        <item>밴드 화면</item>
+        <item>활동 화면</item>
+        <item>심박수 화면</item>
+        <item>심박수 측정</item>
+        <item>알람 화면</item>
+        <item>리마인더 화면</item>
     </string-array>
 
     <string-array name="pref_language">
-        <item>Default</item>
+        <item>기본</item>
         <item>한국어</item>
         <item>English</item>
         <item>Magyar</item>
@@ -281,32 +272,9 @@
         <item>中文</item>
     </string-array>
 
-    <string-array name="pref_language_values">
-        <item>DEFAULT</item>
-        <item>ko</item>
-        <item>en</item>
-        <item>hu</item>
-        <item>ru</item>
-        <item>pt</item>
-        <item>es</item>
-        <item>it</item>
-        <item>tr</item>
-        <item>pl</item>
-        <item>vi</item>
-        <item>de</item>
-        <item>nl</item>
-        <item>cs</item>
-        <item>fr</item>
-        <item>no</item>
-        <item>el</item>
-        <item>in</item>
-        <item>ro</item>
-        <item>zh</item>
-    </string-array>
-
     <string-array name="pref_language_mi_band_3">
-        <item>Not set (set by Mi Fit)</item>
-        <item>Default (by phone)</item>
+        <item>설정 안함 (Mi 피트가 설정)</item>
+        <item>기본 (폰 언어)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -329,8 +297,8 @@
     </string-array>
 
     <string-array name="pref_language_mi_band_4">
-        <item>Not set (set by Mi Fit)</item>
-        <item>Default (by phone)</item>
+        <item>설정 안함 (Mi 피트가 설정)</item>
+        <item>기본 (폰 언어)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -353,8 +321,8 @@
     </string-array>
 
     <string-array name="pref_language_amazfit_bip_watch">
-        <item>Not set (set by Mi Fit)</item>
-        <item>Default (by phone)</item>
+        <item>설정 안함 (Mi 피트가 설정)</item>
+        <item>기본 (폰 언어)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -371,13 +339,12 @@
     </string-array>
 
     <string-array name="pref_language_amazfit_cor">
-        <item>Not set (set by Mi Fit)</item>
-        <item>Default (by phone)</item>
+        <item>설정 안함 (Mi 피트가 설정)</item>
+        <item>기본 (폰 언어)</item>
         <item>English</item>
         <item>Español</item>
         <item>Русский</item>
         <item>繁體中文</item>
         <item>简体中文</item>
     </string-array>
-
 </resources>

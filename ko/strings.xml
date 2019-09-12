@@ -13,7 +13,7 @@
     <string name="drawer_nav_time">시간</string>
     <string name="drawer_nav_reminder">행사 리마인더</string>
     <string name="drawer_nav_weather">날씨</string>
-    <string name="drawer_nav_watch_face">시계 화면</string>
+    <string name="drawer_nav_watch_face">디스플레이</string>
     <string name="drawer_nav_alarm">분실</string>
     <string name="drawer_nav_disconnected_agent">에이전트</string>
     <string name="drawer_nav_theme">테마</string>
@@ -33,7 +33,7 @@
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">연결 시간: %1$s</string>
     <string name="foreground_service_disconnected_text">%1$s(이)가 연결되지 않음</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <!--<string name="foreground_service_disconnected">Disconnection time: %1$s</string>-->
+    <!--<string name="foreground_service_disconnected">연결 해제 time: %1$s</string>-->
 
     <!-- Strings related to Settings -->
     <string name="settings_name">설정</string>
@@ -46,8 +46,8 @@
     <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Battery level, last charging time, estimated remaining time</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI, last connection and disconnection time</string>
+    <string name="mi_band_battery">배터리 잔량, 마지막 충전 시간, 예상 잔여 시간</string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI, 마지막 연결 및 연결 해제 시간</string>
     <string name="mi_band_touch">터치 모니터링</string>
     <string name="mi_band_alarm">Next alarm</string>
     <string name="mi_band_bonded_device_name">페어링된 기기 이름</string>
@@ -64,7 +64,7 @@
     <string name="mi_band_state_not_bonded">페어링되지 않은 기기</string>
 
     <!-- Mi Band setting -->
-    <string name="mi_band_setting_title">%1$s settings</string>
+    <string name="mi_band_setting_title">%1$s 설정</string>
 
     <string name="mi_band_setting_menu_profile">프로필</string>
     <string name="mi_band_setting_menu_setting">설정</string>
@@ -72,26 +72,26 @@
     <string name="mi_band_setting_menu_call">수신 전화 알림</string>
     <string name="mi_band_setting_menu_menu">메뉴</string>
 
-    <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage requires the installation of the Mi Fit app on the same phone. At first you have to pair %1$s in Mi Fit app, then you can use Mi Bandage. If you want to use Mi Fit application, choose this.</string>
-    <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit app or unpair your device. When restoring the Mi Fit cooperation, you will need to re-pair your %1$s in the Mi Fit application.</string>
-    <string name="mi_band_setting_auth_key_title">Set authentication key</string>
-    <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
+    <string name="mi_band_setting_auth_mi_fit">Mi 피트와 함께 사용하기</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage(은)는 같은 폰에 Mi 피트 앱의 설치를 요구합니다. 먼저 %1$s(을)를 Mi 피트 애플리케이션에 페어링해야, Mi Bandage(을)를 사용할 수 있습니다. Mi 피트 앱을 사용하고 싶으면, 이것을 선택하세요.</string>
+    <string name="mi_band_setting_auth_standalone">독립</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi 피트 앱 is not required for the Mi Bandage to work. After the pairing, uninstall the Mi 피트 앱 or unpair your device. When restoring the Mi 피트 cooperation, you will need to re-pair your %1$s in the Mi 피트 애플리케이션.</string>
+    <string name="mi_band_setting_auth_key_title">인증 키 설정</string>
+    <string name="mi_band_setting_auth_key_hint">독립 모드를 사용하려면 인증 키가 필요합니다</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
         <ul>
-            <li>Unpair %1$s in the official Mi Fit app</li>
-            <li>Uninstall the official Mi Fit app</li>
-            <li>Download and install the modified Mi Fit app</li>
-            <li>Pair the %1$s in the modified Mi Fit app (do not unpair)</li>
-            <li>Uninstall the modified Mi Fit app</li>
+            <li>공식 Mi 피트 앱에서 %1$s(을)를 페어링 해제하세요</li>
+            <li>공식 Mi 피트 앱을 삭제하세요</li>
+            <li>Download and install the modified Mi 피트 앱</li>
+            <li>Pair the %1$s in the modified Mi 피트 앱 (do not unpair)</li>
+            <li>Uninstall the modified Mi 피트 앱</li>
         </ul>
-        Authentication key can be found at: internal storage/freemyband/mac address.txt
+        인증 키 can be found at: 내부 저장소/freemyband/mac address.txt
     ]]></string>
-    <string name="mi_band_setting_auth_key">Authentication key</string>
-    <string name="mi_band_setting_auth">연결</string>
+    <string name="mi_band_setting_auth_key">인증 키</string>
+    <string name="mi_band_setting_auth">페어링</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_press_band_button">페어링하려면 %1$s 버튼을 누르세요</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
     <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
     <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
 
@@ -104,9 +104,9 @@
 
     <string name="mi_band_setting_distance_unit">Distance unit</string>
 
-    <string name="mi_band_setting_standalone_setting">Standalone settings</string>
-    <string name="mi_band_setting_time_24h">24-hour time format</string>
-    <string name="mi_band_setting_date">Display date on screen</string>
+    <string name="mi_band_setting_standalone_setting">독립 설정</string>
+    <string name="mi_band_setting_time_24h">24시간 형식</string>
+    <string name="mi_band_setting_date">화면에 날짜 표시</string>
     <string name="mi_band_setting_lock_screen">전화 수신 중 시계가 진동할 것입니다</string>
     <string name="mi_band_setting_lock_screen_summary">밴드 전원이 켜진 상태에서 화면을 위로 당겨 잠금 해제</string>
     <string name="mi_band_setting_lift_wrist">손목을 들어올리면 화면 밝히기</string>
@@ -116,7 +116,7 @@
     <string name="mi_band_setting_idle_alert_dnd">방해금지</string>
     <string name="mi_band_setting_night_mode">야간 모드</string>
 
-    <string name="mi_band_setting_discoverable">Discoverable</string>
+    <string name="mi_band_setting_discoverable">발견 가능</string>
 
     <string name="pref_text_title">Text display</string>
     <string name="pref_text_conversion_summary">Convert text message characters</string>
@@ -124,22 +124,22 @@
     <string name="pref_text_conversion_title">Transliteration</string>
     <string name="pref_text_conversion_summary_on">Not recognisable characters conversion, turn off if the Band supports your language or you have installed custom font firmware</string>
     <string name="pref_text_conversion_excluded_title">Excluded characters</string>
-    <string name="pref_text_emoticon_title">Emoji conversion</string>
-    <string name="pref_text_emoticon_summary_on">Convert emoji to emoticon</string>
+    <string name="pref_text_emoticon_title">이모지 변환</string>
+    <string name="pref_text_emoticon_summary_on">이모지를 이모티콘으로 변환</string>
     <string name="pref_text_uppercase_title">Uppercase conversion</string>
     <string name="pref_text_uppercase_summary_on">Convert lowercase to uppercase</string>
     <string name="pref_text_length">Text length, depends on the font used (for example Chinese or Cyrillic characters)</string>
-    <string name="pref_text_length_summary_on">%1$,d characters</string>
+    <string name="pref_text_length_summary_on">%1$,d 글자</string>
 
     <string name="mi_band_setting_menu_visible">Visible menu items</string>
     <string name="mi_band_setting_menu_hidden">Hidden menu items</string>
 
-    <string name="pref_text_conversion_description_title">Description</string>
+    <string name="pref_text_conversion_description_title">설명</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
-        <p>If your Band shows the incoming caller name currently, then you do not need to do the following steps just turn off <i>Incoming call alerts</i> on Mi Fit.</p>
+        <p>If your Band shows the incoming caller name currently, then you do not need to do the following steps just turn off <i>Incoming call alerts</i> on Mi 피트.</p>
         <p>If you do not use <i>Incoming call alerts</i> and the phone language is not English:
         <br/>1. Set your phone language to English.
-        <br/>2. Open Mi Fit app, wait until the font firmware update done. If firmware update doesn\'t start, try reboot your phone.
+        <br/>2. Open Mi 피트 앱, wait until the font firmware update done. If firmware update doesn\'t start, try reboot your phone.
         <br/>3. Open the <i>Profile/Mi Band/Incoming call</i> menu.
         <br/>4. Turn on: <i>Turn on incoming call alerts</i>.
         <br/>5. Turn on: <i>Show contact information</i>.
@@ -164,9 +164,9 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">연결</string>
-    <string name="pref_connected_summary">%1$s and phone connection signals and settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_summary">%1$s and phone 연결 신호 and settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
-    <string name="pref_connected_signals">Connection signals</string>
+    <string name="pref_connected_signals">연결 신호</string>
     <string name="pref_connected_signals_summary">%1$s connecting and not have notification</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_signals_mi_band">%1$s 신호</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">진동</string>
@@ -179,14 +179,14 @@
     <string name="pref_connected_volume_title">볼륨 조절</string>
     <string name="pref_connected_volume_ring_title">Ring volume</string>
 
-    <string name="pref_cat_connected_have_notif">Predefined app signals</string>
+    <string name="pref_cat_connected_have_notif">Predefined app 신호</string>
     <string name="pref_cat_connected_have_notif_default">Predefined and custom settings</string>
     <string name="pref_connected_have_notif_immediate_title">Immediate signal when notification is received</string>
     <string name="pref_connected_have_notif_title">Signal when connecting to phone</string>
     <string name="pref_connected_have_notif_reminder_title">Reminder signal</string>
     <string name="pref_connected_have_notif_screen_off_title">Signal only when the screen is off</string>
     <string name="pref_connected_have_notif_interval_title">Reminder repeat interval</string>
-    <string name="pref_connected_have_notif_counter_title">The number of signals</string>
+    <string name="pref_connected_have_notif_counter_title">The number of 신호</string>
     <string name="pref_connected_have_notif_wakelock_title">Wake up the phone screen</string>
     <string name="pref_connected_have_notif_ongoing_title">Signal persistent (ongoing) notifications</string>
     <string name="pref_connected_have_notif_default_app_title">Signal not recognised app</string>
@@ -195,19 +195,19 @@
     <string name="pref_connected_have_notif_pre_signal_summary_on">Signal (click on the icon to change it) before the actual notification in order to have more time to look at the display</string>
 
     <string name="pref_disconnected">연결 해제</string>
-    <string name="pref_disconnected_summary">%1$s and phone disconnection signals and settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_summary">%1$s and phone 연결 해제 신호 and settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
-    <string name="pref_disconnected_signals">Disconnection signals</string>
-    <string name="pref_disconnected_signals_summary">%1$s and phone disconnection signals, it does not signal when the bluetooth is turned off manually</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_cat_disconnected_signals_mi_band">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_signals">연결 해제 신호</string>
+    <string name="pref_disconnected_signals_summary">%1$s 및 폰 연결 해제 신호, it does not signal when the bluetooth is turned off manually</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_signals_mi_band">%1$s 신호</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Icon displaying and vibration</string>
-    <string name="pref_cat_disconnected_signals">Phone signals</string>
-    <string name="pref_disconnected_ringtone_title">Ringtone</string>
-    <string name="pref_disconnected_vibration_title">Vibration</string>
+    <string name="pref_cat_disconnected_signals">폰 신호</string>
+    <string name="pref_disconnected_ringtone_title">벨소리</string>
+    <string name="pref_disconnected_vibration_title">진동</string>
     <string name="pref_disconnected_wakelock_title">Wake up the phone screen</string>
 
-    <string name="pref_disconnected_settings">Disconnection settings</string>
-    <string name="pref_disconnected_settings_summary">%1$s and phone disconnection settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_settings">연결 해제 설정</string>
+    <string name="pref_disconnected_settings_summary">%1$s and phone 연결 해제 settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_disconnected_settings">Phone settings</string>
     <string name="pref_disconnected_volume_title">Adjust the volume</string>
     <string name="pref_disconnected_volume_ring_title">Ring volume</string>
@@ -219,7 +219,7 @@
     <string name="pref_call_summary">%1$s 신호 설정</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">수신 전화</string>
     <string name="pref_call_title">수신 전화 신호</string>
-    <string name="pref_call_summary_on">활성화 (do not forget to turn off incoming call alerts on Mi Fit app)</string>
+    <string name="pref_call_summary_on">활성화 (do not forget to turn off incoming call alerts on Mi 피트 앱)</string>
     <string name="pref_call_text_title">수신자 번호 표시</string>
     <string name="pref_call_text_summary_on"><![CDATA[활성화 (more information: <i>Settings/Text icons settings)</i>]]></string>
 
@@ -231,13 +231,13 @@
     <string name="pref_call_net_text_title">Incoming internet call signal, display caller ID</string>
     <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
 
-    <string name="pref_cat_call_missed">Missed call</string>
-    <string name="pref_call_missed_title">Missed call signal</string>
+    <string name="pref_cat_call_missed">부재중 전화</string>
+    <string name="pref_call_missed_title">부재중 전화 신호</string>
 
-    <string name="pref_call_missed_net_title">Missed internet call signal, display caller ID</string>
-    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_missed_net_title">부재중 인터넷 전화 신호, 발신자 ID 표시</string>
+    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Duo, 행아웃, 라인, 텔레그램, Zalo</string>
 
-    <string name="pref_call_missed_alert_title">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_call_missed_alert_title">%1$s 신호</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_call_missed_text_prefix_title">Text prefix: %1$s</string>
     <string name="pref_call_missed_text_prefix_summary">If more than one app also uses the icon to differentiate notifications from each other</string>
@@ -251,9 +251,9 @@
     <string name="pref_battery_phone_low_repeat_interval_title">Repeat interval</string>
     <string name="pref_cat_battery_phone_full">배터리 완전 충전</string>
     <string name="pref_battery_phone_full_title">배터리 완전 충전 알림</string>
-    <string name="pref_battery_phone_full_plugged_ac">AC 충전기 power source</string>
-    <string name="pref_battery_phone_full_plugged_usb">USB 포트 power source</string>
-    <string name="pref_battery_phone_full_plugged_wireless">무선 power source</string>
+    <string name="pref_battery_phone_full_plugged_ac">AC 충전기 충전</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB 포트 충전</string>
+    <string name="pref_battery_phone_full_plugged_wireless">무선 충전</string>
     <string name="pref_battery_phone_full_repeat_interval_title">반복 주기</string>
 
     <!-- Mi Band 2 max. 18 chars with 100% -->
@@ -268,21 +268,21 @@
     <string name="pref_language_mi_band_title">언어</string>
 
     <!-- Quick switch -->
-    <string name="details">Details</string>
+    <string name="details">자세히</string>
     <string name="bandages">밴드</string>
-    <string name="connected">Connection and notification signal</string>
-    <string name="disconnected">Disconnection and agent signal</string>
+    <string name="connected">연결 및 알림 신호</string>
+    <string name="disconnected">연결 해제 and agent signal</string>
     <string name="touch">터치 모니터링</string>
 
     <string name="pref_dnd_title">방해 금지 모드</string>
-    <string name="pref_dnd_summary">State of controllers in do not disturb mode</string>
-    <string name="pref_dnd_auto_title">Automatic do not disturb mode</string>
-    <string name="pref_dnd_auto_summary">Controlled by the phone\'s do not disturb mode, it has a higher priority than the scheduled do not disturb mode</string>
+    <string name="pref_dnd_summary">State of controllers in 방해 금지 모드</string>
+    <string name="pref_dnd_auto_title">자동 방해 금지 모드</string>
+    <string name="pref_dnd_auto_summary">Controlled by the phone\'s 방해 금지 모드, it has a higher priority than the scheduled 방해 금지 모드</string>
     <string name="pref_dnd_auto_vibrate">진동 (무음)</string>
     <string name="pref_dnd_auto_silent">방해 금지</string>
     <string name="pref_dnd_scheduled_title">계획된 방해 금지 모드</string>
     <string name="pref_dnd_scheduled_new_title">제목</string>
-    <string name="pref_dnd_remember_state_summary">At the end of the do not disturb mode, turn on all bandages or restore states as those were at the time of start</string>
+    <string name="pref_dnd_remember_state_summary">At the end of the 방해 금지 모드, turn on all bandages or restore states as those were at the time of start</string>
     <string name="pref_dnd_remember_state_on_title">At the end restore bandages\' state</string>
     <string name="pref_dnd_remember_state_off_title">At the end turn on all bandages</string>
     <string name="pref_dnd_mi_fit_scheduled">Activate %1$s DnD mode (disable calls, messages and lift wrist to view info)</string> <!-- Mi Band 2, Amazfit Bip ... -->
@@ -295,19 +295,19 @@
     <string name="message_discovered_mi_band">%1$s 연결 성공</string>
     <string name="message_discovered_no_mi_band">밴드 연결 실패</string>
     <string name="message_discovered_not_found_mi_band">밴드를 찾지 못한 경우, Mi 피트/Play/Discoverable을 활성화하거나 폰 블루투스 설정에서 페어링하세요</string>
-    <string name="message_enable_notification_listener_access">Enable notification access: Settings/Notifications/Notification access</string>
-    <string name="message_enable_notification_listener_access_4_4">Enable notification access: Settings/Security/Notification access</string>
-    <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
+    <string name="message_enable_notification_listener_access">알림 접근 활성화: 설정/알림/알림 접근</string>
+    <string name="message_enable_notification_listener_access_4_4">알림 접근 활성화: 설정/보안/알림 접근</string>
+    <string name="message_enable_notification_policy_access">방해 금지 접근 활성화</string>
     <string name="message_open_settings">설정</string>
 
-    <string name="message_deleted">Deleted</string>
-    <string name="message_undo">Undo</string>
+    <string name="message_deleted">삭제됨</string>
+    <string name="message_undo">되돌리기</string>
 
-    <string name="message_app_chooser_no_selected">Select an application</string>
+    <string name="message_app_chooser_no_selected">애플리케이션 선택</string>
 
-    <string name="message_notification_free_groups">Up to %1$,d groups can be used in normal mode</string>
+    <string name="message_notification_free_groups">Up to %1$,d groups can be used in 일반 모드</string>
 
-    <string name="message_step_goal_free_values">Up to 3 values can be set in normal mode</string>
+    <string name="message_step_goal_free_values">Up to 3 values can be set in 일반 모드</string>
     <string name="message_step_goal_max_values">Maximum 10 values can be set</string>
 
     <string name="message_touch_no_patterns">Press one of the red buttons to record pattern</string>
@@ -315,29 +315,29 @@
     <string name="message_touch_record_music_screen">Record the pattern using the %1$s music screen</string> <!-- %1$s = Mi Band 4  -->
     <string name="message_touch_record_pulse_screen">Record the pattern using the %1$s pulse screen</string> <!-- %1$s = Mi Band 3, Amazfit Cor ... -->
     <string name="message_touch_pattern_error">The specified pattern is similar to a sample of another function, record another</string>
-    <string name="message_touch_free_patterns">You can not use more than %1$,d functions in normal mode</string>
+    <string name="message_touch_free_patterns">You can not use more than %1$,d functions in 일반 모드</string>
     <string name="message_touch_music_player_not_found">Music player not found</string>
     <string name="message_touch_app_launcher1_not_set">App is not set</string>
     <string name="message_touch_app_launcher1_not_found">App is not found: %1$s</string>
     <string name="message_touch_tasker_launcher_not_set">Tasker task is not set</string>
 
-    <string name="message_notification_group_has_no_entry">Select applications with the lower right \'+\' button on the card</string>
+    <string name="message_notification_group_has_no_entry">Select 애플리케이션s with the lower right \'+\' button on the card</string>
 
-    <string name="message_time_alarm_free_counter">Up to 2 alarm can be used in normal mode</string>
+    <string name="message_time_alarm_free_counter">Up to 2 alarm can be used in 일반 모드</string>
     <string name="message_time_alarm_max_counter">Maximum 8 alarms can be used</string>
     <string name="message_time_alarm_enabled">Alarm enabled</string>
     <string name="message_time_alarm_disabled">Alarm disabled</string>
     <string name="message_time_alarm_mi_band_off">Alarm off</string>
 
-    <string name="message_alarm_free_interval">Smaller repeat interval can be set only in premium mode</string>
+    <string name="message_alarm_free_interval">Smaller repeat interval can be set only in 프리미엄 모드</string>
     <string name="message_alarm_mi_band_set_failed">Setting the alarm failed</string>
     <string name="message_alarm_mi_band_clear_failed">Clearing the alarm failed</string>
 
-    <string name="message_premium_mode_only">This feature is only available in premium mode</string>
-    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
-    <string name="message_general_error">Setting failed (connection lost), try again</string>
-    <string name="message_internet_error">No have internet connection</string>
-    <string name="message_gps_enable">Enable the GPS</string>
+    <string name="message_premium_mode_only">이 기능은 프리미엄 모드에서만 사용 가능합니다</string>
+    <string name="message_feature_is_not_supported">%1$s(은)는 이 기능을 지원하지 않습니다</string>
+    <string name="message_general_error">설정 실패 (연결 실패), 다시 시도하세요</string>
+    <string name="message_internet_error">인터넷 연결 없음</string>
+    <string name="message_gps_enable">GPS를 활성화하세요</string>
 
     <string name="message_in_progress">In progress…</string>
     <string name="message_no_data">No data available</string>
@@ -356,9 +356,9 @@
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
-    <p>If you use more applications to control Band, they interfere with each other so temporarily turn off those.</p>
-    <p>If Band is not found, then you can set the MAC address manually when you discover (MAC address is found: Mi Fit/Profil/Band).</p>
-    <p><b>If you have a connection problem:</b>
+    <p>If you use more 애플리케이션s to control Band, they interfere with each other so temporarily turn off those.</p>
+    <p>If Band is not found, then you can set the MAC address manually when you discover (MAC address is found: Mi 피트/Profil/Band).</p>
+    <p><b>If you have a 연결 problem:</b>
     <br>- Check the <i>설정/진단</i> settings
     <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
     <br>- Phone/battery optimization: set Mi Bandage app to not optimized.
@@ -367,13 +367,13 @@
     <br>- Don\'t keep activities: disable
     <br>- Background process limit: standard limit
     <br>- Memory optimization: middle/low/disable</p>
-    <p>If Band is not found or if you are having trouble syncing Mi Fit app, then install the BToolkit, nRF Connect or similar Bluetooth manager app and remove any pairing, bonded device.</p>
+    <p>If Band is not found or if you are having trouble syncing Mi 피트 앱, then install the BToolkit, nRF Connect or similar Bluetooth manager app and remove any pairing, bonded device.</p>
     <p>If you have problem (discover Band, not have notification signal), please try it:
     <br>1. If you installed the Greenify (or other hibernating app) turn it off.
     <br>2. Install Mi Bandage app.
     <br>3. Restart phone.
     <br>4. Turn off, on Bluetooth.
-    <br>5. Open Mi Fit app, wait until the synchronization done, close it.
+    <br>5. Open Mi 피트 앱, wait until the synchronization done, close it.
     <br>6. Open Mi Bandage app, click discover button.</p>]]></string>
 
     <!-- Diagnostic -->
@@ -402,7 +402,7 @@
 
     <string name="notification_group_name">이름</string>
     <string name="notification_group_monitoring">Monitoring notifications</string>
-    <string name="notification_group_monitoring_disabled">Disable notifications (do not show the application notifications)</string>
+    <string name="notification_group_monitoring_disabled">Disable notifications (do not show the 애플리케이션 notifications)</string>
     <string name="notification_group_alert_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="notification_group_text">Text display</string>
     <string name="notification_group_text_app_name">앱 이름</string>
@@ -423,8 +423,8 @@
     <string name="notification_group_reminder">Reminder signal</string>
     <string name="notification_group_ongoing">Signal persistent (ongoing) notifications</string>
     <string name="notification_group_screen_off">Signal only when the screen is off</string>
-    <string name="notification_group_counter_title">The number of signals</string>
-    <string name="notification_group_repeat_title">Repeat signals</string>
+    <string name="notification_group_counter_title">The number of 신호</string>
+    <string name="notification_group_repeat_title">Repeat 신호</string>
     <string name="notification_group_wakelock">Wake up the phone screen</string>
     <string name="notification_group_remove_title">Remove notification</string>
     <string name="notification_group_remove_from_device">From the phone\'s notification drawer</string>
@@ -504,7 +504,7 @@
         <p>If you use the predefined apps, but want to disable some notifications, then create new notification group with <i>disable notifications</i> setting and add the apps.</p>
         ]]>
     </string>
-    <!--<p>Predefined signals can be disabled: <i>Connection and notification settings/Have notification</i>.</p>-->
+    <!--<p>Predefined 신호 can be disabled: <i>연결 and notification settings/Have notification</i>.</p>-->
 
     <!-- MiBandageApp chooser dialog -->
     <string name="action_search">검색</string>
@@ -516,7 +516,7 @@
     <string name="touch_tab_testing">작동 확인</string>
     <string name="touch_tab_settings">설정</string>
 
-    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
+    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi 피트</string>
     <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
 
@@ -532,7 +532,7 @@
 
     <string name="touch_call_end_title">전화 거절, 종료</string>
 
-    <string name="touch_call_mute_title">Call mute</string>
+    <string name="touch_call_mute_title">전화 음소거</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Only if you have an incoming call</string>
     <string name="touch_call_mute_recognition_title">On incoming call</string>
     <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
@@ -554,10 +554,10 @@
     <string name="touch_call_out_speakerphone_title">Speakerphone</string>
     <string name="touch_call_out_call_text">Call out: %1$s</string>
 
-    <string name="touch_weather_title">Weather forecast</string>
-    <string name="touch_weather_location">Location</string>
+    <string name="touch_weather_title">일기 예보</string>
+    <string name="touch_weather_location">위치 업데이트</string>
     <string name="touch_weather_precipitation">침적</string>
-    <string name="touch_weather_cloud_cover">구름 표지e</string>
+    <string name="touch_weather_cloud_cover">구름 cover</string>
 
     <string name="touch_repeat_notif_title">Repeat notifications</string>
     <string name="touch_repeat_notif_clear_all">Clear all notifications after repetition</string>
@@ -596,7 +596,7 @@
     <string name="touch_tasker_launcher_no_task_title">Select an task</string>
 
     <string name="touch_testing_title">터치 모니터링</string>
-    <string name="touch_testing_second">sec.</string>
+    <string name="touch_testing_second">초</string>
 
     <string name="touch_setting_detection_time_title">Touch detection time</string>
     <string name="touch_setting_detection_time_hint">If you have a lower value, the music screen should be closed faster</string>
@@ -786,15 +786,15 @@
 
     <string name="pulse_details">Pulse details</string>
 
-    <string name="message_pulse_premium_mode_only">Online and offline pulse measurement can only be used in premium mode at the same time</string>
+    <string name="message_pulse_premium_mode_only">Online and offline pulse measurement can only be used in 프리미엄 모드 at the same time</string>
 
     <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Online pulse measurement</u></b>
-        <p>Bluetooth connection is required for monitoring the pulse.</p>
+        <p>Bluetooth 연결 is required for monitoring the pulse.</p>
         <p>Pulse monitor is repeated several times if the resulting value is invalid.<p>
         <img src="ic_pulse_offline"> <b><u>Offline pulse measurement</u></b>
-        <p>No Bluetooth connection required for pulse measurement.</p>
-        <p>Bluetooth connection is required for timed start and stop.</p>
-        <p>Manually launched measurements (Band, Mi Fit app) are also synchronized.<p>
+        <p>No Bluetooth 연결 required for pulse measurement.</p>
+        <p>Bluetooth 연결 is required for timed start and stop.</p>
+        <p>Manually launched measurements (Band, Mi 피트 앱) are also synchronized.<p>
         ]]>
     </string>
 
@@ -803,7 +803,7 @@
     <string name="alarm_mi_band_service">Lost background service</string>
     <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
     <string name="alarm_mi_band_clock">Use the phone\s alarm clock, if background service is down (increases battery consumption)</string>
-    <string name="alarm_mi_band_dnd">Do not disturb mode</string>
+    <string name="alarm_mi_band_dnd">방해 금지 모드</string>
     <string name="alarm_mi_band_interval_title">Repeat interval of alarm setting</string>
     <string name="alarm_mi_band_time_set_next">Timing of next setting</string>
     <string name="alarm_mi_band_time">Timing of next alarm</string>
@@ -823,26 +823,26 @@
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm time: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Band signal</u></b>
-        <p>When specified period of time expires, Band send signals if not connected to the phone.</p>
-        <not_support_icon_text><p>App uses alarm function of Mi Fit to alert (overwrite 10. setting).</p></not_support_icon_text>
+        <p>When specified period of time expires, Band send 신호 if not connected to the phone.</p>
+        <not_support_icon_text><p>App uses alarm function of Mi 피트 to alert (overwrite 10. setting).</p></not_support_icon_text>
         <not_support_icon_text><p>The alarm will be repeated several times if the Band do not detect any movement (because it uses the Band alarm).</p></p></not_support_icon_text>
-        <support_icon_text><p>App uses reminder function of Mi Fit to alert.</p></support_icon_text>
+        <support_icon_text><p>App uses reminder function of Mi 피트 to alert.</p></support_icon_text>
         <p>Before switching off Bluetooth or uninstalling the app you need to deactivate Band signal.</p>
-        <not_support_icon_text><p>If you remove the application when the alarm is on, then you can disable it with turning on and off again Mi Fit 10. alarm setting.</p></not_support_icon_text>
+        <not_support_icon_text><p>If you remove the 애플리케이션 when the alarm is on, then you can disable it with turning on and off again Mi 피트 10. alarm setting.</p></not_support_icon_text>
 
-        <img src="ic_phone_android"> <b><u>Phone signals</u></b>
-        <p>When specified period of time expires, phone send signals repeatedly if not connected to the bracelet.<p>
+        <img src="ic_phone_android"> <b><u>Phone 신호</u></b>
+        <p>When specified period of time expires, phone send 신호 repeatedly if not connected to the bracelet.<p>
         <p>This makes it easier to find the phone. If someone else finds the phone and it is locked he does not know who to notify, so you can display a message.</p>
         <p>When bracelet is connected, alarm stops.</p>
         <p>Must be enabled to display notification on the lock screen.</p>]]>
     </string>
 
     <!-- Time  monitoring -->
-    <string name="time_tab_alarm">Alarm</string>
-    <string name="time_tab_timer">Timer</string>
-    <string name="time_tab_stopper">Stopwatch</string>
+    <string name="time_tab_alarm">알람</string>
+    <string name="time_tab_timer">타이머</string>
+    <string name="time_tab_stopper">스톱워치</string>
     <string name="time_tab_lap">Lap time</string>
-    <string name="time_tab_interval">Interval</string>
+    <string name="time_tab_interval">주기</string>
 
     <string name="action_alarm_device">Phone alarm</string>
     <string name="time_alarm_mi_band_signal">Signal when phone alarm sounds</string>
@@ -893,7 +893,7 @@
     <string name="time_text">Show message on alarm</string>
     <string name="time_text_message">Text</string>
 
-    <string name="time_enable_bluetooth">Turn on Bluetooth</string>
+    <string name="time_enable_bluetooth">블루투스 켜기</string>
 
     <string name="action_time_alarm_sort_state_asc">State ascending</string>
     <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
@@ -902,33 +902,33 @@
     <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_time"><![CDATA[
-        <p><b>Turn off the alarm, timer and stopwatch before removing the application.</b></p>
+        <p><b>Turn off the alarm, timer and stopwatch before removing the 애플리케이션.</b></p>
         <img src="ic_device_alarm"> <b><u>Signal when phone alarm sounds</u></b>
         <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from the Google Play.</p>
         <img src="ic_miband_bell"> <b><u>Bell</u></b>
-        <p>Bluetooth connection is required for alarm, it alarms just only once for 10 seconds.</p>
+        <p>Bluetooth 연결 is required for alarm, it alarms just only once for 10 seconds.</p>
         <img src="ic_alarm"> <b><u>Alarm</u></b>
-        <p>Bluetooth connection is not required for alarm, app uses alarm function of Mi Fit to alert (overwrite 1. - 8. setting).
+        <p>Bluetooth 연결 is not required for alarm, app uses alarm function of Mi 피트 to alert (overwrite 1. - 8. setting).
         <br>The alarm will be repeated several times if the Band do not detect any movement (because it uses the Band\'s alarm).
         <br>Minute accuracy, Band does not handle seconds at alarm.</p>
-        <p>Reminder signal and showing message require Bluetooth connection.</p>
+        <p>Reminder signal and showing message require Bluetooth 연결.</p>
     ]]></string>
 
     <!-- Reminder -->
-    <string name="reminder_tab_once">Once</string>
-    <string name="reminder_tab_weekly">Weekly</string>
+    <string name="reminder_tab_once">한 번</string>
+    <string name="reminder_tab_weekly">매 주</string>
 
-    <string name="reminder_repeat">Hourly repetition</string>
-    <string name="reminder_notification_shade">Notify me on the phone</string>
+    <string name="reminder_repeat">시간마다 반복</string>
+    <string name="reminder_notification_shade">폰에 알림</string>
 
-    <string name="message_reminder_enabled">Reminder enabled</string>
+    <string name="message_reminder_enabled">리마인더 enabled</string>
     <string name="message_reminder_disabled">Reminder disabled</string>
     <string name="message_reminder_no_more">Can not record more reminders</string>
     <string name="message_reminder_sync">Synchronize %1$s reminders (deleting and setting reminders on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_reminder"><![CDATA[
-        <not_support_icon_text>Bluetooth connection is required to display the reminder.</not_support_icon_text>
-        <support_icon_text>App uses reminder function of Mi Fit, so in Mi Fit you have to clear the reminders.</support_icon_text>
+        <not_support_icon_text>Bluetooth 연결 is required to display the reminder.</not_support_icon_text>
+        <support_icon_text>App uses reminder function of Mi 피트, so in Mi 피트 you have to clear the reminders.</support_icon_text>
         ]]>
     </string>
 
@@ -950,7 +950,7 @@
 
     <string name="weather_forecast_title">일기예보</string>
 
-    <string name="weather_display">Display</string>
+    <string name="weather_display">디스플레이</string>
 
     <string name="weather_precipitation_rain">비</string>
     <string name="weather_precipitation_snow">눈</string>
@@ -959,54 +959,54 @@
     <!-- Watch face -->
     <string name="watch_face_tab_download">다운로드</string>
     <string name="watch_face_tab_upload">업로드</string>
-    <string name="watch_face_tab_upload_mi_fit">Upload via Mi Fit</string>
+    <string name="watch_face_tab_upload_mi_fit">Mi 피트를 통해 업로드</string>
 
-    <string name="watch_face_download_title">Download watch face</string>
+    <string name="watch_face_download_title">디스플레이 다운로드</string>
     <string name="watch_face_download_path">Save the downloaded watch face file to here</string>
     <string name="watch_face_download_move">%1$s directory</string>  <!-- %1$s = Download ... -->
     <string name="watch_face_download_move_hint">Move the downloaded watch face files from the %1$s directory</string>
 
-    <string name="watch_face_upload_title">시계 화면 변경</string>
+    <string name="watch_face_upload_title">디스플레이 변경</string>
 
-    <string name="watch_face_upload_prepare">Preparing for the upload…</string>
-    <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
+    <string name="watch_face_upload_prepare">업로드 준비 중…</string>
+    <string name="watch_face_upload_progress">%1$,d%% 업로드 중</string>
 
     <string name="watch_face_upload_init_title">초기화</string>
-    <string name="watch_face_upload_init_content"><![CDATA[Mi 피트 애플리케이션에서 공장 시계 화면 중 하나를 설정하세요.
-        <br>업로드할 때 같은 시계 화면을 선택해야 합니다.
+    <string name="watch_face_upload_init_content"><![CDATA[Mi 피트 애플리케이션에서 초기 디스플레이 중 하나를 설정하세요.
+        <br>업로드할 때 같은 디스플레이를 선택해야 합니다.
         <br><i>(초기화는 한 번만 요구됩니다)</i>
     ]]></string>
 
     <string name="watch_face_upload_upload_title">업로드</string>
-    <string name="watch_face_upload_empty_title"><![CDATA[Watch face not found
+    <string name="watch_face_upload_empty_title"><![CDATA[디스플레이 찾을 수 없음
         <br><i>(%1$s)</i>
     ]]></string>
 
-    <string name="message_watch_face_upload_error">Initialization is required</string>
-    <string name="message_watch_face_file_error">Invalid watch face file</string>
+    <string name="message_watch_face_upload_error">초기화해야 합니다</string>
+    <string name="message_watch_face_file_error">유효하지 않은 다스플레이 파일</string>
 
     <string name="info_dialog_watch_face_download"><![CDATA[
-        <img src="ic_file_download_outline"> <b><u>Download</u></b>
+        <img src="ic_file_download_outline"> <b><u>다운로드</u></b>
         <p>Download watch faces from the web sites.</p>
 
-        <img src="ic_action_download"> <b><u>Move the files</u></b>
-        <p>If necessary, move the downloaded watch face files from the Download directory to the MiBandage directory.</p>
+        <img src="ic_action_download"> <b><u>파일 이동</u></b>
+        <p>필요한 경우, 다운로드한 디스플레이 파일을 Download 디렉토리에서 MiBandage 디렉토리로 이동하세요.</p>
         ]]>
     </string>
 
-    <string name="info_dialog_watch_face"><![CDATA[<b><u>Watch face change procedure:</u></b>
-        <p><img src="ic_mi_fit_init"> <b>Initialization</b></p>
-        <p>Resets the watch face\'s states to the original in the Mi Fit application, upload the first factory watch face.</p>
+    <string name="info_dialog_watch_face"><![CDATA[<b><u>디스플레이 변경 과정:</u></b>
+        <p><img src="ic_mi_fit_init"> <b>초기화</b></p>
+        <p>Resets the watch face\'s states to the original in the Mi 피트 애플리케이션, upload the first factory watch face.</p>
 
-        <img src="ic_mi_fit_upload"> <b>Upload</b>
-        <p>Upload the selected watch face in the Mi Fit. It replaces the last uploaded factory watch face.</p>
+        <img src="ic_mi_fit_upload"> <b>업로드</b>
+        <p>Upload the selected watch face in the Mi 피트. It replaces the last uploaded factory watch face.</p>
 
         <br><p><b><u>Upload multiple watch face</u></b></p>
-        <p><img src="ic_action_launch_mi_fit"> Launching Mi Fit without watch face replacing, upload the second factory watch face.</p>
-        <p><img src="ic_mi_fit_upload">  Upload the selected watch face in the Mi Fit.</p>
+        <p><img src="ic_action_launch_mi_fit"> Launching Mi 피트 without watch face replacing, upload the second factory watch face.</p>
+        <p><img src="ic_mi_fit_upload">  Upload the selected watch face in the Mi 피트.</p>
         <p>Repeat these steps.</p>
 
-        <br><p>In the Mi Fit the watch face\'s picture will not change.</p>
+        <br><p>In the Mi 피트 the watch face\'s picture will not change.</p>
         ]]>
     </string>
 
@@ -1031,21 +1031,21 @@
     </string>
 
     <!-- Theme -->
-    <string name="theme_tab_theme">Theme</string>
-    <string name="theme_tab_widget">Widgets</string>
+    <string name="theme_tab_theme">테마</string>
+    <string name="theme_tab_widget">위젯</string>
     <string name="theme_tab_notification">Notification shade</string>
 
-    <string name="theme_title">Select a theme</string>
-    <string name="theme_light">Light</string>
-    <string name="theme_dark">Dark</string>
-    <string name="theme_background_color_title">Background color</string>
+    <string name="theme_title">테마 선택</string>
+    <string name="theme_light">밝음</string>
+    <string name="theme_dark">어두움</string>
+    <string name="theme_background_color_title">배경 색</string>
 
     <string name="theme_widget_foreground_title">Foreground</string>
     <string name="theme_widget_foreground_color_title">Icon and text color</string>
     <string name="theme_widget_background_title">Background</string>
-    <string name="theme_widget_background_color_title">Color</string>
-    <string name="theme_widget_background_shape_title">Shape</string>
-    <string name="theme_widget_background_transparency_title">Transparency</string>
+    <string name="theme_widget_background_color_title">색</string>
+    <string name="theme_widget_background_shape_title">모양</string>
+    <string name="theme_widget_background_transparency_title">투명도</string>
     <string name="theme_widget_background_logo_visibility">Show Mi Bandage logo</string>
 
     <string name="theme_widget_touch_event_title">Touch event</string>
@@ -1057,13 +1057,13 @@
     <string name="theme_notification_text_color_title">Text color</string>
 
     <!-- Backup and restore -->
-    <string name="backup_tab_backup">Backup</string>
-    <string name="backup_tab_restore">Restore</string>
+    <string name="backup_tab_backup">백업</string>
+    <string name="backup_tab_restore">복원</string>
 
-    <string name="backup_time">Backup time</string>
-    <string name="backup_path">Backup location</string>
-    <string name="backup_auto">Automatic backup</string>
-    <string name="backup_auto_time">Time</string>
+    <string name="backup_time">백업 시간</string>
+    <string name="backup_path">백업 위치</string>
+    <string name="backup_auto">자동 백업</string>
+    <string name="backup_auto_time">시간</string>
 
     <string name="backup_process">Preparation…</string>
     <string name="backup_process_activity">Activity and sleep %1$,d%%</string>
@@ -1078,7 +1078,7 @@
     <string name="backup_process_settings">Settings %1$,d%%</string>
     <string name="backup_process_cloud">Cloud %1$,d%%</string>
 
-    <string name="backup_restore_activity">Activity and sleep</string>
+    <string name="backup_restore_activity">활동 및 수면</string>
     <string name="backup_restore_pulse">심박수</string>
     <string name="backup_restore_notification">Notification</string>
     <string name="backup_restore_touch">터치</string>
@@ -1089,11 +1089,11 @@
     <string name="backup_restore_disconnected_agent">Agent</string>
     <string name="backup_restore_settings">설정</string>
 
-    <string name="backup_restore_reset">After restoring, Bluetooth will be turning off and on and the application will restart.</string>
+    <string name="backup_restore_reset">After restoring, Bluetooth will be turning off and on and the 애플리케이션 will restart.</string>
 
-    <string name="backup_cloud_drive_login">Google Drive sign in</string>
-    <string name="backup_cloud_drive_logout">Google Drive sign out</string>
-    <string name="backup_cloud_sync_time">Upload time</string>
+    <string name="backup_cloud_drive_login">Google 드라이브 로그인</string>
+    <string name="backup_cloud_drive_logout">Google 드라이브 로그아웃</string>
+    <string name="backup_cloud_sync_time">업로드 시간</string>
     <string name="backup_cloud_only_wifi">Over wi-fi only</string>
 
     <!-- Rewarded mode -->
@@ -1113,7 +1113,7 @@
 
     <string name="message_rewarded_error">영상 불러오기 실패</string>
 
-    <!-- Premium mode -->
+    <!-- 프리미엄 모드 -->
     <string name="purchase_advantage_title">프리미엄 모드 혜택</string>
     <string name="purchase_advantage"><![CDATA[
         <p>- 광고 없음</p>
@@ -1129,7 +1129,7 @@
     <string name="purchase_policy_title">프리미엄 모드 이용 약관</string>
     <string name="purchase_policy"><![CDATA[
         <p>- 저는 앱의 작동을 확인하였으며 그것은 적절히 작동하고 있습니다. (I have tested the app and it is working properly.)</p>
-        <p>- 저는 제가 버그, 소프트웨어의 변경으로 인한 소프트웨어 오류, 하드웨어 환경 또는 다른 애플리케이션 사용으로 인한 배상이나 환불을 요구할 수 없다는 것을 알고 있습니다. (I am aware of that I can not require compensation or refund due to bugs, software errors caused by changes in the software, hardware environment or using other applications.</p>
+        <p>- 저는 제가 버그, 소프트웨어의 변경으로 인한 소프트웨어 오류, 하드웨어 환경 또는 다른 애플리케이션 사용으로 인한 배상이나 환불을 요구할 수 없다는 것을 알고 있습니다. (I am aware of that I can not require compensation or refund due to bugs, software errors caused by changes in the software, hardware environment or using other 애플리케이션s.</p>
         <p>- 모든 판매는 최종적이며 환불될 수 없습니다(Google 환불 정책 제외). (All sales are final and can not be refund (except Google refund policy).)</p>
         <p>- 보장이 포함되어 있지 않습니다. (There is no warranty included.)</p>
         <br><p><i>구매 후에는 앱을 다시 시작해야 합니다.</i></p>
@@ -1138,7 +1138,7 @@
     <!--<string name="purchase_price">Price:</string>-->
     <string name="purchase_agree">이용 약관에 동의합니다.</string>
     <string name="purchase_order_id">주문 ID</string>
-    <string name="purchase_order_id_help">Copy from:
+    <string name="purchase_order_id_help">아래에서 복사하세요:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
     <string name="purchase_button_purchase">구매</string>
@@ -1160,9 +1160,9 @@
 
     <string name="privacy_policy_collect_title">수집하는 정보</string>
     <string name="privacy_policy_collect"><![CDATA[
-        <p>- We only collect anonymous information.</p>
-        <p>- We collect information at the application level about the services that you use and how you use them (Google Firebase Platform).</p>
-        <p>- We collect information at the application level like bugs, errors and crashes to provide improvements (Google Firebase Platform).</p>
+        <p>- 저희는 익명 정보만 수집합니다.</p>
+        <p>- 저희는 애플리케이션 레벨에서 당신이 사용하는 서비스와 그것들을 어떻게 사용하는 지에 대한 정보를 수집합니다 (Google Firebase Platform).</p>
+        <p>- 저희는 개선을 제공하기 위해 애플리케이션 레벨에서 버그, 오류 및 크래쉬와 같은 정보를 수집합니다 (Google Firebase Platform).</p>
         <p>- Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.</p>
         - We do not share any data with other companies and organizations.
     ]]></string>
@@ -1182,9 +1182,9 @@
 
     <!-- Vibration dialog -->
     <string name="vibration_title">진동 설정</string>
-    <string name="vibration_intensity">Duration</string>
+    <string name="vibration_intensity">길이</string>
     <string name="vibration_pause">Pause</string>
-    <string name="vibration_times">Times</string>
+    <string name="vibration_times">횟수</string>
 
     <!-- Hack -->
     <string name="info_dialog_hack"><![CDATA[폰에서 해킹 도구가 감지되었습니다.
