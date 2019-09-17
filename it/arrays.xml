@@ -35,11 +35,13 @@
         <item>Stato</item>
         <item>Meteo</item>
         <item>Attività</item>
+        <item>Activities</item>
         <item>Notifiche</item>
         <item>Altro</item>
         <item>NFC</item>
         <item>Sveglia</item>
         <item>Orologio</item>
+        <item>Event reminder</item>
         <item>Settings</item>
         <item>Bussola</item>
         <item>Musica</item>
@@ -190,25 +192,33 @@
         <item>Doppio tocco</item>
         <item>Triplo tocco</item>
         <item>Tocco lungo</item>
+        <item>Button</item>
     </string-array>
 
-    <string-array name="touch_recognition_press_mi_band_4">
+    <string-array name="touch_recognition_press_mi_band_4_gtr">
         <item>Nessuno</item>
         <item>Tasto muto</item>
         <item>Doppio tocco</item>
         <item>Triplo tocco</item>
         <item>Pulsante di rifiuto</item>
+        <item>Button</item>
     </string-array>
 
-    <string-array name="touch_recognition_press_amazfit_cor">
+    <string-array name="touch_recognition_press_amazfit_bip_cor">
         <item>Nessuno</item>
         <item>Pulsante verden</item>
         <item>Doppio tocco</item>
         <item>Triplo tocco</item>
         <item>Pulsante rosso</item>
+        <item>Button</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method">
+        <item>Pattern recognition</item>
+        <item>Button press counting</item>
+    </string-array>
+
+    <string-array name="pref_touch_detection_method_mi_band_3">
         <item>Power saving</item>
         <item>Power saving (+pulse)</item>
 <!--        <item>Power saving (find phone)</item>-->
@@ -218,8 +228,13 @@
 
     <string-array name="touch_recognition_start_trigger">
         <item>Nessuno</item>
-        <item>Schema</item>
-        <item>Pressione prolungata del tasto</item>
+        <item>Tocco</item>
+    </string-array>
+
+    <string-array name="touch_recognition_start_trigger_button">
+        <item>None</item>
+        <item>Button press</item>
+        <item>Long press the button</item>
     </string-array>
 
     <string-array name="pref_weather_unit">
@@ -369,6 +384,30 @@
         <item>Русский</item>
         <item>繁體中文</item>
         <item>简体中文</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_gtr">
+        <item>Not set (impostato da Mi Fit)</item>
+        <item>Predefinito (per telefono)</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Português</item>
+        <item>Русский</item>
+        <item>Українська</item>
+        <item>Deutsche</item>
+        <item>Italiano</item>
+        <item>Français</item>
+        <item>Polski</item>
+        <item>Nederlands</item>
+        <item>Türkçe</item>
+        <item>Bahasa Indonesia</item>
+        <item>한국어</item>
+        <item>Tiếng Việt</item>
+        <item>ไทย</item>
+        <item>简体中文</item>
+        <item>繁體中文</item>
+        <item>日本語</item>
+        <item>عربى</item>
     </string-array>
 
 </resources>

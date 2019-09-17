@@ -35,11 +35,13 @@
         <item>Estado</item>
         <item>Tiempo</item>
         <item>Ejercicio</item>
+        <item>Activities</item>
         <item>Notificaciones</item>
         <item>Más</item>
         <item>NFC</item>
         <item>Alarma</item>
         <item>Reloj</item>
+        <item>Event reminder</item>
         <item>Configuraciones</item>
         <item>Brújula</item>
         <item>Música</item>
@@ -190,25 +192,33 @@
         <item>Doble pulsación</item>
         <item>Triple pulsación</item>
         <item>Gran pulsación</item>
+        <item>Button</item>
     </string-array>
 
-    <string-array name="touch_recognition_press_mi_band_4">
+    <string-array name="touch_recognition_press_mi_band_4_gtr">
         <item>Ninguno</item>
         <item>Botón de silencio</item>
         <item>Doble pulsación</item>
         <item>Triple pulsación</item>
         <item>Botón de rechazar</item>
+        <item>Button</item>
     </string-array>
 
-    <string-array name="touch_recognition_press_amazfit_cor">
+    <string-array name="touch_recognition_press_amazfit_bip_cor">
         <item>Ninguno</item>
         <item>Botón verde</item>
         <item>Doble pulsación</item>
         <item>Triple pulsación</item>
         <item>Botón rojo</item>
+        <item>Button</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method">
+        <item>Pattern recognition</item>
+        <item>Button press counting</item>
+    </string-array>
+
+    <string-array name="pref_touch_detection_method_mi_band_3">
         <item>Power saving</item>
         <item>Power saving (+pulse)</item>
 <!--        <item>Power saving (find phone)</item>-->
@@ -217,6 +227,11 @@
     </string-array>
 
     <string-array name="touch_recognition_start_trigger">
+        <item>Ninguno</item>
+        <item>Pulsar</item>
+    </string-array>
+
+    <string-array name="touch_recognition_start_trigger_button">
         <item>Ninguno</item>
         <item>Patrón</item>
         <item>Mantén presionado el botón</item>
@@ -369,6 +384,30 @@
         <item>Русский</item>
         <item>繁體中文</item>
         <item>简体中文</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_gtr">
+        <item>No establecido (Definir por Mi Fit)</item>
+        <item>Predeterminado (Por teléfono)</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Português</item>
+        <item>Русский</item>
+        <item>Українська</item>
+        <item>Deutsche</item>
+        <item>Italiano</item>
+        <item>Français</item>
+        <item>Polski</item>
+        <item>Nederlands</item>
+        <item>Türkçe</item>
+        <item>Bahasa Indonesia</item>
+        <item>한국어</item>
+        <item>Tiếng Việt</item>
+        <item>ไทย</item>
+        <item>简体中文</item>
+        <item>繁體中文</item>
+        <item>日本語</item>
+        <item>عربى</item>
     </string-array>
 
 </resources>

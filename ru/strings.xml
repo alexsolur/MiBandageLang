@@ -351,6 +351,7 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit Bip</b>
     <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -599,7 +600,8 @@
     <string name="touch_testing_second">с</string>
 
     <string name="touch_setting_detection_time_title">Время распознавания касаний</string>
-    <string name="touch_setting_detection_time_hint">Если вы уменьшите значение, экран музыки должен быть закрыт быстрее</string>
+    <string name="touch_setting_detection_time_music_hint">Если вы уменьшите значение, экран музыки должен быть закрыт быстрее</string>
+    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
 
     <string name="touch_setting_detection_method_title">Способ определения касаний</string>
 
@@ -614,20 +616,22 @@
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>Нажатие считается корректным, если происходит переход на новый пункт отображения (рекомендуется повернуть запястье перед нажатием).</mi_band_2>
+        <b><u>Pattern recognition</u></b>
         <p>Используется время между нажатиями, а не время, прошедшее с первого нажатия.</p>
-        <p>Во время входящего звонка не обрабатываются следующие функции: Положение устройства, Повтор уведомлений и Воспроизведение во избежание нежелательных срабатываний.</p>
-        <p>Распознанная функция не выполняется в тестовом режиме.</p>
-        <p>Вибрация браслета срабатывает, если есть действительная комбинация с учётом текущего состояния устройства (ответ на звонок, отмена звонка только во время входящего звонка и т. д.…).</p>
-        <p>Браслет вибрирует один раз, когда распознаёт комбинацию.</p>
-        <p>Браслет вибрирует дважды, когда не распознаёт ни одну комбинацию после самой длинной (если <i>Не распознанные нажатия</i> включены).</p>
-        <p>Например, верный набор:
+        Например, верный набор:
         <br>- касание
         <br>- касание, 1 секунда, касание
         <br>- касание, 1 секунда, касание, 1 секунда, касание
         <br>- касание, 2 секунда, касание
         <br>- касание, 2 секунда, касание, 1 секунда, касание
         <br>- касание, 2 секунда, касание, 2 секунды, касание
-        </p>
+        <p><b><u>Button press counting</u></b></p>
+        <p>It monitors the number of button presses as long as the time between button presses is less than the touch detection time setting.</p>
+        <br><p>Во время входящего звонка не обрабатываются следующие функции: Положение устройства, Повтор уведомлений и Воспроизведение во избежание нежелательных срабатываний.</p>
+        <p>Распознанная функция не выполняется в тестовом режиме.</p>
+        <p>Вибрация браслета срабатывает, если есть действительная комбинация с учётом текущего состояния устройства (ответ на звонок, отмена звонка только во время входящего звонка и т. д.…).</p>
+        <p>Браслет вибрирует один раз, когда распознаёт комбинацию.</p>
+        <p>Браслет вибрирует дважды, когда не распознаёт ни одну комбинацию после самой длинной (если <i>Не распознанные нажатия</i> включены).</p>
     ]]></string>
 
     <!-- Touch monitoring info dialog Mi Band 3/Amazfit Cor-->
@@ -1227,6 +1231,7 @@
     <string name="action_keep_editing">Продолжить</string>
     <string name="action_new">Новый</string>
     <string name="action_start_stop">Пуск/Пауза</string>
+    <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">График</string>
     <string name="action_chart_normalize_minute">Измеренные значения</string>

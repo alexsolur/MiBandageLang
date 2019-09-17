@@ -350,6 +350,7 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit Bip</b>
     <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -598,7 +599,8 @@
     <string name="touch_testing_second">sec.</string>
 
     <string name="touch_setting_detection_time_title">Touch detection time</string>
-    <string name="touch_setting_detection_time_hint">If you have a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
 
     <string name="touch_setting_detection_method_title">Touch detection method</string>
 
@@ -613,20 +615,22 @@
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>The touch is valid when the display of Band changes (so it is advisable to rotate your wrist before touching).</mi_band_2>
-        <p>It monitors elapsed time between touches, not the elapsed time to first touch.</p>
-        <p>When you have an incoming call the phone does not recognise the following functions in order to ease touch input: location of the phone, repeat notifications, music control.</p>
-        <p>In test mode does not execute the function of recognised pattern.</p>
-        <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
-        <p>Band vibrates once, when recognise a pattern.</p>
-        <p>Band vibrates twice, when not recognise any pattern after the longest pattern (if <i>Not recognisable touch pattern signal</i> is set).</p>
-        <p>Valid touching examples:
+        <b><u>Pattern recognition</u></b>
+        <p>Monitors the elapsed time between button presses.</p>
+        Valid touch examples:
         <br>- touch
         <br>- touch and 1sec waiting, touch
         <br>- touch and 1sec waiting, touch and 1sec waiting, touch
         <br>- touch and 2sec waiting, touch
         <br>- touch and 2sec waiting, touch and 1sec waiting, touch
         <br>- touch and 2sec waiting, touch and 2sec waiting, touch
-        </p>
+        <p><b><u>Button press counting</u></b></p>
+        <p>It monitors the number of button presses as long as the time between button presses is less than the touch detection time setting.</p>
+        <br><p>When you have an incoming call the phone does not recognise the following functions in order to ease touch input: location of the phone, repeat notifications, music control.</p>
+        <p>In test mode does not execute the function of recognised pattern.</p>
+        <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
+        <p>Band vibrates once, when recognise a pattern.</p>
+        <p>Band vibrates twice, when not recognise any pattern after the longest pattern (if <i>Not recognisable touch pattern signal</i> is set).</p>
     ]]></string>
 
     <!-- Touch monitoring info dialog Mi Band 3/Amazfit Cor-->
@@ -927,7 +931,7 @@
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text>Bluetooth connection is required to display the reminder.</not_support_icon_text>
-        <support_icon_text>App uses reminder function of Mi Fit, so in Mi Fit you have to clear the reminders.</support_icon_text>
+         <support_icon_text>App uses reminder function of Mi Fit, so you need to use either Mi Bandage or Mi Fit reminder settings. If there are reminders in both applications, it may cause malfunction.</support_icon_text>
         ]]>
     </string>
 
@@ -1226,6 +1230,7 @@
     <string name="action_keep_editing">Keep editing</string>
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
+    <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">Chart</string>
     <string name="action_chart_normalize_minute">Measured values</string>

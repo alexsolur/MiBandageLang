@@ -35,11 +35,13 @@
         <item>Status</item>
         <item>Weather</item>
         <item>Workout</item>
+        <item>Activities</item>
         <item>Notification</item>
         <item>More</item>
         <item>NFC</item>
         <item>Budík</item>
         <item>Časovač</item>
+        <item>Event reminder</item>
         <item>Nastavení</item>
         <item>Kompas</item>
         <item>Hudba</item>
@@ -77,7 +79,6 @@
         <item>9 minut</item>
         <item>10 minut</item>
     </string-array>
-
 
     <string-array name="pref_abandoned_notif_interval">
         <item>10 minut</item>
@@ -130,20 +131,9 @@
         <item>Autor: Album - Název</item>
     </string-array>
 
-    <string-array name="touch_music_function_info_values">
-        <item>TITLE</item>
-        <item>ARTIST_TITLE</item>
-        <item>ARTIST_ALBUM_TITLE</item>
-    </string-array>
-
     <string-array name="touch_camera_app">
         <item>Výchozí (je vyžadován root)</item>
         <item>Open Camera</item>
-    </string-array>
-
-    <string-array name="touch_camera_app_values">
-        <item></item>
-        <item>net.sourceforge.opencamera</item>
     </string-array>
 
     <string-array name="pref_timer_time_interval_repeat">
@@ -202,25 +192,33 @@
         <item>Dvojitý stisk</item>
         <item>Trojitý stisk</item>
         <item>Dlouhý stisk</item>
+        <item>Button</item>
     </string-array>
 
-    <string-array name="touch_recognition_press_mi_band_4">
+    <string-array name="touch_recognition_press_mi_band_4_gtr">
         <item>Žádný</item>
         <item>Tlačítko ztlumení</item>
         <item>Dvojitý stisk</item>
         <item>Trojitý stisk</item>
         <item>Tlačítko odmítnout</item>
+        <item>Button</item>
     </string-array>
 
-    <string-array name="touch_recognition_press_amazfit_cor">
+    <string-array name="touch_recognition_press_amazfit_bip_cor">
         <item>Žádný</item>
         <item>Zelené tlačítko</item>
         <item>Dvojitý stisk</item>
         <item>Trojitý stisk</item>
         <item>Červené tlačítko</item>
+        <item>Button</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method">
+        <item>Pattern recognition</item>
+        <item>Button press counting</item>
+    </string-array>
+
+    <string-array name="pref_touch_detection_method_mi_band_3">
         <item>Úsporný režim </item>
         <item>Úsporný režim (+puls)</item>
 <!--        <item>Úsporný režim (hledat telefon)</item>-->
@@ -230,7 +228,12 @@
 
     <string-array name="touch_recognition_start_trigger">
         <item>Žádný</item>
-        <item>Vzor</item>
+        <item>Stisk</item>
+    </string-array>
+
+    <string-array name="touch_recognition_start_trigger_button">
+        <item>Žádný</item>
+        <item>Stisk</item>
         <item>Dlouhý stisk tlačítka</item>
     </string-array>
 
@@ -383,4 +386,28 @@
         <item>简体中文</item>
     </string-array>
 
+
+    <string-array name="pref_language_amazfit_gtr">
+        <item>Not set (set by Mi Fit)</item>
+        <item>Výchozí nastavení (telefonicky)</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Português</item>
+        <item>Русский</item>
+        <item>Українська</item>
+        <item>Deutsche</item>
+        <item>Italiano</item>
+        <item>Français</item>
+        <item>Polski</item>
+        <item>Nederlands</item>
+        <item>Türkçe</item>
+        <item>Bahasa Indonesia</item>
+        <item>한국어</item>
+        <item>Tiếng Việt</item>
+        <item>ไทย</item>
+        <item>简体中文</item>
+        <item>繁體中文</item>
+        <item>日本語</item>
+        <item>عربى</item>
+    </string-array>
 </resources>

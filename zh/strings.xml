@@ -348,6 +348,7 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit Bip</b>
     <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -595,7 +596,8 @@
     <string name="touch_testing_second">sec.</string>
 
     <string name="touch_setting_detection_time_title">触摸检查时间</string>
-    <string name="touch_setting_detection_time_hint">If you have a lower value, then music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_music_hint">If it has a lower value, then music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
 
     <string name="touch_setting_detection_method_title">触摸截取方式</string>
 
@@ -610,13 +612,9 @@
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>当手环改变时有效(建议在触摸前旋转手腕).</mi_band_2>
+        <b><u>Pattern recognition</u></b>
         <p>它监视触摸之间的运行时间，而不是第一次接触的时间.</p>
-        <p>当你有来电时，手机无法识别以下功能来触摸输入:手机的位置，重复的通知，音乐控制.</p>
-        <p>测试模式下将不会执行识别模式的功能.</p>
-        <p>只有在考虑到手机当前状态的情况下，会有振动反馈(呼叫应答，当在来电时才会拒绝…).</p>
-        <p>识别模式时，手环震动一次.</p>
-        <p>如果在最长匹配时间后仍未识别模式则震动两次(如果被设置了<i>无法识别的触摸模式</i>的话).</p>
-        <p>有效的触摸示例:
+        有效的触摸示例:
         <br>- 触摸
         <br>- 触摸并等待1秒,触摸
         <br>- 触摸并等待1秒,触摸并等待1秒,触摸
@@ -624,7 +622,13 @@
         <br>- 触摸并等待2秒,触摸并等待1秒,触摸
         <br>- 触摸并等待2秒,触摸并等待2秒,触摸
         <br>- 快不认识触摸这两个字了
-        </p>
+        <p><b><u>Button press counting</u></b></p>
+        <p>It monitors the number of button presses as long as the time between button presses is less than the touch detection time setting.</p>
+        <br><p>当你有来电时，手机无法识别以下功能来触摸输入:手机的位置，重复的通知，音乐控制.</p>
+        <p>测试模式下将不会执行识别模式的功能.</p>
+        <p>只有在考虑到手机当前状态的情况下，会有振动反馈(呼叫应答，当在来电时才会拒绝…).</p>
+        <p>识别模式时，手环震动一次.</p>
+        <p>如果在最长匹配时间后仍未识别模式则震动两次(如果被设置了<i>无法识别的触摸模式</i>的话).</p>
     ]]></string>
 
     <!-- Touch monitoring info dialog Mi Band 3/Amazfit Cor-->
@@ -925,7 +929,7 @@
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text>显示提醒需要蓝牙连接</not_support_icon_text>
-        <support_icon_text>这个应用使用 Mi Fit 的接口,所以 Mi Fit 中的提醒必须清空.</support_icon_text>
+         <support_icon_text>App uses reminder function of Mi Fit, so you need to use either Mi Bandage or Mi Fit reminder settings. If there are reminders in both applications, it may cause malfunction.</support_icon_text>
         ]]>
     </string>
 
@@ -1224,6 +1228,7 @@
     <string name="action_keep_editing">继续编辑</string>
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
+    <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">图表</string>
     <string name="action_chart_normalize_minute">测量值</string>

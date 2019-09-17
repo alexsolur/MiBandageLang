@@ -351,6 +351,7 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit Bip</b>
     <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -599,7 +600,8 @@
     <string name="touch_testing_second">sec.</string>
 
     <string name="touch_setting_detection_time_title">Touch detection time</string>
-    <string name="touch_setting_detection_time_hint">If you have a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
 
     <string name="touch_setting_detection_method_title">Metoda de detectare a atingerii</string>
 
@@ -614,20 +616,22 @@
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>Atingerea este validă atunci când afișajul brățării se schimbă (deci este recomandabil să rotești încheietura mâinii înainte de a atinge).</mi_band_2>
+        <b><u>Pattern recognition</u></b>
         <p>Monitorizează timpul scurs între atingeri, nu timpul scurs până la prima atingere.</p>
-        <p>Când se primește un apel, telefonul nu recunoaște următoarele funcții pentru a ușura folosirea atingerii: locația telefonului, repetarea notificărilor, controlul muzicii.</p>
-        <p>În modul de testare nu se execută funcția modelului recunoscut.</p>
-        <p>Doar vibrații de feedback, dacă există un model care ține cont de starea curentă a telefonului (răspunsul la apel, respingerea numai dacă există un apel primit …).</p>
-        <p>Banda vibrează o dată, când recunoaște un model.</p>
-        <p>Brățara vibrează de două ori atunci când nu recunoaște niciun model după modelul cel mai lung (dacă nu este setat <i>Semnal tactil nerecunoscut</i>).</p>
-        <p>Exemple valide de atingere:
+        Exemple valide de atingere:
         <br>- atingere
         <br>- atingere și 1sec pauză, atingere
         <br>- atingere și 1sec pauză, atingere și 1sec pauză, atingere
         <br>- atingere și 2sec pauză, atingere
         <br>- atingere și 2sec pauză, atingere și 1sec pauză, atingere
         <br>- atingere și 2sec pauză, atingere și 2sec pauză, atingere
-        </p>
+        <p><b><u>Button press counting</u></b></p>
+        <p>It monitors the number of button presses as long as the time between button presses is less than the touch detection time setting.</p>
+        <br><p>Când se primește un apel, telefonul nu recunoaște următoarele funcții pentru a ușura folosirea atingerii: locația telefonului, repetarea notificărilor, controlul muzicii.</p>
+        <p>În modul de testare nu se execută funcția modelului recunoscut.</p>
+        <p>Doar vibrații de feedback, dacă există un model care ține cont de starea curentă a telefonului (răspunsul la apel, respingerea numai dacă există un apel primit …).</p>
+        <p>Banda vibrează o dată, când recunoaște un model.</p>
+        <p>Brățara vibrează de două ori atunci când nu recunoaște niciun model după modelul cel mai lung (dacă nu este setat <i>Semnal tactil nerecunoscut</i>).</p>
     ]]></string>
 
     <!-- Touch monitoring info dialog Mi Band 3/Amazfit Cor-->
@@ -1227,6 +1231,7 @@
     <string name="action_keep_editing">Editează în continuare</string>
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
+    <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">Grafic</string>
     <string name="action_chart_normalize_minute">Valori măsurate</string>

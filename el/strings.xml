@@ -350,6 +350,7 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit Bip</b>
     <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -598,7 +599,8 @@
     <string name="touch_testing_second">δευτ.</string>
 
     <string name="touch_setting_detection_time_title">Touch detection time</string>
-    <string name="touch_setting_detection_time_hint">If you have a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
 
     <string name="touch_setting_detection_method_title">Touch detection method</string>
 
@@ -613,20 +615,22 @@
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>Η αφή είναι έγκυρη όταν η οθόνη της Band αλλάζει (γι \'αυτό είναι σκόπιμο να περιστρέψετε τον καρπό σας πριν αγγίξετε).</mi_band_2>
+        <b><u>Pattern recognition</u></b>
         <p>Παρακολουθεί χρόνο που παρήλθε μεταξύ των αγγιγμάτων, όχι το χρόνο που έχει παρέλθει από το πρώτο πάτημα.</p>
-        <p>Όταν έχετε μια εισερχόμενη κλήση η συσκευή δεν αναγνωρίζει τις ακόλουθες λειτουργίες, προκειμένου να διευκολυνθεί η είσοδος αφής: θέση της συσκευής, επανάληψη ειδοποιήσεων, τον έλεγχο της μουσικής.</p>
-        <p>Στην δοκιμαστική λειτουργία δεν εκτελεί η λειτουργία των αναγνωρισμένων μοτίβων.</p>
-        <p>Το Band ανατροφοδότηση δόνηση μόνο εάν υπάρχει ένα μοτίβο, λαμβάνοντας υπόψη την τρέχουσα κατάσταση της συσκευής (απάντηση κλήσης, απορρίπτοντας μόνο εφόσον υπάρχει μια εισερχόμενη κλήση …).</p>
-        <p>Το Band δονείται μία φορά, όταν αναγνωρίσει ένα μοτίβο.</p>
-        <p>Το Band δονείται δύο φορές, όταν δεν αναγνωρίζει οποιοδήποτε μοτίβο μετά το μεγαλύτερο μοτίβο (αν  το <i>Σήμα μη αναγνωρίσιμου μοτίβου αφής</i> είναι ενεργό).</p>
-        <p>Έγκυρα παραδείγματα αφής:
+        Έγκυρα παραδείγματα αφής:
         <br>- πάτημα
         <br>- πάτημα και 1δευτ αναμονή, πάτημα
         <br>- πάτημα και 1δευτ αναμονή, πάτημα και 1δευτ αναμονή, πάτημα
         <br>- πάτημα και 2δευτ αναμονή, πάτημα
         <br>- πάτημα και 2δευτ αναμονή, πάτημα και 1δευτ αναμονή, πάτημα
         <br>- πάτημα και 2δευτ αναμονή, πάτημα και 2δευτ αναμονή, πάτημα
-        </p>
+        <p><b><u>Button press counting</u></b></p>
+        <p>It monitors the number of button presses as long as the time between button presses is less than the touch detection time setting.</p>
+        <br><p>Όταν έχετε μια εισερχόμενη κλήση η συσκευή δεν αναγνωρίζει τις ακόλουθες λειτουργίες, προκειμένου να διευκολυνθεί η είσοδος αφής: θέση της συσκευής, επανάληψη ειδοποιήσεων, τον έλεγχο της μουσικής.</p>
+        <p>Στην δοκιμαστική λειτουργία δεν εκτελεί η λειτουργία των αναγνωρισμένων μοτίβων.</p>
+        <p>Το Band ανατροφοδότηση δόνηση μόνο εάν υπάρχει ένα μοτίβο, λαμβάνοντας υπόψη την τρέχουσα κατάσταση της συσκευής (απάντηση κλήσης, απορρίπτοντας μόνο εφόσον υπάρχει μια εισερχόμενη κλήση …).</p>
+        <p>Το Band δονείται μία φορά, όταν αναγνωρίσει ένα μοτίβο.</p>
+        <p>Το Band δονείται δύο φορές, όταν δεν αναγνωρίζει οποιοδήποτε μοτίβο μετά το μεγαλύτερο μοτίβο (αν  το <i>Σήμα μη αναγνωρίσιμου μοτίβου αφής</i> είναι ενεργό).</p>
     ]]></string>
 
     <!-- Touch monitoring info dialog Mi Band 3/Amazfit Cor-->
@@ -927,7 +931,7 @@
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text>Bluetooth connection is required to display the reminder.</not_support_icon_text>
-        <support_icon_text>App uses reminder function of Mi Fit, so in Mi Fit you have to clear the reminders.</support_icon_text>
+         <support_icon_text>App uses reminder function of Mi Fit, so you need to use either Mi Bandage or Mi Fit reminder settings. If there are reminders in both applications, it may cause malfunction.</support_icon_text>
         ]]>
     </string>
 
@@ -1226,6 +1230,7 @@
     <string name="action_keep_editing">Συνέχεια επεξεργασίας</string>
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
+    <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">Διάγραμμα</string>
     <string name="action_chart_normalize_minute">Μετρούμενες τιμές</string>

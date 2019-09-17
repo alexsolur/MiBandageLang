@@ -351,6 +351,7 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit Bip</b>
     <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -600,7 +601,8 @@
     <string name="touch_testing_second">sn.</string>
 
     <string name="touch_setting_detection_time_title">Touch detection time</string>
-    <string name="touch_setting_detection_time_hint">If you have a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
 
     <string name="touch_setting_detection_method_title">Touch detection method</string>
 
@@ -615,20 +617,22 @@
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>Dokunma, bileklikte birşeyler gösterildiklten sonra geçerli olur (bu nedenle, dokunmadan önce bilekinizde boş bir tıklama nerilir).</mi_band_2>
+        <b><u>Pattern recognition</u></b>
         <p>Dokunanlar arasındaki geçen süreyi izler, ilk dokunma için geçen süre dikkate alınmaz.</p>
-        <p>Telefon çağrısı geldiğinde, cihaz dokunmatik girişi kolaylaştırmak için aşağıdaki işlevleri geçersiz kılar: telefonumu bul, tekrar eden bildirimler, müzik kontrolü.</p>
-        <p>Test modunda eylem gerçekleşmez.</p>
-        <p>Bileklik titreşim geribildirimi, yalnızca cihazın mevcut durumunu dikkate alan bir model varsa (çağrı cevaplama, ancak gelen bir çağrı olduğunda reddetme …).</p>
-        <p>Bileklik, bir deseni tanıdığında bir kez titreşir.</p>
-        <p>Bileklik, herhangi bir deseni tanımadığında (<i> Tanınan dokunmatik desen bildirimi</i> ayarlanmadıysa) iki kez titreşir.</p>
-        <p>Geçerli dokunmaya duyarlı örnekler:
+        Geçerli dokunmaya duyarlı örnekler:
         <br>- dokunmatik
         <br>- dokunma ve 1 sn bekleme, dokunma
         <br>- dokunma ve 1 sn bekleme, dokunma ve 1 sn bekleme, dokunma
         <br>- dokunma ve 2 saniye bekleme, dokunma
         <br>- dokunma ve 2 saniye bekleme, dokunma ve 1 saniye bekleme, dokunma
         <br>- dokunma ve 2 saniye bekleme, dokunma ve 2 saniye bekleme, dokunma
-       </p>
+        <p><b><u>Button press counting</u></b></p>
+        <p>It monitors the number of button presses as long as the time between button presses is less than the touch detection time setting.</p>
+        <br><p>Telefon çağrısı geldiğinde, cihaz dokunmatik girişi kolaylaştırmak için aşağıdaki işlevleri geçersiz kılar: telefonumu bul, tekrar eden bildirimler, müzik kontrolü.</p>
+        <p>Test modunda eylem gerçekleşmez.</p>
+        <p>Bileklik titreşim geribildirimi, yalnızca cihazın mevcut durumunu dikkate alan bir model varsa (çağrı cevaplama, ancak gelen bir çağrı olduğunda reddetme …).</p>
+        <p>Bileklik, bir deseni tanıdığında bir kez titreşir.</p>
+        <p>Bileklik, herhangi bir deseni tanımadığında (<i> Tanınan dokunmatik desen bildirimi</i> ayarlanmadıysa) iki kez titreşir.</p>
     ]]></string>
 
     <!-- Touch monitoring info dialog Mi Band 3/Amazfit Cor-->
@@ -1228,6 +1232,7 @@
     <string name="action_keep_editing">Düzenlemeye devam et</string>
     <string name="action_new">Yeni</string>
     <string name="action_start_stop">Başla/Dur</string>
+    <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">Grafik</string>
     <string name="action_chart_normalize_minute">Ölçülen değerler</string>

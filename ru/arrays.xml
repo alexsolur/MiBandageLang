@@ -35,11 +35,13 @@
         <item>Статус</item>
         <item>Погода</item>
         <item>Тренировка</item>
+        <item>Activities</item>
         <item>Уведомления</item>
         <item>Настройки</item>
         <item>NFC</item>
         <item>Будильник</item>
         <item>Часы</item>
+        <item>Event reminder</item>
         <item>Настройки</item>
         <item>Компас</item>
         <item>Музыка</item>
@@ -190,25 +192,33 @@
         <item>Двойное касание</item>
         <item>Тройной касание</item>
         <item>Долгое касание</item>
+        <item>Button</item>
     </string-array>
 
-    <string-array name="touch_recognition_press_mi_band_4">
+    <string-array name="touch_recognition_press_mi_band_4_gtr">
         <item>Нет</item>
         <item>Кнопка выключения звука</item>
         <item>Двойное касание</item>
         <item>Тройное касание</item>
         <item>Кнопка отклонения</item>
+        <item>Button</item>
     </string-array>
 
-    <string-array name="touch_recognition_press_amazfit_cor">
+    <string-array name="touch_recognition_press_amazfit_bip_cor">
         <item>Нет</item>
         <item>Зеленая кнопка</item>
         <item>Двойное касание</item>
         <item>Тройное касание</item>
         <item>Красная кнопка</item>
+        <item>Button</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method">
+        <item>Pattern recognition</item>
+        <item>Button press counting</item>
+    </string-array>
+
+    <string-array name="pref_touch_detection_method_mi_band_3">
         <item>Энергосбережение</item>
         <item>Энергосбережение (+пульс)</item>
 <!--        <item>Энергосбережение (поиск устройства)</item>-->
@@ -218,8 +228,13 @@
 
     <string-array name="touch_recognition_start_trigger">
         <item>Нет</item>
-        <item>Последовательность</item>
-        <item>Долгое касание кнопки</item>
+        <item>Touch</item>
+    </string-array>
+
+    <string-array name="touch_recognition_start_trigger_button">
+        <item>Нет</item>
+        <item>Button press</item>
+        <item>Long press the button</item>
     </string-array>
 
     <string-array name="pref_weather_unit">
@@ -371,4 +386,27 @@
         <item>简体中文</item>
     </string-array>
 
+    <string-array name="pref_language_amazfit_gtr">
+        <item>Из Mi Fit</item>
+        <item>По умолчанию</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Português</item>
+        <item>Русский</item>
+        <item>Українська</item>
+        <item>Deutsche</item>
+        <item>Italiano</item>
+        <item>Français</item>
+        <item>Polski</item>
+        <item>Nederlands</item>
+        <item>Türkçe</item>
+        <item>Bahasa Indonesia</item>
+        <item>한국어</item>
+        <item>Tiếng Việt</item>
+        <item>ไทย</item>
+        <item>简体中文</item>
+        <item>繁體中文</item>
+        <item>日本語</item>
+        <item>عربى</item>
+    </string-array>
 </resources>

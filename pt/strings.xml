@@ -351,6 +351,7 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit Bip</b>
     <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -599,7 +600,8 @@
     <string name="touch_testing_second">seg.</string>
 
     <string name="touch_setting_detection_time_title">Tempo para detetar o touch</string>
-    <string name="touch_setting_detection_time_hint">Se você colocar um valor mais baixo, o ecrã de música vai ser fechado mais rápido</string>
+    <string name="touch_setting_detection_time_music_hint">Se você colocar um valor mais baixo, o ecrã de música vai ser fechado mais rápido</string>
+    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
 
     <string name="touch_setting_detection_method_title">Método de monitoramento touch</string>
 
@@ -614,20 +616,22 @@
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>O touch é válido quando o ecrã da Band muda (É aconselhado agitar a Band antes de gravar o padrão).</mi_band_2>
+        <b><u>Pattern recognition</u></b>
         <p>A Mi Bandage monitora o tempo decorrido entre os toques, e não o tempo decorrido até ao primeiro toque.</p>
-        <p>Quando você recebe uma chamada, a Mi Bandage não reconhece as seguintes funções para facilitar a entrada do padrão: localizar o dispositivo, repetir notificações, controlar multimédia.</p>
-        <p>No modo teste não é executada a função \'padrão reconhecido\'.</p>
-        <p>Feedback por meio de vibração da Band se houver um padrão não reconhecido, levando em consideração o status atual do dispositivo (atender chamadas, rejeitar/terminar somente se houver uma chamada recebida, …).</p>
-        <p>A Band vibra 1 vez, quando reconhece o padrão.</p>
-        <p>A Band vibra 2 vezes, quando não reconhece o padrão, após o padrão mais longo ser verificado (se o <i>padrão não é reconhecido</ i>).</p>
-        <p><b>Exemplos</b> de padrões válidos:
+        Exemplos de padrões válidos:
         <br>- toque
         <br>- toque e espere 1 seg., toque
         <br>- toque e espere 1 seg., toque e espere 1 seg., toque
         <br>- toque e espere 2 seg., toque
         <br>- toque e espere 2 seg., toque e espere 1 seg., toque
         <br>- toque e espere 2 seg., toque e espere 2 seg., toque
-        </p>
+        <p><b><u>Button press counting</u></b></p>
+        <p>It monitors the number of button presses as long as the time between button presses is less than the touch detection time setting.</p>
+        <br><p>Quando você recebe uma chamada, a Mi Bandage não reconhece as seguintes funções para facilitar a entrada do padrão: localizar o dispositivo, repetir notificações, controlar multimédia.</p>
+        <p>No modo teste não é executada a função \'padrão reconhecido\'.</p>
+        <p>Feedback por meio de vibração da Band se houver um padrão não reconhecido, levando em consideração o status atual do dispositivo (atender chamadas, rejeitar/terminar somente se houver uma chamada recebida, …).</p>
+        <p>A Band vibra 1 vez, quando reconhece o padrão.</p>
+        <p>A Band vibra 2 vezes, quando não reconhece o padrão, após o padrão mais longo ser verificado (se o <i>padrão não é reconhecido</ i>).</p>
     ]]></string>
 
     <!-- Touch monitoring info dialog Mi Band 3/Amazfit Cor-->
@@ -928,7 +932,7 @@
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text>A conexão Bluetooth é necessária para mostrar o lembrete.</not_support_icon_text>
-        <support_icon_text>A aplicação usa a função \'Lembretes\' da Mi Fit, então você vai ter de eliminar os lembretes da Mi Fit.</support_icon_text>
+         <support_icon_text>App uses reminder function of Mi Fit, so you need to use either Mi Bandage or Mi Fit reminder settings. If there are reminders in both applications, it may cause malfunction.</support_icon_text>
         ]]>
     </string>
 
@@ -1226,6 +1230,7 @@
     <string name="action_keep_editing">Continuar a editar</string>
     <string name="action_new">Novo</string>
     <string name="action_start_stop">Iniciar/Parar</string>
+    <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">Gráfico</string>
     <string name="action_chart_normalize_minute">Valores medidos</string>

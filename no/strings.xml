@@ -351,6 +351,7 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit Bip</b>
     <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -599,7 +600,8 @@
     <string name="touch_testing_second">sec.</string>
 
     <string name="touch_setting_detection_time_title">Touch detection time</string>
-    <string name="touch_setting_detection_time_hint">If you have a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
 
     <string name="touch_setting_detection_method_title">Touch detection method</string>
 
@@ -614,20 +616,22 @@
     <!-- Trykke-monitorering info dialog -->
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>Trykket er gyldig når  displayet på Bandet endres (så rådet er å rotere den før trykking).</mi_band_2>
+        <b><u>Pattern recognition</u></b>
         <p>Det monitorerer lengden tid mellom trykk, ikke lengden tid på første trykk.</p>
-        <p>Når du får et innkommende anrop, kjenner ikke telefonen de følgende funksjonene for å enkelt gi trykk input: lokalisasjonen av telefonen, repetere notifikasjoner, musikk kontroll.</p>
-        <p>I test-modus utløser ikke funksjonen av allerede lagrede gjennkjente mønster.</p>
-        <p>Bandet gir vibrasjon feedback, men bare hvis det er et mønster som tar in bruken på den gjeldende status på telefonen (anrops-svaring, legger på bare hvis det er et inkommende anrop…).</p>
-        <p>Bandet vibrerer en gang, når det gjenkjenner et mønster.</p>
-        <p>Bandet vibrerer to ganger, når det ikke gjenkjenner noen mønstre etter det lengste mønstret (hvis <i>Ikke er gjenkjennelige trykke mønster signal</i> er satt).</p>
-        <p>Gyldige trykke eksempler:
+        Gyldige trykke eksempler:
         <br>- trykk
         <br>- trykk og 1sekund vent, trykk
         <br>- trykk og 1sekund vent, trykk og 1sekund vent, trykk
         <br>- trykk og 2sekunder vent, trykk
         <br>- trykk og 2sekunder vent, trykk og 1sekund vent, trykk
         <br>- trykk og 2sekunder vent, trykk og 2sekunder vent, trykk
-        </p>
+        <p><b><u>Button press counting</u></b></p>
+        <p>It monitors the number of button presses as long as the time between button presses is less than the touch detection time setting.</p>
+        <br><p>Når du får et innkommende anrop, kjenner ikke telefonen de følgende funksjonene for å enkelt gi trykk input: lokalisasjonen av telefonen, repetere notifikasjoner, musikk kontroll.</p>
+        <p>I test-modus utløser ikke funksjonen av allerede lagrede gjennkjente mønster.</p>
+        <p>Bandet gir vibrasjon feedback, men bare hvis det er et mønster som tar in bruken på den gjeldende status på telefonen (anrops-svaring, legger på bare hvis det er et inkommende anrop…).</p>
+        <p>Bandet vibrerer en gang, når det gjenkjenner et mønster.</p>
+        <p>Bandet vibrerer to ganger, når det ikke gjenkjenner noen mønstre etter det lengste mønstret (hvis <i>Ikke er gjenkjennelige trykke mønster signal</i> er satt).</p>
     ]]></string>
 
     <!-- Touch monitoring info dialog Mi Band 3/Amazfit Cor-->
@@ -928,7 +932,7 @@
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text>Bluetooth connection is required to display the reminder.</not_support_icon_text>
-        <support_icon_text>App uses reminder function of Mi Fit, so in Mi Fit you have to clear the reminders.</support_icon_text>
+         <support_icon_text>App uses reminder function of Mi Fit, so you need to use either Mi Bandage or Mi Fit reminder settings. If there are reminders in both applications, it may cause malfunction.</support_icon_text>
         ]]>
     </string>
 
@@ -1227,6 +1231,7 @@
     <string name="action_keep_editing">Fortsett å redigere</string>
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
+    <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">Kart</string>
     <string name="action_chart_normalize_minute">målte valuer</string>

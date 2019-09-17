@@ -351,6 +351,7 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit Bip</b>
     <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -599,7 +600,8 @@
     <string name="touch_testing_second">sec.</string>
 
     <string name="touch_setting_detection_time_title">Touch detection time</string>
-    <string name="touch_setting_detection_time_hint">If you have a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
 
     <string name="touch_setting_detection_method_title">Aanraak detectie methode</string>
 
@@ -614,20 +616,22 @@
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>De aanraakherkenning is geldig indien het scherm van Band verandert (het is raadzaam om je pols te draaien voordat je aanraakt).</mi_band_2>
+        <b><u>Pattern recognition</u></b>
         <p>Het controleerd de tussentijd van de aanrakingen, niet de verstreken tijd vanaf de eerste keer aanraking.</p>
-        <p>Bij een inkomende oproep, herkent de telefoon de volgende functies voor gemakkelijke aanraakinvoer: locatie van de telefoon, herhaalmeldingen, muziekbesturing.</p>
-        <p>In de testmodus wordt de functie van herkend patroon niet uitgevoerd.</p>
-        <p>Alleen trillingsfeedback als er een patroon is dat rekening houdt met de huidige status van de telefoon (beantwoorden van oproepen, weigeren alleen als er een inkomende oproep is …).</p>
-        <p>Band trilt eenmaal, wanneer een patroon herkend wordt.</p>
-        <p>Band trilt tweemaal, als het patroon na het grootste patroon niet word herkent (als <i>niet herkenbaar aanraakpatroonsignaal</i> is ingesteld!).</p>
-        <p>Geldige aanrakingsvoorbeelden:
+        Geldige aanrakingsvoorbeelden:
         <br>- Aanraking
         <br>- anraken en 1 sec pauze, aanraken
         <br>- anraken en 1 sec pauze, aanraken en 1 sec pauze, aanraken
         <br>- anraken en 2 sec pauze, aanraken
         <br>- anraken en 2 sec pauze, aanraken en 1 sec pauze, aanraken
         <br>- anraken en 2 sec pauze, aanraken en 2 sec pauze, aanraken
-        </p>
+        <p><b><u>Button press counting</u></b></p>
+        <p>It monitors the number of button presses as long as the time between button presses is less than the touch detection time setting.</p>
+        <br><p>Bij een inkomende oproep, herkent de telefoon de volgende functies voor gemakkelijke aanraakinvoer: locatie van de telefoon, herhaalmeldingen, muziekbesturing.</p>
+        <p>In de testmodus wordt de functie van herkend patroon niet uitgevoerd.</p>
+        <p>Alleen trillingsfeedback als er een patroon is dat rekening houdt met de huidige status van de telefoon (beantwoorden van oproepen, weigeren alleen als er een inkomende oproep is …).</p>
+        <p>Band trilt eenmaal, wanneer een patroon herkend wordt.</p>
+        <p>Band trilt tweemaal, als het patroon na het grootste patroon niet word herkent (als <i>niet herkenbaar aanraakpatroonsignaal</i> is ingesteld!).</p>
     ]]></string>
 
     <!-- Touch monitoring info dialog Mi Band 3/Amazfit Cor-->
@@ -1227,6 +1231,7 @@
     <string name="action_keep_editing">Bewerking bewaren</string>
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
+    <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">Tabel</string>
     <string name="action_chart_normalize_minute">Gemeten waarden</string>

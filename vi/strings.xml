@@ -350,6 +350,7 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit Bip</b>
     <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -600,7 +601,8 @@
     <string name="touch_testing_second">giây.</string>
 
     <string name="touch_setting_detection_time_title">Touch detection time</string>
-    <string name="touch_setting_detection_time_hint">If you have a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
 
     <string name="touch_setting_detection_method_title">Phương pháp phát hiện cảm ứng</string>
 
@@ -615,20 +617,22 @@
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>Cảm ứng có hiệu lực khi màn hình của Band thay đổi (vì vậy nên xoay cổ tay trước khi chạm).</mi_band_2>
+        <b><u>Pattern recognition</u></b>
         <p>Nó theo dõi thời gian trôi qua giữa các lần chạm, không theo dõi thời gian trôi qua lần chạm đầu tiên.</p>
-        <p>Khi bạn có một cuộc gọi đến, thiết bị không nhận ra các chức năng sau để dễ dàng chạm vào: vị trí của thiết bị, lặp lại thông báo, điều khiển nhạc.</p>
-        <p>Trong chế độ thử nghiệm không thực thi chức năng của mẫu đã nhận.</p>
-        <p>Chỉ phản hồi rung, nếu có mẫu có tính đến trạng thái hiện tại của thiết bị (chỉ trả lời cuộc gọi, từ chối nếu có cuộc gọi đến…).</p>
-        <p>Band rung 1 lần, khi ghi nhận mẫu mới.</p>
-        <p>Band rung 2 lần, khi không nhận được mẫu nào sau mẫu dài nhất (nếu <i>Không nhận diện được tín hiệu chạm</i> được đặt).</p>
-        <p>Các ví dụ chạm hợp lệ:
+        Các ví dụ chạm hợp lệ:
         <br>- chạm
         <br>- chạm và đợi 1 giây, chạm
         <br>- chạm và đợi 1 giây, chạm đợi 1 giây, chạm
         <br>- chạm và đợi 2 giây, chạm
         <br>- chạm và đợi 2 giây, chạm đợi 1 giây, chạm
         <br>- chạm và đợi 2 giây, chạm and 2sec waiting, chạm
-        </p>
+        <p><b><u>Button press counting</u></b></p>
+        <p>It monitors the number of button presses as long as the time between button presses is less than the touch detection time setting.</p>
+        <br><p>Khi bạn có một cuộc gọi đến, thiết bị không nhận ra các chức năng sau để dễ dàng chạm vào: vị trí của thiết bị, lặp lại thông báo, điều khiển nhạc.</p>
+        <p>Trong chế độ thử nghiệm không thực thi chức năng của mẫu đã nhận.</p>
+        <p>Chỉ phản hồi rung, nếu có mẫu có tính đến trạng thái hiện tại của thiết bị (chỉ trả lời cuộc gọi, từ chối nếu có cuộc gọi đến…).</p>
+        <p>Band rung 1 lần, khi ghi nhận mẫu mới.</p>
+        <p>Band rung 2 lần, khi không nhận được mẫu nào sau mẫu dài nhất (nếu <i>Không nhận diện được tín hiệu chạm</i> được đặt).</p>
     ]]></string>
 
     <!-- Touch monitoring info dialog Mi Band 3/Amazfit Cor-->
@@ -929,7 +933,7 @@
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text>Cần Kết nối Bluetooth để hiển thị nhắc nhở.</not_support_icon_text>
-        <support_icon_text>Ứng dụng dùng chức năng nhắc nhở của Mi Fit, nên bạn phải xoá các nhắc nhở trong Mi Fit.</support_icon_text>
+         <support_icon_text>App uses reminder function of Mi Fit, so you need to use either Mi Bandage or Mi Fit reminder settings. If there are reminders in both applications, it may cause malfunction.</support_icon_text>
         ]]>
     </string>
 
@@ -1229,6 +1233,7 @@
     <string name="action_keep_editing">Tiếp tục chỉnh sửa</string>
     <string name="action_new">Mới</string>
     <string name="action_start_stop">Start/Stop</string>
+    <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">Biểu đồ</string>
     <string name="action_chart_normalize_minute">Giá trị đo được</string>

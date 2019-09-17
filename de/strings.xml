@@ -351,6 +351,7 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit Bip</b>
     <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -598,7 +599,8 @@
     <string name="touch_testing_second">Sek.</string>
 
     <string name="touch_setting_detection_time_title">Touch detection time</string>
-    <string name="touch_setting_detection_time_hint">If you have a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
 
     <string name="touch_setting_detection_method_title">Touch detection method</string>
 
@@ -613,20 +615,22 @@
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>Die Berührung wird erkannt, wenn sich der Bildschirminhalt der Mi Bands 2 sich verändert. (Sie sollten also vor der Berührung ihr Handgelenk anheben).</mi_band_2>
+        <b><u>Pattern recognition</u></b>
         <p>Es zeigt die vergangene Zeit zwischen den Berührungen an, nicht die der ersten Berührung.</p>
-        <p>Falls Sie angerufen werden, wird das Gerät zur Erleichterung der Touch-Eingabe die folgenden Funktionene ignorieren: Standort des Geräts, Benachrichtigungen wiederholen und Musiksteuerung.</p>
-        <p>Im Test-Modus wird die ausgelöste Funktion nicht ausgeführt.</p>
-        <p>Band Vibration Feedback erfolgt nur, wenn es ein Muster gibt, welches den aktuellen Status des Geräts berücksichtigt. (Anrufbeantwortung, Ablehnen nur bei eingehendem Anruf etc.).</p>
-        <p>Band vibriert einmal, wenn ein Muster erkannt wurde.</p>
-        <p>Band vibriert zweimal, wenn kein Muster nach dem längsten Muster erkannt wurde (wenn <i>unerkennbares Touch-Muster-Signal</i> eingestellt ist).</p>
-        <p>Gültige Beispiele für Muster:
+        Gültige Beispiele für Muster:
         <br>- berühren
         <br>- berühren und 1 Sek. warten, berühren
         <br>- berühren und 1 Sek. warten, berühren und 1 Sek. warten, berühren
         <br>- berühren und 2 Sek. warten, berühren
         <br>- berühren und 2 Sek. warten, berühren und 1 Sek. warten, berühren
         <br>- berühren und 2 Sek. warten, berühren und 2 Sek. warten, berühren
-        </p>
+        <p><b><u>Button press counting</u></b></p>
+        <p>It monitors the number of button presses as long as the time between button presses is less than the touch detection time setting.</p>
+        <br><p>Falls Sie angerufen werden, wird das Gerät zur Erleichterung der Touch-Eingabe die folgenden Funktionene ignorieren: Standort des Geräts, Benachrichtigungen wiederholen und Musiksteuerung.</p>
+        <p>Im Test-Modus wird die ausgelöste Funktion nicht ausgeführt.</p>
+        <p>Band Vibration Feedback erfolgt nur, wenn es ein Muster gibt, welches den aktuellen Status des Geräts berücksichtigt. (Anrufbeantwortung, Ablehnen nur bei eingehendem Anruf etc.).</p>
+        <p>Band vibriert einmal, wenn ein Muster erkannt wurde.</p>
+        <p>Band vibriert zweimal, wenn kein Muster nach dem längsten Muster erkannt wurde (wenn <i>unerkennbares Touch-Muster-Signal</i> eingestellt ist).</p>
     ]]></string>
 
     <!-- Touch monitoring info dialog Mi Band 3/Amazfit Cor-->
@@ -927,7 +931,7 @@
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text>Bluetooth connection is required to display the reminder.</not_support_icon_text>
-        <support_icon_text>App uses reminder function of Mi Fit, so in Mi Fit you have to clear the reminders.</support_icon_text>
+         <support_icon_text>App uses reminder function of Mi Fit, so you need to use either Mi Bandage or Mi Fit reminder settings. If there are reminders in both applications, it may cause malfunction.</support_icon_text>
         ]]>
     </string>
 
@@ -1226,6 +1230,7 @@
     <string name="action_keep_editing">Weiter bearbeiten</string>
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
+    <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">Diagramm</string>
     <string name="action_chart_normalize_minute">Measured values</string>

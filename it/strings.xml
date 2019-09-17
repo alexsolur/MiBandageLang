@@ -351,6 +351,7 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit Bip</b>
     <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -599,7 +600,8 @@
     <string name="touch_testing_second">sec.</string>
 
     <string name="touch_setting_detection_time_title">Touch detection time</string>
-    <string name="touch_setting_detection_time_hint">If you have a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
 
     <string name="touch_setting_detection_method_title">Touch detection method</string>
 
@@ -614,12 +616,7 @@
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>Il tocco è valido quando il display della Band cambia (quindi conviene prima alzare il polso per attivare il display prima di iniziare a toccare).</mi_band_2>
-        <p>Controlla il tempo passato tra i tocchi, non il tempo passato per il primo tocco.</p>
-        <p>Quando ricevi una chiamata il dispositivo non riconosce le seguenti funzioni per facilitare l\'interazione col tocco: localizzazione dispositivo, ripeti notifiche, controlla musica.</p>
-        <p>In area test le funzioni riconosciute non verranno eseguite.</p>
-        <p>Band vibra al tocco solo se hai impostato dei tocchi (risposta alla chiamata, rifiuta solo se c\'è una chiamata in arrivo…).</p>
-        <p>Band vibra una volta, quando riconosce il comando.</p>
-        <p>Band vibra due volte, quando non riconosce il comando (se attivi <i>Vibra quando non riconosci comando</i> is set).</p>
+        <b><u>Pattern recognition</u></b>
         <p>Esempi di tocchi validi:
         <br>- tocco
         <br>- tocco e aspetta 1sec, tocco
@@ -627,7 +624,14 @@
         <br>- tocco e aspetta 2sec, tocco
         <br>- tocco e aspetta 2sec, tocco e aspetta 1sec, tocco
         <br>- tocco e aspetta 2sec, tocco e aspetta 2sec, tocco
-        </p>
+        <p><b><u>Button press counting</u></b></p>
+        <p>It monitors the number of button presses as long as the time between button presses is less than the touch detection time setting.</p>
+        <br><p>Controlla il tempo passato tra i tocchi, non il tempo passato per il primo tocco.</p>
+        <p>Quando ricevi una chiamata il dispositivo non riconosce le seguenti funzioni per facilitare l\'interazione col tocco: localizzazione dispositivo, ripeti notifiche, controlla musica.</p>
+        <p>In area test le funzioni riconosciute non verranno eseguite.</p>
+        <p>Band vibra al tocco solo se hai impostato dei tocchi (risposta alla chiamata, rifiuta solo se c\'è una chiamata in arrivo…).</p>
+        <p>Band vibra una volta, quando riconosce il comando.</p>
+        <p>Band vibra due volte, quando non riconosce il comando (se attivi <i>Vibra quando non riconosci comando</i> is set).</p>
     ]]></string>
 
     <!-- Touch monitoring info dialog Mi Band 3/Amazfit Cor-->
@@ -927,7 +931,7 @@
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text>Bluetooth connection is required to display the reminder.</not_support_icon_text>
-        <support_icon_text>App uses reminder function of Mi Fit, so in Mi Fit you have to clear the reminders.</support_icon_text>
+        <support_icon_text>App uses reminder function of Mi Fit, so you need to use either Mi Bandage or Mi Fit reminder settings. If there are reminders in both applications, it may cause malfunction.</support_icon_text>
         ]]>
     </string>
 
@@ -1226,6 +1230,7 @@
     <string name="action_keep_editing">Continua la modifica</string>
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
+    <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">Grafico</string>
     <string name="action_chart_normalize_minute">Valori misurati</string>

@@ -351,6 +351,7 @@
     <br>- <b>샤오미 미밴드 3</b>
     <br>- <b>샤오미 미밴드 2</b>
     <br>- <b>샤오미 미밴드 HRX</b>
+    <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit Bip</b>
     <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -599,7 +600,8 @@
     <string name="touch_testing_second">초</string>
 
     <string name="touch_setting_detection_time_title">Touch detection time</string>
-    <string name="touch_setting_detection_time_hint">If you have a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
 
     <string name="touch_setting_detection_method_title">터치 감지 수단</string>
 
@@ -614,20 +616,22 @@
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>The touch is valid when the display of Band changes (so it is advisable to rotate your wrist before touching).</mi_band_2>
-        <p>It monitors elapsed time between touches, not the elapsed time to first touch.</p>
-        <p>When you have an incoming call the phone does not recognise the following functions in order to ease touch input: location of the phone, repeat notifications, music control.</p>
-        <p>In test mode does not execute the function of recognised pattern.</p>
-        <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
-        <p>Band vibrates once, when recognise a pattern.</p>
-        <p>Band vibrates twice, when not recognise any pattern after the longest pattern (if <i>Not recognisable touch pattern signal</i> is set).</p>
-        <p>Valid touching examples:
+        <b><u>Pattern recognition</u></b>
+        <p>Monitors the elapsed time between button presses.</p>
+        Valid touch examples:
         <br>- touch
         <br>- touch and 1sec waiting, touch
         <br>- touch and 1sec waiting, touch and 1sec waiting, touch
         <br>- touch and 2sec waiting, touch
         <br>- touch and 2sec waiting, touch and 1sec waiting, touch
         <br>- touch and 2sec waiting, touch and 2sec waiting, touch
-        </p>
+        <p><b><u>Button press counting</u></b></p>
+        <p>It monitors the number of button presses as long as the time between button presses is less than the touch detection time setting.</p>
+        <br><p>When you have an incoming call the phone does not recognise the following functions in order to ease touch input: location of the phone, repeat notifications, music control.</p>
+        <p>In test mode does not execute the function of recognised pattern.</p>
+        <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
+        <p>Band vibrates once, when recognise a pattern.</p>
+        <p>Band vibrates twice, when not recognise any pattern after the longest pattern (if <i>Not recognisable touch pattern signal</i> is set).</p>
     ]]></string>
 
     <!-- Touch monitoring info dialog Mi Band 3/Amazfit Cor-->
@@ -928,7 +932,7 @@
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text>Bluetooth 연결 is required to display the reminder.</not_support_icon_text>
-        <support_icon_text>App uses reminder function of Mi 피트, so in Mi 피트 you have to clear the reminders.</support_icon_text>
+         <support_icon_text>App uses reminder function of Mi Fit, so you need to use either Mi Bandage or Mi Fit reminder settings. If there are reminders in both applications, it may cause malfunction.</support_icon_text>
         ]]>
     </string>
 
@@ -1078,7 +1082,7 @@
     <string name="backup_process_settings">Settings %1$,d%%</string>
     <string name="backup_process_cloud">Cloud %1$,d%%</string>
 
-    <string name="backup_restore_activity">활동 및 수면</string>
+    <string name="backup_restore_activity">Activity and sleep</string>
     <string name="backup_restore_pulse">심박수</string>
     <string name="backup_restore_notification">Notification</string>
     <string name="backup_restore_touch">터치</string>
@@ -1113,7 +1117,7 @@
 
     <string name="message_rewarded_error">영상 불러오기 실패</string>
 
-    <!-- 프리미엄 모드 -->
+    <!-- Premium mode -->
     <string name="purchase_advantage_title">프리미엄 모드 혜택</string>
     <string name="purchase_advantage"><![CDATA[
         <p>- 광고 없음</p>
@@ -1225,6 +1229,7 @@
     <string name="action_keep_editing">수정 계속하기</string>
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
+    <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">차트</string>
     <string name="action_chart_normalize_minute">측정된 값</string>

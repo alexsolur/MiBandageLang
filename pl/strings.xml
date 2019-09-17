@@ -351,6 +351,7 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit Bip</b>
     <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -598,7 +599,8 @@
     <string name="touch_testing_second">sek.</string>
 
     <string name="touch_setting_detection_time_title">Touch detection time</string>
-    <string name="touch_setting_detection_time_hint">If you have a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
+    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
 
     <string name="touch_setting_detection_method_title">Metoda wykrywania dotyku</string>
 
@@ -613,20 +615,22 @@
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>Dotknięcie jest ważne, gdy zmienia się wyświetlanie na Opasce (dlatego wskazane jest obrócenie nadgarstka przed dotknięciem).</mi_band_2>
+        <b><u>Pattern recognition</u></b>
         <p>Monitoruje upływ czasu pomiędzy dotknięciami, a nie czas, jaki upłynął od pierwszego dotknięcia.</p>
-        <p>Po otrzymaniu połączenia telefon nie rozpoznaje następujących funkcji, aby ułatwić wprowadzanie dotykowe: lokalizacja telefonu, powtarzanie powiadomień, sterowanie muzyką.</p>
-        <p>W trybie testowym nie wykonuje funkcji rozpoznanego wzorca.</p>
-        <p>Dotyczy tylko wibracji Opaski, jeśli istnieje wzorzec uwzględniający aktualny stan telefonu (odpowiedź na telefon, odrzucenie tylko w przypadku połączenia przychodzącego…).</p>
-        <p>Opaska wibruje raz, gdy rozpozna wzór.</p>
-        <p>Opaska wibruje dwa razy, jeśli nie rozpoznaje żadnego wzorca po najdłuższym wzorze (jeśli ustawiono <i>Nierozpoznany wzór dotknięć</i>).</p>
-        <p>Prawidłowe przykłady dotykania:
+        Prawidłowe przykłady dotykania:
         <br>- dotknięcie
         <br>- dotknięcie, 1 sek. czekania, dotknięcie
         <br>- dotknięcie, 1 sek. czekania, dotknięcie, 1 sek. czekania, dotknięcie
         <br>- dotknięcie, 2 sek. czekania, dotknięcie
         <br>- dotknięcie, 2 sek. czekania, dotknięcie, 1 sek. czekania, dotknięcie
         <br>- dotknięcie, 2 sek. czekania, dotknięcie, 2 sek. czekania, dotknięcie
-        </p>
+        <p><b><u>Button press counting</u></b></p>
+        <p>It monitors the number of button presses as long as the time between button presses is less than the touch detection time setting.</p>
+        <br><p>Po otrzymaniu połączenia telefon nie rozpoznaje następujących funkcji, aby ułatwić wprowadzanie dotykowe: lokalizacja telefonu, powtarzanie powiadomień, sterowanie muzyką.</p>
+        <p>W trybie testowym nie wykonuje funkcji rozpoznanego wzorca.</p>
+        <p>Dotyczy tylko wibracji Opaski, jeśli istnieje wzorzec uwzględniający aktualny stan telefonu (odpowiedź na telefon, odrzucenie tylko w przypadku połączenia przychodzącego…).</p>
+        <p>Opaska wibruje raz, gdy rozpozna wzór.</p>
+        <p>Opaska wibruje dwa razy, jeśli nie rozpoznaje żadnego wzorca po najdłuższym wzorze (jeśli ustawiono <i>Nierozpoznany wzór dotknięć</i>).</p>
     ]]></string>
 
     <!-- Touch monitoring info dialog Mi Band 3/Amazfit Cor-->
@@ -927,7 +931,7 @@
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text>Połączenie Bluetooth jest wymagane do wyświetlenia przypomnienia.</not_support_icon_text>
-        <support_icon_text>Aplikacja wykorzystuje funkcję przypomnienia Mi Fit, więc w Mi Fit musisz wyczyścić przypomnienia.</support_icon_text>
+         <support_icon_text>App uses reminder function of Mi Fit, so you need to use either Mi Bandage or Mi Fit reminder settings. If there are reminders in both applications, it may cause malfunction.</support_icon_text>
         ]]>
     </string>
 
@@ -1226,6 +1230,7 @@
     <string name="action_keep_editing">Edytuj dalej</string>
     <string name="action_new">New</string>
     <string name="action_start_stop">Start/Stop</string>
+    <string name="synchronized_from_watch">Synchronized from watch</string>
 
     <string name="action_chart">Wykres</string>
     <string name="action_chart_normalize_minute">Mierzone wartości</string>

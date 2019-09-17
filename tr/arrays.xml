@@ -35,11 +35,13 @@
         <item>Durum</item>
         <item>Hava</item>
         <item>Eğitim</item>
+        <item>Activities</item>
         <item>Bildirimler</item>
         <item>Diğer</item>
         <item>NFC</item>
         <item>Alarm</item>
         <item>Saat</item>
+        <item>Event reminder</item>
         <item>Ayarlar</item>
         <item>Pusula</item>
         <item>Müzik</item>
@@ -190,25 +192,33 @@
         <item>Çift dokun</item>
         <item>Üçlü dokun</item>
         <item>Uzun dokun</item>
+        <item>Button</item>
     </string-array>
 
-    <string-array name="touch_recognition_press_mi_band_4">
+    <string-array name="touch_recognition_press_mi_band_4_gtr">
         <item>Yok</item>
         <item>Sessiz tuşu</item>
         <item>Çift dokun</item>
         <item>Üçlü dokun</item>
         <item>Reddet düğmesi</item>
+        <item>Button</item>
     </string-array>
 
-    <string-array name="touch_recognition_press_amazfit_cor">
+    <string-array name="touch_recognition_press_amazfit_bip_cor">
         <item>Yok</item>
         <item>Yeşil buton</item>
         <item>Çift dokun</item>
         <item>Üçlü dokun</item>
         <item>Kırmızı buton</item>
+        <item>Button</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method">
+        <item>Pattern recognition</item>
+        <item>Button press counting</item>
+    </string-array>
+
+    <string-array name="pref_touch_detection_method_mi_band_3">
         <item>Güç tasarrufu</item>
         <item>Güç tasarrufu (+nabız)</item>
 <!--        <item>Güç tasarrufu (telefon bul)</item>-->
@@ -217,6 +227,11 @@
     </string-array>
 
     <string-array name="touch_recognition_start_trigger">
+        <item>Yok</item>
+        <item>Desen</item>
+    </string-array>
+
+    <string-array name="touch_recognition_start_trigger_button">
         <item>Yok</item>
         <item>Desen</item>
         <item>Uzun basma</item>
@@ -369,6 +384,30 @@
         <item>Русский</item>
         <item>繁體中文</item>
         <item>简体中文</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_gtr">
+        <item>Not set (set by Mi Fit)</item>
+        <item>Varsayılan (telefonla)</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Português</item>
+        <item>Русский</item>
+        <item>Українська</item>
+        <item>Deutsche</item>
+        <item>Italiano</item>
+        <item>Français</item>
+        <item>Polski</item>
+        <item>Nederlands</item>
+        <item>Türkçe</item>
+        <item>Bahasa Indonesia</item>
+        <item>한국어</item>
+        <item>Tiếng Việt</item>
+        <item>ไทย</item>
+        <item>简体中文</item>
+        <item>繁體中文</item>
+        <item>日本語</item>
+        <item>عربى</item>
     </string-array>
 
 </resources>
