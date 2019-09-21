@@ -35,13 +35,13 @@
         <item>Статус</item>
         <item>Погода</item>
         <item>Тренировка</item>
-        <item>Activities</item>
+        <item>Активность</item>
         <item>Уведомления</item>
         <item>Настройки</item>
         <item>NFC</item>
         <item>Будильник</item>
         <item>Часы</item>
-        <item>Event reminder</item>
+        <item>Напоминания</item>
         <item>Настройки</item>
         <item>Компас</item>
         <item>Музыка</item>
@@ -192,7 +192,7 @@
         <item>Двойное касание</item>
         <item>Тройной касание</item>
         <item>Долгое касание</item>
-        <item>Button</item>
+        <item>Кнопка</item>
     </string-array>
 
     <string-array name="touch_recognition_press_mi_band_4_gtr">
@@ -201,7 +201,7 @@
         <item>Двойное касание</item>
         <item>Тройное касание</item>
         <item>Кнопка отклонения</item>
-        <item>Button</item>
+        <item>Кнопка</item>
     </string-array>
 
     <string-array name="touch_recognition_press_amazfit_bip_cor">
@@ -210,12 +210,12 @@
         <item>Двойное касание</item>
         <item>Тройное касание</item>
         <item>Красная кнопка</item>
-        <item>Button</item>
+        <item>Кнопка</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method">
-        <item>Pattern recognition</item>
-        <item>Button press counting</item>
+        <item>Последовательность</item>
+        <item>Количество касаний</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method_mi_band_3">
@@ -228,13 +228,13 @@
 
     <string-array name="touch_recognition_start_trigger">
         <item>Нет</item>
-        <item>Touch</item>
+        <item>Касание</item>
     </string-array>
 
     <string-array name="touch_recognition_start_trigger_button">
         <item>Нет</item>
-        <item>Button press</item>
-        <item>Long press the button</item>
+        <item>Нажатие</item>
+        <item>Долгое нажатие</item>
     </string-array>
 
     <string-array name="pref_weather_unit">
