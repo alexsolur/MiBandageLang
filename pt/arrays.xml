@@ -11,8 +11,8 @@
     </string-array>
 
     <string-array name="pref_distance_unit">
-        <item>Métrico (metro)</item>
-        <item>Imperial (milha)</item>
+        <item>Métrico (metros)</item>
+        <item>Imperial (milhas)</item>
     </string-array>
 
     <string-array name="pref_lift_wrist_sensitivity">
@@ -21,7 +21,7 @@
     </string-array>
 
     <string-array name="pref_night_mode">
-        <item>Agendar hora de ligar</item>
+        <item>Agendar hora para ativar</item>
         <!--<item>Ligar depois do pôr do sol</item>-->
     </string-array>
 
@@ -34,14 +34,14 @@
         <item>Bateria</item>
         <item>Estado</item>
         <item>Meteorologia</item>
-        <item>Atividade</item>
-        <item>Activities</item>
+        <item>Exercício</item>
+        <item>Atividades</item>
         <item>Notificações</item>
         <item>Mais</item>
         <item>NFC</item>
         <item>Alarme</item>
-        <item>Relógio</item>
-        <item>Event reminder</item>
+        <item>Cronómetro</item>
+        <item>Lembrete de Eventos</item>
         <item>Definições</item>
         <item>Bússola</item>
         <item>Música</item>
@@ -49,7 +49,7 @@
     </string-array>
 
     <string-array name="pref_connected_have_notif_counter">
-        <item>Número de notificações</item>
+        <item>Todas as notificações</item>
         <item>Uma vez por ícone da Band</item>
         <item>1 ícone \'app\'</item>
         <item>2 ícones \'app\'</item>
@@ -90,7 +90,7 @@
     </string-array>
 
     <string-array name="notification_group_counter">
-        <item>Número de notificações</item>
+        <item>Todas as notificações</item>
         <item>Uma vez por aplicação</item>
         <item>Um sinal</item>
     </string-array>
@@ -132,7 +132,7 @@
     </string-array>
 
     <string-array name="touch_camera_app">
-        <item>Padrão (É necessário ROOT)</item>
+        <item>Padrão (É preciso ter ROOT)</item>
         <item>Open Camera</item>
     </string-array>
 
@@ -171,7 +171,7 @@
         <item>4 partes (1-%1$,d caracteres)</item>
         <item>5 partes (1-%1$,d caracteres)</item>
         <item>6 partes (1-%1$,d caracteres)</item>
-        <item>7 partes (1-%1$,d caracteress)</item>
+        <item>7 partes (1-%1$,d caracteres)</item>
         <item>8 partes (1-%1$,d caracteres)</item>
         <item>9 partes (1-%1$,d caracteres)</item>
         <item>10 partes (1-%1$,d caracteres)</item>
@@ -192,16 +192,16 @@
         <item>2 toques</item>
         <item>3 toques</item>
         <item>Toque longo</item>
-        <item>Button</item>
+        <item>Botão</item>
     </string-array>
 
     <string-array name="touch_recognition_press_mi_band_4_gtr">
         <item>Nenhum</item>
-        <item>Botão para mutar</item>
+        <item>Botão \'Silenciar\'</item>
         <item>2 toques</item>
         <item>3 toques</item>
-        <item>Botão Rejeitar</item>
-        <item>Button</item>
+        <item>Botão \'Rejeitar\'</item>
+        <item>Botão</item>
     </string-array>
 
     <string-array name="touch_recognition_press_amazfit_bip_cor">
@@ -210,17 +210,17 @@
         <item>2 toques</item>
         <item>3 toques</item>
         <item>Botão vermelho</item>
-        <item>Button</item>
+        <item>Botão</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method">
-        <item>Pattern recognition</item>
-        <item>Button press counting</item>
+        <item>Reconhecer um padrão</item>
+        <item>Contar cliques do botão</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method_mi_band_3">
         <item>Poupança de Energia</item>
-        <item>Poupança de Energia (+Pulsação)</item>
+        <item>Poupança de Energia (Pulsação)</item>
 <!--        <item>Poupança de Energia (Encontrar Dispositivo)</item>-->
 <!--        <item>Poupança de Energia (Pulsação e Encontrar Dispositivo)</item>-->
         <item>Desempenho</item>
@@ -228,13 +228,13 @@
 
     <string-array name="touch_recognition_start_trigger">
         <item>Nenhum</item>
-        <item>Touchh</item>
+        <item>Touch</item>
     </string-array>
 
     <string-array name="touch_recognition_start_trigger_button">
-        <item>None</item>
-        <item>Button press</item>
-        <item>Long press the button</item>
+        <item>Nenhum</item>
+        <item>Pressionar o botão</item>
+        <item>Pressão longa no botão</item>
     </string-array>
 
     <string-array name="pref_weather_unit">
@@ -257,11 +257,11 @@
 
     <string-array name="widget_event">
         <item>Bandagem</item>
-        <item>Passos</item>
+        <item>Atividade</item>
         <item>Pulsação</item>
         <item>Monitorar pulsação</item>
         <item>Despertador</item>
-        <item>Lembrete de evento</item>
+        <item>Lembretes</item>
     </string-array>
 
     <string-array name="pref_language">
@@ -312,7 +312,7 @@
 
     <string-array name="pref_language_mi_band_3">
         <item>Indefinido (configurado pela Mi Fit)</item>
-        <item>Padrão (por telefone)</item>
+        <item>Padrão (configurado pelo dispositivo)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -336,7 +336,7 @@
 
     <string-array name="pref_language_mi_band_4">
         <item>Indefinido (configurado pela Mi Fit)</item>
-        <item>Padrão (por telefone)</item>
+        <item>Padrão (configurado pelo dispositivo)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -360,7 +360,7 @@
 
     <string-array name="pref_language_amazfit_bip_watch">
         <item>Indefinido (configurado pela Mi Fit)</item>
-        <item>Padrão (por telefone)</item>
+        <item>Padrão (configurado pelo dispositivo)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -378,7 +378,7 @@
 
     <string-array name="pref_language_amazfit_cor">
         <item>Indefinido (configurado pela Mi Fit)</item>
-        <item>Padrão (por telefone)</item>
+        <item>Padrão (configurado pelo dispositivo)</item>
         <item>English</item>
         <item>Español</item>
         <item>Русский</item>
@@ -388,7 +388,7 @@
 
     <string-array name="pref_language_amazfit_gtr">
         <item>Indefinido (configurado pela Mi Fit)</item>
-        <item>Padrão (por telefone)</item>
+        <item>Padrão (configurado pelo dispositivo)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
