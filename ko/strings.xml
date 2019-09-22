@@ -72,20 +72,18 @@
     <string name="mi_band_setting_menu_call">수신 전화 알림</string>
     <string name="mi_band_setting_menu_menu">메뉴</string>
 
-    <string name="mi_band_setting_auth_mi_fit">Mi 피트와 함께 사용하기</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage(은)는 같은 폰에 Mi 피트 앱의 설치를 요구합니다. 먼저 %1$s(을)를 Mi 피트 애플리케이션에 페어링해야, Mi Bandage(을)를 사용할 수 있습니다. Mi 피트 앱을 사용하고 싶으면, 이것을 선택하세요.</string>
+    <string name="mi_band_setting_auth_mi_fit">%1$s 트와 함께 사용하기</string> <!-- Mi Fit, Amazfit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage(은)는 같은 폰에 Mi Fit/Amazfit 앱의 설치를 요구합니다. 먼저 %1$s(을)를 Mi Fit/Amazfit 애플리케이션에 페어링해야, Mi Bandage(을)를 사용할 수 있습니다. Mi Fit/Amazfit 앱을 사용하고 싶으면, 이것을 선택하세요.</string>
     <string name="mi_band_setting_auth_standalone">독립</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi 피트 앱 is not required for the Mi Bandage to work. After the pairing, uninstall the Mi 피트 앱 or unpair your device. When restoring the Mi 피트 cooperation, you will need to re-pair your %1$s in the Mi 피트 애플리케이션.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit/Amazfit 앱 is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit/Amazfit 앱 or unpair your device. When restoring the Mi Fit/Amazfit cooperation, you will need to re-pair your %1$s in the Mi Fit/Amazfit 애플리케이션.</string>
     <string name="mi_band_setting_auth_key_title">인증 키 설정</string>
     <string name="mi_band_setting_auth_key_hint">독립 모드를 사용하려면 인증 키가 필요합니다</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <ul>
-            <li>공식 Mi 피트 앱에서 %1$s(을)를 페어링 해제하세요</li>
-            <li>공식 Mi 피트 앱을 삭제하세요</li>
-            <li>Download and install the modified Mi 피트 앱</li>
-            <li>Pair the %1$s in the modified Mi 피트 앱 (do not unpair)</li>
-            <li>Uninstall the modified Mi 피트 앱</li>
-        </ul>
+        <p>공식 Mi Fit/Amazfit 앱에서 %1$s(을)를 페어링 해제하세요</p>
+        <p>공식 Mi Fit/Amazfit 앱을 삭제하세요</p>
+        <p>Download and install the modified Mi Fit/Amazfit 앱</p>
+        <p>Pair the %1$s in the modified Mi Fit/Amazfit 앱 (do not unpair)</p>
+        <p>Uninstall the modified Mi Fit/Amazfit 앱</p>
         인증 키 can be found at: 내부 저장소/freemyband/mac address.txt
     ]]></string>
     <string name="mi_band_setting_auth_key">인증 키</string>
@@ -94,6 +92,7 @@
     <string name="message_mi_band_setting_auth_press_band_button">페어링하려면 %1$s 버튼을 누르세요</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
     <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
     <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
 
     <string name="mi_band_setting_nickname">별명</string>
     <string name="mi_band_setting_gender">성별</string>
@@ -352,6 +351,7 @@
     <br>- <b>샤오미 미밴드 2</b>
     <br>- <b>샤오미 미밴드 HRX</b>
     <br>- <b>Huami Amazfit GTR</b>
+    <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Bip</b>
     <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -806,7 +806,7 @@
     <string name="alarm_mi_band_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_service">Lost background service</string>
     <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
-    <string name="alarm_mi_band_clock">Use the phone\s alarm clock, if background service is down (increases battery consumption)</string>
+    <string name="alarm_mi_band_clock">Use the phone\'s alarm clock, if background service is down (increases battery consumption)</string>
     <string name="alarm_mi_band_dnd">방해 금지 모드</string>
     <string name="alarm_mi_band_interval_title">Repeat interval of alarm setting</string>
     <string name="alarm_mi_band_time_set_next">Timing of next setting</string>
@@ -964,6 +964,7 @@
     <string name="watch_face_tab_download">다운로드</string>
     <string name="watch_face_tab_upload">업로드</string>
     <string name="watch_face_tab_upload_mi_fit">Mi 피트를 통해 업로드</string>
+    <string name="watch_face_tab_upload_amazfit">Upload via Amazfit</string>
 
     <string name="watch_face_download_title">디스플레이 다운로드</string>
     <string name="watch_face_download_path">Save the downloaded watch face file to here</string>
@@ -976,7 +977,7 @@
     <string name="watch_face_upload_progress">%1$,d%% 업로드 중</string>
 
     <string name="watch_face_upload_init_title">초기화</string>
-    <string name="watch_face_upload_init_content"><![CDATA[Mi 피트 애플리케이션에서 초기 디스플레이 중 하나를 설정하세요.
+    <string name="watch_face_upload_init_content"><![CDATA[%1$s 트 애플리케이션에서 초기 디스플레이 중 하나를 설정하세요.
         <br>업로드할 때 같은 디스플레이를 선택해야 합니다.
         <br><i>(초기화는 한 번만 요구됩니다)</i>
     ]]></string>
@@ -998,19 +999,19 @@
         ]]>
     </string>
 
-    <string name="info_dialog_watch_face"><![CDATA[<b><u>디스플레이 변경 과정:</u></b>
-        <p><img src="ic_mi_fit_init"> <b>초기화</b></p>
-        <p>Resets the watch face\'s states to the original in the Mi 피트 애플리케이션, upload the first factory watch face.</p>
+    <string name="info_dialog_watch_face"><![CDATA[<b><u>디스플레이 변경 과정</u></b>
+        <p><img src="ic_upload_mi_fit_init"> <b>초기화</b></p>
+        <p>Resets the watch face\'s states to the original in the %1$s 애플리케이션, upload the first factory watch face.</p>
 
-        <img src="ic_mi_fit_upload"> <b>업로드</b>
-        <p>Upload the selected watch face in the Mi 피트. It replaces the last uploaded factory watch face.</p>
+        <img src="ic_upload_mi_fit"> <b>업로드</b>
+        <p>Upload the selected watch face in the %1$s. It replaces the last uploaded factory watch face.</p>
 
         <br><p><b><u>Upload multiple watch face</u></b></p>
-        <p><img src="ic_action_launch_mi_fit"> Launching Mi 피트 without watch face replacing, upload the second factory watch face.</p>
-        <p><img src="ic_mi_fit_upload">  Upload the selected watch face in the Mi 피트.</p>
+        <p><img src="ic_action_launch_mi_fit"> Launching %1$s without watch face replacing, upload the second factory watch face.</p>
+        <p><img src="ic_upload_mi_fit">  Upload the selected watch face in the %1$s.</p>
         <p>Repeat these steps.</p>
 
-        <br><p>In the Mi 피트 the watch face\'s picture will not change.</p>
+        <br><p>In the %1$s the watch face\'s picture will not change.</p>
         ]]>
     </string>
 
@@ -1223,6 +1224,7 @@
     <string name="action_filter_no">필터 없음</string>
     <string name="action_bluetooth">블루투스</string>
     <string name="action_launch_mi_fit">Mi 피트</string>
+    <string name="action_launch_amazfit">Amazfit</string>
     <string name="action_save">저장</string>
     <string name="action_test">작동 확인</string>
     <string name="action_discard">수정 취소</string>

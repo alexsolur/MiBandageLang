@@ -72,20 +72,18 @@
     <string name="mi_band_setting_menu_call">呼叫</string>
     <string name="mi_band_setting_menu_menu">菜单</string>
 
-    <string name="mi_band_setting_auth_mi_fit">与 Mi Fit 协作</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage 需要在同一个手机上安装小米运动（Mi Fit）应用. 首先你需要在 Mi Fit 里连接 %1$s,然后才能使用 Mi Bandage. 如果你想使用小米运动应用，请选择这项.</string>
+    <string name="mi_band_setting_auth_mi_fit">与 %1$s 协作</string> <!-- Mi Fit, Amazfit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage 需要在同一个手机上安装小米运动（Mi Fit/Amazfit）应用. 首先你需要在 Mi Fit/Amazfit 里连接 %1$s,然后才能使用 Mi Bandage. 如果你想使用小米运动应用，请选择这项.</string>
     <string name="mi_band_setting_auth_standalone">独立模式</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Bandage 工作不再需要 Mi Fit.在这里配对后卸载小米运动或在小米运动中解除配对. When restoring the Mi Fit cooperation, you will need to re-pair your %1$s in the Mi Fit application.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Bandage 工作不再需要 Mi Fit/Amazfit.在这里配对后卸载小米运动或在小米运动中解除配对. When restoring the Mi Fit/Amazfit cooperation, you will need to re-pair your %1$s in the Mi Fit/Amazfit application.</string>
     <string name="mi_band_setting_auth_key_title">Set authentication key</string>
     <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <ul>
-            <li>Unpair %1$s in the official Mi Fit app</li>
-            <li>Uninstall the official Mi Fit app</li>
-            <li>Download and install the modified Mi Fit app</li>
-            <li>Pair the %1$s in the modified Mi Fit app (do not unpair)</li>
-            <li>Uninstall the modified Mi Fit app</li>
-        </ul>
+        <p>- Unpair %1$s in the official Mi Fit/Amazfit app</p>
+        <p>- Uninstall the official Mi Fit/Amazfit app</p>
+        <p>- Download and install the modified Mi Fit/Amazfit app</p>
+        <p>- Pair the %1$s in the modified Mi Fit/Amazfit app (do not unpair)</p>
+        <p>- Uninstall the modified Mi Fit/Amazfit app</p>
         Authentication key can be found at: internal storage/freemyband/mac address.txt
     ]]></string>
     <string name="mi_band_setting_auth_key">Authentication key</string>
@@ -94,6 +92,7 @@
     <string name="message_mi_band_setting_auth_press_band_button">按下 %1$s 进行配对</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
     <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
     <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
 
     <string name="mi_band_setting_nickname">昵称</string>
     <string name="mi_band_setting_gender">性别</string>
@@ -349,6 +348,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit GTR</b>
+    <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Bip</b>
     <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -803,7 +803,7 @@
     <string name="alarm_mi_band_title">%1$s 信号</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_service">Lost background service</string>
     <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
-    <string name="alarm_mi_band_clock">Use the phone\s alarm clock, if background service is down (increases battery consumption)</string>
+    <string name="alarm_mi_band_clock">Use the phone\'s alarm clock, if background service is down (increases battery consumption)</string>
     <string name="alarm_mi_band_dnd">勿扰模式</string>
     <string name="alarm_mi_band_interval_title">重复间隔设置</string>
     <string name="alarm_mi_band_time_set_next">下次设置的时间</string>
@@ -961,6 +961,7 @@
     <string name="watch_face_tab_download">下载</string>
     <string name="watch_face_tab_upload">上传</string>
     <string name="watch_face_tab_upload_mi_fit">通过小米运动上传</string>
+    <string name="watch_face_tab_upload_amazfit">Upload via Amazfit</string>
 
     <string name="watch_face_download_title">下载表盘</string>
     <string name="watch_face_download_path">保存下载的表盘至</string>
@@ -973,7 +974,7 @@
     <string name="watch_face_upload_progress">上传中... %1$,d%%</string>
 
     <string name="watch_face_upload_init_title">初始化</string>
-    <string name="watch_face_upload_init_content"><![CDATA[在 Mi Fit 应用程序中设置表盘.
+    <string name="watch_face_upload_init_content"><![CDATA[在 %1$s 应用程序中设置表盘.
         <br>上传时需要选择相同的表盘.
         <br><i>(初始化只需一次)</i>
     ]]></string>
@@ -995,19 +996,19 @@
         ]]>
     </string>
 
-    <string name="info_dialog_watch_face"><![CDATA[<b><u>更换表盘:</u></b>
-        <p><img src="ic_mi_fit_init"> <b>初始化</b></p>
-        <p>在 Mi Fit 中还原表盘初始状态,上传第一个表盘.</p>
+    <string name="info_dialog_watch_face"><![CDATA[<b><u>更换表盘</u></b>
+        <p><img src="ic_upload_mi_fit_init"> <b>初始化</b></p>
+        <p>在 %1$s 中还原表盘初始状态,上传第一个表盘.</p>
 
-        <img src="ic_mi_fit_upload"> <b>上传</b>
-        <p>在 Mi Fit 中上传选定的表盘，它取代上次上传的表盘.</p>
+        <img src="ic_upload_mi_fit"> <b>上传</b>
+        <p>在 %1$s 中上传选定的表盘，它取代上次上传的表盘.</p>
 
         <br><p><b><u>上传多个表盘</u></b></p>
-        <p><img src="ic_action_launch_mi_fit"> 在未更换手表的情况下启动 Mi Fit,上传第二个表盘.</p>
-        <p><img src="ic_mi_fit_upload"> 在 Mi Fit 中上传选定的表盘.</p>
+        <p><img src="ic_action_launch_mi_fit"> 在未更换手表的情况下启动 %1$s,上传第二个表盘.</p>
+        <p><img src="ic_upload_mi_fit"> 在 %1$s 中上传选定的表盘.</p>
         <p>重复以上步骤.</p>
 
-        <br><p>在 Mi Fit 中表盘的图片不会改变.</p>
+        <br><p>在 %1$s 中表盘的图片不会改变.</p>
         ]]>
     </string>
 
@@ -1222,6 +1223,7 @@
     <string name="action_filter_no">无过滤器</string>
     <string name="action_bluetooth">蓝牙</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_launch_amazfit">Amazfit</string>
     <string name="action_save">保存</string>
     <string name="action_test">测试</string>
     <string name="action_discard">放弃</string>

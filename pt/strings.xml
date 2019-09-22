@@ -72,20 +72,18 @@
     <string name="mi_band_setting_menu_call">Chamadas</string>
     <string name="mi_band_setting_menu_menu">Menu</string>
 
-    <string name="mi_band_setting_auth_mi_fit">Cooperar com a Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">A Mi Bandage precisa que a Mi Fit esteja instalada no mesmo dispositivo. Primeiro você tem de emparelhar a %1$s na aplicação Mi Fit e só depois poderá usar a Mi Bandage. Se você pretende usar a Mi Fit, escolha esta opção.</string>
+    <string name="mi_band_setting_auth_mi_fit">Cooperar com a %1$s</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">A Mi Bandage precisa que a Mi Fit/Amazfit esteja instalada no mesmo dispositivo. Primeiro você tem de emparelhar a %1$s na aplicação Mi Fit/Amazfit e só depois poderá usar a Mi Bandage. Se você pretende usar a Mi Fit/Amazfit, escolha esta opção.</string>
     <string name="mi_band_setting_auth_standalone">Solitário</string>
-    <string name="mi_band_setting_auth_standalone_hint">A aplicação \'Mi Fit\' não é precisa para a Mi Bandage funcionar. Depois de emparelhar, desinstale a aplicação Mi Fit ou desemparelhe o seu dispositivo. Quando restaurar a cooperação da Mi Fit, você vai precisar de emparelhar novamente a sua %1$s na aplicação Mi Fit.</string>
+    <string name="mi_band_setting_auth_standalone_hint">A aplicação Mi Fit/Amazfit não é precisa para a Mi Bandage funcionar. Depois de emparelhar, desinstale a aplicação Mi Fit/Amazfit ou desemparelhe o seu dispositivo. Quando restaurar a cooperação da Mi Fit/Amazfit, você vai precisar de emparelhar novamente a sua %1$s na aplicação Mi Fit/Amazfit.</string>
     <string name="mi_band_setting_auth_key_title">Configurar a chave de autenticação</string>
     <string name="mi_band_setting_auth_key_hint">Deve ser providenciada uma chave de autenticação para usar o modo \'Solitário\'</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <ul>
-            <li>Desemparelhar a %1$s na aplicação oficial da Mi Fit</li>
-            <li>Desinstalar a aplicação oficial da Mi Fit</li>
-            <li>Descarregar e instalar a aplicação modificada da Mi Fit</li>
-            <li>Emparelhar a %1$s na aplicação modificada da Mi Fit (não desemparelhe)</li>
-            <li>Desinstalar a aplicação modificada da Mi Fit</li>
-        </ul>
+        <p>- Desemparelhar a %1$s na aplicação oficial da Mi Fit/Amazfit</p>
+        <p>- Desinstalar a aplicação oficial da Mi Fit/Amazfit</p>
+        <p>- Descarregar e instalar a aplicação modificada da Mi Fit/Amazfit</p>
+        <p>- Emparelhar a %1$s na aplicação modificada da Mi Fit/Amazfit (não desemparelhe)</p>
+        <p>- Desinstalar a aplicação modificada da Mi Fit/Amazfit</p>
         A chave de autenticação pode ser encontrada em: Armazenamento interno/freemyband/mac address.txt
     ]]></string>
     <string name="mi_band_setting_auth_key">Chave de autenticação</string>
@@ -94,6 +92,7 @@
     <string name="message_mi_band_setting_auth_press_band_button">Precione o botão %1$s para emparelhar</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
     <string name="message_mi_band_setting_auth_success">%1$s emparelhada com sucesso</string>
     <string name="message_mi_band_setting_auth_fail">O emparelhamento com a %1$s falhou</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
 
     <string name="mi_band_setting_nickname">Alcunha</string>
     <string name="mi_band_setting_gender">Género</string>
@@ -223,13 +222,13 @@
     <string name="pref_call_text_title">Mostrar o ID do chamador</string>
     <string name="pref_call_text_summary_on"><![CDATA[Ligado (mais informação em: <i>Definições/Definições do ícone de texto)</i>]]></string>
 
-	<string name="pref_call_net_text_title">Notificar chamada online recebida; mostrar o ID do chamador</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
-	
     <string name="pref_call_notification_rejected">Mostrar notificações acerca de chamadas rejeitadas</string>
     <string name="pref_call_notification_rejected_message">Chamada rejeitada</string>
     <string name="pref_call_notification_rejected_action">Chamada</string>
     <string name="pref_call_notification_muted">Mostrar notificações acerca de chamadas silenciadas</string>
+
+    <string name="pref_call_net_text_title">Notificar chamada online recebida; mostrar o ID do chamador</string>
+    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
 
     <string name="pref_cat_call_missed">Chamada perdida</string>
     <string name="pref_call_missed_title">Notificar chamada perdida</string>
@@ -352,6 +351,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit GTR</b>
+    <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Bip</b>
     <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -957,12 +957,13 @@
 
     <string name="weather_precipitation_rain">Chuva</string>
     <string name="weather_precipitation_snow">Neve</string>
-    <string name="weather_cloud_cover_abbreviation">Encoberto</string>
+    <string name="weather_cloud_cover_abbreviation">En</string>
 
     <!-- Watch face -->
     <string name="watch_face_tab_download">Download</string>
     <string name="watch_face_tab_upload">Upload</string>
     <string name="watch_face_tab_upload_mi_fit">Upload via Mi Fit</string>
+    <string name="watch_face_tab_upload_amazfit">Upload via Amazfit</string>
 
     <string name="watch_face_download_title">Descarregar watch faces</string>
     <string name="watch_face_download_path">Guarde a Watch Face transferida aqui</string>
@@ -975,7 +976,7 @@
     <string name="watch_face_upload_progress">A fazer o upload de %1$,d%%</string>
 
     <string name="watch_face_upload_init_title">Inicialização</string>
-    <string name="watch_face_upload_init_content"><![CDATA[Configure uma das Watch Faces de fábrica disponíveis na aplicação Mi Fit.
+    <string name="watch_face_upload_init_content"><![CDATA[Configure uma das Watch Faces de fábrica disponíveis na aplicação %1$s.
         <br>Você tem de selecionar a mesma Watch Face quando fizer o upload.
         <br><i>(Só precisa de fazer a Inicialização uma vez)</i>
     ]]></string>
@@ -998,18 +999,18 @@
     </string>
 
     <string name="info_dialog_watch_face"><![CDATA[<b><u>Procediemnto para alterar a Watch Face:</u></b>
-        <p><img src="ic_mi_fit_init"> <b>Inicialização</b></p>
-        <p>Restaure o estado da watch face para a original na aplicação Mi Fit e faça o upload da primeira Watch Face</p>
+        <p><img src="ic_upload_mi_fit_init"> <b>Inicialização</b></p>
+        <p>Restaure o estado da watch face para a original na aplicação %1$s e faça o upload da primeira Watch Face</p>
 
-        <img src="ic_mi_fit_upload"> <b>Upload</b>
-        <p>Faça o upload da Watch Face selecionada na Mi Fit. Isso vai substituir a última Watch Face adicionada.</p>
+        <img src="ic_upload_mi_fit"> <b>Upload</b>
+        <p>Faça o upload da Watch Face selecionada na %1$s. Isso vai substituir a última Watch Face adicionada.</p>
 
         <br><p><b><u>Upload de várias watch faces</u></b></p>
-        <p><img src="ic_action_launch_mi_fit"> Inicie a Mi Fit sem substituir a Watch Face e faça o upload da segunda Watch Face.</p>
-        <p><img src="ic_mi_fit_upload"> Faça o upload da Watch Face selecionada na Mi Fit.</p>
+        <p><img src="ic_action_launch_mi_fit"> Inicie a %1$s sem substituir a Watch Face e faça o upload da segunda Watch Face.</p>
+        <p><img src="ic_mi_fit_upload"> Faça o upload da Watch Face selecionada na %1$s.</p>
         <p>Repita estes passos.</p>
 
-        <br><p>A imagem da Watch Face da Mi Fit não vai mudar.</p>
+        <br><p>A imagem da Watch Face da %1$s não vai mudar.</p>
         ]]>
     </string>
 
@@ -1224,6 +1225,7 @@
     <string name="action_filter_no">Não filtrar</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_launch_amazfit">Amazfit</string>
     <string name="action_save">Guardar</string>
     <string name="action_test">Testar</string>
     <string name="action_discard">Rejeitar</string>
@@ -1271,7 +1273,7 @@
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="zero">%d horas</item>
+        <item quantity="zero">%d hora</item>
         <item quantity="one">%d hora</item>
         <item quantity="two">%d horas</item>
         <item quantity="few">%d horas</item>

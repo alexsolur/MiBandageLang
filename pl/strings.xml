@@ -72,20 +72,18 @@
     <string name="mi_band_setting_menu_call">Dzwonienie</string>
     <string name="mi_band_setting_menu_menu">Menu</string>
 
-    <string name="mi_band_setting_auth_mi_fit">Współpraca z Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage wymaga instalacji oficjalnej aplikacji Mi Fit na tym samym telefonie. Najpierw musisz sparować %1$s w aplikacji Mi Fit, potem możesz użyć Mi Bandage. Wybierz, jeśli chcesz używać Mi Fit.</string>
+    <string name="mi_band_setting_auth_mi_fit">Współpraca z %1$s</string> <!-- Mi Fit, Amazfit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage wymaga instalacji oficjalnej aplikacji Mi Fit/Amazfit na tym samym telefonie. Najpierw musisz sparować %1$s w aplikacji Mi Fit/Amazfit, potem możesz użyć Mi Bandage. Wybierz, jeśli chcesz używać Mi Fit/Amazfit.</string>
     <string name="mi_band_setting_auth_standalone">Samodzielny</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit app or unpair your device. When restoring the Mi Fit cooperation, you will need to re-pair your %1$s in the Mi Fit application.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit/Amazfit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit/Amazfit app or unpair your device. When restoring the Mi Fit/Amazfit cooperation, you will need to re-pair your %1$s in the Mi Fit/Amazfit application.</string>
     <string name="mi_band_setting_auth_key_title">Set authentication key</string>
     <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <ul>
-            <li>Unpair %1$s in the official Mi Fit app</li>
-            <li>Uninstall the official Mi Fit app</li>
-            <li>Download and install the modified Mi Fit app</li>
-            <li>Pair the %1$s in the modified Mi Fit app (do not unpair)</li>
-            <li>Uninstall the modified Mi Fit app</li>
-        </ul>
+        <p>- Unpair %1$s in the official Mi Fit/Amazfit app</p>
+        <p>- Uninstall the official Mi Fit/Amazfit app</p>
+        <p>- Download and install the modified Mi Fit/Amazfit app</p>
+        <p>- Pair the %1$s in the modified Mi Fit/Amazfit app (do not unpair)</p>
+        <p>- Uninstall the modified Mi Fit/Amazfit app</p>
         Authentication key can be found at: internal storage/freemyband/mac address.txt
     ]]></string>
     <string name="mi_band_setting_auth_key">Authentication key</string>
@@ -94,6 +92,7 @@
     <string name="message_mi_band_setting_auth_press_band_button">Wciśnij przycisk %1$s aby sparować</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
     <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
     <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
 
     <string name="mi_band_setting_nickname">Pseudonim</string>
     <string name="mi_band_setting_gender">Płeć</string>
@@ -352,6 +351,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit GTR</b>
+    <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Bip</b>
     <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -805,7 +805,7 @@
     <string name="alarm_mi_band_title">Sygnał na %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_service">Lost background service</string>
     <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
-    <string name="alarm_mi_band_clock">Use the phone\s alarm clock, if background service is down (increases battery consumption)</string>
+    <string name="alarm_mi_band_clock">Use the phone\'s alarm clock, if background service is down (increases battery consumption)</string>
     <string name="alarm_mi_band_dnd">Tryb Nie przeszkadzać</string>
     <string name="alarm_mi_band_interval_title">Powtórz interwał ustawienia alarmu</string>
     <string name="alarm_mi_band_time_set_next">Czas następnego ustawienia</string>
@@ -963,6 +963,7 @@
     <string name="watch_face_tab_download">Pobierz</string>
     <string name="watch_face_tab_upload">Prześlij</string>
     <string name="watch_face_tab_upload_mi_fit">Prześlij przez Mi Fit</string>
+    <string name="watch_face_tab_upload_amazfit">Prześlij przez via Amazfit</string>
 
     <string name="watch_face_download_title">Pobierz tarczę zegarka</string>
     <string name="watch_face_download_path">Zapisz pobrany plik tarczy zegarka tutaj</string>
@@ -975,7 +976,7 @@
     <string name="watch_face_upload_progress">Przesyłanie %1$,d%%</string>
 
     <string name="watch_face_upload_init_title">Inicjalizacja</string>
-    <string name="watch_face_upload_init_content"><![CDATA[W aplikacji Mi Fit ustaw jedną z fabrycznych tarczy zegarka.
+    <string name="watch_face_upload_init_content"><![CDATA[W aplikacji %1$s ustaw jedną z fabrycznych tarczy zegarka.
         <br>Podczas przesyłania musisz wybrać tę samą tarczę zegarka.
         <br><i>(inicjalizacja jest wymagana tylko raz)</i>
     ]]></string>
@@ -997,19 +998,19 @@
         ]]>
     </string>
 
-    <string name="info_dialog_watch_face"><![CDATA[<b><u>Procedura zmiany tarczy zegarka:</u></b>
-        <p><img src="ic_mi_fit_init"> <b>Inicjalizacja</b></p>
-        <p>Resetuje stany tarczy do oryginału w aplikacji Mi Fit, przesyła pierwszą fabryczną tarczę zegarka.</p>
+    <string name="info_dialog_watch_face"><![CDATA[<b><u>Procedura zmiany tarczy zegarka</u></b>
+        <p><img src="ic_upload_mi_fit_init"> <b>Inicjalizacja</b></p>
+        <p>Resetuje stany tarczy do oryginału w aplikacji %1$s, przesyła pierwszą fabryczną tarczę zegarka.</p>
 
-        <img src="ic_mi_fit_upload"> <b>Prześlij</b>
-        <p>Prześlij wybraną tarczę zegarka w Mi Fit. Zastępuje on ostatnią przesłaną fabryczną tarczę zegarka.</p>
+        <img src="ic_upload_mi_fit"> <b>Prześlij</b>
+        <p>Prześlij wybraną tarczę zegarka w %1$s. Zastępuje on ostatnią przesłaną fabryczną tarczę zegarka.</p>
 
         <br><p><b><u>Prześlij wiele tarcz zegarka</u></b></p>
-        <p><img src="ic_action_launch_mi_fit"> Uruchamiając Mi Fit bez wymiany tarczy zegarka, prześlij drugą fabryczną tarczę zegarka.</p>
-        <p><img src="ic_mi_fit_upload">  Prześlij wybraną tarczę zegarka w Mi Fit.</p>
+        <p><img src="ic_action_launch_mi_fit"> Uruchamiając %1$s bez wymiany tarczy zegarka, prześlij drugą fabryczną tarczę zegarka.</p>
+        <p><img src="ic_upload_mi_fit">  Prześlij wybraną tarczę zegarka w %1$s.</p>
         <p>Powtórz te kroki.</p>
 
-        <br><p>W Mi Fit obraz tarczy zegarka nie zmieni się.</p>
+        <br><p>W %1$s obraz tarczy zegarka nie zmieni się.</p>
         ]]>
     </string>
 
@@ -1224,6 +1225,7 @@
     <string name="action_filter_no">Brak filtrowania</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_launch_amazfit">Amazfit</string>
     <string name="action_save">Zapisz</string>
     <string name="action_test">Testuj</string>
     <string name="action_discard">Odrzuć</string>

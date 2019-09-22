@@ -72,20 +72,18 @@
     <string name="mi_band_setting_menu_call">Hovor</string>
     <string name="mi_band_setting_menu_menu">Menu</string>
 
-    <string name="mi_band_setting_auth_mi_fit">Spolupráce s Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage vyžaduje instalaci oficiální aplikace Mi Fit na stejném zařízení. Nejprve musíte spárovat %1$s v aplikaci Mi Fit, poté můžete použít aplikaci Mi Bandage. Zvolte tuto možnost, pokud chcete použít Mi Fit.</string>
+    <string name="mi_band_setting_auth_mi_fit">Spolupráce s %1$s</string> <!-- Mi Fit, Amazfit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage vyžaduje instalaci oficiální aplikace Mi Fit/Amazfit na stejném zařízení. Nejprve musíte spárovat %1$s v aplikaci Mi Fit/Amazfit, poté můžete použít aplikaci Mi Bandage. Zvolte tuto možnost, pokud chcete použít Mi Fit/Amazfit.</string>
     <string name="mi_band_setting_auth_standalone">Samostatný</string>
-    <string name="mi_band_setting_auth_standalone_hint">Aplikace Mi Fit není nutná pro práci Mi Bandage. Po párování odinstalujte aplikaci Mi Fit nebo odpojte zařízení. When restoring the Mi Fit cooperation, you will need to re-pair your %1$s in the Mi Fit application.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Aplikace Mi Fit/Amazfit není nutná pro práci Mi Bandage. Po párování odinstalujte aplikaci Mi Fit/Amazfit nebo odpojte zařízení. When restoring the Mi Fit/Amazfit cooperation, you will need to re-pair your %1$s in the Mi Fit/Amazfit application.</string>
     <string name="mi_band_setting_auth_key_title">Set authentication key</string>
     <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <ul>
-            <li>Unpair %1$s in the official Mi Fit app</li>
-            <li>Uninstall the official Mi Fit app</li>
-            <li>Download and install the modified Mi Fit app</li>
-            <li>Pair the %1$s in the modified Mi Fit app (do not unpair)</li>
-            <li>Uninstall the modified Mi Fit app</li>
-        </ul>
+        <p>- Unpair %1$s in the official Mi Fit/Amazfit app</p>
+        <p>- Uninstall the official Mi Fit/Amazfit app</p>
+        <p>- Download and install the modified Mi Fit/Amazfit app</p>
+        <p>- Pair the %1$s in the modified Mi Fit/Amazfit app (do not unpair)</p>
+        <p>- Uninstall the modified Mi Fit/Amazfit app</p>
         Authentication key can be found at: internal storage/freemyband/mac address.txt
     ]]></string>
     <string name="mi_band_setting_auth_key">Authentication key</string>
@@ -94,6 +92,7 @@
     <string name="message_mi_band_setting_auth_press_band_button">Pro spárování stiskni tlačítko %1$s</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
     <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
     <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
 
     <string name="mi_band_setting_nickname">Přezdívka</string>
     <string name="mi_band_setting_gender">Pohlaví</string>
@@ -352,6 +351,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit GTR</b>
+    <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Bip</b>
     <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -806,7 +806,7 @@
     <string name="alarm_mi_band_title">Oznámení na %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_service">Lost background service</string>
     <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
-    <string name="alarm_mi_band_clock">Use the phone\s alarm clock, if background service is down (increases battery consumption)</string>
+    <string name="alarm_mi_band_clock">Use the phone\'s alarm clock, if background service is down (increases battery consumption)</string>
     <string name="alarm_mi_band_dnd">Režim nerušit</string>
     <string name="alarm_mi_band_interval_title">Opakovat interval nastavení budíku</string>
     <string name="alarm_mi_band_time_set_next">Načasování dalšího nastavení</string>
@@ -964,6 +964,7 @@
     <string name="watch_face_tab_download">Stáhnout</string>
     <string name="watch_face_tab_upload">Nahrát</string>
     <string name="watch_face_tab_upload_mi_fit">Nahrát přes Mi Fit</string>
+    <string name="watch_face_tab_upload_amazfit">Nahrát přes Amazfit</string>
 
     <string name="watch_face_download_title">Stažení ciferníku</string>
     <string name="watch_face_download_path">Uložený soubor ciferníku zde</string>
@@ -976,7 +977,7 @@
     <string name="watch_face_upload_progress">Nahrání %1$,d%%</string>
 
     <string name="watch_face_upload_init_title">Inicializace</string>
-    <string name="watch_face_upload_init_content"><![CDATA[V aplikaci Mi Fit nastavte jeden ze stylu ciferníku.
+    <string name="watch_face_upload_init_content"><![CDATA[V aplikaci %1$s nastavte jeden ze stylu ciferníku.
     <br> Při nahrávání musíte vybrat stejný ciferník.
     <br><i>(inicializace je požadována pouze jednou)</i>
     ]]></string>
@@ -999,19 +1000,19 @@
     </string>
 
 
-    <string name="info_dialog_watch_face"><![CDATA[<b><u>Proces změny stylu ciferníku:</u></b>
-        <p><img src="ic_mi_fit_init"> <b>Inicializace</b>
-        <p>Resetujte styl ciferníku na originální ciferník v aplikaci Mi Fit, nahrejte původní ciferník.</p>
+    <string name="info_dialog_watch_face"><![CDATA[<b><u>Proces změny stylu ciferníku</u></b>
+        <p><img src="ic_upload_mi_fit_init"> <b>Inicializace</b>
+        <p>Resetujte styl ciferníku na originální ciferník v aplikaci %1$s, nahrejte původní ciferník.</p>
 
-        <img src="ic_mi_fit_upload"> <b>4. Nahrání</b>
-        <p>Nahrejte zvolený styl ciferníku do aplikace Mi Fit. Soubory nahradí poslední nahraný styl ciferníku.</p>
+        <img src="ic_upload_mi_fit"> <b>4. Nahrání</b>
+        <p>Nahrejte zvolený styl ciferníku do aplikace %1$s. Soubory nahradí poslední nahraný styl ciferníku.</p>
 
         <br><p><b><u>Náhrání více stylů ciferníků</u></b></p>
-        <p><img src="ic_action_launch_mi_fit"> Zapnutí aplikace Mi Fit - bez nahrazení stylu ciferníku. Nahrejte druhý původní styl ciferníku.</p>
-        <p><img src="ic_mi_fit_upload">  Nahrejte zvolený styl ciferníku do aplikace Mi Fit.</p>
+        <p><img src="ic_action_launch_mi_fit"> Zapnutí aplikace %1$s - bez nahrazení stylu ciferníku. Nahrejte druhý původní styl ciferníku.</p>
+        <p><img src="ic_upload_mi_fit">  Nahrejte zvolený styl ciferníku do aplikace %1$s.</p>
         <p>Opakujte tyto kroky.</p>
 
-        <br><p>V aplikaci Mi Fit se styly ciferníku nezmění.</p>
+        <br><p>V aplikaci %1$s se styly ciferníku nezmění.</p>
         ]]>
     </string>
 
@@ -1226,6 +1227,7 @@
     <string name="action_filter_no">Žádný filtr</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_launch_amazfit">Amazfit</string>
     <string name="action_save">Uložit</string>
     <string name="action_test">Test</string>
     <string name="action_discard">Zahodit</string>

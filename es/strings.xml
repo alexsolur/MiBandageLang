@@ -72,20 +72,18 @@
     <string name="mi_band_setting_menu_call">Llamada</string>
     <string name="mi_band_setting_menu_menu">Menú</string>
 
-    <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage requiere la instalación de la aplicación oficial Mi Fit en el mismo dispositivo. Al principio, tiene que emparejar la %1$s con Mi Fit, entonces podrá usar Mi Bandage. If you want to use Mi Fit, choose this.</string>
+    <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Mi Fit, Amazfit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage requiere la instalación de la aplicación oficial Mi Fit/Amazfit en el mismo dispositivo. Al principio, tiene que emparejar la %1$s con Mi Fit/Amazfit, entonces podrá usar Mi Bandage. If you want to use Mi Fit/Amazfit, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit app or unpair your device. When restoring the Mi Fit cooperation, you will need to re-pair your %1$s in the Mi Fit application.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit/Amazfit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit/Amazfit app or unpair your device. When restoring the Mi Fit/Amazfit cooperation, you will need to re-pair your %1$s in the Mi Fit/Amazfit application.</string>
     <string name="mi_band_setting_auth_key_title">Set authentication key</string>
     <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <ul>
-            <li>Unpair %1$s in the official Mi Fit app</li>
-            <li>Uninstall the official Mi Fit app</li>
-            <li>Download and install the modified Mi Fit app</li>
-            <li>Pair the %1$s in the modified Mi Fit app (do not unpair)</li>
-            <li>Uninstall the modified Mi Fit app</li>
-        </ul>
+        <p>- Unpair %1$s in the official Mi Fit/Amazfit app</p>
+        <p>- Uninstall the official Mi Fit/Amazfit app</p>
+        <p>- Download and install the modified Mi Fit/Amazfit app</p>
+        <p>- Pair the %1$s in the modified Mi Fit/Amazfit app (do not unpair)</p>
+        <p>- Uninstall the modified Mi Fit/Amazfit app</p>
         Authentication key can be found at: internal storage/freemyband/mac address.txt
     ]]></string>
     <string name="mi_band_setting_auth_key">Authentication key</string>
@@ -94,6 +92,7 @@
     <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
     <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
     <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
 
     <string name="mi_band_setting_nickname">Apodo</string>
     <string name="mi_band_setting_gender">Sexo</string>
@@ -352,6 +351,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit GTR</b>
+    <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Bip</b>
     <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -807,7 +807,7 @@
     <string name="alarm_mi_band_title">Señal en %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_service">Lost background service</string>
     <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
-    <string name="alarm_mi_band_clock">Use the phone\s alarm clock, if background service is down (increases battery consumption)</string>
+    <string name="alarm_mi_band_clock">Use the phone\'s alarm clock, if background service is down (increases battery consumption)</string>
     <string name="alarm_mi_band_dnd">Modo no molestar</string>
     <string name="alarm_mi_band_interval_title">Repetir el intervalo de la configuración de la alarma</string>
     <string name="alarm_mi_band_time_set_next">Hora de la siguiente configuracion</string>
@@ -965,6 +965,7 @@
     <string name="watch_face_tab_download">Descarga</string>
     <string name="watch_face_tab_upload">Carga</string>
     <string name="watch_face_tab_upload_mi_fit">Upload via Mi Fit</string>
+    <string name="watch_face_tab_upload_amazfit">Upload via Amazfit</string>
 
     <string name="watch_face_download_title">Carga Watchface</string>
     <string name="watch_face_download_path">Guarda el watchface descargado aquí</string>
@@ -977,7 +978,7 @@
     <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
 
     <string name="watch_face_upload_init_title">Inicialización</string>
-    <string name="watch_face_upload_init_content"><![CDATA[En la aplicación Mi Fit selecciona el watchface de fábrica.
+    <string name="watch_face_upload_init_content"><![CDATA[En la aplicación %1$s selecciona el watchface de fábrica.
         <br><i>Tienes que seleccionar el watchface que cargas.
         <i>(La inicialización es requerída solo una vez)</i>
     ]]></string>
@@ -999,19 +1000,19 @@
         ]]>
     </string>
 
-    <string name="info_dialog_watch_face"><![CDATA[<b><u>Procedimiento de cambio del watchface :</u></b>
-        <p><img src="ic_mi_fit_init"> <b>Inicialización </b></p>
-        <p>Resetear el estado del watchface\'s al original de la aplicación Mi Fit, carga el primer watchface de fabrica.</p>
+    <string name="info_dialog_watch_face"><![CDATA[<b><u>Procedimiento de cambio del watchface</u></b>
+        <p><img src="ic_upload_mi_fit_init"> <b>Inicialización </b></p>
+        <p>Resetear el estado del watchface\'s al original de la aplicación %1$s, carga el primer watchface de fabrica.</p>
 
-        <img src="ic_mi_fit_upload"> <b>Carga</b>
-        <p>Carga el watchface seleccionado en Mi Fit. Reemplazará el último watchface.</p>
+        <img src="ic_upload_mi_fit"> <b>Carga</b>
+        <p>Carga el watchface seleccionado en %1$s. Reemplazará el último watchface.</p>
 
         <br><p><b><u>Cargar múltiples Watchface</u></b></p>
-        <p><img src="ic_action_launch_mi_fit"> Lanzado Mi Fit sin reemplazo de watchface , cargar el segundo watchface de fabrica.</p>
-        <p><img src="ic_mi_fit_upload">  Carga el watchface seleccionado en Mi Fit.</p>
+        <p><img src="ic_action_launch_mi_fit"> Lanzado %1$s sin reemplazo de watchface , cargar el segundo watchface de fabrica.</p>
+        <p><img src="ic_upload_mi_fit">  Carga el watchface seleccionado en %1$s.</p>
         <p>Repite estos pasos.</p>
 
-        <br><p>En Mi Fit la imagen\'s del watchface no cambiará.</p>
+        <br><p>En %1$s la imagen\'s del watchface no cambiará.</p>
         ]]>
     </string>
 
@@ -1226,6 +1227,7 @@
     <string name="action_filter_no">Sin filtros</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_launch_amazfit">Amazfit</string>
     <string name="action_save">Guardar</string>
     <string name="action_test">Probar</string>
     <string name="action_discard">Descartar</string>
@@ -1282,7 +1284,7 @@
     </plurals>
 
     <plurals name="plural_time_minute">
-        <item quantity="zero">%d min</item>
+        <item quantity="zero">%d minuto</item>
         <item quantity="one">%d minuto</item>
         <item quantity="two">%d minutos</item>
         <item quantity="few">%d minutos</item>

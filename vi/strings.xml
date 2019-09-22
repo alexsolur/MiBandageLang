@@ -72,20 +72,18 @@
     <string name="mi_band_setting_menu_call">Cuộc gọi</string>
     <string name="mi_band_setting_menu_menu">Các mục menu ẩn</string>
 
-    <string name="mi_band_setting_auth_mi_fit">Đồng bộ với Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage cần cài đặt Mi Fit trên cùng điện thoại. Đầu tiên, bạn cần kết nối %1$s với Mi Fit, sau đó có thể sử dụng Mi Bandage. Nếu bạn muốn dùng Mi Fit, chọn mục này.</string>
+    <string name="mi_band_setting_auth_mi_fit">Đồng bộ với %1$s</string> <!-- Mi Fit, Amazfit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage cần cài đặt Mi Fit/Amazfit trên cùng điện thoại. Đầu tiên, bạn cần kết nối %1$s với Mi Fit/Amazfit, sau đó có thể sử dụng Mi Bandage. Nếu bạn muốn dùng Mi Fit/Amazfit, chọn mục này.</string>
     <string name="mi_band_setting_auth_standalone">Hoạt động độc lập</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Bandage không cần Mi Fit để hoạt động, sau khi đồng bộ, gỡ bỏ Mi Fit hoặc bỏ kết nối thiết bị của bạn. When restoring the Mi Fit cooperation, you will need to re-pair your %1$s in the Mi Fit application.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Bandage không cần Mi Fit/Amazfit để hoạt động, sau khi đồng bộ, gỡ bỏ Mi Fit/Amazfit hoặc bỏ kết nối thiết bị của bạn. When restoring the Mi Fit/Amazfit cooperation, you will need to re-pair your %1$s in the Mi Fit/Amazfit application.</string>
     <string name="mi_band_setting_auth_key_title">Set authentication key</string>
     <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <ul>
-            <li>Unpair %1$s in the official Mi Fit app</li>
-            <li>Uninstall the official Mi Fit app</li>
-            <li>Download and install the modified Mi Fit app</li>
-            <li>Pair the %1$s in the modified Mi Fit app (do not unpair)</li>
-            <li>Uninstall the modified Mi Fit app</li>
-        </ul>
+        <p>- Unpair %1$s in the official Mi Fit/Amazfit app</p>
+        <p>- Uninstall the official Mi Fit/Amazfit app</p>
+        <p>- Download and install the modified Mi Fit/Amazfit app</p>
+        <p>- Pair the %1$s in the modified Mi Fit/Amazfit app (do not unpair)</p>
+        <p>- Uninstall the modified Mi Fit/Amazfit app</p>
         Authentication key can be found at: internal storage/freemyband/mac address.txt
     ]]></string>
     <string name="mi_band_setting_auth_key">Authentication key</string>
@@ -94,6 +92,7 @@
     <string name="message_mi_band_setting_auth_press_band_button">Bấm nút %1$s để kết nối</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
     <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
     <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
 
     <string name="mi_band_setting_nickname">Biệt danh</string>
     <string name="mi_band_setting_gender">Giới tính</string>
@@ -351,6 +350,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit GTR</b>
+    <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Bip</b>
     <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -807,7 +807,7 @@
     <string name="alarm_mi_band_title">Tín hiệu %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_service">Lost background service</string>
     <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
-    <string name="alarm_mi_band_clock">Use the phone\s alarm clock, if background service is down (increases battery consumption)</string>
+    <string name="alarm_mi_band_clock">Use the phone\'s alarm clock, if background service is down (increases battery consumption)</string>
     <string name="alarm_mi_band_dnd">Chế độ không làm phiền</string>
     <string name="alarm_mi_band_interval_title">Cài đặt khoảng thời gian báo thức lặp lại</string>
     <string name="alarm_mi_band_time_set_next">Cài đặt thời điểm của tiếp theo</string>
@@ -965,6 +965,7 @@
     <string name="watch_face_tab_download">Download</string>
     <string name="watch_face_tab_upload">Upload</string>
     <string name="watch_face_tab_upload_mi_fit">Upload qua Mi Fit</string>
+    <string name="watch_face_tab_upload_amazfit">Upload qua Amazfit</string>
 
     <string name="watch_face_download_title">Download mặt đồng hồ</string>
     <string name="watch_face_download_path">Lưu file mặt đồng hồ ở đây</string>
@@ -977,7 +978,7 @@
     <string name="watch_face_upload_progress">Đang tải %1$,d%%</string>
 
     <string name="watch_face_upload_init_title">Khởi tạo</string>
-    <string name="watch_face_upload_init_content"><![CDATA[In the Mi Fit Application set one of the factory watch face.
+    <string name="watch_face_upload_init_content"><![CDATA[In the %1$s application set one of the factory watch face.
         <br>You have to select the same watch face when uploading.
         <br><i>(initialization is only required once)</i>
     ]]></string>
@@ -999,19 +1000,19 @@
         ]]>
     </string>
 
-    <string name="info_dialog_watch_face"><![CDATA[<b><u>Watch face change procedure:</u></b>
-        <p><img src="ic_mi_fit_init"> <b>Initialization</b></p>
-        <p>Resets the watch face\'s states to the original in the Mi Fit application, upload the first factory watch face.</p>
+    <string name="info_dialog_watch_face"><![CDATA[<b><u>Watch face change procedure</u></b>
+        <p><img src="ic_upload_mi_fit_init"> <b>Initialization</b></p>
+        <p>Resets the watch face\'s states to the original in the %1$s application, upload the first factory watch face.</p>
 
-        <img src="ic_mi_fit_upload"> <b>Upload</b>
-        <p>Upload the selected watch face in the Mi Fit. It replaces the last uploaded factory watch face.</p>
+        <img src="ic_upload_mi_fit"> <b>Upload</b>
+        <p>Upload the selected watch face in the %1$s. It replaces the last uploaded factory watch face.</p>
 
         <br><p><b><u>Upload multiple watch face</u></b></p>
-        <p><img src="ic_action_launch_mi_fit"> Launching Mi Fit without watch face replacing, upload the second factory watch face.</p>
-        <p><img src="ic_mi_fit_upload">  Upload the selected watch face in the Mi Fit.</p>
+        <p><img src="ic_action_launch_mi_fit"> Launching %1$s without watch face replacing, upload the second factory watch face.</p>
+        <p><img src="ic_upload_mi_fit">  Upload the selected watch face in the %1$s.</p>
         <p>Repeat these steps.</p>
 
-        <br><p>In the Mi Fit the watch face\'s picture will not change.</p>
+        <br><p>In the %1$s the watch face\'s picture will not change.</p>
         ]]>
     </string>
 
@@ -1227,6 +1228,7 @@
     <string name="action_filter_no">Không lọc</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_launch_amazfit">Amazfit</string>
     <string name="action_save">Lưu</string>
     <string name="action_test">Test</string>
     <string name="action_discard">Hủy</string>

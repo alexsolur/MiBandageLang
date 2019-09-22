@@ -72,20 +72,18 @@
     <string name="mi_band_setting_menu_call">Arama</string>
     <string name="mi_band_setting_menu_menu">Ekran</string>
 
-    <string name="mi_band_setting_auth_mi_fit">Mi Fit ile birlikte</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandaj, resmi Mi Fit uygulamasının aynı cihaza kurulmasını gerektirir. İlk önce %1$s\'yi Mi Fit uygulamasında eşleştirmeniz gerekir, o zaman Mi Bandaj\'ı kullanabilirsiniz. If you want to use Mi Fit, choose this.</string>
+    <string name="mi_band_setting_auth_mi_fit">%1$s ile birlikte</string> <!-- Mi Fit, Amazfit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandaj, resmi Mi Fit/Amazfit uygulamasının aynı cihaza kurulmasını gerektirir. İlk önce %1$s\'yi Mi Fit/Amazfit uygulamasında eşleştirmeniz gerekir, o zaman Mi Bandaj\'ı kullanabilirsiniz. If you want to use Mi Fit/Amazfit, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Bağımsız</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Bandaj\'ın çalışması için Mi Fit uygulaması gerekli değildir. Eşleştirmeden sonra Mi Fit uygulamasını kaldırın veya cihazınızı eşleştirin. When restoring the Mi Fit cooperation, you will need to re-pair your %1$s in the Mi Fit application.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Bandaj\'ın çalışması için Mi Fit/Amazfit uygulaması gerekli değildir. Eşleştirmeden sonra Mi Fit/Amazfit uygulamasını kaldırın veya cihazınızı eşleştirin. When restoring the Mi Fit/Amazfit cooperation, you will need to re-pair your %1$s in the Mi Fit/Amazfit application.</string>
     <string name="mi_band_setting_auth_key_title">Set authentication key</string>
     <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <ul>
-            <li>Unpair %1$s in the official Mi Fit app</li>
-            <li>Uninstall the official Mi Fit app</li>
-            <li>Download and install the modified Mi Fit app</li>
-            <li>Pair the %1$s in the modified Mi Fit app (do not unpair)</li>
-            <li>Uninstall the modified Mi Fit app</li>
-        </ul>
+        <p>- Unpair %1$s in the official Mi Fit/Amazfit app</p>
+        <p>- Uninstall the official Mi Fit/Amazfit app</p>
+        <p>- Download and install the modified Mi Fit/Amazfit app</p>
+        <p>- Pair the %1$s in the modified Mi Fit/Amazfit app (do not unpair)</p>
+        <p>- Uninstall the modified Mi Fit/Amazfit app</p>
         Authentication key can be found at: internal storage/freemyband/mac address.txt
     ]]></string>
     <string name="mi_band_setting_auth_key">Authentication key</string>
@@ -94,6 +92,7 @@
     <string name="message_mi_band_setting_auth_press_band_button">Eşleştirme için %1$s düğmesine basın</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
     <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
     <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
 
     <string name="mi_band_setting_nickname">Kullanıcı adı</string>
     <string name="mi_band_setting_gender">Cinsiyet</string>
@@ -352,6 +351,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit GTR</b>
+    <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Bip</b>
     <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -807,7 +807,7 @@
     <string name="alarm_mi_band_title">%1$s bildirimi</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_service">Lost background service</string>
     <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
-    <string name="alarm_mi_band_clock">Use the phone\s alarm clock, if background service is down (increases battery consumption)</string>
+    <string name="alarm_mi_band_clock">Use the phone\'s alarm clock, if background service is down (increases battery consumption)</string>
     <string name="alarm_mi_band_dnd">Rahatsıs etmeyim modu</string>
     <string name="alarm_mi_band_interval_title">Uyarıyı tekrarla</string>
     <string name="alarm_mi_band_time_set_next">Bir sonraki kontrol</string>
@@ -965,6 +965,7 @@
     <string name="watch_face_tab_download">Download</string>
     <string name="watch_face_tab_upload">Yükle</string>
     <string name="watch_face_tab_upload_mi_fit">Mi Fitile gönder</string>
+    <string name="watch_face_tab_upload_amazfit">Upload via Amazfit</string>
 
     <string name="watch_face_download_title">Saat teması indir</string>
     <string name="watch_face_download_path">İndirilen saat teması dosyasını buraya kaydedin</string>
@@ -977,7 +978,7 @@
     <string name="watch_face_upload_progress">Gönderiliyor %1$,d%%</string>
 
     <string name="watch_face_upload_init_title">İlk kez başlatılıyor</string>
-    <string name="watch_face_upload_init_content"><![CDATA[Mi Fit Uygulamasında, varsayılan saat temalarından birini seçin.
+    <string name="watch_face_upload_init_content"><![CDATA[%1$s Uygulamasında, varsayılan saat temalarından birini seçin.
         <br>Yükleme sırasında aynı saat temasını seçmeniz gerekir.
         <br><i>(Bu yalnızca bir kez yapılır)</i>
     ]]></string>
@@ -999,19 +1000,19 @@
         ]]>
     </string>
 
-    <string name="info_dialog_watch_face"><![CDATA[<b><u>Saat teması değiştirme adımları:</u></b>
-        <p><img src="ic_mi_fit_init"> <b>İlk kez başlatılıyor</b></p>
-        <p>Mi Fit uygulamasında saat teması durumlarını orijinaline sıfırlar, varsayılan tema yüklenir.</p>
+    <string name="info_dialog_watch_face"><![CDATA[<b><u>Saat teması değiştirme adımları</u></b>
+        <p><img src="ic_upload_mi_fit_init"> <b>İlk kez başlatılıyor</b></p>
+        <p>%1$s uygulamasında saat teması durumlarını orijinaline sıfırlar, varsayılan tema yüklenir.</p>
 
-        <img src="ic_mi_fit_upload"> <b>Yükle</b>
-        <p>Mi Fit uygulamasına seçilen tema yüklenir. Bu işlem varsayılan temanın üzerine yazar.</p>
+        <img src="ic_upload_mi_fit"> <b>Yükle</b>
+        <p>%1$s uygulamasına seçilen tema yüklenir. Bu işlem varsayılan temanın üzerine yazar.</p>
 
         <br><p><b><u>Birden fazla saat teması yükle</u></b></p>
-        <p><img src="ic_action_launch_mi_fit"> Mi Fit uygulaması temayı değiştirmeden başlatılır, ardından varsayılan tema yüklenir.</p>
-        <p><img src="ic_mi_fit_upload">  Mi Fit uygulamasına tema dosyasını yükle.</p>
+        <p><img src="ic_action_launch_mi_fit"> %1$s uygulaması temayı değiştirmeden başlatılır, ardından varsayılan tema yüklenir.</p>
+        <p><img src="ic_upload_mi_fit">  %1$s uygulamasına tema dosyasını yükle.</p>
         <p>Bu adımları tekrarla.</p>
 
-        <br><p>Mi Fit uygulamasında saat teması resmi değişmedi.</p>
+        <br><p>%1$s uygulamasında saat teması resmi değişmedi.</p>
         ]]>
     </string>
 
@@ -1226,6 +1227,7 @@
     <string name="action_filter_no">Tümü</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_launch_amazfit">Amazfit</string>
     <string name="action_save">Kaydet</string>
     <string name="action_test">Test</string>
     <string name="action_discard">Sil</string>

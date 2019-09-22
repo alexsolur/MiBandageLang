@@ -72,20 +72,18 @@
     <string name="mi_band_setting_menu_call">Bellen</string>
     <string name="mi_band_setting_menu_menu">Menu</string>
 
-    <string name="mi_band_setting_auth_mi_fit">Cooperation with Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage requires the installation of the Mi Fit app on the same phone. At first you have to pair %1$s in Mi Fit app, then you can use Mi Bandage. If you want to use Mi Fit application, choose this.</string>
+    <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Mi Fit, Amazfit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage requires the installation of the Mi Fit/Amazfit app on the same phone. At first you have to pair %1$s in Mi Fit/Amazfit app, then you can use Mi Bandage. If you want to use Mi Fit/Amazfit application, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Fit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit app or unpair your device. When restoring the Mi Fit cooperation, you will need to re-pair your %1$s in the Mi Fit application.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit/Amazfit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit/Amazfit app or unpair your device. When restoring the Mi Fit/Amazfit cooperation, you will need to re-pair your %1$s in the Mi Fit/Amazfit application.</string>
     <string name="mi_band_setting_auth_key_title">Set authentication key</string>
     <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <ul>
-            <li>Unpair %1$s in the official Mi Fit app</li>
-            <li>Uninstall the official Mi Fit app</li>
-            <li>Download and install the modified Mi Fit app</li>
-            <li>Pair the %1$s in the modified Mi Fit app (do not unpair)</li>
-            <li>Uninstall the modified Mi Fit app</li>
-        </ul>
+        <p>- Unpair %1$s in the official Mi Fit/Amazfit app</p>
+        <p>- Uninstall the official Mi Fit/Amazfit app</p>
+        <p>- Download and install the modified Mi Fit/Amazfit app</p>
+        <p>- Pair the %1$s in the modified Mi Fit/Amazfit app (do not unpair)</p>
+        <p>- Uninstall the modified Mi Fit/Amazfit app</p>
         Authentication key can be found at: internal storage/freemyband/mac address.txt
     ]]></string>
     <string name="mi_band_setting_auth_key">Authentication key</string>
@@ -94,6 +92,7 @@
     <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
     <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
     <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
 
     <string name="mi_band_setting_nickname">Bijnaam</string>
     <string name="mi_band_setting_gender">Geslacht</string>
@@ -352,6 +351,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit GTR</b>
+    <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Bip</b>
     <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -806,7 +806,7 @@
     <string name="alarm_mi_band_title">%1$s signaal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_service">Lost background service</string>
     <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
-    <string name="alarm_mi_band_clock">Use the phone\s alarm clock, if background service is down (increases battery consumption)</string>
+    <string name="alarm_mi_band_clock">Use the phone\'s alarm clock, if background service is down (increases battery consumption)</string>
     <string name="alarm_mi_band_dnd">Niet Storen mode</string>
     <string name="alarm_mi_band_interval_title">Herhaal interval van alarminstelling</string>
     <string name="alarm_mi_band_time_set_next">Timing volgende instelling</string>
@@ -964,6 +964,7 @@
     <string name="watch_face_tab_download">Download</string>
     <string name="watch_face_tab_upload">Upload</string>
     <string name="watch_face_tab_upload_mi_fit">Upload via Mi Fit</string>
+    <string name="watch_face_tab_upload_amazfit">Upload via Amazfit</string>
 
     <string name="watch_face_download_title">Download watch face</string>
     <string name="watch_face_download_path">Bewaar de gedownloade klokthema bestanden hier</string>
@@ -976,7 +977,7 @@
     <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
 
     <string name="watch_face_upload_init_title">Initialisatie</string>
-    <string name="watch_face_upload_init_content"><![CDATA[In de Mi Fit app stel je een van de fabrieks klokthema\'s in.
+    <string name="watch_face_upload_init_content"><![CDATA[In de %1$s app stel je een van de fabrieks klokthema\'s in.
         <br>Je moet tijdens het uploaden hetzelfde klokthema selecteren.
         <br><i>(initialisatie is eenmalig nodig)</i>
     ]]></string>
@@ -998,19 +999,19 @@
         ]]>
     </string>
 
-    <string name="info_dialog_watch_face"><![CDATA[<b><u>Klokthema wissel procedure:</u></b>
-        <p><img src="ic_mi_fit_init"> <b>Initialisatie</b></p>
-        <p>Zet de status van de klokthema terug op het origineel in de Mi Fit app en upload de eerste fabrieks klokthema.</p>
+    <string name="info_dialog_watch_face"><![CDATA[<b><u>Klokthema wissel procedure</u></b>
+        <p><img src="ic_upload_mi_fit_init"> <b>Initialisatie</b></p>
+        <p>Zet de status van de klokthema terug op het origineel in de %1$s app en upload de eerste fabrieks klokthema.</p>
 
-        <img src="ic_mi_fit_upload"> <b>Upload</b>
-        <p>Upload het geselecteerde klokthema in Mi Fit. Het vervangt de vorige geüploade fabrieks klokthema.</p>
+        <img src="ic_upload_mi_fit"> <b>Upload</b>
+        <p>Upload het geselecteerde klokthema in %1$s. Het vervangt de vorige geüploade fabrieks klokthema.</p>
 
         <br><p><b><u>Upload meerdere klokthema\'s</u></b>
-        <p><img src="ic_action_launch_mi_fit"> Mi Fit starten zonder het klokthema te veranderen, upload de tweede fabrieks klokthema.</p>
-        <p><img src="ic_mi_fit_upload">  Upload het geselecteerde klokthema in de Mi Fit.</p>
+        <p><img src="ic_action_launch_mi_fit"> %1$s starten zonder het klokthema te veranderen, upload de tweede fabrieks klokthema.</p>
+        <p><img src="ic_upload_mi_fit">  Upload het geselecteerde klokthema in de %1$s.</p>
         <p>Deze stappen herhalen.</p>
 
-        <br><p>In de Mi Fit verandert de klokthema afbeelding niet.</p>
+        <br><p>In de %1$s verandert de klokthema afbeelding niet.</p>
         ]]>
     </string>
 
@@ -1225,6 +1226,7 @@
     <string name="action_filter_no">Geen filter</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_launch_amazfit">Amazfit</string>
     <string name="action_save">Bewaar</string>
     <string name="action_test">Test</string>
     <string name="action_discard">Afwijzen</string>

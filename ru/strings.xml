@@ -72,20 +72,18 @@
     <string name="mi_band_setting_menu_call">Вызов</string>
     <string name="mi_band_setting_menu_menu">Меню</string>
 
-    <string name="mi_band_setting_auth_mi_fit">Взаимодействие с Mi Fit</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage требуется приложение Mi Fit на устройстве. Сначала подключите %1$s к Mi Fit, потом пользуйтесь Mi Bandage. Выберите этот пункт для использования вместе с Mi Fit.</string>
+    <string name="mi_band_setting_auth_mi_fit">Взаимодействие с %1$s</string> <!-- Mi Fit, Amazfit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage требуется приложение Mi Fit/Amazfit на устройстве. Сначала подключите %1$s к Mi Fit/Amazfit, потом пользуйтесь Mi Bandage. Выберите этот пункт для использования вместе с Mi Fit/Amazfit.</string>
     <string name="mi_band_setting_auth_standalone">Автономно</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Fit не нужен для работы Mi Bandage. После соединения удалите Mi Fit или отвяжите браслет от него. Для восстановления привязки к Mi Fit вам нужно заново привязать %1$s в Mi Fit.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit/Amazfit не нужен для работы Mi Bandage. После соединения удалите Mi Fit/Amazfit или отвяжите браслет от него. Для восстановления привязки к Mi Fit/Amazfit вам нужно заново привязать %1$s в Mi Fit/Amazfit.</string>
     <string name="mi_band_setting_auth_key_title">Установка ключа аутентификации</string>
     <string name="mi_band_setting_auth_key_hint">Необходимо предоставить ключ аутентификации для автономного режима</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <ul>
-            <li>Отвяжите %1$s в Mi Fit</li>
-            <li>Удалите Mi Fit</li>
-            <li>Скачайте и установите модифицированный Mi Fit</li>
-            <li>Привяжите %1$s в модифицированном Mi Fit app (не отвязывайте)</li>
-            <li>Удалите модифицированный Mi Fit</li>
-        </ul>
+        <p>- Отвяжите %1$s в Mi Fit/Amazfit</p>
+        <p>- Удалите Mi Fit/Amazfit</p>
+        <p>- Скачайте и установите модифицированный Mi Fit/Amazfit</p>
+        <p>- Привяжите %1$s в модифицированном Mi Fit/Amazfit app (не отвязывайте)</p>
+        <p>- Удалите модифицированный Mi Fit/Amazfit</p>
         Ключ аутентификации находится в: internal storage/freemyband/mac address.txt
     ]]></string>
     <string name="mi_band_setting_auth_key">Ключ аутентификации</string>
@@ -94,6 +92,7 @@
     <string name="message_mi_band_setting_auth_press_band_button">Нажмите кнопку %1$s для соединения</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
     <string name="message_mi_band_setting_auth_success">%1$s успешно привязан</string>
     <string name="message_mi_band_setting_auth_fail">Привязка %1$s не удалась</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
 
     <string name="mi_band_setting_nickname">Имя</string>
     <string name="mi_band_setting_gender">Пол</string>
@@ -352,6 +351,7 @@
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
     <br>- <b>Huami Amazfit GTR</b>
+    <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Bip</b>
     <br>- <b>Huami Amazfit Bip Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -964,6 +964,7 @@
     <string name="watch_face_tab_download">Загрузка</string>
     <string name="watch_face_tab_upload">Установка</string>
     <string name="watch_face_tab_upload_mi_fit">Загрузка через Mi Fit</string>
+    <string name="watch_face_tab_upload_amazfit">Загрузка через Amazfit</string>
 
     <string name="watch_face_download_title">Загруженный циферблат</string>
     <string name="watch_face_download_path">Поместите загруженный циферблат сюда</string>
@@ -976,7 +977,7 @@
     <string name="watch_face_upload_progress">Загрузка %1$,d%%</string>
 
     <string name="watch_face_upload_init_title">Начало работы</string>
-    <string name="watch_face_upload_init_content"><![CDATA[В Mi Fit установите один из заводских циферблатов.
+    <string name="watch_face_upload_init_content"><![CDATA[В %1$s установите один из заводских циферблатов.
         <br>При загрузке необходимо выбрать тот же циферблат.
         <br><i>(процедура необходима только один раз)</i>
     ]]></string>
@@ -998,19 +999,19 @@
         ]]>
     </string>
 
-    <string name="info_dialog_watch_face"><![CDATA[<b><u>Процедура смены циферблата:</u></b>
-        <p><img src="ic_mi_fit_init"> <b>Начало работы</b>/p>
-        <p>Установите в Mi Fit в качестве текущего циферблата первый заводской.</p>
+    <string name="info_dialog_watch_face"><![CDATA[<b><u>Процедура смены циферблата</u></b>
+        <p><img src="ic_upload_mi_fit_init"> <b>Начало работы</b>/p>
+        <p>Установите в %1$s в качестве текущего циферблата первый заводской.</p>
 
-        <img src="ic_mi_fit_upload"> <b>Установка</b>
-        <p>Загрузите выбранный циферблат в Mi Fit. Это заменит последний загруженный заводской циферблат.</p>
+        <img src="ic_upload_mi_fit"> <b>Установка</b>
+        <p>Загрузите выбранный циферблат в %1$s. Это заменит последний загруженный заводской циферблат.</p>
 
         <br><p><b><u>Загрузка нескольких циферблатов</u></b></p>
-        <p><img src="ic_action_launch_mi_fit"> Запустить Mi Fit без замены циферблата, загрузить второй заводской циферблат.</p>
-        <p><img src="ic_mi_fit_upload">  Загрузите следующий выбранный циферблат в Mi Fit.</p>
+        <p><img src="ic_action_launch_mi_fit"> Запустить %1$s без замены циферблата, загрузить второй заводской циферблат.</p>
+        <p><img src="ic_upload_mi_fit">  Загрузите следующий выбранный циферблат в %1$s.</p>
         <p>Продолжайте загружать желаемые циферблаты.</p>
 
-        <br><p>В Mi Fit циферблат не изменится.</p>
+        <br><p>В %1$s циферблат не изменится.</p>
         ]]>
     </string>
 
@@ -1225,6 +1226,7 @@
     <string name="action_filter_no">Без фильтра</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
+    <string name="action_launch_amazfit">Amazfit</string>
     <string name="action_save">Сохранить</string>
     <string name="action_test">Тестировать</string>
     <string name="action_discard">Отменить</string>
