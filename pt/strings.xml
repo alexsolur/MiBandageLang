@@ -151,7 +151,7 @@
     <string name="battery_details">Utilização de bateria</string>
 
     <string name="mi_band_battery_settings">Definições de bateria</string>
-    <string name="mi_band_battery_remaining">Estimativa do tempo restante de bateria</string>
+    <string name="mi_band_battery_remaining">Calcular tempo restante de bateria até</string>
     <string name="mi_band_battery_notification">Notificação de Bateria baixa</string>
     <string name="mi_band_battery_notification_level">Limiar do nível de Bateria</string>
     <string name="mi_band_battery_notification_repeat_interval">Repetir notificação a cada</string>
@@ -178,7 +178,7 @@
     <string name="pref_connected_volume_title">Ajustar o volume</string>
     <string name="pref_connected_volume_ring_title">Volume do Tom de toque</string>
 
-    <string name="pref_cat_connected_have_notif">Avisos predefinidos da aplicação</string>
+    <string name="pref_cat_connected_have_notif">Avisos predefinidos das aplicações</string>
     <string name="pref_cat_connected_have_notif_default">Definições predefinidas e padrão</string>
     <string name="pref_connected_have_notif_immediate_title">Notificar quando receber a notificação</string>
     <string name="pref_connected_have_notif_title">Notificar quando conectar ao dispositivo</string>
@@ -282,8 +282,8 @@
     <string name="pref_dnd_scheduled_title">Modo DND Programado</string>
     <string name="pref_dnd_scheduled_new_title">Título</string>
     <string name="pref_dnd_remember_state_summary">Quando o modo DND (não perturbar) terminar, toda a bandagem é ligada ou restaurada para as que tinha antes do modo DND começar</string>
-    <string name="pref_dnd_remember_state_on_title">Restaurar Bandagem no fim</string>
-    <string name="pref_dnd_remember_state_off_title">Ligar todas as Bandagens no fim</string>
+    <string name="pref_dnd_remember_state_on_title">Restaurar as Bandagens</string>
+    <string name="pref_dnd_remember_state_off_title">Ligar todas as Bandagens</string>
     <string name="pref_dnd_mi_fit_scheduled">Ativar o modo DND da %1$s (desativa as chamadas, as mensagens e a função \'Rodar o braço para ver a informação\')</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_dnd_enable_bluetooth">Desligar Bluetooth ao iniciar o modo DND e voltar a ligar quando terminar</string>
 
@@ -368,13 +368,13 @@
     <br>- Não manter atividades: desativado
     <br>- Limitar processos em segundo plano: Limite padrão
     <br>- Otimização de memória: Médio/Baixo/Desativado</p>
-    <p>Se a Band não for encontrada ou se está a ter problemas em sincronizar na aplicação Mi Fit, instale BToolkit, nRF Conect ou uma aplicação semelhante de monitoramento bluetooth e remova os dispositivos emparelhados.</p>
+    <p>Se a Band não for encontrada ou se está a ter problemas de sincronização na aplicação Mi Fit, instale BToolkit, nRF Conect ou uma aplicação semelhante de monitoramento bluetooth e remova os dispositivos emparelhados.</p>
     <p>Se tem problemas (descobrir a Band/sinal de notificação), tente isto por favor:
     <br>1. Se tem o Greenify instalado (ou outra aplicação para hibernar) desative-a.
     <br>2. Instale a aplicação \'Mi Bandage\'.
-    <br>3. Reinicie o dispovitivo.
+    <br>3. Reinicie o dispositivo.
     <br>4. Desligue e volte a ligar o Bluetooth.
-    <br>5. Abra a aplicação \'Mi Fit\', espere até a sincronização ser feita e feche-a.
+    <br>5. Abra a aplicação \'Mi Fit\', espere até a sincronização finalizar e feche-a.
     <br>6. Abra a aplicação \'Mi Bandage\' e clique no botão \'Descobrir a Band\'.</p>]]></string>
 
     <!-- Diagnostic -->
@@ -384,7 +384,7 @@
     <string name="diagnostic_permissions_autostart">Autostart</string>
 
     <string name="diagnostic_access_title">Acessos</string>
-    <string name="diagnostic_access_do_not_disturb">Acesso DND</string>
+    <string name="diagnostic_access_do_not_disturb">Acesso ao modo DND</string>
     <string name="diagnostic_access_notification">Acesso às Notificações</string>
 
     <string name="diagnostic_protection_title">Proteção Anti-Close</string>
@@ -500,9 +500,9 @@
         <p>As aplicações Predefinidas apresentam apenas o ícone e não a mensagem.</p>
         <p>Você terá de desativar as notificações na aplicação Mi Fit.</p>
         <p>O grupo de notificações criado por si tem prioridade superior às notificações predefinidas.</p>
-        <mi_band_2><p><img src="ALERT_MESSAGE_TEXT"> ícone: escolha este ícone para mostrar o título/conteúdo das notificações</p></mi_band_2>
+        <mi_band_2><p>Ícone <img src="ALERT_MESSAGE_TEXT"> : escolha este ícone para mostrar o título/conteúdo das notificações</p></mi_band_2>
         <mi_band_hrx><p><img src="ALERT_MESSAGE_TEXT"> ícone: escolha este ícone para mostrar o título/conteúdo das notificações</p></mi_band_hrx>
-        <p>Se você usa as aplicações predefinidas, mas quer excluir algumas  das notificações, crie um novo grupo de notificações com a função <i>desativar as notificações</i> e adicione as aplicações.</p>
+        <p>Se você usa as aplicações predefinidas, mas quer excluir algumas delas, crie um novo grupo de notificações com a função <i>desativar as notificações</i> habilitada e adicione as aplicações.</p>
         ]]>
     </string>
         <!--<p>Os sinais predefinidos podem ser desativados: <i>Definições de conexão e notificações/Tem notificação</i>.</p>-->
@@ -512,12 +512,12 @@
     <string name="action_filter_notification">Filtro de notificações</string>
 
     <!-- Touch monitoring -->
-    <string name="touch_tab_function">Função</string>
+    <string name="touch_tab_function">Funções</string>
     <string name="touch_tab_control">Controlos</string>
     <string name="touch_tab_testing">Testar</string>
     <string name="touch_tab_settings">Definições</string>
 
-    <string name="touch_function_summary">Configure estas features se você estiver a usar o modo \'Solitário\' ou se não estiver a ser manejado corretamente pela Mi Fit</string>
+    <string name="touch_function_summary">Configure estas features se você estiver a usar o modo \'Solitário\' ou se não estiverem a ser corretamente manejadas pela Mi Fit</string>
     <string name="touch_function">Função da %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="touch_function_as_touch">Usar a função como um toque no menu de controlo</string>
 
@@ -596,7 +596,7 @@
     <string name="touch_tasker_launcher_no_access_title">Permitir acesso externo</string>
     <string name="touch_tasker_launcher_no_task_title">Selecionar um tarefa</string>
 
-    <string name="touch_testing_title">Monitorar touch</string>
+    <string name="touch_testing_title">A monitorar o Touch</string>
     <string name="touch_testing_second">seg.</string>
 
     <string name="touch_setting_detection_time_title">Tempo para detetar o touch</string>
@@ -941,7 +941,7 @@
     <string name="weather_tab_settings">Definições</string>
 
     <string name="weather_location_title">Localização</string>
-    <string name="weather_automatic_update">Atualização automática</string>
+    <string name="weather_automatic_update">Atualizar automaticamente</string>
 
     <string name="weather_title">Previsão do tempo</string>
     <string name="weather_city_title">Cidade</string>
@@ -1052,7 +1052,7 @@
     <string name="theme_widget_background_transparency_title">Transparência</string>
     <string name="theme_widget_background_logo_visibility">Mostrar o logótipo Mi Bandage</string>
 
-    <string name="theme_widget_touch_event_title">Ação executada ao clicar</string>
+    <string name="theme_widget_touch_event_title">Ao clicar, abrir o menu</string>
 
     <string name="theme_notification_title">Mostrar o status na barra de notificação</string>
     <string name="theme_notification_summary">O sistema android força a paragem do serviço quando a memória está baixa. Se depois de algum tempo a %1$s não mostrar as notificações, você pode prevenir isso.</string>
@@ -1187,10 +1187,10 @@
     <string name="privacy_policy_eu_consent_setting">Definições</string>
 
     <!-- Vibration dialog -->
-    <string name="vibration_title">Definições de vibração</string>
-    <string name="vibration_intensity">Duração</string>
-    <string name="vibration_pause">Pausa</string>
-    <string name="vibration_times">Quantidade</string>
+    <string name="vibration_title">Configuração da vibração</string>
+    <string name="vibration_intensity">Duração de cada vibração</string>
+    <string name="vibration_pause">Tempo entre cada vibração</string>
+    <string name="vibration_times">Quantidade de vibrações</string>
 
     <!-- Hack -->
     <string name="info_dialog_hack"><![CDATA[Ferramenta de hack detetada no seu dispositivo!
@@ -1273,7 +1273,7 @@
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="zero">%d hora</item>
+        <item quantity="zero">%d horas</item>
         <item quantity="one">%d hora</item>
         <item quantity="two">%d horas</item>
         <item quantity="few">%d horas</item>
