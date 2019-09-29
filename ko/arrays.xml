@@ -35,7 +35,7 @@
         <item>상태</item>
         <item>날씨</item>
         <item>Workout</item>
-        <item>Activities</item>
+        <item>활동</item>
         <item>알림</item>
         <item>더보기</item>
         <item>NFC</item>
@@ -43,14 +43,14 @@
         <item>타이머</item>
         <item>Event reminder</item>
         <item>설정</item>
-        <item>Compass</item>
+        <item>나침반</item>
         <item>음악</item>
         <item>Alipay</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_counter">
-        <item>All notifications</item>
-        <item>Once per Band icon</item>
+        <item>모든 알림</item>
+        <item>밴드 아이콘마다 한 번</item>
         <item>1 \'app\' icon</item>
         <item>2 \'app\' icon</item>
         <item>3 \'app\' icon</item>
@@ -90,25 +90,25 @@
     </string-array>
 
     <string-array name="notification_group_counter">
-        <item>All notifications</item>
-        <item>Once per application</item>
+        <item>모든 알림</item>
+        <item>앱마다 한 번</item>
         <item>One signal</item>
     </string-array>
 
     <string-array name="notification_group_repeat">
-        <item>Always</item>
+        <item>항상</item>
         <item>Never</item>
-        <item>Once</item>
-        <item>Twice</item>
-        <item>Three times</item>
+        <item>한 번</item>
+        <item>두 번</item>
+        <item>세 번</item>
     </string-array>
 
     <string-array name="touch_call_mute_ringer_mode">
-        <item>Vibrate</item>
-        <item>Mute</item>
-        <item>Do not disturb (priority only)</item>
-        <item>Do not disturb (alarms only)</item>
-        <item>Do not disturb (total silence)</item>
+        <item>진동</item>
+        <item>음소거</item>
+        <item>방해 금지 (priority only)</item>
+        <item>방해 금지 (alarms only)</item>
+        <item>방해 금지 (total silence)</item>
     </string-array>
 
     <string-array name="touch_music_player">
@@ -126,18 +126,18 @@
     </string-array>
 
     <string-array name="touch_music_function_info">
-        <item>Title</item>
-        <item>Artist: Title</item>
-        <item>Artist: Album - Title</item>
+        <item>제목</item>
+        <item>Artist: 제목</item>
+        <item>Artist: 앨범 - 제목</item>
     </string-array>
 
     <string-array name="touch_camera_app">
-        <item>기본 (root is needed)</item>
-        <item>Open Camera</item>
+        <item>기본 (루트 권한 필요)</item>
+        <item>카메라 열기</item>
     </string-array>
 
     <string-array name="pref_timer_time_interval_repeat">
-        <item>Off</item>
+        <item>끔</item>
         <item>1분</item>
         <item>2분</item>
         <item>3분</item>
@@ -187,54 +187,54 @@
     </string-array>
 
     <string-array name="touch_recognition_press">
-        <item>None</item>
-        <item>Touch</item>
-        <item>Double touch</item>
-        <item>Triple touch</item>
-        <item>Long touch</item>
-        <item>Button</item>
+        <item>없음</item>
+        <item>터치</item>
+        <item>두 번 터치</item>
+        <item>세 번 터치</item>
+        <item>긴 터치</item>
+        <item>버튼</item>
     </string-array>
 
     <string-array name="touch_recognition_press_mi_band_4_gtr">
-        <item>None</item>
-        <item>Mute button</item>
-        <item>Double touch</item>
-        <item>Triple touch</item>
-        <item>Reject button</item>
-        <item>Button</item>
+        <item>없음</item>
+        <item>음소거 버튼</item>
+        <item>두 번 터치</item>
+        <item>세 번 터치</item>
+        <item>거절 버튼</item>
+        <item>버튼</item>
     </string-array>
 
     <string-array name="touch_recognition_press_amazfit_bip_cor">
-        <item>None</item>
-        <item>Green button</item>
-        <item>Double touch</item>
-        <item>Triple touch</item>
-        <item>Red button</item>
-        <item>Button</item>
+        <item>없음</item>
+        <item>Green 버튼</item>
+        <item>두 번 터치</item>
+        <item>세 번 터치</item>
+        <item>Red 버튼</item>
+        <item>버튼</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method">
-        <item>Pattern recognition</item>
-        <item>Button press counting</item>
+        <item>패턴 인식</item>
+        <item>버튼 press counting</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method_mi_band_3">
-        <item>Power saving</item>
-        <item>Power saving (+pulse)</item>
+        <item>절전</item>
+        <item>절전 (+심박수)</item>
 <!--        <item>Power saving (find phone)</item>-->
 <!--        <item>Power saving (pulse and find phone)</item>-->
         <item>Performance</item>
     </string-array>
 
     <string-array name="touch_recognition_start_trigger">
-        <item>None</item>
-        <item>Touch</item>
+        <item>없음</item>
+        <item>터치</item>
     </string-array>
 
     <string-array name="touch_recognition_start_trigger_button">
-        <item>None</item>
-        <item>Button press</item>
-        <item>Long press the button</item>
+        <item>없음</item>
+        <item>버튼 누르기</item>
+        <item>버튼 길게 누르기</item>
     </string-array>
 
     <string-array name="pref_weather_unit">
@@ -244,7 +244,7 @@
 
     <string-array name="pref_weather_current_display">
         <item>현재</item>
-        <item>Current, precipitation, cloud cover</item>
+        <item>현재, 예보, cloud cover</item>
         <item>평균</item>
         <item>오전, 오후</item>
     </string-array>
