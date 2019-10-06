@@ -75,24 +75,24 @@
     <string name="mi_band_setting_auth_mi_fit">Współpraca z %1$s</string> <!-- Mi Fit, Amazfit-->
     <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage wymaga instalacji oficjalnej aplikacji Mi Fit/Amazfit na tym samym telefonie. Najpierw musisz sparować %1$s w aplikacji Mi Fit/Amazfit, potem możesz użyć Mi Bandage. Wybierz, jeśli chcesz używać Mi Fit/Amazfit.</string>
     <string name="mi_band_setting_auth_standalone">Samodzielny</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Fit/Amazfit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit/Amazfit app or unpair your device. When restoring the Mi Fit/Amazfit cooperation, you will need to re-pair your %1$s in the Mi Fit/Amazfit application.</string>
-    <string name="mi_band_setting_auth_key_title">Set authentication key</string>
-    <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
+    <string name="mi_band_setting_auth_standalone_hint">Aplikacja Mi Fit/Amazfit nie jest wymagana do działania Mi Bandage. Po sparowaniu odinstaluj aplikację Mi Fit/Amazfit lub usuń parowanie z urządzenia. Podczas przywracania współpracy Mi Fit/Amazfit konieczne będzie ponowne sparowanie %1$s w aplikacji Mi Fit/Amazfit.</string>
+    <string name="mi_band_setting_auth_key_title">Ustaw klucz uwierzytelniający</string>
+    <string name="mi_band_setting_auth_key_hint">W trybie samodzielnym należy podać klucz uwierzytelniający</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <p>- Unpair %1$s in the official Mi Fit/Amazfit app</p>
-        <p>- Uninstall the official Mi Fit/Amazfit app</p>
-        <p>- Download and install the modified Mi Fit/Amazfit app</p>
-        <p>- Pair the %1$s in the modified Mi Fit/Amazfit app (do not unpair)</p>
-        <p>- Uninstall the modified Mi Fit/Amazfit app</p>
-        Authentication key can be found at: internal storage/freemyband/mac address.txt
+        <p>- Odłącz %1$s w oficjalnej aplikacji Mi Fit/Amazfit</p>
+        <p>- Odinstaluj oficjalną aplikację Mi Fit/Amazfit</p>
+        <p>- Pobierz i zainstaluj zmodyfikowaną aplikację Mi Fit/Amazfit</p>
+        <p>- Sparuj %1$s w zmodyfikowanej aplikacji Mi Fit/Amazfit (nie usuwaj parowania)</p>
+        <p>- Odinstaluj zmodyfikowaną aplikację Mi Fit/Amazfit</p>
+        Klucz uwierzytelniania można znaleźć na: pamięć wewnętrzna/freemyband/mac address.txt
     ]]></string>
-    <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth_key">Klucz uwierzytelniania</string>
     <string name="mi_band_setting_auth">Sparuj</string>
 
     <string name="message_mi_band_setting_auth_press_band_button">Wciśnij przycisk %1$s aby sparować</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
-    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
-    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
-    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
+    <string name="message_mi_band_setting_auth_success">Paroawnia %1$s powiodło się</string>
+    <string name="message_mi_band_setting_auth_fail">Parowanie %1$s nie powiodło się</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Nieprawidłowy klucz uwierzytelniający</string>
 
     <string name="mi_band_setting_nickname">Pseudonim</string>
     <string name="mi_band_setting_gender">Płeć</string>
@@ -222,10 +222,10 @@
     <string name="pref_call_text_title">Wyświetlaj Identyfikator dzwoniącego</string>
     <string name="pref_call_text_summary_on"><![CDATA[Włączone (więcej informacji: <i>Ustawienia/Wyświetlanie tekstu)</i>]]></string>
 
-    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
-    <string name="pref_call_notification_rejected_message">Rejected call</string>
-    <string name="pref_call_notification_rejected_action">Call</string>
-    <string name="pref_call_notification_muted">Show notification about muted call</string>
+    <string name="pref_call_notification_rejected">Pokaż powiadomienie o odrzuconym połączeniu</string>
+    <string name="pref_call_notification_rejected_message">Odrzucone połączenie</string>
+    <string name="pref_call_notification_rejected_action">Połączenie</string>
+    <string name="pref_call_notification_muted">Pokaż powiadomienie o wyciszonym połączeniu</string>
 
     <string name="pref_call_net_text_title">Przychodzący sygnał połączenia internetowego, wyświetlaj identyfikator dzwoniącego</string>
     <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
@@ -240,7 +240,7 @@
 
     <string name="pref_call_missed_text_prefix_title">Prefiks tekstu</string>
     <string name="pref_call_missed_text_prefix_summary">Aby odróżnić od siebie powiadomienia, jeśli więcej niż jedna aplikacja używa tej ikony</string>
-    <string name="pref_call_missed_text_prefix_dialog_title">Prefix tekstu</string>
+    <string name="pref_call_missed_text_prefix_dialog_title">Prefiks tekstu</string>
 
     <string name="pref_battery_phone">Bateria telefonu</string>
     <string name="pref_battery_phone_summary">Powiadomienia o niskim i pełnym naładowaniu baterii</string>
@@ -310,9 +310,9 @@
     <string name="message_step_goal_max_values">Można ustawić maksymalnie 10 wartości</string>
 
     <string name="message_touch_no_patterns">Naciśnij jeden z czerwonych przycisków, aby nagrać wzór</string>
-    <string name="message_touch_record">Nagraj wzór za pomocą przycisku dotykowego %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="message_touch_record_music_screen">Record the pattern using the %1$s music screen</string> <!-- %1$s = Mi Band 4  -->
-    <string name="message_touch_record_pulse_screen">Record the pattern using the %1$s pulse screen</string> <!-- %1$s = Mi Band 3, Amazfit Cor ... -->
+    <string name="message_touch_record">Zapisz wzór za pomocą przycisku dotykowego %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_touch_record_music_screen">Zapisz wzór używając ekranu muzyki w %1$s</string> <!-- %1$s = Mi Band 4  -->
+    <string name="message_touch_record_pulse_screen">Zapisz wzór używając ekranu pulsu w %1$s</string> <!-- %1$s = Mi Band 3, Amazfit Cor ... -->
     <string name="message_touch_pattern_error">Podany wzór jest podobny do wzoru innej funkcji, nagraj inny</string>
     <string name="message_touch_free_patterns">Nie możesz użyć więcej niż %1$,d funkcji w trybie normalnym</string>
     <string name="message_touch_music_player_not_found">Nie znaleziono odtwarzacza muzycznego</string>
@@ -333,7 +333,7 @@
     <string name="message_alarm_mi_band_clear_failed">Kasowanie alarmu nie powiodło się</string>
 
     <string name="message_premium_mode_only">Ta funkcja jest dostępna tylko w trybie premium</string>
-    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
+    <string name="message_feature_is_not_supported">%1$s nie obsługuje tej funkcji</string>
     <string name="message_general_error">Ustawienie nie powiodło się (utracono połączenie), spróbuj ponownie</string>
     <string name="message_internet_error">Nie ma połączenia z Internetem</string>
     <string name="message_gps_enable">Włącz GPS</string>
@@ -418,7 +418,7 @@
     <string name="notification_group_pre_vibration_title">Wstępna wibracja</string>
     <string name="notification_group_pre_alert_title">Wstępna ikona</string>
     <string name="notification_group_prefix">Prefiks tekstu</string>
-    <string name="notification_group_display_notification_title">Display notification</string>
+    <string name="notification_group_display_notification_title">Wyświetl powiadomienie</string>
     <string name="notification_group_immediate">Natychmiastowy sygnał po otrzymaniu powiadomienia</string>
     <string name="notification_group_connecting">Po połączeniu się z telefonem</string>
     <string name="notification_group_reminder">Sygnał przypomnienia</string>
@@ -427,11 +427,11 @@
     <string name="notification_group_counter_title">Liczba sygnałów</string>
     <string name="notification_group_repeat_title">Powtarzaj sygnały</string>
     <string name="notification_group_wakelock">Wybudź ekran telefonu</string>
-    <string name="notification_group_remove_title">Remove notification</string>
-    <string name="notification_group_remove_from_device">From the phone\'s notification drawer</string>
-    <string name="notification_group_remove_from_device_hint">If you use the %1$s/Notifications/Clear all function</string> <!-- %1$s = Mi Band 4  ... -->
-    <string name="notification_group_remove_from_mi_band">From the %1$s notification menu</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="notification_group_remove_from_mi_band_hint">If you remove the notification from the phone\'s notification drawer</string>
+    <string name="notification_group_remove_title">Usuń powieaomienie</string>
+    <string name="notification_group_remove_from_device">Z paska powiadomień telefonu</string>
+    <string name="notification_group_remove_from_device_hint">Jeśli używasz funkcji %1$s/Powiadomienia/Wyczyść wszystkie</string> <!-- %1$s = Mi Band 4  ... -->
+    <string name="notification_group_remove_from_mi_band">Z menu powiadomień %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_remove_from_mi_band_hint">Jeśli usuniesz z paska powiadomień telefonu</string>
 
     <string name="notification_group_filter">Filtruj powiadomienia</string>
     <string name="notification_group_filter_title">Filtr tytułu</string>
@@ -512,17 +512,17 @@
     <string name="action_filter_notification">Filtr powiadomień</string>
 
     <!-- Touch monitoring -->
-    <string name="touch_tab_function">Function</string>
+    <string name="touch_tab_function">Funkcja</string>
     <string name="touch_tab_control">Kontrola</string>
     <string name="touch_tab_testing">Testowanie</string>
     <string name="touch_tab_settings">Ustawienia</string>
 
-    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
-    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
+    <string name="touch_function_summary">Ustaw te funkcje jeśli używasz trybu samodzielnego lub nie jest odpowiednio zarządzany przez Mi Fit</string>
+    <string name="touch_function">Funkcja %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Użyj funkcji jako dotyku w menu sterowania</string>
 
-    <string name="touch_headline_incoming_call_title">Incoming call</string>
-    <string name="touch_headline_other_function_title">Other functions</string>
+    <string name="touch_headline_incoming_call_title">Połączenie przychodzące</string>
+    <string name="touch_headline_other_function_title">Inne funkcje</string>
     <string name="touch_headline_call_title">Kontrola połączeń</string>
     <string name="touch_headline_music_title">Kontrola muzyki</string>
     <string name="touch_headline_time_title">Kontrola timera/stopera</string>
@@ -535,7 +535,7 @@
     <string name="touch_call_mute_title">Wyciszenie połączenia</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Tylko jeśli masz połączenie przychodzące</string>
     <string name="touch_call_mute_recognition_title">Podczas połączenia przychodzącego</string>
-    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/Więcej/Znajdź urządzenie</string>
 
     <string name="touch_device_location_title">Znajdź mój telefon</string>
     <string name="touch_device_location_not_muted_only_title">Dźwięk tylko wtedy, gdy nie jest wyciszony lub w trybie Nie przeszkadzać</string>
@@ -543,9 +543,9 @@
     <string name="touch_call_mute_toggle_title">Wyciszenie połączenia</string>
 
     <string name="touch_music_function_title">Muzyka</string>
-    <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
-    <string name="touch_music_function_mi_band_message_launch">Start music with the play button</string>
-    <string name="touch_music_function_mi_band_message_no_track_title">Can\'t get the song name</string>
+    <string name="touch_music_function_launch">Rozpocznij odtwarzanie muzyki za pomocą przycisku odtwarzania, jeśli nie zostanie rozpoznany żaden odtwarzacz muzyki</string>
+    <string name="touch_music_function_mi_band_message_launch">Rozpocznij muzykę za pomocą przycisku odtwarzania</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Nie można uzyskać nazwy utworu</string>
 
     <string name="touch_call_out_title">Dzwonienie</string>
     <string name="touch_call_out_no_contact">Wybierz kontakt</string>
@@ -598,9 +598,9 @@
     <string name="touch_testing_title">Monitorowanie dotknięć</string>
     <string name="touch_testing_second">sek.</string>
 
-    <string name="touch_setting_detection_time_title">Touch detection time</string>
-    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
-    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
+    <string name="touch_setting_detection_time_title">Czas wykrywania dotyku</string>
+    <string name="touch_setting_detection_time_music_hint">Jeśli ma niższą wartość, ekran muzyczny powinien zostać zamknięty szybciej</string>
+    <string name="touch_setting_detection_time_button_hint">Jeśli ma niższą wartość, naciśnij przycisk szybciej</string>
 
     <string name="touch_setting_detection_method_title">Metoda wykrywania dotyku</string>
 
@@ -615,7 +615,7 @@
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>Dotknięcie jest ważne, gdy zmienia się wyświetlanie na Opasce (dlatego wskazane jest obrócenie nadgarstka przed dotknięciem).</mi_band_2>
-        <b><u>Pattern recognition</u></b>
+        <b><u>Rozpoznawanie wzorców</u></b>
         <p>Monitoruje upływ czasu pomiędzy dotknięciami, a nie czas, jaki upłynął od pierwszego dotknięcia.</p>
         Prawidłowe przykłady dotykania:
         <br>- dotknięcie
@@ -624,8 +624,8 @@
         <br>- dotknięcie, 2 sek. czekania, dotknięcie
         <br>- dotknięcie, 2 sek. czekania, dotknięcie, 1 sek. czekania, dotknięcie
         <br>- dotknięcie, 2 sek. czekania, dotknięcie, 2 sek. czekania, dotknięcie
-        <p><b><u>Button press counting</u></b></p>
-        <p>It monitors the number of button presses as long as the time between button presses is less than the touch detection time setting.</p>
+        <p><b><u>Liczenie naciśnięć przycisków</u></b></p>
+        <p>Monitoruje liczbę naciśnięć przycisków, o ile czas między naciśnięciami przycisków jest krótszy niż ustawiony czas wykrywania dotyku.</p>
         <br><p>Po otrzymaniu połączenia telefon nie rozpoznaje następujących funkcji, aby ułatwić wprowadzanie dotykowe: lokalizacja telefonu, powtarzanie powiadomień, sterowanie muzyką.</p>
         <p>W trybie testowym nie wykonuje funkcji rozpoznanego wzorca.</p>
         <p>Dotyczy tylko wibracji Opaski, jeśli istnieje wzorzec uwzględniający aktualny stan telefonu (odpowiedź na telefon, odrzucenie tylko w przypadku połączenia przychodzącego…).</p>
@@ -658,7 +658,7 @@
         <amazfit_band_2><p>Przycisk pod ekranem <mi_band_type>.</p></amazfit_band_2>
         <img src="ic_touch_wrist"> Podnoszenie nadgarstka
         <p>Podnoszenie nadgarstka jest ważne, gdy ekran <mi_band_type> się włączy.</p>
-        <img src="ic_call"> <b><u>Incoming call</b></u>
+        <img src="ic_call"> <b><u>Połączenie przychodzące</b></u>
         <p>Zawsze działa, nawet jeśli monitor dotykowy jest wyłączony.</p>
         <br><p>W trybie testowym nie wykonuje funkcji rozpoznanego wzoru.</p>
         <p>Informacje zwrotne na temat wibracji Opaski tylko wtedy, gdy istnieje wzorzec uwzględniający aktualny stan telefonu (odbieranie połączeń, odrzucanie tylko w przypadku połączenia przychodzącego…).</p>
@@ -667,13 +667,13 @@
     ]]></string>
 
     <string name="info_dialog_touch_mi_band_4"><![CDATA[
-        <img src="ic_play_circle_outline"> <b><u>Music screen mod</u></b>
-        <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
-        <img src="ic_touch_find"> <b><u>Find phone</u></b>
-        <p>On the bracelet, in the Find device function (More/Find device) start the finding.</p>
-        <img src="ic_touch_find_off"> <b><u>Interrupt phone finding</u></b>
-        <p>On the bracelet, in the Find device function (More/Find device) interrupt the finding.</p>
-        <img src="ic_call"> <b><u>Incoming call</b></u>
+        <img src="ic_play_circle_outline"> <b><u>Mod ekranu muzycznego</u></b>
+        <p>Na bransoletce otwórz ekran muzyczny (przeciągnij w lewo lub w prawo), a następnie zamknij ekran.</p>
+        <img src="ic_touch_find"> <b><u>Znajdź telefon</u></b>
+        <p>Na bransoletce, w funkcji Znajdź urządzenie (Więcej/Znajdź urządzenie) rozpocznij wyszukiwanie.</p>
+        <img src="ic_touch_find_off"> <b><u>Przerwij wyszukiwanie telefonu</u></b>
+        <p>Na bransoletce w funkcji Znajdź urządzenie (Więcej/Znajdź urządzenie) przerwij wyszukiwanie.</p>
+        <img src="ic_call"> <b><u>Połączenie przychodzące</b></u>
         <p>Zawsze działa, nawet jeśli monitor dotykowy jest wyłączony.</p>
         <br><p>W trybie testowym nie wykonuje funkcji rozpoznanego wzoru.</p>
         <p>Informacje zwrotne na temat wibracji Opaski tylko wtedy, gdy istnieje wzorzec uwzględniający aktualny stan telefonu (odbieranie połączeń, odrzucanie tylko w przypadku połączenia przychodzącego…).</p>
@@ -803,9 +803,9 @@
 
     <!-- Lost monitoring -->
     <string name="alarm_mi_band_title">Sygnał na %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="alarm_mi_band_service">Lost background service</string>
-    <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
-    <string name="alarm_mi_band_clock">Use the phone\'s alarm clock, if background service is down (increases battery consumption)</string>
+    <string name="alarm_mi_band_service">Utracono usługę w tle</string>
+    <string name="alarm_mi_band_service_summary">W przypadku częstych fałszywych alarmów włącz usługę w tle, aby zapewnić bardziej stabilną pracę</string>
+    <string name="alarm_mi_band_clock">Użyj budzika telefonu, jeśli usługa w tle jest wyłączona (zwiększa zużycie baterii)</string>
     <string name="alarm_mi_band_dnd">Tryb Nie przeszkadzać</string>
     <string name="alarm_mi_band_interval_title">Powtórz interwał ustawienia alarmu</string>
     <string name="alarm_mi_band_time_set_next">Czas następnego ustawienia</string>
@@ -902,7 +902,7 @@
     <string name="action_time_alarm_sort_watch_asc">Zegar rosnąco</string>
     <string name="action_time_alarm_sort_name_asc">Nazwa rosnąco</string>
 
-    <string name="message_time_alarm_sync">Synchroninuj alarmy %1$s (usuwanie i ustawianie alarmów na Twoim smartwatchu)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_time_alarm_sync">Synchronizuj alarmy %1$s (usuwanie i ustawianie alarmów na Twoim smartwatchu)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_time"><![CDATA[
         <p><b>Wyłącz alarm, timer i stoper przed usunięciem aplikacji.</b></p>
@@ -931,7 +931,7 @@
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text>Połączenie Bluetooth jest wymagane do wyświetlenia przypomnienia.</not_support_icon_text>
-         <support_icon_text>App uses reminder function of Mi Fit, so you need to use either Mi Bandage or Mi Fit reminder settings. If there are reminders in both applications, it may cause malfunction.</support_icon_text>
+         <support_icon_text>Aplikacja korzysta z funkcji przypomnienia Mi Fit, więc musisz użyć ustawień przypomnienia Mi Bandage lub Mi Fit. Jeśli w obu aplikacjach są przypomnienia, może to spowodować nieprawidłowe działanie.</support_icon_text>
         ]]>
     </string>
 
@@ -957,7 +957,7 @@
 
     <string name="weather_precipitation_rain">deszcz</string>
     <string name="weather_precipitation_snow">śnieg</string>
-    <string name="weather_cloud_cover_abbreviation">cc</string>
+    <string name="weather_cloud_cover_abbreviation">zachmurzenie</string>
 
     <!-- Watch face -->
     <string name="watch_face_tab_download">Pobierz</string>
@@ -1230,9 +1230,9 @@
     <string name="action_test">Testuj</string>
     <string name="action_discard">Odrzuć</string>
     <string name="action_keep_editing">Edytuj dalej</string>
-    <string name="action_new">New</string>
+    <string name="action_new">Nowy</string>
     <string name="action_start_stop">Start/Stop</string>
-    <string name="synchronized_from_watch">Synchronized from watch</string>
+    <string name="synchronized_from_watch">Zsynchronizowano z zegarka</string>
 
     <string name="action_chart">Wykres</string>
     <string name="action_chart_normalize_minute">Mierzone wartości</string>
