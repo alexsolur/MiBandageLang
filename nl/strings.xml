@@ -30,15 +30,15 @@
     <string name="shortcut_time_alarm">Alarm</string>
     <string name="shortcut_reminder">Herinnering</string>
 
+    <string name="setting_name">Instellingen</string>
+    <string name="settings_name">Instellingen</string>
+    <string name="app_chooser">App Kiezer</string>
+    <string name="info_name">Informatie</string>
+
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Verbonden tijd: %1$s</string>
     <string name="foreground_service_disconnected_text">%1$s is niet verbonden</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <!--<string name="foreground_service_disconnected">Niet verbonden tijd: %1$s</string>-->
-
-    <!-- Strings related to Settings -->
-    <string name="settings_name">Instellingen</string>
-    <string name="app_chooser">App Kiezer</string>
-    <string name="info_name">Informatie</string>
 
     <!-- Bandages screen -->
     <string name="mi_band_tracker_title">Stappen, afstand, calorieën, doel, hartslag</string>
@@ -67,7 +67,7 @@
     <string name="mi_band_setting_title">%1$s settings</string>
 
     <string name="mi_band_setting_menu_profile">Profiel</string>
-    <string name="mi_band_setting_menu_setting">Instellingen</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
     <string name="mi_band_setting_menu_text">Tekst</string>
     <string name="mi_band_setting_menu_call">Bellen</string>
     <string name="mi_band_setting_menu_menu">Menu</string>
@@ -350,6 +350,7 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit GTS</b>
     <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Bip</b>
@@ -394,7 +395,7 @@
 
     <!-- Notification  -->
     <string name="notification_tab_custom">Meldingen aanpassen</string>
-    <string name="notification_tab_settings">Instellingen</string>
+    <string name="notification_tab_settings">@string/setting_name</string>
 
     <!-- Notification Dialog -->
     <string name="notification_group_nav_setting">Instellingen</string>
@@ -515,7 +516,7 @@
     <string name="touch_tab_function">Function</string>
     <string name="touch_tab_control">Beheren</string>
     <string name="touch_tab_testing">Testen</string>
-    <string name="touch_tab_settings">Instelling</string>
+    <string name="touch_tab_settings">@string/setting_name</string>
 
     <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
     <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
@@ -693,7 +694,7 @@
     <string name="step_tab_week">Week tabel</string>
     <string name="step_tab_month">Maand tabel</string>
     <string name="step_tab_goal">Activiteiten doelen</string>
-    <string name="step_tab_settings">Instellingen</string>
+    <string name="step_tab_settings">@string/setting_name</string>
 
     <string name="activity_progress_title_prepare">Voorbereiden op synchronisatie...</string>
     <string name="activity_progress_title_sync">Data synchronisatie %1$,d%%</string>
@@ -723,7 +724,7 @@
     <string name="sleep_tab_day">Dag tabel</string>
     <string name="sleep_tab_week">Week tabel</string>
     <string name="sleep_tab_month">Maand tabel</string>
-    <string name="sleep_tab_settings">Instellingen</string>
+    <string name="sleep_tab_settings">@string/setting_name</string>
 
     <string name="action_chart_sleep_type_phase">Stadium</string>
     <string name="action_chart_sleep_type_time">Tijd</string>
@@ -849,6 +850,7 @@
     <string name="time_tab_interval">Interval</string>
 
     <string name="action_alarm_device">Telefoon alarm</string>
+    <string name="time_alarm_setting">@string/setting_name</string>
     <string name="time_alarm_mi_band_signal">Signaal wanneer het telefoonalarm klinkt</string>
     <string name="time_alarm_mi_band_signal_alarm_off">Alarm uit na tweede aanraking</string>
     <string name="time_alarm_title">Titel</string>
@@ -921,6 +923,7 @@
     <!-- Reminder -->
     <string name="reminder_tab_once">Eenmaal</string>
     <string name="reminder_tab_weekly">Weeklijks</string>
+    <string name="reminder_tab_setting">@string/setting_name</string>
 
     <string name="reminder_repeat">Herhaling per uur</string>
     <string name="reminder_notification_shade">Melding op de telefoon</string>
@@ -939,7 +942,7 @@
     <!-- Weather  -->
     <string name="weather_tab_weather_forecast">Weer</string>
     <string name="weather_tab_location">Locatie</string>
-    <string name="weather_tab_settings">Instellingen</string>
+    <string name="weather_tab_settings">@string/setting_name</string>
 
     <string name="weather_location_title">Locatie</string>
     <string name="weather_automatic_update">Automatic update</string>
@@ -1018,7 +1021,7 @@
     <!-- Agent -->
     <string name="agent_title">Apparaat controle management</string>
     <string name="agent_tab_events">Controle log</string>
-    <string name="agent_tab_settings">Instellingen</string>
+    <string name="agent_tab_settings">@string/setting_name</string>
 
     <string name="pref_disconnected_agent_summary_on">Als iemand met de telefoon heeft geknoeid terwijl u weg bent, krijgt je een seintje</string>
     <string name="pref_disconnected_agent_text">Iemand heeft met de telefoon geknoeid toen je weg was</string>
@@ -1093,7 +1096,7 @@
     <string name="backup_restore_weather">Weer</string>
     <string name="backup_restore_alarm">Verloren</string>
     <string name="backup_restore_disconnected_agent">Beheer</string>
-    <string name="backup_restore_settings">Instellingen</string>
+    <string name="backup_restore_settings">@string/settings_name</string>
 
     <string name="backup_restore_reset">Na herstel word Bluetooth uitgeschakeld en weer in en zal de applicatie opnieuw starten.</string>
 
@@ -1192,6 +1195,13 @@
     <string name="vibration_intensity">Intensiteit</string>
     <string name="vibration_pause">Pauze</string>
     <string name="vibration_times">Tijden</string>
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">Trilling instelling</string>
+    <string name="custom_vibration">Trilling</string>
+    <string name="custom_vibration_edit">Bewerken</string>
+    <string name="custom_vibration_hint">Tap to vibrate</string>
+    <string name="custom_vibration_new">Opnieuw opnemen</string>
 
     <!-- Hack -->
     <string name="info_dialog_hack"><![CDATA[Hack gereedschap gedetecteerd op telefoon.

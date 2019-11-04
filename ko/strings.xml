@@ -30,15 +30,16 @@
     <string name="shortcut_time_alarm">알람</string>
     <string name="shortcut_reminder">리마인더</string>
 
+    <!-- Strings related to Settings -->
+    <string name="setting_name">설정</string>
+    <string name="settings_name">설정</string>
+    <string name="app_chooser">앱 선택기</string>
+    <string name="info_name">정보</string>
+
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">연결 시간: %1$s</string>
     <string name="foreground_service_disconnected_text">%1$s(이)가 연결되지 않음</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <!--<string name="foreground_service_disconnected">연결 해제 time: %1$s</string>-->
-
-    <!-- Strings related to Settings -->
-    <string name="settings_name">설정</string>
-    <string name="app_chooser">앱 선택기</string>
-    <string name="info_name">정보</string>
 
     <!-- Bandages screen -->
     <string name="mi_band_tracker_title">걸음수, 거리, 칼로리, 목표, 심박수</string>
@@ -67,7 +68,7 @@
     <string name="mi_band_setting_title">%1$s 설정</string>
 
     <string name="mi_band_setting_menu_profile">프로필</string>
-    <string name="mi_band_setting_menu_setting">설정</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
     <string name="mi_band_setting_menu_text">본문</string>
     <string name="mi_band_setting_menu_call">수신 전화 알림</string>
     <string name="mi_band_setting_menu_menu">메뉴</string>
@@ -350,6 +351,7 @@
     <br>- <b>샤오미 미밴드 3</b>
     <br>- <b>샤오미 미밴드 2</b>
     <br>- <b>샤오미 미밴드 HRX</b>
+    <br>- <b>Huami Amazfit GTS</b>
     <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Bip</b>
@@ -394,7 +396,7 @@
 
     <!-- Notification  -->
     <string name="notification_tab_custom">사용자 지정 알림</string>
-    <string name="notification_tab_settings">설정</string>
+    <string name="notification_tab_settings">@string/setting_name</string>
 
     <!-- Notification Dialog -->
     <string name="notification_group_nav_setting">설정</string>
@@ -515,7 +517,7 @@
     <string name="touch_tab_function">기능</string>
     <string name="touch_tab_control">제어</string>
     <string name="touch_tab_testing">작동 확인</string>
-    <string name="touch_tab_settings">설정</string>
+    <string name="touch_tab_settings">@string/setting_name</string>
 
     <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi 피트</string>
     <string name="touch_function">%1$s 기능</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
@@ -693,7 +695,7 @@
     <string name="step_tab_week">Weekly charts</string>
     <string name="step_tab_month">Monthly charts</string>
     <string name="step_tab_goal">Activity goals</string>
-    <string name="step_tab_settings">설정</string>
+    <string name="step_tab_settings">@string/setting_name</string>
 
     <string name="activity_progress_title_prepare">Preparing for synchronization…</string>
     <string name="activity_progress_title_sync">Data synchronization %1$,d%%</string>
@@ -723,7 +725,7 @@
     <string name="sleep_tab_day">일간 차트</string>
     <string name="sleep_tab_week">주간 차트</string>
     <string name="sleep_tab_month">월간 차</string>
-    <string name="sleep_tab_settings">설정</string>
+    <string name="sleep_tab_settings">@string/setting_name</string>
 
     <string name="action_chart_sleep_type_phase">Phase</string>
     <string name="action_chart_sleep_type_time">Time</string>
@@ -849,6 +851,7 @@
     <string name="time_tab_interval">주기</string>
 
     <string name="action_alarm_device">Phone alarm</string>
+    <string name="time_alarm_setting">@string/setting_name</string>
     <string name="time_alarm_mi_band_signal">신호 when phone alarm sounds</string>
     <string name="time_alarm_mi_band_signal_alarm_off">Alarm off at second touch</string>
     <string name="time_alarm_title">Title</string>
@@ -921,6 +924,7 @@
     <!-- Reminder -->
     <string name="reminder_tab_once">한 번</string>
     <string name="reminder_tab_weekly">매 주</string>
+    <string name="reminder_tab_setting">@string/setting_name</string>
 
     <string name="reminder_repeat">시간마다 반복</string>
     <string name="reminder_notification_shade">폰에 알림</string>
@@ -939,7 +943,7 @@
     <!-- Weather  -->
     <string name="weather_tab_weather_forecast">날씨</string>
     <string name="weather_tab_location">위치</string>
-    <string name="weather_tab_settings">설정</string>
+    <string name="weather_tab_settings">@string/setting_name</string>
 
     <string name="weather_location_title">Location</string>
     <string name="weather_automatic_update">Automatic update</string>
@@ -1018,7 +1022,7 @@
     <!-- Agent -->
     <string name="agent_title">Device monitoring agent</string>
     <string name="agent_tab_events">Agent log</string>
-    <string name="agent_tab_settings">설정</string>
+    <string name="agent_tab_settings">@string/setting_name</string>
 
     <string name="pref_disconnected_agent_summary_on">If someone tampered with the phone while you are away, you will know</string>
     <string name="pref_disconnected_agent_text">Someone tampered with the phone, while you were gone</string>
@@ -1092,7 +1096,7 @@
     <string name="backup_restore_weather">날씨</string>
     <string name="backup_restore_alarm">분실</string>
     <string name="backup_restore_disconnected_agent">Agent</string>
-    <string name="backup_restore_settings">설정</string>
+    <string name="backup_restore_settings">@string/settings_name</string>
 
     <string name="backup_restore_reset">After restoring, Bluetooth will be turning off and on and the 애플리케이션 will restart.</string>
 
@@ -1190,6 +1194,13 @@
     <string name="vibration_intensity">길이</string>
     <string name="vibration_pause">Pause</string>
     <string name="vibration_times">횟수</string>
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">진동 설정</string>
+    <string name="custom_vibration">진동</string>
+    <string name="custom_vibration_edit">편집</string>
+    <string name="custom_vibration_hint">Tap to vibrate</string>
+    <string name="custom_vibration_new">다시 기록</string>
 
     <!-- Hack -->
     <string name="info_dialog_hack"><![CDATA[폰에서 해킹 도구가 감지되었습니다.

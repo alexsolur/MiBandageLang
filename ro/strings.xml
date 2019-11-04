@@ -30,15 +30,15 @@
     <string name="shortcut_time_alarm">Alarme</string>
     <string name="shortcut_reminder">Reamintire</string>
 
+    <string name="setting_name">Setare</string>
+    <string name="settings_name">Setări</string>
+    <string name="app_chooser">Selector de aplicații</string>
+    <string name="info_name">Informații</string>
+
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Timp conectare: %1$s</string>
     <string name="foreground_service_disconnected_text">%1$s nu este conectat</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <!--<string name="foreground_service_disconnected">Disconnection time: %1$s</string>-->
-
-    <!-- Strings related to Settings -->
-    <string name="settings_name">Setări</string>
-    <string name="app_chooser">Selector de aplicații</string>
-    <string name="info_name">Informații</string>
 
     <!-- Bandages screen -->
     <string name="mi_band_tracker_title">Pași, distanță, calorii, țintă, puls</string>
@@ -67,7 +67,7 @@
     <string name="mi_band_setting_title">Setări %1$s</string>
 
     <string name="mi_band_setting_menu_profile">Profil</string>
-    <string name="mi_band_setting_menu_setting">Setări</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
     <string name="mi_band_setting_menu_text">Text</string>
     <string name="mi_band_setting_menu_call">Apel</string>
     <string name="mi_band_setting_menu_menu">Meniu</string>
@@ -350,6 +350,7 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit GTS</b>
     <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Bip</b>
@@ -394,7 +395,7 @@
 
     <!-- Notification  -->
     <string name="notification_tab_custom">Notificări personalizate</string>
-    <string name="notification_tab_settings">Setări</string>
+    <string name="notification_tab_settings">@string/setting_name</string>
 
     <!-- Notification Dialog -->
     <string name="notification_group_nav_setting">Setări</string>
@@ -515,7 +516,7 @@
     <string name="touch_tab_function">Function</string>
     <string name="touch_tab_control">Control</string>
     <string name="touch_tab_testing">Testare</string>
-    <string name="touch_tab_settings">Setare</string>
+    <string name="touch_tab_settings">@string/setting_name</string>
 
     <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
     <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
@@ -693,7 +694,7 @@
     <string name="step_tab_week">Grafice săptămânale</string>
     <string name="step_tab_month">Grafice lunare</string>
     <string name="step_tab_goal">Obiectivele activității</string>
-    <string name="step_tab_settings">Setări</string>
+    <string name="step_tab_settings">@string/setting_name</string>
 
     <string name="activity_progress_title_prepare">Se pregătește pentru sincronizare ...</string>
     <string name="activity_progress_title_sync">Sincronizarea datelor %1$,d%%</string>
@@ -723,7 +724,7 @@
     <string name="sleep_tab_day">Grafice zilnice</string>
     <string name="sleep_tab_week">Grafice săptămânale</string>
     <string name="sleep_tab_month">Grafice lunare</string>
-    <string name="sleep_tab_settings">Setări</string>
+    <string name="sleep_tab_settings">@string/setting_name</string>
 
     <string name="action_chart_sleep_type_phase">Faze</string>
     <string name="action_chart_sleep_type_time">Timp</string>
@@ -849,6 +850,7 @@
     <string name="time_tab_interval">Interval</string>
 
     <string name="action_alarm_device">Alarmă telefon</string>
+    <string name="time_alarm_setting">@string/setting_name</string>
     <string name="time_alarm_mi_band_signal">Semnal când sună alarma telefonului</string>
     <string name="time_alarm_mi_band_signal_alarm_off">Oprire alarmă la a doua atingere</string>
     <string name="time_alarm_title">Titlu</string>
@@ -921,6 +923,7 @@
     <!-- Reminder -->
     <string name="reminder_tab_once">O dată</string>
     <string name="reminder_tab_weekly">Săptămânal</string>
+    <string name="reminder_tab_setting">@string/setting_name</string>
 
     <string name="reminder_repeat">La fiecare oră</string>
     <string name="reminder_notification_shade">Notifică pe telefon</string>
@@ -939,7 +942,7 @@
     <!-- Weather  -->
     <string name="weather_tab_weather_forecast">Vremea</string>
     <string name="weather_tab_location">Localitate</string>
-    <string name="weather_tab_settings">Setări</string>
+    <string name="weather_tab_settings">@string/setting_name</string>
 
     <string name="weather_location_title">Localitate</string>
     <string name="weather_automatic_update">Automatic update</string>
@@ -1018,7 +1021,7 @@
     <!-- Agent -->
     <string name="agent_title">Agent monitorizare dispozitive</string>
     <string name="agent_tab_events">Jurnal agent</string>
-    <string name="agent_tab_settings">Setări</string>
+    <string name="agent_tab_settings">@string/setting_name</string>
 
     <string name="pref_disconnected_agent_summary_on">Dacă cineva a manipulat telefonul în timp ce erai departe, vei ști</string>
     <string name="pref_disconnected_agent_text">Cineva a manipulat telefonul, în timp ce tu ai fost plecat</string>
@@ -1093,7 +1096,7 @@
     <string name="backup_restore_weather">Vremea</string>
     <string name="backup_restore_alarm">Pierdut</string>
     <string name="backup_restore_disconnected_agent">Agent</string>
-    <string name="backup_restore_settings">Setări</string>
+    <string name="backup_restore_settings">@string/settings_name</string>
 
     <string name="backup_restore_reset">După restaurare, Bluetooth se va opri și va porni și aplicația va reporni.</string>
 
@@ -1192,6 +1195,13 @@
     <string name="vibration_intensity">Durată</string>
     <string name="vibration_pause">Pauză</string>
     <string name="vibration_times">De câte ori</string>
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">Setări vibrații</string>
+    <string name="custom_vibration">Vibrații</string>
+    <string name="custom_vibration_edit">Editează</string>
+    <string name="custom_vibration_hint">Tap to vibrate</string>
+    <string name="custom_vibration_new">Înregistrează din nou</string>
 
     <!-- Hack -->
     <string name="info_dialog_hack"><![CDATA[Aplicație de hack detectată pe telefon.

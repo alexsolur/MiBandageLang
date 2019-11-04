@@ -30,15 +30,15 @@
     <string name="shortcut_time_alarm">Báo thức</string>
     <string name="shortcut_reminder">Nhắc nhở sự kiện</string>
 
+    <string name="setting_name">Cài đặt</string>
+    <string name="settings_name">Cài đặt</string>
+    <string name="app_chooser">Chọn ứng dụng</string>
+    <string name="info_name">Thông tin</string>
+
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Thời gian kết nối: %1$s</string>
     <string name="foreground_service_disconnected_text">%1$s chưa được kết nối</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <!--<string name="foreground_service_disconnected">Thời gian ngắt kết nối: %1$s</string>-->
-
-    <!-- Strings related to Settings -->
-    <string name="settings_name">Cài đặt</string>
-    <string name="app_chooser">Chọn ứng dụng</string>
-    <string name="info_name">Thông tin</string>
 
     <!-- Bandages screen -->
     <string name="mi_band_tracker_title">Bước, khoảng cách, calo, Thành tích, Nhịp tim</string>
@@ -67,7 +67,7 @@
     <string name="mi_band_setting_title">Cài đặt %1$s</string>
 
     <string name="mi_band_setting_menu_profile">Hồ sơ</string>
-    <string name="mi_band_setting_menu_setting">Cài đặt</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
     <string name="mi_band_setting_menu_text">Tin nhắn</string>
     <string name="mi_band_setting_menu_call">Cuộc gọi</string>
     <string name="mi_band_setting_menu_menu">Các mục menu ẩn</string>
@@ -349,6 +349,7 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit GTS</b>
     <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Bip</b>
@@ -393,7 +394,7 @@
 
     <!-- Notification  -->
     <string name="notification_tab_custom">Tùy chỉnh thông báo </string>
-    <string name="notification_tab_settings">Cài đặt</string>
+    <string name="notification_tab_settings">@string/setting_name</string>
 
     <!-- Notification Dialog -->
     <string name="notification_group_nav_setting">Cài đặt</string>
@@ -516,7 +517,7 @@
     <string name="touch_tab_function">Function</string>
     <string name="touch_tab_control">Điều khiển</string>
     <string name="touch_tab_testing">Thử nghiệm</string>
-    <string name="touch_tab_settings">Cài đặt</string>
+    <string name="touch_tab_settings">@string/setting_name</string>
 
     <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
     <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
@@ -694,7 +695,7 @@
     <string name="step_tab_week">Biểu đồ theo tuần</string>
     <string name="step_tab_month">Monthly charts</string>
     <string name="step_tab_goal">Mục tiêu hoạt động</string>
-    <string name="step_tab_settings">Cài đặt</string>
+    <string name="step_tab_settings">@string/setting_name</string>
 
     <string name="activity_progress_title_prepare">Chuẩn bị đồng bộ…</string>
     <string name="activity_progress_title_sync">Đồng bộ dữ liệu %1$,d%%</string>
@@ -724,7 +725,7 @@
     <string name="sleep_tab_day">Biểu đồ hàng ngày</string>
     <string name="sleep_tab_week">Biểu đồ theo tuần</string>
     <string name="sleep_tab_month">Monthly charts</string>
-    <string name="sleep_tab_settings">Cài đặt</string>
+    <string name="sleep_tab_settings">@string/setting_name</string>
 
     <string name="action_chart_sleep_type_phase">Phase</string>
     <string name="action_chart_sleep_type_time">Time</string>
@@ -850,6 +851,7 @@
     <string name="time_tab_interval">Khoảng</string>
 
     <string name="action_alarm_device">Báo thức mặc định</string>
+    <string name="time_alarm_setting">@string/setting_name</string>
     <string name="time_alarm_mi_band_signal">Tín hiệu báo thức khi điện thoại kêu</string>
     <string name="time_alarm_mi_band_signal_alarm_off">Tắt báo thức ở lần chạm thứ hai</string>
     <string name="time_alarm_title">Tiêu đề</string>
@@ -922,6 +924,7 @@
     <!-- Reminder -->
     <string name="reminder_tab_once">Một lần</string>
     <string name="reminder_tab_weekly">Hàng tuần</string>
+    <string name="reminder_tab_setting">@string/setting_name</string>
 
     <string name="reminder_repeat">Hàng giờ</string>
     <string name="reminder_notification_shade">Thông báo trên điện thoại của tôi</string>
@@ -940,7 +943,7 @@
     <!-- Weather  -->
     <string name="weather_tab_weather_forecast">Thời tiết</string>
     <string name="weather_tab_location">Vị trí</string>
-    <string name="weather_tab_settings">Cài đặt</string>
+    <string name="weather_tab_settings">@string/setting_name</string>
 
     <string name="weather_location_title">Vị trí</string>
     <string name="weather_automatic_update">Automatic update</string>
@@ -1019,7 +1022,7 @@
     <!-- Agent -->
     <string name="agent_title">Trình giám sát thiết bị</string>
     <string name="agent_tab_events">Nhật ký giám sát</string>
-    <string name="agent_tab_settings">Cài đặt</string>
+    <string name="agent_tab_settings">@string/setting_name</string>
 
     <string name="pref_disconnected_agent_summary_on">Nếu một người nào đó can thiệp vào thiết bị trong khi bạn đang đi vắng, bạn sẽ biết</string>
     <string name="pref_disconnected_agent_text">Có người can thiệp vào thiết bị, trong khi bạn đi vắng</string>
@@ -1094,7 +1097,7 @@
     <string name="backup_restore_weather">Thời tiết</string>
     <string name="backup_restore_alarm">Tìm thiết bị</string>
     <string name="backup_restore_disconnected_agent">Giám sát</string>
-    <string name="backup_restore_settings">Cài đặt</string>
+    <string name="backup_restore_settings">@string/settings_name</string>
 
     <string name="backup_restore_reset">Sau khi khôi phục, Bluetooth sẽ tắt đi và mở lại, sau đó ứng dụng sẽ khởi động lại.</string>
 
@@ -1194,6 +1197,13 @@
     <string name="vibration_intensity">Cường độ</string>
     <string name="vibration_pause">Dừng</string>
     <string name="vibration_times">Thời gian</string>
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">Cài đặt rung</string>
+    <string name="custom_vibration">Rung</string>
+    <string name="custom_vibration_edit">Sửa</string>
+    <string name="custom_vibration_hint">Tap to vibrate</string>
+    <string name="custom_vibration_new">Ghi âm lại</string>
 
     <!-- Hack -->
     <string name="info_dialog_hack"><![CDATA[Bắt được bạn cài Hack nhé.

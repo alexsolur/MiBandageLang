@@ -30,15 +30,15 @@
     <string name="shortcut_time_alarm">Alarm</string>
     <string name="shortcut_reminder">Przypomnienie o wydarzeniach</string>
 
+    <string name="setting_name">Ustawienia</string>
+    <string name="settings_name">Ustawienia</string>
+    <string name="app_chooser">Wybór aplikacji</string>
+    <string name="info_name">Informacja</string>
+
     <!-- Foreground service, ongoing notification -->
     <string name="foreground_service_connected">Czas podłączenia: %1$s</string>
     <string name="foreground_service_disconnected_text">%1$s niepodłączony</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <!--<string name="foreground_service_disconnected">Czas rozłączenia: %1$s</string>-->
-
-    <!-- Strings related to Settings -->
-    <string name="settings_name">Ustawienia</string>
-    <string name="app_chooser">Wybór aplikacji</string>
-    <string name="info_name">Informacja</string>
 
     <!-- Bandages screen -->
     <string name="mi_band_tracker_title">Kroki, dystans, kalorie, cel, tętno</string>
@@ -67,7 +67,7 @@
     <string name="mi_band_setting_title">Ustawienia %1$s</string>
 
     <string name="mi_band_setting_menu_profile">Profil</string>
-    <string name="mi_band_setting_menu_setting">Ustawienia</string>
+    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
     <string name="mi_band_setting_menu_text">Tekst</string>
     <string name="mi_band_setting_menu_call">Dzwonienie</string>
     <string name="mi_band_setting_menu_menu">Menu</string>
@@ -350,6 +350,7 @@
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
     <br>- <b>Xiaomi Mi Band HRX</b>
+    <br>- <b>Huami Amazfit GTS</b>
     <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Bip</b>
@@ -394,7 +395,7 @@
 
     <!-- Notification  -->
     <string name="notification_tab_custom">Niestandardowe powiadomienia</string>
-    <string name="notification_tab_settings">Ustawienia</string>
+    <string name="notification_tab_settings">@string/setting_name</string>
 
     <!-- Notification Dialog -->
     <string name="notification_group_nav_setting">Ustawienia</string>
@@ -515,7 +516,7 @@
     <string name="touch_tab_function">Funkcja</string>
     <string name="touch_tab_control">Kontrola</string>
     <string name="touch_tab_testing">Testowanie</string>
-    <string name="touch_tab_settings">Ustawienia</string>
+    <string name="touch_tab_settings">@string/setting_name</string>
 
     <string name="touch_function_summary">Ustaw te funkcje jeśli używasz trybu samodzielnego lub nie jest odpowiednio zarządzany przez Mi Fit</string>
     <string name="touch_function">Funkcja %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
@@ -692,7 +693,7 @@
     <string name="step_tab_week">Tygodniowe wykresy</string>
     <string name="step_tab_month">Miesięczne wykresy</string>
     <string name="step_tab_goal">Cele aktywności</string>
-    <string name="step_tab_settings">Ustawienia</string>
+    <string name="step_tab_settings">@string/setting_name</string>
 
     <string name="activity_progress_title_prepare">Przygotowanie do synchronizacji...</string>
     <string name="activity_progress_title_sync">Synchronizacja danych %1$,d%%</string>
@@ -722,7 +723,7 @@
     <string name="sleep_tab_day">Dzienne wykresy</string>
     <string name="sleep_tab_week">Tygodniowe wykresy</string>
     <string name="sleep_tab_month">Miesięczne wykresy</string>
-    <string name="sleep_tab_settings">Ustawienia</string>
+    <string name="sleep_tab_settings">@string/setting_name</string>
 
     <string name="action_chart_sleep_type_phase">Faza</string>
     <string name="action_chart_sleep_type_time">Czas</string>
@@ -848,6 +849,7 @@
     <string name="time_tab_interval">Interwał</string>
 
     <string name="action_alarm_device">Alarm telefonu</string>
+    <string name="time_alarm_setting">@string/setting_name</string>
     <string name="time_alarm_mi_band_signal">Sygnał po włączeniu alarmu telefonu</string>
     <string name="time_alarm_mi_band_signal_alarm_off">Alarm wyłączony przy drugim dotknięciu</string>
     <string name="time_alarm_title">Tytuł</string>
@@ -920,6 +922,7 @@
     <!-- Reminder -->
     <string name="reminder_tab_once">Jeden raz</string>
     <string name="reminder_tab_weekly">Co tydzień</string>
+    <string name="reminder_tab_setting">@string/setting_name</string>
 
     <string name="reminder_repeat">Powtarzanie godzinowe</string>
     <string name="reminder_notification_shade">Powiadamiaj na telefonie</string>
@@ -938,7 +941,7 @@
     <!-- Weather -->
     <string name="weather_tab_weather_forecast">Pogoda</string>
     <string name="weather_tab_location">Lokalizacja</string>
-    <string name="weather_tab_settings">Ustawienia</string>
+    <string name="weather_tab_settings">@string/setting_name</string>
 
     <string name="weather_location_title">Lokalizacja</string>
     <string name="weather_automatic_update">Automatyczna aktualizacja</string>
@@ -1017,7 +1020,7 @@
     <!-- Agent -->
     <string name="agent_title">Agent monitorowania urządzenia</string>
     <string name="agent_tab_events">Dziennik agenta</string>
-    <string name="agent_tab_settings">Ustawienia</string>
+    <string name="agent_tab_settings">@string/setting_name</string>
 
     <string name="pref_disconnected_agent_summary_on">Jeśli ktoś manipulował telefonem podczas Twojej nieobecności, będziesz o tym wiedział</string>
     <string name="pref_disconnected_agent_text">Ktoś majstrował przy telefonie, kiedy Cię nie było</string>
@@ -1092,7 +1095,7 @@
     <string name="backup_restore_weather">Pogoda</string>
     <string name="backup_restore_alarm">Zagubienia</string>
     <string name="backup_restore_disconnected_agent">Agent</string>
-    <string name="backup_restore_settings">Ustawienia</string>
+    <string name="backup_restore_settings">@string/settings_name</string>
 
     <string name="backup_restore_reset">Po przywróceniu Bluetooth zostanie wyłączony i włączony, a aplikacja uruchomi się ponownie.</string>
 
@@ -1191,6 +1194,13 @@
     <string name="vibration_intensity">Trwanie</string>
     <string name="vibration_pause">Przerwa</string>
     <string name="vibration_times">Powtórzenia</string>
+
+    <!-- Custom vibration dialog -->
+    <string name="custom_vibration_title">Ustawienia wibracji</string>
+    <string name="custom_vibration">Wibracje</string>
+    <string name="custom_vibration_edit">Edytuj</string>
+    <string name="custom_vibration_hint">Tap to vibrate</string>
+    <string name="custom_vibration_new">Nagraj ponownie</string>
 
     <!-- Hack -->
     <string name="info_dialog_hack"><![CDATA[Wykryto narzędzie hakerskie na telefonie.
