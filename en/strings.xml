@@ -210,6 +210,7 @@
     <string name="pref_disconnected_volume_title">Adjust the volume</string>
     <string name="pref_disconnected_volume_ring_title">Ring volume</string>
     <string name="pref_disconnected_volume_adapter_title">When Bluetooth is turned off</string>
+    <string name="pref_disconnected_volume_mute_title">When the phone is muted</string>
     <string name="pref_disconnected_volume_adapter_summary_on">Adjust the volume</string>
     <string name="pref_disconnected_volume_adapter_summary_off">Do not adjust the volume</string>
 
@@ -580,6 +581,10 @@
     <string name="touch_time_launch_type_interval_title">Interval</string>
     <string name="touch_time_launch_restart">Restart if it is in progress</string>
     <string name="touch_time_reminder_title">Show remaining/elapsed time</string>
+
+    <string name="touch_google_assistant_title">Google Assistant</string>
+
+    <string name="touch_flashlight_title">Flashlight toggle</string>
 
     <string name="touch_camera_title">Take a photo</string>
     <string name="touch_camera_front_title">Front</string>
@@ -1330,13 +1335,5 @@
         <item quantity="many">%d files moved</item>
         <item quantity="other">%d files moved</item>
     </plurals>
-
-    <!-- Admob-->
-    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-6357233635516043/7418277414</string>
-
-    <string name="problem.lvl" translatable="false">problem.lvl</string>
-    <string name="s_837" translatable="false">8</string>
-    <string name="s_482" translatable="false">8</string>
-    <string name="s_1333" translatable="false">6</string>
 
 </resources>
