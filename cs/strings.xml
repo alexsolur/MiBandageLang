@@ -362,6 +362,7 @@
     <p>Používáte-li více aplikací pro ovládání chytrého náramku/hodinek, mohou se navzájem rušit. Z tohoto důvodu je prosím dočasně vypněte.</p>
     <p> Pokud není nalezen chytrý náramek, můžete nastavit MAC adresu ručně v nabídce podrobností (MAC adresu naleznete: Mi Fit/Profil/Band).</p>
     <p><b>Pokud máte problém s připojením, postupujte dle instrukcí uvedených níže:</b>
+    <br>- Read the Amazfit app or Mi Fit app Profile/Smartwatch/Run in background and set it up for Mi Bandage
     <br>- Zkontrolujte nastavení v <i>Nastavení/Diagnostika</i>
     <br>- Obrazovka přehledu aplikací (recent apps screen): Uzavřete aplikaci Mi Bandage (přetáhněte směrem pryč z obrazovky, nebo klikněte na ikonu křížku).
     <br>- Nastavení/baterie/optimalizace výdrže baterie: zvolte aplikaci Mi Bandage a vyberte neoptimalizovat.
@@ -595,6 +596,17 @@
     <string name="touch_app_launcher1_title">Spouštěč aplikací</string>
     <string name="touch_app_launcher_package_no_title">Vyberte aplikaci</string>
     <string name="touch_app_launcher1_not_wakelock_only_title">Pouze pokud obrazovka není uzamčena</string>
+
+    <string name="touch_broadcast1_title">Send Broadcast</string>
+    <string name="touch_broadcast1_action_title">Intent action</string>
+    <string name="touch_broadcast1_package_title">Intent package name</string>
+
+    <string name="touch_http_request1_title">1. HTTP request</string>
+    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">Method</string>
+    <string name="touch_http_request_body_title">Body</string>
+    <string name="touch_http_request_show_response_title">Show the response</string>
 
     <string name="touch_tasker_launcher1_title">1. Spouštěč úkolů Tasker</string>
     <string name="touch_tasker_launcher2_title">2. Spouštěč úkolů Tasker</string>

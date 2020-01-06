@@ -362,6 +362,7 @@
     <p>Indien je meerdere apps gebruikt voor je Band, schakel ze tijdelijk uit om storingen te voorkomen.</p>
     <p>Als Band niet wordt gevonden kunt u het MAC-adres handmatig instellen, kijk hier (MAC adres in: Mi Fit/Profiel/Band).</p>
     <p><b>Bij verbindingsproblemen:</b>
+    <br>- Read the Amazfit app or Mi Fit app Profile/Smartwatch/Run in background and set it up for Mi Bandage
     <br>- Controleer <i>Instellingen/Diagnostiek</i> settings
     <br>- Vorige app scherm: vergrendel de Mi Bandage (klik op de app en klik op het vergrendelpictogram).
     <br>- Telefoon/batterij optimalisatie: stel Mi Bandage app in op niet geoptimaliseerd.
@@ -595,6 +596,17 @@
     <string name="touch_app_launcher1_title">App starter</string>
     <string name="touch_app_launcher_package_no_title">Selecteer een app</string>
     <string name="touch_app_launcher1_not_wakelock_only_title">Alleen als het scherm niet is vergrendeld</string>
+
+    <string name="touch_broadcast1_title">Send Broadcast</string>
+    <string name="touch_broadcast1_action_title">Intent action</string>
+    <string name="touch_broadcast1_package_title">Intent package name</string>
+
+    <string name="touch_http_request1_title">1. HTTP request</string>
+    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">Method</string>
+    <string name="touch_http_request_body_title">Body</string>
+    <string name="touch_http_request_show_response_title">Show the response</string>
 
     <string name="touch_tasker_launcher1_title">1. Taken taak starter</string>
     <string name="touch_tasker_launcher2_title">2. Taken taak starter</string>

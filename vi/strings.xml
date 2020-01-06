@@ -361,6 +361,7 @@
     <p>Nếu bạn có nhiều ứng dụng để điều khiển Band, nó tạm thời được tắt đi để tránh xung đột.</p>
     <p>Nếu không tìm thấy Band, bạn có thể nhập MAC thủ công (Trong mục Mi Fit/Hồ sơ/Band).</p>
     <p><b>Nếu có vấn đề kết nối:</b>
+    <br>- Read the Amazfit app or Mi Fit app Profile/Smartwatch/Run in background and set it up for Mi Bandage
     <br>- Kiểm tra <i>Cài đặt/Chẩn đoán</i> cài đặt
     <br>- Màn hình ứng dụng gần đây: khoá Mi Bandage (kéo xuống và ấn vào biểu tượng cái khoá).
     <br>- Tối ưu điện thoại/Pin: cho phép Mi Bandage không cần tối ưu.
@@ -596,6 +597,17 @@
     <string name="touch_app_launcher1_title">Trình khởi chạy ứng dụng</string>
     <string name="touch_app_launcher_package_no_title">Chọn một ứng dụng</string>
     <string name="touch_app_launcher1_not_wakelock_only_title">Chỉ khi màn hình không bị khóa</string>
+
+    <string name="touch_broadcast1_title">Send Broadcast</string>
+    <string name="touch_broadcast1_action_title">Intent action</string>
+    <string name="touch_broadcast1_package_title">Intent package name</string>
+
+    <string name="touch_http_request1_title">1. HTTP request</string>
+    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">Method</string>
+    <string name="touch_http_request_body_title">Body</string>
+    <string name="touch_http_request_show_response_title">Show the response</string>
 
     <string name="touch_tasker_launcher1_title">1. Trình khởi chạy tác vụ</string>
     <string name="touch_tasker_launcher2_title">2. Trình khởi chạy tác vụ</string>

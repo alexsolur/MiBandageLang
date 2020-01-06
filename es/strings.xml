@@ -362,6 +362,7 @@
     <p>Si utiliza más aplicaciones para controlar la Band, puede que interfieran entre sí, desactivelas temporalmente.</p>
     <p>Si no puede encontrar la Band, puede establecer la dirección MAC, manualmente, en el menú de detalles (La dirección MAC se puede encontrar en: Mi Fit/Perfil/Band).</p>
     <p><b>Si tiene un problema de conexión:</b>
+    <br>- Read the Amazfit app or Mi Fit app Profile/Smartwatch/Run in background and set it up for Mi Bandage
     <br>- Compruebe la configuración de <i>Configuración/Diagnóstico</ i>
     <br>- Pantalla de aplicaciones recientes: Bloquea Mi Bandage (Baja la aplicación y haz clic en el icono con un candado).
     <br>- Configuración del teléfono/batería/optimización de la batería: Configure la aplicación Mi Bandage para que no esté optimizada.
@@ -595,6 +596,17 @@
     <string name="touch_app_launcher1_title">Lanzador de aplicaciones</string>
     <string name="touch_app_launcher_package_no_title">Seleccione una aplicación</string>
     <string name="touch_app_launcher1_not_wakelock_only_title">Solo si la pantalla no está bloqueada</string>
+
+    <string name="touch_broadcast1_title">Send Broadcast</string>
+    <string name="touch_broadcast1_action_title">Intent action</string>
+    <string name="touch_broadcast1_package_title">Intent package name</string>
+
+    <string name="touch_http_request1_title">1. HTTP request</string>
+    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">Method</string>
+    <string name="touch_http_request_body_title">Body</string>
+    <string name="touch_http_request_show_response_title">Show the response</string>
 
     <string name="touch_tasker_launcher1_title">1. Lanzador de tareas de Tasker</string>
     <string name="touch_tasker_launcher2_title">2. Lanzador de tareas de Tasker</string>

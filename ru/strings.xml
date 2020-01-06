@@ -362,6 +362,7 @@
     <p>Если вы используете несколько приложений для управления браслетом, они могут мешать друг другу, поэтому временно отключите их.</p>
     <p>Если браслет не обнаружен, вы можете установить MAC вручную в настройках (MAC можно найти в: Mi Fit/Профиль/Band).</p>
     <p><b>При проблемах с подключением:</b>
+    <br>- Read the Amazfit app or Mi Fit app Profile/Smartwatch/Run in background and set it up for Mi Bandage
     <br>- Проверьте наличие проблем в <i>Настройки/Диагностика</i>
     <br>- Закрепите Mi Bandage в окне недавних приложений (потяните приложение вниз и нажмите замок)
     <br>- Отключите для Mi Bandage оптимизацию энергопотребления в настройках аккумулятора/энергосбережения
@@ -595,6 +596,17 @@
     <string name="touch_app_launcher1_title">Запуск приложений</string>
     <string name="touch_app_launcher_package_no_title">Выберете приложение</string>
     <string name="touch_app_launcher1_not_wakelock_only_title">Если экран не заблокирован</string>
+
+    <string name="touch_broadcast1_title">Send Broadcast</string>
+    <string name="touch_broadcast1_action_title">Intent action</string>
+    <string name="touch_broadcast1_package_title">Intent package name</string>
+
+    <string name="touch_http_request1_title">1. HTTP request</string>
+    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">Method</string>
+    <string name="touch_http_request_body_title">Body</string>
+    <string name="touch_http_request_show_response_title">Show the response</string>
 
     <string name="touch_tasker_launcher1_title">1. Tasker</string>
     <string name="touch_tasker_launcher2_title">2. Tasker</string>

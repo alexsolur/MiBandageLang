@@ -359,6 +359,7 @@
     <p>如果使用多个手环应用,它们会互相干扰，请关闭其他应用.</p>
     <p>如果未找到手环,你可以手动设置 MAC 地址(MAC 地址可在 小米运动/我的/手环 中查看).</p>
     <p><b>如果你有连接问题:</b>
+    <br>- Read the Amazfit app or Mi Fit app Profile/Smartwatch/Run in background and set it up for Mi Bandage
     <br>- 查看运用内 <i>设置/诊断</i> 选型
     <br>- 最近的应用程序界面:锁定 Mi Bandage(下拉该应用并点击锁的图标).
     <br>- 手机电池设置/电池优化: 设置 Mi Bandage 应用为未优化.
@@ -591,6 +592,17 @@
     <string name="touch_app_launcher1_title">应用启动器</string>
     <string name="touch_app_launcher_package_no_title">选择应用</string>
     <string name="touch_app_launcher1_not_wakelock_only_title">只有当屏幕未锁定时</string>
+
+    <string name="touch_broadcast1_title">Send Broadcast</string>
+    <string name="touch_broadcast1_action_title">Intent action</string>
+    <string name="touch_broadcast1_package_title">Intent package name</string>
+
+    <string name="touch_http_request1_title">1. HTTP request</string>
+    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">Method</string>
+    <string name="touch_http_request_body_title">Body</string>
+    <string name="touch_http_request_show_response_title">Show the response</string>
 
     <string name="touch_tasker_launcher1_title">1. Tasker 任务启动器</string>
     <string name="touch_tasker_launcher2_title">2. Tasker 任务启动器</string>

@@ -362,6 +362,7 @@
     <p>Falls mehrere Apps das Band kontollieren, können Interferenzen auftreten. Bitte deaktivieren Sie diese temporär.</p>
     <p>Sie können die MAC-Adresse manuell einstellen, falls das Band nicht erkannt wird (die MAC-Adresse kann in Mi Fit/Profil/Band gefunden werden.).</p>
     <p><b>Falls Sie Probleme mit der Erkennung des Mi Bands 2 und kein Benachrichtigungssignal erhalten, bitte versuchen Sie folgende Schritte:</b>
+    <br>- Read the Amazfit app or Mi Fit app Profile/Smartwatch/Run in background and set it up for Mi Bandage
     <br>- Check the <i>Settings/Diagnostics</i> settings
     <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
     <br>- Phone/battery optimization: set Mi Bandage app to not optimized.
@@ -594,6 +595,17 @@
     <string name="touch_app_launcher1_title">App-Launcher</string>
     <string name="touch_app_launcher_package_no_title">Wählen Sie eine App aus</string>
     <string name="touch_app_launcher1_not_wakelock_only_title">Nur wenn der Bildschirm entsperrt ist</string>
+
+    <string name="touch_broadcast1_title">Send Broadcast</string>
+    <string name="touch_broadcast1_action_title">Intent action</string>
+    <string name="touch_broadcast1_package_title">Intent package name</string>
+
+    <string name="touch_http_request1_title">1. HTTP request</string>
+    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request_url_title">URL</string>
+    <string name="touch_http_request_method_title">Method</string>
+    <string name="touch_http_request_body_title">Body</string>
+    <string name="touch_http_request_show_response_title">Show the response</string>
 
     <string name="touch_tasker_launcher1_title">1. Tasker Aufgaben-Launcher</string>
     <string name="touch_tasker_launcher2_title">2. Tasker Aufgaben-Launcher</string>

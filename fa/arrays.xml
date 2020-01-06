@@ -11,13 +11,13 @@
     </string-array>
 
     <string-array name="pref_distance_unit">
-        <item>متریک (meter)</item>
-        <item>امپریال (mile)</item>
+        <item>متریک (متر)</item>
+        <item>امپریال (مایل)</item>
     </string-array>
 
     <string-array name="pref_lift_wrist_sensitivity">
-        <item>Standard</item>
-        <item>Sensitive</item>
+        <item>استاندارد</item>
+        <item>حساس</item>
     </string-array>
 
     <string-array name="pref_night_mode">
@@ -26,25 +26,25 @@
     </string-array>
 
     <string-array name="pref_menu_mi_band">
-        <item>Time</item>
-        <item>Steps</item>
-        <item>Distance</item>
-        <item>Calories</item>
-        <item>Heart rate</item>
-        <item>Battery</item>
-        <item>Status</item>
-        <item>Weather</item>
-        <item>Workout</item>
-        <item>Activities</item>
-        <item>Notification</item>
-        <item>More</item>
+        <item>زمان</item>
+        <item>گام‌ها</item>
+        <item>مسافت</item>
+        <item>کالری‌ها</item>
+        <item>ضربان قلب</item>
+        <item>باتری</item>
+        <item>وضعیت</item>
+        <item>آب و هوا</item>
+        <item>تمیرن</item>
+        <item>فعالیت‌ها</item>
+        <item>اعلان‌ها</item>
+        <item>بیشتر</item>
         <item>NFC</item>
-        <item>Alarm</item>
-        <item>Timer</item>
-        <item>Event reminder</item>
-        <item>Settings</item>
-        <item>Compass</item>
-        <item>Music</item>
+        <item>آلارم</item>
+        <item>زمان‌سنج</item>
+        <item>یادآور رویداد</item>
+        <item>تنظیمات</item>
+        <item>قطب‌نما</item>
+        <item>موزیک</item>
         <item>Alipay</item>
         <item>PAI</item>
     </string-array>
@@ -52,9 +52,9 @@
     <string-array name="pref_connected_have_notif_counter">
         <item>تعداد اعلان‌ها</item>
         <item>یکبار به ازای آیکون باند</item>
-        <item>1 \'app\' icon</item>
-        <item>2 \'app\' icon</item>
-        <item>3 \'app\' icon</item>
+        <item>آیکن 1 \'برنامه\'</item>
+        <item>آیکن 2 \'برنامه\'</item>
+        <item>آیکن 3 \'برنامه\'</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_interval">
@@ -69,7 +69,7 @@
     </string-array>
 
     <string-array name="pref_abandoned_interval">
-        <item>1 minute</item>
+        <item>1 دقیقه</item>
         <item>2 دقیقه</item>
         <item>3 دقیقه</item>
         <item>4 دقیقه</item>
@@ -128,8 +128,8 @@
 
     <string-array name="touch_music_function_info">
         <item>آهنگ</item>
-        <item>خواننده: آهنگ</item>
-        <item>خواننده- Album: آهنگ</item>
+        <item>عنوان: آهنگ</item>
+        <item>آهنگ: آلبوم - عنوان</item>
     </string-array>
 
     <string-array name="touch_camera_app">
@@ -138,7 +138,7 @@
     </string-array>
 
     <string-array name="pref_timer_time_interval_repeat">
-        <item>Off</item>
+        <item>خاموش</item>
         <item>1 دقیقه</item>
         <item>2 دقیقه</item>
         <item>3 دقیقه</item>
@@ -179,7 +179,7 @@
     </string-array>
 
     <string-array name="notification_group_display_time">
-        <item>Auto (3 – 5 ثانیه)</item>
+        <item>خودکار (3-5 ثانیه)</item>
         <item>3 ثانیه</item>
         <item>4 ثانیه</item>
         <item>5 ثانیه</item>
@@ -198,16 +198,16 @@
         <item>دوبار ضربه</item>
         <item>سه بار ضربه</item>
         <item>ضربه</item>
-        <item>Button</item>
+        <item>دکمه</item>
     </string-array>
 
     <string-array name="touch_recognition_press_mi_band_4_gtr">
         <item>هیچ</item>
-        <item>Mute button</item>
+        <item>دکمه بی‌صدا کردن</item>
         <item>دوبار ضربه</item>
         <item>سه بار ضربه</item>
-        <item>Reject button</item>
-        <item>Button</item>
+        <item>دکمه رد تماس</item>
+        <item>دکمه</item>
     </string-array>
 
     <string-array name="touch_recognition_press_amazfit_bip_cor">
@@ -216,12 +216,12 @@
         <item>دوبار ضربه</item>
         <item>سه بار ضربه</item>
         <item>دکمه سبز</item>
-        <item>Button</item>
+        <item>دکمه</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method">
-        <item>Pattern recognition</item>
-        <item>Button press counting</item>
+        <item>تشخیص الگو</item>
+        <item>شمارش فشردن دکمه</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method_mi_band_3">
@@ -244,15 +244,15 @@
     </string-array>
 
     <string-array name="pref_weather_unit">
-        <item>متریک</item>
-        <item>امپریال</item>
+        <item>متریک (سانتی‌گراد)</item>
+        <item>امپریال (فارنهایت)</item>
     </string-array>
 
     <string-array name="pref_weather_current_display">
         <item>کنونی</item>
-        <item>Current, precipitation, cloud cover</item>
+        <item>وضعیت کنونی، بارندگی، پوشش ابری</item>
         <item>میانگین</item>
-        <item>ق.ظ, ب.ظ</item>
+        <item>ق.ظ، ب.ظ</item>
     </string-array>
 
     <string-array name="pref_weather_forecast_display">
@@ -317,8 +317,8 @@
     </string-array>
 
     <string-array name="pref_language_mi_band_3">
-        <item>Not set (set by Mi Fit)</item>
-        <item>پیش‌فرض (by phone)</item>
+        <item>بدون تنظیم (تنظیم توسط Mi Fit)</item>
+        <item>پیش‌فرض (تلفن)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -341,8 +341,8 @@
     </string-array>
 
     <string-array name="pref_language_mi_band_4">
-        <item>Not set (set by Mi Fit)</item>
-        <item>پیش‌فرض (by phone)</item>
+        <item>بدون تنظیم (تنظیم توسط Mi Fit)</item>
+        <item>پیش‌فرض (تلفن)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -365,8 +365,8 @@
     </string-array>
 
     <string-array name="pref_language_amazfit_bip_watch">
-        <item>Not set (set by Mi Fit)</item>
-        <item>پیش‌فرض (by phone)</item>
+        <item>بدون تنظیم (تنظیم توسط Mi Fit)</item>
+        <item>پیش‌فرض (تلفن)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -383,8 +383,8 @@
     </string-array>
 
     <string-array name="pref_language_amazfit_cor">
-        <item>Not set (set by Mi Fit)</item>
-        <item>پیش‌فرض (by phone)</item>
+        <item>بدون تنظیم (تنظیم توسط Mi Fit)</item>
+        <item>پیش‌فرض (تلفن)</item>
         <item>English</item>
         <item>Español</item>
         <item>Русский</item>
@@ -393,8 +393,8 @@
     </string-array>
 
     <string-array name="pref_language_amazfit_gtr">
-        <item>Not set (set by Mi Fit)</item>
-        <item>پیش‌فرض (by phone)</item>
+        <item>بدون تنظیم (تنظیم توسط Mi Fit)</item>
+        <item>پیش‌فرض (تلفن)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
