@@ -1140,9 +1140,9 @@
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Termenii și condițiile Modului recompensat</string>
     <string name="rewarded_policy"><![CDATA[
-        <p>- început valabilitate: timpul curent
-        <br>- sfârșit valabilitate: început valabilitate + cel puțin %1$,d zile (în funcție de reclamă poate fi mai mult)
-        <br>- manipularea timpului poate provoca încetarea valabilității</p>
+        <p>- început valabilitate: timpul curent</p>
+        <p>- sfârșit valabilitate: început valabilitate + cel puțin %1$,d zile (în funcție de reclamă poate fi mai mult)</p>
+        <p>- manipularea timpului poate provoca încetarea valabilității</p>
         <i>După ce ai redat videoclipul, trebuie să repornești aplicația.</i>
     ]]></string>
 
@@ -1213,6 +1213,14 @@
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>- Nu colectăm informații personale identificabile despre tine. Cu alte cuvinte, nu colectăm informații cum ar fi numele, adresa, numărul de telefon, adresa de e-mail, adresa IP sau adresa MAC.</p>
         - Nu colectăm date despre sănătatea personală, contacte și textele de notificare de pe telefon.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Status</string>

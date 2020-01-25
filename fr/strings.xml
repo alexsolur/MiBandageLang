@@ -1138,9 +1138,9 @@
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Termes et conditions d\'utilisation</string>
     <string name="rewarded_policy"><![CDATA[
-        <p>- début de validité: l\'heure actuelle
-        <br>- fin de validité: début de validité + au moins %1$,d jour(s) (dépend de l\'annonce, cela peut être plus)
-        <br>- Agir sur la durée peut engendrer une fin de validité</p>
+        <p>- début de validité: l\'heure actuelle</p>
+        <p>- fin de validité: début de validité + au moins %1$,d jour(s) (dépend de l\'annonce, cela peut être plus)</p>
+        <p>- Agir sur la durée peut engendrer une fin de validité</p>
         <i>Après avoir lancé la video vous devez redémarrer l\'appli.</i>
     ]]></string>
 
@@ -1211,6 +1211,14 @@
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>- We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
         - We do not collect personal health data, contacts and phone notification text.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Status</string>

@@ -1140,9 +1140,9 @@
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Algemene voorwaarden van de Rewarded modus</string>
     <string name="rewarded_policy"><![CDATA[
-        <p>- start van validatie: huidige tijd
-        <br>- einde validatie: start van validatie + tenminste %1$,d dagen (afhankelijk van toevoegingen kan het meer zijn)
-        <br>- tijd manipulatie kan leiden tot beëindiging van de validatie</p>
+        <p>- start van validatie: huidige tijd</p>
+        <p>- einde validatie: start van validatie + tenminste %1$,d dagen (afhankelijk van toevoegingen kan het meer zijn)</p>
+        <p>- tijd manipulatie kan leiden tot beëindiging van de validatie</p>
         <i>Na het afspelen van de video moet je de app opnieuw opstarten.</i>
     ]]></string>
 
@@ -1213,6 +1213,14 @@
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>- We verzamelen geen persoonlijk identificeerbare informatie over u. Met andere woorden, wij verzamelen geen informatie zoals uw naam, adres, telefoonnummer, e-mailadres, IP-adres of MAC-adres.</p>
         - We verzamelen geen persoonlijke gezondheidsgegevens, contacten en telefonische meldingsteksten.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Status</string>

@@ -1139,9 +1139,9 @@
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Termini e condizioni della modalità ricompensa</string>
     <string name="rewarded_policy"><![CDATA[
-        <p>- inizio vadilità: orario corrente
-        <br>- fine vadilità: inizio vadilità + il minimo di %1$,d giorno (dipende dalla pubblicità può anche essere di più)
-        <br>- la manipolazione del tempo può causare il termine della vadilità</p>
+        <p>- inizio vadilità: orario corrente</p>
+        <p>- fine vadilità: inizio vadilità + il minimo di %1$,d giorno (dipende dalla pubblicità può anche essere di più)</p>
+        <p>- la manipolazione del tempo può causare il termine della vadilità</p>
         <i> Dopo aver riprodotto il video bisogna riavviare l\'app.</i>
     ]]></string>
 
@@ -1212,6 +1212,14 @@
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>- Non raccogliamo dati identificativi personali. In altre parole, non raccogliamo informazioni come il tuo nome, indirizzo, numero di telefono, email, indirizzo IP, o indirizzo MAC.</p>
         - Non raccogliamo dati sulla salute, contatti e testi delle notifiche.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Stato</string>

@@ -1140,9 +1140,9 @@
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Условия бонусного режима</string>
     <string name="rewarded_policy"><![CDATA[
-        <p>- начало: прямо сейчас
-        <br>- минимальная продолжительность, дней: %1$,d (зависит от рекламы, может быть больше)
-        <br>- перевод времени может сбросить бонусный режим</p>
+        <p>- начало: прямо сейчас</p>
+        <p>- минимальная продолжительность, дней: %1$,d (зависит от рекламы, может быть больше)</p>
+        <p>- перевод времени может сбросить бонусный режим</p>
         <i>После просмотра рекламы необходимо перезагрузить приложение.</i>
     ]]></string>
 
@@ -1213,6 +1213,14 @@
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>- Мы не собираем информацию, способную вас идентифицировать. Другими словами мы не собираем такую информацию, как ваше имя, адрес, номер телефона, адрес электронной почты, IP или MAC адреса.</p>
         - Мы не собираем информацию о вашем здоровье, контактах и тексте уведомлений.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Статус</string>

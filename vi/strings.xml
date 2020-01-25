@@ -1141,9 +1141,9 @@
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Các điều khoản và điều kiện của Chế độ thưởng</string>
     <string name="rewarded_policy"><![CDATA[
-        <p>- Bắt đầu có hiệu lực từ: thời gian hiện tại
-        <br>- Kết thúc hiệu lực: từ lúc bắt đầu có hiệu lực + ít nhất %1$,d days (Tùy thuộc vào quảng cáo nó có thể lâu hơn)
-        <br>- Thao tác can thiệp thời gian có thể gây ra chấm dứt hiệu lực</p>
+        <p>- Bắt đầu có hiệu lực từ: thời gian hiện tại</p>
+        <p>- Kết thúc hiệu lực: từ lúc bắt đầu có hiệu lực + ít nhất %1$,d days (Tùy thuộc vào quảng cáo nó có thể lâu hơn)</p>
+        <p>- Thao tác can thiệp thời gian có thể gây ra chấm dứt hiệu lực</p>
         <i>Sau khi xem video bạn cần phải khởi động lại ứng dụng.</i>
     ]]></string>
 
@@ -1215,6 +1215,14 @@
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>- Chúng tớ không lấy thông tin cá nhân như tên, tuổi, mail, địa chỉ, số ĐT, IP hoặc MAC.</p>
         - Chúng tớ không thu thập dữ liệu sức khoẻ cá nhân, danh bạ và tin nhắn.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Trạng thái</string>

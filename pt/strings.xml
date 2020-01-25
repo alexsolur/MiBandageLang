@@ -1139,9 +1139,9 @@
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Termos e condições das recompensas</string>
     <string name="rewarded_policy"><![CDATA[
-        <p>- Início da validade: hora atual
-        <br>- Fim da validade: Início da validade + %1$,d dias (depende dos anúncios; pode ser mais)
-        <br>- Manipular o tempo pode causar o término da validade</p>
+        <p>- Início da validade: hora atual</p>
+        <p>- Fim da validade: Início da validade + %1$,d dias (depende dos anúncios; pode ser mais)</p>
+        <p>- Manipular o tempo pode causar o término da validade</p>
         <i>Depois de reproduzir o vídeo você precisa de reiniciar a aplicação.</i>
     ]]></string>
 
@@ -1212,6 +1212,14 @@
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>- Nós não coletamos informações pessoais que o possam identificar. Em outras palavras, nós não coletamos informação sobre o seu nome, morada, número do telemóvel, endereço de email, endreço IP ou endereço MAC.</p>
         - Nós não coletamos informação da sua saúde pessoal, contactos e texto das notificações do seu dispositivo.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Estado</string>

@@ -1141,9 +1141,9 @@
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Ödüllerin şartları ve koşulları</string>
     <string name="rewarded_policy"><![CDATA[
-        <p>- geçerlilik başlangıcı: şu an
-        <br>- geçerlilik bitişi: başlangıçtan itibaren en az %1$,d gün (Reklama bağlı olarak daha fazla olabilir)
-        <br>- Zaman karmaşası geçerliliğin sona ermesine neden olabilir</p>
+        <p>- geçerlilik başlangıcı: şu an</p>
+        <p>- geçerlilik bitişi: başlangıçtan itibaren en az %1$,d gün (Reklama bağlı olarak daha fazla olabilir)</p>
+        <p>- Zaman karmaşası geçerliliğin sona ermesine neden olabilir</p>
         <i>Reklamın tamamını seyrettikten sonra uygulamayı yeniden başlatmalısınız.</i>
     ]]></string>
 
@@ -1214,6 +1214,14 @@
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>- Sizinle ilgili kişisel olarak tanımlanabilir bilgiler toplamıyoruz. Diğer bir deyişle, adınız, adresiniz, telefon numaranız, e-posta adresiniz, IP adresiniz veya MAC adresiniz gibi bilgileri toplamıyoruz.</p>
         - Kişisel sağlık verilerini, kişileri ve telefon bildirim metnini toplamıyoruz.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Durum</string>

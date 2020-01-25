@@ -1137,9 +1137,9 @@
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">奖励模式的条款和条件</string>
     <string name="rewarded_policy"><![CDATA[
-        <p>- 有效期开始: 当前时间
-        <br>- 有效期结束: 有效期开始 + 至少 %1$,d 天 (取决于广告多少)
-        <br>- 修改时间可能会导致有效期丢失</p>
+        <p>- 有效期开始: 当前时间</p>
+        <p>- 有效期结束: 有效期开始 + 至少 %1$,d 天 (取决于广告多少)</p>
+        <p>- 修改时间可能会导致有效期丢失</p>
         <i>播放视频后你需要重启应用.</i>
     ]]></string>
 
@@ -1210,6 +1210,14 @@
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>- 我们不会收集你的个人信息.换句话说,我们不会收集你的名字,住址,手机号,邮箱地址,IP 地址和 MAC 地址.</p>
         - 我们不会收集你的个人健康数据,短信和手机通知内容.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">状态</string>

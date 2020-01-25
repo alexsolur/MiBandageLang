@@ -1140,9 +1140,9 @@
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">보상 모드 이용 약관</string>
     <string name="rewarded_policy"><![CDATA[
-        <p>- 유효성의 시작: 현재 시간 (start of validity: current time)
-        <br>- 유효성의 종료: 유효성의 시작 + 최소 %1$,d일 (광고에 따라 더 많을 수 있습니다) (end of validity: start of validity + at least %1$,d days (depending on ad it can be more))
-        <br>- 시간 조작은 유효성의 강제 종료를 야기할 수 있습니다 (time manipulation can cause termination of validity)</p>
+        <p>- 유효성의 시작: 현재 시간 (start of validity: current time)</p>
+        <p>- 유효성의 종료: 유효성의 시작 + 최소 %1$,d일 (광고에 따라 더 많을 수 있습니다) (end of validity: start of validity + at least %1$,d days (depending on ad it can be more))</p>
+        <p>- 시간 조작은 유효성의 강제 종료를 야기할 수 있습니다 (time manipulation can cause termination of validity)</p>
         <i>영상 재생 후에는 앱을 다시 시작해야 합니다.</i>
     ]]></string>
 
@@ -1212,6 +1212,14 @@
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>- We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
         - We do not collect personal health data, contacts and phone notification text.
+    ]]></string>
+
+    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links"><![CDATA[
+        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">상태</string>
