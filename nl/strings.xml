@@ -14,6 +14,7 @@
     <string name="drawer_nav_reminder">Herinnering evenement</string>
     <string name="drawer_nav_weather">Weer</string>
     <string name="drawer_nav_watch_face">Klokscherm</string>
+    <string name="drawer_nav_firmware">Firmware</string>
     <string name="drawer_nav_alarm">Ontkoppeling</string>
     <string name="drawer_nav_disconnected_agent">Beveiliging</string>
     <string name="drawer_nav_theme">Thema</string>
@@ -343,6 +344,8 @@
     <string name="message_no_data">Geen gegevens beschikbaar</string>
 
     <string name="message_new_message">Nieuw bericht ontvangen, bekijk het op de telefoon.</string>
+
+    <string name="message_invalid_file">Invalid file</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Welkom!</string>
@@ -1048,6 +1051,46 @@
 
         <br><p>In de %1$s verandert de klokthema afbeelding niet.</p>
         ]]>
+    </string>
+
+    <!-- Firmware -->
+    <string name="firmware_tab_firmware">Firmware</string>
+    <string name="firmware_tab_font">Lettertype</string>
+    <string name="firmware_tab_resource">Middelen</string>
+
+    <string name="firmware_update_firmware_title">Update firmware</string>
+    <string name="firmware_update_font_title">Update font</string>
+    <string name="firmware_update_resource_title">Update resource</string>
+
+    <string name="firmware_update_prepare">Preparing for the update…</string>
+    <string name="firmware_update_progress">Updating %1$,d%%</string>
+
+    <string name="firmware_update_firmware_empty_title"><![CDATA[Firmware not found
+        <br><i>(%1$s)</i>
+    ]]></string>
+    <string name="firmware_update_font_empty_title"><![CDATA[Font not found
+        <br><i>(%1$s)</i>
+    ]]></string>
+    <string name="firmware_update_resource_empty_title"><![CDATA[Resource not found
+        <br><i>(%1$s)</i>
+    ]]></string>
+
+    <string name="firmware_type_firmware">Firmware</string>
+    <string name="firmware_type_font">Lettertype</string>
+    <string name="firmware_type_font_latin">Lettertype latin</string>
+    <string name="firmware_type_gps">GPS Firmware</string>
+    <string name="firmware_type_gps_almanac">GPS Almanac</string>
+    <string name="firmware_type_gps_cep">GPS Foutcorrectie</string>
+    <string name="firmware_type_resource">Middelen</string>
+    <string name="firmware_type_watchface">Klokscherm</string>
+    <string name="firmware_type_invalid">Onbekend apparaat</string>
+
+    <string name="message_firmware_file_error">Invalid firmware file</string>
+
+    <string name="firmware_warning"><![CDATA[Warning!
+    <br><br>
+    <p>Only at your own risk! The firmware update can damage your device.</p>
+    Use only files from a trusted source.]]>
     </string>
 
     <!-- Agent -->

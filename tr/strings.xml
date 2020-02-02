@@ -14,6 +14,7 @@
     <string name="drawer_nav_reminder">Etkinlik hatırlatıcı</string>
     <string name="drawer_nav_weather">Hava</string>
     <string name="drawer_nav_watch_face">Yüz izle</string>
+    <string name="drawer_nav_firmware">Firmware</string>
     <string name="drawer_nav_alarm">Kayıp arama</string>
     <string name="drawer_nav_disconnected_agent">Telefon izleyici</string>
     <string name="drawer_nav_theme">Tema</string>
@@ -343,6 +344,8 @@
     <string name="message_no_data">Veri yok</string>
 
     <string name="message_new_message">Yeni bir mesaj alındı, telefondan bakın.</string>
+
+    <string name="message_invalid_file">Invalid file</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Hoşgeldiniz!</string>
@@ -1049,6 +1052,46 @@
 
         <br><p>%1$s uygulamasında saat teması resmi değişmedi.</p>
         ]]>
+    </string>
+
+    <!-- Firmware -->
+    <string name="firmware_tab_firmware">Firmware</string>
+    <string name="firmware_tab_font">Font</string>
+    <string name="firmware_tab_resource">Resource</string>
+
+    <string name="firmware_update_firmware_title">Update firmware</string>
+    <string name="firmware_update_font_title">Update font</string>
+    <string name="firmware_update_resource_title">Update resource</string>
+
+    <string name="firmware_update_prepare">Preparing for the update…</string>
+    <string name="firmware_update_progress">Updating %1$,d%%</string>
+
+    <string name="firmware_update_firmware_empty_title"><![CDATA[Firmware not found
+        <br><i>(%1$s)</i>
+    ]]></string>
+    <string name="firmware_update_font_empty_title"><![CDATA[Font not found
+        <br><i>(%1$s)</i>
+    ]]></string>
+    <string name="firmware_update_resource_empty_title"><![CDATA[Resource not found
+        <br><i>(%1$s)</i>
+    ]]></string>
+
+    <string name="firmware_type_firmware">Firmware</string>
+    <string name="firmware_type_font">Font</string>
+    <string name="firmware_type_font_latin">Font latin</string>
+    <string name="firmware_type_gps">GPS Firmware</string>
+    <string name="firmware_type_gps_almanac">GPS Almanac</string>
+    <string name="firmware_type_gps_cep">GPS Error Correction</string>
+    <string name="firmware_type_resource">Resource</string>
+    <string name="firmware_type_watchface">Watch face</string>
+    <string name="firmware_type_invalid">Invalid</string>
+
+    <string name="message_firmware_file_error">Invalid firmware file</string>
+
+    <string name="firmware_warning"><![CDATA[Warning!
+    <br><br>
+    <p>Only at your own risk! The firmware update can damage your device.</p>
+    Use only files from a trusted source.]]>
     </string>
 
     <!-- Agent -->

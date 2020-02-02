@@ -14,6 +14,7 @@
     <string name="drawer_nav_reminder">事件提醒</string>
     <string name="drawer_nav_weather">天气</string>
     <string name="drawer_nav_watch_face">表盘</string>
+    <string name="drawer_nav_firmware">固件</string>
     <string name="drawer_nav_alarm">丢失</string>
     <string name="drawer_nav_disconnected_agent">代理</string>
     <string name="drawer_nav_theme">主题</string>
@@ -340,6 +341,8 @@
     <string name="message_no_data">没有可用的数据</string>
 
     <string name="message_new_message">收到一条新信息，在手机上查看.</string>
+
+    <string name="message_invalid_file">Invalid file</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">欢迎!</string>
@@ -1045,6 +1048,46 @@
 
         <br><p>在 %1$s 中表盘的图片不会改变.</p>
         ]]>
+    </string>
+
+    <!-- Firmware -->
+    <string name="firmware_tab_firmware">固件</string>
+    <string name="firmware_tab_font">字体</string>
+    <string name="firmware_tab_resource">资源</string>
+
+    <string name="firmware_update_firmware_title">Update firmware</string>
+    <string name="firmware_update_font_title">Update font</string>
+    <string name="firmware_update_resource_title">Update resource</string>
+
+    <string name="firmware_update_prepare">Preparing for the update…</string>
+    <string name="firmware_update_progress">Updating %1$,d%%</string>
+
+    <string name="firmware_update_firmware_empty_title"><![CDATA[Firmware not found
+        <br><i>(%1$s)</i>
+    ]]></string>
+    <string name="firmware_update_font_empty_title"><![CDATA[Font not found
+        <br><i>(%1$s)</i>
+    ]]></string>
+    <string name="firmware_update_resource_empty_title"><![CDATA[Resource not found
+        <br><i>(%1$s)</i>
+    ]]></string>
+
+    <string name="firmware_type_firmware">固件</string>
+    <string name="firmware_type_font">字体</string>
+    <string name="firmware_type_font_latin">字体 latin</string>
+    <string name="firmware_type_gps">GPS 固件</string>
+    <string name="firmware_type_gps_almanac">GPS Almanac</string>
+    <string name="firmware_type_gps_cep">GPS 误差修正</string>
+    <string name="firmware_type_resource">资源</string>
+    <string name="firmware_type_watchface">表盘</string>
+    <string name="firmware_type_invalid">无效数据</string>
+
+    <string name="message_firmware_file_error">Invalid firmware file</string>
+
+    <string name="firmware_warning"><![CDATA[Warning!
+    <br><br>
+    <p>Only at your own risk! The firmware update can damage your device.</p>
+    Use only files from a trusted source.]]>
     </string>
 
     <!-- Agent -->

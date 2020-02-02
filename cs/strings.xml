@@ -14,6 +14,7 @@
     <string name="drawer_nav_reminder">Připomenout událost</string>
     <string name="drawer_nav_weather">Počasí</string>
     <string name="drawer_nav_watch_face">Styl ciferníku</string>
+    <string name="drawer_nav_firmware">Firmware</string>
     <string name="drawer_nav_alarm">Najdi náramek</string>
     <string name="drawer_nav_disconnected_agent">Agent</string>
     <string name="drawer_nav_theme">Styly</string>
@@ -343,6 +344,8 @@
     <string name="message_no_data">Žádné údaje nejsou k dispozici</string>
 
     <string name="message_new_message">Přišla nová zpráva, zobrazte ji na telefonu.</string>
+
+    <string name="message_invalid_file">Invalid file</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Vítejte!</string>
@@ -1049,6 +1052,46 @@
 
         <br><p>V aplikaci %1$s se styly ciferníku nezmění.</p>
         ]]>
+    </string>
+
+    <!-- Firmware -->
+    <string name="firmware_tab_firmware">Firmvér</string>
+    <string name="firmware_tab_font">Písmo</string>
+    <string name="firmware_tab_resource">Zdroje</string>
+
+    <string name="firmware_update_firmware_title">Update firmware</string>
+    <string name="firmware_update_font_title">Update font</string>
+    <string name="firmware_update_resource_title">Update resource</string>
+
+    <string name="firmware_update_prepare">Preparing for the update…</string>
+    <string name="firmware_update_progress">Updating %1$,d%%</string>
+
+    <string name="firmware_update_firmware_empty_title"><![CDATA[Firmware not found
+        <br><i>(%1$s)</i>
+    ]]></string>
+    <string name="firmware_update_font_empty_title"><![CDATA[Font not found
+        <br><i>(%1$s)</i>
+    ]]></string>
+    <string name="firmware_update_resource_empty_title"><![CDATA[Resource not found
+        <br><i>(%1$s)</i>
+    ]]></string>
+
+    <string name="firmware_type_firmware">Firmvér</string>
+    <string name="firmware_type_font">Písmo</string>
+    <string name="firmware_type_font_latin">Font latin</string>
+    <string name="firmware_type_gps">GPS Firmvér</string>
+    <string name="firmware_type_gps_almanac">Almanach GPS</string>
+    <string name="firmware_type_gps_cep">Korekce chyb GPS</string>
+    <string name="firmware_type_resource">Zdroje</string>
+    <string name="firmware_type_watchface">Styl ciferníku</string>
+    <string name="firmware_type_invalid">Neplatná data</string>
+
+    <string name="message_firmware_file_error">Invalid firmware file</string>
+
+    <string name="firmware_warning"><![CDATA[Warning!
+    <br><br>
+    <p>Only at your own risk! The firmware update can damage your device.</p>
+    Use only files from a trusted source.]]>
     </string>
 
     <!-- Agent -->
