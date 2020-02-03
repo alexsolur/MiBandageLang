@@ -14,7 +14,7 @@
     <string name="drawer_nav_reminder">Напоминания</string>
     <string name="drawer_nav_weather">Погода</string>
     <string name="drawer_nav_watch_face">Циферблат</string>
-    <string name="drawer_nav_firmware">Firmware</string>
+    <string name="drawer_nav_firmware">Прошивка</string>
     <string name="drawer_nav_alarm">Отсоединён</string>
     <string name="drawer_nav_disconnected_agent">Лог действий</string>
     <string name="drawer_nav_theme">Настройки темы</string>
@@ -345,7 +345,7 @@
 
     <string name="message_new_message">Получено новое сообщение, просмотрите на телефоне.</string>
 
-    <string name="message_invalid_file">Invalid file</string>
+    <string name="message_invalid_file">Неверный файл</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Добро пожаловать!</string>
@@ -1054,44 +1054,44 @@
     </string>
 
     <!-- Firmware -->
-    <string name="firmware_tab_firmware">Firmware</string>
-    <string name="firmware_tab_font">Font</string>
-    <string name="firmware_tab_resource">Resource</string>
+    <string name="firmware_tab_firmware">Прошивка</string>
+    <string name="firmware_tab_font">Шрифт</string>
+    <string name="firmware_tab_resource">Ресурсы</string>
 
 
-    <string name="firmware_update_firmware_title">Update firmware</string>
-    <string name="firmware_update_font_title">Update font</string>
-    <string name="firmware_update_resource_title">Update resource</string>
+    <string name="firmware_update_firmware_title">Обновить прошивку</string>
+    <string name="firmware_update_font_title">Обновить шрифт</string>
+    <string name="firmware_update_resource_title">Обновить ресурсы</string>
 
-    <string name="firmware_update_prepare">Preparing for the update…</string>
-    <string name="firmware_update_progress">Updating %1$,d%%</string>
+    <string name="firmware_update_prepare">Подготовка к обновлению…</string>
+    <string name="firmware_update_progress">Обновление %1$,d%%</string>
 
-    <string name="firmware_update_firmware_empty_title"><![CDATA[Firmware not found
+    <string name="firmware_update_firmware_empty_title"><![CDATA[Прошивка не найдена
         <br><i>(%1$s)</i>
     ]]></string>
-    <string name="firmware_update_font_empty_title"><![CDATA[Font not found
+    <string name="firmware_update_font_empty_title"><![CDATA[Шрифт не найден
         <br><i>(%1$s)</i>
     ]]></string>
-    <string name="firmware_update_resource_empty_title"><![CDATA[Resource not found
+    <string name="firmware_update_resource_empty_title"><![CDATA[Ресурсы не найдены
         <br><i>(%1$s)</i>
     ]]></string>
 
-    <string name="firmware_type_firmware">Firmware</string>
-    <string name="firmware_type_font">Font</string>
-    <string name="firmware_type_font_latin">Font latin</string>
-    <string name="firmware_type_gps">GPS Firmware</string>
-    <string name="firmware_type_gps_almanac">GPS Almanac</string>
-    <string name="firmware_type_gps_cep">GPS Error Correction</string>
-    <string name="firmware_type_resource">Resource</string>
-    <string name="firmware_type_watchface">Watch face</string>
-    <string name="firmware_type_invalid">Invalid</string>
+    <string name="firmware_type_firmware">Прошивка</string>
+    <string name="firmware_type_font">Шрифт</string>
+    <string name="firmware_type_font_latin">Шрифт латиницы</string>
+    <string name="firmware_type_gps">Прошивка GPS</string>
+    <string name="firmware_type_gps_almanac">Альманах GPS</string>
+    <string name="firmware_type_gps_cep">Ошибка подключения GPS</string>
+    <string name="firmware_type_resource">Ресурс</string>
+    <string name="firmware_type_watchface">Циферблат</string>
+    <string name="firmware_type_invalid">Неверный</string>
 
-    <string name="message_firmware_file_error">Invalid firmware file</string>
+    <string name="message_firmware_file_error">Неверный файл прошивки</string>
 
-    <string name="firmware_warning"><![CDATA[Warning!
+    <string name="firmware_warning"><![CDATA[Внимание!
     <br><br>
-    <p>Only at your own risk! The firmware update can damage your device.</p>
-    Use only files from a trusted source.]]>
+    <p>Только на собственный риск! Обновление прошивки может повредить ваше устройство.</p>
+    Устанавливайте файлы только из проверенных источников.]]>
     </string>
 
     <!-- Agent -->
