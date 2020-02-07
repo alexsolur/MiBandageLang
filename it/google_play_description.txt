@@ -1,92 +1,87 @@
-Dispositivi supportati:<b>
-- Xiaomi Mi Band 3
-- Xiaomi Mi Band 2
-- Xiaomi Mi Band HRX
-- Amazfit Bip (Pace Lite Youth)
-- Amazfit Band 2 (A1713)
-- Amazfit Cor (MiDong)
-- Amazfit Arc
-</b>
+<b>Dispositivi supportati:</b>
++ Mi Band 4, Mi Band 3, Mi Band 2, Mi Band HRX
++ Amazfit GTS, Amazfit GTR, Amazfit Verge Lite, Amazfit Bip, Amazfit Bip Lite, Amazfit Band 2, Amazfit Cor (MiDong), Amazfit Arc
+
++ Questa app funziona sia in collaborazione con le app Mi Fit / Amazfit che in modalità standalone (ma non abbiamo alcuna affiliazione con Xiaomi / Huami).
 
 <b>Se hai problemi di connessione:</b>
-- Schermata app recenti: blocca Mi Bandage (tira già l'app e clicca sull'icona del lucchetto).
-- Impostazioni batteria/ottimizza batteria: imposta Mi Bandage su non ottimizzare
+- Schermata app recenti: blocca Mi Bandage (pressione prolungata sull'icona dell'app e premi l'icona del lucchetto).
+- Impostazioni batteria/ottimizza batteria: imposta Mi Bandage (e Mi Fit / Amazfit) come "non ottimizzare" 
 - Attiva impostazioni/barra notifiche
 
 <b>Se il problema persiste:</b>
 - Riavvia lo smartphone
 - Scrivimi una email
 
-<b>Funzioni:</b>
+<b>Funzioni principali:</b>
+- Cooperazione con Mi Fit o modalità completamente indipendente da Mi Fit (senza caricamento watchfaces e percorsi tracciati con GPS)
 - Mostra stato batteria e durata stimata
-- Chiamate ricevute classiche e voip con visualizzazione del chiamante
-- Chiamate perse con visualizzazione chiamante su Mi Band 2 e Amazfit
-- Rifiuta, rispondi, e silenzia una chiamata normale o voip
-- Conversione automatica dei caratteri su Mi Band 2 e Amazfit
-- Visualizza i testi delle notifiche sulla tua smartband
+- Chiamate ricevute (normali o voip) con visualizzazione del nome del chiamante
+- Chiamate perse con visualizzazione chiamante su Band/Amazfit
+- Rifiuta, rispondi e silenzia una chiamata (normale o voip)
+- Conversione automatica dei caratteri
+- Visualizza il testo delle notifiche sulla Band
 - Visualizza le emoticon più comuni
 
-<b>Funzioni connettività Mi Band e Amazfit:</b>
+<b>Funzioni connettività Mi Band / Amazfit:</b>
 - Cambia volume
-- La smartband vibra
+- Vibrazione Band
 - Lo schermo del dispositivo si accende
 - Segnala immediatamente quando ricevi una notifica
-- Quando collegato al dispositivo mostra notifiche perse
+- Mostra notifiche perse quando si ricollega al dispositivo
 - Ripeti notifica dopo un intervallo predefinito
 - Notifica solo a schermo spento
 - Le notifiche in corso sono attivate o disattivate
 
 <b>Funzioni alla disconnessione della smartband:</b>
 - Visualizza icona sulla smartband e vibra
-- Riproduci suoneria sul dispositivo, vibra e accendi lo schermo
 - Cambia volume suoneria
-- Monitor eventi sul dispositivo: Se qualcuno usa il tuo dispositivo quando non ci sei, lo saprai (accensione dello schermo, accensione, movimento): notifica sul dispositivo e l'icona di un occhio sulla smartband
+- Monitor eventi sul dispositivo: Se qualcuno usa il tuo dispositivo quando non ci sei (accensione dello schermo, accensione dispositivo, movimento) lo saprai: notifica sul dispositivo e icona di un occhio sulla Band
 
 <b>Monitoraggio notifiche:</b>
-- Configura un segnale per le notifiche delle app
+- Configura un segnale unico per ogni notifica delle app
 - Mostra il testo delle notifiche sulla smartband
-- Avviso di notifica per avere il tempo di guardare la smartband
 
 <b>Monitoraggio tocco:</b>
-- Risposta alle chiamate, tramite cassa smartphone (disattiva l'avvio del lettore musicale al collegamento delle cuffie altrimenti  si avvierà la musica) (non tutti i dispositivi sono supportati)
+- Risposta alle chiamate, tramite altoparlante del dispositivo (disattiva l'avvio del lettore musicale al collegamento delle cuffie altrimenti si avvierà la musica) (non tutti i dispositivi sono supportati)
 - Rifiuta, chiudi chiamate (non tutti i dispositivi sono supportati)
-- Attiva muto nelle chiamate
+- Chiamata
+- Attiva/disattiva "muto" nelle chiamate
 - Trova dispositivo
-- Ripeti notifiche
-- Controllo musica (riproduci, pausa, manda avanti/indietro, alza/abbassa volume)
+- Ripeti notifiche sulla Band
+- Controllo musica (riproduci, pausa, manda avanti/indietro, alza/abbassa volume, mostra informazioni sulla traccia)
 - Avvia timer/cronometro, mostra tempo trascorso/rimanente
 - Scatta una foto
 - Avvia app
 - Lancia task di Tasker
 
-<b>Amazfit Bip/Cor:</b>
-- Cambia watchface
+<b>Carica watchface su Band/Amazfit</b>
 
 <b>Monitoraggio passi:</b>
 - Grafico giornaliero/settimanale/mensile: mostra i valori misurati
-- Possono essere impostati più obbiettivi
+- Possono essere impostati più obiettivi
 
 <b>Monitoraggio sonno:</b>
 - Grafico giornaliero/settimanale/mensile: mostra valori misurati
 
 <b>Monitoraggio battiti:</b>
-- Puoi settare: segnale di avvio monitoraggio, mostra battiti, pulsazioni basse e alte, ora inizio, ora fine, intervallo ripetizione, valore valido più basso, valore valido più alto
-- Mostra battiti correnti
+- Puoi settare: segnale di avvio monitoraggio, mostra battiti, pulsazioni più basse e più alte, ora inizio e fine, intervallo ripetizione
 - Grafico giornaliero/settimanale/mensile: mostra valori misurati
 
 <b>Monitor tempo:</b>
-- Notifica quando suona la sveglia del dispositivo
+- Notifica quando suona la sveglia dello smartphone
 - Imposta sveglia
-- Timer: tipo di allarme, promemoria, visualizza tempo rimanente sulla Mi Band/Amazfit
-- Cronometro: tipo di allarme, promemoria, visualizza tempo trascorso, registra tempo su giro, visualizza tempo su giro su Mi Band/Amazfit
+- Timer: tipo di allarme, promemoria, visualizza tempo rimanente sul Band/Amazfit
+- Cronometro: tipo di allarme, promemoria, visualizza tempo trascorso, registra tempo su giro, visualizza tempo su giro su Band/Amazfit
 - Intervalli: timer per allenamenti a circuito
 
 <b>monitoraggio smarrimento:</b>
+- Notifica su Band/Amazfit: quando passa un determinato periodo di tempo, la Band vi avviserà.
 - Notifica su smartphone: quando passa un determinato periodo di tempo, lo smartphone manderà continuamente notifiche fino alla riconnessione col braccialetto. Questo renderà più semplice trovarlo.
 
 <b>Log eventi:</b> 
-- Visualizza eventi rilevati dal monitoraggio eventi dispositivo
+- Visualizza eventi rilevati dal monitoraggio eventi del dispositivo
 
 <b>Lingue</b>:
-Italiano (tradotto da Francesco Caronte)
-English
+Italiano (tradotto da Francesco Caronte e Antonio Renna)
+(Se vuoi tradurre in altre lingue, mandami una email o accedi a https://github.com/Alexsolur/MiBandageLang)
