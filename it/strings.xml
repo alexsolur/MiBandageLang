@@ -684,7 +684,7 @@
         <br><p>In modalità test non esegue la funzione della sequenza tocchi, anche se riconosciuta.</p>
         <p>La Band vibra solo se una sequenza tocchi è compatibile con la modalità corrente del dispositivo (ad esempio, la risposta o il rifiuto di una chiamata funzionano solo nel caso di chiamata in ingresso, ecc.).</p>
         <p>Quando riconosce la sequenza di tocchi, la Band vibra una volta.</p>
-        <p>Quando non riconosce nessuna sequenza di tocchi, la Band vibra due volte dopo la più lunga sequenza (solo se l'opzione <i>Segnala sequenza tocchi non riconosciuta</i> è abilitata).</p>
+        <p>Quando non riconosce nessuna sequenza di tocchi, la Band vibra due volte dopo la più lunga sequenza (solo se l\'opzione <i>Segnala sequenza tocchi non riconosciuta</i> è abilitata).</p>
     ]]></string>
 
     <string name="info_dialog_touch_mi_band_4"><![CDATA[
@@ -699,7 +699,7 @@
         <br><p>In modalità test non esegue la funzione della sequenza tocchi, anche se riconosciuta.</p>
         <p>La Band vibra solo se una sequenza tocchi è compatibile con la modalità corrente del dispositivo (ad esempio, la risposta o il rifiuto di una chiamata funzionano solo nel caso di chiamata in ingresso, ecc.).</p>
         <p>Quando riconosce la sequenza di tocchi, la Band vibra una volta.</p>
-        <p>Quando non riconosce nessuna sequenza di tocchi, la Band vibra due volte dopo la più lunga sequenza (solo se l'opzione <i>Segnala sequenza tocchi non riconosciuta</i> è abilitata).</p>
+        <p>Quando non riconosce nessuna sequenza di tocchi, la Band vibra due volte dopo la più lunga sequenza (solo se l\'opzione <i>Segnala sequenza tocchi non riconosciuta</i> è abilitata).</p>
     ]]></string>
 
     <!-- Step monitoring -->
@@ -936,7 +936,7 @@
         <img src="ic_alarm"> <b><u>Sveglia</u></b>
         <p>Non è richiesta una connessione Bluetooth per l\'allarme, l\'app usa la funzione allarme dell\'app Mi Fit per avvisarti.
         <br>L\'allarme verrà ripetuto più volte se la Band non rileva alcun movimento (perchè usa la funzione allarme di fabbrica).
-        <br>Arrotonda al Minuto, la Band non mostra i secondi nell'orario.</p>
+        <br>Arrotonda al Minuto, la Band non mostra i secondi nell\'orario.</p>
         <p>La funzione \"ripeti notifica\" richiede una connessione Bluetooth.</p>
     ]]></string>
 
@@ -1062,6 +1062,7 @@
 
     <string name="firmware_update_prepare">Preparazione al caricamento…</string>
     <string name="firmware_update_progress">Caricamento in corso %1$,d%%</string>
+    <string name="firmware_update_connecting">Connessione…</string>
 
     <string name="firmware_update_firmware_empty_title"><![CDATA[Firmware non trovato
         <br><i>(%1$s)</i>
@@ -1133,7 +1134,7 @@
 
     <string name="theme_notification_title">Mostra stato app come notifica persistente</string>
     <string name="theme_notification_summary">Android tende a chiudere i servizi aperti in secondo piano solo quando c\'è poca memoria. Se vedi che non ti arrivano più le %1$s notifiche attiva questa funzione per evitare che venga chiusa l\'app.</string>
-    <string name="theme_notification_summary_foreground_service">Per poter visualizzare l'icona nella barra delle notifiche, è richiesto Android 8 o superiore. Scorri a destra o a sinistra sulla barra delle notifiche per nascondere l'icona. Se la notifica è nascosta, per avere prestazioni ottimali disabilitare questa opzione.</string>
+    <string name="theme_notification_summary_foreground_service">Per poter visualizzare l\'icona nella barra delle notifiche, è richiesto Android 8 o superiore. Scorri a destra o a sinistra sulla barra delle notifiche per nascondere l\'icona. Se la notifica è nascosta, per avere prestazioni ottimali disabilitare questa opzione.</string>
     <string name="theme_notification_color_title">Colore icona</string>
     <string name="theme_notification_text_color_title">Colore testo</string>
 
