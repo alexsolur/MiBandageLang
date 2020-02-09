@@ -12,7 +12,7 @@
 
     <string-array name="pref_distance_unit">
         <item>Metrico (metro)</item>
-        <item>Imperiali (miglio)</item>
+        <item>Imperiale (miglia)</item>
     </string-array>
 
     <string-array name="pref_lift_wrist_sensitivity">
@@ -34,15 +34,15 @@
         <item>Batteria</item>
         <item>Stato</item>
         <item>Meteo</item>
+        <item>Esercizi</item>
         <item>Attività</item>
-        <item>Activities</item>
         <item>Notifiche</item>
         <item>Altro</item>
         <item>NFC</item>
         <item>Sveglia</item>
         <item>Orologio</item>
-        <item>Event reminder</item>
-        <item>Settings</item>
+        <item>Appuntamenti</item>
+        <item>Opzioni</item>
         <item>Bussola</item>
         <item>Musica</item>
         <item>Alipay</item>
@@ -51,10 +51,10 @@
 
     <string-array name="pref_connected_have_notif_counter">
         <item>Ogni notifica</item>
-        <item>Una volta ogni icona Band</item>
-        <item>1 \'app\' icon</item>
-        <item>2 \'app\' icon</item>
-        <item>3 \'app\' icon</item>
+        <item>Una notifica per ogni icona \'app\'</item>
+        <item>Mostra icona \'app\' 1 volta</item>
+        <item>Mostra icona \'app\' 2 volte</item>
+        <item>Mostra icona \'app\' 3 volte</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_interval">
@@ -245,12 +245,12 @@
 
     <string-array name="pref_weather_unit">
         <item>Metrico (Celsius ℃)</item>
-        <item>Imperiali (Fahrenheit ℉)</item>
+        <item>Imperiale (Fahrenheit ℉)</item>
     </string-array>
 
     <string-array name="pref_weather_current_display">
         <item>Corrente</item>
-        <item>Corrente, precipitazione, coperto dalle nuvole</item>
+        <item>Corrente, precipitazione, nuvolosità</item>
         <item>Medio</item>
         <item>Am, Pm</item>
     </string-array>
