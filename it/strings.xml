@@ -73,7 +73,7 @@
     <string name="mi_band_setting_menu_call">Chiamata</string>
     <string name="mi_band_setting_menu_menu">Menu</string>
 
-    <string name="mi_band_setting_auth_mi_fit">Cooperazione con %1$s</string> <!-- Mi Fit, Amazfit-->
+    <string name="mi_band_setting_auth_mi_fit">Cooperazione con %1$s</string> <!-- %1$s = Mi Fit, Amazfit-->
     <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage richiede l\'installazione dell\'app ufficiale Mi Fit/Amazfit sullo stesso dispositivo. Per prima cosa devi collegare %1$s nell\'app Mi Fit/Amazfit, dopo puoi usare Mi Bandage. Se vuoi utilizzare Mi Fit/Amazfit, scegli questo.</string>
     <string name="mi_band_setting_auth_standalone">Standalone</string>
     <string name="mi_band_setting_auth_standalone_hint">L\'app Mi Fit/Amazfit non è richiesta per far funzionare Mi Bandage. Dopo l\'accoppiamento, disinstallare l\'app Mi Fit/Amazfit, oppure disaccoppiarla dal dispositivo. Nel caso si desideri ripristinare la cooperazione con Mi Fit/Amazfit, sarà necessario riaccoppiare %1$s nell\'app Mi Fit/Amazfit.</string>
@@ -133,6 +133,7 @@
 
     <string name="mi_band_setting_menu_visible">Voci di menu visibili</string>
     <string name="mi_band_setting_menu_hidden">Voci di menu nascoste</string>
+    <string name="mi_band_setting_shortcut">Shortcut items</string>
 
     <string name="pref_text_conversion_description_title">Descrizione</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -955,6 +956,7 @@
     <string name="reminder_calendar_auto_sync">Sincronizzazione automatica</string>
     <string name="reminder_calendar_counter">Numero di eventi da sincronizzare</string>
     <string name="reminder_calendar_all_day_time">Orario dell\'evento \"tutto il giorno\"</string>
+    <string name="reminder_calendar_notif_before_time">Remind me earlier than the event time</string>
 
     <string name="message_reminder_enabled">Promemoria attivato</string>
     <string name="message_reminder_disabled">Promemoria disattivato</string>
@@ -1027,12 +1029,14 @@
 
     <string name="message_watch_face_upload_error">Inizializzazione richiesta</string>
     <string name="message_watch_face_file_error">File di watchface non valido</string>
+    <string name="message_watch_face_file_error_small">File di watchface non valido. File size is too small, use another web browser to download.</string>
+    <string name="message_watch_face_file_error_large">File di watchface non valido. File size is too large, use another web browser to download.</string>
 
     <string name="info_dialog_watch_face_download"><![CDATA[
         <img src="ic_file_download_outline"> <b><u>Scaricamento</u></b>
         <p>Scarica watchfaces dai siti web.</p>
 
-        <img src="ic_action_download"> <b><u>Sposta i file</u></b>
+        <img src="ic_file_replace_outline"> <b><u>Sposta i file</u></b>
         <p>Se necessario, sposta le watchface scaricate dalla cartella Download alla cartella MiBandage.</p>
         ]]>
     </string>
@@ -1050,6 +1054,14 @@
         <p>Ripetere questi passaggi.</p>
 
         <br><p>Nell\'app %1$s l\'immagine della watchface non cambierà.</p>
+        ]]>
+    </string>
+
+    <string name="info_dialog_watch_face_upload"><![CDATA[
+        <img src="ic_upload"> <b><u>Upload</u></b>
+        <p>Upload the selected watch face.</p>
+        <br><img src="ic_warning"> <b><u>Invalid watch face file</u></b>
+        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
         ]]>
     </string>
 
@@ -1087,11 +1099,21 @@
     <string name="firmware_type_invalid">Data non valida</string>
 
     <string name="message_firmware_file_error">File del firmware non valido</string>
+    <string name="message_firmware_file_error_small">File del firmware non valido. File size is too small, use another web browser to download.</string>
+    <string name="message_firmware_file_error_large">File del firmware non valido. File size is too large, use another web browser to download.</string>
 
     <string name="firmware_warning"><![CDATA[Warning!
     <br><br>
     <p>Solo a vostro rischio! Caricare un firmware non corretto o in maniera non corretta puà danneggiare il vostro smartwatch.</p>
     Utilizzare file provenienti solo da fonte certificata.]]>
+    </string>
+
+    <string name="info_dialog_firmware"><![CDATA[
+        <img src="ic_upload"> <b><u>Upload</u></b>
+        <p>Upload the selected firmware.</p>
+        <br><img src="ic_warning"> <b><u>File del firmware non valido</u></b>
+        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        ]]>
     </string>
 
     <!-- Agent -->

@@ -133,6 +133,7 @@
 
     <string name="mi_band_setting_menu_visible">Itens do menu visíveis</string>
     <string name="mi_band_setting_menu_hidden">Itens do menu ocultos</string>
+    <string name="mi_band_setting_shortcut">Shortcut items</string>
 
     <string name="pref_text_conversion_description_title">Descrição</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -955,6 +956,7 @@
     <string name="reminder_calendar_auto_sync">Sincronização automática</string>
     <string name="reminder_calendar_counter">O número de eventos a sincronizar</string>
     <string name="reminder_calendar_all_day_time">O tempo dos eventos 24 horas</string>
+    <string name="reminder_calendar_notif_before_time">Remind me earlier than the event time</string>
 
     <string name="message_reminder_enabled">Lembrete ativado</string>
     <string name="message_reminder_disabled">Lembrete desativado</string>
@@ -1027,13 +1029,23 @@
 
     <string name="message_watch_face_upload_error">É necessário fazer a Inicialização</string>
     <string name="message_watch_face_file_error">O ficheiro da watch face não é válido</string>
+    <string name="message_watch_face_file_error_small">O ficheiro da watch face não é válido. File size is too small, use another web browser to download.</string>
+    <string name="message_watch_face_file_error_large">O ficheiro da watch face não é válido. File size is too large, use another web browser to download.</string>
 
     <string name="info_dialog_watch_face_download"><![CDATA[
         <img src="ic_file_download_outline"> <b><u>Download</u></b>
         <p>Faça o download das Watch Faces a partir dos websites.</p>
 
-        <img src="ic_action_download"> <b><u>Mover os ficheiros</u></b>
+        <img src="ic_file_replace_outline"> <b><u>Mover os ficheiros</u></b>
         <p>Se necessário, mova as Watch Faces da pasta onde as colocou para a pasta da Mi Bandage.</p>
+        ]]>
+    </string>
+
+    <string name="info_dialog_watch_face_upload"><![CDATA[
+        <img src="ic_upload"> <b><u>Upload</u></b>
+        <p>Upload the selected watch face.</p>
+        <br><img src="ic_warning"> <b><u>O ficheiro da watch face não é válido</u></b>
+        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
         ]]>
     </string>
 
@@ -1087,11 +1099,21 @@
     <string name="firmware_type_invalid">Inválido</string>
 
     <string name="message_firmware_file_error">O ficheiro do firmware é inválido</string>
+    <string name="message_firmware_file_error_small">O ficheiro do firmware é inválido. File size is too small, use another web browser to download.</string>
+    <string name="message_firmware_file_error_large">O ficheiro do firmware é inválido. File size is too large, use another web browser to download.</string>
 
-    <string name="firmware_warning"><![CDATA[Atenção!
+    <string name="firmware_warning"><![CDATA[Warning!
     <br><br>
     <p>Somente por sua conta e risco! A atualização de firmware pode danificar o seu dispositivo.</p>
     Use apenas ficheiros de fontes confiáveis.]]>
+    </string>
+
+    <string name="info_dialog_firmware"><![CDATA[
+        <img src="ic_upload"> <b><u>Upload</u></b>
+        <p>Upload the selected firmware.</p>
+        <br><img src="ic_warning"> <b><u>O ficheiro do firmware é inválido</u></b>
+        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        ]]>
     </string>
 
     <!-- Agent -->

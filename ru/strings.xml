@@ -133,6 +133,7 @@
 
     <string name="mi_band_setting_menu_visible">Отображаемые элементы меню</string>
     <string name="mi_band_setting_menu_hidden">Скрытые элементы меню</string>
+    <string name="mi_band_setting_shortcut">Shortcut items</string>
 
     <string name="pref_text_conversion_description_title">Описание</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -956,6 +957,7 @@
     <string name="reminder_calendar_auto_sync">Автоматическая</string>
     <string name="reminder_calendar_counter">Количество событий</string>
     <string name="reminder_calendar_all_day_time">Время событий на весь день</string>
+    <string name="reminder_calendar_notif_before_time">Remind me earlier than the event time</string>
 
     <string name="message_reminder_enabled">Напоминание включено</string>
     <string name="message_reminder_disabled">Напоминание отключено</string>
@@ -1028,12 +1030,14 @@
 
     <string name="message_watch_face_upload_error">Необходима подготовка к работе</string>
     <string name="message_watch_face_file_error">Некорректный файл циферблата</string>
+    <string name="message_watch_face_file_error_small">Некорректный файл циферблата. File size is too small, use another web browser to download.</string>
+    <string name="message_watch_face_file_error_large">Некорректный файл циферблата. File size is too large, use another web browser to download.</string>
 
     <string name="info_dialog_watch_face_download"><![CDATA[
         <img src="ic_file_download_outline"> <b><u>Загрузка</u></b>
         <p>Загрузите циферблат на устройство.</p>
 
-        <img src="ic_action_download"> <b><u>Поместите в нужную директорию</u></b>
+        <img src="ic_file_replace_outline"> <b><u>Поместите в нужную директорию</u></b>
         <p>Поместите циферблат в директорию MiBandage.</p>
         ]]>
     </string>
@@ -1051,6 +1055,14 @@
         <p>Продолжайте загружать желаемые циферблаты.</p>
 
         <br><p>В %1$s циферблат не изменится.</p>
+        ]]>
+    </string>
+
+    <string name="info_dialog_watch_face_upload"><![CDATA[
+        <img src="ic_upload"> <b><u>Установка</u></b>
+        <p>Upload the selected watch face.</p>
+        <br><img src="ic_warning"> <b><u>Некорректный файл циферблата</u></b>
+        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
         ]]>
     </string>
 
@@ -1089,11 +1101,21 @@
     <string name="firmware_type_invalid">Неверный</string>
 
     <string name="message_firmware_file_error">Неверный файл прошивки</string>
+    <string name="message_firmware_file_error_small">Неверный файл прошивки. File size is too small, use another web browser to download.</string>
+    <string name="message_firmware_file_error_large">Неверный файл прошивки. File size is too large, use another web browser to download.</string>
 
     <string name="firmware_warning"><![CDATA[Внимание!
     <br><br>
     <p>Только на собственный риск! Обновление прошивки может повредить ваше устройство.</p>
     Устанавливайте файлы только из проверенных источников.]]>
+    </string>
+
+    <string name="info_dialog_firmware"><![CDATA[
+        <img src="ic_upload"> <b><u>Upload</u></b>
+        <p>Upload the selected firmware.</p>
+        <br><img src="ic_warning"> <b><u>Неверный файл прошивки</u></b>
+        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        ]]>
     </string>
 
     <!-- Agent -->

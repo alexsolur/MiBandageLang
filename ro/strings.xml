@@ -133,6 +133,7 @@
 
     <string name="mi_band_setting_menu_visible">Elemente de meniu vizibile</string>
     <string name="mi_band_setting_menu_hidden">Elemente ascunse din meniu</string>
+    <string name="mi_band_setting_shortcut">Shortcut items</string>
 
     <string name="pref_text_conversion_description_title">Descriere</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -956,6 +957,7 @@
     <string name="reminder_calendar_auto_sync">Automatic synchronization</string>
     <string name="reminder_calendar_counter">The number of events to synchronize</string>
     <string name="reminder_calendar_all_day_time">The time of all day event</string>
+    <string name="reminder_calendar_notif_before_time">Remind me earlier than the set time</string>
 
     <string name="message_reminder_enabled">Reamintire activată</string>
     <string name="message_reminder_disabled">Reamintire dezactivată</string>
@@ -1028,12 +1030,14 @@
 
     <string name="message_watch_face_upload_error">Este necesară inițializarea</string>
     <string name="message_watch_face_file_error">Invalid watch face file</string>
+    <string name="message_watch_face_file_error_small">Invalid watch face file. File size is too small, use another web browser to download.</string>
+    <string name="message_watch_face_file_error_large">Invalid watch face file. File size is too large, use another web browser to download.</string>
 
     <string name="info_dialog_watch_face_download"><![CDATA[
         <img src="ic_file_download_outline"> <b><u>Descarcă</u></b>
         <p>Descarcă fețe de ceas de pe site-urile web.</p>
 
-        <img src="ic_action_download"> <b><u>Mută fișierele</u></b>
+        <img src="ic_file_replace_outline"> <b><u>Mută fișierele</u></b>
         <p>Încarcă fața de ceas selectată în Mi Fit. Acesta înlocuiește ultima față de ceas din fabrică.</p>
         ]]>
     </string>
@@ -1051,6 +1055,14 @@
         <p>Repetă psșii aceștia.</p>
 
         <br><p>În %1$s nu se va schimba imaginea feței de ceas.</p>
+        ]]>
+    </string>
+
+    <string name="info_dialog_watch_face_upload"><![CDATA[
+        <img src="ic_upload"> <b><u>Upload</u></b>
+        <p>Upload the selected watch face.</p>
+        <br><img src="ic_warning"> <b><u>Invalid watch face file</u></b>
+        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
         ]]>
     </string>
 
@@ -1088,11 +1100,21 @@
     <string name="firmware_type_invalid">Invalid</string>
 
     <string name="message_firmware_file_error">Invalid firmware file</string>
+    <string name="message_firmware_file_error_small">Invalid firmware file. File size is too small, use another web browser to download.</string>
+    <string name="message_firmware_file_error_large">Invalid firmware file. File size is too large, use another web browser to download.</string>
 
     <string name="firmware_warning"><![CDATA[Warning!
     <br><br>
     <p>Only at your own risk! The firmware update can damage your device.</p>
     Use only files from a trusted source.]]>
+    </string>
+
+    <string name="info_dialog_firmware"><![CDATA[
+        <img src="ic_upload"> <b><u>Upload</u></b>
+        <p>Upload the selected firmware.</p>
+        <br><img src="ic_warning"> <b><u>Invalid firmware file</u></b>
+        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        ]]>
     </string>
 
     <!-- Agent -->
