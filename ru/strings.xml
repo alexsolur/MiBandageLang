@@ -133,7 +133,7 @@
 
     <string name="mi_band_setting_menu_visible">Отображаемые элементы меню</string>
     <string name="mi_band_setting_menu_hidden">Скрытые элементы меню</string>
-    <string name="mi_band_setting_shortcut">Shortcut items</string>
+    <string name="mi_band_setting_shortcut">Быстрые элементы</string>
 
     <string name="pref_text_conversion_description_title">Описание</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -957,7 +957,7 @@
     <string name="reminder_calendar_auto_sync">Автоматическая</string>
     <string name="reminder_calendar_counter">Количество событий</string>
     <string name="reminder_calendar_all_day_time">Время событий на весь день</string>
-    <string name="reminder_calendar_notif_before_time">Remind me earlier than the event time</string>
+    <string name="reminder_calendar_notif_before_time">Предупредить заранее</string>
 
     <string name="message_reminder_enabled">Напоминание включено</string>
     <string name="message_reminder_disabled">Напоминание отключено</string>
@@ -1030,8 +1030,8 @@
 
     <string name="message_watch_face_upload_error">Необходима подготовка к работе</string>
     <string name="message_watch_face_file_error">Некорректный файл циферблата</string>
-    <string name="message_watch_face_file_error_small">Некорректный файл циферблата. File size is too small, use another web browser to download.</string>
-    <string name="message_watch_face_file_error_large">Некорректный файл циферблата. File size is too large, use another web browser to download.</string>
+    <string name="message_watch_face_file_error_small">Некорректный файл циферблата. Файл слишком маленький, используйте другой браузер для загрузки.</string>
+    <string name="message_watch_face_file_error_large">Некорректный файл циферблата. Файл слишком большой, используйте другой браузер для загрузки.</string>
 
     <string name="info_dialog_watch_face_download"><![CDATA[
         <img src="ic_file_download_outline"> <b><u>Загрузка</u></b>
@@ -1060,9 +1060,9 @@
 
     <string name="info_dialog_watch_face_upload"><![CDATA[
         <img src="ic_upload"> <b><u>Установка</u></b>
-        <p>Upload the selected watch face.</p>
+        <p>Загрузить выбранный циферблат.</p>
         <br><img src="ic_warning"> <b><u>Некорректный файл циферблата</u></b>
-        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        <p>Браузер по умолчанию не всегда корректно загружает файлы. Попробуйте использовать другой (Google Chrome, например).</p>
         ]]>
     </string>
 
@@ -1101,8 +1101,8 @@
     <string name="firmware_type_invalid">Неверный</string>
 
     <string name="message_firmware_file_error">Неверный файл прошивки</string>
-    <string name="message_firmware_file_error_small">Неверный файл прошивки. File size is too small, use another web browser to download.</string>
-    <string name="message_firmware_file_error_large">Неверный файл прошивки. File size is too large, use another web browser to download.</string>
+    <string name="message_firmware_file_error_small">Неверный файл прошивки. Файл слишком маленький, используйте другой браузер для загрузки.</string>
+    <string name="message_firmware_file_error_large">Неверный файл прошивки. Файл слишком большой, используйте другой браузер для загрузки.</string>
 
     <string name="firmware_warning"><![CDATA[Внимание!
     <br><br>
@@ -1111,10 +1111,10 @@
     </string>
 
     <string name="info_dialog_firmware"><![CDATA[
-        <img src="ic_upload"> <b><u>Upload</u></b>
-        <p>Upload the selected firmware.</p>
+        <img src="ic_upload"> <b><u>Загрузка</u></b>
+        <p>Загрузить выбранную прошивку.</p>
         <br><img src="ic_warning"> <b><u>Неверный файл прошивки</u></b>
-        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        <p>Браузер по умолчанию не всегда корректно загружает файлы. Попробуйте использовать другой (Google Chrome, например).</p>
         ]]>
     </string>
 
