@@ -48,7 +48,7 @@
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Batteriestand, letzte Ladezeit, geschätzte Restzeit</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI, last connection and disconnection time</string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI, letzte Verbindungs- und Trennungszeit</string>
     <string name="mi_band_touch">Touch monitoring</string>
     <string name="mi_band_alarm">Wecker</string>
     <string name="mi_band_bonded_device_name">Gekoppelter Name</string>
@@ -61,8 +61,8 @@
     <string name="mi_band_state_title">%1$s Einstellungen</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="mi_band_state_connected">Band ist verbunden</string>
     <string name="mi_band_state_disconnected">Band ist nicht verbunden</string>
-    <string name="mi_band_state_bonded">Paired device</string>
-    <string name="mi_band_state_not_bonded">Not paired device</string>
+    <string name="mi_band_state_bonded">Gerät verbunden</string>
+    <string name="mi_band_state_not_bonded">Gerät nicht verbunden</string>
 
     <!-- Mi Band setting -->
     <string name="mi_band_setting_title">%1$s Einstellungen</string>
@@ -112,7 +112,7 @@
     <string name="mi_band_setting_lift_wrist">Für Informationen Handgelenk anheben</string>
     <string name="mi_band_setting_lift_wrist_sensitivity">Reaktionsgeschwindigkeit</string>
     <string name="mi_band_setting_idle_alert">Inaktivitätswarnungen</string>
-    <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
+    <string name="mi_band_setting_idle_alert_time">Inaktivitätszeit</string>
     <string name="mi_band_setting_idle_alert_dnd">Bitte nicht stören</string>
     <string name="mi_band_setting_night_mode">Nachtmodus</string>
 
@@ -211,10 +211,10 @@
     <string name="pref_cat_disconnected_settings">Telefoneinstellungen</string>
     <string name="pref_disconnected_volume_title">Lautstärke ändern</string>
     <string name="pref_disconnected_volume_ring_title">Lautstärke des Klingeltons</string>
-    <string name="pref_disconnected_volume_adapter_title">When Bluetooth is turned off</string>
-    <string name="pref_disconnected_volume_mute_title">When the phone is muted</string>
-    <string name="pref_disconnected_volume_adapter_summary_on">Adjust the volume</string>
-    <string name="pref_disconnected_volume_adapter_summary_off">Do not adjust the volume</string>
+    <string name="pref_disconnected_volume_adapter_title">Wenn Bluetooth ausgeschaltet ist</string>
+    <string name="pref_disconnected_volume_mute_title">Wenn phone lautlos eingestellt ist</string>
+    <string name="pref_disconnected_volume_adapter_summary_on">Lautstärke einstellen</string>
+    <string name="pref_disconnected_volume_adapter_summary_off">Lautstärke nicht einstellen</string>
 
     <string name="pref_call">Anruf</string>
     <string name="pref_call_summary">Einstellungen zu dem Signal des %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
