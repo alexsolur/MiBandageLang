@@ -1071,21 +1071,21 @@
     <string name="firmware_tab_font">Czcionka</string>
     <string name="firmware_tab_resource">Zasoby</string>
 
-    <string name="firmware_update_firmware_title">Update firmware</string>
-    <string name="firmware_update_font_title">Update font</string>
-    <string name="firmware_update_resource_title">Update resource</string>
+    <string name="firmware_update_firmware_title">Aktualizacja firmware</string>
+    <string name="firmware_update_font_title">Aktualizacja czcionki</string>
+    <string name="firmware_update_resource_title">Aktualizacja zasobów</string>
 
-    <string name="firmware_update_prepare">Preparing for the update…</string>
-    <string name="firmware_update_progress">Updating %1$,d%%</string>
+    <string name="firmware_update_prepare">Przygotowanie do aktualizacji…</string>
+    <string name="firmware_update_progress">Aktualizowanie %1$,d%%</string>
     <string name="firmware_update_connecting">Łączenie…</string>
 
-    <string name="firmware_update_firmware_empty_title"><![CDATA[Firmware not found
+    <string name="firmware_update_firmware_empty_title"><![CDATA[Nie znaleziono firmware
         <br><i>(%1$s)</i>
     ]]></string>
-    <string name="firmware_update_font_empty_title"><![CDATA[Font not found
+    <string name="firmware_update_font_empty_title"><![CDATA[Nie znaleziono czcionki
         <br><i>(%1$s)</i>
     ]]></string>
-    <string name="firmware_update_resource_empty_title"><![CDATA[Resource not found
+    <string name="firmware_update_resource_empty_title"><![CDATA[Nie znaleziono zasobów
         <br><i>(%1$s)</i>
     ]]></string>
 
@@ -1095,25 +1095,25 @@
     <string name="firmware_type_gps">GPS Firmware</string>
     <string name="firmware_type_gps_almanac">GPS Almanac</string>
     <string name="firmware_type_gps_cep">Korekcja błędów GPS</string>
-    <string name="firmware_type_resource">Resource</string>
-    <string name="firmware_type_watchface">Zasoby</string>
+    <string name="firmware_type_resource">Zasoby</string>
+    <string name="firmware_type_watchface">Tarcza</string>
     <string name="firmware_type_invalid">Niepoprawne dane</string>
 
-    <string name="message_firmware_file_error">Invalid firmware file</string>
-    <string name="message_firmware_file_error_small">Invalid firmware file. File size is too small, use another web browser to download.</string>
-    <string name="message_firmware_file_error_large">Invalid firmware file. File size is too large, use another web browser to download.</string>
+    <string name="message_firmware_file_error">Nieprawidłowy plik firmware</string>
+    <string name="message_firmware_file_error_small">Nieprawidłowy plik firmware. Rozmiar pliku jest zbyt mały, pobierz inną przeglądarkę internetową.</string>
+    <string name="message_firmware_file_error_large">Nieprawidłowy plik firmware. Rozmiar pliku jest zbyt duży, pobierz inną przeglądarkę internetową.</string>
 
-    <string name="firmware_warning"><![CDATA[Warning!
+    <string name="firmware_warning"><![CDATA[Uwaga!
     <br><br>
-    <p>Only at your own risk! The firmware update can damage your device.</p>
-    Use only files from a trusted source.]]>
+    <p>Tylko na własne ryzyko! Aktualizacja firmware może uszkodzić Twoje urządzenie.</p>
+    Używaj tylko plików z zaufanego źródła.]]>
     </string>
 
     <string name="info_dialog_firmware"><![CDATA[
-        <img src="ic_upload"> <b><u>Upload</u></b>
-        <p>Upload the selected firmware.</p>
-        <br><img src="ic_warning"> <b><u>Invalid firmware file</u></b>
-        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        <img src="ic_upload"> <b><u>Prześlij</u></b>
+        <p>Prześlij wybrany firmware.</p>
+        <br><img src="ic_warning"> <b><u>Nieprawidłowy plik firmware</u></b>
+        <p>Fabryczna przeglądarka internetowa nie zawsze poprawnie pobiera plik. Wypróbuj inną przeglądarkę internetową (zalecana Google Chrome).</p>
         ]]>
     </string>
 
