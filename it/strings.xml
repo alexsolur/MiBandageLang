@@ -133,7 +133,7 @@
 
     <string name="mi_band_setting_menu_visible">Voci di menu visibili</string>
     <string name="mi_band_setting_menu_hidden">Voci di menu nascoste</string>
-    <string name="mi_band_setting_shortcut">Shortcut items</string>
+    <string name="mi_band_setting_shortcut">Scorciatoie</string>
 
     <string name="pref_text_conversion_description_title">Descrizione</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -956,7 +956,7 @@
     <string name="reminder_calendar_auto_sync">Sincronizzazione automatica</string>
     <string name="reminder_calendar_counter">Numero di eventi da sincronizzare</string>
     <string name="reminder_calendar_all_day_time">Orario dell\'evento \"tutto il giorno\"</string>
-    <string name="reminder_calendar_notif_before_time">Remind me earlier than the event time</string>
+    <string name="reminder_calendar_notif_before_time">Notifica promemoria in anticipo</string>
 
     <string name="message_reminder_enabled">Promemoria attivato</string>
     <string name="message_reminder_disabled">Promemoria disattivato</string>
@@ -1029,8 +1029,8 @@
 
     <string name="message_watch_face_upload_error">Inizializzazione richiesta</string>
     <string name="message_watch_face_file_error">File di watchface non valido</string>
-    <string name="message_watch_face_file_error_small">File di watchface non valido. File size is too small, use another web browser to download.</string>
-    <string name="message_watch_face_file_error_large">File di watchface non valido. File size is too large, use another web browser to download.</string>
+    <string name="message_watch_face_file_error_small">File di watchface non valido. File troppo piccolo, utilizzare un altro browser web per lo scaricamento.</string>
+    <string name="message_watch_face_file_error_large">File di watchface non valido. File troppo grande, utilizzare un altro browser web per lo scaricamento</string>
 
     <string name="info_dialog_watch_face_download"><![CDATA[
         <img src="ic_file_download_outline"> <b><u>Scaricamento</u></b>
@@ -1058,10 +1058,10 @@
     </string>
 
     <string name="info_dialog_watch_face_upload"><![CDATA[
-        <img src="ic_upload"> <b><u>Upload</u></b>
-        <p>Upload the selected watch face.</p>
-        <br><img src="ic_warning"> <b><u>Invalid watch face file</u></b>
-        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        <img src="ic_upload"> <b><u>Caricamento</u></b>
+        <p>Carica la watchface selezionate.</p>
+        <br><img src="ic_warning"> <b><u>File Watchface non valido</u></b>
+        <p>Il browser web di sistema non sempre premette il corretto scaricamento dei file. Utilizzare un altro browser (si raccomanda Google Chrome).</p>
         ]]>
     </string>
 
