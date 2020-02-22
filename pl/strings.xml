@@ -133,7 +133,7 @@
 
     <string name="mi_band_setting_menu_visible">Widoczne elementy menu</string>
     <string name="mi_band_setting_menu_hidden">Ukryte elementy menu</string>
-    <string name="mi_band_setting_shortcut">Shortcut items</string>
+    <string name="mi_band_setting_shortcut">Skróty pozycji</string>
 
     <string name="pref_text_conversion_description_title">Opis</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -336,7 +336,7 @@
     <string name="message_alarm_mi_band_clear_failed">Kasowanie alarmu nie powiodło się</string>
 
     <string name="message_premium_mode_only">Ta funkcja jest dostępna tylko w trybie premium</string>
-    <string name="message_premium_or_rewarded_mode_only">This feature is only available in premium or rewarded mode</string>
+    <string name="message_premium_or_rewarded_mode_only">Ta funkcja jest dostępna tylko w trybie premium lub w trybie nagród</string>
     <string name="message_feature_is_not_supported">%1$s nie obsługuje tej funkcji</string>
     <string name="message_general_error">Ustawienie nie powiodło się (utracono połączenie), spróbuj ponownie</string>
     <string name="message_internet_error">Nie ma połączenia z Internetem</string>
@@ -347,7 +347,7 @@
 
     <string name="message_new_message">Otrzymano nową wiadomość, wyświetl ją w telefonie</string>
 
-    <string name="message_invalid_file">Invalid file</string>
+    <string name="message_invalid_file">Nieprawidłowy plik</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Witamy!</string>
@@ -367,7 +367,7 @@
     <p>Jeśli używasz więcej aplikacji do sterowania Opaską, przeszkadzają sobie nawzajem, więc tymczasowo je wyłącz.</p>
     <p>Jeśli Opaska nie zostanie znaleziona, możesz ustawić adres MAC ręcznie po wykryciu (adres MAC znajdziesz tu: Mi Fit/Profil/Opaska).</p>
     <p><b>Jeśli masz problem z połączeniem:</b>
-    <br>- Read the Amazfit app or Mi Fit app Profile/Smartwatch/Run in background and set it up for Mi Bandage
+    <br>- Przeczytaj informacje aplikacji Amazfit lub Mi Fit w "Profil/Opaska/Uruchom w tle" i ustaw dla aplikacji Mi Bandage
     <br>- Sprawdź <i>Ustawienia/Diagnostyka</i>
     <br>- Ekran ostatnich aplikacji: zablokuj Mi Bandage (przesuń aplikację w dół i kliknij ikonę blokady)
     <br>- Optymalizacja telefonu/baterii: ustaw aplikację Mi Bandage na niezoptymalizowaną
@@ -447,7 +447,7 @@
     <string name="notification_group_filter_regex">Regex</string>
     <string name="notification_group_filter_hint">Sygnalizuj tylko wtedy, gdy tytuł lub treść powiadomienia (wielkość liter nie ma znaczenia)</string>
     <string name="notification_group_filter_contains">Zawiera dowolne frazy</string>
-    <string name="notification_group_filter_not_contains">Zawiera żadne frazy</string>
+    <string name="notification_group_filter_not_contains">Wykluczone frazy</string>
 
     <string name="notification_group_sample_sms">Wyświetlanie tekstu SMS</string>
     <string name="notification_group_sample_facebook">Wyświetlanie tekstu w Messenger</string>
@@ -589,9 +589,9 @@
     <string name="touch_time_launch_restart">Zrestartuj, jeśli jest w toku</string>
     <string name="touch_time_reminder_title">Pokaż czas pozostały/który minął</string>
 
-    <string name="touch_google_assistant_title">Google Assistant</string>
+    <string name="touch_google_assistant_title">Asystent Google</string>
 
-    <string name="touch_flashlight_title">Flashlight toggle</string>
+    <string name="touch_flashlight_title">Przełącznik latarki</string>
 
     <string name="touch_camera_title">Zrób zdjęcie</string>
     <string name="touch_camera_front_title">Przedni</string>
@@ -602,16 +602,16 @@
     <string name="touch_app_launcher_package_no_title">Wybierz aplikację</string>
     <string name="touch_app_launcher1_not_wakelock_only_title">Tylko jeśli ekran nie jest zablokowany</string>
 
-    <string name="touch_broadcast1_title">Send Broadcast</string>
-    <string name="touch_broadcast1_action_title">Intent action</string>
-    <string name="touch_broadcast1_package_title">Intent package name</string>
+    <string name="touch_broadcast1_title">Wyślij transmisję</string>
+    <string name="touch_broadcast1_action_title">Zamierzone działanie</string>
+    <string name="touch_broadcast1_package_title">Nazwa zamierzonego pakietu</string>
 
-    <string name="touch_http_request1_title">1. HTTP request</string>
-    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request1_title">1. Żądanie HTTP</string>
+    <string name="touch_http_request2_title">2. Żądanie HTTP</string>
     <string name="touch_http_request_url_title">URL</string>
-    <string name="touch_http_request_method_title">Method</string>
-    <string name="touch_http_request_body_title">Body</string>
-    <string name="touch_http_request_show_response_title">Show the response</string>
+    <string name="touch_http_request_method_title">Metoda</string>
+    <string name="touch_http_request_body_title">Element <body></string>
+    <string name="touch_http_request_show_response_title">Pokaż odpowiedź</string>
 
     <string name="touch_tasker_launcher1_title">1. Launcher zadań Tasker\'a</string>
     <string name="touch_tasker_launcher2_title">2. Launcher zadań Tasker\'a</string>
@@ -623,7 +623,7 @@
     <string name="touch_testing_second">sek.</string>
 
     <string name="touch_setting_detection_time_title">Czas wykrywania dotyku</string>
-    <string name="touch_setting_detection_time_music_hint">Jeśli ma niższą wartość, ekran muzyczny powinien zostać zamknięty szybciej</string>
+    <string name="touch_setting_detection_time_music_hint">Jeśli ma niższą wartość, ekran powinien zostać zamknięty szybciej</string>
     <string name="touch_setting_detection_time_button_hint">Jeśli ma niższą wartość, naciśnij przycisk szybciej</string>
 
     <string name="touch_setting_detection_method_title">Metoda wykrywania dotyku</string>
@@ -711,8 +711,8 @@
     <string name="action_tracker_calorie">Kalorie</string>
     <string name="action_chart_filter_activity_no">Brak filtra</string>
     <string name="action_chart_filter_activity_active">Filtr ruchu</string>
-    <string name="action_chart_monthly_calendar">Calendar</string>
-    <string name="action_chart_monthly_compact">Compact</string>
+    <string name="action_chart_monthly_calendar">Kalendarz</string>
+    <string name="action_chart_monthly_compact">Kompaktowy</string>
 
     <string name="step_tab_day">Dzienne wykresy</string>
     <string name="step_tab_week">Tygodniowe wykresy</string>
@@ -992,8 +992,8 @@
 
     <string name="weather_precipitation_rain">Deszcz</string>
     <string name="weather_precipitation_snow">Śnieg</string>
-    <string name="weather_cloud_cover_abbreviation">Za</string>
-    <string name="weather_cloud_cover">Chmura</string>
+    <string name="weather_cloud_cover_abbreviation">Zach.</string>
+    <string name="weather_cloud_cover">Chmury</string>
     <string name="weather_humidity">Wilgotność</string>
 
     <string name="weather_north">N</string>
@@ -1030,8 +1030,8 @@
 
     <string name="message_watch_face_upload_error">Wymagana inicjalizacja</string>
     <string name="message_watch_face_file_error">Nieprawidłowy plik tarczy zegarka</string>
-    <string name="message_watch_face_file_error_small">Invalid watch face file. File size is too small, use another web browser to download.</string>
-    <string name="message_watch_face_file_error_large">Invalid watch face file. File size is too large, use another web browser to download.</string>
+    <string name="message_watch_face_file_error_small">Nieprawidłowy plik tarczy zegarka. Rozmiar pliku jest zbyt mały, pobierz inną przeglądarką internetową.</string>
+    <string name="message_watch_face_file_error_large">Nieprawidłowy plik tarczy zegarka. Rozmiar pliku jest zbyt duży, pobierz inną przeglądarką internetową.</string>
 
     <string name="info_dialog_watch_face_download"><![CDATA[
         <img src="ic_file_download_outline"> <b><u>Pobierz</u></b>
@@ -1059,10 +1059,10 @@
     </string>
 
     <string name="info_dialog_watch_face_upload"><![CDATA[
-        <img src="ic_upload"> <b><u>Upload</u></b>
-        <p>Upload the selected watch face.</p>
-        <br><img src="ic_warning"> <b><u>Invalid watch face file</u></b>
-        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        <img src="ic_upload"> <b><u>Prześlij</u></b>
+        <p>Prześlij wybraną tarczę zegarka.</p>
+        <br><img src="ic_warning"> <b><u>Nieprawidłowy plik tarczy zegarka</u></b>
+        <p>Fabryczna przeglądarka internetowa nie zawsze poprawnie pobiera plik. Wypróbuj inną przeglądarkę internetową (zalecana Google Chrome).</p>
         ]]>
     </string>
 
@@ -1071,7 +1071,7 @@
     <string name="firmware_tab_font">Czcionka</string>
     <string name="firmware_tab_resource">Zasoby</string>
 
-    <string name="firmware_update_firmware_title">Aktualizacja firmware</string>
+    <string name="firmware_update_firmware_title">Aktualizacja Firmware</string>
     <string name="firmware_update_font_title">Aktualizacja czcionki</string>
     <string name="firmware_update_resource_title">Aktualizacja zasobów</string>
 
@@ -1079,7 +1079,7 @@
     <string name="firmware_update_progress">Aktualizowanie %1$,d%%</string>
     <string name="firmware_update_connecting">Łączenie…</string>
 
-    <string name="firmware_update_firmware_empty_title"><![CDATA[Nie znaleziono firmware
+    <string name="firmware_update_firmware_empty_title"><![CDATA[Nie znaleziono Firmware
         <br><i>(%1$s)</i>
     ]]></string>
     <string name="firmware_update_font_empty_title"><![CDATA[Nie znaleziono czcionki
@@ -1099,20 +1099,20 @@
     <string name="firmware_type_watchface">Tarcza</string>
     <string name="firmware_type_invalid">Niepoprawne dane</string>
 
-    <string name="message_firmware_file_error">Nieprawidłowy plik firmware</string>
-    <string name="message_firmware_file_error_small">Nieprawidłowy plik firmware. Rozmiar pliku jest zbyt mały, pobierz inną przeglądarkę internetową.</string>
-    <string name="message_firmware_file_error_large">Nieprawidłowy plik firmware. Rozmiar pliku jest zbyt duży, pobierz inną przeglądarkę internetową.</string>
+    <string name="message_firmware_file_error">Nieprawidłowy plik Firmware</string>
+    <string name="message_firmware_file_error_small">Nieprawidłowy plik Firmware. Rozmiar pliku jest zbyt mały, pobierz inną przeglądarkę internetową.</string>
+    <string name="message_firmware_file_error_large">Nieprawidłowy plik Firmware. Rozmiar pliku jest zbyt duży, pobierz inną przeglądarkę internetową.</string>
 
     <string name="firmware_warning"><![CDATA[Uwaga!
     <br><br>
-    <p>Tylko na własne ryzyko! Aktualizacja firmware może uszkodzić Twoje urządzenie.</p>
+    <p>Tylko na własne ryzyko! Aktualizacja Firmware może uszkodzić Twoje urządzenie.</p>
     Używaj tylko plików z zaufanego źródła.]]>
     </string>
 
     <string name="info_dialog_firmware"><![CDATA[
         <img src="ic_upload"> <b><u>Prześlij</u></b>
-        <p>Prześlij wybrany firmware.</p>
-        <br><img src="ic_warning"> <b><u>Nieprawidłowy plik firmware</u></b>
+        <p>Prześlij wybrany Firmware.</p>
+        <br><img src="ic_warning"> <b><u>Nieprawidłowy plik Firmware</u></b>
         <p>Fabryczna przeglądarka internetowa nie zawsze poprawnie pobiera plik. Wypróbuj inną przeglądarkę internetową (zalecana Google Chrome).</p>
         ]]>
     </string>
@@ -1282,7 +1282,7 @@
         - Nie gromadzimy danych dotyczących zdrowia osobistego, kontaktów ani tekstu powiadomienia telefonicznego.
     ]]></string>
 
-    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links_title">Polityka prywatności zewnętrznych dostawców usług</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
@@ -1307,7 +1307,7 @@
     <string name="custom_vibration_title">Ustawienia wibracji</string>
     <string name="custom_vibration">Wibracje</string>
     <string name="custom_vibration_edit">Edytuj</string>
-    <string name="custom_vibration_hint">Tap to vibrate</string>
+    <string name="custom_vibration_hint">Dotknij, aby wibrować</string>
     <string name="custom_vibration_new">Nagraj ponownie</string>
 
     <!-- Hack -->
