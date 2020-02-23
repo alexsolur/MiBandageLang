@@ -74,26 +74,26 @@
     <string name="mi_band_setting_menu_menu">Menü</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Mi Fit, Amazfit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage benötigt die offizielle Mi Fit/Amazfit-App auf demselben Gerät. Vor der Verwendung der Mi Bandage-App muss das %1$s mit der Mi Fit/Amazfit-App verbunden sein. If you want to use Mi Fit/Amazfit, choose this.</string>
-    <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Fit/Amazfit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit/Amazfit app or unpair your device. When restoring the Mi Fit/Amazfit cooperation, you will need to re-pair your %1$s in the Mi Fit/Amazfit application.</string>
-    <string name="mi_band_setting_auth_key_title">Set authentication key</string>
-    <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage benötigt die offizielle Mi Fit/Amazfit-App auf demselben Gerät. Vor der Verwendung der Mi Bandage-App muss das %1$s mit der Mi Fit/Amazfit-App verbunden sein. Wenn Sie Mi Fit/Amazfit verwenden wollen, wählen Sie dieses aus.</string>
+    <string name="mi_band_setting_auth_standalone">Eigenständig</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit/Amazfit App wird nicht benötigt, damit Mi Bandage funktioniert. Nach der Kopplung, deinstallieren Sie die Mi Fit/Amazfit App oder entkoppeln Sie Ihr Gerät. Wenn die Zusammenarbeit mit Mi Fit/Amazfit wiederhergestellt werden soll, müssen Sie %1$s in der Mi Fit/Amazfit App erneut koppeln.</string>
+    <string name="mi_band_setting_auth_key_title">Den Authentifizierung Schlüssel</string>
+    <string name="mi_band_setting_auth_key_hint">Für den eigenständigen Modus muss ein Authentifizierung Schlüssel bereitgestellt werden.</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <p>- Unpair %1$s in the official Mi Fit/Amazfit app</p>
-        <p>- Uninstall the official Mi Fit/Amazfit app</p>
-        <p>- Download and install the modified Mi Fit/Amazfit app</p>
-        <p>- Pair the %1$s in the modified Mi Fit/Amazfit app (do not unpair)</p>
-        <p>- Uninstall the modified Mi Fit/Amazfit app</p>
-        Authentication key can be found at: internal storage/freemyband/mac address.txt
+        <p>- %1$s in der offiziellen Mi Fit/Amazfit App entkoppeln</p>
+        <p>- In der offiziellen Mi Fit/Amazfit App deinstallieren</p>
+        <p>- Die modifizierte Mi Fit/Amazfit App herunterladen und installieren</p>
+        <p>- %1$s in der modifizierten Mi Fit/Amazfit App koppeln (nicht entkoppeln)</p>
+        <p>- Die modifizierte Mi Fit/Amazfit App deinstallieren</p>
+        Der Authentifizierungs Schlüssel kann hier gefunden werden: interner Speicher/freemyband/mac address.txt
     ]]></string>
-    <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth_key">Authentifizierungs Schlüssel</string>
     <string name="mi_band_setting_auth">Koppeln</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
-    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
-    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
-    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
+    <string name="message_mi_band_setting_auth_press_band_button">Drücken Sie den %1$s Knopf zum Koppeln</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s erfolgreich gekoppelt</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s Kopplung fehlgeschlagen</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Ungültiger Authentifizierungs Schlüssel</string>
 
     <string name="mi_band_setting_nickname">Spitzname</string>
     <string name="mi_band_setting_gender">Geschlecht</string>
@@ -104,7 +104,7 @@
 
     <string name="mi_band_setting_distance_unit">Längeneinheit einstellen</string>
 
-    <string name="mi_band_setting_standalone_setting">Standalone settings</string>
+    <string name="mi_band_setting_standalone_setting">Einstellungen für eingenständigen Modus</string>
     <string name="mi_band_setting_time_24h">24-Stunden-Zeitformat</string>
     <string name="mi_band_setting_date">Datum auf dem Bildschirm anzeigen</string>
     <string name="mi_band_setting_lock_screen">Band-Bildschirmsperre</string>
@@ -116,20 +116,20 @@
     <string name="mi_band_setting_idle_alert_dnd">Bitte nicht stören</string>
     <string name="mi_band_setting_night_mode">Nachtmodus</string>
 
-    <string name="mi_band_setting_discoverable">Discoverable</string>
+    <string name="mi_band_setting_discoverable">Sichtbar</string>
 
     <string name="pref_text_title">Textembleme</string>
     <string name="pref_text_conversion_summary">Einstellungen zu den Textemblemen des Mi Bands 2</string>
     <string name="pref_cat_text_conversion">%1$s Signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Buchstabenumwandlung</string>
-    <string name="pref_text_conversion_summary_on">Nicht erkennbare Buchstabenumwandlung, turn off if the Band supports your language or you have installed custom font firmware</string>
+    <string name="pref_text_conversion_summary_on">Nicht erkennbare Buchstabenumwandlung, ausschalten wenn das Band Ihre Sprache unterstützt oder Sie eine benutzerdefinierte Schrift Firmware installiert haben</string>
     <string name="pref_text_conversion_excluded_title">Ausgeschlossene Zeichen</string>
-    <string name="pref_text_emoticon_title">Emoji conversion</string>
-    <string name="pref_text_emoticon_summary_on">Convert emoji to emoticon</string>
+    <string name="pref_text_emoticon_title">Emoji Umwandlung</string>
+    <string name="pref_text_emoticon_summary_on">Wandle Emoji in Emoticon um</string>
     <string name="pref_text_uppercase_title">Konvertierung in Großbuchstaben</string>
     <string name="pref_text_uppercase_summary_on">Konvertieren Sie Kleinbuchstaben in Großbuchstaben</string>
-    <string name="pref_text_length">Text length, depends on the font used (for example Chinese or Cyrillic characters)</string>
-    <string name="pref_text_length_summary_on">%1$,d characters</string>
+    <string name="pref_text_length">Textlänge hängt von der verwendeten Schriftart ab (z.B. Chinesisch oder Kyrillisch)</string>
+    <string name="pref_text_length_summary_on">%1$, Zeichen</string>
 
     <string name="mi_band_setting_menu_visible">Sichtbare Menüpunkte</string>
     <string name="mi_band_setting_menu_hidden">Versteckte Menüpunkte</string>
@@ -142,10 +142,10 @@
         <br/>1. Ändern Sie ihre Spracheinstellungen auf Englisch.
         <br/>2. Öffnen Sie die Mi Fit-App und warten Sie bis das Firmware-Update beendet ist. Falls das Firmware-Update nicht startet, versuchen Sie es mit einem Neustart.
         <br/>3. Öffnen Sie das <i>Profile/Mi Band/Incoming call</i> Menü.
-        <br/>4. Aktivieren Sie: <i>Turn on incoming call alerts</i>.
-        <br/>5. Aktivieren Sie: <i>Show contact information</i>.
+        <br/>4. Aktivieren Sie: <i>Alarm für ingehende Anrufe einschalten</i>.
+        <br/>5. Aktivieren Sie: <i>Kontakt Information anzeigen</i>.
         <br/>6. Kontrollieren Sie, ob das Band die Telefonnummer des Anrufers anzeigt, indem Sie ihr Telefon anrufen.
-        <br/>7. Deaktivieren Sie: <i>Turn on incoming call alerts</i> (<i>Show contact information</i> bleibt aktiviert).
+        <br/>7. Deaktivieren Sie: <i>Alarm für ingehende Anrufe einschalten</i> (<i>Kontakt Information anzeigen</i> bleibt aktiviert).
         <br/>8. Ändern Sie ihre Spracheinstellungen auf Ihre Sprache.</p>]]>
     </string>
 
@@ -225,10 +225,10 @@
     <string name="pref_call_text_title">Anzeige der Telefonnummer des Anrufers</string>
     <string name="pref_call_text_summary_on"><![CDATA[Aktiviert (mehr Informationen: <i>Einstellungen/Einstellungen zu Textikonen)</i>]]></string>
 
-    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
-    <string name="pref_call_notification_rejected_message">Rejected call</string>
-    <string name="pref_call_notification_rejected_action">Call</string>
-    <string name="pref_call_notification_muted">Show notification about muted call</string>
+    <string name="pref_call_notification_rejected">Zeige Benachrichtigung über abgewiesenen Anruf</string>
+    <string name="pref_call_notification_rejected_message">Abgewiesener Anruf</string>
+    <string name="pref_call_notification_rejected_action">Anruf</string>
+    <string name="pref_call_notification_muted">Zeige Benachrichtigung über stummgeschalteten Anruf</string>
 
     <string name="pref_call_net_text_title">Eingehendes Signal eines Internetanrufs, zeige Telefonnummer des Anrufers an</string>
     <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
@@ -246,16 +246,16 @@
     <string name="pref_call_missed_text_prefix_dialog_title">Text Präfix</string>
 
     <string name="pref_battery_phone">Telefonbatterie</string>
-    <string name="pref_battery_phone_summary">Low and full battery level notifications</string>
+    <string name="pref_battery_phone_summary">Leere und volle Batterie Benachrichtigung</string>
     <string name="pref_cat_battery_phone_low">Niedriger Batteriestand</string>
     <string name="pref_battery_phone_low_title">Benachrichtigung bei schwacher Batteri</string>
     <string name="pref_battery_phone_low_level_title">Batteriestand Schwelle</string>
     <string name="pref_battery_phone_low_repeat_interval_title">Wiederholungsintervall</string>
     <string name="pref_cat_battery_phone_full">Voller Batteriestand</string>
     <string name="pref_battery_phone_full_title">Volle Batterie Benachrichtigung</string>
-    <string name="pref_battery_phone_full_plugged_ac">AC charger power source</string>
-    <string name="pref_battery_phone_full_plugged_usb">USB port power source</string>
-    <string name="pref_battery_phone_full_plugged_wireless">Wireless power source</string>
+    <string name="pref_battery_phone_full_plugged_ac">Netzteil Energiequelle</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB Anschluß Energiequelle</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Kabellose Energiequelle</string>
     <string name="pref_battery_phone_full_repeat_interval_title">Wiederholungsintervall</string>
 
     <!-- Mi Band 2 max. 18 chars with 100% -->
