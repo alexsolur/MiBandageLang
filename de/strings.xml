@@ -629,7 +629,7 @@
 
     <string name="touch_setting_recognition_start_title">Start touch recognition</string>
     <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
-    <string name="touch_setting_recognition_time_title">Recognition time</string>
+    <string name="touch_setting_recognition_time_title">Erkennungs Zime</string>
 
     <string name="touch_setting_recognition_mi_band_signal_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="touch_setting_recognition_succeeded_title">Erkennbares Touch-Muster-Signal</string>
@@ -709,9 +709,9 @@
     <string name="action_tracker_distance">Distanz</string>
     <string name="action_tracker_calorie">Kalorien</string>
     <string name="action_chart_filter_activity_no">Kein Filter</string>
-    <string name="action_chart_filter_activity_active">Movement filter</string>
-    <string name="action_chart_monthly_calendar">Calendar</string>
-    <string name="action_chart_monthly_compact">Compact</string>
+    <string name="action_chart_filter_activity_active">Bewegungs Filter</string>
+    <string name="action_chart_monthly_calendar">Kalender</string>
+    <string name="action_chart_monthly_compact">Kompakt</string>
 
     <string name="step_tab_day">Tägliche Statistiken</string>
     <string name="step_tab_week">Wöchentliche Statistiken</string>
@@ -724,7 +724,7 @@
     <string name="activity_progress_title_save">Daten werden gespeichert (%2$s) %1$,d%%</string>
 
     <string name="step_title_timing">Timing</string>
-    <string name="step_interval_title">Wiederholungsintervall der Schrittebeobachtung</string>
+    <string name="step_interval_title">Wiederholungsintervall der Schritt Beobachtung</string>
     <string name="step_time_set_next">Timing der nächsten Beobachtung</string>
 
     <string name="step_goal_default_title">Standard-Ziel</string>
@@ -924,9 +924,9 @@
 
     <string name="time_enable_bluetooth">Aktiviere Bluetooth</string>
 
-    <string name="action_time_alarm_sort_state_asc">State ascending</string>
-    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
-    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+    <string name="action_time_alarm_sort_state_asc">Status aufsteigend</string>
+    <string name="action_time_alarm_sort_watch_asc">Uhr aufsteigend</string>
+    <string name="action_time_alarm_sort_name_asc">Name aufsteigend</string>
 
     <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
@@ -946,22 +946,22 @@
     <!-- Reminder -->
     <string name="reminder_tab_once">Einmalig</string>
     <string name="reminder_tab_weekly">Wöchentlich</string>
-    <string name="reminder_tab_calendar">Calendar</string>
+    <string name="reminder_tab_calendar">Kalender</string>
     <string name="reminder_tab_setting">@string/setting_name</string>
 
-    <string name="reminder_repeat">Hourly repetition</string>
+    <string name="reminder_repeat">Stündliche Wiederholung</string>
     <string name="reminder_notification_shade">Benachrichtigen Sie mich am Telefon</string>
 
-    <string name="reminder_calendar">Calendar synchronization</string>
-    <string name="reminder_calendar_auto_sync">Automatic synchronization</string>
-    <string name="reminder_calendar_counter">The number of events to synchronize</string>
-    <string name="reminder_calendar_all_day_time">The time of all day event</string>
+    <string name="reminder_calendar">Kalender Synchronisation</string>
+    <string name="reminder_calendar_auto_sync">Automatische Synchronisation</string>
+    <string name="reminder_calendar_counter">Die Anzahl der zu synchronisierenden Ereignissen</string>
+    <string name="reminder_calendar_all_day_time">Die Zeit der Ganztages Ereignisse</string>
     <string name="reminder_calendar_notif_before_time">Remind me earlier than the event time</string>
 
     <string name="message_reminder_enabled">Erinnerung aktiviert</string>
     <string name="message_reminder_disabled">Erinnerung deaktiviert</string>
-    <string name="message_reminder_no_more">Can not record more reminders</string>
-    <string name="message_reminder_sync">Synchronize %1$s reminders (deleting and setting reminders on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_reminder_no_more">Maximale Anzahl Erinnerungen erreicht</string>
+    <string name="message_reminder_sync">Synchronisiere %1$s Erinnerungen (Löschen und Setzen von Erinerungen auf der Smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text>Bluetooth connection is required to display the reminder.</not_support_icon_text>
@@ -975,7 +975,7 @@
     <string name="weather_tab_settings">@string/setting_name</string>
 
     <string name="weather_location_title">Ort</string>
-    <string name="weather_automatic_update">Automatic update</string>
+    <string name="weather_automatic_update">Automatische Aktualisierung</string>
 
     <string name="weather_title">Wettervorhersage</string>
     <string name="weather_city_title">Stadt</string>
@@ -996,7 +996,7 @@
     <string name="weather_humidity">Feuchtigkeit</string>
 
     <string name="weather_north">N</string>
-    <string name="weather_east">E</string>
+    <string name="weather_east">O</string>
     <string name="weather_south">S</string>
     <string name="weather_west">W</string>
 
@@ -1070,30 +1070,30 @@
     <string name="firmware_tab_font">Schriftart</string>
     <string name="firmware_tab_resource">Quellen</string>
 
-    <string name="firmware_update_firmware_title">Update firmware</string>
-    <string name="firmware_update_font_title">Update font</string>
-    <string name="firmware_update_resource_title">Update resource</string>
+    <string name="firmware_update_firmware_title">Aktualisierung Firmware</string>
+    <string name="firmware_update_font_title">Aktualisierung Schrift</string>
+    <string name="firmware_update_resource_title">Aktualisierung resource</string>
 
-    <string name="firmware_update_prepare">Preparing for the update…</string>
-    <string name="firmware_update_progress">Updating %1$,d%%</string>
+    <string name="firmware_update_prepare">Bereite Aktualisierung vor…</string>
+    <string name="firmware_update_progress">Aktualisierung %1$,d%%</string>
     <string name="firmware_update_connecting">Verbinden…</string>
 
-    <string name="firmware_update_firmware_empty_title"><![CDATA[Firmware not found
+    <string name="firmware_update_firmware_empty_title"><![CDATA[Firmware nicht gefunden
         <br><i>(%1$s)</i>
     ]]></string>
-    <string name="firmware_update_font_empty_title"><![CDATA[Font not found
+    <string name="firmware_update_font_empty_title"><![CDATA[Font nicht gefunden
         <br><i>(%1$s)</i>
     ]]></string>
-    <string name="firmware_update_resource_empty_title"><![CDATA[Resource not found
+    <string name="firmware_update_resource_empty_title"><![CDATA[Resource nicht gefunden
         <br><i>(%1$s)</i>
     ]]></string>
 
     <string name="firmware_type_firmware">Firmware</string>
     <string name="firmware_type_font">Schriftart</string>
-    <string name="firmware_type_font_latin">Schriftart latin</string>
+    <string name="firmware_type_font_latin">Schriftart Latin</string>
     <string name="firmware_type_gps">GPS Firmware</string>
     <string name="firmware_type_gps_almanac">GPS Almanac</string>
-    <string name="firmware_type_gps_cep">GPS Error Correction</string>
+    <string name="firmware_type_gps_cep">GPS Fehler Korrektur</string>
     <string name="firmware_type_resource">Quellen</string>
     <string name="firmware_type_watchface">Watch face</string>
     <string name="firmware_type_invalid">Invalid</string>
@@ -1167,8 +1167,8 @@
     <string name="backup_tab_restore">Wiederherstellen</string>
     <string name="backup_tab_cloud">Cloud-Dienst</string>
 
-    <string name="backup_time">Backup time</string>
-    <string name="backup_path">Backup location</string>
+    <string name="backup_time">Backup Zeit</string>
+    <string name="backup_path">Backup Speicherort</string>
     <string name="backup_auto">Automatische Sicherung</string>
     <string name="backup_auto_time">Zeit</string>
 
@@ -1196,12 +1196,12 @@
     <string name="backup_restore_disconnected_agent">Agent</string>
     <string name="backup_restore_settings">@string/settings_name</string>
 
-    <string name="backup_restore_reset">After restoring, Bluetooth will be turning off and on and the application will restart.</string>
+    <string name="backup_restore_reset">Nach der Wiederherstellung schaltet sich Bluetooth aus und die App startet neu.</string>
 
-    <string name="backup_cloud_drive_login">Google Drive sign in</string>
-    <string name="backup_cloud_drive_logout">Google Drive sign out</string>
+    <string name="backup_cloud_drive_login">Google Drive einloggen</string>
+    <string name="backup_cloud_drive_logout">Google Drive ausloggen</string>
     <string name="backup_cloud_sync_time">Zeit hochladen</string>
-    <string name="backup_cloud_only_wifi">Over wi-fi only</string>
+    <string name="backup_cloud_only_wifi">Nur über WLAN</string>
 
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Geschäftsbedingungen des Belohnungsmodus</string>
@@ -1244,12 +1244,12 @@
     ]]></string>
 
     <!--<string name="purchase_price">Preis:</string>-->
-    <string name="purchase_agree">Ich aktzeptiere die Geschäftsbedingungen.</string>
+    <string name="purchase_agree">Ich akzeptiere die Geschäftsbedingungen.</string>
     <string name="purchase_order_id">Bestellungs-ID</string>
     <string name="purchase_order_id_help">Kopie von:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
-    <string name="purchase_button_purchase">Purchase</string>
+    <string name="purchase_button_purchase">Kauf</string>
 
     <string name="text_premium_mode_only">Nur im Premium-Modus verfügbar</string>
 
@@ -1257,10 +1257,10 @@
     <string name="action_log_notification">Log</string>
 
     <string name="feedback_google_play_title">App bewerten</string>
-    <string name="feedback_request_feature_title">Forderungen stellen, Bugs melden</string>
+    <string name="feedback_request_feature_title">Vorschläge machen, Bugs melden</string>
     <string name="feedback_request_feature_summary">Aufgrund der automatischen Verarbeitung der E-Mails erhalten Sie keine Antwort.</string>
-    <string name="feedback_translation_title">Mi Bandage translation</string>
-    <string name="feedback_translation_title_summary">Please help in translation</string>
+    <string name="feedback_translation_title">Mi Bandage Übersetzung</string>
+    <string name="feedback_translation_title_summary">Bitte bei der Übersetzung mithelfen</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Datenschutz-Bestimmungen</string>
@@ -1290,8 +1290,8 @@
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Status</string>
-    <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Personalisierte, zutreffendere Werbung</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Nicht personalisierte, weniger zutreffende Werbung</string>
     <string name="privacy_policy_eu_consent_title_unknown">Unbekannte</string>
 
     <string name="privacy_policy_eu_consent_setting">Einstellung</string>
@@ -1306,7 +1306,7 @@
     <string name="custom_vibration_title">Vibrationseinstellungen</string>
     <string name="custom_vibration">Vibration</string>
     <string name="custom_vibration_edit">Bearbeiten</string>
-    <string name="custom_vibration_hint">Tap to vibrate</string>
+    <string name="custom_vibration_hint">Tip für Vibration</string>
     <string name="custom_vibration_new">Erneut aufnehmen</string>
 
     <!-- Hack -->
@@ -1332,36 +1332,36 @@
     <string name="unknown">Unbekannte</string>
     <string name="maximum">Maximal</string>
     <string name="all_day">Ganztägig</string>
-    <string name="file_name">File name</string>
+    <string name="file_name">Dateiname</string>
 
     <string name="action_dismiss">Verwerfen</string>
     <string name="action_setting">Einstellung</string>
     <string name="action_delete">Löschen</string>
     <string name="action_export">Exportieren</string>
-    <string name="action_synchronization">Synchronization</string>
+    <string name="action_synchronization">Synchronisation</string>
     <string name="action_filter_no">Kein Filter</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
     <string name="action_launch_amazfit">Amazfit</string>
-    <string name="action_save">Sparen</string>
+    <string name="action_save">Speichern</string>
     <string name="action_test">Test</string>
     <string name="action_discard">Verwerfen</string>
     <string name="action_keep_editing">Weiter bearbeiten</string>
-    <string name="action_new">New</string>
+    <string name="action_new">Neu</string>
     <string name="action_start_stop">Start/Stop</string>
-    <string name="synchronized_from_watch">Synchronized from watch</string>
+    <string name="synchronized_from_watch">Synchronisiert von der Uhr</string>
 
     <string name="action_chart">Diagramm</string>
-    <string name="action_chart_normalize_minute">Measured values</string>
-    <string name="action_chart_normalize_quarter_hourly">Quarter-hourly values</string>
-    <string name="action_chart_normalize_half_hourly">Half-hourly values</string>
-    <string name="action_chart_normalize_hourly">Hourly average</string>
-    <string name="action_chart_sort_time_asc">Time ascending</string>
-    <string name="action_chart_sort_time_desc">Time descending</string>
-    <string name="action_chart_sort_step_asc">Step ascending</string>
-    <string name="action_chart_sort_step_desc">Step descending</string>
-    <string name="action_chart_sort_pulse_asc">Pulse ascending</string>
-    <string name="action_chart_sort_pulse_desc">Pulse descending</string>
+    <string name="action_chart_normalize_minute">Gemessene Werte</string>
+    <string name="action_chart_normalize_quarter_hourly">Viertelstündliche Werte</string>
+    <string name="action_chart_normalize_half_hourly">Halbstündliche Werte</string>
+    <string name="action_chart_normalize_hourly">Stündliche Werte</string>
+    <string name="action_chart_sort_time_asc">Zeit aufsteigend</string>
+    <string name="action_chart_sort_time_desc">Zeit absteigend</string>
+    <string name="action_chart_sort_step_asc">Schritte aufsteigend</string>
+    <string name="action_chart_sort_step_desc">Schritte absteigend</string>
+    <string name="action_chart_sort_pulse_asc">Puls aufsteigend</string>
+    <string name="action_chart_sort_pulse_desc">Puls absteigend</string>
     <string name="action_chart_sort_lap_asc">Lap ascending</string>
     <string name="action_chart_sort_lap_desc">Lap descending</string>
 
@@ -1417,12 +1417,12 @@
     </plurals>
 
     <plurals name="plural_file_moved">
-        <item quantity="zero">%d file moved</item>
-        <item quantity="one">%d file moved</item>
-        <item quantity="two">%d files moved</item>
-        <item quantity="few">%d files moved</item>
-        <item quantity="many">%d files moved</item>
-        <item quantity="other">%d files moved</item>
+        <item quantity="zero">%d Dateien verschoben</item>
+        <item quantity="one">%d Datei verschoben</item>
+        <item quantity="two">%d Dateien verschoben</item>
+        <item quantity="few">%d Dateien verschoben</item>
+        <item quantity="many">%d Dateien verschoben</item>
+        <item quantity="other">%d Dateien verschoben</item>
     </plurals>
 
 </resources>
