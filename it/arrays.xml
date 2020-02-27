@@ -12,7 +12,7 @@
 
     <string-array name="pref_distance_unit">
         <item>Metrico (metro)</item>
-        <item>Imperiali (miglio)</item>
+        <item>Imperiale (miglia)</item>
     </string-array>
 
     <string-array name="pref_lift_wrist_sensitivity">
@@ -34,15 +34,15 @@
         <item>Batteria</item>
         <item>Stato</item>
         <item>Meteo</item>
+        <item>Esercizi</item>
         <item>Attività</item>
-        <item>Activities</item>
         <item>Notifiche</item>
         <item>Altro</item>
         <item>NFC</item>
         <item>Sveglia</item>
         <item>Orologio</item>
-        <item>Event reminder</item>
-        <item>Settings</item>
+        <item>Appuntamenti</item>
+        <item>Opzioni</item>
         <item>Bussola</item>
         <item>Musica</item>
         <item>Alipay</item>
@@ -51,10 +51,10 @@
 
     <string-array name="pref_connected_have_notif_counter">
         <item>Ogni notifica</item>
-        <item>Una volta ogni icona Band</item>
-        <item>1 \'app\' icon</item>
-        <item>2 \'app\' icon</item>
-        <item>3 \'app\' icon</item>
+        <item>Una notifica per ogni icona \'app\'</item>
+        <item>Mostra icona \'app\' 1 volta</item>
+        <item>Mostra icona \'app\' 2 volte</item>
+        <item>Mostra icona \'app\' 3 volte</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_interval">
@@ -134,12 +134,12 @@
 
     <string-array name="touch_camera_app">
         <item>Predefinito (Root richiesto)</item>
-        <item>Open Camera</item>
+        <item>Apri Fotocamera</item>
     </string-array>
 
     <string-array name="pref_timer_time_interval_repeat">
         <item>Off</item>
-        <item>1 minuti</item>
+        <item>1 minuto</item>
         <item>2 minuti</item>
         <item>3 minuti</item>
         <item>4 minuti</item>
@@ -198,7 +198,7 @@
         <item>Doppio tocco</item>
         <item>Triplo tocco</item>
         <item>Tocco lungo</item>
-        <item>Button</item>
+        <item>Pulsante</item>
     </string-array>
 
     <string-array name="touch_recognition_press_mi_band_4_gtr">
@@ -207,29 +207,29 @@
         <item>Doppio tocco</item>
         <item>Triplo tocco</item>
         <item>Pulsante di rifiuto</item>
-        <item>Button</item>
+        <item>Pulsante</item>
     </string-array>
 
     <string-array name="touch_recognition_press_amazfit_bip_cor">
         <item>Nessuno</item>
-        <item>Pulsante verden</item>
+        <item>Pulsante verde</item>
         <item>Doppio tocco</item>
         <item>Triplo tocco</item>
         <item>Pulsante rosso</item>
-        <item>Button</item>
+        <item>Pulsante</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method">
-        <item>Pattern recognition</item>
-        <item>Button press counting</item>
+        <item>Riconoscimento schema</item>
+        <item>Conteggio pressioni pulsante</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method_mi_band_3">
-        <item>Power saving</item>
-        <item>Power saving (+pulse)</item>
+        <item>Risparmio energetico</item>
+        <item>Risparmio energetico (+pulsazioni)</item>
 <!--        <item>Power saving (find phone)</item>-->
 <!--        <item>Power saving (pulse and find phone)</item>-->
-        <item>Performance</item>
+        <item>Prestazioni</item>
     </string-array>
 
     <string-array name="touch_recognition_start_trigger">
@@ -238,19 +238,32 @@
     </string-array>
 
     <string-array name="touch_recognition_start_trigger_button">
-        <item>None</item>
-        <item>Button press</item>
-        <item>Long press the button</item>
+        <item>Nessuno</item>
+        <item>Pulsante</item>
+        <item>Pressione prolungata pulsante</item>
+    </string-array>
+
+    <string-array name="pref_reminder_calendar_notif_before">
+        <item>Nessuno</item>
+        <item>5 minuti</item>
+        <item>10 minuti</item>
+        <item>15 minuti</item>
+        <item>20 minuti</item>
+        <item>30 minuti</item>
+        <item>45 minuti</item>
+        <item>1 ora</item>
+        <item>2 ore</item>
+        <item>3 ore</item>
     </string-array>
 
     <string-array name="pref_weather_unit">
         <item>Metrico (Celsius ℃)</item>
-        <item>Imperiali (Fahrenheit ℉)</item>
+        <item>Imperiale (Fahrenheit ℉)</item>
     </string-array>
 
     <string-array name="pref_weather_current_display">
         <item>Corrente</item>
-        <item>Corrente, precipitazione, coperto dalle nuvole</item>
+        <item>Corrente, precipitazione, nuvolosità</item>
         <item>Medio</item>
         <item>Am, Pm</item>
     </string-array>
@@ -317,8 +330,8 @@
     </string-array>
 
     <string-array name="pref_language_mi_band_3">
-        <item>Not set (impostato da Mi Fit)</item>
-        <item>Predefinito (per telefono)</item>
+        <item>Nessuna (impostata da Mi Fit)</item>
+        <item>Predefinita (lingua telefono)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -341,8 +354,8 @@
     </string-array>
 
     <string-array name="pref_language_mi_band_4">
-        <item>Not set (impostato da Mi Fit)</item>
-        <item>Predefinito (per telefono)</item>
+        <item>Nessuna (impostata da Mi Fit)</item>
+        <item>Predefinita (lingua telefono)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -352,6 +365,7 @@
         <item>Italiano</item>
         <item>Français</item>
         <item>Polski</item>
+        <item>Čeština</item>
         <item>Nederlands</item>
         <item>Türkçe</item>
         <item>Bahasa Indonesia</item>
@@ -365,8 +379,8 @@
     </string-array>
 
     <string-array name="pref_language_amazfit_bip_watch">
-        <item>Not set (impostato da Mi Fit)</item>
-        <item>Predefinito (per telefono)</item>
+        <item>Nessuna (impostata da Mi Fit)</item>
+        <item>Predefinita (lingua telefono)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -383,8 +397,8 @@
     </string-array>
 
     <string-array name="pref_language_amazfit_cor">
-        <item>Not set (impostato da Mi Fit)</item>
-        <item>Predefinito (per telefono)</item>
+        <item>Nessuna (impostata da Mi Fit)</item>
+        <item>Predefinita (lingua telefono)</item>
         <item>English</item>
         <item>Español</item>
         <item>Русский</item>
@@ -393,8 +407,8 @@
     </string-array>
 
     <string-array name="pref_language_amazfit_gtr">
-        <item>Not set (impostato da Mi Fit)</item>
-        <item>Predefinito (per telefono)</item>
+        <item>Nessuna (impostata da Mi Fit)</item>
+        <item>Predefinita (lingua telefono)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>

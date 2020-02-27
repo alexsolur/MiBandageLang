@@ -133,6 +133,7 @@
 
     <string name="mi_band_setting_menu_visible">Itens do menu visíveis</string>
     <string name="mi_band_setting_menu_hidden">Itens do menu ocultos</string>
+    <string name="mi_band_setting_shortcut">Shortcut items</string>
 
     <string name="pref_text_conversion_description_title">Descrição</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -212,7 +213,7 @@
     <string name="pref_disconnected_volume_title">Ajustar o volume</string>
     <string name="pref_disconnected_volume_ring_title">Volume do Tom do toque</string>
     <string name="pref_disconnected_volume_adapter_title">Quando o Bluetooth é desligado</string>
-    <string name="pref_disconnected_volume_mute_title">When the phone is muted</string>
+    <string name="pref_disconnected_volume_mute_title">Quando o telefone está sem som</string>
     <string name="pref_disconnected_volume_adapter_summary_on">Ajustar o volume</string>
     <string name="pref_disconnected_volume_adapter_summary_off">Não ajustar o volume</string>
 
@@ -335,6 +336,7 @@
     <string name="message_alarm_mi_band_clear_failed">A limpeza do alarme falhou</string>
 
     <string name="message_premium_mode_only">Esta definição só está disponível no modo premium</string>
+    <string name="message_premium_or_rewarded_mode_only">This feature is only available in premium or rewarded mode</string>
     <string name="message_feature_is_not_supported">A %1$s não suporta esta feature</string>
     <string name="message_general_error">A configuração falhou (conexão perdida), tente de novo</string>
     <string name="message_internet_error">Sem ligação à internet</string>
@@ -345,7 +347,7 @@
 
     <string name="message_new_message">Você recebeu uma nova mensagem. Visualize-a no dispositivo.</string>
 
-    <string name="message_invalid_file">Invalid file</string>
+    <string name="message_invalid_file">Ficheiro inválido</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Bem vindo!</string>
@@ -365,7 +367,7 @@
     <p>Se você usa mais aplicações para controlar a Band, elas vão interferir umas com as outras por isso desative-as.</p>
     <p>Se a Band não for encontrada, você pode configurar o endereço MAC manualmente (O endereço MAC encontra-se em: Mi Fit/Profile/Band).</p>
     <p><b>Se tiver um problema de conexão:</b>
-    <br>- Read the Amazfit app or Mi Fit app Profile/Smartwatch/Run in background and set it up for Mi Bandage
+    <br>- Leia o documento que se encontra na aplicação Amazfit ou na Mi Fit em \'Perfil/Smartwatch/Correr em segundo plano\' e configure isso para a Mi Bandage
     <br>- Verifique se existe algum problema em <i>Definições/Diagnóstico</i>
     <br>- Ecrã de aplicações recentes: bloquear a Mi Bandage (Deslize a aplicaçãao para baixo e clique no ícone \'aloquete\').
     <br>- Dispositivo/Otimização de bateria: configurar a Mi Bandage para não ser otimizada.
@@ -589,7 +591,7 @@
 
     <string name="touch_google_assistant_title">Google Assistant</string>
 
-    <string name="touch_flashlight_title">Flashlight toggle</string>
+    <string name="touch_flashlight_title">Ligar/desligar a lanterna</string>
 
     <string name="touch_camera_title">Tirar uma fotografia</string>
     <string name="touch_camera_front_title">Frontal</string>
@@ -604,12 +606,12 @@
     <string name="touch_broadcast1_action_title">Intent action</string>
     <string name="touch_broadcast1_package_title">Intent package name</string>
 
-    <string name="touch_http_request1_title">1. HTTP request</string>
-    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request1_title">1. pedido HTTP</string>
+    <string name="touch_http_request2_title">2. pedido HTTP</string>
     <string name="touch_http_request_url_title">URL</string>
-    <string name="touch_http_request_method_title">Method</string>
-    <string name="touch_http_request_body_title">Body</string>
-    <string name="touch_http_request_show_response_title">Show the response</string>
+    <string name="touch_http_request_method_title">Método</string>
+    <string name="touch_http_request_body_title">Corpo</string>
+    <string name="touch_http_request_show_response_title">Mostrar a resposta</string>
 
     <string name="touch_tasker_launcher1_title">1. Iniciar tarefa do Gestor de tarefas</string>
     <string name="touch_tasker_launcher2_title">2. Iniciar tarefa do Gestor de tarefas</string>
@@ -709,8 +711,8 @@
     <string name="action_tracker_calorie">Calorias</string>
     <string name="action_chart_filter_activity_no">Não filtrar</string>
     <string name="action_chart_filter_activity_active">Filtrar o movimento</string>
-    <string name="action_chart_monthly_calendar">Calendar</string>
-    <string name="action_chart_monthly_compact">Compact</string>
+    <string name="action_chart_monthly_calendar">Calendário</string>
+    <string name="action_chart_monthly_compact">Compacto</string>
 
     <string name="step_tab_day">Gráficos diários</string>
     <string name="step_tab_week">Gráficos semanais</string>
@@ -944,16 +946,17 @@
     <!-- Reminder -->
     <string name="reminder_tab_once">Uma vez</string>
     <string name="reminder_tab_weekly">Semanal</string>
-    <string name="reminder_tab_calendar">Calendar</string>
+    <string name="reminder_tab_calendar">Calendário</string>
     <string name="reminder_tab_setting">@string/setting_name</string>
 
     <string name="reminder_repeat">Repetir de hora em hora</string>
     <string name="reminder_notification_shade">Notificar-me no dispositivo</string>
 
-    <string name="reminder_calendar">Calendar synchronization</string>
-    <string name="reminder_calendar_auto_sync">Automatic synchronization</string>
-    <string name="reminder_calendar_counter">The number of events to synchronize</string>
-    <string name="reminder_calendar_all_day_time">The time of all day event</string>
+    <string name="reminder_calendar">Sincronização do calendário</string>
+    <string name="reminder_calendar_auto_sync">Sincronização automática</string>
+    <string name="reminder_calendar_counter">O número de eventos a sincronizar</string>
+    <string name="reminder_calendar_all_day_time">O tempo dos eventos 24 horas</string>
+    <string name="reminder_calendar_notif_before_time">Remind me earlier than the event time</string>
 
     <string name="message_reminder_enabled">Lembrete ativado</string>
     <string name="message_reminder_disabled">Lembrete desativado</string>
@@ -1026,13 +1029,23 @@
 
     <string name="message_watch_face_upload_error">É necessário fazer a Inicialização</string>
     <string name="message_watch_face_file_error">O ficheiro da watch face não é válido</string>
+    <string name="message_watch_face_file_error_small">O ficheiro da watch face não é válido. File size is too small, use another web browser to download.</string>
+    <string name="message_watch_face_file_error_large">O ficheiro da watch face não é válido. File size is too large, use another web browser to download.</string>
 
     <string name="info_dialog_watch_face_download"><![CDATA[
         <img src="ic_file_download_outline"> <b><u>Download</u></b>
         <p>Faça o download das Watch Faces a partir dos websites.</p>
 
-        <img src="ic_action_download"> <b><u>Mover os ficheiros</u></b>
+        <img src="ic_file_replace_outline"> <b><u>Mover os ficheiros</u></b>
         <p>Se necessário, mova as Watch Faces da pasta onde as colocou para a pasta da Mi Bandage.</p>
+        ]]>
+    </string>
+
+    <string name="info_dialog_watch_face_upload"><![CDATA[
+        <img src="ic_upload"> <b><u>Upload</u></b>
+        <p>Upload the selected watch face.</p>
+        <br><img src="ic_warning"> <b><u>O ficheiro da watch face não é válido</u></b>
+        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
         ]]>
     </string>
 
@@ -1057,20 +1070,21 @@
     <string name="firmware_tab_font">Fonte</string>
     <string name="firmware_tab_resource">Recursos</string>
 
-    <string name="firmware_update_firmware_title">Update firmware</string>
-    <string name="firmware_update_font_title">Update font</string>
-    <string name="firmware_update_resource_title">Update resource</string>
+    <string name="firmware_update_firmware_title">Atualizar o firmware</string>
+    <string name="firmware_update_font_title">Atualizar uma fonte</string>
+    <string name="firmware_update_resource_title">Atualizar um recurso</string>
 
-    <string name="firmware_update_prepare">Preparing for the update…</string>
-    <string name="firmware_update_progress">Updating %1$,d%%</string>
+    <string name="firmware_update_prepare">A preparar para a atualização…</string>
+    <string name="firmware_update_progress">A atualizar %1$,d%%</string>
+    <string name="firmware_update_connecting">A conectar…</string>
 
-    <string name="firmware_update_firmware_empty_title"><![CDATA[Firmware not found
+    <string name="firmware_update_firmware_empty_title"><![CDATA[O firmware não foi encontrado
         <br><i>(%1$s)</i>
     ]]></string>
-    <string name="firmware_update_font_empty_title"><![CDATA[Font not found
+    <string name="firmware_update_font_empty_title"><![CDATA[A fonte não foi encontrada
         <br><i>(%1$s)</i>
     ]]></string>
-    <string name="firmware_update_resource_empty_title"><![CDATA[Resource not found
+    <string name="firmware_update_resource_empty_title"><![CDATA[O recurso não foi encontrado
         <br><i>(%1$s)</i>
     ]]></string>
 
@@ -1082,14 +1096,24 @@
     <string name="firmware_type_gps_cep">Correção de erro GPS</string>
     <string name="firmware_type_resource">Recursos</string>
     <string name="firmware_type_watchface">Watch face</string>
-    <string name="firmware_type_invalid">Invalid</string>
+    <string name="firmware_type_invalid">Inválido</string>
 
-    <string name="message_firmware_file_error">Invalid firmware file</string>
+    <string name="message_firmware_file_error">O ficheiro do firmware é inválido</string>
+    <string name="message_firmware_file_error_small">O ficheiro do firmware é inválido. File size is too small, use another web browser to download.</string>
+    <string name="message_firmware_file_error_large">O ficheiro do firmware é inválido. File size is too large, use another web browser to download.</string>
 
     <string name="firmware_warning"><![CDATA[Warning!
     <br><br>
-    <p>Only at your own risk! The firmware update can damage your device.</p>
-    Use only files from a trusted source.]]>
+    <p>Somente por sua conta e risco! A atualização de firmware pode danificar o seu dispositivo.</p>
+    Use apenas ficheiros de fontes confiáveis.]]>
+    </string>
+
+    <string name="info_dialog_firmware"><![CDATA[
+        <img src="ic_upload"> <b><u>Upload</u></b>
+        <p>Upload the selected firmware.</p>
+        <br><img src="ic_warning"> <b><u>O ficheiro do firmware é inválido</u></b>
+        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        ]]>
     </string>
 
     <!-- Agent -->
@@ -1257,7 +1281,7 @@
         - Nós não coletamos informação da sua saúde pessoal, contactos e texto das notificações do seu dispositivo.
     ]]></string>
 
-    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links_title">Política de privacidade dos prestadores de serviço externos</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>

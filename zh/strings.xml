@@ -131,6 +131,10 @@
     <string name="pref_text_length">文本长度 （与字体有关，比如中文和西里尔字母)</string>
     <string name="pref_text_length_summary_on">%1$,d 字</string>
 
+    <string name="mi_band_setting_menu_visible">Visible menu items</string>
+    <string name="mi_band_setting_menu_hidden">Hidden menu items</string>
+    <string name="mi_band_setting_shortcut">Shortcut items</string>
+
     <string name="pref_text_conversion_description_title">说明</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
         <p>如果你的手环目前显示来电名称正常, 则无需进行以下步骤 <i>只需在 Mi Fit 中关闭来电提示</i>.</p>
@@ -332,6 +336,7 @@
     <string name="message_alarm_mi_band_clear_failed">清除失败</string>
 
     <string name="message_premium_mode_only">此功能仅在高级模式可以</string>
+    <string name="message_premium_or_rewarded_mode_only">This feature is only available in premium or rewarded mode</string>
     <string name="message_feature_is_not_supported">%1$s 不支持这个特性</string>
     <string name="message_general_error">设置失败(连接丢失),请重试</string>
     <string name="message_internet_error">没有网络连接</string>
@@ -583,14 +588,14 @@
     <string name="touch_time_launch_restart">重新启动</string>
     <string name="touch_time_reminder_title">显示剩余时间</string>
 
+    <string name="touch_google_assistant_title">Google Assistant</string>
+
+    <string name="touch_flashlight_title">Flashlight toggle</string>
+
     <string name="touch_camera_title">拍照</string>
     <string name="touch_camera_front_title">前置摄像头</string>
     <string name="touch_camera_rear_title">后置摄像头</string>
     <string name="touch_camera_install_title">Install</string>
-
-    <string name="touch_google_assistant_title">Google Assistant</string>
-
-    <string name="touch_flashlight_title">Flashlight toggle</string>
 
     <string name="touch_app_launcher1_title">应用启动器</string>
     <string name="touch_app_launcher_package_no_title">选择应用</string>
@@ -706,14 +711,14 @@
     <string name="action_tracker_calorie">卡路里</string>
     <string name="action_chart_filter_activity_no">无过滤器</string>
     <string name="action_chart_filter_activity_active">活动过滤器</string>
+    <string name="action_chart_monthly_calendar">Calendar</string>
+    <string name="action_chart_monthly_compact">Compact</string>
 
     <string name="step_tab_day">每日图表</string>
     <string name="step_tab_week">每周图表</string>
     <string name="step_tab_month">每夜图表</string>
     <string name="step_tab_goal">活动目标</string>
     <string name="step_tab_settings">@string/setting_name</string>
-    <string name="action_chart_monthly_calendar">Calendar</string>
-    <string name="action_chart_monthly_compact">Compact</string>
 
     <string name="activity_progress_title_prepare">准备同步…</string>
     <string name="activity_progress_title_sync">数据同步 %1$,d%%</string>
@@ -942,16 +947,17 @@
     <!-- Reminder -->
     <string name="reminder_tab_once">一次</string>
     <string name="reminder_tab_weekly">每周</string>
+    <string name="reminder_tab_calendar">Calendar</string>
+    <string name="reminder_tab_setting">@string/setting_name</string>
 
     <string name="reminder_repeat">Hourly repetition</string>
     <string name="reminder_notification_shade">在手机上通知</string>
-    <string name="reminder_tab_calendar">Calendar</string>
-    <string name="reminder_tab_setting">@string/setting_name</string>
 
     <string name="reminder_calendar">Calendar synchronization</string>
     <string name="reminder_calendar_auto_sync">Automatic synchronization</string>
     <string name="reminder_calendar_counter">The number of events to synchronize</string>
     <string name="reminder_calendar_all_day_time">The time of all day event</string>
+    <string name="reminder_calendar_notif_before_time">Remind me earlier than the set time</string>
 
     <string name="message_reminder_enabled">提醒已启用</string>
     <string name="message_reminder_disabled">提醒已禁用</string>
@@ -1024,12 +1030,14 @@
 
     <string name="message_watch_face_upload_error">需要初始化</string>
     <string name="message_watch_face_file_error">无效的表盘文件</string>
+    <string name="message_watch_face_file_error_small">Invalid watch face file. File size is too small, use another web browser to download.</string>
+    <string name="message_watch_face_file_error_large">Invalid watch face file. File size is too large, use another web browser to download.</string>
 
     <string name="info_dialog_watch_face_download"><![CDATA[
         <img src="ic_file_download_outline"> <b><u>下载</u></b>
         <p>从网络下载表盘.</p>
 
-        <img src="ic_action_download"> <b><u>移动文件</u></b>
+        <img src="ic_file_replace_outline"> <b><u>移动文件</u></b>
         <p>如需要,将下载的表盘文件从下载目录移动到 MiBandage 目录.</p>
         ]]>
     </string>
@@ -1050,6 +1058,14 @@
         ]]>
     </string>
 
+    <string name="info_dialog_watch_face_upload"><![CDATA[
+        <img src="ic_upload"> <b><u>Upload</u></b>
+        <p>Upload the selected watch face.</p>
+        <br><img src="ic_warning"> <b><u>Invalid watch face file</u></b>
+        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        ]]>
+    </string>
+
     <!-- Firmware -->
     <string name="firmware_tab_firmware">固件</string>
     <string name="firmware_tab_font">字体</string>
@@ -1061,6 +1077,7 @@
 
     <string name="firmware_update_prepare">Preparing for the update…</string>
     <string name="firmware_update_progress">Updating %1$,d%%</string>
+    <string name="firmware_update_connecting">正在连接…</string>
 
     <string name="firmware_update_firmware_empty_title"><![CDATA[Firmware not found
         <br><i>(%1$s)</i>
@@ -1083,11 +1100,21 @@
     <string name="firmware_type_invalid">无效数据</string>
 
     <string name="message_firmware_file_error">Invalid firmware file</string>
+    <string name="message_firmware_file_error_small">Invalid firmware file. File size is too small, use another web browser to download.</string>
+    <string name="message_firmware_file_error_large">Invalid firmware file. File size is too large, use another web browser to download.</string>
 
     <string name="firmware_warning"><![CDATA[Warning!
     <br><br>
     <p>Only at your own risk! The firmware update can damage your device.</p>
     Use only files from a trusted source.]]>
+    </string>
+
+    <string name="info_dialog_firmware"><![CDATA[
+        <img src="ic_upload"> <b><u>Upload</u></b>
+        <p>Upload the selected firmware.</p>
+        <br><img src="ic_warning"> <b><u>Invalid firmware file</u></b>
+        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        ]]>
     </string>
 
     <!-- Agent -->

@@ -134,6 +134,7 @@
 
     <string name="mi_band_setting_menu_visible">보이는 메뉴 항목</string>
     <string name="mi_band_setting_menu_hidden">숨긴 메뉴 항목</string>
+    <string name="mi_band_setting_shortcut">Shortcut items</string>
 
     <string name="pref_text_conversion_description_title">설명</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -336,6 +337,7 @@
     <string name="message_alarm_mi_band_clear_failed">Clearing the alarm failed</string>
 
     <string name="message_premium_mode_only">이 기능은 프리미엄 모드에서만 사용 가능합니다</string>
+    <string name="message_premium_or_rewarded_mode_only">This feature is only available in premium or rewarded mode</string>
     <string name="message_feature_is_not_supported">%1$s(은)는 이 기능을 지원하지 않습니다</string>
     <string name="message_general_error">설정 실패 (연결 실패), 다시 시도하세요</string>
     <string name="message_internet_error">인터넷 연결 없음</string>
@@ -956,6 +958,7 @@
     <string name="reminder_calendar_auto_sync">Automatic synchronization</string>
     <string name="reminder_calendar_counter">The number of events to synchronize</string>
     <string name="reminder_calendar_all_day_time">The time of all day event</string>
+    <string name="reminder_calendar_notif_before_time">Remind me earlier than the event time</string>
 
     <string name="message_reminder_enabled">리마인더 enabled</string>
     <string name="message_reminder_disabled">Reminder disabled</string>
@@ -1028,12 +1031,14 @@
 
     <string name="message_watch_face_upload_error">초기화해야 합니다</string>
     <string name="message_watch_face_file_error">유효하지 않은 다스플레이 파일</string>
+    <string name="message_watch_face_file_error_small">Invalid watch face file. File size is too small, use another web browser to download.</string>
+    <string name="message_watch_face_file_error_large">Invalid watch face file. File size is too large, use another web browser to download.</string>
 
     <string name="info_dialog_watch_face_download"><![CDATA[
         <img src="ic_file_download_outline"> <b><u>다운로드</u></b>
         <p>Download watch faces from the web sites.</p>
 
-        <img src="ic_action_download"> <b><u>파일 이동</u></b>
+        <img src="ic_file_replace_outline"> <b><u>파일 이동</u></b>
         <p>필요한 경우, 다운로드한 디스플레이 파일을 Download 디렉토리에서 MiBandage 디렉토리로 이동하세요.</p>
         ]]>
     </string>
@@ -1054,6 +1059,14 @@
         ]]>
     </string>
 
+    <string name="info_dialog_watch_face_upload"><![CDATA[
+        <img src="ic_upload"> <b><u>Upload</u></b>
+        <p>Upload the selected watch face.</p>
+        <br><img src="ic_warning"> <b><u>Invalid watch face file</u></b>
+        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        ]]>
+    </string>
+
     <!-- Firmware -->
     <string name="firmware_tab_firmware">펌웨어</string>
     <string name="firmware_tab_font">글꼴</string>
@@ -1065,6 +1078,7 @@
 
     <string name="firmware_update_prepare">Preparing for the update…</string>
     <string name="firmware_update_progress">Updating %1$,d%%</string>
+    <string name="firmware_update_connecting">연결 중…</string>
 
     <string name="firmware_update_firmware_empty_title"><![CDATA[Firmware not found
         <br><i>(%1$s)</i>
@@ -1087,11 +1101,21 @@
     <string name="firmware_type_invalid">올바르지 않은 데이터</string>
 
     <string name="message_firmware_file_error">Invalid firmware file</string>
+    <string name="message_firmware_file_error_small">Invalid firmware file. File size is too small, use another web browser to download.</string>
+    <string name="message_firmware_file_error_large">Invalid firmware file. File size is too large, use another web browser to download.</string>
 
     <string name="firmware_warning"><![CDATA[Warning!
     <br><br>
     <p>Only at your own risk! The firmware update can damage your device.</p>
     Use only files from a trusted source.]]>
+    </string>
+
+    <string name="info_dialog_firmware"><![CDATA[
+        <img src="ic_upload"> <b><u>Upload</u></b>
+        <p>Upload the selected firmware.</p>
+        <br><img src="ic_warning"> <b><u>Invalid firmware file</u></b>
+        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        ]]>
     </string>
 
     <!-- Agent -->
