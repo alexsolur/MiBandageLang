@@ -8,7 +8,7 @@
     <string name="drawer_nav_notification">Benachrichtigungsanzeige</string>
     <string name="drawer_nav_touch">Beobachtung des Berührungsssensors</string>
     <string name="drawer_nav_step">Schrittzähler</string>
-    <string name="drawer_nav_sleep">Sleep</string>
+    <string name="drawer_nav_sleep">Schlaf</string>
     <string name="drawer_nav_pulse">Herzfrequenz</string>
     <string name="drawer_nav_time">Wecker &amp; Uhr</string>
     <string name="drawer_nav_reminder">Ereigniserinnerung</string>
@@ -42,7 +42,7 @@
     <!--<string name="foreground_service_disconnected">Uhrzeit der Verbindungsunterbrechung: %1$s</string>-->
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Schritte, distanz, kalorien, ziel, puls</string>
+    <string name="mi_band_tracker_title">Schritte, Distanz, Kalorien, Ziel, Puls</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
@@ -74,26 +74,26 @@
     <string name="mi_band_setting_menu_menu">Menü</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Mi Fit, Amazfit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage benötigt die offizielle Mi Fit/Amazfit-App auf demselben Gerät. Vor der Verwendung der Mi Bandage-App muss das %1$s mit der Mi Fit/Amazfit-App verbunden sein. If you want to use Mi Fit/Amazfit, choose this.</string>
-    <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Fit/Amazfit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit/Amazfit app or unpair your device. When restoring the Mi Fit/Amazfit cooperation, you will need to re-pair your %1$s in the Mi Fit/Amazfit application.</string>
-    <string name="mi_band_setting_auth_key_title">Set authentication key</string>
-    <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage benötigt die offizielle Mi Fit/Amazfit-App auf demselben Gerät. Vor der Verwendung der Mi Bandage-App muss das %1$s mit der Mi Fit/Amazfit-App verbunden sein. Wenn Sie Mi Fit/Amazfit verwenden wollen, wählen Sie dieses aus.</string>
+    <string name="mi_band_setting_auth_standalone">Eigenständig</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit/Amazfit App wird nicht benötigt, damit Mi Bandage funktioniert. Nach der Kopplung, deinstallieren Sie die Mi Fit/Amazfit App oder entkoppeln Sie Ihr Gerät. Wenn die Zusammenarbeit mit Mi Fit/Amazfit wiederhergestellt werden soll, müssen Sie %1$s in der Mi Fit/Amazfit App erneut koppeln.</string>
+    <string name="mi_band_setting_auth_key_title">Den Authentifizierung Schlüssel</string>
+    <string name="mi_band_setting_auth_key_hint">Für den eigenständigen Modus muss ein Authentifizierung Schlüssel bereitgestellt werden.</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <p>- Unpair %1$s in the official Mi Fit/Amazfit app</p>
-        <p>- Uninstall the official Mi Fit/Amazfit app</p>
-        <p>- Download and install the modified Mi Fit/Amazfit app</p>
-        <p>- Pair the %1$s in the modified Mi Fit/Amazfit app (do not unpair)</p>
-        <p>- Uninstall the modified Mi Fit/Amazfit app</p>
-        Authentication key can be found at: internal storage/freemyband/mac address.txt
+        <p>- %1$s in der offiziellen Mi Fit/Amazfit App entkoppeln</p>
+        <p>- In der offiziellen Mi Fit/Amazfit App deinstallieren</p>
+        <p>- Die modifizierte Mi Fit/Amazfit App herunterladen und installieren</p>
+        <p>- %1$s in der modifizierten Mi Fit/Amazfit App koppeln (nicht entkoppeln)</p>
+        <p>- Die modifizierte Mi Fit/Amazfit App deinstallieren</p>
+        Der Authentifizierungs Schlüssel kann hier gefunden werden: interner Speicher/freemyband/mac address.txt
     ]]></string>
-    <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth_key">Authentifizierungs Schlüssel</string>
     <string name="mi_band_setting_auth">Koppeln</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
-    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
-    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
-    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
+    <string name="message_mi_band_setting_auth_press_band_button">Drücken Sie den %1$s Knopf zum Koppeln</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s erfolgreich gekoppelt</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s Kopplung fehlgeschlagen</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Ungültiger Authentifizierungs Schlüssel</string>
 
     <string name="mi_band_setting_nickname">Spitzname</string>
     <string name="mi_band_setting_gender">Geschlecht</string>
@@ -116,13 +116,13 @@
     <string name="mi_band_setting_idle_alert_dnd">Bitte nicht stören</string>
     <string name="mi_band_setting_night_mode">Nachtmodus</string>
 
-    <string name="mi_band_setting_discoverable">Discoverable</string>
+    <string name="mi_band_setting_discoverable">Sichtbar</string>
 
     <string name="pref_text_title">Textembleme</string>
     <string name="pref_text_conversion_summary">Einstellungen zu den Textemblemen des Mi Bands 2</string>
     <string name="pref_cat_text_conversion">%1$s Signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Buchstabenumwandlung</string>
-    <string name="pref_text_conversion_summary_on">Nicht erkennbare Buchstabenumwandlung, turn off if the Band supports your language or you have installed custom font firmware</string>
+    <string name="pref_text_conversion_summary_on">Nicht erkennbare Buchstabenumwandlung, ausschalten wenn das Band Ihre Sprache unterstützt oder Sie eine benutzerdefinierte Schrift Firmware installiert haben</string>
     <string name="pref_text_conversion_excluded_title">Ausgeschlossene Zeichen</string>
     <string name="pref_text_emoticon_title">Emoji Konvertierung</string>
     <string name="pref_text_emoticon_summary_on">Konvertiere Emoji in Emoticon</string>
@@ -133,6 +133,7 @@
 
     <string name="mi_band_setting_menu_visible">Sichtbare Menüpunkte</string>
     <string name="mi_band_setting_menu_hidden">Versteckte Menüpunkte</string>
+    <string name="mi_band_setting_shortcut">Shortcut items</string>
 
     <string name="pref_text_conversion_description_title">Beschreibung</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -141,10 +142,10 @@
         <br/>1. Ändern Sie ihre Spracheinstellungen auf Englisch.
         <br/>2. Öffnen Sie die Mi Fit-App und warten Sie bis das Firmware-Update beendet ist. Falls das Firmware-Update nicht startet, versuchen Sie es mit einem Neustart.
         <br/>3. Öffnen Sie das <i>Profile/Mi Band/Incoming call</i> Menü.
-        <br/>4. Aktivieren Sie: <i>Turn on incoming call alerts</i>.
-        <br/>5. Aktivieren Sie: <i>Show contact information</i>.
+        <br/>4. Aktivieren Sie: <i>Alarm für ingehende Anrufe einschalten</i>.
+        <br/>5. Aktivieren Sie: <i>Kontakt Information anzeigen</i>.
         <br/>6. Kontrollieren Sie, ob das Band die Telefonnummer des Anrufers anzeigt, indem Sie ihr Telefon anrufen.
-        <br/>7. Deaktivieren Sie: <i>Turn on incoming call alerts</i> (<i>Show contact information</i> bleibt aktiviert).
+        <br/>7. Deaktivieren Sie: <i>Alarm für ingehende Anrufe einschalten</i> (<i>Kontakt Information anzeigen</i> bleibt aktiviert).
         <br/>8. Ändern Sie ihre Spracheinstellungen auf Ihre Sprache.</p>]]>
     </string>
 
@@ -330,11 +331,12 @@
     <string name="message_time_alarm_disabled">Alarm deaktiviert</string>
     <string name="message_time_alarm_mi_band_off">Alarm off</string>
 
-    <string name="message_alarm_free_interval">Kleinerer Wiederholngsintervall kann nur im Premium-Modus eingestellt werden.</string>
+    <string name="message_alarm_free_interval">Kleineres Wiederholungsintervall kann nur im Premium-Modus eingestellt werden.</string>
     <string name="message_alarm_mi_band_set_failed">Einstellen des Weckers fehlgeschlagen</string>
     <string name="message_alarm_mi_band_clear_failed">Löschen des Weckers fehlgeschlagen</string>
 
     <string name="message_premium_mode_only">Dieses Feature ist nur im Premium-Modus verfügbar.</string>
+    <string name="message_premium_or_rewarded_mode_only">This feature is only available in premium or rewarded mode</string>
     <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
     <string name="message_general_error">Einstellen fehlgeschlagen (Verbindung unterbrochen), versuchen Sie es erneut.</string>
     <string name="message_internet_error">Sie haben keine Internetverbindung</string>
@@ -627,7 +629,7 @@
 
     <string name="touch_setting_recognition_start_title">Start touch recognition</string>
     <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
-    <string name="touch_setting_recognition_time_title">Recognition time</string>
+    <string name="touch_setting_recognition_time_title">Erkennungs Zime</string>
 
     <string name="touch_setting_recognition_mi_band_signal_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="touch_setting_recognition_succeeded_title">Erkennbares Touch-Muster-Signal</string>
@@ -722,7 +724,7 @@
     <string name="activity_progress_title_save">Daten werden gespeichert (%2$s) %1$,d%%</string>
 
     <string name="step_title_timing">Timing</string>
-    <string name="step_interval_title">Wiederholungsintervall der Schrittebeobachtung</string>
+    <string name="step_interval_title">Wiederholungsintervall der Schritt Beobachtung</string>
     <string name="step_time_set_next">Timing der nächsten Beobachtung</string>
 
     <string name="step_goal_default_title">Standard-Ziel</string>
@@ -922,9 +924,9 @@
 
     <string name="time_enable_bluetooth">Aktiviere Bluetooth</string>
 
-    <string name="action_time_alarm_sort_state_asc">State ascending</string>
-    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
-    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+    <string name="action_time_alarm_sort_state_asc">Status aufsteigend</string>
+    <string name="action_time_alarm_sort_watch_asc">Uhr aufsteigend</string>
+    <string name="action_time_alarm_sort_name_asc">Name aufsteigend</string>
 
     <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
@@ -954,6 +956,7 @@
     <string name="reminder_calendar_auto_sync">Automatische Synchronisation</string>
     <string name="reminder_calendar_counter">Anzahl der Ereignisse für die Synchronisation</string>
     <string name="reminder_calendar_all_day_time">Die Zeit für ein ganztägiges Ereignis</string>
+    <string name="reminder_calendar_notif_before_time">Remind me earlier than the event time</string>
 
     <string name="message_reminder_enabled">Erinnerung aktiviert</string>
     <string name="message_reminder_disabled">Erinnerung deaktiviert</string>
@@ -1026,12 +1029,14 @@
 
     <string name="message_watch_face_upload_error">Initialization is required</string>
     <string name="message_watch_face_file_error">Invalid watch face file</string>
+    <string name="message_watch_face_file_error_small">Invalid watch face file. File size is too small, use another web browser to download.</string>
+    <string name="message_watch_face_file_error_large">Invalid watch face file. File size is too large, use another web browser to download.</string>
 
     <string name="info_dialog_watch_face_download"><![CDATA[
         <img src="ic_file_download_outline"> <b><u>Download</u></b>
         <p>Download watch faces from the web sites.</p>
 
-        <img src="ic_action_download"> <b><u>Move the files</u></b>
+        <img src="ic_file_replace_outline"> <b><u>Move the files</u></b>
         <p>If necessary, move the downloaded watch face files from the Download directory to the MiBandage directory.</p>
         ]]>
     </string>
@@ -1052,44 +1057,63 @@
         ]]>
     </string>
 
+    <string name="info_dialog_watch_face_upload"><![CDATA[
+        <img src="ic_upload"> <b><u>Upload</u></b>
+        <p>Upload the selected watch face.</p>
+        <br><img src="ic_warning"> <b><u>Invalid watch face file</u></b>
+        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        ]]>
+    </string>
+
     <!-- Firmware -->
     <string name="firmware_tab_firmware">Firmware</string>
     <string name="firmware_tab_font">Schriftart</string>
     <string name="firmware_tab_resource">Quellen</string>
 
-    <string name="firmware_update_firmware_title">Update firmware</string>
-    <string name="firmware_update_font_title">Update font</string>
-    <string name="firmware_update_resource_title">Update resource</string>
+    <string name="firmware_update_firmware_title">Aktualisierung Firmware</string>
+    <string name="firmware_update_font_title">Aktualisierung Schrift</string>
+    <string name="firmware_update_resource_title">Aktualisierung resource</string>
 
-    <string name="firmware_update_prepare">Preparing for the update…</string>
-    <string name="firmware_update_progress">Updating %1$,d%%</string>
+    <string name="firmware_update_prepare">Bereite Aktualisierung vor…</string>
+    <string name="firmware_update_progress">Aktualisierung %1$,d%%</string>
+    <string name="firmware_update_connecting">Verbinden…</string>
 
-    <string name="firmware_update_firmware_empty_title"><![CDATA[Firmware not found
+    <string name="firmware_update_firmware_empty_title"><![CDATA[Firmware nicht gefunden
         <br><i>(%1$s)</i>
     ]]></string>
-    <string name="firmware_update_font_empty_title"><![CDATA[Font not found
+    <string name="firmware_update_font_empty_title"><![CDATA[Font nicht gefunden
         <br><i>(%1$s)</i>
     ]]></string>
-    <string name="firmware_update_resource_empty_title"><![CDATA[Resource not found
+    <string name="firmware_update_resource_empty_title"><![CDATA[Resource nicht gefunden
         <br><i>(%1$s)</i>
     ]]></string>
 
     <string name="firmware_type_firmware">Firmware</string>
     <string name="firmware_type_font">Schriftart</string>
-    <string name="firmware_type_font_latin">Schriftart latin</string>
+    <string name="firmware_type_font_latin">Schriftart Latin</string>
     <string name="firmware_type_gps">GPS Firmware</string>
     <string name="firmware_type_gps_almanac">GPS Almanac</string>
-    <string name="firmware_type_gps_cep">GPS Error Correction</string>
+    <string name="firmware_type_gps_cep">GPS Fehler Korrektur</string>
     <string name="firmware_type_resource">Quellen</string>
     <string name="firmware_type_watchface">Watch face</string>
     <string name="firmware_type_invalid">Invalid</string>
 
     <string name="message_firmware_file_error">Invalid firmware file</string>
+    <string name="message_firmware_file_error_small">Invalid firmware file. File size is too small, use another web browser to download.</string>
+    <string name="message_firmware_file_error_large">Invalid firmware file. File size is too large, use another web browser to download.</string>
 
     <string name="firmware_warning"><![CDATA[Warning!
     <br><br>
     <p>Only at your own risk! The firmware update can damage your device.</p>
     Use only files from a trusted source.]]>
+    </string>
+
+    <string name="info_dialog_firmware"><![CDATA[
+        <img src="ic_upload"> <b><u>Upload</u></b>
+        <p>Upload the selected firmware.</p>
+        <br><img src="ic_warning"> <b><u>Invalid firmware file</u></b>
+        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        ]]>
     </string>
 
     <!-- Agent -->
@@ -1143,8 +1167,8 @@
     <string name="backup_tab_restore">Wiederherstellen</string>
     <string name="backup_tab_cloud">Cloud-Dienst</string>
 
-    <string name="backup_time">Backup time</string>
-    <string name="backup_path">Backup location</string>
+    <string name="backup_time">Backup Zeit</string>
+    <string name="backup_path">Backup Speicherort</string>
     <string name="backup_auto">Automatische Sicherung</string>
     <string name="backup_auto_time">Zeit</string>
 
@@ -1172,12 +1196,12 @@
     <string name="backup_restore_disconnected_agent">Agent</string>
     <string name="backup_restore_settings">@string/settings_name</string>
 
-    <string name="backup_restore_reset">After restoring, Bluetooth will be turning off and on and the application will restart.</string>
+    <string name="backup_restore_reset">Nach der Wiederherstellung schaltet sich Bluetooth aus und die App startet neu.</string>
 
-    <string name="backup_cloud_drive_login">Google Drive sign in</string>
-    <string name="backup_cloud_drive_logout">Google Drive sign out</string>
+    <string name="backup_cloud_drive_login">Google Drive einloggen</string>
+    <string name="backup_cloud_drive_logout">Google Drive ausloggen</string>
     <string name="backup_cloud_sync_time">Zeit hochladen</string>
-    <string name="backup_cloud_only_wifi">Over wi-fi only</string>
+    <string name="backup_cloud_only_wifi">Nur über WLAN</string>
 
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Geschäftsbedingungen des Belohnungsmodus</string>
@@ -1220,12 +1244,12 @@
     ]]></string>
 
     <!--<string name="purchase_price">Preis:</string>-->
-    <string name="purchase_agree">Ich aktzeptiere die Geschäftsbedingungen.</string>
+    <string name="purchase_agree">Ich akzeptiere die Geschäftsbedingungen.</string>
     <string name="purchase_order_id">Bestellungs-ID</string>
     <string name="purchase_order_id_help">Kopie von:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
-    <string name="purchase_button_purchase">Purchase</string>
+    <string name="purchase_button_purchase">Kauf</string>
 
     <string name="text_premium_mode_only">Nur im Premium-Modus verfügbar</string>
 
@@ -1233,10 +1257,10 @@
     <string name="action_log_notification">Log</string>
 
     <string name="feedback_google_play_title">App bewerten</string>
-    <string name="feedback_request_feature_title">Forderungen stellen, Bugs melden</string>
+    <string name="feedback_request_feature_title">Vorschläge machen, Bugs melden</string>
     <string name="feedback_request_feature_summary">Aufgrund der automatischen Verarbeitung der E-Mails erhalten Sie keine Antwort.</string>
-    <string name="feedback_translation_title">Mi Bandage translation</string>
-    <string name="feedback_translation_title_summary">Please help in translation</string>
+    <string name="feedback_translation_title">Mi Bandage Übersetzung</string>
+    <string name="feedback_translation_title_summary">Bitte bei der Übersetzung mithelfen</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Datenschutz-Bestimmungen</string>
@@ -1266,8 +1290,8 @@
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">Status</string>
-    <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Personalisierte, zutreffendere Werbung</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Nicht personalisierte, weniger zutreffende Werbung</string>
     <string name="privacy_policy_eu_consent_title_unknown">Unbekannte</string>
 
     <string name="privacy_policy_eu_consent_setting">Einstellung</string>
@@ -1282,7 +1306,7 @@
     <string name="custom_vibration_title">Vibrationseinstellungen</string>
     <string name="custom_vibration">Vibration</string>
     <string name="custom_vibration_edit">Bearbeiten</string>
-    <string name="custom_vibration_hint">Tap to vibrate</string>
+    <string name="custom_vibration_hint">Tip für Vibration</string>
     <string name="custom_vibration_new">Erneut aufnehmen</string>
 
     <!-- Hack -->
@@ -1319,7 +1343,7 @@
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
     <string name="action_launch_amazfit">Amazfit</string>
-    <string name="action_save">Sparen</string>
+    <string name="action_save">Speichern</string>
     <string name="action_test">Test</string>
     <string name="action_discard">Verwerfen</string>
     <string name="action_keep_editing">Weiter bearbeiten</string>
@@ -1328,16 +1352,16 @@
     <string name="synchronized_from_watch">von der Uhr synchronisiert</string>
 
     <string name="action_chart">Diagramm</string>
-    <string name="action_chart_normalize_minute">Measured values</string>
-    <string name="action_chart_normalize_quarter_hourly">Quarter-hourly values</string>
-    <string name="action_chart_normalize_half_hourly">Half-hourly values</string>
-    <string name="action_chart_normalize_hourly">Hourly average</string>
-    <string name="action_chart_sort_time_asc">Time ascending</string>
-    <string name="action_chart_sort_time_desc">Time descending</string>
-    <string name="action_chart_sort_step_asc">Step ascending</string>
-    <string name="action_chart_sort_step_desc">Step descending</string>
-    <string name="action_chart_sort_pulse_asc">Pulse ascending</string>
-    <string name="action_chart_sort_pulse_desc">Pulse descending</string>
+    <string name="action_chart_normalize_minute">Gemessene Werte</string>
+    <string name="action_chart_normalize_quarter_hourly">Viertelstündliche Werte</string>
+    <string name="action_chart_normalize_half_hourly">Halbstündliche Werte</string>
+    <string name="action_chart_normalize_hourly">Stündliche Werte</string>
+    <string name="action_chart_sort_time_asc">Zeit aufsteigend</string>
+    <string name="action_chart_sort_time_desc">Zeit absteigend</string>
+    <string name="action_chart_sort_step_asc">Schritte aufsteigend</string>
+    <string name="action_chart_sort_step_desc">Schritte absteigend</string>
+    <string name="action_chart_sort_pulse_asc">Puls aufsteigend</string>
+    <string name="action_chart_sort_pulse_desc">Puls absteigend</string>
     <string name="action_chart_sort_lap_asc">Lap ascending</string>
     <string name="action_chart_sort_lap_desc">Lap descending</string>
 

@@ -14,7 +14,7 @@
     <string name="drawer_nav_reminder">Напоминания</string>
     <string name="drawer_nav_weather">Погода</string>
     <string name="drawer_nav_watch_face">Циферблат</string>
-    <string name="drawer_nav_firmware">Firmware</string>
+    <string name="drawer_nav_firmware">Прошивка</string>
     <string name="drawer_nav_alarm">Отсоединён</string>
     <string name="drawer_nav_disconnected_agent">Лог действий</string>
     <string name="drawer_nav_theme">Настройки темы</string>
@@ -133,6 +133,7 @@
 
     <string name="mi_band_setting_menu_visible">Отображаемые элементы меню</string>
     <string name="mi_band_setting_menu_hidden">Скрытые элементы меню</string>
+    <string name="mi_band_setting_shortcut">Быстрые элементы</string>
 
     <string name="pref_text_conversion_description_title">Описание</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -335,6 +336,7 @@
     <string name="message_alarm_mi_band_clear_failed">Не удалось удалить будильник</string>
 
     <string name="message_premium_mode_only">Эта функция доступна только в премиуме</string>
+    <string name="message_premium_or_rewarded_mode_only">Эта функция доступна только в премиуме или бонусном режиме</string>
     <string name="message_feature_is_not_supported">%1$s не поддерживает данную функцию</string>
     <string name="message_general_error">Ошибка (соединение потеряно), попробуйте снова</string>
     <string name="message_internet_error">Нет подключения к Интернету</string>
@@ -345,7 +347,7 @@
 
     <string name="message_new_message">Получено новое сообщение, просмотрите на телефоне.</string>
 
-    <string name="message_invalid_file">Invalid file</string>
+    <string name="message_invalid_file">Неверный файл</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Добро пожаловать!</string>
@@ -955,6 +957,7 @@
     <string name="reminder_calendar_auto_sync">Автоматическая</string>
     <string name="reminder_calendar_counter">Количество событий</string>
     <string name="reminder_calendar_all_day_time">Время событий на весь день</string>
+    <string name="reminder_calendar_notif_before_time">Предупредить заранее</string>
 
     <string name="message_reminder_enabled">Напоминание включено</string>
     <string name="message_reminder_disabled">Напоминание отключено</string>
@@ -1027,12 +1030,14 @@
 
     <string name="message_watch_face_upload_error">Необходима подготовка к работе</string>
     <string name="message_watch_face_file_error">Некорректный файл циферблата</string>
+    <string name="message_watch_face_file_error_small">Некорректный файл циферблата. Файл слишком маленький, используйте другой браузер для загрузки.</string>
+    <string name="message_watch_face_file_error_large">Некорректный файл циферблата. Файл слишком большой, используйте другой браузер для загрузки.</string>
 
     <string name="info_dialog_watch_face_download"><![CDATA[
         <img src="ic_file_download_outline"> <b><u>Загрузка</u></b>
         <p>Загрузите циферблат на устройство.</p>
 
-        <img src="ic_action_download"> <b><u>Поместите в нужную директорию</u></b>
+        <img src="ic_file_replace_outline"> <b><u>Поместите в нужную директорию</u></b>
         <p>Поместите циферблат в директорию MiBandage.</p>
         ]]>
     </string>
@@ -1053,45 +1058,64 @@
         ]]>
     </string>
 
+    <string name="info_dialog_watch_face_upload"><![CDATA[
+        <img src="ic_upload"> <b><u>Установка</u></b>
+        <p>Загрузить выбранный циферблат.</p>
+        <br><img src="ic_warning"> <b><u>Некорректный файл циферблата</u></b>
+        <p>Браузер по умолчанию не всегда корректно загружает файлы. Попробуйте использовать другой (Google Chrome, например).</p>
+        ]]>
+    </string>
+
     <!-- Firmware -->
-    <string name="firmware_tab_firmware">Firmware</string>
-    <string name="firmware_tab_font">Font</string>
-    <string name="firmware_tab_resource">Resource</string>
+    <string name="firmware_tab_firmware">Прошивка</string>
+    <string name="firmware_tab_font">Шрифт</string>
+    <string name="firmware_tab_resource">Ресурсы</string>
 
 
-    <string name="firmware_update_firmware_title">Update firmware</string>
-    <string name="firmware_update_font_title">Update font</string>
-    <string name="firmware_update_resource_title">Update resource</string>
+    <string name="firmware_update_firmware_title">Обновить прошивку</string>
+    <string name="firmware_update_font_title">Обновить шрифт</string>
+    <string name="firmware_update_resource_title">Обновить ресурсы</string>
 
-    <string name="firmware_update_prepare">Preparing for the update…</string>
-    <string name="firmware_update_progress">Updating %1$,d%%</string>
+    <string name="firmware_update_prepare">Подготовка к обновлению…</string>
+    <string name="firmware_update_progress">Обновление %1$,d%%</string>
+    <string name="firmware_update_connecting">Соединение…</string>
 
-    <string name="firmware_update_firmware_empty_title"><![CDATA[Firmware not found
+    <string name="firmware_update_firmware_empty_title"><![CDATA[Прошивка не найдена
         <br><i>(%1$s)</i>
     ]]></string>
-    <string name="firmware_update_font_empty_title"><![CDATA[Font not found
+    <string name="firmware_update_font_empty_title"><![CDATA[Шрифт не найден
         <br><i>(%1$s)</i>
     ]]></string>
-    <string name="firmware_update_resource_empty_title"><![CDATA[Resource not found
+    <string name="firmware_update_resource_empty_title"><![CDATA[Ресурсы не найдены
         <br><i>(%1$s)</i>
     ]]></string>
 
-    <string name="firmware_type_firmware">Firmware</string>
-    <string name="firmware_type_font">Font</string>
-    <string name="firmware_type_font_latin">Font latin</string>
-    <string name="firmware_type_gps">GPS Firmware</string>
-    <string name="firmware_type_gps_almanac">GPS Almanac</string>
-    <string name="firmware_type_gps_cep">GPS Error Correction</string>
-    <string name="firmware_type_resource">Resource</string>
-    <string name="firmware_type_watchface">Watch face</string>
-    <string name="firmware_type_invalid">Invalid</string>
+    <string name="firmware_type_firmware">Прошивка</string>
+    <string name="firmware_type_font">Шрифт</string>
+    <string name="firmware_type_font_latin">Шрифт латиницы</string>
+    <string name="firmware_type_gps">Прошивка GPS</string>
+    <string name="firmware_type_gps_almanac">Альманах GPS</string>
+    <string name="firmware_type_gps_cep">Ошибка подключения GPS</string>
+    <string name="firmware_type_resource">Ресурс</string>
+    <string name="firmware_type_watchface">Циферблат</string>
+    <string name="firmware_type_invalid">Неверный</string>
 
-    <string name="message_firmware_file_error">Invalid firmware file</string>
+    <string name="message_firmware_file_error">Неверный файл прошивки</string>
+    <string name="message_firmware_file_error_small">Неверный файл прошивки. Файл слишком маленький, используйте другой браузер для загрузки.</string>
+    <string name="message_firmware_file_error_large">Неверный файл прошивки. Файл слишком большой, используйте другой браузер для загрузки.</string>
 
-    <string name="firmware_warning"><![CDATA[Warning!
+    <string name="firmware_warning"><![CDATA[Внимание!
     <br><br>
-    <p>Only at your own risk! The firmware update can damage your device.</p>
-    Use only files from a trusted source.]]>
+    <p>Только на собственный риск! Обновление прошивки может повредить ваше устройство.</p>
+    Устанавливайте файлы только из проверенных источников.]]>
+    </string>
+
+    <string name="info_dialog_firmware"><![CDATA[
+        <img src="ic_upload"> <b><u>Загрузка</u></b>
+        <p>Загрузить выбранную прошивку.</p>
+        <br><img src="ic_warning"> <b><u>Неверный файл прошивки</u></b>
+        <p>Браузер по умолчанию не всегда корректно загружает файлы. Попробуйте использовать другой (Google Chrome, например).</p>
+        ]]>
     </string>
 
     <!-- Agent -->

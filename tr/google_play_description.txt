@@ -1,25 +1,21 @@
-Desteklenen Cihazlar:<b>
-- Xiaomi Mi Band 3
-- Xiaomi Mi Band 2
-- Xiaomi Mi Band HRX
-- Amazfit Bip (Pace Lite Youth)
-- Amazfit Band 2 (A1713)
-- Amazfit Cor (MiDong)
-- Amazfit Arc
-</b>
+<b>Desteklenen Cihazlar</b>
++ Mi Band 4, Mi Band 3, Mi Band 2, Mi Band HRX
++ Amazfit GTS, Amazfit GTR, Amazfit Verge Lite, Amazfit Bip, Amazfit Bip Lite, Amazfit Band 2, Amazfit Cor (MiDong), Amazfit Arc
 
-<b>MIUI kullanıcılarına:</b>
+Bu uygulama orijinal Mi Fit / Amazfit uygulamasıyla veya onsuz çalışır (ancak Xiaomi / Huami ile hiçbir bağlantımız yoktur).
+
+<b>MIUI kullanıcılarına</b>
 - Son uygulamalar ekranı: Mi bandage uygulamasını kilitleyin (uygulamayı çekin ve kilit simgesini tıklayın).
 - Güvenlik uygulaması ekranı: pil / uygulama pil tasarruf cihazı Mi Bandage uygulamasını kısıtlamayı ayarlamayın.
 - Mi Band2, Amazfit Bip, Amazfit Cor bulunamazsa veya Mi Fit uygulamasını senkronize ederken sorun yaşarsanız, BToolkit, nRF Connect veya benzeri bir Bluetooth yöneticisi uygulamasını kurun ve tüm eşleştirmeleri kaldırıp tekrar deneyin.
  
-<b>Başlıca Özellikler:</b>
+<b>Başlıca Özellikler</b>
 - Bileklik kalan şarj ve tahmini bitiş süresini gösterir
 - Gelen telefon çağrılarını ve arayan kimliğini türkçe karekter sorunu olmadan gösterir
 - Cevapsız telefon çağrılarını ve arayan kimliğini gösterir
 - Uygulama bildirimlerini ve içeriğini gösterir
 
-<b>Mi Band/Amazfit bağlanınca:</b>
+<b>Mi Band/Amazfit bağlanınca</b>
 - Telefon zil sesini değiştirebilir
 &#8226; bekleyen bildirim yoksa
 - Band titreşim verebilir
@@ -32,17 +28,17 @@ Desteklenen Cihazlar:<b>
 - Sadece ekran kapalıyken bildirim gelmesini sağlayabilirsiniz
 - Sürekli bildirim gelmesini sağlaya bilir veya engeleye bilirsiniz
 
-<b>Mi Band/Amazfit bağlantı kopunca:</b>
+<b>Mi Band/Amazfit bağlantı kopunca</b>
 - Titreşimle ve simge ile uyarabilir
 - Telefonda zil çaldırabilir, tetreşim verip ekranı açabilirsiniz
 - Zil sesi yüksekliğini değiştirebilirsiniz
 - Cihaz izleyici ile: uzakta olduğunuzda telefonla oynamış biri varsa bu bilebilirsiniz
 
-<b>Bildirim izleme:</b>
+<b>Bildirim izleme</b>
 - Birbirine karışmayan uygulamaya özel bildirimler almanızı sağlar
 - Bilekliklte uygulama ve içeriği görüntüleyebilirsiniz
 
-<b>Dokunma izleme (bileklikteki dokunma tuşunu kullanarak):</b>
+<b>Dokunma izleme (bileklikteki dokunma tuşunu kullanarak)</b>
 - Çağrıyı cevaplayabilme, dıştan konuşmayı açarak yapabilirsiniz (tüm cihazlar destekleyemeyebilir)
 - Çağrıyı reddetme, sonlandırma (tüm cihazlar destekleyemeyebilir)
 - Çağrıyı sessize alma 
@@ -53,31 +49,41 @@ Desteklenen Cihazlar:<b>
 - Uygulama başlatabileme
 - Tasker görevlerini başlatabilme
 
-<b>Adım izleyici:</b>
+<b>Hava Durumu Tahmini</b>
+- OpenWeatherMap
+- AccuWeather
+- Dark Sky
+
+<b>Watch face upload</b>
+
+<b>Firmware update</b>
+
+<b>Adım izleyici</b>
 - Günlük/haftalık/aylık grafikler: değerleri anlaşılır şekilde takip edebilirsiniz
 - Kendi hedeflerinizi girip takip edebilirsiniz
 
-<b>Uyku izleyici:</b>
+<b>Uyku izleyici</b>
 - Günlük grafik: değerleri anlaşılır şekilde takip edebilirsiniz
  
-<b>Nabız izleyici:</b>
+<b>Nabız izleyici</b>
 - Sürekli ölçüm için kendinize özgü ayarlar yapıp anlık değeri, yüksek ve düşük uyarıları takip edebilirsiniz
 - O anki nabız ölçümü yapabilirsiniz
 - ve bunları günlük/haftalık/aylık anlaşılır grafiklerle takip edebilirsiniz
 
-<b>Alarm/süre izleme:</b>
+<b>Alarm/süre izleme</b>
 - Telefon alarmını kullanarak bildirim gönderebilirsiniz
 - Kendi alarm tanımlarını yapabilirsiniz
 - Kronometre: alarm türü, hatırlatma, kalan süre nin bileklikte gösterir
 - Tur süresi ölçer: alarm type, hatırlatma, geçen süre, tur takibi, tur süresinin bileklikte gösterir
 - Süresi ölçer: zaman aralıkları belirleyebilirsiniz
 
-<b>Kayıp izleme:</b>
-- Bileklikte bildirim: belirlenen süre aşımında bilekliğinizde uyarı verdirebilme
-- Telefonda bildirim: belirtilen süre dolduğunda, telefon bilekliğe bağlı değilse tekrar tekrar uyarı gönderir. Bu, telefonu daha kolay bulmanızı sağlar.
-
-<b>İzleme kayıtları:</b> 
-- Aygıt izleme aracı tarafından algılanan olayları görüntüleyebilirsiniz.
+<b>Kayıp izleme</b>
+- Bileklikte bildirim
+- Telefonda bildirim
 
 Uygulamanın desteklediği diller (Eğer başka bir dili tercüme etmek isterseniz lütfen bana e-posta gönderin):
-Turkish (Mustafa EZDEMİR (Güncel çeviri), Fatih GÜL)
+- Turkish (Mustafa EZDEMİR (Güncel çeviri), Fatih GÜL)
+
+<b>Desteklenen Cihazlar</b>
++ Xiaomi Mi Band 4, Xiaomi Mi Band 3, Xiaomi Mi Band 2, Xiaomi Mi Band HRX
++ Amazfit GTS, Amazfit GTR, Amazfit Verge Lite, Amazfit Bip, Amazfit Bip Lite, Amazfit Band 2 (A1713), Amazfit Cor (MiDong), Amazfit Arc (A1603)

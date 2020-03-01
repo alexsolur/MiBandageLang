@@ -1,48 +1,69 @@
-Unterstützte Geräte:<b>
-- Xiaomi Mi Band 3
-- Xiaomi Mi Band 2
-- Xiaomi Mi Band HRX
-- Amazfit Bip (Pace Lite Youth)
-- Amazfit Band 2 (A1713)
-- Amazfit Cor (MiDong)
-- Amazfit Arc
-</b>
+<b>Unterstützte Geräte</b>
++ Mi Band 4, Mi Band 3, Mi Band 2, Mi Band HRX
++ Amazfit GTS, Amazfit GTR, Amazfit Verge Lite, Amazfit Bip, Amazfit Bip Lite, Amazfit Band 2, Amazfit Cor (MiDong), Amazfit Arc
 
-Zuerst müssen Sie Xiaomi Mi Band2, Amazfit Bip, Amazfit Cor in Mi Fit App paaren, dann können Sie Mi Bandage benutzen.
+Diese App arbeitet mit und ohne Original Mi Fit/Amazfit App (aber wir haben keine Zugehörigkeit zu Xiaomi/Huami).
 
-<b>MIUI users: Wenn Mi Band2/Amazfit nicht gefunden wurde oder wenn Sie ein Problem mit der Synchronisierung von Mi Fit App haben, dann installieren Sie die BToolkit, nRF Connect oder eine ähnliche Bluetooth-Manager-Anwendung und entfernen Sie bestehende Paarungen.</b>
+<b>Wenn Sie ein Verbindungsproblem haben</b>
+- recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon)
+- deaktivieren Sie in den Einstellungen die Batterie Optimierung: stellen Sie Mi Bandage auf nicht optimiert ein
+- enable settings/theme/notification shade
 
-<b>Funktionen:</b>
-- Mi Band2/Amazfit paaren (wenn Sie ein Problem mit Mi fit Bildschirm aufschließen Funktion hatten)
-- Batteriezustand zeigen
-- letzte Verbindungszeit zeigen
-- letzte Unterbrechungszeit zeigen
-- eingehendes Anrufsignal mit der Anruferanzeige und automatische Charakterkonvertierung auf Mi Band2/Amazfit
-- Signal für verpasste Anrufe mit Anruferanzeige auf Mi Band2/Amazfit
-- zeigt die Benachrichtigungstexte des Apps auf Mi Band2/Amazfit an
+<b>Wenn das Problem bestehen bleibt</b>
+- starten Sie ihr Telefon neu
+- schreiben Sie uns eine Email
 
-<b>Verbindung Funktionen von Band:</b>
+<b>Schlüsselfunktionen</b>
+- Zusammenarbeit mit Mi Fit oder unabhängiger Modus
+- zeige Batterie Status und erwartete Restlaufzeit
+- Anzeige von eingehenden Anrufen mit Anzeige des Anrufers
+- Anzeige von verpassten Anrufen
+- eingehende Anrufe annehmen, ablehnen und stumm schalten
+- automatische Zeichen Konvertierung
+- Anzeige der Benachrichtigungstexte auf dem Band
+- Anzeige der meist verwendeten Emoticons
+
+<b>Mi Band/Amazfit Verbindungs Funktionen</b>
+ - Lautstärke ändern
+ - Band vibriert
+ - device screen wake up
+ - immediate signal when notification is received
+ - when you reconnect show missed notifications
+ - notifications reminder
+ - signal only when screen is off
+ - ongoing notifications are enabled or disabled
+
+<b>Verbindung Funktionen von Band</b>
 &#8226; nicht haben Benachrichtigung
 - Band vibriert
 - Gerät-Bildschirm aufwachen
-&#8226; haben Benachrichtigung
-- Band vibriert und zeigt das Symbol 1,2,3 mal an, Basierend auf der Anzahl der Benachrichtigungen, einmal pro Mi-Band 2 Symbol
+&#8226; neue Benachrichtigung
+- Band vibriert und zeigt das Symbol 1,2,3 mal an, basierend auf der Anzahl der Benachrichtigungen, einmal pro Mi Band 2 Symbol
 - sofortiges Signal bei eingehender Benachrichtigung
-- wenn Sie eine das Gerät anschließen
+- zeige verpasste Benachrichtigung wenn Sie das Gerät wieder verbinden
 - Erinnerungssignal und Wiederholungsintervall
 - Signal nur wenn der Bildschirm ausgeschaltet ist
 - Benachrichtigungen aktiviert oder deaktiviert
-- Gerät-Bildschirm aufwachen
+- Geräte Bildschirm einschalten
 
-<b>Band Unterbrechung Funktionen:</b>
+<b>Wettervorhersage</b>
+- OpenWeatherMap
+- AccuWeather
+- Dark Sky
+
+<b>Watch face upload</b>
+
+<b>Firmware update</b>
+
+<b>Band Unterbrechung Funktionen</b>
 - Klingelton auf dem Gerät spielen, Vibration, Bildschirm wecken
 - Gerät Überwachungs-Agent: wenn jemand das Gerät in ihrer Abwesenheit manipuliert hatte, Sie werden es erfahren (Bildschirm aufwachen, Power auf, Bewegung): Benachrichtigung auf dem Gerät und das Augensymbol auf dem Mi-Band 2
 
-<b>Benachrichtigungsüberwachung:</b>
+<b>Benachrichtigungsüberwachung</b>
 - einzigartige Signalkonfiguration für App-Benachrichtigung
 - zeigt die App-Benachrichtigungstexte auf Band an
 
-<b>Berührungsüberwachung:</b>
+<b>Berührungsüberwachung</b>
 - Anrufannahme, Freisprecheinrichtung (schalten Sie das Musik-App ab wann Headset angeschlossen ist, sonst startet die Musik) (wird nicht auf allen Geräten unterstützt)
 - Anrufabweisung, -beenden (wird nicht auf allen Geräten unterstützt)
 - Anruf stumm Schalter
@@ -52,27 +73,32 @@ Zuerst müssen Sie Xiaomi Mi Band2, Amazfit Bip, Amazfit Cor in Mi Fit App paare
 - Timer/Stoppuhr starten, verbleibene/verbrauchte Zeit zeigen
 - starten app
 
-<b>Pulsüberwachung:</b>
+<b>Pulsüberwachung</b>
 - Sie können folgende Eigenschaften einstellen: Überwachung des Startsignals, zeigen Puls, hoch Puls Signal, Startzeit, Endzeit, Wiederholungsintervall, gültigen niedrigeren Wert, Gültigen höheren Wert
 - aktuelles Puls zeigen
 - Tages-Chart: zeigt gemessene Werte
 
-<b>Zeitüberwachung:</b>
+<b>Zeitüberwachung</b>
 - Timer: Alarmtyp, Erinnerung, verbleibende Zeit auf Band zeigen
 - Stoppuhr: Alarmtyp, Mahnung, verbrauchte Zeit, Rundenzeitaufnahme, Rundenzeitanzeige auf Band
 
-<b>Verlorene Überwachung:</b>
+<b>Verlorene Überwachung</b>
 - Signal von Band: wenn der angegebene Zeit abgelaufen ist, werden Sie vom Band benachrichtigt
 - Signale von Gerät: Wenn die angegebene Zeit abgelaufen ist, sendet das Gerät wiederholt Signale, wenn es mit dem Armband nicht verbunden ist. Dadurch ist es einfacher, das Gerät zu finden. Wenn jemand anderes das Gerät findet und es gesperrt ist, weiß er nicht, wen zu benachrichtigen ist, so können Sie eine Nachricht senden und anzeigen.
 
 <b>Agentenlog:</b>
 - Die vom Geräteüberwachungsagenten erkannt werden
 
-Sprachen (wenn Sie es auf andere Sprache übersetzen wollen, bitte schicken Sie mir eine email):
-Deutsche (David Terrey https://www.instagram.com/davidterrey)
+Sprachen (wenn Sie es auf andere Sprache übersetzen wollen, schicken Sie mir bitte eine Email):
+Deutsch seit 02/2020 Wolfgang Golder (www.golder.de)
+Deutsch (David Terrey https://www.instagram.com/davidterrey)
 Englisch
 Russisch (Александр Солоцкий)
 Portugiesisch (Bruno Lopes)
 Griechisch (Alexandros Apostolidis)
 Italienisch (Francesco Caronte)
 Französisch
+
+<b>Unterstützte Geräte</b>
++ Xiaomi Mi Band 4, Xiaomi Mi Band 3, Xiaomi Mi Band 2, Xiaomi Mi Band HRX
++ Amazfit GTS, Amazfit GTR, Amazfit Verge Lite, Amazfit Bip, Amazfit Bip Lite, Amazfit Band 2 (A1713), Amazfit Cor (MiDong), Amazfit Arc (A1603)

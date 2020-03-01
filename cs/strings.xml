@@ -133,6 +133,7 @@
 
     <string name="mi_band_setting_menu_visible">Viditelné položky menu</string>
     <string name="mi_band_setting_menu_hidden">Skryté položky menu</string>
+    <string name="mi_band_setting_shortcut">Shortcut items</string>
 
     <string name="pref_text_conversion_description_title">Nápověda</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -335,6 +336,7 @@
     <string name="message_alarm_mi_band_clear_failed">Odstranění budíku selhalo</string>
 
     <string name="message_premium_mode_only">Tato funkce je k dispozici pouze v prémiovém režimu</string>
+    <string name="message_premium_or_rewarded_mode_only">This feature is only available in premium or rewarded mode</string>
     <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
     <string name="message_general_error">Nastavení se nezdařilo (spojení bylo ztraceno), zkuste to znovu</string>
     <string name="message_internet_error">Nemáte připojení k internetu</string>
@@ -955,6 +957,7 @@
     <string name="reminder_calendar_auto_sync">Automatic synchronization</string>
     <string name="reminder_calendar_counter">The number of events to synchronize</string>
     <string name="reminder_calendar_all_day_time">The time of all day event</string>
+    <string name="reminder_calendar_notif_before_time">Remind me earlier than the event time</string>
 
     <string name="message_reminder_enabled">Připomenutí povolen</string>
     <string name="message_reminder_disabled">Připomenutí zakázáno</string>
@@ -1027,16 +1030,17 @@
 
     <string name="message_watch_face_upload_error">Je zapotřebí inicializace</string>
     <string name="message_watch_face_file_error">Neplatný soubor ciferníku</string>
+    <string name="message_watch_face_file_error_small">Invalid watch face file. File size is too small, use another web browser to download.</string>
+    <string name="message_watch_face_file_error_large">Invalid watch face file. File size is too large, use another web browser to download.</string>
 
     <string name="info_dialog_watch_face_download"><![CDATA[
         <img src="ic_file_download_outline"> <b><u>Stáhnutí</u></b>
         <p>Stáhněte styly ciferníku z webových stránek.</p>
 
-        <img src="ic_action_download"> <b><u>Přesunutí souborů</u></b>
+        <img src="ic_file_replace_outline"> <b><u>Přesunutí souborů</u></b>
         <p>Je-li to nutné, přesuňte stažené soubory do adresáře Mi Bandage.</p>
         ]]>
     </string>
-
 
     <string name="info_dialog_watch_face"><![CDATA[<b><u>Proces změny stylu ciferníku</u></b>
         <p><img src="ic_upload_mi_fit_init"> <b>Inicializace</b>
@@ -1054,6 +1058,14 @@
         ]]>
     </string>
 
+    <string name="info_dialog_watch_face_upload"><![CDATA[
+        <img src="ic_upload"> <b><u>Upload</u></b>
+        <p>Upload the selected watch face.</p>
+        <br><img src="ic_warning"> <b><u>Invalid watch face file</u></b>
+        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        ]]>
+    </string>
+
     <!-- Firmware -->
     <string name="firmware_tab_firmware">Firmvér</string>
     <string name="firmware_tab_font">Písmo</string>
@@ -1065,6 +1077,7 @@
 
     <string name="firmware_update_prepare">Preparing for the update…</string>
     <string name="firmware_update_progress">Updating %1$,d%%</string>
+    <string name="firmware_update_connecting">Připojuji…</string>
 
     <string name="firmware_update_firmware_empty_title"><![CDATA[Firmware not found
         <br><i>(%1$s)</i>
@@ -1087,11 +1100,21 @@
     <string name="firmware_type_invalid">Neplatná data</string>
 
     <string name="message_firmware_file_error">Invalid firmware file</string>
+    <string name="message_firmware_file_error_small">Invalid firmware file. File size is too small, use another web browser to download.</string>
+    <string name="message_firmware_file_error_large">Invalid firmware file. File size is too large, use another web browser to download.</string>
 
     <string name="firmware_warning"><![CDATA[Warning!
     <br><br>
     <p>Only at your own risk! The firmware update can damage your device.</p>
     Use only files from a trusted source.]]>
+    </string>
+
+    <string name="info_dialog_firmware"><![CDATA[
+        <img src="ic_upload"> <b><u>Upload</u></b>
+        <p>Upload the selected firmware.</p>
+        <br><img src="ic_warning"> <b><u>Invalid firmware file</u></b>
+        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        ]]>
     </string>
 
     <!-- Agent -->

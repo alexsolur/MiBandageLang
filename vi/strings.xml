@@ -133,6 +133,7 @@
 
     <string name="mi_band_setting_menu_visible">Các mục hiển thị</string>
     <string name="mi_band_setting_menu_hidden">Các mục ẩn</string>
+    <string name="mi_band_setting_shortcut">Shortcut items</string>
 
     <string name="pref_text_conversion_description_title">Mô tả</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -334,6 +335,7 @@
     <string name="message_alarm_mi_band_clear_failed">Xóa báo thức thất bại</string>
 
     <string name="message_premium_mode_only">Tính năng này chỉ có sẵn trong bản nâng cấp</string>
+    <string name="message_premium_or_rewarded_mode_only">This feature is only available in premium or rewarded mode</string>
     <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
     <string name="message_general_error">cài đặt thất bại (kết nối bị mất), hãy thử lại</string>
     <string name="message_internet_error">Không có mạng</string>
@@ -738,7 +740,7 @@
         <br><br><img src="ic_activity_awake"> thời gian thức giấc
         <br><br><img src="ic_activity_rest_sofa"> thời gian nghỉ ngơi/ngồi trong lúc thức
         <br><br><img src="ic_activity_go_to_bed"> giờ đi ngủ
-        <br><br><img src="ic_battery_chargeing_full"> sạc pin
+        <br><br><img src="ic_battery_charging_full"> sạc pin
         <br><br><img src="ic_activity_block"> không đeo
         ]]>
     </string>
@@ -956,6 +958,7 @@
     <string name="reminder_calendar_auto_sync">Automatic synchronization</string>
     <string name="reminder_calendar_counter">The number of events to synchronize</string>
     <string name="reminder_calendar_all_day_time">The time of all day event</string>
+    <string name="reminder_calendar_notif_before_time">Remind me earlier than the set time</string>
 
     <string name="message_reminder_enabled">Đã bật lời nhắc</string>
     <string name="message_reminder_disabled">Đã tắt lời nhắc</string>
@@ -1028,12 +1031,14 @@
 
     <string name="message_watch_face_upload_error">Yêu cầu khởi tạo</string>
     <string name="message_watch_face_file_error">File giao diện không hợp lệ</string>
+    <string name="message_watch_face_file_error_small">Invalid watch face file. File size is too small, use another web browser to download.</string>
+    <string name="message_watch_face_file_error_large">Invalid watch face file. File size is too large, use another web browser to download.</string>
 
     <string name="info_dialog_watch_face_download"><![CDATA[
         <img src="ic_file_download_outline"> <b><u>Download</u></b>
         <p>Download watch faces from the web sites.</p>
 
-        <img src="ic_action_download"> <b><u>Move the files</u></b>
+        <img src="ic_file_replace_outline"> <b><u>Move the files</u></b>
         <p>If necessary, move the downloaded watch face files from the Download directory to the MiBandage directory.</p>
         ]]>
     </string>
@@ -1054,6 +1059,14 @@
         ]]>
     </string>
 
+    <string name="info_dialog_watch_face_upload"><![CDATA[
+        <img src="ic_upload"> <b><u>Upload</u></b>
+        <p>Upload the selected watch face.</p>
+        <br><img src="ic_warning"> <b><u>Invalid watch face file</u></b>
+        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        ]]>
+    </string>
+
     <!-- Firmware -->
     <string name="firmware_tab_firmware">Firmware</string>
     <string name="firmware_tab_font">Font</string>
@@ -1065,6 +1078,7 @@
 
     <string name="firmware_update_prepare">Preparing for the update…</string>
     <string name="firmware_update_progress">Updating %1$,d%%</string>
+    <string name="firmware_update_connecting">Đang kết nối…</string>
 
     <string name="firmware_update_firmware_empty_title"><![CDATA[Firmware not found
         <br><i>(%1$s)</i>
@@ -1087,11 +1101,21 @@
     <string name="firmware_type_invalid">Invalid</string>
 
     <string name="message_firmware_file_error">Invalid firmware file</string>
+    <string name="message_firmware_file_error_small">Invalid firmware file. File size is too small, use another web browser to download.</string>
+    <string name="message_firmware_file_error_large">Invalid firmware file. File size is too large, use another web browser to download.</string>
 
     <string name="firmware_warning"><![CDATA[Warning!
     <br><br>
     <p>Only at your own risk! The firmware update can damage your device.</p>
     Use only files from a trusted source.]]>
+    </string>
+
+    <string name="info_dialog_firmware"><![CDATA[
+        <img src="ic_upload"> <b><u>Upload</u></b>
+        <p>Upload the selected firmware.</p>
+        <br><img src="ic_warning"> <b><u>Invalid firmware file</u></b>
+        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        ]]>
     </string>
 
     <!-- Agent -->
