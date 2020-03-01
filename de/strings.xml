@@ -49,7 +49,7 @@
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Batteriestand, letzte Ladezeit, geschätzte Restzeit</string>
     <string name="mi_band_state_connected_disconnected_last_time">RSSI, letzte Verbindungs- und Trennungszeit</string>
-    <string name="mi_band_touch">Touch monitoring</string>
+    <string name="mi_band_touch">Berührungs Überwachung</string>
     <string name="mi_band_alarm">Wecker</string>
     <string name="mi_band_bonded_device_name">Gekoppelter Name</string>
     <string name="mi_band_mac_address">MAC-Adresse</string>
@@ -61,8 +61,8 @@
     <string name="mi_band_state_title">%1$s Einstellungen</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="mi_band_state_connected">Band ist verbunden</string>
     <string name="mi_band_state_disconnected">Band ist nicht verbunden</string>
-    <string name="mi_band_state_bonded">Gerät verbunden</string>
-    <string name="mi_band_state_not_bonded">Gerät nicht verbunden</string>
+    <string name="mi_band_state_bonded">Gekoppeltes Gerät</string>
+    <string name="mi_band_state_not_bonded">Nicht Gekoppeltes Gerät</string>
 
     <!-- Mi Band setting -->
     <string name="mi_band_setting_title">%1$s Einstellungen</string>
@@ -104,7 +104,7 @@
 
     <string name="mi_band_setting_distance_unit">Längeneinheit einstellen</string>
 
-    <string name="mi_band_setting_standalone_setting">Einstellungen für eingenständigen Modus</string>
+    <string name="mi_band_setting_standalone_setting">Einstellungen Eigenständiger Modus</string>
     <string name="mi_band_setting_time_24h">24-Stunden-Zeitformat</string>
     <string name="mi_band_setting_date">Datum auf dem Bildschirm anzeigen</string>
     <string name="mi_band_setting_lock_screen">Band-Bildschirmsperre</string>
@@ -112,7 +112,7 @@
     <string name="mi_band_setting_lift_wrist">Für Informationen Handgelenk anheben</string>
     <string name="mi_band_setting_lift_wrist_sensitivity">Reaktionsgeschwindigkeit</string>
     <string name="mi_band_setting_idle_alert">Inaktivitätswarnungen</string>
-    <string name="mi_band_setting_idle_alert_time">Inaktivitätszeit</string>
+    <string name="mi_band_setting_idle_alert_time">Inaktivitäts Zeit</string>
     <string name="mi_band_setting_idle_alert_dnd">Bitte nicht stören</string>
     <string name="mi_band_setting_night_mode">Nachtmodus</string>
 
@@ -124,11 +124,15 @@
     <string name="pref_text_conversion_title">Buchstabenumwandlung</string>
     <string name="pref_text_conversion_summary_on">Nicht erkennbare Buchstabenumwandlung, ausschalten wenn das Band Ihre Sprache unterstützt oder Sie eine benutzerdefinierte Schrift Firmware installiert haben</string>
     <string name="pref_text_conversion_excluded_title">Ausgeschlossene Zeichen</string>
-    <string name="pref_text_emoticon_title">Emoji Umwandlung</string>
-    <string name="pref_text_emoticon_summary_on">Wandle Emoji in Emoticon um</string>
+    <string name="pref_text_emoticon_title">Emoji Konvertierung</string>
+    <string name="pref_text_emoticon_summary_on">Konvertiere Emoji in Emoticon</string>
     <string name="pref_text_uppercase_title">Konvertierung in Großbuchstaben</string>
     <string name="pref_text_uppercase_summary_on">Konvertieren Sie Kleinbuchstaben in Großbuchstaben</string>
+<<<<<<< HEAD
     <string name="pref_text_length">Textlänge hängt von der verwendeten Schriftart ab (z.B. Chinesisch oder Kyrillisch)</string>
+=======
+    <string name="pref_text_length">Text Länge, hängt von der verwendeten Schriftart ab (zum Beispiel Chinesische or Kyrillische Zeichen)</string>
+>>>>>>> 4f4d70eb4eba7803bd7836e61f8515338af3220f
     <string name="pref_text_length_summary_on">%1$,d Zeichen</string>
 
     <string name="mi_band_setting_menu_visible">Sichtbare Menüpunkte</string>
@@ -213,9 +217,9 @@
     <string name="pref_disconnected_volume_title">Lautstärke ändern</string>
     <string name="pref_disconnected_volume_ring_title">Lautstärke des Klingeltons</string>
     <string name="pref_disconnected_volume_adapter_title">Wenn Bluetooth ausgeschaltet ist</string>
-    <string name="pref_disconnected_volume_mute_title">Wenn phone lautlos eingestellt ist</string>
-    <string name="pref_disconnected_volume_adapter_summary_on">Lautstärke einstellen</string>
-    <string name="pref_disconnected_volume_adapter_summary_off">Lautstärke nicht einstellen</string>
+    <string name="pref_disconnected_volume_mute_title">Wenn das Telefon stumm geschaltet ist</string>
+    <string name="pref_disconnected_volume_adapter_summary_on">Lautstärke anpassen</string>
+    <string name="pref_disconnected_volume_adapter_summary_off">Lautstärke nicht anpassen</string>
 
     <string name="pref_call">Anruf</string>
     <string name="pref_call_summary">Einstellungen zu dem Signal des %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
@@ -228,7 +232,7 @@
     <string name="pref_call_notification_rejected">Zeige Benachrichtigung über abgewiesenen Anruf</string>
     <string name="pref_call_notification_rejected_message">Abgewiesener Anruf</string>
     <string name="pref_call_notification_rejected_action">Anruf</string>
-    <string name="pref_call_notification_muted">Zeige Benachrichtigung über stummgeschalteten Anruf</string>
+    <string name="pref_call_notification_muted">Zeige Benachrichtigung über stummen Anruf</string>
 
     <string name="pref_call_net_text_title">Eingehendes Signal eines Internetanrufs, zeige Telefonnummer des Anrufers an</string>
     <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
@@ -246,7 +250,7 @@
     <string name="pref_call_missed_text_prefix_dialog_title">Text Präfix</string>
 
     <string name="pref_battery_phone">Telefonbatterie</string>
-    <string name="pref_battery_phone_summary">Leere und volle Batterie Benachrichtigung</string>
+    <string name="pref_battery_phone_summary">Leere und volle Batteriestand Benachrichtigungen</string>
     <string name="pref_cat_battery_phone_low">Niedriger Batteriestand</string>
     <string name="pref_battery_phone_low_title">Benachrichtigung bei schwacher Batteri</string>
     <string name="pref_battery_phone_low_level_title">Batteriestand Schwelle</string>
@@ -254,8 +258,8 @@
     <string name="pref_cat_battery_phone_full">Voller Batteriestand</string>
     <string name="pref_battery_phone_full_title">Volle Batterie Benachrichtigung</string>
     <string name="pref_battery_phone_full_plugged_ac">Netzteil Energiequelle</string>
-    <string name="pref_battery_phone_full_plugged_usb">USB Anschluß Energiequelle</string>
-    <string name="pref_battery_phone_full_plugged_wireless">Kabellose Energiequelle</string>
+    <string name="pref_battery_phone_full_plugged_usb">USB Energiequelle</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Drahtlose Energiequelle</string>
     <string name="pref_battery_phone_full_repeat_interval_title">Wiederholungsintervall</string>
 
     <!-- Mi Band 2 max. 18 chars with 100% -->
@@ -345,9 +349,9 @@
     <string name="message_in_progress">In progress…</string>
     <string name="message_no_data">Keine Daten verfügbar</string>
 
-    <string name="message_new_message">A new message is received, view it on the phone.</string>
+    <string name="message_new_message">Neue Nachricht erhalten. Auf dem Telefon ansehen.</string>
 
-    <string name="message_invalid_file">Invalid file</string>
+    <string name="message_invalid_file">Ungültige Datei</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Herzlich willkommen!</string>
@@ -752,7 +756,7 @@
     <string name="action_chart_sleep_type_phase">Phase</string>
     <string name="action_chart_sleep_type_time">Zeit</string>
 
-    <string name="sleep_details">Sleep details</string>
+    <string name="sleep_details">Schlaf Details</string>
 
     <string name="info_dialog_sleep"><![CDATA[
         <img src="ic_timelapse"> sleeping time
@@ -954,14 +958,14 @@
 
     <string name="reminder_calendar">Kalender Synchronisation</string>
     <string name="reminder_calendar_auto_sync">Automatische Synchronisation</string>
-    <string name="reminder_calendar_counter">Die Anzahl der zu synchronisierenden Ereignissen</string>
-    <string name="reminder_calendar_all_day_time">Die Zeit der Ganztages Ereignisse</string>
+    <string name="reminder_calendar_counter">Anzahl der Ereignisse für die Synchronisation</string>
+    <string name="reminder_calendar_all_day_time">Die Zeit für ein ganztägiges Ereignis</string>
     <string name="reminder_calendar_notif_before_time">Remind me earlier than the event time</string>
 
     <string name="message_reminder_enabled">Erinnerung aktiviert</string>
     <string name="message_reminder_disabled">Erinnerung deaktiviert</string>
-    <string name="message_reminder_no_more">Maximale Anzahl Erinnerungen erreicht</string>
-    <string name="message_reminder_sync">Synchronisiere %1$s Erinnerungen (Löschen und Setzen von Erinerungen auf der Smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_reminder_no_more">Kann nicht mehr Erinnerungen aufnehmen</string>
+    <string name="message_reminder_sync">Synchronisiere %1$s Erinnerungen (Erinnerungen auf der Smartwatch löschen und setzen)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text>Bluetooth connection is required to display the reminder.</not_support_icon_text>
@@ -982,7 +986,7 @@
     <string name="weather_unit_title">Einheit</string>
 
     <string name="weather_current_title">Aktuelle Wetterlage</string>
-    <string name="weather_current_location">Current location</string>
+    <string name="weather_current_location">Aktueller Standort</string>
     <string name="weather_current_temperature">Aktuelle Temperatur</string>
 
     <string name="weather_forecast_title">Wettervorhersage</string>
@@ -1326,7 +1330,7 @@
     <string name="time_end">Endzeit</string>
     <string name="ringer_mode_vibrate">Vibrieren</string>
     <string name="ringer_mode_silent">Lautlos</string>
-    <string name="ringer_mode_dnd_priority_only">Nicht stören (nur wichtige)</string>
+    <string name="ringer_mode_dnd_priority_only">Nicht stören (nur Wichtige)</string>
     <string name="ringer_mode_dnd_alarms_only">Nicht stören (nur Wecker)</string>
     <string name="ringer_mode_dnd_total_silence">Nicht stören (lautlos)</string>
     <string name="unknown">Unbekannte</string>
@@ -1349,7 +1353,7 @@
     <string name="action_keep_editing">Weiter bearbeiten</string>
     <string name="action_new">Neu</string>
     <string name="action_start_stop">Start/Stop</string>
-    <string name="synchronized_from_watch">Synchronisiert von der Uhr</string>
+    <string name="synchronized_from_watch">von der Uhr synchronisiert</string>
 
     <string name="action_chart">Diagramm</string>
     <string name="action_chart_normalize_minute">Gemessene Werte</string>
