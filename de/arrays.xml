@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_gender">
         <item>Männlich</item>
@@ -113,7 +113,7 @@
     </string-array>
 
     <string-array name="touch_music_player">
-        <item>Standard Musik-player</item>
+        <item>Standard Musik-Player</item>
         <item>Aktueller Musik-Player</item>
         <item>Google Play Musik</item>
         <item>Spotify Musik</item>
@@ -166,16 +166,16 @@
     </string-array>
 
     <string-array name="notification_group_text_content_slice">
-        <item>1 Teil (1-%1$,d chars)</item>
-        <item>2 Teile (1-%1$,d chars)</item>
-        <item>3 Teile (1-%1$,d chars)</item>
-        <item>4 Teile (1-%1$,d chars)</item>
-        <item>5 Teile (1-%1$,d chars)</item>
-        <item>6 Teile (1-%1$,d chars)</item>
-        <item>7 Teile (1-%1$,d chars)</item>
-        <item>8 Teile (1-%1$,d chars)</item>
-        <item>9 Teile (1-%1$,d chars)</item>
-        <item>10 Teile (1-%1$,d chars)</item>
+        <item>1 Teil (1-%1$,d Zeichen)</item>
+        <item>2 Teile (1-%1$,d Zeichen)</item>
+        <item>3 Teile (1-%1$,d Zeichen)</item>
+        <item>4 Teile (1-%1$,d Zeichen)</item>
+        <item>5 Teile (1-%1$,d Zeichen)</item>
+        <item>6 Teile (1-%1$,d Zeichen)</item>
+        <item>7 Teile (1-%1$,d Zeichen)</item>
+        <item>8 Teile (1-%1$,d Zeichen)</item>
+        <item>9 Teile (1-%1$,d Zeichen)</item>
+        <item>10 Teile (1-%1$,d Zeichen)</item>
     </string-array>
 
     <string-array name="notification_group_display_time">
@@ -195,41 +195,41 @@
     <string-array name="touch_recognition_press">
         <item>Keiner</item>
         <item>Berührung</item>
-        <item>Doppelt Berührung</item>
-        <item>Dreifach Berührung</item>
+        <item>Doppelte Berührung</item>
+        <item>Dreifache Berührung</item>
         <item>Lange Berührung</item>
-        <item>Button</item>
+        <item>Taste</item>
     </string-array>
 
     <string-array name="touch_recognition_press_mi_band_4_gtr">
         <item>Keiner</item>
         <item>Stummschalttaste</item>
-        <item>Doppelt Berührung</item>
-        <item>Dreifach Berührung</item>
+        <item>Doppelte Berührung</item>
+        <item>Dreifache Berührung</item>
         <item>Schlüssel ablehnen</item>
-        <item>Knopf</item>
+        <item>Taste</item>
     </string-array>
 
     <string-array name="touch_recognition_press_amazfit_bip_cor">
         <item>Keiner</item>
         <item>Grüner Knopf</item>
-        <item>Doppelt Berührung</item>
+        <item>Doppelte Berührung</item>
         <item>Dreifach Berührung</item>
         <item>Roter Knopf</item>
-        <item>Button</item>
+        <item>Taste</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method">
         <item>Muster Erkennung</item>
-        <item>Zähler Tastendruck</item>
+        <item>Zähle Tastendruck</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method_mi_band_3">
-        <item>Power saving</item>
-        <item>Power saving (+pulse)</item>
+        <item>Energiesparen</item>
+        <item>Energiesparen (+ Puls)</item>
 <!--        <item>Power saving (find phone)</item>-->
 <!--        <item>Power saving (pulse and find phone)</item>-->
-        <item>Performance</item>
+        <item>Leistung</item>
     </string-array>
 
     <string-array name="touch_recognition_start_trigger">
@@ -240,7 +240,7 @@
     <string-array name="touch_recognition_start_trigger_button">
         <item>Keiner</item>
         <item>Muster</item>
-        <item>Lange drücken Sie den Knopf</item>
+        <item>Knopf lange drücken</item>
     </string-array>
 
     <string-array name="pref_reminder_calendar_notif_before">
@@ -262,29 +262,29 @@
     </string-array>
 
     <string-array name="pref_weather_current_display">
-        <item>Current</item>
-        <item>Current, precipitation, cloud cover</item>
-        <item>Average</item>
-        <item>Am, Pm</item>
+        <item>Aktuell</item>
+        <item>Aktuell, Niederschlag, Wolkendecke</item>
+        <item>Durchschnitt</item>
+        <item>AM, PM</item>
     </string-array>
 
     <string-array name="pref_weather_forecast_display">
-        <item>Average</item>
+        <item>Durchschnitt</item>
         <!--<item>Average, precipitation, cloud cover</item>-->
-        <item>Am, Pm</item>
+        <item>AM, PM</item>
     </string-array>
 
     <string-array name="widget_event">
-        <item>Bandages screen</item>
-        <item>Activity screen</item>
-        <item>Pulse screen</item>
-        <item>Pulse measurement</item>
-        <item>Alarm screen</item>
-        <item>Reminder screen</item>
+        <item>Bandages Bildschirm</item>
+        <item>Aktivitäts Bildschirm</item>
+        <item>Puls Bildschirm</item>
+        <item>Puls Messung</item>
+        <item>Alarm Bildschirm</item>
+        <item>Erinnerungs Bildschirm</item>
     </string-array>
 
     <string-array name="pref_language">
-        <item>Default</item>
+        <item>Standard</item>
         <item>Deutsch</item>
         <item>Nederlands</item>
         <item>English</item>
@@ -330,8 +330,8 @@
     </string-array>
 
     <string-array name="pref_language_mi_band_3">
-        <item>Not set (set by Mi Fit)</item>
-        <item>Default (telefon)</item>
+        <item>Nicht gesetzt (wird von Mi-Fit eingestellt)</item>
+        <item>Standard (Telefon)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -354,8 +354,8 @@
     </string-array>
 
     <string-array name="pref_language_mi_band_4">
-        <item>Not set (set by Mi Fit)</item>
-        <item>Default (telefon)</item>
+        <item>Nicht gesetzt (wird von Mi-Fit eingestellt)</item>
+        <item>Standard (Telefon)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -379,8 +379,8 @@
     </string-array>
 
     <string-array name="pref_language_amazfit_bip_watch">
-        <item>Not set (set by Mi Fit)</item>
-        <item>Default (telefon)</item>
+        <item>Nicht gesetzt (wird von Mi-Fit eingestellt)</item>
+        <item>Standard (Telefon)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -397,8 +397,8 @@
     </string-array>
 
     <string-array name="pref_language_amazfit_cor">
-        <item>Not set (set by Mi Fit)</item>
-        <item>Default (telefon)</item>
+        <item>Nicht gesetzt (wird von Mi-Fit eingestellt)</item>
+        <item>Standard (Telefon)</item>
         <item>English</item>
         <item>Español</item>
         <item>Русский</item>
@@ -407,8 +407,8 @@
     </string-array>
 
     <string-array name="pref_language_amazfit_gtr">
-        <item>Not set (set by Mi Fit)</item>
-        <item>Default (telefon)</item>
+        <item>Nicht gesetzt (wird von Mi-Fit eingestellt)</item>
+        <item>Standard (Telefon)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
