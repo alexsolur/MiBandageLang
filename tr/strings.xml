@@ -74,26 +74,25 @@
     <string name="mi_band_setting_menu_menu">Ekran</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s ile birlikte</string> <!-- Mi Fit, Amazfit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandaj, resmi Mi Fit/Amazfit uygulamasının aynı cihaza kurulmasını gerektirir. İlk önce %1$s\'yi Mi Fit/Amazfit uygulamasında eşleştirmeniz gerekir, o zaman Mi Bandaj\'ı kullanabilirsiniz. If you want to use Mi Fit/Amazfit, choose this.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandaj, resmi Mi Fit/Amazfit uygulamasının aynı cihaza kurulmasını gerektirir. İlk önce %1$s\'yi Mi Fit/Amazfit uygulamasında eşleştirmeniz gerekir, o zaman Mi Bandaj\'ı kullanabilirsiniz. Eğer Mi Fit/Amazfit\'i kullanmak istiyorsanız bunu seçiniz.</string>
     <string name="mi_band_setting_auth_standalone">Bağımsız</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Bandaj\'ın çalışması için Mi Fit/Amazfit uygulaması gerekli değildir. Eşleştirmeden sonra Mi Fit/Amazfit uygulamasını kaldırın veya cihazınızı eşleştirin. When restoring the Mi Fit/Amazfit cooperation, you will need to re-pair your %1$s in the Mi Fit/Amazfit application.</string>
-    <string name="mi_band_setting_auth_key_title">Set authentication key</string>
-    <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Bandaj\'ın çalışması için Mi Fit/Amazfit uygulaması gerekli değildir. Eşleştirmeden sonra Mi Fit/Amazfit uygulamasını kaldırın veya cihazınızı eşleştirin. Mi Fit/Amazfit\'i geri yüklerken, %1$s\'i Mi Fit/Amazfit uygulamasından tekrar eşlemeniz gerekicektir.</string>
+    <string name="mi_band_setting_auth_key_title">Doğrulama şifresi belirle</string>
+    <string name="mi_band_setting_auth_key_hint">Doğrulama şifresini Bağımsız Mi Bandage modu için resmi Mi Fit/Amazfit uygulamasından eşleşmesini sonlandırın.</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <p>- Unpair %1$s in the official Mi Fit/Amazfit app</p>
-        <p>- Uninstall the official Mi Fit/Amazfit app</p>
-        <p>- Download and install the modified Mi Fit/Amazfit app</p>
-        <p>- Pair the %1$s in the modified Mi Fit/Amazfit app (do not unpair)</p>
-        <p>- Uninstall the modified Mi Fit/Amazfit app</p>
-        Authentication key can be found at: internal storage/freemyband/mac address.txt
+        <p>- Resmi Mi Fit/Amazfit uygulamasını kaldırın.</p>
+        <p>- Modlanmış Mi Fit/Amazfit uygulamasını indirin ve kurun.</p>
+        <p>- %1$s cihazınızı modlanmış Mi Fit/Amazfit uygulaması üzerinden eşleştiriniz.(Eşleştirmeyi sonlandırmayın)</p>
+        <p>- Modlanmış Mi Fit/Amazfit uygulamasını kaldırın.</p>
+        Doğrulama kodunu şu konumda bulabiliriniz: Dahili Depolama/freemyband/mac address.txt
     ]]></string>
-    <string name="mi_band_setting_auth_key">Authentication key</string>
+    <string name="mi_band_setting_auth_key">Doğrulama Kodu</string>
     <string name="mi_band_setting_auth">Eşleştir</string>
 
     <string name="message_mi_band_setting_auth_press_band_button">Eşleştirme için %1$s düğmesine basın</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
-    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
-    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
-    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
+    <string name="message_mi_band_setting_auth_success">%1$s eşleşmesi başarılı</string>
+    <string name="message_mi_band_setting_auth_fail">%1$s eşleşmesi başarısız</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Geçersiz doğrulama kodu</string>
 
     <string name="mi_band_setting_nickname">Kullanıcı adı</string>
     <string name="mi_band_setting_gender">Cinsiyet</string>
@@ -104,7 +103,7 @@
 
     <string name="mi_band_setting_distance_unit">Mesafe birimlerini ayarlayın</string>
 
-    <string name="mi_band_setting_standalone_setting">Standalone settings</string>
+    <string name="mi_band_setting_standalone_setting">Bağımsız Mi Bandage ayarları</string>
     <string name="mi_band_setting_time_24h">24 saatlik zaman biçimi</string>
     <string name="mi_band_setting_date">Tarihi ekranda göster</string>
     <string name="mi_band_setting_lock_screen">Bileklik ekranı kilidi</string>
@@ -116,16 +115,16 @@
     <string name="mi_band_setting_idle_alert_dnd">Dinlenirken, rahatsız etmeyin</string>
     <string name="mi_band_setting_night_mode">Gece modu</string>
 
-    <string name="mi_band_setting_discoverable">Discoverable</string>
+    <string name="mi_band_setting_discoverable">Keşfedilinebilirlik</string>
 
     <string name="pref_text_title">Altyazılı simge</string>
     <string name="pref_text_conversion_summary">Bileklik altyazılı simge ayarları</string>
     <string name="pref_cat_text_conversion">%1$s sinyali</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_text_conversion_title">Karakterleri dönüştür</string>
-    <string name="pref_text_conversion_summary_on">Tanımlanamayan karakterleri döünüştürür, turn off if the Band supports your language or you have installed custom font firmware</string>
+    <string name="pref_text_conversion_summary_on">Tanımlanamayan karakterleri dönüştürür, eğer bilekliğiniz dilinizi destekliyor veya ayrı bir Firmware fontunuz var ise bu ayarı kapatınız.</string>
     <string name="pref_text_conversion_excluded_title">Hariç tutlacak karekterler</string>
     <string name="pref_text_emoticon_title">Emoji dönüştürme</string>
-    <string name="pref_text_emoticon_summary_on">Emoji yi emoticon a dönüştür</string>
+    <string name="pref_text_emoticon_summary_on">Emoji yi emoticon\'a dönüştür</string>
     <string name="pref_text_uppercase_title">Büyük harfe dönüştürme</string>
     <string name="pref_text_uppercase_summary_on">Küçük harfleri büyük harfe dönüştür</string>
     <string name="pref_text_length">Metin uzunluğu, kullanılan yazı tipine bağlıdır (örneğin, Çince veya Kril karatkterleri)</string>
@@ -133,7 +132,7 @@
 
     <string name="mi_band_setting_menu_visible">Görünür ekran öğeleri</string>
     <string name="mi_band_setting_menu_hidden">Gizli ekran öğeleri</string>
-    <string name="mi_band_setting_shortcut">Shortcut items</string>
+    <string name="mi_band_setting_shortcut">Kısayol itemleri</string>
 
     <string name="pref_text_conversion_description_title">Açıklama</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -213,7 +212,7 @@
     <string name="pref_disconnected_volume_title">Ses yüksekliğini ayarla</string>
     <string name="pref_disconnected_volume_ring_title">Zil sesi seviyesi</string>
     <string name="pref_disconnected_volume_adapter_title">Bluetooth kapalıyken</string>
-    <string name="pref_disconnected_volume_mute_title">When the phone is muted</string>
+    <string name="pref_disconnected_volume_mute_title">Telefon sessizdeyken</string>
     <string name="pref_disconnected_volume_adapter_summary_on">Sesi ayarla</string>
     <string name="pref_disconnected_volume_adapter_summary_off">Sesi ayarlama</string>
 
@@ -225,10 +224,10 @@
     <string name="pref_call_text_title">Arayan bilgisini göster</string>
     <string name="pref_call_text_summary_on"><![CDATA[Açık (Daha fazla bilgi için: <i>Ayarlar/Altyazılı simge ayarlarına bakınız)</i>]]></string>
 
-    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
-    <string name="pref_call_notification_rejected_message">Rejected call</string>
-    <string name="pref_call_notification_rejected_action">Call</string>
-    <string name="pref_call_notification_muted">Show notification about muted call</string>
+    <string name="pref_call_notification_rejected">Reddedilmiş çağrılar içim bildirim göster</string>
+    <string name="pref_call_notification_rejected_message">Reddedilmiş çağrı</string>
+    <string name="pref_call_notification_rejected_action">Ara</string>
+    <string name="pref_call_notification_muted">Sessize alınmış çağrılar için bildirim göster</string>
 
     <string name="pref_call_net_text_title">İnternet aramaları bildirimi ve arayan bilgisi</string>
     <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
@@ -283,7 +282,7 @@
     <string name="pref_dnd_auto_vibrate">Titreşim (sessiz)</string>
     <string name="pref_dnd_auto_silent">Rahatsız etme</string>
     <string name="pref_dnd_scheduled_title">Zamanlanmış rahatsız etme modu</string>
-    <string name="pref_dnd_scheduled_new_title">Ismi</string>
+    <string name="pref_dnd_scheduled_new_title">İsmi</string>
     <string name="pref_dnd_remember_state_summary">Rahatsız etmeyin modu sonunda neyapacağınızı belirleyin</string>
     <string name="pref_dnd_remember_state_on_title">Mod öncesi ayarlara dön</string>
     <string name="pref_dnd_remember_state_off_title">Tüm ayarları aktif et</string>
@@ -314,8 +313,8 @@
 
     <string name="message_touch_no_patterns">Kırmızı renkli desen kayıt düğmelerinden birine basın</string>
     <string name="message_touch_record">%1$s dokunmatik düğmesini kullanarak deseni kaydedin</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="message_touch_record_music_screen">Record the pattern using the %1$s music screen</string> <!-- %1$s = Mi Band 4  -->
-    <string name="message_touch_record_pulse_screen">Record the pattern using the %1$s pulse screen</string> <!-- %1$s = Mi Band 3, Amazfit Cor ... -->
+    <string name="message_touch_record_music_screen">%1$s cihazının müzik ekranını kullanarak deseni kayıdedin</string> <!-- %1$s = Mi Band 4  -->
+    <string name="message_touch_record_pulse_screen">%1$s cihazının nabız ekranını kullanarak deseni kaydedin</string> <!-- %1$s = Mi Band 3, Amazfit Cor ... -->
     <string name="message_touch_pattern_error">Yaptığınız desen başka bir iş için yaptığınız desen ile nerdeyse aynı, başka bir desen belirleyin</string>
     <string name="message_touch_free_patterns">Normal modda en fazla %1$,d işlev kullanılabilir</string>
     <string name="message_touch_music_player_not_found">Müzik çalar bulunamadı</string>
@@ -336,8 +335,8 @@
     <string name="message_alarm_mi_band_clear_failed">Alarm silme başarısız oldu</string>
 
     <string name="message_premium_mode_only">Bu özellik yanlız premium mod ile kullanılabilir</string>
-    <string name="message_premium_or_rewarded_mode_only">This feature is only available in premium or rewarded mode</string>
-    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
+    <string name="message_premium_or_rewarded_mode_only">Bu özellik yalnız premium mod yada ödül ile kullanılabilir</string>
+    <string name="message_feature_is_not_supported">%1$s bu özelliği desteklemiyor</string>
     <string name="message_general_error">İşlem başarısız oldu (bağlantı tutarsız), lütfen tekrar deneyin</string>
     <string name="message_internet_error">İnternet bağlantınız yok</string>
     <string name="message_gps_enable">GPS\'i etkinleştir</string>
@@ -347,7 +346,7 @@
 
     <string name="message_new_message">Yeni bir mesaj alındı, telefondan bakın.</string>
 
-    <string name="message_invalid_file">Invalid file</string>
+    <string name="message_invalid_file">Geçersiz dosya</string>
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Hoşgeldiniz!</string>
@@ -367,10 +366,10 @@
     <p>Band\'yi kontrol etmek için daha fazla uygulama kullanıyorsanız, birbirlerine müdahale ederek geçici olarak bunları kapatın.</p>
     <p>Band bulunamazsa, ayrıntılar menüsünde MAC adresini manuel olarak ayarlayabilirsiniz (MAC adresi bulundu: Mi Fit/Profil/Band).</p>
     <p><b>Eğer bağlantı sorunu varsa:</b>
-    <br>- Read the Amazfit app or Mi Fit app Profile/Smartwatch/Run in background and set it up for Mi Bandage
+    <br>- Mi Fit/Amazfit uygulamasından Profil/%1$s/Arka planda çalıştır bölümünü okuyunuz.
     <br>- <i>Ayarlar/Teşhis</i> ayarlarını kontrol edin
     <br>- Son uygulamalarda Mi Bandage uygulamasını kilitleyin.
-    <br>- Mi Bandage uygulamasını pil optimizasyonlarından koruyun.
+    <br>- Mi Bandage uygulamasını pil optimizasyonunu Optimizasyon Etme olarak değiştirin.
     <br>- Bluetooth uygulaması verileri ve ön belleği temizleyin.
     <brAyarlar/Geliştirici seçenekleri açıksa:
     <br>- Etkinlikler tutmayın: pasif yapın
@@ -389,10 +388,10 @@
     <string name="diagnostic_title">Arıza tespit</string>
 
     <string name="diagnostic_permissions_title">İzinler</string>
-    <string name="diagnostic_permissions_autostart">Autostart</string>
+    <string name="diagnostic_permissions_autostart">Otomatik başlatma</string>
 
     <string name="diagnostic_access_title">Erişim</string>
-    <string name="diagnostic_access_do_not_disturb">Rahatsız etmeyin erişimni</string>
+    <string name="diagnostic_access_do_not_disturb">Rahatsız etmeyin erişimi</string>
     <string name="diagnostic_access_notification">Bildirim erişimi</string>
 
     <string name="diagnostic_protection_title">Kapanmaya karşı koruma</string>
@@ -426,26 +425,26 @@
     <string name="notification_group_pre_vibration_title">Ön Titreşim</string>
     <string name="notification_group_pre_alert_title">Ön Simge</string>
     <string name="notification_group_prefix">Metin ön eki</string>
-    <string name="notification_group_display_notification_title">Display notification</string>
+    <string name="notification_group_display_notification_title">Görüntülenen mesajın başlığı</string>
     <string name="notification_group_immediate">Anında bildirim göster</string>
     <string name="notification_group_connecting">Telefona bağlanıca bildirim göster</string>
     <string name="notification_group_reminder">Hatırlatma bildirimi</string>
     <string name="notification_group_ongoing">Sürekli bildirim yapılsın</string>
     <string name="notification_group_screen_off">Bildirimi sadece telefon ekranı kapalıysa göster</string>
-    <string name="notification_group_counter_title">Bileklikteti bildirim gösterme sayısı</string>
+    <string name="notification_group_counter_title">Bileklikte bildirim gösterme sayısı</string>
     <string name="notification_group_repeat_title">Tekrar sinyalleri</string>
     <string name="notification_group_wakelock">Telefon ekranını aç</string>
-    <string name="notification_group_remove_title">Remove notification</string>
-    <string name="notification_group_remove_from_device">From the phone\'s notification drawer</string>
-    <string name="notification_group_remove_from_device_hint">If you use the %1$s/Notifications/Clear all function</string> <!-- %1$s = Mi Band 4  ... -->
-    <string name="notification_group_remove_from_mi_band">From the %1$s notification menu</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="notification_group_remove_from_mi_band_hint">If you remove the notification from the phone\'s notification drawer</string>
+    <string name="notification_group_remove_title">Bildirmi silme</string>
+    <string name="notification_group_remove_from_device">Telefonun bildirim panelinden sil</string>
+    <string name="notification_group_remove_from_device_hint">Eğer %1$s/Bildirimler/Tümünü Temizle \'yi seçerseniz</string> <!-- %1$s = Mi Band 4  ... -->
+    <string name="notification_group_remove_from_mi_band">%1$s cihazının bildirim panelinden sil</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_remove_from_mi_band_hint">Eğer telefonun bildirim panelinden silerseniz</string>
 
     <string name="notification_group_filter">Bildirimleri filtrele</string>
     <string name="notification_group_filter_title">Başlık filtresi</string>
     <string name="notification_group_filter_content">İçerik filtresi</string>
     <string name="notification_group_filter_regex">Regex</string>
-    <string name="notification_group_filter_hint">sadece filtreye uyan bildirimler gösterilir (küçük/büyük harf duyarlı)</string>
+    <string name="notification_group_filter_hint">Sadece filtreye uyan bildirimler gösterilir (küçük/büyük harf duyarlı)</string>
     <string name="notification_group_filter_contains">İçinde geçenler</string>
     <string name="notification_group_filter_not_contains">İçinde geçmeyenler</string>
 
@@ -521,17 +520,17 @@
     <string name="action_filter_notification">Bildirim Filtreleri</string>
 
     <!-- Touch monitoring -->
-    <string name="touch_tab_function">Function</string>
+    <string name="touch_tab_function">Fonksiyon</string>
     <string name="touch_tab_control">Kontrol</string>
     <string name="touch_tab_testing">Test</string>
     <string name="touch_tab_settings">@string/setting_name</string>
 
-    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
-    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
+    <string name="touch_function_summary">Bu seçenekleri Mi Bandage uygulamasını tek başına kullanıyorsanız veya Mi Fit tarafından düzgün yönetilmiyorsa seçiniz</string>
+    <string name="touch_function">%1$s özelliği</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Kontrol menüsünde dokunma özelliği olarak kullan</string>
 
-    <string name="touch_headline_incoming_call_title">Incoming call</string>
-    <string name="touch_headline_other_function_title">Other functions</string>
+    <string name="touch_headline_incoming_call_title">Gelen çağrı</string>
+    <string name="touch_headline_other_function_title">Diyer özellikler</string>
     <string name="touch_headline_call_title">Çağrı</string>
     <string name="touch_headline_music_title">Müzik</string>
     <string name="touch_headline_time_title">Alarm/Saat</string>
@@ -553,9 +552,9 @@
     <string name="touch_call_mute_toggle_title">Çağrıyı sessize al</string>
 
     <string name="touch_music_function_title">Müzik</string>
-    <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
-    <string name="touch_music_function_mi_band_message_launch">Start music with the play button</string>
-    <string name="touch_music_function_mi_band_message_no_track_title">Can\'t get the song name</string>
+    <string name="touch_music_function_launch">Herhangi bir müzik tanımlanmamışsa Oynat tuşuna basıp müziği başlat</string>
+    <string name="touch_music_function_mi_band_message_launch">Oynat tuşu ile müziği başlat</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Şarkı ismine ulaşılamıyor</string>
 
     <string name="touch_call_out_title">Arama</string>
     <string name="touch_call_out_no_contact">Kişi seç</string>
@@ -568,6 +567,7 @@
     <string name="touch_weather_location">Yer</string>
     <string name="touch_weather_precipitation">Yağış</string>
     <string name="touch_weather_cloud_cover">Bulut örtüsü</string>
+    <string name="touch_weather_wind">Rüzgar</string>
 
     <string name="touch_repeat_notif_title">Bildirimleri tekrarla</string>
     <string name="touch_repeat_notif_clear_all">Tekrardan sonra tüm bildirimleri temizle</string>
@@ -592,7 +592,7 @@
 
     <string name="touch_google_assistant_title">Google Assistant</string>
 
-    <string name="touch_flashlight_title">Flashlight toggle</string>
+    <string name="touch_flashlight_title">Feneri aç/kapat</string>
 
     <string name="touch_camera_title">Resim çek</string>
     <string name="touch_camera_front_title">Ön kamera</string>
@@ -603,16 +603,16 @@
     <string name="touch_app_launcher_package_no_title">Bir uygulama seçin</string>
     <string name="touch_app_launcher1_not_wakelock_only_title">Telefon ekranı kapalı değilse çalışır</string>
 
-    <string name="touch_broadcast1_title">Send Broadcast</string>
-    <string name="touch_broadcast1_action_title">Intent action</string>
+    <string name="touch_broadcast1_title">Yayını gönder</string>
+    <string name="touch_broadcast1_action_title">Kasıtlı eylem</string>
     <string name="touch_broadcast1_package_title">Intent package name</string>
 
-    <string name="touch_http_request1_title">1. HTTP request</string>
-    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request1_title">1. HTTP talebi</string>
+    <string name="touch_http_request2_title">2. HTTP talebi</string>
     <string name="touch_http_request_url_title">URL</string>
-    <string name="touch_http_request_method_title">Method</string>
-    <string name="touch_http_request_body_title">Body</string>
-    <string name="touch_http_request_show_response_title">Show the response</string>
+    <string name="touch_http_request_method_title">Metod</string>
+    <string name="touch_http_request_body_title">Gövde</string>
+    <string name="touch_http_request_show_response_title">Yanıtı göster</string>
 
     <string name="touch_tasker_launcher1_title">1. Tasker görev başlatıcı</string>
     <string name="touch_tasker_launcher2_title">2. Tasker görev başlatıcı</string>
@@ -623,11 +623,11 @@
     <string name="touch_testing_title">Dokunma izleme</string>
     <string name="touch_testing_second">sn.</string>
 
-    <string name="touch_setting_detection_time_title">Touch detection time</string>
-    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
-    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
+    <string name="touch_setting_detection_time_title">Dokunma algılama zamanı</string>
+    <string name="touch_setting_detection_time_music_hint">Eğer düşük bir değeri varsa, müzik ekranı daha çabuk kapanır</string>
+    <string name="touch_setting_detection_time_button_hint">Eğer düşük bir değeri varsa, düğmeye daha seri basın</string>
 
-    <string name="touch_setting_detection_method_title">Touch detection method</string>
+    <string name="touch_setting_detection_method_title">Dokunma algılama metodu</string>
 
     <string name="touch_setting_recognition_start_title">Dokunmatik tanımayı başlat</string>
     <string name="touch_setting_recognition_start_trigger_title">Tetikleme</string>
@@ -640,7 +640,7 @@
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[
         <mi_band_2>Dokunma, bileklikte birşeyler gösterildiklten sonra geçerli olur (bu nedenle, dokunmadan önce bilekinizde boş bir tıklama nerilir).</mi_band_2>
-        <b><u>Pattern recognition</u></b>
+        <b><u>Desen tanımlama</u></b>
         <p>Dokunanlar arasındaki geçen süreyi izler, ilk dokunma için geçen süre dikkate alınmaz.</p>
         Geçerli dokunmaya duyarlı örnekler:
         <br>- dokunmatik
@@ -649,8 +649,8 @@
         <br>- dokunma ve 2 saniye bekleme, dokunma
         <br>- dokunma ve 2 saniye bekleme, dokunma ve 1 saniye bekleme, dokunma
         <br>- dokunma ve 2 saniye bekleme, dokunma ve 2 saniye bekleme, dokunma
-        <p><b><u>Button press counting</u></b></p>
-        <p>It monitors the number of button presses as long as the time between button presses is less than the touch detection time setting.</p>
+        <p><b><u>Butona basım sayacı</u></b></p>
+        <p>Butona basım arasındaki zaman dokunma algılama zamanının ayarından kısa olduğu sürece dokunmalar arasında geçen süreyi izler.</p>
         <br><p>Telefon çağrısı geldiğinde, cihaz dokunmatik girişi kolaylaştırmak için aşağıdaki işlevleri geçersiz kılar: telefonumu bul, tekrar eden bildirimler, müzik kontrolü.</p>
         <p>Test modunda eylem gerçekleşmez.</p>
         <p>Bileklik titreşim geribildirimi, yalnızca cihazın mevcut durumunu dikkate alan bir model varsa (çağrı cevaplama, ancak gelen bir çağrı olduğunda reddetme …).</p>
@@ -693,13 +693,13 @@
 
 
     <string name="info_dialog_touch_mi_band_4"><![CDATA[
-        <img src="ic_play_circle_outline"> <b><u>Music screen mod</u></b>
-        <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
+        <img src="ic_play_circle_outline"> <b><u>Müzik ekranı modu</u></b>
+        <p>Bileklikte müzik ekranını açın(ana ekranda sağa veya sola kaydırın), sonra ekranı kapatın.</p>
         <img src="ic_touch_find"> <b><u>Telefonumu bul</u></b>
         <p>Bilekliğin üzerinde, Cihaz bul fonksiyonunda (Daha fazla / Cihaz bul) ölçümü başlatır.</p>
         <img src="ic_touch_find_off"> <b><u>Telefon bulmayı durdur</u></b>
         <p>Bilekliğin üzerinde, Cihaz bul fonksiyonunda (Daha fazla / Cihaz bul) bulmayı keser.</p>
-        <img src="ic_call"> <b><u>Incoming call</b></u>
+        <img src="ic_call"> <b><u>Gelen çağrı</b></u>
         <p>Dokunmatik ekran kapalı olsa bile her zaman çalışır.</p>
         <br><p>Test modunda, tanınan desenin işlevini gerçekleştirmez.</p>
         <p>Titreşim geri bildirimini sadece, telefonun o andaki durumunu hesaba katan bir model varsa (yalnızca gelen bir çağrı varsa reddetme, yanıtlama).</p>
@@ -713,8 +713,8 @@
     <string name="action_tracker_calorie">Kalori</string>
     <string name="action_chart_filter_activity_no">Tümü</string>
     <string name="action_chart_filter_activity_active">Hareket filtreli</string>
-    <string name="action_chart_monthly_calendar">Calendar</string>
-    <string name="action_chart_monthly_compact">Compact</string>
+    <string name="action_chart_monthly_calendar">Takvim</string>
+    <string name="action_chart_monthly_compact">Sıkıştır</string>
 
     <string name="step_tab_day">Günlük graf.</string>
     <string name="step_tab_week">Haftalık graf.</string>
@@ -780,8 +780,8 @@
     <string name="pulse_tab_settings_offline">Offline ayar</string>
     <string name="pulse_tab_settings_continuous">Sürekli ölçüm ayarı</string>
 
-    <string name="pulse_online_title">Online nabız ölçüm</string>
-    <string name="pulse_offline_title">Offline nabız ölçüm</string>
+    <string name="pulse_online_title">Çevrimiçi nabız ölçümü</string>
+    <string name="pulse_offline_title">Çevrimdışı nabız ölçümü</string>
     <string name="pulse_continuous_title">Sürekli nabız ölçümü</string>
 
     <string name="action_chart_pulse_type_pulse">Nabız</string>
@@ -817,22 +817,22 @@
 
     <string name="pulse_details">Nabız detayları</string>
 
-    <string name="message_pulse_premium_mode_only">Online and offline nabız ölçümü yalnızca premium modda aynı anda kullanılabilir</string>
+    <string name="message_pulse_premium_mode_only">Çevrimiçi ve Çevrimdışı nabız ölçümü yalnızca premium modda aynı anda kullanılabilir</string>
 
-    <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Online nabız ölçüm</u></b>
+    <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Çevrimiçi nabız ölçüm</u></b>
         <p>Nabız ölçümü için Bluetooth bağlantısı gereklidir.</p>
         <p>Ölçüm değeri geçersizse ölçüm otomatik tekrarlanır.<p>
-        <img src="ic_pulse_offline"> <b><u>Offline nabız ölçüm</u></b>
+        <img src="ic_pulse_offline"> <b><u>Çevrimdışı nabız ölçüm</u></b>
         <p>Nabız ölçümü için Bluetooth bağlantısı gerektirmez.</p>
         <p>zamanlanmış nabız ölçümü için Bluetooth bağlantısı gereklidir.</p>
-        <p>Manuel başlatılan ölçümler günlüğe kaydedilir.<p/>]]>
+        <p>El ile başlatılan ölçümler günlüğe kaydedilir.<p/>]]>
     </string>
 
     <!-- Lost monitoring -->
     <string name="alarm_mi_band_title">%1$s bildirimi</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="alarm_mi_band_service">Lost background service</string>
-    <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
-    <string name="alarm_mi_band_clock">Use the phone\'s alarm clock, if background service is down (increases battery consumption)</string>
+    <string name="alarm_mi_band_service">Arkaplan servisi koptu</string>
+    <string name="alarm_mi_band_service_summary">Sık sık gerçekleşen yanlış alarmlar durumunda, daha stabil bir işletme için arkaplan servisini açın.</string>
+    <string name="alarm_mi_band_clock">Arka plan servisi çökmüş/çalışmıyor ise telefonun alarm saatini kullan.( Bataryanızı biraz daha hızlı harcar)</string>
     <string name="alarm_mi_band_dnd">Rahatsıs etmeyim modu</string>
     <string name="alarm_mi_band_interval_title">Uyarıyı tekrarla</string>
     <string name="alarm_mi_band_time_set_next">Bir sonraki kontrol</string>
@@ -926,16 +926,16 @@
 
     <string name="time_enable_bluetooth">Bluetooth aç</string>
 
-    <string name="action_time_alarm_sort_state_asc">State ascending</string>
-    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
-    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+    <string name="action_time_alarm_sort_state_asc">Duruna göre artan</string>
+    <string name="action_time_alarm_sort_watch_asc">Saate göre artan</string>
+    <string name="action_time_alarm_sort_name_asc">İsme göre artan</string>
 
-    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_time_alarm_sync">%1$s alarmlarını senkronize et. (Akıllı saatinizdeki alarmları otomatik siler veya ekler)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_time"><![CDATA[
         <p><b>Uygulamayı kaldırmadan önce tüm bildirimleri kaldırmalısınız.</b></p>
         <img src="ic_device_alarm"> <b><u>Telefon alarmı çalınca bileklikte de uyar</u></b>
-        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from the Google Play.</p>
+        <p>Her telefon desteklenmemektedir. Eğer telefonunuzun varsayılan alarmı uyumsuz veya çalışmıyor ise Google Play\'den Google Clock uygulamasını indirin.</p>
         <img src="ic_miband_bell"> <b><u>Zil</u></b>
         <p>Bildirim için Bluetooth bağlantısı gereklidir, 10 saniye boyunca sadece bir kez alarm verir.</p>
         <img src="ic_alarm"> <b><u>Alarm</u></b>
@@ -948,22 +948,22 @@
     <!-- Reminder -->
     <string name="reminder_tab_once">Bir Zamanlar</string>
     <string name="reminder_tab_weekly">Haftalık</string>
-    <string name="reminder_tab_calendar">Calendar</string>
+    <string name="reminder_tab_calendar">Takvim</string>
     <string name="reminder_tab_setting">@string/setting_name</string>
 
-    <string name="reminder_repeat">Hourly repetition</string>
+    <string name="reminder_repeat">Saatlik tekrar</string>
     <string name="reminder_notification_shade">Telefonda bildir</string>
 
-    <string name="reminder_calendar">Calendar synchronization</string>
-    <string name="reminder_calendar_auto_sync">Automatic synchronization</string>
-    <string name="reminder_calendar_counter">The number of events to synchronize</string>
-    <string name="reminder_calendar_all_day_time">The time of all day event</string>
-    <string name="reminder_calendar_notif_before_time">Remind me earlier than the set time</string>
+    <string name="reminder_calendar">Takvim senkronizasyonu</string>
+    <string name="reminder_calendar_auto_sync">Otomatik senkranizasyon</string>
+    <string name="reminder_calendar_counter">Senkronize edilicek etkinlik sayısı</string>
+    <string name="reminder_calendar_all_day_time">Tüm günlük etkinliklerin zamanı</string>
+    <string name="reminder_calendar_notif_before_time">Etkinlik saatinden erken hatırlatma yap</string>
 
     <string name="message_reminder_enabled">Hatırlatma aktif</string>
     <string name="message_reminder_disabled">Hatırlatma pasif</string>
     <string name="message_reminder_no_more">Daha fazla hatırlatıcı kaydedemiyorum</string>
-    <string name="message_reminder_sync">Synchronize %1$s reminders (deleting and setting reminders on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_reminder_sync">%1$s cihazının hatırlatıcılarını senkronize et. (Akıllı saatinizin hatırlatıcılarını otomatik siler veya ekler)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_reminder"><![CDATA[
         <not_support_icon_text><p>Hatırlatıcıyı görüntülemek için Bluetooth bağlantısı gerekir.</p></<not_support_icon_text>
@@ -977,14 +977,14 @@
     <string name="weather_tab_settings">@string/setting_name</string>
 
     <string name="weather_location_title">Yer</string>
-    <string name="weather_automatic_update">Automatic update</string>
+    <string name="weather_automatic_update">Otomatik güncelle</string>
 
     <string name="weather_title">Hava Durumu Tahmini</string>
     <string name="weather_city_title">Kent</string>
     <string name="weather_unit_title">Birim</string>
 
     <string name="weather_current_title">Şu anki hava durumu</string>
-    <string name="weather_current_location">Current location</string>
+    <string name="weather_current_location">Şuanki konum</string>
     <string name="weather_current_temperature">Şimdiki sıcaklık</string>
 
     <string name="weather_forecast_title">Hava tamini</string>
@@ -993,20 +993,20 @@
 
     <string name="weather_precipitation_rain">Yağmur</string>
     <string name="weather_precipitation_snow">Kar</string>
-    <string name="weather_cloud_cover_abbreviation">Cc</string>
+    <string name="weather_cloud_cover_abbreviation">Parçalı Bulutlu</string>
     <string name="weather_cloud_cover">Bulut</string>
     <string name="weather_humidity">Nem</string>
 
-    <string name="weather_north">N</string>
-    <string name="weather_east">E</string>
-    <string name="weather_south">S</string>
-    <string name="weather_west">W</string>
+    <string name="weather_north">K</string>
+    <string name="weather_east">D</string>
+    <string name="weather_south">G</string>
+    <string name="weather_west">B</string>
 
     <!-- Watch face -->
-    <string name="watch_face_tab_download">Download</string>
+    <string name="watch_face_tab_download">İndir</string>
     <string name="watch_face_tab_upload">Yükle</string>
     <string name="watch_face_tab_upload_mi_fit">Mi Fitile gönder</string>
-    <string name="watch_face_tab_upload_amazfit">Upload via Amazfit</string>
+    <string name="watch_face_tab_upload_amazfit">Amazfitle gönder</string>
 
     <string name="watch_face_download_title">Saat teması indir</string>
     <string name="watch_face_download_path">İndirilen saat teması dosyasını buraya kaydedin</string>
@@ -1030,9 +1030,9 @@
     ]]></string>
 
     <string name="message_watch_face_upload_error">İlk başlatma gerekli</string>
-    <string name="message_watch_face_file_error">Geçersiz saat temsı dosyası</string>
-    <string name="message_watch_face_file_error_small">Invalid watch face file. File size is too small, use another web browser to download.</string>
-    <string name="message_watch_face_file_error_large">Invalid watch face file. File size is too large, use another web browser to download.</string>
+    <string name="message_watch_face_file_error">Geçersiz saat tema dosyası</string>
+    <string name="message_watch_face_file_error_small">Geçersiz saat tema dosyası. Dosya çok küçük, indirmek için farklı bir internet tarayıcısı kullanın.</string>
+    <string name="message_watch_face_file_error_large">Geçersiz saat tema dosyası. Dosya çok büyük, indirmek için farklı bir internet tarayıcısı kullanın.</string>
 
     <string name="info_dialog_watch_face_download"><![CDATA[
         <img src="ic_file_download_outline"> <b><u>İndir</u></b>
@@ -1060,61 +1060,61 @@
     </string>
 
     <string name="info_dialog_watch_face_upload"><![CDATA[
-        <img src="ic_upload"> <b><u>Upload</u></b>
-        <p>Upload the selected watch face.</p>
-        <br><img src="ic_warning"> <b><u>Invalid watch face file</u></b>
-        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        <img src="ic_upload"> <b><u>Yükle</u></b>
+        <p>Seçili olan saat temasını yükle.</p>
+        <br><img src="ic_warning"> <b><u>Geçersiz saat teması</u></b>
+        <p>Varsayılan internet tarayıcısı dosyayı düzgün indirmeyebilir. Başka bir tarayıcı deneyiniz. (Tavsiye edilen Google Chrome).</p>
         ]]>
     </string>
 
     <!-- Firmware -->
     <string name="firmware_tab_firmware">Firmware</string>
-    <string name="firmware_tab_font">Font</string>
-    <string name="firmware_tab_resource">Resource</string>
+    <string name="firmware_tab_font">Yazı stili</string>
+    <string name="firmware_tab_resource">Kaynak</string>
 
-    <string name="firmware_update_firmware_title">Update firmware</string>
-    <string name="firmware_update_font_title">Update font</string>
-    <string name="firmware_update_resource_title">Update resource</string>
+    <string name="firmware_update_firmware_title">Firmware\'i güncelle</string>
+    <string name="firmware_update_font_title">Yazı stilini güncelle</string>
+    <string name="firmware_update_resource_title">Kaynağı güncelle</string>
 
-    <string name="firmware_update_prepare">Preparing for the update…</string>
-    <string name="firmware_update_progress">Updating %1$,d%%</string>
-    <string name="firmware_update_connecting">Bağlaniyor…</string>
+    <string name="firmware_update_prepare">Güncelleme hazırlanıyor...</string>
+    <string name="firmware_update_progress">Güneceleniyor %1$,d%%</string>
+    <string name="firmware_update_connecting">Bağlanıyor…</string>
 
-    <string name="firmware_update_firmware_empty_title"><![CDATA[Firmware not found
+    <string name="firmware_update_firmware_empty_title"><![CDATA[Firmware bulunamadı
         <br><i>(%1$s)</i>
     ]]></string>
-    <string name="firmware_update_font_empty_title"><![CDATA[Font not found
+    <string name="firmware_update_font_empty_title"><![CDATA[Yazı stili bulunamadı
         <br><i>(%1$s)</i>
     ]]></string>
-    <string name="firmware_update_resource_empty_title"><![CDATA[Resource not found
+    <string name="firmware_update_resource_empty_title"><![CDATA[Kaynak bulunamadı
         <br><i>(%1$s)</i>
     ]]></string>
 
     <string name="firmware_type_firmware">Firmware</string>
-    <string name="firmware_type_font">Font</string>
-    <string name="firmware_type_font_latin">Font latin</string>
+    <string name="firmware_type_font">Yazı stili</string>
+    <string name="firmware_type_font_latin">Latin yazı stili</string>
     <string name="firmware_type_gps">GPS Firmware</string>
-    <string name="firmware_type_gps_almanac">GPS Almanac</string>
-    <string name="firmware_type_gps_cep">GPS Error Correction</string>
-    <string name="firmware_type_resource">Resource</string>
-    <string name="firmware_type_watchface">Watch face</string>
-    <string name="firmware_type_invalid">Invalid</string>
+    <string name="firmware_type_gps_almanac">GPS Almanca</string>
+    <string name="firmware_type_gps_cep">GPS doğrulama hatası</string>
+    <string name="firmware_type_resource">Kaynak</string>
+    <string name="firmware_type_watchface">Saat teması</string>
+    <string name="firmware_type_invalid">Geçersiz</string>
 
-    <string name="message_firmware_file_error">Invalid firmware file</string>
-    <string name="message_firmware_file_error_small">Invalid firmware file. File size is too small, use another web browser to download.</string>
-    <string name="message_firmware_file_error_large">Invalid firmware file. File size is too large, use another web browser to download.</string>
+    <string name="message_firmware_file_error">Geçersiz firmware dosyası</string>
+    <string name="message_firmware_file_error_small">Geçersiz firmware dosyası. Dosya çok küçük, indirmek için farklı bir internet tarayıcısı kullanın.</string>
+    <string name="message_firmware_file_error_large">Geçersiz firmware dosyası. Dosya çok büyük, indirmek için farklı bir internet tarayıcısı kullanın.</string>
 
-    <string name="firmware_warning"><![CDATA[Warning!
+    <string name="firmware_warning"><![CDATA[Uyarı!
     <br><br>
-    <p>Only at your own risk! The firmware update can damage your device.</p>
-    Use only files from a trusted source.]]>
+    <p>Oluşabilecek zarardan siz sorumlusunuz! Firmware güncellemesi cihazınıza zarar verebilir.</p>
+    Sadece güvenilir kaynaklardan yararlanınız.]]>
     </string>
 
     <string name="info_dialog_firmware"><![CDATA[
-        <img src="ic_upload"> <b><u>Upload</u></b>
-        <p>Upload the selected firmware.</p>
-        <br><img src="ic_warning"> <b><u>Invalid firmware file</u></b>
-        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        <img src="ic_upload"> <b><u>Yükle</u></b>
+        <p>Seçili Firmware\i yükle.</p>
+        <br><img src="ic_warning"> <b><u>Geçersiz Firmware dosyası</u></b>
+        <p>Varsayılan internet tarayıcısı dosyayı düzgün indirmeyebilir. Başka bir tarayıcı deneyiniz. (Tavsiye edilen Google Chrome).</p>
         ]]>
     </string>
 
@@ -1203,7 +1203,7 @@
     <string name="backup_cloud_drive_login">Google Drive giriş</string>
     <string name="backup_cloud_drive_logout">Google Drive çıkış</string>
     <string name="backup_cloud_sync_time">Yükleme süresi</string>
-    <string name="backup_cloud_only_wifi">Yanlızca wi-fi üzerinden</string>
+    <string name="backup_cloud_only_wifi">Yanlızca Wi-Fi üzerinden</string>
 
     <!-- Rewarded mode -->
     <string name="rewarded_policy_title">Ödüllerin şartları ve koşulları</string>
@@ -1256,13 +1256,13 @@
     <string name="text_premium_mode_only">Yanlız premium modda</string>
 
     <!-- Feedback -->
-    <string name="action_log_notification">Log</string>
+    <string name="action_log_notification">Kayıt</string>
 
     <string name="feedback_google_play_title">Uygulamayı değerlendir</string>
     <string name="feedback_request_feature_title">İstekleriniz, hata bildirimleri</string>
     <string name="feedback_request_feature_summary">mailiniz otomatik işlenir, yanıt alamayabilirsiniz</string>
-    <string name="feedback_translation_title">Mi Bandage translation</string>
-    <string name="feedback_translation_title_summary">Please help in translation</string>
+    <string name="feedback_translation_title">Mi Bandage çeviri</string>
+    <string name="feedback_translation_title_summary">Çeviriye katkıda bulunun</string>
 
     <!-- Privacy policy -->
     <string name="privacy_policy_tab_privacy_policy">Gizlilik Politikası</string>
@@ -1283,7 +1283,7 @@
         - Kişisel sağlık verilerini, kişileri ve telefon bildirim metnini toplamıyoruz.
     ]]></string>
 
-    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links_title">3. Parti Servis Sağlayıcıları Güvenlik Politikası</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
@@ -1308,11 +1308,11 @@
     <string name="custom_vibration_title">Titreşim ayarları</string>
     <string name="custom_vibration">Titreşim</string>
     <string name="custom_vibration_edit">Düzenle</string>
-    <string name="custom_vibration_hint">Tap to vibrate</string>
+    <string name="custom_vibration_hint">Titreştirmek için dokun</string>
     <string name="custom_vibration_new">Yeniden kaydet</string>
 
     <!-- Hack -->
-    <string name="info_dialog_hack"><![CDATA[Telefonunuzda illegal uygulama tespit edildi.
+    <string name="info_dialog_hack"><![CDATA[Telefonunuzda yasal olmayan korsan uygulama tespit edildi.
         <p>Bu uyguluma varken Premium mod aktif olamaz.</p>
         <p>Uygulamanın geliştirilmesinde çok zaman harcadım, lütfen emeğe saygı gösterin ve bu tür uygulamaları kullanmayın.</p>]]>
     </string>
@@ -1351,7 +1351,7 @@
     <string name="action_keep_editing">Düzenlemeye devam et</string>
     <string name="action_new">Yeni</string>
     <string name="action_start_stop">Başla/Dur</string>
-    <string name="synchronized_from_watch">Synchronized from watch</string>
+    <string name="synchronized_from_watch">Saatten senkronize et</string>
 
     <string name="action_chart">Grafik</string>
     <string name="action_chart_normalize_minute">Ölçülen değerler</string>
@@ -1377,10 +1377,10 @@
     <string name="invalid_time">Geçersiz zaman</string>
 
     <!-- Constante -->
-    <string name="const_time_abbreviation_day">d</string>
-    <string name="const_time_abbreviation_hour">h</string>
-    <string name="const_time_abbreviation_minute">m</string>
-    <string name="const_time_abbreviation_sec">s</string>
+    <string name="const_time_abbreviation_day">g</string>
+    <string name="const_time_abbreviation_hour">s</string>
+    <string name="const_time_abbreviation_minute">dk</string>
+    <string name="const_time_abbreviation_sec">sn</string>
     <string name="const_time_abbreviation_milli_sec">ms</string>
 
     <string name="const_number">%1$,d</string>

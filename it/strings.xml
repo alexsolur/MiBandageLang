@@ -566,6 +566,7 @@
     <string name="touch_weather_location">Posizione</string>
     <string name="touch_weather_precipitation">Precipitazione</string>
     <string name="touch_weather_cloud_cover">Nuvolosità</string>
+    <string name="touch_weather_wind">Vento</string>
 
     <string name="touch_repeat_notif_title">Ripeti notifiche</string>
     <string name="touch_repeat_notif_clear_all">Cancella tutte le notifiche dopo la ripetizione</string>
@@ -1061,7 +1062,7 @@
         <img src="ic_upload"> <b><u>Caricamento</u></b>
         <p>Carica la watchface selezionate.</p>
         <br><img src="ic_warning"> <b><u>File Watchface non valido</u></b>
-        <p>Il browser web di sistema non sempre premette il corretto scaricamento dei file. Utilizzare un altro browser (si raccomanda Google Chrome).</p>
+        <p>Il browser web di sistema non sempre permette il corretto scaricamento dei file. Utilizzare un altro browser (si raccomanda Google Chrome).</p>
         ]]>
     </string>
 
@@ -1099,8 +1100,8 @@
     <string name="firmware_type_invalid">Data non valida</string>
 
     <string name="message_firmware_file_error">File del firmware non valido</string>
-    <string name="message_firmware_file_error_small">File del firmware non valido. File size is too small, use another web browser to download.</string>
-    <string name="message_firmware_file_error_large">File del firmware non valido. File size is too large, use another web browser to download.</string>
+    <string name="message_firmware_file_error_small">File del firmware non valido. Dimensioni del file troppo piccole, utilizzare un altro browser webper lo scaricamento.</string>
+    <string name="message_firmware_file_error_large">File del firmware non valido. Dimensioni del file troppo grandi, utilizzare un altro browser webper lo scaricamento.</string>
 
     <string name="firmware_warning"><![CDATA[Warning!
     <br><br>
@@ -1112,7 +1113,7 @@
         <img src="ic_upload"> <b><u>Upload</u></b>
         <p>Upload the selected firmware.</p>
         <br><img src="ic_warning"> <b><u>File del firmware non valido</u></b>
-        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        <p>Il browser web di sistema non sempre permette il corretto scaricamento dei file. Utilizzare un altro browser (si raccomanda Google Chrome).</p>
         ]]>
     </string>
 
