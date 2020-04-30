@@ -194,6 +194,28 @@
         <item>Three times</item>
     </string-array>
 
+    <string-array name="notification_group_grouped_dispay">
+        <item>Show all when the device is connecting, otherwise only the latest notification</item>
+        <item>Show all notifications</item>
+        <item>Show only the latest notification</item>
+    </string-array>
+
+    <string-array name="notification_group_grouped_display_values">
+        <item>AUTO</item>
+        <item>ALL</item>
+        <item>LATEST</item>
+    </string-array>
+
+    <string-array name="notification_group_grouped_order">
+        <item>In normal order</item>
+        <item>In reverse order</item>
+    </string-array>
+
+    <string-array name="notification_group_grouped_order_values">
+        <item>NORMAL</item>
+        <item>REVERSE</item>
+    </string-array>
+
     <string-array name="touch_call_mute_ringer_mode">
         <item>Vibrate</item>
         <item>Mute</item>
