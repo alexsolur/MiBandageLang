@@ -1,100 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_gender">
-        <item>Male</item>
-        <item>Female</item>
-    </string-array>
-
-    <string-array name="pref_gender_values">
-        <item>MALE</item>
-        <item>FEMALE</item>
+        <item>男性</item>
+        <item>女性</item>
     </string-array>
 
     <string-array name="pref_wear_location">
-        <item>Left wrist</item>
-        <item>Right wrist</item>
-    </string-array>
-
-    <string-array name="pref_wear_location_values">
-        <item>LEFT_WRIST</item>
-        <item>RIGHT_WRIST</item>
+        <item>左手首</item>
+        <item>右手首</item>
     </string-array>
 
     <string-array name="pref_distance_unit">
-        <item>Metric (meters)</item>
-        <item>Imperial (miles)</item>
-    </string-array>
-
-    <string-array name="pref_distance_unit_values">
-        <item>METRIC</item>
-        <item>IMPERIAL</item>
+        <item>メートル</item>
+        <item>マイル</item>
     </string-array>
 
     <string-array name="pref_lift_wrist_sensitivity">
-        <item>Normal</item>
-        <item>Sensitive</item>
-    </string-array>
-
-    <string-array name="pref_lift_wrist_sensitivity_values">
-        <item>NORMAL</item>
-        <item>SENSITIVE</item>
+        <item>標準</item>
+        <item>高感度</item>
     </string-array>
 
     <string-array name="pref_night_mode">
-        <item>Schedule turn on time</item>
-        <!--<item>Turn on after sunset</item>-->
-    </string-array>
-
-    <string-array name="pref_night_mode_values">
-        <item>SCHEDULED</item>
-        <!--<item>SUNSET</item>-->
+        <item>設定時間にオンにする</item>
+        <!--<item>日没後にオンにする</item>-->
     </string-array>
 
     <string-array name="pref_menu_mi_band">
-        <item>Time</item>
-        <item>Steps</item>
-        <item>Distance</item>
-        <item>Calories</item>
-        <item>Heart rate</item>
-        <item>Battery</item>
-        <item>Status</item>
-        <item>Weather</item>
-        <item>Workout</item>
-        <item>Activities</item>
-        <item>Notifications</item>
-        <item>More</item>
+        <item>時間</item>
+        <item>歩数</item>
+        <item>距離</item>
+        <item>カロリー</item>
+        <item>心拍数</item>
+        <item>バッテリー</item>
+        <item>ステータス</item>
+        <item>天気</item>
+        <item>ワークアウト</item>
+        <item>アクティビティ</item>
+        <item>通知</item>
+        <item>その他</item>
         <item>NFC</item>
-        <item>Alarm</item>
-        <item>Timer</item>
-        <item>Event reminder</item>
-        <item>Settings</item>
-        <item>Compass</item>
-        <item>Music</item>
+        <item>アラーム</item>
+        <item>タイマー</item>
+        <item>リマインダー</item>
+        <item>設定</item>
+        <item>コンパス</item>
+        <item>音楽</item>
         <item>Alipay</item>
-        <item>PAI</item>
-    </string-array>
-
-    <string-array name="pref_menu_mi_band_values">
-        <item>CLOCK</item>
-        <item>STEP</item>
-        <item>DISTANCE</item>
-        <item>CALORIE</item>
-        <item>HEART_RATE</item>
-        <item>BATTERY</item>
-        <item>STATUS</item>
-        <item>WEATHER</item>
-        <item>WORKOUT</item>
-        <item>ACTIVITY</item>
-        <item>NOTIFICATION</item>
-        <item>MORE</item>
-        <item>NFC</item>
-        <item>ALARM</item>
-        <item>TIMER</item>
-        <item>REMINDER</item>
-        <item>SETTINGS</item>
-        <item>COMPASS</item>
-        <item>MUSIC</item>
-        <item>ALIPAY</item>
         <item>PAI</item>
     </string-array>
 
@@ -106,229 +57,124 @@
         <item>3 \'app\' icon</item>
     </string-array>
 
-    <string-array name="pref_connected_have_notif_counter_values">
-        <item>-1</item>
-        <item>-2</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-
     <string-array name="pref_connected_have_notif_interval">
-        <item>3 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>20 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>3 hours</item>
-    </string-array>
-
-    <string-array name="pref_connected_have_notif_interval_values">
-        <item>3</item>
-        <item>5</item>
-        <item>10</item>
-        <item>20</item>
-        <item>30</item>
-        <item>60</item>
-        <item>120</item>
-        <item>180</item>
+        <item>3分</item>
+        <item>5分</item>
+        <item>10分</item>
+        <item>20分</item>
+        <item>30分</item>
+        <item>1時間</item>
+        <item>2時間</item>
+        <item>3時間</item>
     </string-array>
 
     <string-array name="pref_abandoned_interval">
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>3 minutes</item>
-        <item>4 minutes</item>
-        <item>5 minutes</item>
-        <item>6 minutes</item>
-        <item>7 minutes</item>
-        <item>8 minutes</item>
-        <item>9 minutes</item>
-        <item>10 minutes</item>
+        <item>1分</item>
+        <item>2分</item>
+        <item>3分</item>
+        <item>4分</item>
+        <item>5分</item>
+        <item>6分</item>
+        <item>7分</item>
+        <item>8分</item>
+        <item>9分</item>
+        <item>10分</item>
     </string-array>
-
-    <integer-array name="pref_abandoned_interval_values">
-        <item>60000</item>
-        <item>120000</item>
-        <item>180000</item>
-        <item>240000</item>
-        <item>300000</item>
-        <item>360000</item>
-        <item>420000</item>
-        <item>480000</item>
-        <item>540000</item>
-        <item>600000</item>
-    </integer-array>
 
     <string-array name="pref_abandoned_notif_interval">
-        <item>10 minutes</item>
-        <item>20 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>3 hours</item>
+        <item>10分</item>
+        <item>20分</item>
+        <item>30分</item>
+        <item>1時間</item>
+        <item>2時間</item>
+        <item>3時間</item>
     </string-array>
 
-    <integer-array name="pref_abandoned_notif_interval_values">
-        <item>10</item>
-        <item>20</item>
-        <item>30</item>
-        <item>60</item>
-        <item>120</item>
-        <item>180</item>
-    </integer-array>
-
     <string-array name="notification_group_counter">
-        <item>All notifications</item>
-        <item>Once per application</item>
-        <item>One signal</item>
+        <item>すべて通知</item>
+        <item>各アプリにつき1回</item>
+        <item>グループで1回</item>
     </string-array>
 
     <string-array name="notification_group_repeat">
         <item>Always</item>
         <item>Never</item>
-        <item>Once</item>
-        <item>Twice</item>
-        <item>Three times</item>
+        <item>1回</item>
+        <item>2回</item>
+        <item>3回</item>
     </string-array>
 
     <string-array name="notification_group_grouped_dispay">
-        <item>Show all when the device is connecting, otherwise only the latest notification</item>
-        <item>Show all notifications</item>
-        <item>Show only the latest notification</item>
-    </string-array>
-
-    <string-array name="notification_group_grouped_display_values">
-        <item>AUTO</item>
-        <item>ALL</item>
-        <item>LATEST</item>
+        <item></item>
+        <item>すべての通知を表示する</item>
+        <item>最新の通知のみ表示する</item>
     </string-array>
 
     <string-array name="notification_group_grouped_order">
-        <item>In normal order</item>
-        <item>In reverse order</item>
-    </string-array>
-
-    <string-array name="notification_group_grouped_order_values">
-        <item>NORMAL</item>
-        <item>REVERSE</item>
+        <item>昇順</item>
+        <item>降順</item>
     </string-array>
 
     <string-array name="touch_call_mute_ringer_mode">
-        <item>Vibrate</item>
-        <item>Mute</item>
-        <item>Do not disturb (priority only)</item>
-        <item>Do not disturb (alarms only)</item>
-        <item>Do not disturb (total silence)</item>
+        <item>バイブレーション</item>
+        <item>ミュート</item>
+        <item>DND（高優先度の通知のみ）</item>
+        <item>DND（アラームのみ）</item>
+        <item>DND（サイレント）</item>
     </string-array>
 
     <string-array name="touch_music_player">
-        <item>Default music player</item>
-        <item>Currently running player</item>
-        <item>Google Play Music</item>
-        <item>Spotify Music</item>
-    </string-array>
-
-    <string-array name="touch_music_player_values">
-        <item></item>
-        <item>ACTIVE</item>
-        <item>com.google.android.music</item>
-        <item>com.spotify.music</item>
+        <item>デフォルトの音楽プレーヤー</item>
+        <item>再生中の音楽プレーヤー</item>
+        <item>Google Playミュージック</item>
+        <item>Spotify</item>
     </string-array>
 
     <string-array name="touch_music_info">
-        <item>No notification</item>
-        <item>Artist#Title</item>
-        <item>Artist, Title</item>
-        <item>Title</item>
-    </string-array>
-
-    <string-array name="touch_music_info_values">
-        <item>NONE</item>
-        <item>ARTIST#TITLE</item>
-        <item>ARTIST_TITLE</item>
-        <item>TITLE</item>
+        <item>通知なし</item>
+        <item>アーティスト名#タイトル</item>
+        <item>アーティスト名,タイトル</item>
+        <item>タイトル</item>
     </string-array>
 
     <string-array name="touch_music_function_info">
-        <item>Title</item>
-        <item>Artist: Title</item>
-        <item>Artist: Album - Title</item>
-    </string-array>
-
-    <string-array name="touch_music_function_info_values">
-        <item>TITLE</item>
-        <item>ARTIST_TITLE</item>
-        <item>ARTIST_ALBUM_TITLE</item>
+        <item>タイトル</item>
+        <item>アーティスト: タイトル</item>
+        <item>アーティスト: アルバム - タイトル/item>
     </string-array>
 
     <string-array name="touch_camera_app">
-        <item>Default (root is needed)</item>
-        <item>Open Camera</item>
-    </string-array>
-
-    <string-array name="touch_camera_app_values">
-        <item></item>
-        <item>net.sourceforge.opencamera</item>
+        <item>デフォルト（ルート化が必要）</item>
+        <item>カメラを開く</item>
     </string-array>
 
     <string-array name="pref_timer_time_interval_repeat">
-        <item>Off</item>
-        <item>1 minutes</item>
-        <item>2 minutes</item>
-        <item>3 minutes</item>
-        <item>4 minutes</item>
-        <item>5 minutes</item>
-        <item>6 minutes</item>
-        <item>7 minutes</item>
-        <item>8 minutes</item>
-        <item>9 minutes</item>
-        <item>10 minutes</item>
-        <item>11 minutes</item>
-        <item>12 minutes</item>
-        <item>13 minutes</item>
-        <item>14 minutes</item>
-        <item>15 minutes</item>
-        <item>20 minutes</item>
-        <item>30 minutes</item>
-        <item>40 minutes</item>
-        <item>50 minutes</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>3 hours</item>
-        <item>4 hours</item>
-        <item>5 hours</item>
+        <item>オフ</item>
+        <item>1分</item>
+        <item>2分</item>
+        <item>3分</item>
+        <item>4分</item>
+        <item>5分</item>
+        <item>6分</item>
+        <item>7分</item>
+        <item>8分</item>
+        <item>9分</item>
+        <item>10分</item>
+        <item>11分</item>
+        <item>12分</item>
+        <item>13分</item>
+        <item>14分</item>
+        <item>15分</item>
+        <item>20分</item>
+        <item>30分</item>
+        <item>40分</item>
+        <item>50分</item>
+        <item>1時間</item>
+        <item>2時間</item>
+        <item>3時間</item>
+        <item>4時間</item>
+        <item>5時間</item>
     </string-array>
-
-    <integer-array name="pref_timer_time_interval_repeat_values">
-        <item>0</item>
-        <item>60000</item>
-        <item>120000</item>
-        <item>180000</item>
-        <item>240000</item>
-        <item>300000</item>
-        <item>360000</item>
-        <item>420000</item>
-        <item>480000</item>
-        <item>540000</item>
-        <item>600000</item>
-        <item>660000</item>
-        <item>720000</item>
-        <item>780000</item>
-        <item>840000</item>
-        <item>900000</item>
-        <item>1200000</item>
-        <item>1800000</item>
-        <item>2400000</item>
-        <item>3000000</item>
-        <item>3600000</item>
-        <item>7200000</item>
-        <item>10800000</item>
-        <item>14400000</item>
-        <item>18000000</item>
-    </integer-array>
 
     <string-array name="notification_group_text_content_slice">
         <item>1 slice (1-%1$,d chars)</item>
@@ -344,211 +190,112 @@
     </string-array>
 
     <string-array name="notification_group_display_time">
-        <item>Auto (3 – 5 seconds)</item>
-        <item>3 seconds</item>
-        <item>4 seconds</item>
-        <item>5 seconds</item>
-        <item>6 seconds</item>
-        <item>7 seconds</item>
+        <item>自動（3～5秒）</item>
+        <item>3秒</item>
+        <item>4秒</item>
+        <item>5秒</item>
+        <item>6秒</item>
+        <item>7秒</item>
     </string-array>
-
-    <integer-array name="notification_group_display_time_values">
-        <item>0</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-    </integer-array>
-
-    <integer-array name="notification_group_display_time_millis">
-        <item>0</item>
-        <item>1000</item>
-        <item>2000</item>
-        <item>3200</item>
-        <item>4400</item>
-        <item>5600</item>
-        <item>6700</item>
-        <item>7800</item>
-    </integer-array>
 
     <string-array name="custom_vibration">
-        <item>Default</item>
-        <item>Custom</item>
-    </string-array>
-
-    <string-array name="custom_vibration_values">
-        <item>DEFAULT</item>
-        <item>CUSTOM</item>
+        <item>デフォルト</item>
+        <item>カスタム</item>
     </string-array>
 
     <string-array name="touch_recognition_press">
-        <item>None</item>
-        <item>Touch</item>
-        <item>Double touch</item>
-        <item>Triple touch</item>
-        <item>Long touch</item>
-        <item>Button</item>
+        <item>なし</item>
+        <item>画面のタップ</item>
+        <item>画面のダブルタップ</item>
+        <item>画面のトリプルタップ</item>
+        <item>長押し</item>
+        <item>本体ボタン</item>
     </string-array>
 
     <string-array name="touch_recognition_press_mi_band_4_gtr">
-        <item>None</item>
-        <item>Mute button</item>
-        <item>Double touch</item>
-        <item>Triple touch</item>
-        <item>Reject button</item>
-        <item>Button</item>
+        <item>なし</item>
+        <item>ミュートボタン</item>
+        <item>画面のダブルタップ</item>
+        <item>画面のトリプルタップ</item>
+        <item>着信拒否ボタン</item>
+        <item>本体ボタン</item>
     </string-array>
 
     <string-array name="touch_recognition_press_amazfit_bip_cor">
-        <item>None</item>
-        <item>Green button</item>
-        <item>Double touch</item>
-        <item>Triple touch</item>
-        <item>Red button</item>
-        <item>Button</item>
-    </string-array>
-
-    <string-array name="touch_recognition_press_values">
-        <item>NONE</item>
-        <item>TOUCH</item>
-        <item>DOUBLE_TOUCH</item>
-        <item>TRIPLE_TOUCH</item>
-        <item>LONG_TOUCH</item>
-        <item>BUTTON</item>
+        <item>なし</item>
+        <item>緑ボタン</item>
+        <item>画面のダブルタップ</item>
+        <item>画面のトリプルタップ</item>
+        <item>赤ボタン</item>
+        <item>本体ボタン</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method">
-        <item>Pattern recognition</item>
-        <item>Button press counting</item>
-    </string-array>
-
-    <string-array name="pref_touch_detection_method_values">
-        <item></item>
-        <item>COUNTING</item>
+        <item>パターン認識</item>
+        <item>本体ボタンのカウント数</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method_mi_band_3">
-        <item>Power saving</item>
-        <item>Power saving (+pulse)</item>
-<!--        <item>Power saving (find phone)</item>-->
-<!--        <item>Power saving (pulse and find phone)</item>-->
-        <item>Performance</item>
-    </string-array>
-
-    <string-array name="pref_touch_detection_method_mi_band_3_values">
-        <item></item>
-        <item>PULSE</item>
-<!--        <item>FIND</item>-->
-<!--        <item>PULSE_FIND</item>-->
-        <item>PERFORMANCE</item>
+        <item>省電力</item>
+        <item>省電力（＋心拍数）</item>
+<!--        <item>省電力（＋端末を探す）</item>-->
+<!--        <item>省電力（＋心拍数・端末を探す）</item>-->
+        <item>高パフォーマンス</item>
     </string-array>
 
     <string-array name="touch_recognition_start_trigger">
-        <item>None</item>
-        <item>Touch</item>
+        <item>なし</item>
+        <item>タップ</item>
     </string-array>
 
     <string-array name="touch_recognition_start_trigger_button">
-        <item>None</item>
-        <item>Button press</item>
-        <item>Long press the button</item>
-    </string-array>
-
-    <string-array name="touch_recognition_start_trigger_values">
-        <item>NONE</item>
-        <item>PATTERN</item>
-        <item>LONG_PRESS</item>
+        <item>なし</item>
+        <item>本体ボタン</item>
+        <item>本体ボタン長押し</item>
     </string-array>
 
     <string-array name="pref_reminder_calendar_notif_before">
-        <item>No</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>15 minutes</item>
-        <item>20 minutes</item>
-        <item>30 minutes</item>
-        <item>45 minutes</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>3 hours</item>
-    </string-array>
-
-    <integer-array name="pref_reminder_calendar_notif_before_values">
-        <item>0</item>
-        <item>300000</item>
-        <item>600000</item>
-        <item>900000</item>
-        <item>1200000</item>
-        <item>1800000</item>
-        <item>2400000</item>
-        <item>3600000</item>
-        <item>7200000</item>
-        <item>10800000</item>
-    </integer-array>
-
-    <string-array name="pref_weather_provider_values">
-        <item>OPEN_WEATHER_MAP</item>
-        <item>DARK_SKY</item>
-        <item>ACCU_WEATHER</item>
+        <item>なし</item>
+        <item>5分</item>
+        <item>10分</item>
+        <item>15分</item>
+        <item>20分</item>
+        <item>30分</item>
+        <item>45分</item>
+        <item>1時間</item>
+        <item>2時間</item>
+        <item>3時間</item>
     </string-array>
 
     <string-array name="pref_weather_unit">
-        <item>Metric (Celsius ℃)</item>
-        <item>Imperial (Fahrenheit ℉)</item>
-    </string-array>
-
-    <string-array name="pref_weather_unit_values">
-        <item>METRIC</item>
-        <item>IMPERIAL</item>
+        <item>摂氏（℃）</item>
+        <item>華氏（℉）</item>
     </string-array>
 
     <string-array name="pref_weather_current_display">
-        <item>Current</item>
-        <item>Current, precipitation, cloud cover</item>
-        <item>Average</item>
-        <item>Am, Pm</item>
-    </string-array>
-
-    <string-array name="pref_weather_current_display_values">
-        <item>CURRENT</item>
-        <item>CURRENT_PRECIP_CC</item>
-        <item>AVERAGE</item>
-        <item>AM_PM</item>
+        <item>現在の天気</item>
+        <item>現在の天気・降水量・雲量</item>
+        <item>平均</item>
+        <item>午前/午後の天気</item>
     </string-array>
 
     <string-array name="pref_weather_forecast_display">
-        <item>Average</item>
-        <!--<item>Average, precipitation, cloud cover</item>-->
-        <item>Am, Pm</item>
-    </string-array>
-
-    <string-array name="pref_weather_forecast_display_values">
-        <item>AVERAGE</item>
-        <!--<item>AVERAGE_PRECIP_CC</item>-->
-        <item>AM_PM</item>
+        <item>平均</item>
+        <!--<item>平均気温・降水量・雲量</item>-->
+        <item>午前/午後の天気</item>
     </string-array>
 
     <string-array name="widget_event">
-        <item>Bandages screen</item>
-        <item>Activity screen</item>
-        <item>Pulse screen</item>
-        <item>Pulse measurement</item>
-        <item>Alarm screen</item>
-        <item>Reminder screen</item>
-    </string-array>
-
-    <string-array name="widget_event_values">
-        <item>LAUNCH_BANDAGES</item>
-        <item>LAUNCH_ACTIVITY</item>
-        <item>LAUNCH_PULSE</item>
-        <item>ACTION_PULSE</item>
-        <item>LAUNCH_TIME_ALARM</item>
-        <item>LAUNCH_REMINDER</item>
+        <item>Mi Bandage</item>
+        <item>アクティビティ</item>
+        <item>心拍数</item>
+        <item>心拍数計測</item>
+        <item>アラーム</item>
+        <item>リマインダー</item>
     </string-array>
 
     <string-array name="pref_language">
-        <item>Default</item>
+        <item>デフォルト</item>
         <item>English</item>
         <item>Magyar</item>
         <item>Русский</item>
@@ -594,8 +341,9 @@
     </string-array>
 
     <string-array name="pref_language_mi_band_3">
-        <item>Not set (set by Mi Fit)</item>
-        <item>Default (by phone)</item>
+        <item>設定しない（Mi Fitで設定）</item>
+        <item>デフォルト（端末の言語）</item>
+        <item>日本語</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -613,13 +361,13 @@
         <item>ไทย</item>
         <item>简体中文</item>
         <item>繁體中文</item>
-        <item>日本語</item>
         <item>عربى</item>
     </string-array>
 
     <string-array name="pref_language_mi_band_3_values">
         <item></item>
         <item>DEFAULT</item>
+        <item>ja_JP</item>
         <item>en_US</item>
         <item>es_ES</item>
         <item>pt_PT</item>
@@ -637,13 +385,13 @@
         <item>th_TH</item>
         <item>zh_CN</item>
         <item>zh_TW</item>
-        <item>ja_JP</item>
         <item>ar_SA</item>
     </string-array>
 
     <string-array name="pref_language_mi_band_4">
-        <item>Not set (set by Mi Fit)</item>
-        <item>Default (by phone)</item>
+        <item>設定しない（Mi Fitで設定）</item>
+        <item>デフォルト（端末の言語）</item>
+        <item>日本語</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -662,13 +410,13 @@
         <item>ไทย</item>
         <item>简体中文</item>
         <item>繁體中文</item>
-        <item>日本語</item>
         <item>عربى</item>
     </string-array>
 
     <string-array name="pref_language_mi_band_4_values">
         <item></item>
         <item>DEFAULT</item>
+        <item>ja_JP</item>
         <item>en_US</item>
         <item>es_ES</item>
         <item>pt_BR</item>
@@ -687,13 +435,13 @@
         <item>th_TH</item>
         <item>zh_CN</item>
         <item>zh_TW</item>
-        <item>ja_JP</item>
         <item>ar_SA</item>
     </string-array>
 
     <string-array name="pref_language_amazfit_bip_watch">
-        <item>Not set (set by Mi Fit)</item>
-        <item>Default (by phone)</item>
+        <item>設定しない（Mi Fitで設定）</item>
+        <item>デフォルト（端末の言語）</item>
+        <item>日本語</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -705,13 +453,12 @@
         <item>한국어</item>
         <item>繁體中文</item>
         <item>简体中文</item>
-        <item>简体中文</item>
-        <item>日本語</item>
     </string-array>
 
     <string-array name="pref_language_amazfit_bip_watch_values">
         <item></item>
         <item>DEFAULT</item>
+        <item>ja_JP</item>
         <item>en_US</item>
         <item>es_ES</item>
         <item>pt_BR</item>
@@ -724,12 +471,11 @@
         <item>zh_TW</item>
         <item>zh_CH</item>
         <item>zh_CN</item>
-        <item>ja_JP</item>
     </string-array>
 
     <string-array name="pref_language_amazfit_cor">
-        <item>Not set (set by Mi Fit)</item>
-        <item>Default (by phone)</item>
+        <item>設定しない（Mi Fitで設定）</item>
+        <item>デフォルト（端末の言語）</item>
         <item>English</item>
         <item>Español</item>
         <item>Русский</item>
@@ -748,8 +494,9 @@
     </string-array>
 
     <string-array name="pref_language_amazfit_gtr">
-        <item>Not set (set by Mi Fit)</item>
-        <item>Default (by phone)</item>
+        <item>設定しない（Mi Fitで設定）</item>
+        <item>デフォルト（端末の言語）</item>
+        <item>日本語</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -767,13 +514,13 @@
         <item>ไทย</item>
         <item>简体中文</item>
         <item>繁體中文</item>
-        <item>日本語</item>
         <item>عربى</item>
     </string-array>
 
     <string-array name="pref_language_amazfit_gtr_values">
         <item></item>
         <item>DEFAULT</item>
+        <item>ja_JP</item>
         <item>en_US</item>
         <item>es_ES</item>
         <item>pt_BR</item>
@@ -791,7 +538,6 @@
         <item>th_TH</item>
         <item>zh_CN</item>
         <item>zh_TW</item>
-        <item>ja_JP</item>
         <item>ar_SA</item>
     </string-array>
 </resources>
