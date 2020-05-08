@@ -1,356 +1,356 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_name">Mi Bandage</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">サイドメニューを開く</string>
+    <string name="navigation_drawer_close">サイドメニューを閉じる</string>
 
     <string name="drawer_nav_home">Bandages</string>
-    <string name="drawer_nav_notification">Notification</string>
-    <string name="drawer_nav_touch">Touch</string>
-    <string name="drawer_nav_step">Activity</string>
-    <string name="drawer_nav_sleep">Sleep</string>
-    <string name="drawer_nav_pulse">Pulse</string>
-    <string name="drawer_nav_time">Time</string>
-    <string name="drawer_nav_reminder">Event reminder</string>
-    <string name="drawer_nav_weather">Weather</string>
-    <string name="drawer_nav_watch_face">Watch face</string>
-    <string name="drawer_nav_firmware">Firmware</string>
-    <string name="drawer_nav_alarm">Lost</string>
-    <string name="drawer_nav_disconnected_agent">Agent</string>
-    <string name="drawer_nav_theme">Theme</string>
-    <string name="drawer_nav_backup">Backup</string>
-    <string name="drawer_nav_rewarded_mode">Rewarded mode</string>
-    <string name="drawer_nav_premium_mode">Premium mode</string>
-    <string name="drawer_nav_feedback">Feedback</string>
-    <string name="drawer_nav_privacy_policy">Privacy policy</string>
+    <string name="drawer_nav_notification">通知</string>
+    <string name="drawer_nav_touch">タッチ</string>
+    <string name="drawer_nav_step">アクティビティ</string>
+    <string name="drawer_nav_sleep">睡眠</string>
+    <string name="drawer_nav_pulse">心拍数</string>
+    <string name="drawer_nav_time">時計</string>
+    <string name="drawer_nav_reminder">リマインダー</string>
+    <string name="drawer_nav_weather">天気</string>
+    <string name="drawer_nav_watch_face">ウォッチフェイス</string>
+    <string name="drawer_nav_firmware">ファームウェア</string>
+    <string name="drawer_nav_alarm">端末を探す</string>
+    <string name="drawer_nav_disconnected_agent">エージェント</string>
+    <string name="drawer_nav_theme">テーマ</string>
+    <string name="drawer_nav_backup">バックアップ</string>
+    <string name="drawer_nav_rewarded_mode">リワードモード</string>
+    <string name="drawer_nav_premium_mode">プレミアムモード</string>
+    <string name="drawer_nav_feedback">フィードバック</string>
+    <string name="drawer_nav_privacy_policy">プライバシーポリシー</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
-    <string name="shortcut_touch">Touch</string>
-    <string name="shortcut_step">Activity</string>
-    <string name="shortcut_pulse">Pulse</string>
-    <string name="shortcut_time_alarm">Alarm</string>
-    <string name="shortcut_reminder">Reminder</string>
+    <string name="shortcut_touch">タッチ</string>
+    <string name="shortcut_step">アクティビティ</string>
+    <string name="shortcut_pulse">心拍数</string>
+    <string name="shortcut_time_alarm">アラーム</string>
+    <string name="shortcut_reminder">リマインダー</string>
 
-    <string name="setting_name">Setting</string>
-    <string name="settings_name">Settings</string>
-    <string name="app_chooser">App chooser</string>
-    <string name="info_name">Information</string>
+    <string name="setting_name">設定</string>
+    <string name="settings_name">設定</string>
+    <string name="app_chooser">アプリ選択</string>
+    <string name="info_name">情報</string>
 
     <!-- Foreground service, ongoing notification -->
-    <string name="foreground_service_connected">Connection time: %1$s</string>
-    <string name="foreground_service_disconnected_text">%1$s is not connected</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <!--<string name="foreground_service_disconnected">Disconnection time: %1$s</string>-->
+    <string name="foreground_service_connected">接続時間：%1$s</string>
+    <string name="foreground_service_disconnected_text">%1$sは未接続です</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <!--<string name="foreground_service_disconnected">未接続時間：%1$s</string>-->
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Steps, distance, calories, goal, pulse</string>
+    <string name="mi_band_tracker_title">歩数・距離・カロリー・目標・心拍数</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Battery level, last charging time, estimated remaining time</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI, last connection and disconnection time</string>
-    <string name="mi_band_touch">Touch monitoring</string>
-    <string name="mi_band_alarm">Next alarm</string>
-    <string name="mi_band_bonded_device_name">Paired device name</string>
-    <string name="mi_band_mac_address">MAC address</string>
-    <string name="mi_band_firmware">Firmware</string>
-    <string name="mi_band_hardware">Hardware</string>
+    <string name="mi_band_battery">バッテリー残量・最後に充電した時間・推定残り時間</string>
+    <string name="mi_band_state_connected_disconnected_last_time">電波強度・最後に接続、切断された時間</string>
+    <string name="mi_band_touch">タッチの監視</string>
+    <string name="mi_band_alarm">次のアラーム</string>
+    <string name="mi_band_bonded_device_name">ペアリングされたデバイス名</string>
+    <string name="mi_band_mac_address">MACアドレス</string>
+    <string name="mi_band_firmware">ファームウェア</string>
+    <string name="mi_band_hardware">ハードウェア</string>
 
-    <string name="mi_band_mac_address_invalid">MAC address is invalid</string>
+    <string name="mi_band_mac_address_invalid">MACアドレスが無効です</string>
 
-    <string name="mi_band_state_title">%1$s settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="mi_band_state_connected">Connected</string>
-    <string name="mi_band_state_disconnected">Disconnected</string>
-    <string name="mi_band_state_bonded">Paired device</string>
-    <string name="mi_band_state_not_bonded">Not paired device</string>
+    <string name="mi_band_state_title">%1$sの設定</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="mi_band_state_connected">接続済み</string>
+    <string name="mi_band_state_disconnected">未接続</string>
+    <string name="mi_band_state_bonded">ペアリングされたデバイス</string>
+    <string name="mi_band_state_not_bonded">未ペアリングのデバイス</string>
 
     <!-- Mi Band setting -->
-    <string name="mi_band_setting_title">%1$s settings</string>
+    <string name="mi_band_setting_title">%1$sの設定</string>
 
-    <string name="mi_band_setting_menu_profile">Profile</string>
+    <string name="mi_band_setting_menu_profile">プロフィール</string>
     <string name="mi_band_setting_menu_setting">@string/setting_name</string>
-    <string name="mi_band_setting_menu_text">Text</string>
-    <string name="mi_band_setting_menu_call">Call</string>
-    <string name="mi_band_setting_menu_menu">Menu</string>
+    <string name="mi_band_setting_menu_text">テキスト</string>
+    <string name="mi_band_setting_menu_call">通話</string>
+    <string name="mi_band_setting_menu_menu">メニュー</string>
 
-    <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Mi Fit, Amazfit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage requires the installation of the Mi Fit/Amazfit app on the same phone. At first you have to pair %1$s in Mi Fit/Amazfit app, then you can use Mi Bandage. If you want to use Mi Fit/Amazfit application, choose this.</string>
-    <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Fit/Amazfit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit/Amazfit app or unpair your device. When restoring the Mi Fit/Amazfit cooperation, you will need to re-pair your %1$s in the Mi Fit/Amazfit application.</string>
-    <string name="mi_band_setting_auth_key_title">Set authentication key</string>
-    <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
+    <string name="mi_band_setting_auth_mi_fit">%1$sとの連携</string> <!-- Mi Fit, Amazfit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi FitまたはAmazfitのインストールが必要です。Mi Bandageを使う前にMi Fit/Amazfitで%1$sをペアリングしてください。</string>
+    <string name="mi_band_setting_auth_standalone">スタンドアロンモード</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit/Amazfitを使わず、Mi Bandage単体で動作します。すでにペアリング済みの場合は、Mi Fit/Amazfitをアンインストールするかペアリングを解除してください。Mi Fit/Amazfitと連携しなおす際は、%1$sを再度ペアリングする必要があります。</string>
+    <string name="mi_band_setting_auth_key_title">認証キーの設定</string>
+    <string name="mi_band_setting_auth_key_hint">スタンドアロンモードでは認証キーが必要です</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <p>- Unpair %1$s in the official Mi Fit/Amazfit app</p>
-        <p>- Uninstall the official Mi Fit/Amazfit app</p>
-        <p>- Download and install the modified Mi Fit/Amazfit app</p>
-        <p>- Pair the %1$s in the modified Mi Fit/Amazfit app (do not unpair)</p>
-        <p>- Uninstall the modified Mi Fit/Amazfit app</p>
-        Authentication key can be found at: internal storage/freemyband/mac address.txt
+        <p>- 公式のMi Fit/Amazfitアプリで%1$sのペアリングを解除</p>
+        <p>- 公式のMi Fit/Amazfitをアンインストール</p>
+        <p>- 改造版Mi Fit/Amazfitをインストール</p>
+        <p>- 改造版Mi Fit/Amazfitで%1$sをペアリング</p>
+        <p>- ペアリングを解除せずに改造版Mi Fit/Amazfitをアンインストール</p>
+        認証キーの保存先：(内部ストレージ)/freemyband/mac address.txt
     ]]></string>
-    <string name="mi_band_setting_auth_key">Authentication key</string>
-    <string name="mi_band_setting_auth">Pair</string>
+    <string name="mi_band_setting_auth_key">認証キー</string>
+    <string name="mi_band_setting_auth">ペアリング</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
-    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
-    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
-    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
+    <string name="message_mi_band_setting_auth_press_band_button">%1$sのボタンを押してペアリングしてください</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$sのペアリングに成功しました</string>
+    <string name="message_mi_band_setting_auth_fail">%1$sのペアリングに失敗しました</string>
+    <string name="message_mi_band_setting_auth_key_invalid">認証キーが無効です</string>
 
-    <string name="mi_band_setting_nickname">Nickname</string>
-    <string name="mi_band_setting_gender">Gender</string>
-    <string name="mi_band_setting_birthday">Date of birth</string>
-    <string name="mi_band_setting_height">Height</string>
-    <string name="mi_band_setting_weight">Weight</string>
-    <string name="mi_band_setting_wear_location">Band location</string>
+    <string name="mi_band_setting_nickname">ニックネーム</string>
+    <string name="mi_band_setting_gender">性別</string>
+    <string name="mi_band_setting_birthday">誕生日</string>
+    <string name="mi_band_setting_height">身長</string>
+    <string name="mi_band_setting_weight">体重</string>
+    <string name="mi_band_setting_wear_location">バンドの位置</string>
 
-    <string name="mi_band_setting_distance_unit">Distance unit</string>
+    <string name="mi_band_setting_distance_unit">距離の単位</string>
 
-    <string name="mi_band_setting_standalone_setting">Standalone settings</string>
-    <string name="mi_band_setting_time_24h">24-hour time format</string>
-    <string name="mi_band_setting_date">Display date on screen</string>
-    <string name="mi_band_setting_lock_screen">Band screen lock</string>
-    <string name="mi_band_setting_lock_screen_summary">Swipe up to unlock the screen while the band is powered on</string>
-    <string name="mi_band_setting_lift_wrist">Lift wrist to view info</string>
-    <string name="mi_band_setting_lift_wrist_sensitivity">Response speed</string>
-    <string name="mi_band_setting_idle_alert">Idle alert</string>
-    <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
-    <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
-    <string name="mi_band_setting_night_mode">Night mode</string>
+    <string name="mi_band_setting_standalone_setting">スタンドアロンモードの設定</string>
+    <string name="mi_band_setting_time_24h">24時間表記</string>
+    <string name="mi_band_setting_date">画面に日付を表示</string>
+    <string name="mi_band_setting_lock_screen">画面ロック</string>
+    <string name="mi_band_setting_lock_screen_summary">電源オン時に画面を上にスワイプしてロック解除</string>
+    <string name="mi_band_setting_lift_wrist">手首を持ち上げて情報を表示</string>
+    <string name="mi_band_setting_lift_wrist_sensitivity">反応速度</string>
+    <string name="mi_band_setting_idle_alert">座りすぎ通知</string>
+    <string name="mi_band_setting_idle_alert_time">無活動時間</string>
+    <string name="mi_band_setting_idle_alert_dnd">休憩中は通知しない</string>
+    <string name="mi_band_setting_night_mode">ナイトモード</string>
 
-    <string name="mi_band_setting_discoverable">Discoverable</string>
+    <string name="mi_band_setting_discoverable">検出可能</string>
 
-    <string name="pref_text_title">Text display</string>
-    <string name="pref_text_conversion_summary">Convert text message characters</string>
-    <string name="pref_cat_text_conversion">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_text_conversion_title">Transliteration</string>
-    <string name="pref_text_conversion_summary_on">Not recognisable characters conversion, turn off if the Band supports your language or you have installed custom font firmware</string>
-    <string name="pref_text_conversion_excluded_title">Excluded characters</string>
-    <string name="pref_text_emoticon_title">Emoji conversion</string>
-    <string name="pref_text_emoticon_summary_on">Convert emoji to emoticon</string>
-    <string name="pref_text_uppercase_title">Uppercase conversion</string>
-    <string name="pref_text_uppercase_summary_on">Convert lowercase to uppercase</string>
-    <string name="pref_text_length">Text length, depends on the font used (for example Chinese or Cyrillic characters)</string>
-    <string name="pref_text_length_summary_on">%1$,d characters</string>
+    <string name="pref_text_title">テキスト表示</string>
+    <string name="pref_text_conversion_summary">文字の変換</string>
+    <string name="pref_cat_text_conversion">%1$sの通知</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_text_conversion_title">音訳</string>
+    <string name="pref_text_conversion_summary_on">認識できない文字を変換します。バンドが言語をサポートしている、またはカスタムフォントのファームウェアをインストールしている場合はオフにしてください。</string>
+    <string name="pref_text_conversion_excluded_title">除外する文字</string>
+    <string name="pref_text_emoticon_title">絵文字の変換</string>
+    <string name="pref_text_emoticon_summary_on">絵文字を顔文字に変換します</string>
+    <string name="pref_text_uppercase_title">大文字に変換</string>
+    <string name="pref_text_uppercase_summary_on">小文字を大文字に変換します</string>
+    <string name="pref_text_length">テキストの長さ（フォントに依存）</string>
+    <string name="pref_text_length_summary_on">%1$,d文字</string>
 
-    <string name="mi_band_setting_menu_visible">Visible menu items</string>
-    <string name="mi_band_setting_menu_hidden">Hidden menu items</string>
-    <string name="mi_band_setting_shortcut">Shortcut items</string>
+    <string name="mi_band_setting_menu_visible">表示するメニュー</string>
+    <string name="mi_band_setting_menu_hidden">非表示のメニュー</string>
+    <string name="mi_band_setting_shortcut">ショートカット</string>
 
-    <string name="pref_text_conversion_description_title">Description</string>
+    <string name="pref_text_conversion_description_title">詳細</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
-        <p>If your Band shows the incoming caller name currently, then you do not need to do the following steps just turn off <i>Incoming call alerts</i> on Mi Fit.</p>
-        <p>If you do not use <i>Incoming call alerts</i> and the phone language is not English:
-        <br/>1. Set your phone language to English.
-        <br/>2. Open Mi Fit app, wait until the font firmware update done. If firmware update doesn\'t start, try reboot your phone.
-        <br/>3. Open the <i>Profile/Mi Band/Incoming call</i> menu.
-        <br/>4. Turn on: <i>Turn on incoming call alerts</i>.
-        <br/>5. Turn on: <i>Show contact information</i>.
-        <br/>6. Check if you can Band shows caller name by calling your phone.
-        <br/>7. Turn off : <i>Turn on incoming call alerts</i> (<i>Show contact information</i> stays on).
-        <br/>8. Set phone language back to your language.</p>]]>
+        <p>通話の発信者名が正しく表示されている場合は、以下の操作はせずMi Fitの<i>着信通知</i>をオフにしてください。</p>
+        <p>英語以外の言語で<i>着信通知</i>を使わない場合：
+        <br/>1. 端末の言語を英語に設定
+        <br/>2. Mi Fitを開き、フォントファームウェアの更新が完了するまで待機（ファームウェアの更新が開始されない場合は端末を再起動）
+        <br/>3. <i>プロフィール/マイ デバイス/Mi Band/着信</i>を開く
+        <br/>4. <i>着信通知</i>をオン
+        <br/>5. <i>連絡先の情報を表示</i>をオンに
+        <br/>6. 端末に電話をかけて、発信者名が表示されるか確認
+        <br/>7. <i>着信通知</i>をオフ（<i>連絡先の情報を表示</i>はオンのまま）
+        <br/>8. 端末の言語を元に戻す</p>]]>
     </string>
     <!-- Battery -->
-    <string name="battery_details">Battery usage</string>
+    <string name="battery_details">バッテリーの使用状況</string>
 
-    <string name="mi_band_battery_settings">Battery settings</string>
-    <string name="mi_band_battery_remaining">Battery estimated remaining time</string>
-    <string name="mi_band_battery_notification">Low battery level notification</string>
-    <string name="mi_band_battery_notification_level">Battery level threshold</string>
-    <string name="mi_band_battery_notification_repeat_interval">Repeat interval</string>
-    <string name="mi_band_battery_notification_shade">Notify me on the phone</string>
-    <string name="mi_band_battery_notification_shade_ongoing">Persistent (ongoing) notification</string>
-    <string name="mi_band_battery_notification_shade_message">Battery level is low: %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">Notify me on the bracelet</string>
-    <string name="mi_band_battery_notification_mi_band_message">Battery: %1$,d%%</string>
+    <string name="mi_band_battery_settings">バッテリーの設定</string>
+    <string name="mi_band_battery_remaining">推定残り時間</string>
+    <string name="mi_band_battery_notification">残量低下通知</string>
+    <string name="mi_band_battery_notification_level">通知するバッテリー残量</string>
+    <string name="mi_band_battery_notification_repeat_interval">繰り返し間隔</string>
+    <string name="mi_band_battery_notification_shade">端末に通知</string>
+    <string name="mi_band_battery_notification_shade_ongoing">通知を固定</string>
+    <string name="mi_band_battery_notification_shade_message">バッテリー残量低下：%1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">バンドに通知</string>
+    <string name="mi_band_battery_notification_mi_band_message">バッテリー：%1$,d%%</string>
 
     <!-- PreferenceScreen -->
-    <string name="pref_connected">Connection</string>
-    <string name="pref_connected_summary">%1$s and phone connection signals and settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected">接続時</string>
+    <string name="pref_connected_summary">%1$sと端末との接続時の挙動設定</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
-    <string name="pref_connected_signals">Connection signals</string>
-    <string name="pref_connected_signals_summary">%1$s connecting and not have notification</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_cat_connected_signals_mi_band">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_connected_mi_band_title">Vibration</string>
-    <string name="pref_cat_connected_signals">Phone signals</string>
-    <string name="pref_connected_wakelock_title">Wake up the phone screen</string>
+    <string name="pref_connected_signals">接続通知</string>
+    <string name="pref_connected_signals_summary"></string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_connected_signals_mi_band">%1$sへの通知</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_mi_band_title">バイブレーション</string>
+    <string name="pref_cat_connected_signals">端末への通知</string>
+    <string name="pref_connected_wakelock_title">端末の画面を点灯</string>
 
-    <string name="pref_connected_settings">Connection settings</string>
-    <string name="pref_connected_settings_summary">%1$s and phone connection settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_cat_connected_settings">Phone settings</string>
-    <string name="pref_connected_volume_title">Adjust the volume</string>
-    <string name="pref_connected_volume_ring_title">Ring volume</string>
+    <string name="pref_connected_settings">接続時の設定</string>
+    <string name="pref_connected_settings_summary"></string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_connected_settings">端末の設定</string>
+    <string name="pref_connected_volume_title">音量を調整</string>
+    <string name="pref_connected_volume_ring_title">着信音</string>
 
-    <string name="pref_cat_connected_have_notif">Predefined app signals</string>
-    <string name="pref_cat_connected_have_notif_default">Predefined and custom settings</string>
-    <string name="pref_connected_have_notif_immediate_title">Immediate signal when notification is received</string>
-    <string name="pref_connected_have_notif_title">Signal when connecting to phone</string>
-    <string name="pref_connected_have_notif_reminder_title">Reminder signal</string>
-    <string name="pref_connected_have_notif_screen_off_title">Signal only when the screen is off</string>
-    <string name="pref_connected_have_notif_interval_title">Reminder repeat interval</string>
-    <string name="pref_connected_have_notif_counter_title">The number of signals</string>
-    <string name="pref_connected_have_notif_wakelock_title">Wake up the phone screen</string>
-    <string name="pref_connected_have_notif_ongoing_title">Signal persistent (ongoing) notifications</string>
-    <string name="pref_connected_have_notif_default_app_title">Signal not recognised app</string>
-    <string name="pref_connected_have_notif_default_app_summary_on">\'app\' icon (if app there is no in predefined and neither custom notification group)</string>
-    <string name="pref_connected_have_notif_pre_signal_title">Notification prediction</string>
-    <string name="pref_connected_have_notif_pre_signal_summary_on">Signal (click on the icon to change it) before the actual notification in order to have more time to look at the display</string>
+    <string name="pref_cat_connected_have_notif">既定アプリの通知</string>
+    <string name="pref_cat_connected_have_notif_default">既定・カスタム通知設定</string>
+    <string name="pref_connected_have_notif_immediate_title">通知が来たらすぐに送信</string>
+    <string name="pref_connected_have_notif_title">端末の接続中に通知を送信</string>
+    <string name="pref_connected_have_notif_reminder_title">リマインダーの通知を送信</string>
+    <string name="pref_connected_have_notif_screen_off_title">画面オフ時のみ通知を送信</string>
+    <string name="pref_connected_have_notif_interval_title">リマインダーの繰り返し間隔</string>
+    <string name="pref_connected_have_notif_counter_title">通知の数</string>
+    <string name="pref_connected_have_notif_wakelock_title">端末の画面を点灯</string>
+    <string name="pref_connected_have_notif_ongoing_title">固定された通知を送信</string>
+    <string name="pref_connected_have_notif_default_app_title">未設定のアプリの通知</string>
+    <string name="pref_connected_have_notif_default_app_summary_on">既定・カスタム通知設定にないアプリからの通知を送信します（'app'アイコンで表示）</string>
+    <string name="pref_connected_have_notif_pre_signal_title">事前通知</string>
+    <string name="pref_connected_have_notif_pre_signal_summary_on">事前通知（アイコンはタップで変更可能）をしてからアプリの通知を送信することで、通知内容を見る時間を確保できます</string>
 
-    <string name="pref_disconnected">Disconnection</string>
-    <string name="pref_disconnected_summary">%1$s and phone disconnection signals and settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected">切断時の設定</string>
+    <string name="pref_disconnected_summary"></string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
-    <string name="pref_disconnected_signals">Disconnection signals</string>
-    <string name="pref_disconnected_signals_summary">%1$s and phone disconnection signals, it does not signal when the bluetooth is turned off manually</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_cat_disconnected_signals_mi_band">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_disconnected_mi_band_title">Icon displaying and vibration</string>
-    <string name="pref_cat_disconnected_signals">Phone signals</string>
-    <string name="pref_disconnected_ringtone_title">Ringtone</string>
-    <string name="pref_disconnected_vibration_title">Vibration</string>
-    <string name="pref_disconnected_wakelock_title">Wake up the phone screen</string>
+    <string name="pref_disconnected_signals">切断通知</string>
+    <string name="pref_disconnected_signals_summary">Bluetoothを手動でオフにした場合は通知されません</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_signals_mi_band">%1$sへの通知</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_mi_band_title">アイコンの表示とバイブレーション</string>
+    <string name="pref_cat_disconnected_signals">端末への通知</string>
+    <string name="pref_disconnected_ringtone_title">着信音</string>
+    <string name="pref_disconnected_vibration_title">バイブレーション</string>
+    <string name="pref_disconnected_wakelock_title">端末の画面を点灯</string>
 
-    <string name="pref_disconnected_settings">Disconnection settings</string>
-    <string name="pref_disconnected_settings_summary">%1$s and phone disconnection settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_cat_disconnected_settings">Phone settings</string>
-    <string name="pref_disconnected_volume_title">Adjust the volume</string>
-    <string name="pref_disconnected_volume_ring_title">Ring volume</string>
-    <string name="pref_disconnected_volume_adapter_title">When Bluetooth is turned off</string>
-    <string name="pref_disconnected_volume_mute_title">When the phone is muted</string>
-    <string name="pref_disconnected_volume_adapter_summary_on">Adjust the volume</string>
-    <string name="pref_disconnected_volume_adapter_summary_off">Do not adjust the volume</string>
+    <string name="pref_disconnected_settings">切断時の設定</string>
+    <string name="pref_disconnected_settings_summary"></string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_settings">端末の設定</string>
+    <string name="pref_disconnected_volume_title">音量を調整</string>
+    <string name="pref_disconnected_volume_ring_title">着信音</string>
+    <string name="pref_disconnected_volume_adapter_title">Bluetoothの切断時</string>
+    <string name="pref_disconnected_volume_mute_title">端末のミュート時</string>
+    <string name="pref_disconnected_volume_adapter_summary_on">音量を調整</string>
+    <string name="pref_disconnected_volume_adapter_summary_off">音量を調整しない</string>
 
-    <string name="pref_call">Call</string>
-    <string name="pref_call_summary">%1$s signal settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_cat_call">Incoming call</string>
-    <string name="pref_call_title">Incoming call signal</string>
-    <string name="pref_call_summary_on">Do not forget to turn off incoming call alerts on Mi Fit app</string>
-    <string name="pref_call_text_title">Display caller ID</string>
-    <string name="pref_call_text_summary_on"><![CDATA[On (more information: <i>Settings/Text icons settings)</i>]]></string>
+    <string name="pref_call">通話</string>
+    <string name="pref_call_summary">%1$sの通知設定</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_call">着信</string>
+    <string name="pref_call_title">着信通知</string>
+    <string name="pref_call_summary_on">必ずMi Fitで着信通知をオフにしてください</string>
+    <string name="pref_call_text_title">発信者のIDを表示</string>
+    <string name="pref_call_text_summary_on"><![CDATA[オン（詳細：<i>設定/テキスト</i>の<i>アイコン設定</i>）]]></string>
 
-    <string name="pref_call_net_text_title">Incoming internet call signal, display caller ID</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_net_text_title">インターネット通話の着信通知・発信者のIDを表示</string>
+    <string name="pref_call_net_text_summary_on">LINE・Skype・Facebook Messenger・ハングアウト・Google Duo・Whatsapp・Viber・Telegram・Zaroの着信を通知</string>
 
-    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
-    <string name="pref_call_notification_rejected_message">Rejected call</string>
-    <string name="pref_call_notification_rejected_action">Call</string>
-    <string name="pref_call_notification_muted">Show notification about muted call</string>
+    <string name="pref_call_notification_rejected">着信拒否の通知を表示</string>
+    <string name="pref_call_notification_rejected_message">着信拒否</string>
+    <string name="pref_call_notification_rejected_action">通話</string>
+    <string name="pref_call_notification_muted">ミュートした通話の通知を表示</string>
 
-    <string name="pref_cat_call_missed">Missed call</string>
-    <string name="pref_call_missed_title">Missed call signal</string>
+    <string name="pref_cat_call_missed">不在着信</string>
+    <string name="pref_call_missed_title">不在着信通知</string>
 
-    <string name="pref_call_missed_net_title">Missed internet call signal, display caller ID</string>
-    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_missed_net_title">インターネット通話の不在着信通知・発信者のIDを表示</string>
+    <string name="pref_call_missed_net_summary_on">LINE・Skype・Facebook Messenger・ハングアウト・Google Duo・Whatsapp・Viber・Telegram・Zaroの着信を通知</string>
 
-    <string name="pref_call_missed_alert_title">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_call_missed_alert_title">%1$sの通知</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
-    <string name="pref_call_missed_text_prefix_title">Text prefix</string>
-    <string name="pref_call_missed_text_prefix_summary">If more than one app also uses the icon to differentiate notifications from each other</string>
-    <string name="pref_call_missed_text_prefix_dialog_title">Text prefix</string>
+    <string name="pref_call_missed_text_prefix_title">先頭文字列</string>
+    <string name="pref_call_missed_text_prefix_summary">複数のアプリからの通知を区別できます</string>
+    <string name="pref_call_missed_text_prefix_dialog_title">先頭文字列</string>
 
-    <string name="pref_battery_phone">Phone battery</string>
-    <string name="pref_battery_phone_summary">Low and full battery level notifications</string>
-    <string name="pref_cat_battery_phone_low">Low battery level</string>
-    <string name="pref_battery_phone_low_title">Low battery notification</string>
-    <string name="pref_battery_phone_low_level_title">Battery level threshold</string>
-    <string name="pref_battery_phone_low_repeat_interval_title">Repeat interval</string>
-    <string name="pref_cat_battery_phone_full">Full battery level</string>
-    <string name="pref_battery_phone_full_title">Full battery notification</string>
-    <string name="pref_battery_phone_full_plugged_ac">AC charger power source</string>
-    <string name="pref_battery_phone_full_plugged_usb">USB port power source</string>
-    <string name="pref_battery_phone_full_plugged_wireless">Wireless power source</string>
-    <string name="pref_battery_phone_full_repeat_interval_title">Repeat interval</string>
+    <string name="pref_battery_phone">端末のバッテリー</string>
+    <string name="pref_battery_phone_summary">残量低下・フル充電通知</string>
+    <string name="pref_cat_battery_phone_low">残量低下</string>
+    <string name="pref_battery_phone_low_title">残量低下通知</string>
+    <string name="pref_battery_phone_low_level_title">通知するバッテリー残量</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">繰り返し間隔</string>
+    <string name="pref_cat_battery_phone_full">フル充電</string>
+    <string name="pref_battery_phone_full_title">フル充電通知</string>
+    <string name="pref_battery_phone_full_plugged_ac">AC充電器</string>
+    <string name="pref_battery_phone_full_plugged_usb">USBポート</string>
+    <string name="pref_battery_phone_full_plugged_wireless">ワイヤレス充電器</string>
+    <string name="pref_battery_phone_full_repeat_interval_title">繰り返し間隔</string>
 
     <!-- Mi Band 2 max. 18 chars with 100% -->
-    <string name="pref_battery_phone_mi_band_message">Phone batt.: %1$,d%%</string>
+    <string name="pref_battery_phone_mi_band_message">端末のバッテリー：%1$,d%%</string>
     <!-- Other Bands-->
-    <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
+    <string name="pref_battery_phone_message">端末のバッテリー：\n %1$,d%%</string>
 
-    <string name="pref_language">Language</string>
-    <string name="pref_cat_language">App</string>
-    <string name="pref_language_title">Language</string>
+    <string name="pref_language">言語</string>
+    <string name="pref_cat_language">アプリ</string>
+    <string name="pref_language_title">言語</string>
     <string name="pref_cat_language_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_language_mi_band_title">Language</string>
+    <string name="pref_language_mi_band_title">言語</string>
 
     <!-- Quick switch -->
-    <string name="details">Details</string>
+    <string name="details">詳細</string>
     <string name="bandages">Bandages</string>
-    <string name="connected">Connection and notification signal</string>
-    <string name="disconnected">Disconnection and agent signal</string>
-    <string name="touch">Touch monitoring</string>
+    <string name="connected">接続通知・アプリからの通知</string>
+    <string name="disconnected">切断通知・エージェントの通知</string>
+    <string name="touch">タッチの監視</string>
 
-    <string name="pref_dnd_title">Do not disturb mode</string>
-    <string name="pref_dnd_summary">State of controllers in do not disturb mode</string>
-    <string name="pref_dnd_auto_title">Automatic do not disturb mode</string>
-    <string name="pref_dnd_auto_summary">Controlled by the phone\'s do not disturb mode, it has a higher priority than the scheduled do not disturb mode</string>
-    <string name="pref_dnd_auto_vibrate">Vibration (silent)</string>
-    <string name="pref_dnd_auto_silent">Do not disturb</string>
-    <string name="pref_dnd_scheduled_title">Scheduled do not disturb mode</string>
-    <string name="pref_dnd_scheduled_new_title">Title</string>
-    <string name="pref_dnd_remember_state_summary">At the end of the do not disturb mode, turn on all bandages or restore states as those were at the time of start</string>
-    <string name="pref_dnd_remember_state_on_title">At the end restore bandages\' state</string>
-    <string name="pref_dnd_remember_state_off_title">At the end turn on all bandages</string>
-    <string name="pref_dnd_mi_fit_scheduled">Activate %1$s DnD mode (disable calls, messages and lift wrist to view info)</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_dnd_enable_bluetooth">At the start of the DnD mode turn Bluetooth off, at the end turn Bluetooth on</string>
+    <string name="pref_dnd_title">DND（おやすみモード）</string>
+    <string name="pref_dnd_summary">DND時の挙動設定</string>
+    <string name="pref_dnd_auto_title">自動</string>
+    <string name="pref_dnd_auto_summary">端末の通知の鳴動制限と連動します。時間指定よりこちらを優先します。</string>
+    <string name="pref_dnd_auto_vibrate">バイブレーション（サイレント）</string>
+    <string name="pref_dnd_auto_silent">DND</string>
+    <string name="pref_dnd_scheduled_title">時間指定</string>
+    <string name="pref_dnd_scheduled_new_title">タイトル</string>
+    <string name="pref_dnd_remember_state_summary">DND終了時にBandageをすべてオンにするか、開始時の状態を復元するかを選択できます</string>
+    <string name="pref_dnd_remember_state_on_title">終了時に状態を復元</string>
+    <string name="pref_dnd_remember_state_off_title">終了時にBandageをすべてオン</string>
+    <string name="pref_dnd_mi_fit_scheduled">%1$sのDNDを有効化（通話・メッセージの通知と「手首を持ち上げて情報を表示」機能を無効化）</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_dnd_enable_bluetooth">DND開始時にBluetoothをオフに、終了時にオン</string>
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Please enable Bluetooth and bring the Band device closer to the phone</string>
-    <string name="message_discover_mi_band">Band is not set, please discover it</string>
-    <string name="message_discovering_mi_band">Discovering Band (it may take 1 minute) &#8230;</string>
-    <string name="message_discovered_mi_band">%1$s connection succeeded</string>
-    <string name="message_discovered_no_mi_band">Band connection failed</string>
-    <string name="message_discovered_not_found_mi_band">If Band was not found, turn on: Mi Fit/Play/Discoverable or pair at the phone Bluetooth settings</string>
-    <string name="message_enable_notification_listener_access">Enable notification access: Settings/Notifications/Notification access</string>
-    <string name="message_enable_notification_listener_access_4_4">Enable notification access: Settings/Security/Notification access</string>
-    <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
-    <string name="message_open_settings">Settings</string>
+    <string name="message_enable_bluetooth">Bluetoothをオンにして、バンドを端末に近づけてください</string>
+    <string name="message_discover_mi_band">バンドを検出してください</string>
+    <string name="message_discovering_mi_band">バンドを検出中（1分程度かかることがあります）&#8230;</string>
+    <string name="message_discovered_mi_band">%1$sの接続に成功しました</string>
+    <string name="message_discovered_no_mi_band">バンドの接続に失敗しました</string>
+    <string name="message_discovered_not_found_mi_band">バンドが検出されない場合は、Mi Fitのマイデバイスの設定から「検出可能」をオンにするか、端末のBluetooth設定でバンドをペアリングしてください</string>
+    <string name="message_enable_notification_listener_access">端末の通知設定で通知へのアクセスを許可してください</string>
+    <string name="message_enable_notification_listener_access_4_4">端末のセキュリティ設定で通知へのアクセスを許可してください</string>
+    <string name="message_enable_notification_policy_access">着信拒否へのアクセスを有効にしてください</string>
+    <string name="message_open_settings">設定</string>
 
-    <string name="message_deleted">Deleted</string>
-    <string name="message_undo">Undo</string>
+    <string name="message_deleted">削除しました</string>
+    <string name="message_undo">取り消しました</string>
 
-    <string name="message_app_chooser_no_selected">Select an application</string>
+    <string name="message_app_chooser_no_selected">アプリを選択してください</string>
 
-    <string name="message_notification_free_groups">Up to %1$,d groups can be used in normal mode</string>
+    <string name="message_notification_free_groups">ノーマルモードでは通知グループは最大%1$,d個まで使用可能です</string>
 
-    <string name="message_step_goal_free_values">Up to 3 values can be set in normal mode</string>
-    <string name="message_step_goal_max_values">Maximum 10 values can be set</string>
+    <string name="message_step_goal_free_values">ノーマルモードでは最大3個まで設定可能です</string>
+    <string name="message_step_goal_max_values">最大10個まで設定可能です</string>
 
-    <string name="message_touch_no_patterns">Press one of the red buttons to record pattern</string>
-    <string name="message_touch_record">Record the pattern using the %1$s touch button</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="message_touch_record_music_screen">Record the pattern using the %1$s music screen</string> <!-- %1$s = Mi Band 4  -->
-    <string name="message_touch_record_pulse_screen">Record the pattern using the %1$s pulse screen</string> <!-- %1$s = Mi Band 3, Amazfit Cor ... -->
-    <string name="message_touch_pattern_error">The specified pattern is similar to a sample of another function, record another</string>
-    <string name="message_touch_free_patterns">You can not use more than %1$,d controls in normal mode</string>
-    <string name="message_touch_music_player_not_found">Music player not found</string>
-    <string name="message_touch_app_launcher1_not_set">App is not set</string>
-    <string name="message_touch_app_launcher1_not_found">App is not found: %1$s</string>
-    <string name="message_touch_tasker_launcher_not_set">Tasker task is not set</string>
+    <string name="message_touch_no_patterns">赤いボタン（REC）を押してパターンを記録してください</string>
+    <string name="message_touch_record">%1$sのボタンでパターンを記録してください</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_touch_record_music_screen">%1$sの音楽操作画面でパターンを記録してください</string> <!-- %1$s = Mi Band 4  -->
+    <string name="message_touch_record_pulse_screen">%1$sの心拍数の画面でパターンを記録してください</string> <!-- %1$s = Mi Band 3, Amazfit Cor ... -->
+    <string name="message_touch_pattern_error">パターンが類似しています。別のパターンを記録してください</string>
+    <string name="message_touch_free_patterns">ノーマルモードでは%1$,d個以上のパターンは使用できません</string>
+    <string name="message_touch_music_player_not_found">音楽プレーヤーが見つかりません</string>
+    <string name="message_touch_app_launcher1_not_set">アプリが設定されていません</string>
+    <string name="message_touch_app_launcher1_not_found">%1$sが見つかりません</string>
+    <string name="message_touch_tasker_launcher_not_set">Taskerのタスクが設定されていません</string>
 
-    <string name="message_notification_group_has_no_entry">Select applications with the lower right \'+\' button on the card</string>
+    <string name="message_notification_group_has_no_entry">カード右下の＋ボタンからアプリを選択してください</string>
 
-    <string name="message_time_alarm_free_counter">Up to 2 alarm can be used in normal mode</string>
-    <string name="message_time_alarm_max_counter">Maximum 8 alarms can be used</string>
-    <string name="message_time_alarm_enabled">Alarm enabled</string>
-    <string name="message_time_alarm_disabled">Alarm disabled</string>
-    <string name="message_time_alarm_mi_band_off">Alarm off</string>
+    <string name="message_time_alarm_free_counter">ノーマルモードではアラームは最大2つまで使用可能です</string>
+    <string name="message_time_alarm_max_counter">アラームは最大8つまで使用可能です</string>
+    <string name="message_time_alarm_enabled">アラームが有効になりました</string>
+    <string name="message_time_alarm_disabled">アラームが無効になりました</string>
+    <string name="message_time_alarm_mi_band_off">アラームがオフになりました</string>
 
-    <string name="message_alarm_free_interval">Smaller repeat interval can be set only in premium mode</string>
-    <string name="message_alarm_mi_band_set_failed">Setting the alarm failed</string>
-    <string name="message_alarm_mi_band_clear_failed">Clearing the alarm failed</string>
+    <string name="message_alarm_free_interval">これより短い繰り返し間隔はプレミアムモードでのみ設定可能です</string>
+    <string name="message_alarm_mi_band_set_failed">アラームの設定に失敗しました</string>
+    <string name="message_alarm_mi_band_clear_failed">アラームの削除に失敗しました</string>
 
-    <string name="message_premium_mode_only">This feature is only available in premium mode</string>
-    <string name="message_premium_or_rewarded_mode_only">This feature is only available in premium or rewarded mode</string>
-    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
-    <string name="message_general_error">Setting failed (connection lost), try again</string>
-    <string name="message_internet_error">Not have internet connection</string>
-    <string name="message_gps_enable">Enable the GPS</string>
+    <string name="message_premium_mode_only">この機能はプレミアムモードでのみ利用可能です</string>
+    <string name="message_premium_or_rewarded_mode_only">この機能はプレミアムモードまたはリワードモードでのみ利用可能です</string>
+    <string name="message_feature_is_not_supported">%1$sはこの機能をサポートしていません</string>
+    <string name="message_general_error">設定に失敗しました（接続が切断されました）。再試行してください</string>
+    <string name="message_internet_error">インターネット接続がありません</string>
+    <string name="message_gps_enable">GPSを有効にしてください</string>
 
-    <string name="message_in_progress">In progress…</string>
-    <string name="message_no_data">No data available</string>
+    <string name="message_in_progress">処理しています…</string>
+    <string name="message_no_data">利用可能なデータがありません</string>
 
-    <string name="message_new_message">A new message is received, view it on the phone.</string>
+    <string name="message_new_message">新着メッセージがあります。端末で確認してください。</string>
 
-    <string name="message_invalid_file">Invalid file</string>
+    <string name="message_invalid_file">ファイルが無効です</string>
 
     <!-- Dialog -->
-    <string name="dialog_welcome_title">Welcome!</string>
-    <string name="dialog_welcome_message"><![CDATA[Supported devices:
+    <string name="dialog_welcome_title">ようこそ！</string>
+    <string name="dialog_welcome_message"><![CDATA[サポートしているデバイス：
     <br>- <b>Xiaomi Mi Band 4</b>
     <br>- <b>Xiaomi Mi Band 3</b>
     <br>- <b>Xiaomi Mi Band 2</b>
@@ -363,135 +363,135 @@
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
     <br>- <b>Huami Amazfit Cor (MiDong)</b>
     <br>- <b>Huami Amazfit Arc (A1603)</b>
-    <p>If you use more applications to control Band, they interfere with each other so temporarily turn off those.</p>
-    <p>If Band is not found, then you can set the MAC address manually when you discover (MAC address is found: Mi Fit/Profil/Band).</p>
-    <p><b>If you have a connection problem:</b>
-    <br>- Read the Amazfit app or Mi Fit app Profile/Smartwatch/Run in background and set it up for Mi Bandage
-    <br>- Check the <i>Settings/Diagnostics</i> settings
-    <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
-    <br>- Phone/battery optimization: set Mi Bandage app to not optimized.
-    <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
-    <br>Settings/Developer options:
-    <br>- Don\'t keep activities: disable
-    <br>- Background process limit: standard limit
-    <br>- Memory optimization: middle/low/disable</p>
-    <p>If Band is not found or if you are having trouble syncing Mi Fit app, then install the BToolkit, nRF Connect or similar Bluetooth manager app and remove any pairing, bonded device.</p>
-    <p>If you have problem (discover Band, not have notification signal), please try it:
-    <br>1. If you installed the Greenify (or other hibernating app) turn it off.
-    <br>2. Install Mi Bandage app.
-    <br>3. Restart phone.
-    <br>4. Turn off, on Bluetooth.
-    <br>5. Open Mi Fit app, wait until the synchronization done, close it.
-    <br>6. Open Mi Bandage app, click discover button.</p>]]></string>
+    <p>バンドのコントロールに他のアプリも使う場合は、干渉を避けるため一時的に停止してください。</p>
+    <p>バンドが見つからない場合はMACアドレス（Mi Fit/プロフィール/マイデバイスで確認できます）を手動で設定してください。</p>
+    <p><b>接続できない場合：</b>
+    <br>- Mi Fit/Amazfitの<i>プロフィール/マイデバイス/バックグラウンドで実行</i>でセットアップ方法を確認し、Mi Bandageに設定を適用
+    <br>- Mi Bandageの<i>設定/システム</i>を確認
+    <br>- Mi Bandageをタスクロック
+    <br>- 「バッテリー最適化を無視」をMi Bandageに許可
+    <br>- Bluetooth Shareやその他のBluetoothアプリのデータを消去
+    <br>開発者オプションの設定：
+    <br>- アクティビティを保持しない：無効
+    <br>- バックグラウンドプロセスの上限：通常の制限
+    <br>- メモリの最適化：中/小/無効</p>
+    <p>バンドが見つからない、またはMi Fitとの同期がうまくいかない場合は、BToolkitやnRF ConnectなどのBluetoothマネージャアプリをインストールして、ペアリングされたデバイスをすべて削除してください。</p>
+    <p>バンドの検出ができない・通知が来ない場合：
+    <br>1. Greenifyやその他のメモリ管理アプリをインストールしている場合は停止
+    <br>2. Mi Bandageをインストール
+    <br>3. 端末を再起動
+    <br>4. Bluetoothをオフにして、再度オン
+    <br>5. Mi Fitを開き、同期が完了してから閉じる
+    <br>6. Mi Bandageを開き、検出ボタンを押す</p>]]></string>
 
     <!-- Diagnostic -->
-    <string name="diagnostic_title">Diagnostic</string>
+    <string name="diagnostic_title">システム</string>
 
-    <string name="diagnostic_permissions_title">Permissions</string>
-    <string name="diagnostic_permissions_autostart">Autostart</string>
+    <string name="diagnostic_permissions_title">権限</string>
+    <string name="diagnostic_permissions_autostart">自動起動</string>
 
-    <string name="diagnostic_access_title">Access</string>
-    <string name="diagnostic_access_do_not_disturb">Do not Disturb access</string>
-    <string name="diagnostic_access_notification">Notification access</string>
+    <string name="diagnostic_access_title">アクセス</string>
+    <string name="diagnostic_access_do_not_disturb">着信拒否へのアクセス</string>
+    <string name="diagnostic_access_notification">通知へのアクセス</string>
 
-    <string name="diagnostic_protection_title">Protection against closing</string>
-    <string name="diagnostic_protection_battery">Battery optimisation off</string>
-    <string name="diagnostic_protection_service">Show status in notification shade</string>
-    <string name="diagnostic_protection_lock">Lock on the recent apps screen</string>
+    <string name="diagnostic_protection_title">アプリの自動終了を抑止</string>
+    <string name="diagnostic_protection_battery">バッテリー最適化を無視</string>
+    <string name="diagnostic_protection_service">通知バーにステータスを表示</string>
+    <string name="diagnostic_protection_lock">アプリの履歴に固定</string>
 
     <!-- Notification  -->
-    <string name="notification_tab_custom">Custom notifications</string>
+    <string name="notification_tab_custom">カスタム通知</string>
     <string name="notification_tab_settings">@string/setting_name</string>
 
     <!-- Notification Dialog -->
-    <string name="notification_group_nav_setting">Setting</string>
-    <string name="notification_group_nav_filter">Filter</string>
-    <string name="notification_group_nav_correction">Correction</string>
+    <string name="notification_group_nav_setting">設定</string>
+    <string name="notification_group_nav_filter">フィルタ</string>
+    <string name="notification_group_nav_correction">修正</string>
 
-    <string name="notification_group_name">Name</string>
-    <string name="notification_group_monitoring">Monitoring notifications</string>
-    <string name="notification_group_monitoring_disabled">Disable notifications (do not show the application notifications)</string>
-    <string name="notification_group_alert_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="notification_group_text">Text display</string>
-    <string name="notification_group_text_app_name">App name</string>
-    <string name="notification_group_text_name">Name</string>
-    <string name="notification_group_text_title">Title</string>
-    <string name="notification_group_text_content">Content</string>
-    <string name="notification_group_text_content_slice_title">Text length</string>
-    <string name="notification_group_display_time_title">Display time</string>
-    <string name="notification_group_vibration_title">Custom vibration</string>
-    <string name="notification_group_pre_title">Notification prediction</string>
-    <string name="notification_group_pre_signal_title">Default notification prediction</string>
-    <string name="notification_group_pre_vibration_title">Pre vibration</string>
-    <string name="notification_group_pre_alert_title">Pre icon</string>
-    <string name="notification_group_prefix">Text prefix</string>
-    <string name="notification_group_display_notification_title">Display notification</string>
-    <string name="notification_group_immediate">Immediate signal when notification is received</string>
-    <string name="notification_group_connecting">When connecting to phone</string>
-    <string name="notification_group_reminder">Reminder signal</string>
-    <string name="notification_group_ongoing">Signal persistent (ongoing) notifications</string>
-    <string name="notification_group_screen_off">Signal only when the screen is off</string>
-    <string name="notification_group_counter_title">The number of signals</string>
-    <string name="notification_group_repeat_title">Repeat signals</string>
-    <string name="notification_group_wakelock">Wake up the phone screen</string>
-    <string name="notification_group_grouped_display_title">Display setting for the group notifications</string>
-    <string name="notification_group_grouped_sort_order_title">Sort order for the group notifications</string>
-    <string name="notification_group_remove_title">Remove notification</string>
-    <string name="notification_group_remove_from_device">From the phone\'s notification drawer</string>
-    <string name="notification_group_remove_from_device_hint">If you use the %1$s/Notifications/Clear all function</string> <!-- %1$s = Mi Band 4  ... -->
-    <string name="notification_group_remove_from_mi_band">From the %1$s notification menu</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="notification_group_remove_from_mi_band_hint">If you remove the notification from the phone\'s notification drawer</string>
+    <string name="notification_group_name">グループ名</string>
+    <string name="notification_group_monitoring">通知を監視</string>
+    <string name="notification_group_monitoring_disabled">通知を無効化（アプリからの通知を送信しない）</string>
+    <string name="notification_group_alert_title">%1$sの通知</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_text">表示するテキスト</string>
+    <string name="notification_group_text_app_name">アプリ名</string>
+    <string name="notification_group_text_name">名前</string>
+    <string name="notification_group_text_title">タイトル</string>
+    <string name="notification_group_text_content">内容</string>
+    <string name="notification_group_text_content_slice_title">テキストの長さ</string>
+    <string name="notification_group_display_time_title">表示時間</string>
+    <string name="notification_group_vibration_title">バイブレーションをカスタマイズ</string>
+    <string name="notification_group_pre_title">事前通知</string>
+    <string name="notification_group_pre_signal_title">デフォルトの事前通知</string>
+    <string name="notification_group_pre_vibration_title">事前にバイブレーション</string>
+    <string name="notification_group_pre_alert_title">事前にアイコン表示</string>
+    <string name="notification_group_prefix">先頭文字列</string>
+    <string name="notification_group_display_notification_title">通知の表示</string>
+    <string name="notification_group_immediate">通知をすぐに送信</string>
+    <string name="notification_group_connecting">端末の接続中に通知を送信</string>
+    <string name="notification_group_reminder">リマインダーの通知を送信</string>
+    <string name="notification_group_ongoing">固定された通知を送信</string>
+    <string name="notification_group_screen_off">画面オフ時のみ通知を送信</string>
+    <string name="notification_group_counter_title">通知の数</string>
+    <string name="notification_group_repeat_title">通知を繰り返す</string>
+    <string name="notification_group_wakelock">端末の画面を点灯</string>
+    <string name="notification_group_grouped_display_title">通知グループの表示設定</string>
+    <string name="notification_group_grouped_sort_order_title">通知グループの並べ替え</string>
+    <string name="notification_group_remove_title">通知の削除</string>
+    <string name="notification_group_remove_from_device">端末の通知パネルの通知を削除</string>
+    <string name="notification_group_remove_from_device_hint">%1$sの通知画面で「すべて削除」を実行したとき</string> <!-- %1$s = Mi Band 4  ... -->
+    <string name="notification_group_remove_from_mi_band">%1$sの通知画面の通知を削除</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_remove_from_mi_band_hint">端末の通知パネルで通知を削除したとき</string>
 
-    <string name="notification_group_filter">Filter notification</string>
-    <string name="notification_group_filter_title">Title filter</string>
-    <string name="notification_group_filter_content">Content filter</string>
-    <string name="notification_group_filter_regex">Regex</string>
-    <string name="notification_group_filter_hint">Signal only when the title or content of the notification (case insensitive)</string>
-    <string name="notification_group_filter_contains">Contains any phrases</string>
-    <string name="notification_group_filter_not_contains">Contains none phrases</string>
+    <string name="notification_group_filter">通知のフィルタ</string>
+    <string name="notification_group_filter_title">タイトルのフィルタ</string>
+    <string name="notification_group_filter_content">内容のフィルタ</string>
+    <string name="notification_group_filter_regex">正規表現（Regex）</string>
+    <string name="notification_group_filter_hint">通知のタイトルまたは内容が次の条件を満たすときのみ通知を送信（大文字・小文字の区別なし）</string>
+    <string name="notification_group_filter_contains">以下の語句のいずれかを含むとき</string>
+    <string name="notification_group_filter_not_contains">以下の語句のいずれも含まないとき</string>
 
-    <string name="notification_group_sample_sms">SMS text display</string>
-    <string name="notification_group_sample_facebook">Messenger text display</string>
-    <string name="notification_group_sample_whatsapp">WhatsApp text display</string>
+    <string name="notification_group_sample_sms">SMS</string>
+    <string name="notification_group_sample_facebook">Facebook Messenger</string>
+    <string name="notification_group_sample_whatsapp">WhatsApp</string>
 
-    <string name="notification_group_correction">Text correction</string>
-    <string name="notification_group_correction_title">Title correction</string>
-    <string name="notification_group_correction_content">Content correction</string>
-    <string name="notification_group_correction_regex">Regex</string>
-    <string name="notification_group_correction_hint">Case insensitive</string>
-    <string name="notification_group_correction_items">Texts to be corrected</string>
-    <string name="notification_group_correction_find">Find</string>
-    <string name="notification_group_correction_replace">Replace with</string>
+    <string name="notification_group_correction">テキストの修正</string>
+    <string name="notification_group_correction_title">タイトルの修正</string>
+    <string name="notification_group_correction_content">内容の修正</string>
+    <string name="notification_group_correction_regex">正規表現（Regex）</string>
+    <string name="notification_group_correction_hint">大文字・小文字の区別なし</string>
+    <string name="notification_group_correction_items">修正するテキスト</string>
+    <string name="notification_group_correction_find">検索</string>
+    <string name="notification_group_correction_replace">置換</string>
 
-    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it</string>
+    <string name="notification_regex_hint"></string>
 
-    <string name="notification_confirm_close">Are you sure you want to discard the changes?</string>
+    <string name="notification_confirm_close">変更を破棄しますか？</string>
 
-    <string name="notification_edit_play_text_title">Notification title</string>
-    <string name="notification_edit_play_text_content">Notification content:
-    In publishing and graphic design, lorem ipsum is a filler text or greeking commonly used to demonstrate the textual elements of a graphic document or visual presentation.
-        \nReplacing meaningful content with placeholder text allows designers to design the form of the content before the content itself has been produced.
+    <string name="notification_edit_play_text_title">通知のタイトル</string>
+    <string name="notification_edit_play_text_content">通知の内容：
+    親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。
+    \n別段深い理由でもない。新築の二階から首を出していたら、同級生の一人が冗談に、いくら威張っても、そこから飛び降りる事は出来まい。弱虫やーい。と囃したからである。
     </string>
-    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.]]></string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT">通知のタイトルまたは内容を表示するにはこのアイコンを選択してください。]]></string>
 
     <!-- Notification info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Predefined app signals:<br>
-        <not_support_icon_text><img src="ALERT_MESSAGE_TEXT">  missed call</not_support_icon_text>
-        <support_icon_text><img src="ALERT_CALL_MESSAGE">  missed call</support_icon_text>
+    <string name="info_dialog_notification"><![CDATA[既定アプリ：<br>
+        <not_support_icon_text><img src="ALERT_MESSAGE_TEXT">  不在着信</not_support_icon_text>
+        <support_icon_text><img src="ALERT_CALL_MESSAGE">  不在着信</support_icon_text>
         <br><img src="ALERT_MESSAGE">  SMS
-        <br><img src="ALERT_EMAIL">  Email, Gmail, Inbox
-        <br><img src="ALERT_CALENDAR">  Google Calendar
-        <br><img src="ALERT_HANGOUTS">  Hangouts
-        <br><img src="ALERT_MESSENGER">  Messenger
+        <br><img src="ALERT_EMAIL">  Eメール・Gmail・Inbox
+        <br><img src="ALERT_CALENDAR">  Googleカレンダー
+        <br><img src="ALERT_HANGOUTS">  ハングアウト
+        <br><img src="ALERT_MESSENGER">  Facebook Messenger
         <br><img src="ALERT_SKYPE">  Skype
         <br><img src="ALERT_VIBER">  Viber
         <br><img src="ALERT_WHATSAPP">  WhatsApp
-        <br><img src="ALERT_LINE">  Line
+        <br><img src="ALERT_LINE">  LINE
         <br><img src="ALERT_WECHAT">  WeChat
         <br><img src="ALERT_TELEGRAM">  Telegram
-        <br><img src="ALERT_KAKAOTALK">  KakaoTalk
+        <br><img src="ALERT_KAKAOTALK">  カカオトーク
         <br><img src="ALERT_VK">  VK
-        <br><img src="ALERT_YOUTUBE">  Youtube
+        <br><img src="ALERT_YOUTUBE">  YouTube
         <br><img src="ALERT_FACEBOOK">  Facebook
         <br><img src="ALERT_TWITTER">  Twitter
         <br><img src="ALERT_SNAPCHAT">  Snapchat
@@ -504,878 +504,878 @@
         <br><img src="ALERT_ALIPAY">  AliPay
         <br><img src="ALERT_QZONE">  QZone
         <br><img src="ALERT_DINGTALK">  DingTalk
-        <br><img src="ALERT_APP">  others
+        <br><img src="ALERT_APP">  その他
 
-        <p>Predefined app signals will only show the icon not the message.</p>
-        <p>You have to disable app alert in the Mi Fit app.</p>
-        <p>The notifications group created by you has higher priority than the predefined.</p>
-        <mi_band_2><p><img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.</p></mi_band_2>
-        <mi_band_hrx><p><img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.</p></mi_band_hrx>
-        <p>If you use the predefined apps, but want to disable some notifications, then create new notification group with <i>disable notifications</i> setting and add the apps.</p>
+        <p>既定アプリの通知ではアイコンのみが表示され、通知内容は表示されません。</p>
+        <p>Mi Fitでアプリ通知をオフにしてください。</p>
+        <p>カスタム通知は既定アプリの通知よりも優先されます。</p>
+        <mi_band_2><p><img src="ALERT_MESSAGE_TEXT">通知のタイトルまたは内容を表示するにはこのアイコンを選択してください。</p></mi_band_2>
+        <mi_band_hrx><p><img src="ALERT_MESSAGE_TEXT">通知のタイトルまたは内容を表示するにはこのアイコンを選択してください。</p></mi_band_hrx>
+        <p>既定アプリの通知を無効にしたい場合は、通知を無効にしたカスタム通知グループを作成して、そこにアプリを追加してください。</p>
         ]]>
     </string>
     <!--<p>Predefined signals can be disabled: <i>Connection and notification settings/Have notification</i>.</p>-->
 
     <!-- MiBandageApp chooser dialog -->
-    <string name="action_search">Search</string>
-    <string name="action_filter_notification">Notification filter</string>
+    <string name="action_search">検索</string>
+    <string name="action_filter_notification">通知フィルタ</string>
 
     <!-- Touch monitoring -->
-    <string name="touch_tab_function">Function</string>
-    <string name="touch_tab_control">Control</string>
-    <string name="touch_tab_testing">Testing</string>
+    <string name="touch_tab_function">機能</string>
+    <string name="touch_tab_control">操作</string>
+    <string name="touch_tab_testing">テスト</string>
     <string name="touch_tab_settings">@string/setting_name</string>
 
-    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
-    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
+    <string name="touch_function_summary">スタンドアロンモードを使っている場合や、Mi Fitが正しく機能しない場合に設定してください</string>
+    <string name="touch_function">%1$sの機能を使う</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">操作タブでタッチを割り当てる</string>
 
-    <string name="touch_headline_incoming_call_title">Incoming call</string>
-    <string name="touch_headline_other_function_title">Other functions</string>
-    <string name="touch_headline_call_title">Call control</string>
-    <string name="touch_headline_music_title">Music control</string>
-    <string name="touch_headline_time_title">Timer/stopwatch control</string>
-    <string name="touch_headline_other_title">Other controls</string>
+    <string name="touch_headline_incoming_call_title">着信</string>
+    <string name="touch_headline_other_function_title">その他の機能</string>
+    <string name="touch_headline_call_title">通話の操作</string>
+    <string name="touch_headline_music_title">音楽の操作</string>
+    <string name="touch_headline_time_title">タイマー・ストップウォッチの操作</string>
+    <string name="touch_headline_other_title">その他の操作</string>
 
-    <string name="touch_call_answer_title">Call answering</string>
-    <string name="touch_call_answer_speakerphone_title">Speakerphone</string>
+    <string name="touch_call_answer_title">着信を受ける</string>
+    <string name="touch_call_answer_speakerphone_title">スピーカー</string>
 
-    <string name="touch_call_end_title">Call rejecting, ending</string>
+    <string name="touch_call_end_title">着信を拒否・終了</string>
 
-    <string name="touch_call_mute_title">Call mute</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">Only if you have an incoming call</string>
-    <string name="touch_call_mute_recognition_title">On incoming call</string>
-    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
+    <string name="touch_call_mute_title">通話をミュート</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">着信時のみ</string>
+    <string name="touch_call_mute_recognition_title">着信時</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/その他/端末を探す</string>
 
-    <string name="touch_device_location_title">Find my phone</string>
-    <string name="touch_device_location_not_muted_only_title">Sound only if it is not muted or in DnD mode</string>
+    <string name="touch_device_location_title">端末を探す</string>
+    <string name="touch_device_location_not_muted_only_title">ミュート・DND時は鳴動しない</string>
 
-    <string name="touch_call_mute_toggle_title">Phone mute toggle</string>
+    <string name="touch_call_mute_toggle_title">端末のミュート</string>
 
-    <string name="touch_music_function_title">Music</string>
-    <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
-    <string name="touch_music_function_mi_band_message_launch">Start music with the play button</string>
-    <string name="touch_music_function_mi_band_message_no_track_title">Can\'t get the song name</string>
+    <string name="touch_music_function_title">音楽</string>
+    <string name="touch_music_function_launch">音楽プレーヤーが認識されない場合に、再生ボタンで音楽を再生</string>
+    <string name="touch_music_function_mi_band_message_launch">音楽を再生します</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">曲名が取得できません</string>
 
-    <string name="touch_call_out_title">Call out</string>
-    <string name="touch_call_out_no_contact">Select an contact</string>
-    <string name="touch_call_out_summary">Double press to answer the call</string>
-    <string name="touch_call_out_summary_support_call_display_button">Press the button to answer the call</string>
-    <string name="touch_call_out_speakerphone_title">Speakerphone</string>
-    <string name="touch_call_out_call_text">Call out: %1$s</string>
+    <string name="touch_call_out_title">発信</string>
+    <string name="touch_call_out_no_contact">連絡先を選択</string>
+    <string name="touch_call_out_summary">2回押して電話に出る</string>
+    <string name="touch_call_out_summary_support_call_display_button">ボタンを押して電話に出る</string>
+    <string name="touch_call_out_speakerphone_title">スピーカー</string>
+    <string name="touch_call_out_call_text">発信：%1$s</string>
 
-    <string name="touch_weather_title">Weather forecast</string>
-    <string name="touch_weather_location">Location update</string>
-    <string name="touch_weather_precipitation">Precipitation</string>
-    <string name="touch_weather_cloud_cover">Cloud cover</string>
-    <string name="touch_weather_wind">Wind</string>
+    <string name="touch_weather_title">天気</string>
+    <string name="touch_weather_location">現在地を更新</string>
+    <string name="touch_weather_precipitation">降水量</string>
+    <string name="touch_weather_cloud_cover">雲量</string>
+    <string name="touch_weather_wind">風</string>
 
-    <string name="touch_repeat_notif_title">Repeat notifications</string>
-    <string name="touch_repeat_notif_clear_all">Clear all notifications after repetition</string>
+    <string name="touch_repeat_notif_title">通知を繰り返す</string>
+    <string name="touch_repeat_notif_clear_all">繰り返した後通知をすべて消去</string>
 
-    <string name="touch_clear_notif_title">Clear notifications from phone</string>
+    <string name="touch_clear_notif_title">端末から通知を消去</string>
 
-    <string name="touch_music_play_pause_title">Music start, play, pause</string>
-    <string name="touch_music_skip_previous_title">Music start, previous song</string>
-    <string name="touch_music_skip_next_title">Music start, next song</string>
-    <string name="touch_music_headset_only_title">Only if the headset is connected</string>
-    <string name="touch_music_launch">Start music</string>
-    <string name="touch_music_volume_up_title">Music volume up</string>
-    <string name="touch_music_volume_down_title">Music volume down</string>
-    <string name="touch_music_track_info_title">Show music track info.</string>
+    <string name="touch_music_play_pause_title">再生・停止</string>
+    <string name="touch_music_skip_previous_title">前の曲</string>
+    <string name="touch_music_skip_next_title">次の曲</string>
+    <string name="touch_music_headset_only_title">ヘッドセット接続時のみ</string>
+    <string name="touch_music_launch">音楽プレーヤーを開く</string>
+    <string name="touch_music_volume_up_title">音量を上げる</string>
+    <string name="touch_music_volume_down_title">音量を下げる</string>
+    <string name="touch_music_track_info_title">トラック情報を表示</string>
 
-    <string name="touch_time_launch_title">Start time monitoring</string>
-    <string name="touch_time_launch_type_timer_title">Timer</string>
-    <string name="touch_time_launch_type_stopper_title">Stopwatch</string>
-    <string name="touch_time_launch_type_interval_title">Interval</string>
-    <string name="touch_time_launch_restart">Restart if it is in progress</string>
-    <string name="touch_time_reminder_title">Show remaining/elapsed time</string>
+    <string name="touch_time_launch_title">時計を起動</string>
+    <string name="touch_time_launch_type_timer_title">タイマー</string>
+    <string name="touch_time_launch_type_stopper_title">ストップウォッチ</string>
+    <string name="touch_time_launch_type_interval_title">インターバル</string>
+    <string name="touch_time_launch_restart">進行中の場合は再スタート</string>
+    <string name="touch_time_reminder_title">残り時間・経過時間を表示</string>
 
-    <string name="touch_google_assistant_title">Google Assistant</string>
+    <string name="touch_google_assistant_title">Googleアシスタント</string>
 
-    <string name="touch_flashlight_title">Flashlight toggle</string>
+    <string name="touch_flashlight_title">懐中電灯</string>
 
-    <string name="touch_camera_title">Take a photo</string>
-    <string name="touch_camera_front_title">Front</string>
-    <string name="touch_camera_rear_title">Rear</string>
-    <string name="touch_camera_install_title">Install</string>
+    <string name="touch_camera_title">写真を撮影</string>
+    <string name="touch_camera_front_title">フロントカメラ</string>
+    <string name="touch_camera_rear_title">リアカメラ</string>
+    <string name="touch_camera_install_title">インストール</string>
 
-    <string name="touch_app_launcher1_title">App launcher</string>
-    <string name="touch_app_launcher_package_no_title">Select an application</string>
-    <string name="touch_app_launcher1_not_wakelock_only_title">Only if the screen is not locked</string>
+    <string name="touch_app_launcher1_title">アプリを起動</string>
+    <string name="touch_app_launcher_package_no_title">アプリを選択</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">画面ロック解除時のみ</string>
 
-    <string name="touch_broadcast1_title">Send Broadcast</string>
-    <string name="touch_broadcast1_action_title">Intent action</string>
-    <string name="touch_broadcast1_package_title">Intent package name</string>
+    <string name="touch_broadcast1_title">ブロードキャストを送信</string>
+    <string name="touch_broadcast1_action_title">インテントのアクション</string>
+    <string name="touch_broadcast1_package_title">インテントのパッケージ名</string>
 
-    <string name="touch_http_request1_title">1. HTTP request</string>
-    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request1_title">1. HTTPリクエスト</string>
+    <string name="touch_http_request2_title">2. HTTPリクエスト</string>
     <string name="touch_http_request_url_title">URL</string>
     <string name="touch_http_request_method_title">Method</string>
     <string name="touch_http_request_body_title">Body</string>
-    <string name="touch_http_request_show_response_title">Show the response</string>
+    <string name="touch_http_request_show_response_title">レスポンスを表示</string>
 
-    <string name="touch_tasker_launcher1_title">1. Tasker task launcher</string>
-    <string name="touch_tasker_launcher2_title">2. Tasker task launcher</string>
-    <string name="touch_tasker_launcher_no_permission_title">You have to install Tasker first, after Mi Bandage</string>
-    <string name="touch_tasker_launcher_no_access_title">Allow external access</string>
-    <string name="touch_tasker_launcher_no_task_title">Select an task</string>
+    <string name="touch_tasker_launcher1_title">1. Taskerでタスクを実行</string>
+    <string name="touch_tasker_launcher2_title">2. Taskerでタスクを実行</string>
+    <string name="touch_tasker_launcher_no_permission_title">TaskerをMi Bandageの後にインストールしてください</string>
+    <string name="touch_tasker_launcher_no_access_title">外部ストレージへのアクセスを許可してください</string>
+    <string name="touch_tasker_launcher_no_task_title">タスクを選択してください</string>
 
-    <string name="touch_testing_title">Touch monitoring</string>
-    <string name="touch_testing_second">sec.</string>
+    <string name="touch_testing_title">タッチを監視中…</string>
+    <string name="touch_testing_second">秒</string>
 
-    <string name="touch_setting_detection_time_title">Touch detection time</string>
-    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
-    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
+    <string name="touch_setting_detection_time_title">タッチの検出時間</string>
+    <string name="touch_setting_detection_time_music_hint">値が小さいほど、音楽操作画面を素早く閉じる必要があります</string>
+    <string name="touch_setting_detection_time_button_hint">値が小さいほど、ボタンを素早く押す必要があります</string>
 
-    <string name="touch_setting_detection_method_title">Touch detection method</string>
+    <string name="touch_setting_detection_method_title">タッチの検出方法</string>
 
-    <string name="touch_setting_recognition_start_title">Start touch recognition</string>
-    <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
-    <string name="touch_setting_recognition_time_title">Recognition time</string>
+    <string name="touch_setting_recognition_start_title">タッチの認識を開始</string>
+    <string name="touch_setting_recognition_start_trigger_title">トリガー</string>
+    <string name="touch_setting_recognition_time_title">認識時間</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="touch_setting_recognition_succeeded_title">Recognisable touch pattern</string>
-    <string name="touch_setting_recognition_failed_title">Not recognisable touch pattern</string>
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$sへの通知</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_succeeded_title">タッチのパターン認識成功</string>
+    <string name="touch_setting_recognition_failed_title">タッチのパターン認識失敗</string>
 
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[
-        <mi_band_2>The touch is valid when the display of Band changes (so it is advisable to rotate your wrist before touching).</mi_band_2>
-        <b><u>Pattern recognition</u></b>
-        <p>Monitors the elapsed time between button presses.</p>
-        Valid touch examples:
-        <br>- touch
-        <br>- touch and 1sec waiting, touch
-        <br>- touch and 1sec waiting, touch and 1sec waiting, touch
-        <br>- touch and 2sec waiting, touch
-        <br>- touch and 2sec waiting, touch and 1sec waiting, touch
-        <br>- touch and 2sec waiting, touch and 2sec waiting, touch
-        <p><b><u>Button press counting</u></b></p>
-        <p>It monitors the number of button presses as long as the time between button presses is less than the touch detection time setting.</p>
-        <br><p>When you have an incoming call the phone does not recognise the following functions in order to ease touch input: location of the phone, repeat notifications, music control.</p>
-        <p>In test mode does not execute the function of recognised pattern.</p>
-        <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
-        <p>Band vibrates once, when recognise a pattern.</p>
-        <p>Band vibrates twice, when not recognise any pattern after the longest pattern (if <i>Not recognisable touch pattern signal</i> is set).</p>
+        <mi_band_2>タッチはバンドの画面が変わったときに有効になります</mi_band_2>
+        <b><u>パターン認識</u></b>
+        <p>ボタンを押すごとに経過時間を測定します。</p>
+        パターンの例：
+        <br>- タッチ
+        <br>- タッチ→1秒待つ→タッチ
+        <br>- タッチ→1秒待つ→タッチ→1秒待つ→タッチ
+        <br>- タッチ→2秒待つ→タッチ
+        <br>- タッチ→2秒待つ→タッチ→1秒待つ→タッチ
+        <br>- タッチ→2秒待つ→タッチ→2秒待つ→タッチ
+        <p><b><u>ボタンを押す回数</u></b></p>
+        <p>ボタンを押す間隔が設定した検出時間より短い場合に、押した回数をカウントします。</p>
+        <br><p>着信がある場合は、端末を探す・通知の繰り返し・音楽操作の機能に割り当てたパターンを認識しません。</p>
+        <p>テスト画面ではパターンの認識のみが可能で、割り当てられた機能は実行されません。</p>
+        <p>端末の状態に依存する機能（着信時の着信応答、着信拒否など）が使えないときはバンドが振動します。</p>
+        <p>パターンを認識したときはバンドが1回振動します。</p>
+        <p>パターンを認識しなかったときはバンドが2回振動します（<i>タッチのパターン認識失敗</i>の通知がオンの場合）。</p>
     ]]></string>
 
     <!-- Touch monitoring info dialog Mi Band 3/Amazfit Cor-->
     <string name="info_dialog_touch_not_supported"><![CDATA[
-        <b><u>Power saving mode</u></b>
-        <p>It does not increase battery consumption.</p>
-        <img src="ic_touch_pulse"> Pulse measurement
-        <mi_band_3><p>On the bracelet, in the pulse measurement function, start the measurement (long touch) and then interrupt the measurement (one touch) after 1 second.</p></mi_band_3>
-        <amazfit_cor><p>On the bracelet, start the pulse measurement function (Status) and then interrupt the measurement (swipe right) after 1 second.</p></amazfit_cor>
-        <amazfit_band_2><p>On the bracelet, start the pulse measurement function (Status) and then interrupt the measurement (swipe right) after 1 second.</p></amazfit_band_2>
-        <p>It must be turn off during continuous, online pulse measurement and exercise.<p>
-        <img src="ic_touch_find"> Find phone
-        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) start the finding (long touch).</p></mi_band_3>
-        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) start the finding.</p></amazfit_cor>
-        <amazfit_band_2>On the bracelet, in the Find phone function (Settings/Find phone) start the finding.</p></amazfit_band_2>
-        <img src="ic_touch_find_off"> Interrupt phone finding
-        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) interrupt the finding (one touch).</p></mi_band_3>
-        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) interrupt the finding (swipe right).</p></amazfit_cor>
-        <amazfit_band_2><p>On the bracelet, in the Find phone function (Settings/Find phone) interrupt the finding (swipe right).</p></amazfit_band_2>
-        <b><u>Performance mode</u></b>
-        <p>Increases battery consumption. On the home screen turn on the touch only when you need it.</p>
-        <img src="ic_touch_app"> Touch
-        <mi_band_3><p>Touch is valid when the <mi_band_type> screen is off.</p></mi_band_3>
-        <amazfit_cor><p>The button below the <mi_band_type> screen.</p></amazfit_cor>
-        <amazfit_band_2><p>The button below the <mi_band_type> screen.</p></amazfit_band_2>
-        <img src="ic_touch_wrist"> Wrist lift
-        <p>Wrist lift is valid when the <mi_band_type> screen turns on.</p>
-        <img src="ic_call"> <b><u>Incoming call</b></u>
-        <p>It always works, even if the touch monitor is switched off on the main screen.</p>
-        <br><p>In test mode does not execute the function of recognised pattern.</p>
-        <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
-        <p>Band vibrates once, when recognise a pattern.</p>
-        <p>Band vibrates twice, when not recognise any pattern after the longest pattern (if <i>Not recognisable touch pattern signal</i> is set).</p>
+        <b><u>省電力モード</u></b>
+        <p>バッテリーの消費は増加しません。</p>
+        <img src="ic_touch_pulse"> 心拍数測定
+        <mi_band_3><p>バンドの心拍数の画面で測定を開始（長押し）し、1秒後に測定を停止（1回タッチ）してください。</p></mi_band_3>
+        <amazfit_cor><p>バンドのステータスの画面で心拍数の測定を開始し、1秒後に測定を停止（右にスワイプ）してください。</p></amazfit_cor>
+        <amazfit_band_2><p>バンドのステータスの画面で心拍数の測定を開始し、1秒後に測定を停止（右にスワイプ）してください。</p></amazfit_band_2>
+        <p>心拍数連続測定時・ワークアウト時はオフにしてください。</p>
+        <img src="ic_touch_find"> 「端末を探す」の開始
+        <mi_band_3><p>バンドの「端末を探す」（その他/端末を探す）を開始（長押し）してください。</p></mi_band_3>
+        <amazfit_cor><p>バンドの「端末を探す」（設定/端末を探す）を開始してください。</p></amazfit_cor>
+        <amazfit_band_2><p>バンドの「端末を探す」（設定/端末を探す）を開始してください。</p></amazfit_band_2>
+        <img src="ic_touch_find_off"> 「端末を探す」の停止
+        <mi_band_3><p>バンドの「端末を探す」を停止（1回タッチ）してください。</p></mi_band_3>
+        <amazfit_cor><p>バンドの「端末を探す」を停止（右にスワイプ）してください。</p></amazfit_cor>
+        <amazfit_band_2><p>バンドの「端末を探す」を停止（右にスワイプ）してください。</p></amazfit_band_2>
+        <b><u>パフォーマンスモード</u></b>
+        <p>バッテリーの消費が増加します。必要に応じてホーム画面でオンにしてください。</p>
+        <img src="ic_touch_app"> タッチ
+        <mi_band_3><p><mi_band_type>の画面オフ時のみ有効です。</p></mi_band_3>
+        <amazfit_cor><p><mi_band_type>の画面下のボタンです。</p></amazfit_cor>
+        <amazfit_band_2><p><mi_band_type>の画面下のボタンです。</p></amazfit_band_2>
+        <img src="ic_touch_wrist"> 手首を持ち上げる
+        <p><mi_band_type>の画面オン時のみ有効です。</p>
+        <img src="ic_call"> <b><u>着信</b></u>
+        <p>タッチの監視がオフであっても常に有効です。</p>
+        <br><p>テスト画面ではパターンの認識のみが可能で、割り当てられた機能は実行されません。</p>
+        <p>端末の状態に依存する機能（着信時の着信応答、着信拒否など）が使えないときはバンドが振動します。</p>
+        <p>パターンを認識したときはバンドが1回振動します。</p>
+        <p>パターンを認識しなかったときはバンドが2回振動します（<i>タッチのパターン認識失敗</i>の通知がオンの場合）。</p>
     ]]></string>
 
     <string name="info_dialog_touch_mi_band_4"><![CDATA[
-        <img src="ic_play_circle_outline"> <b><u>Music screen mod</u></b>
-        <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
-        <img src="ic_touch_find"> <b><u>Find phone</u></b>
-        <p>On the bracelet, in the Find device function (More/Find device) start the finding.</p>
-        <img src="ic_touch_find_off"> <b><u>Interrupt phone finding</u></b>
-        <p>On the bracelet, in the Find device function (More/Find device) interrupt the finding.</p>
-        <img src="ic_call"> <b><u>Incoming call</b></u>
-        <p>It always works, even if the touch monitor is switched off on the main screen.</p>
-        <br><p>In test mode does not execute the function of recognised pattern.</p>
-        <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
-        <p>Band vibrates once, when recognise a pattern.</p>
-        <p>Band vibrates twice, when not recognise any pattern after the longest pattern (if <i>Not recognisable touch pattern signal</i> is set).</p>
+        <img src="ic_play_circle_outline"> <b><u>音楽操作画面</u></b>
+        <p>バンドの音楽操作画面を開き（左または右にスワイプ）、再度閉じてください。</p>
+        <img src="ic_touch_find"> <b><u>「端末を探す」の開始</u></b>
+        <p>バンドの「端末を探す」（その他/端末を探す）を開始してください。</p>
+        <img src="ic_touch_find_off"> <b><u>「端末を探す」の停止</u></b>
+        <p>バンドの「端末を探す」を停止してください。</p>
+        <img src="ic_call"> <b><u>着信</b></u>
+        <p>タッチの監視がオフであっても常に有効です。</p>
+        <br><p>テスト画面ではパターンの認識のみが可能で、割り当てられた機能は実行されません。</p>
+        <p>端末の状態に依存する機能（着信時の着信応答、着信拒否など）が使えないときはバンドが振動します。</p>
+        <p>パターンを認識したときはバンドが1回振動します。</p>
+        <p>パターンを認識しなかったときはバンドが2回振動します（<i>タッチのパターン認識失敗</i>の通知がオンの場合）。</p>
     ]]></string>
 
     <!-- Step monitoring -->
-    <string name="action_tracker_step">Steps</string>
-    <string name="action_tracker_distance">Distance</string>
-    <string name="action_tracker_calorie">Calories</string>
-    <string name="action_chart_filter_activity_no">No filter</string>
-    <string name="action_chart_filter_activity_active">Movement filter</string>
-    <string name="action_chart_monthly_calendar">Calendar</string>
-    <string name="action_chart_monthly_compact">Compact</string>
+    <string name="action_tracker_step">歩数</string>
+    <string name="action_tracker_distance">距離</string>
+    <string name="action_tracker_calorie">カロリー</string>
+    <string name="action_chart_filter_activity_no">フィルタなし</string>
+    <string name="action_chart_filter_activity_active">アクティビティでフィルタ</string>
+    <string name="action_chart_monthly_calendar">カレンダー</string>
+    <string name="action_chart_monthly_compact">コンパクト</string>
 
-    <string name="step_tab_day">Daily charts</string>
-    <string name="step_tab_week">Weekly charts</string>
-    <string name="step_tab_month">Monthly charts</string>
-    <string name="step_tab_goal">Activity goals</string>
+    <string name="step_tab_day">日別チャート</string>
+    <string name="step_tab_week">週別チャート</string>
+    <string name="step_tab_month">月別チャート</string>
+    <string name="step_tab_goal">目標</string>
     <string name="step_tab_settings">@string/setting_name</string>
 
-    <string name="activity_progress_title_prepare">Preparing for synchronization…</string>
-    <string name="activity_progress_title_sync">Data synchronization %1$,d%%</string>
-    <string name="activity_progress_title_save">Data saving (%2$s) %1$,d%%</string>
+    <string name="activity_progress_title_prepare">同期の準備中…</string>
+    <string name="activity_progress_title_sync">データ同期中：%1$,d%%</string>
+    <string name="activity_progress_title_save">データ保存中（%2$s）：%1$,d%%</string>
 
-    <string name="step_title_timing">Timing</string>
-    <string name="step_interval_title">Repeat interval of step monitoring</string>
-    <string name="step_time_set_next">Timing of next monitoring</string>
+    <string name="step_title_timing">時間</string>
+    <string name="step_interval_title">歩数測定の繰り返し間隔</string>
+    <string name="step_time_set_next">次の測定時間</string>
 
-    <string name="step_goal_default_title">Default goal</string>
-    <string name="step_goal_type_title">Additional goals</string>
-    <string name="step_details">Activity details</string>
+    <string name="step_goal_default_title">デフォルトの目標</string>
+    <string name="step_goal_type_title">追加の目標</string>
+    <string name="step_details">アクティビティの詳細</string>
 
     <string name="info_dialog_step"><![CDATA[
-        <img src="ic_activity_active"> daily step/distance/calories total
-        <br><br><img src="ic_timelapse"> active time
-        <br><br><img src="ic_activity_get_up"> getting out from the bed time
-        <br><br><img src="ic_activity_awake"> wakefulness time
-        <br><br><img src="ic_activity_rest_sofa"> resting/sitting time during wakefulness
-        <br><br><img src="ic_activity_go_to_bed"> bedtime
-        <br><br><img src="ic_battery_charging_full"> battery charging
-        <br><br><img src="ic_activity_block"> not wearing
+        <img src="ic_activity_active"> 日別の歩数/距離/カロリーの合計
+        <br><br><img src="ic_timelapse"> 活動時間
+        <br><br><img src="ic_activity_get_up"> 起床時間
+        <br><br><img src="ic_activity_awake"> 起きている時間
+        <br><br><img src="ic_activity_rest_sofa"> 休憩・座っている時間
+        <br><br><img src="ic_activity_go_to_bed"> 就寝時間
+        <br><br><img src="ic_battery_charging_full"> バッテリー充電時間
+        <br><br><img src="ic_activity_block"> 装着していない時間
         ]]>
     </string>
 
     <!-- Sleep monitoring -->
-    <string name="sleep_tab_day">Daily charts</string>
-    <string name="sleep_tab_week">Weekly charts</string>
-    <string name="sleep_tab_month">Monthly charts</string>
+    <string name="sleep_tab_day">日別チャート</string>
+    <string name="sleep_tab_week">週別チャート</string>
+    <string name="sleep_tab_month">月別チャート</string>
     <string name="sleep_tab_settings">@string/setting_name</string>
 
-    <string name="action_chart_sleep_type_phase">Phase</string>
-    <string name="action_chart_sleep_type_time">Time</string>
+    <string name="action_chart_sleep_type_phase">睡眠段階</string>
+    <string name="action_chart_sleep_type_time">時間</string>
 
-    <string name="sleep_details">Sleep details</string>
+    <string name="sleep_details">睡眠の詳細</string>
 
     <string name="info_dialog_sleep"><![CDATA[
-        <img src="ic_timelapse"> sleeping time
-        <br><br><img src="ic_activity_sleep_deep"> deep sleeping time
-        <br><br><img src="ic_activity_go_to_bed"> bedtime/awake time
-        <br><br><img src="ic_activity_sleep_start"> sleep start time/light sleeping time
-        <br><br><img src="ic_activity_sleep_time"> total time
-        <br><br><img src="ic_activity_sleep_end"> sleep end time
-        <br><br><img src="ic_activity_get_up"> getting out from the bed time
-        <br><br><img src="ic_activity_active"> active time
-        <br><br><img src="ic_activity_block"> not wearing
+        <img src="ic_timelapse"> 睡眠時間
+        <br><br><img src="ic_activity_sleep_deep"> 深い睡眠時間
+        <br><br><img src="ic_activity_go_to_bed"> 就寝時間
+        <br><br><img src="ic_activity_sleep_start"> 浅い睡眠時間
+        <br><br><img src="ic_activity_sleep_time"> 合計時間
+        <br><br><img src="ic_activity_sleep_end"> 睡眠終了時間
+        <br><br><img src="ic_activity_get_up"> 起床時間
+        <br><br><img src="ic_activity_active"> 活動時間
+        <br><br><img src="ic_activity_block"> 装着していない時間
         ]]>
     </string>
 
     <!-- Pulse  monitoring -->
-    <string name="action_pulse_current">Current pulse</string>
+    <string name="action_pulse_current">現在の心拍数</string>
 
-    <string name="pulse_tab_day">Daily charts</string>
-    <string name="pulse_tab_week">Weekly charts</string>
-    <string name="pulse_tab_month">Monthly charts</string>
-    <string name="pulse_tab_settings_online">Online setting</string>
-    <string name="pulse_tab_settings_offline">Offline setting</string>
-    <string name="pulse_tab_settings_continuous">Continuous setting</string>
+    <string name="pulse_tab_day">日別チャート</string>
+    <string name="pulse_tab_week">週別チャート</string>
+    <string name="pulse_tab_month">月別チャート</string>
+    <string name="pulse_tab_settings_online">オンライン測定の設定</string>
+    <string name="pulse_tab_settings_offline">オフライン測定の設定</string>
+    <string name="pulse_tab_settings_continuous">連続測定設定</string>
 
-    <string name="pulse_online_title">Online pulse measurement</string>
-    <string name="pulse_offline_title">Offline pulse measurement</string>
-    <string name="pulse_continuous_title">Continuous pulse measurement</string>
+    <string name="pulse_online_title">オンライン測定</string>
+    <string name="pulse_offline_title">オフライン測定</string>
+    <string name="pulse_continuous_title">連続測定</string>
 
-    <string name="action_chart_pulse_type_pulse">Pulse</string>
-    <string name="action_chart_pulse_type_pulse_and_step">Pulse and activity</string>
+    <string name="action_chart_pulse_type_pulse">心拍数</string>
+    <string name="action_chart_pulse_type_pulse_and_step">心拍数とアクティビティ</string>
 
-    <string name="pulse_continuous_chart_title">Chart</string>
-    <string name="pulse_continuous_autostart">Autostart when starting Mi Fit activity</string>
+    <string name="pulse_continuous_chart_title">チャート</string>
+    <string name="pulse_continuous_autostart">Mi Fitアクティビティの開始時に自動で開始</string>
 
-    <string name="pulse_notification_shade">Chart on the notification shade</string>
-    <string name="pulse_title_signals">Signals</string>
-    <string name="pulse_signal_start_title">Monitoring starting signal</string>
-    <string name="pulse_signal_show_title">Show pulse</string>
-    <string name="pulse_signal_end_low_title">Low pulse signal</string>
-    <string name="pulse_signal_end_title">High pulse signal</string>
+    <string name="pulse_notification_shade">通知パネルにチャートを表示</string>
+    <string name="pulse_title_signals">通知</string>
+    <string name="pulse_signal_start_title">測定開始通知</string>
+    <string name="pulse_signal_show_title">心拍数を表示</string>
+    <string name="pulse_signal_end_low_title">心拍数低下通知</string>
+    <string name="pulse_signal_end_title">心拍数上昇通知</string>
 
-    <string name="pulse_title_timing_validity">Timing and validity</string>
-    <string name="pulse_value_min">Valid lower value</string>
-    <string name="pulse_value_max">Valid higher value</string>
-    <string name="pulse_value_invalid">Invalid value</string>
+    <string name="pulse_title_timing_validity">時間と有効範囲</string>
+    <string name="pulse_value_min">有効な最低心拍数</string>
+    <string name="pulse_value_max">有効な最高心拍数</string>
+    <string name="pulse_value_invalid">無効な値</string>
 
-    <string name="pulse_offline_timed_title">Timed measurement</string>
-    <string name="pulse_offline_sleep_assistant">Heart rate sleep assistant</string>
-    <string name="pulse_offline_sleep_assistant_summary">Helps to get more precise sleep data (reduces battery life)</string>
-    <string name="pulse_offline_detect_sport">Activity detection</string>
-    <string name="pulse_offline_detect_sport_summary">When %1$s detects that you are doing exercises, it will automatically increase the detection frequency to guarantee the accuracy of heart rate data during workouts</string>
-    <string name="pulse_offline_alert_high">Heart rate alert</string>
-    <string name="pulse_offline_alert_high_summary">When the alert value is reached, and there is no obvious activity in last 10 minutes, the %1$s will vibrate</string>
-    <string name="pulse_offline_alert_high_value_title">Alert value</string>
+    <string name="pulse_offline_timed_title">定期的な測定</string>
+    <string name="pulse_offline_sleep_assistant">睡眠時の心拍数測定</string>
+    <string name="pulse_offline_sleep_assistant_summary">より正確な睡眠データの取得に役立ちます（バッテリーを消費します）</string>
+    <string name="pulse_offline_detect_sport">アクティビティ検知</string>
+    <string name="pulse_offline_detect_sport_summary">アクティビティを検知した際に測定周期を短くすることで、ワークアウト時の心拍数測定精度を高めます</string>
+    <string name="pulse_offline_alert_high">心拍数警告</string>
+    <string name="pulse_offline_alert_high_summary">心拍数が警告値に達し10分以内に活動が検知されない場合、%1$sが振動します</string>
+    <string name="pulse_offline_alert_high_value_title">警告値</string>
 
-    <string name="pulse_chart_expandable_title">Notification is expandable</string>
-    <string name="pulse_interval_title">Repeat interval of pulse monitoring</string>
-    <string name="pulse_time_set_next">Timing of next monitoring</string>
+    <string name="pulse_chart_expandable_title">展開可能な通知にする</string>
+    <string name="pulse_interval_title">心拍数測定の繰り返し間隔</string>
+    <string name="pulse_time_set_next">次の測定時間</string>
 
-    <string name="pulse_details">Pulse details</string>
+    <string name="pulse_details">心拍数の詳細</string>
 
-    <string name="message_pulse_premium_mode_only">Online and offline pulse measurement can only be used in premium mode at the same time</string>
+    <string name="message_pulse_premium_mode_only">オンライン・オフライン測定はプレミアムモードでのみ同時に使用できます</string>
 
-    <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Online pulse measurement</u></b>
-        <p>Bluetooth connection is required for monitoring the pulse.</p>
-        <p>Pulse monitor is repeated several times if the resulting value is invalid.<p>
-        <img src="ic_pulse_offline"> <b><u>Offline pulse measurement</u></b>
-        <p>No Bluetooth connection required for pulse measurement.</p>
-        <p>Bluetooth connection is required for timed start and stop.</p>
-        <p>Manually launched measurements (Band, Mi Fit app) are also synchronized.<p>
+    <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>オンライン測定</u></b>
+        <p>測定にはBluetooth接続が必要です。</p>
+        <p>測定結果が無効な値だった場合は測定が繰り返されます。</p>
+        <img src="ic_pulse_offline"> <b><u>オフライン測定</u></b>
+        <p>測定にBluetooth接続は不要です。</p>
+        <p>定期的な測定の開始・停止にはBluetooth接続が必要です。</p>
+        <p>手動（バンドまたはMi Fit）で開始した測定も同期されます。</p>
         ]]>
     </string>
 
     <!-- Lost monitoring -->
-    <string name="alarm_mi_band_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="alarm_mi_band_service">Lost background service</string>
-    <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
-    <string name="alarm_mi_band_clock">Use the phone\'s alarm clock, if background service is down (increases battery consumption)</string>
-    <string name="alarm_mi_band_dnd">Do not disturb mode</string>
-    <string name="alarm_mi_band_interval_title">Repeat interval of alarm setting</string>
-    <string name="alarm_mi_band_time_set_next">Timing of next setting</string>
-    <string name="alarm_mi_band_time">Timing of next alarm</string>
+    <string name="alarm_mi_band_title">%1$sへの通知</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="alarm_mi_band_service">バックグラウンド処理</string>
+    <string name="alarm_mi_band_service_summary">頻繁に誤動作する場合は、バックグラウンド処理をオンにすると安定性が向上します</string>
+    <string name="alarm_mi_band_clock">バックグラウンド処理がダウンした場合に端末のアラームを使用（バッテリーの消費が増加します）</string>
+    <string name="alarm_mi_band_dnd">DND</string>
+    <string name="alarm_mi_band_interval_title">アラーム設定の繰り返し間隔</string>
+    <string name="alarm_mi_band_time_set_next">次の設定時間</string>
+    <string name="alarm_mi_band_time">次のアラームの時間</string>
 
-    <string name="alarm_mi_band_disconnected_message">Disconnected</string> <!-- Max. 16 characters length -->
+    <string name="alarm_mi_band_disconnected_message">接続が切断されました</string> <!-- Max. 16 characters length -->
 
-    <string name="pref_cat_abandoned">Phone signal</string>
-    <string name="pref_abandoned_notif_interval_title">Signal repeat interval</string>
-    <string name="pref_abandoned_notif_text_summary">Notification on the phone screen</string>
-    <string name="pref_abandoned_notif_text_text">The phone is lost, please call the following numbers:</string>
-    <string name="pref_abandoned_ringtone_title">Ringtone</string>
-    <string name="pref_abandoned_vibration_title">Vibration</string>
-    <string name="pref_abandoned_wakelock_title">Wake up the screen</string>
-    <string name="pref_abandoned_notif_title">The phone is lost</string>
+    <string name="pref_cat_abandoned">端末への通知</string>
+    <string name="pref_abandoned_notif_interval_title">通知の繰り返し間隔</string>
+    <string name="pref_abandoned_notif_text_summary">端末の画面に通知を表示</string>
+    <string name="pref_abandoned_notif_text_text">端末を探しています。発見された方はXXXにご連絡ください。</string>
+    <string name="pref_abandoned_ringtone_title">着信音</string>
+    <string name="pref_abandoned_vibration_title">バイブレーション</string>
+    <string name="pref_abandoned_wakelock_title">端末の画面を点灯</string>
+    <string name="pref_abandoned_notif_title">端末を探しています</string>
 
-    <string name="alarm_mi_band_on_bluetooth_disabled_text">Lost monitoring %1$s signal is enabled</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm time: %1$s</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">%1$sの「端末を探す」通知は有効です</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="alarm_mi_band_on_bluetooth_disabled_info">アラームの時間：%1$s</string>
 
-    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Band signal</u></b>
-        <p>When specified period of time expires, Band send signals if not connected to the phone.</p>
-        <not_support_icon_text><p>App uses alarm function of Mi Fit to alert (overwrite 10. setting).</p></not_support_icon_text>
-        <not_support_icon_text><p>The alarm will be repeated several times if the Band do not detect any movement (because it uses the Band alarm).</p></p></not_support_icon_text>
-        <support_icon_text><p>App uses reminder function of Mi Fit to alert.</p></support_icon_text>
-        <p>Before switching off Bluetooth or uninstalling the app you need to deactivate Band signal.</p>
-        <not_support_icon_text><p>If you remove the application when the alarm is on, then you can disable it with turning on and off again Mi Fit 10. alarm setting.</p></not_support_icon_text>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>バンドへの通知</u></b>
+        <p>バンドが端末に接続されていない状態で一定時間経過するとバンドに通知が送信されます。</p>
+        <not_support_icon_text><p>Mi Fitのアラーム機能を使用して（設定を上書きして）通知します。</p></not_support_icon_text>
+        <not_support_icon_text><p>バンドのアラームを使用するため、バンドが動きを検知しない場合アラームは繰り返されます。</p></not_support_icon_text>
+        <support_icon_text><p>Mi Fitのリマインダー機能を使用して通知します。</p></support_icon_text>
+        <p>Bluetoothをオフにする、アプリをアンインストールするなどバンドとの接続を切断するときは、先にこの機能をオフにしてください。</p>
+        <not_support_icon_text><p>アラームがオンの状態でアプリを削除した場合は、Mi Fitでアラームをオン、オフすると無効にできます。</p></not_support_icon_text>
 
-        <img src="ic_phone_android"> <b><u>Phone signals</u></b>
-        <p>When specified period of time expires, phone send signals repeatedly if not connected to the bracelet.<p>
-        <p>This makes it easier to find the phone. If someone else finds the phone and it is locked he does not know who to notify, so you can display a message.</p>
-        <p>When bracelet is connected, alarm stops.</p>
-        <p>Must be enabled to display notification on the lock screen.</p>]]>
+        <img src="ic_phone_android"> <b><u>端末への通知</u></b>
+        <p>端末がバンドに接続されていない状態で一定時間経過すると端末に通知が送信されます。</p>
+        <p>これにより端末を紛失した際に探すのが容易になります。発見者へのメッセージの表示も可能です。</p>
+        <p>バンドが接続されるとアラームは停止します。</p>
+        <p>ロック画面への通知の表示を許可しておく必要があります。</p>]]>
     </string>
 
     <!-- Time  monitoring -->
-    <string name="time_tab_alarm">Alarm</string>
-    <string name="time_tab_timer">Timer</string>
-    <string name="time_tab_stopper">Stopwatch</string>
-    <string name="time_tab_lap">Lap time</string>
-    <string name="time_tab_interval">Interval</string>
+    <string name="time_tab_alarm">アラーム</string>
+    <string name="time_tab_timer">タイマー</string>
+    <string name="time_tab_stopper">ストップウォッチ</string>
+    <string name="time_tab_lap">ラップ</string>
+    <string name="time_tab_interval">インターバル</string>
 
-    <string name="action_alarm_device">Phone alarm</string>
+    <string name="action_alarm_device">端末のアラーム</string>
     <string name="time_alarm_setting">@string/setting_name</string>
-    <string name="time_alarm_mi_band_signal">Signal when phone alarm sounds</string>
-    <string name="time_alarm_mi_band_signal_alarm_off">Alarm off at second touch</string>
-    <string name="time_alarm_title">Title</string>
-    <string name="time_alarm_pre_alarm">Reminder signal, remaining time</string>
-    <string name="time_alarm_pre_alarm_interval_title">Before time</string>
-    <string name="time_alarm_pre_alarm_type_vibrate_title">Vibration</string>
-    <string name="time_alarm_pre_alarm_type_remaining_title">Remaining time</string>
+    <string name="time_alarm_mi_band_signal">端末のアラームの鳴動を通知</string>
+    <string name="time_alarm_mi_band_signal_alarm_off">2回目のタッチでアラームをオフ</string>
+    <string name="time_alarm_title">タイトル</string>
+    <string name="time_alarm_pre_alarm">リマインダー通知</string>
+    <string name="time_alarm_pre_alarm_interval_title">通知時間</string>
+    <string name="time_alarm_pre_alarm_type_vibrate_title">バイブレーション</string>
+    <string name="time_alarm_pre_alarm_type_remaining_title">残り時間</string>
 
-    <string name="time_timer_time_alert">Alarm time</string>
-    <string name="time_timer_time_remaining">Remaining time</string>
+    <string name="time_timer_time_alert">アラーム時間</string>
+    <string name="time_timer_time_remaining">残り時間</string>
 
-    <string name="time_timer_reminder">Reminder signal, remaining time</string>
-    <string name="time_timer_reminder_interval_before_title">Before time</string>
-    <string name="time_timer_reminder_interval_repeat_title">Reminder repeat interval</string>
+    <string name="time_timer_reminder">リマインダー通知</string>
+    <string name="time_timer_reminder_interval_before_title">通知時間</string>
+    <string name="time_timer_reminder_interval_repeat_title">リマインダーの繰り返し間隔</string>
 
-    <string name="time_stopper_time_alert">Alarm time</string>
-    <string name="time_stopper_time_elapsed">Elapsed time</string>
+    <string name="time_stopper_time_alert">アラーム時間</string>
+    <string name="time_stopper_time_elapsed">経過時間</string>
 
-    <string name="time_stopper_reminder">Reminder signal, elapsed time</string>
-    <string name="time_stopper_reminder_interval_before_title">Before time</string>
-    <string name="time_stopper_reminder_interval_repeat_title">Reminder repeat interval</string>
+    <string name="time_stopper_reminder">リマインダー通知</string>
+    <string name="time_stopper_reminder_interval_before_title">通知時間</string>
+    <string name="time_stopper_reminder_interval_repeat_title">リマインダーの繰り返し間隔</string>
 
-    <string name="time_stopper_touch">Lap time, touch monitoring</string>
-    <string name="time_stopper_touch_record">Lap time recording by one touch</string>
-    <string name="time_stopper_touch_show">Lap time displaying by one touch</string>
-    <string name="time_stopper_touch_time_format">Time format</string>
-    <string name="time_stopper_touch_time_format_minute">hour \u2032 min \u2033</string>
-    <string name="time_stopper_touch_time_format_second">min \u2032 second \u2033</string>
+    <string name="time_stopper_touch">タッチでラップを記録</string>
+    <string name="time_stopper_touch_record">1回タッチでラップを記録</string>
+    <string name="time_stopper_touch_show">1回タッチでラップを表示</string>
+    <string name="time_stopper_touch_time_format">時間の表示形式</string>
+    <string name="time_stopper_touch_time_format_minute">時\u2032分\u2033</string>
+    <string name="time_stopper_touch_time_format_second">分\u2032秒\u2033</string>
 
-    <string name="time_lap_details">Lap time details</string>
+    <string name="time_lap_details">ラップの詳細</string>
 
-    <string name="time_mode_timer_title">Timing</string>
-    <string name="time_mode_time_title">Time</string>
+    <string name="time_mode_timer_title">時間</string>
+    <string name="time_mode_time_title">時刻</string>
 
-    <string name="time_alert">Alarm type</string>
-    <string name="time_alert_bell_title">Bell</string>
-    <string name="time_alert_alarm_title">Alarm</string>
+    <string name="time_alert">アラームのタイプ</string>
+    <string name="time_alert_bell_title">ベル</string>
+    <string name="time_alert_alarm_title">アラーム</string>
 
-    <string name="time_interval_time_total">Total time</string>
-    <string name="time_interval_counter">Number of repetitions</string>
-    <string name="time_interval_time_alert">End time</string>
-    <string name="time_interval_time_current">Repetition, interval elapsed time</string>
-    <string name="time_interval_title">Title</string>
-    <string name="time_interval_time">Interval time</string>
+    <string name="time_interval_time_total">合計時間</string>
+    <string name="time_interval_counter">繰り返し回数</string>
+    <string name="time_interval_time_alert">終了時間</string>
+    <string name="time_interval_time_current">インターバル経過時間</string>
+    <string name="time_interval_title">タイトル</string>
+    <string name="time_interval_time">インターバル時間</string>
 
-    <string name="time_text">Show message on alarm</string>
-    <string name="time_text_message">Text</string>
+    <string name="time_text">アラームメッセージ表示</string>
+    <string name="time_text_message">テキスト</string>
 
-    <string name="time_enable_bluetooth">Turn on Bluetooth</string>
+    <string name="time_enable_bluetooth">Bluetoothをオン</string>
 
-    <string name="action_time_alarm_sort_state_asc">State ascending</string>
-    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
-    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+    <string name="action_time_alarm_sort_state_asc">ステータス/昇順</string>
+    <string name="action_time_alarm_sort_watch_asc">時間/昇順</string>
+    <string name="action_time_alarm_sort_name_asc">名前/昇順</string>
 
-    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_time_alarm_sync">%1$sのアラームを同期（バンドのアラームを削除・設定）</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_time"><![CDATA[
-        <p><b>Turn off the alarm, timer and stopwatch before removing the application.</b></p>
-        <img src="ic_device_alarm"> <b><u>Signal when phone alarm sounds</u></b>
-        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from the Google Play.</p>
-        <img src="ic_miband_bell"> <b><u>Bell</u></b>
-        <p>Bluetooth connection is required for alarm, it alarms just only once for 10 seconds.</p>
-        <img src="ic_alarm"> <b><u>Alarm</u></b>
-        <p>Bluetooth connection is not required for alarm, app uses alarm function of Mi Fit to alert (overwrite 1. - 8. setting).
-        <br>The alarm will be repeated several times if the Band do not detect any movement (because it uses the Band\'s alarm).
-        <br>Minute accuracy, Band does not handle seconds at alarm.</p>
-        <p>Reminder signal and showing message require Bluetooth connection.</p>
+        <p><b>アプリを削除する場合は先にアラーム・タイマー・ストップウォッチをオフにしてください。</b></p>
+        <img src="ic_device_alarm"> <b><u>端末のアラームの鳴動を通知</u></b>
+        <p>一部非対応の端末があります。端末の標準搭載のアラームでうまく動作しない場合は、Googleの時計アプリをインストールしてください。</p>
+        <img src="ic_miband_bell"> <b><u>ベル</u></b>
+        <p>Bluetooth接続が必要です。アラームは1度だけ、10秒間鳴動します。</p>
+        <img src="ic_alarm"> <b><u>アラーム</u></b>
+        <p>Bluetooth接続は不要です。Mi Fitのアラーム機能を使用します（設定を上書きします）。
+        <br>バンドのアラームを使用するため、バンドが動きを検知しない場合アラームは繰り返されます。
+        <br>アラーム時間の精度は分単位です。</p>
+        <p>リマインダー通知・メッセージ表示にはBluetooth接続が必要です。</p>
     ]]></string>
 
     <!-- Reminder -->
-    <string name="reminder_tab_once">Once</string>
-    <string name="reminder_tab_weekly">Weekly</string>
-    <string name="reminder_tab_calendar">Calendar</string>
+    <string name="reminder_tab_once">1回のみ</string>
+    <string name="reminder_tab_weekly">隔週</string>
+    <string name="reminder_tab_calendar">カレンダー</string>
     <string name="reminder_tab_setting">@string/setting_name</string>
 
-    <string name="reminder_repeat">Hourly repetition</string>
-    <string name="reminder_notification_shade">Notify me on the phone</string>
+    <string name="reminder_repeat">期間を指定</string>
+    <string name="reminder_notification_shade">端末に通知</string>
 
-    <string name="reminder_calendar">Calendar synchronization</string>
-    <string name="reminder_calendar_auto_sync">Automatic synchronization</string>
-    <string name="reminder_calendar_counter">The number of events to synchronize</string>
-    <string name="reminder_calendar_all_day_time">The time of all day event</string>
-    <string name="reminder_calendar_notif_before_time">Remind me earlier than the event time</string>
+    <string name="reminder_calendar">カレンダーの同期</string>
+    <string name="reminder_calendar_auto_sync">自動同期</string>
+    <string name="reminder_calendar_counter">同期するイベントの数</string>
+    <string name="reminder_calendar_all_day_time">終日イベントの通知時間</string>
+    <string name="reminder_calendar_notif_before_time">イベントの時間より前に通知</string>
 
-    <string name="message_reminder_enabled">Reminder enabled</string>
-    <string name="message_reminder_disabled">Reminder disabled</string>
-    <string name="message_reminder_no_more">Can not record more reminders</string>
-    <string name="message_reminder_sync">Synchronize %1$s reminders (deleting and setting reminders on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_reminder_enabled">リマインダーが有効になりました</string>
+    <string name="message_reminder_disabled">リマインダーが無効になりました</string>
+    <string name="message_reminder_no_more">リマインダーはこれ以上登録できません</string>
+    <string name="message_reminder_sync">%1$sのリマインダーを同期します</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_reminder"><![CDATA[
-        <not_support_icon_text>Bluetooth connection is required to display the reminder.</not_support_icon_text>
-         <support_icon_text>App uses reminder function of Mi Fit, so you need to use either Mi Bandage or Mi Fit reminder settings. If there are reminders in both applications, it may cause malfunction.</support_icon_text>
+        <not_support_icon_text>リマインダーの表示にはBluetooth接続が必要です。</not_support_icon_text>
+         <support_icon_text>Mi Fitのリマインダー機能を使用するため、Mi BandageかMi Fitのどちらかで設定してください。両方にリマインダーが設定されていると誤動作を起こすことがあります。</support_icon_text>
         ]]>
     </string>
 
     <!-- Weather  -->
-    <string name="weather_tab_weather_forecast">Weather</string>
-    <string name="weather_tab_location">Location</string>
+    <string name="weather_tab_weather_forecast">天気</string>
+    <string name="weather_tab_location">場所</string>
     <string name="weather_tab_settings">@string/setting_name</string>
 
-    <string name="weather_location_title">Location</string>
-    <string name="weather_automatic_update">Automatic update</string>
+    <string name="weather_location_title">場所</string>
+    <string name="weather_automatic_update">自動更新</string>
 
-    <string name="weather_title">Weather forecast</string>
-    <string name="weather_city_title">City</string>
-    <string name="weather_unit_title">Unit</string>
+    <string name="weather_title">天気情報</string>
+    <string name="weather_city_title">都市</string>
+    <string name="weather_unit_title">単位</string>
 
-    <string name="weather_current_title">Current weather</string>
-    <string name="weather_current_location">Current location</string>
-    <string name="weather_current_temperature">Current temperature</string>
+    <string name="weather_current_title">現在の天気</string>
+    <string name="weather_current_location">現在地</string>
+    <string name="weather_current_temperature">現在の気温</string>
 
-    <string name="weather_forecast_title">Weather forecast</string>
+    <string name="weather_forecast_title">天気情報</string>
 
-    <string name="weather_display">Display</string>
+    <string name="weather_display">表示</string>
 
-    <string name="weather_precipitation_rain">Rain</string>
-    <string name="weather_precipitation_snow">Snow</string>
-    <string name="weather_cloud_cover_abbreviation">Cc</string>
-    <string name="weather_cloud_cover">Cloud</string>
-    <string name="weather_humidity">Humidity</string>
+    <string name="weather_precipitation_rain">降水量</string>
+    <string name="weather_precipitation_snow">降雪量</string>
+    <string name="weather_cloud_cover_abbreviation">雲量</string>
+    <string name="weather_cloud_cover">雲量</string>
+    <string name="weather_humidity">湿度</string>
 
-    <string name="weather_north">N</string>
-    <string name="weather_east">E</string>
-    <string name="weather_south">S</string>
-    <string name="weather_west">W</string>
+    <string name="weather_north">北</string>
+    <string name="weather_east">東</string>
+    <string name="weather_south">南</string>
+    <string name="weather_west">西</string>
 
     <!-- Watch face -->
-    <string name="watch_face_tab_download">Download</string>
-    <string name="watch_face_tab_upload">Upload</string>
-    <string name="watch_face_tab_upload_mi_fit">Upload via Mi Fit</string>
-    <string name="watch_face_tab_upload_amazfit">Upload via Amazfit</string>
+    <string name="watch_face_tab_download">ダウンロード</string>
+    <string name="watch_face_tab_upload">アップロード</string>
+    <string name="watch_face_tab_upload_mi_fit">Mi Fitからアップロード</string>
+    <string name="watch_face_tab_upload_amazfit">Amazfitからアップロード</string>
 
-    <string name="watch_face_download_title">Download watch face</string>
-    <string name="watch_face_download_path">Save the downloaded watch face file to here</string>
-    <string name="watch_face_download_move">%1$s directory</string>  <!-- %1$s = Download ... -->
-    <string name="watch_face_download_move_hint">Move the downloaded watch face files from the %1$s directory</string>
+    <string name="watch_face_download_title">ウォッチフェイスをダウンロード</string>
+    <string name="watch_face_download_path">ダウンロードしたウォッチフェイスの保存先</string>
+    <string name="watch_face_download_move">%1$sフォルダ</string>  <!-- %1$s = Download ... -->
+    <string name="watch_face_download_move_hint">ダウンロードしたウォッチフェイスを%1$sフォルダから移動します</string>
 
-    <string name="watch_face_upload_title">Upload watch face</string>
+    <string name="watch_face_upload_title">ウォッチフェイスをアップロード</string>
 
-    <string name="watch_face_upload_prepare">Preparing for the upload…</string>
-    <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
+    <string name="watch_face_upload_prepare">アップロードの準備中…</string>
+    <string name="watch_face_upload_progress">アップロード中：%1$,d%%</string>
 
-    <string name="watch_face_upload_init_title">Initialization</string>
-    <string name="watch_face_upload_init_content"><![CDATA[In the %1$s application set one of the factory watch face.
-        <br>You have to select the same watch face when uploading.
-        <br><i>(initialization is only required once)</i>
+    <string name="watch_face_upload_init_title">初期化</string>
+    <string name="watch_face_upload_init_content"><![CDATA[%1$sオリジナルのウォッチフェイスをアプリ内から設定してください。
+        <br>アップロードの際はそれと同じウォッチフェイスを選択してください。
+        <br><i>（初期化は一度だけ必要です）</i>
     ]]></string>
 
-    <string name="watch_face_upload_upload_title">Upload</string>
-    <string name="watch_face_upload_empty_title"><![CDATA[Watch face not found
+    <string name="watch_face_upload_upload_title">アップロード</string>
+    <string name="watch_face_upload_empty_title"><![CDATA[ウォッチフェイスが見つかりません
         <br><i>(%1$s)</i>
     ]]></string>
 
-    <string name="message_watch_face_upload_error">Initialization is required</string>
-    <string name="message_watch_face_file_error">Invalid watch face file</string>
-    <string name="message_watch_face_file_error_small">Invalid watch face file. File size is too small, use another web browser to download.</string>
-    <string name="message_watch_face_file_error_large">Invalid watch face file. File size is too large, use another web browser to download.</string>
+    <string name="message_watch_face_upload_error">初期化が必要です</string>
+    <string name="message_watch_face_file_error">無効なウォッチフェイスファイルです</string>
+    <string name="message_watch_face_file_error_small">ウォッチフェイスファイルのサイズが小さすぎます。別のWebブラウザからダウンロードしてください</string>
+    <string name="message_watch_face_file_error_large">ウォッチフェイスファイルのサイズが大きすぎます。別のWebブラウザからダウンロードしてください</string>
 
     <string name="info_dialog_watch_face_download"><![CDATA[
-        <img src="ic_file_download_outline"> <b><u>Download</u></b>
-        <p>Download watch faces from the web sites.</p>
+        <img src="ic_file_download_outline"> <b><u>ダウンロード</u></b>
+        <p>Webサイトからウォッチフェイスをダウンロードします。</p>
 
-        <img src="ic_file_replace_outline"> <b><u>Move the files</u></b>
-        <p>If necessary, move the downloaded watch face files from the Download directory to the MiBandage directory.</p>
+        <img src="ic_file_replace_outline"> <b><u>ファイルの移動</u></b>
+        <p>必要に応じて、ダウンロードしたウォッチフェイスファイルをダウンロードフォルダからMi Bandageのフォルダに移動します。</p>
         ]]>
     </string>
 
-    <string name="info_dialog_watch_face"><![CDATA[<b><u>Watch face change procedure</u></b>
-        <p><img src="ic_upload_mi_fit_init"> <b>Initialization</b></p>
-        <p>Resets the watch face\'s states to the original in the %1$s application, upload the first factory watch face.</p>
+    <string name="info_dialog_watch_face"><![CDATA[<b><u>ウォッチフェイス変更手順</u></b>
+        <p><img src="ic_upload_mi_fit_init"> <b>初期化</b></p>
+        <p>%1$sオリジナルのウォッチフェイスを同期して、ウォッチフェイスをリセットしてください。</p>
 
-        <img src="ic_upload_mi_fit"> <b>Upload</b>
-        <p>Upload the selected watch face in the %1$s app. It replaces the last uploaded factory watch face.</p>
+        <img src="ic_upload_mi_fit"> <b>アップロード</b>
+        <p>初期化に使用したウォッチフェイスがカスタムウォッチフェイスに置き換えられるので、再度同じものを%1$sでアップロードしてください。</p>
 
-        <br><p><b><u>Upload multiple watch face</u></b></p>
-        <p><img src="ic_action_launch_mi_fit"> Launching %1$s app without watch face replacing, upload the second factory watch face.</p>
-        <p><img src="ic_upload_mi_fit">  Upload the selected watch face in the %1$s app.</p>
-        <p>Repeat these steps.</p>
+        <br><p><b><u>複数のウォッチフェイスをアップロード</u></b></p>
+        <p><img src="ic_action_launch_mi_fit"> 一度置き換えたものとは別のオリジナルウォッチフェイスを%1$sで同期してください。</p>
+        <p><img src="ic_upload_mi_fit"> それを再び%1$sでアップロードしてください。</p>
+        <p>この作業を繰り返してください。</p>
 
-        <br><p>In the %1$s app the watch face\'s picture will not change.</p>
+        <br><p>%1$sアプリ内ではウォッチフェイスの画像は変更されません。</p>
         ]]>
     </string>
 
     <string name="info_dialog_watch_face_upload"><![CDATA[
-        <img src="ic_upload"> <b><u>Upload</u></b>
-        <p>Upload the selected watch face.</p>
-        <br><img src="ic_warning"> <b><u>Invalid watch face file</u></b>
-        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        <img src="ic_upload"> <b><u>アップロード</u></b>
+        <p>選択したウォッチフェイスをアップロードします。</p>
+        <br><img src="ic_warning"> <b><u>無効なウォッチフェイスファイル</u></b>
+        <p>標準搭載のWebブラウザはファイルを正しくダウンロードできないことがあります。その場合は別のブラウザ（Google Chromeを推奨）で試してください。</p>
         ]]>
     </string>
 
     <!-- Firmware -->
-    <string name="firmware_tab_firmware">Firmware</string>
-    <string name="firmware_tab_font">Font</string>
-    <string name="firmware_tab_resource">Resource</string>
+    <string name="firmware_tab_firmware">ファームウェア</string>
+    <string name="firmware_tab_font">フォント</string>
+    <string name="firmware_tab_resource">リソース</string>
 
-    <string name="firmware_update_firmware_title">Update firmware</string>
-    <string name="firmware_update_font_title">Update font</string>
-    <string name="firmware_update_resource_title">Update resource</string>
+    <string name="firmware_update_firmware_title">ファームウェアの更新</string>
+    <string name="firmware_update_font_title">フォントの更新</string>
+    <string name="firmware_update_resource_title">リソースの更新</string>
 
-    <string name="firmware_update_prepare">Preparing for the update…</string>
-    <string name="firmware_update_progress">Updating %1$,d%%</string>
-    <string name="firmware_update_connecting">Connecting…</string>
+    <string name="firmware_update_prepare">更新の準備中…</string>
+    <string name="firmware_update_progress">更新中：%1$,d%%</string>
+    <string name="firmware_update_connecting">接続中…</string>
 
-    <string name="firmware_update_firmware_empty_title"><![CDATA[Firmware not found
+    <string name="firmware_update_firmware_empty_title"><![CDATA[ファームウェアが見つかりません
         <br><i>(%1$s)</i>
     ]]></string>
-    <string name="firmware_update_font_empty_title"><![CDATA[Font not found
+    <string name="firmware_update_font_empty_title"><![CDATA[フォントが見つかりません
         <br><i>(%1$s)</i>
     ]]></string>
-    <string name="firmware_update_resource_empty_title"><![CDATA[Resource not found
+    <string name="firmware_update_resource_empty_title"><![CDATA[リソースが見つかりません
         <br><i>(%1$s)</i>
     ]]></string>
 
-    <string name="firmware_type_firmware">Firmware</string>
-    <string name="firmware_type_font">Font</string>
-    <string name="firmware_type_font_latin">Font latin</string>
-    <string name="firmware_type_gps">GPS Firmware</string>
-    <string name="firmware_type_gps_almanac">GPS Almanac</string>
-    <string name="firmware_type_gps_cep">GPS Error Correction</string>
-    <string name="firmware_type_resource">Resource</string>
-    <string name="firmware_type_watchface">Watch face</string>
-    <string name="firmware_type_invalid">Invalid</string>
+    <string name="firmware_type_firmware">ファームウェア</string>
+    <string name="firmware_type_font">フォント</string>
+    <string name="firmware_type_font_latin">ラテンフォント</string>
+    <string name="firmware_type_gps">GPSファームウェア</string>
+    <string name="firmware_type_gps_almanac">アルマナック</string>
+    <string name="firmware_type_gps_cep">GPS誤差修正</string>
+    <string name="firmware_type_resource">リソース</string>
+    <string name="firmware_type_watchface">ウォッチフェイス</string>
+    <string name="firmware_type_invalid">無効</string>
 
-    <string name="message_firmware_file_error">Invalid firmware file</string>
-    <string name="message_firmware_file_error_small">Invalid firmware file. File size is too small, use another web browser to download.</string>
-    <string name="message_firmware_file_error_large">Invalid firmware file. File size is too large, use another web browser to download.</string>
+    <string name="message_firmware_file_error">無効なファームウェアファイルです</string>
+    <string name="message_firmware_file_error_small">ファームウェアファイルのサイズが小さすぎます。別のWebブラウザからダウンロードしてください</string>
+    <string name="message_firmware_file_error_large">ファームウェアファイルのサイズが小さすぎます。別のWebブラウザからダウンロードしてください</string>
 
-    <string name="firmware_warning"><![CDATA[Warning!
+    <string name="firmware_warning"><![CDATA[注意！
     <br><br>
-    <p>Only at your own risk! The firmware update can damage your device.</p>
-    Use only files from a trusted source.]]>
+    <p>ファームウェアの更新はデバイスに損害を与える可能性があります。</p>
+    信頼できる提供元からのファイルのみ使用してください。]]>
     </string>
 
     <string name="info_dialog_firmware"><![CDATA[
-        <img src="ic_upload"> <b><u>Upload</u></b>
-        <p>Upload the selected firmware.</p>
-        <br><img src="ic_warning"> <b><u>Invalid firmware file</u></b>
-        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        <img src="ic_upload"> <b><u>アップロード</u></b>
+        <p>選択したファイルをアップロードします。</p>
+        <br><img src="ic_warning"> <b><u>無効なファームウェアファイル</u></b>
+        <p>標準搭載のWebブラウザはファイルを正しくダウンロードできないことがあります。その場合は別のブラウザ（Google Chromeを推奨）で試してください。</p>
         ]]>
     </string>
 
     <!-- Agent -->
-    <string name="agent_title">Device monitoring agent</string>
-    <string name="agent_tab_events">Agent log</string>
+    <string name="agent_title">端末監視エージェント</string>
+    <string name="agent_tab_events">ログ</string>
     <string name="agent_tab_settings">@string/setting_name</string>
 
-    <string name="pref_disconnected_agent_summary_on">If someone tampered with the phone while you are away, you will know</string>
-    <string name="pref_disconnected_agent_text">Someone tampered with the phone, while you were gone</string>
-    <string name="pref_disconnected_agent_user_present_title">Wake up the phone screen monitoring</string>
-    <string name="pref_disconnected_agent_screen_on_and_motion_title">Power on and motion monitoring</string>
+    <string name="pref_disconnected_agent_summary_on">ユーザーの不在時に端末が操作された場合にお知らせします</string>
+    <string name="pref_disconnected_agent_text">ーザーの不在時に端末が操作されました</string>
+    <string name="pref_disconnected_agent_user_present_title">画面のロック解除を監視</string>
+    <string name="pref_disconnected_agent_screen_on_and_motion_title">電源オン・端末の動きを監視</string>
 
     <!-- Agent log info dialog -->
-    <string name="info_dialog_disconnected_agent"><![CDATA[Events detected by the phone management agent:
-        <br>- power on
-        <br>- unlocking the screen
-        <br>- motion detected
+    <string name="info_dialog_disconnected_agent"><![CDATA[端末監視エージェントにより検出される操作：
+        <br>- 電源オン
+        <br>- 画面のロック解除
+        <br>- 端末の動き
 
-        <p>If someone operates with the phone while you are away, then events above are logged.</p>
-        <p>When you reconnect you will receive a notification in case of an event occurred.</p>]]>
+        <p>ユーザーの不在時に端末に上記の操作がなされた場合、その操作が記録されます。</p>
+        <p>記録が発生した場合は、端末との再接続時に通知を送信します。</p>]]>
     </string>
 
     <!-- Theme -->
-    <string name="theme_tab_theme">Theme</string>
-    <string name="theme_tab_widget">Widgets</string>
-    <string name="theme_tab_notification">Notification shade</string>
+    <string name="theme_tab_theme">テーマ</string>
+    <string name="theme_tab_widget">ウィジェット</string>
+    <string name="theme_tab_notification">通知パネル</string>
 
-    <string name="theme_title">Select a theme</string>
-    <string name="theme_light">Light</string>
-    <string name="theme_dark">Dark</string>
-    <string name="theme_background_color_title">Background color</string>
+    <string name="theme_title">テーマを選択</string>
+    <string name="theme_light">ライト</string>
+    <string name="theme_dark">ダーク</string>
+    <string name="theme_background_color_title">背景色</string>
 
-    <string name="theme_widget_foreground_title">Foreground</string>
-    <string name="theme_widget_foreground_color_title">Icon and text color</string>
-    <string name="theme_widget_background_title">Background</string>
-    <string name="theme_widget_background_color_title">Color</string>
-    <string name="theme_widget_background_shape_title">Shape</string>
-    <string name="theme_widget_background_transparency_title">Transparency</string>
-    <string name="theme_widget_background_logo_visibility">Show Mi Bandage logo</string>
+    <string name="theme_widget_foreground_title">前面</string>
+    <string name="theme_widget_foreground_color_title">アイコンとテキストの色</string>
+    <string name="theme_widget_background_title">背景</string>
+    <string name="theme_widget_background_color_title">色</string>
+    <string name="theme_widget_background_shape_title">形状</string>
+    <string name="theme_widget_background_transparency_title">透過度</string>
+    <string name="theme_widget_background_logo_visibility">Mi Bandageのロゴを表示</string>
 
-    <string name="theme_widget_touch_event_title">Touch event</string>
+    <string name="theme_widget_touch_event_title">タッチ時の挙動</string>
 
-    <string name="theme_notification_title">Show status in notification shade</string>
-    <string name="theme_notification_summary">The Android system force-stops a service only when memory is low. If after a while does not appear the notifications on the %1$s, you can prevent this.</string>
-    <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon. If the notification is hidden, switch off this setting for optimal performance.</string>
-    <string name="theme_notification_color_title">Icon color</string>
-    <string name="theme_notification_text_color_title">Text color</string>
+    <string name="theme_notification_title">通知パネルにステータスを表示</string>
+    <string name="theme_notification_summary">Androidシステムはメモリの空きが少ないとサービスを強制停止します。しばらくたっても%1$sに通知が表示されない場合はこの設定をオフにしてください。</string>
+    <string name="theme_notification_summary_foreground_service">Android 8以上では通知バーにアイコンが表示されます。通知バーで左または右にスワイプするとアイコンが隠れます。通知が非表示の場合は、パフォーマンスの最適化のためこの設定をオフにしてください。</string>
+    <string name="theme_notification_color_title">アイコンの色</string>
+    <string name="theme_notification_text_color_title">テキストの色</string>
 
     <!-- Backup and restore -->
-    <string name="backup_tab_backup">Backup</string>
-    <string name="backup_tab_restore">Restore</string>
-    <string name="backup_tab_cloud">Cloud</string>
+    <string name="backup_tab_backup">バックアップ</string>
+    <string name="backup_tab_restore">復元</string>
+    <string name="backup_tab_cloud">クラウド</string>
 
-    <string name="backup_time">Backup time</string>
-    <string name="backup_path">Backup location</string>
-    <string name="backup_auto">Automatic backup</string>
-    <string name="backup_auto_time">Time</string>
+    <string name="backup_time">バックアップ時間</string>
+    <string name="backup_path">バックアップ先</string>
+    <string name="backup_auto">自動バックアップ</string>
+    <string name="backup_auto_time">時間</string>
 
-    <string name="backup_process">Preparation…</string>
-    <string name="backup_process_activity">Activity and sleep %1$,d%%</string>
-    <string name="backup_process_pulse">Pulse %1$,d%%</string>
-    <string name="backup_process_notification">Notification %1$,d%%</string>
-    <string name="backup_process_touch">Touch %1$,d%%</string>
-    <string name="backup_process_time">Time %1$,d%%</string>
-    <string name="backup_process_reminder">Event reminder %1$,d%%</string>
-    <string name="backup_process_weather">Weather %1$,d%%</string>
-    <string name="backup_process_alarm">Lost %1$,d%%</string>
-    <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
-    <string name="backup_process_settings">Settings %1$,d%%</string>
-    <string name="backup_process_cloud">Cloud %1$,d%%</string>
+    <string name="backup_process">準備中…</string>
+    <string name="backup_process_activity">アクティビティと睡眠：%1$,d%%</string>
+    <string name="backup_process_pulse">心拍数：%1$,d%%</string>
+    <string name="backup_process_notification">通知：%1$,d%%</string>
+    <string name="backup_process_touch">タッチ：%1$,d%%</string>
+    <string name="backup_process_time">時計：%1$,d%%</string>
+    <string name="backup_process_reminder">リマインダー：%1$,d%%</string>
+    <string name="backup_process_weather">天気：%1$,d%%</string>
+    <string name="backup_process_alarm">端末を探す：%1$,d%%</string>
+    <string name="backup_process_disconnected_agent">エージェント：%1$,d%%</string>
+    <string name="backup_process_settings">設定：%1$,d%%</string>
+    <string name="backup_process_cloud">クラウド：%1$,d%%</string>
 
-    <string name="backup_restore_activity">Activity and sleep</string>
-    <string name="backup_restore_pulse">Pulse</string>
-    <string name="backup_restore_notification">Notification</string>
-    <string name="backup_restore_touch">Touch</string>
-    <string name="backup_restore_time">Time</string>
-    <string name="backup_restore_reminder">Event reminder</string>
-    <string name="backup_restore_weather">Weather</string>
-    <string name="backup_restore_alarm">Lost</string>
-    <string name="backup_restore_disconnected_agent">Agent</string>
+    <string name="backup_restore_activity">アクティビティと睡眠</string>
+    <string name="backup_restore_pulse">心拍数</string>
+    <string name="backup_restore_notification">通知</string>
+    <string name="backup_restore_touch">タッチ</string>
+    <string name="backup_restore_time">時計</string>
+    <string name="backup_restore_reminder">リマインダー</string>
+    <string name="backup_restore_weather">天気</string>
+    <string name="backup_restore_alarm">端末を探す</string>
+    <string name="backup_restore_disconnected_agent">エージェント</string>
     <string name="backup_restore_settings">@string/settings_name</string>
 
-    <string name="backup_restore_reset">After restoring, Bluetooth will be turning off and on and the application will restart.</string>
+    <string name="backup_restore_reset">復元後、Bluetoothがオフになりアプリが再起動します</string>
 
-    <string name="backup_cloud_drive_login">Google Drive sign in</string>
-    <string name="backup_cloud_drive_logout">Google Drive sign out</string>
-    <string name="backup_cloud_sync_time">Upload time</string>
-    <string name="backup_cloud_only_wifi">Over wi-fi only</string>
+    <string name="backup_cloud_drive_login">Google Driveにサインイン</string>
+    <string name="backup_cloud_drive_logout">Google Driveからサインアウト</string>
+    <string name="backup_cloud_sync_time">アップロード時間</string>
+    <string name="backup_cloud_only_wifi">Wi-Fiのみ使用</string>
 
     <!-- Rewarded mode -->
-    <string name="rewarded_policy_title">Terms and conditions of Rewarded mode</string>
+    <string name="rewarded_policy_title">リワードモードの利用規約</string>
     <string name="rewarded_policy"><![CDATA[
-        <p>- start of validity: current time</p>
-        <p>- end of validity: start of validity + at least %1$,d days (depending on ad it can be more)</p>
-        <p>- time manipulation can cause termination of validity</p>
-        <i>After playing video you need to restart the app.</i>
+        <p>- 有効期間開始：現在時間</p>
+        <p>- 有効期間終了：開始から最低%1$,d日（広告により異なります）</p>
+        <p>- 時間の操作をすると有効期間終了となります</p>
+        <i>動画の視聴後はアプリを再起動してください。</i>
     ]]></string>
 
-    <string name="rewarded_advantage_banner_title">Block the banner ads</string>
-    <string name="rewarded_advantage_interstitial_title">Block the interstitial ads</string>
+    <string name="rewarded_advantage_banner_title">バナー広告をブロック</string>
+    <string name="rewarded_advantage_interstitial_title">ページ間広告をブロック</string>
 
-    <string name="rewarded_advantage_time_range">Validity</string>
-    <string name="rewarded_advantage_button_play">Play video</string>
+    <string name="rewarded_advantage_time_range">有効期間</string>
+    <string name="rewarded_advantage_button_play">動画を視聴</string>
 
-    <string name="message_rewarded_error">Failed to load video</string>
+    <string name="message_rewarded_error">動画の読み込みに失敗しました</string>
 
     <!-- Premium mode -->
-    <string name="purchase_advantage_title">Premium mode advantages</string>
+    <string name="purchase_advantage_title">プレミアムモードの特典</string>
     <string name="purchase_advantage"><![CDATA[
-        <p>- ad-free</p>
-        <p>- do not disturb mode</p>
-        <p>- unlimited notification monitoring</p>
-        <p>- unlimited touch monitoring</p>
-        <p>- text prefix, pre icon and filtering text can be used in notification monitoring</p>
-        <p>- repeat interval can be set freely in step monitoring function</p>
-        <p>- repeat interval can be set freely and show pulse can be used in pulse monitoring function</p>
-        <p>- repeat interval can be set freely and DnD mode can be used in lost monitoring function</p>
-        <p>- repeated reminders, show message and turn on bluetooth can be set freely in time monitoring</p>
+        <p>- 広告なし</p>
+        <p>- DNDのカスタマイズ</p>
+        <p>- 通知が無制限</p>
+        <p>- タッチの監視が無制限</p>
+        <p>- 通知テキストの先頭文字列・アイコン、フィルタが使用可能</p>
+        <p>- 歩数測定の繰り返し間隔を自由に設定可能</p>
+        <p>- 心拍数測定の繰り返し間隔を自由に設定可能・心拍数表示が使用可能</p>
+        <p>- 「端末を探す」の繰り返し間隔を自由に設定可能・DNDが使用可能</p>
+        <p>- 時計のリマインダー・メッセージ表示・Bluetoothの制御を自由に設定可能</p>
         - …
     ]]></string>
-    <string name="purchase_policy_title">Terms and conditions of Premium mode</string>
+    <string name="purchase_policy_title">プレミアムモードの利用規約</string>
     <string name="purchase_policy"><![CDATA[
-        <p>- I have tested the app and it is working properly.</p>
-        <p>- I am aware of that I can not require compensation or refund due to bugs, software errors caused by changes in the software, hardware environment or using other applications.</p>
-        <p>- All sales are final and can not be refund (except Google refund policy).</p>
-        <p>- There is no warranty included.</p>
-        <br><p><i>After purchasing you need to restart the app.</i></p>
+        <p>- 正常に動作することを確認済みです。</p>
+        <p>- 設定変更や他のアプリの使用によるソフトウェアのエラー、バグに対する賠償や払い戻しは受け付けません。</p>
+        <p>- すべての購入は払い戻しできません（Googleの払い戻しポリシーを除く）。</p>
+        <p>- 保証は含まれません。</p>
+        <br><p><i>購入後はアプリを再起動してください。</i></p>
     ]]></string>
 
-    <!--<string name="purchase_price">Price:</string>-->
-    <string name="purchase_agree">I agree to the terms and conditions.</string>
-    <string name="purchase_order_id">Order ID</string>
-    <string name="purchase_order_id_help">Copy from:
+    <!--<string name="purchase_price">価格：</string>-->
+    <string name="purchase_agree">利用規約に同意する</string>
+    <string name="purchase_order_id">オーダーID</string>
+    <string name="purchase_order_id_help">以下からコピーしてください。
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
-    <string name="purchase_button_purchase">Purchase</string>
+    <string name="purchase_button_purchase">購入</string>
 
-    <string name="text_premium_mode_only">Only in premium mode</string>
+    <string name="text_premium_mode_only">プレミアムモード専用</string>
 
     <!-- Feedback -->
-    <string name="action_log_notification">Log</string>
+    <string name="action_log_notification">ログ</string>
 
-    <string name="feedback_google_play_title">Rate this app</string>
-    <string name="feedback_request_feature_title">Feature request, bug report</string>
-    <string name="feedback_request_feature_summary">Automatic e-mail processing, you may not get an response</string>
-    <string name="feedback_translation_title">Mi Bandage translation</string>
-    <string name="feedback_translation_title_summary">Please help in translation</string>
+    <string name="feedback_google_play_title">アプリを評価</string>
+    <string name="feedback_request_feature_title">機能のリクエスト・バグの報告</string>
+    <string name="feedback_request_feature_summary">メールは自動処理のため返信はありません</string>
+    <string name="feedback_translation_title">Mi Bandageの翻訳</string>
+    <string name="feedback_translation_title_summary">翻訳にご協力ください</string>
 
     <!-- Privacy policy -->
-    <string name="privacy_policy_tab_privacy_policy">Privacy policy</string>
-    <string name="privacy_policy_tab_eu_consent">EU user consent</string>
+    <string name="privacy_policy_tab_privacy_policy">プライバシーポリシー</string>
+    <string name="privacy_policy_tab_eu_consent">EUユーザーの同意</string>
 
-    <string name="privacy_policy_collect_title">Information we collect</string>
+    <string name="privacy_policy_collect_title">収集する情報</string>
     <string name="privacy_policy_collect"><![CDATA[
-        <p>- We only collect anonymous information.</p>
-        <p>- We collect information at the application level about the services that you use and how you use them (Google Firebase Platform).</p>
-        <p>- We collect information at the application level like bugs, errors and crashes to provide improvements (Google Firebase Platform).</p>
-        <p>- Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.</p>
-        - We do not share any data with other companies and organizations.
+        <p>- 匿名の情報のみ収集します。</p>
+        <p>- お使いのサービスについての情報をGoogle Firebaseからアプリケーションレベルで収集します。</p>
+        <p>- 品質向上のため、バグやエラー、クラッシュなどの情報をGoogle Firebaseからアプリケーションレベルで収集します。</p>
+        <p>- Google Firebaseは匿名で情報を収集し、個人を特定することなくユーザーの動向を報告します。</p>
+        - 他の会社や組織に対しデータを共有することはありません。
     ]]></string>
 
-    <string name="privacy_policy_not_collect_title">Information we do not collect</string>
+    <string name="privacy_policy_not_collect_title">収集しない情報</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>- We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
-        - We do not collect personal health data, contacts and phone notification text.
+        <p>- 個人を特定できる情報（氏名、住所、電話番号、メールアドレス、IPアドレス、MACアドレスなど）は収集しません。</p>
+        - 個人の健康データや連絡先、通知のテキストは収集しません。
     ]]></string>
 
-    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links_title"サードパーティー製サービスプロバイダーのプライバシーポリシー</string>
     <string name="privacy_policy_links"><![CDATA[
-        <a href="https://policies.google.com/privacy">Google Play Services</a>
+        <a href="https://policies.google.com/privacy">Google Play開発者サービス</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
-        <p><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></p>
+        <p><a href="https://firebase.google.com/policies/analytics">Googleアナリティクス</a></p>
         <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
     ]]></string>
 
-    <string name="privacy_policy_eu_consent_title">Status</string>
-    <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
-    <string name="privacy_policy_eu_consent_title_unknown">Unknown</string>
+    <string name="privacy_policy_eu_consent_title">ステータス</string>
+    <string name="privacy_policy_eu_consent_title_personalized">パーソナライズされた広告</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">関連性の低い広告</string>
+    <string name="privacy_policy_eu_consent_title_unknown">不明</string>
 
-    <string name="privacy_policy_eu_consent_setting">Setting</string>
+    <string name="privacy_policy_eu_consent_setting">設定</string>
 
     <!-- Vibration dialog -->
-    <string name="vibration_title">Vibration setting</string>
-    <string name="vibration_intensity">Duration</string>
-    <string name="vibration_pause">Pause</string>
-    <string name="vibration_times">Times</string>
+    <string name="vibration_title">バイブレーション設定</string>
+    <string name="vibration_intensity">長さ</string>
+    <string name="vibration_pause">停止時間</string>
+    <string name="vibration_times">回数</string>
 
     <!-- Custom vibration dialog -->
-    <string name="custom_vibration_title">Vibration setting</string>
-    <string name="custom_vibration">Vibration</string>
-    <string name="custom_vibration_edit">Custom editing</string>
-    <string name="custom_vibration_hint">Tap to vibrate</string>
-    <string name="custom_vibration_new">Record again</string>
+    <string name="custom_vibration_title">バイブレーション設定</string>
+    <string name="custom_vibration">バイブレーション</string>
+    <string name="custom_vibration_edit">カスタム設定</string>
+    <string name="custom_vibration_hint">タップすると振動します</string>
+    <string name="custom_vibration_new">再記録</string>
 
     <!-- Hack -->
-    <string name="info_dialog_hack"><![CDATA[Hack tool detected on phone.
-        <p>While the hack tool is installed the premium mode is not available.</p>
-        <p>I spent a lot of time in the development of application, please do not use hack tools.</p>]]>
+    <string name="info_dialog_hack"><![CDATA[端末にハッキングツールが検出されました。
+        <p>ハッキングツールがインストールされている間はプレミアムモードは利用できません。</p>
+        <p>アプリの開発には多大な時間を費やしています。ハッキングツールは使用しないでください。</p>]]>
     </string>
 
     <!-- Others -->
-    <string name="on">On</string>
-    <string name="off">Off</string>
-    <string name="none">None</string>
+    <string name="on">オン</string>
+    <string name="off">オフ</string>
+    <string name="none">なし</string>
     <string name="bpm">BPM</string>
-    <string name="date">Date</string>
-    <string name="time">Time</string>
-    <string name="time_start">Start time</string>
-    <string name="time_end">End time</string>
-    <string name="ringer_mode_vibrate">Vibrate</string>
-    <string name="ringer_mode_silent">Mute</string>
-    <string name="ringer_mode_dnd_priority_only">Do not disturb (priority only)</string>
-    <string name="ringer_mode_dnd_alarms_only">Do not disturb (alarms only)</string>
-    <string name="ringer_mode_dnd_total_silence">Do not disturb (total silence)</string>
-    <string name="unknown">Unknown</string>
-    <string name="maximum">Maximum</string>
-    <string name="all_day">All-day</string>
-    <string name="file_name">File name</string>
+    <string name="date">日付</string>
+    <string name="time">時間</string>
+    <string name="time_start">開始時間</string>
+    <string name="time_end">終了時間</string>
+    <string name="ringer_mode_vibrate">バイブレーション</string>
+    <string name="ringer_mode_silent">サイレント</string>
+    <string name="ringer_mode_dnd_priority_only">DND（高優先度の通知のみ）</string>
+    <string name="ringer_mode_dnd_alarms_only">DND（アラームのみ）</string>
+    <string name="ringer_mode_dnd_total_silence">DND（サイレント）</string>
+    <string name="unknown">不明</string>
+    <string name="maximum">最大</string>
+    <string name="all_day">終日</string>
+    <string name="file_name">ファイル名</string>
 
-    <string name="action_dismiss">Dismiss</string>
-    <string name="action_setting">Setting</string>
-    <string name="action_delete">Delete</string>
-    <string name="action_export">Export</string>
-    <string name="action_synchronization">Synchronization</string>
-    <string name="action_filter_no">No filter</string>
+    <string name="action_dismiss">中止</string>
+    <string name="action_setting">設定</string>
+    <string name="action_delete">削除</string>
+    <string name="action_export">エクスポート</string>
+    <string name="action_synchronization">同期</string>
+    <string name="action_filter_no">フィルタなし</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
     <string name="action_launch_amazfit">Amazfit</string>
-    <string name="action_save">Save</string>
-    <string name="action_test">Test</string>
-    <string name="action_discard">Discard</string>
-    <string name="action_keep_editing">Keep editing</string>
-    <string name="action_new">New</string>
-    <string name="action_start_stop">Start/Stop</string>
-    <string name="synchronized_from_watch">Synchronized from watch</string>
+    <string name="action_save">保存</string>
+    <string name="action_test">テスト</string>
+    <string name="action_discard">破棄</string>
+    <string name="action_keep_editing">編集を続行</string>
+    <string name="action_new">新規</string>
+    <string name="action_start_stop">開始/停止</string>
+    <string name="synchronized_from_watch">バンドから同期</string>
 
-    <string name="action_chart">Chart</string>
-    <string name="action_chart_normalize_minute">Measured values</string>
-    <string name="action_chart_normalize_quarter_hourly">Quarter-hourly values</string>
-    <string name="action_chart_normalize_half_hourly">Half-hourly values</string>
-    <string name="action_chart_normalize_hourly">Hourly values</string>
-    <string name="action_chart_sort_time_asc">Time ascending</string>
-    <string name="action_chart_sort_time_desc">Time descending</string>
-    <string name="action_chart_sort_step_asc">Step ascending</string>
-    <string name="action_chart_sort_step_desc">Step descending</string>
-    <string name="action_chart_sort_pulse_asc">Pulse ascending</string>
-    <string name="action_chart_sort_pulse_desc">Pulse descending</string>
-    <string name="action_chart_sort_lap_asc">Lap ascending</string>
-    <string name="action_chart_sort_lap_desc">Lap descending</string>
+    <string name="action_chart">チャート</string>
+    <string name="action_chart_normalize_minute">測定値</string>
+    <string name="action_chart_normalize_quarter_hourly">15分毎の値</string>
+    <string name="action_chart_normalize_half_hourly">30分毎の値</string>
+    <string name="action_chart_normalize_hourly">1時間毎の値</string>
+    <string name="action_chart_sort_time_asc">時間/昇順</string>
+    <string name="action_chart_sort_time_desc">時間/降順</string>
+    <string name="action_chart_sort_step_asc">歩数/昇順</string>
+    <string name="action_chart_sort_step_desc">歩数/降順</string>
+    <string name="action_chart_sort_pulse_asc">心拍数/昇順</string>
+    <string name="action_chart_sort_pulse_desc">心拍数/降順</string>
+    <string name="action_chart_sort_lap_asc">ラップ/昇順</string>
+    <string name="action_chart_sort_lap_desc">ラップ/降順</string>
 
-    <string name="power_on">Power on</string>
-    <string name="screen_unlock">Unlocking the screen</string>
-    <string name="motion">Motion detected</string>
+    <string name="power_on">電源オン</string>
+    <string name="screen_unlock">画面のロック解除</string>
+    <string name="motion">端末の動きの検知</string>
 
-    <string name="required_value">Required</string>
+    <string name="required_value">必須</string>
 
-    <string name="invalid_date">Invalid date</string>
-    <string name="invalid_time">Invalid time</string>
+    <string name="invalid_date">無効な日付</string>
+    <string name="invalid_time">無効な時間</string>
 
     <!-- Constante -->
     <string name="const_time_abbreviation_day">d</string>
@@ -1393,39 +1393,39 @@
     <string name="const_unit_dbm">dBm</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="zero">%d hour</item>
-        <item quantity="one">%d hour</item>
-        <item quantity="two">%d hours</item>
-        <item quantity="few">%d hours</item>
-        <item quantity="many">%d hours</item>
-        <item quantity="other">%d hours</item>
+        <item quantity="zero">%d時間</item>
+        <item quantity="one">%d時間</item>
+        <item quantity="two">%d時間</item>
+        <item quantity="few">%d時間</item>
+        <item quantity="many">%d時間</item>
+        <item quantity="other">%d時間</item>
     </plurals>
 
     <plurals name="plural_time_minute">
-        <item quantity="zero">%d minute</item>
-        <item quantity="one">%d minute</item>
-        <item quantity="two">%d minutes</item>
-        <item quantity="few">%d minutes</item>
-        <item quantity="many">%d minutes</item>
-        <item quantity="other">%d minutes</item>
+        <item quantity="zero">%d分</item>
+        <item quantity="one">%d分</item>
+        <item quantity="two">%d分</item>
+        <item quantity="few">%d分</item>
+        <item quantity="many">%d分</item>
+        <item quantity="other">%d分</item>
     </plurals>
 
     <plurals name="plural_time_second">
-        <item quantity="zero">%d second</item>
-        <item quantity="one">%d second</item>
-        <item quantity="two">%d seconds</item>
-        <item quantity="few">%d seconds</item>
-        <item quantity="many">%d seconds</item>
-        <item quantity="other">%d seconds</item>
+        <item quantity="zero">%d秒</item>
+        <item quantity="one">%d秒</item>
+        <item quantity="two">%d秒</item>
+        <item quantity="few">%d秒</item>
+        <item quantity="many">%d秒</item>
+        <item quantity="other">%d秒</item>
     </plurals>
 
     <plurals name="plural_file_moved">
-        <item quantity="zero">%d file moved</item>
-        <item quantity="one">%d file moved</item>
-        <item quantity="two">%d files moved</item>
-        <item quantity="few">%d files moved</item>
-        <item quantity="many">%d files moved</item>
-        <item quantity="other">%d files moved</item>
+        <item quantity="zero">%d個のファイルが移動されました</item>
+        <item quantity="one">%d個のファイルが移動されました</item>
+        <item quantity="two">%d個のファイルが移動されました</item>
+        <item quantity="few">%d個のファイルが移動されました</item>
+        <item quantity="many">%d個のファイルが移動されました</item>
+        <item quantity="other">%d個のファイルが移動されました</item>
     </plurals>
 
 </resources>
