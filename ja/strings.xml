@@ -138,7 +138,7 @@
     <string name="pref_text_conversion_description_title">詳細</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
         <p>通話の発信者名が正しく表示されている場合は、以下の操作はせずMi Fitの<b>着信通知</b>をオフにしてください。</p>
-        <p>英語以外の言語で着信通知を使わない場合：
+        <p>英語以外の言語で<b>着信通知</b>を使わない場合：
         <br/>1. 端末の言語を英語に設定
         <br/>2. Mi Fitを開き、フォントファームウェアの更新が完了するまで待機（ファームウェアの更新が開始されない場合は端末を再起動）
         <br/>3. <b>プロフィール/マイ デバイス/Mi Band/着信</b>を開く
@@ -704,7 +704,7 @@
         <br><p>テスト画面ではパターンの認識のみが可能で、割り当てられた機能は実行されません。</p>
         <p>端末の状態に依存する機能（着信時の着信応答、着信拒否など）が使えないときはバンドが振動します。</p>
         <p>パターンを認識したときはバンドが1回振動します。</p>
-        <p>パターンを認識しなかったときはバンドが2回振動します（タッチのパターン認識失敗の通知がオンの場合）。</p>
+        <p>パターンを認識しなかったときはバンドが2回振動します（<b>タッチのパターン認識失敗</b>の通知がオンの場合）。</p>
     ]]></string>
 
     <!-- Step monitoring -->
@@ -730,7 +730,7 @@
     <string name="step_interval_title">歩数測定の繰り返し間隔</string>
     <string name="step_time_set_next">次の測定時間</string>
 
-    <string name="step_goal_default_title">既定の目標</string>
+    <string name="step_goal_default_title">目標</string>
     <string name="step_goal_type_title">追加の目標</string>
     <string name="step_details">アクティビティの詳細</string>
 
@@ -1228,8 +1228,8 @@
     <string name="purchase_advantage"><![CDATA[
         <p>- 広告なし</p>
         <p>- DNDのカスタマイズ</p>
-        <p>- 無制限の通知</p>
-        <p>- 無制限のタッチの監視</p>
+        <p>- 通知が無制限</p>
+        <p>- タッチの機能割り当てが無制限</p>
         <p>- 通知テキストの先頭文字列・アイコン・フィルタが使用可能</p>
         <p>- 歩数測定の繰り返し間隔を自由に設定可能</p>
         <p>- 心拍数測定の繰り返し間隔を自由に設定可能・心拍数表示が使用可能</p>
@@ -1284,7 +1284,7 @@
         - 個人の健康データや連絡先、通知のテキストは収集しません。
     ]]></string>
 
-    <string name="privacy_policy_links_title">サードパーティ製サービスプロバイダのプライバシーポリシー</string>
+    <string name="privacy_policy_links_title">外部ｻｰﾋﾞｽﾌﾟﾛﾊﾞｲﾀﾞのﾌﾟﾗｲﾊﾞｼｰﾎﾟﾘｼｰ</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play開発者サービス</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
@@ -1293,7 +1293,7 @@
     ]]></string>
 
     <string name="privacy_policy_eu_consent_title">ステータス</string>
-    <string name="privacy_policy_eu_consent_title_personalized">パーソナライズされた広告</string>
+    <string name="privacy_policy_eu_consent_title_personalized">パーソナライズ広告</string>
     <string name="privacy_policy_eu_consent_title_non_personalized">関連性の低い広告</string>
     <string name="privacy_policy_eu_consent_title_unknown">不明</string>
 
