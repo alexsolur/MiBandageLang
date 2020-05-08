@@ -51,10 +51,10 @@
 
     <string-array name="pref_connected_have_notif_counter">
         <item>すべて</item>
-        <item>各アプリにつき1回</item>
-        <item>1種類のアプリ</item>
-        <item>2種類のアプリ</item>
-        <item>3種類のアプリ</item>
+        <item>通知を1回にまとめる</item>
+        <item>'app'アイコン1つ</item>
+        <item>'app'アイコン2つ</item>
+        <item>'app'アイコン3つ</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_interval">
@@ -232,7 +232,7 @@
 
     <string-array name="pref_touch_detection_method">
         <item>パターン認識</item>
-        <item>本体ボタンのタッチ回数</item>
+        <item>本体ボタンを押す回数</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method_mi_band_3">
