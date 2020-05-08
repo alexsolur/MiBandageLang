@@ -1,98 +1,95 @@
-<b>Supported devices</b>
+<b>サポートされているデバイス：</b>
 + Mi Band 4, Mi Band 3, Mi Band 2, Mi Band HRX
 + Amazfit GTS, Amazfit GTR, Amazfit Verge Lite, Amazfit Bip, Amazfit Bip Lite, Amazfit Band 2, Amazfit Cor (MiDong), Amazfit Arc
 
-This app works with or without the original Mi Fit / Amazfit app (but we have no affiliation with Xiaomi / Huami).
+Mi Fit/Amazfitアプリとの連携、もしくは単独で動作します（Xiaomi/Huamiとは提携していません）。
 
-<b>If you have a connection problem</b>
-- recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon)
-- phone battery settings/battery optimization: set Mi Bandage app to not optimized
-- enable settings/theme/notification shade
+<b>接続がうまくいかない場合</b>
+- アプリの履歴でMi Bandageをロック（右上の鍵のアイコンをタップ）
+- 「バッテリーの最適化を無視」をMi Bandageに許可
+- テーマ/通知パネルで「通知パネルにステータス表示」を有効化
 
-<b>If the problem persists</b>
-- restart your phone
-- write me an email
+<b>問題が解決しない場合</b>
+端末を再起動するか、メールでお問い合わせください。
 
-<b>Key features</b>
-- cooperation with Mi Fit or completely independent working mode
-- show battery state, estimated remaining time
-- normal and internet incoming call signal with caller display
-- missed call signal with caller display on Band/Amazfit
-- rejecting, answering and silencing a normal and internet incoming call
-- automatic character conversion
-- displays the app's notification texts on Band
-- show the most common emoticons
+<b>主な特徴</b>
+- Mi Fitとの連携、もしくは完全に独立して動作する（スタンドアロン）2つのモード
+- バッテリーの状態、推定残り時間の表示
+- インターネット通話を含む着信の通知、発信者の表示
+- 不在着信の通知、発信者の表示
+- インターネット通話を含む着信の拒否・応答・ミュート
+- 自動文字変換
+- バンドにアプリからの通知の内容を表示
+- 一般的な顔文字の表示
 
-<b>Mi Band/Amazfit connection features</b>
- - change volume
- - Band vibrates
- - device screen wake up
- - immediate signal when notification is received
- - when you reconnect show missed notifications
- - notifications reminder
- - signal only when screen is off
- - ongoing notifications are enabled or disabled
+<b>Mi Band/Amazfit接続時の機能</b>
+ - 音量の変更
+ - バンドのバイブレーション
+ - 端末の画面点灯
+ - 通知を即座に送信
+ - 切断時に受信した通知を再接続時に表示
+ - 通知のリマインダー
+ - 画面オフ時のみ通知
+ - 固定・進行中の通知の表示切り替え
 
-<b>Band disconnection features</b>
- - icon displaying and vibrate on Band
- - change volume
- - device monitoring agent: if someone tampered with the device while you are away, you will know (wake up the screen, power on, motion): notification on the device and Weibo icon on the Band
+<b>バンド切断時の機能</b>
+ - バンドの振動・アイコン表示
+ - 音量の変更
+ - デバイス監視エージェント：ユーザーの不在時に端末の操作（画面の点灯、電源オン、端末の動き）が検知された場合に端末に通知
 
-<b>Notification monitoring</b>
- - unique signal configuration for apps notification
- - displays the app's notification texts on Band
+<b>通知</b>
+ - アプリからの通知のカスタマイズ
+ - バンドにアプリからの通知の内容を表示
 
-<b>Touch monitoring</b>
- - call answering, speakerphone (turn off the launch music app when headset is connected setting, otherwise the music starts) (not all devices are supported)
- - call rejecting, ending (not all devices are supported)
- - call out
- - toggle call mute
- - find my device
- - repeat the phone's notifications on the bracelet
- - control music player (play, pause, next, previous, volume up/down, show music track info)
- - start timer/stopwatch/interval, showing remaining/elapsed time
- - take a photo
- - app launcher
- - Tasker task launcher
+<b>タッチの監視</b>
+ - 着信応答、スピーカー（使用する場合はヘッドセット接続時音楽アプリを起動する設定をオフにしてください。一部非対応の端末があります）
+ - 着信拒否・終了（一部非対応の端末があります）
+ - 発信
+ - 通話のミュート
+ - 端末を探す
+ - 端末からの通知を繰り返す
+ - 音楽プレーヤーの操作（再生・停止・次の曲・前の曲・音量調節・トラック情報の表示）
+ - タイマー・ストップウォッチ・インターバルの開始、残り時間・経過時間の表示
+ - 写真撮影
+ - アプリの起動
+ - Taskerのタスクを起動
 
-<b>Weather forecast</b>
+<b>天気</b>
 - OpenWeatherMap
 - AccuWeather
 - Dark Sky
 
-<b>Watch face upload</b>
+<b>ウォッチフェイスのアップロード</b>
 
-<b>Firmware update</b>
+<b>ファームウェアの更新</b>
 
-<b>Step monitoring</b>
- - daily/weekly/monthly charts: displays the measured values
- - more goals can be set
+<b>歩数の測定</b>
+ - 日別・週別・月別チャートで測定値を表示
+ - 複数の目標が設定可能
 
-<b>Sleep monitoring</b>
-- daily/weekly charts: displays the measured values
+<b>睡眠</b>
+- 日別・週別チャートで測定値を表示
  
-<b>Pulse monitoring</b>
-- you can set: monitoring starting signal, show pulse, low and high pulse signal, start/end time, repeat interval
-- daily/weekly/monthly charts
+<b>心拍数の測定</b>
+- 測定開始通知、心拍数の表示、心拍数低下・上昇通知、開始・終了時間、繰り返し間隔を設定可能
+- 日別・週別・月別チャート
 
-<b>Time monitoring</b>
-- automatic signal when phone alarm sounds
-- alarm setting
-- timer: alarm type, reminder, remaining time display on Band
-- stopwatch: alarm type, reminder, elapsed time, lap time recording, lap time displaying on Band
-- interval: timer for interval training
+<b>時計</b>
+- 端末のアラーム鳴動時に自動で通知
+- アラームの設定
+- タイマーのリマインダー・残り時間をバンドに表示
+- ストップウォッチのリマインダー・経過時間・ラップをバンドに表示
+- インターバルトレーニングに使えるインターバルタイマー
 
-<b>Lost monitoring</b>
-- Band signal: when the specified period of time expires Band will alert you
-- device signals: when the specified period of time expires, the device sends signals repeatedly if not connected to the bracelet. This makes it easier to find the device.
+<b>端末を探す</b>
+- バンドが端末に接続されていない状態で一定時間経過するとバンドに通知（逆も可能）
 
-<b>Agent log</b> 
-- view events detected by the device monitoring agent
+<b>エージェントログ</b> 
+- デバイス監視エージェントにより検知された操作を記録
 
-<b>Languages</b> (if you like to translate another language, please send me an email or use https://github.com/Alexsolur/MiBandageLang):
-English,
-Japanese (transleted by mit)
+<b>対応言語</b>（翻訳にご協力くださる場合は、メールでご連絡いただくか https://github.com/Alexsolur/MiBandageLang をご利用ください）
+英語・ハンガリー語・ポルトガル語・スペイン語・ロシア語・ポーランド語・トルコ語・ギリシャ語・イタリア語・フランス語・ドイツ語・チェコ語・中国語・日本語
 
-<b>Supported devices</b>
+<b>サポートされているデバイス</b>
 + Xiaomi Mi Band 4, Xiaomi Mi Band 3, Xiaomi Mi Band 2, Xiaomi Mi Band HRX
 + Amazfit GTS, Amazfit GTR, Amazfit Verge Lite, Amazfit Bip, Amazfit Bip Lite, Amazfit Band 2 (A1713), Amazfit Cor (MiDong), Amazfit Arc (A1603)
