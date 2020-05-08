@@ -134,6 +134,7 @@
     <string name="mi_band_setting_menu_visible">Synlige menyelementer</string>
     <string name="mi_band_setting_menu_hidden">Skjulte menyelementer</string>
     <string name="mi_band_setting_shortcut">Shortcut items</string>
+    <string name="mi_band_setting_shortcut_hidden">Hidden shortcut items</string>
 
     <string name="pref_text_conversion_description_title">Forklaring</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -231,7 +232,7 @@
     <string name="pref_call_notification_muted">Show notification about muted call</string>
 
     <string name="pref_call_net_text_title">Inkommende internett-anrop signal, display anrops-ID</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discort, Slack</string>
 
     <string name="pref_cat_call_missed">Tapt anrop</string>
     <string name="pref_call_missed_title">Tapt anrop signal</string>
@@ -359,6 +360,7 @@
     <br>- <b>Huami Amazfit GTS</b>
     <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit T-Rex</b>
+    <br>- <b>Huami Amazfit Bip S</b>
     <br>- <b>Huami Amazfit Bip/Bip Lite</b>
     <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -822,11 +824,11 @@
 
     <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Online puls measurementering</u></b>
         <p>Bluetooth tilkobling er påkrevd for monitorering av pulsen.</p>
-        <p>Puls monitorering repeteres flere ganger hvis resulterende av valuet er galt.<p>
+        <p>Puls monitorering repeteres flere ganger hvis resulterende av valuet er galt.</p>
         <img src="ic_pulse_offline"> <b><u>Offline puls measurementering</u></b>
         <p>Ingen Bluetooth tilkobling påkrevd for puls measurering.</p>
         <p>Bluetooth tilkobling er påkrevs for timing på start og stopp.</p>
-        <p>Manuelt starte measurering (Band, Mi Fit app) er også synkronisert.<p>
+        <p>Manuelt starte measurering (Band, Mi Fit app) er også synkronisert.</p>
         ]]>
     </string>
 
@@ -863,7 +865,7 @@
         <not_support_icon_text><p>Hvis du fjerner applikasjonen når alarmen er på, da kan du deaktivere den ved å skru på og av igjen Mi Fit 10. alarm instilling.</p></not_support_icon_text>
 
         <img src="ic_phone_android"> <b><u>Telefon signaler</u></b>
-        <p>Når spesifisert periode av tiden utløper, vil telefonen sende signaler gjentakende hvis ikke den er koblet til smartklokka.<p>
+        <p>Når spesifisert periode av tiden utløper, vil telefonen sende signaler gjentakende hvis ikke den er koblet til smartklokka.</p>
         <p>Dette gjør det lettere å finne telefonen. Hvis noen andre finner telefonen og den er låst og ikke vet hvordan å notifisere, så kan du sende en melding.</p>
         <p>Når smartklokka er tilkoblet, stopper alarmen.</p>
         <p>Må være aktivert for å vise notifikasjon på låse-skjermen.</p>]]>

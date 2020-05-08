@@ -134,6 +134,7 @@
     <string name="mi_band_setting_menu_visible">Voci di menu visibili</string>
     <string name="mi_band_setting_menu_hidden">Voci di menu nascoste</string>
     <string name="mi_band_setting_shortcut">Scorciatoie</string>
+    <string name="mi_band_setting_shortcut_hidden">Hidden shortcut items</string>
 
     <string name="pref_text_conversion_description_title">Descrizione</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -231,7 +232,7 @@
     <string name="pref_call_notification_muted">Mostra informazioni sulle chiamate silenziate</string>
 
     <string name="pref_call_net_text_title">ID chiamante per chiamate voip</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discort, Slack</string>
 
     <string name="pref_cat_call_missed">Chiamate perse</string>
     <string name="pref_call_missed_title">Notifica chiamata persa</string>
@@ -336,6 +337,7 @@
     <string name="message_alarm_mi_band_clear_failed">Cancellazione allarme fallita</string>
 
     <string name="message_premium_mode_only">Questa funzione è disponibile solo in versione premium</string>
+    <string name="message_premium_or_rewarded_mode_only">This feature is only available in premium or rewarded mode</string>
     <string name="message_feature_is_not_supported">%1$s non supporta questa funzionalità</string>
     <string name="message_general_error">Impostazione fallita (connessione persa), riprova</string>
     <string name="message_internet_error">Manca connessione internet</string>
@@ -358,6 +360,7 @@
     <br>- <b>Huami Amazfit GTS</b>
     <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit T-Rex</b>
+    <br>- <b>Huami Amazfit Bip S</b>
     <br>- <b>Huami Amazfit Bip/Bip Lite</b>
     <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -821,11 +824,11 @@
 
     <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Misurazione battito online</u></b>
         <p>Connessione Bluetooth richiesta per monitorare i battiti.</p>
-        <p>Il monitor dei battiti riproverà più volte se non riceve risultati validi.<p>
+        <p>Il monitor dei battiti riproverà più volte se non riceve risultati validi.</p>
         <img src="ic_pulse_offline"> <b><u>Misurazione battito offline</u></b>
         <p>Nessuna connessione Bluetooth richiesta per la misurazione dei battiti.</p>
         <p>Connessione Bluetooth richiesta per l\'avvio e la fermata temporizzata.</p>
-        <p>I battiti misurati manualmente (Band o app Mi Fit) saranno sincronizzati automaticamente.<p/>
+        <p>I battiti misurati manualmente (Band o app Mi Fit) saranno sincronizzati automaticamente.</p>
         ]]>
     </string>
 
@@ -862,7 +865,7 @@
         <not_support_icon_text><p>Se disinstalli l\'app con l\'allarme attivo, puoi disabilitarlo attivando e poi disattivando nuovamente la funzione allarme nell\'app Mi Fit.</p></not_support_icon_text>
 
         <img src="ic_phone_android"> <b><u>Notifiche dispositivo</u></b>
-        <p>Quando finisce il tempo specificato, il dispositivo manda continuamente notifiche se non connesso alla Band.<p>
+        <p>Quando finisce il tempo specificato, il dispositivo manda continuamente notifiche se non connesso alla Band.</p>
         <p>Questo rende più facile trovare il dispositivo. Se qualcuno trova il dispositivo ed è bloccato non può sapere a chi dirlo, quindi puoi far uscire un messaggio.</p>
         <p>Quando la Band sarà connessa, l\'allarme cesserà.</p>
         <p>Dev\'essere abilitato a mostrare le notifiche nella schermata di blocco.</p>]]>

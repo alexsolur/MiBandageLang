@@ -134,6 +134,7 @@
     <string name="mi_band_setting_menu_visible">Các mục hiển thị</string>
     <string name="mi_band_setting_menu_hidden">Các mục ẩn</string>
     <string name="mi_band_setting_shortcut">Shortcut items</string>
+    <string name="mi_band_setting_shortcut_hidden">Hidden shortcut items</string>
 
     <string name="pref_text_conversion_description_title">Mô tả</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -230,7 +231,7 @@
     <string name="pref_call_notification_muted">Show notification about muted call</string>
 
     <string name="pref_call_net_text_title">Tín hiệu cuộc gọi internet, hiện tên/ số người gọi</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discort, Slack</string>
 
     <string name="pref_cat_call_missed">Cuộc gọi nhỡ</string>
     <string name="pref_call_missed_title">Tín hiệu cuộc gọi nhỡ</string>
@@ -358,6 +359,7 @@
     <br>- <b>Huami Amazfit GTS</b>
     <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit T-Rex</b>
+    <br>- <b>Huami Amazfit Bip S</b>
     <br>- <b>Huami Amazfit Bip/Bip Lite</b>
     <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -823,11 +825,11 @@
 
     <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Online pulse measurement</u></b>
         <p>Bluetooth connection is required for monitoring the pulse.</p>
-        <p>Pulse monitor is repeated serveral times if the resulting value is invalid.<p>
+        <p>Pulse monitor is repeated serveral times if the resulting value is invalid.</p>
         <img src="ic_pulse_offline"> <b><u>Offline pulse measurement</u></b>
         <p>No Bluetooth connection required for pulse measurement.</p>
         <p>Bluetooth connection is required for timed start and stop.
-        <p>Manually launched measurements (Band, Mi Fit app) are logged too when pulse monitoring is started.<p/>
+        <p>Manually launched measurements (Band, Mi Fit app) are logged too when pulse monitoring is started.</p>
         ]]>
     </string>
 
@@ -864,7 +866,7 @@
         <not_support_icon_text><p>If you remove the application when the alarm is on, then you can disable it with turning on and off again Mi Fit 10. alarm setting.</p></not_support_icon_text>
 
         <img src="ic_phone_android"> <b><u>Device signals</u></b>
-        <p>When specified period of time expires, device send signals repeatedly if not connected to the bracelet.<p>
+        <p>When specified period of time expires, device send signals repeatedly if not connected to the bracelet.</p>
         <p>This makes it easier to find the device. If someone else finds the device and it is locked he does not know who to notify, so you can display a message.</p>
         <p>When bracelet is connected, alarm stops.</p>
         <p>Must be enabled to display notification on the lock screen.</p>]]>

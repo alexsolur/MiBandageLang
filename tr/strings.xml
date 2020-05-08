@@ -133,6 +133,7 @@
     <string name="mi_band_setting_menu_visible">Görünür ekran öğeleri</string>
     <string name="mi_band_setting_menu_hidden">Gizli ekran öğeleri</string>
     <string name="mi_band_setting_shortcut">Kısayol itemleri</string>
+    <string name="mi_band_setting_shortcut_hidden">Hidden shortcut items</string>
 
     <string name="pref_text_conversion_description_title">Açıklama</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -230,7 +231,7 @@
     <string name="pref_call_notification_muted">Sessize alınmış çağrılar için bildirim göster</string>
 
     <string name="pref_call_net_text_title">İnternet aramaları bildirimi ve arayan bilgisi</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discort, Slack</string>
 
     <string name="pref_cat_call_missed">Cevapsız arama</string>
     <string name="pref_call_missed_title">Cevapsız arama bildirimi</string>
@@ -358,6 +359,7 @@
     <br>- <b>Huami Amazfit GTS</b>
     <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit T-Rex</b>
+    <br>- <b>Huami Amazfit Bip S</b>
     <br>- <b>Huami Amazfit Bip/Bip Lite</b>
     <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -823,11 +825,11 @@
 
     <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Çevrimiçi nabız ölçüm</u></b>
         <p>Nabız ölçümü için Bluetooth bağlantısı gereklidir.</p>
-        <p>Ölçüm değeri geçersizse ölçüm otomatik tekrarlanır.<p>
+        <p>Ölçüm değeri geçersizse ölçüm otomatik tekrarlanır.</p>
         <img src="ic_pulse_offline"> <b><u>Çevrimdışı nabız ölçüm</u></b>
         <p>Nabız ölçümü için Bluetooth bağlantısı gerektirmez.</p>
         <p>zamanlanmış nabız ölçümü için Bluetooth bağlantısı gereklidir.</p>
-        <p>El ile başlatılan ölçümler günlüğe kaydedilir.<p/>]]>
+        <p>El ile başlatılan ölçümler günlüğe kaydedilir.</p>]]>
     </string>
 
     <!-- Lost monitoring -->

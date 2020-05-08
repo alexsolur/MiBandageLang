@@ -135,6 +135,7 @@
     <string name="mi_band_setting_menu_visible">보이는 메뉴 항목</string>
     <string name="mi_band_setting_menu_hidden">숨긴 메뉴 항목</string>
     <string name="mi_band_setting_shortcut">Shortcut items</string>
+    <string name="mi_band_setting_shortcut_hidden">Hidden shortcut items</string>
 
     <string name="pref_text_conversion_description_title">설명</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -232,7 +233,7 @@
     <string name="pref_call_notification_muted">Show notification about muted call</string>
 
     <string name="pref_call_net_text_title">Incoming internet call 신호, display caller ID</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discort, Slack</string>
 
     <string name="pref_cat_call_missed">부재중 전화</string>
     <string name="pref_call_missed_title">부재중 전화 신호</string>
@@ -360,6 +361,7 @@
     <br>- <b>Huami Amazfit GTS</b>
     <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit T-Rex</b>
+    <br>- <b>Huami Amazfit Bip S</b>
     <br>- <b>Huami Amazfit Bip/Bip Lite</b>
     <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -823,11 +825,11 @@
 
     <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Online pulse measurement</u></b>
         <p>Bluetooth 연결 is required for monitoring the pulse.</p>
-        <p>Pulse monitor is repeated several times if the resulting value is invalid.<p>
+        <p>Pulse monitor is repeated several times if the resulting value is invalid.</p>
         <img src="ic_pulse_offline"> <b><u>Offline pulse measurement</u></b>
         <p>No Bluetooth 연결 required for pulse measurement.</p>
         <p>Bluetooth 연결 is required for timed start and stop.</p>
-        <p>Manually launched measurements (Band, Mi 피트 앱) are also synchronized.<p>
+        <p>Manually launched measurements (Band, Mi 피트 앱) are also synchronized.</p>
         ]]>
     </string>
 
@@ -864,7 +866,7 @@
         <not_support_icon_text><p>If you remove the 애플리케이션 when the alarm is on, then you can disable it with turning on and off again Mi 피트 10. alarm setting.</p></not_support_icon_text>
 
         <img src="ic_phone_android"> <b><u>Phone 신호</u></b>
-        <p>When specified period of time expires, phone send 신호 repeatedly if not connected to the bracelet.<p>
+        <p>When specified period of time expires, phone send 신호 repeatedly if not connected to the bracelet.</p>
         <p>This makes it easier to find the phone. If someone else finds the phone and it is locked he does not know who to notify, so you can display a message.</p>
         <p>When bracelet is connected, alarm stops.</p>
         <p>Must be enabled to display notification on the lock screen.</p>]]>
@@ -1170,6 +1172,7 @@
     <!-- Backup and restore -->
     <string name="backup_tab_backup">백업</string>
     <string name="backup_tab_restore">복원</string>
+    <string name="backup_tab_cloud">Cloud</string>
 
     <string name="backup_time">백업 시간</string>
     <string name="backup_path">백업 위치</string>

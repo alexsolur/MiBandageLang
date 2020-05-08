@@ -134,6 +134,7 @@
     <string name="mi_band_setting_menu_visible">Item menu yang terlihat</string>
     <string name="mi_band_setting_menu_hidden">Item menu tersembunyi</string>
     <string name="mi_band_setting_shortcut">Shortcut items</string>
+    <string name="mi_band_setting_shortcut_hidden">Hidden shortcut items</string>
 
     <string name="pref_text_conversion_description_title">Deskripsi</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -231,7 +232,7 @@
     <string name="pref_call_notification_muted">Show notification about muted call</string>
 
     <string name="pref_call_net_text_title">Tanda panggilan internet masuk, tampilan identitas pemanggil</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discort, Slack</string>
 
     <string name="pref_cat_call_missed">Panggilan tidak terjawab</string>
     <string name="pref_call_missed_title">Tanda panggilan tidak terjawab</string>
@@ -359,6 +360,7 @@
     <br>- <b>Huami Amazfit GTS</b>
     <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit T-Rex</b>
+    <br>- <b>Huami Amazfit Bip S</b>
     <br>- <b>Huami Amazfit Bip/Bip Lite</b>
     <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -822,11 +824,11 @@
 
     <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Online pulse measurement</u></b>
         <p>Koneksi Bluetooth diperlukan untuk pemantauan detak jantung.</p>
-        <p>Pemantauan detak jantung diulang beberapa kali jika nilai yang dihasilkan tidak valid.<p>
+        <p>Pemantauan detak jantung diulang beberapa kali jika nilai yang dihasilkan tidak valid.</p>
         <img src="ic_pulse_offline"> <b><u>Offline pulse measurement</u></b>
         <p>No Bluetooth connection required for pulse measurement.</p>
         <p>Bluetooth connection is required for timed start and stop.</p>
-        <p>Pengukuran yang diluncurkan secara manual (apl Band, Mi Fit) dicatat juga saat pemantauan detak jantung dimulai.<p/>]]>
+        <p>Pengukuran yang diluncurkan secara manual (apl Band, Mi Fit) dicatat juga saat pemantauan detak jantung dimulai.</p>]]>
     </string>
 
     <!-- Lost monitoring -->
@@ -862,7 +864,7 @@
         <not_support_icon_text><p>Jika Anda menghapus aplikasi saat alarm menyala, Anda dapat menonaktifkannya dengan menghidupkan dan mematikan Mi Fit 10. setelan alarm.</p></not_support_icon_text>
 
         <img src="ic_phone_android"> <b><u>Sinyal/Tanda perangkat</u></b>
-        <p>Bila jangka waktu yang ditentukan habis, perangkat akan mengirim sinyal berulang kali jika tidak terhubung ke gelang.<p>
+        <p>Bila jangka waktu yang ditentukan habis, perangkat akan mengirim sinyal berulang kali jika tidak terhubung ke gelang.</p>
         <p>Hal ini memudahkan untuk menemukan perangkat. Jika ada orang lain yang menemukan perangkat dan terkunci dia tidak tahu siapa yang harus diberitahu, sehingga Anda bisa menampilkan pesan.</p>
         <p>Saat gelang tersambung, alarm akan langsung berhenti.</p>
         <p>Harus diaktifkan untuk menampilkan pemberitahuan pada layar kunci.</p>]]>

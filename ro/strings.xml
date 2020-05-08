@@ -134,6 +134,7 @@
     <string name="mi_band_setting_menu_visible">Elemente de meniu vizibile</string>
     <string name="mi_band_setting_menu_hidden">Elemente ascunse din meniu</string>
     <string name="mi_band_setting_shortcut">Shortcut items</string>
+    <string name="mi_band_setting_shortcut_hidden">Hidden shortcut items</string>
 
     <string name="pref_text_conversion_description_title">Descriere</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -231,7 +232,7 @@
     <string name="pref_call_notification_muted">Show notification about muted call</string>
 
     <string name="pref_call_net_text_title">Semnalul de apel primit pe Internet, afișarea identității apelantului</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discort, Slack</string>
 
     <string name="pref_cat_call_missed">Apel pierdut</string>
     <string name="pref_call_missed_title">Semnal apel pierdut</string>
@@ -359,6 +360,7 @@
     <br>- <b>Huami Amazfit GTS</b>
     <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit T-Rex</b>
+    <br>- <b>Huami Amazfit Bip S</b>
     <br>- <b>Huami Amazfit Bip/Bip Lite</b>
     <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -822,11 +824,11 @@
 
     <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Măsurarea pulsului online</u></b>
         <p>Este necesară conexiunea Bluetooth pentru monitorizarea pulsului.</p>
-        <p>Monitorizarea pulsului se repetă de mai multe ori dacă valoarea rezultată este invalidă.<p>
+        <p>Monitorizarea pulsului se repetă de mai multe ori dacă valoarea rezultată este invalidă.</p>
         <img src="ic_pulse_offline"> <b><u>Măsurarea pulsului offline</u></b>
         <p>Nu este necesară conexiunea Bluetooth pentru monitorizarea pulsului.</p>
         <p>Conexiunea Bluetooth este necesară pentru pornirea și oprirea programată.</p>
-        <p>Măsurătorile lansate manual (Band, Mi Fit app) sunt deasemenea sincronizate.<p>
+        <p>Măsurătorile lansate manual (Band, Mi Fit app) sunt deasemenea sincronizate.</p>
         ]]>
     </string>
 
@@ -863,7 +865,7 @@
         <not_support_icon_text><p>Dacă dezinstalezi aplicația când alarma este pornită, poți să o dezactivezi pornind și oprind din nou setarea alarmei Mi Fit 10.</p></not_support_icon_text>
 
         <img src="ic_phone_android"> <b><u>Semnale telefon</u></b>
-        <p>Când expiră perioada de timp specificată, telefonul trimite semnale în mod repetat, dacă nu este conectat la brățară.<p>
+        <p>Când expiră perioada de timp specificată, telefonul trimite semnale în mod repetat, dacă nu este conectat la brățară.</p>
         <p>Acest lucru facilitează găsirea telefonului. Dacă cineva găsește telefonul și este blocat, nu știe pe cine să notifice, așa că poți afișa un mesaj.</p>
         <p>Când brățara este conectată, alarma se oprește.</p>
         <p>Trebuie să fie activată afișarea notificării pe ecranul de blocare.</p>]]>

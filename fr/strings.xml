@@ -134,6 +134,7 @@
     <string name="mi_band_setting_menu_visible">Éléments de menu visibles</string>
     <string name="mi_band_setting_menu_hidden">Éléments de menu cachés</string>
     <string name="mi_band_setting_shortcut">Shortcut items</string>
+    <string name="mi_band_setting_shortcut_hidden">Hidden shortcut items</string>
 
     <string name="pref_text_conversion_description_title">Description</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -231,7 +232,7 @@
     <string name="pref_call_notification_muted">Show notification about muted call</string>
 
     <string name="pref_call_net_text_title">Alerte sur appels internet entrants, afficher l\'identité de l\'appelant</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discort, Slack</string>
 
     <string name="pref_cat_call_missed">Appels manqués</string>
     <string name="pref_call_missed_title">Alerte sur appels manqués</string>
@@ -359,6 +360,7 @@
     <br>- <b>Huami Amazfit GTS</b>
     <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit T-Rex</b>
+    <br>- <b>Huami Amazfit Bip S</b>
     <br>- <b>Huami Amazfit Bip/Bip Lite</b>
     <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -821,11 +823,11 @@
     <string name="message_pulse_premium_mode_only">La mesure du rythme online et offline ne fonctionne simultanément qu\'en mode premium</string>
 
     <string name="info_dialog_pulse"><![CDATA[La connexion Bluetooth est nécessaire pour superviser le rythme.
-        <p>La supervision du rythme est renouvelée plusieurs fois si le résultat obtenu n\'est pas valide.<p>
+        <p>La supervision du rythme est renouvelée plusieurs fois si le résultat obtenu n\'est pas valide.</p>
         <img src="ic_pulse_offline"> <b><u>Mesure offline du rythme</u></b>
         <p>Pas de connexion Bluetooth nécessaire.</p>
         <p>La connexion Bluetooth n\'est requise que pour le démarrage et l\'arret de la mesure programmée.</p>
-        <p>Les mesures lancées manuellement (Band, appli Mi Fit) sont aussi enregistrées lorsque la supervision du rythme est démarrée.<p/>]]>
+        <p>Les mesures lancées manuellement (Band, appli Mi Fit) sont aussi enregistrées lorsque la supervision du rythme est démarrée.</p>]]>
     </string>
 
     <!-- Lost monitoring -->
@@ -861,7 +863,7 @@
         <not_support_icon_text><p>Si vous retirez l\'application lorsque l\'alarme est active, vous pourrez le désactiver en activant désactivant le réglage 10 de l\'alarme du Mi Fit.</p></not_support_icon_text>
 
         <img src="ic_phone_android"> <b><u>Alertes du mobile</u></b>
-        <p>Lorsque la période spécifiée est expirée, le mobile envoie des alertes répétées s\'il n\'est pas connecté au bracelet.<p>
+        <p>Lorsque la période spécifiée est expirée, le mobile envoie des alertes répétées s\'il n\'est pas connecté au bracelet.</p>
         <p>Cela rend plus simple la recherche du mobile. Si quelqu\'un trouve le mobile et que celui-ci est verrouillé il ne sait pas qui informer, vosu pourrez donc afficher un message.</p>
         <p>Lorsque le bracelet est connecté, l\'alarme s\'arrête.</p>
         <p>Doit être actif pour afficher une notification sur l\'écran de verrouillage.</p>]]>

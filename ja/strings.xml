@@ -167,14 +167,14 @@
     <string name="pref_connected_summary">%1$sと端末との接続時の挙動設定</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_connected_signals">接続通知</string>
-    <string name="pref_connected_signals_summary"></string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_signals_summary">%1$s connecting and not have notification</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_signals_mi_band">%1$sへの通知</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">バイブレーション</string>
     <string name="pref_cat_connected_signals">端末への通知</string>
     <string name="pref_connected_wakelock_title">端末の画面を点灯</string>
 
     <string name="pref_connected_settings">接続時の設定</string>
-    <string name="pref_connected_settings_summary"></string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_settings_summary">%1$s and phone connection settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_settings">端末の設定</string>
     <string name="pref_connected_volume_title">音量を調整</string>
     <string name="pref_connected_volume_ring_title">着信音</string>
@@ -190,12 +190,12 @@
     <string name="pref_connected_have_notif_wakelock_title">端末の画面を点灯</string>
     <string name="pref_connected_have_notif_ongoing_title">固定された通知を送信</string>
     <string name="pref_connected_have_notif_default_app_title">未設定のアプリの通知</string>
-    <string name="pref_connected_have_notif_default_app_summary_on">既定・カスタム通知設定にないアプリからの通知を送信します（'app'アイコンで表示）</string>
+    <string name="pref_connected_have_notif_default_app_summary_on">既定・カスタム通知設定にないアプリからの通知を送信します（\'app\'アイコンで表示）</string>
     <string name="pref_connected_have_notif_pre_signal_title">事前通知</string>
     <string name="pref_connected_have_notif_pre_signal_summary_on">事前通知（アイコンはタップで変更可能）をしてからアプリの通知を送信することで、通知内容を見る時間を確保できます</string>
 
     <string name="pref_disconnected">切断時の設定</string>
-    <string name="pref_disconnected_summary"></string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_summary">%1$s and phone disconnection signals and settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_disconnected_signals">切断通知</string>
     <string name="pref_disconnected_signals_summary">Bluetoothを手動でオフにした場合は通知されません</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
@@ -207,7 +207,7 @@
     <string name="pref_disconnected_wakelock_title">端末の画面を点灯</string>
 
     <string name="pref_disconnected_settings">切断時の設定</string>
-    <string name="pref_disconnected_settings_summary"></string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_settings_summary">%1$s and phone disconnection settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_disconnected_settings">端末の設定</string>
     <string name="pref_disconnected_volume_title">音量を調整</string>
     <string name="pref_disconnected_volume_ring_title">着信音</string>
@@ -463,7 +463,7 @@
     <string name="notification_group_correction_find">検索</string>
     <string name="notification_group_correction_replace">置換</string>
 
-    <string name="notification_regex_hint"></string>
+    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it</string>
 
     <string name="notification_confirm_close">変更を破棄しますか？</string>
 
@@ -1284,7 +1284,7 @@
         - 個人の健康データや連絡先、通知のテキストは収集しません。
     ]]></string>
 
-    <string name="privacy_policy_links_title"サードパーティー製サービスプロバイダーのプライバシーポリシー</string>
+    <string name="privacy_policy_links_title">サードパーティー製サービスプロバイダーのプライバシーポリシー</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play開発者サービス</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>

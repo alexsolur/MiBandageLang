@@ -134,6 +134,7 @@
     <string name="mi_band_setting_menu_visible">Itens do menu visíveis</string>
     <string name="mi_band_setting_menu_hidden">Itens do menu ocultos</string>
     <string name="mi_band_setting_shortcut">Shortcut items</string>
+    <string name="mi_band_setting_shortcut_hidden">Hidden shortcut items</string>
 
     <string name="pref_text_conversion_description_title">Descrição</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -231,7 +232,7 @@
     <string name="pref_call_notification_muted">Mostrar notificações acerca de chamadas silenciadas</string>
 
     <string name="pref_call_net_text_title">Notificar chamada online recebida; mostrar o ID do chamador</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discort, Slack</string>
 
     <string name="pref_cat_call_missed">Chamada perdida</string>
     <string name="pref_call_missed_title">Notificar chamada perdida</string>
@@ -359,6 +360,7 @@
     <br>- <b>Huami Amazfit GTS</b>
     <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit T-Rex</b>
+    <br>- <b>Huami Amazfit Bip S</b>
     <br>- <b>Huami Amazfit Bip/Bip Lite</b>
     <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -822,7 +824,7 @@
 
     <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Online: Monitorização da pulsação</u></b>
         <p>É preciso estar conectado por Bluetooth para monitorar a pulsação.</p>
-        <p>A leitura da pulsação é repetida várias vezes se o valor medido for inválido.<p>
+        <p>A leitura da pulsação é repetida várias vezes se o valor medido for inválido.</p>
         <img src="ic_pulse_offline"> <b><u>Offline: Monitorização da pulsação</u></b>
         <p>Não é necessário estar conectado por Bluetooth para monitorar a pulsação.</p>
         <p>É necessário estar conectado por Bluetooth para temporizar o início e o fim da monitorização.</p>

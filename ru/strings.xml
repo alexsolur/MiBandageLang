@@ -134,6 +134,7 @@
     <string name="mi_band_setting_menu_visible">Отображаемые элементы меню</string>
     <string name="mi_band_setting_menu_hidden">Скрытые элементы меню</string>
     <string name="mi_band_setting_shortcut">Быстрые элементы</string>
+    <string name="mi_band_setting_shortcut_hidden">Hidden shortcut items</string>
 
     <string name="pref_text_conversion_description_title">Описание</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -231,7 +232,7 @@
     <string name="pref_call_notification_muted">Уведомление об отключенном звуке</string>
 
     <string name="pref_call_net_text_title">Входящий интернет-вызов, отображение ID звонящего</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discort, Slack</string>
 
     <string name="pref_cat_call_missed">Пропущенный звонок</string>
     <string name="pref_call_missed_title">Уведомление о пропущенном звонке</string>
@@ -359,6 +360,7 @@
     <br>- <b>Huami Amazfit GTS</b>
     <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit T-Rex</b>
+    <br>- <b>Huami Amazfit Bip S</b>
     <br>- <b>Huami Amazfit Bip/Bip Lite</b>
     <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -822,11 +824,11 @@
 
     <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Активное измерение пульса</u></b>
         <p>Для измерения необходимо Bluetooth-соединение.</p>
-        <p>Измерение будет повторено, если оно окажется неверным.<p>
+        <p>Измерение будет повторено, если оно окажется неверным./p>
         <img src="ic_pulse_offline"> <b><u>Пассивное измерение пульса</u></b>
         <p>Для измерения не требуется Bluetooth-соединение.</p>
         <p>Для начала и окончания измерения по времени необходимо Bluetooth-соединение.</p>
-        <p>Измерения, сделанные вручную (браслет, Mi Fit) записываются, когда измерение начинается.<p/>
+        <p>Измерения, сделанные вручную (браслет, Mi Fit) записываются, когда измерение начинается.</p>
         ]]>
     </string>
 
@@ -863,7 +865,7 @@
         <not_support_icon_text><p>Если вы удалите приложение с включенным предупреждением, вы можете выключить его, включив и выключив 10. будильник Mi Fit.</p></not_support_icon_text>
 
         <img src="ic_phone_android"> <b><u>Сигналы на устройстве</u></b>
-        <p>Когда проходит заданный промежуток времени, устройство периодически сигнализирует, если не подключено к браслету.<p>
+        <p>Когда проходит заданный промежуток времени, устройство периодически сигнализирует, если не подключено к браслету.</p>
         <p>Это упрощает поиск устройства. Если кто-то другой найдёт заблокированное устройство, он не будет знать кому сообщить, поэтому вы можете оставить сообщение.</p>
         <p>Когда соединение восстанавливается, предупреждения прекращаются.</p>
         <p>Должны быть включены уведомления на экране блокировки.</p>]]>

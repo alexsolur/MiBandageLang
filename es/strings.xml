@@ -134,6 +134,7 @@
     <string name="mi_band_setting_menu_visible">Elementos del menú visibles</string>
     <string name="mi_band_setting_menu_hidden">Elementos de menú ocultos</string>
     <string name="mi_band_setting_shortcut">Shortcut items</string>
+    <string name="mi_band_setting_shortcut_hidden">Hidden shortcut items</string>
 
     <string name="pref_text_conversion_description_title">Descripción</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -231,7 +232,7 @@
     <string name="pref_call_notification_muted">Show notification about muted call</string>
 
     <string name="pref_call_net_text_title">Señal de llamada entrante (via internet), mostrar identificador de llamada</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discort, Slack</string>
 
     <string name="pref_cat_call_missed">Llamada perdida</string>
     <string name="pref_call_missed_title">Señal de llamada perdida</string>
@@ -359,6 +360,7 @@
     <br>- <b>Huami Amazfit GTS</b>
     <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit T-Rex</b>
+    <br>- <b>Huami Amazfit Bip S</b>
     <br>- <b>Huami Amazfit Bip/Bip Lite</b>
     <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -864,7 +866,7 @@
         <not_support_icon_text><p>Si elimina la aplicación cuando la alarma está activada, puede desactivarla con la activación y desactivación de la configuración de alarma en Mi Fit.</p></not_support_icon_text>
 
         <img src="ic_phone_android"> <b><u>Señales del dispositivo</u></b>
-        <p>Cuando expira el periodo de tiempo especificado, el dispositivo envía señales repetidamente, si no está conectado a la pulsera.<p>
+        <p>Cuando expira el periodo de tiempo especificado, el dispositivo envía señales repetidamente, si no está conectado a la pulsera.</p>
         <p>Esto hace que sea más facil encontrar el dispositivo. Si alguien encuentra el dispositivo y está bloqueado, no sabe a quién notificar, para que pueda mostrar un mensaje.</p>
         <p>Cuando el brazalete esta conectado, la alarma se detiene.</p>
         <p>Debe estar habilitado para mostrar la notificación en la pantalla de bloqueo.</p>]]>

@@ -134,6 +134,7 @@
     <string name="mi_band_setting_menu_visible">Sichtbare Menüpunkte</string>
     <string name="mi_band_setting_menu_hidden">Versteckte Menüpunkte</string>
     <string name="mi_band_setting_shortcut">Verknüpfungselemente</string>
+    <string name="mi_band_setting_shortcut_hidden">Hidden shortcut items</string>
 
     <string name="pref_text_conversion_description_title">Beschreibung</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -231,7 +232,7 @@
     <string name="pref_call_notification_muted">Zeige Benachrichtigung über stummen Anruf</string>
 
     <string name="pref_call_net_text_title">Eingehendes Signal eines Internetanrufs, zeige Telefonnummer des Anrufers an</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discort, Slack</string>
 
     <string name="pref_cat_call_missed">Verpasster Anruf</string>
     <string name="pref_call_missed_title">Signal eines verpassten Anrufes</string>
@@ -359,6 +360,7 @@
     <br>- <b>Huami Amazfit GTS</b>
     <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit T-Rex</b>
+    <br>- <b>Huami Amazfit Bip S</b>
     <br>- <b>Huami Amazfit Bip/Bip Lite</b>
     <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -821,11 +823,11 @@
 
     <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Online pulse measurement</u></b>
         <p>Zur Anzeige der Herzfrequenz wird eine Bluetooth-Verbindung benötigt.</p>
-        <p>Die Herzfrequenzmessung wird wiederholt, wenn der gemessene Wert ungültig ist.<p>
+        <p>Die Herzfrequenzmessung wird wiederholt, wenn der gemessene Wert ungültig ist.</p>
         <img src="ic_pulse_offline"> <b><u>Offline pulse measurement</u></b>
         <p>No Bluetooth connection required for pulse measurement.</p>
         <p>Bluetooth connection is required for timed start and stop.</p>
-        <p>Manuell gestartete Messungen (Band, Mi Fit-App) werden ebenfalls protokolliert, when die Beobachtung der Herzfrequenz gestartet wird.<p/>
+        <p>Manuell gestartete Messungen (Band, Mi Fit-App) werden ebenfalls protokolliert, when die Beobachtung der Herzfrequenz gestartet wird.</p>
         ]]>
     </string>
 
@@ -862,7 +864,7 @@
         <not_support_icon_text><p>In dem Fall, dass Sie die App trotz aktiviertem Alarm deinstallieren, können Sie diesen deaktivieren, indem Sie die 10. Mi Fit-Alarmeinstellung aktivieren und anschließend wieder deaktivieren.</p></not_support_icon_text>
 
         <img src="ic_phone_android"> <b><u>Device signals</u></b>
-        <p>Wenn die festgelegte Zeitperiode endet und das Telefon nicht mit dem Band ist, sendet das Telefon wiederholt Signale.<p>
+        <p>Wenn die festgelegte Zeitperiode endet und das Telefon nicht mit dem Band ist, sendet das Telefon wiederholt Signale.</p>
         <p>Dies erleichtert die Suche nach dem Gerät. Falls es von einer dritten Person gefunden wird und das Gerät gesperrt ist, können Sie eine Nachricht auf dem Sperrbildschirm anzeigen lassen.</p>
         <p>Sobald das Armband verbunden wird, stoppt der Alarm.</p>
         <p>Muss aktiviert sein, um die Nachricht auf dem Sperrbildschirm anzeigen zu können.</p>]]>

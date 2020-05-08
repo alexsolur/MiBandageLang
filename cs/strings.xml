@@ -134,6 +134,7 @@
     <string name="mi_band_setting_menu_visible">Viditelné položky menu</string>
     <string name="mi_band_setting_menu_hidden">Skryté položky menu</string>
     <string name="mi_band_setting_shortcut">Shortcut items</string>
+    <string name="mi_band_setting_shortcut_hidden">Hidden shortcut items</string>
 
     <string name="pref_text_conversion_description_title">Nápověda</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -231,7 +232,7 @@
     <string name="pref_call_notification_muted">Show notification about muted call</string>
 
     <string name="pref_call_net_text_title">Oznámení příchozího internetového volání zobrazuje ID volajícího</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discort, Slack</string>
 
     <string name="pref_cat_call_missed">Zmeškaný hovor</string>
     <string name="pref_call_missed_title">Oznámení zmeškaného hovoru</string>
@@ -359,6 +360,7 @@
     <br>- <b>Huami Amazfit GTS</b>
     <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit T-Rex</b>
+    <br>- <b>Huami Amazfit Bip S</b>
     <br>- <b>Huami Amazfit Bip/Bip Lite</b>
     <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -822,11 +824,11 @@
 
     <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Online měření tepu</u></b>
         <p>Bluetooth připojení je zapotřebí pro sledování tepu.</p>
-        <p>Měření tepu se opakuje několikrát, pokud je výsledná hodnota neplatná.<p>
+        <p>Měření tepu se opakuje několikrát, pokud je výsledná hodnota neplatná.</p>
         <img src="ic_pulse_offline"> <b><u>Offline měření tepu</u></b>
         <p>Pro měření tepů není zapotřebí žádné připojení Bluetooth.</p>
         <p>Pro časované spuštění a zastavení je zapotřebí spojení Bluetooth.</p>
-        <p>Ručně spuštěné měření (Náramek, Mi Fit aplikace) jsou také synchronizovány.<p/>
+        <p>Ručně spuštěné měření (Náramek, Mi Fit aplikace) jsou také synchronizovány.</p>
         ]]>
     </string>
 
@@ -863,7 +865,7 @@
         <not_support_icon_text><p>Pokud odstraníte aplikaci, když je budík zapnutý, můžete ho vypnout opětovným zapnutím a vypnutím Mi Fit 10. nastavení budiku.</p></not_support_icon_text>
 
         <img src="ic_phone_android"> <b><u>Oznámení na zařízení</u></b>
-        <p>Po uplynutí stanovené doby, zařízení odesílá opakovaně oznámení, pokud není připojeno k náramku.<p>
+        <p>Po uplynutí stanovené doby, zařízení odesílá opakovaně oznámení, pokud není připojeno k náramku.</p>
         <p>To usnadňuje hledání zařízení. Pokud někdo jiný najde zařízení a je zablokováno a neví komu to má oznámit. Můžete si zobrazit zprávu.</p>
         <p>Když se náramek připojí, alarm se zastaví</p>
         <p>Musí být povoleno zobrazení upozornění na uzamčené obrazovce.</p>]]>

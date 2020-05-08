@@ -134,6 +134,7 @@
     <string name="mi_band_setting_menu_visible">Visible menu items</string>
     <string name="mi_band_setting_menu_hidden">Hidden menu items</string>
     <string name="mi_band_setting_shortcut">Shortcut items</string>
+    <string name="mi_band_setting_shortcut_hidden">Hidden shortcut items</string>
 
     <string name="pref_text_conversion_description_title">说明</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -226,7 +227,7 @@
     <string name="pref_call_text_summary_on"><![CDATA[On (more information: <i>Settings/Text icons settings)</i>]]></string>
 
     <string name="pref_call_net_text_title">网络电话呼入，来电显示</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discort, Slack</string>
 
     <string name="pref_call_notification_rejected">Show notification about rejected call</string>
     <string name="pref_call_notification_rejected_message">Rejected call</string>
@@ -359,6 +360,7 @@
     <br>- <b>Huami Amazfit GTS</b>
     <br>- <b>Huami Amazfit GTR</b>
     <br>- <b>Huami Amazfit T-Rex</b>
+    <br>- <b>Huami Amazfit Bip S</b>
     <br>- <b>Huami Amazfit Bip/Bip Lite</b>
     <br>- <b>Huami Amazfit Verge Lite</b>
     <br>- <b>Huami Amazfit Band 2 (A1713)</b>
@@ -823,11 +825,11 @@
 
     <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>在线心率监测</u></b>
         <p>监测心率需要蓝牙连接.</p>
-        <p>如果监测结果无效则会重复监测.<p>
+        <p>如果监测结果无效则会重复监测.</p>
         <img src="ic_pulse_offline"> <b><u>离线心率监测</u></b>
         <p>监测不需要蓝牙连接.</p>
         <p>定时启动和停止需要蓝牙连接.</p>
-        <p>测量会与(Band, Mi Fit应用)进行同步.<p>
+        <p>测量会与(Band, Mi Fit应用)进行同步.</p>
         ]]>
     </string>
 
@@ -864,7 +866,7 @@
         <not_support_icon_text><p>如果在闹钟开启时移除了应用,可以再次打开或关闭 Mi Fit 10.闹钟设置.</p></not_support_icon_text>
 
         <img src="ic_phone_android"> <b><u>电话信号</u></b>
-        <p>如果到达指定之间,手机会持续发送信号（如果未连接手环）.<p>
+        <p>如果到达指定之间,手机会持续发送信号（如果未连接手环.</p>
         <p>这会更容易找到手机. 如果他人发现了电话并被锁定不知道该联系谁，因此你可以显示一条信息.</p>
         <p>手环连接时闹钟停止.</p>
         <p>必须启用在锁定屏幕上显示通知.</p>]]>
