@@ -14,6 +14,7 @@
     <string name="drawer_nav_reminder">Event reminder</string>
     <string name="drawer_nav_weather">Weather</string>
     <string name="drawer_nav_watch_face">Watch face</string>
+    <string name="drawer_nav_firmware">Firmware</string>
     <string name="drawer_nav_alarm">Lost</string>
     <string name="drawer_nav_disconnected_agent">Agent</string>
     <string name="drawer_nav_theme">Theme</string>
@@ -41,13 +42,13 @@
     <!--<string name="foreground_service_disconnected">Disconnection time: %1$s</string>-->
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Steps, distance, calories, goal, pulse</string>
+    <string name="mi_band_tracker_title">Steps・distance・calories・goal・pulse</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Battery level, last charging time, estimated remaining time</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI, last connection and disconnection time</string>
+    <string name="mi_band_battery">Battery level・last charging time・estimated remaining time</string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI・last connection and disconnection time</string>
     <string name="mi_band_touch">Touch monitoring</string>
     <string name="mi_band_alarm">Next alarm</string>
     <string name="mi_band_bonded_device_name">Paired device name</string>
@@ -132,6 +133,8 @@
 
     <string name="mi_band_setting_menu_visible">Visible menu items</string>
     <string name="mi_band_setting_menu_hidden">Hidden menu items</string>
+    <string name="mi_band_setting_shortcut">Shortcut items</string>
+    <string name="mi_band_setting_shortcut_hidden">Hidden shortcut items</string>
 
     <string name="pref_text_conversion_description_title">Description</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -223,7 +226,7 @@
     <string name="pref_call_text_summary_on"><![CDATA[On (more information: <i>Settings/Text icons settings)</i>]]></string>
 
     <string name="pref_call_net_text_title">Incoming internet call signal, display caller ID</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_net_text_summary_on">Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Discord・Slack</string>
 
     <string name="pref_call_notification_rejected">Show notification about rejected call</string>
     <string name="pref_call_notification_rejected_message">Rejected call</string>
@@ -234,7 +237,7 @@
     <string name="pref_call_missed_title">Missed call signal</string>
 
     <string name="pref_call_missed_net_title">Missed internet call signal, display caller ID</string>
-    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_missed_net_summary_on">Skype・Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Zalo</string>
 
     <string name="pref_call_missed_alert_title">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
@@ -333,6 +336,7 @@
     <string name="message_alarm_mi_band_clear_failed">Clearing the alarm failed</string>
 
     <string name="message_premium_mode_only">This feature is only available in premium mode</string>
+    <string name="message_premium_or_rewarded_mode_only">This feature is only available in premium or rewarded mode</string>
     <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
     <string name="message_general_error">Setting failed (connection lost), try again</string>
     <string name="message_internet_error">Not have internet connection</string>
@@ -343,21 +347,24 @@
 
     <string name="message_new_message">A new message is received, view it on the phone.</string>
 
+    <string name="message_invalid_file">Invalid file</string>
+
     <!-- Dialog -->
     <string name="dialog_welcome_title">Welcome!</string>
     <string name="dialog_welcome_message"><![CDATA[Supported devices:
-    <br>- <b>Xiaomi Mi Band 4</b>
-    <br>- <b>Xiaomi Mi Band 3</b>
-    <br>- <b>Xiaomi Mi Band 2</b>
-    <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit GTS</b>
-    <br>- <b>Huami Amazfit GTR</b>
-    <br>- <b>Huami Amazfit Verge Lite</b>
-    <br>- <b>Huami Amazfit Bip</b>
-    <br>- <b>Huami Amazfit Bip Lite</b>
-    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
-    <br>- <b>Huami Amazfit Cor (MiDong)</b>
-    <br>- <b>Huami Amazfit Arc (A1603)</b>
+    <br>• <b>Xiaomi Mi Band 4</b>
+    <br>• <b>Xiaomi Mi Band 3</b>
+    <br>• <b>Xiaomi Mi Band 2</b>
+    <br>• <b>Xiaomi Mi Band HRX</b>
+    <br>• <b>Huami Amazfit GTS</b>
+    <br>• <b>Huami Amazfit GTR</b>
+    <br>• <b>Huami Amazfit T-Rex</b>
+    <br>• <b>Huami Amazfit Bip S</b>
+    <br>• <b>Huami Amazfit Bip/Bip Lite</b>
+    <br>• <b>Huami Amazfit Verge Lite</b>
+    <br>• <b>Huami Amazfit Band 2 (A1713)</b>
+    <br>• <b>Huami Amazfit Cor (MiDong)</b>
+    <br>• <b>Huami Amazfit Arc (A1603)</b>
     <p>If you use more applications to control Band, they interfere with each other so temporarily turn off those.</p>
     <p>If Band is not found, then you can set the MAC address manually when you discover (MAC address is found: Mi Fit/Profil/Band).</p>
     <p><b>If you have a connection problem:</b>
@@ -429,6 +436,8 @@
     <string name="notification_group_counter_title">The number of signals</string>
     <string name="notification_group_repeat_title">Repeat signals</string>
     <string name="notification_group_wakelock">Wake up the phone screen</string>
+    <string name="notification_group_grouped_display_title">Display setting for the group notifications</string>
+    <string name="notification_group_grouped_sort_order_title">Sort order for the group notifications</string>
     <string name="notification_group_remove_title">Remove notification</string>
     <string name="notification_group_remove_from_device">From the phone\'s notification drawer</string>
     <string name="notification_group_remove_from_device_hint">If you use the %1$s/Notifications/Clear all function</string> <!-- %1$s = Mi Band 4  ... -->
@@ -561,6 +570,7 @@
     <string name="touch_weather_location">Location update</string>
     <string name="touch_weather_precipitation">Precipitation</string>
     <string name="touch_weather_cloud_cover">Cloud cover</string>
+    <string name="touch_weather_wind">Wind</string>
 
     <string name="touch_repeat_notif_title">Repeat notifications</string>
     <string name="touch_repeat_notif_clear_all">Clear all notifications after repetition</string>
@@ -813,11 +823,11 @@
 
     <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Online pulse measurement</u></b>
         <p>Bluetooth connection is required for monitoring the pulse.</p>
-        <p>Pulse monitor is repeated several times if the resulting value is invalid.<p>
+        <p>Pulse monitor is repeated several times if the resulting value is invalid.</p>
         <img src="ic_pulse_offline"> <b><u>Offline pulse measurement</u></b>
         <p>No Bluetooth connection required for pulse measurement.</p>
         <p>Bluetooth connection is required for timed start and stop.</p>
-        <p>Manually launched measurements (Band, Mi Fit app) are also synchronized.<p>
+        <p>Manually launched measurements (Band, Mi Fit app) are also synchronized.</p>
         ]]>
     </string>
 
@@ -854,7 +864,7 @@
         <not_support_icon_text><p>If you remove the application when the alarm is on, then you can disable it with turning on and off again Mi Fit 10. alarm setting.</p></not_support_icon_text>
 
         <img src="ic_phone_android"> <b><u>Phone signals</u></b>
-        <p>When specified period of time expires, phone send signals repeatedly if not connected to the bracelet.<p>
+        <p>When specified period of time expires, phone send signals repeatedly if not connected to the bracelet.</p>
         <p>This makes it easier to find the phone. If someone else finds the phone and it is locked he does not know who to notify, so you can display a message.</p>
         <p>When bracelet is connected, alarm stops.</p>
         <p>Must be enabled to display notification on the lock screen.</p>]]>
@@ -951,6 +961,7 @@
     <string name="reminder_calendar_auto_sync">Automatic synchronization</string>
     <string name="reminder_calendar_counter">The number of events to synchronize</string>
     <string name="reminder_calendar_all_day_time">The time of all day event</string>
+    <string name="reminder_calendar_notif_before_time">Remind me earlier than the event time</string>
 
     <string name="message_reminder_enabled">Reminder enabled</string>
     <string name="message_reminder_disabled">Reminder disabled</string>
@@ -1023,12 +1034,14 @@
 
     <string name="message_watch_face_upload_error">Initialization is required</string>
     <string name="message_watch_face_file_error">Invalid watch face file</string>
+    <string name="message_watch_face_file_error_small">Invalid watch face file. File size is too small, use another web browser to download.</string>
+    <string name="message_watch_face_file_error_large">Invalid watch face file. File size is too large, use another web browser to download.</string>
 
     <string name="info_dialog_watch_face_download"><![CDATA[
         <img src="ic_file_download_outline"> <b><u>Download</u></b>
         <p>Download watch faces from the web sites.</p>
 
-        <img src="ic_action_download"> <b><u>Move the files</u></b>
+        <img src="ic_file_replace_outline"> <b><u>Move the files</u></b>
         <p>If necessary, move the downloaded watch face files from the Download directory to the MiBandage directory.</p>
         ]]>
     </string>
@@ -1049,10 +1062,36 @@
         ]]>
     </string>
 
+    <string name="info_dialog_watch_face_upload"><![CDATA[
+        <img src="ic_upload"> <b><u>Upload</u></b>
+        <p>Upload the selected watch face.</p>
+        <br><img src="ic_warning"> <b><u>Invalid watch face file</u></b>
+        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        ]]>
+    </string>
+
     <!-- Firmware -->
     <string name="firmware_tab_firmware">Firmware</string>
     <string name="firmware_tab_font">Font</string>
-    <string name="firmware_tab_resources">Resources</string>
+    <string name="firmware_tab_resource">Resource</string>
+
+    <string name="firmware_update_firmware_title">Update firmware</string>
+    <string name="firmware_update_font_title">Update font</string>
+    <string name="firmware_update_resource_title">Update resource</string>
+
+    <string name="firmware_update_prepare">Preparing for the update…</string>
+    <string name="firmware_update_progress">Updating %1$,d%%</string>
+    <string name="firmware_update_connecting">Connecting…</string>
+
+    <string name="firmware_update_firmware_empty_title"><![CDATA[Firmware not found
+        <br><i>(%1$s)</i>
+    ]]></string>
+    <string name="firmware_update_font_empty_title"><![CDATA[Font not found
+        <br><i>(%1$s)</i>
+    ]]></string>
+    <string name="firmware_update_resource_empty_title"><![CDATA[Resource not found
+        <br><i>(%1$s)</i>
+    ]]></string>
 
     <string name="firmware_type_firmware">Firmware</string>
     <string name="firmware_type_font">Font</string>
@@ -1060,9 +1099,27 @@
     <string name="firmware_type_gps">GPS Firmware</string>
     <string name="firmware_type_gps_almanac">GPS Almanac</string>
     <string name="firmware_type_gps_cep">GPS Error Correction</string>
-    <string name="firmware_type_resources">Resources</string>
+    <string name="firmware_type_resource">Resource</string>
     <string name="firmware_type_watchface">Watch face</string>
     <string name="firmware_type_invalid">Invalid</string>
+
+    <string name="message_firmware_file_error">Invalid firmware file</string>
+    <string name="message_firmware_file_error_small">Invalid firmware file. File size is too small, use another web browser to download.</string>
+    <string name="message_firmware_file_error_large">Invalid firmware file. File size is too large, use another web browser to download.</string>
+
+    <string name="firmware_warning"><![CDATA[Warning!
+    <br><br>
+    <p>Only at your own risk! The firmware update can damage your device.</p>
+    Use only files from a trusted source.]]>
+    </string>
+
+    <string name="info_dialog_firmware"><![CDATA[
+        <img src="ic_upload"> <b><u>Upload</u></b>
+        <p>Upload the selected firmware.</p>
+        <br><img src="ic_warning"> <b><u>Invalid firmware file</u></b>
+        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        ]]>
+    </string>
 
     <!-- Agent -->
     <string name="agent_title">Device monitoring agent</string>
