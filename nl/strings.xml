@@ -42,13 +42,13 @@
     <!--<string name="foreground_service_disconnected">Niet verbonden tijd: %1$s</string>-->
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Stappen, afstand, calorieën, doel, hartslag</string>
+    <string name="mi_band_tracker_title">Stappen・afstand・calorieën・doel・hartslag</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Batterij niveau, vorige laadtijd, geschatte resterende tijd</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI, vorige verbonden  en niet verbonden tijd</string>
+    <string name="mi_band_battery">Batterij niveau・vorige laadtijd・geschatte resterende tijd</string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI・vorige verbonden  en niet verbonden tijd</string>
     <string name="mi_band_touch">Aanraak beheer</string>
     <string name="mi_band_alarm">Volgend alarm</string>
     <string name="mi_band_bonded_device_name">Gekoppelde apparaatnaam</string>
@@ -232,13 +232,13 @@
     <string name="pref_call_notification_muted">Show notification about muted call</string>
 
     <string name="pref_call_net_text_title">Inkomend internet oproep signaal, toon beller ID</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discord, Slack</string>
+    <string name="pref_call_net_text_summary_on">Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Discord・Slack</string>
 
     <string name="pref_cat_call_missed">Gemiste oproep</string>
     <string name="pref_call_missed_title">Gemiste oproep signaal</string>
 
     <string name="pref_call_missed_net_title">Gemist internetoproep signaal, toon beller ID</string>
-    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_missed_net_summary_on">Skype・Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Zalo</string>
 
     <string name="pref_call_missed_alert_title">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
@@ -353,19 +353,19 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Welkom!</string>
     <string name="dialog_welcome_message"><![CDATA[Ondersteunde apparaten:
-    <br>- <b>Xiaomi Mi Band 4</b>
-    <br>- <b>Xiaomi Mi Band 3</b>
-    <br>- <b>Xiaomi Mi Band 2</b>
-    <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit GTS</b>
-    <br>- <b>Huami Amazfit GTR</b>
-    <br>- <b>Huami Amazfit T-Rex</b>
-    <br>- <b>Huami Amazfit Bip S</b>
-    <br>- <b>Huami Amazfit Bip/Bip Lite</b>
-    <br>- <b>Huami Amazfit Verge Lite</b>
-    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
-    <br>- <b>Huami Amazfit Cor (MiDong)</b>
-    <br>- <b>Huami Amazfit Arc (A1603)</b>
+    <br>• <b>Xiaomi Mi Band 4</b>
+    <br>• <b>Xiaomi Mi Band 3</b>
+    <br>• <b>Xiaomi Mi Band 2</b>
+    <br>• <b>Xiaomi Mi Band HRX</b>
+    <br>• <b>Huami Amazfit GTS</b>
+    <br>• <b>Huami Amazfit GTR</b>
+    <br>• <b>Huami Amazfit T-Rex</b>
+    <br>• <b>Huami Amazfit Bip S</b>
+    <br>• <b>Huami Amazfit Bip/Bip Lite</b>
+    <br>• <b>Huami Amazfit Verge Lite</b>
+    <br>• <b>Huami Amazfit Band 2 (A1713)</b>
+    <br>• <b>Huami Amazfit Cor (MiDong)</b>
+    <br>• <b>Huami Amazfit Arc (A1603)</b>
     <p>Indien je meerdere apps gebruikt voor je Band, schakel ze tijdelijk uit om storingen te voorkomen.</p>
     <p>Als Band niet wordt gevonden kunt u het MAC-adres handmatig instellen, kijk hier (MAC adres in: Mi Fit/Profiel/Band).</p>
     <p><b>Bij verbindingsproblemen:</b>
@@ -420,6 +420,7 @@
     <string name="notification_group_text_name">Naam</string>
     <string name="notification_group_text_title">Titel</string>
     <string name="notification_group_text_content">Content</string>
+    <string name="notification_group_text_big_content">Full content</string>
     <string name="notification_group_text_content_slice_title">De tekstlengte</string>
     <string name="notification_group_display_time_title">Tijd weergeven</string>
     <string name="notification_group_vibration_title">Aangepast trillen</string>

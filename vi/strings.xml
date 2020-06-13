@@ -42,13 +42,13 @@
     <!--<string name="foreground_service_disconnected">Thời gian ngắt kết nối: %1$s</string>-->
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Bước, khoảng cách, calo, Thành tích, Nhịp tim</string>
+    <string name="mi_band_tracker_title">Bước・khoảng cách・calo・Thành tích・Nhịp tim</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Mức pin, Lần sạc cuối, Thời gian còn lại</string>
-    <string name="mi_band_state_connected_disconnected_last_time">Cường độ tín hiệu, Lần cuối nhìn thấy thiết bị</string>
+    <string name="mi_band_battery">Mức pin・Lần sạc cuối・Thời gian còn lại</string>
+    <string name="mi_band_state_connected_disconnected_last_time">Cường độ tín hiệu・Lần cuối nhìn thấy thiết bị</string>
     <string name="mi_band_touch">Giám sát chạm</string>
     <string name="mi_band_alarm">Báo thức tiếp</string>
     <string name="mi_band_bonded_device_name">Tên thiết bị kết nối</string>
@@ -166,7 +166,7 @@
 
     <!-- PreferenceScreen -->
     <string name="pref_connected">Cài đặt kết nối</string>
-    <string name="pref_connected_summary">Cài đặt tín hiệu kết nối trên %1$s và thiết bị </string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_summary">Cài đặt tín hiệu kết nối trên %1$s và thiết bị</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_signals">Tín hiệu kết nối</string>
     <string name="pref_connected_signals_summary">%1$s đang kết nối và không có thông báo</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_signals_mi_band">%1$s tín hiệu</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
@@ -186,7 +186,7 @@
     <string name="pref_connected_have_notif_title">Tín hiệu khi kết nối thiết bị</string>
     <string name="pref_connected_have_notif_reminder_title">Tín hiệu nhắc nhở</string>
     <string name="pref_connected_have_notif_screen_off_title">Phát tín hiệu chỉ khi màn hình thiết bị tắt</string>
-    <string name="pref_connected_have_notif_interval_title">Khoảng thời gian lặp lại nhắc nhở </string>
+    <string name="pref_connected_have_notif_interval_title">Khoảng thời gian lặp lại nhắc nhở</string>
     <string name="pref_connected_have_notif_counter_title">Số tín hiệu</string>
     <string name="pref_connected_have_notif_wakelock_title">Sáng màn hình thiết bị</string>
     <string name="pref_connected_have_notif_ongoing_title">Tín hiệu liên tục thông báo (thường xuyên)</string>
@@ -196,7 +196,7 @@
     <string name="pref_connected_have_notif_pre_signal_summary_on">Tín hiệu (sửa đổi) trước khi thông báo thực tế để có thêm thời gian để nhìn vào màn hình Band</string>
 
     <string name="pref_disconnected">Cài đặt ngắt kết nối</string>
-    <string name="pref_disconnected_summary">Tín hiệu %1$s và thiết bị  khi bị ngắt kết nối </string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_summary">Tín hiệu %1$s và thiết bị  khi bị ngắt kết nối</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_disconnected_signals">Tín hiệu ngắt kết nối</string>
     <string name="pref_disconnected_signals_summary">%1$s và tín hiệu ngắt kết nối thiết bị, nó không báo hiệu khi tắt bluetooth thủ công</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
@@ -231,13 +231,13 @@
     <string name="pref_call_notification_muted">Show notification about muted call</string>
 
     <string name="pref_call_net_text_title">Tín hiệu cuộc gọi internet, hiện tên/ số người gọi</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discord, Slack</string>
+    <string name="pref_call_net_text_summary_on">Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Discord・Slack</string>
 
     <string name="pref_cat_call_missed">Cuộc gọi nhỡ</string>
     <string name="pref_call_missed_title">Tín hiệu cuộc gọi nhỡ</string>
 
     <string name="pref_call_missed_net_title">Tín hiệu lỡ cuộc gọi internet, hiện tên/ số người gọi</string>
-    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_missed_net_summary_on">Skype・Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Zalo</string>
 
     <string name="pref_call_missed_alert_title">Tín hiệu %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
@@ -352,19 +352,19 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Chào mừng!</string>
     <string name="dialog_welcome_message"><![CDATA[Thiết bị hỗ trợ:
-    <br>- <b>Xiaomi Mi Band 4</b>
-    <br>- <b>Xiaomi Mi Band 3</b>
-    <br>- <b>Xiaomi Mi Band 2</b>
-    <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit GTS</b>
-    <br>- <b>Huami Amazfit GTR</b>
-    <br>- <b>Huami Amazfit T-Rex</b>
-    <br>- <b>Huami Amazfit Bip S</b>
-    <br>- <b>Huami Amazfit Bip/Bip Lite</b>
-    <br>- <b>Huami Amazfit Verge Lite</b>
-    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
-    <br>- <b>Huami Amazfit Cor (MiDong)</b>
-    <br>- <b>Huami Amazfit Arc (A1603)</b>
+    <br>• <b>Xiaomi Mi Band 4</b>
+    <br>• <b>Xiaomi Mi Band 3</b>
+    <br>• <b>Xiaomi Mi Band 2</b>
+    <br>• <b>Xiaomi Mi Band HRX</b>
+    <br>• <b>Huami Amazfit GTS</b>
+    <br>• <b>Huami Amazfit GTR</b>
+    <br>• <b>Huami Amazfit T-Rex</b>
+    <br>• <b>Huami Amazfit Bip S</b>
+    <br>• <b>Huami Amazfit Bip/Bip Lite</b>
+    <br>• <b>Huami Amazfit Verge Lite</b>
+    <br>• <b>Huami Amazfit Band 2 (A1713)</b>
+    <br>• <b>Huami Amazfit Cor (MiDong)</b>
+    <br>• <b>Huami Amazfit Arc (A1603)</b>
     <p>Nếu bạn có nhiều ứng dụng để điều khiển Band, nó tạm thời được tắt đi để tránh xung đột.</p>
     <p>Nếu không tìm thấy Band, bạn có thể nhập MAC thủ công (Trong mục Mi Fit/Hồ sơ/Band).</p>
     <p><b>Nếu có vấn đề kết nối:</b>
@@ -402,7 +402,7 @@
     <string name="diagnostic_protection_lock">Khoá màn hình ứng dụng gần đây</string>
 
     <!-- Notification  -->
-    <string name="notification_tab_custom">Tùy chỉnh thông báo </string>
+    <string name="notification_tab_custom">Tùy chỉnh thông báo</string>
     <string name="notification_tab_settings">@string/setting_name</string>
 
     <!-- Notification Dialog -->
@@ -419,6 +419,7 @@
     <string name="notification_group_text_app_name">Tên ứng dụng</string>
     <string name="notification_group_text_name">Tên</string>
     <string name="notification_group_text_content">Nội dung</string>
+    <string name="notification_group_text_big_content">Nội dung đầy đủ</string>
     <string name="notification_group_text_content_slice_title">Độ dài văn bản</string>
     <string name="notification_group_display_time_title">Hiển thị thời gian</string>
     <string name="notification_group_vibration_title">Custom vibration</string>
@@ -448,7 +449,7 @@
     <string name="notification_group_filter_title">Lọc Tiêu đề</string>
     <string name="notification_group_filter_content">Lọc nội dung</string>
     <string name="notification_group_filter_regex">Regex</string>
-    <string name="notification_group_filter_hint">Chỉ báo hiệu khi thông báo </string>
+    <string name="notification_group_filter_hint">Chỉ báo hiệu khi thông báo</string>
     <string name="notification_group_filter_contains">Chứa bất kỳ cụm từ nào</string>
     <string name="notification_group_filter_not_contains">Không chứa cụm từ nào</string>
 

@@ -42,13 +42,13 @@
     <!--<string name="foreground_service_disconnected">Disconnection time: %1$s</string>-->
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Pas, distance, calories, objectif, rythme cardiaque</string>
+    <string name="mi_band_tracker_title">Pas・distance・calories・objectif・rythme cardiaque</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
-    <string name="mi_band_battery">Niveau de batterie, heure de dernière recharge, temps restant estimé</string>
-    <string name="mi_band_state_connected_disconnected_last_time">Signal, dernière connexion et déconnexion</string>
+    <string name="mi_band_battery">Niveau de batterie・heure de dernière recharge・temps restant estimé</string>
+    <string name="mi_band_state_connected_disconnected_last_time">Signal・dernière connexion et déconnexion</string>
     <string name="mi_band_touch">Supervision du tactile</string>
     <string name="mi_band_alarm">Prochaine alarme</string>
     <string name="mi_band_bonded_device_name">Nom du Band appairé</string>
@@ -232,13 +232,13 @@
     <string name="pref_call_notification_muted">Show notification about muted call</string>
 
     <string name="pref_call_net_text_title">Alerte sur appels internet entrants, afficher l\'identité de l\'appelant</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discord, Slack</string>
+    <string name="pref_call_net_text_summary_on">Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Discord・Slack</string>
 
     <string name="pref_cat_call_missed">Appels manqués</string>
     <string name="pref_call_missed_title">Alerte sur appels manqués</string>
 
     <string name="pref_call_missed_net_title">Alerte sur appels internet manqués, afficher l\'identité de l\'appelant</string>
-    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_missed_net_summary_on">Skype・Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Zalo</string>
 
     <string name="pref_call_missed_alert_title">Alertes du %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
@@ -255,7 +255,7 @@
     <string name="pref_cat_battery_phone_full">Niveau de batterie plein</string>
     <string name="pref_battery_phone_full_title">Notification de batterie pleine</string>
     <string name="pref_battery_phone_full_plugged_ac">Charger via le secteur</string>
-    <string name="pref_battery_phone_full_plugged_usb"> Charger via l\'USB </string>
+    <string name="pref_battery_phone_full_plugged_usb"> Charger via l\'USB</string>
     <string name="pref_battery_phone_full_plugged_wireless"> Charger en sans fil</string>
     <string name="pref_battery_phone_full_repeat_interval_title"> Intervalle de répétition</string>
 
@@ -353,19 +353,19 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Bienvenue!</string>
     <string name="dialog_welcome_message"><![CDATA[Équipements supportés:
-    <br>- <b>Xiaomi Mi Band 4</b>
-    <br>- <b>Xiaomi Mi Band 3</b>
-    <br>- <b>Xiaomi Mi Band 2</b>
-    <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit GTS</b>
-    <br>- <b>Huami Amazfit GTR</b>
-    <br>- <b>Huami Amazfit T-Rex</b>
-    <br>- <b>Huami Amazfit Bip S</b>
-    <br>- <b>Huami Amazfit Bip/Bip Lite</b>
-    <br>- <b>Huami Amazfit Verge Lite</b>
-    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
-    <br>- <b>Huami Amazfit Cor (MiDong)</b>
-    <br>- <b>Huami Amazfit Arc (A1603)</b>
+    <br>• <b>Xiaomi Mi Band 4</b>
+    <br>• <b>Xiaomi Mi Band 3</b>
+    <br>• <b>Xiaomi Mi Band 2</b>
+    <br>• <b>Xiaomi Mi Band HRX</b>
+    <br>• <b>Huami Amazfit GTS</b>
+    <br>• <b>Huami Amazfit GTR</b>
+    <br>• <b>Huami Amazfit T-Rex</b>
+    <br>• <b>Huami Amazfit Bip S</b>
+    <br>• <b>Huami Amazfit Bip/Bip Lite</b>
+    <br>• <b>Huami Amazfit Verge Lite</b>
+    <br>• <b>Huami Amazfit Band 2 (A1713)</b>
+    <br>• <b>Huami Amazfit Cor (MiDong)</b>
+    <br>• <b>Huami Amazfit Arc (A1603)</b>
     <p>Si vous utilisez plus d\'applications pour contrôler votre Band, elles vont interférer entre elles et se désactiver.</p>
     <p>Si votre Band n\'est pas détecté, vous pouvez saisir son adresse MAC manuellement dans les détails de la fenêtre principale (l\'adresse MAC se trouve dans: Mi Fit/Profil/Band).</p>
     <p><b>If you have a connection problem:</b>
@@ -420,6 +420,7 @@
     <string name="notification_group_text_name">Nom</string>
     <string name="notification_group_text_title">Titre</string>
     <string name="notification_group_text_content">Contenu</string>
+    <string name="notification_group_text_big_content">Contenu complet</string>
     <string name="notification_group_text_content_slice_title">La longueur du texte</string>
     <string name="notification_group_display_time_title">Temps d\'affichage</string>
     <string name="notification_group_vibration_title">Vibration personnalisée</string>
@@ -470,7 +471,7 @@
 
     <string name="notification_confirm_close">Êtes-vous sûr de vouloir supprimer les modifications?</string>
 
-    <string name="notification_edit_play_text_title">Titre de la notification </string>
+    <string name="notification_edit_play_text_title">Titre de la notification</string>
     <string name="notification_edit_play_text_content">Contenu de la notification:
     Le faux-texte (également appelé lorem ipsum, lipsum, ou bolo bolo1) est, en imprimerie, un texte sans signification, dont le seul objectif est de calibrer le contenu d\'une page par du texte, fût-il non éditorial, pour travailler sur la seule mise en forme de la page.
         \n Le texte définitif (qui a une signification) prendra la place du faux-texte, une fois que la mise en forme sera jugée acceptable.
@@ -560,7 +561,7 @@
     <string name="touch_music_function_mi_band_message_launch">Start music with the play button</string>
     <string name="touch_music_function_mi_band_message_no_track_title">Can\'t get the song name</string>
 
-    <string name="touch_call_out_title">Appeler </string>
+    <string name="touch_call_out_title">Appeler</string>
     <string name="touch_call_out_no_contact">Sélectionner un contact</string>
     <string name="touch_call_out_summary">Appui double pour répondre à l\'appel</string>
     <string name="touch_call_out_summary_support_call_display_button">Appuyer sur la touche pour répondre à l\'appel</string>
@@ -798,7 +799,7 @@
     <string name="pulse_signal_start_title">Alerte sur lancement de la supervision</string>
     <string name="pulse_signal_show_title">Afficher le rythme</string>
     <string name="pulse_signal_end_low_title">Alerte sur faible rythme</string>
-    <string name="pulse_signal_end_title">Alerte sur rythme élevé </string>
+    <string name="pulse_signal_end_title">Alerte sur rythme élevé</string>
 
     <string name="pulse_title_timing_validity">Fréquence et plage</string>
     <string name="pulse_value_min">Valeur mini</string>

@@ -42,13 +42,13 @@
     <!--<string name="foreground_service_disconnected">Waktu terputus: %1$s</string>-->
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Langkah, jarak, kalori, tujuan, detak</string>
+    <string name="mi_band_tracker_title">Langkah・jarak・kalori・tujuan・detak</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Battery level, last charging time, estimated remaining time</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI, last connection and disconnection time</string>
+    <string name="mi_band_battery">Battery level・last charging time・estimated remaining time</string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI・last connection and disconnection time</string>
     <string name="mi_band_touch">Touch monitoring</string>
     <string name="mi_band_alarm">Next alarm</string>
     <string name="mi_band_bonded_device_name">Nama perangkat pasangan</string>
@@ -232,13 +232,13 @@
     <string name="pref_call_notification_muted">Show notification about muted call</string>
 
     <string name="pref_call_net_text_title">Tanda panggilan internet masuk, tampilan identitas pemanggil</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discord, Slack</string>
+    <string name="pref_call_net_text_summary_on">Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Discord・Slack</string>
 
     <string name="pref_cat_call_missed">Panggilan tidak terjawab</string>
     <string name="pref_call_missed_title">Tanda panggilan tidak terjawab</string>
 
     <string name="pref_call_missed_net_title">Tanda panggilan internet tak terjawab, tampilan identitas pemanggil</string>
-    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_missed_net_summary_on">Skype・Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Zalo</string>
 
     <string name="pref_call_missed_alert_title">Tanda %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
@@ -353,19 +353,19 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Selamat Datang!</string>
     <string name="dialog_welcome_message"><![CDATA[Perangkat yang didukung:
-    <br>- <b>Xiaomi Mi Band 4</b>
-    <br>- <b>Xiaomi Mi Band 3</b>
-    <br>- <b>Xiaomi Mi Band 2</b>
-    <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit GTS</b>
-    <br>- <b>Huami Amazfit GTR</b>
-    <br>- <b>Huami Amazfit T-Rex</b>
-    <br>- <b>Huami Amazfit Bip S</b>
-    <br>- <b>Huami Amazfit Bip/Bip Lite</b>
-    <br>- <b>Huami Amazfit Verge Lite</b>
-    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
-    <br>- <b>Huami Amazfit Cor (MiDong)</b>
-    <br>- <b>Huami Amazfit Arc (A1603)</b>
+    <br>• <b>Xiaomi Mi Band 4</b>
+    <br>• <b>Xiaomi Mi Band 3</b>
+    <br>• <b>Xiaomi Mi Band 2</b>
+    <br>• <b>Xiaomi Mi Band HRX</b>
+    <br>• <b>Huami Amazfit GTS</b>
+    <br>• <b>Huami Amazfit GTR</b>
+    <br>• <b>Huami Amazfit T-Rex</b>
+    <br>• <b>Huami Amazfit Bip S</b>
+    <br>• <b>Huami Amazfit Bip/Bip Lite</b>
+    <br>• <b>Huami Amazfit Verge Lite</b>
+    <br>• <b>Huami Amazfit Band 2 (A1713)</b>
+    <br>• <b>Huami Amazfit Cor (MiDong)</b>
+    <br>• <b>Huami Amazfit Arc (A1603)</b>
     <p>Jika anda menggunakan aplikasi lebih untuk mengontrol Band, mungkin aplikasi-aplikasi tersebut akan saling ganggu, jadi untuk sementara harap mematikan apl-apl tersebut.</p>
     <p>Jika Band tidak terdeteksi, anda bisa mengatur alamat MAC secara manual pada menu rincian/lanjutan (Alamat MAC dapat di temukan di : Mi Fit - Profil - Band).</p>
     <p><b>If you have a connection problem:</b>
@@ -420,6 +420,7 @@
     <string name="notification_group_text_name">Nama</string>
     <string name="notification_group_text_title">Judul</string>
     <string name="notification_group_text_content">Isi</string>
+    <string name="notification_group_text_big_content">Konten lengkap</string>
     <string name="notification_group_text_content_slice_title">Text length</string>
     <string name="notification_group_display_time_title">Waktu tampilan</string>
     <string name="notification_group_vibration_title">Custom vibration</string>

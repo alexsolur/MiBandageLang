@@ -42,13 +42,13 @@
     <!--<string name="foreground_service_disconnected">Время разъединения: %1$s</string>-->
 
     <!-- Preference -->
-    <string name="mi_band_tracker_title">Шаги, расстояние, калории, цель, пульс</string>
+    <string name="mi_band_tracker_title">Шаги・расстояние・калории・цель・пульс</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_meter_title">%1$,d м</string> <!-- meter -->
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d ккал</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Уровень заряда, время последней зарядки, ожидаемое время работы</string>
-    <string name="mi_band_state_connected_disconnected_last_time">Сигнал(RSSI), время последнего соединения и его разрыва</string>
+    <string name="mi_band_battery">Уровень заряда・время последней зарядки・ожидаемое время работы</string>
+    <string name="mi_band_state_connected_disconnected_last_time">Сигнал(RSSI)・время последнего соединения и его разрыва</string>
     <string name="mi_band_touch">Касания</string>
     <string name="mi_band_alarm">Следующий будильник</string>
     <string name="mi_band_bonded_device_name">Имя спаренного браслета</string>
@@ -232,13 +232,13 @@
     <string name="pref_call_notification_muted">Уведомление об отключенном звуке</string>
 
     <string name="pref_call_net_text_title">Входящий интернет-вызов, отображение ID звонящего</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discord, Slack</string>
+    <string name="pref_call_net_text_summary_on">Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Discord・Slack</string>
 
     <string name="pref_cat_call_missed">Пропущенный звонок</string>
     <string name="pref_call_missed_title">Уведомление о пропущенном звонке</string>
 
     <string name="pref_call_missed_net_title">Пропущенный интернет-вызов, отображение ID звонящего</string>
-    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_missed_net_summary_on">Skype・Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Zalo</string>
 
     <string name="pref_call_missed_alert_title">Уведомление %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
@@ -353,19 +353,19 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Добро пожаловать!</string>
     <string name="dialog_welcome_message"><![CDATA[Поддерживаемые устройства:
-    <br>- <b>Xiaomi Mi Band 4</b>
-    <br>- <b>Xiaomi Mi Band 3</b>
-    <br>- <b>Xiaomi Mi Band 2</b>
-    <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit GTS</b>
-    <br>- <b>Huami Amazfit GTR</b>
-    <br>- <b>Huami Amazfit T-Rex</b>
-    <br>- <b>Huami Amazfit Bip S</b>
-    <br>- <b>Huami Amazfit Bip/Bip Lite</b>
-    <br>- <b>Huami Amazfit Verge Lite</b>
-    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
-    <br>- <b>Huami Amazfit Cor (MiDong)</b>
-    <br>- <b>Huami Amazfit Arc (A1603)</b>
+    <br>• <b>Xiaomi Mi Band 4</b>
+    <br>• <b>Xiaomi Mi Band 3</b>
+    <br>• <b>Xiaomi Mi Band 2</b>
+    <br>• <b>Xiaomi Mi Band HRX</b>
+    <br>• <b>Huami Amazfit GTS</b>
+    <br>• <b>Huami Amazfit GTR</b>
+    <br>• <b>Huami Amazfit T-Rex</b>
+    <br>• <b>Huami Amazfit Bip S</b>
+    <br>• <b>Huami Amazfit Bip/Bip Lite</b>
+    <br>• <b>Huami Amazfit Verge Lite</b>
+    <br>• <b>Huami Amazfit Band 2 (A1713)</b>
+    <br>• <b>Huami Amazfit Cor (MiDong)</b>
+    <br>• <b>Huami Amazfit Arc (A1603)</b>
     <p>Если вы используете несколько приложений для управления браслетом, они могут мешать друг другу, поэтому временно отключите их.</p>
     <p>Если браслет не обнаружен, вы можете установить MAC вручную в настройках (MAC можно найти в: Mi Fit/Профиль/Band).</p>
     <p><b>При проблемах с подключением:</b>
@@ -420,6 +420,7 @@
     <string name="notification_group_text_name">Название группы</string>
     <string name="notification_group_text_title">Заголовок</string>
     <string name="notification_group_text_content">Содержимое</string>
+    <string name="notification_group_text_big_content">Full content</string>
     <string name="notification_group_text_content_slice_title">Длина текста</string>
     <string name="notification_group_display_time_title">Время отображения</string>
     <string name="notification_group_vibration_title">Особая вибрация</string>

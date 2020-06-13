@@ -42,13 +42,13 @@
     <!--<string name="foreground_service_disconnected">Disconnection time: %1$s</string>-->
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Pași, distanță, calorii, țintă, puls</string>
+    <string name="mi_band_tracker_title">Pași・distanță・calorii・țintă・puls</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Nivelul bateriei, data ultimei încărcări, estimarea timpului rămas</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI, data ultimei conectări și deconectări</string>
+    <string name="mi_band_battery">Nivelul bateriei・data ultimei încărcări・estimarea timpului rămas</string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI・data ultimei conectări și deconectări</string>
     <string name="mi_band_touch">Monitorizare atingere</string>
     <string name="mi_band_alarm">Alarma următoare</string>
     <string name="mi_band_bonded_device_name">Numele dispozitivului împerecheat</string>
@@ -232,13 +232,13 @@
     <string name="pref_call_notification_muted">Show notification about muted call</string>
 
     <string name="pref_call_net_text_title">Semnalul de apel primit pe Internet, afișarea identității apelantului</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discord, Slack</string>
+    <string name="pref_call_net_text_summary_on">Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Discord・Slack</string>
 
     <string name="pref_cat_call_missed">Apel pierdut</string>
     <string name="pref_call_missed_title">Semnal apel pierdut</string>
 
     <string name="pref_call_missed_net_title">Semnal de apel pe internet pierdut, afișarea identității apelantului</string>
-    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_missed_net_summary_on">Skype・Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Zalo</string>
 
     <string name="pref_call_missed_alert_title">Semnal %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
@@ -247,7 +247,7 @@
     <string name="pref_call_missed_text_prefix_dialog_title">Prefix text</string>
 
     <string name="pref_battery_phone">Bateria telefonului</string>
-    <string name="pref_battery_phone_summary">Notificări nivel baterie scăzut și complet </string>
+    <string name="pref_battery_phone_summary">Notificări nivel baterie scăzut și complet</string>
     <string name="pref_cat_battery_phone_low">Nivel scăzut al bateriei</string>
     <string name="pref_battery_phone_low_title">Notificare nivel scăzut al bateriei</string>
     <string name="pref_battery_phone_low_level_title">Prag pentru nivelul bateriei</string>
@@ -300,7 +300,7 @@
     <string name="message_discovered_not_found_mi_band">Dacă brățara nu a fost găsită, activează: Mi Fit/ Play /Detectabil sau împerechează în setările Bluetooth ale telefonului</string>
     <string name="message_enable_notification_listener_access">Activează accesul la notificări: Setări/ Notificări/ Acces notificare</string>
     <string name="message_enable_notification_listener_access_4_4">Activează accesul la notificări: Setări/ Securitate/ Acces notificare</string>
-    <string name="message_enable_notification_policy_access">Activează accesul la modul Nu deranja </string>
+    <string name="message_enable_notification_policy_access">Activează accesul la modul Nu deranja</string>
     <string name="message_open_settings">Setări</string>
 
     <string name="message_deleted">Șters</string>
@@ -353,19 +353,19 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Bun venit!</string>
     <string name="dialog_welcome_message"><![CDATA[Dispozitive acceptate:
-    <br>- <b>Xiaomi Mi Band 4</b>
-    <br>- <b>Xiaomi Mi Band 3</b>
-    <br>- <b>Xiaomi Mi Band 2</b>
-    <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit GTS</b>
-    <br>- <b>Huami Amazfit GTR</b>
-    <br>- <b>Huami Amazfit T-Rex</b>
-    <br>- <b>Huami Amazfit Bip S</b>
-    <br>- <b>Huami Amazfit Bip/Bip Lite</b>
-    <br>- <b>Huami Amazfit Verge Lite</b>
-    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
-    <br>- <b>Huami Amazfit Cor (MiDong)</b>
-    <br>- <b>Huami Amazfit Arc (A1603)</b>
+    <br>• <b>Xiaomi Mi Band 4</b>
+    <br>• <b>Xiaomi Mi Band 3</b>
+    <br>• <b>Xiaomi Mi Band 2</b>
+    <br>• <b>Xiaomi Mi Band HRX</b>
+    <br>• <b>Huami Amazfit GTS</b>
+    <br>• <b>Huami Amazfit GTR</b>
+    <br>• <b>Huami Amazfit T-Rex</b>
+    <br>• <b>Huami Amazfit Bip S</b>
+    <br>• <b>Huami Amazfit Bip/Bip Lite</b>
+    <br>• <b>Huami Amazfit Verge Lite</b>
+    <br>• <b>Huami Amazfit Band 2 (A1713)</b>
+    <br>• <b>Huami Amazfit Cor (MiDong)</b>
+    <br>• <b>Huami Amazfit Arc (A1603)</b>
     <p>Dacă folosești mai multe aplicații pentru a controla brățara, ele interferează una cu cealaltă, așa că oprește-le pentru moment.</p>
     <p>Dacă brățara nu este găsită, poți seta manual adresa MAC atunci când o detectezi(adresa MAC se alfă în: Mi Fit / Profil / Band).</p>
     <p><b>Dacă ai probleme de conectare:</b>
@@ -420,6 +420,7 @@
     <string name="notification_group_text_name">Nume</string>
     <string name="notification_group_text_title">Titlu</string>
     <string name="notification_group_text_content">Conținut</string>
+    <string name="notification_group_text_big_content">Conținut complet</string>
     <string name="notification_group_text_content_slice_title">Lungime text</string>
     <string name="notification_group_display_time_title">Timp de afișare</string>
     <string name="notification_group_vibration_title">Vibrații personalizate</string>
@@ -458,7 +459,7 @@
     <string name="notification_group_sample_whatsapp">Afișează textul WhatsApp</string>
 
     <string name="notification_group_correction">Corectare text</string>
-    <string name="notification_group_correction_title">Corectare titlu </string>
+    <string name="notification_group_correction_title">Corectare titlu</string>
     <string name="notification_group_correction_content">Corectare conținut</string>
     <string name="notification_group_correction_regex">Regex</string>
     <string name="notification_group_correction_hint">Case insensitive</string>

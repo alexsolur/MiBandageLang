@@ -6,55 +6,55 @@
     </string-array>
 
     <string-array name="pref_wear_location">
-        <item>مچ چپ</item>
-        <item>مچ راست</item>
+        <item>دست چپ</item>
+        <item>دست راست</item>
     </string-array>
 
     <string-array name="pref_distance_unit">
-        <item>متریک (متر)</item>
-        <item>امپریال (مایل)</item>
+        <item> متر(Metric)</item>
+        <item> مایل(Imperial)</item>
     </string-array>
 
     <string-array name="pref_lift_wrist_sensitivity">
-        <item>استاندارد</item>
+        <item>عادی</item>
         <item>حساس</item>
     </string-array>
 
     <string-array name="pref_night_mode">
-        <item>زمان‌بندی زمان روشن شدن</item>
-        <!--<item>روشن شدن پس از غروب</item>-->
+        <item>بر حسب برنامه</item>
+        <!--<item>روشن شدن بعد از غروب</item>-->
     </string-array>
 
     <string-array name="pref_menu_mi_band">
-        <item>زمان</item>
-        <item>گام‌ها</item>
+        <item>ساعت</item>
+        <item>قدم</item>
         <item>مسافت</item>
-        <item>کالری‌ها</item>
+        <item>کالری</item>
         <item>ضربان قلب</item>
         <item>باتری</item>
         <item>وضعیت</item>
-        <item>آب و هوا</item>
-        <item>تمیرن</item>
-        <item>فعالیت‌ها</item>
-        <item>اعلان‌ها</item>
-        <item>بیشتر</item>
+        <item>اب و هوا</item>
+        <item>تمرین</item>
+        <item>فعالیت ها</item>
+        <item>اعلانها</item>
+        <item>اضافه</item>
         <item>NFC</item>
-        <item>آلارم</item>
-        <item>زمان‌سنج</item>
-        <item>یادآور رویداد</item>
+        <item>الارم</item>
+        <item>تایمر</item>
+        <item>یاداور</item>
         <item>تنظیمات</item>
-        <item>قطب‌نما</item>
+        <item>قطب نما</item>
         <item>موزیک</item>
         <item>Alipay</item>
         <item>PAI</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_counter">
-        <item>تعداد اعلان‌ها</item>
-        <item>یکبار به ازای آیکون باند</item>
-        <item>آیکن 1 \'برنامه\'</item>
-        <item>آیکن 2 \'برنامه\'</item>
-        <item>آیکن 3 \'برنامه\'</item>
+        <item>همه هشدارها</item>
+        <item>Once per Band icon</item>
+        <item>1 \'app\' icon</item>
+        <item>2 \'app\' icon</item>
+        <item>3 \'app\' icon</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_interval">
@@ -91,43 +91,43 @@
     </string-array>
 
     <string-array name="notification_group_counter">
-        <item>تعداد اعلان‌ها (همه)</item>
-        <item>یک بار در هر برنامه</item>
-        <item>یک اعلان</item>
+        <item>همه هشدارها</item>
+        <item>یکبار برای هر برنامه</item>
+        <item>یک اعلام</item>
     </string-array>
 
     <string-array name="notification_group_repeat">
         <item>همیشه</item>
-        <item>هرگز</item>
-        <item>یک بار</item>
-        <item>دو برابر</item>
+        <item>هیچ وقت</item>
+        <item>یکبار</item>
+        <item>دوبار</item>
         <item>سه بار</item>
     </string-array>
 
     <string-array name="notification_group_grouped_dispay">
-        <item>Show all when the device is connecting, otherwise only the latest notification</item>
-        <item>Show all notifications</item>
-        <item>Show only the latest notification</item>
+        <item>همه را بعد از وصل شدن نشان بده،در غیر اینصورت فقط اخرین اعلام ها</item>
+        <item>تمام اعلام ها</item>
+        <item>فقط اخرین اعلام ها</item>
     </string-array>
 
     <string-array name="notification_group_grouped_order">
-        <item>In normal order</item>
-        <item>In reverse order</item>
+        <item>ترتیب عادی</item>
+        <item>ترتیب برعکس</item>
     </string-array>
 
     <string-array name="touch_call_mute_ringer_mode">
-        <item>لرزش</item>
-        <item>بی‌صدا</item>
-        <item>مزاحم نشوید (فقط اولویت ها)</item>
-        <item>مزاحم نشوید (فقط هشدار‌ ها)</item>
-        <item>مزاحم نشوید (سکوت کامل)</item>
+        <item>ویبره</item>
+        <item>ساکت</item>
+        <item>بدون مزاحم(priority only)</item>
+        <item>بدون مزاحم (فقط هشدار ها)</item>
+        <item>بدون مزاحم(ساکت)</item>
     </string-array>
 
     <string-array name="touch_music_player">
-        <item>پلیر پیش فرض</item>
-        <item>پلیر در حال پخش</item>
-        <item>پلیر گوگل</item>
-        <item>پلیر اسپاتیفای</item>
+        <item>موزیک پلیر پیشفرض</item>
+        <item>موزیک پلیر حال حاضر</item>
+        <item>Google Play پلیر</item>
+        <item>Spotify پلیر</item>
     </string-array>
 
     <string-array name="touch_music_info">
@@ -144,12 +144,12 @@
     </string-array>
 
     <string-array name="touch_camera_app">
-        <item>پیش فرض (نیازمند روت گوشی)</item>
-        <item>باز کردن دوربین</item>
+        <item>پیش فرض (دستگاه باید روت باشد)</item>
+        <item>بازکردن دوربین</item>
     </string-array>
 
     <string-array name="pref_timer_time_interval_repeat">
-        <item>خاموش</item>
+        <item>Off</item>
         <item>1 دقیقه</item>
         <item>2 دقیقه</item>
         <item>3 دقیقه</item>
@@ -177,20 +177,20 @@
     </string-array>
 
     <string-array name="notification_group_text_content_slice">
-        <item>1 قطعه (chars %1$,d-1)</item>
-        <item>2 قطعه (chars %1$,d-1)</item>
-        <item>3 قطعه (chars %1$,d-1)</item>
-        <item>4 قطعه (chars %1$,d-1)</item>
-        <item>5 قطعه (chars %1$,d-1)</item>
-        <item>6 قطعه (chars %1$,d-1)</item>
-        <item>7 قطعه (chars %1$,d-1)</item>
-        <item>8 قطعه (chars %1$,d-1)</item>
-        <item>9 قطعه (chars %1$,d-1)</item>
-        <item>10 قطعه (chars %1$,d-1)</item>
+        <item>1 تکه (1-%1$,d chars)</item>
+        <item>2 تکه (1-%1$,d chars)</item>
+        <item>3 تکه (1-%1$,d chars)</item>
+        <item>4 تکه (1-%1$,d chars)</item>
+        <item>5 تکه (1-%1$,d chars)</item>
+        <item>6 تکه (1-%1$,d chars)</item>
+        <item>7 تکه (1-%1$,d chars)</item>
+        <item>8 تکه (1-%1$,d chars)</item>
+        <item>9 تکه (1-%1$,d chars)</item>
+        <item>10 تکه (1-%1$,d chars)</item>
     </string-array>
 
     <string-array name="notification_group_display_time">
-        <item>خودکار (3-5 ثانیه)</item>
+        <item>خودکار (3 – 5 ثانیه)</item>
         <item>3 ثانیه</item>
         <item>4 ثانیه</item>
         <item>5 ثانیه</item>
@@ -199,59 +199,64 @@
     </string-array>
 
     <string-array name="custom_vibration">
-        <item>پیش‌فرض</item>
+        <item>پیشفرض</item>
+        <item>سفارشی</item>
+    </string-array>
+
+    <string-array name="custom_vibration_values">
+        <item>پیشفرض</item>
         <item>سفارشی</item>
     </string-array>
 
     <string-array name="touch_recognition_press">
         <item>هیچ</item>
-        <item>لمس طولانی</item>
-        <item>دوبار ضربه</item>
-        <item>سه بار ضربه</item>
-        <item>ضربه</item>
+        <item>یک بار لمس</item>
+        <item>دو بار لمس</item>
+        <item>سه بار لمس</item>
+        <item>لمس و نگه داشتن</item>
         <item>دکمه</item>
     </string-array>
 
     <string-array name="touch_recognition_press_mi_band_4_gtr">
         <item>هیچ</item>
-        <item>دکمه بی‌صدا کردن</item>
-        <item>دوبار ضربه</item>
-        <item>سه بار ضربه</item>
-        <item>دکمه رد تماس</item>
+        <item>دکمه سکوت</item>
+        <item>دو بار لمس</item>
+        <item>سه بار لمس</item>
+        <item>دکمه رد کردن</item>
         <item>دکمه</item>
     </string-array>
 
     <string-array name="touch_recognition_press_amazfit_bip_cor">
         <item>هیچ</item>
-        <item>دکمه قرمز</item>
-        <item>دوبار ضربه</item>
-        <item>سه بار ضربه</item>
         <item>دکمه سبز</item>
+        <item>دو بار لمس</item>
+        <item>سه بار لمس</item>
+        <item>دکمه قرمز</item>
         <item>دکمه</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method">
         <item>تشخیص الگو</item>
-        <item>شمارش فشردن دکمه</item>
+        <item>شمارش دکمه زدن</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method_mi_band_3">
-        <item>(+pulse) ذخیره انرژی</item>
-        <item>ذخیره انرژی</item>
-<!--        <item>Power saving (find phone)</item>-->
-<!--        <item>Power saving (pulse and find phone)</item>-->
-        <item>عملکرد بالا</item>
+        <item>پاور سِیوینگ</item>
+        <item>پاور سِیوینگ (+pulse)</item>
+        <!--        <item>پاور سِیوینگ (گوشی یاب)</item>-->
+        <!--        <item>پاور سِیوینگ (pulse گوشی یاب و)</item>-->
+        <item>اجرا</item>
     </string-array>
 
     <string-array name="touch_recognition_start_trigger">
         <item>هیچ</item>
-        <item>لمس طولانی</item>
+        <item>لمس</item>
     </string-array>
 
     <string-array name="touch_recognition_start_trigger_button">
         <item>هیچ</item>
-        <item>الگو</item>
-        <item>لمس طولانی دکمه</item>
+        <item>فشار دکمه</item>
+        <item>لمس و نگه داشتن</item>
     </string-array>
 
     <string-array name="pref_reminder_calendar_notif_before">
@@ -268,34 +273,34 @@
     </string-array>
 
     <string-array name="pref_weather_unit">
-        <item>متریک (سانتی‌گراد)</item>
-        <item>امپریال (فارنهایت)</item>
+        <item>متریک (Celsius ℃)</item>
+        <item>امپریال (Fahrenheit ℉)</item>
     </string-array>
 
     <string-array name="pref_weather_current_display">
-        <item>کنونی</item>
-        <item>وضعیت کنونی، بارندگی، پوشش ابری</item>
+        <item>اکنون</item>
+        <item>اکنون, پیشبینی, cloud cover</item>
         <item>میانگین</item>
-        <item>ق.ظ، ب.ظ</item>
+        <item>Am, Pm</item>
     </string-array>
 
     <string-array name="pref_weather_forecast_display">
         <item>میانگین</item>
-        <!--<item>Average, precipitation, cloud cover</item>-->
-        <item>ق.ظ, ب.ظ</item>
+        <!--<item>میانگین, پیشبینی, cloud cover</item>-->
+        <item>Am, Pm</item>
     </string-array>
 
     <string-array name="widget_event">
-        <item>صفحه نمایش دستبند</item>
-        <item>صفحه فعالیت</item>
-        <item>صفحه ریتن</item>
-        <item>اندازه‌گیری ریتم</item>
-        <item>صفحه هشدار‌ها</item>
-        <item>صفحه یادآوری‌ها</item>
+        <item>Bandages صفحه</item>
+        <item>صحنه فعالیت</item>
+        <item>صفحه ضربان</item>
+        <item>اندازه گیری ضربان</item>
+        <item>صفحه  هشدار</item>
+        <item>صفحه یاداورها</item>
     </string-array>
 
     <string-array name="pref_language">
-        <item>پیش‌فرض</item>
+        <item>پیشفرض</item>
         <item>English</item>
         <item>Magyar</item>
         <item>Русский</item>
@@ -343,8 +348,8 @@
     </string-array>
 
     <string-array name="pref_language_mi_band_3">
-        <item>بدون تنظیم (تنظیم توسط Mi Fit)</item>
-        <item>پیش‌فرض (تلفن)</item>
+        <item>تعیین نشده (Mi Fit تنظیم با)</item>
+        <item>پیشفرض (phoneتنظیم با)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -367,8 +372,8 @@
     </string-array>
 
     <string-array name="pref_language_mi_band_4">
-        <item>بدون تنظیم (تنظیم توسط Mi Fit)</item>
-        <item>پیش‌فرض (تلفن)</item>
+        <item>تعیین نشده (Mi Fit تنظیم با)</item>
+        <item>پیشفرض (phoneتنظیم با)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -381,19 +386,21 @@
         <item>Čeština</item>
         <item>Nederlands</item>
         <item>Türkçe</item>
-        <item>Bahasa Indonesia</item>
+        <item>Ελληνικά</item>
+        <item>Română</item>
         <item>한국어</item>
+        <item>日本語</item>
         <item>Tiếng Việt</item>
         <item>ไทย</item>
+        <item>Bahasa Indonesia</item>
         <item>简体中文</item>
         <item>繁體中文</item>
-        <item>日本語</item>
         <item>عربى</item>
     </string-array>
 
     <string-array name="pref_language_amazfit_bip_watch">
-        <item>بدون تنظیم (تنظیم توسط Mi Fit)</item>
-        <item>پیش‌فرض (تلفن)</item>
+        <item>تعیین نشده (Mi Fit تنظیم با)</item>
+        <item>پیشفرض (phoneتنظیم با)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -410,8 +417,8 @@
     </string-array>
 
     <string-array name="pref_language_amazfit_cor">
-        <item>بدون تنظیم (تنظیم توسط Mi Fit)</item>
-        <item>پیش‌فرض (تلفن)</item>
+        <item>تعیین نشده (Mi Fit تنظیم با)</item>
+        <item>پیشفرض (phoneتنظیم با)</item>
         <item>English</item>
         <item>Español</item>
         <item>Русский</item>
@@ -420,8 +427,8 @@
     </string-array>
 
     <string-array name="pref_language_amazfit_gtr">
-        <item>بدون تنظیم (تنظیم توسط Mi Fit)</item>
-        <item>پیش‌فرض (تلفن)</item>
+        <item>تعیین نشده (Mi Fit تنظیم با)</item>
+        <item>پیشفرض (phoneتنظیم با)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>

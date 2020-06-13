@@ -42,13 +42,13 @@
     <!--<string name="foreground_service_disconnected">Χρόνος Αποσύνδεσης: %1$s</string>-->
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Βήματα, απόσταση, θερμίδες, στόχος, παλμός</string>
+    <string name="mi_band_tracker_title">Βήματα・απόσταση・θερμίδες・στόχος・παλμός</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
-    <string name="mi_band_tracker_distance_meter_title">%1$,d μ </string> <!-- meter -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d μ</string> <!-- meter -->
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Επίπεδο μπαταρίας, χρόνος φόρτισης, εκτιμώμενος χρόνος που απομένει</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI, τελευταίος χρόνος σύνδεσης και αποσύνδεσης</string>
+    <string name="mi_band_battery">Επίπεδο μπαταρίας・χρόνος φόρτισης・εκτιμώμενος χρόνος που απομένει</string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI・τελευταίος χρόνος σύνδεσης και αποσύνδεσης</string>
     <string name="mi_band_touch">Παρακολούθηση αφής</string>
     <string name="mi_band_alarm">Ειδοποίηση</string>
     <string name="mi_band_bonded_device_name">Όνομα συζευγμένης συσκευής</string>
@@ -231,13 +231,13 @@
     <string name="pref_call_notification_muted">Show notification about muted call</string>
 
     <string name="pref_call_net_text_title">Σήμα εισερχόμενης κλήσης διαδικτύου, εμφάνιση ταυτότητας καλούντος</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discord, Slack</string>
+    <string name="pref_call_net_text_summary_on">Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Discord・Slack</string>
 
     <string name="pref_cat_call_missed">Αναπάντητη κλήση</string>
     <string name="pref_call_missed_title">Σήμα αναπάντητης κλήσης</string>
 
     <string name="pref_call_missed_net_title">Αναπάντητη κλήση διαδικτύου, εμφάνιση ταυτότητας καλούντος</string>
-    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_missed_net_summary_on">Skype・Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Zalo</string>
 
     <string name="pref_call_missed_alert_title">Σήμα %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
@@ -352,19 +352,19 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Καλώς ορίσατε!</string>
     <string name="dialog_welcome_message"><![CDATA[Υποστηριζόμενες συσκευές:
-    <br>- <b>Xiaomi Mi Band 4</b>
-    <br>- <b>Xiaomi Mi Band 3</b>
-    <br>- <b>Xiaomi Mi Band 2</b>
-    <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit GTS</b>
-    <br>- <b>Huami Amazfit GTR</b>
-    <br>- <b>Huami Amazfit T-Rex</b>
-    <br>- <b>Huami Amazfit Bip S</b>
-    <br>- <b>Huami Amazfit Bip/Bip Lite</b>
-    <br>- <b>Huami Amazfit Verge Lite</b>
-    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
-    <br>- <b>Huami Amazfit Cor (MiDong)</b>
-    <br>- <b>Huami Amazfit Arc (A1603)</b>
+    <br>• <b>Xiaomi Mi Band 4</b>
+    <br>• <b>Xiaomi Mi Band 3</b>
+    <br>• <b>Xiaomi Mi Band 2</b>
+    <br>• <b>Xiaomi Mi Band HRX</b>
+    <br>• <b>Huami Amazfit GTS</b>
+    <br>• <b>Huami Amazfit GTR</b>
+    <br>• <b>Huami Amazfit T-Rex</b>
+    <br>• <b>Huami Amazfit Bip S</b>
+    <br>• <b>Huami Amazfit Bip/Bip Lite</b>
+    <br>• <b>Huami Amazfit Verge Lite</b>
+    <br>• <b>Huami Amazfit Band 2 (A1713)</b>
+    <br>• <b>Huami Amazfit Cor (MiDong)</b>
+    <br>• <b>Huami Amazfit Arc (A1603)</b>
     <p>εάν χρησιμοποιείτε περισσότερες εφαρμογές για τον έλεγχο Band, αλληλεπιδρούν μεταξύ τους και θα πρέπει να τις απενεργοποιήστε προσωρινά</p>
     <p>Αν το Band δεν ανιχνευθεί, τότε μπορείτε να ρυθμίσετε τη διεύθυνση MAC χειροκίνητα από το μενού λεπτομέρειες (η διεύθυνση MAC βρίσκεται στο: Mi Fit/Profil/Band).</p>
     <p><b>Εάν έχετε πρόβλημα σύνδεσης:</b>
@@ -419,6 +419,7 @@
     <string name="notification_group_text_name">Όνομα</string>
     <string name="notification_group_text_title">Τίτλος</string>
     <string name="notification_group_text_content">Περεχόμενο</string>
+    <string name="notification_group_text_big_content">Πλήρες περιεχόμενο</string>
     <string name="notification_group_text_content_slice_title">Το μήκος κειμένου</string>
     <string name="notification_group_display_time_title">Εμφάνιση ώρας</string>
     <string name="notification_group_vibration_title">Προσαρμοσμένη δόνηση</string>

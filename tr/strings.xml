@@ -42,13 +42,13 @@
     <!--<string name="foreground_service_disconnected">Disconnection time: %1$s</string>-->
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Adım, mesafe, kalori, hedef, nabız</string>
+    <string name="mi_band_tracker_title">Adım・mesafe・kalori・hedef・nabız</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Şarj , şarj zamanı, tahmini kalan</string>
-    <string name="mi_band_state_connected_disconnected_last_time">Sinyal gücü, son bağlanma ve kopma anları</string>
+    <string name="mi_band_battery">Şarj・şarj zamanı・tahmini kalan</string>
+    <string name="mi_band_state_connected_disconnected_last_time">Sinyal gücü・son bağlanma ve kopma anları</string>
     <string name="mi_band_touch">Dokunma izleme</string>
     <string name="mi_band_alarm">Sonraki alarm</string>
     <string name="mi_band_bonded_device_name">Eşleştirilmiş bileklik ismi</string>
@@ -133,7 +133,7 @@
     <string name="mi_band_setting_menu_visible">Görünür ekran öğeleri</string>
     <string name="mi_band_setting_menu_hidden">Gizli ekran öğeleri</string>
     <string name="mi_band_setting_shortcut">Kısayol itemleri</string>
-    <string name="mi_band_setting_shortcut_hidden">Hidden shortcut items</string>
+    <string name="mi_band_setting_shortcut_hidden">Gizlenmiş kısayol itemleri</string>
 
     <string name="pref_text_conversion_description_title">Açıklama</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -231,13 +231,13 @@
     <string name="pref_call_notification_muted">Sessize alınmış çağrılar için bildirim göster</string>
 
     <string name="pref_call_net_text_title">İnternet aramaları bildirimi ve arayan bilgisi</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discord, Slack</string>
+    <string name="pref_call_net_text_summary_on">Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Discord・Slack</string>
 
     <string name="pref_cat_call_missed">Cevapsız arama</string>
     <string name="pref_call_missed_title">Cevapsız arama bildirimi</string>
 
     <string name="pref_call_missed_net_title">Cevapsız internet aramaları bildirimi ve arayan bilgisi</string>
-    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_missed_net_summary_on">Skype・Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Zalo</string>
 
     <string name="pref_call_missed_alert_title">%1$s sinyali</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
@@ -352,19 +352,19 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Hoşgeldiniz!</string>
     <string name="dialog_welcome_message"><![CDATA[Desteklenen Cihazlar:
-    <br>- <b>Xiaomi Mi Band 4</b>
-    <br>- <b>Xiaomi Mi Band 3</b>
-    <br>- <b>Xiaomi Mi Band 2</b>
-    <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit GTS</b>
-    <br>- <b>Huami Amazfit GTR</b>
-    <br>- <b>Huami Amazfit T-Rex</b>
-    <br>- <b>Huami Amazfit Bip S</b>
-    <br>- <b>Huami Amazfit Bip/Bip Lite</b>
-    <br>- <b>Huami Amazfit Verge Lite</b>
-    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
-    <br>- <b>Huami Amazfit Cor (MiDong)</b>
-    <br>- <b>Huami Amazfit Arc (A1603)</b>
+    <br>• <b>Xiaomi Mi Band 4</b>
+    <br>• <b>Xiaomi Mi Band 3</b>
+    <br>• <b>Xiaomi Mi Band 2</b>
+    <br>• <b>Xiaomi Mi Band HRX</b>
+    <br>• <b>Huami Amazfit GTS</b>
+    <br>• <b>Huami Amazfit GTR</b>
+    <br>• <b>Huami Amazfit T-Rex</b>
+    <br>• <b>Huami Amazfit Bip S</b>
+    <br>• <b>Huami Amazfit Bip/Bip Lite</b>
+    <br>• <b>Huami Amazfit Verge Lite</b>
+    <br>• <b>Huami Amazfit Band 2 (A1713)</b>
+    <br>• <b>Huami Amazfit Cor (MiDong)</b>
+    <br>• <b>Huami Amazfit Arc (A1603)</b>
     <p>Band\'yi kontrol etmek için daha fazla uygulama kullanıyorsanız, birbirlerine müdahale ederek geçici olarak bunları kapatın.</p>
     <p>Band bulunamazsa, ayrıntılar menüsünde MAC adresini manuel olarak ayarlayabilirsiniz (MAC adresi bulundu: Mi Fit/Profil/Band).</p>
     <p><b>Eğer bağlantı sorunu varsa:</b>
@@ -419,6 +419,7 @@
     <string name="notification_group_text_name">Grup İsmi</string>
     <string name="notification_group_text_title">Başlık</string>
     <string name="notification_group_text_content">İçerik</string>
+    <string name="notification_group_text_big_content">Tüm içerik</string>
     <string name="notification_group_text_content_slice_title">Metin uzunluğu</string>
     <string name="notification_group_display_time_title">Görüntüleme süresi</string>
     <string name="notification_group_vibration_title">Özel Titreşim</string>
@@ -436,8 +437,8 @@
     <string name="notification_group_counter_title">Bileklikte bildirim gösterme sayısı</string>
     <string name="notification_group_repeat_title">Tekrar sinyalleri</string>
     <string name="notification_group_wakelock">Telefon ekranını aç</string>
-    <string name="notification_group_grouped_display_title">Display setting for the group notifications</string>
-    <string name="notification_group_grouped_sort_order_title">Sort order for the group notifications</string>
+    <string name="notification_group_grouped_display_title">Grup bildirim ayarları</string>
+    <string name="notification_group_grouped_sort_order_title">Mesajların gösterim sırası</string>
     <string name="notification_group_remove_title">Bildirmi silme</string>
     <string name="notification_group_remove_from_device">Telefonun bildirim panelinden sil</string>
     <string name="notification_group_remove_from_device_hint">Eğer %1$s/Bildirimler/Tümünü Temizle \'yi seçerseniz</string> <!-- %1$s = Mi Band 4  ... -->
@@ -609,7 +610,7 @@
 
     <string name="touch_broadcast1_title">Yayını gönder</string>
     <string name="touch_broadcast1_action_title">Kasıtlı eylem</string>
-    <string name="touch_broadcast1_package_title">Intent package name</string>
+    <string name="touch_broadcast1_package_title">Eylem adı</string>
 
     <string name="touch_http_request1_title">1. HTTP talebi</string>
     <string name="touch_http_request2_title">2. HTTP talebi</string>
@@ -1338,13 +1339,13 @@
     <string name="unknown">Bilinmeyen</string>
     <string name="maximum">Maksimum</string>
     <string name="all_day">Tüm gün</string>
-    <string name="file_name">Dosya adi</string>
+    <string name="file_name">Dosya adı</string>
 
     <string name="action_dismiss">Vazgeç</string>
     <string name="action_setting">Ayarlar</string>
     <string name="action_delete">Sil</string>
     <string name="action_export">Dışarı ver</string>
-    <string name="action_synchronization">Synchronization</string>
+    <string name="action_synchronization">Senkronizasyon</string>
     <string name="action_filter_no">Tümü</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>

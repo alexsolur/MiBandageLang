@@ -42,13 +42,13 @@
     <!--<string name="foreground_service_disconnected">Uhrzeit der Verbindungsunterbrechung: %1$s</string>-->
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Schritte, Distanz, Kalorien, Ziel, Puls</string>
+    <string name="mi_band_tracker_title">Schritte・Distanz・Kalorien・Ziel・Puls</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Batteriestand, letzte Ladezeit, geschätzte Restzeit</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI, letzte Verbindungs- und Trennungszeit</string>
+    <string name="mi_band_battery">Batteriestand・letzte Ladezeit・geschätzte Restzeit</string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI・letzte Verbindungs- und Trennungszeit</string>
     <string name="mi_band_touch">Berührungs Überwachung</string>
     <string name="mi_band_alarm">Wecker</string>
     <string name="mi_band_bonded_device_name">Gekoppelter Name</string>
@@ -232,13 +232,13 @@
     <string name="pref_call_notification_muted">Zeige Benachrichtigung über stummen Anruf</string>
 
     <string name="pref_call_net_text_title">Eingehendes Signal eines Internetanrufs, zeige Telefonnummer des Anrufers an</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discord, Slack</string>
+    <string name="pref_call_net_text_summary_on">Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Discord・Slack</string>
 
     <string name="pref_cat_call_missed">Verpasster Anruf</string>
     <string name="pref_call_missed_title">Signal eines verpassten Anrufes</string>
 
     <string name="pref_call_missed_net_title">Verpasstes Signal eines Internetanrufs, zeige Telefonnummer des Anrufers an</string>
-    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_missed_net_summary_on">Skype・Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Zalo</string>
 
     <string name="pref_call_missed_alert_title">%1$s Signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
@@ -353,19 +353,19 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Herzlich willkommen!</string>
     <string name="dialog_welcome_message"><![CDATA[Unterstützte Geräte:
-    <br>- <b>Xiaomi Mi Band 4</b>
-    <br>- <b>Xiaomi Mi Band 3</b>
-    <br>- <b>Xiaomi Mi Band 2</b>
-    <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit GTS</b>
-    <br>- <b>Huami Amazfit GTR</b>
-    <br>- <b>Huami Amazfit T-Rex</b>
-    <br>- <b>Huami Amazfit Bip S</b>
-    <br>- <b>Huami Amazfit Bip/Bip Lite</b>
-    <br>- <b>Huami Amazfit Verge Lite</b>
-    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
-    <br>- <b>Huami Amazfit Cor (MiDong)</b>
-    <br>- <b>Huami Amazfit Arc (A1603)</b>
+    <br>• <b>Xiaomi Mi Band 4</b>
+    <br>• <b>Xiaomi Mi Band 3</b>
+    <br>• <b>Xiaomi Mi Band 2</b>
+    <br>• <b>Xiaomi Mi Band HRX</b>
+    <br>• <b>Huami Amazfit GTS</b>
+    <br>• <b>Huami Amazfit GTR</b>
+    <br>• <b>Huami Amazfit T-Rex</b>
+    <br>• <b>Huami Amazfit Bip S</b>
+    <br>• <b>Huami Amazfit Bip/Bip Lite</b>
+    <br>• <b>Huami Amazfit Verge Lite</b>
+    <br>• <b>Huami Amazfit Band 2 (A1713)</b>
+    <br>• <b>Huami Amazfit Cor (MiDong)</b>
+    <br>• <b>Huami Amazfit Arc (A1603)</b>
     <p>Falls mehrere Apps das Band kontollieren, können Interferenzen auftreten. Bitte deaktivieren Sie diese temporär.</p>
     <p>Sie können die MAC-Adresse manuell einstellen, falls das Band nicht erkannt wird (die MAC-Adresse kann in Mi Fit/Profil/Band gefunden werden.).</p>
     <p><b>Falls Sie Probleme mit der Erkennung des Mi Bands 2 und kein Benachrichtigungssignal erhalten, bitte versuchen Sie folgende Schritte:</b>
@@ -419,6 +419,7 @@
     <string name="notification_group_text_name">Name</string>
     <string name="notification_group_text_title">Titel</string>
     <string name="notification_group_text_content">Inhalt</string>
+    <string name="notification_group_text_big_content">Voller Inhalt</string>
     <string name="notification_group_text_content_slice_title">Textlänge</string>
     <string name="notification_group_display_time_title">Anzeigezeit</string>
     <string name="notification_group_vibration_title">Benutzerdefinierte Vibration</string>
@@ -846,7 +847,7 @@
     <string name="pref_cat_abandoned">Gerätesignal</string>
     <string name="pref_abandoned_notif_interval_title">Intervall der Erinnerungswiederholung</string>
     <string name="pref_abandoned_notif_text_summary">Benachrichtigung auf Gerätebildschirm</string>
-    <string name="pref_abandoned_notif_text_text">Bei Verlust des Geräts bitte folgende Nummer anrufen: </string>
+    <string name="pref_abandoned_notif_text_text">Bei Verlust des Geräts bitte folgende Nummer anrufen:</string>
     <string name="pref_abandoned_ringtone_title">Klingelton</string>
     <string name="pref_abandoned_vibration_title">Vibration</string>
     <string name="pref_abandoned_wakelock_title">Bildschirm aufwecken</string>

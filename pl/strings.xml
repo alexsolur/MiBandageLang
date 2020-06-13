@@ -42,13 +42,13 @@
     <!--<string name="foreground_service_disconnected">Czas rozłączenia: %1$s</string>-->
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Kroki, dystans, kalorie, cel, tętno</string>
+    <string name="mi_band_tracker_title">Kroki・dystans・kalorie・cel・tętno</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Poziom baterii, czas ostatniego ładowania, szacowany pozostały czas</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI, czas ostatniego podłączenia i rozłączenia</string>
+    <string name="mi_band_battery">Poziom baterii・czas ostatniego ładowania・szacowany pozostały czas</string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI・czas ostatniego podłączenia i rozłączenia</string>
     <string name="mi_band_touch">Monitorowanie dotknięć</string>
     <string name="mi_band_alarm">Następny alarm</string>
     <string name="mi_band_bonded_device_name">Nazwa sparowanego urządzenia</string>
@@ -232,13 +232,13 @@
     <string name="pref_call_notification_muted">Pokaż powiadomienie o wyciszonym połączeniu</string>
 
     <string name="pref_call_net_text_title">Przychodzący sygnał połączenia internetowego, wyświetlaj identyfikator dzwoniącego</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discord, Slack</string>
+    <string name="pref_call_net_text_summary_on">Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Discord・Slack</string>
 
     <string name="pref_cat_call_missed">Nieodebrane połączenie</string>
     <string name="pref_call_missed_title">Sygnał nieodebranego połączenia</string>
 
     <string name="pref_call_missed_net_title">Sygnał nieodebranego połączenia internetowego, wyświtelaj identyfikator dzwoniącego</string>
-    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_missed_net_summary_on">Skype・Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Zalo</string>
 
     <string name="pref_call_missed_alert_title">Sygnał na %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
@@ -353,19 +353,19 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Witamy!</string>
     <string name="dialog_welcome_message"><![CDATA[Wspierane urządzenia:
-    <br>- <b>Xiaomi Mi Band 4</b>
-    <br>- <b>Xiaomi Mi Band 3</b>
-    <br>- <b>Xiaomi Mi Band 2</b>
-    <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit GTS</b>
-    <br>- <b>Huami Amazfit GTR</b>
-    <br>- <b>Huami Amazfit T-Rex</b>
-    <br>- <b>Huami Amazfit Bip S</b>
-    <br>- <b>Huami Amazfit Bip/Bip Lite</b>
-    <br>- <b>Huami Amazfit Verge Lite</b>
-    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
-    <br>- <b>Huami Amazfit Cor (MiDong)</b>
-    <br>- <b>Huami Amazfit Arc (A1603)</b>
+    <br>• <b>Xiaomi Mi Band 4</b>
+    <br>• <b>Xiaomi Mi Band 3</b>
+    <br>• <b>Xiaomi Mi Band 2</b>
+    <br>• <b>Xiaomi Mi Band HRX</b>
+    <br>• <b>Huami Amazfit GTS</b>
+    <br>• <b>Huami Amazfit GTR</b>
+    <br>• <b>Huami Amazfit T-Rex</b>
+    <br>• <b>Huami Amazfit Bip S</b>
+    <br>• <b>Huami Amazfit Bip/Bip Lite</b>
+    <br>• <b>Huami Amazfit Verge Lite</b>
+    <br>• <b>Huami Amazfit Band 2 (A1713)</b>
+    <br>• <b>Huami Amazfit Cor (MiDong)</b>
+    <br>• <b>Huami Amazfit Arc (A1603)</b>
     <p>Jeśli używasz więcej aplikacji do sterowania Opaską, przeszkadzają sobie nawzajem, więc tymczasowo je wyłącz.</p>
     <p>Jeśli Opaska nie zostanie znaleziona, możesz ustawić adres MAC ręcznie po wykryciu (adres MAC znajdziesz tu: Mi Fit/Profil/Opaska).</p>
     <p><b>Jeśli masz problem z połączeniem:</b>
@@ -420,6 +420,7 @@
     <string name="notification_group_text_name">Nazwa</string>
     <string name="notification_group_text_title">Tytuł</string>
     <string name="notification_group_text_content">Zawartość</string>
+    <string name="notification_group_text_big_content">Full content</string>
     <string name="notification_group_text_content_slice_title">Długość tekstu</string>
     <string name="notification_group_display_time_title">Czas wyświetlania</string>
     <string name="notification_group_vibration_title">Własna wibracja</string>

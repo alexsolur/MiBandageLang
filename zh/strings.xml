@@ -42,13 +42,13 @@
     <!--<string name="foreground_service_disconnected">断开连接时间: %1$s</string>-->
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">步数, 距离, 卡路里, 目标, 心率</string>
+    <string name="mi_band_tracker_title">步数・距离・卡路里・目标・心率</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">电池电量, 最后充电时间, 预计剩余时间</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI, 上次连接和断开时间</string>
+    <string name="mi_band_battery">电池电量・最后充电时间・预计剩余时间</string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI・上次连接和断开时间</string>
     <string name="mi_band_touch">触摸检查</string>
     <string name="mi_band_alarm">下一个闹钟</string>
     <string name="mi_band_bonded_device_name">已配对设备</string>
@@ -168,7 +168,7 @@
     <string name="pref_connected">连接</string>
     <string name="pref_connected_summary">%1$s 和电话连接信号及设置</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
-    <string name="pref_connected_signals">连接信号 </string>
+    <string name="pref_connected_signals">连接信号</string>
     <string name="pref_connected_signals_summary">%1$s 连接但未通知</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_signals_mi_band">%1$s 信号</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">震动</string>
@@ -227,7 +227,7 @@
     <string name="pref_call_text_summary_on"><![CDATA[On (more information: <i>Settings/Text icons settings)</i>]]></string>
 
     <string name="pref_call_net_text_title">网络电话呼入，来电显示</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discord, Slack</string>
+    <string name="pref_call_net_text_summary_on">Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Discord・Slack</string>
 
     <string name="pref_call_notification_rejected">Show notification about rejected call</string>
     <string name="pref_call_notification_rejected_message">Rejected call</string>
@@ -238,7 +238,7 @@
     <string name="pref_call_missed_title">未接来电通知</string>
 
     <string name="pref_call_missed_net_title">错过网络电话通知, 来电显示</string>
-    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_missed_net_summary_on">Skype・Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Zalo</string>
 
     <string name="pref_call_missed_alert_title">%1$s 信号</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
@@ -353,19 +353,19 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">欢迎!</string>
     <string name="dialog_welcome_message"><![CDATA[Supported devices:
-    <br>- <b>Xiaomi Mi Band 4</b>
-    <br>- <b>Xiaomi Mi Band 3</b>
-    <br>- <b>Xiaomi Mi Band 2</b>
-    <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit GTS</b>
-    <br>- <b>Huami Amazfit GTR</b>
-    <br>- <b>Huami Amazfit T-Rex</b>
-    <br>- <b>Huami Amazfit Bip S</b>
-    <br>- <b>Huami Amazfit Bip/Bip Lite</b>
-    <br>- <b>Huami Amazfit Verge Lite</b>
-    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
-    <br>- <b>Huami Amazfit Cor (MiDong)</b>
-    <br>- <b>Huami Amazfit Arc (A1603)</b>
+    <br>• <b>Xiaomi Mi Band 4</b>
+    <br>• <b>Xiaomi Mi Band 3</b>
+    <br>• <b>Xiaomi Mi Band 2</b>
+    <br>• <b>Xiaomi Mi Band HRX</b>
+    <br>• <b>Huami Amazfit GTS</b>
+    <br>• <b>Huami Amazfit GTR</b>
+    <br>• <b>Huami Amazfit T-Rex</b>
+    <br>• <b>Huami Amazfit Bip S</b>
+    <br>• <b>Huami Amazfit Bip/Bip Lite</b>
+    <br>• <b>Huami Amazfit Verge Lite</b>
+    <br>• <b>Huami Amazfit Band 2 (A1713)</b>
+    <br>• <b>Huami Amazfit Cor (MiDong)</b>
+    <br>• <b>Huami Amazfit Arc (A1603)</b>
     <p>如果使用多个手环应用,它们会互相干扰，请关闭其他应用.</p>
     <p>如果未找到手环,你可以手动设置 MAC 地址(MAC 地址可在 小米运动/我的/手环 中查看).</p>
     <p><b>如果你有连接问题:</b>
@@ -420,6 +420,7 @@
     <string name="notification_group_text_name">名称</string>
     <string name="notification_group_text_title">标题</string>
     <string name="notification_group_text_content">内容</string>
+    <string name="notification_group_text_big_content">全部内容</string>
     <string name="notification_group_text_content_slice_title">文字长度</string>
     <string name="notification_group_display_time_title">显示时间</string>
     <string name="notification_group_vibration_title">自定义震动</string>

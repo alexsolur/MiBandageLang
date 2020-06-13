@@ -42,13 +42,13 @@
     <!--<string name="forrgrunn_service_frakoblet">Frakobling tid: %1$s</string>-->
 
     <!-- Bandasje skjerm -->
-    <string name="mi_band_tracker_title">Skritt, distanse, kalorier, mål, puls</string>
+    <string name="mi_band_tracker_title">Skritt・distanse・kalorier・mål・puls</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- ingen -->
     <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo kalori -->
-    <string name="mi_band_battery">Batteri-level, siste lade tid, beregnet gjenværende tid</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI, siste tilkoblings og frakoblings-tid</string>
+    <string name="mi_band_battery">Batteri-level・siste lade tid・beregnet gjenværende tid</string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI・siste tilkoblings og frakoblings-tid</string>
     <string name="mi_band_touch">Trykke-monitorering</string>
     <string name="mi_band_alarm">Neste alarm</string>
     <string name="mi_band_bonded_device_name">Parret enhet navn</string>
@@ -232,13 +232,13 @@
     <string name="pref_call_notification_muted">Show notification about muted call</string>
 
     <string name="pref_call_net_text_title">Inkommende internett-anrop signal, display anrops-ID</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discord, Slack</string>
+    <string name="pref_call_net_text_summary_on">Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Discord・Slack</string>
 
     <string name="pref_cat_call_missed">Tapt anrop</string>
     <string name="pref_call_missed_title">Tapt anrop signal</string>
 
     <string name="pref_call_missed_net_title">Tapt internett-anrop signal, vis anrops ID</string>
-    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_missed_net_summary_on">Skype・Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Zalo</string>
 
     <string name="pref_call_missed_alert_title">%1$s-signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
@@ -353,19 +353,19 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Velkommen!</string>
     <string name="dialog_welcome_message"><![CDATA[Supportede enheter:
-    <br>- <b>Xiaomi Mi Band 4</b>
-    <br>- <b>Xiaomi Mi Band 3</b>
-    <br>- <b>Xiaomi Mi Band 2</b>
-    <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit GTS</b>
-    <br>- <b>Huami Amazfit GTR</b>
-    <br>- <b>Huami Amazfit T-Rex</b>
-    <br>- <b>Huami Amazfit Bip S</b>
-    <br>- <b>Huami Amazfit Bip/Bip Lite</b>
-    <br>- <b>Huami Amazfit Verge Lite</b>
-    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
-    <br>- <b>Huami Amazfit Cor (MiDong)</b>
-    <br>- <b>Huami Amazfit Arc (A1603)</b>
+    <br>• <b>Xiaomi Mi Band 4</b>
+    <br>• <b>Xiaomi Mi Band 3</b>
+    <br>• <b>Xiaomi Mi Band 2</b>
+    <br>• <b>Xiaomi Mi Band HRX</b>
+    <br>• <b>Huami Amazfit GTS</b>
+    <br>• <b>Huami Amazfit GTR</b>
+    <br>• <b>Huami Amazfit T-Rex</b>
+    <br>• <b>Huami Amazfit Bip S</b>
+    <br>• <b>Huami Amazfit Bip/Bip Lite</b>
+    <br>• <b>Huami Amazfit Verge Lite</b>
+    <br>• <b>Huami Amazfit Band 2 (A1713)</b>
+    <br>• <b>Huami Amazfit Cor (MiDong)</b>
+    <br>• <b>Huami Amazfit Arc (A1603)</b>
     <p>Hvis du bruker flere applikasjoner for å kontrolere Bandet, så blandes det med hverandre så du må midlertidig skru dem av.</p>
     <p>hvis Bandetvikke er funnet, da kan du sette MAC addressen manuelt når du utforsker (MAC addresse er funnet: Mi Fit/Profil/Band).</p>
     <p><b>hvis du har et tilkoblings problem:</b>
@@ -420,6 +420,7 @@
     <string name="notification_group_text_name">Navn</string>
     <string name="notification_group_text_title">Tittel</string>
     <string name="notification_group_text_content">Kontent</string>
+    <string name="notification_group_text_big_content">Full content</string>
     <string name="notification_group_text_content_slice_title">Text lengde</string>
     <string name="notification_group_display_time_title">Visningstid</string>
     <string name="notification_group_vibration_title">Egendefinert vibrasjon</string>

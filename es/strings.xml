@@ -42,13 +42,13 @@
     <!--<string name="foreground_service_disconnected">Hora de desconexión: %1$s</string>-->
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Pasos, Distancia, Calorías, Objetivo, Pulso</string>
+    <string name="mi_band_tracker_title">Pasos・Distancia・Calorías・Objetivo・Pulso</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
     <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Nivel de Batería, Ultima hora de carga, Tiempo estimado pendiente </string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI, Ultima hora de conexión y desconexión </string>
+    <string name="mi_band_battery">Nivel de Batería・Ultima hora de carga・Tiempo estimado pendiente</string>
+    <string name="mi_band_state_connected_disconnected_last_time">RSSI・Ultima hora de conexión y desconexión</string>
     <string name="mi_band_touch">Control Táctil</string>
     <string name="mi_band_alarm">Siguiente Alarma</string>
     <string name="mi_band_bonded_device_name">Nombre del dispositivo emparejado</string>
@@ -232,13 +232,13 @@
     <string name="pref_call_notification_muted">Show notification about muted call</string>
 
     <string name="pref_call_net_text_title">Señal de llamada entrante (via internet), mostrar identificador de llamada</string>
-    <string name="pref_call_net_text_summary_on">Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Discord, Slack</string>
+    <string name="pref_call_net_text_summary_on">Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Discord・Slack</string>
 
     <string name="pref_cat_call_missed">Llamada perdida</string>
     <string name="pref_call_missed_title">Señal de llamada perdida</string>
 
     <string name="pref_call_missed_net_title">Señal de llamada perdida (Vía internet), mostrar identificador de llamada</string>
-    <string name="pref_call_missed_net_summary_on">Skype, Messenger, WhatsApp, Viber, Duo, Hangouts, Line, Telegram, Zalo</string>
+    <string name="pref_call_missed_net_summary_on">Skype・Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Zalo</string>
 
     <string name="pref_call_missed_alert_title">Señal de %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
@@ -353,19 +353,19 @@
     <!-- Dialog -->
     <string name="dialog_welcome_title">Bienvenido!</string>
     <string name="dialog_welcome_message"><![CDATA[Dispositivos soportados:
-    <br>- <b>Xiaomi Mi Band 4</b>
-    <br>- <b>Xiaomi Mi Band 3</b>
-    <br>- <b>Xiaomi Mi Band 2</b>
-    <br>- <b>Xiaomi Mi Band HRX</b>
-    <br>- <b>Huami Amazfit GTS</b>
-    <br>- <b>Huami Amazfit GTR</b>
-    <br>- <b>Huami Amazfit T-Rex</b>
-    <br>- <b>Huami Amazfit Bip S</b>
-    <br>- <b>Huami Amazfit Bip/Bip Lite</b>
-    <br>- <b>Huami Amazfit Verge Lite</b>
-    <br>- <b>Huami Amazfit Band 2 (A1713)</b>
-    <br>- <b>Huami Amazfit Cor (MiDong)</b>
-    <br>- <b>Huami Amazfit Arc (A1603)</b>
+    <br>• <b>Xiaomi Mi Band 4</b>
+    <br>• <b>Xiaomi Mi Band 3</b>
+    <br>• <b>Xiaomi Mi Band 2</b>
+    <br>• <b>Xiaomi Mi Band HRX</b>
+    <br>• <b>Huami Amazfit GTS</b>
+    <br>• <b>Huami Amazfit GTR</b>
+    <br>• <b>Huami Amazfit T-Rex</b>
+    <br>• <b>Huami Amazfit Bip S</b>
+    <br>• <b>Huami Amazfit Bip/Bip Lite</b>
+    <br>• <b>Huami Amazfit Verge Lite</b>
+    <br>• <b>Huami Amazfit Band 2 (A1713)</b>
+    <br>• <b>Huami Amazfit Cor (MiDong)</b>
+    <br>• <b>Huami Amazfit Arc (A1603)</b>
     <p>Si utiliza más aplicaciones para controlar la Band, puede que interfieran entre sí, desactivelas temporalmente.</p>
     <p>Si no puede encontrar la Band, puede establecer la dirección MAC, manualmente, en el menú de detalles (La dirección MAC se puede encontrar en: Mi Fit/Perfil/Band).</p>
     <p><b>Si tiene un problema de conexión:</b>
@@ -420,6 +420,7 @@
     <string name="notification_group_text_name">Nombre</string>
     <string name="notification_group_text_title">Título</string>
     <string name="notification_group_text_content">Contenido</string>
+    <string name="notification_group_text_big_content">Contenido completo</string>
     <string name="notification_group_text_content_slice_title">Longitud de texto</string>
     <string name="notification_group_display_time_title">Tiempo de visualización</string>
     <string name="notification_group_vibration_title">Personalización de vibración</string>
@@ -547,7 +548,7 @@
 
     <string name="touch_call_mute_title">Silenciar llamada</string>
     <string name="touch_call_mute_only_call_state_ringing_title">Solo si tienes una llamada entrante</string>
-    <string name="touch_call_mute_recognition_title">En llamada entrante </string>
+    <string name="touch_call_mute_recognition_title">En llamada entrante</string>
     <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
 
     <string name="touch_device_location_title">Encontrar mi dispositivo</string>
