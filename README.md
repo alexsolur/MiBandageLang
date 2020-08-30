@@ -2,7 +2,7 @@
 
 Mi Band and Amazfit support, extends the capability of the Amazfit or Mi Fit app
 
-## Supported devices:
+## Supported devices
 - Xiaomi Mi Band 5
 - Xiaomi Mi Band 4
 - Xiaomi Mi Band 3
