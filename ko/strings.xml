@@ -11,7 +11,7 @@
     <string name="drawer_nav_sleep">수면</string>
     <string name="drawer_nav_pulse">심박수</string>
     <string name="drawer_nav_time">시간</string>
-    <string name="drawer_nav_reminder">행사 리마인더</string>
+    <string name="drawer_nav_reminder">이벤트 리마인더</string>
     <string name="drawer_nav_weather">날씨</string>
     <string name="drawer_nav_watch_face">디스플레이</string>
     <string name="drawer_nav_firmware">펌웨어</string>
@@ -120,10 +120,10 @@
     <string name="mi_band_setting_discoverable">발견 가능</string>
 
     <string name="pref_text_title">텍스트 표시</string>
-    <string name="pref_text_conversion_summary">Convert text message characters</string>
+    <string name="pref_text_conversion_summary">문자 메시지 문자 변환</string>
     <string name="pref_cat_text_conversion">%1$s 신호</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_text_conversion_title">Transliteration</string>
-    <string name="pref_text_conversion_summary_on">Not recognisable characters conversion, turn off if the Band supports your language or you have installed custom font firmware</string>
+    <string name="pref_text_conversion_title">전자</string>
+    <string name="pref_text_conversion_summary_on">인식할 수 없는 글자 변환, 밴드가 당신의 언어를 지원하거나 사용자 지정 폰트 펌웨어를 설치한 경우 끄세요</string>
     <string name="pref_text_conversion_excluded_title">제외된 글자</string>
     <string name="pref_text_emoticon_title">이모지 변환</string>
     <string name="pref_text_emoji_title">Emoji display</string>
@@ -131,7 +131,7 @@
     <string name="pref_text_emoticon_summary_on">이모지를 이모티콘으로 변환</string>
     <string name="pref_text_uppercase_title">대문자 변환</string>
     <string name="pref_text_uppercase_summary_on">소문자를 대문자로 변환</string>
-    <string name="pref_text_length">텍스트 길이, depends on the font used (for example Chinese or Cyrillic characters)</string>
+    <string name="pref_text_length">텍스트 길이, 사용하는 폰트에 따라 다름depends on the font used (for example 한자 또는 키릴 문자)</string>
     <string name="pref_text_length_summary_on">%1$,d 글자</string>
 
     <string name="mi_band_setting_menu_visible">보이는 메뉴 항목</string>
@@ -226,7 +226,7 @@
     <string name="pref_cat_call">수신 전화</string>
     <string name="pref_call_title">수신 전화 신호</string>
     <string name="pref_call_summary_on">활성화 (반드시 Mi 피트 앱에서 수신 전화를 끄세요)</string>
-    <string name="pref_call_text_title">수신자 번호 표시</string>
+    <string name="pref_call_text_title">발신자 번호 표시</string>
     <string name="pref_call_text_summary_on"><![CDATA[활성화 (더 많은 정보: <i>설정/텍스트 아이콘 설정)</i>]]></string>
 
     <string name="pref_call_notification_rejected">거절된 전화에 대한 알림 표시</string>
@@ -595,7 +595,7 @@
     <string name="touch_time_launch_title">Start time monitoring</string>
     <string name="touch_time_launch_type_timer_title">타이머</string>
     <string name="touch_time_launch_type_stopper_title">스톱워치</string>
-    <string name="touch_time_launch_type_interval_title">Interval</string>
+    <string name="touch_time_launch_type_interval_title">반복 알림</string>
     <string name="touch_time_launch_restart">Restart if it is in progress</string>
     <string name="touch_time_reminder_title">남은/지난 시간 표시</string>
 
