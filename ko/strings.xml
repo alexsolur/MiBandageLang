@@ -49,7 +49,9 @@
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">배터리 잔량・마지막 충전 시간・예상 잔여 시간</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI・마지막 연결 및 연결 해제 시간</string>
+<!--    <string name="mi_band_state_connected_disconnected_last_time">RSSI・마지막 연결 및 연결 해제 시간</string>-->
+    <string name="mi_band_state_connected_disconnected_last_time">마지막 연결 및 연결 해제 시간</string>
+    <string name="mi_band_search">검색</string>
     <string name="mi_band_touch">터치 모니터링</string>
     <string name="mi_band_alarm">다음 알람</string>
     <string name="mi_band_bonded_device_name">페어링된 기기 이름</string>
@@ -66,6 +68,7 @@
     <string name="mi_band_state_not_bonded">페어링되지 않은 기기</string>
 
     <!-- Mi Band setting -->
+    <string name="mi_band_setting_button_title">%1$s 설정・프로필・본문・수신 전화 알림・메뉴</string>
     <string name="mi_band_setting_title">%1$s 설정</string>
 
     <string name="mi_band_setting_menu_profile">프로필</string>
@@ -133,6 +136,10 @@
     <string name="pref_text_uppercase_summary_on">소문자를 대문자로 변환</string>
     <string name="pref_text_length">텍스트 길이, 사용하는 폰트에 따라 다름depends on the font used (for example 한자 또는 키릴 문자)</string>
     <string name="pref_text_length_summary_on">%1$,d 글자</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Find</string>
+    <string name="pref_text_char_replacement_replace">Replace with</string>
 
     <string name="mi_band_setting_menu_visible">보이는 메뉴 항목</string>
     <string name="mi_band_setting_menu_hidden">숨긴 메뉴 항목</string>

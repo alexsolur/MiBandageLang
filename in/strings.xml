@@ -48,7 +48,9 @@
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Battery level・last charging time・estimated remaining time</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI・last connection and disconnection time</string>
+<!--    <string name="mi_band_state_connected_disconnected_last_time">RSSI・last connection and disconnection time</string>-->
+    <string name="mi_band_state_connected_disconnected_last_time">Last connection and disconnection time</string>
+    <string name="mi_band_search">Cari</string>
     <string name="mi_band_touch">Touch monitoring</string>
     <string name="mi_band_alarm">Next alarm</string>
     <string name="mi_band_bonded_device_name">Nama perangkat pasangan</string>
@@ -65,6 +67,7 @@
     <string name="mi_band_state_not_bonded">Perangkat tidak tersambung</string>
 
     <!-- Mi Band setting -->
+    <string name="mi_band_setting_button_title">Pengaturan %1$s・Profil・Teks・Panggilan・Menu</string>
     <string name="mi_band_setting_title">Pengaturan %1$s</string>
 
     <string name="mi_band_setting_menu_profile">Profil</string>
@@ -132,6 +135,10 @@
     <string name="pref_text_uppercase_summary_on">Convert lowercase to uppercase</string>
     <string name="pref_text_length">Text length, depends on the font used (for example Chinese or Cyrillic characters)</string>
     <string name="pref_text_length_summary_on">%1$,d characters</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Find</string>
+    <string name="pref_text_char_replacement_replace">Replace with</string>
 
     <string name="mi_band_setting_menu_visible">Item menu yang terlihat</string>
     <string name="mi_band_setting_menu_hidden">Item menu tersembunyi</string>

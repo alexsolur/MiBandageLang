@@ -48,7 +48,9 @@
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo kalori -->
     <string name="mi_band_battery">Batteri-level・siste lade tid・beregnet gjenværende tid</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI・siste tilkoblings og frakoblings-tid</string>
+<!--    <string name="mi_band_state_connected_disconnected_last_time">RSSI・siste tilkoblings og frakoblings-tid</string>-->
+    <string name="mi_band_state_connected_disconnected_last_time">Siste tilkoblings og frakoblings-tid</string>
+    <string name="mi_band_search">Søk</string>
     <string name="mi_band_touch">Trykke-monitorering</string>
     <string name="mi_band_alarm">Neste alarm</string>
     <string name="mi_band_bonded_device_name">Parret enhet navn</string>
@@ -65,6 +67,7 @@
     <string name="mi_band_state_not_bonded">Ikke parret enhet</string>
 
     <!-- Mi Band setting -->
+    <string name="mi_band_setting_button_title">%1$s-instillinger・Profil・Text・Anrop・Meny</string>
     <string name="mi_band_setting_title">%1$s-instillinger</string>
 
     <string name="mi_band_setting_menu_profile">Profil</string>
@@ -132,6 +135,10 @@
     <string name="pref_text_uppercase_summary_on">Konvertere småbokstaver til blokkbokstaver</string>
     <string name="pref_text_length">Text lengde, avhenger av skriftstilen som brukes (for eksempel Kinesiske eller Cyrilliske karakterer)</string>
     <string name="pref_text_length_summary_on">%1$,d karakterer</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Find</string>
+    <string name="pref_text_char_replacement_replace">Replace with</string>
 
     <string name="mi_band_setting_menu_visible">Synlige menyelementer</string>
     <string name="mi_band_setting_menu_hidden">Skjulte menyelementer</string>

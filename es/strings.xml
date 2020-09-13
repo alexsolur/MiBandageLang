@@ -48,7 +48,9 @@
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Nivel de Batería・Ultima hora de carga・Tiempo estimado pendiente</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI・Ultima hora de conexión y desconexión</string>
+<!--    <string name="mi_band_state_connected_disconnected_last_time">RSSI・Ultima hora de conexión y desconexión</string>-->
+    <string name="mi_band_state_connected_disconnected_last_time">Ultima hora de conexión y desconexión</string>
+    <string name="mi_band_search">Buscar</string>
     <string name="mi_band_touch">Control Táctil</string>
     <string name="mi_band_alarm">Siguiente Alarma</string>
     <string name="mi_band_bonded_device_name">Nombre del dispositivo emparejado</string>
@@ -65,6 +67,7 @@
     <string name="mi_band_state_not_bonded">Dispositivo No emparejado</string>
 
     <!-- Mi Band setting -->
+    <string name="mi_band_setting_button_title">Menú de la %1$s・Perfil・Texto・Llamada・Menú</string>
     <string name="mi_band_setting_title">Menú de la %1$s</string>
 
     <string name="mi_band_setting_menu_profile">Perfil</string>
@@ -132,6 +135,10 @@
     <string name="pref_text_uppercase_summary_on">Convertir minúsculas en mayúsculas</string>
     <string name="pref_text_length">Longitud de texto, depende de la fuente que se use (Por ejemplo Chino o Cirilico)</string>
     <string name="pref_text_length_summary_on">%1$,d caracteres</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Find</string>
+    <string name="pref_text_char_replacement_replace">Replace with</string>
 
     <string name="mi_band_setting_menu_visible">Elementos del menú visibles</string>
     <string name="mi_band_setting_menu_hidden">Elementos de menú ocultos</string>

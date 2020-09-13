@@ -48,7 +48,9 @@
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Livello batteria・ultima ricarica・durata stimata rimanente</string>
-    <string name="mi_band_state_connected_disconnected_last_time">Potenza segnale・tempo dall\'ultima connessione e disconnessione</string>
+<!--    <string name="mi_band_state_connected_disconnected_last_time">Potenza segnale・tempo dall\'ultima connessione e disconnessione</string>-->
+    <string name="mi_band_state_connected_disconnected_last_time">Tempo dall\'ultima connessione e disconnessione</string>
+    <string name="mi_band_search">Cerca</string>
     <string name="mi_band_touch">Monitor tocchi</string>
     <string name="mi_band_alarm">Prossimo allarme</string>
     <string name="mi_band_bonded_device_name">Nome dispositivo connesso</string>
@@ -65,6 +67,7 @@
     <string name="mi_band_state_not_bonded">Dispositivo non associato</string>
 
     <!-- Mi Band setting -->
+    <string name="mi_band_setting_button_title">Impostazioni %1$s・Profilo・Messaggio・Chiamata・Menu</string>
     <string name="mi_band_setting_title">Impostazioni %1$s</string>
 
     <string name="mi_band_setting_menu_profile">Profilo</string>
@@ -132,6 +135,10 @@
     <string name="pref_text_uppercase_summary_on">Converti lettere minuscole in maiuscole</string>
     <string name="pref_text_length">Lunghezza testo (dipende dal carattere usato - per esempio caratteri cinesi o cirillici)</string>
     <string name="pref_text_length_summary_on">%1$,d caratteri</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Find</string>
+    <string name="pref_text_char_replacement_replace">Replace with</string>
 
     <string name="mi_band_setting_menu_visible">Voci di menu visibili</string>
     <string name="mi_band_setting_menu_hidden">Voci di menu nascoste</string>

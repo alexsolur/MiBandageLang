@@ -48,7 +48,9 @@
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">电池电量・最后充电时间・预计剩余时间</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI・上次连接和断开时间</string>
+<!--    <string name="mi_band_state_connected_disconnected_last_time">RSSI・上次连接和断开时间</string>-->
+    <string name="mi_band_state_connected_disconnected_last_time">上次连接和断开时间</string>
+    <string name="mi_band_search">搜索</string>
     <string name="mi_band_touch">触摸检查</string>
     <string name="mi_band_alarm">下一个闹钟</string>
     <string name="mi_band_bonded_device_name">已配对设备</string>
@@ -65,6 +67,7 @@
     <string name="mi_band_state_not_bonded">未配对设备</string>
 
     <!-- Mi Band setting -->
+    <string name="mi_band_setting_button_title">%1$s 设置・个人信息・文字・呼叫・菜单</string>
     <string name="mi_band_setting_title">%1$s 设置</string>
 
     <string name="mi_band_setting_menu_profile">个人信息</string>
@@ -132,6 +135,10 @@
     <string name="pref_text_uppercase_summary_on">将小写字母转化为大写字母</string>
     <string name="pref_text_length">文本长度 （与字体有关，比如中文和西里尔字母)</string>
     <string name="pref_text_length_summary_on">%1$,d 字</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Find</string>
+    <string name="pref_text_char_replacement_replace">Replace with</string>
 
     <string name="mi_band_setting_menu_visible">Visible menu items</string>
     <string name="mi_band_setting_menu_hidden">Hidden menu items</string>

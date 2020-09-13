@@ -48,7 +48,8 @@
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Úroveň baterie・čas nabíjení・odhadovaný zbývající čas</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI・poslední čas připojení a odpojení</string>
+    <string name="mi_band_state_connected_disconnected_last_time">Poslední čas připojení a odpojení</string>
+    <string name="mi_band_search">Vyhledávání</string>
     <string name="mi_band_touch">Dotyk</string>
     <string name="mi_band_alarm">Další alarm</string>
     <string name="mi_band_bonded_device_name">Název spárovaného náramku</string>
@@ -65,6 +66,7 @@
     <string name="mi_band_state_not_bonded">Není spárováno zařízení</string>
 
     <!-- Mi Band setting -->
+    <string name="mi_band_setting_button_title">Nastavení %1$s・Profil・Text・Hovor・Menu</string>
     <string name="mi_band_setting_title">Nastavení %1$s</string>
 
     <string name="mi_band_setting_menu_profile">Profil</string>
@@ -132,6 +134,10 @@
     <string name="pref_text_uppercase_summary_on">Převod malých písmen na velká písmena</string>
     <string name="pref_text_length">Délka textu (Záleží na typu písma (např. čínština nebo cyrilice)</string>
     <string name="pref_text_length_summary_on">%1$,d znaků</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Find</string>
+    <string name="pref_text_char_replacement_replace">Replace with</string>
 
     <string name="mi_band_setting_menu_visible">Viditelné položky menu</string>
     <string name="mi_band_setting_menu_hidden">Skryté položky menu</string>

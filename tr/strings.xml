@@ -48,7 +48,9 @@
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Şarj・şarj zamanı・tahmini kalan</string>
-    <string name="mi_band_state_connected_disconnected_last_time">Sinyal gücü・son bağlanma ve kopma anları</string>
+<!--    <string name="mi_band_state_connected_disconnected_last_time">Sinyal gücü・son bağlanma ve kopma anları</string>-->
+    <string name="mi_band_state_connected_disconnected_last_time">Son bağlanma ve kopma anları</string>
+    <string name="mi_band_search">Ara</string>
     <string name="mi_band_touch">Dokunma izleme</string>
     <string name="mi_band_alarm">Sonraki alarm</string>
     <string name="mi_band_bonded_device_name">Eşleştirilmiş bileklik ismi</string>
@@ -65,6 +67,7 @@
     <string name="mi_band_state_not_bonded">Eşleştirilmemiş cihaz</string>
 
     <!-- Mi Band setting -->
+    <string name="mi_band_setting_button_title">%1$s ayarları・Profil・Gösterim・Arama・Ekran</string>
     <string name="mi_band_setting_title">%1$s ayarları</string>
 
     <string name="mi_band_setting_menu_profile">Profil</string>
@@ -131,6 +134,10 @@
     <string name="pref_text_uppercase_summary_on">Küçük harfleri büyük harfe dönüştür</string>
     <string name="pref_text_length">Metin uzunluğu, kullanılan yazı tipine bağlıdır (örneğin, Çince veya Kril karatkterleri)</string>
     <string name="pref_text_length_summary_on">%1$,d karakter</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Find</string>
+    <string name="pref_text_char_replacement_replace">Replace with</string>
 
     <string name="mi_band_setting_menu_visible">Görünür ekran öğeleri</string>
     <string name="mi_band_setting_menu_hidden">Gizli ekran öğeleri</string>

@@ -48,7 +48,9 @@
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">バッテリー残量・最後に充電した時間・推定残り時間</string>
-    <string name="mi_band_state_connected_disconnected_last_time">電波強度・最後に接続、切断された時間</string>
+<!--    <string name="mi_band_state_connected_disconnected_last_time">電波強度・最後に接続、切断された時間</string>-->
+    <string name="mi_band_state_connected_disconnected_last_time">最後に接続、切断された時間</string>
+    <string name="mi_band_search">検索</string>
     <string name="mi_band_touch">タッチの監視</string>
     <string name="mi_band_alarm">次のアラーム</string>
     <string name="mi_band_bonded_device_name">ペアリングされたデバイス名</string>
@@ -65,6 +67,7 @@
     <string name="mi_band_state_not_bonded">未ペアリングのデバイス</string>
 
     <!-- Mi Band setting -->
+    <string name="mi_band_setting_button_title">%1$sの設定・ﾌﾟﾛﾌｨｰﾙ・テキスト・通話・メニュー</string>
     <string name="mi_band_setting_title">%1$sの設定</string>
 
     <string name="mi_band_setting_menu_profile">ﾌﾟﾛﾌｨｰﾙ</string>
@@ -132,6 +135,10 @@
     <string name="pref_text_uppercase_summary_on">小文字を大文字に変換します</string>
     <string name="pref_text_length">テキストの長さ（フォントに依存）</string>
     <string name="pref_text_length_summary_on">%1$,d文字</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Find</string>
+    <string name="pref_text_char_replacement_replace">Replace with</string>
 
     <string name="mi_band_setting_menu_visible">表示するメニュー</string>
     <string name="mi_band_setting_menu_hidden">非表示のメニュー</string>
@@ -200,7 +207,7 @@
     <string name="pref_disconnected_summary">%1$sと端末との接続切断時の挙動設定</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_disconnected_signals">接続切断通知</string>
-    <string name="pref_disconnected_signals_summary">Bluetoothを手動でオフにした場合は通知されません</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_signals_summary">%1$s and phone disconnection signals, Bluetoothを手動でオフにした場合は通知されません</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_disconnected_signals_mi_band">%1$sへの通知</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">アイコンの表示とバイブレーション</string>
     <string name="pref_cat_disconnected_signals">端末への通知</string>

@@ -48,7 +48,9 @@
     <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Nivelul bateriei・data ultimei încărcări・estimarea timpului rămas</string>
-    <string name="mi_band_state_connected_disconnected_last_time">RSSI・data ultimei conectări și deconectări</string>
+<!--    <string name="mi_band_state_connected_disconnected_last_time">RSSI・data ultimei conectări și deconectări</string>-->
+    <string name="mi_band_state_connected_disconnected_last_time">Data ultimei conectări și deconectări</string>
+    <string name="mi_band_search">Căutare</string>
     <string name="mi_band_touch">Monitorizare atingere</string>
     <string name="mi_band_alarm">Alarma următoare</string>
     <string name="mi_band_bonded_device_name">Numele dispozitivului împerecheat</string>
@@ -65,6 +67,7 @@
     <string name="mi_band_state_not_bonded">Dispozitiv neîmperecheat</string>
 
     <!-- Mi Band setting -->
+    <string name="mi_band_setting_button_title">Setări %1$s・Profil・Text・Apel・Meniu</string>
     <string name="mi_band_setting_title">Setări %1$s</string>
 
     <string name="mi_band_setting_menu_profile">Profil</string>
@@ -132,6 +135,10 @@
     <string name="pref_text_uppercase_summary_on">Convertește litere mici în litere mari</string>
     <string name="pref_text_length">Lungimea textului, depinde de fontul folosit (de exemplu caractere chinezești sau chirilice)</string>
     <string name="pref_text_length_summary_on">Caractere %1$,d</string>
+    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
+    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
+    <string name="pref_text_char_replacement_find">Find</string>
+    <string name="pref_text_char_replacement_replace">Replace with</string>
 
     <string name="mi_band_setting_menu_visible">Elemente de meniu vizibile</string>
     <string name="mi_band_setting_menu_hidden">Elemente ascunse din meniu</string>
