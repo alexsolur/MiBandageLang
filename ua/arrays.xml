@@ -1,572 +1,311 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_gender">
-        <item>Male</item>
-        <item>Female</item>
-    </string-array>
-
-    <string-array name="pref_gender_values">
-        <item>MALE</item>
-        <item>FEMALE</item>
+        <item>Чоловіча</item>
+        <item>Жіноча</item>
     </string-array>
 
     <string-array name="pref_wear_location">
-        <item>Left wrist</item>
-        <item>Right wrist</item>
-    </string-array>
-
-    <string-array name="pref_wear_location_values">
-        <item>LEFT_WRIST</item>
-        <item>RIGHT_WRIST</item>
+        <item>Лівий зап'ясток</item>
+        <item>Правий зап'ясток</item>
     </string-array>
 
     <string-array name="pref_distance_unit">
-        <item>Metric (meters)</item>
-        <item>Imperial (miles)</item>
-    </string-array>
-
-    <string-array name="pref_distance_unit_values">
-        <item>METRIC</item>
-        <item>IMPERIAL</item>
+        <item>Метрична (метри)</item>
+        <item>Імперська (милі)</item>
     </string-array>
 
     <string-array name="pref_lift_wrist_sensitivity">
-        <item>Normal</item>
-        <item>Sensitive</item>
-    </string-array>
-
-    <string-array name="pref_lift_wrist_sensitivity_values">
-        <item>NORMAL</item>
-        <item>SENSITIVE</item>
+        <item>Звичайна</item>
+        <item>Висока</item>
     </string-array>
 
     <string-array name="pref_night_mode">
-        <item>Schedule turn on time</item>
-        <!--<item>Turn on after sunset</item>-->
-    </string-array>
-
-    <string-array name="pref_night_mode_values">
-        <item>SCHEDULED</item>
-        <!--<item>SUNSET</item>-->
+        <item>За розкладом</item>
+        <!--<item>Вмикати після заходу сонця</item>-->
     </string-array>
 
     <string-array name="pref_menu_mi_band">
-        <item>Time</item>
-        <item>Steps</item>
-        <item>Distance</item>
-        <item>Calories</item>
-        <item>Heart rate</item>
-        <item>Battery</item>
-        <item>Status</item>
-        <item>Weather</item>
-        <item>Workout</item>
-        <item>Activities</item>
-        <item>Notifications</item>
-        <item>More</item>
+        <item>Час</item>
+        <item>Кроки</item>
+        <item>Відстань</item>
+        <item>Калорії</item>
+        <item>Пульс</item>
+        <item>Акумулятор</item>
+        <item>Стан</item>
+        <item>Погода</item>
+        <item>Тренування</item>
+        <item>Активність</item>
+        <item>Сповіщення</item>
+        <item>Ще...</item>
         <item>NFC</item>
-        <item>Alarm</item>
-        <item>Timer</item>
-        <item>Event reminder</item>
-        <item>Settings</item>
-        <item>Compass</item>
-        <item>Music</item>
+        <item>Будильник</item>
+        <item>Таймер</item>
+        <item>Нагадування</item>
+        <item>Налаштування</item>
+        <item>Компас</item>
+        <item>Музика</item>
         <item>Alipay</item>
         <item>PAI</item>
-        <item>Stress</item>
-        <item>Breathing</item>
-        <item>Cycles</item>
-        <item>Do not disturb</item>
-        <item>Take a photo</item>
-        <item>Stopwatch</item>
-        <item>Find phone</item>
-        <item>Silent</item>
-        <item>World clock</item>
-    </string-array>
-
-    <string-array name="pref_menu_mi_band_values">
-        <item>CLOCK</item>
-        <item>STEP</item>
-        <item>DISTANCE</item>
-        <item>CALORIE</item>
-        <item>HEART_RATE</item>
-        <item>BATTERY</item>
-        <item>STATUS</item>
-        <item>WEATHER</item>
-        <item>WORKOUT</item>
-        <item>ACTIVITY</item>
-        <item>NOTIFICATION</item>
-        <item>MORE</item>
-        <item>NFC</item>
-        <item>ALARM</item>
-        <item>TIMER</item>
-        <item>REMINDER</item>
-        <item>SETTINGS</item>
-        <item>COMPASS</item>
-        <item>MUSIC</item>
-        <item>ALIPAY</item>
-        <item>PAI</item>
-        <item>STRESS</item>
-        <item>BREATHING</item>
-        <item>CYCLES</item>
-        <item>DND</item>
-        <item>PHOTO</item>
-        <item>STOPWATCH</item>
-        <item>FIND_PHONE</item>
-        <item>SILENT</item>
-        <item>WORLD_CLOCK</item>
+        <item>Стрес</item>
+        <item>Дихання</item>
+        <item>Цикли</item>
+        <item>Не турбувати</item>
+        <item>Зробити фото</item>
+        <item>Секундомір</item>
+        <item>Знайти телефон</item>
+        <item>Тиша</item>
+        <item>Світовий час</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_counter">
-        <item>All notifications</item>
-        <item>Once per Band icon</item>
-        <item>1 \'app\' icon</item>
-        <item>2 \'app\' icon</item>
-        <item>3 \'app\' icon</item>
-    </string-array>
-
-    <string-array name="pref_connected_have_notif_counter_values">
-        <item>-1</item>
-        <item>-2</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
+        <item>Усі сповіщення</item>
+        <item>Одне на значок Band</item>
+        <item>1 значок \'app\'</item>
+        <item>2 значок \'app\'</item>
+        <item>3 значок \'app\'</item>
     </string-array>
 
     <string-array name="pref_connected_have_notif_interval">
-        <item>3 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>20 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>3 hours</item>
-    </string-array>
-
-    <string-array name="pref_connected_have_notif_interval_values">
-        <item>3</item>
-        <item>5</item>
-        <item>10</item>
-        <item>20</item>
-        <item>30</item>
-        <item>60</item>
-        <item>120</item>
-        <item>180</item>
+        <item>3 хвилини</item>
+        <item>5 хвилин</item>
+        <item>10 хвилин</item>
+        <item>20 хвилин</item>
+        <item>30 хвилин</item>
+        <item>1 година</item>
+        <item>2 години</item>
+        <item>3 години</item>
     </string-array>
 
     <string-array name="pref_abandoned_interval">
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>3 minutes</item>
-        <item>4 minutes</item>
-        <item>5 minutes</item>
-        <item>6 minutes</item>
-        <item>7 minutes</item>
-        <item>8 minutes</item>
-        <item>9 minutes</item>
-        <item>10 minutes</item>
+        <item>1 хвилина</item>
+        <item>2 хвилини</item>
+        <item>3 хвилини</item>
+        <item>4 хвилини</item>
+        <item>5 хвилин</item>
+        <item>6 хвилин</item>
+        <item>7 хвилин</item>
+        <item>8 хвилин</item>
+        <item>9 хвилин</item>
+        <item>10 хвилин</item>
     </string-array>
-
-    <integer-array name="pref_abandoned_interval_values">
-        <item>60000</item>
-        <item>120000</item>
-        <item>180000</item>
-        <item>240000</item>
-        <item>300000</item>
-        <item>360000</item>
-        <item>420000</item>
-        <item>480000</item>
-        <item>540000</item>
-        <item>600000</item>
-    </integer-array>
 
     <string-array name="pref_abandoned_notif_interval">
-        <item>10 minutes</item>
-        <item>20 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>3 hours</item>
+        <item>10 хвилин</item>
+        <item>20 хвилин</item>
+        <item>30 хвилин</item>
+        <item>1 година</item>
+        <item>2 години</item>
+        <item>3 години</item>
     </string-array>
 
-    <integer-array name="pref_abandoned_notif_interval_values">
-        <item>10</item>
-        <item>20</item>
-        <item>30</item>
-        <item>60</item>
-        <item>120</item>
-        <item>180</item>
-    </integer-array>
-
     <string-array name="notification_group_counter">
-        <item>All notifications</item>
-        <item>Once per application</item>
-        <item>One signal</item>
+        <item>Усі сповіщення</item>
+        <item>Одне на додаток</item>
+        <item>Одне сповіщення</item>
     </string-array>
 
     <string-array name="notification_group_repeat">
-        <item>Always</item>
-        <item>Never</item>
-        <item>Once</item>
-        <item>Twice</item>
-        <item>Three times</item>
+        <item>Завжди</item>
+        <item>Ніколи</item>
+        <item>Раз</item>
+        <item>Двічі</item>
+        <item>Тричі</item>
     </string-array>
 
     <string-array name="notification_group_grouped_dispay">
-        <item>Show all when the device is connecting, otherwise only the latest notification</item>
-        <item>Show all notifications</item>
-        <item>Show only the latest notification</item>
-    </string-array>
-
-    <string-array name="notification_group_grouped_display_values">
-        <item>AUTO</item>
-        <item>ALL</item>
-        <item>LATEST</item>
+        <item>Показати всі при під'єднанні, інакше лише останнє сповіщення</item>
+        <item>Показати всі сповіщення</item>
+        <item>Показати лише останнє сповіщення</item>
     </string-array>
 
     <string-array name="notification_group_grouped_order">
-        <item>In normal order</item>
-        <item>In reverse order</item>
-    </string-array>
-
-    <string-array name="notification_group_grouped_order_values">
-        <item>NORMAL</item>
-        <item>REVERSE</item>
+        <item>У звичайному порядку</item>
+        <item>У зворотньому порядку</item>
     </string-array>
 
     <string-array name="touch_call_mute_ringer_mode">
-        <item>Vibrate</item>
-        <item>Mute</item>
-        <item>Do not disturb (priority only)</item>
-        <item>Do not disturb (alarms only)</item>
-        <item>Do not disturb (total silence)</item>
+        <item>Вібрувати</item>
+        <item>Приглушити</item>
+        <item>Не турбувати (тільки приорітетні)</item>
+        <item>Не турбувати (тільки будильники)</item>
+        <item>Не турбувати (повна тиша)</item>
     </string-array>
 
     <string-array name="touch_music_player">
-        <item>Default music player</item>
-        <item>Currently running player</item>
+        <item>Програвач за замовчанням</item>
+        <item>Запущений програвач</item>
         <item>Google Play Music</item>
         <item>Spotify Music</item>
     </string-array>
 
-    <string-array name="touch_music_player_values">
-        <item></item>
-        <item>ACTIVE</item>
-        <item>com.google.android.music</item>
-        <item>com.spotify.music</item>
-    </string-array>
-
     <string-array name="touch_music_info">
-        <item>No notification</item>
-        <item>Artist#Title</item>
-        <item>Artist, Title</item>
-        <item>Title</item>
-    </string-array>
-
-    <string-array name="touch_music_info_values">
-        <item>NONE</item>
-        <item>ARTIST#TITLE</item>
-        <item>ARTIST_TITLE</item>
-        <item>TITLE</item>
+        <item>Не сповіщати</item>
+        <item>Виконавець#Назва</item>
+        <item>Виконавець, Назва</item>
+        <item>Назва</item>
     </string-array>
 
     <string-array name="touch_music_function_info">
-        <item>Title</item>
-        <item>Artist: Title</item>
-        <item>Artist: Album - Title</item>
-    </string-array>
-
-    <string-array name="touch_music_function_info_values">
-        <item>TITLE</item>
-        <item>ARTIST_TITLE</item>
-        <item>ARTIST_ALBUM_TITLE</item>
+        <item>Назва</item>
+        <item>Виконавець: Назва</item>
+        <item>Виконавець: Альбом - Назва</item>
     </string-array>
 
     <string-array name="touch_camera_app">
-        <item>Default (root is needed)</item>
+        <item>За замовчуванням (необхідний root)</item>
         <item>Open Camera</item>
     </string-array>
 
-    <string-array name="touch_camera_app_values">
-        <item></item>
-        <item>net.sourceforge.opencamera</item>
-    </string-array>
-
     <string-array name="pref_timer_time_interval_repeat">
-        <item>Off</item>
-        <item>1 minutes</item>
-        <item>2 minutes</item>
-        <item>3 minutes</item>
-        <item>4 minutes</item>
-        <item>5 minutes</item>
-        <item>6 minutes</item>
-        <item>7 minutes</item>
-        <item>8 minutes</item>
-        <item>9 minutes</item>
-        <item>10 minutes</item>
-        <item>11 minutes</item>
-        <item>12 minutes</item>
-        <item>13 minutes</item>
-        <item>14 minutes</item>
-        <item>15 minutes</item>
-        <item>20 minutes</item>
-        <item>30 minutes</item>
-        <item>40 minutes</item>
-        <item>50 minutes</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>3 hours</item>
-        <item>4 hours</item>
-        <item>5 hours</item>
+        <item>Вимкнено</item>
+        <item>1 хвилина</item>
+        <item>2 хвилини</item>
+        <item>3 хвилини</item>
+        <item>4 хвилини</item>
+        <item>5 хвилин</item>
+        <item>6 хвилин</item>
+        <item>7 хвилин</item>
+        <item>8 хвилин</item>
+        <item>9 хвилин</item>
+        <item>10 хвилин</item>
+        <item>11 хвилин</item>
+        <item>12 хвилин</item>
+        <item>13 хвилин</item>
+        <item>14 хвилин</item>
+        <item>15 хвилин</item>
+        <item>20 хвилин</item>
+        <item>30 хвилин</item>
+        <item>40 хвилин</item>
+        <item>50 хвилин</item>
+        <item>1 година</item>
+        <item>2 години</item>
+        <item>3 години</item>
+        <item>4 години</item>
+        <item>5 годин</item>
     </string-array>
-
-    <integer-array name="pref_timer_time_interval_repeat_values">
-        <item>0</item>
-        <item>60000</item>
-        <item>120000</item>
-        <item>180000</item>
-        <item>240000</item>
-        <item>300000</item>
-        <item>360000</item>
-        <item>420000</item>
-        <item>480000</item>
-        <item>540000</item>
-        <item>600000</item>
-        <item>660000</item>
-        <item>720000</item>
-        <item>780000</item>
-        <item>840000</item>
-        <item>900000</item>
-        <item>1200000</item>
-        <item>1800000</item>
-        <item>2400000</item>
-        <item>3000000</item>
-        <item>3600000</item>
-        <item>7200000</item>
-        <item>10800000</item>
-        <item>14400000</item>
-        <item>18000000</item>
-    </integer-array>
 
     <string-array name="notification_group_text_content_slice">
-        <item>1 slice (1-%1$,d chars)</item>
-        <item>2 slices (1-%1$,d chars)</item>
-        <item>3 slices (1-%1$,d chars)</item>
-        <item>4 slices (1-%1$,d chars)</item>
-        <item>5 slices (1-%1$,d chars)</item>
-        <item>6 slices (1-%1$,d chars)</item>
-        <item>7 slices (1-%1$,d chars)</item>
-        <item>8 slices (1-%1$,d chars)</item>
-        <item>9 slices (1-%1$,d chars)</item>
-        <item>10 slices (1-%1$,d chars)</item>
+        <item>1 частина (1-%1$,d символів)</item>
+        <item>2 частини (1-%1$,d символів)</item>
+        <item>3 частини (1-%1$,d символів)</item>
+        <item>4 частини (1-%1$,d символів)</item>
+        <item>5 частин (1-%1$,d символів)</item>
+        <item>6 частин (1-%1$,d символів)</item>
+        <item>7 частин (1-%1$,d символів)</item>
+        <item>8 частин (1-%1$,d символів)</item>
+        <item>9 частин (1-%1$,d символів)</item>
+        <item>10 частин (1-%1$,d символів)</item>
     </string-array>
 
     <string-array name="notification_group_display_time">
-        <item>Auto (3 – 5 seconds)</item>
-        <item>3 seconds</item>
-        <item>4 seconds</item>
-        <item>5 seconds</item>
-        <item>6 seconds</item>
-        <item>7 seconds</item>
+        <item>Авто (3 – 5 секунд)</item>
+        <item>3 секунди</item>
+        <item>4 секунди</item>
+        <item>5 секунд</item>
+        <item>6 секунд</item>
+        <item>7 секунд</item>
     </string-array>
-
-    <integer-array name="notification_group_display_time_values">
-        <item>0</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-    </integer-array>
-
-    <integer-array name="notification_group_display_time_millis">
-        <item>0</item>
-        <item>1000</item>
-        <item>2000</item>
-        <item>3200</item>
-        <item>4400</item>
-        <item>5600</item>
-        <item>6700</item>
-        <item>7800</item>
-    </integer-array>
 
     <string-array name="custom_vibration">
-        <item>Default</item>
-        <item>Custom</item>
-    </string-array>
-
-    <string-array name="custom_vibration_values">
-        <item>DEFAULT</item>
-        <item>CUSTOM</item>
+        <item>За замовчуванням</item>
+        <item>Користувацька</item>
     </string-array>
 
     <string-array name="touch_recognition_press">
-        <item>None</item>
-        <item>Touch</item>
-        <item>Double touch</item>
-        <item>Triple touch</item>
-        <item>Long touch</item>
-        <item>Button</item>
+        <item>Немає</item>
+        <item>Один дотик</item>
+        <item>Подвійний дотик</item>
+        <item>Потрійний дотик</item>
+        <item>Довгий дотик</item>
+        <item>Кнопка</item>
     </string-array>
 
     <string-array name="touch_recognition_press_mi_band_4_gtr">
-        <item>None</item>
-        <item>Mute button</item>
-        <item>Double touch</item>
-        <item>Triple touch</item>
-        <item>Reject button</item>
-        <item>Button</item>
+        <item>Немає</item>
+        <item>Кнопка приглушення</item>
+        <item>Подвійний дотик</item>
+        <item>Потрійний дотик</item>
+        <item>Кнопка відхилити</item>
+        <item>Кнопка</item>
     </string-array>
 
     <string-array name="touch_recognition_press_amazfit_bip_cor">
-        <item>None</item>
-        <item>Green button</item>
-        <item>Double touch</item>
-        <item>Triple touch</item>
-        <item>Red button</item>
-        <item>Button</item>
-    </string-array>
-
-    <string-array name="touch_recognition_press_values">
-        <item>NONE</item>
-        <item>TOUCH</item>
-        <item>DOUBLE_TOUCH</item>
-        <item>TRIPLE_TOUCH</item>
-        <item>LONG_TOUCH</item>
-        <item>BUTTON</item>
+        <item>Немає</item>
+        <item>Зелена кнопка</item>
+        <item>Подвійний дотик</item>
+        <item>Потрійний дотик</item>
+        <item>Червона кнопка</item>
+        <item>Кнопка</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method">
-        <item>Pattern recognition</item>
-        <item>Button press counting</item>
-    </string-array>
-
-    <string-array name="pref_touch_detection_method_values">
-        <item></item>
-        <item>COUNTING</item>
+        <item>Розпізнавання зразку</item>
+        <item>Кількість натискань</item>
     </string-array>
 
     <string-array name="pref_touch_detection_method_mi_band_3">
-        <item>Power saving</item>
-        <item>Power saving (+pulse)</item>
-<!--        <item>Power saving (find phone)</item>-->
-<!--        <item>Power saving (pulse and find phone)</item>-->
-        <item>Performance</item>
-    </string-array>
-
-    <string-array name="pref_touch_detection_method_mi_band_3_values">
-        <item></item>
-        <item>PULSE</item>
-<!--        <item>FIND</item>-->
-<!--        <item>PULSE_FIND</item>-->
-        <item>PERFORMANCE</item>
+        <item>Енергозбереження</item>
+        <item>Енергозбереження(+пульс)</item>
+<!--        <item>Енергозбереження(знайти телефон)</item>-->
+<!--        <item>Енергозбереження(пульс та знайти телефон)</item>-->
+        <item>Продуктивність</item>
     </string-array>
 
     <string-array name="touch_recognition_start_trigger">
-        <item>None</item>
-        <item>Touch</item>
+        <item>Немає</item>
+        <item>Дотик</item>
     </string-array>
 
     <string-array name="touch_recognition_start_trigger_button">
-        <item>None</item>
-        <item>Button press</item>
-        <item>Long press the button</item>
-    </string-array>
-
-    <string-array name="touch_recognition_start_trigger_values">
-        <item>NONE</item>
-        <item>PATTERN</item>
-        <item>LONG_PRESS</item>
+        <item>Немає</item>
+        <item>Натискання кнопки</item>
+        <item>Довге натискання кнопки</item>
     </string-array>
 
     <string-array name="pref_reminder_calendar_notif_before">
-        <item>No</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>15 minutes</item>
-        <item>20 minutes</item>
-        <item>30 minutes</item>
-        <item>45 minutes</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>3 hours</item>
-    </string-array>
-
-    <integer-array name="pref_reminder_calendar_notif_before_values">
-        <item>0</item>
-        <item>300000</item>
-        <item>600000</item>
-        <item>900000</item>
-        <item>1200000</item>
-        <item>1800000</item>
-        <item>2400000</item>
-        <item>3600000</item>
-        <item>7200000</item>
-        <item>10800000</item>
-    </integer-array>
-
-    <string-array name="pref_weather_provider_values">
-        <item>OPEN_WEATHER_MAP</item>
-        <item>DARK_SKY</item>
-        <item>ACCU_WEATHER</item>
+        <item>Немає</item>
+        <item>5 хвилин</item>
+        <item>10 хвилин</item>
+        <item>15 хвилин</item>
+        <item>20 хвилин</item>
+        <item>30 хвилин</item>
+        <item>45 хвилин</item>
+        <item>1 година</item>
+        <item>2 години</item>
+        <item>3 години</item>
     </string-array>
 
     <string-array name="pref_weather_unit">
-        <item>Metric (Celsius ℃)</item>
-        <item>Imperial (Fahrenheit ℉)</item>
-    </string-array>
-
-    <string-array name="pref_weather_unit_values">
-        <item>METRIC</item>
-        <item>IMPERIAL</item>
+        <item>Метрична (за Цельсієм ℃)</item>
+        <item>Імперська (за Фаренгейтом ℉)</item>
     </string-array>
 
     <string-array name="pref_weather_current_display">
-        <item>Current</item>
-        <item>Current, precipitation, cloud cover</item>
-        <item>Average</item>
-        <item>Am, Pm</item>
-    </string-array>
-
-    <string-array name="pref_weather_current_display_values">
-        <item>CURRENT</item>
-        <item>CURRENT_PRECIP_CC</item>
-        <item>AVERAGE</item>
-        <item>AM_PM</item>
+        <item>Поточна</item>
+        <item>Поточна, опади, хмарність</item>
+        <item>Середня</item>
+        <item>Ранок, Вечір</item>
     </string-array>
 
     <string-array name="pref_weather_forecast_display">
-        <item>Average</item>
-        <!--<item>Average, precipitation, cloud cover</item>-->
-        <item>Am, Pm</item>
-    </string-array>
-
-    <string-array name="pref_weather_forecast_display_values">
-        <item>AVERAGE</item>
-        <!--<item>AVERAGE_PRECIP_CC</item>-->
-        <item>AM_PM</item>
+        <item>Середня</item>
+        <!--<item>Середня, опади, хмарність</item>-->
+        <item>Ранок, Вечір</item>
     </string-array>
 
     <string-array name="widget_event">
-        <item>Bandages screen</item>
-        <item>Activity screen</item>
-        <item>Pulse screen</item>
-        <item>Pulse measurement</item>
-        <item>Alarm screen</item>
-        <item>Reminder screen</item>
-    </string-array>
-
-    <string-array name="widget_event_values">
-        <item>LAUNCH_BANDAGES</item>
-        <item>LAUNCH_ACTIVITY</item>
-        <item>LAUNCH_PULSE</item>
-        <item>ACTION_PULSE</item>
-        <item>LAUNCH_TIME_ALARM</item>
-        <item>LAUNCH_REMINDER</item>
+        <item>Бандажі</item>
+        <item>Активність</item>
+        <item>Пульс</item>
+        <item>Вимірювання пульсу</item>
+        <item>Будильник</item>
+        <item>Нагадування</item>
     </string-array>
 
     <string-array name="pref_language">
         <item>Default</item>
+        <item>Українська</item>
         <item>English</item>
         <item>Magyar</item>
         <item>Русский</item>
@@ -591,6 +330,7 @@
 
     <string-array name="pref_language_values">
         <item>DEFAULT</item>
+        <item>ua</item>
         <item>en</item>
         <item>hu</item>
         <item>ru</item>
@@ -614,8 +354,8 @@
     </string-array>
 
     <string-array name="pref_language_mi_band_3">
-        <item>Not set (set by Mi Fit)</item>
-        <item>Default (by phone)</item>
+        <item>Не обрано (обрано Mi Fit)</item>
+        <item>За замовчанням (системна)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -637,33 +377,9 @@
         <item>عربى</item>
     </string-array>
 
-    <string-array name="pref_language_mi_band_3_values">
-        <item></item>
-        <item>DEFAULT</item>
-        <item>en_US</item>
-        <item>es_ES</item>
-        <item>pt_PT</item>
-        <item>ru_RU</item>
-        <item>uk_UA</item>
-        <item>de_DE</item>
-        <item>it_IT</item>
-        <item>fr_FR</item>
-        <item>pl_PL</item>
-        <item>nl_NL</item>
-        <item>tr_TR</item>
-        <item>id_ID</item>
-        <item>ko_KO</item>
-        <item>vi_VN</item>
-        <item>th_TH</item>
-        <item>zh_CN</item>
-        <item>zh_TW</item>
-        <item>ja_JP</item>
-        <item>ar_SA</item>
-    </string-array>
-
     <string-array name="pref_language_mi_band_4">
-        <item>Not set (set by Mi Fit)</item>
-        <item>Default (by phone)</item>
+        <item>Не обрано (обрано Mi Fit)</item>
+        <item>За замовчанням (системна)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -688,36 +404,9 @@
         <item>عربى</item>
     </string-array>
 
-    <string-array name="pref_language_mi_band_4_values">
-        <item></item>
-        <item>DEFAULT</item>
-        <item>en_US</item>
-        <item>es_ES</item>
-        <item>pt_BR</item>
-        <item>ru_RU</item>
-        <item>uk_UA</item>
-        <item>de_DE</item>
-        <item>it_IT</item>
-        <item>fr_FR</item>
-        <item>pl_PL</item>
-        <item>cs_CZ</item>
-        <item>nl_NL</item>
-        <item>tr_TR</item>
-        <item>el_GR</item>
-        <item>ro_RO</item>
-        <item>ko_KO</item>
-        <item>ja_JP</item>
-        <item>vi_VN</item>
-        <item>th_TH</item>
-        <item>id_ID</item>
-        <item>zh_CN</item>
-        <item>zh_TW</item>
-        <item>ar_SA</item>
-    </string-array>
-
     <string-array name="pref_language_amazfit_bip_watch">
-        <item>Not set (set by Mi Fit)</item>
-        <item>Default (by phone)</item>
+        <item>Не обрано (обрано Mi Fit)</item>
+        <item>За замовчанням (системна)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -733,27 +422,9 @@
         <item>日本語</item>
     </string-array>
 
-    <string-array name="pref_language_amazfit_bip_watch_values">
-        <item></item>
-        <item>DEFAULT</item>
-        <item>en_US</item>
-        <item>es_ES</item>
-        <item>pt_BR</item>
-        <item>ru_RU</item>
-        <item>it_IT</item>
-        <item>de_DE</item>
-        <item>fr_FR</item>
-        <item>tr_TR</item>
-        <item>ko_KO</item>
-        <item>zh_TW</item>
-        <item>zh_CH</item>
-        <item>zh_CN</item>
-        <item>ja_JP</item>
-    </string-array>
-
     <string-array name="pref_language_amazfit_cor">
-        <item>Not set (set by Mi Fit)</item>
-        <item>Default (by phone)</item>
+        <item>Не обрано (обрано Mi Fit)</item>
+        <item>За замовчанням (системна)</item>
         <item>English</item>
         <item>Español</item>
         <item>Русский</item>
@@ -761,19 +432,9 @@
         <item>简体中文</item>
     </string-array>
 
-    <string-array name="pref_language_amazfit_cor_values">
-        <item></item>
-        <item>DEFAULT</item>
-        <item>en_US</item>
-        <item>es_ES</item>
-        <item>ru_RU</item>
-        <item>zh_TW</item>
-        <item>zh_CN</item>
-    </string-array>
-
     <string-array name="pref_language_amazfit_gtr">
-        <item>Not set (set by Mi Fit)</item>
-        <item>Default (by phone)</item>
+        <item>Не обрано (обрано Mi Fit)</item>
+        <item>За замовчанням (системна)</item>
         <item>English</item>
         <item>Español</item>
         <item>Português</item>
@@ -793,29 +454,5 @@
         <item>繁體中文</item>
         <item>日本語</item>
         <item>عربى</item>
-    </string-array>
-
-    <string-array name="pref_language_amazfit_gtr_values">
-        <item></item>
-        <item>DEFAULT</item>
-        <item>en_US</item>
-        <item>es_ES</item>
-        <item>pt_BR</item>
-        <item>ru_RU</item>
-        <item>uk_UA</item>
-        <item>de_DE</item>
-        <item>it_IT</item>
-        <item>fr_FR</item>
-        <item>pl_PL</item>
-        <item>nl_NL</item>
-        <item>tr_TR</item>
-        <item>id_ID</item>
-        <item>ko_KO</item>
-        <item>vi_VN</item>
-        <item>th_TH</item>
-        <item>zh_CN</item>
-        <item>zh_TW</item>
-        <item>ja_JP</item>
-        <item>ar_SA</item>
     </string-array>
 </resources>
