@@ -25,72 +25,72 @@
     <string name="drawer_nav_privacy_policy">Політика конфіденційності</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
-    <string name="shortcut_touch">Touch</string>
-    <string name="shortcut_step">Activity</string>
-    <string name="shortcut_pulse">Pulse</string>
-    <string name="shortcut_time_alarm">Alarm</string>
-    <string name="shortcut_reminder">Reminder</string>
+    <string name="shortcut_touch">Дотики</string>
+    <string name="shortcut_step">Активність</string>
+    <string name="shortcut_pulse">Пульс</string>
+    <string name="shortcut_time_alarm">Будильник</string>
+    <string name="shortcut_reminder">Нагадування</string>
 
-    <string name="setting_name">Setting</string>
-    <string name="settings_name">Settings</string>
-    <string name="app_chooser">App chooser</string>
-    <string name="info_name">Information</string>
+    <string name="setting_name">Налаштування</string>
+    <string name="settings_name">Налаштування</string>
+    <string name="app_chooser">Вибір додатку</string>
+    <string name="info_name">Інформація</string>
 
     <!-- Foreground service, ongoing notification -->
-    <string name="foreground_service_connected">Connection time: %1$s</string>
-    <string name="foreground_service_disconnected_text">%1$s is not connected</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <!--<string name="foreground_service_disconnected">Disconnection time: %1$s</string>-->
+    <string name="foreground_service_connected">Час з'єднання: %1$s</string>
+    <string name="foreground_service_disconnected_text">%1$s роз'єднаний</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <!--<string name="foreground_service_disconnected">Час роз'єднання: %1$s</string>-->
 
     <!-- Bandages screen -->
-    <string name="mi_band_tracker_title">Steps・distance・calories・goal・pulse</string>
+    <string name="mi_band_tracker_title">Кроки・відстань・калорії・мета・пульс</string>
     <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
-    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
-    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
-    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
-    <string name="mi_band_battery">Battery level・last charging time・estimated remaining time</string>
-    <string name="mi_band_state_connected_disconnected_last_time">Last connection and disconnection time</string>
-    <string name="mi_band_search">Search</string>
-    <string name="mi_band_touch">Touch monitoring</string>
-    <string name="mi_band_alarm">Next alarm</string>
-    <string name="mi_band_bonded_device_name">Paired device name</string>
-    <string name="mi_band_mac_address">MAC address</string>
-    <string name="mi_band_firmware">Firmware</string>
-    <string name="mi_band_hardware">Hardware</string>
+    <string name="mi_band_tracker_distance_meter_title">%1$,d м</string> <!-- meter -->
+    <string name="mi_band_tracker_distance_mile_title">%,.2f миль</string> <!-- mile -->
+    <string name="mi_band_tracker_calorie_title">%1$,d ккал</string> <!-- kilo calorie -->
+    <string name="mi_band_battery">Рівень заряду・час останнього зарядження・розрахунковий час роботи</string>
+    <string name="mi_band_state_connected_disconnected_last_time">Час останніх з'єднання/роз'єднання</string>
+    <string name="mi_band_search">Пошук</string>
+    <string name="mi_band_touch">Контроль дотиків</string>
+    <string name="mi_band_alarm">Наступний будильник</string>
+    <string name="mi_band_bonded_device_name">Назва спареного пристрою</string>
+    <string name="mi_band_mac_address">MAC адреса</string>
+    <string name="mi_band_firmware">Мікропрограма</string>
+    <string name="mi_band_hardware">Апаратна версія</string>
 
-    <string name="mi_band_mac_address_invalid">MAC address is invalid</string>
+    <string name="mi_band_mac_address_invalid">Невірна MAC адреса</string>
 
-    <string name="mi_band_state_title">%1$s settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="mi_band_state_connected">Connected</string>
-    <string name="mi_band_state_disconnected">Disconnected</string>
-    <string name="mi_band_state_bonded">Paired device</string>
-    <string name="mi_band_state_not_bonded">Not paired device</string>
+    <string name="mi_band_state_title">Налаштування %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="mi_band_state_connected">Підключений</string>
+    <string name="mi_band_state_disconnected">Відключений</string>
+    <string name="mi_band_state_bonded">Спарений пристрій</string>
+    <string name="mi_band_state_not_bonded">Не спарений пристрій</string>
 
     <!-- Mi Band setting -->
-    <string name="mi_band_setting_button_title">%1$s settings・Profile・Text・Call・Menu</string>
-    <string name="mi_band_setting_title">%1$s settings</string>
+    <string name="mi_band_setting_button_title">Налаштування %1$s・Профіль・Текст・Дзвінки・Меню</string>
+    <string name="mi_band_setting_title">Налаштування %1$s</string>
 
-    <string name="mi_band_setting_menu_profile">Profile</string>
+    <string name="mi_band_setting_menu_profile">Профіль</string>
     <string name="mi_band_setting_menu_setting">@string/setting_name</string>
-    <string name="mi_band_setting_menu_text">Text</string>
-    <string name="mi_band_setting_menu_call">Call</string>
-    <string name="mi_band_setting_menu_menu">Menu</string>
+    <string name="mi_band_setting_menu_text">Текст</string>
+    <string name="mi_band_setting_menu_call">Дзвінки</string>
+    <string name="mi_band_setting_menu_menu">Меню</string>
 
-    <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Mi Fit, Amazfit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage requires the installation of the Mi Fit/Amazfit app on the same phone. At first you have to pair %1$s in Mi Fit/Amazfit app, then you can use Mi Bandage. If you want to use Mi Fit/Amazfit application, choose this.</string>
-    <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Fit/Amazfit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit/Amazfit app or unpair your device. When restoring the Mi Fit/Amazfit cooperation, you will need to re-pair your %1$s in the Mi Fit/Amazfit application.</string>
-    <string name="mi_band_setting_auth_key_title">Set authentication key</string>
-    <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
+    <string name="mi_band_setting_auth_mi_fit">Взаємодія з %1$s</string> <!-- Mi Fit, Amazfit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage потребує втановленого додатку Mi Fit/Amazfit на тому ж телефоні. Спочатку ви маєте спарувати %1$s у додатку Mi Fit/Amazfit, потім ви зможете використовувати Mi Bandage. Оберіть цей пункт, якщо бажаєте використовувати додаток Mi Fit/Amazfit.</string>
+    <string name="mi_band_setting_auth_standalone">Автономна взаємодія</string>
+    <string name="mi_band_setting_auth_standalone_hint">Для роботи Mi Bandage, не потрібний додаток Mi Fit/Amazfit. Після парування, видаліть додаток Mi Fit/Amazfit, або відв'яжіть ваш пристрій. Для відновлення взаємодії з Mi Fit/Amazfit, буде потрібно знову спарувати %1$s у додатку Mi Fit/Amazfit.</string>
+    <string name="mi_band_setting_auth_key_title">Ключ автентифікації</string>
+    <string name="mi_band_setting_auth_key_hint">Ключ автентифікації має бути надано для автономного режиму</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <p>- Unpair %1$s in the official Mi Fit/Amazfit app</p>
-        <p>- Uninstall the official Mi Fit/Amazfit app</p>
-        <p>- Download and install the modified Mi Fit/Amazfit app</p>
-        <p>- Pair the %1$s in the modified Mi Fit/Amazfit app (do not unpair)</p>
-        <p>- Uninstall the modified Mi Fit/Amazfit app</p>
-        Authentication key can be found at: internal storage/freemyband/mac address.txt
+        <p>- Відв'яжіть %1$s у офіційному додатку Mi Fit/Amazfit</p>
+        <p>- Видаліть офіційний додаток Mi Fit/Amazfit</p>
+        <p>- Встановіть модифікований додаток Mi Fit/Amazfit</p>
+        <p>- Спаруйте %1$s з модифікованим додатком Mi Fit/Amazfit (не відв'язуйте)</p>
+        <p>- Видаліть модифікований додаток Mi Fit/Amazfit</p>
+        Ключ автентифікації можна знайти: Внутрішнє сховище/freemyband/mac address.txt
     ]]></string>
-    <string name="mi_band_setting_auth_key">Authentication key</string>
-    <string name="mi_band_setting_auth">Pair</string>
+    <string name="mi_band_setting_auth_key">Ключ автентифікації</string>
+    <string name="mi_band_setting_auth">Парування</string>
 
     <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
     <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
