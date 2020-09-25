@@ -15,7 +15,7 @@
     <string name="drawer_nav_weather">Погода</string>
     <string name="drawer_nav_watch_face">Циферблат</string>
     <string name="drawer_nav_firmware">Мікропрограма</string>
-    <string name="drawer_nav_alarm">Загублення</string>
+    <string name="drawer_nav_alarm">Загублений</string>
     <string name="drawer_nav_disconnected_agent">Агент</string>
     <string name="drawer_nav_theme">Тема</string>
     <string name="drawer_nav_backup">Резервне копіювання</string>
@@ -284,19 +284,19 @@
     <string name="disconnected">Сигнали роз'єднання та агента</string>
     <string name="touch">Контроль дотиків</string>
 
-    <string name="pref_dnd_title">Режим "Не турбувати"</string>
-    <string name="pref_dnd_summary">Стан перемикачів у режимі "не турбувати"</string>
-    <string name="pref_dnd_auto_title">Автоматичний режим "не турбувати"</string>
-    <string name="pref_dnd_auto_summary">Контрольований телефоном режим "не турбувати" має вищий приорітет, ніж режим "не турбувати", що вмикається за розкладом</string>
+    <string name="pref_dnd_title">Режим \"Не турбувати\"</string>
+    <string name="pref_dnd_summary">Стан перемикачів у режимі \"не турбувати\"</string>
+    <string name="pref_dnd_auto_title">Автоматичний режим \"не турбувати\"</string>
+    <string name="pref_dnd_auto_summary">Контрольований телефоном режим \"не турбувати\" має вищий приорітет, ніж режим \"не турбувати\", що вмикається за розкладом</string>
     <string name="pref_dnd_auto_vibrate">Вібрація (тихий)</string>
     <string name="pref_dnd_auto_silent">Не турбувати</string>
-    <string name="pref_dnd_scheduled_title">Режим "не турбувати" за розкладом</string>
+    <string name="pref_dnd_scheduled_title">Режим \"не турбувати\" за розкладом</string>
     <string name="pref_dnd_scheduled_new_title">Назва</string>
-    <string name="pref_dnd_remember_state_summary">Наприкінці дії режиму "не турбувати" увімкнути всі бандажі, або відновити іх стан до початку дії режиму</string>
+    <string name="pref_dnd_remember_state_summary">Наприкінці дії режиму \"не турбувати\" увімкнути всі бандажі, або відновити іх стан до початку дії режиму</string>
     <string name="pref_dnd_remember_state_on_title">Наприкінці відновити стан бандажів</string>
     <string name="pref_dnd_remember_state_off_title">Наприкінці увімкнути всі бандажі</string>
-    <string name="pref_dnd_mi_fit_scheduled">Вмикати режим "не турбувати" на %1$s (вимкнення сповіщень та повороту зап'ястку для перегляду інформації)</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_dnd_enable_bluetooth">На початку режиму "не турбувати" вімкнути Bluetooth, наприкінці — увімкнути</string>
+    <string name="pref_dnd_mi_fit_scheduled">Вмикати режим \"не турбувати\" на %1$s (вимкнення сповіщень та повороту зап'ястку для перегляду інформації)</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_dnd_enable_bluetooth">На початку режиму \"не турбувати\" вімкнути Bluetooth, наприкінці — увімкнути</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Будьласка, увімкніть Bluetooth, та піднесіть браслет ближче до телефона</string>
@@ -307,7 +307,7 @@
     <string name="message_discovered_not_found_mi_band">Якщо браслет не знайдено, увімкніть: Mi Fit/Профіль/Видимість, або під'єднайте через налаштування Bluetooth телефону</string>
     <string name="message_enable_notification_listener_access">Увімкніть доступ до сповіщень: Налаштування/Сповіщення/Доступ до сповіщень</string>
     <string name="message_enable_notification_listener_access_4_4">Увімкніть доступ до сповіщень: Налаштування/Безпека/Доступ до сповіщень</string>
-    <string name="message_enable_notification_policy_access">Увімкніть доступ у режимі "не турбувати"</string>
+    <string name="message_enable_notification_policy_access">Увімкніть доступ у режимі \"не турбувати\"</string>
     <string name="message_open_settings">Налаштування</string>
 
     <string name="message_deleted">Видалено</string>
@@ -402,7 +402,7 @@
     <string name="diagnostic_permissions_autostart">Автозапуск</string>
 
     <string name="diagnostic_access_title">Доступ</string>
-    <string name="diagnostic_access_do_not_disturb">Доступ у режимі "Не турбувати"</string>
+    <string name="diagnostic_access_do_not_disturb">Доступ у режимі \"Не турбувати\"</string>
     <string name="diagnostic_access_notification">Доступ до сповіщень</string>
 
     <string name="diagnostic_protection_title">Захист від закриття</string>
@@ -560,7 +560,7 @@
     <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/Ще/Пошук пристрою</string>
 
     <string name="touch_device_location_title">Знайти телефон</string>
-    <string name="touch_device_location_not_muted_only_title">Грати тільки якщо не вимкнені звуки та не в режимі "Не турбувати"</string>
+    <string name="touch_device_location_not_muted_only_title">Грати тільки якщо увімкнені звуки та не в режимі \"Не турбувати\"</string>
 
     <string name="touch_call_mute_toggle_title">Вимкнення/увімкнення звуку телефона</string>
 
@@ -699,21 +699,21 @@
         <img src="ic_call"> <b><u>Вхідний виклик</b></u>
         <p>Працює завжди, навіть якщо дотики на головному екрані вимкнені.</p>
         <br><p>Під час тестування не виконується функція розпізнаного зразка.</p>
-        <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
-        <p>Band vibrates once, when recognise a pattern.</p>
-        <p>Band vibrates twice, when not recognise any pattern after the longest pattern (if <i>Not recognisable touch pattern signal</i> is set).</p>
+        <p>Браслет вібруватиме тільки в разі співпадіння зразку, враховуючи поточний стан телефона (прийняти/відхилити виклик тільки під час вхідного виклику…).</p>
+        <p>Браслет вібруватиме один раз, якщо зразок розпізнано.</p>
+        <p>Браслет вібруватиме двічі, якщо не розпізнано жодного зразку після найдовшого (якщо встановлено сигнал <i>Зразок не розпізнано</i>).</p>
     ]]></string>
 
     <string name="info_dialog_touch_mi_band_4"><![CDATA[
-        <img src="ic_play_circle_outline"> <b><u>Music screen mod</u></b>
-        <p>On the bracelet, open the music screen (swipe left or right), then close the screen.</p>
-        <img src="ic_touch_find"> <b><u>Find phone</u></b>
-        <p>On the bracelet, in the Find device function (More/Find device) start the finding.</p>
-        <img src="ic_touch_find_off"> <b><u>Interrupt phone finding</u></b>
-        <p>On the bracelet, in the Find device function (More/Find device) interrupt the finding.</p>
-        <img src="ic_call"> <b><u>Incoming call</b></u>
-        <p>It always works, even if the touch monitor is switched off on the main screen.</p>
-        <br><p>In test mode does not execute the function of recognised pattern.</p>
+        <img src="ic_play_circle_outline"> <b><u>Екран музики</u></b>
+        <p>На браслеті відкрийте екран музики (проведіть ліворуч/праворуч), потім закрийте екран.</p>
+        <img src="ic_touch_find"> <b><u>Знайти телефон</u></b>
+        <p>На браслеті у функції пошуку пристрою (More/Find device) почніть пошук.</p>
+        <img src="ic_touch_find_off"> <b><u>Перервати пошук телефона</u></b>
+        <p>На браслеті у функції пошуку пристрою (More/Find device) перервіть пошук.</p>
+        <img src="ic_call"> <b><u>Вхідний виклик</b></u>
+        <p>Працює завжди, навіть якщо дотики на головному екрані вимкнені.</p>
+        <br><p>Під час тестування не виконується функція розпізнаного зразка.</p>
         <p>Браслет вібруватиме тільки в разі співпадіння зразку, враховуючи поточний стан телефона (прийняти/відхилити виклик тільки під час вхідного виклику…).</p>
         <p>Браслет вібруватиме один раз, якщо зразок розпізнано.</p>
         <p>Браслет вібруватиме двічі, якщо не розпізнано жодного зразку після найдовшого (якщо встановлено сигнал <i>Зразок не розпізнано</i>).</p>
@@ -843,10 +843,10 @@
 
     <!-- Lost monitoring -->
     <string name="alarm_mi_band_title">Сигнал %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="alarm_mi_band_service">Фонова служба загублення</string>
+    <string name="alarm_mi_band_service">Фонова служба нагляду</string>
     <string name="alarm_mi_band_service_summary">У випадку частих помилкових спрацьовувань, увімкніть фонову службу для більш стабільної роботи</string>
     <string name="alarm_mi_band_clock">Використовувати будильник телефону, якщо фонова служба не запущена (збільшує енергоспоживання)</string>
-    <string name="alarm_mi_band_dnd">Режим "Не турбувати"</string>
+    <string name="alarm_mi_band_dnd">Режим \"Не турбувати\"</string>
     <string name="alarm_mi_band_interval_title">Налаштування часу повторення попередження</string>
     <string name="alarm_mi_band_time_set_next">Час наступного встановлення</string>
     <string name="alarm_mi_band_time">Час наступного будильника</string>
@@ -865,438 +865,438 @@
     <string name="alarm_mi_band_on_bluetooth_disabled_text">Сигнал про загублення увімкнений на %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Час будильника: %1$s</string>
 
-    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Band signal</u></b>
-        <p>When specified period of time expires, Band send signals if not connected to the phone.</p>
-        <not_support_icon_text><p>App uses alarm function of Mi Fit to alert (overwrite 10. setting).</p></not_support_icon_text>
-        <not_support_icon_text><p>The alarm will be repeated several times if the Band do not detect any movement (because it uses the Band alarm).</p></p></not_support_icon_text>
-        <support_icon_text><p>App uses reminder function of Mi Fit to alert.</p></support_icon_text>
-        <p>Before switching off Bluetooth or uninstalling the app you need to deactivate Band signal.</p>
-        <not_support_icon_text><p>If you remove the application when the alarm is on, then you can disable it with turning on and off again Mi Fit 10. alarm setting.</p></not_support_icon_text>
+    <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Сигнал браслета</u></b>
+        <p>Коли мине вказаний проміжок часу, браслет вібруватиме, якщо відсутній зв'язок з телефоном.</p>
+        <not_support_icon_text><p>Додаток використовує будильник Mi Fit для попередження (перезаписує 10. будильник).</p></not_support_icon_text>
+        <not_support_icon_text><p>Будильник повторюватиметься декілька разів, якщо браслет не визначить рух (бо використовується будильник браслета).</p></p></not_support_icon_text>
+        <support_icon_text><p>Додаток використовує нагадування Mi Fit для попередження.</p></support_icon_text>
+        <p>Перед вимиканням Bluetooth або видаленням додатку ви маєте вимкнути сигнал браслета.</p>
+        <not_support_icon_text><p>Якщо видалите додаток коли будильник увімкнений, ви можете вимкнути 10 будильник у додатку Mi Fit.</p></not_support_icon_text>
 
-        <img src="ic_phone_android"> <b><u>Phone signals</u></b>
-        <p>When specified period of time expires, phone send signals repeatedly if not connected to the bracelet.</p>
-        <p>This makes it easier to find the phone. If someone else finds the phone and it is locked he does not know who to notify, so you can display a message.</p>
-        <p>When bracelet is connected, alarm stops.</p>
-        <p>Must be enabled to display notification on the lock screen.</p>]]>
+        <img src="ic_phone_android"> <b><u>Сигнал телефона</u></b>
+        <p>Коли мине вказаний проміжок часу, телефон повторюватиме сигнал, поки відсутній зв'язок з браслетом.</p>
+        <p>Це полегшить пошук телефона. Якщо хтось знайде телефон, а той заблокований і незрозуміло кого сповістити, можна залишити повідомлення на дисплеї.</p>
+        <p>Коли браслет підключиться, сигнали зупиняться.</p>
+        <p>Має бути дозвіл відображення на заблокованому екрані.</p>]]>
     </string>
 
     <!-- Time  monitoring -->
-    <string name="time_tab_alarm">Alarm</string>
-    <string name="time_tab_timer">Timer</string>
-    <string name="time_tab_stopper">Stopwatch</string>
-    <string name="time_tab_lap">Lap time</string>
-    <string name="time_tab_interval">Interval</string>
+    <string name="time_tab_alarm">Будильник</string>
+    <string name="time_tab_timer">Таймер</string>
+    <string name="time_tab_stopper">Секундомір</string>
+    <string name="time_tab_lap">Час кола</string>
+    <string name="time_tab_interval">Інтервальний таймер</string>
 
-    <string name="action_alarm_device">Phone alarm</string>
+    <string name="action_alarm_device">Будильник телефона</string>
     <string name="time_alarm_setting">@string/setting_name</string>
-    <string name="time_alarm_mi_band_signal">Signal when phone alarm sounds</string>
-    <string name="time_alarm_mi_band_signal_alarm_off">Alarm off at second touch</string>
-    <string name="time_alarm_title">Title</string>
-    <string name="time_alarm_pre_alarm">Reminder signal, remaining time</string>
-    <string name="time_alarm_pre_alarm_interval_title">Before time</string>
-    <string name="time_alarm_pre_alarm_type_vibrate_title">Vibration</string>
-    <string name="time_alarm_pre_alarm_type_remaining_title">Remaining time</string>
+    <string name="time_alarm_mi_band_signal">Сигналізувати, коли спрацьовує будильник телефона</string>
+    <string name="time_alarm_mi_band_signal_alarm_off">Вимикати будильник другим дотиком</string>
+    <string name="time_alarm_title">Заголовок</string>
+    <string name="time_alarm_pre_alarm">Сигнал нагадування, час що залишився</string>
+    <string name="time_alarm_pre_alarm_interval_title">Час до</string>
+    <string name="time_alarm_pre_alarm_type_vibrate_title">Вібрація</string>
+    <string name="time_alarm_pre_alarm_type_remaining_title">Час що залишився</string>
 
-    <string name="time_timer_time_alert">Alarm time</string>
-    <string name="time_timer_time_remaining">Remaining time</string>
+    <string name="time_timer_time_alert">Час будильника</string>
+    <string name="time_timer_time_remaining">Час що залишився</string>
 
-    <string name="time_timer_reminder">Reminder signal, remaining time</string>
-    <string name="time_timer_reminder_interval_before_title">Before time</string>
-    <string name="time_timer_reminder_interval_repeat_title">Reminder repeat interval</string>
+    <string name="time_timer_reminder">Сигнал нагадування, час що залишився</string>
+    <string name="time_timer_reminder_interval_before_title">Час до</string>
+    <string name="time_timer_reminder_interval_repeat_title">Інтервал повтору нагадування</string>
 
-    <string name="time_stopper_time_alert">Alarm time</string>
-    <string name="time_stopper_time_elapsed">Elapsed time</string>
+    <string name="time_stopper_time_alert">Час нагадування</string>
+    <string name="time_stopper_time_elapsed">Час що минув</string>
 
-    <string name="time_stopper_reminder">Reminder signal, elapsed time</string>
-    <string name="time_stopper_reminder_interval_before_title">Before time</string>
-    <string name="time_stopper_reminder_interval_repeat_title">Reminder repeat interval</string>
+    <string name="time_stopper_reminder">Сигнал нагадування, час що минув</string>
+    <string name="time_stopper_reminder_interval_before_title">Час до</string>
+    <string name="time_stopper_reminder_interval_repeat_title">Інтервал повтору нагадування</string>
 
-    <string name="time_stopper_touch">Lap time, touch monitoring</string>
-    <string name="time_stopper_touch_record">Lap time recording by one touch</string>
-    <string name="time_stopper_touch_show">Lap time displaying by one touch</string>
-    <string name="time_stopper_touch_time_format">Time format</string>
-    <string name="time_stopper_touch_time_format_minute">hour \u2032 min \u2033</string>
-    <string name="time_stopper_touch_time_format_second">min \u2032 second \u2033</string>
+    <string name="time_stopper_touch">Час кола, дотики</string>
+    <string name="time_stopper_touch_record">Записати час кола за дотиком</string>
+    <string name="time_stopper_touch_show">Показати час кола за дотиком</string>
+    <string name="time_stopper_touch_time_format">Формат часу</string>
+    <string name="time_stopper_touch_time_format_minute">год \u2032 хв \u2033</string>
+    <string name="time_stopper_touch_time_format_second">хв \u2032 с \u2033</string>
 
-    <string name="time_lap_details">Lap time details</string>
+    <string name="time_lap_details">Подробиці часу кола</string>
 
-    <string name="time_mode_timer_title">Timing</string>
-    <string name="time_mode_time_title">Time</string>
+    <string name="time_mode_timer_title">Проміжок</string>
+    <string name="time_mode_time_title">Час</string>
 
-    <string name="time_alert">Alarm type</string>
-    <string name="time_alert_bell_title">Bell</string>
-    <string name="time_alert_alarm_title">Alarm</string>
+    <string name="time_alert">Вид сигнала</string>
+    <string name="time_alert_bell_title">Сповіщення</string>
+    <string name="time_alert_alarm_title">Будильник</string>
 
-    <string name="time_interval_time_total">Total time</string>
-    <string name="time_interval_counter">Number of repetitions</string>
-    <string name="time_interval_time_alert">End time</string>
-    <string name="time_interval_time_current">Repetition, interval elapsed time</string>
-    <string name="time_interval_title">Title</string>
-    <string name="time_interval_time">Interval time</string>
+    <string name="time_interval_time_total">Повний час</string>
+    <string name="time_interval_counter">Кількість повторень</string>
+    <string name="time_interval_time_alert">Час завершення</string>
+    <string name="time_interval_time_current">Повторення, час інтервалу</string>
+    <string name="time_interval_title">Заголовок</string>
+    <string name="time_interval_time">Інтервал</string>
 
-    <string name="time_text">Show message on alarm</string>
-    <string name="time_text_message">Text</string>
+    <string name="time_text">Показати повідомлення у сповіщенні</string>
+    <string name="time_text_message">Текст</string>
 
-    <string name="time_enable_bluetooth">Turn on Bluetooth</string>
+    <string name="time_enable_bluetooth">Увімкнути Bluetooth</string>
 
-    <string name="action_time_alarm_sort_state_asc">State ascending</string>
-    <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
-    <string name="action_time_alarm_sort_name_asc">Name ascending</string>
+    <string name="action_time_alarm_sort_state_asc">Стан за зростанням</string>
+    <string name="action_time_alarm_sort_watch_asc">Годинник за зростанням</string>
+    <string name="action_time_alarm_sort_name_asc">Назва за зростанням</string>
 
-    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_time_alarm_sync">Синхронізувати будильники %1$s (відалення та встановлення будильників на браслеті)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_time"><![CDATA[
-        <p><b>Turn off the alarm, timer and stopwatch before removing the application.</b></p>
-        <img src="ic_device_alarm"> <b><u>Signal when phone alarm sounds</u></b>
-        <p>Not all phones are supported. If your phone\'s built-in alarm clock does not work, download Google Clock from the Google Play.</p>
-        <img src="ic_miband_bell"> <b><u>Bell</u></b>
-        <p>Bluetooth connection is required for alarm, it alarms just only once for 10 seconds.</p>
-        <img src="ic_alarm"> <b><u>Alarm</u></b>
-        <p>Bluetooth connection is not required for alarm, app uses alarm function of Mi Fit to alert (overwrite 1. - 8. setting).
-        <br>The alarm will be repeated several times if the Band do not detect any movement (because it uses the Band\'s alarm).
-        <br>Minute accuracy, Band does not handle seconds at alarm.</p>
-        <p>Reminder signal and showing message require Bluetooth connection.</p>
+        <p><b>Вимкніть будильник, таймер та секундомір перед видаленням додатка.</b></p>
+        <img src="ic_device_alarm"> <b><u>Сигналізувати, коли спрацьовує будильник телефона</u></b>
+        <p>Не всі телефони підтримуються. Якщо ваш вбудований будильник не працює, встановіть Google Clock із Google Play.</p>
+        <img src="ic_miband_bell"> <b><u>Сповіщення</u></b>
+        <p>З'єднання Bluetooth необхідне для сповіщення, один сигнал 10 секунд.</p>
+        <img src="ic_alarm"> <b><u>Будильник</u></b>
+        <p>не потребує з'єднання Bluetooth для будильника, додаток використовує будильники Mi Fit (перезаписує 1. - 8. будильники).
+        <br>Будильник повторюватиметься декілька разів, якщо браслет не визначить рух (бо використовується будильник браслета).
+        <br>Точніть до хвилини, браслет не враховує секунди для будильника.</p>
+        <p>Сигнал нагадування та повідомлення потребують з'єднання Bluetooth.</p>
     ]]></string>
 
     <!-- Reminder -->
-    <string name="reminder_tab_once">Once</string>
-    <string name="reminder_tab_weekly">Weekly</string>
-    <string name="reminder_tab_calendar">Calendar</string>
+    <string name="reminder_tab_once">Одноразові</string>
+    <string name="reminder_tab_weekly">Тижневі</string>
+    <string name="reminder_tab_calendar">Календар</string>
     <string name="reminder_tab_setting">@string/setting_name</string>
 
-    <string name="reminder_repeat">Hourly repetition</string>
-    <string name="reminder_notification_shade">Notify me on the phone</string>
+    <string name="reminder_repeat">Повторювати кожну годину</string>
+    <string name="reminder_notification_shade">Сповіщати на телефоні</string>
 
-    <string name="reminder_calendar">Calendar synchronization</string>
-    <string name="reminder_calendar_auto_sync">Automatic synchronization</string>
-    <string name="reminder_calendar_counter">The number of events to synchronize</string>
-    <string name="reminder_calendar_all_day_time">The time of all day event</string>
-    <string name="reminder_calendar_notif_before_time">Remind me earlier than the event time</string>
+    <string name="reminder_calendar">Синхронізація календаря</string>
+    <string name="reminder_calendar_auto_sync">Автоматична синхронізація</string>
+    <string name="reminder_calendar_counter">Кількість подій для синхронізації</string>
+    <string name="reminder_calendar_all_day_time">Час цілоденної події</string>
+    <string name="reminder_calendar_notif_before_time">Нагадувати раніше</string>
 
-    <string name="message_reminder_enabled">Reminder enabled</string>
-    <string name="message_reminder_disabled">Reminder disabled</string>
-    <string name="message_reminder_no_more">Can not record more reminders</string>
-    <string name="message_reminder_sync">Synchronize %1$s reminders (deleting and setting reminders on your smartwatch)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_reminder_enabled">Нагадування увімкнено</string>
+    <string name="message_reminder_disabled">Нагадування вимкнено</string>
+    <string name="message_reminder_no_more">неможна записати більше нагадувань</string>
+    <string name="message_reminder_sync">Синхронізація нагадувань %1$s (видалення та встановлення нагадувань на браслеті)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_reminder"><![CDATA[
-        <not_support_icon_text>Bluetooth connection is required to display the reminder.</not_support_icon_text>
-         <support_icon_text>App uses reminder function of Mi Fit, so you need to use either Mi Bandage or Mi Fit reminder settings. If there are reminders in both applications, it may cause malfunction.</support_icon_text>
+        <not_support_icon_text>Необхідне з'єднання Bluetooth для відобрадення нагадувань.</not_support_icon_text>
+         <support_icon_text>Додаток використовує нагадування Mi Fit, ви маєте користуватися або нагадуваннями Mi Bandage або Mi Fit. Якщо нагадування встановлені в обох додатках, вони можуть не працювати належним чином.</support_icon_text>
         ]]>
     </string>
 
     <!-- Weather  -->
-    <string name="weather_tab_weather_forecast">Weather</string>
-    <string name="weather_tab_location">Location</string>
+    <string name="weather_tab_weather_forecast">Погода</string>
+    <string name="weather_tab_location">Розташування</string>
     <string name="weather_tab_settings">@string/setting_name</string>
 
-    <string name="weather_location_title">Location</string>
-    <string name="weather_automatic_update">Automatic update</string>
+    <string name="weather_location_title">Розташування</string>
+    <string name="weather_automatic_update">Оновлювати атоматично</string>
 
-    <string name="weather_title">Weather forecast</string>
-    <string name="weather_city_title">City</string>
-    <string name="weather_unit_title">Unit</string>
+    <string name="weather_title">Прогноз погоди</string>
+    <string name="weather_city_title">Місто</string>
+    <string name="weather_unit_title">Одиниці</string>
 
-    <string name="weather_current_title">Current weather</string>
-    <string name="weather_current_location">Current location</string>
-    <string name="weather_current_temperature">Current temperature</string>
+    <string name="weather_current_title">Поточна погода</string>
+    <string name="weather_current_location">Поточне розташування</string>
+    <string name="weather_current_temperature">Поточна температура</string>
 
-    <string name="weather_forecast_title">Weather forecast</string>
+    <string name="weather_forecast_title">Прогноз погоди</string>
 
-    <string name="weather_display">Display</string>
+    <string name="weather_display">Відображення</string>
 
-    <string name="weather_precipitation_rain">Rain</string>
-    <string name="weather_precipitation_snow">Snow</string>
-    <string name="weather_cloud_cover_abbreviation">Cc</string>
-    <string name="weather_cloud_cover">Cloud</string>
-    <string name="weather_humidity">Humidity</string>
+    <string name="weather_precipitation_rain">Дощ</string>
+    <string name="weather_precipitation_snow">Сніг</string>
+    <string name="weather_cloud_cover_abbreviation">Хм</string>
+    <string name="weather_cloud_cover">Хмарність</string>
+    <string name="weather_humidity">Вологість</string>
 
-    <string name="weather_north">N</string>
-    <string name="weather_east">E</string>
-    <string name="weather_south">S</string>
-    <string name="weather_west">W</string>
+    <string name="weather_north">Півн</string>
+    <string name="weather_east">Сх</string>
+    <string name="weather_south">Півд</string>
+    <string name="weather_west">Зах</string>
 
     <!-- Watch face -->
-    <string name="watch_face_tab_download">Download</string>
-    <string name="watch_face_tab_upload">Upload</string>
-    <string name="watch_face_tab_upload_mi_fit">Upload via Mi Fit</string>
-    <string name="watch_face_tab_upload_amazfit">Upload via Amazfit</string>
+    <string name="watch_face_tab_download">Завантажити</string>
+    <string name="watch_face_tab_upload">Встановити</string>
+    <string name="watch_face_tab_upload_mi_fit">Встановити через Mi Fit</string>
+    <string name="watch_face_tab_upload_amazfit">Встановити через Amazfit</string>
 
-    <string name="watch_face_download_title">Download watch face</string>
-    <string name="watch_face_download_path">Save the downloaded watch face file to here</string>
-    <string name="watch_face_download_move">%1$s directory</string>  <!-- %1$s = Download ... -->
-    <string name="watch_face_download_move_hint">Move the downloaded watch face files from the %1$s directory</string>
+    <string name="watch_face_download_title">Завантажити циферблат</string>
+    <string name="watch_face_download_path">Зберегти файл циферблату сюди</string>
+    <string name="watch_face_download_move">Тека %1$s</string>  <!-- %1$s = Download ... -->
+    <string name="watch_face_download_move_hint">Перемістити збережений циферблат з теки %1$s</string>
 
-    <string name="watch_face_upload_title">Upload watch face</string>
+    <string name="watch_face_upload_title">Встановити циферблат</string>
 
-    <string name="watch_face_upload_prepare">Preparing for the upload…</string>
-    <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
+    <string name="watch_face_upload_prepare">Підготовка до встановлення…</string>
+    <string name="watch_face_upload_progress">Встановлення %1$,d%%</string>
 
-    <string name="watch_face_upload_init_title">Initialization</string>
-    <string name="watch_face_upload_init_content"><![CDATA[In the %1$s application set one of the factory watch face.
-        <br>You have to select the same watch face when uploading.
-        <br><i>(initialization is only required once)</i>
+    <string name="watch_face_upload_init_title">Ініціалізація</string>
+    <string name="watch_face_upload_init_content"><![CDATA[У додатку %1$s встановіть один з заводських циферблатів.
+        <br>Ви маєте вибрати той самий циферблат при встановленні.
+        <br><i>(процедура виконується один раз)</i>
     ]]></string>
 
-    <string name="watch_face_upload_upload_title">Upload</string>
-    <string name="watch_face_upload_empty_title"><![CDATA[Watch face not found
+    <string name="watch_face_upload_upload_title">Встановлення</string>
+    <string name="watch_face_upload_empty_title"><![CDATA[Циферблат не знайдений
         <br><i>(%1$s)</i>
     ]]></string>
 
-    <string name="message_watch_face_upload_error">Initialization is required</string>
-    <string name="message_watch_face_file_error">Invalid watch face file</string>
-    <string name="message_watch_face_file_error_small">Invalid watch face file. File size is too small, use another web browser to download.</string>
-    <string name="message_watch_face_file_error_large">Invalid watch face file. File size is too large, use another web browser to download.</string>
+    <string name="message_watch_face_upload_error">Необхідна ініціалізація</string>
+    <string name="message_watch_face_file_error">Недійсний файл циферблату</string>
+    <string name="message_watch_face_file_error_small">Недійсний файл циферблату. Розмір файлу замалий, спробуйте завантажити у іншому веб-браузері.</string>
+    <string name="message_watch_face_file_error_large">Недійсний файл циферблату. Розмір файлу завеликий, спробуйте завантажити у іншому веб-браузері.</string>
 
     <string name="info_dialog_watch_face_download"><![CDATA[
-        <img src="ic_file_download_outline"> <b><u>Download</u></b>
-        <p>Download watch faces from the web sites.</p>
+        <img src="ic_file_download_outline"> <b><u>Завантаження</u></b>
+        <p>Завантажте циферблати з веб-сторінок.</p>
 
-        <img src="ic_file_replace_outline"> <b><u>Move the files</u></b>
-        <p>If necessary, move the downloaded watch face files from the Download directory to the MiBandage directory.</p>
+        <img src="ic_file_replace_outline"> <b><u>Перемістити файли</u></b>
+        <p>Якщо необхідно, перемістіть завантажені циферблати з теки Завантажень до теки MiBandage.</p>
         ]]>
     </string>
 
-    <string name="info_dialog_watch_face"><![CDATA[<b><u>Watch face change procedure</u></b>
-        <p><img src="ic_upload_mi_fit_init"> <b>Initialization</b></p>
-        <p>Resets the watch face\'s states to the original in the %1$s application, upload the first factory watch face.</p>
+    <string name="info_dialog_watch_face"><![CDATA[<b><u>Процедура заміни циферблату</u></b>
+        <p><img src="ic_upload_mi_fit_init"> <b>Ініціалізація</b></p>
+        <p>Відновіть оригінальний стан циферблатів у додатку %1$s, встановіть перший заводський циферблат.</p>
 
-        <img src="ic_upload_mi_fit"> <b>Upload</b>
-        <p>Upload the selected watch face in the %1$s app. It replaces the last uploaded factory watch face.</p>
+        <img src="ic_upload_mi_fit"> <b>Встановлення</b>
+        <p>Встановіть обраний циферблат у додатку %1$s. Він замінить останній встановлений циферблат.</p>
 
-        <br><p><b><u>Upload multiple watch face</u></b></p>
-        <p><img src="ic_action_launch_mi_fit"> Launching %1$s app without watch face replacing, upload the second factory watch face.</p>
-        <p><img src="ic_upload_mi_fit">  Upload the selected watch face in the %1$s app.</p>
-        <p>Repeat these steps.</p>
+        <br><p><b><u>Встановити декілька циферблатів</u></b></p>
+        <p><img src="ic_action_launch_mi_fit"> Запустіть додаток %1$s без заміни циферблатів, встановіть другий заводський циферблат.</p>
+        <p><img src="ic_upload_mi_fit">  Встановіть обраний циферблат у додатку %1$s.</p>
+        <p>Повторіть.</p>
 
-        <br><p>In the %1$s app the watch face\'s picture will not change.</p>
+        <br><p>У додатку %1$s зображення циферблату не зміниться.</p>
         ]]>
     </string>
 
     <string name="info_dialog_watch_face_upload"><![CDATA[
-        <img src="ic_upload"> <b><u>Upload</u></b>
-        <p>Upload the selected watch face.</p>
-        <br><img src="ic_warning"> <b><u>Invalid watch face file</u></b>
-        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        <img src="ic_upload"> <b><u>Встановлення</u></b>
+        <p>Встановити обраний циферблат.</p>
+        <br><img src="ic_warning"> <b><u>Недійсний файл циферблату</u></b>
+        <p>Заводський веб-браузер не завжди коректно завантажує файли. Спробуйте інший (рекомендується Google Chrome).</p>
         ]]>
     </string>
 
     <!-- Firmware -->
-    <string name="firmware_tab_firmware">Firmware</string>
-    <string name="firmware_tab_font">Font</string>
-    <string name="firmware_tab_resource">Resource</string>
+    <string name="firmware_tab_firmware">Мікропрограма</string>
+    <string name="firmware_tab_font">Шрифт</string>
+    <string name="firmware_tab_resource">Ресурси</string>
 
-    <string name="firmware_update_firmware_title">Update firmware</string>
-    <string name="firmware_update_font_title">Update font</string>
-    <string name="firmware_update_resource_title">Update resource</string>
+    <string name="firmware_update_firmware_title">Оновити мікропрограму</string>
+    <string name="firmware_update_font_title">Оновити шрифт</string>
+    <string name="firmware_update_resource_title">Оновити ресурси</string>
 
-    <string name="firmware_update_prepare">Preparing for the update…</string>
-    <string name="firmware_update_progress">Updating %1$,d%%</string>
-    <string name="firmware_update_connecting">Connecting…</string>
+    <string name="firmware_update_prepare">Підготовка до оновлення…</string>
+    <string name="firmware_update_progress">Оновлення %1$,d%%</string>
+    <string name="firmware_update_connecting">Підключення…</string>
 
-    <string name="firmware_update_firmware_empty_title"><![CDATA[Firmware not found
+    <string name="firmware_update_firmware_empty_title"><![CDATA[Мікропрограму не знайдено
         <br><i>(%1$s)</i>
     ]]></string>
-    <string name="firmware_update_font_empty_title"><![CDATA[Font not found
+    <string name="firmware_update_font_empty_title"><![CDATA[Шрифт не знайдено
         <br><i>(%1$s)</i>
     ]]></string>
-    <string name="firmware_update_resource_empty_title"><![CDATA[Resource not found
+    <string name="firmware_update_resource_empty_title"><![CDATA[Ресурси не знайдено
         <br><i>(%1$s)</i>
     ]]></string>
 
-    <string name="firmware_type_firmware">Firmware</string>
-    <string name="firmware_type_font">Font</string>
-    <string name="firmware_type_font_latin">Font latin</string>
-    <string name="firmware_type_gps">GPS Firmware</string>
-    <string name="firmware_type_gps_almanac">GPS Almanac</string>
-    <string name="firmware_type_gps_cep">GPS Error Correction</string>
-    <string name="firmware_type_resource">Resource</string>
-    <string name="firmware_type_watchface">Watch face</string>
-    <string name="firmware_type_invalid">Invalid</string>
+    <string name="firmware_type_firmware">Мікропрограма</string>
+    <string name="firmware_type_font">Шрифт</string>
+    <string name="firmware_type_font_latin">Латинський шрифт</string>
+    <string name="firmware_type_gps">Мікропрограма GPS</string>
+    <string name="firmware_type_gps_almanac">Альманах GPS</string>
+    <string name="firmware_type_gps_cep">Виправлення помилок GPS</string>
+    <string name="firmware_type_resource">Ресурси</string>
+    <string name="firmware_type_watchface">Циферблат</string>
+    <string name="firmware_type_invalid">Помилка</string>
 
-    <string name="message_firmware_file_error">Invalid firmware file</string>
-    <string name="message_firmware_file_error_small">Invalid firmware file. File size is too small, use another web browser to download.</string>
-    <string name="message_firmware_file_error_large">Invalid firmware file. File size is too large, use another web browser to download.</string>
+    <string name="message_firmware_file_error">Недійсний файл мікропрограми</string>
+    <string name="message_firmware_file_error_small">Недійсний файл мікропрограми. Розмір файлу замалий, спробуйте завантажити у іншому веб-браузері.</string>
+    <string name="message_firmware_file_error_large">Недійсний файл мікропрограми. Розмір файлу завеликий, спробуйте завантажити у іншому веб-браузері.</string>
 
-    <string name="firmware_warning"><![CDATA[Warning!
+    <string name="firmware_warning"><![CDATA[Увага!
     <br><br>
-    <p>Only at your own risk! The firmware update can damage your device.</p>
-    Use only files from a trusted source.]]>
+    <p>Тільки на ваш ризик! Оновлення мікропрограм може пошкодити пристрій.</p>
+    Використовуйте файли з довірених джерел.]]>
     </string>
 
     <string name="info_dialog_firmware"><![CDATA[
-        <img src="ic_upload"> <b><u>Upload</u></b>
-        <p>Upload the selected firmware.</p>
-        <br><img src="ic_warning"> <b><u>Invalid firmware file</u></b>
-        <p>The factory web browser does not always download the file properly. Try another web browser (Google Chrome recommended).</p>
+        <img src="ic_upload"> <b><u>Встановлення</u></b>
+        <p>Встановити обрану мікропрограму.</p>
+        <br><img src="ic_warning"> <b><u>Недійсний файл мікропрограми</u></b>
+        <p>Заводський веб-браузер не завжди коректно завантажує файли. Спробуйте інший (рекомендується Google Chrome).</p>
         ]]>
     </string>
 
     <!-- Agent -->
-    <string name="agent_title">Device monitoring agent</string>
-    <string name="agent_tab_events">Agent log</string>
+    <string name="agent_title">Наглядовий агент</string>
+    <string name="agent_tab_events">Журнали агента</string>
     <string name="agent_tab_settings">@string/setting_name</string>
 
-    <string name="pref_disconnected_agent_summary_on">If someone tampered with the phone while you are away, you will know</string>
-    <string name="pref_disconnected_agent_text">Someone tampered with the phone, while you were gone</string>
-    <string name="pref_disconnected_agent_user_present_title">Wake up the phone screen monitoring</string>
-    <string name="pref_disconnected_agent_screen_on_and_motion_title">Power on and motion monitoring</string>
+    <string name="pref_disconnected_agent_summary_on">Якщо хтось втручався у телефон поки вас не було, ви дізнаєтесь</string>
+    <string name="pref_disconnected_agent_text">Хтось втручався у телефон поки вас не було</string>
+    <string name="pref_disconnected_agent_user_present_title">Розблокування</string>
+    <string name="pref_disconnected_agent_screen_on_and_motion_title">Активація дисплея та рух</string>
 
     <!-- Agent log info dialog -->
-    <string name="info_dialog_disconnected_agent"><![CDATA[Events detected by the phone management agent:
-        <br>- power on
-        <br>- unlocking the screen
-        <br>- motion detected
+    <string name="info_dialog_disconnected_agent"><![CDATA[Події, що визначає наглядовий агент:
+        <br>- активація дисплея
+        <br>- розблокування
+        <br>- визначення руху
 
-        <p>If someone operates with the phone while you are away, then events above are logged.</p>
-        <p>When you reconnect you will receive a notification in case of an event occurred.</p>]]>
+        <p>Якщо хтось працював з телефоном пока вас не було, дії будуть записані.</p>
+        <p>Ви отримаєте сповіщення при відновленні з'єднання.</p>]]>
     </string>
 
     <!-- Theme -->
-    <string name="theme_tab_theme">Theme</string>
-    <string name="theme_tab_widget">Widgets</string>
-    <string name="theme_tab_notification">Notification shade</string>
+    <string name="theme_tab_theme">Тема</string>
+    <string name="theme_tab_widget">Віджети</string>
+    <string name="theme_tab_notification">Постійне сповіщення</string>
 
-    <string name="theme_title">Select a theme</string>
-    <string name="theme_light">Light</string>
-    <string name="theme_dark">Dark</string>
-    <string name="theme_background_color_title">Background color</string>
+    <string name="theme_title">Оберіть тему</string>
+    <string name="theme_light">Світла</string>
+    <string name="theme_dark">Темна</string>
+    <string name="theme_background_color_title">Колір тла</string>
 
-    <string name="theme_widget_foreground_title">Foreground</string>
-    <string name="theme_widget_foreground_color_title">Icon and text color</string>
-    <string name="theme_widget_background_title">Background</string>
-    <string name="theme_widget_background_color_title">Color</string>
-    <string name="theme_widget_background_shape_title">Shape</string>
-    <string name="theme_widget_background_transparency_title">Transparency</string>
-    <string name="theme_widget_background_logo_visibility">Show Mi Bandage logo</string>
+    <string name="theme_widget_foreground_title">Передній план</string>
+    <string name="theme_widget_foreground_color_title">Кольори значків і тексту</string>
+    <string name="theme_widget_background_title">Тло</string>
+    <string name="theme_widget_background_color_title">Колір</string>
+    <string name="theme_widget_background_shape_title">Форма</string>
+    <string name="theme_widget_background_transparency_title">Прозорість</string>
+    <string name="theme_widget_background_logo_visibility">Показати значок Mi Bandage</string>
 
-    <string name="theme_widget_touch_event_title">Touch event</string>
+    <string name="theme_widget_touch_event_title">При дотику</string>
 
-    <string name="theme_notification_title">Show status in notification shade</string>
-    <string name="theme_notification_summary">The Android system force-stops a service only when memory is low. If after a while does not appear the notifications on the %1$s, you can prevent this.</string>
-    <string name="theme_notification_summary_foreground_service">Android 8 and above are required to show the icon on the notification bar. Swipe left or right on the notification bar to hide the icon. If the notification is hidden, switch off this setting for optimal performance.</string>
-    <string name="theme_notification_color_title">Icon color</string>
-    <string name="theme_notification_text_color_title">Text color</string>
+    <string name="theme_notification_title">Показувати стан у постійному сповіщенні</string>
+    <string name="theme_notification_summary">Система Android примусово зупиняє служби, коли не вистачає пам’яті. Якщо за деякий час перестають надходити сповіщення на %1$s, ви можете цьому завадити.</string>
+    <string name="theme_notification_summary_foreground_service">Android 8 та новіші вимагають відображення значку у рядку сповіщень. Проведіть праворуч або ліворуч по сповіщеннню, щоб сховати значок. Якщо сповіщення приховане, вимкніть це налаштування для оптимальної роботи.</string>
+    <string name="theme_notification_color_title">Колір значка</string>
+    <string name="theme_notification_text_color_title">Колір тексту</string>
 
     <!-- Backup and restore -->
-    <string name="backup_tab_backup">Backup</string>
-    <string name="backup_tab_restore">Restore</string>
-    <string name="backup_tab_cloud">Cloud</string>
+    <string name="backup_tab_backup">Резервне копіювання</string>
+    <string name="backup_tab_restore">Відновлення</string>
+    <string name="backup_tab_cloud">Хмара</string>
 
-    <string name="backup_time">Backup time</string>
-    <string name="backup_path">Backup location</string>
-    <string name="backup_auto">Automatic backup</string>
-    <string name="backup_auto_time">Time</string>
+    <string name="backup_time">Час резервування</string>
+    <string name="backup_path">Розташування копії</string>
+    <string name="backup_auto">Автоматичне резервування</string>
+    <string name="backup_auto_time">Час</string>
 
-    <string name="backup_process">Preparation…</string>
-    <string name="backup_process_activity">Activity and sleep %1$,d%%</string>
-    <string name="backup_process_pulse">Pulse %1$,d%%</string>
-    <string name="backup_process_notification">Notification %1$,d%%</string>
-    <string name="backup_process_touch">Touch %1$,d%%</string>
-    <string name="backup_process_time">Time %1$,d%%</string>
-    <string name="backup_process_reminder">Event reminder %1$,d%%</string>
-    <string name="backup_process_weather">Weather %1$,d%%</string>
-    <string name="backup_process_alarm">Lost %1$,d%%</string>
-    <string name="backup_process_disconnected_agent">Agent %1$,d%%</string>
-    <string name="backup_process_settings">Settings %1$,d%%</string>
-    <string name="backup_process_cloud">Cloud %1$,d%%</string>
+    <string name="backup_process">Підготовка…</string>
+    <string name="backup_process_activity">Активність та сон %1$,d%%</string>
+    <string name="backup_process_pulse">Пульс %1$,d%%</string>
+    <string name="backup_process_notification">Сповіщення %1$,d%%</string>
+    <string name="backup_process_touch">Дотики %1$,d%%</string>
+    <string name="backup_process_time">Час %1$,d%%</string>
+    <string name="backup_process_reminder">Нагадування %1$,d%%</string>
+    <string name="backup_process_weather">Погода %1$,d%%</string>
+    <string name="backup_process_alarm">Загублення %1$,d%%</string>
+    <string name="backup_process_disconnected_agent">Агент %1$,d%%</string>
+    <string name="backup_process_settings">Налаштування %1$,d%%</string>
+    <string name="backup_process_cloud">Хмара %1$,d%%</string>
 
-    <string name="backup_restore_activity">Activity and sleep</string>
-    <string name="backup_restore_pulse">Pulse</string>
-    <string name="backup_restore_notification">Notification</string>
-    <string name="backup_restore_touch">Touch</string>
-    <string name="backup_restore_time">Time</string>
-    <string name="backup_restore_reminder">Event reminder</string>
-    <string name="backup_restore_weather">Weather</string>
-    <string name="backup_restore_alarm">Lost</string>
-    <string name="backup_restore_disconnected_agent">Agent</string>
+    <string name="backup_restore_activity">Активність та сон</string>
+    <string name="backup_restore_pulse">Пульс</string>
+    <string name="backup_restore_notification">Сповіщення</string>
+    <string name="backup_restore_touch">Дотики</string>
+    <string name="backup_restore_time">Час</string>
+    <string name="backup_restore_reminder">Нагадування</string>
+    <string name="backup_restore_weather">Погода</string>
+    <string name="backup_restore_alarm">Загублений</string>
+    <string name="backup_restore_disconnected_agent">Агент</string>
     <string name="backup_restore_settings">@string/settings_name</string>
 
-    <string name="backup_restore_reset">After restoring, Bluetooth will be turning off and on and the application will restart.</string>
+    <string name="backup_restore_reset">Після відновлення, Bluetooth буде вімкнено та увімкнено, додаток перезапуститься.</string>
 
-    <string name="backup_cloud_drive_login">Google Drive sign in</string>
-    <string name="backup_cloud_drive_logout">Google Drive sign out</string>
-    <string name="backup_cloud_sync_time">Upload time</string>
-    <string name="backup_cloud_only_wifi">Over wi-fi only</string>
+    <string name="backup_cloud_drive_login">Увійти до Google Drive</string>
+    <string name="backup_cloud_drive_logout">Вийти з Google Drive</string>
+    <string name="backup_cloud_sync_time">Час вивантаження</string>
+    <string name="backup_cloud_only_wifi">Тільки через wi-fi</string>
 
     <!-- Rewarded mode -->
-    <string name="rewarded_policy_title">Terms and conditions of Rewarded mode</string>
+    <string name="rewarded_policy_title">Умови бонусного режиму</string>
     <string name="rewarded_policy"><![CDATA[
-        <p>- start of validity: current time</p>
-        <p>- end of validity: start of validity + at least %1$,d days (depending on ad it can be more)</p>
-        <p>- time manipulation can cause termination of validity</p>
-        <i>After playing video you need to restart the app.</i>
+        <p>- початок дії: зараз</p>
+        <p>- закінчення дії: щонайменше за %1$,d днів з початку (в залежності від реклами, може бути більше)</p>
+        <p>- маніпуляції з часом можуть спричинити припинення дії</p>
+        <i>Після перегляду реклами потрібно перезапустити додаток.</i>
     ]]></string>
 
-    <string name="rewarded_advantage_banner_title">Block the banner ads</string>
-    <string name="rewarded_advantage_interstitial_title">Block the interstitial ads</string>
+    <string name="rewarded_advantage_banner_title">Вимкнути банерну рекламу</string>
+    <string name="rewarded_advantage_interstitial_title">Вимкнути спливаючу рекламу</string>
 
-    <string name="rewarded_advantage_time_range">Validity</string>
-    <string name="rewarded_advantage_button_play">Play video</string>
+    <string name="rewarded_advantage_time_range">Термін дії</string>
+    <string name="rewarded_advantage_button_play">Програти відео</string>
 
-    <string name="message_rewarded_error">Failed to load video</string>
+    <string name="message_rewarded_error">Помилка завантаження відео</string>
 
     <!-- Premium mode -->
-    <string name="purchase_advantage_title">Premium mode advantages</string>
+    <string name="purchase_advantage_title">Переваги преміум-режиму</string>
     <string name="purchase_advantage"><![CDATA[
-        <p>- ad-free</p>
-        <p>- do not disturb mode</p>
-        <p>- unlimited notification monitoring</p>
-        <p>- unlimited touch monitoring</p>
-        <p>- text prefix, pre icon and filtering text can be used in notification monitoring</p>
-        <p>- repeat interval can be set freely in step monitoring function</p>
-        <p>- repeat interval can be set freely and show pulse can be used in pulse monitoring function</p>
-        <p>- repeat interval can be set freely and DnD mode can be used in lost monitoring function</p>
-        <p>- repeated reminders, show message and turn on bluetooth can be set freely in time monitoring</p>
+        <p>- без реклами</p>
+        <p>- режим \"Не турбувати\"</p>
+        <p>- необмежені сповіщення</p>
+        <p>- необмежені дотики</p>
+        <p>- тестові префікси, пре-значки та фільтри можна використовувати у сповіщеннях</p>
+        <p>- будь-який інтервал повторень у крокомірі</p>
+        <p>- будь-який інтервал повторень та відображення пульсу у пульсомірі</p>
+        <p>- будь-який інтервал повторень та режим \"Не турбувати\" при загубленні</p>
+        <p>- повторювані нагадування, повідомлення та увімкнення bluetooth без обмежень у функціях часу</p>
         - …
     ]]></string>
-    <string name="purchase_policy_title">Terms and conditions of Premium mode</string>
+    <string name="purchase_policy_title">Умови преміум-режиму</string>
     <string name="purchase_policy"><![CDATA[
-        <p>- I have tested the app and it is working properly.</p>
-        <p>- I am aware of that I can not require compensation or refund due to bugs, software errors caused by changes in the software, hardware environment or using other applications.</p>
-        <p>- All sales are final and can not be refund (except Google refund policy).</p>
-        <p>- There is no warranty included.</p>
-        <br><p><i>After purchasing you need to restart the app.</i></p>
+        <p>- Я перевірив додаток, він працює належним чином.</p>
+        <p>- Я попереджений, що не може вимагати повернення коштів через помилки у додатку, що викликані змінами у додатку, апаратному оточенні або використанням інших додатків.</p>
+        <p>- Усі продажі остаточні і поверненню не підлягають (за виключенням політики відшкодування Google).</p>
+        <p>- Гарантія не надається.</p>
+        <br><p><i>Після покупки треба перезапустити додаток.</i></p>
     ]]></string>
 
-    <!--<string name="purchase_price">Price:</string>-->
-    <string name="purchase_agree">I agree to the terms and conditions.</string>
-    <string name="purchase_order_id">Order ID</string>
-    <string name="purchase_order_id_help">Copy from:
+    <!--<string name="purchase_price">Ціна:</string>-->
+    <string name="purchase_agree">Я згоден з умовами.</string>
+    <string name="purchase_order_id">ID замовлення</string>
+    <string name="purchase_order_id_help">Скопіюйте з:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
         \n<a href="https://payments.google.com">https://payments.google.com</a></string>
-    <string name="purchase_button_purchase">Purchase</string>
+    <string name="purchase_button_purchase">Придбати</string>
 
-    <string name="text_premium_mode_only">Only in premium mode</string>
+    <string name="text_premium_mode_only">Тільки у преміум-режимі</string>
 
     <!-- Feedback -->
-    <string name="action_log_notification">Log</string>
+    <string name="action_log_notification">Журнал</string>
 
-    <string name="feedback_google_play_title">Rate this app</string>
-    <string name="feedback_request_feature_title">Feature request, bug report</string>
-    <string name="feedback_request_feature_summary">Automatic e-mail processing, you may not get an response</string>
-    <string name="feedback_translation_title">Mi Bandage translation</string>
-    <string name="feedback_translation_title_summary">Please help in translation</string>
+    <string name="feedback_google_play_title">Оцініть додаток</string>
+    <string name="feedback_request_feature_title">Запит на функції, повідомлення про помилки</string>
+    <string name="feedback_request_feature_summary">Автоматична обробка листів, відповідь може не надійти</string>
+    <string name="feedback_translation_title">Переклад Mi Bandage</string>
+    <string name="feedback_translation_title_summary">Будьласка допоможіть перекласти</string>
 
     <!-- Privacy policy -->
-    <string name="privacy_policy_tab_privacy_policy">Privacy policy</string>
-    <string name="privacy_policy_tab_eu_consent">EU user consent</string>
+    <string name="privacy_policy_tab_privacy_policy">Політика конфіденційності</string>
+    <string name="privacy_policy_tab_eu_consent">Угода європейського користувача</string>
 
-    <string name="privacy_policy_collect_title">Information we collect</string>
+    <string name="privacy_policy_collect_title">Інформація що збирається</string>
     <string name="privacy_policy_collect"><![CDATA[
-        <p>- We only collect anonymous information.</p>
-        <p>- We collect information at the application level about the services that you use and how you use them (Google Firebase Platform).</p>
-        <p>- We collect information at the application level like bugs, errors and crashes to provide improvements (Google Firebase Platform).</p>
-        <p>- Google Firebase Platform collects information anonymously. It reports trends without identifying individual users.</p>
-        - We do not share any data with other companies and organizations.
+        <p>- Ми збираємо тільки анонімну інформацію.</p>
+        <p>- Ми збираємо інформацію на рівні додатка про служби, що використовуються, та яким чином (платформа Google Firebase).</p>
+        <p>- Ми збираємо інформацію на рівні додатка як помилки та збої задля покращень додатка (платформа Google Firebase).</p>
+        <p>- Платформа Google Firebase збирає інформацію анонімно. Вона звітує про тенденції без ідентифікації користувачів.</p>
+        - Ми не надаємо інформацію іншим компаніям та організаціям.
     ]]></string>
 
-    <string name="privacy_policy_not_collect_title">Information we do not collect</string>
+    <string name="privacy_policy_not_collect_title">Інформація що не збирається</string>
     <string name="privacy_policy_not_collect"><![CDATA[
-        <p>- We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address, IP address or MAC address.</p>
-        - We do not collect personal health data, contacts and phone notification text.
+        <p>- Ми не збираємо інформацію про вас, що ідентифікує особу. Іншими словами, ми не збираємо таку інформацію, як ваше ім’я, адреса, номер телефону, електронна адреса, IP-адреса або MAC-адреса.</p>
+        - Ми не збираємо особисті дані про здоров’я, контакти та тексти сповіщень.
     ]]></string>
 
-    <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
+    <string name="privacy_policy_links_title">Політика конфіденційності сторонніх постачальників послуг</string>
     <string name="privacy_policy_links"><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
@@ -1304,55 +1304,55 @@
         <a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a>
     ]]></string>
 
-    <string name="privacy_policy_eu_consent_title">Status</string>
-    <string name="privacy_policy_eu_consent_title_personalized">Personalized, relevant ads</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">Non-personalized ads that are less relevant</string>
-    <string name="privacy_policy_eu_consent_title_unknown">Unknown</string>
+    <string name="privacy_policy_eu_consent_title">Стан</string>
+    <string name="privacy_policy_eu_consent_title_personalized">Персоналізовані, релевантні оголошення</string>
+    <string name="privacy_policy_eu_consent_title_non_personalized">Неперсоналізовані оголошення, що менш релевантні</string>
+    <string name="privacy_policy_eu_consent_title_unknown">Невідомо</string>
 
-    <string name="privacy_policy_eu_consent_setting">Setting</string>
+    <string name="privacy_policy_eu_consent_setting">Налаштування</string>
 
     <!-- Vibration dialog -->
-    <string name="vibration_title">Vibration setting</string>
-    <string name="vibration_intensity">Duration</string>
-    <string name="vibration_pause">Pause</string>
-    <string name="vibration_times">Times</string>
+    <string name="vibration_title">Налаштування вібрації</string>
+    <string name="vibration_intensity">Тривалість</string>
+    <string name="vibration_pause">Пауза</string>
+    <string name="vibration_times">Повторення</string>
 
     <!-- Custom vibration dialog -->
-    <string name="custom_vibration_title">Vibration setting</string>
-    <string name="custom_vibration">Vibration</string>
-    <string name="custom_vibration_edit">Custom editing</string>
-    <string name="custom_vibration_hint">Tap to vibrate</string>
-    <string name="custom_vibration_new">Record again</string>
+    <string name="custom_vibration_title">Налаштування вібрації</string>
+    <string name="custom_vibration">Вібрація</string>
+    <string name="custom_vibration_edit">Редагування</string>
+    <string name="custom_vibration_hint">Торкніться для вібрації</string>
+    <string name="custom_vibration_new">Записати знову</string>
 
     <!-- Hack -->
-    <string name="info_dialog_hack"><![CDATA[Hack tool detected on phone.
-        <p>While the hack tool is installed the premium mode is not available.</p>
-        <p>I spent a lot of time in the development of application, please do not use hack tools.</p>]]>
+    <string name="info_dialog_hack"><![CDATA[На телефоні виявлено програму злому.
+        <p>Якщо програму злому встановлено, преміум-режим недоступний.</p>
+        <p>Я витратив багато часу на розробку додатка, будьласка не зламуйте його.</p>]]>
     </string>
 
     <!-- Others -->
-    <string name="ad_attribution">Ad</string>
-    <string name="on">On</string>
-    <string name="off">Off</string>
-    <string name="none">None</string>
-    <string name="bpm">BPM</string>
-    <string name="date">Date</string>
-    <string name="time">Time</string>
-    <string name="time_start">Start time</string>
-    <string name="time_end">End time</string>
-    <string name="ringer_mode_vibrate">Vibrate</string>
-    <string name="ringer_mode_silent">Mute</string>
-    <string name="ringer_mode_dnd_priority_only">Do not disturb (priority only)</string>
-    <string name="ringer_mode_dnd_alarms_only">Do not disturb (alarms only)</string>
-    <string name="ringer_mode_dnd_total_silence">Do not disturb (total silence)</string>
-    <string name="unknown">Unknown</string>
-    <string name="maximum">Maximum</string>
-    <string name="all_day">All-day</string>
-    <string name="file_name">File name</string>
+    <string name="ad_attribution">Реклама</string>
+    <string name="on">Увімкнено</string>
+    <string name="off">Вимкнено</string>
+    <string name="none">Немає</string>
+    <string name="bpm">Частота</string>
+    <string name="date">Дата</string>
+    <string name="time">Час</string>
+    <string name="time_start">Час початку</string>
+    <string name="time_end">Час завершення</string>
+    <string name="ringer_mode_vibrate">Вібрація</string>
+    <string name="ringer_mode_silent">Приглушити</string>
+    <string name="ringer_mode_dnd_priority_only">Не турбувати (тільки приорітетні)</string>
+    <string name="ringer_mode_dnd_alarms_only">Не турбувати (тільки будильники)</string>
+    <string name="ringer_mode_dnd_total_silence">Не турбувати (повна тиша)</string>
+    <string name="unknown">Невідомо</string>
+    <string name="maximum">Найбільше</string>
+    <string name="all_day">Весь день</string>
+    <string name="file_name">Назва файла</string>
 
-    <string name="action_dismiss">Dismiss</string>
-    <string name="action_setting">Setting</string>
-    <string name="action_delete">Delete</string>
+    <string name="action_dismiss">Відхилити</string>
+    <string name="action_setting">налаштування</string>
+    <string name="action_delete">Видалити</string>
     <string name="action_export">Export</string>
     <string name="action_synchronization">Synchronization</string>
     <string name="action_filter_no">No filter</string>
