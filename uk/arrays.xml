@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_gender">
+        <item>Чоловіча</item>
+        <item>Жіноча</item>
+    </string-array>
+
+    <string-array name="pref_wear_location">
+        <item>Лівий зап'ясток</item>
+        <item>Правий зап'ясток</item>
+    </string-array>
+
+    <string-array name="pref_distance_unit">
+        <item>Метрична (метри)</item>
+        <item>Імперська (милі)</item>
+    </string-array>
+
+    <string-array name="pref_lift_wrist_sensitivity">
+        <item>Звичайна</item>
+        <item>Висока</item>
+    </string-array>
+
+    <string-array name="pref_night_mode">
+        <item>За розкладом</item>
+        <!--<item>Вмикати після заходу сонця</item>-->
+    </string-array>
+
+    <string-array name="pref_menu_mi_band">
+        <item>Час</item>
+        <item>Кроки</item>
+        <item>Відстань</item>
+        <item>Калорії</item>
+        <item>Пульс</item>
+        <item>Акумулятор</item>
+        <item>Стан</item>
+        <item>Погода</item>
+        <item>Тренування</item>
+        <item>Активність</item>
+        <item>Сповіщення</item>
+        <item>Ще...</item>
+        <item>NFC</item>
+        <item>Будильник</item>
+        <item>Таймер</item>
+        <item>Нагадування</item>
+        <item>Налаштування</item>
+        <item>Компас</item>
+        <item>Музика</item>
+        <item>Alipay</item>
+        <item>PAI</item>
+        <item>Стрес</item>
+        <item>Дихання</item>
+        <item>Цикли</item>
+        <item>Не турбувати</item>
+        <item>Зробити фото</item>
+        <item>Секундомір</item>
+        <item>Знайти телефон</item>
+        <item>Тиша</item>
+        <item>Світовий час</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_counter">
+        <item>Усі сповіщення</item>
+        <item>Одне на значок Band</item>
+        <item>1 значок \'app\'</item>
+        <item>2 значок \'app\'</item>
+        <item>3 значок \'app\'</item>
+    </string-array>
+
+    <string-array name="pref_connected_have_notif_interval">
+        <item>3 хвилини</item>
+        <item>5 хвилин</item>
+        <item>10 хвилин</item>
+        <item>20 хвилин</item>
+        <item>30 хвилин</item>
+        <item>1 година</item>
+        <item>2 години</item>
+        <item>3 години</item>
+    </string-array>
+
+    <string-array name="pref_abandoned_interval">
+        <item>1 хвилина</item>
+        <item>2 хвилини</item>
+        <item>3 хвилини</item>
+        <item>4 хвилини</item>
+        <item>5 хвилин</item>
+        <item>6 хвилин</item>
+        <item>7 хвилин</item>
+        <item>8 хвилин</item>
+        <item>9 хвилин</item>
+        <item>10 хвилин</item>
+    </string-array>
+
+    <string-array name="pref_abandoned_notif_interval">
+        <item>10 хвилин</item>
+        <item>20 хвилин</item>
+        <item>30 хвилин</item>
+        <item>1 година</item>
+        <item>2 години</item>
+        <item>3 години</item>
+    </string-array>
+
+    <string-array name="notification_group_counter">
+        <item>Усі сповіщення</item>
+        <item>Одне на додаток</item>
+        <item>Одне сповіщення</item>
+    </string-array>
+
+    <string-array name="notification_group_repeat">
+        <item>Завжди</item>
+        <item>Ніколи</item>
+        <item>Раз</item>
+        <item>Двічі</item>
+        <item>Тричі</item>
+    </string-array>
+
+    <string-array name="notification_group_grouped_dispay">
+        <item>Показати всі при під'єднанні, інакше лише останнє сповіщення</item>
+        <item>Показати всі сповіщення</item>
+        <item>Показати лише останнє сповіщення</item>
+    </string-array>
+
+    <string-array name="notification_group_grouped_order">
+        <item>У звичайному порядку</item>
+        <item>У зворотньому порядку</item>
+    </string-array>
+
+    <string-array name="touch_call_mute_ringer_mode">
+        <item>Вібрувати</item>
+        <item>Приглушити</item>
+        <item>Не турбувати (тільки приорітетні)</item>
+        <item>Не турбувати (тільки будильники)</item>
+        <item>Не турбувати (повна тиша)</item>
+    </string-array>
+
+    <string-array name="touch_music_player">
+        <item>Програвач за замовчанням</item>
+        <item>Запущений програвач</item>
+        <item>Google Play Music</item>
+        <item>Spotify Music</item>
+    </string-array>
+
+    <string-array name="touch_music_info">
+        <item>Не сповіщати</item>
+        <item>Виконавець#Назва</item>
+        <item>Виконавець, Назва</item>
+        <item>Назва</item>
+    </string-array>
+
+    <string-array name="touch_music_function_info">
+        <item>Назва</item>
+        <item>Виконавець: Назва</item>
+        <item>Виконавець: Альбом - Назва</item>
+    </string-array>
+
+    <string-array name="touch_camera_app">
+        <item>За замовчуванням (необхідний root)</item>
+        <item>Open Camera</item>
+    </string-array>
+
+    <string-array name="pref_timer_time_interval_repeat">
+        <item>Вимкнено</item>
+        <item>1 хвилина</item>
+        <item>2 хвилини</item>
+        <item>3 хвилини</item>
+        <item>4 хвилини</item>
+        <item>5 хвилин</item>
+        <item>6 хвилин</item>
+        <item>7 хвилин</item>
+        <item>8 хвилин</item>
+        <item>9 хвилин</item>
+        <item>10 хвилин</item>
+        <item>11 хвилин</item>
+        <item>12 хвилин</item>
+        <item>13 хвилин</item>
+        <item>14 хвилин</item>
+        <item>15 хвилин</item>
+        <item>20 хвилин</item>
+        <item>30 хвилин</item>
+        <item>40 хвилин</item>
+        <item>50 хвилин</item>
+        <item>1 година</item>
+        <item>2 години</item>
+        <item>3 години</item>
+        <item>4 години</item>
+        <item>5 годин</item>
+    </string-array>
+
+    <string-array name="notification_group_text_content_slice">
+        <item>1 частина (1-%1$,d символів)</item>
+        <item>2 частини (1-%1$,d символів)</item>
+        <item>3 частини (1-%1$,d символів)</item>
+        <item>4 частини (1-%1$,d символів)</item>
+        <item>5 частин (1-%1$,d символів)</item>
+        <item>6 частин (1-%1$,d символів)</item>
+        <item>7 частин (1-%1$,d символів)</item>
+        <item>8 частин (1-%1$,d символів)</item>
+        <item>9 частин (1-%1$,d символів)</item>
+        <item>10 частин (1-%1$,d символів)</item>
+    </string-array>
+
+    <string-array name="notification_group_display_time">
+        <item>Авто (3 – 5 секунд)</item>
+        <item>3 секунди</item>
+        <item>4 секунди</item>
+        <item>5 секунд</item>
+        <item>6 секунд</item>
+        <item>7 секунд</item>
+    </string-array>
+
+    <string-array name="custom_vibration">
+        <item>За замовчуванням</item>
+        <item>Користувацька</item>
+    </string-array>
+
+    <string-array name="touch_recognition_press">
+        <item>Немає</item>
+        <item>Один дотик</item>
+        <item>Подвійний дотик</item>
+        <item>Потрійний дотик</item>
+        <item>Довгий дотик</item>
+        <item>Кнопка</item>
+    </string-array>
+
+    <string-array name="touch_recognition_press_mi_band_4_gtr">
+        <item>Немає</item>
+        <item>Кнопка приглушення</item>
+        <item>Подвійний дотик</item>
+        <item>Потрійний дотик</item>
+        <item>Кнопка відхилити</item>
+        <item>Кнопка</item>
+    </string-array>
+
+    <string-array name="touch_recognition_press_amazfit_bip_cor">
+        <item>Немає</item>
+        <item>Зелена кнопка</item>
+        <item>Подвійний дотик</item>
+        <item>Потрійний дотик</item>
+        <item>Червона кнопка</item>
+        <item>Кнопка</item>
+    </string-array>
+
+    <string-array name="pref_touch_detection_method">
+        <item>Розпізнавання зразку</item>
+        <item>Кількість натискань</item>
+    </string-array>
+
+    <string-array name="pref_touch_detection_method_mi_band_3">
+        <item>Енергозбереження</item>
+        <item>Енергозбереження(+пульс)</item>
+<!--        <item>Енергозбереження(знайти телефон)</item>-->
+<!--        <item>Енергозбереження(пульс та знайти телефон)</item>-->
+        <item>Продуктивність</item>
+    </string-array>
+
+    <string-array name="touch_recognition_start_trigger">
+        <item>Немає</item>
+        <item>Дотик</item>
+    </string-array>
+
+    <string-array name="touch_recognition_start_trigger_button">
+        <item>Немає</item>
+        <item>Натискання кнопки</item>
+        <item>Довге натискання кнопки</item>
+    </string-array>
+
+    <string-array name="pref_reminder_calendar_notif_before">
+        <item>Немає</item>
+        <item>5 хвилин</item>
+        <item>10 хвилин</item>
+        <item>15 хвилин</item>
+        <item>20 хвилин</item>
+        <item>30 хвилин</item>
+        <item>45 хвилин</item>
+        <item>1 година</item>
+        <item>2 години</item>
+        <item>3 години</item>
+    </string-array>
+
+    <string-array name="pref_weather_unit">
+        <item>Метрична (за Цельсієм ℃)</item>
+        <item>Імперська (за Фаренгейтом ℉)</item>
+    </string-array>
+
+    <string-array name="pref_weather_current_display">
+        <item>Поточна</item>
+        <item>Поточна, опади, хмарність</item>
+        <item>Середня</item>
+        <item>Ранок, Вечір</item>
+    </string-array>
+
+    <string-array name="pref_weather_forecast_display">
+        <item>Середня</item>
+        <!--<item>Середня, опади, хмарність</item>-->
+        <item>Ранок, Вечір</item>
+    </string-array>
+
+    <string-array name="widget_event">
+        <item>Бандажі</item>
+        <item>Активність</item>
+        <item>Пульс</item>
+        <item>Вимірювання пульсу</item>
+        <item>Будильник</item>
+        <item>Нагадування</item>
+    </string-array>
+
+    <string-array name="pref_language">
+        <item>Default</item>
+        <item>Українська</item>
+        <item>English</item>
+        <item>Magyar</item>
+        <item>Русский</item>
+        <item>Português</item>
+        <item>Español</item>
+        <item>Italiano</item>
+        <item>Türkçe</item>
+        <item>Polish</item>
+        <item>Tiếng Việt</item>
+        <item>Deutsche</item>
+        <item>Nederlands</item>
+        <item>Čeština</item>
+        <item>Français</item>
+        <item>Norsk</item>
+        <item>Ελληνικά</item>
+        <item>Indonesia</item>
+        <item>Română</item>
+        <item>中文</item>
+        <item>한국어</item>
+        <item>日本語</item>
+    </string-array>
+
+    <string-array name="pref_language_values">
+        <item>DEFAULT</item>
+        <item>ua</item>
+        <item>en</item>
+        <item>hu</item>
+        <item>ru</item>
+        <item>pt</item>
+        <item>es</item>
+        <item>it</item>
+        <item>tr</item>
+        <item>pl</item>
+        <item>vi</item>
+        <item>de</item>
+        <item>nl</item>
+        <item>cs</item>
+        <item>fr</item>
+        <item>no</item>
+        <item>el</item>
+        <item>in</item>
+        <item>ro</item>
+        <item>zh</item>
+        <item>ko</item>
+        <item>ja</item>
+    </string-array>
+
+    <string-array name="pref_language_mi_band_3">
+        <item>Не обрано (обрано Mi Fit)</item>
+        <item>За замовчанням (системна)</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Português</item>
+        <item>Русский</item>
+        <item>Українська</item>
+        <item>Deutsche</item>
+        <item>Italiano</item>
+        <item>Français</item>
+        <item>Polski</item>
+        <item>Nederlands</item>
+        <item>Türkçe</item>
+        <item>Bahasa Indonesia</item>
+        <item>한국어</item>
+        <item>Tiếng Việt</item>
+        <item>ไทย</item>
+        <item>简体中文</item>
+        <item>繁體中文</item>
+        <item>日本語</item>
+        <item>عربى</item>
+    </string-array>
+
+    <string-array name="pref_language_mi_band_4">
+        <item>Не обрано (обрано Mi Fit)</item>
+        <item>За замовчанням (системна)</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Português</item>
+        <item>Русский</item>
+        <item>Українська</item>
+        <item>Deutsche</item>
+        <item>Italiano</item>
+        <item>Français</item>
+        <item>Polski</item>
+        <item>Čeština</item>
+        <item>Nederlands</item>
+        <item>Türkçe</item>
+        <item>Ελληνικά</item>
+        <item>Română</item>
+        <item>한국어</item>
+        <item>日本語</item>
+        <item>Tiếng Việt</item>
+        <item>ไทย</item>
+        <item>Bahasa Indonesia</item>
+        <item>简体中文</item>
+        <item>繁體中文</item>
+        <item>عربى</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_bip_watch">
+        <item>Не обрано (обрано Mi Fit)</item>
+        <item>За замовчанням (системна)</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Português</item>
+        <item>Русский</item>
+        <item>Italiano</item>
+        <item>Deutsche</item>
+        <item>Français</item>
+        <item>Türkçe</item>
+        <item>한국어</item>
+        <item>繁體中文</item>
+        <item>简体中文</item>
+        <item>简体中文</item>
+        <item>日本語</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_cor">
+        <item>Не обрано (обрано Mi Fit)</item>
+        <item>За замовчанням (системна)</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Русский</item>
+        <item>繁體中文</item>
+        <item>简体中文</item>
+    </string-array>
+
+    <string-array name="pref_language_amazfit_gtr">
+        <item>Не обрано (обрано Mi Fit)</item>
+        <item>За замовчанням (системна)</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Português</item>
+        <item>Русский</item>
+        <item>Українська</item>
+        <item>Deutsche</item>
+        <item>Italiano</item>
+        <item>Français</item>
+        <item>Polski</item>
+        <item>Nederlands</item>
+        <item>Türkçe</item>
+        <item>Bahasa Indonesia</item>
+        <item>한국어</item>
+        <item>Tiếng Việt</item>
+        <item>ไทย</item>
+        <item>简体中文</item>
+        <item>繁體中文</item>
+        <item>日本語</item>
+        <item>عربى</item>
+    </string-array>
+</resources>
