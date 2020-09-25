@@ -1351,94 +1351,94 @@
     <string name="file_name">Назва файла</string>
 
     <string name="action_dismiss">Відхилити</string>
-    <string name="action_setting">налаштування</string>
+    <string name="action_setting">Налаштування</string>
     <string name="action_delete">Видалити</string>
-    <string name="action_export">Export</string>
-    <string name="action_synchronization">Synchronization</string>
-    <string name="action_filter_no">No filter</string>
+    <string name="action_export">Експорт</string>
+    <string name="action_synchronization">Синхронізація</string>
+    <string name="action_filter_no">Без фільтру</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
     <string name="action_launch_amazfit">Amazfit</string>
-    <string name="action_save">Save</string>
-    <string name="action_test">Test</string>
-    <string name="action_discard">Discard</string>
-    <string name="action_keep_editing">Keep editing</string>
-    <string name="action_new">New</string>
-    <string name="action_start_stop">Start/Stop</string>
-    <string name="synchronized_from_watch">Synchronized from watch</string>
+    <string name="action_save">Зберегти</string>
+    <string name="action_test">Тест</string>
+    <string name="action_discard">Скасувати</string>
+    <string name="action_keep_editing">Продовжити редагування</string>
+    <string name="action_new">Новий</string>
+    <string name="action_start_stop">Старт/Стоп</string>
+    <string name="synchronized_from_watch">Синхронізовано з годинника</string>
 
-    <string name="action_chart">Chart</string>
-    <string name="action_chart_normalize_minute">Measured values</string>
-    <string name="action_chart_normalize_quarter_hourly">Quarter-hourly values</string>
-    <string name="action_chart_normalize_half_hourly">Half-hourly values</string>
-    <string name="action_chart_normalize_hourly">Hourly values</string>
-    <string name="action_chart_sort_time_asc">Time ascending</string>
-    <string name="action_chart_sort_time_desc">Time descending</string>
-    <string name="action_chart_sort_step_asc">Step ascending</string>
-    <string name="action_chart_sort_step_desc">Step descending</string>
-    <string name="action_chart_sort_pulse_asc">Pulse ascending</string>
-    <string name="action_chart_sort_pulse_desc">Pulse descending</string>
-    <string name="action_chart_sort_lap_asc">Lap ascending</string>
-    <string name="action_chart_sort_lap_desc">Lap descending</string>
+    <string name="action_chart">Графік</string>
+    <string name="action_chart_normalize_minute">Виміряні значення</string>
+    <string name="action_chart_normalize_quarter_hourly">Середні значення (15 хв)</string>
+    <string name="action_chart_normalize_half_hourly">Середні значення (30 хв)</string>
+    <string name="action_chart_normalize_hourly">Середні значення (1 г)</string>
+    <string name="action_chart_sort_time_asc">Час, зрост.</string>
+    <string name="action_chart_sort_time_desc">Час, зменш.</string>
+    <string name="action_chart_sort_step_asc">Кроки зрост.</string>
+    <string name="action_chart_sort_step_desc">Кроки зменш.</string>
+    <string name="action_chart_sort_pulse_asc">Пульс зрост.</string>
+    <string name="action_chart_sort_pulse_desc">Пульс зменш.</string>
+    <string name="action_chart_sort_lap_asc">Коло зрост.</string>
+    <string name="action_chart_sort_lap_desc">Коло зменш.</string>
 
-    <string name="power_on">Power on</string>
-    <string name="screen_unlock">Unlocking the screen</string>
-    <string name="motion">Motion detected</string>
+    <string name="power_on">Активація дисплея</string>
+    <string name="screen_unlock">Розблокування</string>
+    <string name="motion">Рух визначено</string>
 
-    <string name="required_value">Required</string>
+    <string name="required_value">Необхідно</string>
 
-    <string name="invalid_date">Invalid date</string>
-    <string name="invalid_time">Invalid time</string>
+    <string name="invalid_date">Недійсна дата</string>
+    <string name="invalid_time">Недійсний час</string>
 
     <!-- Constante -->
-    <string name="const_time_abbreviation_day">d</string>
-    <string name="const_time_abbreviation_hour">h</string>
-    <string name="const_time_abbreviation_minute">m</string>
-    <string name="const_time_abbreviation_sec">s</string>
-    <string name="const_time_abbreviation_milli_sec">ms</string>
+    <string name="const_time_abbreviation_day">д</string>
+    <string name="const_time_abbreviation_hour">г</string>
+    <string name="const_time_abbreviation_minute">хв</string>
+    <string name="const_time_abbreviation_sec">с</string>
+    <string name="const_time_abbreviation_milli_sec">мс</string>
 
     <string name="const_number">%1$,d</string>
-    <string name="const_unit_meter">m</string>
-    <string name="const_unit_centimeter">cm</string>
+    <string name="const_unit_meter">м</string>
+    <string name="const_unit_centimeter">см</string>
     <string name="const_unit_mile">mi</string>
-    <string name="const_unit_kilogram">kg</string>
-    <string name="const_unit_kcal">kcal</string>
-    <string name="const_unit_dbm">dBm</string>
+    <string name="const_unit_kilogram">кг</string>
+    <string name="const_unit_kcal">ккал</string>
+    <string name="const_unit_dbm">дБм</string>
 
     <plurals name="plural_time_hour">
-        <item quantity="zero">%d hour</item>
-        <item quantity="one">%d hour</item>
-        <item quantity="two">%d hours</item>
-        <item quantity="few">%d hours</item>
-        <item quantity="many">%d hours</item>
-        <item quantity="other">%d hours</item>
+        <item quantity="zero">%d годин</item>
+        <item quantity="one">%d година</item>
+        <item quantity="two">%d години</item>
+        <item quantity="few">%d годин</item>
+        <item quantity="many">%d годин</item>
+        <item quantity="other">%d годин</item>
     </plurals>
 
     <plurals name="plural_time_minute">
-        <item quantity="zero">%d minute</item>
-        <item quantity="one">%d minute</item>
-        <item quantity="two">%d minutes</item>
-        <item quantity="few">%d minutes</item>
-        <item quantity="many">%d minutes</item>
-        <item quantity="other">%d minutes</item>
+        <item quantity="zero">%d хвилин</item>
+        <item quantity="one">%d хвилина</item>
+        <item quantity="two">%d хвилини</item>
+        <item quantity="few">%d хвилин</item>
+        <item quantity="many">%d хвилин</item>
+        <item quantity="other">%d хвилин</item>
     </plurals>
 
     <plurals name="plural_time_second">
-        <item quantity="zero">%d second</item>
-        <item quantity="one">%d second</item>
-        <item quantity="two">%d seconds</item>
-        <item quantity="few">%d seconds</item>
-        <item quantity="many">%d seconds</item>
-        <item quantity="other">%d seconds</item>
+        <item quantity="zero">%d секунд</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="two">%d секунди</item>
+        <item quantity="few">%d секунд</item>
+        <item quantity="many">%d секунд</item>
+        <item quantity="other">%d секунд</item>
     </plurals>
 
     <plurals name="plural_file_moved">
-        <item quantity="zero">%d file moved</item>
-        <item quantity="one">%d file moved</item>
-        <item quantity="two">%d files moved</item>
-        <item quantity="few">%d files moved</item>
-        <item quantity="many">%d files moved</item>
-        <item quantity="other">%d files moved</item>
+        <item quantity="zero">%d файлів переміщено</item>
+        <item quantity="one">%d файл переміщено</item>
+        <item quantity="two">%d файли переміщено</item>
+        <item quantity="few">%d файлів переміщено</item>
+        <item quantity="many">%d файлів переміщено</item>
+        <item quantity="other">%d файлів переміщено</item>
     </plurals>
 
 </resources>
