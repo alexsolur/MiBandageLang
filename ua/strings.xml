@@ -374,7 +374,7 @@
     <br>• <b>Huami Amazfit Band 2 (A1713)</b>
     <br>• <b>Huami Amazfit Cor (MiDong)</b>
     <br>• <b>Huami Amazfit Arc (A1603)</b>
-    <p>Якщо ви використовуєте декілька додатків керування браслетом, вони можуть заважати одне одному, тимчасово вимкніть інші.</p>
+    <p>При використанні декількох додатків керування браслетом, вони можуть заважати одне одному, тимчасово вимкніть інші.</p>
     <p>Якщо браслет не знайдено, ви можете вказати MAC адресу вручну при пошуку (MAC знаходиться: Mi Fit/Профіль/Браслет).</p>
     <p><b>Якщо у вас проблеми з підключенням:</b>
     <br>- Прочитайте інструкцію в додатку Amazfit або Mi Fit Профіль/Браслет/Запуск у фоні, та виконайте її для Mi Bandage
@@ -538,167 +538,167 @@
     <string name="touch_tab_testing">Тестування</string>
     <string name="touch_tab_settings">@string/setting_name</string>
 
-    <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
-    <string name="touch_function">%1$s function</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
+    <string name="touch_function_summary">Налаштуйте ці функції, якщо використовуєте автономний режим, або вони неналежно керуються Mi Fit</string>
+    <string name="touch_function">Функція %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_function_as_touch">Використовувати функцію як дотик в меню керування</string>
 
-    <string name="touch_headline_incoming_call_title">Incoming call</string>
-    <string name="touch_headline_other_function_title">Other functions</string>
-    <string name="touch_headline_call_title">Call control</string>
-    <string name="touch_headline_music_title">Music control</string>
-    <string name="touch_headline_time_title">Timer/stopwatch control</string>
-    <string name="touch_headline_other_title">Other controls</string>
+    <string name="touch_headline_incoming_call_title">Вхідний виклик</string>
+    <string name="touch_headline_other_function_title">Інші функції</string>
+    <string name="touch_headline_call_title">Керування викликів</string>
+    <string name="touch_headline_music_title">Керування музикою</string>
+    <string name="touch_headline_time_title">Керування секундоміром/таймером</string>
+    <string name="touch_headline_other_title">Керування іншим</string>
 
-    <string name="touch_call_answer_title">Call answering</string>
-    <string name="touch_call_answer_speakerphone_title">Speakerphone</string>
+    <string name="touch_call_answer_title">Відповідь на виклик</string>
+    <string name="touch_call_answer_speakerphone_title">Гучний зв'язок</string>
 
-    <string name="touch_call_end_title">Call rejecting, ending</string>
+    <string name="touch_call_end_title">Відхилення, завершення виклику</string>
 
-    <string name="touch_call_mute_title">Call mute</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">Only if you have an incoming call</string>
-    <string name="touch_call_mute_recognition_title">On incoming call</string>
-    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/More/Find device</string>
+    <string name="touch_call_mute_title">Приглушення дзвінка</string>
+    <string name="touch_call_mute_only_call_state_ringing_title">Тільки при вхідному виклику</string>
+    <string name="touch_call_mute_recognition_title">При вхідному виклику</string>
+    <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/Ще/Пошук пристрою</string>
 
-    <string name="touch_device_location_title">Find my phone</string>
-    <string name="touch_device_location_not_muted_only_title">Sound only if it is not muted or in DnD mode</string>
+    <string name="touch_device_location_title">Знайти телефон</string>
+    <string name="touch_device_location_not_muted_only_title">Грати тільки якщо не вимкнені звуки та не в режимі "Не турбувати"</string>
 
-    <string name="touch_call_mute_toggle_title">Phone mute toggle</string>
+    <string name="touch_call_mute_toggle_title">Вимкнення/увімкнення звуку телефона</string>
 
-    <string name="touch_music_function_title">Music</string>
-    <string name="touch_music_function_launch">Start music with the play button if no music player is recognized</string>
-    <string name="touch_music_function_mi_band_message_launch">Start music with the play button</string>
-    <string name="touch_music_function_mi_band_message_no_track_title">Can\'t get the song name</string>
+    <string name="touch_music_function_title">Музика</string>
+    <string name="touch_music_function_launch">Запустіть музику кнопкою відтворення, якщо програвач не розпізнано</string>
+    <string name="touch_music_function_mi_band_message_launch">Запустіть музику кнопкою відтворення</string>
+    <string name="touch_music_function_mi_band_message_no_track_title">Не вдалось отримати назву пісні</string>
 
-    <string name="touch_call_out_title">Call out</string>
-    <string name="touch_call_out_no_contact">Select an contact</string>
-    <string name="touch_call_out_summary">Double press to answer the call</string>
-    <string name="touch_call_out_summary_support_call_display_button">Press the button to answer the call</string>
-    <string name="touch_call_out_speakerphone_title">Speakerphone</string>
-    <string name="touch_call_out_call_text">Call out: %1$s</string>
+    <string name="touch_call_out_title">Вихідний виклик</string>
+    <string name="touch_call_out_no_contact">Оберіть контакт</string>
+    <string name="touch_call_out_summary">Двічі натисніть для відповіді</string>
+    <string name="touch_call_out_summary_support_call_display_button">Натисніть кнопку для відповіді</string>
+    <string name="touch_call_out_speakerphone_title">Гучний зв'язок</string>
+    <string name="touch_call_out_call_text">Вихідний виклик: %1$s</string>
 
-    <string name="touch_weather_title">Weather forecast</string>
-    <string name="touch_weather_location">Location update</string>
-    <string name="touch_weather_precipitation">Precipitation</string>
-    <string name="touch_weather_cloud_cover">Cloud cover</string>
-    <string name="touch_weather_wind">Wind</string>
+    <string name="touch_weather_title">Прогноз погоди</string>
+    <string name="touch_weather_location">Оновлення розташування</string>
+    <string name="touch_weather_precipitation">Опади</string>
+    <string name="touch_weather_cloud_cover">Хмарність</string>
+    <string name="touch_weather_wind">Вітер</string>
 
-    <string name="touch_repeat_notif_title">Repeat notifications</string>
-    <string name="touch_repeat_notif_clear_all">Clear all notifications after repetition</string>
+    <string name="touch_repeat_notif_title">Повторити сповіщення</string>
+    <string name="touch_repeat_notif_clear_all">Прибрати всі сповіщення після повтору</string>
 
-    <string name="touch_clear_notif_title">Clear notifications from phone</string>
+    <string name="touch_clear_notif_title">Прибрати сповіщення з телефона</string>
 
-    <string name="touch_music_play_pause_title">Music start, play, pause</string>
-    <string name="touch_music_skip_previous_title">Music start, previous song</string>
-    <string name="touch_music_skip_next_title">Music start, next song</string>
-    <string name="touch_music_headset_only_title">Only if the headset is connected</string>
-    <string name="touch_music_launch">Start music</string>
-    <string name="touch_music_volume_up_title">Music volume up</string>
-    <string name="touch_music_volume_down_title">Music volume down</string>
-    <string name="touch_music_track_info_title">Show music track info.</string>
+    <string name="touch_music_play_pause_title">Запуск музики, відтворення, пауза</string>
+    <string name="touch_music_skip_previous_title">Запуск музики, попередня доріжка</string>
+    <string name="touch_music_skip_next_title">Запуск музики, наступна доріжка</string>
+    <string name="touch_music_headset_only_title">Тільки якщо гарнітура під'єднана</string>
+    <string name="touch_music_launch">Запуск музики</string>
+    <string name="touch_music_volume_up_title">Збільшити гучність музики</string>
+    <string name="touch_music_volume_down_title">Зменшити гучність музики</string>
+    <string name="touch_music_track_info_title">Показати інфо про доріжку.</string>
 
-    <string name="touch_time_launch_title">Start time monitoring</string>
-    <string name="touch_time_launch_type_timer_title">Timer</string>
-    <string name="touch_time_launch_type_stopper_title">Stopwatch</string>
-    <string name="touch_time_launch_type_interval_title">Interval</string>
-    <string name="touch_time_launch_restart">Restart if it is in progress</string>
-    <string name="touch_time_reminder_title">Show remaining/elapsed time</string>
+    <string name="touch_time_launch_title">Почати контроль часу</string>
+    <string name="touch_time_launch_type_timer_title">Таймер</string>
+    <string name="touch_time_launch_type_stopper_title">Секундомір</string>
+    <string name="touch_time_launch_type_interval_title">Інтервальний таймер</string>
+    <string name="touch_time_launch_restart">Перезапустити якщо в процесі</string>
+    <string name="touch_time_reminder_title">Показати час що минув/залишився</string>
 
-    <string name="touch_google_assistant_title">Google Assistant</string>
+    <string name="touch_google_assistant_title">Google Асистент</string>
 
-    <string name="touch_flashlight_title">Flashlight toggle</string>
+    <string name="touch_flashlight_title">Ліхтарик</string>
 
-    <string name="touch_camera_title">Take a photo</string>
-    <string name="touch_camera_front_title">Front</string>
-    <string name="touch_camera_rear_title">Rear</string>
-    <string name="touch_camera_install_title">Install</string>
+    <string name="touch_camera_title">Сфотографувати</string>
+    <string name="touch_camera_front_title">Фронтальна</string>
+    <string name="touch_camera_rear_title">Задня</string>
+    <string name="touch_camera_install_title">Встановити</string>
 
-    <string name="touch_app_launcher1_title">App launcher</string>
-    <string name="touch_app_launcher_package_no_title">Select an application</string>
-    <string name="touch_app_launcher1_not_wakelock_only_title">Only if the screen is not locked</string>
+    <string name="touch_app_launcher1_title">Запуск додатка</string>
+    <string name="touch_app_launcher_package_no_title">Оберіть додаток</string>
+    <string name="touch_app_launcher1_not_wakelock_only_title">Тільки якщо екран розблоковано</string>
 
-    <string name="touch_broadcast1_title">Send Broadcast</string>
-    <string name="touch_broadcast1_action_title">Intent action</string>
-    <string name="touch_broadcast1_package_title">Intent package name</string>
+    <string name="touch_broadcast1_title">Послати Broadcast</string>
+    <string name="touch_broadcast1_action_title">Дія Intent</string>
+    <string name="touch_broadcast1_package_title">Назва пакунку Intent</string>
 
-    <string name="touch_http_request1_title">1. HTTP request</string>
-    <string name="touch_http_request2_title">2. HTTP request</string>
+    <string name="touch_http_request1_title">1. HTTP запрос</string>
+    <string name="touch_http_request2_title">2. HTTP запрос</string>
     <string name="touch_http_request_url_title">URL</string>
-    <string name="touch_http_request_method_title">Method</string>
-    <string name="touch_http_request_body_title">Body</string>
-    <string name="touch_http_request_show_response_title">Show the response</string>
+    <string name="touch_http_request_method_title">Метод</string>
+    <string name="touch_http_request_body_title">Тіло</string>
+    <string name="touch_http_request_show_response_title">Показати відповідь</string>
 
-    <string name="touch_tasker_launcher1_title">1. Tasker task launcher</string>
-    <string name="touch_tasker_launcher2_title">2. Tasker task launcher</string>
-    <string name="touch_tasker_launcher_no_permission_title">You have to install Tasker first, after Mi Bandage</string>
-    <string name="touch_tasker_launcher_no_access_title">Allow external access</string>
-    <string name="touch_tasker_launcher_no_task_title">Select an task</string>
+    <string name="touch_tasker_launcher1_title">1. Запуск дії Tasker</string>
+    <string name="touch_tasker_launcher2_title">2. Запуск дії Tasker</string>
+    <string name="touch_tasker_launcher_no_permission_title">Ви маєте спочатку встановити Tasker, потім Mi Bandage</string>
+    <string name="touch_tasker_launcher_no_access_title">Дозволити зовнішній доступ</string>
+    <string name="touch_tasker_launcher_no_task_title">Оберіть дію</string>
 
-    <string name="touch_testing_title">Touch monitoring</string>
-    <string name="touch_testing_second">sec.</string>
+    <string name="touch_testing_title">Очікування дотику</string>
+    <string name="touch_testing_second">с</string>
 
-    <string name="touch_setting_detection_time_title">Touch detection time</string>
-    <string name="touch_setting_detection_time_music_hint">If it has a lower value, the music screen should be closed faster</string>
-    <string name="touch_setting_detection_time_button_hint">If it has a lower value, press the button faster</string>
+    <string name="touch_setting_detection_time_title">Час виявлення дотиків</string>
+    <string name="touch_setting_detection_time_music_hint">При меншому значенні екран музики має бути закритий швидше</string>
+    <string name="touch_setting_detection_time_button_hint">При меншому значенні натискайте кнопку швидше</string>
 
-    <string name="touch_setting_detection_method_title">Touch detection method</string>
+    <string name="touch_setting_detection_method_title">Спосіб виявлення дотиків</string>
 
-    <string name="touch_setting_recognition_start_title">Start touch recognition</string>
-    <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
-    <string name="touch_setting_recognition_time_title">Recognition time</string>
+    <string name="touch_setting_recognition_start_title">Початок розпізнавання дотиків</string>
+    <string name="touch_setting_recognition_start_trigger_title">Подія</string>
+    <string name="touch_setting_recognition_time_title">Час розпізнавання</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="touch_setting_recognition_succeeded_title">Recognisable touch pattern</string>
-    <string name="touch_setting_recognition_failed_title">Not recognisable touch pattern</string>
+    <string name="touch_setting_recognition_mi_band_signal_title">Сигнал %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="touch_setting_recognition_succeeded_title">Зразок розпізнано</string>
+    <string name="touch_setting_recognition_failed_title">Зразок не розпізнано</string>
 
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[
-        <mi_band_2>The touch is valid when the display of Band changes (so it is advisable to rotate your wrist before touching).</mi_band_2>
-        <b><u>Pattern recognition</u></b>
-        <p>Monitors the elapsed time between button presses.</p>
-        Valid touch examples:
-        <br>- touch
-        <br>- touch and 1sec waiting, touch
-        <br>- touch and 1sec waiting, touch and 1sec waiting, touch
-        <br>- touch and 2sec waiting, touch
-        <br>- touch and 2sec waiting, touch and 1sec waiting, touch
-        <br>- touch and 2sec waiting, touch and 2sec waiting, touch
-        <p><b><u>Button press counting</u></b></p>
-        <p>It monitors the number of button presses as long as the time between button presses is less than the touch detection time setting.</p>
-        <br><p>When you have an incoming call the phone does not recognise the following functions in order to ease touch input: location of the phone, repeat notifications, music control.</p>
-        <p>In test mode does not execute the function of recognised pattern.</p>
-        <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
-        <p>Band vibrates once, when recognise a pattern.</p>
-        <p>Band vibrates twice, when not recognise any pattern after the longest pattern (if <i>Not recognisable touch pattern signal</i> is set).</p>
+        <mi_band_2>Дотик враховується, якщо дисплей перемикається (рекомендується повернути зап'ясток перед дотиками).</mi_band_2>
+        <b><u>Розпізнавання зразків</u></b>
+        <p>Враховується час між дотиками.</p>
+        Приклади правильного натискання:
+        <br>- дотик
+        <br>- дотик та 1с пауза, дотик
+        <br>- дотик та 1с пауза, дотик та 1с пауза, дотик
+        <br>- дотик та 2с пауза, дотик
+        <br>- дотик та 2с пауза, дотик та 1с пауза, дотик
+        <br>- дотик та 2с пауза, дотик та 2с пауза, дотик
+        <p><b><u>Підрахунок кількості дотиків</u></b></p>
+        <p>Враховується кількість дотиків доти, доки час між дотиками менший за налаштування часу розпізнавання дотиків.</p>
+        <br><p>Під час вхідного виклику телефон не обробляє наступні функції: розташування телефона, повтор сповіщень, керування музикою, задля полегшення розпізнавання дотиків.</p>
+        <p>Під час тестування не виконується функція розпізнаного зразка.</p>
+        <p>Браслет вібруватиме тільки в разі співпадіння зразку, враховуючи поточний стан телефона (прийняти/відхилити виклик тільки під час вхідного виклику…).</p>
+        <p>Браслет вібруватиме один раз, якщо зразок розпізнано.</p>
+        <p>Браслет вібруватиме двічі, якщо не розпізнано жодного зразку після найдовшого (якщо встановлено сигнал <i>Зразок не розпізнано</i>).</p>
     ]]></string>
 
     <!-- Touch monitoring info dialog Mi Band 3/Amazfit Cor-->
     <string name="info_dialog_touch_not_supported"><![CDATA[
-        <b><u>Power saving mode</u></b>
-        <p>It does not increase battery consumption.</p>
-        <img src="ic_touch_pulse"> Pulse measurement
-        <mi_band_3><p>On the bracelet, in the pulse measurement function, start the measurement (long touch) and then interrupt the measurement (one touch) after 1 second.</p></mi_band_3>
-        <amazfit_cor><p>On the bracelet, start the pulse measurement function (Status) and then interrupt the measurement (swipe right) after 1 second.</p></amazfit_cor>
-        <amazfit_band_2><p>On the bracelet, start the pulse measurement function (Status) and then interrupt the measurement (swipe right) after 1 second.</p></amazfit_band_2>
-        <p>It must be turn off during continuous, online pulse measurement and exercise.<p>
-        <img src="ic_touch_find"> Find phone
-        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) start the finding (long touch).</p></mi_band_3>
-        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) start the finding.</p></amazfit_cor>
-        <amazfit_band_2>On the bracelet, in the Find phone function (Settings/Find phone) start the finding.</p></amazfit_band_2>
-        <img src="ic_touch_find_off"> Interrupt phone finding
-        <mi_band_3><p>On the bracelet, in the Find device function (More/Find device) interrupt the finding (one touch).</p></mi_band_3>
-        <amazfit_cor><p>On the bracelet, in the Find phone function (Settings/Find phone) interrupt the finding (swipe right).</p></amazfit_cor>
-        <amazfit_band_2><p>On the bracelet, in the Find phone function (Settings/Find phone) interrupt the finding (swipe right).</p></amazfit_band_2>
-        <b><u>Performance mode</u></b>
-        <p>Increases battery consumption. On the home screen turn on the touch only when you need it.</p>
-        <img src="ic_touch_app"> Touch
-        <mi_band_3><p>Touch is valid when the <mi_band_type> screen is off.</p></mi_band_3>
-        <amazfit_cor><p>The button below the <mi_band_type> screen.</p></amazfit_cor>
-        <amazfit_band_2><p>The button below the <mi_band_type> screen.</p></amazfit_band_2>
-        <img src="ic_touch_wrist"> Wrist lift
-        <p>Wrist lift is valid when the <mi_band_type> screen turns on.</p>
-        <img src="ic_call"> <b><u>Incoming call</b></u>
-        <p>It always works, even if the touch monitor is switched off on the main screen.</p>
-        <br><p>In test mode does not execute the function of recognised pattern.</p>
+        <b><u>Режим енергозбереження</u></b>
+        <p>Не збільшує енергоспоживання.</p>
+        <img src="ic_touch_pulse"> Вимірювання пульса
+        <mi_band_3><p>Почніть вимірювання пульса на браслеті (довгий дотик) та припиніть його (один дотик) за 1 секунду.</p></mi_band_3>
+        <amazfit_cor><p>Почніть вимірювання пульса на браслеті (Status) та припиніть його (проведіть праворуч) за 1 секунду.</p></amazfit_cor>
+        <amazfit_band_2><p>Почніть вимірювання пульса на браслеті (Status) та припиніть його (проведіть праворуч) за 1 секунду.</p></amazfit_band_2>
+        <p>Цей режим треба вимикати при тривалих онлайн-вимірюваннях пульса та вправах.<p>
+        <img src="ic_touch_find"> Знайти телефон
+        <mi_band_3><p>На браслеті у функції пошуку пристрою (More/Find device) почніть пошук (довгий дотик).</p></mi_band_3>
+        <amazfit_cor><p>На браслеті у функції пошуку пристрою (Settings/Find phone) почніть пошук.</p></amazfit_cor>
+        <amazfit_band_2>На браслеті у функції пошуку пристрою (Settings/Find phone) почніть пошук.</p></amazfit_band_2>
+        <img src="ic_touch_find_off"> Перервати пошук пристрою
+        <mi_band_3><p>На браслеті у функції пошуку пристрою (More/Find device) перервіть пошук (один дотик).</p></mi_band_3>
+        <amazfit_cor><p>На браслеті у функції пошуку пристрою (Settings/Find phone) перервіть пошук (проведіть праворуч).</p></amazfit_cor>
+        <amazfit_band_2><p>На браслеті у функції пошуку пристрою (Settings/Find phone) перервіть пошук (проведіть праворуч).</p></amazfit_band_2>
+        <b><u>Режим продуктивності</u></b>
+        <p>Збільшує енергоспоживання. Вмикайте дотики на головному екрані тільки якщо вони потрібіні.</p>
+        <img src="ic_touch_app"> Дотики
+        <mi_band_3><p>Дотик враховується коли дисплей <mi_band_type> вимкнений.</p></mi_band_3>
+        <amazfit_cor><p>Кнопка під дисплеєм <mi_band_type>.</p></amazfit_cor>
+        <amazfit_band_2><p>Кнопка під дисплеєм <mi_band_type>.</p></amazfit_band_2>
+        <img src="ic_touch_wrist"> Поворот зап'ястку
+        <p>Поворот зап'ястку враховується коли дисплей <mi_band_type> активний.</p>
+        <img src="ic_call"> <b><u>Вхідний виклик</b></u>
+        <p>Працює завжди, навіть якщо дотики на головному екрані вимкнені.</p>
+        <br><p>Під час тестування не виконується функція розпізнаного зразка.</p>
         <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
         <p>Band vibrates once, when recognise a pattern.</p>
         <p>Band vibrates twice, when not recognise any pattern after the longest pattern (if <i>Not recognisable touch pattern signal</i> is set).</p>
@@ -714,156 +714,156 @@
         <img src="ic_call"> <b><u>Incoming call</b></u>
         <p>It always works, even if the touch monitor is switched off on the main screen.</p>
         <br><p>In test mode does not execute the function of recognised pattern.</p>
-        <p>Band vibration feedback just only, if there is a pattern taking into account the current status of the phone (call answering, rejecting only if there is an incoming call…).</p>
-        <p>Band vibrates once, when recognise a pattern.</p>
-        <p>Band vibrates twice, when not recognise any pattern after the longest pattern (if <i>Not recognisable touch pattern signal</i> is set).</p>
+        <p>Браслет вібруватиме тільки в разі співпадіння зразку, враховуючи поточний стан телефона (прийняти/відхилити виклик тільки під час вхідного виклику…).</p>
+        <p>Браслет вібруватиме один раз, якщо зразок розпізнано.</p>
+        <p>Браслет вібруватиме двічі, якщо не розпізнано жодного зразку після найдовшого (якщо встановлено сигнал <i>Зразок не розпізнано</i>).</p>
     ]]></string>
 
     <!-- Step monitoring -->
-    <string name="action_tracker_step">Steps</string>
-    <string name="action_tracker_distance">Distance</string>
-    <string name="action_tracker_calorie">Calories</string>
-    <string name="action_chart_filter_activity_no">No filter</string>
-    <string name="action_chart_filter_activity_active">Movement filter</string>
-    <string name="action_chart_monthly_calendar">Calendar</string>
-    <string name="action_chart_monthly_compact">Compact</string>
+    <string name="action_tracker_step">Кроки</string>
+    <string name="action_tracker_distance">Відстань</string>
+    <string name="action_tracker_calorie">Калорії</string>
+    <string name="action_chart_filter_activity_no">Без фільтра</string>
+    <string name="action_chart_filter_activity_active">Фільтр руху</string>
+    <string name="action_chart_monthly_calendar">Календар</string>
+    <string name="action_chart_monthly_compact">Компактно</string>
 
-    <string name="step_tab_day">Daily charts</string>
-    <string name="step_tab_week">Weekly charts</string>
-    <string name="step_tab_month">Monthly charts</string>
-    <string name="step_tab_goal">Activity goals</string>
+    <string name="step_tab_day">Денні графіки</string>
+    <string name="step_tab_week">Тижневі графіки</string>
+    <string name="step_tab_month">Місячні графіки</string>
+    <string name="step_tab_goal">Досягнуті цілі</string>
     <string name="step_tab_settings">@string/setting_name</string>
 
-    <string name="activity_progress_title_prepare">Preparing for synchronization…</string>
-    <string name="activity_progress_title_sync">Data synchronization %1$,d%%</string>
-    <string name="activity_progress_title_save">Data saving (%2$s) %1$,d%%</string>
+    <string name="activity_progress_title_prepare">Підготовка до синхронізації…</string>
+    <string name="activity_progress_title_sync">Синхронізація даних %1$,d%%</string>
+    <string name="activity_progress_title_save">Збереження даних (%2$s) %1$,d%%</string>
 
-    <string name="step_title_timing">Timing</string>
-    <string name="step_interval_title">Repeat interval of step monitoring</string>
-    <string name="step_time_set_next">Timing of next monitoring</string>
+    <string name="step_title_timing">Час</string>
+    <string name="step_interval_title">Періодичнітсть отримання даних</string>
+    <string name="step_time_set_next">Час до наступного вімірювання</string>
 
-    <string name="step_goal_default_title">Default goal</string>
-    <string name="step_goal_type_title">Additional goals</string>
-    <string name="step_details">Activity details</string>
+    <string name="step_goal_default_title">Мета за замовчанням</string>
+    <string name="step_goal_type_title">Додаткові цілі</string>
+    <string name="step_details">Подробиці активностей</string>
 
     <string name="info_dialog_step"><![CDATA[
-        <img src="ic_activity_active"> daily step/distance/calories total
-        <br><br><img src="ic_timelapse"> active time
-        <br><br><img src="ic_activity_get_up"> getting out from the bed time
-        <br><br><img src="ic_activity_awake"> wakefulness time
-        <br><br><img src="ic_activity_rest_sofa"> resting/sitting time during wakefulness
-        <br><br><img src="ic_activity_go_to_bed"> bedtime
-        <br><br><img src="ic_battery_charging_full"> battery charging
-        <br><br><img src="ic_activity_block"> not wearing
+        <img src="ic_activity_active"> кроки/відстань/калорії за день
+        <br><br><img src="ic_timelapse"> час активності
+        <br><br><img src="ic_activity_get_up"> час підйому
+        <br><br><img src="ic_activity_awake"> час бадьорості
+        <br><br><img src="ic_activity_rest_sofa"> денний відпочинок/неактивність
+        <br><br><img src="ic_activity_go_to_bed"> час засипання
+        <br><br><img src="ic_battery_charging_full"> заряджання
+        <br><br><img src="ic_activity_block"> знятий
         ]]>
     </string>
 
     <!-- Sleep monitoring -->
-    <string name="sleep_tab_day">Daily charts</string>
-    <string name="sleep_tab_week">Weekly charts</string>
-    <string name="sleep_tab_month">Monthly charts</string>
+    <string name="sleep_tab_day">Денні графіки</string>
+    <string name="sleep_tab_week">Тижневі графіки</string>
+    <string name="sleep_tab_month">Місячні графіки</string>
     <string name="sleep_tab_settings">@string/setting_name</string>
 
-    <string name="action_chart_sleep_type_phase">Phase</string>
-    <string name="action_chart_sleep_type_time">Time</string>
+    <string name="action_chart_sleep_type_phase">Фаза</string>
+    <string name="action_chart_sleep_type_time">Час</string>
 
-    <string name="sleep_details">Sleep details</string>
+    <string name="sleep_details">Подробиці сну</string>
 
     <string name="info_dialog_sleep"><![CDATA[
-        <img src="ic_timelapse"> sleeping time
-        <br><br><img src="ic_activity_sleep_deep"> deep sleeping time
-        <br><br><img src="ic_activity_go_to_bed"> bedtime/awake time
-        <br><br><img src="ic_activity_sleep_start"> sleep start time/light sleeping time
-        <br><br><img src="ic_activity_sleep_time"> total time
-        <br><br><img src="ic_activity_sleep_end"> sleep end time
-        <br><br><img src="ic_activity_get_up"> getting out from the bed time
-        <br><br><img src="ic_activity_active"> active time
-        <br><br><img src="ic_activity_block"> not wearing
+        <img src="ic_timelapse"> час сну
+        <br><br><img src="ic_activity_sleep_deep"> час глибокого сну
+        <br><br><img src="ic_activity_go_to_bed"> час прокидання/засипання
+        <br><br><img src="ic_activity_sleep_start"> час початку сну/швидкий сон
+        <br><br><img src="ic_activity_sleep_time"> загальний час
+        <br><br><img src="ic_activity_sleep_end"> час прокидання
+        <br><br><img src="ic_activity_get_up"> час підйому
+        <br><br><img src="ic_activity_active"> час активності
+        <br><br><img src="ic_activity_block"> знятий
         ]]>
     </string>
 
     <!-- Pulse  monitoring -->
-    <string name="action_pulse_current">Current pulse</string>
+    <string name="action_pulse_current">Поточний пульс</string>
 
-    <string name="pulse_tab_day">Daily charts</string>
-    <string name="pulse_tab_week">Weekly charts</string>
-    <string name="pulse_tab_month">Monthly charts</string>
-    <string name="pulse_tab_settings_online">Online setting</string>
-    <string name="pulse_tab_settings_offline">Offline setting</string>
-    <string name="pulse_tab_settings_continuous">Continuous setting</string>
+    <string name="pulse_tab_day">Денні графіки</string>
+    <string name="pulse_tab_week">Тижневі графіки</string>
+    <string name="pulse_tab_month">Місячні графіки</string>
+    <string name="pulse_tab_settings_online">Активні вимірювання</string>
+    <string name="pulse_tab_settings_offline">Пасивні вимірювання</string>
+    <string name="pulse_tab_settings_continuous">Тривалі вимірювання</string>
 
-    <string name="pulse_online_title">Online pulse measurement</string>
-    <string name="pulse_offline_title">Offline pulse measurement</string>
-    <string name="pulse_continuous_title">Continuous pulse measurement</string>
+    <string name="pulse_online_title">Активне вимірювання пульсу</string>
+    <string name="pulse_offline_title">Пасивне вимірювання пульсу</string>
+    <string name="pulse_continuous_title">Тривале вимірювання пульсу</string>
 
-    <string name="action_chart_pulse_type_pulse">Pulse</string>
-    <string name="action_chart_pulse_type_pulse_and_step">Pulse and activity</string>
+    <string name="action_chart_pulse_type_pulse">Пульс</string>
+    <string name="action_chart_pulse_type_pulse_and_step">пульс та активність</string>
 
-    <string name="pulse_continuous_chart_title">Chart</string>
-    <string name="pulse_continuous_autostart">Autostart when starting Mi Fit activity</string>
+    <string name="pulse_continuous_chart_title">Графік</string>
+    <string name="pulse_continuous_autostart">Автозапуск при початку активності у Mi Fit</string>
 
-    <string name="pulse_notification_shade">Chart on the notification shade</string>
-    <string name="pulse_title_signals">Signals</string>
-    <string name="pulse_signal_start_title">Monitoring starting signal</string>
-    <string name="pulse_signal_show_title">Show pulse</string>
-    <string name="pulse_signal_end_low_title">Low pulse signal</string>
-    <string name="pulse_signal_end_title">High pulse signal</string>
+    <string name="pulse_notification_shade">Графік у сповіщенні в рядку стану</string>
+    <string name="pulse_title_signals">Сигнали</string>
+    <string name="pulse_signal_start_title">Сигнал початку вимірювання</string>
+    <string name="pulse_signal_show_title">Показати пульс</string>
+    <string name="pulse_signal_end_low_title">Сигнал низького пульсу</string>
+    <string name="pulse_signal_end_title">Сигнал високого пульсу</string>
 
-    <string name="pulse_title_timing_validity">Timing and validity</string>
-    <string name="pulse_value_min">Valid lower value</string>
-    <string name="pulse_value_max">Valid higher value</string>
-    <string name="pulse_value_invalid">Invalid value</string>
+    <string name="pulse_title_timing_validity">Час та дійсність</string>
+    <string name="pulse_value_min">Дійсне найнижче значення</string>
+    <string name="pulse_value_max">Дійсне найвище значення</string>
+    <string name="pulse_value_invalid">Недійсне значення</string>
 
-    <string name="pulse_offline_timed_title">Timed measurement</string>
-    <string name="pulse_offline_sleep_assistant">Heart rate sleep assistant</string>
-    <string name="pulse_offline_sleep_assistant_summary">Helps to get more precise sleep data (reduces battery life)</string>
-    <string name="pulse_offline_detect_sport">Activity detection</string>
-    <string name="pulse_offline_detect_sport_summary">When %1$s detects that you are doing exercises, it will automatically increase the detection frequency to guarantee the accuracy of heart rate data during workouts</string>
-    <string name="pulse_offline_alert_high">Heart rate alert</string>
-    <string name="pulse_offline_alert_high_summary">When the alert value is reached, and there is no obvious activity in last 10 minutes, the %1$s will vibrate</string>
-    <string name="pulse_offline_alert_high_value_title">Alert value</string>
+    <string name="pulse_offline_timed_title">Вимірювання за часом</string>
+    <string name="pulse_offline_sleep_assistant">Вимірювання пульсу під час сну</string>
+    <string name="pulse_offline_sleep_assistant_summary">Допомагає отримати більш точні дані сну (збільшує енергоспоживання)</string>
+    <string name="pulse_offline_detect_sport">Визначення активності</string>
+    <string name="pulse_offline_detect_sport_summary">Якщо %1$s визначить, що ви робите вправи, він автоматично збільшить частоту вимірювань задля збільшення точності даних пульсу під час тренувань</string>
+    <string name="pulse_offline_alert_high">Попередження про пульс</string>
+    <string name="pulse_offline_alert_high_summary">Якщо досягнуто значення попередження при відсутності активності у останні 10 хвилин, %1$s вібруватиме</string>
+    <string name="pulse_offline_alert_high_value_title">Значення попередження</string>
 
-    <string name="pulse_chart_expandable_title">Notification is expandable</string>
-    <string name="pulse_interval_title">Repeat interval of pulse monitoring</string>
-    <string name="pulse_time_set_next">Timing of next monitoring</string>
+    <string name="pulse_chart_expandable_title">Сповіщення можна розгорнути</string>
+    <string name="pulse_interval_title">Інтервал вимірювань</string>
+    <string name="pulse_time_set_next">Час наступного вимірювання</string>
 
-    <string name="pulse_details">Pulse details</string>
+    <string name="pulse_details">Подробиці вимірювань</string>
 
-    <string name="message_pulse_premium_mode_only">Online and offline pulse measurement can only be used in premium mode at the same time</string>
+    <string name="message_pulse_premium_mode_only">Активні та пасивні вимірювання можуть використовуватись одночасно тільки в преміум режимі</string>
 
-    <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Online pulse measurement</u></b>
-        <p>Bluetooth connection is required for monitoring the pulse.</p>
-        <p>Pulse monitor is repeated several times if the resulting value is invalid.</p>
-        <img src="ic_pulse_offline"> <b><u>Offline pulse measurement</u></b>
-        <p>No Bluetooth connection required for pulse measurement.</p>
-        <p>Bluetooth connection is required for timed start and stop.</p>
-        <p>Manually launched measurements (Band, Mi Fit app) are also synchronized.</p>
+    <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Активне вимірювання пульсу</u></b>
+        <p>Необхідне з'єднання Bluetooth для вимірювань пульсу.</p>
+        <p>Якщо реультат хибний, вимірювання буде повторене декілька разів.</p>
+        <img src="ic_pulse_offline"> <b><u>Пасивне вимірювання пульсу</u></b>
+        <p>З'єднання Bluetooth необов'язкове для вимірювань пульсу.</p>
+        <p>З'єднання Bluetooth необхідне для вимірювань за розкладом.</p>
+        <p>Виміри запущені вручну (браслет, додаток Mi Fit) також синхронізуються.</p>
         ]]>
     </string>
 
     <!-- Lost monitoring -->
-    <string name="alarm_mi_band_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="alarm_mi_band_service">Lost background service</string>
-    <string name="alarm_mi_band_service_summary">In case of frequent false alarms, turn on the background service for more stable operation</string>
-    <string name="alarm_mi_band_clock">Use the phone\'s alarm clock, if background service is down (increases battery consumption)</string>
-    <string name="alarm_mi_band_dnd">Do not disturb mode</string>
-    <string name="alarm_mi_band_interval_title">Repeat interval of alarm setting</string>
-    <string name="alarm_mi_band_time_set_next">Timing of next setting</string>
-    <string name="alarm_mi_band_time">Timing of next alarm</string>
+    <string name="alarm_mi_band_title">Сигнал %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="alarm_mi_band_service">Фонова служба загублення</string>
+    <string name="alarm_mi_band_service_summary">У випадку частих помилкових спрацьовувань, увімкніть фонову службу для більш стабільної роботи</string>
+    <string name="alarm_mi_band_clock">Використовувати будильник телефону, якщо фонова служба не запущена (збільшує енергоспоживання)</string>
+    <string name="alarm_mi_band_dnd">Режим "Не турбувати"</string>
+    <string name="alarm_mi_band_interval_title">Налаштування часу повторення попередження</string>
+    <string name="alarm_mi_band_time_set_next">Час наступного встановлення</string>
+    <string name="alarm_mi_band_time">Час наступного будильника</string>
 
-    <string name="alarm_mi_band_disconnected_message">Disconnected</string> <!-- Max. 16 characters length -->
+    <string name="alarm_mi_band_disconnected_message">Роз'єднано</string> <!-- Max. 16 characters length -->
 
-    <string name="pref_cat_abandoned">Phone signal</string>
-    <string name="pref_abandoned_notif_interval_title">Signal repeat interval</string>
-    <string name="pref_abandoned_notif_text_summary">Notification on the phone screen</string>
-    <string name="pref_abandoned_notif_text_text">The phone is lost, please call the following numbers:</string>
-    <string name="pref_abandoned_ringtone_title">Ringtone</string>
-    <string name="pref_abandoned_vibration_title">Vibration</string>
-    <string name="pref_abandoned_wakelock_title">Wake up the screen</string>
-    <string name="pref_abandoned_notif_title">The phone is lost</string>
+    <string name="pref_cat_abandoned">Сигнал телефона</string>
+    <string name="pref_abandoned_notif_interval_title">Інтервал повторення сигналу</string>
+    <string name="pref_abandoned_notif_text_summary">Сповіщення на екрані телефону</string>
+    <string name="pref_abandoned_notif_text_text">Телефон загублений, будьласка зателефонуйте:</string>
+    <string name="pref_abandoned_ringtone_title">Мелодія дзвінка</string>
+    <string name="pref_abandoned_vibration_title">Вібрація</string>
+    <string name="pref_abandoned_wakelock_title">Увімкнути екран</string>
+    <string name="pref_abandoned_notif_title">Телефон загублений</string>
 
-    <string name="alarm_mi_band_on_bluetooth_disabled_text">Lost monitoring %1$s signal is enabled</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="alarm_mi_band_on_bluetooth_disabled_info">Alarm time: %1$s</string>
+    <string name="alarm_mi_band_on_bluetooth_disabled_text">Сигнал про загублення увімкнений на %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="alarm_mi_band_on_bluetooth_disabled_info">Час будильника: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Band signal</u></b>
         <p>When specified period of time expires, Band send signals if not connected to the phone.</p>
