@@ -52,7 +52,7 @@
     <string name="mi_band_search">Пошук</string>
     <string name="mi_band_touch">Контроль дотиків</string>
     <string name="mi_band_alarm">Наступний будильник</string>
-    <string name="mi_band_bonded_device_name">Назва спареного пристрою</string>
+    <string name="mi_band_bonded_device_name">Назва зв'язаного пристрою</string>
     <string name="mi_band_mac_address">MAC адреса</string>
     <string name="mi_band_firmware">Мікропрограма</string>
     <string name="mi_band_hardware">Апаратна версія</string>
@@ -62,8 +62,8 @@
     <string name="mi_band_state_title">Налаштування %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="mi_band_state_connected">Підключений</string>
     <string name="mi_band_state_disconnected">Відключений</string>
-    <string name="mi_band_state_bonded">Спарений пристрій</string>
-    <string name="mi_band_state_not_bonded">Не спарений пристрій</string>
+    <string name="mi_band_state_bonded">Зв'язаний пристрій</string>
+    <string name="mi_band_state_not_bonded">Не зв'язаний пристрій</string>
 
     <!-- Mi Band setting -->
     <string name="mi_band_setting_button_title">Налаштування %1$s・Профіль・Текст・Дзвінки・Меню</string>
@@ -76,227 +76,227 @@
     <string name="mi_band_setting_menu_menu">Меню</string>
 
     <string name="mi_band_setting_auth_mi_fit">Взаємодія з %1$s</string> <!-- Mi Fit, Amazfit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage потребує втановленого додатку Mi Fit/Amazfit на тому ж телефоні. Спочатку ви маєте спарувати %1$s у додатку Mi Fit/Amazfit, потім ви зможете використовувати Mi Bandage. Оберіть цей пункт, якщо бажаєте використовувати додаток Mi Fit/Amazfit.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage потребує втановленого додатку Mi Fit/Amazfit на тому ж телефоні. Спочатку ви маєте зв'язати %1$s з додатком Mi Fit/Amazfit, потім ви зможете використовувати Mi Bandage. Оберіть цей пункт, якщо бажаєте використовувати додаток Mi Fit/Amazfit.</string>
     <string name="mi_band_setting_auth_standalone">Автономна взаємодія</string>
-    <string name="mi_band_setting_auth_standalone_hint">Для роботи Mi Bandage, не потрібний додаток Mi Fit/Amazfit. Після парування, видаліть додаток Mi Fit/Amazfit, або відв'яжіть ваш пристрій. Для відновлення взаємодії з Mi Fit/Amazfit, буде потрібно знову спарувати %1$s у додатку Mi Fit/Amazfit.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Для роботи Mi Bandage, не потрібний додаток Mi Fit/Amazfit. Після зв'язування, видаліть додаток Mi Fit/Amazfit, або відв'яжіть ваш пристрій. Для відновлення взаємодії з Mi Fit/Amazfit, буде потрібно знову зв'язати %1$s з додатком Mi Fit/Amazfit.</string>
     <string name="mi_band_setting_auth_key_title">Ключ автентифікації</string>
     <string name="mi_band_setting_auth_key_hint">Ключ автентифікації має бути надано для автономного режиму</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
         <p>- Відв'яжіть %1$s у офіційному додатку Mi Fit/Amazfit</p>
         <p>- Видаліть офіційний додаток Mi Fit/Amazfit</p>
         <p>- Встановіть модифікований додаток Mi Fit/Amazfit</p>
-        <p>- Спаруйте %1$s з модифікованим додатком Mi Fit/Amazfit (не відв'язуйте)</p>
+        <p>- Зв'яжіть %1$s з модифікованим додатком Mi Fit/Amazfit (не відв'язуйте)</p>
         <p>- Видаліть модифікований додаток Mi Fit/Amazfit</p>
         Ключ автентифікації можна знайти: Внутрішнє сховище/freemyband/mac address.txt
     ]]></string>
     <string name="mi_band_setting_auth_key">Ключ автентифікації</string>
     <string name="mi_band_setting_auth">Парування</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
-    <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
-    <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
-    <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
+    <string name="message_mi_band_setting_auth_press_band_button">Щоб зв'язати, натисніть кнопку на %1$s</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s зв'язаний успішно</string>
+    <string name="message_mi_band_setting_auth_fail">помилка зв'язування з %1$s</string>
+    <string name="message_mi_band_setting_auth_key_invalid">Невірний ключ автентифікації</string>
 
-    <string name="mi_band_setting_nickname">Nickname</string>
-    <string name="mi_band_setting_gender">Gender</string>
-    <string name="mi_band_setting_birthday">Date of birth</string>
-    <string name="mi_band_setting_height">Height</string>
-    <string name="mi_band_setting_weight">Weight</string>
-    <string name="mi_band_setting_wear_location">Band location</string>
+    <string name="mi_band_setting_nickname">Ім'я</string>
+    <string name="mi_band_setting_gender">Стать</string>
+    <string name="mi_band_setting_birthday">Дата народження</string>
+    <string name="mi_band_setting_height">Зріст</string>
+    <string name="mi_band_setting_weight">Вага</string>
+    <string name="mi_band_setting_wear_location">Розташування браслету</string>
 
-    <string name="mi_band_setting_distance_unit">Distance unit</string>
+    <string name="mi_band_setting_distance_unit">Одиниця вимірювання відстані</string>
 
-    <string name="mi_band_setting_standalone_setting">Standalone settings</string>
-    <string name="mi_band_setting_time_24h">24-hour time format</string>
-    <string name="mi_band_setting_date">Display date on screen</string>
-    <string name="mi_band_setting_lock_screen">Band screen lock</string>
-    <string name="mi_band_setting_lock_screen_summary">Swipe up to unlock the screen while the band is powered on</string>
-    <string name="mi_band_setting_lift_wrist">Lift wrist to view info</string>
-    <string name="mi_band_setting_lift_wrist_sensitivity">Response speed</string>
-    <string name="mi_band_setting_idle_alert">Idle alert</string>
-    <string name="mi_band_setting_idle_alert_time">Inactivity time</string>
-    <string name="mi_band_setting_idle_alert_dnd">Do not disturb, while you have rest</string>
-    <string name="mi_band_setting_night_mode">Night mode</string>
+    <string name="mi_band_setting_standalone_setting">Налаштування автономного режиму</string>
+    <string name="mi_band_setting_time_24h">24-годинний формат</string>
+    <string name="mi_band_setting_date">Відображати дату</string>
+    <string name="mi_band_setting_lock_screen">Блокування дисплея браслету</string>
+    <string name="mi_band_setting_lock_screen_summary">Проведіть для розблокування при ввімкненому браслеті</string>
+    <string name="mi_band_setting_lift_wrist">Поверніть зап'ясток для відображення інформації</string>
+    <string name="mi_band_setting_lift_wrist_sensitivity">Швидкість відгуку</string>
+    <string name="mi_band_setting_idle_alert">Сповіщення бездіяльності</string>
+    <string name="mi_band_setting_idle_alert_time">Час бездіяльності</string>
+    <string name="mi_band_setting_idle_alert_dnd">Не турбувати під час відпочинку</string>
+    <string name="mi_band_setting_night_mode">Нічний режим</string>
 
-    <string name="mi_band_setting_discoverable">Discoverable</string>
+    <string name="mi_band_setting_discoverable">Видимість</string>
 
-    <string name="pref_text_title">Text display</string>
-    <string name="pref_text_conversion_summary">Convert text message characters</string>
-    <string name="pref_cat_text_conversion">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_text_conversion_title">Transliteration</string>
-    <string name="pref_text_conversion_summary_on">Not recognisable characters conversion, turn off if the Band supports your language or you have installed custom font firmware</string>
-    <string name="pref_text_conversion_excluded_title">Excluded characters</string>
-    <string name="pref_text_emoticon_title">Emoji conversion</string>
-    <string name="pref_text_emoticon_summary_on">Convert emoji to emoticon</string>
-    <string name="pref_text_emoji_title">Emoji display</string>
-    <string name="pref_text_emoji_summary_on">Turn it on if your device has a custom font firmware installed that support emoji display</string>
-    <string name="pref_text_uppercase_title">Uppercase conversion</string>
-    <string name="pref_text_uppercase_summary_on">Convert lowercase to uppercase</string>
-    <string name="pref_text_length">Text length, depends on the font used (for example Chinese or Cyrillic characters)</string>
-    <string name="pref_text_length_summary_on">%1$,d characters</string>
-    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
-    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
-    <string name="pref_text_char_replacement_find">Find</string>
-    <string name="pref_text_char_replacement_replace">Replace with</string>
+    <string name="pref_text_title">Налашування тексту</string>
+    <string name="pref_text_conversion_summary">Перетворення кодування символів</string>
+    <string name="pref_cat_text_conversion">Сигнал %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_text_conversion_title">Транслітерація</string>
+    <string name="pref_text_conversion_summary_on">Перетворення нерозпізнаваних символів, вимкніть, якщо браслет підтримує вашу мову або ви встановили спеціальний шрифт</string>
+    <string name="pref_text_conversion_excluded_title">Виключені символи</string>
+    <string name="pref_text_emoticon_title">Перетворення смайлів</string>
+    <string name="pref_text_emoticon_summary_on">Перетворювати графічні смайли на текстові</string>
+    <string name="pref_text_emoji_title">Відображення смайлів</string>
+    <string name="pref_text_emoji_summary_on">Увімкніть, якщо браслет має встановлений шрифт з підтримкою відображення смайлів</string>
+    <string name="pref_text_uppercase_title">Перетворення до верхнього регістру</string>
+    <string name="pref_text_uppercase_summary_on">Перетворювати нижній регістр у верхній</string>
+    <string name="pref_text_length">Довжина тексту, залежить від встановленого шрифту (наприклад китайські, або кирилічні символи)</string>
+    <string name="pref_text_length_summary_on">%1$,d символів</string>
+    <string name="pref_text_char_replacement_title">Заміна символів, смайлів</string>
+    <string name="pref_text_char_replacement_summary_on">Замінити один символ іншим</string>
+    <string name="pref_text_char_replacement_find">Знайти</string>
+    <string name="pref_text_char_replacement_replace">Замінити</string>
 
-    <string name="mi_band_setting_menu_visible">Visible menu items</string>
-    <string name="mi_band_setting_menu_hidden">Hidden menu items</string>
-    <string name="mi_band_setting_shortcut">Shortcut items</string>
-    <string name="mi_band_setting_shortcut_hidden">Hidden shortcut items</string>
+    <string name="mi_band_setting_menu_visible">Видимі елементи меню</string>
+    <string name="mi_band_setting_menu_hidden">Приховані елементи меню</string>
+    <string name="mi_band_setting_shortcut">Елементи швидкого доступу</string>
+    <string name="mi_band_setting_shortcut_hidden">Приховані елементи швидкого доступу</string>
 
-    <string name="pref_text_conversion_description_title">Description</string>
+    <string name="pref_text_conversion_description_title">Опис</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
-        <p>If your Band shows the incoming caller name currently, then you do not need to do the following steps just turn off <i>Incoming call alerts</i> on Mi Fit.</p>
-        <p>If you do not use <i>Incoming call alerts</i> and the phone language is not English:
-        <br/>1. Set your phone language to English.
-        <br/>2. Open Mi Fit app, wait until the font firmware update done. If firmware update doesn\'t start, try reboot your phone.
-        <br/>3. Open the <i>Profile/Mi Band/Incoming call</i> menu.
-        <br/>4. Turn on: <i>Turn on incoming call alerts</i>.
-        <br/>5. Turn on: <i>Show contact information</i>.
-        <br/>6. Check if you can Band shows caller name by calling your phone.
-        <br/>7. Turn off : <i>Turn on incoming call alerts</i> (<i>Show contact information</i> stays on).
-        <br/>8. Set phone language back to your language.</p>]]>
+        <p>Якщо браслет відображує ім'я абонента, тоді вам не треба робити наступні кроки, просто вимкніть <i>Сповіщення про вхідні виклики</i> у Mi Fit.</p>
+        <p>Якщо ви не використовуєте <i>Сповіщення про вхідні виклики</i> та мова телефона не англійська:
+        <br/>1. Перемкніть мову телефона на англійську.
+        <br/>2. Відкрийте додаток Mi Fit, Почекайте оновлення мікропрограми. Якщо оновлення не відбувається, спробуйте перезавантажити телефон.
+        <br/>3. Відкрийте меню <i>Профіль/Mi Band/Вхідний виклик</i>.
+        <br/>4. Увімкніть: <i>Сповіщення про вхідні виклики</i>.
+        <br/>5. Увімкніть: <i>Показати контактну інформацію</i>.
+        <br/>6. Перевірте, чи відображає браслет ім'я абонента, зателефонувавши на свій телефон.
+        <br/>7. Вимкніть: <i>Сповіщення про вхідні виклики</i> (<i>Показати контактну інформацію</i> залиште увімкненим).
+        <br/>8. Поверніть мову телефона.</p>]]>
     </string>
     <!-- Battery -->
-    <string name="battery_details">Battery usage</string>
+    <string name="battery_details">Використання заряду</string>
 
-    <string name="mi_band_battery_settings">Battery settings</string>
-    <string name="mi_band_battery_remaining">Battery estimated remaining time</string>
-    <string name="mi_band_battery_notification">Low battery level notification</string>
-    <string name="mi_band_battery_notification_level">Battery level threshold</string>
-    <string name="mi_band_battery_notification_repeat_interval">Repeat interval</string>
-    <string name="mi_band_battery_notification_shade">Notify me on the phone</string>
-    <string name="mi_band_battery_notification_shade_ongoing">Persistent (ongoing) notification</string>
-    <string name="mi_band_battery_notification_shade_message">Battery level is low: %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">Notify me on the bracelet</string>
-    <string name="mi_band_battery_notification_mi_band_message">Battery: %1$,d%%</string>
+    <string name="mi_band_battery_settings">Налаштування батареї</string>
+    <string name="mi_band_battery_remaining">Розрахунковий час роботи</string>
+    <string name="mi_band_battery_notification">Сповіщення про низький заряд</string>
+    <string name="mi_band_battery_notification_level">Рівень низького заряду</string>
+    <string name="mi_band_battery_notification_repeat_interval">Інтервал повторення</string>
+    <string name="mi_band_battery_notification_shade">Сповіщати на телефоні</string>
+    <string name="mi_band_battery_notification_shade_ongoing">Постійне сповіщення</string>
+    <string name="mi_band_battery_notification_shade_message">Низьки заряд: %1$,d%%</string>
+    <string name="mi_band_battery_notification_mi_band">Сповіщати на браслеті</string>
+    <string name="mi_band_battery_notification_mi_band_message">Заряд: %1$,d%%</string>
 
     <!-- PreferenceScreen -->
-    <string name="pref_connected">Connection</string>
-    <string name="pref_connected_summary">%1$s and phone connection signals and settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected">З'єднання</string>
+    <string name="pref_connected_summary">Налаштування з'єднання %1$s з телефоном та сповіщень про це</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
-    <string name="pref_connected_signals">Connection signals</string>
-    <string name="pref_connected_signals_summary">%1$s connecting and not have notification</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_cat_connected_signals_mi_band">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_connected_mi_band_title">Vibration</string>
-    <string name="pref_cat_connected_signals">Phone signals</string>
-    <string name="pref_connected_wakelock_title">Wake up the phone screen</string>
+    <string name="pref_connected_signals">Сповіщення при з'єднанні</string>
+    <string name="pref_connected_signals_summary">%1$s не сповіщає про під'єднання</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_connected_signals_mi_band">Сповіщення %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_mi_band_title">Вібрація</string>
+    <string name="pref_cat_connected_signals">Сповіщення телефона</string>
+    <string name="pref_connected_wakelock_title">Вмикати екран телефона</string>
 
-    <string name="pref_connected_settings">Connection settings</string>
-    <string name="pref_connected_settings_summary">%1$s and phone connection settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_cat_connected_settings">Phone settings</string>
-    <string name="pref_connected_volume_title">Adjust the volume</string>
-    <string name="pref_connected_volume_ring_title">Ring volume</string>
+    <string name="pref_connected_settings">Налаштування з'єднання</string>
+    <string name="pref_connected_settings_summary">Налаштування з'єднання %1$s з телефоном</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_connected_settings">Налаштування телефона</string>
+    <string name="pref_connected_volume_title">Змінити гучність</string>
+    <string name="pref_connected_volume_ring_title">Гучність дзвінка</string>
 
-    <string name="pref_cat_connected_have_notif">Predefined app signals</string>
-    <string name="pref_cat_connected_have_notif_default">Predefined and custom settings</string>
-    <string name="pref_connected_have_notif_immediate_title">Immediate signal when notification is received</string>
-    <string name="pref_connected_have_notif_title">Signal when connecting to phone</string>
-    <string name="pref_connected_have_notif_reminder_title">Reminder signal</string>
-    <string name="pref_connected_have_notif_screen_off_title">Signal only when the screen is off</string>
-    <string name="pref_connected_have_notif_interval_title">Reminder repeat interval</string>
-    <string name="pref_connected_have_notif_counter_title">The number of signals</string>
-    <string name="pref_connected_have_notif_wakelock_title">Wake up the phone screen</string>
-    <string name="pref_connected_have_notif_ongoing_title">Signal persistent (ongoing) notifications</string>
-    <string name="pref_connected_have_notif_default_app_title">Signal not recognised app</string>
-    <string name="pref_connected_have_notif_default_app_summary_on">\'app\' icon (if app there is no in predefined and neither custom notification group)</string>
-    <string name="pref_connected_have_notif_pre_signal_title">Notification prediction</string>
-    <string name="pref_connected_have_notif_pre_signal_summary_on">Signal (click on the icon to change it) before the actual notification in order to have more time to look at the display</string>
+    <string name="pref_cat_connected_have_notif">Передналаштовані сповіщення додатків</string>
+    <string name="pref_cat_connected_have_notif_default">Передвстановлені та користувацькі налаштування</string>
+    <string name="pref_connected_have_notif_immediate_title">Миттєве сповіщення при надходженні</string>
+    <string name="pref_connected_have_notif_title">Сповіщення про під'єднання</string>
+    <string name="pref_connected_have_notif_reminder_title">Нагадування</string>
+    <string name="pref_connected_have_notif_screen_off_title">Сповіщати лише при вимкненому екрані</string>
+    <string name="pref_connected_have_notif_interval_title">Інтервал повтору нагадувань</string>
+    <string name="pref_connected_have_notif_counter_title">Кількість сповіщень</string>
+    <string name="pref_connected_have_notif_wakelock_title">Вмикати екран телефона</string>
+    <string name="pref_connected_have_notif_ongoing_title">Постійні сповіщення</string>
+    <string name="pref_connected_have_notif_default_app_title">Сповіщення нерозпізнаних додатків</string>
+    <string name="pref_connected_have_notif_default_app_summary_on">значок \'app\' (якщо додаток не входить ні в передналаштовану, ні в користувацьку групу сповіщень)</string>
+    <string name="pref_connected_have_notif_pre_signal_title">Передсповіщення</string>
+    <string name="pref_connected_have_notif_pre_signal_summary_on">Сповіщення (торкніться значка, щоб змінити) перед фактичним сповіщенням задля того, щоб мати час його побачити</string>
 
-    <string name="pref_disconnected">Disconnection</string>
-    <string name="pref_disconnected_summary">%1$s and phone disconnection signals and settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected">Роз'єднання</string>
+    <string name="pref_disconnected_summary">Налаштування роз'єднання %1$s з телефоном та сповіщень про це</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
-    <string name="pref_disconnected_signals">Disconnection signals</string>
-    <string name="pref_disconnected_signals_summary">%1$s and phone disconnection signals, it does not signal when the bluetooth is turned off manually</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_cat_disconnected_signals_mi_band">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_disconnected_mi_band_title">Icon displaying and vibration</string>
-    <string name="pref_cat_disconnected_signals">Phone signals</string>
-    <string name="pref_disconnected_ringtone_title">Ringtone</string>
-    <string name="pref_disconnected_vibration_title">Vibration</string>
-    <string name="pref_disconnected_wakelock_title">Wake up the phone screen</string>
+    <string name="pref_disconnected_signals">Сповіщення при роз'єднанні</string>
+    <string name="pref_disconnected_signals_summary">Сповіщення при розриві з'єднання %1$s з телефоном, не сповіщатиме, якщо блютуз вимкнено вручну</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_signals_mi_band">Сповіщення %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_mi_band_title">Відображення значку та вібрація</string>
+    <string name="pref_cat_disconnected_signals">Сповіщення телефона</string>
+    <string name="pref_disconnected_ringtone_title">Мелодія дзвінка</string>
+    <string name="pref_disconnected_vibration_title">Вібрація</string>
+    <string name="pref_disconnected_wakelock_title">Увімкнути екран телефона</string>
 
-    <string name="pref_disconnected_settings">Disconnection settings</string>
-    <string name="pref_disconnected_settings_summary">%1$s and phone disconnection settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_cat_disconnected_settings">Phone settings</string>
-    <string name="pref_disconnected_volume_title">Adjust the volume</string>
-    <string name="pref_disconnected_volume_ring_title">Ring volume</string>
-    <string name="pref_disconnected_volume_adapter_title">When Bluetooth is turned off</string>
-    <string name="pref_disconnected_volume_mute_title">When the phone is muted</string>
-    <string name="pref_disconnected_volume_adapter_summary_on">Adjust the volume</string>
-    <string name="pref_disconnected_volume_adapter_summary_off">Do not adjust the volume</string>
+    <string name="pref_disconnected_settings">Налаштування роз'єднання</string>
+    <string name="pref_disconnected_settings_summary">Налаштування роз'єднання %1$s з телефоном</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_disconnected_settings">Налаштування телефона</string>
+    <string name="pref_disconnected_volume_title">Змінити гучність</string>
+    <string name="pref_disconnected_volume_ring_title">Гучність дзвінка</string>
+    <string name="pref_disconnected_volume_adapter_title">Якщо блютуз вимкнено</string>
+    <string name="pref_disconnected_volume_mute_title">Якщо звуки вимкнені</string>
+    <string name="pref_disconnected_volume_adapter_summary_on">Змінити гучність</string>
+    <string name="pref_disconnected_volume_adapter_summary_off">Не змінювати гучність</string>
 
-    <string name="pref_call">Call</string>
-    <string name="pref_call_summary">%1$s signal settings</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_cat_call">Incoming call</string>
-    <string name="pref_call_title">Incoming call signal</string>
-    <string name="pref_call_summary_on">Do not forget to turn off incoming call alerts on Mi Fit app</string>
-    <string name="pref_call_text_title">Display caller ID</string>
-    <string name="pref_call_text_summary_on"><![CDATA[On (more information: <i>Settings/Text icons settings)</i>]]></string>
+    <string name="pref_call">Виклики</string>
+    <string name="pref_call_summary">Налаштування сповіщень %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_cat_call">Вхідний виклик</string>
+    <string name="pref_call_title">Сповіщення про вхідний виклик</string>
+    <string name="pref_call_summary_on">Не забудьте вимкнути сповіщення про вхідні виклики в додатку Mi Fit</string>
+    <string name="pref_call_text_title">Відображати дані абонента</string>
+    <string name="pref_call_text_summary_on"><![CDATA[увімкнено (подробиці: <i>Налаштування/Текст та значки)</i>]]></string>
 
-    <string name="pref_call_net_text_title">Incoming internet call signal, display caller ID</string>
+    <string name="pref_call_net_text_title">Вхідний виклик з інтернету, відображати дані абонента</string>
     <string name="pref_call_net_text_summary_on">Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Discord・Slack</string>
 
-    <string name="pref_call_notification_rejected">Show notification about rejected call</string>
-    <string name="pref_call_notification_rejected_message">Rejected call</string>
-    <string name="pref_call_notification_rejected_action">Call</string>
-    <string name="pref_call_notification_muted">Show notification about muted call</string>
+    <string name="pref_call_notification_rejected">Сповіщення про відхилені виклики</string>
+    <string name="pref_call_notification_rejected_message">Відхилений виклик</string>
+    <string name="pref_call_notification_rejected_action">Виклик</string>
+    <string name="pref_call_notification_muted">Сповіщення про виклики з вимкненим звуком</string>
 
-    <string name="pref_cat_call_missed">Missed call</string>
-    <string name="pref_call_missed_title">Missed call signal</string>
+    <string name="pref_cat_call_missed">Пропущений виклик</string>
+    <string name="pref_call_missed_title">Сповіщення про пропущені виклики</string>
 
-    <string name="pref_call_missed_net_title">Missed internet call signal, display caller ID</string>
+    <string name="pref_call_missed_net_title">Пропущені виклики з інтернету, відображати дані абонента</string>
     <string name="pref_call_missed_net_summary_on">Skype・Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Zalo</string>
 
-    <string name="pref_call_missed_alert_title">%1$s signal</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_call_missed_alert_title">Сповіщення %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
 
-    <string name="pref_call_missed_text_prefix_title">Text prefix</string>
-    <string name="pref_call_missed_text_prefix_summary">If more than one app also uses the icon to differentiate notifications from each other</string>
-    <string name="pref_call_missed_text_prefix_dialog_title">Text prefix</string>
+    <string name="pref_call_missed_text_prefix_title">Текстовий префікс</string>
+    <string name="pref_call_missed_text_prefix_summary">Щоб розрізняти сповіщення, якщо значок використовується в інших сповіщеннях</string>
+    <string name="pref_call_missed_text_prefix_dialog_title">Текстовий префікс</string>
 
-    <string name="pref_battery_phone">Phone battery</string>
-    <string name="pref_battery_phone_summary">Low and full battery level notifications</string>
-    <string name="pref_cat_battery_phone_low">Low battery level</string>
-    <string name="pref_battery_phone_low_title">Low battery notification</string>
-    <string name="pref_battery_phone_low_level_title">Battery level threshold</string>
-    <string name="pref_battery_phone_low_repeat_interval_title">Repeat interval</string>
-    <string name="pref_cat_battery_phone_full">Full battery level</string>
-    <string name="pref_battery_phone_full_title">Full battery notification</string>
-    <string name="pref_battery_phone_full_plugged_ac">AC charger power source</string>
-    <string name="pref_battery_phone_full_plugged_usb">USB port power source</string>
-    <string name="pref_battery_phone_full_plugged_wireless">Wireless power source</string>
-    <string name="pref_battery_phone_full_repeat_interval_title">Repeat interval</string>
+    <string name="pref_battery_phone">Акумулятор телефона</string>
+    <string name="pref_battery_phone_summary">Сповіщення про низький та повний заряд</string>
+    <string name="pref_cat_battery_phone_low">Низький рівень заряду</string>
+    <string name="pref_battery_phone_low_title">Сповіщення про низький рівень заряду</string>
+    <string name="pref_battery_phone_low_level_title">Поріг низького рівня заряду</string>
+    <string name="pref_battery_phone_low_repeat_interval_title">Інтервал повторення</string>
+    <string name="pref_cat_battery_phone_full">Повний заряд</string>
+    <string name="pref_battery_phone_full_title">Сповіщення про повний заряд батареї</string>
+    <string name="pref_battery_phone_full_plugged_ac">Зараджання від зарядного пристрою</string>
+    <string name="pref_battery_phone_full_plugged_usb">Зараджання від порту USB</string>
+    <string name="pref_battery_phone_full_plugged_wireless">Бездротове заряджання</string>
+    <string name="pref_battery_phone_full_repeat_interval_title">Інтервал повторення</string>
 
     <!-- Mi Band 2 max. 18 chars with 100% -->
-    <string name="pref_battery_phone_mi_band_message">Phone batt.: %1$,d%%</string>
+    <string name="pref_battery_phone_mi_band_message">Заряд телефона: %1$,d%%</string>
     <!-- Other Bands-->
-    <string name="pref_battery_phone_message">Phone battery:\n %1$,d%%</string>
+    <string name="pref_battery_phone_message">Заряд телефона:\n %1$,d%%</string>
 
-    <string name="pref_language">Language</string>
-    <string name="pref_cat_language">App</string>
-    <string name="pref_language_title">Language</string>
+    <string name="pref_language">Вибір мови</string>
+    <string name="pref_cat_language">Мова додатка</string>
+    <string name="pref_language_title">Вибір мови</string>
     <string name="pref_cat_language_mi_band">%1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_language_mi_band_title">Language</string>
+    <string name="pref_language_mi_band_title">Вибір мови</string>
 
     <!-- Quick switch -->
-    <string name="details">Details</string>
-    <string name="bandages">Bandages</string>
-    <string name="connected">Connection and notification signal</string>
-    <string name="disconnected">Disconnection and agent signal</string>
-    <string name="touch">Touch monitoring</string>
+    <string name="details">Подробиці</string>
+    <string name="bandages">Бандажі</string>
+    <string name="connected">Сигнали з'єнання та сповіщень</string>
+    <string name="disconnected">Сигнали роз'єднання та агента</string>
+    <string name="touch">Контроль дотиків</string>
 
-    <string name="pref_dnd_title">Do not disturb mode</string>
-    <string name="pref_dnd_summary">State of controllers in do not disturb mode</string>
-    <string name="pref_dnd_auto_title">Automatic do not disturb mode</string>
-    <string name="pref_dnd_auto_summary">Controlled by the phone\'s do not disturb mode, it has a higher priority than the scheduled do not disturb mode</string>
-    <string name="pref_dnd_auto_vibrate">Vibration (silent)</string>
-    <string name="pref_dnd_auto_silent">Do not disturb</string>
-    <string name="pref_dnd_scheduled_title">Scheduled do not disturb mode</string>
-    <string name="pref_dnd_scheduled_new_title">Title</string>
-    <string name="pref_dnd_remember_state_summary">At the end of the do not disturb mode, turn on all bandages or restore states as those were at the time of start</string>
-    <string name="pref_dnd_remember_state_on_title">At the end restore bandages\' state</string>
-    <string name="pref_dnd_remember_state_off_title">At the end turn on all bandages</string>
-    <string name="pref_dnd_mi_fit_scheduled">Activate %1$s DnD mode (disable calls, messages and lift wrist to view info)</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_dnd_enable_bluetooth">At the start of the DnD mode turn Bluetooth off, at the end turn Bluetooth on</string>
+    <string name="pref_dnd_title">Режим "Не турбувати"</string>
+    <string name="pref_dnd_summary">Стан перемикачів у режимі "не турбувати"</string>
+    <string name="pref_dnd_auto_title">Автоматичний режим "не турбувати"</string>
+    <string name="pref_dnd_auto_summary">Контрольований телефоном режим "не турбувати" має вищий приорітет, ніж режим "не турбувати", що вмикається за розкладом</string>
+    <string name="pref_dnd_auto_vibrate">Вібрація (тихий)</string>
+    <string name="pref_dnd_auto_silent">Не турбувати</string>
+    <string name="pref_dnd_scheduled_title">Режим "не турбувати" за розкладом</string>
+    <string name="pref_dnd_scheduled_new_title">Назва</string>
+    <string name="pref_dnd_remember_state_summary">Наприкінці дії режиму "не турбувати" увімкнути всі бандажі, або відновити іх стан до початку дії режиму</string>
+    <string name="pref_dnd_remember_state_on_title">Наприкінці відновити стан бандажів</string>
+    <string name="pref_dnd_remember_state_off_title">Наприкінці увімкнути всі бандажі</string>
+    <string name="pref_dnd_mi_fit_scheduled">Вмикати режим "не турбувати" на %1$s (вимкнення сповіщень та повороту зап'ястку для перегляду інформації)</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_dnd_enable_bluetooth">На початку режиму "не турбувати" вімкнути блютуз, наприкінці увімкнути блютуз</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Please enable Bluetooth and bring the Band device closer to the phone</string>
