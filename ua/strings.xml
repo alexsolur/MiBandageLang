@@ -190,9 +190,9 @@
 
     <string name="pref_cat_connected_have_notif">Передналаштовані сповіщення додатків</string>
     <string name="pref_cat_connected_have_notif_default">Передвстановлені та користувацькі налаштування</string>
-    <string name="pref_connected_have_notif_immediate_title">Миттєве сповіщення при надходженні</string>
-    <string name="pref_connected_have_notif_title">Сповіщення про під'єднання</string>
-    <string name="pref_connected_have_notif_reminder_title">Нагадування</string>
+    <string name="pref_connected_have_notif_immediate_title">Негайно сповіщати при надходженні</string>
+    <string name="pref_connected_have_notif_title">Сповіщати при під'єднанні</string>
+    <string name="pref_connected_have_notif_reminder_title">Нагадувати</string>
     <string name="pref_connected_have_notif_screen_off_title">Сповіщати лише при вимкненому екрані</string>
     <string name="pref_connected_have_notif_interval_title">Інтервал повтору нагадувань</string>
     <string name="pref_connected_have_notif_counter_title">Кількість сповіщень</string>
@@ -207,7 +207,7 @@
     <string name="pref_disconnected_summary">Налаштування роз'єднання %1$s з телефоном та сповіщень про це</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_disconnected_signals">Сповіщення при роз'єднанні</string>
-    <string name="pref_disconnected_signals_summary">Сповіщення при розриві з'єднання %1$s з телефоном, не сповіщатиме, якщо блютуз вимкнено вручну</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_signals_summary">Сповіщення при розриві з'єднання %1$s з телефоном, не сповіщатиме, якщо Bluetooth вимкнено вручну</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_disconnected_signals_mi_band">Сповіщення %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Відображення значку та вібрація</string>
     <string name="pref_cat_disconnected_signals">Сповіщення телефона</string>
@@ -220,7 +220,7 @@
     <string name="pref_cat_disconnected_settings">Налаштування телефона</string>
     <string name="pref_disconnected_volume_title">Змінити гучність</string>
     <string name="pref_disconnected_volume_ring_title">Гучність дзвінка</string>
-    <string name="pref_disconnected_volume_adapter_title">Якщо блютуз вимкнено</string>
+    <string name="pref_disconnected_volume_adapter_title">Якщо Bluetooth вимкнено</string>
     <string name="pref_disconnected_volume_mute_title">Якщо звуки вимкнені</string>
     <string name="pref_disconnected_volume_adapter_summary_on">Змінити гучність</string>
     <string name="pref_disconnected_volume_adapter_summary_off">Не змінювати гучність</string>
@@ -261,8 +261,8 @@
     <string name="pref_battery_phone_low_repeat_interval_title">Інтервал повторення</string>
     <string name="pref_cat_battery_phone_full">Повний заряд</string>
     <string name="pref_battery_phone_full_title">Сповіщення про повний заряд батареї</string>
-    <string name="pref_battery_phone_full_plugged_ac">Зараджання від зарядного пристрою</string>
-    <string name="pref_battery_phone_full_plugged_usb">Зараджання від порту USB</string>
+    <string name="pref_battery_phone_full_plugged_ac">Заряджання від зарядного пристрою</string>
+    <string name="pref_battery_phone_full_plugged_usb">Заряджання від порту USB</string>
     <string name="pref_battery_phone_full_plugged_wireless">Бездротове заряджання</string>
     <string name="pref_battery_phone_full_repeat_interval_title">Інтервал повторення</string>
 
@@ -296,70 +296,70 @@
     <string name="pref_dnd_remember_state_on_title">Наприкінці відновити стан бандажів</string>
     <string name="pref_dnd_remember_state_off_title">Наприкінці увімкнути всі бандажі</string>
     <string name="pref_dnd_mi_fit_scheduled">Вмикати режим "не турбувати" на %1$s (вимкнення сповіщень та повороту зап'ястку для перегляду інформації)</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_dnd_enable_bluetooth">На початку режиму "не турбувати" вімкнути блютуз, наприкінці увімкнути блютуз</string>
+    <string name="pref_dnd_enable_bluetooth">На початку режиму "не турбувати" вімкнути Bluetooth, наприкінці — увімкнути</string>
 
     <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Please enable Bluetooth and bring the Band device closer to the phone</string>
-    <string name="message_discover_mi_band">Band is not set, please discover it</string>
-    <string name="message_discovering_mi_band">Discovering Band (it may take 1 minute) &#8230;</string>
-    <string name="message_discovered_mi_band">%1$s connection succeeded</string>
-    <string name="message_discovered_no_mi_band">Band connection failed</string>
-    <string name="message_discovered_not_found_mi_band">If Band was not found, turn on: Mi Fit/Play/Discoverable or pair at the phone Bluetooth settings</string>
-    <string name="message_enable_notification_listener_access">Enable notification access: Settings/Notifications/Notification access</string>
-    <string name="message_enable_notification_listener_access_4_4">Enable notification access: Settings/Security/Notification access</string>
-    <string name="message_enable_notification_policy_access">Enable Do Not Disturb access</string>
-    <string name="message_open_settings">Settings</string>
+    <string name="message_enable_bluetooth">Будьласка, увімкніть Bluetooth, та піднесіть браслет ближче до телефона</string>
+    <string name="message_discover_mi_band">Браслет не під'єднано, будьласка, під'єднайте його</string>
+    <string name="message_discovering_mi_band">Пошук браслета (це може зайняти 1 хвилину) &#8230;</string>
+    <string name="message_discovered_mi_band">%1$s під'єднано успішно</string>
+    <string name="message_discovered_no_mi_band">Під'єднання невдале</string>
+    <string name="message_discovered_not_found_mi_band">Якщо браслет не знайдено, увімкніть: Mi Fit/Профіль/Видимість, або під'єднайте через налаштування Bluetooth телефону</string>
+    <string name="message_enable_notification_listener_access">Увімкніть доступ до сповіщень: Налаштування/Сповіщення/Доступ до сповіщень</string>
+    <string name="message_enable_notification_listener_access_4_4">Увімкніть доступ до сповіщень: Налаштування/Безпека/Доступ до сповіщень</string>
+    <string name="message_enable_notification_policy_access">Увімкніть доступ у режимі "не турбувати"</string>
+    <string name="message_open_settings">Налаштування</string>
 
-    <string name="message_deleted">Deleted</string>
-    <string name="message_undo">Undo</string>
+    <string name="message_deleted">Видалено</string>
+    <string name="message_undo">Відмінити дію</string>
 
-    <string name="message_app_chooser_no_selected">Select an application</string>
+    <string name="message_app_chooser_no_selected">Оберіть додаток</string>
 
-    <string name="message_notification_free_groups">Up to %1$,d groups can be used in normal mode</string>
+    <string name="message_notification_free_groups">До %1$,d груп може бути використано у нормальному режимі</string>
 
-    <string name="message_step_goal_free_values">Up to 3 values can be set in normal mode</string>
-    <string name="message_step_goal_max_values">Maximum 10 values can be set</string>
+    <string name="message_step_goal_free_values">До 3 значень може бути встановлено у нормальному режимі</string>
+    <string name="message_step_goal_max_values">Максимум 10 значень може бути встановлено</string>
 
-    <string name="message_touch_no_patterns">Press one of the red buttons to record pattern</string>
-    <string name="message_touch_record">Record the pattern using the %1$s touch button</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="message_touch_record_music_screen">Record the pattern using the %1$s music screen</string> <!-- %1$s = Mi Band 4  -->
-    <string name="message_touch_record_pulse_screen">Record the pattern using the %1$s pulse screen</string> <!-- %1$s = Mi Band 3, Amazfit Cor ... -->
-    <string name="message_touch_pattern_error">The specified pattern is similar to a sample of another function, record another</string>
-    <string name="message_touch_free_patterns">You can not use more than %1$,d controls in normal mode</string>
-    <string name="message_touch_music_player_not_found">Music player not found</string>
-    <string name="message_touch_app_launcher1_not_set">App is not set</string>
-    <string name="message_touch_app_launcher1_not_found">App is not found: %1$s</string>
-    <string name="message_touch_tasker_launcher_not_set">Tasker task is not set</string>
+    <string name="message_touch_no_patterns">Натисніть одну з червоних кнопок для запису зразка</string>
+    <string name="message_touch_record">Запишіть зразок, використовуючи кнопку на %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="message_touch_record_music_screen">Запишіть зразок, використовуючи екран музики на %1$s</string> <!-- %1$s = Mi Band 4  -->
+    <string name="message_touch_record_pulse_screen">Запишіть зразок, використовуючи екран пульсу на %1$s</string> <!-- %1$s = Mi Band 3, Amazfit Cor ... -->
+    <string name="message_touch_pattern_error">Вказаний зразок схожий на зразок для іншої функції, запишіть інший</string>
+    <string name="message_touch_free_patterns">Неможна використовувати більше ніж %1$,d функцій в нормальному режимі</string>
+    <string name="message_touch_music_player_not_found">Музичний програвач не знайдено</string>
+    <string name="message_touch_app_launcher1_not_set">Додаток не встановлено</string>
+    <string name="message_touch_app_launcher1_not_found">Додаток не знайдено: %1$s</string>
+    <string name="message_touch_tasker_launcher_not_set">Подія Tasker не встановлена</string>
 
-    <string name="message_notification_group_has_no_entry">Select applications with the lower right \'+\' button on the card</string>
+    <string name="message_notification_group_has_no_entry">Оберіть додаток за кнопкою \'+\' у правому нижньому куті картки</string>
 
-    <string name="message_time_alarm_free_counter">Up to 2 alarm can be used in normal mode</string>
-    <string name="message_time_alarm_max_counter">Maximum 8 alarms can be used</string>
-    <string name="message_time_alarm_enabled">Alarm enabled</string>
-    <string name="message_time_alarm_disabled">Alarm disabled</string>
-    <string name="message_time_alarm_mi_band_off">Alarm off</string>
+    <string name="message_time_alarm_free_counter">До 2 будильників може бути встановлено у нормальному режимі</string>
+    <string name="message_time_alarm_max_counter">Максимум 8 будильників може бути встановлено</string>
+    <string name="message_time_alarm_enabled">Будильник увімкнено</string>
+    <string name="message_time_alarm_disabled">Будильник вимкнено</string>
+    <string name="message_time_alarm_mi_band_off">Будильник вимкнено</string>
 
-    <string name="message_alarm_free_interval">Smaller repeat interval can be set only in premium mode</string>
-    <string name="message_alarm_mi_band_set_failed">Setting the alarm failed</string>
-    <string name="message_alarm_mi_band_clear_failed">Clearing the alarm failed</string>
+    <string name="message_alarm_free_interval">Менший проміжок повтору можна встановити тільки у преміум режимі</string>
+    <string name="message_alarm_mi_band_set_failed">Встановлення будильника невдале</string>
+    <string name="message_alarm_mi_band_clear_failed">Видалення будильника невдале</string>
 
-    <string name="message_premium_mode_only">This feature is only available in premium mode</string>
-    <string name="message_premium_or_rewarded_mode_only">This feature is only available in premium or rewarded mode</string>
-    <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
-    <string name="message_general_error">Setting failed (connection lost), try again</string>
-    <string name="message_internet_error">Not have internet connection</string>
-    <string name="message_gps_enable">Enable the GPS</string>
+    <string name="message_premium_mode_only">Ця функція доступна тільки у преміум режимі</string>
+    <string name="message_premium_or_rewarded_mode_only">Ця функція доступна тільки у преміум або бонусному режимі</string>
+    <string name="message_feature_is_not_supported">%1$s не підтримує цю функцію</string>
+    <string name="message_general_error">Встановлення невдале (втрата з'єднання), спробуйте ще</string>
+    <string name="message_internet_error">Немає зв'язку з інтернетом</string>
+    <string name="message_gps_enable">Увімкніть GPS</string>
 
-    <string name="message_in_progress">In progress…</string>
-    <string name="message_no_data">No data available</string>
+    <string name="message_in_progress">В процесі…</string>
+    <string name="message_no_data">Немає даних</string>
 
-    <string name="message_new_message">A new message is received, view it on the phone.</string>
+    <string name="message_new_message">Отримано нове повідомлення, перегляньте на телефоні.</string>
 
-    <string name="message_invalid_file">Invalid file</string>
+    <string name="message_invalid_file">Файл недійсний</string>
 
     <!-- Dialog -->
-    <string name="dialog_welcome_title">Welcome!</string>
-    <string name="dialog_welcome_message"><![CDATA[Supported devices:
+    <string name="dialog_welcome_title">Ласкаво просимо!</string>
+    <string name="dialog_welcome_message"><![CDATA[Підтримувані пристрої:
     <br>• <b>Xiaomi Mi Band 5</b>
     <br>• <b>Xiaomi Mi Band 4</b>
     <br>• <b>Xiaomi Mi Band 3</b>
@@ -374,122 +374,122 @@
     <br>• <b>Huami Amazfit Band 2 (A1713)</b>
     <br>• <b>Huami Amazfit Cor (MiDong)</b>
     <br>• <b>Huami Amazfit Arc (A1603)</b>
-    <p>If you use more applications to control Band, they interfere with each other so temporarily turn off those.</p>
-    <p>If Band is not found, then you can set the MAC address manually when you discover (MAC address is found: Mi Fit/Profil/Band).</p>
-    <p><b>If you have a connection problem:</b>
-    <br>- Read the Amazfit app or Mi Fit app Profile/Smartwatch/Run in background and set it up for Mi Bandage
-    <br>- Check the <i>Settings/Diagnostics</i> settings
-    <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
-    <br>- Phone/battery optimization: set Mi Bandage app to not optimized.
-    <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
-    <br>Settings/Developer options:
-    <br>- Don\'t keep activities: disable
-    <br>- Background process limit: standard limit
-    <br>- Memory optimization: middle/low/disable</p>
-    <p>If Band is not found or if you are having trouble syncing Mi Fit app, then install the BToolkit, nRF Connect or similar Bluetooth manager app and remove any pairing, bonded device.</p>
-    <p>If you have problem (discover Band, not have notification signal), please try it:
-    <br>1. If you installed the Greenify (or other hibernating app) turn it off.
-    <br>2. Install Mi Bandage app.
-    <br>3. Restart phone.
-    <br>4. Turn off, on Bluetooth.
-    <br>5. Open Mi Fit app, wait until the synchronization done, close it.
-    <br>6. Open Mi Bandage app, click discover button.</p>]]></string>
+    <p>Якщо ви використовуєте декілька додатків керування браслетом, вони можуть заважати одне одному, тимчасово вимкніть інші.</p>
+    <p>Якщо браслет не знайдено, ви можете вказати MAC адресу вручну при пошуку (MAC знаходиться: Mi Fit/Профіль/Браслет).</p>
+    <p><b>Якщо у вас проблеми з підключенням:</b>
+    <br>- Прочитайте інструкцію в додатку Amazfit або Mi Fit Профіль/Браслет/Запуск у фоні, та виконайте її для Mi Bandage
+    <br>- Перевірте помилки у <i>Налаштування/Діагностика</i>
+    <br>- Нещодавні додатки: зафіксуйте Mi Bandage (потягніть донизу та торкніться значка із замком).
+    <br>- Телефон/Оптимізація акумулятора: вимкніть оптимізацію для додатка Mi Bandage.
+    <br>- Телефон/Додатки: очистіть дані додатку Bluetooth Share та інших додатків \'Bluetooth\'.
+    <br>Налаштування/Параметри розробника:
+    <br>- Не зберігати дії: вимкнено
+    <br>- Обмеження фон. процесів: стандартне
+    <br>- Оптимізація пам'яті: середня/низька/вимкнено</p>
+    <p>Якщо браслет не під'єднується, або не синхронізується з додатком Mi Fit, встановіть BToolkit, nRF Connect або подібний додаток для керування Bluetooth, та видаліть всі зв'язані пристрої.</p>
+    <p>При негараздах (пошук браслета, ненадходження сповіщень), спробуйте натупне:
+    <br>1. Якщо встановлено Greenify (чи інший додаток для енергозбереження) вимкніть його.
+    <br>2. Встановіть додаток Mi Bandage.
+    <br>3. Перезавантажте телефон.
+    <br>4. Вімкніть, увімкніть Bluetooth.
+    <br>5. Відкрийте додаток Mi Fit, дочекайтесь завершення синхронізації, закрийте його.
+    <br>6. Відкрийте додаток Mi Bandage, торкніться кнопки пошуку.</p>]]></string>
 
     <!-- Diagnostic -->
-    <string name="diagnostic_title">Diagnostic</string>
+    <string name="diagnostic_title">Діагностика</string>
 
-    <string name="diagnostic_permissions_title">Permissions</string>
-    <string name="diagnostic_permissions_autostart">Autostart</string>
+    <string name="diagnostic_permissions_title">Дозволи</string>
+    <string name="diagnostic_permissions_autostart">Автозапуск</string>
 
-    <string name="diagnostic_access_title">Access</string>
-    <string name="diagnostic_access_do_not_disturb">Do not Disturb access</string>
-    <string name="diagnostic_access_notification">Notification access</string>
+    <string name="diagnostic_access_title">Доступ</string>
+    <string name="diagnostic_access_do_not_disturb">Доступ у режимі "Не турбувати"</string>
+    <string name="diagnostic_access_notification">Доступ до сповіщень</string>
 
-    <string name="diagnostic_protection_title">Protection against closing</string>
-    <string name="diagnostic_protection_battery">Battery optimisation off</string>
-    <string name="diagnostic_protection_service">Show status in notification shade</string>
-    <string name="diagnostic_protection_lock">Lock on the recent apps screen</string>
+    <string name="diagnostic_protection_title">Захист від закриття</string>
+    <string name="diagnostic_protection_battery">Оптимізація акумулятора вимкнена</string>
+    <string name="diagnostic_protection_service">Статус у сповіщенні</string>
+    <string name="diagnostic_protection_lock">Зафіксовано у панелі нещодавніх</string>
 
     <!-- Notification  -->
-    <string name="notification_tab_custom">Custom notifications</string>
+    <string name="notification_tab_custom">Користувацькі сповіщення</string>
     <string name="notification_tab_settings">@string/setting_name</string>
 
     <!-- Notification Dialog -->
-    <string name="notification_group_nav_setting">Setting</string>
-    <string name="notification_group_nav_filter">Filter</string>
-    <string name="notification_group_nav_correction">Correction</string>
+    <string name="notification_group_nav_setting">Налаштування</string>
+    <string name="notification_group_nav_filter">Фільтр</string>
+    <string name="notification_group_nav_correction">Виправлення</string>
 
-    <string name="notification_group_name">Name</string>
-    <string name="notification_group_monitoring">Monitoring notifications</string>
-    <string name="notification_group_monitoring_disabled">Disable notifications (do not show the application notifications)</string>
-    <string name="notification_group_alert_title">%1$s signal</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="notification_group_text">Text display</string>
-    <string name="notification_group_text_app_name">App name</string>
-    <string name="notification_group_text_name">Name</string>
-    <string name="notification_group_text_title">Title</string>
-    <string name="notification_group_text_content">Content</string>
-    <string name="notification_group_text_big_content">Full content</string>
-    <string name="notification_group_text_content_slice_title">Text length</string>
-    <string name="notification_group_display_time_title">Display time</string>
-    <string name="notification_group_vibration_title">Custom vibration</string>
-    <string name="notification_group_pre_title">Notification prediction</string>
-    <string name="notification_group_pre_signal_title">Default notification prediction</string>
-    <string name="notification_group_pre_vibration_title">Pre vibration</string>
-    <string name="notification_group_pre_alert_title">Pre icon</string>
-    <string name="notification_group_prefix">Text prefix</string>
-    <string name="notification_group_display_notification_title">Display notification</string>
-    <string name="notification_group_immediate">Immediate signal when notification is received</string>
-    <string name="notification_group_connecting">When connecting to phone</string>
-    <string name="notification_group_reminder">Reminder signal</string>
-    <string name="notification_group_ongoing">Signal persistent (ongoing) notifications</string>
-    <string name="notification_group_screen_off">Signal only when the screen is off</string>
-    <string name="notification_group_counter_title">The number of signals</string>
-    <string name="notification_group_repeat_title">Repeat signals</string>
-    <string name="notification_group_wakelock">Wake up the phone screen</string>
-    <string name="notification_group_grouped_display_title">Display setting for the group notifications</string>
-    <string name="notification_group_grouped_sort_order_title">Sort order for the group notifications</string>
-    <string name="notification_group_remove_title">Remove notification</string>
-    <string name="notification_group_remove_from_device">From the phone\'s notification drawer</string>
-    <string name="notification_group_remove_from_device_hint">If you use the %1$s/Notifications/Clear all function</string> <!-- %1$s = Mi Band 4  ... -->
-    <string name="notification_group_remove_from_mi_band">From the %1$s notification menu</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <string name="notification_group_remove_from_mi_band_hint">If you remove the notification from the phone\'s notification drawer</string>
+    <string name="notification_group_name">Назва</string>
+    <string name="notification_group_monitoring">Контрольовані сповіщення</string>
+    <string name="notification_group_monitoring_disabled">Вимкнути сповіщення (не показувати сповіщення додатку)</string>
+    <string name="notification_group_alert_title">Сповіщеня %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_text">Текст сповіщення</string>
+    <string name="notification_group_text_app_name">Назва додатку</string>
+    <string name="notification_group_text_name">Назва</string>
+    <string name="notification_group_text_title">Заголовок</string>
+    <string name="notification_group_text_content">Вміст</string>
+    <string name="notification_group_text_big_content">Повний вміст</string>
+    <string name="notification_group_text_content_slice_title">Довжина тексту</string>
+    <string name="notification_group_display_time_title">Час відображення</string>
+    <string name="notification_group_vibration_title">Налаштовувана вібрація</string>
+    <string name="notification_group_pre_title">Передсповіщення</string>
+    <string name="notification_group_pre_signal_title">Передсповіщення за замовчанням</string>
+    <string name="notification_group_pre_vibration_title">Перед-вібрація</string>
+    <string name="notification_group_pre_alert_title">Перед-значок</string>
+    <string name="notification_group_prefix">Текстовий префікс</string>
+    <string name="notification_group_display_notification_title">Відображати сповіщення</string>
+    <string name="notification_group_immediate">Негайно сповіщати при надходженні</string>
+    <string name="notification_group_connecting">Сповіщати при під'єднанні</string>
+    <string name="notification_group_reminder">Нагадувати</string>
+    <string name="notification_group_ongoing">Постійне сповіщення</string>
+    <string name="notification_group_screen_off">Сповіщати лише при вимкненому екрані</string>
+    <string name="notification_group_counter_title">Кількість сповіщень</string>
+    <string name="notification_group_repeat_title">Повторювати сповіщення</string>
+    <string name="notification_group_wakelock">Вмикати екран телефона</string>
+    <string name="notification_group_grouped_display_title">Налаштування відображення для групи сповіщень</string>
+    <string name="notification_group_grouped_sort_order_title">Порядок сортування групи сповіщень</string>
+    <string name="notification_group_remove_title">Прибрати сповіщення</string>
+    <string name="notification_group_remove_from_device">Із рядку стану телефона</string>
+    <string name="notification_group_remove_from_device_hint">Якщо ви використовуєте %1$s/Сповіщення/Прибрати усі</string> <!-- %1$s = Mi Band 4  ... -->
+    <string name="notification_group_remove_from_mi_band">Із меню сповіщень на %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="notification_group_remove_from_mi_band_hint">Якщо сповіщення прибране з рядку стану телефона</string>
 
-    <string name="notification_group_filter">Filter notification</string>
-    <string name="notification_group_filter_title">Title filter</string>
-    <string name="notification_group_filter_content">Content filter</string>
-    <string name="notification_group_filter_regex">Regex</string>
-    <string name="notification_group_filter_hint">Signal only when the title or content of the notification (case insensitive)</string>
-    <string name="notification_group_filter_contains">Contains any phrases</string>
-    <string name="notification_group_filter_not_contains">Contains none phrases</string>
+    <string name="notification_group_filter">Фільтр сповіщень</string>
+    <string name="notification_group_filter_title">Фільтр заголовку</string>
+    <string name="notification_group_filter_content">Фільтр вмісту</string>
+    <string name="notification_group_filter_regex">Регулярний вираз</string>
+    <string name="notification_group_filter_hint">Сповіщати тільки коли заголовок або вміст сповіщення (регістронезалежний)</string>
+    <string name="notification_group_filter_contains">Містить буд-яку фразу</string>
+    <string name="notification_group_filter_not_contains">Не містить жодної фрази</string>
 
-    <string name="notification_group_sample_sms">SMS text display</string>
-    <string name="notification_group_sample_facebook">Messenger text display</string>
-    <string name="notification_group_sample_whatsapp">WhatsApp text display</string>
+    <string name="notification_group_sample_sms">Сповіщення СМС</string>
+    <string name="notification_group_sample_facebook">Сповіщення Messenger</string>
+    <string name="notification_group_sample_whatsapp">Сповіщення WhatsApp</string>
 
-    <string name="notification_group_correction">Text correction</string>
-    <string name="notification_group_correction_title">Title correction</string>
-    <string name="notification_group_correction_content">Content correction</string>
-    <string name="notification_group_correction_regex">Regex</string>
-    <string name="notification_group_correction_hint">Case insensitive</string>
-    <string name="notification_group_correction_items">Texts to be corrected</string>
-    <string name="notification_group_correction_find">Find</string>
-    <string name="notification_group_correction_replace">Replace with</string>
+    <string name="notification_group_correction">Виправлення тексту</string>
+    <string name="notification_group_correction_title">Виправлення заголовку</string>
+    <string name="notification_group_correction_content">Виправлення вмісту</string>
+    <string name="notification_group_correction_regex">Регулярний вираз</string>
+    <string name="notification_group_correction_hint">Регістронезалежний</string>
+    <string name="notification_group_correction_items">Текст для виправлення</string>
+    <string name="notification_group_correction_find">Знайти</string>
+    <string name="notification_group_correction_replace">Замінити на</string>
 
-    <string name="notification_regex_hint">Non-alphanumeric characters have a special meaning, if you don\'t know the Regex, do not tick it</string>
+    <string name="notification_regex_hint">Небуквено-цифрові символи матимуть спеціальні значення, якщо ви не знайомі з регулярними виразами - не вмикайте</string>
 
-    <string name="notification_confirm_close">Are you sure you want to discard the changes?</string>
+    <string name="notification_confirm_close">Скасувати зміни, ви впевнені?</string>
 
-    <string name="notification_edit_play_text_title">Notification title</string>
-    <string name="notification_edit_play_text_content">Notification content:
-    In publishing and graphic design, lorem ipsum is a filler text or greeking commonly used to demonstrate the textual elements of a graphic document or visual presentation.
-        \nReplacing meaningful content with placeholder text allows designers to design the form of the content before the content itself has been produced.
+    <string name="notification_edit_play_text_title">Заголовок сповіщення</string>
+    <string name="notification_edit_play_text_content">Вміст сповіщення:
+    Lorem ipsum – назва класичного тексту-«риби». «Риба» – слово з жаргону дизайнерів, що позначає умовний, часто безглуздий текст, що вставляється в макет сторінки.
+        \nLorem ipsum являє собою спотворений уривок з філософського трактату Цицерона «Про межі добра і зла», написаного в 45 році до нашої ери латинською мовою.
     </string>
-    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.]]></string>
+    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT">: оберіть значок для відображення заголовку/вмісту сповіщення.]]></string>
 
     <!-- Notification info dialog -->
-    <string name="info_dialog_notification"><![CDATA[Predefined app signals:<br>
-        <not_support_icon_text><img src="ALERT_MESSAGE_TEXT">  missed call</not_support_icon_text>
-        <support_icon_text><img src="ALERT_CALL_MESSAGE">  missed call</support_icon_text>
+    <string name="info_dialog_notification"><![CDATA[Передвстановлені сповіщення додатків:<br>
+        <not_support_icon_text><img src="ALERT_MESSAGE_TEXT">  пропущений виклик</not_support_icon_text>
+        <support_icon_text><img src="ALERT_CALL_MESSAGE">  пропущений виклик</support_icon_text>
         <br><img src="ALERT_MESSAGE">  SMS
         <br><img src="ALERT_EMAIL">  Email, Gmail, Inbox
         <br><img src="ALERT_CALENDAR">  Google Calendar
@@ -516,26 +516,26 @@
         <br><img src="ALERT_ALIPAY">  AliPay
         <br><img src="ALERT_QZONE">  QZone
         <br><img src="ALERT_DINGTALK">  DingTalk
-        <br><img src="ALERT_APP">  others
+        <br><img src="ALERT_APP">  інші
 
-        <p>Predefined app signals will only show the icon not the message.</p>
-        <p>You have to disable app alert in the Mi Fit app.</p>
-        <p>The notifications group created by you has higher priority than the predefined.</p>
-        <mi_band_2><p><img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.</p></mi_band_2>
-        <mi_band_hrx><p><img src="ALERT_MESSAGE_TEXT"> icon: choose this icon to show the notifications title/content.</p></mi_band_hrx>
-        <p>If you use the predefined apps, but want to disable some notifications, then create new notification group with <i>disable notifications</i> setting and add the apps.</p>
+        <p>Передвстановлені сповіщення додатків відображають тільки значок, без тексту.</p>
+        <p>Ви маєте вимкнути сповіщення додатків у додатку Mi Fit.</p>
+        <p>Користувацікі групи сповіщень мають вищий приорітет за передвстановлені.</p>
+        <mi_band_2><p><img src="ALERT_MESSAGE_TEXT"> : оберіть значок для відображення заголовку/вмісту сповіщення.</p></mi_band_2>
+        <mi_band_hrx><p><img src="ALERT_MESSAGE_TEXT"> : оберіть значок для відображення заголовку/вмісту сповіщення.</p></mi_band_hrx>
+        <p>Якщо ви хочете вимкнути деякі з передвстановлених сповіщень, створіть нову групу сповіщень з налаштуванням <i>вимкнути сповіщення</i> та додайте додатки.</p>
         ]]>
     </string>
     <!--<p>Predefined signals can be disabled: <i>Connection and notification settings/Have notification</i>.</p>-->
 
     <!-- MiBandageApp chooser dialog -->
-    <string name="action_search">Search</string>
-    <string name="action_filter_notification">Notification filter</string>
+    <string name="action_search">Пошук</string>
+    <string name="action_filter_notification">Фільтр сповіщень</string>
 
     <!-- Touch monitoring -->
-    <string name="touch_tab_function">Function</string>
-    <string name="touch_tab_control">Control</string>
-    <string name="touch_tab_testing">Testing</string>
+    <string name="touch_tab_function">Функції</string>
+    <string name="touch_tab_control">Контроль</string>
+    <string name="touch_tab_testing">Тестування</string>
     <string name="touch_tab_settings">@string/setting_name</string>
 
     <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
