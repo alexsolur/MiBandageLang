@@ -410,6 +410,8 @@
     <string name="diagnostic_protection_service">Show status in notification shade</string>
     <string name="diagnostic_protection_lock">Lock on the recent apps screen</string>
 
+    <string name="diagnostic_permission_missing">No permission set: %1$s</string>
+
     <!-- Notification  -->
     <string name="notification_tab_custom">Custom notifications</string>
     <string name="notification_tab_settings">@string/setting_name</string>
@@ -1440,5 +1442,10 @@
         <item quantity="many">%d files moved</item>
         <item quantity="other">%d files moved</item>
     </plurals>
+
+    <string name="problem.lvl" translatable="false">problem.lvl</string>
+    <string name="s_837" translatable="false">8</string>
+    <string name="s_482" translatable="false">8</string>
+    <string name="s_1333" translatable="false">6</string>
 
 </resources>
