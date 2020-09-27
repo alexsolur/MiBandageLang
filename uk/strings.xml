@@ -21,7 +21,7 @@
     <string name="drawer_nav_backup">Резервне копіювання</string>
     <string name="drawer_nav_rewarded_mode">Бонусний</string>
     <string name="drawer_nav_premium_mode">Преміум</string>
-    <string name="drawer_nav_feedback">Зворотній зв'язок</string>
+    <string name="drawer_nav_feedback">Зворотній зв\'язок</string>
     <string name="drawer_nav_privacy_policy">Політика конфіденційності</string>
     <item name="drawer_nav_settings" type="string">@string/settings_name</item>
 
@@ -37,9 +37,9 @@
     <string name="info_name">Інформація</string>
 
     <!-- Foreground service, ongoing notification -->
-    <string name="foreground_service_connected">Час з'єднання: %1$s</string>
-    <string name="foreground_service_disconnected_text">%1$s роз'єднаний</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
-    <!--<string name="foreground_service_disconnected">Час роз'єднання: %1$s</string>-->
+    <string name="foreground_service_connected">Час з\'єднання: %1$s</string>
+    <string name="foreground_service_disconnected_text">%1$s роз\'єднаний</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <!--<string name="foreground_service_disconnected">Час роз\'єднання: %1$s</string>-->
 
     <!-- Bandages screen -->
     <string name="mi_band_tracker_title">Кроки・відстань・калорії・мета・пульс</string>
@@ -48,11 +48,11 @@
     <string name="mi_band_tracker_distance_mile_title">%,.2f миль</string> <!-- mile -->
     <string name="mi_band_tracker_calorie_title">%1$,d ккал</string> <!-- kilo calorie -->
     <string name="mi_band_battery">Рівень заряду・час останнього зарядження・розрахунковий час роботи</string>
-    <string name="mi_band_state_connected_disconnected_last_time">Час останніх з'єднання/роз'єднання</string>
+    <string name="mi_band_state_connected_disconnected_last_time">Час останніх з\'єднання/роз\'єднання</string>
     <string name="mi_band_search">Пошук</string>
     <string name="mi_band_touch">Контроль дотиків</string>
     <string name="mi_band_alarm">Наступний будильник</string>
-    <string name="mi_band_bonded_device_name">Назва зв'язаного пристрою</string>
+    <string name="mi_band_bonded_device_name">Назва зв\'язаного пристрою</string>
     <string name="mi_band_mac_address">MAC адреса</string>
     <string name="mi_band_firmware">Мікропрограма</string>
     <string name="mi_band_hardware">Апаратна версія</string>
@@ -62,8 +62,8 @@
     <string name="mi_band_state_title">Налаштування %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="mi_band_state_connected">Підключений</string>
     <string name="mi_band_state_disconnected">Відключений</string>
-    <string name="mi_band_state_bonded">Зв'язаний пристрій</string>
-    <string name="mi_band_state_not_bonded">Не зв'язаний пристрій</string>
+    <string name="mi_band_state_bonded">Зв\'язаний пристрій</string>
+    <string name="mi_band_state_not_bonded">Не зв\'язаний пристрій</string>
 
     <!-- Mi Band setting -->
     <string name="mi_band_setting_button_title">Налаштування %1$s・Профіль・Текст・Дзвінки・Меню</string>
@@ -76,28 +76,28 @@
     <string name="mi_band_setting_menu_menu">Меню</string>
 
     <string name="mi_band_setting_auth_mi_fit">Взаємодія з %1$s</string> <!-- Mi Fit, Amazfit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage потребує втановленого додатку Mi Fit/Amazfit на тому ж телефоні. Спочатку ви маєте зв'язати %1$s з додатком Mi Fit/Amazfit, потім ви зможете використовувати Mi Bandage. Оберіть цей пункт, якщо бажаєте використовувати додаток Mi Fit/Amazfit.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage потребує втановленого додатку Mi Fit/Amazfit на тому ж телефоні. Спочатку ви маєте зв\'язати %1$s з додатком Mi Fit/Amazfit, потім ви зможете використовувати Mi Bandage. Оберіть цей пункт, якщо бажаєте використовувати додаток Mi Fit/Amazfit.</string>
     <string name="mi_band_setting_auth_standalone">Автономна взаємодія</string>
-    <string name="mi_band_setting_auth_standalone_hint">Для роботи Mi Bandage, не потрібний додаток Mi Fit/Amazfit. Після зв'язування, видаліть додаток Mi Fit/Amazfit, або відв'яжіть ваш пристрій. Для відновлення взаємодії з Mi Fit/Amazfit, буде потрібно знову зв'язати %1$s з додатком Mi Fit/Amazfit.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Для роботи Mi Bandage, не потрібний додаток Mi Fit/Amazfit. Після зв\'язування, видаліть додаток Mi Fit/Amazfit, або відв\'яжіть ваш пристрій. Для відновлення взаємодії з Mi Fit/Amazfit, буде потрібно знову зв\'язати %1$s з додатком Mi Fit/Amazfit.</string>
     <string name="mi_band_setting_auth_key_title">Ключ автентифікації</string>
     <string name="mi_band_setting_auth_key_hint">Ключ автентифікації має бути надано для автономного режиму</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <p>- Відв'яжіть %1$s у офіційному додатку Mi Fit/Amazfit</p>
+        <p>- Відв\'яжіть %1$s у офіційному додатку Mi Fit/Amazfit</p>
         <p>- Видаліть офіційний додаток Mi Fit/Amazfit</p>
         <p>- Встановіть модифікований додаток Mi Fit/Amazfit</p>
-        <p>- Зв'яжіть %1$s з модифікованим додатком Mi Fit/Amazfit (не відв'язуйте)</p>
+        <p>- Зв\'яжіть %1$s з модифікованим додатком Mi Fit/Amazfit (не відв\'язуйте)</p>
         <p>- Видаліть модифікований додаток Mi Fit/Amazfit</p>
         Ключ автентифікації можна знайти: Внутрішнє сховище/freemyband/mac address.txt
     ]]></string>
     <string name="mi_band_setting_auth_key">Ключ автентифікації</string>
     <string name="mi_band_setting_auth">Парування</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Щоб зв'язати, натисніть кнопку на %1$s</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
-    <string name="message_mi_band_setting_auth_success">%1$s зв'язаний успішно</string>
-    <string name="message_mi_band_setting_auth_fail">помилка зв'язування з %1$s</string>
+    <string name="message_mi_band_setting_auth_press_band_button">Щоб зв\'язати, натисніть кнопку на %1$s</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_success">%1$s зв\'язаний успішно</string>
+    <string name="message_mi_band_setting_auth_fail">помилка зв\'язування з %1$s</string>
     <string name="message_mi_band_setting_auth_key_invalid">Невірний ключ автентифікації</string>
 
-    <string name="mi_band_setting_nickname">Ім'я</string>
+    <string name="mi_band_setting_nickname">Ім\'я</string>
     <string name="mi_band_setting_gender">Стать</string>
     <string name="mi_band_setting_birthday">Дата народження</string>
     <string name="mi_band_setting_height">Зріст</string>
@@ -111,7 +111,7 @@
     <string name="mi_band_setting_date">Відображати дату</string>
     <string name="mi_band_setting_lock_screen">Блокування дисплея браслету</string>
     <string name="mi_band_setting_lock_screen_summary">Проведіть для розблокування при ввімкненому браслеті</string>
-    <string name="mi_band_setting_lift_wrist">Поверніть зап'ясток для відображення інформації</string>
+    <string name="mi_band_setting_lift_wrist">Поверніть зап\'ясток для відображення інформації</string>
     <string name="mi_band_setting_lift_wrist_sensitivity">Швидкість відгуку</string>
     <string name="mi_band_setting_idle_alert">Сповіщення бездіяльності</string>
     <string name="mi_band_setting_idle_alert_time">Час бездіяльності</string>
@@ -146,14 +146,14 @@
 
     <string name="pref_text_conversion_description_title">Опис</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
-        <p>Якщо браслет відображує ім'я абонента, тоді вам не треба робити наступні кроки, просто вимкніть <i>Сповіщення про вхідні виклики</i> у Mi Fit.</p>
+        <p>Якщо браслет відображує ім\'я абонента, тоді вам не треба робити наступні кроки, просто вимкніть <i>Сповіщення про вхідні виклики</i> у Mi Fit.</p>
         <p>Якщо ви не використовуєте <i>Сповіщення про вхідні виклики</i> та мова телефона не англійська:
         <br/>1. Перемкніть мову телефона на англійську.
         <br/>2. Відкрийте додаток Mi Fit, Почекайте оновлення мікропрограми. Якщо оновлення не відбувається, спробуйте перезавантажити телефон.
         <br/>3. Відкрийте меню <i>Профіль/Mi Band/Вхідний виклик</i>.
         <br/>4. Увімкніть: <i>Сповіщення про вхідні виклики</i>.
         <br/>5. Увімкніть: <i>Показати контактну інформацію</i>.
-        <br/>6. Перевірте, чи відображає браслет ім'я абонента, зателефонувавши на свій телефон.
+        <br/>6. Перевірте, чи відображає браслет ім\'я абонента, зателефонувавши на свій телефон.
         <br/>7. Вимкніть: <i>Сповіщення про вхідні виклики</i> (<i>Показати контактну інформацію</i> залиште увімкненим).
         <br/>8. Поверніть мову телефона.</p>]]>
     </string>
@@ -172,18 +172,18 @@
     <string name="mi_band_battery_notification_mi_band_message">Заряд: %1$,d%%</string>
 
     <!-- PreferenceScreen -->
-    <string name="pref_connected">З'єднання</string>
-    <string name="pref_connected_summary">Налаштування з'єднання %1$s з телефоном та сповіщень про це</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected">З\'єднання</string>
+    <string name="pref_connected_summary">Налаштування з\'єднання %1$s з телефоном та сповіщень про це</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
-    <string name="pref_connected_signals">Сповіщення при з'єднанні</string>
-    <string name="pref_connected_signals_summary">%1$s не сповіщає про під'єднання</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_signals">Сповіщення при з\'єднанні</string>
+    <string name="pref_connected_signals_summary">%1$s не сповіщає про під\'єднання</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_signals_mi_band">Сповіщення %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Вібрація</string>
     <string name="pref_cat_connected_signals">Сповіщення телефона</string>
     <string name="pref_connected_wakelock_title">Вмикати екран телефона</string>
 
-    <string name="pref_connected_settings">Налаштування з'єднання</string>
-    <string name="pref_connected_settings_summary">Налаштування з'єднання %1$s з телефоном</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_settings">Налаштування з\'єднання</string>
+    <string name="pref_connected_settings_summary">Налаштування з\'єднання %1$s з телефоном</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_settings">Налаштування телефона</string>
     <string name="pref_connected_volume_title">Змінити гучність</string>
     <string name="pref_connected_volume_ring_title">Гучність дзвінка</string>
@@ -191,7 +191,7 @@
     <string name="pref_cat_connected_have_notif">Передналаштовані сповіщення додатків</string>
     <string name="pref_cat_connected_have_notif_default">Передвстановлені та користувацькі налаштування</string>
     <string name="pref_connected_have_notif_immediate_title">Негайно сповіщати при надходженні</string>
-    <string name="pref_connected_have_notif_title">Сповіщати при під'єднанні</string>
+    <string name="pref_connected_have_notif_title">Сповіщати при під\'єднанні</string>
     <string name="pref_connected_have_notif_reminder_title">Нагадувати</string>
     <string name="pref_connected_have_notif_screen_off_title">Сповіщати лише при вимкненому екрані</string>
     <string name="pref_connected_have_notif_interval_title">Інтервал повтору нагадувань</string>
@@ -203,11 +203,11 @@
     <string name="pref_connected_have_notif_pre_signal_title">Передсповіщення</string>
     <string name="pref_connected_have_notif_pre_signal_summary_on">Сповіщення (торкніться значка, щоб змінити) перед фактичним сповіщенням задля того, щоб мати час його побачити</string>
 
-    <string name="pref_disconnected">Роз'єднання</string>
-    <string name="pref_disconnected_summary">Налаштування роз'єднання %1$s з телефоном та сповіщень про це</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected">Роз\'єднання</string>
+    <string name="pref_disconnected_summary">Налаштування роз\'єднання %1$s з телефоном та сповіщень про це</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
-    <string name="pref_disconnected_signals">Сповіщення при роз'єднанні</string>
-    <string name="pref_disconnected_signals_summary">Сповіщення при розриві з'єднання %1$s з телефоном, не сповіщатиме, якщо Bluetooth вимкнено вручну</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_signals">Сповіщення при роз\'єднанні</string>
+    <string name="pref_disconnected_signals_summary">Сповіщення при розриві з\'єднання %1$s з телефоном, не сповіщатиме, якщо Bluetooth вимкнено вручну</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_disconnected_signals_mi_band">Сповіщення %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Відображення значку та вібрація</string>
     <string name="pref_cat_disconnected_signals">Сповіщення телефона</string>
@@ -215,8 +215,8 @@
     <string name="pref_disconnected_vibration_title">Вібрація</string>
     <string name="pref_disconnected_wakelock_title">Увімкнути екран телефона</string>
 
-    <string name="pref_disconnected_settings">Налаштування роз'єднання</string>
-    <string name="pref_disconnected_settings_summary">Налаштування роз'єднання %1$s з телефоном</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_settings">Налаштування роз\'єднання</string>
+    <string name="pref_disconnected_settings_summary">Налаштування роз\'єднання %1$s з телефоном</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_disconnected_settings">Налаштування телефона</string>
     <string name="pref_disconnected_volume_title">Змінити гучність</string>
     <string name="pref_disconnected_volume_ring_title">Гучність дзвінка</string>
@@ -280,8 +280,8 @@
     <!-- Quick switch -->
     <string name="details">Подробиці</string>
     <string name="bandages">Бандажі</string>
-    <string name="connected">Сигнали з'єнання та сповіщень</string>
-    <string name="disconnected">Сигнали роз'єднання та агента</string>
+    <string name="connected">Сигнали з\'єнання та сповіщень</string>
+    <string name="disconnected">Сигнали роз\'єднання та агента</string>
     <string name="touch">Контроль дотиків</string>
 
     <string name="pref_dnd_title">Режим \"Не турбувати\"</string>
@@ -295,16 +295,16 @@
     <string name="pref_dnd_remember_state_summary">Наприкінці дії режиму \"не турбувати\" увімкнути всі бандажі, або відновити іх стан до початку дії режиму</string>
     <string name="pref_dnd_remember_state_on_title">Наприкінці відновити стан бандажів</string>
     <string name="pref_dnd_remember_state_off_title">Наприкінці увімкнути всі бандажі</string>
-    <string name="pref_dnd_mi_fit_scheduled">Вмикати режим \"не турбувати\" на %1$s (вимкнення сповіщень та повороту зап'ястку для перегляду інформації)</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_dnd_mi_fit_scheduled">Вмикати режим \"не турбувати\" на %1$s (вимкнення сповіщень та повороту зап\'ястку для перегляду інформації)</string> <!-- Mi Band 2, Amazfit Bip ... -->
     <string name="pref_dnd_enable_bluetooth">На початку режиму \"не турбувати\" вімкнути Bluetooth, наприкінці — увімкнути</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Будьласка, увімкніть Bluetooth, та піднесіть браслет ближче до телефона</string>
-    <string name="message_discover_mi_band">Браслет не під'єднано, будьласка, під'єднайте його</string>
+    <string name="message_discover_mi_band">Браслет не під\'єднано, будьласка, під\'єднайте його</string>
     <string name="message_discovering_mi_band">Пошук браслета (це може зайняти 1 хвилину) &#8230;</string>
-    <string name="message_discovered_mi_band">%1$s під'єднано успішно</string>
-    <string name="message_discovered_no_mi_band">Під'єднання невдале</string>
-    <string name="message_discovered_not_found_mi_band">Якщо браслет не знайдено, увімкніть: Mi Fit/Профіль/Видимість, або під'єднайте через налаштування Bluetooth телефону</string>
+    <string name="message_discovered_mi_band">%1$s під\'єднано успішно</string>
+    <string name="message_discovered_no_mi_band">Під\'єднання невдале</string>
+    <string name="message_discovered_not_found_mi_band">Якщо браслет не знайдено, увімкніть: Mi Fit/Профіль/Видимість, або під\'єднайте через налаштування Bluetooth телефону</string>
     <string name="message_enable_notification_listener_access">Увімкніть доступ до сповіщень: Налаштування/Сповіщення/Доступ до сповіщень</string>
     <string name="message_enable_notification_listener_access_4_4">Увімкніть доступ до сповіщень: Налаштування/Безпека/Доступ до сповіщень</string>
     <string name="message_enable_notification_policy_access">Увімкніть доступ у режимі \"не турбувати\"</string>
@@ -346,8 +346,8 @@
     <string name="message_premium_mode_only">Ця функція доступна тільки у преміум режимі</string>
     <string name="message_premium_or_rewarded_mode_only">Ця функція доступна тільки у преміум або бонусному режимі</string>
     <string name="message_feature_is_not_supported">%1$s не підтримує цю функцію</string>
-    <string name="message_general_error">Встановлення невдале (втрата з'єднання), спробуйте ще</string>
-    <string name="message_internet_error">Немає зв'язку з інтернетом</string>
+    <string name="message_general_error">Встановлення невдале (втрата з\'єднання), спробуйте ще</string>
+    <string name="message_internet_error">Немає зв\'язку з інтернетом</string>
     <string name="message_gps_enable">Увімкніть GPS</string>
 
     <string name="message_in_progress">В процесі…</string>
@@ -385,8 +385,8 @@
     <br>Налаштування/Параметри розробника:
     <br>- Не зберігати дії: вимкнено
     <br>- Обмеження фон. процесів: стандартне
-    <br>- Оптимізація пам'яті: середня/низька/вимкнено</p>
-    <p>Якщо браслет не під'єднується, або не синхронізується з додатком Mi Fit, встановіть BToolkit, nRF Connect або подібний додаток для керування Bluetooth, та видаліть всі зв'язані пристрої.</p>
+    <br>- Оптимізація пам\'яті: середня/низька/вимкнено</p>
+    <p>Якщо браслет не під\'єднується, або не синхронізується з додатком Mi Fit, встановіть BToolkit, nRF Connect або подібний додаток для керування Bluetooth, та видаліть всі зв\'язані пристрої.</p>
     <p>При негараздах (пошук браслета, ненадходження сповіщень), спробуйте натупне:
     <br>1. Якщо встановлено Greenify (чи інший додаток для енергозбереження) вимкніть його.
     <br>2. Встановіть додаток Mi Bandage.
@@ -439,7 +439,7 @@
     <string name="notification_group_prefix">Текстовий префікс</string>
     <string name="notification_group_display_notification_title">Відображати сповіщення</string>
     <string name="notification_group_immediate">Негайно сповіщати при надходженні</string>
-    <string name="notification_group_connecting">Сповіщати при під'єднанні</string>
+    <string name="notification_group_connecting">Сповіщати при під\'єднанні</string>
     <string name="notification_group_reminder">Нагадувати</string>
     <string name="notification_group_ongoing">Постійне сповіщення</string>
     <string name="notification_group_screen_off">Сповіщати лише при вимкненому екрані</string>
@@ -550,7 +550,7 @@
     <string name="touch_headline_other_title">Керування іншим</string>
 
     <string name="touch_call_answer_title">Відповідь на виклик</string>
-    <string name="touch_call_answer_speakerphone_title">Гучний зв'язок</string>
+    <string name="touch_call_answer_speakerphone_title">Гучний зв\'язок</string>
 
     <string name="touch_call_end_title">Відхилення, завершення виклику</string>
 
@@ -573,7 +573,7 @@
     <string name="touch_call_out_no_contact">Оберіть контакт</string>
     <string name="touch_call_out_summary">Двічі натисніть для відповіді</string>
     <string name="touch_call_out_summary_support_call_display_button">Натисніть кнопку для відповіді</string>
-    <string name="touch_call_out_speakerphone_title">Гучний зв'язок</string>
+    <string name="touch_call_out_speakerphone_title">Гучний зв\'язок</string>
     <string name="touch_call_out_call_text">Вихідний виклик: %1$s</string>
 
     <string name="touch_weather_title">Прогноз погоди</string>
@@ -590,7 +590,7 @@
     <string name="touch_music_play_pause_title">Запуск музики, відтворення, пауза</string>
     <string name="touch_music_skip_previous_title">Запуск музики, попередня доріжка</string>
     <string name="touch_music_skip_next_title">Запуск музики, наступна доріжка</string>
-    <string name="touch_music_headset_only_title">Тільки якщо гарнітура під'єднана</string>
+    <string name="touch_music_headset_only_title">Тільки якщо гарнітура під\'єднана</string>
     <string name="touch_music_launch">Запуск музики</string>
     <string name="touch_music_volume_up_title">Збільшити гучність музики</string>
     <string name="touch_music_volume_down_title">Зменшити гучність музики</string>
@@ -652,7 +652,7 @@
 
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[
-        <mi_band_2>Дотик враховується, якщо дисплей перемикається (рекомендується повернути зап'ясток перед дотиками).</mi_band_2>
+        <mi_band_2>Дотик враховується, якщо дисплей перемикається (рекомендується повернути зап\'ясток перед дотиками).</mi_band_2>
         <b><u>Розпізнавання зразків</u></b>
         <p>Враховується час між дотиками.</p>
         Приклади правильного натискання:
@@ -694,8 +694,8 @@
         <mi_band_3><p>Дотик враховується коли дисплей <mi_band_type> вимкнений.</p></mi_band_3>
         <amazfit_cor><p>Кнопка під дисплеєм <mi_band_type>.</p></amazfit_cor>
         <amazfit_band_2><p>Кнопка під дисплеєм <mi_band_type>.</p></amazfit_band_2>
-        <img src="ic_touch_wrist"> Поворот зап'ястку
-        <p>Поворот зап'ястку враховується коли дисплей <mi_band_type> активний.</p>
+        <img src="ic_touch_wrist"> Поворот зап\'ястку
+        <p>Поворот зап\'ястку враховується коли дисплей <mi_band_type> активний.</p>
         <img src="ic_call"> <b><u>Вхідний виклик</b></u>
         <p>Працює завжди, навіть якщо дотики на головному екрані вимкнені.</p>
         <br><p>Під час тестування не виконується функція розпізнаного зразка.</p>
@@ -832,11 +832,11 @@
     <string name="message_pulse_premium_mode_only">Активні та пасивні вимірювання можуть використовуватись одночасно тільки в преміум режимі</string>
 
     <string name="info_dialog_pulse"><![CDATA[<img src="ic_pulse_online"> <b><u>Активне вимірювання пульсу</u></b>
-        <p>Необхідне з'єднання Bluetooth для вимірювань пульсу.</p>
+        <p>Необхідне з\'єднання Bluetooth для вимірювань пульсу.</p>
         <p>Якщо реультат хибний, вимірювання буде повторене декілька разів.</p>
         <img src="ic_pulse_offline"> <b><u>Пасивне вимірювання пульсу</u></b>
-        <p>З'єднання Bluetooth необов'язкове для вимірювань пульсу.</p>
-        <p>З'єднання Bluetooth необхідне для вимірювань за розкладом.</p>
+        <p>З\'єднання Bluetooth необов\'язкове для вимірювань пульсу.</p>
+        <p>З\'єднання Bluetooth необхідне для вимірювань за розкладом.</p>
         <p>Виміри запущені вручну (браслет, додаток Mi Fit) також синхронізуються.</p>
         ]]>
     </string>
@@ -851,7 +851,7 @@
     <string name="alarm_mi_band_time_set_next">Час наступного встановлення</string>
     <string name="alarm_mi_band_time">Час наступного будильника</string>
 
-    <string name="alarm_mi_band_disconnected_message">Роз'єднано</string> <!-- Max. 16 characters length -->
+    <string name="alarm_mi_band_disconnected_message">Роз\'єднано</string> <!-- Max. 16 characters length -->
 
     <string name="pref_cat_abandoned">Сигнал телефона</string>
     <string name="pref_abandoned_notif_interval_title">Інтервал повторення сигналу</string>
@@ -866,7 +866,7 @@
     <string name="alarm_mi_band_on_bluetooth_disabled_info">Час будильника: %1$s</string>
 
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Сигнал браслета</u></b>
-        <p>Коли мине вказаний проміжок часу, браслет вібруватиме, якщо відсутній зв'язок з телефоном.</p>
+        <p>Коли мине вказаний проміжок часу, браслет вібруватиме, якщо відсутній зв\'язок з телефоном.</p>
         <not_support_icon_text><p>Додаток використовує будильник Mi Fit для попередження (перезаписує 10. будильник).</p></not_support_icon_text>
         <not_support_icon_text><p>Будильник повторюватиметься декілька разів, якщо браслет не визначить рух (бо використовується будильник браслета).</p></p></not_support_icon_text>
         <support_icon_text><p>Додаток використовує нагадування Mi Fit для попередження.</p></support_icon_text>
@@ -874,7 +874,7 @@
         <not_support_icon_text><p>Якщо видалите додаток коли будильник увімкнений, ви можете вимкнути 10 будильник у додатку Mi Fit.</p></not_support_icon_text>
 
         <img src="ic_phone_android"> <b><u>Сигнал телефона</u></b>
-        <p>Коли мине вказаний проміжок часу, телефон повторюватиме сигнал, поки відсутній зв'язок з браслетом.</p>
+        <p>Коли мине вказаний проміжок часу, телефон повторюватиме сигнал, поки відсутній зв\'язок з браслетом.</p>
         <p>Це полегшить пошук телефона. Якщо хтось знайде телефон, а той заблокований і незрозуміло кого сповістити, можна залишити повідомлення на дисплеї.</p>
         <p>Коли браслет підключиться, сигнали зупиняться.</p>
         <p>Має бути дозвіл відображення на заблокованому екрані.</p>]]>
@@ -950,12 +950,12 @@
         <img src="ic_device_alarm"> <b><u>Сигналізувати, коли спрацьовує будильник телефона</u></b>
         <p>Не всі телефони підтримуються. Якщо ваш вбудований будильник не працює, встановіть Google Clock із Google Play.</p>
         <img src="ic_miband_bell"> <b><u>Сповіщення</u></b>
-        <p>З'єднання Bluetooth необхідне для сповіщення, один сигнал 10 секунд.</p>
+        <p>З\'єднання Bluetooth необхідне для сповіщення, один сигнал 10 секунд.</p>
         <img src="ic_alarm"> <b><u>Будильник</u></b>
-        <p>не потребує з'єднання Bluetooth для будильника, додаток використовує будильники Mi Fit (перезаписує 1. - 8. будильники).
+        <p>не потребує з\'єднання Bluetooth для будильника, додаток використовує будильники Mi Fit (перезаписує 1. - 8. будильники).
         <br>Будильник повторюватиметься декілька разів, якщо браслет не визначить рух (бо використовується будильник браслета).
         <br>Точніть до хвилини, браслет не враховує секунди для будильника.</p>
-        <p>Сигнал нагадування та повідомлення потребують з'єднання Bluetooth.</p>
+        <p>Сигнал нагадування та повідомлення потребують з\'єднання Bluetooth.</p>
     ]]></string>
 
     <!-- Reminder -->
@@ -979,7 +979,7 @@
     <string name="message_reminder_sync">Синхронізація нагадувань %1$s (видалення та встановлення нагадувань на браслеті)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_reminder"><![CDATA[
-        <not_support_icon_text>Необхідне з'єднання Bluetooth для відобрадення нагадувань.</not_support_icon_text>
+        <not_support_icon_text>Необхідне з\'єднання Bluetooth для відобрадення нагадувань.</not_support_icon_text>
          <support_icon_text>Додаток використовує нагадування Mi Fit, ви маєте користуватися або нагадуваннями Mi Bandage або Mi Fit. Якщо нагадування встановлені в обох додатках, вони можуть не працювати належним чином.</support_icon_text>
         ]]>
     </string>
@@ -1148,7 +1148,7 @@
         <br>- визначення руху
 
         <p>Якщо хтось працював з телефоном пока вас не було, дії будуть записані.</p>
-        <p>Ви отримаєте сповіщення при відновленні з'єднання.</p>]]>
+        <p>Ви отримаєте сповіщення при відновленні з\'єднання.</p>]]>
     </string>
 
     <!-- Theme -->
