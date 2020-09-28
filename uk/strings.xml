@@ -15,8 +15,8 @@
     <string name="drawer_nav_weather">Погода</string>
     <string name="drawer_nav_watch_face">Циферблат</string>
     <string name="drawer_nav_firmware">Мікропрограма</string>
-    <string name="drawer_nav_alarm">Загублений</string>
-    <string name="drawer_nav_disconnected_agent">Агент</string>
+    <string name="drawer_nav_alarm">При втраті</string>
+    <string name="drawer_nav_disconnected_agent">Нагляд</string>
     <string name="drawer_nav_theme">Тема</string>
     <string name="drawer_nav_backup">Резервне копіювання</string>
     <string name="drawer_nav_rewarded_mode">Бонусний</string>
@@ -104,14 +104,14 @@
     <string name="mi_band_setting_weight">Вага</string>
     <string name="mi_band_setting_wear_location">Розташування браслету</string>
 
-    <string name="mi_band_setting_distance_unit">Одиниця вимірювання відстані</string>
+    <string name="mi_band_setting_distance_unit">Система вимірювання відстані</string>
 
-    <string name="mi_band_setting_standalone_setting">Налаштування автономного режиму</string>
+    <string name="mi_band_setting_standalone_setting">Автономні налаштування</string>
     <string name="mi_band_setting_time_24h">24-годинний формат</string>
     <string name="mi_band_setting_date">Відображати дату</string>
     <string name="mi_band_setting_lock_screen">Блокування дисплея браслету</string>
     <string name="mi_band_setting_lock_screen_summary">Проведіть для розблокування при ввімкненому браслеті</string>
-    <string name="mi_band_setting_lift_wrist">Поверніть зап\'ясток для відображення інформації</string>
+    <string name="mi_band_setting_lift_wrist">Підніміть зап\'ясток для перегляду</string>
     <string name="mi_band_setting_lift_wrist_sensitivity">Швидкість відгуку</string>
     <string name="mi_band_setting_idle_alert">Сповіщення бездіяльності</string>
     <string name="mi_band_setting_idle_alert_time">Час бездіяльності</string>
@@ -132,7 +132,7 @@
     <string name="pref_text_emoji_summary_on">Увімкніть, якщо браслет має встановлений шрифт з підтримкою відображення смайлів</string>
     <string name="pref_text_uppercase_title">Перетворення до верхнього регістру</string>
     <string name="pref_text_uppercase_summary_on">Перетворювати нижній регістр у верхній</string>
-    <string name="pref_text_length">Довжина тексту, залежить від встановленого шрифту (наприклад китайські, або кирилічні символи)</string>
+    <string name="pref_text_length">Довжина тексту, залежить від шрифту браслета (напр. кирилічні/китайські символи)</string>
     <string name="pref_text_length_summary_on">%1$,d символів</string>
     <string name="pref_text_char_replacement_title">Заміна символів, смайлів</string>
     <string name="pref_text_char_replacement_summary_on">Замінити один символ іншим</string>
@@ -176,7 +176,7 @@
     <string name="pref_connected_summary">Налаштування з\'єднання %1$s з телефоном та сповіщень про це</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_connected_signals">Сповіщення при з\'єднанні</string>
-    <string name="pref_connected_signals_summary">%1$s не сповіщає про під\'єднання</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_connected_signals_summary">%1$s не має вбудованих сповіщень про під\'єднання</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_connected_signals_mi_band">Сповіщення %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_connected_mi_band_title">Вібрація</string>
     <string name="pref_cat_connected_signals">Сповіщення телефона</string>
@@ -207,7 +207,7 @@
     <string name="pref_disconnected_summary">Налаштування роз\'єднання %1$s з телефоном та сповіщень про це</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="pref_disconnected_signals">Сповіщення при роз\'єднанні</string>
-    <string name="pref_disconnected_signals_summary">Сповіщення при розриві з\'єднання %1$s з телефоном, не сповіщатиме, якщо Bluetooth вимкнено вручну</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_disconnected_signals_summary">Сповіщення %1$s та талефона при розриві з\'єднання, телефон не сповіщатиме, якщо Bluetooth вимкнено вручну</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_disconnected_signals_mi_band">Сповіщення %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_disconnected_mi_band_title">Відображення значку та вібрація</string>
     <string name="pref_cat_disconnected_signals">Сповіщення телефона</string>
@@ -229,11 +229,11 @@
     <string name="pref_call_summary">Налаштування сповіщень %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="pref_cat_call">Вхідний виклик</string>
     <string name="pref_call_title">Сповіщення про вхідний виклик</string>
-    <string name="pref_call_summary_on">Не забудьте вимкнути сповіщення про вхідні виклики в додатку Mi Fit</string>
+    <string name="pref_call_summary_on">Вимкніть сповіщення про вхідні виклики у Mi Fit</string>
     <string name="pref_call_text_title">Відображати дані абонента</string>
     <string name="pref_call_text_summary_on"><![CDATA[увімкнено (подробиці: <i>Налаштування/Текст та значки)</i>]]></string>
 
-    <string name="pref_call_net_text_title">Вхідний виклик з інтернету, відображати дані абонента</string>
+    <string name="pref_call_net_text_title">Вхідні виклики з інтернету + дані абонента</string>
     <string name="pref_call_net_text_summary_on">Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Discord・Slack</string>
 
     <string name="pref_call_notification_rejected">Сповіщення про відхилені виклики</string>
@@ -244,7 +244,7 @@
     <string name="pref_cat_call_missed">Пропущений виклик</string>
     <string name="pref_call_missed_title">Сповіщення про пропущені виклики</string>
 
-    <string name="pref_call_missed_net_title">Пропущені виклики з інтернету, відображати дані абонента</string>
+    <string name="pref_call_missed_net_title">Пропущені з інтернету + дані абонента</string>
     <string name="pref_call_missed_net_summary_on">Skype・Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Zalo</string>
 
     <string name="pref_call_missed_alert_title">Сповіщення %1$s</string> <!-- Mi Band 2, Amazfit Bip ... -->
@@ -256,15 +256,15 @@
     <string name="pref_battery_phone">Акумулятор телефона</string>
     <string name="pref_battery_phone_summary">Сповіщення про низький та повний заряд</string>
     <string name="pref_cat_battery_phone_low">Низький рівень заряду</string>
-    <string name="pref_battery_phone_low_title">Сповіщення про низький рівень заряду</string>
+    <string name="pref_battery_phone_low_title">Сповіщення про низький заряд</string>
     <string name="pref_battery_phone_low_level_title">Поріг низького рівня заряду</string>
     <string name="pref_battery_phone_low_repeat_interval_title">Інтервал повторення</string>
     <string name="pref_cat_battery_phone_full">Повний заряд</string>
-    <string name="pref_battery_phone_full_title">Сповіщення про повний заряд батареї</string>
-    <string name="pref_battery_phone_full_plugged_ac">Заряджання від зарядного пристрою</string>
+    <string name="pref_battery_phone_full_title">Сповіщення про повний заряд</string>
+    <string name="pref_battery_phone_full_plugged_ac">Заряджання від електромережі</string>
     <string name="pref_battery_phone_full_plugged_usb">Заряджання від порту USB</string>
     <string name="pref_battery_phone_full_plugged_wireless">Бездротове заряджання</string>
-    <string name="pref_battery_phone_full_repeat_interval_title">Інтервал повторення</string>
+    <string name="pref_battery_phone_full_repeat_interval_title">Інтервал повтору</string>
 
     <!-- Mi Band 2 max. 18 chars with 100% -->
     <string name="pref_battery_phone_mi_band_message">Заряд телефона: %1$,d%%</string>
@@ -287,16 +287,16 @@
     <string name="pref_dnd_title">Режим \"Не турбувати\"</string>
     <string name="pref_dnd_summary">Стан перемикачів у режимі \"не турбувати\"</string>
     <string name="pref_dnd_auto_title">Автоматичний режим \"не турбувати\"</string>
-    <string name="pref_dnd_auto_summary">Контрольований телефоном режим \"не турбувати\" має вищий приорітет, ніж режим \"не турбувати\", що вмикається за розкладом</string>
-    <string name="pref_dnd_auto_vibrate">Вібрація (тихий)</string>
+    <string name="pref_dnd_auto_summary">Керований телефоном режим \"не турбувати\" має вищий приорітет, ніж режим \"не турбувати\", за розкладом</string>
+    <string name="pref_dnd_auto_vibrate">Вібрація (вимкнена)</string>
     <string name="pref_dnd_auto_silent">Не турбувати</string>
     <string name="pref_dnd_scheduled_title">Режим \"не турбувати\" за розкладом</string>
     <string name="pref_dnd_scheduled_new_title">Назва</string>
     <string name="pref_dnd_remember_state_summary">Наприкінці дії режиму \"не турбувати\" увімкнути всі бандажі, або відновити іх стан до початку дії режиму</string>
     <string name="pref_dnd_remember_state_on_title">Наприкінці відновити стан бандажів</string>
     <string name="pref_dnd_remember_state_off_title">Наприкінці увімкнути всі бандажі</string>
-    <string name="pref_dnd_mi_fit_scheduled">Вмикати режим \"не турбувати\" на %1$s (вимкнення сповіщень та повороту зап\'ястку для перегляду інформації)</string> <!-- Mi Band 2, Amazfit Bip ... -->
-    <string name="pref_dnd_enable_bluetooth">На початку режиму \"не турбувати\" вімкнути Bluetooth, наприкінці — увімкнути</string>
+    <string name="pref_dnd_mi_fit_scheduled">Вмикати режим \"не турбувати\" на %1$s (вимкнення сповіщень та жестів зап\'ястку)</string> <!-- Mi Band 2, Amazfit Bip ... -->
+    <string name="pref_dnd_enable_bluetooth">На початку режиму \"не турбувати\" вимкнути Bluetooth, наприкінці — увімкнути</string>
 
     <!-- Snackbar Messages -->
     <string name="message_enable_bluetooth">Будьласка, увімкніть Bluetooth, та піднесіть браслет ближче до телефона</string>
@@ -420,7 +420,7 @@
     <string name="notification_group_nav_correction">Виправлення</string>
 
     <string name="notification_group_name">Назва</string>
-    <string name="notification_group_monitoring">Контрольовані сповіщення</string>
+    <string name="notification_group_monitoring">Налаштування сповіщень</string>
     <string name="notification_group_monitoring_disabled">Вимкнути сповіщення (не показувати сповіщення додатку)</string>
     <string name="notification_group_alert_title">Сповіщеня %1$s</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="notification_group_text">Текст сповіщення</string>
@@ -436,7 +436,7 @@
     <string name="notification_group_pre_signal_title">Передсповіщення за замовчанням</string>
     <string name="notification_group_pre_vibration_title">Перед-вібрація</string>
     <string name="notification_group_pre_alert_title">Перед-значок</string>
-    <string name="notification_group_prefix">Текстовий префікс</string>
+    <string name="notification_group_prefix">Текст-префікс</string>
     <string name="notification_group_display_notification_title">Відображати сповіщення</string>
     <string name="notification_group_immediate">Негайно сповіщати при надходженні</string>
     <string name="notification_group_connecting">Сповіщати при під\'єднанні</string>
@@ -534,7 +534,7 @@
 
     <!-- Touch monitoring -->
     <string name="touch_tab_function">Функції</string>
-    <string name="touch_tab_control">Контроль</string>
+    <string name="touch_tab_control">Керування</string>
     <string name="touch_tab_testing">Тестування</string>
     <string name="touch_tab_settings">@string/setting_name</string>
 
@@ -544,7 +544,7 @@
 
     <string name="touch_headline_incoming_call_title">Вхідний виклик</string>
     <string name="touch_headline_other_function_title">Інші функції</string>
-    <string name="touch_headline_call_title">Керування викликів</string>
+    <string name="touch_headline_call_title">Керування викликами</string>
     <string name="touch_headline_music_title">Керування музикою</string>
     <string name="touch_headline_time_title">Керування секундоміром/таймером</string>
     <string name="touch_headline_other_title">Керування іншим</string>
@@ -560,9 +560,9 @@
     <string name="touch_call_mute_mi_band_3_menu">Mi Band 3/Ще/Пошук пристрою</string>
 
     <string name="touch_device_location_title">Знайти телефон</string>
-    <string name="touch_device_location_not_muted_only_title">Грати тільки якщо увімкнені звуки та не в режимі \"Не турбувати\"</string>
+    <string name="touch_device_location_not_muted_only_title">Відтворити тільки якщо увімкнені звуки та не в режимі \"Не турбувати\"</string>
 
-    <string name="touch_call_mute_toggle_title">Вимкнення/увімкнення звуку телефона</string>
+    <string name="touch_call_mute_toggle_title">Перемикання звуку телефона</string>
 
     <string name="touch_music_function_title">Музика</string>
     <string name="touch_music_function_launch">Запустіть музику кнопкою відтворення, якщо програвач не розпізнано</string>
@@ -603,7 +603,7 @@
     <string name="touch_time_launch_restart">Перезапустити якщо в процесі</string>
     <string name="touch_time_reminder_title">Показати час що минув/залишився</string>
 
-    <string name="touch_google_assistant_title">Google Асистент</string>
+    <string name="touch_google_assistant_title">Помічник Google</string>
 
     <string name="touch_flashlight_title">Ліхтарик</string>
 
@@ -616,7 +616,7 @@
     <string name="touch_app_launcher_package_no_title">Оберіть додаток</string>
     <string name="touch_app_launcher1_not_wakelock_only_title">Тільки якщо екран розблоковано</string>
 
-    <string name="touch_broadcast1_title">Послати Broadcast</string>
+    <string name="touch_broadcast1_title">Надіслати Broadcast</string>
     <string name="touch_broadcast1_action_title">Дія Intent</string>
     <string name="touch_broadcast1_package_title">Назва пакунку Intent</string>
 
@@ -666,9 +666,9 @@
         <p>Враховується кількість дотиків доти, доки час між дотиками менший за налаштування часу розпізнавання дотиків.</p>
         <br><p>Під час вхідного виклику телефон не обробляє наступні функції: розташування телефона, повтор сповіщень, керування музикою, задля полегшення розпізнавання дотиків.</p>
         <p>Під час тестування не виконується функція розпізнаного зразка.</p>
-        <p>Браслет вібруватиме тільки в разі співпадіння зразку, враховуючи поточний стан телефона (прийняти/відхилити виклик тільки під час вхідного виклику…).</p>
+        <p>Браслет вібруватиме тільки в разі співпадіння зразка, враховуючи поточний стан телефона (прийняти/відхилити виклик тільки під час вхідного виклику…).</p>
         <p>Браслет вібруватиме один раз, якщо зразок розпізнано.</p>
-        <p>Браслет вібруватиме двічі, якщо не розпізнано жодного зразку після найдовшого (якщо встановлено сигнал <i>Зразок не розпізнано</i>).</p>
+        <p>Браслет вібруватиме двічі, якщо не розпізнано жодного зразка після найдовшого (якщо встановлено сигнал <i>Зразок не розпізнано</i>).</p>
     ]]></string>
 
     <!-- Touch monitoring info dialog Mi Band 3/Amazfit Cor-->
@@ -788,19 +788,19 @@
     <string name="pulse_tab_day">Денні графіки</string>
     <string name="pulse_tab_week">Тижневі графіки</string>
     <string name="pulse_tab_month">Місячні графіки</string>
-    <string name="pulse_tab_settings_online">Активні вимірювання</string>
-    <string name="pulse_tab_settings_offline">Пасивні вимірювання</string>
-    <string name="pulse_tab_settings_continuous">Тривалі вимірювання</string>
+    <string name="pulse_tab_settings_online">Активні заміри</string>
+    <string name="pulse_tab_settings_offline">Пасивні заміри</string>
+    <string name="pulse_tab_settings_continuous">Безперервні заміри</string>
 
     <string name="pulse_online_title">Активне вимірювання пульсу</string>
     <string name="pulse_offline_title">Пасивне вимірювання пульсу</string>
-    <string name="pulse_continuous_title">Тривале вимірювання пульсу</string>
+    <string name="pulse_continuous_title">Безперервне вимірювання пульсу</string>
 
     <string name="action_chart_pulse_type_pulse">Пульс</string>
-    <string name="action_chart_pulse_type_pulse_and_step">пульс та активність</string>
+    <string name="action_chart_pulse_type_pulse_and_step">Пульс та активність</string>
 
     <string name="pulse_continuous_chart_title">Графік</string>
-    <string name="pulse_continuous_autostart">Автозапуск при початку активності у Mi Fit</string>
+    <string name="pulse_continuous_autostart">Автозапуск на початку активності у Mi Fit</string>
 
     <string name="pulse_notification_shade">Графік у сповіщенні в рядку стану</string>
     <string name="pulse_title_signals">Сигнали</string>
@@ -809,9 +809,9 @@
     <string name="pulse_signal_end_low_title">Сигнал низького пульсу</string>
     <string name="pulse_signal_end_title">Сигнал високого пульсу</string>
 
-    <string name="pulse_title_timing_validity">Час та дійсність</string>
-    <string name="pulse_value_min">Дійсне найнижче значення</string>
-    <string name="pulse_value_max">Дійсне найвище значення</string>
+    <string name="pulse_title_timing_validity">Час та обмеження</string>
+    <string name="pulse_value_min">Найнижче значення</string>
+    <string name="pulse_value_max">Найвище значення</string>
     <string name="pulse_value_invalid">Недійсне значення</string>
 
     <string name="pulse_offline_timed_title">Вимірювання за часом</string>
@@ -847,7 +847,7 @@
     <string name="alarm_mi_band_service_summary">У випадку частих помилкових спрацьовувань, увімкніть фонову службу для більш стабільної роботи</string>
     <string name="alarm_mi_band_clock">Використовувати будильник телефону, якщо фонова служба не запущена (збільшує енергоспоживання)</string>
     <string name="alarm_mi_band_dnd">Режим \"Не турбувати\"</string>
-    <string name="alarm_mi_band_interval_title">Налаштування часу повторення попередження</string>
+    <string name="alarm_mi_band_interval_title">Налаштування часу повтору попередження</string>
     <string name="alarm_mi_band_time_set_next">Час наступного встановлення</string>
     <string name="alarm_mi_band_time">Час наступного будильника</string>
 
@@ -868,7 +868,7 @@
     <string name="info_dialog_alarm"><![CDATA[<img src="ic_menu_palm"> <b><u>Сигнал браслета</u></b>
         <p>Коли мине вказаний проміжок часу, браслет вібруватиме, якщо відсутній зв\'язок з телефоном.</p>
         <not_support_icon_text><p>Додаток використовує будильник Mi Fit для попередження (перезаписує 10. будильник).</p></not_support_icon_text>
-        <not_support_icon_text><p>Будильник повторюватиметься декілька разів, якщо браслет не визначить рух (бо використовується будильник браслета).</p></p></not_support_icon_text>
+        <not_support_icon_text><p>Будильник повторюватиметься декілька разів, доки браслет не визначить рух (бо використовується будильник браслета).</p></p></not_support_icon_text>
         <support_icon_text><p>Додаток використовує нагадування Mi Fit для попередження.</p></support_icon_text>
         <p>Перед вимиканням Bluetooth або видаленням додатку ви маєте вимкнути сигнал браслета.</p>
         <not_support_icon_text><p>Якщо видалите додаток коли будильник увімкнений, ви можете вимкнути 10 будильник у додатку Mi Fit.</p></not_support_icon_text>
@@ -889,25 +889,25 @@
 
     <string name="action_alarm_device">Будильник телефона</string>
     <string name="time_alarm_setting">@string/setting_name</string>
-    <string name="time_alarm_mi_band_signal">Сигналізувати, коли спрацьовує будильник телефона</string>
+    <string name="time_alarm_mi_band_signal">Сповіщати про будильник телефона</string>
     <string name="time_alarm_mi_band_signal_alarm_off">Вимикати будильник другим дотиком</string>
     <string name="time_alarm_title">Заголовок</string>
-    <string name="time_alarm_pre_alarm">Сигнал нагадування, час що залишився</string>
+    <string name="time_alarm_pre_alarm">Завчасне нагадування</string>
     <string name="time_alarm_pre_alarm_interval_title">Час до</string>
     <string name="time_alarm_pre_alarm_type_vibrate_title">Вібрація</string>
-    <string name="time_alarm_pre_alarm_type_remaining_title">Час що залишився</string>
+    <string name="time_alarm_pre_alarm_type_remaining_title">Час таймера</string>
 
     <string name="time_timer_time_alert">Час будильника</string>
-    <string name="time_timer_time_remaining">Час що залишився</string>
+    <string name="time_timer_time_remaining">Час до</string>
 
-    <string name="time_timer_reminder">Сигнал нагадування, час що залишився</string>
+    <string name="time_timer_reminder">Завчасне нагадування</string>
     <string name="time_timer_reminder_interval_before_title">Час до</string>
     <string name="time_timer_reminder_interval_repeat_title">Інтервал повтору нагадування</string>
 
     <string name="time_stopper_time_alert">Час нагадування</string>
     <string name="time_stopper_time_elapsed">Час що минув</string>
 
-    <string name="time_stopper_reminder">Сигнал нагадування, час що минув</string>
+    <string name="time_stopper_reminder">Нагадування про час що минув</string>
     <string name="time_stopper_reminder_interval_before_title">Час до</string>
     <string name="time_stopper_reminder_interval_repeat_title">Інтервал повтору нагадування</string>
 
@@ -953,7 +953,7 @@
         <p>З\'єднання Bluetooth необхідне для сповіщення, один сигнал 10 секунд.</p>
         <img src="ic_alarm"> <b><u>Будильник</u></b>
         <p>не потребує з\'єднання Bluetooth для будильника, додаток використовує будильники Mi Fit (перезаписує 1. - 8. будильники).
-        <br>Будильник повторюватиметься декілька разів, якщо браслет не визначить рух (бо використовується будильник браслета).
+        <br>Будильник повторюватиметься декілька разів, доки браслет не визначить рух (бо використовується будильник браслета).
         <br>Точніть до хвилини, браслет не враховує секунди для будильника.</p>
         <p>Сигнал нагадування та повідомлення потребують з\'єднання Bluetooth.</p>
     ]]></string>
@@ -979,7 +979,7 @@
     <string name="message_reminder_sync">Синхронізація нагадувань %1$s (видалення та встановлення нагадувань на браслеті)</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
 
     <string name="info_dialog_reminder"><![CDATA[
-        <not_support_icon_text>Необхідне з\'єднання Bluetooth для відобрадення нагадувань.</not_support_icon_text>
+        <not_support_icon_text>Необхідне з\'єднання Bluetooth для відображення нагадувань.</not_support_icon_text>
          <support_icon_text>Додаток використовує нагадування Mi Fit, ви маєте користуватися або нагадуваннями Mi Bandage або Mi Fit. Якщо нагадування встановлені в обох додатках, вони можуть не працювати належним чином.</support_icon_text>
         ]]>
     </string>
@@ -1132,7 +1132,7 @@
     </string>
 
     <!-- Agent -->
-    <string name="agent_title">Наглядовий агент</string>
+    <string name="agent_title">Наглядати за діями</string>
     <string name="agent_tab_events">Журнали агента</string>
     <string name="agent_tab_settings">@string/setting_name</string>
 
@@ -1147,7 +1147,7 @@
         <br>- розблокування
         <br>- визначення руху
 
-        <p>Якщо хтось працював з телефоном пока вас не було, дії будуть записані.</p>
+        <p>Якщо хтось працював з телефоном поки вас не було, дії будуть записані.</p>
         <p>Ви отримаєте сповіщення при відновленні з\'єднання.</p>]]>
     </string>
 
@@ -1172,7 +1172,7 @@
     <string name="theme_widget_touch_event_title">При дотику</string>
 
     <string name="theme_notification_title">Показувати стан у постійному сповіщенні</string>
-    <string name="theme_notification_summary">Система Android примусово зупиняє служби, коли не вистачає пам’яті. Якщо за деякий час перестають надходити сповіщення на %1$s, ви можете цьому завадити.</string>
+    <string name="theme_notification_summary">Система Android примусово зупиняє служби, коли не вистачає пам’яті. Якщо за деякий час перестають надходити сповіщення на %1$s, це може допомогти.</string>
     <string name="theme_notification_summary_foreground_service">Android 8 та новіші вимагають відображення значку у рядку сповіщень. Проведіть праворуч або ліворуч по сповіщеннню, щоб сховати значок. Якщо сповіщення приховане, вимкніть це налаштування для оптимальної роботи.</string>
     <string name="theme_notification_color_title">Колір значка</string>
     <string name="theme_notification_text_color_title">Колір тексту</string>
@@ -1180,7 +1180,7 @@
     <!-- Backup and restore -->
     <string name="backup_tab_backup">Резервне копіювання</string>
     <string name="backup_tab_restore">Відновлення</string>
-    <string name="backup_tab_cloud">Хмара</string>
+    <string name="backup_tab_cloud">Хмарне сховище</string>
 
     <string name="backup_time">Час резервування</string>
     <string name="backup_path">Розташування копії</string>
@@ -1195,10 +1195,10 @@
     <string name="backup_process_time">Час %1$,d%%</string>
     <string name="backup_process_reminder">Нагадування %1$,d%%</string>
     <string name="backup_process_weather">Погода %1$,d%%</string>
-    <string name="backup_process_alarm">Загублення %1$,d%%</string>
+    <string name="backup_process_alarm">При втраті %1$,d%%</string>
     <string name="backup_process_disconnected_agent">Агент %1$,d%%</string>
     <string name="backup_process_settings">Налаштування %1$,d%%</string>
-    <string name="backup_process_cloud">Хмара %1$,d%%</string>
+    <string name="backup_process_cloud">Хмарне сховище %1$,d%%</string>
 
     <string name="backup_restore_activity">Активність та сон</string>
     <string name="backup_restore_pulse">Пульс</string>
@@ -1211,7 +1211,7 @@
     <string name="backup_restore_disconnected_agent">Агент</string>
     <string name="backup_restore_settings">@string/settings_name</string>
 
-    <string name="backup_restore_reset">Після відновлення, Bluetooth буде вімкнено та увімкнено, додаток перезапуститься.</string>
+    <string name="backup_restore_reset">Після відновлення, Bluetooth буде вимкнено та увімкнено, додаток перезапуститься.</string>
 
     <string name="backup_cloud_drive_login">Увійти до Google Drive</string>
     <string name="backup_cloud_drive_logout">Вийти з Google Drive</string>
@@ -1242,17 +1242,17 @@
         <p>- режим \"Не турбувати\"</p>
         <p>- необмежені сповіщення</p>
         <p>- необмежені дотики</p>
-        <p>- тестові префікси, пре-значки та фільтри можна використовувати у сповіщеннях</p>
+        <p>- текстові префікси, пре-значки та фільтри у сповіщеннях</p>
         <p>- будь-який інтервал повторень у крокомірі</p>
         <p>- будь-який інтервал повторень та відображення пульсу у пульсомірі</p>
-        <p>- будь-який інтервал повторень та режим \"Не турбувати\" при загубленні</p>
+        <p>- будь-який інтервал повторень та режим \"Не турбувати\" при втраті</p>
         <p>- повторювані нагадування, повідомлення та увімкнення bluetooth без обмежень у функціях часу</p>
         - …
     ]]></string>
     <string name="purchase_policy_title">Умови преміум-режиму</string>
     <string name="purchase_policy"><![CDATA[
         <p>- Я перевірив додаток, він працює належним чином.</p>
-        <p>- Я попереджений, що не може вимагати повернення коштів через помилки у додатку, що викликані змінами у додатку, апаратному оточенні або використанням інших додатків.</p>
+        <p>- Я попереджений, що не можу вимагати повернення коштів через помилки у додатку, що викликані змінами у додатку, апаратним оточенням або використанням інших додатків.</p>
         <p>- Усі продажі остаточні і поверненню не підлягають (за виключенням політики відшкодування Google).</p>
         <p>- Гарантія не надається.</p>
         <br><p><i>Після покупки треба перезапустити додаток.</i></p>
@@ -1285,7 +1285,7 @@
     <string name="privacy_policy_collect"><![CDATA[
         <p>- Ми збираємо тільки анонімну інформацію.</p>
         <p>- Ми збираємо інформацію на рівні додатка про служби, що використовуються, та яким чином (платформа Google Firebase).</p>
-        <p>- Ми збираємо інформацію на рівні додатка як помилки та збої задля покращень додатка (платформа Google Firebase).</p>
+        <p>- Ми збираємо інформацію на рівні додатка таку як помилки та збої, задля покращень додатка (платформа Google Firebase).</p>
         <p>- Платформа Google Firebase збирає інформацію анонімно. Вона звітує про тенденції без ідентифікації користувачів.</p>
         - Ми не надаємо інформацію іншим компаніям та організаціям.
     ]]></string>
@@ -1335,7 +1335,7 @@
     <string name="on">Увімкнено</string>
     <string name="off">Вимкнено</string>
     <string name="none">Немає</string>
-    <string name="bpm">Частота</string>
+    <string name="bpm">уд/хв</string>
     <string name="date">Дата</string>
     <string name="time">Час</string>
     <string name="time_start">Час початку</string>
