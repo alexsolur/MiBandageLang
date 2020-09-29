@@ -50,7 +50,7 @@
     <string name="mi_band_battery">Рівень заряду・час останнього зарядження・розрахунковий час роботи</string>
     <string name="mi_band_state_connected_disconnected_last_time">Час останніх з\'єднання/роз\'єднання</string>
     <string name="mi_band_search">Пошук</string>
-    <string name="mi_band_touch">Контроль дотиків</string>
+    <string name="mi_band_touch">Керування дотиками</string>
     <string name="mi_band_alarm">Наступний будильник</string>
     <string name="mi_band_bonded_device_name">Назва зв\'язаного пристрою</string>
     <string name="mi_band_mac_address">MAC адреса</string>
@@ -282,7 +282,7 @@
     <string name="bandages">Бандажі</string>
     <string name="connected">Сигнали з\'єнання та сповіщень</string>
     <string name="disconnected">Сигнали роз\'єднання та агента</string>
-    <string name="touch">Контроль дотиків</string>
+    <string name="touch">Керування дотиками</string>
 
     <string name="pref_dnd_title">Режим \"Не турбувати\"</string>
     <string name="pref_dnd_summary">Стан перемикачів у режимі \"не турбувати\"</string>
@@ -652,7 +652,7 @@
 
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[
-        <mi_band_2>Дотик враховується, якщо дисплей перемикається (рекомендується повернути зап\'ясток перед дотиками).</mi_band_2>
+        <mi_band_2>Дотик враховується, якщо дисплей перемикається (рекомендується підняти зап\'ясток перед дотиками).</mi_band_2>
         <b><u>Розпізнавання зразків</u></b>
         <p>Враховується час між дотиками.</p>
         Приклади правильного натискання:
@@ -1133,7 +1133,7 @@
 
     <!-- Agent -->
     <string name="agent_title">Наглядати за діями</string>
-    <string name="agent_tab_events">Журнали агента</string>
+    <string name="agent_tab_events">Журнали нагляду</string>
     <string name="agent_tab_settings">@string/setting_name</string>
 
     <string name="pref_disconnected_agent_summary_on">Якщо хтось втручався у телефон поки вас не було, ви дізнаєтесь</string>
