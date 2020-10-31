@@ -129,21 +129,21 @@
     <string name="pref_text_conversion_excluded_title">Wykluczone postacie</string>
     <string name="pref_text_emoticon_title">Konwersja Emoji</string>
     <string name="pref_text_emoticon_summary_on">Konwertuj Emoji do emotikony</string>
-    <string name="pref_text_emoji_title">Emoji display</string>
-    <string name="pref_text_emoji_summary_on">Turn it on if your device has a custom font firmware installed that support emoji display</string>
+    <string name="pref_text_emoji_title">Wyświetlanie emoji</string>
+    <string name="pref_text_emoji_summary_on">Włącz, jeśli urządzenie ma zainstalowane niestandardowe oprogramowanie układowe czcionek, które obsługuje wyświetlanie emoji</string>
     <string name="pref_text_uppercase_title">Konwersja do dużych liter</string>
     <string name="pref_text_uppercase_summary_on">Konwertuj małe litery do dużych</string>
     <string name="pref_text_length">Długość tekstu, zależy od użytej czcionki (na przykład znaki chińskie lub cyrylica)</string>
     <string name="pref_text_length_summary_on">%1$,d znaków</string>
-    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
-    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
-    <string name="pref_text_char_replacement_find">Find</string>
-    <string name="pref_text_char_replacement_replace">Replace with</string>
+    <string name="pref_text_char_replacement_title">Zastąpienie znaku, emoji</string>
+    <string name="pref_text_char_replacement_summary_on">Zastąp jeden znak innym</string>
+    <string name="pref_text_char_replacement_find">Znajdź</string>
+    <string name="pref_text_char_replacement_replace">Zastąp</string>
 
     <string name="mi_band_setting_menu_visible">Widoczne elementy menu</string>
     <string name="mi_band_setting_menu_hidden">Ukryte elementy menu</string>
     <string name="mi_band_setting_shortcut">Skróty pozycji</string>
-    <string name="mi_band_setting_shortcut_hidden">Hidden shortcut items</string>
+    <string name="mi_band_setting_shortcut_hidden">Ukryte elementy skrótu</string>
 
     <string name="pref_text_conversion_description_title">Opis</string>
     <string name="pref_text_conversion_description_summary"><![CDATA[
@@ -412,7 +412,7 @@
     <string name="diagnostic_protection_service">Pokaż status w obszarze powiadomień</string>
     <string name="diagnostic_protection_lock">Zablokuj na ekranie ostatnich aplikacji</string>
 
-    <string name="diagnostic_permission_missing">No permission set: %1$s</string>
+    <string name="diagnostic_permission_missing">Brak ustawionego pozwolenia: %1$s</string>
 
     <!-- Notification  -->
     <string name="notification_tab_custom">Niestandardowe powiadomienia</string>
@@ -432,7 +432,7 @@
     <string name="notification_group_text_name">Nazwa</string>
     <string name="notification_group_text_title">Tytuł</string>
     <string name="notification_group_text_content">Zawartość</string>
-    <string name="notification_group_text_big_content">Full content</string>
+    <string name="notification_group_text_big_content">Pełna treść</string>
     <string name="notification_group_text_content_slice_title">Długość tekstu</string>
     <string name="notification_group_display_time_title">Czas wyświetlania</string>
     <string name="notification_group_vibration_title">Własna wibracja</string>
@@ -450,8 +450,8 @@
     <string name="notification_group_counter_title">Liczba sygnałów</string>
     <string name="notification_group_repeat_title">Powtarzaj sygnały</string>
     <string name="notification_group_wakelock">Wybudź ekran telefonu</string>
-    <string name="notification_group_grouped_display_title">Display setting for the group notifications</string>
-    <string name="notification_group_grouped_sort_order_title">Sort order for the group notifications</string>
+    <string name="notification_group_grouped_display_title">Wyświetl ustawienie dla grupy powiadomień</string>
+    <string name="notification_group_grouped_sort_order_title">Porządek sortowania dla grupy powiadomień</string>
     <string name="notification_group_remove_title">Usuń powiadomienie</string>
     <string name="notification_group_remove_from_device">Z paska powiadomień telefonu</string>
     <string name="notification_group_remove_from_device_hint">Jeśli używasz funkcji %1$s/Powiadomienia/Wyczyść wszystkie</string> <!-- %1$s = Mi Band 4  ... -->
@@ -1010,20 +1010,20 @@
 
     <string name="weather_precipitation_rain">Deszcz</string>
     <string name="weather_precipitation_snow">Śnieg</string>
-    <string name="weather_cloud_cover_abbreviation">Zach.</string>
+    <string name="weather_cloud_cover_abbreviation">Zachm.</string>
     <string name="weather_cloud_cover">Chmury</string>
     <string name="weather_humidity">Wilgotność</string>
 
-    <string name="weather_north">N</string>
-    <string name="weather_east">E</string>
-    <string name="weather_south">S</string>
-    <string name="weather_west">W</string>
+    <string name="weather_north">PN</string>
+    <string name="weather_east">PD</string>
+    <string name="weather_south">W</string>
+    <string name="weather_west">Z</string>
 
     <!-- Watch face -->
     <string name="watch_face_tab_download">Pobierz</string>
     <string name="watch_face_tab_upload">Prześlij</string>
     <string name="watch_face_tab_upload_mi_fit">Prześlij przez Mi Fit</string>
-    <string name="watch_face_tab_upload_amazfit">Prześlij przez via Amazfit</string>
+    <string name="watch_face_tab_upload_amazfit">Prześlij przez Amazfit</string>
 
     <string name="watch_face_download_title">Pobierz tarczę zegarka</string>
     <string name="watch_face_download_path">Zapisz pobrany plik tarczy zegarka tutaj</string>
@@ -1217,8 +1217,8 @@
 
     <string name="backup_restore_reset">Po przywróceniu Bluetooth zostanie wyłączony i włączony, a aplikacja uruchomi się ponownie.</string>
 
-    <string name="backup_cloud_drive_login">Zalogowanie w Google Drive</string>
-    <string name="backup_cloud_drive_logout">Wylogowanie z Google Drive</string>
+    <string name="backup_cloud_drive_login">Zalogowano w Google Drive</string>
+    <string name="backup_cloud_drive_logout">Wylogowano z Google Drive</string>
     <string name="backup_cloud_sync_time">Czas przesyłania</string>
     <string name="backup_cloud_only_wifi">Tylko przez WiFi</string>
 
@@ -1263,7 +1263,7 @@
     ]]></string>
 
     <!--<string name="purchase_price">Cena:</string>-->
-    <string name="purchase_agree">Zgadzam się z warunkami.</string>
+    <string name="purchase_agree">Zgadzam się z warunkami</string>
     <string name="purchase_order_id">ID zamówienia</string>
     <string name="purchase_order_id_help">Skopiuj z:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
