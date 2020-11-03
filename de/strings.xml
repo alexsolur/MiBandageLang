@@ -6,7 +6,7 @@
 
     <string name="drawer_nav_home">Bandages</string>
     <string name="drawer_nav_notification">Benachrichtigungsanzeige</string>
-    <string name="drawer_nav_touch">Beobachtung des Berührungsssensors</string>
+    <string name="drawer_nav_touch">Berührungsssensors</string>
     <string name="drawer_nav_step">Schrittzähler</string>
     <string name="drawer_nav_sleep">Schlaf</string>
     <string name="drawer_nav_pulse">Herzfrequenz</string>
@@ -76,17 +76,17 @@
     <string name="mi_band_setting_menu_menu">Menü</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s Zusammenarbeit</string> <!-- Mi Fit, Amazfit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage benötigt die offizielle Mi Fit/Amazfit-App auf demselben Gerät. Vor der Verwendung der Mi Bandage-App muss das %1$s mit der Mi Fit/Amazfit-App verbunden sein. Wenn Sie Mi Fit/Amazfit verwenden wollen, wählen Sie dieses aus.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage benötigt die offizielle Mi Fit/Zepp-App auf demselben Gerät. Vor der Verwendung der Mi Bandage-App muss das %1$s mit der Mi Fit/Zepp-App verbunden sein. Wenn Sie Mi Fit/Zepp verwenden wollen, wählen Sie dieses aus.</string>
     <string name="mi_band_setting_auth_standalone">Eigenständig</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Fit/Amazfit App wird nicht benötigt, damit Mi Bandage funktioniert. Nach der Kopplung, deinstallieren Sie die Mi Fit/Amazfit App oder entkoppeln Sie Ihr Gerät. Wenn die Zusammenarbeit mit Mi Fit/Amazfit wiederhergestellt werden soll, müssen Sie %1$s in der Mi Fit/Amazfit App erneut koppeln.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit/Zepp App wird nicht benötigt, damit Mi Bandage funktioniert. Nach der Kopplung, deinstallieren Sie die Mi Fit/Zepp App oder entkoppeln Sie Ihr Gerät. Wenn die Zusammenarbeit mit Mi Fit/Zepp wiederhergestellt werden soll, müssen Sie %1$s in der Mi Fit/Zepp App erneut koppeln.</string>
     <string name="mi_band_setting_auth_key_title">Den Authentifizierung Schlüssel</string>
     <string name="mi_band_setting_auth_key_hint">Für den eigenständigen Modus muss ein Authentifizierung Schlüssel bereitgestellt werden.</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <p>- %1$s in der offiziellen Mi Fit/Amazfit App entkoppeln</p>
-        <p>- In der offiziellen Mi Fit/Amazfit App deinstallieren</p>
-        <p>- Die modifizierte Mi Fit/Amazfit App herunterladen und installieren</p>
-        <p>- %1$s in der modifizierten Mi Fit/Amazfit App koppeln (nicht entkoppeln)</p>
-        <p>- Die modifizierte Mi Fit/Amazfit App deinstallieren</p>
+        <p>- %1$s in der offiziellen Mi Fit/Zepp App entkoppeln</p>
+        <p>- In der offiziellen Mi Fit/Zepp App deinstallieren</p>
+        <p>- Die modifizierte Mi Fit/Zepp App herunterladen und installieren</p>
+        <p>- %1$s in der modifizierten Mi Fit/Zepp App koppeln (nicht entkoppeln)</p>
+        <p>- Die modifizierte Mi Fit/Zepp App deinstallieren</p>
         Der Authentifizierungs Schlüssel kann hier gefunden werden: interner Speicher/freemyband/mac address.txt
     ]]></string>
     <string name="mi_band_setting_auth_key">Authentifizierungs Schlüssel</string>
@@ -378,7 +378,7 @@
     <p>Falls mehrere Apps das Band kontollieren, können Interferenzen auftreten. Bitte deaktivieren Sie diese temporär.</p>
     <p>Sie können die MAC-Adresse manuell einstellen, falls das Band nicht erkannt wird (die MAC-Adresse kann in Mi Fit/Profil/Band gefunden werden.).</p>
     <p><b>Falls Sie Probleme mit der Erkennung des Mi Bands 2 und kein Benachrichtigungssignal erhalten, bitte versuchen Sie folgende Schritte:</b>
-    <br>- Read the Amazfit app or Mi Fit app Profile/Smartwatch/Run in background and set it up for Mi Bandage
+    <br>- Read the Zepp App or Mi Fit app Profile/Smartwatch/Run in background and set it up for Mi Bandage
     <br>- Check the <i>Settings/Diagnostics</i> settings
     <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
     <br>- Phone/battery optimization: set Mi Bandage app to not optimized.
@@ -1360,7 +1360,7 @@
     <string name="action_filter_no">Kein Filter</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_launch_amazfit">Amazfit</string>
+    <string name="action_launch_amazfit">Zepp</string>
     <string name="action_save">Speichern</string>
     <string name="action_test">Test</string>
     <string name="action_discard">Verwerfen</string>

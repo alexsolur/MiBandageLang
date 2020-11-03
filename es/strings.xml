@@ -77,17 +77,17 @@
     <string name="mi_band_setting_menu_menu">Menú</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Mi Fit, Amazfit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage requiere la instalación de la aplicación oficial Mi Fit/Amazfit en el mismo dispositivo. Al principio, tiene que emparejar la %1$s con Mi Fit/Amazfit, entonces podrá usar Mi Bandage. If you want to use Mi Fit/Amazfit, choose this.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage requiere la instalación de la aplicación oficial Mi Fit/Zepp en el mismo dispositivo. Al principio, tiene que emparejar la %1$s con Mi Fit/Zepp, entonces podrá usar Mi Bandage. If you want to use Mi Fit/Zepp, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Fit/Amazfit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit/Amazfit app or unpair your device. When restoring the Mi Fit/Amazfit cooperation, you will need to re-pair your %1$s in the Mi Fit/Amazfit application.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit/Zepp app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit/Zepp app or unpair your device. When restoring the Mi Fit/Zepp cooperation, you will need to re-pair your %1$s in the Mi Fit/Zepp application.</string>
     <string name="mi_band_setting_auth_key_title">Set authentication key</string>
     <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <p>- Unpair %1$s in the official Mi Fit/Amazfit app</p>
-        <p>- Uninstall the official Mi Fit/Amazfit app</p>
-        <p>- Download and install the modified Mi Fit/Amazfit app</p>
-        <p>- Pair the %1$s in the modified Mi Fit/Amazfit app (do not unpair)</p>
-        <p>- Uninstall the modified Mi Fit/Amazfit app</p>
+        <p>- Unpair %1$s in the official Mi Fit/Zepp app</p>
+        <p>- Uninstall the official Mi Fit/Zepp app</p>
+        <p>- Download and install the modified Mi Fit/Zepp app</p>
+        <p>- Pair the %1$s in the modified Mi Fit/Zepp app (do not unpair)</p>
+        <p>- Uninstall the modified Mi Fit/Zepp app</p>
         Authentication key can be found at: internal storage/freemyband/mac address.txt
     ]]></string>
     <string name="mi_band_setting_auth_key">Authentication key</string>
@@ -379,7 +379,7 @@
     <p>Si utiliza más aplicaciones para controlar la Band, puede que interfieran entre sí, desactivelas temporalmente.</p>
     <p>Si no puede encontrar la Band, puede establecer la dirección MAC, manualmente, en el menú de detalles (La dirección MAC se puede encontrar en: Mi Fit/Perfil/Band).</p>
     <p><b>Si tiene un problema de conexión:</b>
-    <br>- Read the Amazfit app or Mi Fit app Profile/Smartwatch/Run in background and set it up for Mi Bandage
+    <br>- Read the Zepp app or Mi Fit app Profile/Smartwatch/Run in background and set it up for Mi Bandage
     <br>- Compruebe la configuración de <i>Configuración/Diagnóstico</ i>
     <br>- Pantalla de aplicaciones recientes: Bloquea Mi Bandage (Baja la aplicación y haz clic en el icono con un candado).
     <br>- Configuración del teléfono/batería/optimización de la batería: Configure la aplicación Mi Bandage para que no esté optimizada.
@@ -1363,7 +1363,7 @@
     <string name="action_filter_no">Sin filtros</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_launch_amazfit">Amazfit</string>
+    <string name="action_launch_amazfit">Zepp</string>
     <string name="action_save">Guardar</string>
     <string name="action_test">Probar</string>
     <string name="action_discard">Descartar</string>

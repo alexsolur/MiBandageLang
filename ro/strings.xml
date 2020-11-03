@@ -77,23 +77,23 @@
     <string name="mi_band_setting_menu_menu">Meniu</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Mi Fit, Amazfit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage necesită instalarea aplicației oficiale Mi Fit/Amazfit pe același telefon. La început trebuie să împerechezi %1$s în aplicația Mi Fit/Amazfit, apoi poți folosi Mi Bandage. If you want to use Mi Fit/Amazfit, choose this.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage necesită instalarea aplicației oficiale Mi Fit/Zepp pe același telefon. La început trebuie să împerechezi %1$s în aplicația Mi Fit/Zepp, apoi poți folosi Mi Bandage. If you want to use Mi Fit/Zepp, choose this.</string>
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Fit/Amazfit app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit/Amazfit app or unpair your device. When restoring the Mi Fit/Amazfit cooperation, you will need to re-pair your %1$s in the Mi Fit/Amazfit application.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit/Zepp app is not required for the Mi Bandage to work. After the pairing, uninstall the Mi Fit/Zepp app or unpair your device. When restoring the Mi Fit/Zepp cooperation, you will need to re-pair your %1$s in the Mi Fit/Zepp application.</string>
     <string name="mi_band_setting_auth_key_title">Set authentication key</string>
     <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <p>- Unpair %1$s in the official Mi Fit/Amazfit app</p>
-        <p>- Uninstall the official Mi Fit/Amazfit app</p>
-        <p>- Download and install the modified Mi Fit/Amazfit app</p>
-        <p>- Pair the %1$s in the modified Mi Fit/Amazfit app (do not unpair)</p>
-        <p>- Uninstall the modified Mi Fit/Amazfit app</p>
+        <p>- Unpair %1$s in the official Mi Fit/Zepp app</p>
+        <p>- Uninstall the official Mi Fit/Zepp app</p>
+        <p>- Download and install the modified Mi Fit/Zepp app</p>
+        <p>- Pair the %1$s in the modified Mi Fit/Zepp app (do not unpair)</p>
+        <p>- Uninstall the modified Mi Fit/Zepp app</p>
         Authentication key can be found at: internal storage/freemyband/mac address.txt
     ]]></string>
     <string name="mi_band_setting_auth_key">Authentication key</string>
     <string name="mi_band_setting_auth">Asociază</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Amazfit Bip ... -->
+    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Mi Band 3, Zepp Bip ... -->
     <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
     <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
     <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
@@ -379,7 +379,7 @@
     <p>Dacă folosești mai multe aplicații pentru a controla brățara, ele interferează una cu cealaltă, așa că oprește-le pentru moment.</p>
     <p>Dacă brățara nu este găsită, poți seta manual adresa MAC atunci când o detectezi(adresa MAC se alfă în: Mi Fit / Profil / Band).</p>
     <p><b>Dacă ai probleme de conectare:</b>
-    <br>- Read the Amazfit app or Mi Fit app Profile/Smartwatch/Run in background and set it up for Mi Bandage
+    <br>- Read the Zepp app or Mi Fit app Profile/Smartwatch/Run in background and set it up for Mi Bandage
     <br>- Verifică <i> Setări/ Diagnostice</i>
     <br>- Ecranul aplicațiilor recente: blochează Mi Bandage (trage în jos aplicația și apasă pe pictograma blocare).
     <br>- Optimizarea telefonului/ bateriei: setează aplicația Mi Bandage pentru a nu fi optimizată.
@@ -1362,7 +1362,7 @@
     <string name="action_filter_no">Niciun filtru</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_launch_amazfit">Amazfit</string>
+    <string name="action_launch_amazfit">Zepp</string>
     <string name="action_save">Salvează</string>
     <string name="action_test">Test</string>
     <string name="action_discard">Renunță</string>

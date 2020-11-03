@@ -77,17 +77,17 @@
     <string name="mi_band_setting_menu_menu">Menu</string>
 
     <string name="mi_band_setting_auth_mi_fit">Cooperazione con %1$s</string> <!-- %1$s = Mi Fit, Amazfit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage richiede l\'installazione dell\'app ufficiale Mi Fit/Amazfit sullo stesso dispositivo. Per prima cosa devi collegare %1$s nell\'app Mi Fit/Amazfit, dopo puoi usare Mi Bandage. Se vuoi utilizzare Mi Fit/Amazfit, scegli questo.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage richiede l\'installazione dell\'app ufficiale Mi Fit/Zepp sullo stesso dispositivo. Per prima cosa devi collegare %1$s nell\'app Mi Fit/Zepp, dopo puoi usare Mi Bandage. Se vuoi utilizzare Mi Fit/Zepp, scegli questo.</string>
     <string name="mi_band_setting_auth_standalone">Standalone</string>
-    <string name="mi_band_setting_auth_standalone_hint">L\'app Mi Fit/Amazfit non è richiesta per far funzionare Mi Bandage. Dopo l\'accoppiamento, disinstallare l\'app Mi Fit/Amazfit, oppure disaccoppiarla dal dispositivo. Nel caso si desideri ripristinare la cooperazione con Mi Fit/Amazfit, sarà necessario riaccoppiare %1$s nell\'app Mi Fit/Amazfit.</string>
+    <string name="mi_band_setting_auth_standalone_hint">L\'app Mi Fit/Zepp non è richiesta per far funzionare Mi Bandage. Dopo l\'accoppiamento, disinstallare l\'app Mi Fit/Zepp, oppure disaccoppiarla dal dispositivo. Nel caso si desideri ripristinare la cooperazione con Mi Fit/Zepp, sarà necessario riaccoppiare %1$s nell\'app Mi Fit/Zepp.</string>
     <string name="mi_band_setting_auth_key_title">Configurare chiave di autenticazione</string>
     <string name="mi_band_setting_auth_key_hint">Per la modalità standalone è richiesta una chiave di autenticazione</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <p>- Disaccoppia %1$s nell\'app ufficiale Mi Fit/Amazfit app</p>
-        <p>- Disinstalla l\'app ufficiale Mi Fit/Amazfit</p>
-        <p>- Scarica e installa l\'app Mi Fit/Amazfit modificata</p>
-        <p>- Accoppia %1$s con l\'app Mi Fit/Amazfit modificata (non disaccoppiare)</p>
-        <p>- Disinstalla l\'app Mi Fit/Amazfit modificata</p>
+        <p>- Disaccoppia %1$s nell\'app ufficiale Mi Fit/Zepp app</p>
+        <p>- Disinstalla l\'app ufficiale Mi Fit/Zepp</p>
+        <p>- Scarica e installa l\'app Mi Fit/Zepp modificata</p>
+        <p>- Accoppia %1$s con l\'app Mi Fit/Zepp modificata (non disaccoppiare)</p>
+        <p>- Disinstalla l\'app Mi Fit/Zepp modificata</p>
         La chiave di autenticazione si trova in: internal storage/freemyband/mac address.txt
     ]]></string>
     <string name="mi_band_setting_auth_key">Chiave di autenticazione</string>
@@ -379,7 +379,7 @@
     <p>Se usi altre applicazioni per controllare la Band, interferiranno tra di loro quindi disattivale temporaneamente.</p>
     <p>Se la Band non viene trovata, puoi impostare manualmente l\'indirizzo MAC dal menu dettagli (puoi trovare l\'indirizzo MAC in: Mi Fit/Profilo/Band).</p>
     <p><b>Se hai un problema di connessione:</b>
-    <br>- Leggere il valore dell\'opzione "Profile/Smartwatch/Run in background" nell\'app Mi Fit / Amazfit e configurare Mi Bandage allo stesso modo
+    <br>- Leggere il valore dell\'opzione "Profile/Smartwatch/Run in background" nell\'app Mi Fit / Zepp e configurare Mi Bandage allo stesso modo
     <br>- Controlla le impostazioni <i>Impostazioni/Diagnostica</i>
     <br>- Schermata app recenti: blocca Mi Bandage (pressione prolungata sull\'app e tocca l\'icona di blocco - lucchetto).
     <br>- Ottimizzazioni telefono/batteria: imposta Mi Bandage come "non ottimizzata".
@@ -1023,7 +1023,7 @@
     <string name="watch_face_tab_download">Scaricare</string>
     <string name="watch_face_tab_upload">Caricare</string>
     <string name="watch_face_tab_upload_mi_fit">Caricare tramite Mi Fit</string>
-    <string name="watch_face_tab_upload_amazfit">Caricare tramite Amazfit</string>
+    <string name="watch_face_tab_upload_amazfit">Caricare tramite Zepp</string>
 
     <string name="watch_face_download_title">Scarica watchface</string>
     <string name="watch_face_download_path">Salva qui le watchfaces scaricate</string>
@@ -1362,7 +1362,7 @@
     <string name="action_filter_no">Nessun filtro</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_launch_amazfit">Amazfit</string>
+    <string name="action_launch_amazfit">Zepp</string>
     <string name="action_save">Salva</string>
     <string name="action_test">Prova</string>
     <string name="action_discard">Ignora</string>

@@ -77,17 +77,17 @@
     <string name="mi_band_setting_menu_menu">メニュー</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$sとの連携</string> <!-- Mi Fit, Amazfit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi FitまたはAmazfitのインストールが必要です。Mi Bandageを使用する前にMi Fit/Amazfitで%1$sをペアリングしてください。</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi FitまたはZeppのインストールが必要です。Mi Bandageを使用する前にMi Fit/Zeppで%1$sをペアリングしてください。</string>
     <string name="mi_band_setting_auth_standalone">スタンドアロンモード</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Fit/Amazfitを使わず、Mi Bandage単体で動作します。すでにペアリング済みの場合は、Mi Fit/Amazfitをアンインストールするかペアリングを解除してください。Mi Fit/Amazfitと連携しなおす際は、%1$sを再度ペアリングする必要があります。</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit/Zeppを使わず、Mi Bandage単体で動作します。すでにペアリング済みの場合は、Mi Fit/Zeppをアンインストールするかペアリングを解除してください。Mi Fit/Zeppと連携しなおす際は、%1$sを再度ペアリングする必要があります。</string>
     <string name="mi_band_setting_auth_key_title">認証キーの設定</string>
     <string name="mi_band_setting_auth_key_hint">スタンドアロンモードでは認証キーが必要です</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <p>- 公式のMi Fit/Amazfitアプリで%1$sのペアリングを解除</p>
-        <p>- 公式のMi Fit/Amazfitをアンインストール</p>
-        <p>- 改造版Mi Fit/Amazfitを下のリンク（Free my band）からダウンロードしてインストール</p>
-        <p>- 改造版Mi Fit/Amazfitで%1$sをペアリング</p>
-        <p>- ペアリングを解除せずに改造版Mi Fit/Amazfitをアンインストール</p>
+        <p>- 公式のMi Fit/Zeppアプリで%1$sのペアリングを解除</p>
+        <p>- 公式のMi Fit/Zeppをアンインストール</p>
+        <p>- 改造版Mi Fit/Zeppを下のリンク（Free my band）からダウンロードしてインストール</p>
+        <p>- 改造版Mi Fit/Zeppで%1$sをペアリング</p>
+        <p>- ペアリングを解除せずに改造版Mi Fit/Zeppをアンインストール</p>
         認証キーの保存先：(内部ストレージ)/freemyband/mac address.txt
     ]]></string>
     <string name="mi_band_setting_auth_key">認証キー</string>
@@ -377,7 +377,7 @@
     <p>バンドのコントロールに他のアプリも使用する場合は、干渉を避けるため一時的に停止してください。</p>
     <p>バンドが見つからない場合はMACアドレス（Mi Fit/プロフィール/マイデバイスで確認できます）を手動で設定してください。</p>
     <p><b>接続できない場合：</b>
-    <br>- Mi Fit/Amazfitの<b>プロフィール/マイデバイス/バックグラウンドで実行</b>でセットアップ方法を確認し、Mi Bandageに設定を適用
+    <br>- Mi Fit/Zeppの<b>プロフィール/マイデバイス/バックグラウンドで実行</b>でセットアップ方法を確認し、Mi Bandageに設定を適用
     <br>- Mi Bandageの<b>設定/システム</b>を確認
     <br>- Mi Bandageをタスクロック
     <br>- 「バッテリー最適化を無視」をMi Bandageに許可
@@ -820,7 +820,7 @@
     <string name="pulse_offline_sleep_assistant">睡眠時の心拍数測定</string>
     <string name="pulse_offline_sleep_assistant_summary">より正確な睡眠データの取得に役立ちます（バッテリーを消費します）</string>
     <string name="pulse_offline_detect_sport">アクティビティを検知</string>
-    <string name="pulse_offline_detect_sport_summary">アクティビティを検知した際に測定周期を短くすることで、ワークアウト時の心拍数測定精度を高めます</string>
+    <string name="pulse_offline_detect_sport_summary">%1$s アクティビティを検知した際に測定周期を短くすることで、ワークアウト時の心拍数測定精度を高めます</string>
     <string name="pulse_offline_alert_high">心拍数警告</string>
     <string name="pulse_offline_alert_high_summary">心拍数が警告値に達してから10分以内に活動が検知されない場合、%1$sが振動します</string>
     <string name="pulse_offline_alert_high_value_title">警告値</string>
@@ -1021,7 +1021,7 @@
     <string name="watch_face_tab_download">ダウンロード</string>
     <string name="watch_face_tab_upload">アップロード</string>
     <string name="watch_face_tab_upload_mi_fit">Mi Fitからアップロード</string>
-    <string name="watch_face_tab_upload_amazfit">Amazfitからアップロード</string>
+    <string name="watch_face_tab_upload_amazfit">Zeppからアップロード</string>
 
     <string name="watch_face_download_title">ダウンロード</string>
     <string name="watch_face_download_path">保存先</string>
@@ -1360,7 +1360,7 @@
     <string name="action_filter_no">フィルタなし</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_launch_amazfit">Amazfit</string>
+    <string name="action_launch_amazfit">Zepp</string>
     <string name="action_save">保存</string>
     <string name="action_test">テスト</string>
     <string name="action_discard">破棄</string>

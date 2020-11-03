@@ -77,17 +77,17 @@
     <string name="mi_band_setting_menu_menu">Menu</string>
 
     <string name="mi_band_setting_auth_mi_fit">Współpraca z %1$s</string> <!-- Mi Fit, Amazfit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage wymaga instalacji oficjalnej aplikacji Mi Fit/Amazfit na tym samym telefonie. Najpierw musisz sparować %1$s w aplikacji Mi Fit/Amazfit, potem możesz użyć Mi Bandage. Wybierz, jeśli chcesz używać Mi Fit/Amazfit.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage wymaga instalacji oficjalnej aplikacji Mi Fit/Zepp app na tym samym telefonie. Najpierw musisz sparować %1$s w aplikacji Mi Fit/Zepp app, potem możesz użyć Mi Bandage. Wybierz, jeśli chcesz używać Mi Fit/Zepp app.</string>
     <string name="mi_band_setting_auth_standalone">Samodzielny</string>
-    <string name="mi_band_setting_auth_standalone_hint">Aplikacja Mi Fit/Amazfit nie jest wymagana do działania Mi Bandage. Po sparowaniu odinstaluj aplikację Mi Fit/Amazfit lub usuń parowanie z urządzenia. Podczas przywracania współpracy Mi Fit/Amazfit konieczne będzie ponowne sparowanie %1$s w aplikacji Mi Fit/Amazfit.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Aplikacja Mi Fit/Zepp app nie jest wymagana do działania Mi Bandage. Po sparowaniu odinstaluj aplikację Mi Fit/Zepp app lub usuń parowanie z urządzenia. Podczas przywracania współpracy Mi Fit/Zepp app konieczne będzie ponowne sparowanie %1$s w aplikacji Mi Fit/Zepp app.</string>
     <string name="mi_band_setting_auth_key_title">Ustaw klucz uwierzytelniający</string>
     <string name="mi_band_setting_auth_key_hint">W trybie samodzielnym należy podać klucz uwierzytelniający</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <p>- Odłącz %1$s w oficjalnej aplikacji Mi Fit/Amazfit</p>
-        <p>- Odinstaluj oficjalną aplikację Mi Fit/Amazfit</p>
-        <p>- Pobierz i zainstaluj zmodyfikowaną aplikację Mi Fit/Amazfit</p>
-        <p>- Sparuj %1$s w zmodyfikowanej aplikacji Mi Fit/Amazfit (nie usuwaj parowania)</p>
-        <p>- Odinstaluj zmodyfikowaną aplikację Mi Fit/Amazfit</p>
+        <p>- Odłącz %1$s w oficjalnej aplikacji Mi Fit/Zepp app</p>
+        <p>- Odinstaluj oficjalną aplikację Mi Fit/Zepp app</p>
+        <p>- Pobierz i zainstaluj zmodyfikowaną aplikację Mi Fit/Zepp app</p>
+        <p>- Sparuj %1$s w zmodyfikowanej aplikacji Mi Fit/Zepp app (nie usuwaj parowania)</p>
+        <p>- Odinstaluj zmodyfikowaną aplikację Mi Fit/Zepp app</p>
         Klucz uwierzytelniania można znaleźć na: pamięć wewnętrzna/freemyband/mac address.txt
     ]]></string>
     <string name="mi_band_setting_auth_key">Klucz uwierzytelniania</string>
@@ -379,7 +379,7 @@
     <p>Jeśli używasz więcej aplikacji do sterowania Opaską, przeszkadzają sobie nawzajem, więc tymczasowo je wyłącz.</p>
     <p>Jeśli Opaska nie zostanie znaleziona, możesz ustawić adres MAC ręcznie po wykryciu (adres MAC znajdziesz tu: Mi Fit/Profil/Opaska).</p>
     <p><b>Jeśli masz problem z połączeniem:</b>
-    <br>- Przeczytaj informacje aplikacji Amazfit lub Mi Fit w "Profil/Opaska/Uruchom w tle" i ustaw dla aplikacji Mi Bandage
+    <br>- Przeczytaj informacje aplikacji Zepp app lub Mi Fit w "Profil/Opaska/Uruchom w tle" i ustaw dla aplikacji Mi Bandage
     <br>- Sprawdź <i>Ustawienia/Diagnostyka</i>
     <br>- Ekran ostatnich aplikacji: zablokuj Mi Bandage (przesuń aplikację w dół i kliknij ikonę blokady)
     <br>- Optymalizacja telefonu/baterii: ustaw aplikację Mi Bandage na niezoptymalizowaną
@@ -1362,7 +1362,7 @@
     <string name="action_filter_no">Brak filtrowania</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_launch_amazfit">Amazfit</string>
+    <string name="action_launch_amazfit">Zepp</string>
     <string name="action_save">Zapisz</string>
     <string name="action_test">Testuj</string>
     <string name="action_discard">Odrzuć</string>

@@ -77,17 +77,17 @@
     <string name="mi_band_setting_menu_menu">Меню</string>
 
     <string name="mi_band_setting_auth_mi_fit">Взаимодействие с %1$s</string> <!-- Mi Fit, Amazfit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage требуется приложение Mi Fit/Amazfit на устройстве. Сначала подключите %1$s к Mi Fit/Amazfit, потом пользуйтесь Mi Bandage. Выберите этот пункт для использования вместе с Mi Fit/Amazfit.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage требуется приложение Mi Fit/Zepp на устройстве. Сначала подключите %1$s к Mi Fit/Zepp, потом пользуйтесь Mi Bandage. Выберите этот пункт для использования вместе с Mi Fit/Zepp.</string>
     <string name="mi_band_setting_auth_standalone">Автономно</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Fit/Amazfit не нужен для работы Mi Bandage. После соединения удалите Mi Fit/Amazfit или отвяжите браслет от него. Для восстановления привязки к Mi Fit/Amazfit вам нужно заново привязать %1$s в Mi Fit/Amazfit.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Fit/Zepp не нужен для работы Mi Bandage. После соединения удалите Mi Fit/Zepp или отвяжите браслет от него. Для восстановления привязки к Mi Fit/Zepp вам нужно заново привязать %1$s в Mi Fit/Zepp.</string>
     <string name="mi_band_setting_auth_key_title">Установка ключа аутентификации</string>
     <string name="mi_band_setting_auth_key_hint">Необходимо предоставить ключ аутентификации для автономного режима</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <p>- Отвяжите %1$s в Mi Fit/Amazfit</p>
-        <p>- Удалите Mi Fit/Amazfit</p>
-        <p>- Скачайте и установите модифицированный Mi Fit/Amazfit</p>
-        <p>- Привяжите %1$s в модифицированном Mi Fit/Amazfit app (не отвязывайте)</p>
-        <p>- Удалите модифицированный Mi Fit/Amazfit</p>
+        <p>- Отвяжите %1$s в Mi Fit/Zepp</p>
+        <p>- Удалите Mi Fit/Zepp</p>
+        <p>- Скачайте и установите модифицированный Mi Fit/Zepp</p>
+        <p>- Привяжите %1$s в модифицированном Mi Fit/Zepp app (не отвязывайте)</p>
+        <p>- Удалите модифицированный Mi Fit/Zepp</p>
         Ключ аутентификации находится в: internal storage/freemyband/mac address.txt
     ]]></string>
     <string name="mi_band_setting_auth_key">Ключ аутентификации</string>
@@ -379,7 +379,7 @@
     <p>Если вы используете несколько приложений для управления браслетом, они могут мешать друг другу, поэтому временно отключите их.</p>
     <p>Если браслет не обнаружен, вы можете установить MAC вручную в настройках (MAC можно найти в: Mi Fit/Профиль/Band).</p>
     <p><b>При проблемах с подключением:</b>
-    <br>- Прочтите в Amazfit или Mi Fit Профиль/Устройства/Запуск в фоновом режиме и повторите эти настройки для Mi Bandage
+    <br>- Прочтите в Zepp или Mi Fit Профиль/Устройства/Запуск в фоновом режиме и повторите эти настройки для Mi Bandage
     <br>- Проверьте наличие проблем в <i>Настройки/Диагностика</i>
     <br>- Закрепите Mi Bandage в окне недавних приложений (потяните приложение вниз и нажмите замок)
     <br>- Отключите для Mi Bandage оптимизацию энергопотребления в настройках аккумулятора/энергосбережения
@@ -1364,7 +1364,7 @@
     <string name="action_filter_no">Без фильтра</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_launch_amazfit">Amazfit</string>
+    <string name="action_launch_amazfit">Zepp</string>
     <string name="action_save">Сохранить</string>
     <string name="action_test">Тестировать</string>
     <string name="action_discard">Отменить</string>

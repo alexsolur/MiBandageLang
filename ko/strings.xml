@@ -78,17 +78,17 @@
     <string name="mi_band_setting_menu_menu">메뉴</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s(와)과 함께 사용하기</string> <!-- Mi Fit, Amazfit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage(은)는 같은 폰에 Mi Fit/Amazfit 앱의 설치를 요구합니다. 먼저 %1$s(을)를 Mi Fit/Amazfit 애플리케이션에 연결해야, Mi Bandage(을)를 사용할 수 있습니다. Mi Fit/Amazfit 앱을 사용하고 싶으면, 이것을 선택하세요.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage(은)는 같은 폰에 Mi Fit/Zepp 앱의 설치를 요구합니다. 먼저 %1$s(을)를 Mi Fit/Zepp 애플리케이션에 연결해야, Mi Bandage(을)를 사용할 수 있습니다. Mi Fit/Zepp 앱을 사용하고 싶으면, 이것을 선택하세요.</string>
     <string name="mi_band_setting_auth_standalone">독립</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Bandage(이)가 작동하기 위해 Mi 피트/Amazfit 앱이 요구되지 않습니다. 페어링 후에, Mi 피트/Amazfit 앱을 삭제하거나 기기를 연결 해제하세요. Mi 피트/Amazfit(와)과 함께 사용하기를 복원할 때, %1$s(을)를 Mi 피트/Amazfit 애플리케이션에 다시 연결해야 합니다.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Bandage(이)가 작동하기 위해 Mi 피트/Zepp 앱이 요구되지 않습니다. 페어링 후에, Mi 피트/Zepp 앱을 삭제하거나 기기를 연결 해제하세요. Mi 피트/Zepp(와)과 함께 사용하기를 복원할 때, %1$s(을)를 Mi 피트/Zepp 애플리케이션에 다시 연결해야 합니다.</string>
     <string name="mi_band_setting_auth_key_title">인증 키 설정</string>
     <string name="mi_band_setting_auth_key_hint">독립 모드를 사용하려면 인증 키가 필요합니다</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <p>공식 Mi 피트/Amazfit 앱에서 %1$s(을)를 연결 해제하세요</p>
-        <p>공식 Mi 피트/Amazfit 앱을 삭제하세요</p>
-        <p>수정된 Mi 피트/Amazfit 앱을 다운로드하고 설치하세요</p>
-        <p>수정된 Mi 피트/Amazfit 앱에 %1$s(을)를 연결하세요 (연결 해제하지 마세요)</p>
-        <p>수정된 Mi 피트/Amazfit 앱을 삭제하세요</p>
+        <p>공식 Mi 피트/Zepp 앱에서 %1$s(을)를 연결 해제하세요</p>
+        <p>공식 Mi 피트/Zepp 앱을 삭제하세요</p>
+        <p>수정된 Mi 피트/Zepp 앱을 다운로드하고 설치하세요</p>
+        <p>수정된 Mi 피트/Zepp 앱에 %1$s(을)를 연결하세요 (연결 해제하지 마세요)</p>
+        <p>수정된 Mi 피트/Zepp 앱을 삭제하세요</p>
         내부 저장소/freemyband/mac address.txt에서 인증 키를 찾을 수 있습니다
     ]]></string>
     <string name="mi_band_setting_auth_key">인증 키</string>
@@ -380,7 +380,7 @@
     <p>If you use more 애플리케이션s to control Band, they interfere with each other so temporarily turn off those.</p>
     <p>If Band is not found, then you can set the MAC address manually when you discover (MAC address is found: Mi 피트/Profil/Band).</p>
     <p><b>If you have a 연결 problem:</b>
-    <br>- Read the Amazfit app or Mi Fit app Profile/Smartwatch/Run in background and set it up for Mi Bandage
+    <br>- Read the Zepp app or Mi Fit app Profile/Smartwatch/Run in background and set it up for Mi Bandage
     <br>- Check the <i>설정/진단</i> settings
     <br>- Recent apps screen: lock the Mi Bandage (pull down the app and click on lock icon).
     <br>- Phone/battery optimization: set Mi Bandage app to not optimized.
@@ -1024,7 +1024,7 @@
     <string name="watch_face_tab_download">다운로드</string>
     <string name="watch_face_tab_upload">업로드</string>
     <string name="watch_face_tab_upload_mi_fit">Mi 피트를 통해 업로드</string>
-    <string name="watch_face_tab_upload_amazfit">Upload via Amazfit</string>
+    <string name="watch_face_tab_upload_amazfit">Upload via Zepp</string>
 
     <string name="watch_face_download_title">디스플레이 다운로드</string>
     <string name="watch_face_download_path">Save the downloaded watch face file to here</string>
@@ -1362,7 +1362,7 @@
     <string name="action_filter_no">필터 없음</string>
     <string name="action_bluetooth">블루투스</string>
     <string name="action_launch_mi_fit">Mi 피트</string>
-    <string name="action_launch_amazfit">Amazfit</string>
+    <string name="action_launch_amazfit">Zepp</string>
     <string name="action_save">저장</string>
     <string name="action_test">작동 확인</string>
     <string name="action_discard">수정 취소</string>

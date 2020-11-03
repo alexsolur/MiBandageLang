@@ -77,16 +77,16 @@
     <string name="mi_band_setting_menu_menu">Ekran</string>
 
     <string name="mi_band_setting_auth_mi_fit">%1$s ile birlikte</string> <!-- Mi Fit, Amazfit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandaj, resmi Mi Fit/Amazfit uygulamasının aynı cihaza kurulmasını gerektirir. İlk önce %1$s\'yi Mi Fit/Amazfit uygulamasında eşleştirmeniz gerekir, o zaman Mi Bandaj\'ı kullanabilirsiniz. Eğer Mi Fit/Amazfit\'i kullanmak istiyorsanız bunu seçiniz.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandaj, resmi Mi Fit/Zepp uygulamasının aynı cihaza kurulmasını gerektirir. İlk önce %1$s\'yi Mi Fit/Zepp uygulamasında eşleştirmeniz gerekir, o zaman Mi Bandaj\'ı kullanabilirsiniz. Eğer Mi Fit/Zepp\'i kullanmak istiyorsanız bunu seçiniz.</string>
     <string name="mi_band_setting_auth_standalone">Bağımsız</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Bandaj\'ın çalışması için Mi Fit/Amazfit uygulaması gerekli değildir. Eşleştirmeden sonra Mi Fit/Amazfit uygulamasını kaldırın veya cihazınızı eşleştirin. Mi Fit/Amazfit\'i geri yüklerken, %1$s\'i Mi Fit/Amazfit uygulamasından tekrar eşlemeniz gerekicektir.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Bandaj\'ın çalışması için Mi Fit/Zepp uygulaması gerekli değildir. Eşleştirmeden sonra Mi Fit/Zepp uygulamasını kaldırın veya cihazınızı eşleştirin. Mi Fit/Zepp\'i geri yüklerken, %1$s\'i Mi Fit/Zepp uygulamasından tekrar eşlemeniz gerekicektir.</string>
     <string name="mi_band_setting_auth_key_title">Doğrulama şifresi belirle</string>
-    <string name="mi_band_setting_auth_key_hint">Doğrulama şifresini Bağımsız Mi Bandage modu için resmi Mi Fit/Amazfit uygulamasından eşleşmesini sonlandırın.</string>
+    <string name="mi_band_setting_auth_key_hint">Doğrulama şifresini Bağımsız Mi Bandage modu için resmi Mi Fit/Zepp uygulamasından eşleşmesini sonlandırın.</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <p>- Resmi Mi Fit/Amazfit uygulamasını kaldırın.</p>
-        <p>- Modlanmış Mi Fit/Amazfit uygulamasını indirin ve kurun.</p>
-        <p>- %1$s cihazınızı modlanmış Mi Fit/Amazfit uygulaması üzerinden eşleştiriniz.(Eşleştirmeyi sonlandırmayın)</p>
-        <p>- Modlanmış Mi Fit/Amazfit uygulamasını kaldırın.</p>
+        <p>- Resmi Mi Fit/Zepp uygulamasını kaldırın.</p>
+        <p>- Modlanmış Mi Fit/Zepp uygulamasını indirin ve kurun.</p>
+        <p>- %1$s cihazınızı modlanmış Mi Fit/Zepp uygulaması üzerinden eşleştiriniz.(Eşleştirmeyi sonlandırmayın)</p>
+        <p>- Modlanmış Mi Fit/Zepp uygulamasını kaldırın.</p>
         Doğrulama kodunu şu konumda bulabiliriniz: Dahili Depolama/freemyband/mac address.txt
     ]]></string>
     <string name="mi_band_setting_auth_key">Doğrulama Kodu</string>
@@ -378,7 +378,7 @@
     <p>Band\'yi kontrol etmek için daha fazla uygulama kullanıyorsanız, birbirlerine müdahale ederek geçici olarak bunları kapatın.</p>
     <p>Band bulunamazsa, ayrıntılar menüsünde MAC adresini manuel olarak ayarlayabilirsiniz (MAC adresi bulundu: Mi Fit/Profil/Band).</p>
     <p><b>Eğer bağlantı sorunu varsa:</b>
-    <br>- Mi Fit/Amazfit uygulamasından Profil/…/Arka planda çalıştır bölümünü okuyunuz.
+    <br>- Mi Fit/Zepp uygulamasından Profil/…/Arka planda çalıştır bölümünü okuyunuz.
     <br>- <i>Ayarlar/Teşhis</i> ayarlarını kontrol edin
     <br>- Son uygulamalarda Mi Bandage uygulamasını kilitleyin.
     <br>- Mi Bandage uygulamasını pil optimizasyonunu Optimizasyon Etme olarak değiştirin.
@@ -1362,7 +1362,7 @@
     <string name="action_filter_no">Tümü</string>
     <string name="action_bluetooth">Bluetooth</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_launch_amazfit">Amazfit</string>
+    <string name="action_launch_amazfit">Zepp</string>
     <string name="action_save">Kaydet</string>
     <string name="action_test">Test</string>
     <string name="action_discard">Sil</string>

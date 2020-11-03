@@ -77,17 +77,17 @@
     <string name="mi_band_setting_menu_menu">菜单</string>
 
     <string name="mi_band_setting_auth_mi_fit">与 %1$s 协作</string> <!-- Mi Fit, Amazfit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage 需要在同一个手机上安装小米运动（Mi Fit/Amazfit）应用. 首先你需要在 Mi Fit/Amazfit 里连接 %1$s,然后才能使用 Mi Bandage. 如果你想使用小米运动应用，请选择这项.</string>
+    <string name="mi_band_setting_auth_mi_fit_hint">Mi Bandage 需要在同一个手机上安装小米运动（Mi Fit/Zepp）应用. 首先你需要在 Mi Fit/Zepp 里连接 %1$s,然后才能使用 Mi Bandage. 如果你想使用小米运动应用，请选择这项.</string>
     <string name="mi_band_setting_auth_standalone">独立模式</string>
-    <string name="mi_band_setting_auth_standalone_hint">Mi Bandage 工作不再需要 Mi Fit/Amazfit.在这里配对后卸载小米运动或在小米运动中解除配对. When restoring the Mi Fit/Amazfit cooperation, you will need to re-pair your %1$s in the Mi Fit/Amazfit application.</string>
+    <string name="mi_band_setting_auth_standalone_hint">Mi Bandage 工作不再需要 Mi Fit/Zepp.在这里配对后卸载小米运动或在小米运动中解除配对. When restoring the Mi Fit/Zepp cooperation, you will need to re-pair your %1$s in the Mi Fit/Zepp application.</string>
     <string name="mi_band_setting_auth_key_title">Set authentication key</string>
     <string name="mi_band_setting_auth_key_hint">An authentication key must be provided for standalone mode</string>
     <string name="mi_band_setting_auth_key_process"><![CDATA[
-        <p>- Unpair %1$s in the official Mi Fit/Amazfit app</p>
-        <p>- Uninstall the official Mi Fit/Amazfit app</p>
-        <p>- Download and install the modified Mi Fit/Amazfit app</p>
-        <p>- Pair the %1$s in the modified Mi Fit/Amazfit app (do not unpair)</p>
-        <p>- Uninstall the modified Mi Fit/Amazfit app</p>
+        <p>- Unpair %1$s in the official Mi Fit/Zepp app</p>
+        <p>- Uninstall the official Mi Fit/Zepp app</p>
+        <p>- Download and install the modified Mi Fit/Zepp app</p>
+        <p>- Pair the %1$s in the modified Mi Fit/Zepp app (do not unpair)</p>
+        <p>- Uninstall the modified Mi Fit/Zepp app</p>
         Authentication key can be found at: internal storage/freemyband/mac address.txt
     ]]></string>
     <string name="mi_band_setting_auth_key">Authentication key</string>
@@ -246,7 +246,7 @@
     <string name="pref_cat_call_missed">未接来电</string>
     <string name="pref_call_missed_title">未接来电通知</string>
 
-    <string name="pref_call_missed_net_title">错过网络电话通知, 来电显示</string>
+    <string name="pref_call_missed_net_title">错过网络电话通知</string>
     <string name="pref_call_missed_net_summary_on">Skype・Messenger・WhatsApp・Viber・Duo・Hangouts・Line・Telegram・Zalo</string>
 
     <string name="pref_call_missed_alert_title">%1$s 信号</string> <!-- Mi Band 2, Amazfit Bip ... -->
@@ -379,7 +379,7 @@
     <p>如果使用多个手环应用,它们会互相干扰，请关闭其他应用.</p>
     <p>如果未找到手环,你可以手动设置 MAC 地址(MAC 地址可在 小米运动/我的/手环 中查看).</p>
     <p><b>如果你有连接问题:</b>
-    <br>- Read the Amazfit app or Mi Fit app Profile/Smartwatch/Run in background and set it up for Mi Bandage
+    <br>- Read the Zepp app or Mi Fit app Profile/Smartwatch/Run in background and set it up for Mi Bandage
     <br>- 查看运用内 <i>设置/诊断</i> 选型
     <br>- 最近的应用程序界面:锁定 Mi Bandage(下拉该应用并点击锁的图标).
     <br>- 手机电池设置/电池优化: 设置 Mi Bandage 应用为未优化.
@@ -652,6 +652,7 @@
     <string name="touch_setting_recognition_mi_band_signal_title">%1$s 通知</string> <!-- %1$s = Mi Band 2, Amazfit Bip ... -->
     <string name="touch_setting_recognition_succeeded_title">可识别的触摸模式</string>
     <string name="touch_setting_recognition_failed_title">不可识别的触摸模式</string>
+
 
     <!-- Touch monitoring info dialog -->
     <string name="info_dialog_touch"><![CDATA[
@@ -1362,12 +1363,12 @@
     <string name="action_filter_no">无过滤器</string>
     <string name="action_bluetooth">蓝牙</string>
     <string name="action_launch_mi_fit">Mi Fit</string>
-    <string name="action_launch_amazfit">Amazfit</string>
+    <string name="action_launch_amazfit">Zepp</string>
     <string name="action_save">保存</string>
     <string name="action_test">测试</string>
     <string name="action_discard">放弃</string>
     <string name="action_keep_editing">继续编辑</string>
-    <string name="action_new">New</string>
+    <string name="action_new">新</string>
     <string name="action_start_stop">Start/Stop</string>
     <string name="synchronized_from_watch">Synchronized from watch</string>
 
